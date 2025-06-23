@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "peace_001",
+      "category": "peace",
+      "texts": {
+        "en": "Peace cannot be kept by force; it can only be achieved by understanding.",
+        "tr": "Barış güçle korunamaz; ancak anlayışla elde edilebilir."
+      },
+      "authors": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein"
+      },
+      "tags": {
+        "en": ["understanding", "harmony", "compassion"],
+        "tr": ["anlayış", "uyum", "şefkat"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Path to True Peace",
+          "content": "Einstein, having witnessed the devastation of two world wars, understood that lasting peace couldn't be imposed through strength or threats. True peace emerges when people understand each other's perspectives, fears, and hopes. It requires empathy - the ability to see the world through another's eyes. When we genuinely seek to understand rather than to be understood, when we listen with our hearts as well as our minds, we create the foundation for genuine harmony. Peace isn't the absence of conflict, but the presence of understanding that makes conflict unnecessary.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Gerçek Barışa Giden Yol",
+          "content": "İki dünya savaşının yıkımına tanık olan Einstein, kalıcı barışın güç ya da tehditlerle dayatılamayacağını anlıyordu. Gerçek barış, insanlar birbirlerinin bakış açılarını, korkularını ve umutlarını anladığında ortaya çıkar. Bu empati gerektirir - dünyayı başkasının gözünden görme yetisi. Anlaşılmaya çalışmak yerine gerçekten anlamaya çalıştığımızda, kalplerimizle ve zihnimizle dinlediğimizde, gerçek uyumun temelini yaratırız. Barış çatışmanın yokluğu değil, çatışmayı gereksiz kılan anlayışın varlığıdır.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

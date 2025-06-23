@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "creativity_001",
+      "category": "creativity",
+      "texts": {
+        "en": "Creativity is intelligence having fun.",
+        "tr": "Yaratıcılık, zekanın eğlenmesidir."
+      },
+      "authors": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein"
+      },
+      "tags": {
+        "en": ["innovation", "imagination", "intelligence"],
+        "tr": ["yenilik", "hayal gücü", "zeka"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Playful Genius",
+          "content": "Albert Einstein, one of history's greatest minds, understood that creativity wasn't separate from intelligence - it was intelligence unleashed from the constraints of conventional thinking. His revolutionary theories came not from rigid academic study alone, but from thought experiments that let his imagination run free. He visualized riding alongside a beam of light, played mental games with space and time, and approached complex problems with childlike wonder. Einstein showed us that the highest form of intelligence is when our minds are free to play, explore, and create without fear of making mistakes.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Oyuncu Dahi",
+          "content": "Tarihin en büyük zekalarından biri olan Albert Einstein, yaratıcılığın zekadan ayrı olmadığını - geleneksel düşüncenin kısıtlamalarından kurtulmuş zeka olduğunu anlıyordu. Devrimci teorileri sadece katı akademik çalışmadan değil, hayal gücünün özgürce dolaşmasına izin veren düşünce deneylerinden geldi. Işık ışınının yanında sürmeyi hayal etti, uzay ve zamanla zihinsel oyunlar oynadı ve karmaşık problemlere çocuksu bir merakla yaklaştı. Einstein bize zekanın en yüksek biçiminin, zihnimizin hata yapma korkusu olmadan özgürce oynayabildiği, keşfedebildiği ve yaratabildiği an olduğunu gösterdi.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

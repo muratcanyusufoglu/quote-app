@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "spirituality_001",
+      "category": "spirituality",
+      "texts": {
+        "en": "The spiritual journey is the unlearning of fear and the acceptance of love.",
+        "tr": "Ruhsal yolculuk, korkuyu unutmak ve sevgiyi kabul etmektir."
+      },
+      "authors": {
+        "en": "Marianne Williamson",
+        "tr": "Marianne Williamson"
+      },
+      "tags": {
+        "en": ["enlightenment", "inner peace", "transformation"],
+        "tr": ["aydınlanma", "iç huzur", "dönüşüm"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Path to Inner Freedom",
+          "content": "Marianne Williamson, spiritual teacher and author, understood that our spiritual growth isn't about learning new things, but about releasing what doesn't serve us. We are born with love as our natural state, but life teaches us fear - fear of rejection, failure, loss, and judgment. The spiritual path is about returning to love by letting go of these learned fears. It's about remembering who we truly are beneath all the conditioning and finding the courage to live from that authentic, loving place.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "İç Özgürlüğün Yolu",
+          "content": "Ruhsal öğretmen ve yazar Marianne Williamson, ruhsal büyümemizin yeni şeyler öğrenmekle değil, bize hizmet etmeyen şeyleri serbest bırakmakla ilgili olduğunu anlıyordu. Sevgiyle doğal halimiz olarak doğarız, ancak hayat bize korku öğretir - reddedilme, başarısızlık, kayıp ve yargılanma korkusu. Ruhsal yol, bu öğrenilmiş korkuları bırakarak sevgiye dönmekle ilgilidir. Tüm koşullanmaların altında gerçekten kim olduğumuzu hatırlamak ve o otantik, sevgi dolu yerden yaşama cesaereti bulmakla ilgilidir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

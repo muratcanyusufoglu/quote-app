@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "love_001",
+      "category": "love",
+      "texts": {
+        "en": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+        "tr": "Birisi tarafından derinden sevilmek size güç verir, birini derinden sevmek ise size cesaret verir."
+      },
+      "authors": {
+        "en": "Lao Tzu",
+        "tr": "Lao Tzu"
+      },
+      "tags": {
+        "en": ["strength", "courage", "relationships"],
+        "tr": ["güç", "cesaret", "ilişkiler"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Two Faces of Love",
+          "content": "Lao Tzu, the ancient Chinese philosopher, understood that love has two profound dimensions. To be loved deeply provides us with an unshakeable foundation - knowing that someone believes in us completely gives us the strength to face any challenge. But to love deeply requires something even more powerful: the courage to be vulnerable, to put another's needs before our own, to risk our hearts. This duality makes love the most transformative force in human experience, simultaneously our greatest security and our greatest adventure.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Aşkın İki Yüzü",
+          "content": "Antik Çinli filozof Lao Tzu, aşkın iki derin boyutu olduğunu anlıyordu. Derinden sevilmek bize sarsılmaz bir temel sağlar - birinin bize tamamen inandığını bilmek, herhangi bir meydan okumayla yüzleşme gücünü verir. Ancak derinden sevmek daha da güçlü bir şey gerektirir: savunmasız olmaya cesaret, başkasının ihtiyaçlarını kendi ihtiyaçlarımızın önüne koymak, kalplerimizi riske atmak. Bu ikilik, aşkı insan deneyimindeki en dönüştürücü güç yapar; aynı zamanda en büyük güvenliğimiz ve en büyük maceramız.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

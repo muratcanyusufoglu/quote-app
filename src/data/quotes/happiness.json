@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "happiness_001",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is not something ready made. It comes from your own actions.",
+        "tr": "Mutluluk hazır bir şey değildir. Kendi eylemlerinizden gelir."
+      },
+      "authors": {
+        "en": "Dalai Lama",
+        "tr": "Dalai Lama"
+      },
+      "tags": {
+        "en": ["joy", "action", "mindset"],
+        "tr": ["neşe", "eylem", "zihniyet"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Creating Your Own Happiness",
+          "content": "The Dalai Lama, spiritual leader of Tibet, has faced immense challenges throughout his life, including exile from his homeland. Yet, he remains one of the most joyful and compassionate people on Earth. His secret? Understanding that happiness isn't a destination you arrive at, but a journey you create through your daily choices. Every act of kindness, every moment of gratitude, every decision to focus on the positive - these are the building blocks of genuine happiness. It's not about waiting for perfect circumstances, but about making the best of what you have right now.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Kendi Mutluluğunuzu Yaratmak",
+          "content": "Tibet'in ruhani lideri Dalai Lama, anavatanından sürgün edilmesi de dahil olmak üzere hayatı boyunca büyük zorluklarla karşılaştı. Yine de, Dünya'daki en neşeli ve şefkatli insanlardan biri olmaya devam ediyor. Sırrı? Mutluluğun vardığınız bir hedef değil, günlük seçimlerinizle yarattığınız bir yolculuk olduğunu anlamak. Her iyilik eylemi, her şükran anı, pozitife odaklanma kararı - bunlar gerçek mutluluğun yapı taşlarıdır. Mükemmel koşulları beklemekle değil, şu anda sahip olduklarınızın en iyisini yapmakla ilgilidir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

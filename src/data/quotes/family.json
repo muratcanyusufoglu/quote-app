@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "family_001",
+      "category": "family",
+      "texts": {
+        "en": "Family is not an important thing, it's everything.",
+        "tr": "Aile önemli bir şey değil, her şeydir."
+      },
+      "authors": {
+        "en": "Michael J. Fox",
+        "tr": "Michael J. Fox"
+      },
+      "tags": {
+        "en": ["love", "support", "bond"],
+        "tr": ["sevgi", "destek", "bağ"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "What Matters Most",
+          "content": "Michael J. Fox, the beloved actor who faced Parkinson's disease with courage and grace, learned life's most important lesson through adversity. When his career was at its peak, he discovered what truly mattered wasn't fame or success, but the love and support of his family. Through his health struggles, his wife and children became his strength, his reason to keep fighting, and his source of joy. Fox's words remind us that while careers end and achievements fade, family relationships are the foundation that sustains us through all of life's seasons.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "En Önemli Olan",
+          "content": "Parkinson hastalığıyla cesaret ve zarafetle yüzleşen sevilen aktör Michael J. Fox, hayatın en önemli dersini zorluklar aracılığıyla öğrendi. Kariyeri zirvesindeyken, gerçekten önemli olanın şöhret ya da başarı değil, ailesinin sevgisi ve desteği olduğunu keşfetti. Sağlık mücadelesi boyunca, karısı ve çocukları onun gücü, savaşmaya devam etme nedeni ve neşe kaynağı haline geldi. Fox'un sözleri bize kariyer bittiğinde ve başarılar solduğunda, aile ilişkilerinin hayatın tüm mevsimlerinde bizi ayakta tutan temel olduğunu hatırlatır.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

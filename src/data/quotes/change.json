@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "change_001",
+      "category": "change",
+      "texts": {
+        "en": "Be yourself; everyone else is already taken.",
+        "tr": "Kendin ol; diğer herkes zaten alınmış."
+      },
+      "authors": {
+        "en": "Oscar Wilde",
+        "tr": "Oscar Wilde"
+      },
+      "tags": {
+        "en": ["authenticity", "uniqueness", "self-acceptance"],
+        "tr": ["özgünlük", "benzersizlik", "kendini kabul"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Art of Authentic Change",
+          "content": "Oscar Wilde, the brilliant Irish writer, understood that the greatest change we can make is to stop trying to be someone else and embrace who we truly are. In a world that constantly pressures us to conform, to fit in, to meet others' expectations, Wilde's words remind us that our uniqueness is our greatest strength. True change isn't about becoming someone different - it's about becoming more authentically ourselves. When we stop pretending and start being genuine, we discover the freedom to grow in ways we never imagined.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Otantik Değişimin Sanatı",
+          "content": "Parlak İrlandalı yazar Oscar Wilde, yapabileceğimiz en büyük değişimin başka biri olmaya çalışmayı bırakıp gerçekten kim olduğumuzu kucaklamak olduğunu anlıyordu. Sürekli bizi uyum sağlamaya, uyum göstermeye, başkalarının beklentilerini karşılamaya zorlayan bir dünyada, Wilde'ın sözleri benzersizliğimizin en büyük gücümüz olduğunu hatırlatır. Gerçek değişim farklı biri olmakla ilgili değildir - daha otantik olarak kendimiz olmakla ilgilidir. Rol yapmayı bırakıp samimi olmaya başladığımızda, hiç hayal etmediğimiz şekillerde büyüme özgürlüğünü keşfederiz.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

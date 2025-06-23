@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "wisdom_001",
+      "category": "wisdom",
+      "texts": {
+        "en": "The only true wisdom is in knowing you know nothing.",
+        "tr": "Gerçek bilgelik, hiçbir şey bilmediğini bilmektir."
+      },
+      "authors": {
+        "en": "Socrates",
+        "tr": "Sokrates"
+      },
+      "tags": {
+        "en": ["humility", "learning", "philosophy"],
+        "tr": ["alçakgönüllülük", "öğrenme", "felsefe"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Wisdom of Ignorance",
+          "content": "Socrates, the great Greek philosopher, was declared the wisest man in Athens by the Oracle of Delphi. Puzzled by this proclamation, Socrates set out to find someone wiser than himself. He questioned politicians, poets, and craftsmen, only to discover that while they claimed to possess knowledge, they actually knew very little. Socrates realized that his wisdom lay not in knowing more than others, but in recognizing the limits of his own knowledge. This humble acknowledgment of ignorance became the foundation of true learning and wisdom.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Cahilliğin Bilgeliği",
+          "content": "Büyük Yunan filozofu Sokrates, Delfi Kahinesi tarafından Atina'nın en bilge adamı ilan edildi. Bu ilan karşısında şaşıran Sokrates, kendisinden daha bilge birini bulmak için yola çıktı. Politikacıları, şairleri ve zanaatkarları sorguladı, ancak bilgi sahibi olduklarını iddia etseler de aslında çok az şey bildiklerini keşfetti. Sokrates, bilgeliğinin başkalarından daha fazla bilmekte değil, kendi bilgisinin sınırlarını fark etmekte yattığını anladı. Bu alçakgönüllü cahillik kabulü, gerçek öğrenme ve bilgeliğin temeli haline geldi.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

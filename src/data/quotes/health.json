@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "health_001",
+      "category": "health",
+      "texts": {
+        "en": "Health is not valued till sickness comes.",
+        "tr": "Sağlık, hastalık gelinceye kadar değer verilmez."
+      },
+      "authors": {
+        "en": "Thomas Fuller",
+        "tr": "Thomas Fuller"
+      },
+      "tags": {
+        "en": ["wellness", "prevention", "appreciation"],
+        "tr": ["sağlık", "önleme", "takdir"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Greatest Wealth",
+          "content": "Thomas Fuller, the 17th-century physician and historian, observed a pattern that holds true across all cultures and times: we often take our health for granted until we lose it. When we're healthy, we focus on career, money, achievements, and possessions. But when illness strikes, we suddenly realize that all the wealth in the world cannot buy back our health. Fuller's wisdom reminds us to cherish and protect our physical and mental well-being every day, not as an afterthought, but as our most precious asset.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "En Büyük Zenginlik",
+          "content": "17. yüzyıl doktoru ve tarihçisi Thomas Fuller, tüm kültürler ve zamanlar boyunca geçerli olan bir kalıp gözlemledi: sağlığımızı kaybedene kadar çoğu zaman onu hiçe sayarız. Sağlıklıyken kariyer, para, başarılar ve mal mülke odaklanırız. Ama hastalık geldiğinde, aniden dünyadaki tüm zenginliğin sağlığımızı geri satın alamayacağını fark ederiz. Fuller'ın bilgeliği bize fiziksel ve zihinsel esenliğimizi her gün değer vermemizi, bir düşünce sonrası olarak değil, en değerli varlığımız olarak korumamızı hatırlatır.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

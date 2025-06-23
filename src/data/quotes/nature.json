@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "nature_001",
+      "category": "nature",
+      "texts": {
+        "en": "In every walk with nature, one receives far more than they seek.",
+        "tr": "Doğayla yapılan her yürüyüşte, insan aradığından çok daha fazlasını alır."
+      },
+      "authors": {
+        "en": "John Muir",
+        "tr": "John Muir"
+      },
+      "tags": {
+        "en": ["connection", "healing", "discovery"],
+        "tr": ["bağlantı", "şifa", "keşif"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Nature's Unexpected Gifts",
+          "content": "John Muir, the naturalist who founded the Sierra Club and helped establish America's national park system, understood that nature offers more than scenic beauty. When we step into the natural world, we might seek fresh air or exercise, but we receive so much more: peace for our troubled minds, perspective on our problems, wonder that awakens our spirits, and a deep sense of connection to something larger than ourselves. Nature doesn't just give us what we ask for - it gives us what we need.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Doğanın Beklenmedik Armağanları",
+          "content": "Sierra Club'ı kuran ve Amerika'nın milli park sisteminin kurulmasına yardım eden doğabilimci John Muir, doğanın doğal güzellikten daha fazlasını sunduğunu anlıyordu. Doğal dünyaya adım attığımızda temiz hava ya da egzersiz arayabiliriz, ancak çok daha fazlasını alırız: sıkıntılı zihnimiz için huzur, sorunlarımıza bakış açısı, ruhlarımızı uyandıran hayranlık ve kendimizden daha büyük bir şeye derin bağlantı hissi. Doğa sadece istediğimizi vermez - ihtiyacımız olanı verir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

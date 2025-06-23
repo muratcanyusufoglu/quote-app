@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "balance_001",
+      "category": "balance",
+      "texts": {
+        "en": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "tr": "Hayat bisiklet sürmek gibidir. Dengenizi korumak için hareket etmeye devam etmelisiniz."
+      },
+      "authors": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein"
+      },
+      "tags": {
+        "en": ["movement", "stability", "progress"],
+        "tr": ["hareket", "istikrar", "ilerleme"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Dynamic Nature of Balance",
+          "content": "Einstein understood that balance isn't a static state - it's a dynamic process that requires constant adjustment and movement. Just as a bicycle falls over when it stops moving, our lives lose their stability when we stop growing, learning, and adapting. True balance doesn't mean standing still; it means staying flexible and responsive to life's constant changes. It's about finding harmony not through rigidity, but through fluid motion that keeps us upright even when the path gets bumpy.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Dengenin Dinamik Doğası",
+          "content": "Einstein dengenin statik bir hal olmadığını - sürekli ayarlama ve hareket gerektiren dinamik bir süreç olduğunu anlıyordu. Tıpkı bisikletin hareket etmeyi bıraktığında devrilmesi gibi, büyümeyi, öğrenmeyi ve uyum sağlamayı bıraktığımızda hayatlarımız da istikrarını kaybeder. Gerçek denge hareketsiz durmak demek değildir; değişen hayatın sürekli değişimlerine karşı esnek ve duyarlı kalmak demektir. Katılık yoluyla değil, yol engebeli olsa bile bizi ayakta tutan akışkan hareket yoluyla uyum bulmakla ilgilidir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

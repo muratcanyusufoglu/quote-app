@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "education_001",
+      "category": "education",
+      "texts": {
+        "en": "Education is the most powerful weapon which you can use to change the world.",
+        "tr": "Eğitim, dünyayı değiştirmek için kullanabileceğiniz en güçlü silahtır."
+      },
+      "authors": {
+        "en": "Nelson Mandela",
+        "tr": "Nelson Mandela"
+      },
+      "tags": {
+        "en": ["knowledge", "transformation", "power"],
+        "tr": ["bilgi", "dönüşüm", "güç"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Revolutionary Power of Learning",
+          "content": "Nelson Mandela, who spent 27 years in prison fighting against apartheid, understood that lasting change doesn't come from violence or force, but from education. During his imprisonment, he continued to study and learn, earning a law degree through correspondence. He saw how education empowered people to think critically, question injustice, and envision a better future. Mandela's words remind us that education isn't just about personal advancement - it's about giving people the tools to transform their communities and create a more just world.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Öğrenmenin Devrimci Gücü",
+          "content": "Apartheid'e karşı savaşırken 27 yılını hapiste geçiren Nelson Mandela, kalıcı değişimin şiddet ya da güçten değil, eğitimden geldiğini anlıyordu. Hapiste olduğu süre boyunca çalışmaya ve öğrenmeye devam etti, mektupla hukuk diploması aldı. Eğitimin insanlara eleştirel düşünme, adaletsizliği sorgulama ve daha iyi bir gelecek hayal etme gücü verdiğini gördü. Mandela'nın sözleri bize eğitimin sadece kişisel ilerlemeyle ilgili olmadığını - insanlara toplumlarını dönüştürme ve daha adil bir dünya yaratma araçları verdiğini hatırlatır.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

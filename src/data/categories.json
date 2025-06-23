@@ -43,7 +43,7 @@
       "icon": "🏆",
       "color": "#10B981",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "wisdom",
@@ -58,7 +58,7 @@
       "icon": "🧠",
       "color": "#8B5CF6",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "happiness",
@@ -73,7 +73,7 @@
       "icon": "😊",
       "color": "#F59E0B",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "love",
@@ -88,7 +88,7 @@
       "icon": "❤️",
       "color": "#F43F5E",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "creativity",
@@ -103,7 +103,7 @@
       "icon": "🎨",
       "color": "#3B82F6",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "growth",
@@ -118,7 +118,7 @@
       "icon": "🌱",
       "color": "#84CC16",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "peace",
@@ -133,7 +133,7 @@
       "icon": "☮️",
       "color": "#06B6D4",
       "isPremium": true,
-      "quoteCount": 0
+      "quoteCount": 1
     },
     {
       "id": "leadership",
@@ -222,6 +222,186 @@
       },
       "icon": "✨",
       "color": "#7C2D92",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "friendship",
+      "names": {
+        "en": "Friendship",
+        "tr": "Arkadaşlık"
+      },
+      "descriptions": {
+        "en": "The bonds that make life meaningful",
+        "tr": "Hayatı anlamlı kılan bağlar"
+      },
+      "icon": "🤝",
+      "color": "#F97316",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "family",
+      "names": {
+        "en": "Family",
+        "tr": "Aile"
+      },
+      "descriptions": {
+        "en": "The importance of family and relationships",
+        "tr": "Ailenin ve ilişkilerin önemi"
+      },
+      "icon": "👨‍👩‍👧‍👦",
+      "color": "#EC4899",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "health",
+      "names": {
+        "en": "Health",
+        "tr": "Sağlık"
+      },
+      "descriptions": {
+        "en": "Physical and mental wellness",
+        "tr": "Fiziksel ve zihinsel sağlık"
+      },
+      "icon": "🏥",
+      "color": "#10B981",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "travel",
+      "names": {
+        "en": "Travel",
+        "tr": "Seyahat"
+      },
+      "descriptions": {
+        "en": "Adventures and exploring the world",
+        "tr": "Maceralar ve dünyayı keşfetmek"
+      },
+      "icon": "✈️",
+      "color": "#0EA5E9",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "education",
+      "names": {
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "descriptions": {
+        "en": "The power of learning and knowledge",
+        "tr": "Öğrenme ve bilginin gücü"
+      },
+      "icon": "📚",
+      "color": "#8B5CF6",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "change",
+      "names": {
+        "en": "Change",
+        "tr": "Değişim"
+      },
+      "descriptions": {
+        "en": "Embracing transformation and adaptation",
+        "tr": "Dönüşümü ve adaptasyonu kucaklamak"
+      },
+      "icon": "🔄",
+      "color": "#F59E0B",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "time",
+      "names": {
+        "en": "Time",
+        "tr": "Zaman"
+      },
+      "descriptions": {
+        "en": "The value and essence of time",
+        "tr": "Zamanın değeri ve özü"
+      },
+      "icon": "⏰",
+      "color": "#6366F1",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "nature",
+      "names": {
+        "en": "Nature",
+        "tr": "Doğa"
+      },
+      "descriptions": {
+        "en": "Connection with the natural world",
+        "tr": "Doğal dünya ile bağlantı"
+      },
+      "icon": "🌿",
+      "color": "#22C55E",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "technology",
+      "names": {
+        "en": "Technology",
+        "tr": "Teknoloji"
+      },
+      "descriptions": {
+        "en": "Innovation and digital transformation",
+        "tr": "İnovasyon ve dijital dönüşüm"
+      },
+      "icon": "💻",
+      "color": "#3B82F6",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "spirituality",
+      "names": {
+        "en": "Spirituality",
+        "tr": "Maneviyat"
+      },
+      "descriptions": {
+        "en": "Inner journey and spiritual growth",
+        "tr": "İç yolculuk ve ruhsal gelişim"
+      },
+      "icon": "🕉️",
+      "color": "#7C3AED",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "balance",
+      "names": {
+        "en": "Balance",
+        "tr": "Denge"
+      },
+      "descriptions": {
+        "en": "Finding harmony in all aspects of life",
+        "tr": "Hayatın tüm alanlarında uyum bulmak"
+      },
+      "icon": "⚖️",
+      "color": "#06B6D4",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "patience",
+      "names": {
+        "en": "Patience",
+        "tr": "Sabır"
+      },
+      "descriptions": {
+        "en": "The virtue of waiting and perseverance",
+        "tr": "Bekleme ve sebat etme erdemi"
+      },
+      "icon": "🐌",
+      "color": "#84CC16",
       "isPremium": true,
       "quoteCount": 1
     }

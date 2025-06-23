@@ -22,7 +22,7 @@ export interface Quote {
 }
 
 export interface Story {
-  id: string;
+  id?: string;
   title: string;
   content: string;
   readTime: number;

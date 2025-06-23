@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "travel_001",
+      "category": "travel",
+      "texts": {
+        "en": "Travel makes one modest. You see what a tiny place you occupy in the world.",
+        "tr": "Seyahat insanı alçakgönüllü yapar. Dünyada ne kadar küçük bir yer kapladığınızı görürsünüz."
+      },
+      "authors": {
+        "en": "Gustave Flaubert",
+        "tr": "Gustave Flaubert"
+      },
+      "tags": {
+        "en": ["perspective", "humility", "discovery"],
+        "tr": ["bakış açısı", "alçakgönüllülük", "keşif"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Humbling Journey",
+          "content": "Gustave Flaubert, the French novelist who traveled extensively through Egypt and the Middle East, discovered that stepping outside our familiar world fundamentally changes our perspective. When we travel, we realize that our problems, which seemed so enormous at home, are actually quite small in the grand scheme of things. We meet people with different values, traditions, and ways of life, and we understand that there are countless ways to be human. Travel teaches us that we are just one small part of a vast, diverse, and beautiful world.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Alçakgönüllülük Yolculuğu",
+          "content": "Mısır ve Orta Doğu'da kapsamlı seyahatler yapan Fransız romancı Gustave Flaubert, tanıdık dünyamızın dışına çıkmanın bakış açımızı temelden değiştirdiğini keşfetti. Seyahat ettiğimizde, evde çok büyük görünen sorunlarımızın aslında büyük resimde oldukça küçük olduğunu anlıyoruz. Farklı değerleri, gelenekleri ve yaşam biçimleri olan insanlarla tanışırız ve insan olmanın sayısız yolu olduğunu anlıyoruz. Seyahat bize geniş, çeşitli ve güzel bir dünyanın sadece küçük bir parçası olduğumuzu öğretir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

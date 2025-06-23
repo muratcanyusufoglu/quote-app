@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "id": "success_001",
+      "category": "success",
+      "texts": {
+        "en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "tr": "Başarı nihai değildir, başarısızlık ölümcül değildir: önemli olan devam etme cesaretine sahip olmaktır."
+      },
+      "authors": {
+        "en": "Winston Churchill",
+        "tr": "Winston Churchill"
+      },
+      "tags": {
+        "en": ["perseverance", "courage", "determination"],
+        "tr": ["azim", "cesaret", "kararlılık"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Power of Persistence",
+          "content": "Winston Churchill, Britain's wartime Prime Minister, understood that success wasn't about avoiding failure, but about persisting through it. During World War II, when Britain faced its darkest hour, Churchill's unwavering determination inspired a nation to keep fighting against seemingly impossible odds. His famous words remind us that every failure is simply a stepping stone to success, and every success is just the beginning of the next challenge. True winners are not those who never fall, but those who get up every time they do.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Sebatın Gücü",
+          "content": "İngiltere'nin savaş zamanı Başbakanı Winston Churchill, başarının başarısızlıktan kaçınmakla değil, onun içinden geçerek devam etmekle ilgili olduğunu anlıyordu. İkinci Dünya Savaşı sırasında, İngiltere en karanlık saatlerini yaşarken, Churchill'in sarsılmaz kararlılığı bir ulusu imkansız görünen şartlara karşı savaşmaya ilham etti. Onun ünlü sözleri bize her başarısızlığın sadece başarıya giden bir basamak olduğunu ve her başarının da bir sonraki meydan okumanın başlangıcı olduğunu hatırlatır. Gerçek kazananlar hiç düşmeyenler değil, her düştüklerinde ayağa kalkanlarıdır.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 
