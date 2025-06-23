@@ -1,0 +1,36 @@
+{
+  "categoryId": "motivation",
+  "quotes": [
+    {
+      "id": "mot_001",
+      "texts": {
+        "en": "The only way to do great work is to love what you do.",
+        "tr": "Büyük işler yapmanın tek yolu, yaptığınız işi sevmektir."
+      },
+      "authors": {
+        "en": "Steve Jobs",
+        "tr": "Steve Jobs"
+      },
+      "category": "motivation",
+      "tags": {
+        "en": ["work", "passion", "greatness"],
+        "tr": ["iş", "tutku", "büyüklük"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_mot_001_en",
+          "title": "Finding Your Passion",
+          "content": "Steve Jobs once said these words during a Stanford commencement address. He had dropped out of college, wandered through life, and even been fired from Apple, the company he co-founded. Yet, through it all, he never stopped pursuing what he loved. His journey teaches us that passion isn't always obvious from the start. Sometimes, we discover it through trial, failure, and perseverance. When you love what you do, work doesn't feel like work—it feels like purpose. Today, ask yourself: What makes you lose track of time? What would you do even if you weren't paid? That might be your calling waiting to be discovered.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_mot_001_tr",
+          "title": "Tutkunuzu Bulmak",
+          "content": "Steve Jobs bu sözleri Stanford mezuniyet töreninde söylemişti. Üniversiteyi bırakmış, hayatta amaçsızca dolaşmış, hatta kurduğu Apple şirketinden kovulmuştu. Ancak tüm bunlara rağmen, sevdiği şeyi yapmaktan asla vazgeçmedi. Onun yolculuğu bize tutkumuzun her zaman başından belli olmadığını öğretir. Bazen onu deneme, başarısızlık ve sebat yoluyla keşfederiz. Yaptığınız işi sevdiğinizde, iş gibi hissetmez—amaç gibi hisseder. Bugün kendinize sorun: Sizi zamanı unutturan nedir? Para almadan bile yapacağınız şey nedir? Bu sizin keşfedilmeyi bekleyen çağrınız olabilir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

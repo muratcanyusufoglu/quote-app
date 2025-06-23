@@ -2,7 +2,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { useShallow } from "zustand/react/shallow";
-import { quoteService } from "../services/QuoteService";
+import { legacyQuoteService } from "../services/LegacyQuoteService";
 import { Category, LocalizedQuote, Quote, QuoteStore } from "../types";
 import { shouldResetDailyReads } from "../utils/dailyReset";
 
@@ -209,10 +209,14 @@ const useQuoteStore = create<QuoteStore>()(
 
           // Always reload quotes and categories to ensure we have latest multilingual format
           try {
-            const quotes = quoteService.getAllQuotes();
-            const categories = quoteService.getAllCategories();
+            console.log(
+              "🔄 Loading fresh multilingual data with legacy service..."
+            );
 
-            console.log("🔄 Loading fresh multilingual data...");
+            // Use legacy service for synchronous loading
+            const quotes = legacyQuoteService.getAllQuotes();
+            const categories = legacyQuoteService.getAllCategories();
+
             console.log("📚 Quotes loaded:", quotes.length);
             console.log("🏷️ Categories loaded:", categories.length);
 

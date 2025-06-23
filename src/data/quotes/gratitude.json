@@ -1,0 +1,36 @@
+{
+  "categoryId": "gratitude",
+  "quotes": [
+    {
+      "id": "gra_001",
+      "texts": {
+        "en": "Gratitude turns what we have into enough.",
+        "tr": "Şükür, sahip olduklarımızı yeterli hale getirir."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": ["appreciation", "contentment", "abundance"],
+        "tr": ["takdir", "memnuniyet", "bolluk"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gra_001_en",
+          "title": "The Alchemy of Gratitude",
+          "content": "Gratitude is like alchemy—it transforms the ordinary into the extraordinary. When we focus on what we lack, even abundance feels scarce. But when we appreciate what we have, even a little feels like plenty. This isn't about settling for less or abandoning ambition; it's about recognizing that contentment isn't found in having more, but in appreciating what's already here.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gra_001_tr",
+          "title": "Şükrün Simyası",
+          "content": "Şükür simya gibidir—sıradanı olağanüstüye dönüştürür. Eksiklerimize odaklandığımızda, bolluk bile yetersiz hissettir. Ama sahip olduklarımızı takdir ettiğimizde, az bile çok gibi gelir. Bu daha azıyla yetinmek ya da hırsı bırakmak değil; memnuniyetin daha fazla sahip olmakta değil, zaten burada olanı takdir etmekte bulunduğunu fark etmektir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+}

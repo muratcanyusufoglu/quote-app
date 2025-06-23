@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
-import { useQuoteService } from "../../hooks/useQuoteService";
+import { useHomeQuotes } from "../../hooks/useQuoteService";
 import {
   useOnboardingHydrated,
   useUserPreferences,
@@ -21,29 +21,13 @@ export function HomeScreen() {
   // User preferences for personalized quotes
   const userPreferences = useUserPreferences();
 
-  // Quote service
-  const { getHomeFeedQuotes } = useQuoteService();
+  // Get home quotes using sync hook
+  const homeQuotes = useHomeQuotes(20);
 
   // Handle quote view tracking
   const handleQuoteView = (quote: LocalizedQuote) => {
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
-  };
-
-  // Get initial quotes based on user preferences
-  const getInitialQuotes = (): LocalizedQuote[] => {
-    console.log("🏠 Getting initial quotes, userPreferences:", userPreferences);
-
-    if (!userPreferences) {
-      const quotes = getHomeFeedQuotes(20);
-      console.log("🔤 No preferences, loaded quotes:", quotes.length);
-      return quotes;
-    }
-
-    // Get personalized quotes based on user preferences
-    const quotes = getHomeFeedQuotes(20);
-    console.log("👤 With preferences, loaded quotes:", quotes.length);
-    return quotes;
   };
 
   // Show loading while stores are hydrating
@@ -61,12 +45,26 @@ export function HomeScreen() {
     );
   }
 
-  const initialQuotes = getInitialQuotes();
+  // Show empty state if no quotes
+  if (homeQuotes.length === 0) {
+    return (
+      <BaseScreen>
+        <View style={styles.loadingContainer}>
+          <Text style={styles.errorText}>Henüz quote bulunamadı</Text>
+          <Text style={styles.errorSubtext}>
+            Yeni kategoriler eklenene kadar bekleyin
+          </Text>
+        </View>
+      </BaseScreen>
+    );
+  }
+
+  console.log(`🏠 HomeScreen loaded with ${homeQuotes.length} quotes`);
 
   return (
     <BaseScreen style={styles.container}>
       <QuoteReels
-        initialQuotes={initialQuotes}
+        initialQuotes={homeQuotes}
         onQuoteView={handleQuoteView}
         refreshControl={true}
       />
@@ -83,10 +81,24 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    paddingHorizontal: 20,
   },
   loadingText: {
     fontSize: 18,
     color: darkTheme.colors.text,
     fontWeight: "500",
+    textAlign: "center",
+  },
+  errorText: {
+    fontSize: 18,
+    color: darkTheme.colors.error || "#EF4444",
+    fontWeight: "600",
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  errorSubtext: {
+    fontSize: 14,
+    color: darkTheme.colors.textSecondary,
+    textAlign: "center",
   },
 });

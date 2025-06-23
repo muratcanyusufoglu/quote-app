@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { quoteService } from "../services/QuoteService";
+import { legacyQuoteService } from "../services/LegacyQuoteService";
 import { useOnboardingSelectors } from "../store/useOnboardingStore";
 import { usePurchaseSelectors } from "../store/usePurchaseStore";
 import { useQuoteSelectors } from "../store/useQuoteStore";
@@ -7,7 +7,7 @@ import { LocalizedCategory, LocalizedQuote } from "../types";
 import { getTimeOfDay } from "../utils/dailyReset";
 import { getPreferredLanguage, SupportedLanguage } from "../utils/language";
 
-// Hook that provides quote data to UI components
+// Hook that provides quote data to UI components using legacy service for backward compatibility
 export function useQuoteService() {
   // Get state from stores using individual selectors to avoid unnecessary re-renders
   const quotes = useQuoteSelectors.quotes();
@@ -46,19 +46,19 @@ export function useQuoteService() {
     [favoriteQuotes.length]
   );
 
-  // Memoized quote service methods with stable dependencies
+  // Memoized quote service methods with stable dependencies - all using legacy service
   const quoteMethods = useMemo(
     () => ({
       // Get available categories based on premium status and language
       getAvailableCategories: (): LocalizedCategory[] => {
-        return quoteService.getAvailableCategories(isPremium, language);
+        return legacyQuoteService.getAvailableCategories(isPremium, language);
       },
 
       // Get personalized home feed quotes
       getHomeFeedQuotes: (count: number = 10): LocalizedQuote[] => {
         console.log(`🏠 Getting home feed quotes for language: ${language}`);
         if (!userPreferences) {
-          const quotes = quoteService.getRandomUnseenQuotes(
+          const quotes = legacyQuoteService.getRandomUnseenQuotes(
             count,
             stableSeenQuotes,
             isPremium,
@@ -69,7 +69,7 @@ export function useQuoteService() {
           );
           return quotes;
         }
-        const quotes = quoteService.getPersonalizedQuotes(
+        const quotes = legacyQuoteService.getPersonalizedQuotes(
           count,
           { ...userPreferences, language }, // Ensure language is set in preferences
           stableSeenQuotes,
@@ -87,7 +87,7 @@ export function useQuoteService() {
         count: number = 20
       ): LocalizedQuote[] => {
         console.log(`🔍 Getting explore quotes for language: ${language}`);
-        const quotes = quoteService.getRandomUnseenQuotes(
+        const quotes = legacyQuoteService.getRandomUnseenQuotes(
           count,
           stableSeenQuotes,
           isPremium,
@@ -101,7 +101,7 @@ export function useQuoteService() {
       // Get time-based quotes (morning motivation, evening reflection, etc.)
       getTimeBasedQuotes: (count: number = 5): LocalizedQuote[] => {
         const timeOfDay = getTimeOfDay();
-        const quotes = quoteService.getTimeBasedQuotes(
+        const quotes = legacyQuoteService.getTimeBasedQuotes(
           timeOfDay,
           count,
           stableSeenQuotes,
@@ -116,7 +116,7 @@ export function useQuoteService() {
 
       // Get trending quotes
       getTrendingQuotes: (count: number = 10): LocalizedQuote[] => {
-        const quotes = quoteService.getTrendingQuotes(
+        const quotes = legacyQuoteService.getTrendingQuotes(
           count,
           stableFavoriteQuotes,
           isPremium,
@@ -130,7 +130,11 @@ export function useQuoteService() {
 
       // Search quotes
       searchQuotes: (query: string): LocalizedQuote[] => {
-        const quotes = quoteService.searchQuotes(query, isPremium, language);
+        const quotes = legacyQuoteService.searchQuotes(
+          query,
+          isPremium,
+          language
+        );
         console.log(
           `🔎 Search "${query}" returned ${quotes.length} quotes in ${language}`
         );
@@ -139,22 +143,22 @@ export function useQuoteService() {
 
       // Get quote by ID
       getQuoteById: (id: string): LocalizedQuote | undefined => {
-        return quoteService.getLocalizedQuoteById(id, language);
+        return legacyQuoteService.getLocalizedQuoteById(id, language);
       },
 
       // Get category by ID
       getCategoryById: (id: string): LocalizedCategory | undefined => {
-        return quoteService.getLocalizedCategoryById(id, language);
+        return legacyQuoteService.getLocalizedCategoryById(id, language);
       },
 
       // Check if user can access a quote
       canAccessQuote: (quote: LocalizedQuote): boolean => {
-        return quoteService.canAccessQuote(quote, isPremium);
+        return legacyQuoteService.canAccessQuote(quote, isPremium);
       },
 
       // Get reading statistics
       getReadingStats: () => {
-        return quoteService.getReadingStats(stableSeenQuotes);
+        return legacyQuoteService.getReadingStats(stableSeenQuotes);
       },
     }),
     [
@@ -180,10 +184,10 @@ export function useQuoteService() {
       availableCategories: quoteMethods.getAvailableCategories(),
 
       // Get free categories
-      freeCategories: quoteService.getFreeCategories(language),
+      freeCategories: legacyQuoteService.getFreeCategories(language),
 
       // Get premium categories
-      premiumCategories: quoteService.getPremiumCategories(language),
+      premiumCategories: legacyQuoteService.getPremiumCategories(language),
 
       // Reading stats
       readingStats: {
@@ -256,7 +260,7 @@ export function useFavoriteQuotes() {
     if (!isReady || quotes.length === 0) return [];
     return quotes
       .filter((quote) => favoriteQuotes.includes(quote.id))
-      .map((quote) => quoteService.localizeQuote(quote, language));
+      .map((quote) => legacyQuoteService.localizeQuote(quote, language));
   }, [quotes, favoriteQuotes, isReady, language]);
 }
 
@@ -271,7 +275,7 @@ export function useQuoteCategories() {
 
   return useMemo(
     () => ({
-      allCategories: quoteService.getLocalizedCategories(language),
+      allCategories: legacyQuoteService.getLocalizedCategories(language),
       availableCategories,
       freeCategories,
       premiumCategories,

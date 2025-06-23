@@ -1,0 +1,229 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "names": {
+        "en": "General",
+        "tr": "Genel"
+      },
+      "descriptions": {
+        "en": "Inspiring quotes for everyone",
+        "tr": "Herkes için ilham verici sözler"
+      },
+      "icon": "💭",
+      "color": "#6B7280",
+      "isPremium": false,
+      "quoteCount": 5
+    },
+    {
+      "id": "motivation",
+      "names": {
+        "en": "Motivation",
+        "tr": "Motivasyon"
+      },
+      "descriptions": {
+        "en": "Quotes to inspire and motivate you",
+        "tr": "Sizi ilhama ve motivasyona yönlendiren sözler"
+      },
+      "icon": "🚀",
+      "color": "#EC4899",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "success",
+      "names": {
+        "en": "Success",
+        "tr": "Başarı"
+      },
+      "descriptions": {
+        "en": "Keys to achieving success",
+        "tr": "Başarıya giden yolun anahtarları"
+      },
+      "icon": "🏆",
+      "color": "#10B981",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "wisdom",
+      "names": {
+        "en": "Wisdom",
+        "tr": "Bilgelik"
+      },
+      "descriptions": {
+        "en": "Ancient and modern wisdom",
+        "tr": "Kadim ve modern bilgelik"
+      },
+      "icon": "🧠",
+      "color": "#8B5CF6",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "happiness",
+      "names": {
+        "en": "Happiness",
+        "tr": "Mutluluk"
+      },
+      "descriptions": {
+        "en": "Finding joy in life",
+        "tr": "Hayatta neşeyi bulmak"
+      },
+      "icon": "😊",
+      "color": "#F59E0B",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "love",
+      "names": {
+        "en": "Love",
+        "tr": "Aşk"
+      },
+      "descriptions": {
+        "en": "Love in all its forms",
+        "tr": "Aşkın tüm biçimleri"
+      },
+      "icon": "❤️",
+      "color": "#F43F5E",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "creativity",
+      "names": {
+        "en": "Creativity",
+        "tr": "Yaratıcılık"
+      },
+      "descriptions": {
+        "en": "Fuel your imagination and innovation",
+        "tr": "Hayal gücünüzü ve yeniliğinizi besleyin"
+      },
+      "icon": "🎨",
+      "color": "#3B82F6",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "growth",
+      "names": {
+        "en": "Growth",
+        "tr": "Gelişim"
+      },
+      "descriptions": {
+        "en": "Personal development and growth",
+        "tr": "Kişisel gelişim ve büyüme"
+      },
+      "icon": "🌱",
+      "color": "#84CC16",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "peace",
+      "names": {
+        "en": "Peace",
+        "tr": "Huzur"
+      },
+      "descriptions": {
+        "en": "Finding inner peace and tranquility",
+        "tr": "İç huzuru ve sükuneti bulmak"
+      },
+      "icon": "☮️",
+      "color": "#06B6D4",
+      "isPremium": true,
+      "quoteCount": 0
+    },
+    {
+      "id": "leadership",
+      "names": {
+        "en": "Leadership",
+        "tr": "Liderlik"
+      },
+      "descriptions": {
+        "en": "Leading yourself and others to greatness",
+        "tr": "Kendinizi ve başkalarını büyüklüğe yönlendirmek"
+      },
+      "icon": "👑",
+      "color": "#7C3AED",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "resilience",
+      "names": {
+        "en": "Resilience",
+        "tr": "Dayanıklılık"
+      },
+      "descriptions": {
+        "en": "Bouncing back from adversity",
+        "tr": "Zorluklardan sonra ayağa kalkmak"
+      },
+      "icon": "💪",
+      "color": "#DC2626",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "mindfulness",
+      "names": {
+        "en": "Mindfulness",
+        "tr": "Farkındalık"
+      },
+      "descriptions": {
+        "en": "Living in the present moment",
+        "tr": "Şimdiki anda yaşamak"
+      },
+      "icon": "🧘",
+      "color": "#059669",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "courage",
+      "names": {
+        "en": "Courage",
+        "tr": "Cesaret"
+      },
+      "descriptions": {
+        "en": "Finding strength in the face of fear",
+        "tr": "Korku karşısında güç bulmak"
+      },
+      "icon": "🦁",
+      "color": "#EA580C",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "gratitude",
+      "names": {
+        "en": "Gratitude",
+        "tr": "Şükür"
+      },
+      "descriptions": {
+        "en": "Appreciating what you have",
+        "tr": "Sahip olduklarınızı takdir etmek"
+      },
+      "icon": "🙏",
+      "color": "#0891B2",
+      "isPremium": true,
+      "quoteCount": 1
+    },
+    {
+      "id": "dreams",
+      "names": {
+        "en": "Dreams",
+        "tr": "Hayaller"
+      },
+      "descriptions": {
+        "en": "Pursuing your dreams and aspirations",
+        "tr": "Hayallerinizi ve hedeflerinizi takip etmek"
+      },
+      "icon": "✨",
+      "color": "#7C2D92",
+      "isPremium": true,
+      "quoteCount": 1
+    }
+  ]
+} 

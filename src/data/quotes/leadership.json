@@ -1,0 +1,36 @@
+{
+  "categoryId": "leadership",
+  "quotes": [
+    {
+      "id": "lea_001",
+      "texts": {
+        "en": "A leader is one who knows the way, goes the way, and shows the way.",
+        "tr": "Lider, yolu bilen, yolda giden ve yolu gösteren kişidir."
+      },
+      "authors": {
+        "en": "John C. Maxwell",
+        "tr": "John C. Maxwell"
+      },
+      "category": "leadership",
+      "tags": {
+        "en": ["guidance", "example", "direction"],
+        "tr": ["rehberlik", "örnek", "yön"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_lea_001_en",
+          "title": "The Three Dimensions of Leadership",
+          "content": "John Maxwell identifies three essential qualities of true leadership. First, knowing the way requires vision and understanding. Second, going the way demands courage and commitment. Third, showing the way involves teaching and inspiring others. True leaders don't just give directions from behind—they lead from the front, demonstrating through their actions what they ask of others.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_lea_001_tr",
+          "title": "Liderliğin Üç Boyutu",
+          "content": "John Maxwell gerçek liderliğin üç temel özelliğini tanımlar. Birincisi, yolu bilmek vizyon ve anlayış gerektirir. İkincisi, yolda gitmek cesaret ve bağlılık ister. Üçüncüsü, yolu göstermek başkalarına öğretme ve ilham vermeyi içerir. Gerçek liderler arkadan sadece talimat vermez—önden liderlik ederek, başkalarından istediklerini kendi eylemleriyle gösterirler.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+} 

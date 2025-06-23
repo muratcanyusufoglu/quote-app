@@ -1,0 +1,36 @@
+{
+  "categoryId": "courage",
+  "quotes": [
+    {
+      "id": "cou_001",
+      "texts": {
+        "en": "Courage is not the absence of fear, but action in spite of it.",
+        "tr": "Cesaret korkuyu hissetmemek değil, ona rağmen harekete geçmektir."
+      },
+      "authors": {
+        "en": "Mark Twain",
+        "tr": "Mark Twain"
+      },
+      "category": "courage",
+      "tags": {
+        "en": ["bravery", "fear", "action"],
+        "tr": ["cesaret", "korku", "eylem"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_cou_001_en",
+          "title": "Redefining Courage",
+          "content": "Mark Twain understood that courage isn't about being fearless—it's about being afraid and acting anyway. Everyone feels fear; it's a natural response to uncertainty and risk. The difference between the courageous and the timid isn't the presence or absence of fear, but what they do despite feeling it. Courage is feeling the fear and choosing to move forward anyway.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_cou_001_tr",
+          "title": "Cesareti Yeniden Tanımlamak",
+          "content": "Mark Twain cesarethin korkusuzluk olmadığını—korkmasına rağmen hareket etmek olduğunu anlıyordu. Herkes korku hisseder; bu belirsizlik ve riske karşı doğal bir tepkidir. Cesur ve çekingen arasındaki fark korkuyu hissedip hissetmemek değil, onu hissetmesine rağmen ne yaptıklarıdır. Cesaret, korkuyu hissedip yine de ilerlemeyi seçmektir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+}

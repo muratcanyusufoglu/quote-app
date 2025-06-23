@@ -1,0 +1,36 @@
+{
+  "categoryId": "dreams",
+  "quotes": [
+    {
+      "id": "dre_001",
+      "texts": {
+        "en": "A dream doesn't become reality through magic; it takes sweat, determination and hard work.",
+        "tr": "Bir hayal sihirle gerçekleşmez; ter, kararlılık ve sıkı çalışma gerektirir."
+      },
+      "authors": {
+        "en": "Colin Powell",
+        "tr": "Colin Powell"
+      },
+      "category": "dreams",
+      "tags": {
+        "en": ["effort", "dedication", "achievement"],
+        "tr": ["çaba", "adanmışlık", "başarı"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_dre_001_en",
+          "title": "The Reality of Dreams",
+          "content": "Colin Powell reminds us that dreams without action remain fantasies. While it's important to dream big, it's equally important to work towards those dreams with dedication and perseverance. Every dream achieved is built on countless small actions, daily disciplines, and moments when you chose to push forward despite obstacles. Magic might not make dreams come true, but commitment can work miracles.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_dre_001_tr",
+          "title": "Hayallerin Gerçekliği",
+          "content": "Colin Powell bize eylemsiz hayallerin hayal kurma olarak kalacağını hatırlatır. Büyük hayal kurmak önemli olsa da, bu hayallere adanmışlık ve sebatla çalışmak da aynı derecede önemlidir. Gerçekleşen her hayal, sayısız küçük eylem, günlük disiplin ve engellere rağmen ilerlemeyi seçtiğiniz anlar üzerine kurulur. Sihir hayalleri gerçekleştirmeyebilir ama bağlılık mucizeler yaratabilir.",
+          "readTime": 3
+        }
+      }
+    }
+  ]
+}
