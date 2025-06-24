@@ -1,156 +1,112 @@
 import { router } from "expo-router";
-import React, { useMemo, useState } from "react";
+import React from "react";
 import {
+  Dimensions,
   FlatList,
-  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
-import QuoteCard from "../../components/cards/QuoteCard";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
-import {
-  useOnboardingHydrated,
-  useUserPreferences,
-} from "../../store/useOnboardingStore";
+import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import {
   useIsPremium,
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
-import {
-  useActions,
-  useFavoriteQuotes,
-  useHasHydrated,
-  useQuotes,
-  useSeenQuotes,
-} from "../../store/useQuoteStore";
-import { LocalizedQuote, Quote } from "../../types";
-import { darkTheme } from "../../utils/theme";
+import { useHasHydrated } from "../../store/useQuoteStore";
+import { getCategoryColor } from "../../utils/categoryColors";
+import { categoryIcons } from "../../utils/theme";
+import { useTheme } from "../../utils/ThemeContext";
+
+const { width } = Dimensions.get("window");
+const ITEM_WIDTH = (width - 48) / 2; // 2 columns with 16px padding on sides and 16px gap
 
 export function ExploreScreen() {
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  // Theme
+  const { theme, isDark } = useTheme();
 
   // Store data
-  const quotes = useQuotes();
-  const seenQuotes = useSeenQuotes();
-  const favoriteQuotes = useFavoriteQuotes();
   const isPremium = useIsPremium();
-  const userPreferences = useUserPreferences();
 
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
-  // Actions
-  const { markAsRead, addToFavorites, removeFromFavorites } = useActions();
-
   // Categories
-  const { availableCategories, freeCategories, premiumCategories } =
-    useQuoteCategories();
-
-  // Filtered quotes based on selected categories
-  const filteredQuotes = useMemo(() => {
-    if (selectedCategories.length === 0) {
-      return quotes.filter((quote) => !seenQuotes.includes(quote.id));
-    }
-
-    return quotes.filter(
-      (quote) =>
-        selectedCategories.includes(quote.category) &&
-        !seenQuotes.includes(quote.id)
-    );
-  }, [quotes, selectedCategories, seenQuotes]);
+  const { availableCategories, premiumCategories } = useQuoteCategories();
 
   const handleCategoryPress = (categoryId: string) => {
-    setSelectedCategories((prev) => {
-      if (prev.includes(categoryId)) {
-        return prev.filter((id) => id !== categoryId);
-      } else {
-        return [...prev, categoryId];
-      }
+    // Navigate to home page with selected category
+    // You can pass the category as a parameter or set it in a store
+    router.push({
+      pathname: "/(tabs)",
+      params: { selectedCategory: categoryId },
     });
   };
 
-  const handleQuotePress = (quote: Quote) => {
-    // Convert Quote to LocalizedQuote for markAsRead
-    const localizedQuote: LocalizedQuote = {
-      id: quote.id,
-      text: quote.texts.tr, // Assuming Turkish for now
-      author: quote.authors.tr,
-      category: quote.category,
-      tags: quote.tags.tr,
-      language: "tr",
-      readTime: quote.readTime,
-      story: quote.stories?.tr,
-    };
-    markAsRead(localizedQuote);
-    router.push(`/quote-detail/${quote.id}`);
-  };
-
-  const handleFavoritePress = (quoteId: string) => {
-    if (favoriteQuotes.includes(quoteId)) {
-      removeFromFavorites(quoteId);
-    } else {
-      addToFavorites(quoteId);
-    }
-  };
-
-  const renderCategoryButton = (category: any) => {
-    const isSelected = selectedCategories.includes(category.id);
+  const renderCategoryCard = ({ item: category }: { item: any }) => {
     const isPremiumCategory = premiumCategories.some(
       (cat) => cat.id === category.id
     );
     const canAccess = isPremium || !isPremiumCategory;
+    const categoryColor = getCategoryColor(category.id, isDark);
+    const categoryIcon =
+      categoryIcons[category.id as keyof typeof categoryIcons] || "💭";
 
     return (
       <TouchableOpacity
-        key={category.id}
         style={[
-          styles.categoryButton,
-          isSelected && styles.selectedCategoryButton,
-          !canAccess && styles.lockedCategoryButton,
+          styles.categoryCard,
+          {
+            backgroundColor: canAccess ? categoryColor : theme.colors.surface,
+            opacity: canAccess ? 1 : 0.6,
+          },
         ]}
         onPress={() => canAccess && handleCategoryPress(category.id)}
+        activeOpacity={0.8}
       >
-        <Text
-          style={[
-            styles.categoryButtonText,
-            isSelected && styles.selectedCategoryButtonText,
-            !canAccess && styles.lockedCategoryButtonText,
-          ]}
-        >
-          {category.name} {!canAccess && "🔒"}
-        </Text>
+        <View style={styles.categoryCardContent}>
+          {/* Category Icon */}
+          <Text style={styles.categoryIcon}>{categoryIcon}</Text>
+
+          {/* Category Name */}
+          <Text
+            style={[
+              styles.categoryName,
+              { color: canAccess ? "#FFFFFF" : theme.colors.textSecondary },
+            ]}
+          >
+            {category.name}
+          </Text>
+
+          {/* Premium Lock */}
+          {!canAccess && (
+            <View style={styles.lockContainer}>
+              <Text style={styles.lockIcon}>🔒</Text>
+            </View>
+          )}
+
+          {/* Category Description */}
+          {category.description && (
+            <Text
+              style={[
+                styles.categoryDescription,
+                {
+                  color: canAccess
+                    ? "rgba(255,255,255,0.9)"
+                    : theme.colors.textTertiary,
+                },
+              ]}
+            >
+              {category.description}
+            </Text>
+          )}
+        </View>
       </TouchableOpacity>
-    );
-  };
-
-  const renderQuoteCard = ({ item, index }: { item: Quote; index: number }) => {
-    // Convert Quote to LocalizedQuote for QuoteCard
-    const localizedQuote: LocalizedQuote = {
-      id: item.id,
-      text: item.texts.tr,
-      author: item.authors.tr,
-      category: item.category,
-      tags: item.tags.tr,
-      language: "tr",
-      readTime: item.readTime,
-      story: item.stories?.tr,
-    };
-
-    return (
-      <View style={styles.quoteCardContainer}>
-        <QuoteCard
-          quote={localizedQuote}
-          isFavorite={favoriteQuotes.includes(item.id)}
-          onPress={() => handleQuotePress(item)}
-          onFavoritePress={() => handleFavoritePress(item.id)}
-        />
-      </View>
     );
   };
 
@@ -163,7 +119,9 @@ export function ExploreScreen() {
     return (
       <BaseScreen>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Loading...</Text>
+          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+            Yükleniyor...
+          </Text>
         </View>
       </BaseScreen>
     );
@@ -171,49 +129,32 @@ export function ExploreScreen() {
 
   return (
     <BaseScreen style={styles.container}>
-      <NavigationHeader title="Explore" currentRoute="/(tabs)/explore" />
+      <NavigationHeader title="Keşfet" currentRoute="/(tabs)/explore" />
 
       <View style={styles.content}>
-        {/* Categories */}
-        <View style={styles.categoriesContainer}>
-          <Text style={styles.sectionTitle}>Categories</Text>
-          <ScrollView
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.categoriesScrollContainer}
-          >
-            {availableCategories.map(renderCategoryButton)}
-          </ScrollView>
-        </View>
-
-        {/* Quotes */}
-        <View style={styles.quotesContainer}>
-          <Text style={styles.sectionTitle}>
-            {selectedCategories.length === 0
-              ? "All Quotes"
-              : `${selectedCategories.length} Category${
-                  selectedCategories.length > 1 ? "ies" : "y"
-                } Selected`}
-            {` (${filteredQuotes.length} quotes)`}
+        {/* Header */}
+        <View style={styles.headerContainer}>
+          <Text style={[styles.title, { color: theme.colors.text }]}>
+            Kategoriler
           </Text>
-
-          {filteredQuotes.length === 0 ? (
-            <View style={styles.emptyContainer}>
-              <Text style={styles.emptyTitle}>No quotes found</Text>
-              <Text style={styles.emptyDescription}>
-                Try selecting different categories or clearing your filters
-              </Text>
-            </View>
-          ) : (
-            <FlatList
-              data={filteredQuotes}
-              renderItem={renderQuoteCard}
-              keyExtractor={(item) => item.id}
-              contentContainerStyle={styles.quotesListContainer}
-              showsVerticalScrollIndicator={false}
-            />
-          )}
+          <Text
+            style={[styles.subtitle, { color: theme.colors.textSecondary }]}
+          >
+            İlginizi çeken bir kategori seçin
+          </Text>
         </View>
+
+        {/* Categories Grid */}
+        <FlatList
+          data={availableCategories}
+          renderItem={renderCategoryCard}
+          keyExtractor={(item) => item.id}
+          numColumns={2}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={styles.categoriesContainer}
+          columnWrapperStyle={styles.row}
+          ItemSeparatorComponent={() => <View style={styles.separator} />}
+        />
       </View>
     </BaseScreen>
   );
@@ -225,6 +166,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
+    paddingHorizontal: 16,
   },
   loadingContainer: {
     flex: 1,
@@ -233,75 +175,79 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 18,
-    color: darkTheme.colors.textSecondary,
+    fontWeight: "500",
+    textAlign: "center",
+  },
+  headerContainer: {
+    marginTop: 20,
+    marginBottom: 24,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "700",
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    lineHeight: 22,
   },
   categoriesContainer: {
-    marginBottom: 24,
-    marginTop: 20,
-  },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: "600",
-    color: darkTheme.colors.text,
-    marginBottom: 16,
-    paddingHorizontal: 20,
-  },
-  categoriesScrollContainer: {
-    paddingHorizontal: 20,
-  },
-  categoryButton: {
-    backgroundColor: darkTheme.colors.surface,
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 20,
-    marginRight: 12,
-  },
-  selectedCategoryButton: {
-    backgroundColor: darkTheme.colors.primary,
-  },
-  lockedCategoryButton: {
-    backgroundColor: darkTheme.colors.surface,
-    opacity: 0.5,
-  },
-  categoryButtonText: {
-    fontSize: 14,
-    color: darkTheme.colors.text,
-    fontWeight: "500",
-  },
-  selectedCategoryButtonText: {
-    color: "white",
-    fontWeight: "600",
-  },
-  lockedCategoryButtonText: {
-    color: darkTheme.colors.textSecondary,
-  },
-  quotesContainer: {
-    flex: 1,
-  },
-  quotesListContainer: {
-    paddingHorizontal: 20,
     paddingBottom: 40,
   },
-  quoteCardContainer: {
-    marginBottom: 16,
+  row: {
+    justifyContent: "space-between",
   },
-  emptyContainer: {
+  separator: {
+    height: 16,
+  },
+  categoryCard: {
+    width: ITEM_WIDTH,
+    minHeight: 140,
+    borderRadius: 16,
+    marginBottom: 0,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 6,
+  },
+  categoryCardContent: {
     flex: 1,
+    padding: 16,
+    justifyContent: "space-between",
+  },
+  categoryIcon: {
+    fontSize: 32,
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  categoryName: {
+    fontSize: 16,
+    fontWeight: "600",
+    textAlign: "center",
+    marginBottom: 4,
+  },
+  categoryDescription: {
+    fontSize: 12,
+    textAlign: "center",
+    lineHeight: 16,
+    opacity: 0.9,
+  },
+  lockContainer: {
+    position: "absolute",
+    top: 8,
+    right: 8,
+    backgroundColor: "rgba(0,0,0,0.3)",
+    borderRadius: 12,
+    width: 24,
+    height: 24,
     justifyContent: "center",
     alignItems: "center",
-    padding: 40,
   },
-  emptyTitle: {
-    fontSize: 20,
-    fontWeight: "bold",
-    color: darkTheme.colors.text,
-    marginBottom: 8,
-    textAlign: "center",
-  },
-  emptyDescription: {
-    fontSize: 16,
-    color: darkTheme.colors.textSecondary,
-    textAlign: "center",
-    lineHeight: 22,
+  lockIcon: {
+    fontSize: 12,
   },
 });

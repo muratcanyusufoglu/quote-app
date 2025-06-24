@@ -201,19 +201,48 @@ export type TabParamList = {
   PastReads: undefined;
 };
 
-// Theme types
+// Theme types - Enhanced for comprehensive color system
 export interface ThemeColors {
+  // Core colors
   primary: string;
+  primaryLight: string;
+  primaryDark: string;
   secondary: string;
+  secondaryLight: string;
+  secondaryDark: string;
+
+  // Backgrounds
   background: string;
   surface: string;
+  surfaceElevated: string;
+
+  // Text colors
   text: string;
   textSecondary: string;
+  textTertiary: string;
+  textInverse: string;
+
+  // Border colors
   border: string;
+  borderLight: string;
+  borderDark: string;
+
+  // State colors
   error: string;
+  errorLight: string;
   warning: string;
+  warningLight: string;
   success: string;
+  successLight: string;
+
+  // Special colors
   premium: string;
+  premiumLight: string;
+  accent: string;
+
+  // Overlay colors
+  overlay: string;
+  backdrop: string;
 }
 
 export interface Theme {
@@ -224,6 +253,7 @@ export interface Theme {
     md: number;
     lg: number;
     xl: number;
+    xxl: number;
   };
   typography: {
     fontSize: {
@@ -233,6 +263,7 @@ export interface Theme {
       lg: number;
       xl: number;
       xxl: number;
+      xxxl: number;
     };
     fontWeight: {
       regular: string;
@@ -242,9 +273,12 @@ export interface Theme {
     };
   };
   borderRadius: {
+    xs: number;
     sm: number;
     md: number;
     lg: number;
     xl: number;
+    xxl: number;
+    round: number;
   };
 }

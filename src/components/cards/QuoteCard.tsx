@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, TouchableOpacity, View, ViewStyle } from "react-native";
 import { LocalizedCategory, LocalizedQuote } from "../../types";
+import { getCategoryColor } from "../../utils/categoryColors";
 
 interface QuoteCardProps {
   quote: LocalizedQuote;
@@ -9,6 +10,7 @@ interface QuoteCardProps {
   onFavoritePress?: () => void;
   isFavorite?: boolean;
   backgroundColor?: string;
+  isDark?: boolean;
 }
 
 const QuoteCard: React.FC<QuoteCardProps> = ({
@@ -18,8 +20,12 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
   onFavoritePress,
   isFavorite = false,
   backgroundColor,
+  isDark = true,
 }) => {
-  const cardColor = backgroundColor || category?.color || cardColors.blue;
+  const cardColor =
+    backgroundColor ||
+    category?.color ||
+    getCategoryColor(quote.category, isDark);
 
   return (
     <TouchableOpacity
@@ -57,55 +63,8 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
   );
 };
 
-// Enhanced card colors with more vibrant options
-export const cardColors = {
-  blue: "#5865F2", // Discord Blue
-  red: "#FF6B6B", // Coral Red
-  purple: "#9B59B6", // Amethyst
-  brown: "#D4A574", // Sandy Brown
-  green: "#2ECC71", // Emerald
-  orange: "#FF9500", // Orange
-  pink: "#FF6B9D", // Pink
-  teal: "#1ABC9C", // Turquoise
-  indigo: "#667EEA", // Indigo
-  yellow: "#F39C12", // Orange (Golden)
-  lime: "#32D74B", // Lime Green
-  cyan: "#5AC8FA", // Cyan
-};
-
-export const getCardColorByIndex = (index: number): string => {
-  const colors = Object.values(cardColors);
-  return colors[index % colors.length];
-};
-
-export const getCardColorByCategory = (categoryId: string): string => {
-  const categoryColorMap: Record<string, string> = {
-    motivation: cardColors.blue,
-    motivasyon: cardColors.blue,
-    success: cardColors.green,
-    basari: cardColors.green,
-    wisdom: cardColors.purple,
-    bilgelik: cardColors.purple,
-    happiness: cardColors.yellow,
-    mutluluk: cardColors.yellow,
-    love: cardColors.pink,
-    ask: cardColors.pink,
-    life: cardColors.teal,
-    hayat: cardColors.teal,
-    inspiration: cardColors.red,
-    ilham: cardColors.red,
-    growth: cardColors.lime,
-    gelisim: cardColors.lime,
-    peace: cardColors.cyan,
-    huzur: cardColors.cyan,
-    strength: cardColors.orange,
-    guc: cardColors.orange,
-    confidence: cardColors.indigo,
-    guven: cardColors.indigo,
-  };
-
-  return categoryColorMap[categoryId] || cardColors.blue;
-};
+// Note: Card colors are now managed centrally in src/utils/theme.ts
+// This ensures consistency across the entire application
 
 const $cardContainer: ViewStyle = {
   borderRadius: 20,

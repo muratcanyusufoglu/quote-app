@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { darkTheme } from "../../utils/theme";
+import { useTheme } from "../../utils/ThemeContext";
 
 interface NavigationHeaderProps {
   title: string;
@@ -9,19 +9,23 @@ interface NavigationHeaderProps {
 }
 
 const navigationItems = [
-  { route: "/(tabs)/", icon: "🏠", label: "Home" },
-  { route: "/(tabs)/explore", icon: "🔍", label: "Explore" },
-  { route: "/(tabs)/favorites", icon: "❤️", label: "Favorites" },
-  { route: "/(tabs)/history", icon: "📚", label: "History" },
+  { route: "/(tabs)/", icon: "🏠", label: "Ana Sayfa" },
+  { route: "/(tabs)/explore", icon: "🔍", label: "Keşfet" },
+  { route: "/(tabs)/favorites", icon: "❤️", label: "Favoriler" },
+  { route: "/(tabs)/history", icon: "📚", label: "Geçmiş" },
 ];
 
 export function NavigationHeader({
   title,
   currentRoute,
 }: NavigationHeaderProps) {
+  const { theme } = useTheme();
+
   const navigateToRoute = (route: string) => {
     router.push(route as any);
   };
+
+  const styles = createStyles(theme);
 
   return (
     <View style={styles.container}>
@@ -47,43 +51,46 @@ export function NavigationHeader({
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: darkTheme.colors.background,
-    paddingTop: 60,
-    paddingBottom: 20,
-    borderBottomWidth: 1,
-    borderBottomColor: darkTheme.colors.border,
-  },
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "700",
-    color: darkTheme.colors.text,
-    flex: 1,
-  },
-  navigationContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  navButton: {
-    width: 44,
-    height: 44,
-    backgroundColor: "rgba(255, 255, 255, 0.05)",
-    borderRadius: 22,
-    justifyContent: "center",
-    alignItems: "center",
-    marginLeft: 8,
-  },
-  activeNavButton: {
-    backgroundColor: darkTheme.colors.primary,
-  },
-  navIcon: {
-    fontSize: 18,
-  },
-});
+const createStyles = (theme: any) =>
+  StyleSheet.create({
+    container: {
+      backgroundColor: theme.colors.background,
+      paddingTop: 60,
+      paddingBottom: 20,
+      borderBottomWidth: 1,
+      borderBottomColor: theme.colors.border,
+    },
+    header: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      paddingHorizontal: 20,
+    },
+    title: {
+      fontSize: 24,
+      fontWeight: "700",
+      color: theme.colors.text,
+      flex: 1,
+    },
+    navigationContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+    },
+    navButton: {
+      width: 44,
+      height: 44,
+      backgroundColor: theme.colors.surface,
+      borderRadius: 22,
+      justifyContent: "center",
+      alignItems: "center",
+      marginLeft: 8,
+      opacity: 0.7,
+    },
+    activeNavButton: {
+      backgroundColor: theme.colors.primary,
+      opacity: 1,
+    },
+    navIcon: {
+      fontSize: 18,
+    },
+  });
