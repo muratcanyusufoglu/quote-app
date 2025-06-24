@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 
 interface QuoteActionsProps {
   isFavorite: boolean;
@@ -21,19 +22,37 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
       {/* Left: Category Tag */}
       <View style={styles.leftActions}>
         <Text style={styles.categoryTag}>#{category}</Text>
-        <Text style={styles.readTimeText}>📖 {readTime} dk</Text>
+        <Text style={styles.readTimeText}>
+          <IconSymbol
+            name="book"
+            size={14}
+            color="rgba(255, 255, 255, 0.9)"
+            strokeWidth={2}
+          />{" "}
+          {readTime} dk
+        </Text>
       </View>
 
       {/* Right: Action Buttons */}
       <View style={styles.rightActions}>
         {onShare && (
           <TouchableOpacity style={styles.actionButton} onPress={onShare}>
-            <Text style={styles.actionIcon}>📤</Text>
+            <IconSymbol
+              name="square.and.arrow.up"
+              size={24}
+              color="#FFFFFF"
+              strokeWidth={2}
+            />
           </TouchableOpacity>
         )}
 
         <TouchableOpacity style={styles.actionButton} onPress={onFavoritePress}>
-          <Text style={styles.actionIcon}>{isFavorite ? "❤️" : "🤍"}</Text>
+          <IconSymbol
+            name="heart"
+            size={24}
+            color={isFavorite ? "#ff6b6b" : "#FFFFFF"}
+            strokeWidth={isFavorite ? 3 : 2}
+          />
         </TouchableOpacity>
       </View>
     </View>

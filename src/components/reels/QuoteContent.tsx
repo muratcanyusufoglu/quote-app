@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedQuote } from "../../types";
 
 interface QuoteContentProps {
@@ -15,12 +16,19 @@ export const QuoteContent: React.FC<QuoteContentProps> = ({ quote }) => {
 
       {/* Read More Hint */}
       <View style={styles.readMoreContainer}>
-        <Text style={styles.readMoreText}>
-          📖{" "}
-          {quote.language === "tr"
-            ? "Hikayeyi okumak için dokunun"
-            : "Tap to read the story"}
-        </Text>
+        <View style={styles.readMoreTextContainer}>
+          <IconSymbol
+            name="book"
+            size={14}
+            color="rgba(255, 255, 255, 0.9)"
+            strokeWidth={2}
+          />
+          <Text style={styles.readMoreText}>
+            {quote.language === "tr"
+              ? "Hikayeyi okumak için dokunun"
+              : "Tap to read the story"}
+          </Text>
+        </View>
       </View>
     </View>
   );
@@ -60,10 +68,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(255, 255, 255, 0.2)",
   },
+  readMoreTextContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
   readMoreText: {
     fontSize: 14,
     color: "rgba(255, 255, 255, 0.9)",
     textAlign: "center",
     fontWeight: "500",
+    marginLeft: 8,
   },
 });

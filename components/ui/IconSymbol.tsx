@@ -1,41 +1,161 @@
-// Fallback for using MaterialIcons on Android and web.
+// Modern, smooth icons using Lucide React Native
 
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { SymbolWeight, SymbolViewProps } from 'expo-symbols';
-import { ComponentProps } from 'react';
-import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
+import {
+  ArrowLeft,
+  ArrowRight,
+  Bookmark,
+  BookOpen,
+  Brain,
+  Briefcase,
+  Check,
+  ChevronDown,
+  ChevronRight,
+  Church,
+  Clock,
+  Code,
+  Compass,
+  Cpu,
+  Crown,
+  Download,
+  Dumbbell,
+  Eye,
+  EyeOff,
+  Filter,
+  Gift,
+  GraduationCap,
+  Heart,
+  HeartPulse,
+  Home,
+  Hourglass,
+  Lightbulb,
+  Lock,
+  Map,
+  Menu,
+  MessageCircle,
+  Moon,
+  Mountain,
+  Palette,
+  Plus,
+  RefreshCw,
+  Scale,
+  Search,
+  Send,
+  Settings,
+  Share,
+  Shield,
+  Star,
+  Sunrise,
+  Target,
+  TreePine,
+  TrendingUp,
+  Unlock,
+  Upload,
+  User,
+  Users,
+  X,
+  Zap,
+} from "lucide-react-native";
+import { OpaqueColorValue, type StyleProp, type ViewStyle } from "react-native";
 
-type IconMapping = Record<SymbolViewProps['name'], ComponentProps<typeof MaterialIcons>['name']>;
-type IconSymbolName = keyof typeof MAPPING;
+// Map of icon names to Lucide components
+const ICON_MAPPING = {
+  "house.fill": Home,
+  home: Home,
+  magnifyingglass: Search,
+  search: Search,
+  "heart.fill": Heart,
+  heart: Heart,
+  "clock.fill": Clock,
+  clock: Clock,
+  "chevron.right": ChevronRight,
+  "chevron.down": ChevronDown,
+  "chevron.left.forwardslash.chevron.right": Code,
+  "paperplane.fill": Send,
+  send: Send,
+  menu: Menu,
+  star: Star,
+  "star.fill": Star,
+  book: BookOpen,
+  "book.fill": BookOpen,
+  settings: Settings,
+  person: User,
+  "person.fill": User,
+  plus: Plus,
+  xmark: X,
+  "arrow.left": ArrowLeft,
+  "arrow.right": ArrowRight,
+  checkmark: Check,
+  "line.horizontal.3.decrease": Filter,
+  bookmark: Bookmark,
+  "bookmark.fill": Bookmark,
+  "square.and.arrow.up": Share,
+  "arrow.down.circle": Download,
+  "arrow.up.circle": Upload,
+  eye: Eye,
+  "eye.slash": EyeOff,
+  lock: Lock,
+  "lock.open": Unlock,
+  crown: Crown,
+  // Category icons
+  lightbulb: Lightbulb,
+  "trending-up": TrendingUp,
+  shield: Shield,
+  users: Users,
+  briefcase: Briefcase,
+  "heart-pulse": HeartPulse,
+  "graduation-cap": GraduationCap,
+  palette: Palette,
+  church: Church,
+  brain: Brain,
+  mountain: Mountain,
+  gift: Gift,
+  "refresh-cw": RefreshCw,
+  map: Map,
+  target: Target,
+  scale: Scale,
+  zap: Zap,
+  "message-circle": MessageCircle,
+  compass: Compass,
+  "tree-pine": TreePine,
+  cpu: Cpu,
+  hourglass: Hourglass,
+  dumbbell: Dumbbell,
+  moon: Moon,
+  sunrise: Sunrise,
+} as const;
+
+export type IconName = keyof typeof ICON_MAPPING;
 
 /**
- * Add your SF Symbols to Material Icons mappings here.
- * - see Material Icons in the [Icons Directory](https://icons.expo.fyi).
- * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
- */
-const MAPPING = {
-  'house.fill': 'home',
-  'paperplane.fill': 'send',
-  'chevron.left.forwardslash.chevron.right': 'code',
-  'chevron.right': 'chevron-right',
-} as IconMapping;
-
-/**
- * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
- * This ensures a consistent look across platforms, and optimal resource usage.
- * Icon `name`s are based on SF Symbols and require manual mapping to Material Icons.
+ * Modern icon component using Lucide React Native for smooth, minimal icons
+ * that look great across all platforms with consistent styling.
  */
 export function IconSymbol({
   name,
   size = 24,
-  color,
+  color = "#000000",
   style,
+  strokeWidth = 2,
 }: {
-  name: IconSymbolName;
+  name: IconName;
   size?: number;
-  color: string | OpaqueColorValue;
-  style?: StyleProp<TextStyle>;
-  weight?: SymbolWeight;
+  color?: string | OpaqueColorValue;
+  style?: StyleProp<ViewStyle>;
+  strokeWidth?: number;
 }) {
-  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
+  const IconComponent = ICON_MAPPING[name];
+
+  if (!IconComponent) {
+    console.warn(`Icon "${name}" not found in IconSymbol mapping`);
+    return null;
+  }
+
+  return (
+    <IconComponent
+      size={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      style={style}
+    />
+  );
 }

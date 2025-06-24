@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, TouchableOpacity, View, ViewStyle } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedCategory, LocalizedQuote } from "../../types";
 import { getCategoryColor } from "../../utils/categoryColors";
 
@@ -55,7 +56,12 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
             onPress={onFavoritePress}
             hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >
-            <Text style={$favoriteIcon}>{isFavorite ? "❤️" : "🤍"}</Text>
+            <IconSymbol
+              name="heart"
+              size={20}
+              color={isFavorite ? "#ff6b6b" : "rgba(255, 255, 255, 0.8)"}
+              strokeWidth={isFavorite ? 3 : 2}
+            />
           </TouchableOpacity>
         </View>
       </View>
@@ -139,10 +145,6 @@ const $favoriteButton: ViewStyle = {
   borderRadius: 22,
   justifyContent: "center",
   alignItems: "center",
-};
-
-const $favoriteIcon = {
-  fontSize: 22,
 };
 
 export default QuoteCard;

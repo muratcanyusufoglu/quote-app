@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
@@ -78,8 +79,9 @@ export function ExploreScreen() {
       category.id.toLowerCase() === "genel";
     const canAccess = isPremium || isGeneralCategory;
     const categoryColor = getCategoryColor(category.id, isDark);
-    const categoryIcon =
-      categoryIcons[category.id as keyof typeof categoryIcons] || "💭";
+    const categoryIconName =
+      categoryIcons[category.id as keyof typeof categoryIcons] ||
+      "message-circle";
 
     return (
       <TouchableOpacity
@@ -94,8 +96,15 @@ export function ExploreScreen() {
         activeOpacity={0.8}
       >
         <View style={styles.categoryCardContent}>
-          {/* Category Icon */}
-          <Text style={styles.categoryIcon}>{categoryIcon}</Text>
+          {/* Category Icon - Now using IconSymbol */}
+          <View style={styles.categoryIconContainer}>
+            <IconSymbol
+              name={categoryIconName as any}
+              size={28}
+              color="#FFFFFF"
+              strokeWidth={2}
+            />
+          </View>
 
           {/* Category Name */}
           <Text style={[styles.categoryName, { color: "#FFFFFF" }]}>
@@ -105,7 +114,12 @@ export function ExploreScreen() {
           {/* Premium Lock - Show for non-premium users on non-general categories */}
           {!canAccess && (
             <View style={styles.lockContainer}>
-              <Text style={styles.lockIcon}>🔒</Text>
+              <IconSymbol
+                name="lock"
+                size={12}
+                color="#FFFFFF"
+                strokeWidth={2}
+              />
             </View>
           )}
 
@@ -243,9 +257,8 @@ const styles = StyleSheet.create({
     padding: 16,
     justifyContent: "space-between",
   },
-  categoryIcon: {
-    fontSize: 32,
-    textAlign: "center",
+  categoryIconContainer: {
+    alignItems: "center",
     marginBottom: 8,
   },
   categoryName: {
@@ -270,9 +283,6 @@ const styles = StyleSheet.create({
     height: 24,
     justifyContent: "center",
     alignItems: "center",
-  },
-  lockIcon: {
-    fontSize: 12,
   },
   freeBadge: {
     position: "absolute",

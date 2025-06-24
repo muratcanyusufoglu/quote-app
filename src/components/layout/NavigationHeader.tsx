@@ -1,19 +1,21 @@
 import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTheme } from "../../utils/ThemeContext";
+
+// Navigation items with icon names for IconSymbol
+const navigationItems = [
+  { route: "/(tabs)/", icon: "home", label: "Ana Sayfa" },
+  { route: "/(tabs)/explore", icon: "search", label: "Keşfet" },
+  { route: "/(tabs)/favorites", icon: "heart", label: "Favoriler" },
+  { route: "/(tabs)/history", icon: "clock", label: "Geçmiş" },
+];
 
 interface NavigationHeaderProps {
   title: string;
   currentRoute?: string;
 }
-
-const navigationItems = [
-  { route: "/(tabs)/", icon: "🏠", label: "Ana Sayfa" },
-  { route: "/(tabs)/explore", icon: "🔍", label: "Keşfet" },
-  { route: "/(tabs)/favorites", icon: "❤️", label: "Favoriler" },
-  { route: "/(tabs)/history", icon: "📚", label: "Geçmiş" },
-];
 
 export function NavigationHeader({
   title,
@@ -42,7 +44,16 @@ export function NavigationHeader({
               ]}
               onPress={() => navigateToRoute(item.route)}
             >
-              <Text style={styles.navIcon}>{item.icon}</Text>
+              <IconSymbol
+                name={item.icon as any}
+                size={18}
+                color={
+                  currentRoute === item.route
+                    ? "#FFFFFF"
+                    : theme.colors.textSecondary
+                }
+                strokeWidth={2}
+              />
             </TouchableOpacity>
           ))}
         </View>
@@ -89,8 +100,5 @@ const createStyles = (theme: any) =>
     activeNavButton: {
       backgroundColor: theme.colors.primary,
       opacity: 1,
-    },
-    navIcon: {
-      fontSize: 18,
     },
   });

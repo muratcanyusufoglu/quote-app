@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { onboardingQuestions } from "../../data/onboardingQuestions";
 import { useOnboardingActions } from "../../store/useOnboardingStore";
@@ -121,10 +122,19 @@ export function OnboardingScreen() {
   const renderIntroScreen = () => (
     <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
       <View style={styles.introContainer}>
-        <Text style={styles.welcomeEmoji}>✨</Text>
-        <Text style={[styles.welcomeTitle, { color: theme.colors.text }]}>
-          Hoş Geldiniz!
-        </Text>
+        <View style={styles.welcomeContainer}>
+          <View style={styles.welcomeIconContainer}>
+            <IconSymbol
+              name="star"
+              size={48}
+              color={theme.colors.primary}
+              strokeWidth={2}
+            />
+          </View>
+          <Text style={[styles.welcomeTitle, { color: theme.colors.text }]}>
+            Hoş Geldiniz!
+          </Text>
+        </View>
         <Text
           style={[
             styles.welcomeSubtitle,
@@ -223,7 +233,7 @@ export function OnboardingScreen() {
           <TouchableOpacity
             key={option.id}
             style={[
-              styles.optionButton,
+              styles.option,
               {
                 backgroundColor: isSelected
                   ? theme.colors.primary
@@ -234,9 +244,13 @@ export function OnboardingScreen() {
               },
             ]}
             onPress={() => handleAnswer(question.id, option.value)}
-            activeOpacity={0.8}
           >
-            <Text style={styles.optionIcon}>{option.icon}</Text>
+            <IconSymbol
+              name={option.icon as any}
+              size={32}
+              color={isSelected ? "#FFFFFF" : theme.colors.primary}
+              strokeWidth={2}
+            />
             <Text
               style={[
                 styles.optionText,
@@ -263,13 +277,13 @@ export function OnboardingScreen() {
           <TouchableOpacity
             key={option.id}
             style={[
-              styles.multiOptionButton,
+              styles.multiOption,
               {
                 backgroundColor: isSelected
-                  ? theme.colors.secondary
+                  ? theme.colors.primary
                   : theme.colors.surface,
                 borderColor: isSelected
-                  ? theme.colors.secondary
+                  ? theme.colors.primary
                   : theme.colors.border,
               },
             ]}
@@ -279,9 +293,13 @@ export function OnboardingScreen() {
                 : [...selectedOptions, option.value];
               handleAnswer(question.id, newSelected);
             }}
-            activeOpacity={0.8}
           >
-            <Text style={styles.multiOptionIcon}>{option.icon}</Text>
+            <IconSymbol
+              name={option.icon as any}
+              size={24}
+              color={isSelected ? "#FFFFFF" : theme.colors.primary}
+              strokeWidth={2}
+            />
             <Text
               style={[
                 styles.multiOptionText,
@@ -292,7 +310,6 @@ export function OnboardingScreen() {
             >
               {option.label}
             </Text>
-            {isSelected && <Text style={styles.checkIcon}>✓</Text>}
           </TouchableOpacity>
         );
       })}
@@ -616,9 +633,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 40,
   },
-  welcomeEmoji: {
-    fontSize: 64,
+  welcomeContainer: {
+    flexDirection: "row",
+    alignItems: "center",
     marginBottom: 24,
+  },
+  welcomeIconContainer: {
+    marginRight: 16,
   },
   welcomeTitle: {
     fontSize: 32,
@@ -701,7 +722,7 @@ const styles = StyleSheet.create({
   optionsContainer: {
     paddingVertical: 20,
   },
-  optionButton: {
+  option: {
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: 20,
@@ -718,17 +739,13 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
   },
-  optionIcon: {
-    fontSize: 24,
-    marginRight: 16,
-  },
   optionText: {
     fontSize: 16,
     fontWeight: "600",
     flex: 1,
   },
   // Multiple Choice
-  multiOptionButton: {
+  multiOption: {
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: 16,
@@ -745,19 +762,10 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 2,
   },
-  multiOptionIcon: {
-    fontSize: 20,
-    marginRight: 12,
-  },
   multiOptionText: {
     fontSize: 14,
     fontWeight: "500",
     flex: 1,
-  },
-  checkIcon: {
-    fontSize: 16,
-    color: "#FFFFFF",
-    fontWeight: "700",
   },
   // Slider
   sliderContainer: {

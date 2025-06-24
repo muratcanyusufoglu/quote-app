@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useStoryReading } from "../../hooks/usePurchase";
 import { useQuoteDetail } from "../../hooks/useQuoteService";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
@@ -140,7 +141,12 @@ const QuoteDetailScreen: React.FC = () => {
             style={styles.favoriteButton}
             onPress={handleFavoritePress}
           >
-            <Text style={styles.favoriteIcon}>{isFavorite ? "❤️" : "🤍"}</Text>
+            <IconSymbol
+              name="heart"
+              size={18}
+              color={isFavorite ? "#ff6b6b" : "rgba(255, 255, 255, 0.8)"}
+              strokeWidth={isFavorite ? 3 : 2}
+            />
           </TouchableOpacity>
         </View>
 
@@ -170,9 +176,17 @@ const QuoteDetailScreen: React.FC = () => {
             <View style={styles.storyHeader}>
               <Text style={styles.storyTitle}>{quote.story.title}</Text>
               <View style={styles.storyMeta}>
-                <Text style={styles.storyReadTime}>
-                  📖 {quote.story.readTime} dk okuma
-                </Text>
+                <View style={styles.storyReadTimeContainer}>
+                  <IconSymbol
+                    name="book"
+                    size={14}
+                    color={theme.colors.textSecondary}
+                    strokeWidth={2}
+                  />
+                  <Text style={styles.storyReadTime}>
+                    {quote.story.readTime} dk okuma
+                  </Text>
+                </View>
                 {!storyReading.isPremium && (
                   <Text style={styles.remainingReads}>
                     Bugün {storyReading.remainingReads} hikaye kaldı
@@ -196,7 +210,12 @@ const QuoteDetailScreen: React.FC = () => {
               </View>
             ) : (
               <View style={styles.premiumLockContainer}>
-                <Text style={styles.premiumLockIcon}>🔒</Text>
+                <IconSymbol
+                  name="lock"
+                  size={32}
+                  color={theme.colors.textSecondary}
+                  strokeWidth={2}
+                />
                 <Text style={styles.premiumLockText}>
                   Bu hikaye Premium üyelikle kullanılabilir
                 </Text>
@@ -317,9 +336,6 @@ const createStyles = (theme: any) =>
       borderRadius: 20,
       backgroundColor: theme.colors.surface,
     },
-    favoriteIcon: {
-      fontSize: 20,
-    },
     quoteContainer: {
       padding: 24,
       borderRadius: 16,
@@ -399,9 +415,14 @@ const createStyles = (theme: any) =>
       justifyContent: "space-between",
       alignItems: "center",
     },
+    storyReadTimeContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+    },
     storyReadTime: {
       fontSize: theme.typography.fontSize.sm,
       color: theme.colors.textSecondary,
+      marginLeft: theme.spacing.xs,
     },
     remainingReads: {
       fontSize: theme.typography.fontSize.sm,

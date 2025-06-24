@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedQuote } from "../../types";
 import { getCategoryColor } from "../../utils/categoryColors";
 import { QuoteActions } from "./QuoteActions";
@@ -51,7 +52,7 @@ export function QuoteReelCard({
         style={styles.exploreButton}
         onPress={navigateToExplore}
       >
-        <Text style={styles.exploreIcon}>🔍</Text>
+        <IconSymbol name="search" size={20} color="#FFFFFF" strokeWidth={2} />
       </TouchableOpacity>
 
       {/* Content Container */}
@@ -70,7 +71,29 @@ export function QuoteReelCard({
 
       {/* Navigation Help Text */}
       <View style={styles.helpContainer}>
-        <Text style={styles.helpText}>🔍 Explore • ❤️ Favorite • 📤 Share</Text>
+        <View style={styles.helpTextContainer}>
+          <IconSymbol
+            name="search"
+            size={10}
+            color="rgba(255, 255, 255, 0.7)"
+            strokeWidth={2}
+          />
+          <Text style={styles.helpTextSeparator}>Explore • </Text>
+          <IconSymbol
+            name="heart"
+            size={10}
+            color="rgba(255, 255, 255, 0.7)"
+            strokeWidth={2}
+          />
+          <Text style={styles.helpTextSeparator}>Favorite • </Text>
+          <IconSymbol
+            name="square.and.arrow.up"
+            size={10}
+            color="rgba(255, 255, 255, 0.7)"
+            strokeWidth={2}
+          />
+          <Text style={styles.helpText}>Share</Text>
+        </View>
       </View>
     </TouchableOpacity>
   );
@@ -99,9 +122,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     zIndex: 10,
   },
-  exploreIcon: {
-    fontSize: 24,
-  },
   // Content
   contentContainer: {
     flex: 1,
@@ -120,13 +140,21 @@ const styles = StyleSheet.create({
     right: 0,
     alignItems: "center",
   },
-  helpText: {
-    fontSize: 12,
-    color: "rgba(255, 255, 255, 0.7)",
+  helpTextContainer: {
+    flexDirection: "row",
+    alignItems: "center",
     backgroundColor: "rgba(0, 0, 0, 0.3)",
     paddingHorizontal: 16,
     paddingVertical: 6,
     borderRadius: 12,
-    textAlign: "center",
+  },
+  helpTextSeparator: {
+    fontSize: 12,
+    color: "rgba(255, 255, 255, 0.7)",
+    marginHorizontal: 4,
+  },
+  helpText: {
+    fontSize: 12,
+    color: "rgba(255, 255, 255, 0.7)",
   },
 });
