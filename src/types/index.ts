@@ -77,6 +77,14 @@ export interface UserPreferences {
   topics: string[];
   frequency: "daily" | "weekly" | "occasional";
   preferredLanguages: ("en" | "tr")[];
+
+  // New fields for enhanced personalization
+  purpose: "motivation" | "learning" | "relaxation" | "growth" | "inspiration";
+  notificationCount: number; // Daily notification count (1-10)
+  notificationTimeRange: {
+    start: string; // Format: "HH:mm" (e.g., "09:00")
+    end: string; // Format: "HH:mm" (e.g., "18:00")
+  };
 }
 
 export interface OnboardingQuestion {

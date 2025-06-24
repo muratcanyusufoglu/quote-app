@@ -94,6 +94,14 @@ const useOnboardingStore = create<OnboardingStore>()(
           topics: [],
           frequency: "daily",
           preferredLanguages: [systemLanguage], // Include system language
+
+          // New fields with default values
+          purpose: "motivation",
+          notificationCount: 3,
+          notificationTimeRange: {
+            start: "09:00",
+            end: "18:00",
+          },
         };
 
         // Process each answer to build preferences
@@ -149,6 +157,12 @@ const useOnboardingStore = create<OnboardingStore>()(
                         growth: ["gelisim"],
                         peace: ["huzur"],
                         strength: ["guc"],
+                        creativity: ["yaraticilik"],
+                        leadership: ["liderlik"],
+                        courage: ["cesaret"],
+                        resilience: ["dayaniklilik"],
+                        gratitude: ["sukur"],
+                        mindfulness: ["farkindalik"],
                       }
                     : {
                         success: ["success", "motivation"],
@@ -158,6 +172,12 @@ const useOnboardingStore = create<OnboardingStore>()(
                         growth: ["growth"],
                         peace: ["peace"],
                         strength: ["strength"],
+                        creativity: ["creativity"],
+                        leadership: ["leadership"],
+                        courage: ["courage"],
+                        resilience: ["resilience"],
+                        gratitude: ["gratitude"],
+                        mindfulness: ["mindfulness"],
                       };
 
                 const selectedCategories: string[] = [];
@@ -191,18 +211,84 @@ const useOnboardingStore = create<OnboardingStore>()(
               }
               break;
 
+            // New question handlers
+            case "purpose":
+              if (typeof answer.value === "string") {
+                preferences.purpose = answer.value as
+                  | "motivation"
+                  | "learning"
+                  | "relaxation"
+                  | "growth"
+                  | "inspiration";
+              }
+              break;
+
+            case "notification_count":
+              if (typeof answer.value === "number") {
+                preferences.notificationCount = Math.max(
+                  1,
+                  Math.min(10, answer.value)
+                );
+              } else if (typeof answer.value === "string") {
+                const count = parseInt(answer.value, 10);
+                if (!isNaN(count)) {
+                  preferences.notificationCount = Math.max(
+                    1,
+                    Math.min(10, count)
+                  );
+                }
+              }
+              break;
+
+            case "notification_time_range":
+              if (
+                typeof answer.value === "object" &&
+                answer.value !== null &&
+                !Array.isArray(answer.value)
+              ) {
+                const timeRange = answer.value as {
+                  start: string;
+                  end: string;
+                };
+                if (timeRange.start && timeRange.end) {
+                  preferences.notificationTimeRange = {
+                    start: timeRange.start,
+                    end: timeRange.end,
+                  };
+                }
+              }
+              break;
+
             default:
               // Handle other question types
               break;
           }
         });
 
-        // Ensure at least some default categories are selected based on language
+        // Ensure at least some default categories are selected based on language and purpose
         if (preferences.selectedCategories.length === 0) {
+          const defaultCategoriesByPurpose =
+            systemLanguage === "tr"
+              ? {
+                  motivation: ["motivasyon", "basari", "cesaret"],
+                  learning: ["bilgelik", "gelisim", "egitim"],
+                  relaxation: ["huzur", "farkindalik", "denge"],
+                  growth: ["gelisim", "bilgelik", "liderlik"],
+                  inspiration: ["motivasyon", "yaraticilik", "hayaller"],
+                }
+              : {
+                  motivation: ["motivation", "success", "courage"],
+                  learning: ["wisdom", "growth", "education"],
+                  relaxation: ["peace", "mindfulness", "balance"],
+                  growth: ["growth", "wisdom", "leadership"],
+                  inspiration: ["motivation", "creativity", "dreams"],
+                };
+
           preferences.selectedCategories =
-            preferences.language === "tr"
+            defaultCategoriesByPurpose[preferences.purpose] ||
+            (systemLanguage === "tr"
               ? ["motivasyon", "basari", "mutluluk"]
-              : ["motivation", "success", "happiness"];
+              : ["motivation", "success", "happiness"]);
         }
 
         set({ userPreferences: preferences });
@@ -322,6 +408,14 @@ const useOnboardingStore = create<OnboardingStore>()(
               topics: ["success", "happiness", "wisdom"],
               frequency: "daily",
               preferredLanguages: [systemLanguage],
+
+              // New fields with default values
+              purpose: "motivation",
+              notificationCount: 3,
+              notificationTimeRange: {
+                start: "09:00",
+                end: "18:00",
+              },
             };
             state.userPreferences = defaultPreferences;
             console.log(

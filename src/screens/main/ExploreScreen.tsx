@@ -1,6 +1,7 @@
 import { router } from "expo-router";
 import React from "react";
 import {
+  Alert,
   Dimensions,
   FlatList,
   StyleSheet,
@@ -36,12 +37,35 @@ export function ExploreScreen() {
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
-  // Categories
-  const { availableCategories, premiumCategories } = useQuoteCategories();
+  // Categories - Show ALL categories to everyone
+  const { availableCategories } = useQuoteCategories();
 
   const handleCategoryPress = (categoryId: string) => {
+    // Check if user can access this category
+    const isGeneralCategory =
+      categoryId.toLowerCase() === "general" ||
+      categoryId.toLowerCase() === "genel";
+
+    if (!isPremium && !isGeneralCategory) {
+      // Show premium required alert
+      Alert.alert(
+        "Premium Gerekli",
+        "Bu kategoriye erişmek için premium üyelik gereklidir. Premium olmak ister misiniz?",
+        [
+          { text: "İptal", style: "cancel" },
+          {
+            text: "Premium Ol",
+            onPress: () => {
+              // Navigate to purchase screen
+              router.push("/purchase" as any);
+            },
+          },
+        ]
+      );
+      return;
+    }
+
     // Navigate to home page with selected category
-    // You can pass the category as a parameter or set it in a store
     router.push({
       pathname: "/(tabs)",
       params: { selectedCategory: categoryId },
@@ -49,10 +73,10 @@ export function ExploreScreen() {
   };
 
   const renderCategoryCard = ({ item: category }: { item: any }) => {
-    const isPremiumCategory = premiumCategories.some(
-      (cat) => cat.id === category.id
-    );
-    const canAccess = isPremium || !isPremiumCategory;
+    const isGeneralCategory =
+      category.id.toLowerCase() === "general" ||
+      category.id.toLowerCase() === "genel";
+    const canAccess = isPremium || isGeneralCategory;
     const categoryColor = getCategoryColor(category.id, isDark);
     const categoryIcon =
       categoryIcons[category.id as keyof typeof categoryIcons] || "💭";
@@ -62,11 +86,11 @@ export function ExploreScreen() {
         style={[
           styles.categoryCard,
           {
-            backgroundColor: canAccess ? categoryColor : theme.colors.surface,
-            opacity: canAccess ? 1 : 0.6,
+            backgroundColor: categoryColor,
+            opacity: canAccess ? 1 : 0.7,
           },
         ]}
-        onPress={() => canAccess && handleCategoryPress(category.id)}
+        onPress={() => handleCategoryPress(category.id)}
         activeOpacity={0.8}
       >
         <View style={styles.categoryCardContent}>
@@ -74,19 +98,21 @@ export function ExploreScreen() {
           <Text style={styles.categoryIcon}>{categoryIcon}</Text>
 
           {/* Category Name */}
-          <Text
-            style={[
-              styles.categoryName,
-              { color: canAccess ? "#FFFFFF" : theme.colors.textSecondary },
-            ]}
-          >
+          <Text style={[styles.categoryName, { color: "#FFFFFF" }]}>
             {category.name}
           </Text>
 
-          {/* Premium Lock */}
+          {/* Premium Lock - Show for non-premium users on non-general categories */}
           {!canAccess && (
             <View style={styles.lockContainer}>
               <Text style={styles.lockIcon}>🔒</Text>
+            </View>
+          )}
+
+          {/* Free badge for general category */}
+          {isGeneralCategory && (
+            <View style={styles.freeBadge}>
+              <Text style={styles.freeBadgeText}>ÜCRETSİZ</Text>
             </View>
           )}
 
@@ -95,11 +121,7 @@ export function ExploreScreen() {
             <Text
               style={[
                 styles.categoryDescription,
-                {
-                  color: canAccess
-                    ? "rgba(255,255,255,0.9)"
-                    : theme.colors.textTertiary,
-                },
+                { color: "rgba(255,255,255,0.9)" },
               ]}
             >
               {category.description}
@@ -140,7 +162,9 @@ export function ExploreScreen() {
           <Text
             style={[styles.subtitle, { color: theme.colors.textSecondary }]}
           >
-            İlginizi çeken bir kategori seçin
+            {isPremium
+              ? "İstediğiniz kategoriyi seçebilirsiniz"
+              : "Premium üyelikle tüm kategorilere erişebilirsiniz"}
           </Text>
         </View>
 
@@ -240,7 +264,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 8,
     right: 8,
-    backgroundColor: "rgba(0,0,0,0.3)",
+    backgroundColor: "rgba(0,0,0,0.4)",
     borderRadius: 12,
     width: 24,
     height: 24,
@@ -249,5 +273,19 @@ const styles = StyleSheet.create({
   },
   lockIcon: {
     fontSize: 12,
+  },
+  freeBadge: {
+    position: "absolute",
+    top: 8,
+    right: 8,
+    backgroundColor: "rgba(16, 185, 129, 0.9)",
+    borderRadius: 8,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+  },
+  freeBadgeText: {
+    fontSize: 8,
+    color: "#FFFFFF",
+    fontWeight: "700",
   },
 });
