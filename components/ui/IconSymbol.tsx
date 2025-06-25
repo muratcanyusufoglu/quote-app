@@ -7,6 +7,7 @@ import {
   BookOpen,
   Brain,
   Briefcase,
+  Calendar,
   Check,
   ChevronDown,
   ChevronRight,
@@ -17,7 +18,6 @@ import {
   Cpu,
   Crown,
   Download,
-  Dumbbell,
   Eye,
   EyeOff,
   Filter,
@@ -119,9 +119,9 @@ const ICON_MAPPING = {
   "tree-pine": TreePine,
   cpu: Cpu,
   hourglass: Hourglass,
-  dumbbell: Dumbbell,
   moon: Moon,
   sunrise: Sunrise,
+  calendar: Calendar,
 } as const;
 
 export type IconName = keyof typeof ICON_MAPPING;
@@ -146,8 +146,18 @@ export function IconSymbol({
   const IconComponent = ICON_MAPPING[name];
 
   if (!IconComponent) {
-    console.warn(`Icon "${name}" not found in IconSymbol mapping`);
-    return null;
+    console.warn(`❌ Icon "${name}" not found in IconSymbol mapping`);
+    console.log("Available icons:", Object.keys(ICON_MAPPING));
+    // Return a fallback icon instead of null
+    const FallbackIcon = ICON_MAPPING["star"];
+    return (
+      <FallbackIcon
+        size={size}
+        color={color}
+        strokeWidth={strokeWidth}
+        style={style}
+      />
+    );
   }
 
   return (

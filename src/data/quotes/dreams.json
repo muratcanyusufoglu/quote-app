@@ -31,6 +31,99 @@
           "readTime": 3
         }
       }
+    },
+    {
+      "id": "dream_002",
+      "texts": {
+        "en": "Your dreams are not too big. The world is just too small for the person you're becoming.",
+        "tr": "Hayalleriniz çok büyük değil. Dünya sadece olmaya başladığınız kişi için çok küçük."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": ["growth", "expansion", "potential"],
+        "tr": ["büyüme", "genişleme", "potansiyel"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_dream_002_en",
+          "title": "Outgrowing Your Current Reality",
+          "content": "This perspective shift changes everything. Instead of shrinking your dreams to fit your current circumstances, recognize that you're expanding to match your vision. When your dreams feel impossibly big, it's often because you're growing into someone capable of achieving them. The discomfort you feel isn't a sign that your dreams are wrong—it's a sign that you're evolving beyond your current limitations. Trust the process of becoming.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_dream_002_tr",
+          "title": "Mevcut Gerçekliğinizi Aşmak",
+          "content": "Bu bakış açısı değişimi her şeyi değiştirir. Hayallerinizi mevcut koşullarınıza uydurmak yerine, vizyonunuzla eşleşmek için genişlediğinizi fark edin. Hayalleriniz imkansız derecede büyük hissettiğinde, çoğu zaman bunun nedeni onları başarabilecek birine dönüşüyor olmanızdır. Hissettiğiniz rahatsızlık hayallerinizin yanlış olduğunun işareti değil—mevcut sınırlarınızı aştığınızın işaretidir. Dönüşüm sürecine güvenin.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_003",
+      "texts": {
+        "en": "From 'The Alchemist': When you want something, all the universe conspires in helping you to achieve it.",
+        "tr": "'Simyacı'dan: Bir şeyi istediğinizde, tüm evren onu başarmanıza yardım etmek için komplo kurar."
+      },
+      "authors": {
+        "en": "Paulo Coelho",
+        "tr": "Paulo Coelho"
+      },
+      "category": "dreams",
+      "tags": {
+        "en": ["destiny", "universe", "manifestation"],
+        "tr": ["kader", "evren", "tezahür"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "id": "story_dream_003_en",
+          "title": "The Universe as Your Ally",
+          "content": "Paulo Coelho's beloved novel suggests that our deepest desires are not random whims, but part of a larger tapestry of existence. When you align with your true purpose, you begin to notice 'coincidences'—the right people appear, opportunities open up, resources become available. This isn't magic; it's the natural result of focused intention meeting preparation. When you're clear about your dreams and take consistent action toward them, you position yourself to recognize and seize the opportunities that were always there.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_dream_003_tr",
+          "title": "Müttefikiniz Olarak Evren",
+          "content": "Paulo Coelho'nun sevilen romanı, en derin arzularımızın rastgele kaprisler değil, varlığın daha büyük dokusunun bir parçası olduğunu öne sürer. Gerçek amacınızla uyum sağladığınızda, 'tesadüfleri' fark etmeye başlarsınız—doğru insanlar belirir, fırsatlar açılır, kaynaklar erişilebilir hale gelir. Bu sihir değil; odaklanmış niyetin hazırlıkla buluşmasının doğal sonucudur. Hayalleriniz konusunda net olduğunuzda ve onlara doğru tutarlı eylemler aldığınızda, kendinizi her zaman orada olan fırsatları tanımak ve yakalamak için konumlandırırsınız.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_004",
+      "texts": {
+        "en": "Don't just dream of success. Dream of the person you need to become to achieve that success, then become that person.",
+        "tr": "Sadece başarının hayalini kurmayın. O başarıyı elde etmek için olmanız gereken kişinin hayalini kurun, sonra o kişi olun."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": ["transformation", "identity", "growth mindset"],
+        "tr": ["dönüşüm", "kimlik", "büyüme zihniyeti"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "id": "story_dream_004_en",
+          "title": "Identity-Based Dreams",
+          "content": "The most powerful approach to achieving dreams isn't just visualizing the outcome—it's becoming the type of person who naturally achieves such outcomes. Ask yourself: What kind of person has the success you want? What are their habits, their mindset, their daily practices? Then start embodying those qualities today. When you focus on identity change rather than just outcome change, the results often follow naturally because you've become someone for whom such success is consistent with who you are.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_dream_004_tr",
+          "title": "Kimlik Temelli Hayaller",
+          "content": "Hayalleri gerçekleştirmenin en güçlü yaklaşımı sadece sonucu görselleştirmek değil—doğal olarak böyle sonuçlar elde eden türde bir kişi olmaktır. Kendinize sorun: İstediğiniz başarıya sahip olan kişi nasıl biri? Alışkanlıkları, zihniyeti, günlük pratikleri neler? Sonra bu nitelikleri bugün somutlaştırmaya başlayın. Sadece sonuç değişikliği yerine kimlik değişikliğine odaklandığınızda, sonuçlar çoğu zaman doğal olarak takip eder çünkü böyle bir başarının kim olduğunuzla tutarlı olduğu biri haline gelmiş olursunuz.",
+          "readTime": 3
+        }
+      }
     }
   ]
 }

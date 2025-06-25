@@ -31,6 +31,99 @@
           "readTime": 3
         }
       }
+    },
+    {
+      "id": "cour_002",
+      "texts": {
+        "en": "You don't have to be fearless. You just have to be brave enough to take the next step, even with shaking hands.",
+        "tr": "Korkusuz olmak zorunda değilsiniz. Sadece titreyen ellerle bile bir sonraki adımı atacak kadar cesur olmanız yeterli."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": ["fear", "action", "bravery"],
+        "tr": ["korku", "eylem", "cesaret"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_cour_002_en",
+          "title": "Courage with Trembling Hands",
+          "content": "True courage isn't the absence of fear—it's acting despite the fear. Your hands might shake, your voice might tremble, your heart might race, and that's perfectly okay. What matters is that you move forward anyway. Every brave person in history felt afraid at some point. The mother protecting her child, the activist standing up for justice, the artist sharing their work—they all had moments of doubt and fear. But they acted anyway, one trembling step at a time.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_cour_002_tr",
+          "title": "Titreyen Ellerle Cesaret",
+          "content": "Gerçek cesaret korkunun yokluğu değil—korkuya rağmen hareket etmektir. Elleriniz titreyebilir, sesiniz titreyebilir, kalbiniz hızla atabilir, ve bu tamamen normal. Önemli olan yine de ileriye doğru hareket etmeniz. Tarihteki her cesur insan bir noktada korku hissetti. Çocuğunu koruyan anne, adalet için ayağa kalkan aktivist, eserini paylaşan sanatçı—hepsinin şüphe ve korku anları oldu. Ama yine de hareket ettiler, titreyen bir adım seferde.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "cour_003",
+      "texts": {
+        "en": "From 'Big Magic': Do whatever brings you to life, then. Follow your own fascinations, obsessions, and compulsions. Trust them.",
+        "tr": "'Büyük Sihir'den: O halde sizi hayata döndüren ne varsa yapın. Kendi büyülenme, takıntı ve dürtülerinizi takip edin. Onlara güvenin."
+      },
+      "authors": {
+        "en": "Elizabeth Gilbert",
+        "tr": "Elizabeth Gilbert"
+      },
+      "category": "courage",
+      "tags": {
+        "en": ["passion", "creativity", "trust"],
+        "tr": ["tutku", "yaratıcılık", "güven"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "id": "story_cour_003_en",
+          "title": "Following Your Creative Courage",
+          "content": "Elizabeth Gilbert, author of 'Eat, Pray, Love,' reminds us that creativity requires courage. Your fascinations aren't random—they're breadcrumbs leading you toward your purpose. That hobby you can't stop thinking about, that project that excites you, that weird interest that makes you feel alive—these aren't distractions from your 'real' life. They are your real life calling to you. It takes courage to follow what lights you up, especially when others don't understand it.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_cour_003_tr",
+          "title": "Yaratıcı Cesaretin Peşinden Gitmek",
+          "content": "'Ye, Dua Et, Sev' yazarı Elizabeth Gilbert bize yaratıcılığın cesaret gerektirdiğini hatırlatır. Büyülenme durumlarınız rastgele değil—sizi amacınıza götüren ekmek kırıntılarıdır. Düşünmeyi bırakamadığınız o hobi, sizi heyecanlandıran o proje, sizi canlı hissettiren o tuhaf ilgi alanı—bunlar 'gerçek' hayatınızdan dikkat dağıtıcılar değil. Bunlar size seslenen gerçek hayatınızdır. Sizi aydınlatan şeyi takip etmek, özellikle başkaları anlamadığında cesaret gerektirir.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "cour_004",
+      "texts": {
+        "en": "Every expert was once a beginner. Every pro was once an amateur. Every icon was once an unknown.",
+        "tr": "Her uzman bir zamanlar acemiydi. Her profesyonel bir zamanlar amatördü. Her ikon bir zamanlar bilinmezdi."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": ["beginning", "growth", "perseverance"],
+        "tr": ["başlangıç", "büyüme", "azim"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_cour_004_en",
+          "title": "The Courage to Begin",
+          "content": "This simple truth is both humbling and empowering. It reminds us that everyone who has ever achieved anything started exactly where you are now—at the beginning. The painter who creates masterpieces once held a brush for the first time. The surgeon who saves lives once made their first incision. The entrepreneur who built an empire once had just an idea. What separates those who achieve their dreams from those who don't isn't talent or luck—it's the courage to begin and the persistence to continue.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_cour_004_tr",
+          "title": "Başlama Cesareti",
+          "content": "Bu basit gerçek hem alçakgönüllü hem de güçlendirici. Bize bir şey başarmış herkesin tam da sizin şu anda bulunduğunuz yerde—başlangıçta—başladığını hatırlatır. Şaheserler yaratan ressam bir zamanlar fırçayı ilk kez eline aldı. Hayat kurtaran cerrah bir zamanlar ilk ameliyatını yaptı. İmparatorluk kuran girişimci bir zamanlar sadece bir fikre sahipti. Hayallerini gerçekleştirenleri gerçekleştirmeyenlerden ayıran şey yetenek ya da şans değil—başlama cesareti ve devam etme azmidir.",
+          "readTime": 3
+        }
+      }
     }
   ]
 }
