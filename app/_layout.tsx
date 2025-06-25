@@ -4,7 +4,8 @@ import {
   ThemeProvider,
 } from "@react-navigation/native";
 import { useFonts } from "expo-font";
-import { Stack } from "expo-router";
+import * as Linking from "expo-linking";
+import { router, Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
@@ -65,6 +66,65 @@ export default function RootLayout() {
   const { showPaywall, markWelcomePaywallSeen } = usePaywallSelectors.actions();
   const hasSeenWelcome = usePaywallSelectors.hasSeenWelcome();
   const isCompleted = useOnboardingSelectors.isCompleted();
+
+  // Deep link handling for quote sharing
+  useEffect(() => {
+    const handleDeepLink = (url: string) => {
+      console.log("🔗 Deep link received:", url);
+
+      // Parse the URL for quote ID
+      const parsed = Linking.parse(url);
+      console.log("🔍 Parsed URL:", parsed);
+
+      // Handle quote:// scheme or https:// scheme
+      if (
+        parsed.hostname === "quote-detail" ||
+        parsed.path?.includes("/quote/")
+      ) {
+        let quoteId: string | null = null;
+
+        if (parsed.hostname === "quote-detail") {
+          // Handle quote://quote-detail/[id] format
+          quoteId = parsed.path?.replace("/", "") || null;
+        } else if (parsed.path?.includes("/quote/")) {
+          // Handle https://domain.com/quote/[id] format
+          const pathParts = parsed.path.split("/");
+          const quoteIndex = pathParts.indexOf("quote");
+          if (quoteIndex !== -1 && pathParts[quoteIndex + 1]) {
+            quoteId = pathParts[quoteIndex + 1];
+          }
+        }
+
+        if (quoteId) {
+          console.log("✅ Navigating to quote:", quoteId);
+          // Small delay to ensure app is ready
+          setTimeout(() => {
+            router.push(`/quote-detail/${quoteId}`);
+          }, 100);
+        } else {
+          console.warn("❌ Could not extract quote ID from URL:", url);
+        }
+      }
+    };
+
+    // Handle initial URL if app was opened via deep link
+    Linking.getInitialURL().then((url) => {
+      if (url) {
+        console.log("🚀 App opened with initial URL:", url);
+        handleDeepLink(url);
+      }
+    });
+
+    // Listen for deep links while app is running
+    const subscription = Linking.addEventListener("url", ({ url }) => {
+      console.log("📱 URL received while app running:", url);
+      handleDeepLink(url);
+    });
+
+    return () => {
+      subscription?.remove();
+    };
+  }, []);
 
   useEffect(() => {
     if (loaded) {

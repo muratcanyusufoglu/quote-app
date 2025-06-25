@@ -96,7 +96,8 @@ const ICON_MAPPING = {
   lock: Lock,
   "lock.open": Unlock,
   crown: Crown,
-  // Category icons
+
+  // Category icons - comprehensive mapping
   lightbulb: Lightbulb,
   "trending-up": TrendingUp,
   shield: Shield,

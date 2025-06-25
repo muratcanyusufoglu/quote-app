@@ -24,7 +24,7 @@ import {
 } from "../../store/usePurchaseStore";
 import { useHasHydrated } from "../../store/useQuoteStore";
 import { getCategoryColor } from "../../utils/categoryColors";
-import { categoryIcons } from "../../utils/theme";
+import { getCategoryIcon } from "../../utils/theme";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { width } = Dimensions.get("window");
@@ -51,6 +51,17 @@ export function ExploreScreen() {
   const common = useCommonTranslations();
 
   console.log("📋 All categories loaded:", allCategories.length);
+
+  // Debug: Log all categories and their icons
+  if (allCategories.length > 0) {
+    console.log("🎨 Category icon debugging:");
+    allCategories.forEach((category) => {
+      const iconName = getCategoryIcon(category.id);
+      console.log(
+        `  📁 ${category.id} -> ${iconName || `EMOJI: ${category.icon}`}`
+      );
+    });
+  }
 
   const handleCategoryPress = (categoryId: string) => {
     // Track user action for paywall trigger
@@ -80,9 +91,20 @@ export function ExploreScreen() {
       category.id.toLowerCase() === "genel";
     const canAccess = isPremium || isGeneralCategory;
     const categoryColor = getCategoryColor(category.id, isDark);
-    const categoryIconName =
-      categoryIcons[category.id as keyof typeof categoryIcons] ||
-      "message-circle";
+    const categoryIconName = getCategoryIcon(category.id);
+
+    // ENHANCED DEBUG: Let's see everything
+    console.log(`🔍 DEBUGGING CATEGORY: ${category.id}`);
+    console.log(`  → Icon mapping result: ${categoryIconName}`);
+    console.log(`  → Category emoji: ${category.icon}`);
+
+    // Test if the icon exists in IconSymbol
+    if (categoryIconName) {
+      console.log(`  → Testing icon "${categoryIconName}" in IconSymbol...`);
+      console.log(`🎯 Will render IconSymbol with name: ${categoryIconName}`);
+    } else {
+      console.log(`😀 Will render emoji fallback: ${category.icon}`);
+    }
 
     return (
       <TouchableOpacity
@@ -97,14 +119,18 @@ export function ExploreScreen() {
         activeOpacity={0.8}
       >
         <View style={styles.categoryCardContent}>
-          {/* Category Icon - Now using IconSymbol */}
+          {/* Category Icon - IconSymbol with emoji fallback */}
           <View style={styles.categoryIconContainer}>
-            <IconSymbol
-              name={categoryIconName as any}
-              size={28}
-              color="#FFFFFF"
-              strokeWidth={2}
-            />
+            {categoryIconName ? (
+              <IconSymbol
+                name={categoryIconName as any}
+                size={28}
+                color="#FFFFFF"
+                strokeWidth={2}
+              />
+            ) : (
+              <Text style={styles.categoryEmoji}>{category.icon || "💭"}</Text>
+            )}
           </View>
 
           {/* Category Name */}
@@ -303,5 +329,9 @@ const styles = StyleSheet.create({
     fontSize: 8,
     color: "#FFFFFF",
     fontWeight: "700",
+  },
+  categoryEmoji: {
+    fontSize: 28,
+    textAlign: "center",
   },
 });

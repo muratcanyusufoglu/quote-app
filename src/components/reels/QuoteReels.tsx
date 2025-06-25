@@ -1,9 +1,11 @@
 import { router } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
+  Alert,
   Dimensions,
   FlatList,
   RefreshControl,
+  Share,
   StyleSheet,
   View,
 } from "react-native";
@@ -181,9 +183,34 @@ export function QuoteReels({
     [favoriteQuotes, addToFavorites, removeFromFavorites]
   );
 
-  const handleShare = useCallback((quote: LocalizedQuote) => {
-    // TODO: Implement share functionality
-    console.log("Sharing quote:", quote.text);
+  const handleShare = useCallback(async (quote: LocalizedQuote) => {
+    try {
+      // Create deep link URL for the quote
+      const deepLinkUrl = `quote://quote-detail/${quote.id}`;
+      const webUrl = `https://quote-app.com/quote/${quote.id}`; // Replace with your actual web domain
+
+      // Create formatted share message
+      const shareMessage = `"${quote.text}"${
+        quote.author ? `\n\n— ${quote.author}` : ""
+      }\n\n📱 Open in Quote App: ${deepLinkUrl}\n🌐 View online: ${webUrl}`;
+
+      // Use React Native Share API
+      const result = await Share.share({
+        title: "Inspiring Quote",
+        message: shareMessage,
+      });
+
+      if (result.action === Share.sharedAction) {
+        console.log("✅ Quote shared successfully");
+      }
+    } catch (error) {
+      console.error("❌ Error sharing quote:", error);
+
+      // Show user-friendly error
+      Alert.alert("Share Failed", "Unable to share quote. Please try again.", [
+        { text: "OK" },
+      ]);
+    }
   }, []);
 
   const handleViewableItemsChanged = useCallback(

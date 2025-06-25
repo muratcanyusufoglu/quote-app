@@ -293,82 +293,133 @@ export const getCategoryColorForTheme = (
   return baseColor;
 };
 
-// Lucide icon mappings for categories - smooth, minimal icons
+// Lucide icon mappings for categories - exact matches with IconSymbol ICON_MAPPING
 export const categoryIcons = {
-  motivation: "star",
+  // Basic categories
+  general: "message-circle", // ✅ exists in ICON_MAPPING
+  genel: "message-circle",
+
+  // Motivation & Success
+  motivation: "star", // ✅ exists
   motivasyon: "star",
-  success: "crown",
+  success: "crown", // ✅ exists
   basari: "crown",
-  wisdom: "book",
+  inspiration: "lightbulb", // ✅ exists
+  ilham: "lightbulb",
+
+  // Knowledge & Learning
+  wisdom: "book", // ✅ exists
   bilgelik: "book",
-  happiness: "heart",
+  education: "graduation-cap", // ✅ exists (note the dash!)
+  egitim: "graduation-cap",
+
+  // Emotions & Feelings
+  happiness: "heart", // ✅ exists
   mutluluk: "heart",
-  love: "heart",
+  love: "heart", // ✅ exists
   ask: "heart",
+  gratitude: "gift", // ✅ exists
+  sukur: "gift",
+
+  // Personal Development
+  growth: "trending-up", // ✅ exists (note the dash!)
+  gelisim: "trending-up",
+  creativity: "palette", // ✅ exists
+  yaraticilik: "palette",
+  leadership: "crown", // ✅ exists
+  liderlik: "crown",
+  mindfulness: "brain", // ✅ exists
+  farkindalik: "brain",
+
+  // Strength & Resilience
+  courage: "shield", // ✅ exists
+  cesaret: "shield",
+  resilience: "mountain", // ✅ exists
+  dayaniklilik: "mountain",
+
+  // Peace & Balance
+  peace: "heart", // ✅ exists
+  huzur: "heart",
+  balance: "scale", // ✅ exists
+  denge: "scale",
+  spirituality: "church", // ✅ exists
+  maneviyat: "church",
+
+  // Dreams & Goals
+  dreams: "moon", // ✅ exists
+  hayaller: "moon",
+
+  // Relationships
+  friendship: "users", // ✅ exists
+  arkadaslik: "users",
+  family: "home", // ✅ exists
+  aile: "home",
+
+  // Health & Wellness
+  health: "heart-pulse", // ✅ exists (note the dash!)
+  saglik: "heart-pulse",
+
+  // Life & Change
+  change: "refresh-cw", // ✅ exists (note the dash!)
+  degisim: "refresh-cw",
+  time: "hourglass", // ✅ exists
+  zaman: "hourglass",
+  patience: "clock", // ✅ exists
+  sabir: "clock",
+
+  // Adventure & World
+  travel: "compass", // ✅ exists
+  seyahat: "compass",
+  nature: "tree-pine", // ✅ exists (note the dash!)
+  doga: "tree-pine",
+
+  // Technology
+  technology: "cpu", // ✅ exists
+  teknoloji: "cpu",
+
+  // Additional categories
   life: "tree-pine",
   hayat: "tree-pine",
-  inspiration: "lightbulb",
-  ilham: "lightbulb",
-  growth: "trending-up",
-  gelisim: "trending-up",
-  courage: "shield",
-  cesaret: "shield",
-  peace: "heart",
-  huzur: "heart",
-  strength: "zap",
+  strength: "zap", // ✅ exists
   guc: "zap",
-  dreams: "moon",
-  hayaller: "moon",
-  friendship: "users",
-  arkadaslik: "users",
-  family: "home",
-  aile: "home",
-  work: "briefcase",
+  work: "briefcase", // ✅ exists
   is: "briefcase",
-  health: "heart-pulse",
-  saglik: "heart-pulse",
-  education: "graduation-cap",
-  egitim: "graduation-cap",
-  creativity: "palette",
-  yaraticilik: "palette",
-  leadership: "crown",
-  liderlik: "crown",
-  spirituality: "church",
-  maneviyat: "church",
-  mindfulness: "brain",
-  farkindalik: "brain",
-  resilience: "mountain",
-  dayaniklilik: "mountain",
-  gratitude: "gift",
-  sukur: "gift",
-  change: "refresh-cw",
-  degisim: "refresh-cw",
-  adventure: "map",
+  adventure: "map", // ✅ exists
   macera: "map",
-  purpose: "target",
+  purpose: "target", // ✅ exists
   amac: "target",
-  balance: "scale",
-  denge: "scale",
   confidence: "zap",
   guven: "zap",
   forgiveness: "heart",
   affetme: "heart",
-  hope: "sunrise",
+  hope: "sunrise", // ✅ exists
   umut: "sunrise",
-  general: "message-circle",
-  genel: "message-circle",
-  // Additional popular categories
-  patience: "clock",
-  sabir: "clock",
-  travel: "compass",
-  seyahat: "compass",
-  nature: "tree-pine",
-  doga: "tree-pine",
-  technology: "cpu",
-  teknoloji: "cpu",
-  time: "hourglass",
-  zaman: "hourglass",
 } as const;
+
+// Helper function to get category icon with smart fallback
+export const getCategoryIcon = (categoryId: string): string | null => {
+  // Try exact match first
+  const exactIcon = categoryIcons[categoryId as keyof typeof categoryIcons];
+  if (exactIcon) {
+    console.log(`✅ Found exact icon for ${categoryId}: ${exactIcon}`);
+    return exactIcon;
+  }
+
+  // Try lowercase match
+  const lowerIcon =
+    categoryIcons[categoryId.toLowerCase() as keyof typeof categoryIcons];
+  if (lowerIcon) {
+    console.log(`✅ Found lowercase icon for ${categoryId}: ${lowerIcon}`);
+    return lowerIcon;
+  }
+
+  // Log missing icon for debugging
+  console.warn(`❌ Missing icon mapping for category: "${categoryId}"`);
+  console.log(`🔍 Available icons:`, Object.keys(categoryIcons));
+
+  // Return null so ExploreScreen can use emoji fallback
+  return null;
+};
 
 // Export current theme (this can be dynamic based on user preference)
 export const currentTheme = darkTheme;
