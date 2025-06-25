@@ -12,6 +12,10 @@ import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
+import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import {
@@ -41,6 +45,10 @@ export function ExploreScreen() {
 
   // Categories - Show ALL categories to everyone
   const { allCategories } = useQuoteCategories();
+
+  // Translations
+  const explore = useScreenTranslations("explore");
+  const common = useCommonTranslations();
 
   console.log("📋 All categories loaded:", allCategories.length);
 
@@ -113,14 +121,14 @@ export function ExploreScreen() {
                 color="#FFD700"
                 strokeWidth={2}
               />
-              <Text style={styles.premiumBadgeText}>PRO</Text>
+              <Text style={styles.premiumBadgeText}>{common.premium}</Text>
             </View>
           )}
 
           {/* Free badge for general category */}
           {isGeneralCategory && (
             <View style={styles.freeBadge}>
-              <Text style={styles.freeBadgeText}>ÜCRETSİZ</Text>
+              <Text style={styles.freeBadgeText}>{common.free}</Text>
             </View>
           )}
 
@@ -150,7 +158,7 @@ export function ExploreScreen() {
       <BaseScreen>
         <View style={styles.loadingContainer}>
           <Text style={[styles.loadingText, { color: theme.colors.text }]}>
-            Yükleniyor...
+            {common.loading}
           </Text>
         </View>
       </BaseScreen>
@@ -159,20 +167,18 @@ export function ExploreScreen() {
 
   return (
     <BaseScreen style={styles.container}>
-      <NavigationHeader title="Keşfet" currentRoute="/(tabs)/explore" />
+      <NavigationHeader title={explore.title} currentRoute="/(tabs)/explore" />
 
       <View style={styles.content}>
         {/* Header */}
         <View style={styles.headerContainer}>
           <Text style={[styles.title, { color: theme.colors.text }]}>
-            Kategoriler
+            {explore.categories}
           </Text>
           <Text
             style={[styles.subtitle, { color: theme.colors.textSecondary }]}
           >
-            {isPremium
-              ? "İstediğiniz kategoriyi seçebilirsiniz"
-              : "Premium kategorileri denemek için dokunun"}
+            {isPremium ? explore.subtitle_premium : explore.subtitle_free}
           </Text>
         </View>
 

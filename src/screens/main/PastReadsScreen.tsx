@@ -1,66 +1,77 @@
 import { router } from "expo-router";
 import React from "react";
-import { FlatList, StyleSheet, Text, View } from "react-native";
-import QuoteCard from "../../components/cards/QuoteCard";
+import {
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
+import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePurchaseHydrated } from "../../store/usePurchaseStore";
-import {
-  useActions,
-  useCurrentStreak,
-  useDailyReads,
-  useFavoriteQuotes,
-  useHasHydrated,
-  useLastReadQuotes,
-  useSeenQuotes,
-} from "../../store/useQuoteStore";
+import { useHasHydrated, useLastReadQuotes } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
-import { darkTheme } from "../../utils/theme";
+import { useTheme } from "../../utils/ThemeContext";
 
 export function PastReadsScreen() {
-  // Store data
-  const lastReadQuotes = useLastReadQuotes();
-  const seenQuotes = useSeenQuotes();
-  const favoriteQuotes = useFavoriteQuotes();
-  const dailyReads = useDailyReads();
-  const currentStreak = useCurrentStreak();
+  const { theme } = useTheme();
 
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
-  // Actions
-  const { markAsRead, addToFavorites, removeFromFavorites } = useActions();
+  // Get past read quotes
+  const lastReadQuotes = useLastReadQuotes();
+
+  // Translations
+  const history = useScreenTranslations("history");
+  const common = useCommonTranslations();
 
   const handleQuotePress = (quote: LocalizedQuote) => {
-    markAsRead(quote);
     router.push(`/quote-detail/${quote.id}`);
   };
 
-  const handleFavoritePress = (quoteId: string) => {
-    if (favoriteQuotes.includes(quoteId)) {
-      removeFromFavorites(quoteId);
-    } else {
-      addToFavorites(quoteId);
-    }
+  const handleStartReading = () => {
+    router.push("/(tabs)");
   };
 
-  const renderQuoteCard = ({
-    item,
-    index,
-  }: {
-    item: LocalizedQuote;
-    index: number;
-  }) => (
-    <View style={styles.quoteCardContainer}>
-      <QuoteCard
-        quote={item}
-        isFavorite={favoriteQuotes.includes(item.id)}
-        onPress={() => handleQuotePress(item)}
-        onFavoritePress={() => handleFavoritePress(item.id)}
-      />
+  const renderQuoteItem = ({ item: quote }: { item: LocalizedQuote }) => (
+    <TouchableOpacity
+      style={[styles.quoteCard, { backgroundColor: theme.colors.surface }]}
+      onPress={() => handleQuotePress(quote)}
+    >
+      <Text style={[styles.quoteText, { color: theme.colors.text }]}>
+        {quote.text}
+      </Text>
+      <Text style={[styles.quoteAuthor, { color: theme.colors.textSecondary }]}>
+        {quote.author}
+      </Text>
+    </TouchableOpacity>
+  );
+
+  const renderEmptyState = () => (
+    <View style={styles.emptyContainer}>
+      <Text style={[styles.emptyTitle, { color: theme.colors.text }]}>
+        {history.empty_title}
+      </Text>
+      <Text
+        style={[styles.emptyMessage, { color: theme.colors.textSecondary }]}
+      >
+        {history.empty_message}
+      </Text>
+      <TouchableOpacity
+        style={[styles.startButton, { backgroundColor: theme.colors.primary }]}
+        onPress={handleStartReading}
+      >
+        <Text style={styles.startButtonText}>{history.start_reading}</Text>
+      </TouchableOpacity>
     </View>
   );
 
@@ -73,7 +84,9 @@ export function PastReadsScreen() {
     return (
       <BaseScreen>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Loading...</Text>
+          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+            {common.loading}
+          </Text>
         </View>
       </BaseScreen>
     );
@@ -81,52 +94,20 @@ export function PastReadsScreen() {
 
   return (
     <BaseScreen style={styles.container}>
-      <NavigationHeader title="History" currentRoute="/(tabs)/history" />
+      <NavigationHeader title={history.title} currentRoute="/(tabs)/history" />
 
       <View style={styles.content}>
-        {/* Stats Section */}
-        <View style={styles.statsContainer}>
-          <View style={styles.statItem}>
-            <Text style={styles.statNumber}>{seenQuotes.length}</Text>
-            <Text style={styles.statLabel}>Total Read</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statNumber}>{dailyReads}</Text>
-            <Text style={styles.statLabel}>Today</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statNumber}>{currentStreak}</Text>
-            <Text style={styles.statLabel}>Day Streak</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statNumber}>{favoriteQuotes.length}</Text>
-            <Text style={styles.statLabel}>Favorites</Text>
-          </View>
-        </View>
-
-        {/* Recent Reads Section */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>
-            Recent Reads ({lastReadQuotes.length})
-          </Text>
-
-          {lastReadQuotes.length === 0 ? (
-            <View style={styles.emptyContainer}>
-              <Text style={styles.emptyTitle}>No reading history yet</Text>
-              <Text style={styles.emptyDescription}>
-                Start exploring quotes to build your reading history
-              </Text>
-            </View>
-          ) : (
-            <FlatList
-              data={lastReadQuotes}
-              renderItem={renderQuoteCard}
-              keyExtractor={(item) => item.id}
-              contentContainerStyle={styles.quotesListContainer}
-              showsVerticalScrollIndicator={false}
-            />
-          )}
-        </View>
+        {lastReadQuotes.length === 0 ? (
+          renderEmptyState()
+        ) : (
+          <FlatList
+            data={lastReadQuotes}
+            renderItem={renderQuoteItem}
+            keyExtractor={(item) => item.id}
+            showsVerticalScrollIndicator={false}
+            contentContainerStyle={styles.listContainer}
+          />
+        )}
       </View>
     </BaseScreen>
   );
@@ -138,6 +119,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
+    paddingHorizontal: 16,
   },
   loadingContainer: {
     flex: 1,
@@ -146,66 +128,61 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 18,
-    color: darkTheme.colors.textSecondary,
-  },
-  statsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    padding: 20,
-    marginHorizontal: 20,
-    backgroundColor: darkTheme.colors.surface,
-    borderRadius: 16,
-    marginBottom: 24,
-    marginTop: 20,
-  },
-  statItem: {
-    alignItems: "center",
-  },
-  statNumber: {
-    fontSize: 20,
-    fontWeight: "bold",
-    color: darkTheme.colors.primary,
-    marginBottom: 4,
-  },
-  statLabel: {
-    fontSize: 12,
-    color: darkTheme.colors.textSecondary,
+    fontWeight: "500",
     textAlign: "center",
   },
-  section: {
-    flex: 1,
-  },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: "600",
-    color: darkTheme.colors.text,
-    marginBottom: 16,
-    paddingHorizontal: 20,
-  },
-  quotesListContainer: {
-    paddingHorizontal: 20,
+  listContainer: {
+    paddingTop: 20,
     paddingBottom: 40,
   },
-  quoteCardContainer: {
+  quoteCard: {
+    padding: 20,
+    borderRadius: 16,
     marginBottom: 16,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  quoteText: {
+    fontSize: 16,
+    lineHeight: 24,
+    marginBottom: 12,
+  },
+  quoteAuthor: {
+    fontSize: 14,
+    fontStyle: "italic",
   },
   emptyContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 40,
+    paddingHorizontal: 32,
   },
   emptyTitle: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: "bold",
-    color: darkTheme.colors.text,
-    marginBottom: 8,
     textAlign: "center",
+    marginBottom: 16,
   },
-  emptyDescription: {
+  emptyMessage: {
     fontSize: 16,
-    color: darkTheme.colors.textSecondary,
     textAlign: "center",
-    lineHeight: 22,
+    lineHeight: 24,
+    marginBottom: 32,
+  },
+  startButton: {
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 24,
+  },
+  startButtonText: {
+    color: "#FFFFFF",
+    fontSize: 16,
+    fontWeight: "600",
   },
 });

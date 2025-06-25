@@ -2,15 +2,8 @@ import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useNavigationTranslations } from "../../hooks/useTranslation";
 import { useTheme } from "../../utils/ThemeContext";
-
-// Navigation items with icon names for IconSymbol
-const navigationItems = [
-  { route: "/(tabs)/", icon: "home", label: "Ana Sayfa" },
-  { route: "/(tabs)/explore", icon: "search", label: "Keşfet" },
-  { route: "/(tabs)/favorites", icon: "heart", label: "Favoriler" },
-  { route: "/(tabs)/history", icon: "clock", label: "Geçmiş" },
-];
 
 interface NavigationHeaderProps {
   title: string;
@@ -22,6 +15,15 @@ export function NavigationHeader({
   currentRoute,
 }: NavigationHeaderProps) {
   const { theme } = useTheme();
+  const navigation = useNavigationTranslations();
+
+  // Navigation items with translations
+  const navigationItems = [
+    { route: "/(tabs)/", icon: "home", label: navigation.home },
+    { route: "/(tabs)/explore", icon: "search", label: navigation.explore },
+    { route: "/(tabs)/favorites", icon: "heart", label: navigation.favorites },
+    { route: "/(tabs)/history", icon: "clock", label: navigation.history },
+  ];
 
   const navigateToRoute = (route: string) => {
     router.push(route as any);

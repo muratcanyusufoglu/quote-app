@@ -8,6 +8,10 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import {
+  useCommonTranslations,
+  usePaywallTranslations,
+} from "../../hooks/useTranslation";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { usePurchaseSelectors } from "../../store/usePurchaseStore";
 import { PaywallTriggerSource } from "../../types";
@@ -31,6 +35,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const isLoading = usePurchaseSelectors.isLoading();
   const { purchaseProduct } = usePurchaseSelectors.actions();
 
+  // Translations
+  const paywall = usePaywallTranslations();
+  const common = useCommonTranslations();
+
   console.log("💰 PaywallModal render:", {
     isVisible,
     triggerSource,
@@ -43,69 +51,69 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     switch (source) {
       case "welcome":
         return {
-          title: "Premium'a Hoş Geldiniz! 🎉",
-          subtitle: "Sınırsız quote deneyimini keşfedin",
+          title: paywall.welcome.title,
+          subtitle: paywall.welcome.subtitle,
           features: [
-            "Tüm kategorilere erişim",
-            "Sınırsız hikaye okuma",
-            "Kişiselleştirilmiş içerik",
-            "Günlük motivasyon bildirimleri",
-            "Favoriler ve geçmiş",
+            paywall.features.all_categories,
+            paywall.features.unlimited_stories,
+            paywall.features.personalized_content,
+            paywall.features.daily_notifications,
+            paywall.features.favorites_history,
           ],
           icon: "star",
-          buttonText: "Premium'ı Deneyin",
+          buttonText: paywall.welcome.button,
         };
       case "premium_category":
         return {
-          title: "Bu Kategori Premium 💎",
-          subtitle: "Bu kategorideki tüm quote'lara erişmek için Premium olun",
+          title: paywall.premiumCategory.title,
+          subtitle: paywall.premiumCategory.subtitle,
           features: [
-            "25+ premium kategori",
-            "Kişiselleştirilmiş deneyim",
-            "Sınırsız hikaye okuma",
-            "Reklamsız deneyim",
+            paywall.features.premium_categories,
+            paywall.features.personalized_experience,
+            paywall.features.unlimited_stories,
+            paywall.features.ad_free,
           ],
           icon: "lock",
-          buttonText: "Premium'a Yükselt",
+          buttonText: paywall.premiumCategory.button,
         };
       case "story_limit":
         return {
-          title: "Hikaye Limitiniz Doldu 📚",
-          subtitle: "Sınırsız hikaye okumak için Premium'a geçin",
+          title: paywall.storyLimit.title,
+          subtitle: paywall.storyLimit.subtitle,
           features: [
-            "Sınırsız hikaye okuma",
-            "Özel hikaye koleksiyonları",
-            "Sesli hikaye modu",
-            "Offline hikaye erişimi",
+            paywall.features.unlimited_stories,
+            paywall.features.story_collections,
+            paywall.features.audio_stories,
+            paywall.features.offline_access,
           ],
           icon: "book",
-          buttonText: "Sınırsız Hikayeleri Aç",
+          buttonText: paywall.storyLimit.button,
         };
       case "action_limit":
         return {
-          title: "Premium Deneyimi Yaşayın! ⚡",
-          subtitle: "Daha fazla özellik ve sınırsız erişim için",
+          title: paywall.actionLimit.title,
+          subtitle: paywall.actionLimit.subtitle,
           features: [
-            "Sınırsız quote erişimi",
-            "Premium kategoriler",
-            "Gelişmiş kişiselleştirme",
-            "Priortiy destek",
+            paywall.features.unlimited_access,
+            paywall.features.premium_categories,
+            paywall.features.advanced_personalization,
+            paywall.features.priority_support,
           ],
           icon: "zap",
-          buttonText: "Premium'a Başla",
+          buttonText: paywall.actionLimit.button,
         };
       default:
         return {
-          title: "Premium Özellikler 🚀",
-          subtitle: "En iyi quote deneyimini yaşayın",
+          title: paywall.default.title,
+          subtitle: paywall.default.subtitle,
           features: [
-            "Tüm premium özellikler",
-            "Sınırsız erişim",
-            "Kişisel asistan",
-            "VIP destek",
+            paywall.features.all_premium_features,
+            paywall.features.unlimited_everything,
+            paywall.features.personal_assistant,
+            paywall.features.vip_support,
           ],
           icon: "crown",
-          buttonText: "Premium Ol",
+          buttonText: paywall.default.button,
         };
     }
   };
@@ -119,10 +127,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const handlePurchase = async () => {
     try {
-      // Bu kısımda gerçek satın alma işlemi yapılacak
       console.log("💰 Starting purchase process...");
       onPurchase?.();
-      // Örnek: await purchaseProduct("premium_monthly");
     } catch (error) {
       console.error("Purchase failed:", error);
     }
@@ -187,12 +193,18 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             {/* Pricing */}
             <View style={styles.pricingContainer}>
               <View style={styles.priceRow}>
-                <Text style={styles.priceLabel}>Aylık</Text>
+                <Text style={styles.priceLabel}>{paywall.pricing.monthly}</Text>
                 <View style={styles.priceInfo}>
-                  <Text style={styles.oldPrice}>₺29.99</Text>
-                  <Text style={styles.newPrice}>₺19.99</Text>
+                  <Text style={styles.oldPrice}>
+                    {paywall.pricing.old_price}
+                  </Text>
+                  <Text style={styles.newPrice}>
+                    {paywall.pricing.new_price}
+                  </Text>
                   <View style={styles.discountBadge}>
-                    <Text style={styles.discountText}>33% İndirim</Text>
+                    <Text style={styles.discountText}>
+                      {paywall.pricing.discount}
+                    </Text>
                   </View>
                 </View>
               </View>
@@ -209,7 +221,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 disabled={isLoading}
               >
                 <Text style={styles.primaryButtonText}>
-                  {isLoading ? "İşleniyor..." : content.buttonText}
+                  {isLoading ? paywall.processing : content.buttonText}
                 </Text>
               </TouchableOpacity>
 
@@ -217,15 +229,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 style={styles.secondaryButton}
                 onPress={handleClose}
               >
-                <Text style={styles.secondaryButtonText}>Belki Sonra</Text>
+                <Text style={styles.secondaryButtonText}>
+                  {common.maybe_later}
+                </Text>
               </TouchableOpacity>
             </View>
 
             {/* Footer */}
             <View style={styles.footer}>
-              <Text style={styles.footerText}>
-                İstediğiniz zaman iptal edebilirsiniz • Güvenli ödeme
-              </Text>
+              <Text style={styles.footerText}>{paywall.footer}</Text>
             </View>
           </ScrollView>
         </View>

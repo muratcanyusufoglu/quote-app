@@ -1,82 +1,80 @@
 import { router } from "expo-router";
 import React from "react";
-import { FlatList, StyleSheet, Text, View } from "react-native";
-import QuoteCard from "../../components/cards/QuoteCard";
+import {
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
+import { useFavoriteQuotes } from "../../hooks/useQuoteService";
+import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePurchaseHydrated } from "../../store/usePurchaseStore";
-import {
-  useActions,
-  useFavoriteQuotes,
-  useHasHydrated,
-  useQuotes,
-} from "../../store/useQuoteStore";
-import { LocalizedQuote, Quote } from "../../types";
-import { darkTheme } from "../../utils/theme";
+import { useHasHydrated } from "../../store/useQuoteStore";
+import { LocalizedQuote } from "../../types";
+import { useTheme } from "../../utils/ThemeContext";
 
 export function FavoritesScreen() {
-  // Store data
-  const quotes = useQuotes();
-  const favoriteQuotes = useFavoriteQuotes();
+  const { theme } = useTheme();
 
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
-  // Actions
-  const { markAsRead, removeFromFavorites } = useActions();
+  // Get favorite quotes
+  const favoriteQuotes = useFavoriteQuotes();
 
-  // Get favorite quote objects
-  const favoriteQuoteObjects = quotes.filter((quote) =>
-    favoriteQuotes.includes(quote.id)
-  );
+  // Translations
+  const favorites = useScreenTranslations("favorites");
+  const common = useCommonTranslations();
 
-  const handleQuotePress = (quote: Quote) => {
-    // Convert Quote to LocalizedQuote for markAsRead
-    const localizedQuote: LocalizedQuote = {
-      id: quote.id,
-      text: quote.texts.tr,
-      author: quote.authors.tr,
-      category: quote.category,
-      tags: quote.tags.tr,
-      language: "tr",
-      readTime: quote.readTime,
-      story: quote.stories?.tr,
-    };
-    markAsRead(localizedQuote);
+  const handleQuotePress = (quote: LocalizedQuote) => {
     router.push(`/quote-detail/${quote.id}`);
   };
 
-  const handleFavoritePress = (quoteId: string) => {
-    removeFromFavorites(quoteId);
+  const handleBrowseQuotes = () => {
+    router.push("/(tabs)");
   };
 
-  const renderQuoteCard = ({ item, index }: { item: Quote; index: number }) => {
-    // Convert Quote to LocalizedQuote for QuoteCard
-    const localizedQuote: LocalizedQuote = {
-      id: item.id,
-      text: item.texts.tr,
-      author: item.authors.tr,
-      category: item.category,
-      tags: item.tags.tr,
-      language: "tr",
-      readTime: item.readTime,
-      story: item.stories?.tr,
-    };
+  const renderQuoteItem = ({ item: quote }: { item: LocalizedQuote }) => (
+    <TouchableOpacity
+      style={[styles.quoteCard, { backgroundColor: theme.colors.surface }]}
+      onPress={() => handleQuotePress(quote)}
+    >
+      <Text style={[styles.quoteText, { color: theme.colors.text }]}>
+        {quote.text}
+      </Text>
+      <Text style={[styles.quoteAuthor, { color: theme.colors.textSecondary }]}>
+        {quote.author}
+      </Text>
+    </TouchableOpacity>
+  );
 
-    return (
-      <View style={styles.quoteCardContainer}>
-        <QuoteCard
-          quote={localizedQuote}
-          isFavorite={true}
-          onPress={() => handleQuotePress(item)}
-          onFavoritePress={() => handleFavoritePress(item.id)}
-        />
-      </View>
-    );
-  };
+  const renderEmptyState = () => (
+    <View style={styles.emptyContainer}>
+      <Text style={[styles.emptyTitle, { color: theme.colors.text }]}>
+        {favorites.empty_title}
+      </Text>
+      <Text
+        style={[styles.emptyMessage, { color: theme.colors.textSecondary }]}
+      >
+        {favorites.empty_message}
+      </Text>
+      <TouchableOpacity
+        style={[styles.browseButton, { backgroundColor: theme.colors.primary }]}
+        onPress={handleBrowseQuotes}
+      >
+        <Text style={styles.browseButtonText}>{favorites.browse_quotes}</Text>
+      </TouchableOpacity>
+    </View>
+  );
 
   // Show loading while stores are hydrating
   if (
@@ -87,7 +85,9 @@ export function FavoritesScreen() {
     return (
       <BaseScreen>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Loading...</Text>
+          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+            {common.loading}
+          </Text>
         </View>
       </BaseScreen>
     );
@@ -95,31 +95,21 @@ export function FavoritesScreen() {
 
   return (
     <BaseScreen style={styles.container}>
-      <NavigationHeader title="Favorites" currentRoute="/(tabs)/favorites" />
+      <NavigationHeader
+        title={favorites.title}
+        currentRoute="/(tabs)/favorites"
+      />
 
       <View style={styles.content}>
-        <View style={styles.statsContainer}>
-          <Text style={styles.subtitle}>
-            {favoriteQuoteObjects.length} quote
-            {favoriteQuoteObjects.length !== 1 ? "s" : ""} saved
-          </Text>
-        </View>
-
-        {favoriteQuoteObjects.length === 0 ? (
-          <View style={styles.emptyContainer}>
-            <Text style={styles.emptyTitle}>No favorites yet</Text>
-            <Text style={styles.emptyDescription}>
-              Start exploring and tap the heart icon to save your favorite
-              quotes
-            </Text>
-          </View>
+        {favoriteQuotes.length === 0 ? (
+          renderEmptyState()
         ) : (
           <FlatList
-            data={favoriteQuoteObjects}
-            renderItem={renderQuoteCard}
+            data={favoriteQuotes}
+            renderItem={renderQuoteItem}
             keyExtractor={(item) => item.id}
-            contentContainerStyle={styles.quotesListContainer}
             showsVerticalScrollIndicator={false}
+            contentContainerStyle={styles.listContainer}
           />
         )}
       </View>
@@ -133,6 +123,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
+    paddingHorizontal: 16,
   },
   loadingContainer: {
     flex: 1,
@@ -141,41 +132,61 @@ const styles = StyleSheet.create({
   },
   loadingText: {
     fontSize: 18,
-    color: darkTheme.colors.textSecondary,
-  },
-  statsContainer: {
-    paddingHorizontal: 20,
-    paddingVertical: 16,
-  },
-  subtitle: {
-    fontSize: 16,
-    color: darkTheme.colors.textSecondary,
+    fontWeight: "500",
     textAlign: "center",
   },
-  quotesListContainer: {
-    paddingHorizontal: 20,
+  listContainer: {
+    paddingTop: 20,
     paddingBottom: 40,
   },
-  quoteCardContainer: {
+  quoteCard: {
+    padding: 20,
+    borderRadius: 16,
     marginBottom: 16,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  quoteText: {
+    fontSize: 16,
+    lineHeight: 24,
+    marginBottom: 12,
+  },
+  quoteAuthor: {
+    fontSize: 14,
+    fontStyle: "italic",
   },
   emptyContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 40,
+    paddingHorizontal: 32,
   },
   emptyTitle: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: "bold",
-    color: darkTheme.colors.text,
-    marginBottom: 8,
     textAlign: "center",
+    marginBottom: 16,
   },
-  emptyDescription: {
+  emptyMessage: {
     fontSize: 16,
-    color: darkTheme.colors.textSecondary,
     textAlign: "center",
-    lineHeight: 22,
+    lineHeight: 24,
+    marginBottom: 32,
+  },
+  browseButton: {
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 24,
+  },
+  browseButtonText: {
+    color: "#FFFFFF",
+    fontSize: 16,
+    fontWeight: "600",
   },
 });

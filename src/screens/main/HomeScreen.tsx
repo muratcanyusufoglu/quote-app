@@ -5,6 +5,10 @@ import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
 import { useExploreQuotes, useHomeQuotes } from "../../hooks/useQuoteService";
 import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
+import {
   useOnboardingActions,
   useOnboardingHydrated,
   useUserPreferences,
@@ -15,7 +19,7 @@ import {
   usePurchaseActions,
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
-import { useQuoteHydrated } from "../../store/useQuoteStore";
+import { useHasHydrated } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
 
@@ -28,7 +32,7 @@ export function HomeScreen() {
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
 
   // Store hydration checks
-  const quoteStoreHydrated = useQuoteHydrated();
+  const quoteStoreHydrated = useHasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
@@ -44,6 +48,10 @@ export function HomeScreen() {
 
   // Paywall tracking
   const { trackAction } = usePaywallSelectors.actions();
+
+  // Translations
+  const home = useScreenTranslations("home");
+  const common = useCommonTranslations();
 
   // Determine quote source based on user status and navigation source
   const getQuoteSource = () => {
@@ -136,7 +144,7 @@ export function HomeScreen() {
       <BaseScreen>
         <View style={styles.loadingContainer}>
           <Text style={[styles.loadingText, { color: theme.colors.text }]}>
-            Yükleniyor...
+            {common.loading}
           </Text>
         </View>
       </BaseScreen>
@@ -151,7 +159,7 @@ export function HomeScreen() {
           <Text style={[styles.errorText, { color: theme.colors.error }]}>
             {categoryFilter
               ? `"${categoryFilter}" kategorisinde quote bulunamadı`
-              : "Henüz quote bulunamadı"}
+              : home.no_quotes}
           </Text>
           <Text
             style={[styles.errorSubtext, { color: theme.colors.textSecondary }]}
@@ -357,7 +365,7 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
     shadowOpacity: 0.1,
     shadowRadius: 4,

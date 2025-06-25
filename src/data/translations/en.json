@@ -1,0 +1,159 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "free": "FREE",
+    "premium": "PRO",
+    "maybe_later": "Maybe Later"
+  },
+  "navigation": {
+    "home": "Home",
+    "explore": "Explore",
+    "favorites": "Favorites",
+    "history": "History"
+  },
+  "explore": {
+    "title": "Explore",
+    "categories": "Categories",
+    "subtitle_premium": "Choose any category you like",
+    "subtitle_free": "Tap to try premium categories"
+  },
+  "home": {
+    "daily_quotes": "Daily Quotes",
+    "welcome_back": "Welcome Back",
+    "no_quotes": "No quotes yet",
+    "swipe_for_more": "Swipe for more"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "empty_title": "No Favorites Yet",
+    "empty_message": "You can add quotes you like to favorites",
+    "browse_quotes": "Browse Quotes"
+  },
+  "history": {
+    "title": "Reading History",
+    "past_reads": "Past Reads",
+    "empty_title": "No Reading History",
+    "empty_message": "Quotes you read will appear here",
+    "start_reading": "Start Reading"
+  },
+  "paywall": {
+    "welcome": {
+      "title": "Welcome to Premium! 🎉",
+      "subtitle": "Discover unlimited quote experience",
+      "button": "Try Premium"
+    },
+    "premium_category": {
+      "title": "This Category is Premium 💎",
+      "subtitle": "Get Premium to access all quotes in this category",
+      "button": "Upgrade to Premium"
+    },
+    "story_limit": {
+      "title": "Story Limit Reached 📚",
+      "subtitle": "Get Premium for unlimited story reading",
+      "button": "Unlock Unlimited Stories"
+    },
+    "action_limit": {
+      "title": "Experience Premium! ⚡",
+      "subtitle": "More features and unlimited access",
+      "button": "Start Premium"
+    },
+    "default": {
+      "title": "Premium Features 🚀",
+      "subtitle": "Experience the best quote app",
+      "button": "Get Premium"
+    },
+    "features": {
+      "all_categories": "Access to all categories",
+      "unlimited_stories": "Unlimited story reading",
+      "personalized_content": "Personalized content",
+      "daily_notifications": "Daily motivation notifications",
+      "favorites_history": "Favorites and history",
+      "premium_categories": "25+ premium categories",
+      "personalized_experience": "Personalized experience",
+      "ad_free": "Ad-free experience",
+      "story_collections": "Exclusive story collections",
+      "audio_stories": "Audio story mode",
+      "offline_access": "Offline story access",
+      "unlimited_access": "Unlimited quote access",
+      "advanced_personalization": "Advanced personalization",
+      "priority_support": "Priority support",
+      "all_premium_features": "All premium features",
+      "unlimited_everything": "Unlimited access",
+      "personal_assistant": "Personal assistant",
+      "vip_support": "VIP support"
+    },
+    "pricing": {
+      "monthly": "Monthly",
+      "old_price": "$4.99",
+      "new_price": "$2.99",
+      "discount": "40% OFF"
+    },
+    "footer": "Cancel anytime • Secure payment",
+    "processing": "Processing..."
+  },
+  "onboarding": {
+    "welcome": "Welcome",
+    "get_started": "Get Started",
+    "skip": "Skip",
+    "next": "Next",
+    "finish": "Finish",
+    "complete_setup": "Complete Setup"
+  },
+  "quote_detail": {
+    "read_time": "Read Time",
+    "minutes": "minutes",
+    "share": "Share",
+    "favorite": "Favorite",
+    "unfavorite": "Remove from Favorites"
+  },
+  "categories": {
+    "general": "General",
+    "motivation": "Motivation",
+    "love": "Love",
+    "wisdom": "Wisdom",
+    "success": "Success",
+    "happiness": "Happiness",
+    "inspiration": "Inspiration",
+    "life": "Life",
+    "dreams": "Dreams",
+    "courage": "Courage",
+    "peace": "Peace",
+    "gratitude": "Gratitude",
+    "mindfulness": "Mindfulness",
+    "growth": "Growth",
+    "creativity": "Creativity",
+    "leadership": "Leadership",
+    "friendship": "Friendship",
+    "family": "Family",
+    "health": "Health",
+    "education": "Education",
+    "technology": "Technology",
+    "nature": "Nature",
+    "travel": "Travel",
+    "time": "Time",
+    "change": "Change",
+    "resilience": "Resilience",
+    "balance": "Balance",
+    "spirituality": "Spirituality",
+    "patience": "Patience"
+  },
+  "errors": {
+    "no_quotes_found": "No quotes found",
+    "network_error": "Network error",
+    "something_went_wrong": "Something went wrong",
+    "try_again": "Try again"
+  },
+  "premium": {
+    "required": "Premium Required",
+    "required_message": "This feature requires premium membership",
+    "upgrade": "Upgrade to Premium"
+  }
+} 

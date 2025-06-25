@@ -1,0 +1,159 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "retry": "Tekrar Dene",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "free": "ÜCRETSİZ",
+    "premium": "PRO",
+    "maybe_later": "Belki Sonra"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "explore": "Keşfet",
+    "favorites": "Favoriler",
+    "history": "Geçmiş"
+  },
+  "explore": {
+    "title": "Keşfet",
+    "categories": "Kategoriler",
+    "subtitle_premium": "İstediğiniz kategoriyi seçebilirsiniz",
+    "subtitle_free": "Premium kategorileri denemek için dokunun"
+  },
+  "home": {
+    "daily_quotes": "Günlük Alıntılar",
+    "welcome_back": "Tekrar Hoş Geldiniz",
+    "no_quotes": "Henüz alıntı yok",
+    "swipe_for_more": "Daha fazlası için kaydır"
+  },
+  "favorites": {
+    "title": "Favorilerim",
+    "empty_title": "Henüz Favori Yok",
+    "empty_message": "Beğendiğiniz alıntıları favorilere ekleyebilirsiniz",
+    "browse_quotes": "Alıntılara Göz At"
+  },
+  "history": {
+    "title": "Okuma Geçmişi",
+    "past_reads": "Geçmiş Okumalar",
+    "empty_title": "Henüz Okuma Yok",
+    "empty_message": "Okuduğunuz alıntılar burada görünecek",
+    "start_reading": "Okumaya Başla"
+  },
+  "paywall": {
+    "welcome": {
+      "title": "Premium'a Hoş Geldiniz! 🎉",
+      "subtitle": "Sınırsız quote deneyimini keşfedin",
+      "button": "Premium'ı Deneyin"
+    },
+    "premium_category": {
+      "title": "Bu Kategori Premium 💎",
+      "subtitle": "Bu kategorideki tüm quote'lara erişmek için Premium olun",
+      "button": "Premium'a Yükselt"
+    },
+    "story_limit": {
+      "title": "Hikaye Limitiniz Doldu 📚",
+      "subtitle": "Sınırsız hikaye okumak için Premium'a geçin",
+      "button": "Sınırsız Hikayeleri Aç"
+    },
+    "action_limit": {
+      "title": "Premium Deneyimi Yaşayın! ⚡",
+      "subtitle": "Daha fazla özellik ve sınırsız erişim için",
+      "button": "Premium'a Başla"
+    },
+    "default": {
+      "title": "Premium Özellikler 🚀",
+      "subtitle": "En iyi quote deneyimini yaşayın",
+      "button": "Premium Ol"
+    },
+    "features": {
+      "all_categories": "Tüm kategorilere erişim",
+      "unlimited_stories": "Sınırsız hikaye okuma",
+      "personalized_content": "Kişiselleştirilmiş içerik",
+      "daily_notifications": "Günlük motivasyon bildirimleri",
+      "favorites_history": "Favoriler ve geçmiş",
+      "premium_categories": "25+ premium kategori",
+      "personalized_experience": "Kişiselleştirilmiş deneyim",
+      "ad_free": "Reklamsız deneyim",
+      "story_collections": "Özel hikaye koleksiyonları",
+      "audio_stories": "Sesli hikaye modu",
+      "offline_access": "Offline hikaye erişimi",
+      "unlimited_access": "Sınırsız quote erişimi",
+      "advanced_personalization": "Gelişmiş kişiselleştirme",
+      "priority_support": "Priortiy destek",
+      "all_premium_features": "Tüm premium özellikler",
+      "unlimited_everything": "Sınırsız erişim",
+      "personal_assistant": "Kişisel asistan",
+      "vip_support": "VIP destek"
+    },
+    "pricing": {
+      "monthly": "Aylık",
+      "old_price": "₺29.99",
+      "new_price": "₺19.99",
+      "discount": "33% İndirim"
+    },
+    "footer": "İstediğiniz zaman iptal edebilirsiniz • Güvenli ödeme",
+    "processing": "İşleniyor..."
+  },
+  "onboarding": {
+    "welcome": "Hoş Geldiniz",
+    "get_started": "Başlayalım",
+    "skip": "Geç",
+    "next": "İleri",
+    "finish": "Bitir",
+    "complete_setup": "Kurulumu Tamamla"
+  },
+  "quote_detail": {
+    "read_time": "Okuma Süresi",
+    "minutes": "dakika",
+    "share": "Paylaş",
+    "favorite": "Favorile",
+    "unfavorite": "Favorilerden Çıkar"
+  },
+  "categories": {
+    "general": "Genel",
+    "motivation": "Motivasyon",
+    "love": "Aşk",
+    "wisdom": "Bilgelik",
+    "success": "Başarı",
+    "happiness": "Mutluluk",
+    "inspiration": "İlham",
+    "life": "Yaşam",
+    "dreams": "Hayaller",
+    "courage": "Cesaret",
+    "peace": "Huzur",
+    "gratitude": "Şükran",
+    "mindfulness": "Farkındalık",
+    "growth": "Gelişim",
+    "creativity": "Yaratıcılık",
+    "leadership": "Liderlik",
+    "friendship": "Dostluk",
+    "family": "Aile",
+    "health": "Sağlık",
+    "education": "Eğitim",
+    "technology": "Teknoloji",
+    "nature": "Doğa",
+    "travel": "Seyahat",
+    "time": "Zaman",
+    "change": "Değişim",
+    "resilience": "Dayanıklılık",
+    "balance": "Denge",
+    "spirituality": "Maneviyat",
+    "patience": "Sabır"
+  },
+  "errors": {
+    "no_quotes_found": "Alıntı bulunamadı",
+    "network_error": "Bağlantı hatası",
+    "something_went_wrong": "Bir şeyler ters gitti",
+    "try_again": "Tekrar deneyin"
+  },
+  "premium": {
+    "required": "Premium Gerekli",
+    "required_message": "Bu özellik premium üyelik gerektirir",
+    "upgrade": "Premium'a Yükselt"
+  }
+} 
