@@ -34,6 +34,26 @@ export class QuoteFilterService {
     return quotes.filter((quote) => !seenQuoteIds.includes(quote.id));
   }
 
+  // Get quotes with fallback to seen quotes if insufficient unseen quotes
+  getQuotesWithFallback(
+    quotes: LocalizedQuote[],
+    seenQuoteIds: string[],
+    minUnseenThreshold: number = 3
+  ): { quotes: LocalizedQuote[]; fallbackUsed: boolean } {
+    const unseenQuotes = this.filterOutSeen(quotes, seenQuoteIds);
+
+    // If we have enough unseen quotes, return them
+    if (unseenQuotes.length > minUnseenThreshold) {
+      return { quotes: unseenQuotes, fallbackUsed: false };
+    }
+
+    // If not enough unseen quotes, include seen quotes as well
+    console.log(
+      `⚠️ Only ${unseenQuotes.length} unseen quotes available (threshold: ${minUnseenThreshold}), including seen quotes`
+    );
+    return { quotes: quotes, fallbackUsed: true };
+  }
+
   // Search quotes by text, author, or tags
   searchQuotes(quotes: LocalizedQuote[], query: string): LocalizedQuote[] {
     const searchTerm = query.toLowerCase().trim();

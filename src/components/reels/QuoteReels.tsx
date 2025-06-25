@@ -19,6 +19,7 @@ import { QuoteReelCard } from "./QuoteReelCard";
 interface QuoteReelsProps {
   initialQuotes?: LocalizedQuote[];
   onQuoteView?: (quote: LocalizedQuote) => void;
+  onQuoteAction?: (actionType: string) => void;
   refreshControl?: boolean;
 }
 
@@ -28,6 +29,7 @@ const QUOTES_PER_PAGE = 10;
 export function QuoteReels({
   initialQuotes = [],
   onQuoteView,
+  onQuoteAction,
   refreshControl = true,
 }: QuoteReelsProps) {
   const [quotes, setQuotes] = useState<LocalizedQuote[]>(initialQuotes);
@@ -76,7 +78,7 @@ export function QuoteReels({
   const loadInitialQuotes = useCallback(async () => {
     try {
       setIsLoading(true);
-      console.log("🔄 Loading initial quotes...");
+      console.log("🔄 QuoteReels: Loading initial quotes...");
       const newQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
 
       // Unique quote'ları al
@@ -85,13 +87,13 @@ export function QuoteReels({
           index === self.findIndex((q) => q.id === quote.id)
       );
 
-      console.log("📚 Loaded quotes:", uniqueQuotes.length);
-      console.log("📖 First quote:", uniqueQuotes[0]);
+      console.log("📚 QuoteReels: Loaded quotes:", uniqueQuotes.length);
+      console.log("📖 QuoteReels: First quote:", uniqueQuotes[0]);
       setQuotes(uniqueQuotes);
       setCurrentPage(1);
       setHasMoreQuotes(uniqueQuotes.length === QUOTES_PER_PAGE);
     } catch (error) {
-      console.error("❌ Error loading initial quotes:", error);
+      console.error("❌ QuoteReels: Error loading initial quotes:", error);
     } finally {
       setIsLoading(false);
     }
@@ -204,17 +206,34 @@ export function QuoteReels({
     }
   }, [hasMoreQuotes, isLoading, loadMoreQuotes]);
 
+  const handleQuoteAction = (actionType: string) => {
+    onQuoteAction?.(actionType);
+  };
+
   const renderQuoteItem = useCallback(
     ({ item }: { item: LocalizedQuote }) => (
       <QuoteReelCard
         quote={item}
         isFavorite={favoriteQuotes.includes(item.id)}
         onPress={() => handleQuotePress(item)}
-        onFavoritePress={() => handleFavoritePress(item.id)}
-        onShare={() => handleShare(item)}
+        onFavoritePress={() => {
+          handleFavoritePress(item.id);
+          handleQuoteAction("favorite");
+        }}
+        onShare={() => {
+          handleShare(item);
+          handleQuoteAction("share");
+        }}
+        onQuoteAction={handleQuoteAction}
       />
     ),
-    [favoriteQuotes, handleQuotePress, handleFavoritePress, handleShare]
+    [
+      favoriteQuotes,
+      handleQuotePress,
+      handleFavoritePress,
+      handleShare,
+      handleQuoteAction,
+    ]
   );
 
   const keyExtractor = useCallback(

@@ -9,6 +9,7 @@ import {
   useOnboardingHydrated,
   useUserPreferences,
 } from "../../store/useOnboardingStore";
+import { usePaywallSelectors } from "../../store/usePaywallStore";
 import {
   useIsPremium,
   usePurchaseActions,
@@ -41,6 +42,9 @@ export function HomeScreen() {
   // Onboarding actions for debug
   const { resetOnboarding } = useOnboardingActions();
 
+  // Paywall tracking
+  const { trackAction } = usePaywallSelectors.actions();
+
   // Determine quote source based on user status and navigation source
   const getQuoteSource = () => {
     // 1. If coming from explore (category filter active), show only that category
@@ -69,6 +73,17 @@ export function HomeScreen() {
 
   const displayQuotes = getQuoteSource();
 
+  // Debug logging
+  console.log(`🏠 HomeScreen DEBUG:`);
+  console.log(`📊 isPremium: ${isPremium}`);
+  console.log(`🌍 userPreferences:`, userPreferences);
+  console.log(`🎯 categoryFilter: ${categoryFilter || "none"}`);
+  console.log(`📱 displayQuotes length: ${displayQuotes.length}`);
+  console.log(
+    `✅ All stores hydrated:`,
+    quoteStoreHydrated && purchaseStoreHydrated && onboardingStoreHydrated
+  );
+
   // Handle category selection from router params
   useEffect(() => {
     if (selectedCategory && typeof selectedCategory === "string") {
@@ -83,6 +98,12 @@ export function HomeScreen() {
   const handleQuoteView = (quote: LocalizedQuote) => {
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
+  };
+
+  // Track actions when user interacts with quotes
+  const handleQuoteAction = (actionType: string) => {
+    console.log(`📱 User action: ${actionType}`);
+    trackAction(); // This will trigger paywall after 15 actions
   };
 
   // Clear category filter function
@@ -285,6 +306,7 @@ export function HomeScreen() {
       <QuoteReels
         initialQuotes={displayQuotes}
         onQuoteView={handleQuoteView}
+        onQuoteAction={handleQuoteAction}
         refreshControl={true}
       />
     </BaseScreen>

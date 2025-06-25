@@ -115,7 +115,7 @@ export class ModularQuoteService {
     return localizationService.filterValidLocalizedQuotes(localizedQuotes);
   }
 
-  // Get random unseen quotes
+  // Get random unseen quotes with fallback to seen quotes if needed
   async getRandomUnseenQuotes(
     count: number,
     seenQuoteIds: string[],
@@ -129,12 +129,15 @@ export class ModularQuoteService {
       selectedCategories
     );
 
-    const unseenQuotes = quoteFilterService.filterOutSeen(
-      availableQuotes,
-      seenQuoteIds
-    );
+    // Use fallback logic if insufficient unseen quotes
+    const { quotes: quotesToUse, fallbackUsed } =
+      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
 
-    return getRandomItems(unseenQuotes, count, [], (quote) => quote.id);
+    if (fallbackUsed) {
+      console.log("🔄 Fallback activated: Including previously seen quotes");
+    }
+
+    return getRandomItems(quotesToUse, count, [], (quote) => quote.id);
   }
 
   // Get personalized quotes
@@ -150,10 +153,15 @@ export class ModularQuoteService {
       userPreferences.selectedCategories
     );
 
-    const unseenQuotes = quoteFilterService.filterOutSeen(
-      availableQuotes,
-      seenQuoteIds
-    );
+    // Use fallback logic if insufficient unseen quotes
+    const { quotes: quotesToUse, fallbackUsed } =
+      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
+
+    if (fallbackUsed) {
+      console.log(
+        "🔄 Personalized quotes fallback activated: Including previously seen quotes"
+      );
+    }
 
     // Weight function for personalization
     const weightFunction = (quote: LocalizedQuote): number => {
@@ -193,7 +201,7 @@ export class ModularQuoteService {
     };
 
     return getWeightedRandomItems(
-      unseenQuotes,
+      quotesToUse,
       count,
       weightFunction,
       [],
@@ -272,7 +280,7 @@ export class ModularQuoteService {
     const preferredCategories = timeBasedCategories[timeOfDay] || [];
 
     try {
-      // First try with preferred categories
+      // First try with preferred categories (already includes fallback logic)
       const timeAppropriateQuotes = await this.getRandomUnseenQuotes(
         count,
         seenQuoteIds,
@@ -290,7 +298,7 @@ export class ModularQuoteService {
       );
     }
 
-    // Fallback to general quotes
+    // Fallback to general quotes (already includes fallback logic)
     return await this.getRandomUnseenQuotes(
       count,
       seenQuoteIds,

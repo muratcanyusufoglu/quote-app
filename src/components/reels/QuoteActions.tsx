@@ -8,6 +8,7 @@ interface QuoteActionsProps {
   onShare?: () => void;
   category: string;
   readTime: number;
+  onQuoteAction?: (actionType: string) => void;
 }
 
 export const QuoteActions: React.FC<QuoteActionsProps> = ({
@@ -16,7 +17,18 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
   onShare,
   category,
   readTime,
+  onQuoteAction,
 }) => {
+  const handleFavoritePress = () => {
+    onQuoteAction?.("favorite");
+    onFavoritePress();
+  };
+
+  const handleSharePress = () => {
+    onQuoteAction?.("share");
+    onShare?.();
+  };
+
   return (
     <View style={styles.bottomSection}>
       {/* Left: Category Tag */}
@@ -36,7 +48,10 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
       {/* Right: Action Buttons */}
       <View style={styles.rightActions}>
         {onShare && (
-          <TouchableOpacity style={styles.actionButton} onPress={onShare}>
+          <TouchableOpacity
+            style={styles.actionButton}
+            onPress={handleSharePress}
+          >
             <IconSymbol
               name="square.and.arrow.up"
               size={24}
@@ -46,7 +61,10 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           </TouchableOpacity>
         )}
 
-        <TouchableOpacity style={styles.actionButton} onPress={onFavoritePress}>
+        <TouchableOpacity
+          style={styles.actionButton}
+          onPress={handleFavoritePress}
+        >
           <IconSymbol
             name="heart"
             size={24}

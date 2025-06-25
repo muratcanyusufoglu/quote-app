@@ -133,11 +133,22 @@ class LegacyQuoteService {
 
     console.log(`🔍 Filtering quotes for language: ${language}`);
     console.log(`📚 Total quotes before filtering: ${availableQuotes.length}`);
+    console.log(`💎 isPremium: ${isPremium}`);
 
     // Filter by premium access
     if (!isPremium) {
       const freeCategories = this.getFreeCategories(language);
       const freeCategoryIds = freeCategories.map((cat) => cat.id);
+      console.log(`🆓 Free category IDs: ${freeCategoryIds.join(", ")}`);
+
+      // Log quotes by category before filtering
+      const quotesByCategory: Record<string, number> = {};
+      availableQuotes.forEach((quote) => {
+        quotesByCategory[quote.category] =
+          (quotesByCategory[quote.category] || 0) + 1;
+      });
+      console.log(`📊 Quotes by category:`, quotesByCategory);
+
       availableQuotes = availableQuotes.filter((quote) =>
         freeCategoryIds.includes(quote.category)
       );
@@ -177,7 +188,7 @@ class LegacyQuoteService {
     return localizedQuotes;
   }
 
-  // Get random unseen quotes
+  // Get random unseen quotes with fallback to seen quotes if needed
   getRandomUnseenQuotes(
     count: number,
     seenQuoteIds: string[],
@@ -190,16 +201,22 @@ class LegacyQuoteService {
       language,
       selectedCategories
     );
-    const seenQuotes = availableQuotes.filter((quote) =>
+
+    // Use fallback logic if insufficient unseen quotes
+    const { quotes: quotesToUse, fallbackUsed } =
+      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
+
+    if (fallbackUsed) {
+      console.log(
+        "🔄 Legacy service fallback activated: Including previously seen quotes"
+      );
+    }
+
+    const seenQuotes = quotesToUse.filter((quote) =>
       seenQuoteIds.includes(quote.id)
     );
 
-    return getRandomItems(
-      availableQuotes,
-      count,
-      seenQuotes,
-      (quote) => quote.id
-    );
+    return getRandomItems(quotesToUse, count, seenQuotes, (quote) => quote.id);
   }
 
   // Get personalized quotes based on user preferences
@@ -253,12 +270,22 @@ class LegacyQuoteService {
       return Math.max(weight, 0.1);
     };
 
-    const seenQuotes = availableQuotes.filter((quote) =>
+    // Use fallback logic if insufficient unseen quotes
+    const { quotes: quotesToUse, fallbackUsed } =
+      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
+
+    if (fallbackUsed) {
+      console.log(
+        "🔄 Legacy personalized quotes fallback activated: Including previously seen quotes"
+      );
+    }
+
+    const seenQuotes = quotesToUse.filter((quote) =>
       seenQuoteIds.includes(quote.id)
     );
 
     return getWeightedRandomItems(
-      availableQuotes,
+      quotesToUse,
       count,
       weightFunction,
       seenQuotes,
@@ -330,20 +357,33 @@ class LegacyQuoteService {
       preferredCategories.includes(quote.category)
     );
 
-    const seenQuotes = availableQuotes.filter((quote) =>
-      seenQuoteIds.includes(quote.id)
-    );
-
     if (timeAppropriateQuotes.length > 0) {
+      // Use fallback logic for time-appropriate quotes
+      const { quotes: quotesToUse, fallbackUsed } =
+        quoteFilterService.getQuotesWithFallback(
+          timeAppropriateQuotes,
+          seenQuoteIds
+        );
+
+      if (fallbackUsed) {
+        console.log(
+          "🔄 Time-based quotes fallback activated: Including previously seen quotes"
+        );
+      }
+
+      const seenQuotes = quotesToUse.filter((quote) =>
+        seenQuoteIds.includes(quote.id)
+      );
+
       return getRandomItems(
-        timeAppropriateQuotes,
+        quotesToUse,
         count,
         seenQuotes,
         (quote) => quote.id
       );
     }
 
-    // Fallback to regular random quotes
+    // Fallback to regular random quotes (already includes fallback logic)
     return this.getRandomUnseenQuotes(count, seenQuoteIds, isPremium, language);
   }
 

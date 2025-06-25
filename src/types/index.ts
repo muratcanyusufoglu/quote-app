@@ -290,3 +290,32 @@ export interface Theme {
     round: number;
   };
 }
+
+// Paywall types
+export type PaywallTriggerSource =
+  | "welcome"
+  | "premium_category"
+  | "premium_feature"
+  | "action_limit"
+  | "story_limit"
+  | "manual";
+
+export interface PaywallStoreState {
+  isVisible: boolean;
+  actionCount: number;
+  lastShownDate: string;
+  triggerSource: PaywallTriggerSource | null;
+  hasSeenWelcomePaywall: boolean;
+  _hasHydrated: boolean;
+}
+
+export interface PaywallStoreActions {
+  showPaywall: (source: PaywallTriggerSource) => void;
+  hidePaywall: () => void;
+  trackAction: () => void;
+  resetActionCount: () => void;
+  markWelcomePaywallSeen: () => void;
+  setHasHydrated: (hydrated: boolean) => void;
+}
+
+export type PaywallStore = PaywallStoreState & PaywallStoreActions;

@@ -18,7 +18,8 @@ interface QuoteReelCardProps {
   isFavorite: boolean;
   onPress: () => void;
   onFavoritePress: () => void;
-  onShare?: () => void;
+  onShare?: (quote: LocalizedQuote) => void;
+  onQuoteAction?: (actionType: string) => void;
 }
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
@@ -31,6 +32,7 @@ export function QuoteReelCard({
   onPress,
   onFavoritePress,
   onShare,
+  onQuoteAction,
 }: QuoteReelCardProps) {
   const cardColor = getCategoryColor(quote.category);
 
@@ -38,10 +40,15 @@ export function QuoteReelCard({
     router.push("/(tabs)/explore");
   };
 
+  const handlePress = () => {
+    onQuoteAction?.("view_detail");
+    onPress();
+  };
+
   return (
     <TouchableOpacity
       style={styles.container}
-      onPress={onPress}
+      onPress={handlePress}
       activeOpacity={0.95}
     >
       {/* Background */}
@@ -64,9 +71,10 @@ export function QuoteReelCard({
       <QuoteActions
         isFavorite={isFavorite}
         onFavoritePress={onFavoritePress}
-        onShare={onShare}
+        onShare={() => onShare?.(quote)}
         category={quote.category}
         readTime={quote.readTime}
+        onQuoteAction={onQuoteAction}
       />
 
       {/* Navigation Help Text */}

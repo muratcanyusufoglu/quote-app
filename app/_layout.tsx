@@ -1,18 +1,22 @@
 import {
   DarkTheme,
   DefaultTheme,
-  ThemeProvider as RNThemeProvider,
+  ThemeProvider,
 } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
+import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
+import { useEffect } from "react";
 import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { PaywallModal } from "../src/components/ui/PaywallModal";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
+import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
 import { useQuoteSelectors } from "../src/store/useQuoteStore";
-import { ThemeProvider } from "../src/utils/ThemeContext";
+import { ThemeProvider as ThemeContextProvider } from "../src/utils/ThemeContext";
 
 // Custom dark theme based on our new harmonious color system
 const CustomDarkTheme = {
@@ -42,6 +46,9 @@ const CustomLightTheme = {
   },
 };
 
+// Prevent the splash screen from auto-hiding before asset loading is complete.
+SplashScreen.preventAutoHideAsync();
+
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
@@ -52,6 +59,44 @@ export default function RootLayout() {
   const quoteHydrated = useQuoteSelectors.hasHydrated();
   const purchaseHydrated = usePurchaseSelectors.hasHydrated();
   const onboardingHydrated = useOnboardingSelectors.hasHydrated();
+  const paywallHydrated = usePaywallSelectors.hasHydrated();
+
+  // Welcome paywall logic - show on first app launch
+  const { showPaywall, markWelcomePaywallSeen } = usePaywallSelectors.actions();
+  const hasSeenWelcome = usePaywallSelectors.hasSeenWelcome();
+  const isCompleted = useOnboardingSelectors.isCompleted();
+
+  useEffect(() => {
+    if (loaded) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded]);
+
+  // Show welcome paywall after all stores hydrated and onboarding completed
+  useEffect(() => {
+    if (
+      quoteHydrated &&
+      purchaseHydrated &&
+      onboardingHydrated &&
+      paywallHydrated &&
+      isCompleted &&
+      !hasSeenWelcome
+    ) {
+      setTimeout(() => {
+        showPaywall("welcome");
+        markWelcomePaywallSeen();
+      }, 1000); // Delay to show after initial app load
+    }
+  }, [
+    quoteHydrated,
+    purchaseHydrated,
+    onboardingHydrated,
+    paywallHydrated,
+    isCompleted,
+    hasSeenWelcome,
+    showPaywall,
+    markWelcomePaywallSeen,
+  ]);
 
   if (!loaded) {
     // Async font loading only occurs in development.
@@ -59,8 +104,10 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider defaultTheme={colorScheme === "dark" ? "dark" : "light"}>
-      <RNThemeProvider
+    <ThemeContextProvider
+      defaultTheme={colorScheme === "dark" ? "dark" : "light"}
+    >
+      <ThemeProvider
         value={colorScheme === "dark" ? CustomDarkTheme : CustomLightTheme}
       >
         <Stack>
@@ -90,7 +137,16 @@ export default function RootLayout() {
           <Stack.Screen name="+not-found" />
         </Stack>
         <StatusBar style="auto" />
-      </RNThemeProvider>
-    </ThemeProvider>
+
+        {/* Global Paywall Modal - Accessible from anywhere */}
+        <PaywallModal
+          onPurchase={() => {
+            // Navigate to purchase screen when user wants to buy
+            // router.push('/purchase'); // Can be implemented if needed
+            console.log("Purchase flow triggered from paywall");
+          }}
+        />
+      </ThemeProvider>
+    </ThemeContextProvider>
   );
 }

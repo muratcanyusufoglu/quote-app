@@ -155,6 +155,161 @@
           "readTime": 3
         }
       }
+    },
+    {
+      "id": "gen_006",
+      "texts": {
+        "en": "In the middle of difficulty lies opportunity.",
+        "tr": "Zorluğun ortasında fırsat yatar."
+      },
+      "authors": {
+        "en": "Albert Einstein",
+        "tr": "Albert Einstein"
+      },
+      "category": "general",
+      "tags": {
+        "en": ["opportunity", "challenge", "perspective"],
+        "tr": ["fırsat", "meydan okuma", "bakış açısı"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gen_006_en",
+          "title": "Finding Gold in the Rubble",
+          "content": "Einstein understood that our greatest breakthroughs often emerge from our greatest challenges. When facing difficulties, most people focus on the problem itself. But Einstein taught us to look deeper—within every obstacle lies a hidden door to something better. The job loss that leads to your dream career, the relationship that ends and makes room for true love, the failure that teaches you exactly what works. Your current difficulty isn't just something to endure; it's something to explore.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gen_006_tr",
+          "title": "Molozların Arasında Altın Bulmak",
+          "content": "Einstein en büyük atılımlarımızın çoğu zaman en büyük zorluklarımızdan çıktığını anlıyordu. Zorluklarla karşılaştığında çoğu insan problemin kendisine odaklanır. Ama Einstein bize daha derine bakmayı öğretti—her engelin içinde daha iyi bir şeye açılan gizli bir kapı yatar. Hayalinizdeki kariyere götüren işten çıkarılma, biten ve gerçek aşka yer açan ilişki, size neyin işe yaradığını tam olarak öğreten başarısızlık. Şu anki zorluğunuz sadece katlanılacak bir şey değil; keşfedilecek bir şey.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "gen_007",
+      "texts": {
+        "en": "The future belongs to those who believe in the beauty of their dreams.",
+        "tr": "Gelecek, hayallerinin güzelliğine inanan insanlara aittir."
+      },
+      "authors": {
+        "en": "Eleanor Roosevelt",
+        "tr": "Eleanor Roosevelt"
+      },
+      "category": "general",
+      "tags": {
+        "en": ["future", "dreams", "belief"],
+        "tr": ["gelecek", "hayaller", "inanç"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gen_007_en",
+          "title": "The Dreamer's Advantage",
+          "content": "Eleanor Roosevelt knew that dreams aren't just wishful thinking—they're blueprints for the future. When you truly believe in the beauty of your dreams, you start seeing opportunities everywhere. You begin to align your actions with your vision. You attract people and resources that support your journey. The dreamer who believes has already won half the battle, because belief transforms dreams from mere fantasies into inevitable realities.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gen_007_tr",
+          "title": "Hayalperestin Avantajı",
+          "content": "Eleanor Roosevelt hayallerin sadece boş düşler olmadığını—geleceğin planları olduğunu biliyordu. Hayallerinizin güzelliğine gerçekten inandığınızda, her yerde fırsatlar görmeye başlarsınız. Eylemlerinizi vizyonunuzla uyumlu hale getirmeye başlarsınız. Yolculuğunuzu destekleyen insanları ve kaynakları çekersiniz. İnanan hayalperest zaten savaşın yarısını kazanmıştır, çünkü inanç hayalleri sadece fantezilerden kaçınılmaz gerçekliklere dönüştürür.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "gen_008",
+      "texts": {
+        "en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "tr": "Başarı nihai değildir, başarısızlık ölümcül değildir: önemli olan devam etme cesaretinizdir."
+      },
+      "authors": {
+        "en": "Winston Churchill",
+        "tr": "Winston Churchill"
+      },
+      "category": "general",
+      "tags": {
+        "en": ["persistence", "courage", "resilience"],
+        "tr": ["azim", "cesaret", "dayanıklılık"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gen_008_en",
+          "title": "The Courage Between",
+          "content": "Churchill, who led Britain through its darkest hour, understood that life isn't about avoiding failure or achieving permanent success. It's about what you do in the space between them. That moment when you've failed and haven't yet succeeded—that's where character is built. That's where ordinary people become extraordinary. The courage to continue when continuing seems impossible is what separates those who ultimately triumph from those who give up just before their breakthrough.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gen_008_tr",
+          "title": "Aradaki Cesaret",
+          "content": "İngiltere'yi en karanlık saatinde yöneten Churchill, hayatın başarısızlıktan kaçınmak ya da kalıcı başarı elde etmekle ilgili olmadığını anlıyordu. Bunların arasındaki alanda yaptıklarınızla ilgili. Başarısız olduğunuz ve henüz başarılı olmadığınız o an—karakter orada inşa edilir. Sıradan insanlar orada olağanüstü hale gelir. Devam etmenin imkansız göründüğü anda devam etme cesareti, sonunda zafer kazananları atılımlarından hemen önce vazgeçenlerden ayıran şeydir.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "gen_009",
+      "texts": {
+        "en": "It does not matter how slowly you go as long as you do not stop.",
+        "tr": "Durmadığınız sürece ne kadar yavaş gittiğinizin önemi yoktur."
+      },
+      "authors": {
+        "en": "Confucius",
+        "tr": "Konfüçyüs"
+      },
+      "category": "general",
+      "tags": {
+        "en": ["progress", "persistence", "patience"],
+        "tr": ["ilerleme", "azim", "sabır"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gen_009_en",
+          "title": "The Tortoise Wisdom",
+          "content": "Confucius understood something modern society often forgets: progress isn't about speed, it's about direction and persistence. In our fast-paced world, we feel pressure to achieve everything quickly. But the ancient philosopher reminds us that slow, steady movement toward your goal is infinitely more valuable than quick bursts followed by long periods of inaction. The person who reads one page a day will finish more books than someone who reads 50 pages once a month.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gen_009_tr",
+          "title": "Kaplumbağa Bilgeliği",
+          "content": "Konfüçyüs modern toplumun sık unuttuğu bir şeyi anlıyordu: ilerleme hızla değil, yön ve azimle ilgili. Hızlı tempolu dünyamızda her şeyi çabucak başarma baskısı hissederiz. Ama antik filozof bize hedefinize doğru yavaş, istikrarlı hareketin, hızlı patlamaları takip eden uzun hareketsizlik dönemlerinden sonsuz kat daha değerli olduğunu hatırlatıyor. Günde bir sayfa okuyan kişi, ayda bir kez 50 sayfa okuyandan daha fazla kitap bitirecektir.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "gen_010",
+      "texts": {
+        "en": "The only way to do great work is to love what you do.",
+        "tr": "Büyük işler yapmanın tek yolu yaptığınız işi sevmektir."
+      },
+      "authors": {
+        "en": "Steve Jobs",
+        "tr": "Steve Jobs"
+      },
+      "category": "general",
+      "tags": {
+        "en": ["passion", "work", "excellence"],
+        "tr": ["tutku", "iş", "mükemmellik"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "id": "story_gen_010_en",
+          "title": "Passion as Fuel",
+          "content": "Steve Jobs built one of the world's most valuable companies by following this simple principle. When you love what you do, work doesn't feel like work—it feels like play, like exploration, like a calling. You naturally put in the extra hours, go the extra mile, pay attention to details others miss. Love for your work creates a positive feedback loop: the more you love it, the better you become; the better you become, the more you love it. This is why passionate people often seem to have unlimited energy for their pursuits.",
+          "readTime": 3
+        },
+        "tr": {
+          "id": "story_gen_010_tr",
+          "title": "Yakıt Olarak Tutku",
+          "content": "Steve Jobs bu basit ilkeyi takip ederek dünyanın en değerli şirketlerinden birini kurdu. Yaptığınız işi sevdiğinizde, çalışma iş gibi hissettirmez—oyun, keşif, çağrı gibi hissettirir. Doğal olarak ekstra saatler harcarsınız, ekstra mesafe gidersiniz, başkalarının kaçırdığı detaylara dikkat edersiniz. İşiniz için aşk pozitif bir geri bildirim döngüsü yaratır: onu ne kadar severseniz, o kadar iyi olursunuz; ne kadar iyi olursanız, onu o kadar çok seversiniz. Bu yüzden tutkulu insanlar çoğu zaman uğraşları için sınırsız enerjiye sahip görünürler.",
+          "readTime": 3
+        }
+      }
     }
   ]
 } 

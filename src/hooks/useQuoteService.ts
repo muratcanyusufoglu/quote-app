@@ -57,7 +57,31 @@ export function useQuoteService() {
       // Get personalized home feed quotes
       getHomeFeedQuotes: (count: number = 10): LocalizedQuote[] => {
         console.log(`🏠 Getting home feed quotes for language: ${language}`);
+        console.log(
+          `🏠 isPremium: ${isPremium}, seenQuotes: ${stableSeenQuotes.length}`
+        );
+        console.log(`🏠 userPreferences:`, userPreferences);
+
+        // For non-premium users, always use general quotes regardless of preferences
+        if (!isPremium) {
+          console.log(`🏠 Non-premium user - using general quotes only`);
+          const quotes = legacyQuoteService.getRandomUnseenQuotes(
+            count,
+            stableSeenQuotes,
+            isPremium,
+            language
+            // No selectedCategories - this will default to all accessible categories (only general)
+          );
+          console.log(
+            `📚 Non-premium, loaded ${quotes.length} quotes in ${language}`
+          );
+          return quotes;
+        }
+
         if (!userPreferences) {
+          console.log(
+            `🏠 Premium user, no preferences - using getRandomUnseenQuotes`
+          );
           const quotes = legacyQuoteService.getRandomUnseenQuotes(
             count,
             stableSeenQuotes,
@@ -65,10 +89,13 @@ export function useQuoteService() {
             language
           );
           console.log(
-            `📚 No preferences, loaded ${quotes.length} quotes in ${language}`
+            `📚 Premium no preferences, loaded ${quotes.length} quotes in ${language}`
           );
           return quotes;
         }
+        console.log(
+          `🏠 Premium user with preferences - using getPersonalizedQuotes`
+        );
         const quotes = legacyQuoteService.getPersonalizedQuotes(
           count,
           { ...userPreferences, language }, // Ensure language is set in preferences
@@ -76,7 +103,7 @@ export function useQuoteService() {
           isPremium
         );
         console.log(
-          `👤 With preferences, loaded ${quotes.length} quotes in ${language}`
+          `👤 Premium with preferences, loaded ${quotes.length} quotes in ${language}`
         );
         return quotes;
       },
@@ -232,8 +259,16 @@ export function useHomeQuotes(count: number = 10) {
   const { getHomeFeedQuotes, isReady } = useQuoteService();
 
   return useMemo(() => {
-    if (!isReady) return [];
-    return getHomeFeedQuotes(count);
+    console.log(
+      `🏠 useHomeQuotes called - isReady: ${isReady}, count: ${count}`
+    );
+    if (!isReady) {
+      console.log(`⏳ useHomeQuotes - not ready yet`);
+      return [];
+    }
+    const quotes = getHomeFeedQuotes(count);
+    console.log(`🏠 useHomeQuotes - returning ${quotes.length} quotes`);
+    return quotes;
   }, [getHomeFeedQuotes, count, isReady]);
 }
 

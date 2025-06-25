@@ -1,7 +1,6 @@
 import { router } from "expo-router";
 import React from "react";
 import {
-  Alert,
   Dimensions,
   FlatList,
   StyleSheet,
@@ -14,6 +13,7 @@ import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
+import { usePaywallSelectors } from "../../store/usePaywallStore";
 import {
   useIsPremium,
   usePurchaseHydrated,
@@ -32,6 +32,7 @@ export function ExploreScreen() {
 
   // Store data
   const isPremium = useIsPremium();
+  const { showPaywall, trackAction } = usePaywallSelectors.actions();
 
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
@@ -39,30 +40,22 @@ export function ExploreScreen() {
   const onboardingStoreHydrated = useOnboardingHydrated();
 
   // Categories - Show ALL categories to everyone
-  const { availableCategories } = useQuoteCategories();
+  const { allCategories } = useQuoteCategories();
+
+  console.log("📋 All categories loaded:", allCategories.length);
 
   const handleCategoryPress = (categoryId: string) => {
+    // Track user action for paywall trigger
+    trackAction();
+
     // Check if user can access this category
     const isGeneralCategory =
       categoryId.toLowerCase() === "general" ||
       categoryId.toLowerCase() === "genel";
 
     if (!isPremium && !isGeneralCategory) {
-      // Show premium required alert
-      Alert.alert(
-        "Premium Gerekli",
-        "Bu kategoriye erişmek için premium üyelik gereklidir. Premium olmak ister misiniz?",
-        [
-          { text: "İptal", style: "cancel" },
-          {
-            text: "Premium Ol",
-            onPress: () => {
-              // Navigate to purchase screen
-              router.push("/purchase" as any);
-            },
-          },
-        ]
-      );
+      // Show paywall modal for premium category
+      showPaywall("premium_category");
       return;
     }
 
@@ -89,7 +82,7 @@ export function ExploreScreen() {
           styles.categoryCard,
           {
             backgroundColor: categoryColor,
-            opacity: canAccess ? 1 : 0.7,
+            opacity: canAccess ? 1 : 0.8, // Slightly less opacity for premium categories
           },
         ]}
         onPress={() => handleCategoryPress(category.id)}
@@ -111,15 +104,16 @@ export function ExploreScreen() {
             {category.name}
           </Text>
 
-          {/* Premium Lock - Show for non-premium users on non-general categories */}
+          {/* Premium Badge - Show for non-premium users on non-general categories */}
           {!canAccess && (
-            <View style={styles.lockContainer}>
+            <View style={styles.premiumBadge}>
               <IconSymbol
-                name="lock"
-                size={12}
-                color="#FFFFFF"
+                name="star"
+                size={10}
+                color="#FFD700"
                 strokeWidth={2}
               />
+              <Text style={styles.premiumBadgeText}>PRO</Text>
             </View>
           )}
 
@@ -178,13 +172,13 @@ export function ExploreScreen() {
           >
             {isPremium
               ? "İstediğiniz kategoriyi seçebilirsiniz"
-              : "Premium üyelikle tüm kategorilere erişebilirsiniz"}
+              : "Premium kategorileri denemek için dokunun"}
           </Text>
         </View>
 
         {/* Categories Grid */}
         <FlatList
-          data={availableCategories}
+          data={allCategories}
           renderItem={renderCategoryCard}
           keyExtractor={(item) => item.id}
           numColumns={2}
@@ -273,16 +267,22 @@ const styles = StyleSheet.create({
     lineHeight: 16,
     opacity: 0.9,
   },
-  lockContainer: {
+  premiumBadge: {
     position: "absolute",
     top: 8,
     right: 8,
-    backgroundColor: "rgba(0,0,0,0.4)",
+    backgroundColor: "rgba(0,0,0,0.6)",
     borderRadius: 12,
-    width: 24,
-    height: 24,
-    justifyContent: "center",
+    paddingHorizontal: 6,
+    paddingVertical: 3,
+    flexDirection: "row",
     alignItems: "center",
+    gap: 2,
+  },
+  premiumBadgeText: {
+    fontSize: 8,
+    color: "#FFD700",
+    fontWeight: "700",
   },
   freeBadge: {
     position: "absolute",
