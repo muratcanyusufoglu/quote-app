@@ -1,39 +1,41 @@
 import { OnboardingQuestion } from "../types";
 
-export const onboardingQuestions: OnboardingQuestion[] = [
+export const getOnboardingQuestions = (
+  t: (key: string) => string
+): OnboardingQuestion[] => [
   {
     id: "purpose",
     type: "single",
-    question: "Uygulamayı hangi amaçla kullanmak istiyorsunuz?",
+    question: t("onboarding.questions.purpose"),
     required: true,
     options: [
       {
         id: "motivation",
-        label: "Motivasyon ve ilham",
+        label: t("onboarding.options.motivation"),
         value: "motivation",
         icon: "star",
       },
       {
         id: "learning",
-        label: "Öğrenme ve gelişim",
+        label: t("onboarding.options.learning"),
         value: "learning",
         icon: "book",
       },
       {
         id: "relaxation",
-        label: "Rahatlama ve huzur",
+        label: t("onboarding.options.relaxation"),
         value: "relaxation",
         icon: "heart",
       },
       {
         id: "growth",
-        label: "Kişisel büyüme",
+        label: t("onboarding.options.growth"),
         value: "growth",
         icon: "trending-up",
       },
       {
         id: "inspiration",
-        label: "Yaratıcı ilham",
+        label: t("onboarding.options.inspiration"),
         value: "inspiration",
         icon: "lightbulb",
       },
@@ -42,78 +44,78 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "topics",
     type: "multiple",
-    question: "Hangi konularla ilgili quote'lar sizi daha çok ilgilendiriyor?",
+    question: t("onboarding.questions.topics"),
     required: true,
     options: [
       {
         id: "success",
-        label: "Başarı",
+        label: t("onboarding.options.success"),
         value: "success",
         icon: "crown",
       },
       {
         id: "happiness",
-        label: "Mutluluk",
+        label: t("onboarding.options.happiness"),
         value: "happiness",
         icon: "heart",
       },
       {
         id: "wisdom",
-        label: "Bilgelik",
+        label: t("onboarding.options.wisdom"),
         value: "wisdom",
         icon: "book",
       },
       {
         id: "love",
-        label: "Aşk",
+        label: t("onboarding.options.love"),
         value: "love",
         icon: "heart",
       },
       {
         id: "growth",
-        label: "Gelişim",
+        label: t("onboarding.options.growth"),
         value: "growth",
         icon: "tree-pine",
       },
       {
         id: "peace",
-        label: "Huzur",
+        label: t("onboarding.options.peace"),
         value: "peace",
         icon: "heart",
       },
       {
         id: "strength",
-        label: "Güç",
+        label: t("onboarding.options.strength"),
         value: "strength",
         icon: "zap",
       },
       {
         id: "creativity",
-        label: "Yaratıcılık",
+        label: t("onboarding.options.creativity"),
         value: "creativity",
         icon: "palette",
       },
       {
         id: "leadership",
-        label: "Liderlik",
+        label: t("onboarding.options.leadership"),
         value: "leadership",
         icon: "crown",
       },
       {
         id: "courage",
-        label: "Cesaret",
+        label: t("onboarding.options.courage"),
         value: "courage",
         icon: "shield",
       },
       {
         id: "mindfulness",
-        label: "Farkındalık",
+        label: t("onboarding.options.mindfulness"),
         value: "mindfulness",
         icon: "church",
       },
       {
         id: "gratitude",
-        label: "Şükür",
+        label: t("onboarding.options.gratitude"),
         value: "gratitude",
         icon: "gift",
       },
@@ -122,24 +124,24 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "motivation_style",
     type: "single",
-    question: "Hangi tarzda motivasyon sizi daha çok etkiler?",
+    question: t("onboarding.questions.motivation_style"),
     required: true,
     options: [
       {
         id: "gentle",
-        label: "Yumuşak ve nazik",
+        label: t("onboarding.options.gentle"),
         value: "gentle",
         icon: "heart",
       },
       {
         id: "strong",
-        label: "Güçlü ve cesur",
+        label: t("onboarding.options.strong"),
         value: "strong",
         icon: "zap",
       },
       {
         id: "balanced",
-        label: "Dengeli",
+        label: t("onboarding.options.balanced"),
         value: "balanced",
         icon: "scale",
       },
@@ -148,24 +150,24 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "preferred_time",
     type: "single",
-    question: "Quote'ları genellikle ne zaman okumayı tercih edersiniz?",
+    question: t("onboarding.questions.preferred_time"),
     required: true,
     options: [
       {
         id: "morning",
-        label: "Sabah",
+        label: t("onboarding.options.morning"),
         value: "morning",
         icon: "sunrise",
       },
       {
         id: "afternoon",
-        label: "Öğle",
+        label: t("onboarding.options.afternoon"),
         value: "afternoon",
         icon: "zap",
       },
       {
         id: "evening",
-        label: "Akşam",
+        label: t("onboarding.options.evening"),
         value: "evening",
         icon: "moon",
       },
@@ -174,24 +176,24 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "reading_length",
     type: "single",
-    question: "Ne kadar uzun quote'ları okumayı seviyorsunuz?",
+    question: t("onboarding.questions.reading_length"),
     required: true,
     options: [
       {
         id: "short",
-        label: "Kısa ve özlü",
+        label: t("onboarding.options.short"),
         value: "short",
         icon: "zap",
       },
       {
         id: "medium",
-        label: "Orta uzunlukta",
+        label: t("onboarding.options.medium"),
         value: "medium",
         icon: "book",
       },
       {
         id: "long",
-        label: "Uzun ve detaylı",
+        label: t("onboarding.options.long"),
         value: "long",
         icon: "book",
       },
@@ -200,7 +202,7 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "notification_count",
     type: "slider",
-    question: "Günde kaç bildirim almak istersiniz?",
+    question: t("onboarding.questions.notification_count"),
     required: true,
     min: 1,
     max: 10,
@@ -209,33 +211,37 @@ export const onboardingQuestions: OnboardingQuestion[] = [
   {
     id: "notification_time_range",
     type: "text", // Will be handled as custom time picker
-    question: "Hangi saatler arasında bildirim almak istersiniz?",
+    question: t("onboarding.questions.notification_time_range"),
     required: true,
   },
   {
     id: "frequency",
     type: "single",
-    question: "Ne sıklıkla yeni içerik keşfetmek istersiniz?",
+    question: t("onboarding.questions.frequency"),
     required: true,
     options: [
       {
         id: "daily",
-        label: "Her gün",
+        label: t("onboarding.options.daily"),
         value: "daily",
         icon: "calendar",
       },
       {
         id: "weekly",
-        label: "Haftada birkaç kez",
+        label: t("onboarding.options.weekly"),
         value: "weekly",
         icon: "calendar",
       },
       {
         id: "occasional",
-        label: "Arada Sırada",
+        label: t("onboarding.options.occasional"),
         value: "occasional",
         icon: "target",
       },
     ],
   },
 ];
+
+// Backward compatibility export
+export const onboardingQuestions = (t: (key: string) => string) =>
+  getOnboardingQuestions(t);

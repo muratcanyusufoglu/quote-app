@@ -12,7 +12,11 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { onboardingQuestions } from "../../data/onboardingQuestions";
+import { getOnboardingQuestions } from "../../data/onboardingQuestions";
+import {
+  useScreenTranslations,
+  useTranslation,
+} from "../../hooks/useTranslation";
 import { useOnboardingActions } from "../../store/useOnboardingStore";
 import { OnboardingAnswer, OnboardingOption } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
@@ -23,6 +27,15 @@ export function OnboardingScreen() {
   const { theme } = useTheme();
   const { addAnswer, generatePreferences, setCompleted } =
     useOnboardingActions();
+
+  // Translations
+  const onboarding = useScreenTranslations("onboarding");
+  const { t } = useTranslation();
+
+  // Get localized questions
+  const onboardingQuestions = getOnboardingQuestions((key: string) =>
+    t(key as any)
+  );
 
   const [currentStep, setCurrentStep] = useState(-1); // Start with intro screen
   const [answers, setAnswers] = useState<Record<string, any>>({});
@@ -132,7 +145,7 @@ export function OnboardingScreen() {
             />
           </View>
           <Text style={[styles.welcomeTitle, { color: theme.colors.text }]}>
-            Hoş Geldiniz!
+            {onboarding.welcome_title}
           </Text>
         </View>
         <Text
@@ -141,8 +154,7 @@ export function OnboardingScreen() {
             { color: theme.colors.textSecondary },
           ]}
         >
-          Size en uygun quote deneyimini oluşturmak için birkaç kısa sorumuzu
-          yanıtlayın
+          {onboarding.welcome_subtitle}
         </Text>
 
         <View style={styles.featuresContainer}>
@@ -154,7 +166,7 @@ export function OnboardingScreen() {
                 { color: theme.colors.textSecondary },
               ]}
             >
-              Kişiselleştirilmiş içerik
+              {onboarding.feature_personalized}
             </Text>
           </View>
           <View style={styles.featureItem}>
@@ -165,7 +177,7 @@ export function OnboardingScreen() {
                 { color: theme.colors.textSecondary },
               ]}
             >
-              Akıllı bildirimler
+              {onboarding.feature_notifications}
             </Text>
           </View>
           <View style={styles.featureItem}>
@@ -176,7 +188,7 @@ export function OnboardingScreen() {
                 { color: theme.colors.textSecondary },
               ]}
             >
-              Hızlı ve etkili
+              {onboarding.feature_fast}
             </Text>
           </View>
         </View>
@@ -189,7 +201,7 @@ export function OnboardingScreen() {
       <View style={styles.completionContainer}>
         <Text style={styles.completionEmoji}>🎉</Text>
         <Text style={[styles.completionTitle, { color: theme.colors.text }]}>
-          Harika!
+          {onboarding.completion_title}
         </Text>
         <Text
           style={[
@@ -197,8 +209,7 @@ export function OnboardingScreen() {
             { color: theme.colors.textSecondary },
           ]}
         >
-          Tercihleriniz kaydedildi. Şimdi size özel quote deneyiminiz
-          hazırlanıyor...
+          {onboarding.completion_subtitle}
         </Text>
 
         <View style={styles.loadingContainer}>
@@ -330,7 +341,7 @@ export function OnboardingScreen() {
           <Text
             style={[styles.sliderLabel, { color: theme.colors.textSecondary }]}
           >
-            bildirim/gün
+            {onboarding.notifications_per_day}
           </Text>
         </View>
 
@@ -412,7 +423,7 @@ export function OnboardingScreen() {
       <View style={styles.timePickerContainer}>
         <View style={styles.timePickerRow}>
           <Text style={[styles.timeLabel, { color: theme.colors.text }]}>
-            Başlangıç:
+            {onboarding.time_start_label}
           </Text>
           <TouchableOpacity
             style={[
@@ -425,8 +436,8 @@ export function OnboardingScreen() {
             onPress={() => {
               // Simple time selection - you can replace with a proper time picker
               Alert.prompt(
-                "Başlangıç Saati",
-                "Saat formatında giriniz (örn: 09:00)",
+                onboarding.time_start_prompt,
+                onboarding.time_format_instruction_start,
                 (text) => {
                   if (text && /^\d{2}:\d{2}$/.test(text)) {
                     handleAnswer("notification_time_range", {
@@ -448,7 +459,7 @@ export function OnboardingScreen() {
 
         <View style={styles.timePickerRow}>
           <Text style={[styles.timeLabel, { color: theme.colors.text }]}>
-            Bitiş:
+            {onboarding.time_end_label}
           </Text>
           <TouchableOpacity
             style={[
@@ -460,8 +471,8 @@ export function OnboardingScreen() {
             ]}
             onPress={() => {
               Alert.prompt(
-                "Bitiş Saati",
-                "Saat formatında giriniz (örn: 18:00)",
+                onboarding.time_end_prompt,
+                onboarding.time_format_instruction_end,
                 (text) => {
                   if (text && /^\d{2}:\d{2}$/.test(text)) {
                     handleAnswer("notification_time_range", {
@@ -564,7 +575,7 @@ export function OnboardingScreen() {
               <Text
                 style={[styles.navButtonText, { color: theme.colors.text }]}
               >
-                Geri
+                {onboarding.back}
               </Text>
             </TouchableOpacity>
           )}
@@ -585,8 +596,8 @@ export function OnboardingScreen() {
           >
             <Text style={[styles.navButtonText, { color: "#FFFFFF" }]}>
               {currentStep === onboardingQuestions.length - 1
-                ? "Tamamla"
-                : "İleri"}
+                ? onboarding.complete
+                : onboarding.next_step}
             </Text>
           </TouchableOpacity>
         </View>

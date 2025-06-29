@@ -11,6 +11,10 @@ import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { useStoryReading } from "../../hooks/usePurchase";
 import { useQuoteDetail } from "../../hooks/useQuoteService";
+import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePurchaseHydrated } from "../../store/usePurchaseStore";
 import {
@@ -29,6 +33,11 @@ const QuoteDetailScreen: React.FC = () => {
   const quoteId = params.id as string;
   const readTimerRef = useRef<number | null>(null);
 
+  // Translations
+  const common = useCommonTranslations();
+  const quoteDetail = useScreenTranslations("quote_detail");
+  const premium = useScreenTranslations("premium");
+
   // Store data
   const favoriteQuotes = useFavoriteQuotes();
 
@@ -41,17 +50,20 @@ const QuoteDetailScreen: React.FC = () => {
   const { markAsRead, addToFavorites, removeFromFavorites } = useActions();
 
   // Get quote details
-  const quoteDetail = useQuoteDetail(quoteId);
+  const quoteDetailData = useQuoteDetail(quoteId);
   const storyReading = useStoryReading();
 
   useEffect(() => {
-    if (quoteDetail?.quote) {
+    if (quoteDetailData?.quote) {
       // Quote'ı 10 saniye sonra okundu olarak işaretle
-      console.log("⏱️ Starting read timer for quote:", quoteDetail.quote.id);
+      console.log(
+        "⏱️ Starting read timer for quote:",
+        quoteDetailData.quote.id
+      );
 
       readTimerRef.current = setTimeout(() => {
-        console.log("✅ Marking quote as read:", quoteDetail.quote.id);
-        markAsRead(quoteDetail.quote);
+        console.log("✅ Marking quote as read:", quoteDetailData.quote.id);
+        markAsRead(quoteDetailData.quote);
       }, QUOTE_READ_DELAY);
     }
 
@@ -63,7 +75,7 @@ const QuoteDetailScreen: React.FC = () => {
         readTimerRef.current = null;
       }
     };
-  }, [quoteDetail?.quote?.id, markAsRead]);
+  }, [quoteDetailData?.quote?.id, markAsRead]);
 
   const styles = createStyles(theme);
 
@@ -75,19 +87,19 @@ const QuoteDetailScreen: React.FC = () => {
     return (
       <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Yükleniyor...</Text>
+          <Text style={styles.loadingText}>{common.loading}</Text>
         </View>
       </BaseScreen>
     );
   }
 
-  if (!quoteDetail || !quoteDetail.quote) {
+  if (!quoteDetailData || !quoteDetailData.quote) {
     return (
       <BaseScreen useGradientBackground={true}>
         <View style={styles.errorContainer}>
-          <Text style={styles.errorTitle}>Quote bulunamadı</Text>
+          <Text style={styles.errorTitle}>{quoteDetail.not_found_title}</Text>
           <Text style={styles.errorDescription}>
-            Aradığınız quote mevcut değil veya kaldırılmış.
+            {quoteDetail.not_found_description}
           </Text>
         </View>
       </BaseScreen>
@@ -95,7 +107,7 @@ const QuoteDetailScreen: React.FC = () => {
   }
 
   const { quote, category, canAccess, isFavorite, toggleFavorite } =
-    quoteDetail;
+    quoteDetailData;
 
   const handleReadStory = () => {
     if (!quote.story) return;
@@ -110,12 +122,12 @@ const QuoteDetailScreen: React.FC = () => {
   };
 
   const handleFavoritePress = () => {
-    if (!quoteDetail?.quote) return;
+    if (!quoteDetailData?.quote) return;
 
-    if (favoriteQuotes.includes(quoteDetail.quote.id)) {
-      removeFromFavorites(quoteDetail.quote.id);
+    if (favoriteQuotes.includes(quoteDetailData.quote.id)) {
+      removeFromFavorites(quoteDetailData.quote.id);
     } else {
-      addToFavorites(quoteDetail.quote.id);
+      addToFavorites(quoteDetailData.quote.id);
     }
   };
 
@@ -168,7 +180,9 @@ const QuoteDetailScreen: React.FC = () => {
             </View>
 
             <View style={styles.readTimeContainer}>
-              <Text style={styles.readTimeText}>{quote.readTime} dk okuma</Text>
+              <Text style={styles.readTimeText}>
+                {quote.readTime} {quoteDetail.minutes_short}
+              </Text>
             </View>
           </View>
         </View>
@@ -187,12 +201,15 @@ const QuoteDetailScreen: React.FC = () => {
                     strokeWidth={2}
                   />
                   <Text style={styles.storyReadTime}>
-                    {quote.story.readTime} dk okuma
+                    {quote.story.readTime} {quoteDetail.minutes_short}
                   </Text>
                 </View>
                 {!storyReading.isPremium && (
                   <Text style={styles.remainingReads}>
-                    Bugün {storyReading.remainingReads} hikaye kaldı
+                    {quoteDetail.stories_remaining.replace(
+                      "{count}",
+                      storyReading.remainingReads.toString()
+                    )}
                   </Text>
                 )}
               </View>
@@ -207,7 +224,7 @@ const QuoteDetailScreen: React.FC = () => {
                   onPress={handleReadStory}
                 >
                   <Text style={styles.readStoryButtonText}>
-                    Okundu İşaretle
+                    {quoteDetail.mark_as_read}
                   </Text>
                 </TouchableOpacity>
               </View>
@@ -220,14 +237,14 @@ const QuoteDetailScreen: React.FC = () => {
                   strokeWidth={2}
                 />
                 <Text style={styles.premiumLockText}>
-                  Bu hikaye Premium üyelikle kullanılabilir
+                  {quoteDetail.story_premium_required}
                 </Text>
                 <TouchableOpacity
                   style={styles.upgradeButton}
                   onPress={() => console.log("Navigate to purchase")}
                 >
                   <Text style={styles.upgradeButtonText}>
-                    Premium'a Yükselt
+                    {premium.upgrade}
                   </Text>
                 </TouchableOpacity>
               </View>
@@ -245,7 +262,9 @@ const QuoteDetailScreen: React.FC = () => {
               style={styles.upgradeButton}
               onPress={() => console.log("Navigate to purchase")}
             >
-              <Text style={styles.upgradeButtonText}>Sınırsız Hikaye Aç</Text>
+              <Text style={styles.upgradeButtonText}>
+                {quoteDetail.unlimited_stories}
+              </Text>
             </TouchableOpacity>
           </View>
         )}
@@ -253,7 +272,7 @@ const QuoteDetailScreen: React.FC = () => {
         {/* Tags */}
         {quote.tags.length > 0 && (
           <View style={styles.tagsSection}>
-            <Text style={styles.tagsTitle}>İlgili Konular</Text>
+            <Text style={styles.tagsTitle}>{quoteDetail.related_topics}</Text>
             <View style={styles.tagsContainer}>
               {quote.tags.map((tag, index) => (
                 <View key={index} style={styles.tag}>

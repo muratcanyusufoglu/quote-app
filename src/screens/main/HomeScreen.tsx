@@ -161,22 +161,22 @@ export function HomeScreen() {
         <View style={styles.loadingContainer}>
           <Text style={[styles.errorText, { color: theme.colors.error }]}>
             {categoryFilter
-              ? `"${categoryFilter}" kategorisinde quote bulunamadı`
+              ? home.category_no_quotes.replace("{category}", categoryFilter)
               : home.no_quotes}
           </Text>
           <Text
             style={[styles.errorSubtext, { color: theme.colors.textSecondary }]}
           >
             {categoryFilter
-              ? "Başka bir kategori deneyin veya ana sayfaya dönün"
-              : "Yeni kategoriler eklenene kadar bekleyin"}
+              ? home.try_other_category
+              : home.wait_for_categories}
           </Text>
           {categoryFilter && (
             <Text
               style={[styles.clearFilterText, { color: theme.colors.primary }]}
               onPress={clearCategoryFilter}
             >
-              Ana sayfaya dön
+              {home.back_to_home}
             </Text>
           )}
         </View>
@@ -214,7 +214,7 @@ export function HomeScreen() {
                   { color: theme.colors.whiteOverlay80 },
                 ]}
               >
-                Premium: {isPremium ? "Yes" : "No"}
+                Premium: {isPremium ? common.yes : common.no}
               </Text>
               <Text
                 style={[
@@ -249,7 +249,7 @@ export function HomeScreen() {
                     { color: isPremium ? "#FFFFFF" : "#FFFFFF" },
                   ]}
                 >
-                  {isPremium ? "Premium" : "Free"}
+                  {isPremium ? common.premium_status : common.free_status}
                 </Text>
               </TouchableOpacity>
 
@@ -261,7 +261,7 @@ export function HomeScreen() {
                 onPress={handleResetOnboarding}
               >
                 <Text style={[styles.debugButtonText, { color: "#FFFFFF" }]}>
-                  Reset Onboarding
+                  {common.reset_onboarding}
                 </Text>
               </TouchableOpacity>
             </View>
@@ -281,7 +281,7 @@ export function HomeScreen() {
             <Text
               style={[styles.categoryFilterText, { color: theme.colors.text }]}
             >
-              📂 {categoryFilter} kategorisi
+              {home.category_filter.replace("{category}", categoryFilter)}
             </Text>
             <Text
               style={[
@@ -290,7 +290,7 @@ export function HomeScreen() {
               ]}
               onPress={clearCategoryFilter}
             >
-              ✕ Temizle
+              {home.clear_filter}
             </Text>
           </View>
         </View>
@@ -314,7 +314,7 @@ export function HomeScreen() {
                   { color: theme.colors.text },
                 ]}
               >
-                👑 Size özel seçilmiş quote'lar
+                {home.personalized_quotes}
               </Text>
               <Text
                 style={[

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "quote",
-    "slug": "quote",
+    "name": "QuoteSpark – Motivational",
+    "slug": "QuoteSpark – Motivational",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.muratcan.yusufoglu.quote",
+      "bundleIdentifier": "com.quotespark.dailyinspiration",
       "infoPlist": {
         "CFBundleURLTypes": [
           {
@@ -26,7 +26,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.muratcan.yusufoglu.quote",
+      "package": "com.quotespark.dailyinspiration",
       "intentFilters": [
         {
           "action": "VIEW",
