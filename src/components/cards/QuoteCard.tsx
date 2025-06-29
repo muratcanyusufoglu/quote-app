@@ -3,6 +3,7 @@ import { Text, TouchableOpacity, View, ViewStyle } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedCategory, LocalizedQuote } from "../../types";
 import { getCategoryColor } from "../../utils/categoryColors";
+import { useTheme } from "../../utils/ThemeContext";
 
 interface QuoteCardProps {
   quote: LocalizedQuote;
@@ -23,6 +24,7 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
   backgroundColor,
   isDark = true,
 }) => {
+  const { theme } = useTheme();
   const cardColor =
     backgroundColor ||
     category?.color ||
@@ -30,36 +32,60 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
 
   return (
     <TouchableOpacity
-      style={[$cardContainer, { backgroundColor: cardColor }]}
+      style={[
+        $cardContainer,
+        { backgroundColor: cardColor, shadowColor: theme.colors.shadowColor },
+      ]}
       onPress={onPress}
       activeOpacity={0.9}
     >
       <View style={$cardContent}>
         {/* Quote Text */}
-        <Text style={$quoteText} numberOfLines={4}>
+        <Text
+          style={[$quoteText, { color: theme.colors.white }]}
+          numberOfLines={4}
+        >
           "{quote.text}"
         </Text>
 
         {/* Author */}
-        {quote.author && <Text style={$authorText}>— {quote.author}</Text>}
+        {quote.author && (
+          <Text style={[$authorText, { color: theme.colors.whiteOverlay90 }]}>
+            — {quote.author}
+          </Text>
+        )}
 
         {/* Card Footer */}
         <View style={$cardFooter}>
           <View style={$leftFooter}>
-            <View style={$readTimeContainer}>
-              <Text style={$readTimeText}>{quote.readTime} min</Text>
+            <View
+              style={[
+                $readTimeContainer,
+                { backgroundColor: theme.colors.whiteOverlay25 },
+              ]}
+            >
+              <Text style={[$readTimeText, { color: theme.colors.white }]}>
+                {quote.readTime} min
+              </Text>
             </View>
           </View>
 
           <TouchableOpacity
-            style={$favoriteButton}
+            style={[
+              $favoriteButton,
+              { backgroundColor: theme.colors.whiteOverlay25 },
+            ]}
             onPress={onFavoritePress}
             hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >
             <IconSymbol
               name="heart"
               size={20}
-              color={isFavorite ? "#ff6b6b" : "rgba(255, 255, 255, 0.8)"}
+              color={
+                isFavorite
+                  ? theme.colors.favoriteRed
+                  : theme.colors.whiteOverlay80
+              }
               strokeWidth={isFavorite ? 3 : 2}
             />
           </TouchableOpacity>
@@ -77,7 +103,6 @@ const $cardContainer: ViewStyle = {
   marginHorizontal: 16,
   marginVertical: 8,
   minHeight: 160,
-  shadowColor: "#000",
   shadowOffset: {
     width: 0,
     height: 8,
@@ -97,7 +122,6 @@ const $cardContent: ViewStyle = {
 const $quoteText = {
   fontSize: 18,
   fontWeight: "600" as any,
-  color: "#FFFFFF",
   lineHeight: 26,
   marginBottom: 12,
   textAlign: "left" as const,
@@ -107,7 +131,6 @@ const $quoteText = {
 const $authorText = {
   fontSize: 14,
   fontWeight: "500" as any,
-  color: "rgba(255, 255, 255, 0.9)",
   marginBottom: 16,
   textAlign: "left" as const,
   fontStyle: "italic" as const,
@@ -125,7 +148,6 @@ const $leftFooter: ViewStyle = {
 };
 
 const $readTimeContainer: ViewStyle = {
-  backgroundColor: "rgba(255, 255, 255, 0.25)",
   paddingHorizontal: 12,
   paddingVertical: 6,
   borderRadius: 12,
@@ -133,13 +155,11 @@ const $readTimeContainer: ViewStyle = {
 
 const $readTimeText = {
   fontSize: 12,
-  color: "#FFFFFF",
   fontWeight: "600" as any,
   letterSpacing: 0.2,
 };
 
 const $favoriteButton: ViewStyle = {
-  backgroundColor: "rgba(255, 255, 255, 0.25)",
   width: 44,
   height: 44,
   borderRadius: 22,

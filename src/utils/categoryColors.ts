@@ -1,11 +1,36 @@
-import { categoryColors, getCategoryColorForTheme } from "./theme";
+import { categoryColors, getCategoryColorForTheme, getTheme } from "./theme";
 
-// Single responsibility: Get color for a category
+// Single responsibility: Get color for a category using theme
 export const getCategoryColor = (
   category: string,
   isDark: boolean = true
 ): string => {
-  return getCategoryColorForTheme(category, isDark);
+  const theme = getTheme(isDark);
+
+  // Önce theme'daki brand yellow'u kullan, eğer spesifik renk yoksa
+  const specificColor = getCategoryColorForTheme(category, isDark);
+
+  // Brand yellow ile uyumlu kategoriler için brand yellow kullan
+  const brandCategories = [
+    "motivation",
+    "motivasyon",
+    "inspiration",
+    "ilham",
+    "happiness",
+    "mutluluk",
+    "general",
+    "genel",
+    "gratitude",
+    "sukur",
+    "dreams",
+    "hayaller",
+  ];
+
+  if (brandCategories.includes(category.toLowerCase())) {
+    return theme.colors.brandYellow;
+  }
+
+  return specificColor;
 };
 
 // Get all available category colors

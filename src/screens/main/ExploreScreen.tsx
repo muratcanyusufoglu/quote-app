@@ -50,6 +50,9 @@ export function ExploreScreen() {
   const explore = useScreenTranslations("explore");
   const common = useCommonTranslations();
 
+  // Create styles with theme
+  const styles = createStyles(theme);
+
   console.log("📋 All categories loaded:", allCategories.length);
 
   // Debug: Log all categories and their icons
@@ -125,7 +128,7 @@ export function ExploreScreen() {
               <IconSymbol
                 name={categoryIconName as any}
                 size={28}
-                color="#FFFFFF"
+                color={theme.colors.white}
                 strokeWidth={2}
               />
             ) : (
@@ -134,7 +137,7 @@ export function ExploreScreen() {
           </View>
 
           {/* Category Name */}
-          <Text style={[styles.categoryName, { color: "#FFFFFF" }]}>
+          <Text style={[styles.categoryName, { color: theme.colors.white }]}>
             {category.name}
           </Text>
 
@@ -144,7 +147,7 @@ export function ExploreScreen() {
               <IconSymbol
                 name="star"
                 size={10}
-                color="#FFD700"
+                color={theme.colors.goldAccent}
                 strokeWidth={2}
               />
               <Text style={styles.premiumBadgeText}>{common.premium}</Text>
@@ -181,9 +184,9 @@ export function ExploreScreen() {
     !onboardingStoreHydrated
   ) {
     return (
-      <BaseScreen>
+      <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+          <Text style={[styles.loadingText, { color: theme.colors.white }]}>
             {common.loading}
           </Text>
         </View>
@@ -192,17 +195,17 @@ export function ExploreScreen() {
   }
 
   return (
-    <BaseScreen style={styles.container}>
+    <BaseScreen style={styles.container} useGradientBackground={true}>
       <NavigationHeader title={explore.title} currentRoute="/(tabs)/explore" />
 
       <View style={styles.content}>
         {/* Header */}
         <View style={styles.headerContainer}>
-          <Text style={[styles.title, { color: theme.colors.text }]}>
+          <Text style={[styles.title, { color: theme.colors.white }]}>
             {explore.categories}
           </Text>
           <Text
-            style={[styles.subtitle, { color: theme.colors.textSecondary }]}
+            style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
           >
             {isPremium ? explore.subtitle_premium : explore.subtitle_free}
           </Text>
@@ -224,114 +227,124 @@ export function ExploreScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    paddingHorizontal: 0,
-  },
-  content: {
-    flex: 1,
-    paddingHorizontal: 16,
-  },
-  loadingContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  loadingText: {
-    fontSize: 18,
-    fontWeight: "500",
-    textAlign: "center",
-  },
-  headerContainer: {
-    marginTop: 20,
-    marginBottom: 24,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: "700",
-    marginBottom: 8,
-  },
-  subtitle: {
-    fontSize: 16,
-    lineHeight: 22,
-  },
-  categoriesContainer: {
-    paddingBottom: 40,
-  },
-  row: {
-    justifyContent: "space-between",
-  },
-  separator: {
-    height: 16,
-  },
-  categoryCard: {
-    width: ITEM_WIDTH,
-    minHeight: 140,
-    borderRadius: 16,
-    marginBottom: 0,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 4,
+const createStyles = (theme: any) =>
+  StyleSheet.create({
+    container: {
+      paddingHorizontal: 0,
     },
-    shadowOpacity: 0.15,
-    shadowRadius: 8,
-    elevation: 6,
-  },
-  categoryCardContent: {
-    flex: 1,
-    padding: 16,
-    justifyContent: "space-between",
-  },
-  categoryIconContainer: {
-    alignItems: "center",
-    marginBottom: 8,
-  },
-  categoryName: {
-    fontSize: 16,
-    fontWeight: "600",
-    textAlign: "center",
-    marginBottom: 4,
-  },
-  categoryDescription: {
-    fontSize: 12,
-    textAlign: "center",
-    lineHeight: 16,
-    opacity: 0.9,
-  },
-  premiumBadge: {
-    position: "absolute",
-    top: 8,
-    right: 8,
-    backgroundColor: "rgba(0,0,0,0.6)",
-    borderRadius: 12,
-    paddingHorizontal: 6,
-    paddingVertical: 3,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 2,
-  },
-  premiumBadgeText: {
-    fontSize: 8,
-    color: "#FFD700",
-    fontWeight: "700",
-  },
-  freeBadge: {
-    position: "absolute",
-    top: 8,
-    right: 8,
-    backgroundColor: "rgba(16, 185, 129, 0.9)",
-    borderRadius: 8,
-    paddingHorizontal: 6,
-    paddingVertical: 2,
-  },
-  freeBadgeText: {
-    fontSize: 8,
-    color: "#FFFFFF",
-    fontWeight: "700",
-  },
-  categoryEmoji: {
-    fontSize: 28,
-    textAlign: "center",
-  },
-});
+    content: {
+      flex: 1,
+      paddingHorizontal: 16,
+    },
+    loadingContainer: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    loadingText: {
+      fontSize: 18,
+      fontWeight: "500",
+      textAlign: "center",
+    },
+    headerContainer: {
+      marginTop: 20,
+      marginBottom: 24,
+    },
+    title: {
+      fontSize: 28,
+      fontWeight: "700",
+      marginBottom: 8,
+    },
+    subtitle: {
+      fontSize: 16,
+      lineHeight: 22,
+    },
+    categoriesContainer: {
+      paddingBottom: 40,
+    },
+    row: {
+      justifyContent: "space-between",
+    },
+    separator: {
+      height: 16,
+    },
+    categoryCard: {
+      flex: 1,
+      minHeight: 120,
+      borderRadius: 16,
+      marginBottom: 16,
+      overflow: "hidden",
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.15,
+      shadowRadius: 8,
+      elevation: 6,
+    },
+    categoryCardContent: {
+      flex: 1,
+      padding: 16,
+      justifyContent: "space-between",
+    },
+    categoryIconContainer: {
+      alignItems: "center",
+      marginBottom: 8,
+    },
+    categoryName: {
+      fontSize: 16,
+      fontWeight: "600",
+      textAlign: "center",
+      marginBottom: 4,
+    },
+    categoryDescription: {
+      fontSize: 12,
+      textAlign: "center",
+      lineHeight: 16,
+      opacity: 0.9,
+    },
+    premiumBadge: {
+      backgroundColor: theme.colors.successLight,
+      paddingHorizontal: 8,
+      paddingVertical: 4,
+      borderRadius: 12,
+      alignSelf: "flex-end",
+    },
+    premiumBadgeText: {
+      fontSize: 8,
+      color: theme.colors.goldAccent,
+      fontWeight: "700",
+    },
+    freeBadge: {
+      position: "absolute",
+      top: 8,
+      right: 8,
+      backgroundColor: theme.colors.successLight,
+      borderRadius: 8,
+      paddingHorizontal: 6,
+      paddingVertical: 2,
+    },
+    freeBadgeText: {
+      fontSize: 8,
+      color: theme.colors.white,
+      fontWeight: "700",
+    },
+    categoryEmoji: {
+      fontSize: 28,
+      textAlign: "center",
+    },
+    categoryOverlay: {
+      flex: 1,
+      backgroundColor: theme.colors.blackOverlay60,
+      justifyContent: "space-between",
+      padding: 16,
+    },
+    categoryContent: {
+      alignItems: "center",
+      gap: 8,
+    },
+    categoryFooter: {
+      alignItems: "center",
+    },
+  });

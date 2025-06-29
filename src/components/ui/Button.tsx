@@ -7,6 +7,8 @@ import {
   TouchableOpacity,
   ViewStyle,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useTheme } from "../../utils/ThemeContext";
 
 type ButtonVariant = "primary" | "secondary" | "outline" | "ghost";
 type ButtonSize = "small" | "medium" | "large";
@@ -20,6 +22,8 @@ interface ButtonProps {
   loading?: boolean;
   style?: ViewStyle;
   textStyle?: TextStyle;
+  icon?: string;
+  fullWidth?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -31,37 +35,108 @@ const Button: React.FC<ButtonProps> = ({
   loading = false,
   style,
   textStyle,
+  icon,
+  fullWidth = false,
 }) => {
-  const buttonStyles = [
-    styles.base,
-    styles[size],
-    styles[variant],
-    disabled && styles.disabled,
-    style,
-  ];
+  const { theme } = useTheme();
 
-  const textStyles = [
-    styles.baseText,
-    styles[`${size}Text`],
-    styles[`${variant}Text`],
-    disabled && styles.disabledText,
-    textStyle,
-  ];
+  const getButtonStyle = (): ViewStyle => {
+    const baseStyle: ViewStyle = {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      borderRadius: 12,
+      paddingHorizontal: size === "large" ? 24 : size === "small" ? 12 : 16,
+      paddingVertical: size === "large" ? 16 : size === "small" ? 8 : 12,
+      ...(fullWidth && { width: "100%" }),
+    };
+
+    switch (variant) {
+      case "primary":
+        return {
+          ...baseStyle,
+          backgroundColor: disabled
+            ? theme.colors.border
+            : theme.colors.primary,
+        };
+      case "secondary":
+        return {
+          ...baseStyle,
+          backgroundColor: disabled
+            ? theme.colors.border
+            : theme.colors.secondary,
+        };
+      case "outline":
+        return {
+          ...baseStyle,
+          backgroundColor: theme.colors.transparent,
+          borderWidth: 1,
+          borderColor: disabled ? theme.colors.border : theme.colors.primary,
+        };
+      case "ghost":
+        return {
+          ...baseStyle,
+          backgroundColor: theme.colors.transparent,
+        };
+      default:
+        return baseStyle;
+    }
+  };
+
+  const getTextStyle = (): TextStyle => {
+    const baseStyle: TextStyle = {
+      fontSize: size === "large" ? 18 : size === "small" ? 14 : 16,
+      fontWeight: "600",
+      ...(icon && { marginLeft: 8 }),
+    };
+
+    switch (variant) {
+      case "primary":
+        return {
+          ...baseStyle,
+          color: disabled ? theme.colors.textSecondary : theme.colors.white,
+        };
+      case "secondary":
+        return {
+          ...baseStyle,
+          color: disabled ? theme.colors.textSecondary : theme.colors.white,
+        };
+      case "outline":
+        return {
+          ...baseStyle,
+          color: disabled ? theme.colors.textSecondary : theme.colors.primary,
+        };
+      case "ghost":
+        return {
+          ...baseStyle,
+          color: disabled ? theme.colors.textSecondary : theme.colors.primary,
+        };
+      default:
+        return baseStyle;
+    }
+  };
 
   return (
     <TouchableOpacity
-      style={buttonStyles}
+      style={getButtonStyle()}
       onPress={onPress}
       disabled={disabled || loading}
       activeOpacity={0.8}
     >
       {loading ? (
-        <ActivityIndicator
-          size={size === "small" ? "small" : "large"}
-          color="#FFFFFF"
-        />
+        <ActivityIndicator size="small" color={theme.colors.white} />
       ) : (
-        <Text style={textStyles}>{title}</Text>
+        <>
+          {icon && (
+            <IconSymbol
+              name={icon as any}
+              size={size === "large" ? 24 : size === "small" ? 16 : 20}
+              color={getTextStyle().color as string}
+              strokeWidth={2}
+            />
+          )}
+          <Text style={getTextStyle()}>{title}</Text>
+        </>
       )}
     </TouchableOpacity>
   );

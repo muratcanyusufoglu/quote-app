@@ -53,6 +53,9 @@ export function HomeScreen() {
   const home = useScreenTranslations("home");
   const common = useCommonTranslations();
 
+  // Create styles with theme
+  const styles = createStyles(theme);
+
   // Determine quote source based on user status and navigation source
   const getQuoteSource = () => {
     // 1. If coming from explore (category filter active), show only that category
@@ -184,31 +187,48 @@ export function HomeScreen() {
   console.log(`🏠 HomeScreen loaded with ${displayQuotes.length} quotes`);
 
   return (
-    <BaseScreen style={styles.container}>
+    <BaseScreen
+      style={styles.container}
+      useGradientBackground={false} // QuoteReelCard has its own gradient
+      backgroundColor="transparent" // Transparent to show QuoteReelCard gradient
+      safeAreaStyle={{ paddingHorizontal: 0 }} // Override BaseScreen padding
+    >
       {/* Debug Premium Toggle - Only show in development */}
       {__DEV__ && (
         <View
           style={[
-            styles.debugContainer,
+            styles.debugPanel,
             {
-              backgroundColor: theme.colors.surface,
               borderColor: theme.colors.border,
             },
           ]}
         >
           <View style={styles.debugContent}>
             <View style={styles.debugInfo}>
-              <Text style={[styles.debugTitle, { color: theme.colors.text }]}>
-                🔧 Debug Mode
+              <Text style={[styles.debugTitle, { color: theme.colors.white }]}>
+                Debug Panel
               </Text>
               <Text
                 style={[
-                  styles.debugSubtitle,
-                  { color: theme.colors.textSecondary },
+                  styles.debugText,
+                  { color: theme.colors.whiteOverlay80 },
                 ]}
               >
-                Premium: {isPremium ? "✅" : "❌"} | Categories:{" "}
+                Premium: {isPremium ? "Yes" : "No"}
+              </Text>
+              <Text
+                style={[
+                  styles.debugText,
+                  {
+                    color: isPremium ? theme.colors.white : theme.colors.white,
+                  },
+                ]}
+              >
+                Quotes: {displayQuotes.length} | Categories:{" "}
                 {userPreferences?.selectedCategories?.length || 0}
+              </Text>
+              <Text style={[styles.debugText, { color: theme.colors.white }]}>
+                Language: {(common.language || "EN").toUpperCase()}
               </Text>
             </View>
             <View style={styles.debugButtons}>
@@ -226,7 +246,7 @@ export function HomeScreen() {
                 <Text
                   style={[
                     styles.debugButtonText,
-                    { color: isPremium ? "#FFFFFF" : theme.colors.text },
+                    { color: isPremium ? "#FFFFFF" : "#FFFFFF" },
                   ]}
                 >
                   {isPremium ? "Premium" : "Free"}
@@ -321,152 +341,167 @@ export function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingHorizontal: 0, // Override BaseScreen padding for full-width reels
-  },
-  loadingContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    paddingHorizontal: 20,
-  },
-  loadingText: {
-    fontSize: 18,
-    fontWeight: "500",
-    textAlign: "center",
-  },
-  errorText: {
-    fontSize: 18,
-    fontWeight: "600",
-    textAlign: "center",
-    marginBottom: 8,
-  },
-  errorSubtext: {
-    fontSize: 14,
-    textAlign: "center",
-    marginBottom: 16,
-  },
-  clearFilterText: {
-    fontSize: 16,
-    fontWeight: "600",
-    textAlign: "center",
-    textDecorationLine: "underline",
-  },
-  debugContainer: {
-    marginHorizontal: 16,
-    marginTop: 8,
-    marginBottom: 4,
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    borderRadius: 12,
-    borderWidth: 1,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 4,
+const createStyles = (theme: any) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingHorizontal: 0, // No padding to allow full gradient visibility
     },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  debugContent: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  debugInfo: {
-    flex: 1,
-  },
-  debugTitle: {
-    fontSize: 14,
-    fontWeight: "600",
-    marginBottom: 2,
-  },
-  debugSubtitle: {
-    fontSize: 12,
-    fontWeight: "500",
-  },
-  debugButtons: {
-    flexDirection: "row",
-    gap: 8,
-  },
-  debugButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 20,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
+    loadingContainer: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+      paddingHorizontal: 20,
     },
-    shadowOpacity: 0.15,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  debugButtonText: {
-    fontSize: 14,
-    fontWeight: "600",
-  },
-  categoryFilterBanner: {
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    marginHorizontal: 16,
-    marginVertical: 8,
-    borderRadius: 12,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
+    loadingText: {
+      fontSize: 18,
+      fontWeight: "500",
+      textAlign: "center",
     },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  categoryFilterContent: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  categoryFilterText: {
-    fontSize: 16,
-    fontWeight: "600",
-    flex: 1,
-  },
-  clearFilterButton: {
-    fontSize: 14,
-    fontWeight: "600",
-    paddingHorizontal: 12,
-    paddingVertical: 4,
-  },
-  personalizationBanner: {
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    marginHorizontal: 16,
-    marginVertical: 8,
-    borderRadius: 12,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
+    errorText: {
+      fontSize: 18,
+      fontWeight: "600",
+      textAlign: "center",
+      marginBottom: 8,
     },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  personalizationContent: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  personalizationText: {
-    fontSize: 16,
-    fontWeight: "600",
-    marginBottom: 4,
-  },
-  personalizationSubtext: {
-    fontSize: 12,
-    fontWeight: "500",
-  },
-});
+    errorSubtext: {
+      fontSize: 14,
+      textAlign: "center",
+      marginBottom: 16,
+    },
+    clearFilterText: {
+      fontSize: 16,
+      fontWeight: "600",
+      textAlign: "center",
+      textDecorationLine: "underline",
+    },
+    debugPanel: {
+      position: "absolute",
+      top: 10,
+      left: 20,
+      right: 20,
+      backgroundColor: theme.colors.blackOverlay70,
+      borderRadius: 12,
+      padding: 16,
+      zIndex: 1000,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      elevation: 5,
+    },
+    debugContent: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    debugInfo: {
+      flex: 1,
+    },
+    debugTitle: {
+      fontSize: 14,
+      fontWeight: "600",
+      marginBottom: 2,
+    },
+    debugText: {
+      fontSize: 12,
+      fontWeight: "500",
+    },
+    debugButtons: {
+      flexDirection: "row",
+      gap: 8,
+    },
+    debugButton: {
+      backgroundColor: theme.colors.brandYellow,
+      paddingVertical: 8,
+      paddingHorizontal: 16,
+      borderRadius: 8,
+      marginTop: 8,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      elevation: 5,
+    },
+    debugButtonText: {
+      fontSize: 14,
+      fontWeight: "600",
+    },
+    categoryFilterBanner: {
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      marginHorizontal: 16,
+      marginVertical: 8,
+      borderRadius: 12,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    categoryFilterContent: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    categoryFilterText: {
+      fontSize: 16,
+      fontWeight: "600",
+      flex: 1,
+    },
+    clearFilterButton: {
+      fontSize: 14,
+      fontWeight: "600",
+      paddingHorizontal: 12,
+      paddingVertical: 4,
+    },
+    personalizationBanner: {
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      marginHorizontal: 16,
+      marginVertical: 8,
+      borderRadius: 12,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    personalizationContent: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    personalizationText: {
+      fontSize: 16,
+      fontWeight: "600",
+      marginBottom: 4,
+    },
+    personalizationSubtext: {
+      fontSize: 12,
+      fontWeight: "500",
+    },
+    searchContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginBottom: 24,
+      backgroundColor: theme.colors.whiteOverlay10,
+      borderRadius: 12,
+      paddingHorizontal: 16,
+      paddingVertical: 8,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay10,
+    },
+  });

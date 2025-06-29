@@ -230,10 +230,25 @@ export interface ThemeColors {
   textTertiary: string;
   textInverse: string;
 
+  // Soft text colors for quote content
+  textSoft: string;
+  textSoftSecondary: string;
+  textSoftTertiary: string;
+
   // Border colors
   border: string;
   borderLight: string;
   borderDark: string;
+
+  // Soft border and background colors
+  borderSoft: string;
+  backgroundSoft: string;
+
+  // App-wide gradient and brand colors
+  brandYellow: string; // Ana sarı renk
+  gradientColors: string[]; // Gradient background renkleri
+  gradientLocations: number[]; // Gradient pozisyonları
+  radialOverlayColors: string[]; // Radial overlay renkleri
 
   // State colors
   error: string;
@@ -251,6 +266,40 @@ export interface ThemeColors {
   // Overlay colors
   overlay: string;
   backdrop: string;
+
+  // Common semantic colors used throughout the app
+  white: string;
+  black: string;
+  transparent: string;
+
+  // Shadow and overlay colors
+  shadowColor: string;
+  shadowLight: string;
+  shadowMedium: string;
+  shadowHeavy: string;
+
+  // Interactive colors
+  favoriteRed: string;
+  favoriteActive: string;
+  goldAccent: string;
+
+  // Overlay and background variations
+  whiteOverlay10: string;
+  whiteOverlay20: string;
+  whiteOverlay25: string;
+  whiteOverlay70: string;
+  whiteOverlay80: string;
+  whiteOverlay90: string;
+
+  blackOverlay10: string;
+  blackOverlay30: string;
+  blackOverlay40: string;
+  blackOverlay60: string;
+  blackOverlay70: string;
+
+  // Anthracite overlay colors (for soft text backgrounds)
+  anthraciteOverlay10: string;
+  anthraciteOverlay20: string;
 }
 
 export interface Theme {

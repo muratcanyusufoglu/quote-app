@@ -74,29 +74,29 @@ const colorPalette = {
   orange800: "#9a3412",
   orange900: "#7c2d12",
 
-  // Golden/Yellow warm tones for quote cards (inspired by screenshot)
+  // Golden/Yellow warm tones for quote cards (softer and more muted)
   yellow50: "#fefce8",
   yellow100: "#fef9c3",
   yellow200: "#fef08a",
   yellow300: "#fde047",
   yellow400: "#facc15",
-  yellow500: "#eab308", // Golden primary
-  yellow600: "#ca8a04",
-  yellow700: "#a16207",
-  yellow800: "#854d0e",
-  yellow900: "#713f12",
+  yellow500: "#f4d03f", // Softer, more muted golden primary
+  yellow600: "#f7dc6f",
+  yellow700: "#f8c471",
+  yellow800: "#f9ca63",
+  yellow900: "#f1c40f",
 
-  // Warm golden variants for quote backgrounds
+  // Warm golden variants for quote backgrounds (softer and more elegant)
   golden50: "#fffbeb",
   golden100: "#fef3c7",
   golden200: "#fde68a",
   golden300: "#fcd34d",
   golden400: "#fbbf24",
-  golden500: "#f59e0b", // Main golden
-  golden600: "#d97706",
-  golden700: "#b45309",
-  golden800: "#92400e",
-  golden900: "#78350f",
+  golden500: "#f4d03f", // Softer main golden
+  golden600: "#f7dc6f",
+  golden700: "#f8c471",
+  golden800: "#f9ca63",
+  golden900: "#f1c40f",
 
   // Neutral grays
   gray50: "#f9fafb",
@@ -146,10 +146,19 @@ export const lightTheme: Theme = {
     textTertiary: colorPalette.gray500,
     textInverse: "#ffffff",
 
+    // Soft text colors for quote content - Dark Anthracite tones
+    textSoft: "#36454F", // Dark anthracite (koyu antrasit)
+    textSoftSecondary: "rgba(54, 69, 79, 0.85)", // Anthracite with slight transparency
+    textSoftTertiary: "rgba(54, 69, 79, 0.65)", // Lighter anthracite for tertiary text
+
     // Border colors
     border: colorPalette.gray200,
     borderLight: colorPalette.gray100,
     borderDark: colorPalette.gray300,
+
+    // Soft border and background colors - matching anthracite theme
+    borderSoft: "rgba(54, 69, 79, 0.1)",
+    backgroundSoft: "rgba(54, 69, 79, 0.05)",
 
     // State colors
     error: colorPalette.red500,
@@ -167,6 +176,50 @@ export const lightTheme: Theme = {
     // Overlay colors
     overlay: "rgba(0, 0, 0, 0.5)",
     backdrop: "rgba(0, 0, 0, 0.3)",
+
+    // App-wide gradient and brand colors
+    brandYellow: colorPalette.golden500,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
+    gradientLocations: [0, 0.3, 0.7, 1],
+    radialOverlayColors: [
+      "transparent",
+      `rgba(244, 208, 63, 0.2)`,
+      "transparent",
+    ],
+
+    // Common semantic colors used throughout the app
+    white: "#FFFFFF",
+    black: "#000000",
+    transparent: "transparent",
+
+    // Shadow and overlay colors
+    shadowColor: "#000000",
+    shadowLight: "rgba(0, 0, 0, 0.1)",
+    shadowMedium: "rgba(0, 0, 0, 0.3)",
+    shadowHeavy: "rgba(0, 0, 0, 0.7)",
+
+    // Interactive colors
+    favoriteRed: "#ff6b6b",
+    favoriteActive: "#ff4757",
+    goldAccent: "#FFD700",
+
+    // Overlay and background variations
+    whiteOverlay10: "rgba(255, 255, 255, 0.1)",
+    whiteOverlay20: "rgba(255, 255, 255, 0.2)",
+    whiteOverlay25: "rgba(255, 255, 255, 0.25)",
+    whiteOverlay70: "rgba(255, 255, 255, 0.7)",
+    whiteOverlay80: "rgba(255, 255, 255, 0.8)",
+    whiteOverlay90: "rgba(255, 255, 255, 0.9)",
+
+    blackOverlay10: "rgba(0, 0, 0, 0.1)",
+    blackOverlay30: "rgba(0, 0, 0, 0.3)",
+    blackOverlay40: "rgba(0, 0, 0, 0.4)",
+    blackOverlay60: "rgba(0, 0, 0, 0.6)",
+    blackOverlay70: "rgba(0, 0, 0, 0.7)",
+
+    // Anthracite overlay colors (for soft text backgrounds)
+    anthraciteOverlay10: "rgba(54, 69, 79, 0.1)",
+    anthraciteOverlay20: "rgba(54, 69, 79, 0.2)",
   },
   spacing: {
     xs: 4,
@@ -226,10 +279,19 @@ export const darkTheme: Theme = {
     textTertiary: colorPalette.dark400,
     textInverse: colorPalette.gray900,
 
+    // Soft text colors for quote content (adjusted for dark theme)
+    textSoft: "#bdc3c7", // Soft light gray for dark backgrounds
+    textSoftSecondary: "rgba(189, 195, 199, 0.8)", // Softer secondary
+    textSoftTertiary: "rgba(189, 195, 199, 0.6)", // Even softer tertiary
+
     // Border colors
     border: colorPalette.dark600,
     borderLight: colorPalette.dark700,
     borderDark: colorPalette.dark500,
+
+    // Soft border and background colors (adjusted for dark theme)
+    borderSoft: "rgba(189, 195, 199, 0.1)",
+    backgroundSoft: "rgba(189, 195, 199, 0.05)",
 
     // State colors
     error: colorPalette.red400,
@@ -247,6 +309,50 @@ export const darkTheme: Theme = {
     // Overlay colors
     overlay: "rgba(0, 0, 0, 0.7)",
     backdrop: "rgba(0, 0, 0, 0.5)",
+
+    // App-wide gradient and brand colors
+    brandYellow: colorPalette.golden500,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
+    gradientLocations: [0, 0.3, 0.7, 1],
+    radialOverlayColors: [
+      "transparent",
+      `rgba(244, 208, 63, 0.2)`,
+      "transparent",
+    ],
+
+    // Common semantic colors used throughout the app
+    white: "#FFFFFF",
+    black: "#000000",
+    transparent: "transparent",
+
+    // Shadow and overlay colors
+    shadowColor: "#000000",
+    shadowLight: "rgba(0, 0, 0, 0.1)",
+    shadowMedium: "rgba(0, 0, 0, 0.3)",
+    shadowHeavy: "rgba(0, 0, 0, 0.7)",
+
+    // Interactive colors
+    favoriteRed: "#ff6b6b",
+    favoriteActive: "#ff4757",
+    goldAccent: "#FFD700",
+
+    // Overlay and background variations
+    whiteOverlay10: "rgba(255, 255, 255, 0.1)",
+    whiteOverlay20: "rgba(255, 255, 255, 0.2)",
+    whiteOverlay25: "rgba(255, 255, 255, 0.25)",
+    whiteOverlay70: "rgba(255, 255, 255, 0.7)",
+    whiteOverlay80: "rgba(255, 255, 255, 0.8)",
+    whiteOverlay90: "rgba(255, 255, 255, 0.9)",
+
+    blackOverlay10: "rgba(0, 0, 0, 0.1)",
+    blackOverlay30: "rgba(0, 0, 0, 0.3)",
+    blackOverlay40: "rgba(0, 0, 0, 0.4)",
+    blackOverlay60: "rgba(0, 0, 0, 0.6)",
+    blackOverlay70: "rgba(0, 0, 0, 0.7)",
+
+    // Anthracite overlay colors (for soft text backgrounds)
+    anthraciteOverlay10: "rgba(54, 69, 79, 0.1)",
+    anthraciteOverlay20: "rgba(54, 69, 79, 0.2)",
   },
   spacing: lightTheme.spacing,
   typography: lightTheme.typography,

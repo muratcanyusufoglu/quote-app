@@ -44,13 +44,15 @@ export function PastReadsScreen() {
 
   const renderQuoteItem = ({ item: quote }: { item: LocalizedQuote }) => (
     <TouchableOpacity
-      style={[styles.quoteCard, { backgroundColor: theme.colors.surface }]}
+      style={[styles.quoteCard, { backgroundColor: theme.colors.brandYellow }]}
       onPress={() => handleQuotePress(quote)}
     >
-      <Text style={[styles.quoteText, { color: theme.colors.text }]}>
+      <Text style={[styles.quoteText, { color: theme.colors.textSoft }]}>
         {quote.text}
       </Text>
-      <Text style={[styles.quoteAuthor, { color: theme.colors.textSecondary }]}>
+      <Text
+        style={[styles.quoteAuthor, { color: theme.colors.textSoftSecondary }]}
+      >
         {quote.author}
       </Text>
     </TouchableOpacity>
@@ -58,16 +60,19 @@ export function PastReadsScreen() {
 
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
-      <Text style={[styles.emptyTitle, { color: theme.colors.text }]}>
+      <Text style={[styles.emptyTitle, { color: "#FFFFFF" }]}>
         {history.empty_title}
       </Text>
       <Text
-        style={[styles.emptyMessage, { color: theme.colors.textSecondary }]}
+        style={[styles.emptyMessage, { color: "rgba(255, 255, 255, 0.8)" }]}
       >
         {history.empty_message}
       </Text>
       <TouchableOpacity
-        style={[styles.startButton, { backgroundColor: theme.colors.primary }]}
+        style={[
+          styles.startButton,
+          { backgroundColor: theme.colors.brandYellow },
+        ]}
         onPress={handleStartReading}
       >
         <Text style={styles.startButtonText}>{history.start_reading}</Text>
@@ -82,9 +87,9 @@ export function PastReadsScreen() {
     !onboardingStoreHydrated
   ) {
     return (
-      <BaseScreen>
+      <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+          <Text style={[styles.loadingText, { color: "#FFFFFF" }]}>
             {common.loading}
           </Text>
         </View>
@@ -93,7 +98,7 @@ export function PastReadsScreen() {
   }
 
   return (
-    <BaseScreen style={styles.container}>
+    <BaseScreen style={styles.container} useGradientBackground={true}>
       <NavigationHeader title={history.title} currentRoute="/(tabs)/history" />
 
       <View style={styles.content}>

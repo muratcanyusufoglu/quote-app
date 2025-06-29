@@ -1,7 +1,6 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useRef } from "react";
 import {
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
@@ -9,6 +8,7 @@ import {
   View,
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import BaseScreen from "../../components/layout/BaseScreen";
 import { useStoryReading } from "../../hooks/usePurchase";
 import { useQuoteDetail } from "../../hooks/useQuoteService";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
@@ -18,7 +18,6 @@ import {
   useFavoriteQuotes,
   useQuoteHydrated,
 } from "../../store/useQuoteStore";
-import { getCategoryColor } from "../../utils/categoryColors";
 import { useTheme } from "../../utils/ThemeContext";
 
 const QUOTE_READ_DELAY = 10000; // 10 saniye
@@ -74,30 +73,29 @@ const QuoteDetailScreen: React.FC = () => {
     !onboardingStoreHydrated
   ) {
     return (
-      <SafeAreaView style={styles.container}>
+      <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
           <Text style={styles.loadingText}>Yükleniyor...</Text>
         </View>
-      </SafeAreaView>
+      </BaseScreen>
     );
   }
 
   if (!quoteDetail || !quoteDetail.quote) {
     return (
-      <SafeAreaView style={styles.container}>
+      <BaseScreen useGradientBackground={true}>
         <View style={styles.errorContainer}>
           <Text style={styles.errorTitle}>Quote bulunamadı</Text>
           <Text style={styles.errorDescription}>
             Aradığınız quote mevcut değil veya kaldırılmış.
           </Text>
         </View>
-      </SafeAreaView>
+      </BaseScreen>
     );
   }
 
   const { quote, category, canAccess, isFavorite, toggleFavorite } =
     quoteDetail;
-  const cardColor = getCategoryColor(quote.category, isDark);
 
   const handleReadStory = () => {
     if (!quote.story) return;
@@ -126,7 +124,7 @@ const QuoteDetailScreen: React.FC = () => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <BaseScreen useGradientBackground={true}>
       <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.contentContainer}
@@ -151,7 +149,12 @@ const QuoteDetailScreen: React.FC = () => {
         </View>
 
         {/* Quote Card */}
-        <View style={[styles.quoteContainer, { backgroundColor: cardColor }]}>
+        <View
+          style={[
+            styles.quoteContainer,
+            { backgroundColor: theme.colors.brandYellow },
+          ]}
+        >
           <Text style={styles.quoteText}>{quote.text}</Text>
 
           {quote.author && (
@@ -180,7 +183,7 @@ const QuoteDetailScreen: React.FC = () => {
                   <IconSymbol
                     name="book"
                     size={14}
-                    color={theme.colors.textSecondary}
+                    color="rgba(255, 255, 255, 0.7)"
                     strokeWidth={2}
                   />
                   <Text style={styles.storyReadTime}>
@@ -213,7 +216,7 @@ const QuoteDetailScreen: React.FC = () => {
                 <IconSymbol
                   name="lock"
                   size={32}
-                  color={theme.colors.textSecondary}
+                  color="rgba(255, 255, 255, 0.7)"
                   strokeWidth={2}
                 />
                 <Text style={styles.premiumLockText}>
@@ -264,16 +267,12 @@ const QuoteDetailScreen: React.FC = () => {
         {/* Bottom Spacing */}
         <View style={styles.bottomSpacing} />
       </ScrollView>
-    </SafeAreaView>
+    </BaseScreen>
   );
 };
 
 const createStyles = (theme: any) =>
   StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: theme.colors.background,
-    },
     loadingContainer: {
       flex: 1,
       justifyContent: "center",
@@ -281,7 +280,7 @@ const createStyles = (theme: any) =>
     },
     loadingText: {
       fontSize: 18,
-      color: theme.colors.textSecondary,
+      color: "#FFFFFF",
     },
     errorContainer: {
       flex: 1,
@@ -292,13 +291,13 @@ const createStyles = (theme: any) =>
     errorTitle: {
       fontSize: 24,
       fontWeight: "bold",
-      color: theme.colors.text,
+      color: "#FFFFFF",
       marginBottom: 12,
       textAlign: "center",
     },
     errorDescription: {
       fontSize: 16,
-      color: theme.colors.textSecondary,
+      color: "rgba(255, 255, 255, 0.8)",
       textAlign: "center",
       lineHeight: 22,
     },
@@ -322,11 +321,11 @@ const createStyles = (theme: any) =>
       justifyContent: "center",
       alignItems: "center",
       borderRadius: 20,
-      backgroundColor: theme.colors.surface,
+      backgroundColor: "rgba(255, 255, 255, 0.2)",
     },
     backButtonIcon: {
       fontSize: 18,
-      color: theme.colors.text,
+      color: "#FFFFFF",
     },
     favoriteButton: {
       width: 40,
@@ -334,7 +333,7 @@ const createStyles = (theme: any) =>
       justifyContent: "center",
       alignItems: "center",
       borderRadius: 20,
-      backgroundColor: theme.colors.surface,
+      backgroundColor: "rgba(255, 255, 255, 0.2)",
     },
     quoteContainer: {
       padding: 24,
@@ -352,13 +351,13 @@ const createStyles = (theme: any) =>
     quoteText: {
       fontSize: theme.typography.fontSize.xl,
       fontWeight: theme.typography.fontWeight.medium,
-      color: "#FFFFFF",
+      color: theme.colors.textSoft,
       lineHeight: 28,
       marginBottom: theme.spacing.lg,
     },
     authorText: {
       fontSize: theme.typography.fontSize.md,
-      color: "rgba(255, 255, 255, 0.8)",
+      color: theme.colors.textSoftSecondary,
       marginBottom: theme.spacing.xl,
       fontStyle: "italic",
     },
@@ -370,7 +369,7 @@ const createStyles = (theme: any) =>
     categoryContainer: {
       flexDirection: "row",
       alignItems: "center",
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      backgroundColor: "rgba(54, 69, 79, 0.2)",
       paddingHorizontal: theme.spacing.md,
       paddingVertical: theme.spacing.sm,
       borderRadius: theme.borderRadius.md,
@@ -381,22 +380,22 @@ const createStyles = (theme: any) =>
     },
     categoryText: {
       fontSize: theme.typography.fontSize.sm,
-      color: "#FFFFFF",
+      color: theme.colors.textSoft,
       fontWeight: theme.typography.fontWeight.medium,
     },
     readTimeContainer: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      backgroundColor: "rgba(54, 69, 79, 0.2)",
       paddingHorizontal: theme.spacing.md,
       paddingVertical: theme.spacing.sm,
       borderRadius: theme.borderRadius.md,
     },
     readTimeText: {
       fontSize: theme.typography.fontSize.sm,
-      color: "#FFFFFF",
+      color: theme.colors.textSoft,
       fontWeight: theme.typography.fontWeight.medium,
     },
     storySection: {
-      backgroundColor: theme.colors.surface,
+      backgroundColor: "rgba(255, 255, 255, 0.1)",
       borderRadius: theme.borderRadius.lg,
       padding: theme.spacing.xl,
       marginBottom: theme.spacing.lg,
@@ -407,7 +406,7 @@ const createStyles = (theme: any) =>
     storyTitle: {
       fontSize: theme.typography.fontSize.xl,
       fontWeight: theme.typography.fontWeight.bold,
-      color: theme.colors.text,
+      color: "#FFFFFF",
       marginBottom: theme.spacing.sm,
     },
     storyMeta: {
@@ -421,12 +420,12 @@ const createStyles = (theme: any) =>
     },
     storyReadTime: {
       fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.textSecondary,
+      color: "rgba(255, 255, 255, 0.7)",
       marginLeft: theme.spacing.xs,
     },
     remainingReads: {
       fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.warning,
+      color: theme.colors.brandYellow,
       fontWeight: theme.typography.fontWeight.medium,
     },
     storyContent: {
@@ -434,12 +433,12 @@ const createStyles = (theme: any) =>
     },
     storyText: {
       fontSize: theme.typography.fontSize.md,
-      color: theme.colors.text,
+      color: "#FFFFFF",
       lineHeight: 24,
       marginBottom: theme.spacing.xl,
     },
     readStoryButton: {
-      backgroundColor: theme.colors.primary,
+      backgroundColor: theme.colors.brandYellow,
       paddingVertical: theme.spacing.md,
       paddingHorizontal: theme.spacing.xl,
       borderRadius: theme.borderRadius.md,
@@ -448,7 +447,7 @@ const createStyles = (theme: any) =>
     readStoryButtonText: {
       fontSize: theme.typography.fontSize.md,
       fontWeight: theme.typography.fontWeight.semibold,
-      color: "#FFFFFF",
+      color: theme.colors.textSoft,
     },
     premiumLockContainer: {
       alignItems: "center",
@@ -460,7 +459,7 @@ const createStyles = (theme: any) =>
     },
     premiumLockText: {
       fontSize: theme.typography.fontSize.md,
-      color: theme.colors.textSecondary,
+      color: "rgba(255, 255, 255, 0.7)",
       textAlign: "center",
       marginBottom: theme.spacing.lg,
     },
@@ -477,16 +476,16 @@ const createStyles = (theme: any) =>
       color: "#FFFFFF",
     },
     limitWarningContainer: {
-      backgroundColor: theme.colors.warningLight,
+      backgroundColor: "rgba(255, 255, 255, 0.1)",
       borderRadius: theme.borderRadius.lg,
       padding: theme.spacing.lg,
       marginBottom: theme.spacing.lg,
       borderWidth: 1,
-      borderColor: theme.colors.warning,
+      borderColor: theme.colors.brandYellow,
     },
     limitWarningText: {
       fontSize: theme.typography.fontSize.md,
-      color: theme.colors.text,
+      color: "#FFFFFF",
       textAlign: "center",
       marginBottom: theme.spacing.md,
     },
@@ -496,7 +495,7 @@ const createStyles = (theme: any) =>
     tagsTitle: {
       fontSize: theme.typography.fontSize.lg,
       fontWeight: theme.typography.fontWeight.semibold,
-      color: theme.colors.text,
+      color: "#FFFFFF",
       marginBottom: theme.spacing.md,
     },
     tagsContainer: {
@@ -505,16 +504,16 @@ const createStyles = (theme: any) =>
       gap: theme.spacing.sm,
     },
     tag: {
-      backgroundColor: theme.colors.surface,
+      backgroundColor: "rgba(255, 255, 255, 0.2)",
       paddingHorizontal: theme.spacing.md,
       paddingVertical: theme.spacing.sm,
       borderRadius: theme.borderRadius.md,
       borderWidth: 1,
-      borderColor: theme.colors.border,
+      borderColor: "rgba(255, 255, 255, 0.3)",
     },
     tagText: {
       fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.primary,
+      color: "#FFFFFF",
       fontWeight: theme.typography.fontWeight.medium,
     },
     bottomSpacing: {
