@@ -19,8 +19,8 @@ export const QuoteContent: React.FC<QuoteContentProps> = ({ quote }) => {
         <View style={styles.readMoreTextContainer}>
           <IconSymbol
             name="book"
-            size={14}
-            color="rgba(255, 255, 255, 0.9)"
+            size={12}
+            color="rgba(0, 0, 0, 0.7)"
             strokeWidth={2}
           />
           <Text style={styles.readMoreText}>
@@ -37,46 +37,43 @@ export const QuoteContent: React.FC<QuoteContentProps> = ({ quote }) => {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
+    width: "100%",
   },
   quoteText: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: "700",
-    color: "#FFFFFF",
+    color: "#1a1a1a",
     textAlign: "center",
-    lineHeight: 42,
-    marginBottom: 32,
-    textShadowColor: "rgba(0, 0, 0, 0.3)",
-    textShadowOffset: { width: 0, height: 2 },
-    textShadowRadius: 8,
+    lineHeight: 36,
+    marginBottom: 24,
+    letterSpacing: -0.5,
   },
   authorText: {
-    fontSize: 20,
-    color: "rgba(255, 255, 255, 0.9)",
+    fontSize: 16,
+    color: "rgba(26, 26, 26, 0.8)",
     textAlign: "center",
     fontStyle: "italic",
-    fontWeight: "400",
-    textShadowColor: "rgba(0, 0, 0, 0.3)",
-    textShadowOffset: { width: 0, height: 1 },
-    textShadowRadius: 4,
-    marginBottom: 24,
+    fontWeight: "500",
+    marginBottom: 32,
+    letterSpacing: 0.2,
   },
   readMoreContainer: {
-    backgroundColor: "rgba(255, 255, 255, 0.15)",
-    paddingHorizontal: 20,
-    paddingVertical: 10,
+    backgroundColor: "rgba(0, 0, 0, 0.08)",
+    paddingHorizontal: 16,
+    paddingVertical: 8,
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: "rgba(255, 255, 255, 0.2)",
+    borderColor: "rgba(0, 0, 0, 0.1)",
   },
   readMoreTextContainer: {
     flexDirection: "row",
     alignItems: "center",
+    gap: 6,
   },
   readMoreText: {
-    fontSize: 14,
-    color: "rgba(255, 255, 255, 0.9)",
+    fontSize: 12,
+    color: "rgba(26, 26, 26, 0.7)",
     textAlign: "center",
     fontWeight: "500",
-    marginLeft: 8,
   },
 });

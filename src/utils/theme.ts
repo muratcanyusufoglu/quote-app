@@ -74,6 +74,30 @@ const colorPalette = {
   orange800: "#9a3412",
   orange900: "#7c2d12",
 
+  // Golden/Yellow warm tones for quote cards (inspired by screenshot)
+  yellow50: "#fefce8",
+  yellow100: "#fef9c3",
+  yellow200: "#fef08a",
+  yellow300: "#fde047",
+  yellow400: "#facc15",
+  yellow500: "#eab308", // Golden primary
+  yellow600: "#ca8a04",
+  yellow700: "#a16207",
+  yellow800: "#854d0e",
+  yellow900: "#713f12",
+
+  // Warm golden variants for quote backgrounds
+  golden50: "#fffbeb",
+  golden100: "#fef3c7",
+  golden200: "#fde68a",
+  golden300: "#fcd34d",
+  golden400: "#fbbf24",
+  golden500: "#f59e0b", // Main golden
+  golden600: "#d97706",
+  golden700: "#b45309",
+  golden800: "#92400e",
+  golden900: "#78350f",
+
   // Neutral grays
   gray50: "#f9fafb",
   gray100: "#f3f4f6",
@@ -229,55 +253,79 @@ export const darkTheme: Theme = {
   borderRadius: lightTheme.borderRadius,
 };
 
-// Harmonious category colors - based on the main palette
+// Harmonious category colors - based on warm golden palette (inspired by screenshot)
 export const categoryColors = {
-  // Primary categories - blues and purples
-  motivation: colorPalette.blue500,
-  motivasyon: colorPalette.blue500,
-  inspiration: colorPalette.blue600,
-  ilham: colorPalette.blue600,
-  wisdom: colorPalette.purple500,
-  bilgelik: colorPalette.purple500,
-  mindfulness: colorPalette.purple600,
-  farkindalik: colorPalette.purple600,
+  // Primary categories - warm golden tones
+  motivation: colorPalette.golden500,
+  motivasyon: colorPalette.golden500,
+  inspiration: colorPalette.yellow500,
+  ilham: colorPalette.yellow500,
+  wisdom: colorPalette.golden600,
+  bilgelik: colorPalette.golden600,
+  mindfulness: colorPalette.yellow600,
+  farkindalik: colorPalette.yellow600,
 
-  // Success and growth - greens
+  // Success and growth - warm greens with golden tints
   success: colorPalette.emerald500,
   basari: colorPalette.emerald500,
   growth: colorPalette.emerald600,
   gelisim: colorPalette.emerald600,
-  leadership: colorPalette.emerald700,
-  liderlik: colorPalette.emerald700,
+  leadership: colorPalette.golden700,
+  liderlik: colorPalette.golden700,
 
-  // Positive emotions - warm colors
-  happiness: colorPalette.amber500,
-  mutluluk: colorPalette.amber500,
+  // Positive emotions - warm golden colors
+  happiness: colorPalette.golden400,
+  mutluluk: colorPalette.golden400,
   love: colorPalette.red400,
   ask: colorPalette.red400,
-  gratitude: colorPalette.orange500,
-  sukur: colorPalette.orange500,
+  gratitude: colorPalette.golden500,
+  sukur: colorPalette.golden500,
 
-  // Strength and courage - stronger colors
-  courage: colorPalette.red500,
-  cesaret: colorPalette.red500,
-  resilience: colorPalette.red600,
-  dayaniklilik: colorPalette.red600,
+  // Strength and courage - deeper golden/amber tones
+  courage: colorPalette.amber600,
+  cesaret: colorPalette.amber600,
+  resilience: colorPalette.golden700,
+  dayaniklilik: colorPalette.golden700,
 
-  // Peace and balance - calming colors
-  peace: colorPalette.blue300,
-  huzur: colorPalette.blue300,
-  balance: colorPalette.purple300,
-  denge: colorPalette.purple300,
+  // Peace and balance - soft golden tones
+  peace: colorPalette.yellow300,
+  huzur: colorPalette.yellow300,
+  balance: colorPalette.golden300,
+  denge: colorPalette.golden300,
 
-  // Creativity and dreams - imaginative colors
-  creativity: colorPalette.purple400,
-  yaraticilik: colorPalette.purple400,
-  dreams: colorPalette.purple600,
-  hayaller: colorPalette.purple600,
+  // Creativity and dreams - vibrant golden colors
+  creativity: colorPalette.yellow400,
+  yaraticilik: colorPalette.yellow400,
+  dreams: colorPalette.golden400,
+  hayaller: colorPalette.golden400,
 
-  // Default and general
-  general: colorPalette.gray500,
-  genel: colorPalette.gray500,
+  // Additional categories with warm tones
+  patience: colorPalette.golden300,
+  sabir: colorPalette.golden300,
+  time: colorPalette.amber500,
+  zaman: colorPalette.amber500,
+  change: colorPalette.yellow400,
+  degisim: colorPalette.yellow400,
+  health: colorPalette.emerald400,
+  saglik: colorPalette.emerald400,
+  family: colorPalette.golden600,
+  aile: colorPalette.golden600,
+  friendship: colorPalette.yellow500,
+  arkadaslik: colorPalette.yellow500,
+  travel: colorPalette.amber400,
+  seyahat: colorPalette.amber400,
+  nature: colorPalette.emerald500,
+  doga: colorPalette.emerald500,
+  technology: colorPalette.blue500,
+  teknoloji: colorPalette.blue500,
+  education: colorPalette.golden600,
+  egitim: colorPalette.golden600,
+  spirituality: colorPalette.purple400,
+  maneviyat: colorPalette.purple400,
+
+  // Default and general - warm neutral
+  general: colorPalette.golden500,
+  genel: colorPalette.golden500,
 } as const;
 
 // Category color mappings for dark and light themes

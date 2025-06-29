@@ -46,36 +46,42 @@ export function QuoteReelCard({
   };
 
   return (
-    <TouchableOpacity
-      style={styles.container}
-      onPress={handlePress}
-      activeOpacity={0.95}
-    >
-      {/* Background */}
-      <View style={[styles.background, { backgroundColor: cardColor }]} />
+    <View style={styles.container}>
+      {/* Background with gradient */}
+      <View style={styles.backgroundGradient} />
 
-      {/* Top Right - Simple Explore Button */}
-      <TouchableOpacity
-        style={styles.exploreButton}
-        onPress={navigateToExplore}
-      >
-        <IconSymbol name="search" size={20} color="#FFFFFF" strokeWidth={2} />
-      </TouchableOpacity>
+      {/* Top Navigation */}
+      <View style={styles.topBar}>
+        <TouchableOpacity
+          style={styles.exploreButton}
+          onPress={navigateToExplore}
+        >
+          <IconSymbol name="search" size={20} color="#333" strokeWidth={2} />
+        </TouchableOpacity>
+      </View>
 
-      {/* Content Container */}
-      <View style={styles.contentContainer}>
-        <QuoteContent quote={quote} />
+      {/* Main Quote Card */}
+      <View style={styles.cardContainer}>
+        <TouchableOpacity
+          style={[styles.card, { backgroundColor: cardColor }]}
+          onPress={handlePress}
+          activeOpacity={0.95}
+        >
+          <QuoteContent quote={quote} />
+        </TouchableOpacity>
       </View>
 
       {/* Bottom Actions */}
-      <QuoteActions
-        isFavorite={isFavorite}
-        onFavoritePress={onFavoritePress}
-        onShare={() => onShare?.(quote)}
-        category={quote.category}
-        readTime={quote.readTime}
-        onQuoteAction={onQuoteAction}
-      />
+      <View style={styles.actionsContainer}>
+        <QuoteActions
+          isFavorite={isFavorite}
+          onFavoritePress={onFavoritePress}
+          onShare={() => onShare?.(quote)}
+          category={quote.category}
+          readTime={quote.readTime}
+          onQuoteAction={onQuoteAction}
+        />
+      </View>
 
       {/* Navigation Help Text */}
       <View style={styles.helpContainer}>
@@ -83,27 +89,27 @@ export function QuoteReelCard({
           <IconSymbol
             name="search"
             size={10}
-            color="rgba(255, 255, 255, 0.7)"
+            color="rgba(0, 0, 0, 0.6)"
             strokeWidth={2}
           />
           <Text style={styles.helpTextSeparator}>Explore • </Text>
           <IconSymbol
             name="heart"
             size={10}
-            color="rgba(255, 255, 255, 0.7)"
+            color="rgba(0, 0, 0, 0.6)"
             strokeWidth={2}
           />
           <Text style={styles.helpTextSeparator}>Favorite • </Text>
           <IconSymbol
             name="square.and.arrow.up"
             size={10}
-            color="rgba(255, 255, 255, 0.7)"
+            color="rgba(0, 0, 0, 0.6)"
             strokeWidth={2}
           />
           <Text style={styles.helpText}>Share</Text>
         </View>
       </View>
-    </TouchableOpacity>
+    </View>
   );
 }
 
@@ -113,34 +119,70 @@ const styles = StyleSheet.create({
     height: screenHeight,
     position: "relative",
   },
-  background: {
+  backgroundGradient: {
     ...StyleSheet.absoluteFillObject,
-    opacity: 0.95,
+    backgroundColor: "#f8f9fa", // Light neutral background
   },
-  // Top right explore button
-  exploreButton: {
+  topBar: {
     position: "absolute",
     top: 60,
-    right: 24,
-    width: 50,
-    height: 50,
-    backgroundColor: "rgba(255, 255, 255, 0.25)",
-    borderRadius: 25,
+    left: 0,
+    right: 0,
+    zIndex: 10,
+    paddingHorizontal: 24,
+    flexDirection: "row",
+    justifyContent: "flex-end",
+  },
+  exploreButton: {
+    width: 44,
+    height: 44,
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
+    borderRadius: 22,
     justifyContent: "center",
     alignItems: "center",
-    zIndex: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
-  // Content
-  contentContainer: {
+  cardContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 32,
-    paddingVertical: 100,
+    paddingVertical: 120,
   },
-  // Removed styles: Moved to QuoteContent and QuoteActions components
-  // This follows SRP - each component manages its own styles
-  // Help text at bottom
+  card: {
+    width: "100%",
+    maxWidth: 340,
+    minHeight: 400,
+    borderRadius: 24,
+    padding: 32,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 16,
+    elevation: 8,
+    // Subtle gradient overlay
+    position: "relative",
+  },
+  actionsContainer: {
+    position: "absolute",
+    bottom: 120,
+    left: 0,
+    right: 0,
+    paddingHorizontal: 32,
+    zIndex: 5,
+  },
   helpContainer: {
     position: "absolute",
     bottom: 40,
@@ -151,18 +193,26 @@ const styles = StyleSheet.create({
   helpTextContainer: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.3)",
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
     paddingHorizontal: 16,
-    paddingVertical: 6,
-    borderRadius: 12,
+    paddingVertical: 8,
+    borderRadius: 16,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   helpTextSeparator: {
     fontSize: 12,
-    color: "rgba(255, 255, 255, 0.7)",
+    color: "rgba(0, 0, 0, 0.6)",
     marginHorizontal: 4,
   },
   helpText: {
     fontSize: 12,
-    color: "rgba(255, 255, 255, 0.7)",
+    color: "rgba(0, 0, 0, 0.6)",
   },
 });

@@ -30,23 +30,25 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
   };
 
   return (
-    <View style={styles.bottomSection}>
-      {/* Left: Category Tag */}
-      <View style={styles.leftActions}>
-        <Text style={styles.categoryTag}>#{category}</Text>
-        <Text style={styles.readTimeText}>
+    <View style={styles.container}>
+      {/* Category and Read Time Info */}
+      <View style={styles.infoSection}>
+        <View style={styles.categoryContainer}>
+          <Text style={styles.categoryTag}>#{category}</Text>
+        </View>
+        <View style={styles.readTimeContainer}>
           <IconSymbol
             name="book"
-            size={14}
-            color="rgba(255, 255, 255, 0.9)"
+            size={12}
+            color="rgba(0, 0, 0, 0.6)"
             strokeWidth={2}
-          />{" "}
-          {readTime} dk
-        </Text>
+          />
+          <Text style={styles.readTimeText}>{readTime} min</Text>
+        </View>
       </View>
 
-      {/* Right: Action Buttons */}
-      <View style={styles.rightActions}>
+      {/* Action Buttons */}
+      <View style={styles.actionsSection}>
         {onShare && (
           <TouchableOpacity
             style={styles.actionButton}
@@ -54,21 +56,24 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           >
             <IconSymbol
               name="square.and.arrow.up"
-              size={24}
-              color="#FFFFFF"
+              size={22}
+              color="#333"
               strokeWidth={2}
             />
           </TouchableOpacity>
         )}
 
         <TouchableOpacity
-          style={styles.actionButton}
+          style={[
+            styles.actionButton,
+            isFavorite && styles.favoriteActiveButton,
+          ]}
           onPress={handleFavoritePress}
         >
           <IconSymbol
             name="heart"
-            size={24}
-            color={isFavorite ? "#ff6b6b" : "#FFFFFF"}
+            size={22}
+            color={isFavorite ? "#ff4757" : "#333"}
             strokeWidth={isFavorite ? 3 : 2}
           />
         </TouchableOpacity>
@@ -78,62 +83,74 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
 };
 
 const styles = StyleSheet.create({
-  bottomSection: {
-    position: "absolute",
-    bottom: 100,
-    left: 0,
-    right: 0,
+  container: {
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "flex-end",
-    paddingHorizontal: 24,
+    alignItems: "center",
+    paddingHorizontal: 4,
   },
-  leftActions: {
+  infoSection: {
     flex: 1,
-  },
-  rightActions: {
     flexDirection: "row",
     alignItems: "center",
+    gap: 12,
   },
-  categoryTag: {
-    backgroundColor: "rgba(255, 255, 255, 0.3)",
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 20,
-    fontSize: 16,
-    color: "#FFFFFF",
-    fontWeight: "700",
-    marginBottom: 8,
-    alignSelf: "flex-start",
-  },
-  readTimeText: {
-    backgroundColor: "rgba(255, 255, 255, 0.2)",
+  categoryContainer: {
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 15,
-    fontSize: 14,
-    color: "rgba(255, 255, 255, 0.9)",
-    fontWeight: "600",
-    alignSelf: "flex-start",
-  },
-  actionButton: {
-    width: 60,
-    height: 60,
-    backgroundColor: "rgba(255, 255, 255, 0.25)",
-    borderRadius: 30,
-    justifyContent: "center",
-    alignItems: "center",
-    marginLeft: 12,
+    borderRadius: 16,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
     },
-    shadowOpacity: 0.25,
+    shadowOpacity: 0.1,
     shadowRadius: 4,
-    elevation: 5,
+    elevation: 2,
   },
-  actionIcon: {
-    fontSize: 28,
+  categoryTag: {
+    fontSize: 12,
+    color: "#333",
+    fontWeight: "600",
+    textTransform: "capitalize",
+  },
+  readTimeContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "rgba(255, 255, 255, 0.7)",
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+    gap: 4,
+  },
+  readTimeText: {
+    fontSize: 11,
+    color: "rgba(0, 0, 0, 0.6)",
+    fontWeight: "500",
+  },
+  actionsSection: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+  },
+  actionButton: {
+    width: 44,
+    height: 44,
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
+    borderRadius: 22,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  favoriteActiveButton: {
+    backgroundColor: "rgba(255, 71, 87, 0.1)",
   },
 });
