@@ -65,6 +65,14 @@ const QuoteDetailScreen: React.FC = () => {
       readTimerRef.current = setTimeout(() => {
         console.log("✅ Marking quote as read:", quoteDetailData.quote.id);
         markAsRead(quoteDetailData.quote);
+
+        // Story varsa onu da otomatik olarak oku
+        if (quoteDetailData.quote.story && storyReading.requestRead()) {
+          console.log(
+            "✅ Automatically reading story:",
+            quoteDetailData.quote.story.title
+          );
+        }
       }, QUOTE_READ_DELAY);
     }
 
@@ -76,7 +84,7 @@ const QuoteDetailScreen: React.FC = () => {
         readTimerRef.current = null;
       }
     };
-  }, [quoteDetailData?.quote?.id, markAsRead]);
+  }, [quoteDetailData?.quote?.id, markAsRead, storyReading]);
 
   const styles = createStyles(theme);
 
@@ -109,18 +117,6 @@ const QuoteDetailScreen: React.FC = () => {
 
   const { quote, category, canAccess, isFavorite, toggleFavorite } =
     quoteDetailData;
-
-  const handleReadStory = () => {
-    if (!quote.story) return;
-
-    if (storyReading.requestRead()) {
-      // Story can be read
-      console.log("Reading story:", quote.story.title);
-    } else {
-      // Show paywall
-      console.log("Navigate to purchase - story limit reached");
-    }
-  };
 
   const handleFavoritePress = () => {
     if (!quoteDetailData?.quote) return;
@@ -225,15 +221,6 @@ const QuoteDetailScreen: React.FC = () => {
             {canAccess ? (
               <View style={styles.storyContent}>
                 <Text style={styles.storyText}>{quote.story.content}</Text>
-
-                <TouchableOpacity
-                  style={styles.readStoryButton}
-                  onPress={handleReadStory}
-                >
-                  <Text style={styles.readStoryButtonText}>
-                    {quoteDetail.mark_as_read}
-                  </Text>
-                </TouchableOpacity>
               </View>
             ) : (
               <View style={styles.premiumLockContainer}>
@@ -460,18 +447,7 @@ const createStyles = (theme: any) =>
       lineHeight: 24,
       marginBottom: theme.spacing.xl,
     },
-    readStoryButton: {
-      backgroundColor: theme.colors.brandYellow,
-      paddingVertical: theme.spacing.md,
-      paddingHorizontal: theme.spacing.xl,
-      borderRadius: theme.borderRadius.md,
-      alignItems: "center",
-    },
-    readStoryButtonText: {
-      fontSize: theme.typography.fontSize.md,
-      fontWeight: theme.typography.fontWeight.semibold,
-      color: theme.colors.textSoft,
-    },
+
     premiumLockContainer: {
       alignItems: "center",
       paddingVertical: theme.spacing.xl,

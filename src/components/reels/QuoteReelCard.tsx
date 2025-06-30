@@ -292,21 +292,11 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   cardStackThird: {
-    transform: [
-      { scale: 0.95 },
-      { translateY: 25 },
-      { translateX: -8 },
-      { rotateZ: "-2deg" },
-    ],
+    transform: [{ scale: 0.95 }, { translateY: 25 }],
     zIndex: 1,
   },
   cardStackSecond: {
-    transform: [
-      { scale: 0.97 },
-      { translateY: 12 },
-      { translateX: 5 },
-      { rotateZ: "1deg" },
-    ],
+    transform: [{ scale: 0.97 }, { translateY: 12 }],
     zIndex: 2,
   },
   stackCardContent: {
