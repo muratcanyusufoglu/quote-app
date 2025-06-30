@@ -165,21 +165,6 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     minHeight: 52,
   },
-  // Variants
-  primary: {
-    backgroundColor: "#6366F1",
-  },
-  secondary: {
-    backgroundColor: "#64748B",
-  },
-  outline: {
-    backgroundColor: "transparent",
-    borderWidth: 1,
-    borderColor: "#6366F1",
-  },
-  ghost: {
-    backgroundColor: "transparent",
-  },
   // States
   disabled: {
     opacity: 0.5,
@@ -197,18 +182,6 @@ const styles = StyleSheet.create({
   },
   largeText: {
     fontSize: 18,
-  },
-  primaryText: {
-    color: "#FFFFFF",
-  },
-  secondaryText: {
-    color: "#FFFFFF",
-  },
-  outlineText: {
-    color: "#6366F1",
-  },
-  ghostText: {
-    color: "#6366F1",
   },
   disabledText: {
     opacity: 0.7,

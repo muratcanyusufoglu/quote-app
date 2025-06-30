@@ -16,6 +16,7 @@ import {
   useSeenQuotes,
 } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
+import { useTheme } from "../../utils/ThemeContext";
 import { QuoteReelCard } from "./QuoteReelCard";
 
 interface QuoteReelsProps {
@@ -34,6 +35,7 @@ export function QuoteReels({
   onQuoteAction,
   refreshControl = true,
 }: QuoteReelsProps) {
+  const { theme } = useTheme();
   const [quotes, setQuotes] = useState<LocalizedQuote[]>(initialQuotes);
   const [isLoading, setIsLoading] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
@@ -287,7 +289,7 @@ export function QuoteReels({
 
   if (availableQuotes.length === 0 && !isLoading) {
     return (
-      <View style={styles.emptyContainer}>
+      <View style={styles.noDataContainer}>
         <QuoteReelCard
           quote={{
             id: "empty",
@@ -331,7 +333,7 @@ export function QuoteReels({
             <RefreshControl
               refreshing={isRefreshing}
               onRefresh={handleRefresh}
-              tintColor="#FFFFFF"
+              tintColor={theme.colors.white}
             />
           ) : undefined
         }
@@ -343,10 +345,52 @@ export function QuoteReels({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000000",
   },
-  emptyContainer: {
+  paginationContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "absolute",
+    bottom: 100,
+    left: 0,
+    right: 0,
+    zIndex: 10,
+  },
+  paginationDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginHorizontal: 4,
+  },
+  activeDot: {
+    width: 24,
+    height: 8,
+    borderRadius: 4,
+  },
+  loadingContainer: {
     flex: 1,
-    backgroundColor: "#000000",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  loadingText: {
+    fontSize: 18,
+    fontWeight: "500",
+    marginTop: 16,
+  },
+  noDataContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 32,
+  },
+  noDataText: {
+    fontSize: 18,
+    fontWeight: "600",
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  noDataSubtext: {
+    fontSize: 14,
+    textAlign: "center",
   },
 });

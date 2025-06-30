@@ -74,7 +74,12 @@ export function QuoteReelCard({
           style={styles.exploreButton}
           onPress={navigateToExplore}
         >
-          <IconSymbol name="search" size={20} color="#fff" strokeWidth={2} />
+          <IconSymbol
+            name="search"
+            size={20}
+            color={theme.colors.white}
+            strokeWidth={2}
+          />
         </TouchableOpacity>
       </View>
 

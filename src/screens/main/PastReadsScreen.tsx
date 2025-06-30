@@ -44,7 +44,7 @@ export function PastReadsScreen() {
 
   const renderQuoteItem = ({ item: quote }: { item: LocalizedQuote }) => (
     <TouchableOpacity
-      style={[styles.quoteCard, { backgroundColor: theme.colors.brandYellow }]}
+      style={[styles.readCard, { backgroundColor: theme.colors.brandYellow }]}
       onPress={() => handleQuotePress(quote)}
     >
       <Text style={[styles.quoteText, { color: theme.colors.textSoft }]}>
@@ -60,22 +60,26 @@ export function PastReadsScreen() {
 
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
-      <Text style={[styles.emptyTitle, { color: "#FFFFFF" }]}>
+      <Text style={[styles.emptyTitle, { color: theme.colors.white }]}>
         {history.empty_title}
       </Text>
       <Text
-        style={[styles.emptyMessage, { color: "rgba(255, 255, 255, 0.8)" }]}
+        style={[styles.emptyMessage, { color: theme.colors.whiteOverlay80 }]}
       >
         {history.empty_message}
       </Text>
       <TouchableOpacity
         style={[
-          styles.startButton,
+          styles.startReadingButton,
           { backgroundColor: theme.colors.brandYellow },
         ]}
         onPress={handleStartReading}
       >
-        <Text style={styles.startButtonText}>{history.start_reading}</Text>
+        <Text
+          style={[styles.startReadingButtonText, { color: theme.colors.white }]}
+        >
+          {history.start_reading}
+        </Text>
       </TouchableOpacity>
     </View>
   );
@@ -89,7 +93,7 @@ export function PastReadsScreen() {
     return (
       <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: "#FFFFFF" }]}>
+          <Text style={[styles.loadingText, { color: theme.colors.white }]}>
             {common.loading}
           </Text>
         </View>
@@ -140,11 +144,10 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingBottom: 40,
   },
-  quoteCard: {
+  readCard: {
     padding: 20,
     borderRadius: 16,
     marginBottom: 16,
-    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -180,13 +183,12 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginBottom: 32,
   },
-  startButton: {
+  startReadingButton: {
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 24,
   },
-  startButtonText: {
-    color: "#FFFFFF",
+  startReadingButtonText: {
     fontSize: 16,
     fontWeight: "600",
   },

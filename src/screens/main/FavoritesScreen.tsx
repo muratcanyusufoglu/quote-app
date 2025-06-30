@@ -61,11 +61,11 @@ export function FavoritesScreen() {
 
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
-      <Text style={[styles.emptyTitle, { color: "#FFFFFF" }]}>
+      <Text style={[styles.emptyTitle, { color: theme.colors.white }]}>
         {favorites.empty_title}
       </Text>
       <Text
-        style={[styles.emptyMessage, { color: "rgba(255, 255, 255, 0.8)" }]}
+        style={[styles.emptyMessage, { color: theme.colors.whiteOverlay80 }]}
       >
         {favorites.empty_message}
       </Text>
@@ -76,7 +76,9 @@ export function FavoritesScreen() {
         ]}
         onPress={handleBrowseQuotes}
       >
-        <Text style={styles.browseButtonText}>{favorites.browse_quotes}</Text>
+        <Text style={[styles.browseButtonText, { color: theme.colors.white }]}>
+          {favorites.browse_quotes}
+        </Text>
       </TouchableOpacity>
     </View>
   );
@@ -90,7 +92,7 @@ export function FavoritesScreen() {
     return (
       <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: "#FFFFFF" }]}>
+          <Text style={[styles.loadingText, { color: theme.colors.white }]}>
             {common.loading}
           </Text>
         </View>
@@ -148,7 +150,6 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 16,
     marginBottom: 16,
-    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -190,7 +191,6 @@ const styles = StyleSheet.create({
     borderRadius: 24,
   },
   browseButtonText: {
-    color: "#FFFFFF",
     fontSize: 16,
     fontWeight: "600",
   },

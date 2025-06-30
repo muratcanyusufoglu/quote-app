@@ -246,7 +246,11 @@ export function HomeScreen() {
                 <Text
                   style={[
                     styles.debugButtonText,
-                    { color: isPremium ? "#FFFFFF" : "#FFFFFF" },
+                    {
+                      color: isPremium
+                        ? theme.colors.white
+                        : theme.colors.white,
+                    },
                   ]}
                 >
                   {isPremium ? common.premium_status : common.free_status}
@@ -260,7 +264,12 @@ export function HomeScreen() {
                 ]}
                 onPress={handleResetOnboarding}
               >
-                <Text style={[styles.debugButtonText, { color: "#FFFFFF" }]}>
+                <Text
+                  style={[
+                    styles.debugButtonText,
+                    { color: theme.colors.white },
+                  ]}
+                >
                   {common.reset_onboarding}
                 </Text>
               </TouchableOpacity>

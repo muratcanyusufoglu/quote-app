@@ -154,7 +154,11 @@ const QuoteDetailScreen: React.FC = () => {
             <IconSymbol
               name="heart"
               size={18}
-              color={isFavorite ? "#ff6b6b" : "rgba(255, 255, 255, 0.8)"}
+              color={
+                isFavorite
+                  ? theme.colors.favoriteRed
+                  : theme.colors.whiteOverlay80
+              }
               strokeWidth={isFavorite ? 3 : 2}
             />
           </TouchableOpacity>

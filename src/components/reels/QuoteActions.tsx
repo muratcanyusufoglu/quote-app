@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useTheme } from "../../utils/ThemeContext";
 
 interface QuoteActionsProps {
   isFavorite: boolean;
@@ -19,6 +20,8 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
   readTime,
   onQuoteAction,
 }) => {
+  const { theme } = useTheme();
+
   const handleFavoritePress = () => {
     onQuoteAction?.("favorite");
     onFavoritePress();
@@ -33,17 +36,41 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
     <View style={styles.container}>
       {/* Category and Read Time Info */}
       <View style={styles.infoSection}>
-        <View style={styles.categoryContainer}>
-          <Text style={styles.categoryTag}>#{category}</Text>
+        <View
+          style={[
+            styles.categoryContainer,
+            {
+              backgroundColor: theme.colors.whiteOverlay90,
+              shadowColor: theme.colors.shadowColor,
+            },
+          ]}
+        >
+          <Text style={[styles.categoryTag, { color: theme.colors.textSoft }]}>
+            #{category}
+          </Text>
         </View>
-        <View style={styles.readTimeContainer}>
+        <View
+          style={[
+            styles.readTimeContainer,
+            {
+              backgroundColor: theme.colors.whiteOverlay70,
+            },
+          ]}
+        >
           <IconSymbol
             name="book"
             size={12}
-            color="rgba(0, 0, 0, 0.6)"
+            color={theme.colors.textSoftSecondary}
             strokeWidth={2}
           />
-          <Text style={styles.readTimeText}>{readTime} min</Text>
+          <Text
+            style={[
+              styles.readTimeText,
+              { color: theme.colors.textSoftSecondary },
+            ]}
+          >
+            {readTime} min
+          </Text>
         </View>
       </View>
 
@@ -51,13 +78,19 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
       <View style={styles.actionsSection}>
         {onShare && (
           <TouchableOpacity
-            style={styles.actionButton}
+            style={[
+              styles.actionButton,
+              {
+                backgroundColor: theme.colors.whiteOverlay90,
+                shadowColor: theme.colors.shadowColor,
+              },
+            ]}
             onPress={handleSharePress}
           >
             <IconSymbol
               name="square.and.arrow.up"
               size={22}
-              color="#333"
+              color={theme.colors.textSoft}
               strokeWidth={2}
             />
           </TouchableOpacity>
@@ -66,14 +99,21 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
         <TouchableOpacity
           style={[
             styles.actionButton,
-            isFavorite && styles.favoriteActiveButton,
+            {
+              backgroundColor: isFavorite
+                ? theme.colors.favoriteActive + "20" // 20% opacity
+                : theme.colors.whiteOverlay90,
+              shadowColor: theme.colors.shadowColor,
+            },
           ]}
           onPress={handleFavoritePress}
         >
           <IconSymbol
             name="heart"
             size={22}
-            color={isFavorite ? "#ff4757" : "#333"}
+            color={
+              isFavorite ? theme.colors.favoriteRed : theme.colors.textSoft
+            }
             strokeWidth={isFavorite ? 3 : 2}
           />
         </TouchableOpacity>
@@ -96,11 +136,9 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   categoryContainer: {
-    backgroundColor: "rgba(255, 255, 255, 0.9)",
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 16,
-    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -111,14 +149,12 @@ const styles = StyleSheet.create({
   },
   categoryTag: {
     fontSize: 12,
-    color: "#333",
     fontWeight: "600",
     textTransform: "capitalize",
   },
   readTimeContainer: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "rgba(255, 255, 255, 0.7)",
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderRadius: 12,
@@ -126,7 +162,6 @@ const styles = StyleSheet.create({
   },
   readTimeText: {
     fontSize: 11,
-    color: "rgba(0, 0, 0, 0.6)",
     fontWeight: "500",
   },
   actionsSection: {
@@ -137,11 +172,9 @@ const styles = StyleSheet.create({
   actionButton: {
     width: 44,
     height: 44,
-    backgroundColor: "rgba(255, 255, 255, 0.9)",
     borderRadius: 22,
     justifyContent: "center",
     alignItems: "center",
-    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,

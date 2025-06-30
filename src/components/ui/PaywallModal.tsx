@@ -367,7 +367,7 @@ const createStyles = (theme: any) =>
     discountText: {
       fontSize: 12,
       fontWeight: "600",
-      color: "#FFFFFF",
+      color: theme.colors.white,
     },
     actionContainer: {
       gap: 12,
@@ -393,7 +393,7 @@ const createStyles = (theme: any) =>
     primaryButtonText: {
       fontSize: 18,
       fontWeight: "bold",
-      color: "#FFFFFF",
+      color: theme.colors.white,
     },
     secondaryButton: {
       borderWidth: 1,
