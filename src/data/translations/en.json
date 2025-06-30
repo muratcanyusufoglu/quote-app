@@ -133,6 +133,12 @@
     "back": "Back",
     "complete": "Complete",
     "next_step": "Next",
+    "time_early": "Early Bird",
+    "time_morning_range": "Morning",
+    "time_regular": "Work Hours",
+    "time_extended": "Extended",
+    "time_evening_range": "Evening Focus",
+    "selected_time_range": "Selected Time Range",
     "questions": {
       "purpose": "What is your main purpose for using the app?",
       "topics": "Which topics related quotes interest you more?",

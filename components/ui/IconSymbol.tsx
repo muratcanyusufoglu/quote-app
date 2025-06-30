@@ -43,6 +43,7 @@ import {
   Settings,
   Share,
   Shield,
+  Sparkles,
   Star,
   Sunrise,
   Target,
@@ -123,6 +124,7 @@ const ICON_MAPPING = {
   moon: Moon,
   sunrise: Sunrise,
   calendar: Calendar,
+  sparkles: Sparkles,
 } as const;
 
 export type IconName = keyof typeof ICON_MAPPING;

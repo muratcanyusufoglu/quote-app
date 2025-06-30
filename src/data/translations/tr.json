@@ -133,6 +133,12 @@
     "back": "Geri",
     "complete": "Tamamla",
     "next_step": "İleri",
+    "time_early": "Erken Kuş",
+    "time_morning_range": "Sabah",
+    "time_regular": "Çalışma Saatleri",
+    "time_extended": "Geniş Aralık",
+    "time_evening_range": "Akşam Odak",
+    "selected_time_range": "Seçilen Zaman Aralığı",
     "questions": {
       "purpose": "Uygulamayı hangi amaçla kullanmak istiyorsunuz?",
       "topics": "Hangi konularla ilgili quote'lar sizi daha çok ilgilendiriyor?",

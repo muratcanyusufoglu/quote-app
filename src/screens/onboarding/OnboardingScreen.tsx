@@ -1,7 +1,6 @@
 import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
 import {
-  Alert,
   Animated,
   Dimensions,
   ScrollView,
@@ -139,7 +138,7 @@ export function OnboardingScreen() {
           <View style={styles.welcomeIconContainer}>
             <IconSymbol
               name="star"
-              size={48}
+              size={44}
               color={theme.colors.brandYellow}
               strokeWidth={2}
             />
@@ -260,7 +259,7 @@ export function OnboardingScreen() {
           >
             <IconSymbol
               name={option.icon as any}
-              size={32}
+              size={28}
               color={isSelected ? theme.colors.white : theme.colors.brandYellow}
               strokeWidth={2}
             />
@@ -311,7 +310,7 @@ export function OnboardingScreen() {
           >
             <IconSymbol
               name={option.icon as any}
-              size={24}
+              size={20}
               color={isSelected ? theme.colors.white : theme.colors.brandYellow}
               strokeWidth={2}
             />
@@ -427,79 +426,128 @@ export function OnboardingScreen() {
       end: "18:00",
     };
 
+    // Predefined time ranges for better UX
+    const timePresets = [
+      {
+        id: "early",
+        label: "🌅 " + (onboarding.time_early || "Early Bird"),
+        description: "06:00 - 12:00",
+        value: { start: "06:00", end: "12:00" },
+      },
+      {
+        id: "morning",
+        label: "☀️ " + (onboarding.time_morning_range || "Morning"),
+        description: "08:00 - 14:00",
+        value: { start: "08:00", end: "14:00" },
+      },
+      {
+        id: "regular",
+        label: "💼 " + (onboarding.time_regular || "Work Hours"),
+        description: "09:00 - 18:00",
+        value: { start: "09:00", end: "18:00" },
+      },
+      {
+        id: "extended",
+        label: "🌙 " + (onboarding.time_extended || "Extended"),
+        description: "07:00 - 21:00",
+        value: { start: "07:00", end: "21:00" },
+      },
+      {
+        id: "evening",
+        label: "🌆 " + (onboarding.time_evening_range || "Evening Focus"),
+        description: "15:00 - 20:00",
+        value: { start: "15:00", end: "20:00" },
+      },
+    ];
+
+    const currentPresetId = timePresets.find(
+      (preset) =>
+        preset.value.start === timeRange.start &&
+        preset.value.end === timeRange.end
+    )?.id;
+
     return (
       <View style={styles.timePickerContainer}>
-        <View style={styles.timePickerRow}>
-          <Text style={[styles.timeLabel, { color: theme.colors.text }]}>
-            {onboarding.time_start_label}
-          </Text>
-          <TouchableOpacity
-            style={[
-              styles.timeButton,
-              {
-                backgroundColor: theme.colors.surface,
-                borderColor: theme.colors.border,
-                borderRadius: theme.borderRadius.md,
-              },
-            ]}
-            onPress={() => {
-              // Simple time selection - you can replace with a proper time picker
-              Alert.prompt(
-                onboarding.time_start_prompt,
-                onboarding.time_format_instruction_start,
-                (text) => {
-                  if (text && /^\d{2}:\d{2}$/.test(text)) {
-                    handleAnswer("notification_time_range", {
-                      ...timeRange,
-                      start: text,
-                    });
-                  }
-                },
-                "plain-text",
-                timeRange.start
-              );
-            }}
-          >
-            <Text style={[styles.timeText, { color: theme.colors.text }]}>
-              {timeRange.start}
-            </Text>
-          </TouchableOpacity>
+        <View style={styles.timePresetsContainer}>
+          {timePresets.map((preset) => {
+            const isSelected = currentPresetId === preset.id;
+            return (
+              <TouchableOpacity
+                key={preset.id}
+                style={[
+                  styles.timePreset,
+                  {
+                    backgroundColor: isSelected
+                      ? theme.colors.brandYellow
+                      : theme.colors.surface,
+                    borderColor: isSelected
+                      ? theme.colors.brandYellow
+                      : theme.colors.border,
+                    borderRadius: theme.borderRadius.lg,
+                  },
+                ]}
+                onPress={() => {
+                  handleAnswer("notification_time_range", preset.value);
+                }}
+              >
+                <Text
+                  style={[
+                    styles.timePresetLabel,
+                    {
+                      color: isSelected
+                        ? theme.colors.white
+                        : theme.colors.text,
+                    },
+                  ]}
+                >
+                  {preset.label}
+                </Text>
+                <Text
+                  style={[
+                    styles.timePresetDescription,
+                    {
+                      color: isSelected
+                        ? theme.colors.white
+                        : theme.colors.textSecondary,
+                    },
+                  ]}
+                >
+                  {preset.description}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
         </View>
 
-        <View style={styles.timePickerRow}>
-          <Text style={[styles.timeLabel, { color: theme.colors.text }]}>
-            {onboarding.time_end_label}
-          </Text>
-          <TouchableOpacity
+        {/* Current Selection Display */}
+        <View style={styles.currentTimeDisplay}>
+          <View
             style={[
-              styles.timeButton,
+              styles.timeDisplayCard,
               {
                 backgroundColor: theme.colors.surface,
                 borderColor: theme.colors.border,
                 borderRadius: theme.borderRadius.md,
               },
             ]}
-            onPress={() => {
-              Alert.prompt(
-                onboarding.time_end_prompt,
-                onboarding.time_format_instruction_end,
-                (text) => {
-                  if (text && /^\d{2}:\d{2}$/.test(text)) {
-                    handleAnswer("notification_time_range", {
-                      ...timeRange,
-                      end: text,
-                    });
-                  }
-                },
-                "plain-text",
-                timeRange.end
-              );
-            }}
           >
-            <Text style={[styles.timeText, { color: theme.colors.text }]}>
-              {timeRange.end}
+            <Text
+              style={[
+                styles.timeDisplayTitle,
+                { color: theme.colors.textSecondary },
+              ]}
+            >
+              {onboarding.selected_time_range || "Selected Time Range"}
             </Text>
-          </TouchableOpacity>
+            <Text
+              style={[
+                styles.timeDisplayTime,
+                { color: theme.colors.brandYellow },
+              ]}
+            >
+              {timeRange.start} - {timeRange.end}
+            </Text>
+          </View>
         </View>
       </View>
     );
@@ -787,29 +835,31 @@ const styles = StyleSheet.create({
   option: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 20,
-    paddingVertical: 16,
+    paddingHorizontal: 18,
+    paddingVertical: 14,
     borderWidth: 2,
-    marginBottom: 12,
+    marginBottom: 10,
   },
   optionText: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "600",
     flex: 1,
+    marginLeft: 12,
   },
   // Multiple Choice
   multiOption: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 16,
-    paddingVertical: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
     borderWidth: 2,
-    marginBottom: 8,
+    marginBottom: 6,
   },
   multiOptionText: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: "500",
     flex: 1,
+    marginLeft: 10,
   },
   // Slider
   sliderContainer: {
@@ -866,26 +916,52 @@ const styles = StyleSheet.create({
   timePickerContainer: {
     paddingVertical: 20,
   },
-  timePickerRow: {
+  timePresetsContainer: {
     flexDirection: "row",
-    alignItems: "center",
+    flexWrap: "wrap",
     justifyContent: "space-between",
     marginBottom: 20,
   },
-  timeLabel: {
-    fontSize: 18,
-    fontWeight: "600",
-  },
-  timeButton: {
-    paddingHorizontal: 20,
+  timePreset: {
+    width: "48%",
+    paddingHorizontal: 16,
     paddingVertical: 12,
     borderWidth: 2,
-    minWidth: 80,
+    marginBottom: 8,
     alignItems: "center",
   },
-  timeText: {
-    fontSize: 16,
+  timePresetLabel: {
+    fontSize: 15,
     fontWeight: "600",
+    marginBottom: 4,
+    textAlign: "center",
+  },
+  timePresetDescription: {
+    fontSize: 13,
+    fontWeight: "500",
+    textAlign: "center",
+  },
+  currentTimeDisplay: {
+    alignItems: "center",
+    marginTop: 10,
+  },
+  timeDisplayCard: {
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    borderWidth: 2,
+    alignItems: "center",
+    minWidth: 200,
+  },
+  timeDisplayTitle: {
+    fontSize: 14,
+    fontWeight: "500",
+    marginBottom: 8,
+    textAlign: "center",
+  },
+  timeDisplayTime: {
+    fontSize: 18,
+    fontWeight: "700",
+    textAlign: "center",
   },
   // Navigation
   navigationContainer: {

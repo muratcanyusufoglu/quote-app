@@ -31,7 +31,7 @@ export const getOnboardingQuestions = (
         id: "growth",
         label: t("onboarding.options.growth"),
         value: "growth",
-        icon: "trending-up",
+        icon: "star",
       },
       {
         id: "inspiration",
@@ -75,7 +75,7 @@ export const getOnboardingQuestions = (
         id: "growth",
         label: t("onboarding.options.growth"),
         value: "growth",
-        icon: "tree-pine",
+        icon: "star",
       },
       {
         id: "peace",
@@ -87,13 +87,13 @@ export const getOnboardingQuestions = (
         id: "strength",
         label: t("onboarding.options.strength"),
         value: "strength",
-        icon: "zap",
+        icon: "shield",
       },
       {
         id: "creativity",
         label: t("onboarding.options.creativity"),
         value: "creativity",
-        icon: "palette",
+        icon: "lightbulb",
       },
       {
         id: "leadership",
@@ -111,7 +111,7 @@ export const getOnboardingQuestions = (
         id: "mindfulness",
         label: t("onboarding.options.mindfulness"),
         value: "mindfulness",
-        icon: "church",
+        icon: "brain",
       },
       {
         id: "gratitude",
@@ -137,7 +137,7 @@ export const getOnboardingQuestions = (
         id: "strong",
         label: t("onboarding.options.strong"),
         value: "strong",
-        icon: "zap",
+        icon: "crown",
       },
       {
         id: "balanced",
@@ -163,7 +163,7 @@ export const getOnboardingQuestions = (
         id: "afternoon",
         label: t("onboarding.options.afternoon"),
         value: "afternoon",
-        icon: "zap",
+        icon: "star",
       },
       {
         id: "evening",
@@ -183,7 +183,7 @@ export const getOnboardingQuestions = (
         id: "short",
         label: t("onboarding.options.short"),
         value: "short",
-        icon: "zap",
+        icon: "target",
       },
       {
         id: "medium",
