@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QuoteSpark – Motivational",
-    "slug": "QuoteSpark – Motivational",
+    "slug": "quotespark",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,9 +15,18 @@
         "CFBundleURLTypes": [
           {
             "CFBundleURLName": "quote-app",
-            "CFBundleURLSchemes": ["quote"]
+            "CFBundleURLSchemes": [
+              "quote"
+            ]
+          },
+          {
+            "CFBundleURLName": "quote-app",
+            "CFBundleURLSchemes": [
+              "quote"
+            ]
           }
-        ]
+        ],
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -39,7 +48,10 @@
               "host": "quote-app.com"
             }
           ],
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
@@ -63,6 +75,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "46da63bb-b30d-4c85-a4dd-3e34a7f062de"
+      }
+    },
+    "owner": "muratcan.yusufoglu"
   }
 }

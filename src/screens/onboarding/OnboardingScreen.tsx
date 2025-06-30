@@ -140,7 +140,7 @@ export function OnboardingScreen() {
             <IconSymbol
               name="star"
               size={48}
-              color={theme.colors.primary}
+              color={theme.colors.brandYellow}
               strokeWidth={2}
             />
           </View>
@@ -245,13 +245,15 @@ export function OnboardingScreen() {
             key={option.id}
             style={[
               styles.option,
+              dynamicStyles.option,
               {
                 backgroundColor: isSelected
-                  ? theme.colors.primary
+                  ? theme.colors.brandYellow
                   : theme.colors.surface,
                 borderColor: isSelected
-                  ? theme.colors.primary
+                  ? theme.colors.brandYellow
                   : theme.colors.border,
+                borderRadius: theme.borderRadius.lg,
               },
             ]}
             onPress={() => handleAnswer(question.id, option.value)}
@@ -259,14 +261,14 @@ export function OnboardingScreen() {
             <IconSymbol
               name={option.icon as any}
               size={32}
-              color={isSelected ? "#FFFFFF" : theme.colors.primary}
+              color={isSelected ? theme.colors.white : theme.colors.brandYellow}
               strokeWidth={2}
             />
             <Text
               style={[
                 styles.optionText,
                 {
-                  color: isSelected ? "#FFFFFF" : theme.colors.text,
+                  color: isSelected ? theme.colors.white : theme.colors.text,
                 },
               ]}
             >
@@ -289,13 +291,15 @@ export function OnboardingScreen() {
             key={option.id}
             style={[
               styles.multiOption,
+              dynamicStyles.multiOption,
               {
                 backgroundColor: isSelected
-                  ? theme.colors.primary
+                  ? theme.colors.brandYellow
                   : theme.colors.surface,
                 borderColor: isSelected
-                  ? theme.colors.primary
+                  ? theme.colors.brandYellow
                   : theme.colors.border,
+                borderRadius: theme.borderRadius.md,
               },
             ]}
             onPress={() => {
@@ -308,14 +312,14 @@ export function OnboardingScreen() {
             <IconSymbol
               name={option.icon as any}
               size={24}
-              color={isSelected ? "#FFFFFF" : theme.colors.primary}
+              color={isSelected ? theme.colors.white : theme.colors.brandYellow}
               strokeWidth={2}
             />
             <Text
               style={[
                 styles.multiOptionText,
                 {
-                  color: isSelected ? "#FFFFFF" : theme.colors.text,
+                  color: isSelected ? theme.colors.white : theme.colors.text,
                 },
               ]}
             >
@@ -335,7 +339,9 @@ export function OnboardingScreen() {
     return (
       <View style={styles.sliderContainer}>
         <View style={styles.sliderValueContainer}>
-          <Text style={[styles.sliderValue, { color: theme.colors.primary }]}>
+          <Text
+            style={[styles.sliderValue, { color: theme.colors.brandYellow }]}
+          >
             {value}
           </Text>
           <Text
@@ -352,6 +358,7 @@ export function OnboardingScreen() {
               {
                 backgroundColor: theme.colors.surface,
                 borderColor: theme.colors.border,
+                borderRadius: theme.borderRadius.md,
                 opacity: value <= min ? 0.5 : 1,
               },
             ]}
@@ -380,6 +387,7 @@ export function OnboardingScreen() {
               {
                 backgroundColor: theme.colors.surface,
                 borderColor: theme.colors.border,
+                borderRadius: theme.borderRadius.md,
                 opacity: value >= max ? 0.5 : 1,
               },
             ]}
@@ -431,6 +439,7 @@ export function OnboardingScreen() {
               {
                 backgroundColor: theme.colors.surface,
                 borderColor: theme.colors.border,
+                borderRadius: theme.borderRadius.md,
               },
             ]}
             onPress={() => {
@@ -467,6 +476,7 @@ export function OnboardingScreen() {
               {
                 backgroundColor: theme.colors.surface,
                 borderColor: theme.colors.border,
+                borderRadius: theme.borderRadius.md,
               },
             ]}
             onPress={() => {
@@ -522,6 +532,40 @@ export function OnboardingScreen() {
 
   const progressPercentage = ((currentStep + 2) / totalSteps) * 100;
 
+  // Create dynamic styles based on theme
+  const dynamicStyles = StyleSheet.create({
+    option: {
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    multiOption: {
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 1,
+      },
+      shadowOpacity: 0.05,
+      shadowRadius: 2,
+      elevation: 2,
+    },
+    navButton: {
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+  });
+
   return (
     <BaseScreen style={styles.container}>
       {/* Progress Bar */}
@@ -537,7 +581,7 @@ export function OnboardingScreen() {
               style={[
                 styles.progressFill,
                 {
-                  backgroundColor: theme.colors.primary,
+                  backgroundColor: theme.colors.brandYellow,
                   width: `${progressPercentage}%`,
                 },
               ]}
@@ -568,7 +612,12 @@ export function OnboardingScreen() {
               style={[
                 styles.navButton,
                 styles.prevButton,
-                { backgroundColor: theme.colors.surface },
+                dynamicStyles.navButton,
+                {
+                  backgroundColor: theme.colors.surface,
+                  borderRadius: theme.borderRadius.md,
+                  borderColor: theme.colors.border,
+                },
               ]}
               onPress={handlePrevious}
             >
@@ -584,17 +633,19 @@ export function OnboardingScreen() {
             style={[
               styles.navButton,
               styles.nextButton,
+              dynamicStyles.navButton,
               {
                 backgroundColor: isStepComplete()
-                  ? theme.colors.primary
+                  ? theme.colors.brandYellow
                   : theme.colors.border,
+                borderRadius: theme.borderRadius.md,
                 opacity: isStepComplete() ? 1 : 0.5,
               },
             ]}
             onPress={handleNext}
             disabled={!isStepComplete()}
           >
-            <Text style={[styles.navButtonText, { color: "#FFFFFF" }]}>
+            <Text style={[styles.navButtonText, { color: theme.colors.white }]}>
               {currentStep === onboardingQuestions.length - 1
                 ? onboarding.complete
                 : onboarding.next_step}
@@ -738,17 +789,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
     paddingVertical: 16,
-    borderRadius: 16,
     borderWidth: 2,
     marginBottom: 12,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
   },
   optionText: {
     fontSize: 16,
@@ -761,17 +803,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 16,
     paddingVertical: 12,
-    borderRadius: 12,
     borderWidth: 2,
     marginBottom: 8,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.05,
-    shadowRadius: 2,
-    elevation: 2,
   },
   multiOptionText: {
     fontSize: 14,
@@ -804,7 +837,6 @@ const styles = StyleSheet.create({
   sliderButton: {
     paddingHorizontal: 20,
     paddingVertical: 12,
-    borderRadius: 12,
     borderWidth: 2,
     minWidth: 80,
     alignItems: "center",
@@ -847,7 +879,6 @@ const styles = StyleSheet.create({
   timeButton: {
     paddingHorizontal: 20,
     paddingVertical: 12,
-    borderRadius: 12,
     borderWidth: 2,
     minWidth: 80,
     alignItems: "center",
@@ -866,17 +897,8 @@ const styles = StyleSheet.create({
   navButton: {
     paddingHorizontal: 24,
     paddingVertical: 14,
-    borderRadius: 12,
     minWidth: 100,
     alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
   },
   prevButton: {
     borderWidth: 2,
