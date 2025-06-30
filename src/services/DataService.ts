@@ -5,7 +5,8 @@ import {
   getAllQuotes as getAllQuotesFromMap,
   getQuotesForCategory,
 } from "../data/quotes";
-import { Category, Quote } from "../types";
+import { Category, LocalizedCategory, LocalizedQuote, Quote } from "../types";
+import { SupportedLanguage } from "../utils/language";
 
 // Cache interface for performance optimization
 interface DataCache {
@@ -44,6 +45,60 @@ export class DataService {
     } catch (error) {
       console.error("❌ Failed to load categories:", error);
       throw new Error("Failed to load categories");
+    }
+  }
+
+  // Get categories filtered by language for notification service
+  async getCategories(
+    language: SupportedLanguage
+  ): Promise<LocalizedCategory[]> {
+    try {
+      const categories = await this.loadCategories();
+      return categories.map((category) => ({
+        id: category.id,
+        name: category.names[language] || category.names.en,
+        description:
+          category.descriptions[language] || category.descriptions.en,
+        icon: category.icon,
+        color: category.color,
+        isPremium: category.isPremium,
+        language: language,
+      }));
+    } catch (error) {
+      console.error("❌ Failed to get localized categories:", error);
+      return [];
+    }
+  }
+
+  // Get quotes by category filtered by language for notification service
+  async getQuotesByCategory(
+    categoryId: string,
+    language: SupportedLanguage
+  ): Promise<LocalizedQuote[]> {
+    try {
+      const quotes = await this.loadQuotesForCategory(categoryId);
+      return quotes.map((quote) => ({
+        id: quote.id,
+        text: quote.texts[language] || quote.texts.en,
+        author: quote.authors[language] || quote.authors.en,
+        category: quote.category,
+        tags: quote.tags[language] || quote.tags.en || [],
+        language: language,
+        readTime: quote.readTime || 1,
+        story: quote.stories?.[language]
+          ? {
+              title: quote.stories[language]!.title,
+              content: quote.stories[language]!.content,
+              readTime: quote.stories[language]!.readTime || 3,
+            }
+          : undefined,
+      }));
+    } catch (error) {
+      console.error(
+        `❌ Failed to get quotes for category ${categoryId}:`,
+        error
+      );
+      return [];
     }
   }
 

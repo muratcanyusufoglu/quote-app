@@ -13,6 +13,7 @@ import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
+import { useNotifications } from "../src/hooks/useNotifications";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
 import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
@@ -61,11 +62,28 @@ export default function RootLayout() {
   const purchaseHydrated = usePurchaseSelectors.hasHydrated();
   const onboardingHydrated = useOnboardingSelectors.hasHydrated();
   const paywallHydrated = usePaywallSelectors.hasHydrated();
+  const isCompleted = useOnboardingSelectors.isCompleted();
+
+  // Initialize notifications when ready
+  useNotifications();
 
   // Welcome paywall logic - show on first app launch
   const { showPaywall, markWelcomePaywallSeen } = usePaywallSelectors.actions();
   const hasSeenWelcome = usePaywallSelectors.hasSeenWelcome();
-  const isCompleted = useOnboardingSelectors.isCompleted();
+
+  // Log notification status for debugging
+  useEffect(() => {
+    if (
+      quoteHydrated &&
+      purchaseHydrated &&
+      onboardingHydrated &&
+      isCompleted
+    ) {
+      console.log(
+        "🔔 All stores hydrated and onboarding completed - notifications should be active"
+      );
+    }
+  }, [quoteHydrated, purchaseHydrated, onboardingHydrated, isCompleted]);
 
   // Deep link handling for quote sharing
   useEffect(() => {
