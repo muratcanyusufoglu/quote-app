@@ -8,6 +8,7 @@ import {
   View,
 } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
+import { NavigationBar } from "../../components/layout/NavigationBar";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useFavoriteQuotes } from "../../hooks/useQuoteService";
 import {
@@ -108,6 +109,9 @@ export function FavoritesScreen() {
       />
 
       <View style={styles.content}>
+        {/* Navigation Bar */}
+        <NavigationBar />
+
         {favoriteQuotes.length === 0 ? (
           renderEmptyState()
         ) : (

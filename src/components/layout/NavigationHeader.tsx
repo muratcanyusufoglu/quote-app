@@ -1,17 +1,29 @@
+import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTheme } from "../../utils/ThemeContext";
 
 interface NavigationHeaderProps {
   title: string;
   currentRoute: string;
+  showBackButton?: boolean;
 }
 
 export function NavigationHeader({
   title,
   currentRoute,
+  showBackButton = false,
 }: NavigationHeaderProps) {
   const { theme } = useTheme();
+
+  const handleBackPress = () => {
+    if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.push("/(tabs)");
+    }
+  };
 
   const handlePurchasePress = () => {
     console.log("Navigate to purchase");
@@ -27,10 +39,27 @@ export function NavigationHeader({
       justifyContent: "space-between",
       alignItems: "center",
     },
+    leftSection: {
+      flexDirection: "row",
+      alignItems: "center",
+      flex: 1,
+    },
+    backButton: {
+      width: 40,
+      height: 40,
+      borderRadius: 20,
+      backgroundColor: theme.colors.whiteOverlay10,
+      justifyContent: "center",
+      alignItems: "center",
+      marginRight: 12,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
+    },
     title: {
       fontSize: 24,
       fontWeight: "bold",
       color: theme.colors.white,
+      flex: 1,
     },
     purchaseButton: {
       backgroundColor: theme.colors.whiteOverlay10,
@@ -49,7 +78,19 @@ export function NavigationHeader({
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{title}</Text>
+      <View style={styles.leftSection}>
+        {showBackButton && (
+          <TouchableOpacity style={styles.backButton} onPress={handleBackPress}>
+            <IconSymbol
+              name="arrow.left"
+              size={20}
+              color={theme.colors.white}
+              strokeWidth={2}
+            />
+          </TouchableOpacity>
+        )}
+        <Text style={styles.title}>{title}</Text>
+      </View>
 
       <TouchableOpacity
         style={styles.purchaseButton}

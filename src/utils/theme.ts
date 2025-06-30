@@ -146,10 +146,10 @@ export const lightTheme: Theme = {
     textTertiary: colorPalette.gray500,
     textInverse: "#ffffff",
 
-    // Soft text colors for quote content - Dark Anthracite tones
-    textSoft: "#36454F", // Dark anthracite (koyu antrasit)
-    textSoftSecondary: "rgba(54, 69, 79, 0.85)", // Anthracite with slight transparency
-    textSoftTertiary: "rgba(54, 69, 79, 0.65)", // Lighter anthracite for tertiary text
+    // Soft text colors for quote content - Darker for better contrast on golden cards
+    textSoft: "#2c3e50", // Very dark blue-gray for excellent contrast on golden background
+    textSoftSecondary: "rgba(44, 62, 80, 0.95)", // Almost opaque dark secondary
+    textSoftTertiary: "rgba(44, 62, 80, 0.75)", // Darker tertiary for good readability
 
     // Border colors
     border: colorPalette.gray200,
@@ -279,10 +279,10 @@ export const darkTheme: Theme = {
     textTertiary: colorPalette.dark400,
     textInverse: colorPalette.gray900,
 
-    // Soft text colors for quote content (adjusted for dark theme)
-    textSoft: "#bdc3c7", // Soft light gray for dark backgrounds
-    textSoftSecondary: "rgba(189, 195, 199, 0.8)", // Softer secondary
-    textSoftTertiary: "rgba(189, 195, 199, 0.6)", // Even softer tertiary
+    // Soft text colors for quote content (adjusted for dark theme) - Darkened for better contrast on golden cards
+    textSoft: "#2c3e50", // Dark blue-gray (much better contrast on golden background)
+    textSoftSecondary: "rgba(44, 62, 80, 0.9)", // Darker secondary with high opacity
+    textSoftTertiary: "rgba(44, 62, 80, 0.7)", // Darker tertiary for better readability
 
     // Border colors
     border: colorPalette.dark600,

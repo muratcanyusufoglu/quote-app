@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedQuote } from "../../types";
-import { getCategoryColor } from "../../utils/categoryColors";
 import { useTheme } from "../../utils/ThemeContext";
 import { QuoteActions } from "./QuoteActions";
 import { QuoteContent } from "./QuoteContent";
@@ -36,8 +35,9 @@ export function QuoteReelCard({
   onShare,
   onQuoteAction,
 }: QuoteReelCardProps) {
-  const cardColor = getCategoryColor(quote.category);
   const { theme } = useTheme();
+  // Tek renk kullan - kategori rengine göre değişmesin
+  const cardColor = theme.colors.brandYellow;
 
   const navigateToExplore = () => {
     router.push("/(tabs)/explore");
@@ -129,24 +129,42 @@ export function QuoteReelCard({
           <IconSymbol
             name="search"
             size={10}
-            color="rgba(255, 255, 255, 0.8)"
+            color={theme.colors.whiteOverlay80}
             strokeWidth={2}
           />
-          <Text style={styles.helpTextSeparator}>Explore • </Text>
+          <Text
+            style={[
+              styles.helpTextSeparator,
+              { color: theme.colors.whiteOverlay80 },
+            ]}
+          >
+            Explore •{" "}
+          </Text>
           <IconSymbol
             name="heart"
             size={10}
-            color="rgba(255, 255, 255, 0.8)"
+            color={theme.colors.whiteOverlay80}
             strokeWidth={2}
           />
-          <Text style={styles.helpTextSeparator}>Favorite • </Text>
+          <Text
+            style={[
+              styles.helpTextSeparator,
+              { color: theme.colors.whiteOverlay80 },
+            ]}
+          >
+            Favorite •{" "}
+          </Text>
           <IconSymbol
             name="square.and.arrow.up"
             size={10}
-            color="rgba(255, 255, 255, 0.8)"
+            color={theme.colors.whiteOverlay80}
             strokeWidth={2}
           />
-          <Text style={styles.helpText}>Share</Text>
+          <Text
+            style={[styles.helpText, { color: theme.colors.whiteOverlay80 }]}
+          >
+            Share
+          </Text>
         </View>
       </View>
     </View>
@@ -252,12 +270,10 @@ const styles = StyleSheet.create({
   },
   helpTextSeparator: {
     fontSize: 12,
-    color: "rgba(255, 255, 255, 0.8)",
     marginHorizontal: 4,
   },
   helpText: {
     fontSize: 12,
-    color: "rgba(255, 255, 255, 0.8)",
   },
   cardStack: {
     position: "absolute",

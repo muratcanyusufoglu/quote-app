@@ -8,6 +8,7 @@ import {
   View,
 } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
+import { NavigationBar } from "../../components/layout/NavigationBar";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import {
   useCommonTranslations,
@@ -106,6 +107,9 @@ export function PastReadsScreen() {
       <NavigationHeader title={history.title} currentRoute="/(tabs)/history" />
 
       <View style={styles.content}>
+        {/* Navigation Bar */}
+        <NavigationBar />
+
         {lastReadQuotes.length === 0 ? (
           renderEmptyState()
         ) : (

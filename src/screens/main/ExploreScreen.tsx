@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
+import { NavigationBar } from "../../components/layout/NavigationBar";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
 import {
@@ -23,7 +24,6 @@ import {
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
 import { useHasHydrated } from "../../store/useQuoteStore";
-import { getCategoryColor } from "../../utils/categoryColors";
 import { getCategoryIcon } from "../../utils/theme";
 import { useTheme } from "../../utils/ThemeContext";
 
@@ -93,7 +93,8 @@ export function ExploreScreen() {
       category.id.toLowerCase() === "general" ||
       category.id.toLowerCase() === "genel";
     const canAccess = isPremium || isGeneralCategory;
-    const categoryColor = getCategoryColor(category.id, isDark);
+    // Tek renk kullan - kategori rengine göre değişmesin
+    const categoryColor = theme.colors.brandYellow;
     const categoryIconName = getCategoryIcon(category.id);
 
     // ENHANCED DEBUG: Let's see everything
@@ -166,7 +167,7 @@ export function ExploreScreen() {
             <Text
               style={[
                 styles.categoryDescription,
-                { color: "rgba(255,255,255,0.9)" },
+                { color: theme.colors.whiteOverlay90 },
               ]}
             >
               {category.description}
@@ -199,6 +200,9 @@ export function ExploreScreen() {
       <NavigationHeader title={explore.title} currentRoute="/(tabs)/explore" />
 
       <View style={styles.content}>
+        {/* Navigation Bar */}
+        <NavigationBar />
+
         {/* Header */}
         <View style={styles.headerContainer}>
           <Text style={[styles.title, { color: theme.colors.white }]}>
@@ -264,15 +268,16 @@ const createStyles = (theme: any) =>
     },
     row: {
       justifyContent: "space-between",
+      marginBottom: 8,
     },
     separator: {
-      height: 16,
+      height: 20,
     },
     categoryCard: {
-      flex: 1,
-      minHeight: 120,
+      width: ITEM_WIDTH,
+      minHeight: 140,
       borderRadius: 16,
-      marginBottom: 16,
+      marginHorizontal: 4,
       overflow: "hidden",
       shadowColor: theme.colors.shadowColor,
       shadowOffset: {
