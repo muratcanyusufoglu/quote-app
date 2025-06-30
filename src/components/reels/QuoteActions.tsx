@@ -1,12 +1,15 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
+import { ShareButton } from "../ui/ShareButton";
 
 interface QuoteActionsProps {
   isFavorite: boolean;
   onFavoritePress: () => void;
   onShare?: () => void;
+  quote?: LocalizedQuote; // Optional quote for ShareButton
   category: string;
   readTime: number;
   onQuoteAction?: (actionType: string) => void;
@@ -16,6 +19,7 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
   isFavorite,
   onFavoritePress,
   onShare,
+  quote,
   category,
   readTime,
   onQuoteAction,
@@ -30,6 +34,10 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
   const handleSharePress = () => {
     onQuoteAction?.("share");
     onShare?.();
+  };
+
+  const handleShareComplete = () => {
+    onQuoteAction?.("share");
   };
 
   return (
@@ -76,7 +84,17 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
 
       {/* Action Buttons */}
       <View style={styles.actionsSection}>
-        {onShare && (
+        {/* Share Button - Use ShareButton component if quote is provided, otherwise use callback */}
+        {quote ? (
+          <ShareButton
+            quote={quote}
+            size={22}
+            iconColor={theme.colors.textSoft}
+            backgroundColor={theme.colors.whiteOverlay90}
+            style={styles.actionButton}
+            onShareComplete={handleShareComplete}
+          />
+        ) : onShare ? (
           <TouchableOpacity
             style={[
               styles.actionButton,
@@ -94,7 +112,7 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
               strokeWidth={2}
             />
           </TouchableOpacity>
-        )}
+        ) : null}
 
         <TouchableOpacity
           style={[

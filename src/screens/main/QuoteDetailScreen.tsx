@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
+import { ShareButton } from "../../components/ui/ShareButton";
 import { useStoryReading } from "../../hooks/usePurchase";
 import { useQuoteDetail } from "../../hooks/useQuoteService";
 import {
@@ -183,11 +184,13 @@ const QuoteDetailScreen: React.FC = () => {
               <Text style={styles.categoryText}>{category?.name}</Text>
             </View>
 
-            <View style={styles.readTimeContainer}>
-              <Text style={styles.readTimeText}>
-                {quote.readTime} {quoteDetail.minutes_short}
-              </Text>
-            </View>
+            <ShareButton
+              quote={quote}
+              size={18}
+              iconColor={theme.colors.textSoft}
+              backgroundColor="rgba(255, 255, 255, 0.2)"
+              style={styles.shareButton}
+            />
           </View>
         </View>
 
@@ -406,16 +409,13 @@ const createStyles = (theme: any) =>
       color: theme.colors.textSoft,
       fontWeight: theme.typography.fontWeight.medium,
     },
-    readTimeContainer: {
-      backgroundColor: "rgba(54, 69, 79, 0.2)",
-      paddingHorizontal: theme.spacing.md,
-      paddingVertical: theme.spacing.sm,
-      borderRadius: theme.borderRadius.md,
-    },
-    readTimeText: {
-      fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.textSoft,
-      fontWeight: theme.typography.fontWeight.medium,
+    shareButton: {
+      width: 40,
+      height: 40,
+      justifyContent: "center",
+      alignItems: "center",
+      borderRadius: 20,
+      backgroundColor: "rgba(255, 255, 255, 0.2)",
     },
     storySection: {
       backgroundColor: "rgba(255, 255, 255, 0.1)",

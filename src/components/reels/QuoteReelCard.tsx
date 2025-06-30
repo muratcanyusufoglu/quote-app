@@ -117,6 +117,7 @@ export function QuoteReelCard({
           isFavorite={isFavorite}
           onFavoritePress={onFavoritePress}
           onShare={() => onShare?.(quote)}
+          quote={quote}
           category={quote.category}
           readTime={quote.readTime}
           onQuoteAction={onQuoteAction}
