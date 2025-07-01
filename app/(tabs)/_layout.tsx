@@ -55,6 +55,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: navigation.home,
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="house.fill" color={color} />
           ),
@@ -64,6 +65,7 @@ export default function TabLayout() {
         name="explore"
         options={{
           title: navigation.explore,
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="magnifyingglass" color={color} />
           ),
@@ -73,6 +75,7 @@ export default function TabLayout() {
         name="favorites"
         options={{
           title: navigation.favorites,
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="heart.fill" color={color} />
           ),
@@ -82,6 +85,7 @@ export default function TabLayout() {
         name="history"
         options={{
           title: navigation.history,
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="clock.fill" color={color} />
           ),

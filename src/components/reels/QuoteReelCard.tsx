@@ -75,7 +75,7 @@ export function QuoteReelCard({
           onPress={navigateToExplore}
         >
           <IconSymbol
-            name="search"
+            name="magnifyingglass"
             size={20}
             color={theme.colors.white}
             strokeWidth={2}
@@ -181,10 +181,10 @@ const styles = StyleSheet.create({
   },
   topBar: {
     position: "absolute",
-    top: 60,
+    top: 200, //60
     left: 0,
     right: 0,
-    zIndex: 10,
+    zIndex: 1001,
     paddingHorizontal: 24,
     flexDirection: "row",
     justifyContent: "flex-end",
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
   exploreButton: {
     width: 44,
     height: 44,
-    backgroundColor: "rgba(0, 0, 0, 0.3)",
+    backgroundColor: "red",
     borderRadius: 22,
     justifyContent: "center",
     alignItems: "center",
@@ -206,6 +206,7 @@ const styles = StyleSheet.create({
     elevation: 5,
     borderWidth: 1,
     borderColor: "rgba(255, 255, 255, 0.2)",
+    zIndex: 200000,
   },
   cardContainer: {
     flex: 1,

@@ -133,28 +133,32 @@ export function OnboardingScreen() {
 
   const renderIntroScreen = () => (
     <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
-      <View style={styles.introContainer}>
-        <View style={styles.welcomeContainer}>
+      <ScrollView
+        style={styles.introScrollView}
+        contentContainerStyle={styles.introContainer}
+        showsVerticalScrollIndicator={false}
+      >
+        <View style={styles.welcomeSection}>
           <View style={styles.welcomeIconContainer}>
             <IconSymbol
               name="star"
-              size={44}
+              size={48}
               color={theme.colors.brandYellow}
               strokeWidth={2}
             />
           </View>
-          <Text style={[styles.welcomeTitle, { color: theme.colors.text }]}>
+          <Text style={[styles.welcomeTitle, { color: theme.colors.white }]}>
             {onboarding.welcome_title}
           </Text>
+          <Text
+            style={[
+              styles.welcomeSubtitle,
+              { color: theme.colors.whiteOverlay90 },
+            ]}
+          >
+            {onboarding.welcome_subtitle}
+          </Text>
         </View>
-        <Text
-          style={[
-            styles.welcomeSubtitle,
-            { color: theme.colors.textSecondary },
-          ]}
-        >
-          {onboarding.welcome_subtitle}
-        </Text>
 
         <View style={styles.featuresContainer}>
           <View style={styles.featureItem}>
@@ -162,7 +166,7 @@ export function OnboardingScreen() {
             <Text
               style={[
                 styles.featureText,
-                { color: theme.colors.textSecondary },
+                { color: theme.colors.whiteOverlay80 },
               ]}
             >
               {onboarding.feature_personalized}
@@ -173,7 +177,7 @@ export function OnboardingScreen() {
             <Text
               style={[
                 styles.featureText,
-                { color: theme.colors.textSecondary },
+                { color: theme.colors.whiteOverlay80 },
               ]}
             >
               {onboarding.feature_notifications}
@@ -184,14 +188,14 @@ export function OnboardingScreen() {
             <Text
               style={[
                 styles.featureText,
-                { color: theme.colors.textSecondary },
+                { color: theme.colors.whiteOverlay80 },
               ]}
             >
               {onboarding.feature_fast}
             </Text>
           </View>
         </View>
-      </View>
+      </ScrollView>
     </Animated.View>
   );
 
@@ -199,13 +203,13 @@ export function OnboardingScreen() {
     <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
       <View style={styles.completionContainer}>
         <Text style={styles.completionEmoji}>🎉</Text>
-        <Text style={[styles.completionTitle, { color: theme.colors.text }]}>
+        <Text style={[styles.completionTitle, { color: theme.colors.white }]}>
           {onboarding.completion_title}
         </Text>
         <Text
           style={[
             styles.completionSubtitle,
-            { color: theme.colors.textSecondary },
+            { color: theme.colors.whiteOverlay90 },
           ]}
         >
           {onboarding.completion_subtitle}
@@ -267,7 +271,9 @@ export function OnboardingScreen() {
               style={[
                 styles.optionText,
                 {
-                  color: isSelected ? theme.colors.white : theme.colors.text,
+                  color: isSelected
+                    ? theme.colors.white
+                    : theme.colors.textSoft,
                 },
               ]}
             >
@@ -318,7 +324,9 @@ export function OnboardingScreen() {
               style={[
                 styles.multiOptionText,
                 {
-                  color: isSelected ? theme.colors.white : theme.colors.text,
+                  color: isSelected
+                    ? theme.colors.white
+                    : theme.colors.textSoft,
                 },
               ]}
             >
@@ -344,7 +352,7 @@ export function OnboardingScreen() {
             {value}
           </Text>
           <Text
-            style={[styles.sliderLabel, { color: theme.colors.textSecondary }]}
+            style={[styles.sliderLabel, { color: theme.colors.whiteOverlay80 }]}
           >
             {onboarding.notifications_per_day}
           </Text>
@@ -368,14 +376,17 @@ export function OnboardingScreen() {
             disabled={value <= min}
           >
             <Text
-              style={[styles.sliderButtonText, { color: theme.colors.text }]}
+              style={[
+                styles.sliderButtonText,
+                { color: theme.colors.textSoft },
+              ]}
             >
               −
             </Text>
           </TouchableOpacity>
 
           <View style={styles.valueDisplay}>
-            <Text style={[styles.currentValue, { color: theme.colors.text }]}>
+            <Text style={[styles.currentValue, { color: theme.colors.white }]}>
               {value}
             </Text>
           </View>
@@ -397,7 +408,10 @@ export function OnboardingScreen() {
             disabled={value >= max}
           >
             <Text
-              style={[styles.sliderButtonText, { color: theme.colors.text }]}
+              style={[
+                styles.sliderButtonText,
+                { color: theme.colors.textSoft },
+              ]}
             >
               +
             </Text>
@@ -406,12 +420,12 @@ export function OnboardingScreen() {
 
         <View style={styles.sliderRange}>
           <Text
-            style={[styles.rangeText, { color: theme.colors.textTertiary }]}
+            style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
           >
             {min}
           </Text>
           <Text
-            style={[styles.rangeText, { color: theme.colors.textTertiary }]}
+            style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
           >
             {max}
           </Text>
@@ -496,7 +510,7 @@ export function OnboardingScreen() {
                     {
                       color: isSelected
                         ? theme.colors.white
-                        : theme.colors.text,
+                        : theme.colors.textSoft,
                     },
                   ]}
                 >
@@ -508,7 +522,7 @@ export function OnboardingScreen() {
                     {
                       color: isSelected
                         ? theme.colors.white
-                        : theme.colors.textSecondary,
+                        : theme.colors.textSoftSecondary,
                     },
                   ]}
                 >
@@ -534,7 +548,7 @@ export function OnboardingScreen() {
             <Text
               style={[
                 styles.timeDisplayTitle,
-                { color: theme.colors.textSecondary },
+                { color: theme.colors.textSoftSecondary },
               ]}
             >
               {onboarding.selected_time_range || "Selected Time Range"}
@@ -562,7 +576,7 @@ export function OnboardingScreen() {
           showsVerticalScrollIndicator={false}
           style={styles.questionContainer}
         >
-          <Text style={[styles.questionText, { color: theme.colors.text }]}>
+          <Text style={[styles.questionText, { color: theme.colors.white }]}>
             {currentQuestion.question}
           </Text>
 
@@ -636,7 +650,10 @@ export function OnboardingScreen() {
             />
           </View>
           <Text
-            style={[styles.progressText, { color: theme.colors.textSecondary }]}
+            style={[
+              styles.progressText,
+              { color: theme.colors.whiteOverlay80 },
+            ]}
           >
             {currentStep + 2} / {totalSteps}
           </Text>
@@ -670,7 +687,7 @@ export function OnboardingScreen() {
               onPress={handlePrevious}
             >
               <Text
-                style={[styles.navButtonText, { color: theme.colors.text }]}
+                style={[styles.navButtonText, { color: theme.colors.textSoft }]}
               >
                 {onboarding.back}
               </Text>
@@ -709,6 +726,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 0,
+    backgroundColor: "transparent",
   },
   progressContainer: {
     paddingHorizontal: 20,
@@ -734,22 +752,25 @@ const styles = StyleSheet.create({
   },
   stepContainer: {
     flex: 1,
-    paddingHorizontal: 20,
+    paddingHorizontal: 0,
   },
   // Intro Screen
-  introContainer: {
+  introScrollView: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    paddingVertical: 40,
   },
-  welcomeContainer: {
-    flexDirection: "row",
+  introContainer: {
+    flexGrow: 1,
+    justifyContent: "center",
+    paddingVertical: 60,
+    paddingHorizontal: 24,
+    minHeight: "100%",
+  },
+  welcomeSection: {
     alignItems: "center",
-    marginBottom: 24,
+    marginBottom: 40,
   },
   welcomeIconContainer: {
-    marginRight: 16,
+    marginBottom: 24,
   },
   welcomeTitle: {
     fontSize: 32,
@@ -762,48 +783,56 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     textAlign: "center",
     lineHeight: 26,
-    marginBottom: 48,
+    paddingHorizontal: 20,
   },
   featuresContainer: {
     width: "100%",
+    alignItems: "stretch",
   },
   featureItem: {
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 20,
-    paddingHorizontal: 20,
+    paddingHorizontal: 16,
+    paddingVertical: 4,
   },
   featureIcon: {
     fontSize: 24,
     marginRight: 16,
+    width: 32,
+    textAlign: "center",
   },
   featureText: {
     fontSize: 16,
     fontWeight: "500",
+    flex: 1,
+    lineHeight: 22,
   },
   // Completion Screen
   completionContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    paddingVertical: 40,
+    paddingVertical: 20,
+    paddingHorizontal: 20,
   },
   completionEmoji: {
-    fontSize: 64,
-    marginBottom: 24,
+    fontSize: 56,
+    marginBottom: 20,
   },
   completionTitle: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: "700",
     textAlign: "center",
     marginBottom: 16,
   },
   completionSubtitle: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "500",
     textAlign: "center",
-    lineHeight: 26,
-    marginBottom: 48,
+    lineHeight: 24,
+    marginBottom: 40,
+    paddingHorizontal: 10,
   },
   loadingContainer: {
     flexDirection: "row",
@@ -819,14 +848,16 @@ const styles = StyleSheet.create({
   // Question Container
   questionContainer: {
     flex: 1,
-    paddingVertical: 40,
+    paddingVertical: 20,
+    paddingHorizontal: 10,
   },
   questionText: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: "600",
     textAlign: "center",
-    lineHeight: 32,
-    marginBottom: 32,
+    lineHeight: 30,
+    marginBottom: 28,
+    paddingHorizontal: 10,
   },
   // Options
   optionsContainer: {
@@ -969,6 +1000,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingHorizontal: 20,
     paddingVertical: 20,
+    paddingBottom: 30,
   },
   navButton: {
     paddingHorizontal: 24,

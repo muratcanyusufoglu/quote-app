@@ -14,6 +14,7 @@ import "react-native-reanimated";
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
 import { useNotifications } from "../src/hooks/useNotifications";
+import { initializePaywallService } from "../src/services/PaywallService";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
 import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
@@ -57,91 +58,29 @@ export default function RootLayout() {
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
-  // Initialize stores
-  const quoteHydrated = useQuoteSelectors.hasHydrated();
-  const purchaseHydrated = usePurchaseSelectors.hasHydrated();
+  // Store selectors - properly call the selector functions
+  const onboardingCompleted = useOnboardingSelectors.isCompleted();
   const onboardingHydrated = useOnboardingSelectors.hasHydrated();
-  const paywallHydrated = usePaywallSelectors.hasHydrated();
-  const isCompleted = useOnboardingSelectors.isCompleted();
+  const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
+  const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
+  const paywallStoreHydrated = usePaywallSelectors.hasHydrated();
 
-  // Initialize notifications when ready
+  // Initialize notifications
   useNotifications();
 
-  // Welcome paywall logic - show on first app launch
-  const { showPaywall, markWelcomePaywallSeen } = usePaywallSelectors.actions();
-  const hasSeenWelcome = usePaywallSelectors.hasSeenWelcome();
-
-  // Log notification status for debugging
   useEffect(() => {
-    if (
-      quoteHydrated &&
-      purchaseHydrated &&
-      onboardingHydrated &&
-      isCompleted
-    ) {
-      console.log(
-        "🔔 All stores hydrated and onboarding completed - notifications should be active"
-      );
-    }
-  }, [quoteHydrated, purchaseHydrated, onboardingHydrated, isCompleted]);
-
-  // Deep link handling for quote sharing
-  useEffect(() => {
-    const handleDeepLink = (url: string) => {
-      console.log("🔗 Deep link received:", url);
-
-      // Parse the URL for quote ID
-      const parsed = Linking.parse(url);
-      console.log("🔍 Parsed URL:", parsed);
-
-      // Handle quote:// scheme or https:// scheme
-      if (
-        parsed.hostname === "quote-detail" ||
-        parsed.path?.includes("/quote/")
-      ) {
-        let quoteId: string | null = null;
-
-        if (parsed.hostname === "quote-detail") {
-          // Handle quote://quote-detail/[id] format
-          quoteId = parsed.path?.replace("/", "") || null;
-        } else if (parsed.path?.includes("/quote/")) {
-          // Handle https://domain.com/quote/[id] format
-          const pathParts = parsed.path.split("/");
-          const quoteIndex = pathParts.indexOf("quote");
-          if (quoteIndex !== -1 && pathParts[quoteIndex + 1]) {
-            quoteId = pathParts[quoteIndex + 1];
-          }
-        }
-
-        if (quoteId) {
-          console.log("✅ Navigating to quote:", quoteId);
-          // Small delay to ensure app is ready
-          setTimeout(() => {
-            router.push(`/quote-detail/${quoteId}`);
-          }, 100);
-        } else {
-          console.warn("❌ Could not extract quote ID from URL:", url);
-        }
+    // Initialize PaywallService when app starts
+    const initializeServices = async () => {
+      try {
+        console.log("🚀 Initializing PaywallService...");
+        await initializePaywallService();
+        console.log("✅ PaywallService initialized successfully");
+      } catch (error) {
+        console.error("❌ Failed to initialize PaywallService:", error);
       }
     };
 
-    // Handle initial URL if app was opened via deep link
-    Linking.getInitialURL().then((url) => {
-      if (url) {
-        console.log("🚀 App opened with initial URL:", url);
-        handleDeepLink(url);
-      }
-    });
-
-    // Listen for deep links while app is running
-    const subscription = Linking.addEventListener("url", ({ url }) => {
-      console.log("📱 URL received while app running:", url);
-      handleDeepLink(url);
-    });
-
-    return () => {
-      subscription?.remove();
-    };
+    initializeServices();
   }, []);
 
   useEffect(() => {
@@ -150,80 +89,104 @@ export default function RootLayout() {
     }
   }, [loaded]);
 
-  // Show welcome paywall after all stores hydrated and onboarding completed
   useEffect(() => {
+    // Deep linking configuration
+    const subscription = Linking.addEventListener("url", ({ url }) => {
+      console.log("Deep link received:", url);
+
+      // Parse quote detail deep links
+      const quoteDetailMatch = url.match(/quote-detail\/(.+)/);
+      if (quoteDetailMatch) {
+        const quoteId = quoteDetailMatch[1];
+        router.push(`/quote-detail/${quoteId}`);
+        return;
+      }
+
+      // Handle other deep links
+      if (url.includes("onboarding")) {
+        router.push("/onboarding");
+      } else if (url.includes("explore")) {
+        router.push("/(tabs)/explore");
+      } else if (url.includes("favorites")) {
+        router.push("/(tabs)/favorites");
+      } else if (url.includes("history")) {
+        router.push("/(tabs)/history");
+      }
+    });
+
+    return () => subscription?.remove();
+  }, []);
+
+  useEffect(() => {
+    // Navigation logic after stores are hydrated
     if (
-      quoteHydrated &&
-      purchaseHydrated &&
+      loaded &&
       onboardingHydrated &&
-      paywallHydrated &&
-      isCompleted &&
-      !hasSeenWelcome
+      quoteStoreHydrated &&
+      purchaseStoreHydrated &&
+      paywallStoreHydrated
     ) {
-      setTimeout(() => {
-        showPaywall("welcome");
-        markWelcomePaywallSeen();
-      }, 1000); // Delay to show after initial app load
+      // Navigate to onboarding if not completed
+      if (!onboardingCompleted) {
+        console.log("🎯 Navigating to onboarding");
+        router.replace("/onboarding");
+      } else {
+        console.log("🎯 Onboarding completed, staying on main flow");
+      }
     }
   }, [
-    quoteHydrated,
-    purchaseHydrated,
+    loaded,
+    onboardingCompleted,
     onboardingHydrated,
-    paywallHydrated,
-    isCompleted,
-    hasSeenWelcome,
-    showPaywall,
-    markWelcomePaywallSeen,
+    quoteStoreHydrated,
+    purchaseStoreHydrated,
+    paywallStoreHydrated,
   ]);
 
   if (!loaded) {
-    // Async font loading only occurs in development.
     return null;
   }
 
   return (
-    <ThemeContextProvider
-      defaultTheme={colorScheme === "dark" ? "dark" : "light"}
-    >
+    <ThemeContextProvider>
       <ThemeProvider
         value={colorScheme === "dark" ? CustomDarkTheme : CustomLightTheme}
       >
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack
+          screenOptions={{
+            headerShown: false,
+            contentStyle: { backgroundColor: "transparent" },
+          }}
+        >
           <Stack.Screen
-            name="quote-detail/[id]"
+            name="(tabs)"
             options={{
               headerShown: false,
-              presentation: "modal",
-              animation: "slide_from_right",
-            }}
-          />
-          <Stack.Screen
-            name="purchase"
-            options={{
-              headerShown: false,
-              presentation: "modal",
             }}
           />
           <Stack.Screen
             name="onboarding"
             options={{
               headerShown: false,
-              gestureEnabled: false,
             }}
           />
-          <Stack.Screen name="+not-found" />
+          <Stack.Screen
+            name="quote-detail"
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="+not-found"
+            options={{
+              headerShown: false,
+            }}
+          />
         </Stack>
         <StatusBar style="auto" />
 
-        {/* Global Paywall Modal - Accessible from anywhere */}
-        <PaywallModal
-          onPurchase={() => {
-            // Navigate to purchase screen when user wants to buy
-            // router.push('/purchase'); // Can be implemented if needed
-            console.log("Purchase flow triggered from paywall");
-          }}
-        />
+        {/* Global PaywallModal - Accessible from anywhere in the app */}
+        <PaywallModal />
       </ThemeProvider>
     </ThemeContextProvider>
   );

@@ -347,7 +347,13 @@ export type PaywallTriggerSource =
   | "premium_feature"
   | "action_limit"
   | "story_limit"
+  | "real_purchase"
   | "manual";
+
+export interface PaywallTestimonial {
+  text: string;
+  author: string;
+}
 
 export interface PaywallStoreState {
   isVisible: boolean;

@@ -193,7 +193,7 @@ export function HomeScreen() {
       backgroundColor="transparent" // Transparent to show QuoteReelCard gradient
       safeAreaStyle={{ paddingHorizontal: 0 }} // Override BaseScreen padding
     >
-      {/* Debug Premium Toggle - Only show in development */}
+      {/* Debug Premium Toggle - Hidden by default, can be enabled for debugging */}
       {__DEV__ && (
         <View
           style={[
@@ -278,8 +278,8 @@ export function HomeScreen() {
         </View>
       )}
 
-      {/* Category filter indicator - Show when coming from explore */}
-      {categoryFilter && (
+      {/* Category filter indicator - Hidden by default */}
+      {false && categoryFilter && (
         <View
           style={[
             styles.categoryFilterBanner,
@@ -290,7 +290,7 @@ export function HomeScreen() {
             <Text
               style={[styles.categoryFilterText, { color: theme.colors.text }]}
             >
-              {home.category_filter.replace("{category}", categoryFilter)}
+              {home.category_filter.replace("{category}", categoryFilter || "")}
             </Text>
             <Text
               style={[
@@ -305,11 +305,12 @@ export function HomeScreen() {
         </View>
       )}
 
-      {/* Personalization indicator - Show for premium users when not filtering */}
-      {!categoryFilter &&
+      {/* Personalization indicator - Hidden by default */}
+      {false &&
+        !categoryFilter &&
         isPremium &&
         userPreferences?.selectedCategories &&
-        userPreferences.selectedCategories.length > 0 && (
+        (userPreferences?.selectedCategories?.length || 0) > 0 && (
           <View
             style={[
               styles.personalizationBanner,
@@ -331,9 +332,11 @@ export function HomeScreen() {
                   { color: theme.colors.textSecondary },
                 ]}
               >
-                {userPreferences.selectedCategories.slice(0, 3).join(", ")}
-                {userPreferences.selectedCategories.length > 3
-                  ? ` +${userPreferences.selectedCategories.length - 3}`
+                {userPreferences?.selectedCategories?.slice(0, 3).join(", ")}
+                {(userPreferences?.selectedCategories?.length || 0) > 3
+                  ? ` +${
+                      (userPreferences?.selectedCategories?.length || 0) - 3
+                    }`
                   : ""}
               </Text>
             </View>
@@ -456,6 +459,7 @@ const createStyles = (theme: any) =>
       shadowOpacity: 0.1,
       shadowRadius: 4,
       elevation: 3,
+      zIndex: 1000,
     },
     categoryFilterContent: {
       flexDirection: "row",
