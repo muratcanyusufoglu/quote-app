@@ -91,6 +91,16 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="themes"
+        options={{
+          title: "Themes", // Can be translated later
+          headerShown: false,
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="palette" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }

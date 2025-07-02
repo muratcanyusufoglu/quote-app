@@ -23,6 +23,10 @@ export function NavigationBar({ style }: NavigationBarProps) {
     router.push("/(tabs)/history");
   };
 
+  const navigateToThemes = () => {
+    router.push("/(tabs)/themes");
+  };
+
   return (
     <View style={[styles.navigationContainer, style]}>
       <TouchableOpacity
@@ -75,7 +79,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           styles.navButton,
           { backgroundColor: theme.colors.whiteOverlay10 },
         ]}
-        onPress={() => router.push("/themes")}
+        onPress={navigateToThemes}
         activeOpacity={0.7}
       >
         <IconSymbol name="palette" size={20} color={theme.colors.brandYellow} />

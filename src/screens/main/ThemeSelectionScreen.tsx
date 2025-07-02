@@ -1,3 +1,4 @@
+import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
 import {
   ScrollView,
@@ -8,7 +9,7 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { NavigationHeader } from "../../components/layout/NavigationHeader";
+import { NavigationBar } from "../../components/layout/NavigationBar";
 import {
   useCommonTranslations,
   useScreenTranslations,
@@ -50,272 +51,269 @@ export function ThemeSelectionScreen() {
 
   const styles = createStyles(theme);
 
-  return (
-    <BaseScreen>
-      <NavigationHeader
-        title={themeTranslations.title}
-        currentRoute="/themes"
-        showBackButton={true}
-      />
+  // Helper function to create smooth gradients for each theme
+  const getSmoothGradientColors = (
+    themeKey: ThemeOption,
+    previewTheme: any
+  ): string[] => {
+    const baseColors = {
+      default: ["#1a1a1a", "#2a2520", "#3d3420", "#f4d03f", "#f7dc6f"],
+      ocean: ["#0f172a", "#1e293b", "#0369a1", "#0ea5e9", "#38bdf8"],
+      forest: ["#0f172a", "#1e3a2e", "#15803d", "#22c55e", "#4ade80"],
+      sunset: ["#1a1a1a", "#3d2917", "#c2410c", "#f97316", "#fb923c"],
+      purple: ["#0f0a1a", "#2d1b47", "#7c3aed", "#a855f7", "#c084fc"],
+      minimalist: ["#0f172a", "#1e293b", "#475569", "#64748b", "#94a3b8"],
+    };
 
-      <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-        {/* Color Scheme Section */}
-        <View style={styles.section}>
-          <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>
-            {themeTranslations.brightness}
+    return baseColors[themeKey] || baseColors.default;
+  };
+
+  return (
+    <BaseScreen style={styles.container} useGradientBackground={true}>
+      <View style={styles.content}>
+        {/* Navigation Bar */}
+        <NavigationBar />
+
+        {/* Header */}
+        <View style={styles.headerContainer}>
+          <Text style={[styles.title, { color: theme.colors.white }]}>
+            {themeTranslations.title}
           </Text>
           <Text
-            style={[
-              styles.sectionDescription,
-              { color: theme.colors.textSecondary },
-            ]}
+            style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
           >
-            {themeTranslations.brightness_description}
+            {themeTranslations.subtitle || "Uygulamanızı kişiselleştirin"}
           </Text>
-
-          <View style={styles.optionsGrid}>
-            {[
-              {
-                key: "light" as ColorScheme,
-                icon: "sunrise" as const,
-                label: themeTranslations.light,
-              },
-              {
-                key: "dark" as ColorScheme,
-                icon: "moon" as const,
-                label: themeTranslations.dark,
-              },
-              {
-                key: "system" as ColorScheme,
-                icon: "home" as const,
-                label: themeTranslations.system,
-              },
-            ].map((option) => (
-              <TouchableOpacity
-                key={option.key}
-                style={[
-                  styles.colorSchemeOption,
-                  {
-                    backgroundColor: theme.colors.surface,
-                    borderColor:
-                      colorScheme === option.key
-                        ? theme.colors.primary
-                        : theme.colors.border,
-                    borderWidth: colorScheme === option.key ? 2 : 1,
-                  },
-                ]}
-                onPress={() => handleColorSchemeSelect(option.key)}
-                activeOpacity={0.7}
-              >
-                <IconSymbol
-                  name={option.icon}
-                  size={24}
-                  color={
-                    colorScheme === option.key
-                      ? theme.colors.primary
-                      : theme.colors.textSecondary
-                  }
-                />
-                <Text
-                  style={[
-                    styles.colorSchemeLabel,
-                    {
-                      color:
-                        colorScheme === option.key
-                          ? theme.colors.primary
-                          : theme.colors.text,
-                      fontWeight: colorScheme === option.key ? "600" : "500",
-                    },
-                  ]}
-                >
-                  {option.label}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </View>
         </View>
 
-        {/* Theme Selection Section */}
-        <View style={styles.section}>
-          <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>
-            {themeTranslations.color_themes}
-          </Text>
-          <Text
-            style={[
-              styles.sectionDescription,
-              { color: theme.colors.textSecondary },
-            ]}
-          >
-            {themeTranslations.color_themes_description}
-          </Text>
+        <ScrollView
+          style={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Color Scheme Section */}
+          <View style={styles.section}>
+            <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
+              {themeTranslations.brightness}
+            </Text>
+            <Text
+              style={[
+                styles.sectionDescription,
+                { color: "rgba(255, 255, 255, 0.7)" },
+              ]}
+            >
+              {themeTranslations.brightness_description}
+            </Text>
 
-          <View style={styles.themesGrid}>
-            {(Object.keys(themeMetadata) as ThemeOption[]).map((themeKey) => {
-              const metadata = themeMetadata[themeKey];
-              const isSelected = selectedTheme === themeKey;
-
-              // Get preview theme for this option
-              const previewTheme = getThemeByOption(themeKey, isDark);
-
-              // Map theme icons to available icons
-              const getValidIcon = (iconName: string) => {
-                const iconMap: Record<string, any> = {
-                  sun: "sunrise",
-                  waves: "heart",
-                  "tree-pine": "tree-pine",
-                  sunset: "sunrise",
-                  crown: "crown",
-                  square: "menu",
-                };
-                return iconMap[iconName] || "heart";
-              };
-
-              // Use dark text for excellent readability on light theme backgrounds
-              const cardBackgroundColor = previewTheme.colors.brandYellow;
-              const textColor = "#1a1a1a"; // Dark text for all themes
-
-              return (
+            <View style={styles.optionsGrid}>
+              {[
+                {
+                  key: "light" as ColorScheme,
+                  icon: "sunrise" as const,
+                  label: themeTranslations.light,
+                },
+                {
+                  key: "dark" as ColorScheme,
+                  icon: "moon" as const,
+                  label: themeTranslations.dark,
+                },
+                {
+                  key: "system" as ColorScheme,
+                  icon: "home" as const,
+                  label: themeTranslations.system,
+                },
+              ].map((option) => (
                 <TouchableOpacity
-                  key={themeKey}
+                  key={option.key}
                   style={[
-                    styles.themeOption,
+                    styles.colorSchemeOption,
                     {
-                      backgroundColor: cardBackgroundColor,
-                      borderColor: isSelected ? "#1a1a1a" : "transparent",
-                      borderWidth: isSelected ? 3 : 0,
-                      shadowColor: theme.colors.shadowColor,
-                      shadowOffset: { width: 0, height: 4 },
-                      shadowOpacity: 0.2,
-                      shadowRadius: 8,
-                      elevation: 8,
+                      backgroundColor: theme.colors.whiteOverlay10,
+                      borderColor:
+                        colorScheme === option.key
+                          ? theme.colors.brandYellow
+                          : theme.colors.whiteOverlay20,
+                      borderWidth: colorScheme === option.key ? 2 : 1,
                     },
                   ]}
-                  onPress={() => handleThemeSelect(themeKey)}
-                  activeOpacity={0.8}
+                  onPress={() => handleColorSchemeSelect(option.key)}
+                  activeOpacity={0.7}
                 >
-                  {/* Theme Preview Color */}
-                  <View
+                  <IconSymbol
+                    name={option.icon}
+                    size={24}
+                    color={
+                      colorScheme === option.key
+                        ? theme.colors.brandYellow
+                        : theme.colors.white
+                    }
+                  />
+                  <Text
                     style={[
-                      styles.themePreview,
+                      styles.colorSchemeLabel,
                       {
-                        backgroundColor: previewTheme.colors.primary,
+                        color:
+                          colorScheme === option.key
+                            ? theme.colors.brandYellow
+                            : theme.colors.white,
+                        fontWeight: colorScheme === option.key ? "600" : "500",
                       },
                     ]}
                   >
-                    <IconSymbol
-                      name={getValidIcon(metadata.icon)}
-                      size={20}
-                      color="white"
-                    />
-                  </View>
-
-                  {/* Theme Info */}
-                  <View style={styles.themeInfo}>
-                    <Text
-                      style={[
-                        styles.themeName,
-                        {
-                          color: textColor,
-                          fontWeight: isSelected ? "700" : "600",
-                        },
-                      ]}
-                    >
-                      {metadata.name.tr}
-                    </Text>
-                    <Text
-                      style={[
-                        styles.themeDescription,
-                        {
-                          color: "rgba(26, 26, 26, 0.8)", // Dark text with opacity for secondary text
-                        },
-                      ]}
-                    >
-                      {metadata.description.tr}
-                    </Text>
-                  </View>
-
-                  {/* Selection Indicator */}
-                  {isSelected && (
-                    <View
-                      style={[
-                        styles.selectionIndicator,
-                        { backgroundColor: "rgba(26, 26, 26, 0.1)" },
-                      ]}
-                    >
-                      <IconSymbol name="heart" size={16} color="#1a1a1a" />
-                    </View>
-                  )}
+                    {option.label}
+                  </Text>
                 </TouchableOpacity>
-              );
-            })}
-          </View>
-        </View>
-
-        {/* Preview Section */}
-        <View style={styles.section}>
-          <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>
-            {themeTranslations.preview}
-          </Text>
-          <View
-            style={[
-              styles.previewCard,
-              { backgroundColor: theme.colors.surface },
-            ]}
-          >
-            <View
-              style={[
-                styles.previewGradient,
-                {
-                  backgroundColor: theme.colors.primary,
-                  opacity: 0.1,
-                },
-              ]}
-            />
-            <Text style={[styles.previewText, { color: theme.colors.text }]}>
-              {themeTranslations.sample_text}
-            </Text>
-            <View style={styles.previewButtons}>
-              <TouchableOpacity
-                style={[
-                  styles.previewButton,
-                  { backgroundColor: theme.colors.primary },
-                ]}
-              >
-                <Text
-                  style={[
-                    styles.previewButtonText,
-                    { color: theme.colors.white },
-                  ]}
-                >
-                  {common.primary || "Birincil"}
-                </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[
-                  styles.previewButton,
-                  {
-                    backgroundColor: "transparent",
-                    borderWidth: 1,
-                    borderColor: theme.colors.primary,
-                  },
-                ]}
-              >
-                <Text
-                  style={[
-                    styles.previewButtonText,
-                    { color: theme.colors.primary },
-                  ]}
-                >
-                  {common.secondary || "İkincil"}
-                </Text>
-              </TouchableOpacity>
+              ))}
             </View>
           </View>
-        </View>
 
-        {/* Bottom spacing */}
-        <View style={{ height: 40 }} />
-      </ScrollView>
+          {/* Theme Selection Section */}
+          <View style={styles.section}>
+            <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
+              {themeTranslations.color_themes}
+            </Text>
+            <Text
+              style={[
+                styles.sectionDescription,
+                { color: "rgba(255, 255, 255, 0.7)" },
+              ]}
+            >
+              {themeTranslations.color_themes_description}
+            </Text>
+
+            <View style={styles.themesGrid}>
+              {(Object.keys(themeMetadata) as ThemeOption[]).map((themeKey) => {
+                const metadata = themeMetadata[themeKey];
+                const isSelected = selectedTheme === themeKey;
+
+                // Get preview theme for this option
+                const previewTheme = getThemeByOption(themeKey, isDark);
+
+                // Map theme icons to available icons
+                const getValidIcon = (iconName: string) => {
+                  const iconMap: Record<string, any> = {
+                    sun: "sunrise",
+                    waves: "heart",
+                    "tree-pine": "tree-pine",
+                    sunset: "sunrise",
+                    crown: "crown",
+                    square: "menu",
+                  };
+                  return iconMap[iconName] || "heart";
+                };
+
+                return (
+                  <TouchableOpacity
+                    key={themeKey}
+                    style={[
+                      styles.themeOption,
+                      {
+                        borderColor: isSelected
+                          ? theme.colors.brandYellow
+                          : "transparent",
+                        borderWidth: isSelected ? 3 : 0,
+                        shadowColor: theme.colors.shadowColor,
+                        shadowOffset: { width: 0, height: 4 },
+                        shadowOpacity: 0.3,
+                        shadowRadius: 8,
+                        elevation: 8,
+                      },
+                    ]}
+                    onPress={() => handleThemeSelect(themeKey)}
+                    activeOpacity={0.8}
+                  >
+                    {/* Theme Gradient Background */}
+                    <LinearGradient
+                      colors={
+                        getSmoothGradientColors(themeKey, previewTheme) as any
+                      }
+                      locations={[0, 0.2, 0.5, 0.8, 1] as any}
+                      start={{ x: 0, y: 0 }}
+                      end={{ x: 1, y: 1 }}
+                      style={styles.themeGradientBackground}
+                    >
+                      {/* Theme Preview Color Circle */}
+                      <View
+                        style={[
+                          styles.themePreview,
+                          {
+                            backgroundColor: previewTheme.colors.primary,
+                          },
+                        ]}
+                      >
+                        <IconSymbol
+                          name={getValidIcon(metadata.icon)}
+                          size={20}
+                          color="white"
+                        />
+                      </View>
+
+                      {/* Theme Info */}
+                      <View style={styles.themeInfo}>
+                        <Text
+                          style={[
+                            styles.themeName,
+                            {
+                              color: "white",
+                              fontWeight: isSelected ? "700" : "600",
+                              textShadowColor: "rgba(0, 0, 0, 0.5)",
+                              textShadowOffset: { width: 0, height: 1 },
+                              textShadowRadius: 3,
+                            },
+                          ]}
+                        >
+                          {metadata.name.tr}
+                        </Text>
+                        <Text
+                          style={[
+                            styles.themeDescription,
+                            {
+                              color: "rgba(255, 255, 255, 0.95)",
+                              textShadowColor: "rgba(0, 0, 0, 0.3)",
+                              textShadowOffset: { width: 0, height: 1 },
+                              textShadowRadius: 2,
+                            },
+                          ]}
+                        >
+                          {metadata.description.tr}
+                        </Text>
+                      </View>
+
+                      {/* Selection Indicator */}
+                      {isSelected && (
+                        <View
+                          style={[
+                            styles.selectionIndicator,
+                            { backgroundColor: theme.colors.brandYellow },
+                          ]}
+                        >
+                          <IconSymbol name="heart" size={16} color="#1a1a1a" />
+                        </View>
+                      )}
+
+                      {/* Subtle Overlay for Better Text Readability */}
+                      <LinearGradient
+                        colors={[
+                          "transparent",
+                          "rgba(0, 0, 0, 0.05)",
+                          "rgba(0, 0, 0, 0.15)",
+                        ]}
+                        locations={[0, 0.7, 1]}
+                        style={styles.themeTextOverlay}
+                        pointerEvents="none"
+                      />
+                    </LinearGradient>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
+          </View>
+
+          {/* Preview Section */}
+
+          {/* Bottom spacing */}
+          <View style={{ height: 40 }} />
+        </ScrollView>
+      </View>
     </BaseScreen>
   );
 }
@@ -323,8 +321,27 @@ export function ThemeSelectionScreen() {
 const createStyles = (theme: any) =>
   StyleSheet.create({
     container: {
+      paddingHorizontal: 0,
+    },
+    content: {
       flex: 1,
       paddingHorizontal: 16,
+    },
+    headerContainer: {
+      marginTop: 20,
+      marginBottom: 24,
+    },
+    title: {
+      fontSize: 28,
+      fontWeight: "700",
+      marginBottom: 8,
+    },
+    subtitle: {
+      fontSize: 16,
+      lineHeight: 22,
+    },
+    scrollContent: {
+      flex: 1,
     },
     section: {
       marginBottom: 32,
@@ -363,12 +380,25 @@ const createStyles = (theme: any) =>
       gap: 16,
     },
     themeOption: {
+      borderRadius: 20,
+      minHeight: 80,
+      overflow: "hidden",
+    },
+    themeGradientBackground: {
+      flex: 1,
       flexDirection: "row",
       alignItems: "center",
       padding: 20,
-      borderRadius: 20,
       gap: 16,
       minHeight: 80,
+      position: "relative",
+    },
+    themeTextOverlay: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
     },
     themePreview: {
       width: 48,
@@ -376,14 +406,16 @@ const createStyles = (theme: any) =>
       borderRadius: 24,
       justifyContent: "center",
       alignItems: "center",
-      shadowColor: "rgba(0, 0, 0, 0.3)",
+      shadowColor: "rgba(0, 0, 0, 0.4)",
       shadowOffset: { width: 0, height: 2 },
       shadowOpacity: 0.8,
       shadowRadius: 4,
-      elevation: 4,
+      elevation: 6,
+      zIndex: 2,
     },
     themeInfo: {
       flex: 1,
+      zIndex: 2,
     },
     themeName: {
       fontSize: 18,
@@ -399,6 +431,7 @@ const createStyles = (theme: any) =>
       borderRadius: 16,
       justifyContent: "center",
       alignItems: "center",
+      zIndex: 3,
     },
 
     // Preview Section
