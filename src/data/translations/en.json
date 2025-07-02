@@ -14,7 +14,9 @@
     "maybe_later": "Maybe Later",
     "premium_status": "Premium",
     "free_status": "Free",
-    "reset_onboarding": "Reset Onboarding"
+    "reset_onboarding": "Reset Onboarding",
+    "primary": "Primary",
+    "secondary": "Secondary"
   },
   "navigation": {
     "home": "Home",
@@ -237,5 +239,34 @@
     "required": "Premium Required",
     "required_message": "This feature requires premium membership",
     "upgrade": "Upgrade to Premium"
+  },
+  "themes": {
+    "title": "Themes",
+    "brightness": "Brightness",
+    "brightness_description": "Choose light, dark, or system setting",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "color_themes": "Color Themes",
+    "color_themes_description": "Choose your preferred color palette",
+    "preview": "Preview",
+    "sample_text": "This is how text will look with your selected theme.",
+    "apply": "Apply",
+    "theme_names": {
+      "default": "Golden",
+      "ocean": "Ocean",
+      "forest": "Forest",
+      "sunset": "Sunset",
+      "purple": "Purple",
+      "minimalist": "Minimalist"
+    },
+    "theme_descriptions": {
+      "default": "Warm and inspiring golden theme",
+      "ocean": "Calming blues and teals",
+      "forest": "Natural greens and earth tones",
+      "sunset": "Warm oranges and reds",
+      "purple": "Royal purples and lavender",
+      "minimalist": "Clean grays and sophisticated tones"
+    }
   }
 } 

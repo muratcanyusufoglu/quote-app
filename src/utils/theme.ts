@@ -178,7 +178,7 @@ export const lightTheme: Theme = {
     backdrop: "rgba(0, 0, 0, 0.3)",
 
     // App-wide gradient and brand colors
-    brandYellow: colorPalette.golden500,
+    brandYellow: colorPalette.golden200,
     gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
     gradientLocations: [0, 0.3, 0.7, 1],
     radialOverlayColors: [
@@ -311,7 +311,7 @@ export const darkTheme: Theme = {
     backdrop: "rgba(0, 0, 0, 0.5)",
 
     // App-wide gradient and brand colors
-    brandYellow: colorPalette.golden500,
+    brandYellow: colorPalette.golden300, // Orta açık sarı - dark tema için uygun
     gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
     gradientLocations: [0, 0.3, 0.7, 1],
     radialOverlayColors: [
@@ -578,7 +578,492 @@ export const getCategoryIcon = (categoryId: string): string | null => {
 // Export current theme (this can be dynamic based on user preference)
 export const currentTheme = darkTheme;
 
-// Theme switching utility
+// ==============================
+// NEW THEME PALETTES
+// ==============================
+
+// Ocean Theme - Calming blues and teals - Updated for better contrast
+const oceanPalette = {
+  // Ocean blues
+  ocean50: "#f0f9ff",
+  ocean100: "#e0f2fe",
+  ocean200: "#bae6fd",
+  ocean300: "#7dd3fc",
+  ocean400: "#38bdf8",
+  ocean500: "#0ea5e9", // Primary ocean blue
+  ocean600: "#0284c7",
+  ocean700: "#0369a1",
+  ocean800: "#075985",
+  ocean900: "#0c4a6e",
+
+  // Light ocean for brand color
+  oceanLight100: "#f0f9ff", // Çok açık mavi - siyah yazı için mükemmel
+  oceanLight200: "#e0f2fe", // Açık mavi
+  oceanLight300: "#bae6fd", // Orta açık mavi
+
+  // Deep ocean/teal
+  teal50: "#f0fdfa",
+  teal100: "#ccfbf1",
+  teal200: "#99f6e4",
+  teal300: "#5eead4",
+  teal400: "#2dd4bf",
+  teal500: "#14b8a6", // Secondary teal
+  teal600: "#0d9488",
+  teal700: "#0f766e",
+  teal800: "#115e59",
+  teal900: "#134e4a",
+
+  // Light teal for brand color
+  tealLight100: "#f0fdfa", // Çok açık teal
+  tealLight200: "#ccfbf1", // Açık teal
+};
+
+// Forest Theme - Natural greens - Updated for better contrast
+const forestPalette = {
+  // Fresh greens
+  forest50: "#f0fdf4",
+  forest100: "#dcfce7",
+  forest200: "#bbf7d0",
+  forest300: "#86efac",
+  forest400: "#4ade80",
+  forest500: "#22c55e", // Primary forest green
+  forest600: "#16a34a",
+  forest700: "#15803d",
+  forest800: "#166534",
+  forest900: "#14532d",
+
+  // Light forest for brand color
+  forestLight100: "#f0fdf4", // Çok açık yeşil - siyah yazı için mükemmel
+  forestLight200: "#dcfce7", // Açık yeşil
+  forestLight300: "#bbf7d0", // Orta açık yeşil
+
+  // Deep forest
+  pine50: "#f7fee7",
+  pine100: "#ecfccb",
+  pine200: "#d9f99d",
+  pine300: "#bef264",
+  pine400: "#a3e635",
+  pine500: "#84cc16", // Secondary pine
+  pine600: "#65a30d",
+  pine700: "#4d7c0f",
+  pine800: "#3f6212",
+  pine900: "#365314",
+
+  // Light pine for brand color
+  pineLight100: "#f7fee7", // Çok açık lime
+  pineLight200: "#ecfccb", // Açık lime
+};
+
+// Sunset Theme - Warm oranges and reds - Updated for better contrast
+const sunsetPalette = {
+  // Sunset oranges
+  sunset50: "#fff7ed",
+  sunset100: "#ffedd5",
+  sunset200: "#fed7aa",
+  sunset300: "#fdba74",
+  sunset400: "#fb923c",
+  sunset500: "#f97316", // Primary sunset orange
+  sunset600: "#ea580c",
+  sunset700: "#c2410c",
+  sunset800: "#9a3412",
+  sunset900: "#7c2d12",
+
+  // Light sunset for brand color
+  sunsetLight100: "#fff7ed", // Çok açık turuncu - siyah yazı için mükemmel
+  sunsetLight200: "#ffedd5", // Açık turuncu
+  sunsetLight300: "#fed7aa", // Orta açık turuncu
+
+  // Deep sunset reds
+  coral50: "#fef2f2",
+  coral100: "#fee2e2",
+  coral200: "#fecaca",
+  coral300: "#fca5a5",
+  coral400: "#f87171",
+  coral500: "#ef4444", // Secondary coral red
+  coral600: "#dc2626",
+  coral700: "#b91c1c",
+  coral800: "#991b1b",
+  coral900: "#7f1d1d",
+
+  // Light coral for brand color
+  coralLight100: "#fef2f2", // Çok açık koral
+  coralLight200: "#fee2e2", // Açık koral
+};
+
+// Purple Theme - Royal purples and lavender - Updated for better contrast
+const purplePalette = {
+  // Royal purples
+  royal50: "#faf5ff",
+  royal100: "#f3e8ff",
+  royal200: "#e9d5ff",
+  royal300: "#d8b4fe",
+  royal400: "#c084fc",
+  royal500: "#a855f7", // Primary royal purple
+  royal600: "#9333ea",
+  royal700: "#7c3aed",
+  royal800: "#6b21a8",
+  royal900: "#581c87",
+
+  // Light royal for brand color
+  royalLight100: "#faf5ff", // Çok açık mor - siyah yazı için mükemmel
+  royalLight200: "#f3e8ff", // Açık mor
+  royalLight300: "#e9d5ff", // Orta açık mor
+
+  // Soft lavender
+  lavender50: "#f5f3ff",
+  lavender100: "#ede9fe",
+  lavender200: "#ddd6fe",
+  lavender300: "#c4b5fd",
+  lavender400: "#a78bfa",
+  lavender500: "#8b5cf6", // Secondary lavender
+  lavender600: "#7c3aed",
+  lavender700: "#6d28d9",
+  lavender800: "#5b21b6",
+  lavender900: "#4c1d95",
+
+  // Light lavender for brand color
+  lavenderLight100: "#f5f3ff", // Çok açık lavanta
+  lavenderLight200: "#ede9fe", // Açık lavanta
+};
+
+// Minimalist Theme - Sophisticated grays - Updated for better contrast
+const minimalistPalette = {
+  // Warm grays
+  slate50: "#f8fafc",
+  slate100: "#f1f5f9",
+  slate200: "#e2e8f0",
+  slate300: "#cbd5e1",
+  slate400: "#94a3b8",
+  slate500: "#64748b", // Primary slate
+  slate600: "#475569",
+  slate700: "#334155",
+  slate800: "#1e293b",
+  slate900: "#0f172a",
+
+  // Light slate for brand color
+  slateLight100: "#f8fafc", // Çok açık gri - siyah yazı için mükemmel
+  slateLight200: "#f1f5f9", // Açık gri
+  slateLight300: "#e2e8f0", // Orta açık gri
+
+  // Pure grays
+  stone50: "#fafaf9",
+  stone100: "#f5f5f4",
+  stone200: "#e7e5e4",
+  stone300: "#d6d3d1",
+  stone400: "#a8a29e",
+  stone500: "#78716c", // Secondary stone
+  stone600: "#57534e",
+  stone700: "#44403c",
+  stone800: "#292524",
+  stone900: "#1c1917",
+
+  // Light stone for brand color
+  stoneLight100: "#fafaf9", // Çok açık stone
+  stoneLight200: "#f5f5f4", // Açık stone
+};
+
+// Create themed variations
+const createThemedColors = (
+  primaryColor: string,
+  secondaryColor: string,
+  brandColor: string,
+  gradientColors: string[]
+) => ({
+  // Core colors
+  primary: primaryColor,
+  primaryLight: lightenColor(primaryColor, 0.2),
+  primaryDark: darkenColor(primaryColor, 0.2),
+  secondary: secondaryColor,
+  secondaryLight: lightenColor(secondaryColor, 0.2),
+  secondaryDark: darkenColor(secondaryColor, 0.2),
+
+  // App-wide gradient and brand colors
+  brandYellow: brandColor,
+  gradientColors: gradientColors,
+  gradientLocations: [0, 0.3, 0.7, 1],
+  radialOverlayColors: [
+    "transparent",
+    `${hexToRgba(brandColor, 0.2)}`,
+    "transparent",
+  ],
+});
+
+// Helper functions
+function lightenColor(color: string, amount: number): string {
+  // Simple implementation - you might want to use a color library for production
+  return color;
+}
+
+function darkenColor(color: string, amount: number): string {
+  // Simple implementation - you might want to use a color library for production
+  return color;
+}
+
+function hexToRgba(hex: string, opacity: number): string {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+}
+
+// Ocean Themes
+export const oceanLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      oceanPalette.ocean500,
+      oceanPalette.teal500,
+      oceanPalette.oceanLight100,
+      ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal400]
+    ),
+    brandYellow: oceanPalette.oceanLight100,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal400],
+  },
+};
+
+export const oceanDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      oceanPalette.ocean400,
+      oceanPalette.teal400,
+      oceanPalette.oceanLight200,
+      ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal500]
+    ),
+    brandYellow: oceanPalette.oceanLight200,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal500],
+  },
+};
+
+// Forest Themes
+export const forestLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      forestPalette.forest500,
+      forestPalette.pine500,
+      forestPalette.forestLight100,
+      ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine400]
+    ),
+    brandYellow: forestPalette.forestLight100,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine400],
+  },
+};
+
+export const forestDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      forestPalette.forest400,
+      forestPalette.pine400,
+      forestPalette.forestLight200,
+      ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine500]
+    ),
+    brandYellow: forestPalette.forestLight200,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine500],
+  },
+};
+
+// Sunset Themes
+export const sunsetLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      sunsetPalette.sunset500,
+      sunsetPalette.coral500,
+      sunsetPalette.sunsetLight100,
+      ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral400]
+    ),
+    brandYellow: sunsetPalette.sunsetLight100,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral400],
+  },
+};
+
+export const sunsetDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      sunsetPalette.sunset400,
+      sunsetPalette.coral400,
+      sunsetPalette.sunsetLight200,
+      ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral500]
+    ),
+    brandYellow: sunsetPalette.sunsetLight200,
+    gradientColors: ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral500],
+  },
+};
+
+// Purple Themes
+export const purpleLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      purplePalette.royal500,
+      purplePalette.lavender500,
+      purplePalette.royalLight100,
+      ["#1a1a1a", "#2d2d2d", "#a855f7", purplePalette.lavender400]
+    ),
+    brandYellow: purplePalette.royalLight100,
+    gradientColors: [
+      "#1a1a1a",
+      "#2d2d2d",
+      "#a855f7",
+      purplePalette.lavender400,
+    ],
+  },
+};
+
+export const purpleDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      purplePalette.royal400,
+      purplePalette.lavender400,
+      purplePalette.royalLight200,
+      ["#1a1a1a", "#2d2d2d", "#a855f7", purplePalette.lavender500]
+    ),
+    brandYellow: purplePalette.royalLight200,
+    gradientColors: [
+      "#1a1a1a",
+      "#2d2d2d",
+      "#a855f7",
+      purplePalette.lavender500,
+    ],
+  },
+};
+
+// Minimalist Themes
+export const minimalistLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      minimalistPalette.slate500,
+      minimalistPalette.stone500,
+      minimalistPalette.slateLight100,
+      ["#1a1a1a", "#2d2d2d", "#64748b", minimalistPalette.stone400]
+    ),
+    brandYellow: minimalistPalette.slateLight100,
+    gradientColors: [
+      "#1a1a1a",
+      "#2d2d2d",
+      "#64748b",
+      minimalistPalette.stone400,
+    ],
+  },
+};
+
+export const minimalistDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      minimalistPalette.slate400,
+      minimalistPalette.stone400,
+      minimalistPalette.slateLight200,
+      ["#1a1a1a", "#2d2d2d", "#64748b", minimalistPalette.stone500]
+    ),
+    brandYellow: minimalistPalette.slateLight200,
+    gradientColors: [
+      "#1a1a1a",
+      "#2d2d2d",
+      "#64748b",
+      minimalistPalette.stone500,
+    ],
+  },
+};
+
+// Theme switching utility - Updated to support all themes
 export const getTheme = (isDark: boolean = true): Theme => {
   return isDark ? darkTheme : lightTheme;
 };
+
+// New theme getter with theme option support
+import { ThemeOption } from "../store/useThemeStore";
+
+export const getThemeByOption = (
+  themeOption: ThemeOption,
+  isDark: boolean = true
+): Theme => {
+  switch (themeOption) {
+    case "ocean":
+      return isDark ? oceanDarkTheme : oceanLightTheme;
+    case "forest":
+      return isDark ? forestDarkTheme : forestLightTheme;
+    case "sunset":
+      return isDark ? sunsetDarkTheme : sunsetLightTheme;
+    case "purple":
+      return isDark ? purpleDarkTheme : purpleLightTheme;
+    case "minimalist":
+      return isDark ? minimalistDarkTheme : minimalistLightTheme;
+    case "default":
+    default:
+      return isDark ? darkTheme : lightTheme;
+  }
+};
+
+// Theme metadata for UI
+export const themeMetadata = {
+  default: {
+    name: { en: "Golden", tr: "Altın" },
+    description: {
+      en: "Warm and inspiring golden theme",
+      tr: "Sıcak ve ilham verici altın tema",
+    },
+    icon: "sun",
+    preview: colorPalette.golden500,
+  },
+  ocean: {
+    name: { en: "Ocean", tr: "Okyanus" },
+    description: {
+      en: "Calming blues and teals",
+      tr: "Sakinleştirici mavi ve turkuaz",
+    },
+    icon: "waves",
+    preview: oceanPalette.ocean500,
+  },
+  forest: {
+    name: { en: "Forest", tr: "Orman" },
+    description: {
+      en: "Natural greens and earth tones",
+      tr: "Doğal yeşil ve toprak tonları",
+    },
+    icon: "tree-pine",
+    preview: forestPalette.forest500,
+  },
+  sunset: {
+    name: { en: "Sunset", tr: "Gün Batımı" },
+    description: {
+      en: "Warm oranges and reds",
+      tr: "Sıcak turuncu ve kırmızı",
+    },
+    icon: "sunset",
+    preview: sunsetPalette.sunset500,
+  },
+  purple: {
+    name: { en: "Purple", tr: "Mor" },
+    description: {
+      en: "Royal purples and lavender",
+      tr: "Kraliyet moru ve lavanta",
+    },
+    icon: "crown",
+    preview: purplePalette.royal500,
+  },
+  minimalist: {
+    name: { en: "Minimalist", tr: "Minimalist" },
+    description: {
+      en: "Clean grays and sophisticated tones",
+      tr: "Temiz gri ve sofistike tonlar",
+    },
+    icon: "square",
+    preview: minimalistPalette.slate500,
+  },
+} as const;

@@ -93,8 +93,15 @@ export function ExploreScreen() {
       category.id.toLowerCase() === "general" ||
       category.id.toLowerCase() === "genel";
     const canAccess = isPremium || isGeneralCategory;
-    // Tek renk kullan - kategori rengine göre değişmesin
+
+    // Kategori kartı için renk ayarları
     const categoryColor = theme.colors.brandYellow;
+
+    // Arka plan rengi açık olduğu için koyu text kullan
+    const textColor = "#2c3e50"; // Koyu mavi-gri, çok iyi contrast
+    const iconColor = "#34495e"; // Biraz daha açık koyu gri
+    const descriptionColor = "rgba(44, 62, 80, 0.8)"; // Şeffaflıklı koyu renk
+
     const categoryIconName = getCategoryIcon(category.id);
 
     // ENHANCED DEBUG: Let's see everything
@@ -129,16 +136,28 @@ export function ExploreScreen() {
               <IconSymbol
                 name={categoryIconName as any}
                 size={28}
-                color={theme.colors.white}
+                color={iconColor}
                 strokeWidth={2}
               />
             ) : (
-              <Text style={styles.categoryEmoji}>{category.icon || "💭"}</Text>
+              <Text style={[styles.categoryEmoji, { color: iconColor }]}>
+                {category.icon || "💭"}
+              </Text>
             )}
           </View>
 
           {/* Category Name */}
-          <Text style={[styles.categoryName, { color: theme.colors.white }]}>
+          <Text
+            style={[
+              styles.categoryName,
+              {
+                color: textColor,
+                textShadowColor: "rgba(255, 255, 255, 0.3)",
+                textShadowOffset: { width: 0, height: 1 },
+                textShadowRadius: 1,
+              },
+            ]}
+          >
             {category.name}
           </Text>
 
@@ -167,7 +186,12 @@ export function ExploreScreen() {
             <Text
               style={[
                 styles.categoryDescription,
-                { color: theme.colors.whiteOverlay90 },
+                {
+                  color: descriptionColor,
+                  textShadowColor: "rgba(255, 255, 255, 0.2)",
+                  textShadowOffset: { width: 0, height: 1 },
+                  textShadowRadius: 1,
+                },
               ]}
             >
               {category.description}
@@ -205,14 +229,30 @@ export function ExploreScreen() {
 
         {/* Header */}
         <View style={styles.headerContainer}>
-          <Text style={[styles.title, { color: theme.colors.white }]}>
-            {explore.categories}
-          </Text>
-          <Text
-            style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
-          >
-            {isPremium ? explore.subtitle_premium : explore.subtitle_free}
-          </Text>
+          <View style={styles.titleRow}>
+            <View style={styles.titleContainer}>
+              <Text style={[styles.title, { color: theme.colors.white }]}>
+                {explore.categories}
+              </Text>
+              <Text
+                style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
+              >
+                {isPremium ? explore.subtitle_premium : explore.subtitle_free}
+              </Text>
+            </View>
+
+            {/* Theme Settings Button */}
+            <TouchableOpacity
+              style={[
+                styles.themeButton,
+                { backgroundColor: theme.colors.whiteOverlay20 },
+              ]}
+              onPress={() => router.push("/themes")}
+              activeOpacity={0.7}
+            >
+              <IconSymbol name="palette" size={20} color={theme.colors.white} />
+            </TouchableOpacity>
+          </View>
         </View>
 
         {/* Categories Grid */}
@@ -254,6 +294,14 @@ const createStyles = (theme: any) =>
       marginTop: 20,
       marginBottom: 24,
     },
+    titleRow: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "flex-start",
+    },
+    titleContainer: {
+      flex: 1,
+    },
     title: {
       fontSize: 28,
       fontWeight: "700",
@@ -262,6 +310,14 @@ const createStyles = (theme: any) =>
     subtitle: {
       fontSize: 16,
       lineHeight: 22,
+    },
+    themeButton: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+      justifyContent: "center",
+      alignItems: "center",
+      marginLeft: 16,
     },
     categoriesContainer: {
       paddingBottom: 40,

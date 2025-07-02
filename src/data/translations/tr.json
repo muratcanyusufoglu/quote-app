@@ -14,7 +14,9 @@
     "maybe_later": "Belki Sonra",
     "premium_status": "Premium",
     "free_status": "Ücretsiz",
-    "reset_onboarding": "Onboarding'i Sıfırla"
+    "reset_onboarding": "Onboarding'i Sıfırla",
+    "primary": "Birincil",
+    "secondary": "İkincil"
   },
   "navigation": {
     "home": "Ana Sayfa",
@@ -237,5 +239,34 @@
     "required": "Premium Gerekli",
     "required_message": "Bu özellik premium üyelik gerektirir",
     "upgrade": "Premium'a Yükselt"
+  },
+  "themes": {
+    "title": "Temalar",
+    "brightness": "Parlaklık",
+    "brightness_description": "Açık, koyu veya sistem ayarını seçin",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "color_themes": "Renk Temaları",
+    "color_themes_description": "Tercih ettiğiniz renk paletini seçin",
+    "preview": "Önizleme",
+    "sample_text": "Seçtiğiniz tema ile metin bu şekilde görünecek.",
+    "apply": "Uygula",
+    "theme_names": {
+      "default": "Altın",
+      "ocean": "Okyanus",
+      "forest": "Orman",
+      "sunset": "Gün Batımı",
+      "purple": "Mor",
+      "minimalist": "Minimalist"
+    },
+    "theme_descriptions": {
+      "default": "Sıcak ve ilham verici altın tema",
+      "ocean": "Sakinleştirici mavi ve turkuaz tonları",
+      "forest": "Doğal yeşil ve toprak tonları",
+      "sunset": "Sıcak turuncu ve kırmızı tonları",
+      "purple": "Kraliyet moru ve lavanta tonları",
+      "minimalist": "Temiz gri ve sofistike tonlar"
+    }
   }
 } 

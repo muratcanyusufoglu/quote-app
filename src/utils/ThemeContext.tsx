@@ -7,13 +7,27 @@ import React, {
 } from "react";
 import { useColorScheme } from "react-native";
 import { Theme } from "../types";
-import { getTheme } from "./theme";
+import { getThemeByOption } from "./theme";
+
+// Define types locally to avoid circular dependencies
+type ThemeOption =
+  | "default"
+  | "ocean"
+  | "forest"
+  | "sunset"
+  | "purple"
+  | "minimalist";
+type ColorScheme = "light" | "dark" | "system";
 
 interface ThemeContextType {
   theme: Theme;
   isDark: boolean;
+  selectedTheme: ThemeOption;
+  colorScheme: ColorScheme;
   toggleTheme: () => void;
   setTheme: (isDark: boolean) => void;
+  setSelectedTheme: (theme: ThemeOption) => void;
+  setColorScheme: (scheme: ColorScheme) => void;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
@@ -29,43 +43,99 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 }) => {
   const systemColorScheme = useColorScheme();
 
-  // Determine initial theme
-  const getInitialTheme = (): boolean => {
-    switch (defaultTheme) {
-      case "light":
-        return false;
-      case "dark":
-        return true;
-      case "system":
-      default:
-        return systemColorScheme === "dark";
-    }
-  };
+  // Local state without store integration for now
+  const [selectedTheme, setSelectedThemeState] =
+    useState<ThemeOption>("default");
+  const [colorScheme, setColorSchemeState] = useState<ColorScheme>("system");
+  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "dark");
 
-  const [isDark, setIsDark] = useState<boolean>(getInitialTheme);
-
-  // Update theme when system preference changes (if using system theme)
+  // Update isDark when system preference or color scheme changes
   useEffect(() => {
-    if (defaultTheme === "system") {
+    if (colorScheme === "system") {
       setIsDark(systemColorScheme === "dark");
+    } else {
+      setIsDark(colorScheme === "dark");
     }
-  }, [systemColorScheme, defaultTheme]);
+  }, [systemColorScheme, colorScheme]);
 
-  const theme = getTheme(isDark);
+  // Load from store on mount (avoid render cycle issues)
+  useEffect(() => {
+    const loadFromStore = async () => {
+      try {
+        // Import dynamically to avoid circular dependency
+        const { useThemeStore } = await import("../store/useThemeStore");
+        const state = useThemeStore.getState();
+
+        if (state._hasHydrated) {
+          setSelectedThemeState(state.selectedTheme);
+          setColorSchemeState(state.colorScheme);
+        }
+      } catch (error) {
+        console.log("Could not load theme from store:", error);
+      }
+    };
+
+    loadFromStore();
+  }, []);
+
+  // Get the theme based on selected theme option and dark mode
+  const theme = getThemeByOption(selectedTheme, isDark);
 
   const toggleTheme = () => {
-    setIsDark((prev) => !prev);
+    const newScheme: ColorScheme = isDark ? "light" : "dark";
+    setColorSchemeState(newScheme);
+
+    // Save to store
+    import("../store/useThemeStore")
+      .then(({ useThemeStore }) => {
+        useThemeStore.getState().setColorScheme(newScheme);
+      })
+      .catch(() => {});
   };
 
   const setTheme = (dark: boolean) => {
-    setIsDark(dark);
+    const newScheme: ColorScheme = dark ? "dark" : "light";
+    setColorSchemeState(newScheme);
+
+    // Save to store
+    import("../store/useThemeStore")
+      .then(({ useThemeStore }) => {
+        useThemeStore.getState().setColorScheme(newScheme);
+      })
+      .catch(() => {});
+  };
+
+  const setSelectedTheme = (themeOption: ThemeOption) => {
+    setSelectedThemeState(themeOption);
+
+    // Save to store
+    import("../store/useThemeStore")
+      .then(({ useThemeStore }) => {
+        useThemeStore.getState().setTheme(themeOption);
+      })
+      .catch(() => {});
+  };
+
+  const setColorScheme = (scheme: ColorScheme) => {
+    setColorSchemeState(scheme);
+
+    // Save to store
+    import("../store/useThemeStore")
+      .then(({ useThemeStore }) => {
+        useThemeStore.getState().setColorScheme(scheme);
+      })
+      .catch(() => {});
   };
 
   const value: ThemeContextType = {
     theme,
     isDark,
+    selectedTheme,
+    colorScheme,
     toggleTheme,
     setTheme,
+    setSelectedTheme,
+    setColorScheme,
   };
 
   return (

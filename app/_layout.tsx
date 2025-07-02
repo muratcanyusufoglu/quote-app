@@ -177,6 +177,12 @@ export default function RootLayout() {
             }}
           />
           <Stack.Screen
+            name="themes"
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
             name="+not-found"
             options={{
               headerShown: false,
