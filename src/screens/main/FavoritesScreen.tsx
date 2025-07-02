@@ -103,6 +103,8 @@ export function FavoritesScreen() {
 
   return (
     <BaseScreen style={styles.container} useGradientBackground={true}>
+      <NavigationBar />
+
       <NavigationHeader
         title={favorites.title}
         currentRoute="/(tabs)/favorites"
@@ -110,7 +112,6 @@ export function FavoritesScreen() {
 
       <View style={styles.content}>
         {/* Navigation Bar */}
-        <NavigationBar />
 
         {favoriteQuotes.length === 0 ? (
           renderEmptyState()

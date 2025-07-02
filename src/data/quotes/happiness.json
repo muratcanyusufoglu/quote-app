@@ -1,117 +1,1117 @@
 {
   "quotes": [
     {
-      "id": "happiness_001",
+      "id": "happiness_005",
       "category": "happiness",
       "texts": {
-        "en": "Happiness is not something ready made. It comes from your own actions.",
-        "tr": "Mutluluk hazır bir şey değildir. Kendi eylemlerinizden gelir."
+        "en": "The best way to cheer yourself up is to try to cheer somebody else up.",
+        "tr": "Kendini neşelendirmenin en iyi yolu, başka birini neşelendirmeye çalışmaktır.",
+        "fr": "La meilleure façon de vous remonter le moral est d'essayer de remonter celui de quelqu'un d'autre.",
+        "pt": "A melhor maneira de se animar é tentar animar outra pessoa.",
+        "nl": "De beste manier om jezelf op te beuren is door te proberen iemand anders op te beuren.",
+        "es": "La mejor manera de animarte a ti mismo es intentar animar a otra persona.",
+        "de": "Der beste Weg, sich selbst aufzumuntern, ist zu versuchen, jemand anderen aufzumuntern.",
+        "it": "Il modo migliore per rallegrarti è provare a rallegrare qualcun altro.",
+        "ru": "Лучший способ поднять себе настроение — попытаться ободрить кого-то другого.",
+        "ar": "أفضل طريقة لإسعاد نفسك هي محاولة إسعاد شخص آخر."
       },
       "authors": {
-        "en": "Dalai Lama",
-        "tr": "Dalai Lama"
+        "en": "Mark Twain",
+        "tr": "Mark Twain",
+        "fr": "Mark Twain",
+        "pt": "Mark Twain",
+        "nl": "Mark Twain",
+        "es": "Mark Twain",
+        "de": "Mark Twain",
+        "it": "Mark Twain",
+        "ru": "Марк Твен",
+        "ar": "مارك توين"
       },
       "tags": {
-        "en": ["joy", "action", "mindset"],
-        "tr": ["neşe", "eylem", "zihniyet"]
+        "en": ["kindness", "compassion", "cheerfulness"],
+        "tr": ["nezaket", "şefkat", "neşe"],
+        "fr": ["gentillesse", "compassion", "joie"],
+        "pt": ["gentileza", "compaixão", "alegria"],
+        "nl": ["vriendelijkheid", "medeleven", "vrolijkheid"],
+        "es": ["amabilidad", "compasión", "alegría"],
+        "de": ["Freundlichkeit", "Mitgefühl", "Fröhlichkeit"],
+        "it": ["gentilezza", "compassione", "allegria"],
+        "ru": ["доброта", "сострадание", "радость"],
+        "ar": ["اللطف", "التعاطف", "البهجة"]
       },
-      "readTime": 2,
+      "readTime": 1,
       "stories": {
         "en": {
-          "title": "Creating Your Own Happiness",
-          "content": "The Dalai Lama, spiritual leader of Tibet, has faced immense challenges throughout his life, including exile from his homeland. Yet, he remains one of the most joyful and compassionate people on Earth. His secret? Understanding that happiness isn't a destination you arrive at, but a journey you create through your daily choices. Every act of kindness, every moment of gratitude, every decision to focus on the positive - these are the building blocks of genuine happiness. It's not about waiting for perfect circumstances, but about making the best of what you have right now.",
+          "title": "Spreading Joy to Find Joy",
+          "content": "Mark Twain, the beloved American humorist, understood that joy can be contagious. When we shift our focus to cheering up someone else, our own troubles tend to lighten. He often used laughter and kindness as tools to lift spirits — including his own. The simple act of making another person smile creates a boomerang effect, bringing happiness back to us. In helping others find joy, we unexpectedly find it ourselves.",
           "readTime": 3
         },
         "tr": {
-          "title": "Kendi Mutluluğunuzu Yaratmak",
-          "content": "Tibet'in ruhani lideri Dalai Lama, anavatanından sürgün edilmesi de dahil olmak üzere hayatı boyunca büyük zorluklarla karşılaştı. Yine de, Dünya'daki en neşeli ve şefkatli insanlardan biri olmaya devam ediyor. Sırrı? Mutluluğun vardığınız bir hedef değil, günlük seçimlerinizle yarattığınız bir yolculuk olduğunu anlamak. Her iyilik eylemi, her şükran anı, pozitife odaklanma kararı - bunlar gerçek mutluluğun yapı taşlarıdır. Mükemmel koşulları beklemekle değil, şu anda sahip olduklarınızın en iyisini yapmakla ilgilidir.",
+          "title": "Neşe Paylaşmak, Neşe Bulmak",
+          "content": "Ünlü Amerikalı mizahçı Mark Twain, neşenin bulaşıcı olabileceğini anlamıştı. Başkasını neşelendirmeye odaklandığımızda, kendi dertlerimizin hafiflediğini fark ederiz. Twain sık sık kahkahayı ve nezaketi ruhları yükseltmek — ve kendi moralini de düzeltmek — için bir araç olarak kullandı. Başka birini gülümsetmenin basit eylemi, mutluluğu bize geri getiren bir bumerang etkisi yaratır. Başkalarına neşe bulmalarında yardımcı olurken, beklenmedik bir şekilde biz de neşe buluruz.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Propager la joie pour la trouver",
+          "content": "Mark Twain, célèbre humoriste américain, avait compris que la joie est contagieuse. En choisissant de remonter le moral de quelqu'un d'autre, on allège souvent ses propres soucis. Il utilisait souvent le rire et la gentillesse comme des outils pour égayer les autres — et par la même occasion lui-même. Le simple fait de faire sourire une autre personne crée un effet boomerang qui nous renvoie du bonheur. En aidant les autres à trouver la joie, on finit par la trouver soi-même sans s'y attendre.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Espalhar Alegria para Encontrar Alegria",
+          "content": "Mark Twain, o amado humorista americano, entendia que a alegria pode ser contagiante. Ao focarmos em animar outra pessoa, nossos próprios problemas tendem a ficar mais leves. Twain frequentemente usava o riso e a bondade como ferramentas para elevar o ânimo — inclusive o seu próprio. O simples ato de fazer outra pessoa sorrir cria um efeito bumerangue, trazendo a felicidade de volta para nós. Ao ajudar os outros a encontrarem alegria, acabamos inesperadamente encontrando a nossa também.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Vreugde verspreiden om vreugde te vinden",
+          "content": "Mark Twain, de geliefde Amerikaanse humorist, begreep dat vreugde besmettelijk kan zijn. Wanneer we ons richten op het opvrolijken van iemand anders, worden onze eigen zorgen vaak lichter. Hij gebruikte vaak humor en vriendelijkheid als middelen om anderen op te beuren — en daarmee ook zichzelf. De eenvoudige handeling van iemand aan het lachen maken creëert een boemerangeffect dat het geluk naar ons terugbrengt. Door anderen te helpen vreugde te vinden, ontdekken we onverwachts dat we die zelf ook vinden.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Difundir alegría para encontrar alegría",
+          "content": "Mark Twain, el querido humorista estadounidense, entendió que la alegría puede ser contagiosa. Cuando centramos nuestra atención en animar a otra persona, nuestros propios problemas tienden a aligerarse. A menudo utilizaba la risa y la amabilidad como herramientas para levantar el ánimo de los demás — incluyéndose a sí mismo. El simple acto de hacer sonreír a otra persona crea un efecto bumerán que nos devuelve la felicidad. Al ayudar a otros a encontrar la alegría, inesperadamente la encontramos nosotros mismos.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Freude verbreiten, um Freude zu finden",
+          "content": "Mark Twain, der geliebte amerikanische Humorist, verstand, dass Freude ansteckend sein kann. Wenn wir uns darauf konzentrieren, jemanden anders aufzumuntern, werden unsere eigenen Sorgen oft leichter. Er setzte oft Lachen und Freundlichkeit als Mittel ein, um die Stimmung zu heben — und dabei auch seine eigene. Die einfache Handlung, eine andere Person zum Lächeln zu bringen, erzeugt einen Bumerang-Effekt, der uns das Glück zurückbringt. Indem wir anderen helfen, Freude zu finden, stellen wir unerwartet fest, dass wir sie auch selbst finden.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Diffondere gioia per trovare gioia",
+          "content": "Mark Twain, l’amato umorista americano, aveva capito che la gioia può essere contagiosa. Quando ci concentriamo sul tirare su di morale un’altra persona, spesso i nostri problemi si alleggeriscono. Usava spesso il sorriso e la gentilezza come strumenti per risollevare lo spirito altrui — e anche il proprio. Il semplice gesto di far sorridere un’altra persona crea un effetto boomerang che riporta la felicità a noi. Aiutando gli altri a trovare la gioia, finiamo per scoprirla inaspettatamente anche noi stessi.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Отдавая радость, находишь радость",
+          "content": "Марк Твен, любимый американский юморист, понимал, что радость может быть заразительной. Когда мы сосредотачиваемся на том, чтобы подбодрить другого человека, наши собственные проблемы часто становятся легче. Он часто использовал смех и доброту как инструменты, чтобы поднять настроение другим — и заодно себе самому. Простое действие, такое как заставить другого улыбнуться, создает эффект бумеранга, возвращая счастье к нам. Помогая другим найти радость, мы неожиданно обнаруживаем, что и сами её находим.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "نشر البهجة للعثور على البهجة",
+          "content": "فهم مارك توين، وهو الفكاهي الأمريكي المحبوب، أن الفرح يمكن أن يكون معديًا. عندما نركز على إدخال البهجة في نفس شخص آخر، نجد أن همومنا الخاصة تصبح أخف غالبًا. كثيرًا ما استخدم الضحك واللطف كأدوات لرفع معنويات الآخرين — وبالتبعية رفع معنوياته هو أيضًا. إن مجرد القيام بجعل شخص آخر يبتسم يخلق تأثيرًا ارتداديًا يعيد السعادة إلينا. وعندما نساعد الآخرين على العثور على البهجة، نكتشف دون توقع أننا نجدها نحن أيضًا.",
           "readTime": 3
         }
       }
     },
     {
-      "id": "happiness_002",
+      "id": "happiness_006",
       "category": "happiness",
       "texts": {
-        "en": "Notice how a sunset doesn't hurry. It unfolds naturally, beautifully, without forcing anything. You can be like that sunset.",
-        "tr": "Gün batımının nasıl acele etmediğine dikkat edin. Doğal olarak, güzelce, hiçbir şeyi zorlamadan açılır. Siz de o gün batımı gibi olabilirsiniz."
+        "en": "For every minute you are angry you lose sixty seconds of happiness.",
+        "tr": "Her kızgınlıkla geçirdiğiniz dakika, mutluluğunuzdan altmış saniye çalar.",
+        "fr": "Pour chaque minute où vous êtes en colère, vous perdez soixante secondes de bonheur.",
+        "pt": "Para cada minuto que você passa com raiva, você perde sessenta segundos de felicidade.",
+        "nl": "Voor elke minuut die je boos bent, verlies je zestig seconden geluk.",
+        "es": "Por cada minuto que pasas enojado, pierdes sesenta segundos de felicidad.",
+        "de": "Für jede Minute, die du wütend bist, verlierst du sechzig Sekunden Glück.",
+        "it": "Per ogni minuto che passi arrabbiato, perdi sessanta secondi di felicità.",
+        "ru": "За каждую минуту, проведённую в гневе, вы теряете шестьдесят секунд счастья.",
+        "ar": "عن كل دقيقة تقضيها غاضبًا، تفقد ستين ثانية من السعادة."
+      },
+      "authors": {
+        "en": "Ralph Waldo Emerson",
+        "tr": "Ralph Waldo Emerson",
+        "fr": "Ralph Waldo Emerson",
+        "pt": "Ralph Waldo Emerson",
+        "nl": "Ralph Waldo Emerson",
+        "es": "Ralph Waldo Emerson",
+        "de": "Ralph Waldo Emerson",
+        "it": "Ralph Waldo Emerson",
+        "ru": "Ральф Уолдо Эмерсон",
+        "ar": "رالف والدو إمرسون"
+      },
+      "tags": {
+        "en": ["anger", "time", "positivity"],
+        "tr": ["öfke", "zaman", "olumluluk"],
+        "fr": ["colère", "temps", "positivité"],
+        "pt": ["raiva", "tempo", "positividade"],
+        "nl": ["boosheid", "tijd", "positiviteit"],
+        "es": ["enojo", "tiempo", "positividad"],
+        "de": ["Wut", "Zeit", "Positivität"],
+        "it": ["rabbia", "tempo", "positività"],
+        "ru": ["злость", "время", "оптимизм"],
+        "ar": ["الغضب", "الوقت", "الإيجابية"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "The Cost of Anger",
+          "content": "Ralph Waldo Emerson, a leading American philosopher, highlighted the high price of holding onto anger. He believed that every moment spent angry is a moment of happiness lost forever. Modern psychology echoes this idea: dwelling on anger or negativity consumes our limited time and energy, leaving less room for joy. By understanding the true cost of anger, we learn to let go faster, making space for positive experiences. In short, life is too precious to waste on grudges when those minutes could be filled with happiness.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Öfkenin Bedeli",
+          "content": "Önde gelen Amerikalı filozof Ralph Waldo Emerson, öfkeyi içimizde tutmanın ağır bedelini vurguladı. Ona göre öfkeyle geçirilen her an, sonsuza dek yitip giden bir mutluluk anıdır. Modern psikoloji de bu fikri yineliyor: öfke veya olumsuzluk üzerinde durmak, sınırlı zamanımızı ve enerjimizi tüketir ve neşe için daha az yer bırakır. Öfkenin gerçek maliyetini anlayarak, onu daha çabuk bırakmayı öğrenir ve olumlu deneyimler için yer açarız. Kısacası, hayat birkaç kırgınlık uğruna harcanamayacak kadar değerlidir — bu dakikaları mutlulukla doldurmak mümkünken.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le prix de la colère",
+          "content": "Ralph Waldo Emerson, grand philosophe américain, a souligné le prix élevé de la rancune. Il pensait que chaque minute passée en colère est une minute de bonheur perdue à jamais. La psychologie moderne fait écho à cette idée : s'attarder sur la colère ou la négativité consume notre temps et notre énergie limités, ne laissant que peu de place à la joie. En comprenant le véritable coût de la colère, nous apprenons à lâcher prise plus vite et à faire de la place pour des expériences positives. En bref, la vie est trop précieuse pour la gâcher en rancunes alors que ces minutes pourraient être remplies de bonheur.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Custo da Raiva",
+          "content": "Ralph Waldo Emerson, um importante filósofo americano, destacou o alto preço de manter a raiva. Ele acreditava que cada minuto que você passa com raiva é um minuto de felicidade perdido para sempre. A psicologia moderna ecoa essa ideia: insistir na raiva ou na negatividade consome nosso tempo e energia limitados, deixando menos espaço para a alegria. Ao compreender o verdadeiro custo da raiva, aprendemos a deixá-la de lado mais rapidamente, abrindo espaço para experiências positivas. Em suma, a vida é preciosa demais para ser desperdiçada com rancor quando esses minutos poderiam estar cheios de felicidade.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De prijs van woede",
+          "content": "Ralph Waldo Emerson, een vooraanstaand Amerikaans filosoof, benadrukte de hoge prijs van het vasthouden aan boosheid. Hij geloofde dat elke minuut die je boos doorbrengt, een minuut geluk is die voor altijd verloren gaat. De moderne psychologie klinkt hierin mee: tobben over woede of negativiteit verbruikt onze beperkte tijd en energie en laat minder ruimte voor vreugde. Door de echte kosten van boosheid te begrijpen, leren we sneller loslaten en maken we plaats voor positieve ervaringen. Kort gezegd, het leven is te kostbaar om te verspillen aan wrok, terwijl die minuten gevuld hadden kunnen worden met geluk.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El costo del enojo",
+          "content": "Ralph Waldo Emerson, un destacado filósofo estadounidense, subrayó el alto precio de aferrarse a la ira. Creía que cada minuto que pasas enojado es un minuto de felicidad que se pierde para siempre. La psicología moderna hace eco de esta idea: insistir en la ira o la negatividad consume nuestro tiempo y energía limitados, dejando menos espacio para la alegría. Al entender el verdadero costo del enojo, aprendemos a soltarlo más rápido, creando espacio para experiencias positivas. En resumen, la vida es demasiado preciosa para desperdiciarla guardando rencores cuando esos minutos podrían llenarse de felicidad.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Kosten des Ärgers",
+          "content": "Ralph Waldo Emerson, ein führender amerikanischer Philosoph, hob den hohen Preis hervor, den das Festhalten an Wut mit sich bringt. Er war der Meinung, dass jede Minute, die man wütend verbringt, eine Minute Glück ist, die für immer verloren geht. Die moderne Psychologie bestätigt diesen Gedanken: Im Groll oder in Negativität zu verharren, verbraucht unsere begrenzte Zeit und Energie und lässt weniger Raum für Freude. Indem wir die wahren Kosten des Ärgers erkennen, lernen wir, schneller loszulassen und Platz für positive Erfahrungen zu schaffen. Kurz gesagt, das Leben ist zu kostbar, um es mit Groll zu vergeuden, wo man diese Minuten mit Glück füllen könnte.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il costo della rabbia",
+          "content": "Ralph Waldo Emerson, un importante filosofo americano, mise in evidenza l’alto prezzo dell’aggrapparsi alla rabbia. Credeva che ogni minuto trascorso arrabbiato sia un minuto di felicità perso per sempre. La psicologia moderna fa eco a questa idea: indugiare nella rabbia o nella negatività consuma il nostro tempo e la nostra energia limitati, lasciando meno spazio alla gioia. Capendo il vero costo della rabbia, impariamo a lasciarla andare più in fretta, facendo spazio a esperienze positive. In breve, la vita è troppo preziosa per sprecarla con rancori quando quei minuti potrebbero essere riempiti di felicità.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Цена гнева",
+          "content": "Ральф Уолдо Эмерсон, выдающийся американский философ, подчеркнул, как дорого обходится зацикливание на гневе. Он считал, что каждая минута, проведенная в гневе, — это минута счастья, утраченная навсегда. Современная психология вторит этой мысли: пережёвывание обид или пребывание в негативе пожирает наше ограниченное время и энергию, оставляя меньше места для радости. Поняв истинную цену гнева, мы учимся быстрее отпускать его и освобождать место для позитивных переживаний. Короче говоря, жизнь слишком драгоценна, чтобы растрачивать ее на обиды, когда эти минуты можно заполнить счастьем.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "ثمن الغضب",
+          "content": "أكد رالف والدو إمرسون، وهو فيلسوف أمريكي بارز, على الثمن الباهظ للتمسك بالغضب. كان يؤمن أن كل دقيقة تقضيها غاضبًا هي دقيقة من السعادة تُفقد إلى الأبد. ويتردد صدى هذه الفكرة في علم النفس الحديث: فالإمعان في الغضب أو السلبية يستهلك وقتنا وطاقتنا المحدودين، ويترك مساحة أقل للبهجة. ومن خلال فهم التكلفة الحقيقية للغضب، نتعلم أن نتخلى عنه بسرعة أكبر لنفسح المجال أمام تجارب إيجابية. وباختصار، الحياة ثمينة للغاية بحيث لا يصح إضاعتها في الضغائن، بينما يمكن ملء تلك الدقائق بالسعادة.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_007",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is when what you think, what you say, and what you do are in harmony.",
+        "tr": "Mutluluk, düşündükleriniz, söyledikleriniz ve yaptıklarınız uyum içinde olduğunda ortaya çıkar.",
+        "fr": "Le bonheur, c'est lorsque ce que vous pensez, ce que vous dites et ce que vous faites sont en harmonie.",
+        "pt": "A felicidade é quando o que você pensa, o que você diz e o que você faz estão em harmonia.",
+        "nl": "Geluk is wanneer wat je denkt, wat je zegt en wat je doet in harmonie zijn.",
+        "es": "La felicidad es cuando lo que piensas, lo que dices y lo que haces están en armonía.",
+        "de": "Glück ist, wenn das, was du denkst, was du sagst und was du tust, im Einklang ist.",
+        "it": "La felicità è quando ciò che pensi, ciò che dici e ciò che fai sono in armonia.",
+        "ru": "Счастье — это когда то, что вы думаете, говорите и делаете, находится в гармонии.",
+        "ar": "السعادة هي أن يكون ما تفكر به وما تقوله وما تفعله في تناغم."
+      },
+      "authors": {
+        "en": "Mahatma Gandhi",
+        "tr": "Mahatma Gandhi",
+        "fr": "Mahatma Gandhi",
+        "pt": "Mahatma Gandhi",
+        "nl": "Mahatma Gandhi",
+        "es": "Mahatma Gandhi",
+        "de": "Mahatma Gandhi",
+        "it": "Mahatma Gandhi",
+        "ru": "Махатма Ганди",
+        "ar": "مهاتما غاندي"
+      },
+      "tags": {
+        "en": ["harmony", "integrity", "balance"],
+        "tr": ["uyum", "tutarlılık", "denge"],
+        "fr": ["harmonie", "intégrité", "équilibre"],
+        "pt": ["harmonia", "integridade", "equilíbrio"],
+        "nl": ["harmonie", "integriteit", "balans"],
+        "es": ["armonía", "integridad", "equilibrio"],
+        "de": ["Harmonie", "Integrität", "Gleichgewicht"],
+        "it": ["armonia", "integrità", "equilibrio"],
+        "ru": ["гармония", "целостность", "баланс"],
+        "ar": ["التناغم", "الاستقامة", "التوازن"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "Harmony of Thought and Action",
+          "content": "Mahatma Gandhi, who led by example, taught the importance of aligning one's beliefs, words, and actions. He lived modestly and with great integrity, demonstrating how inner harmony leads to genuine peace and happiness. When your thoughts, words, and deeds mirror each other, you eliminate inner conflict and regret. Gandhi’s life showed that such unity of self not only fuels personal happiness but also builds trust and respect from others. True happiness blossoms when we live in authentic harmony with ourselves.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Düşünce ve Eylemde Uyum",
+          "content": "Örnek olarak liderlik eden Mahatma Gandhi, inançların, sözlerin ve eylemlerin uyum içinde olmasının önemini öğretti. Son derece mütevazı ve dürüst bir yaşam sürdü ve içsel uyumun gerçek huzur ve mutluluğa nasıl yol açtığını gösterdi. Düşünceleriniz, sözleriniz ve yaptıklarınız birbirini yansıttığında, iç çatışmayı ve pişmanlığı ortadan kaldırırsınız. Gandhi’nin yaşamı, böyle bir benlik birliğinin yalnızca kişisel mutluluğu beslemekle kalmayıp başkalarının güvenini ve saygısını da kazandırdığını gösterdi. Gerçek mutluluk, kendimizle otantik bir uyum içinde yaşadığımızda filizlenir.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Harmonie de la pensée et de l'action",
+          "content": "Mahatma Gandhi, qui a mené par l'exemple, a enseigné l'importance d'aligner ses croyances, ses paroles et ses actions. Il a vécu de manière modeste et intègre, démontrant comment l'harmonie intérieure conduit à une paix et un bonheur authentiques. Lorsque vos pensées, vos paroles et vos actes sont en accord, vous éliminez les conflits intérieurs et les regrets. La vie de Gandhi a montré qu'une telle unité de soi non seulement alimente le bonheur personnel, mais inspire également la confiance et le respect des autres. Le vrai bonheur s'épanouit lorsque nous vivons en harmonie authentique avec nous-mêmes.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Harmonia entre Pensamento e Ação",
+          "content": "Mahatma Gandhi, que liderava pelo exemplo, ensinou a importância de alinhar as próprias crenças, palavras e ações. Ele viveu de forma modesta e com grande integridade, demonstrando como a harmonia interior leva à paz e à felicidade genuínas. Quando seus pensamentos, palavras e atos se espelham mutuamente, você elimina o conflito interno e o arrependimento. A vida de Gandhi mostrou que tal unidade do eu não apenas alimenta a felicidade pessoal, mas também constrói a confiança e o respeito dos outros. A verdadeira felicidade floresce quando vivemos em harmonia autêntica conosco mesmos.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De harmonie van denken en handelen",
+          "content": "Mahatma Gandhi, die door voorbeeld voorging, leerde het belang van het op één lijn brengen van iemands overtuigingen, woorden en daden. Hij leefde bescheiden en met grote integriteit en toonde hoe innerlijke harmonie leidt tot oprechte vrede en geluk. Wanneer je gedachten, woorden en daden elkaar weerspiegelen, verdwijnt innerlijke tweestrijd en spijt. Gandhi's leven liet zien dat zo'n eenheid van zelf nicht alleen persoonlijk geluk voedt, maar ook vertrouwen en respect van anderen opbouwt. Het ware geluk bloeit op wanneer we in authentieke harmonie met onszelf leven.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Armonía entre pensamiento y acción",
+          "content": "Mahatma Gandhi, quien predicaba con el ejemplo, enseñó la importancia de alinear las creencias, las palabras y las acciones. Vivió de forma humilde y con gran integridad, demostrando cómo la armonía interior conduce a una paz y felicidad genuinas. Cuando tus pensamientos, palabras y hechos se reflejan mutuamente, eliminas el conflicto interno y el arrepentimiento. La vida de Gandhi mostró que tal unidad del ser no solo alimenta la felicidad personal, sino que también genera confianza y respeto en los demás. La verdadera felicidad florece cuando vivimos en armonía auténtica con nosotros mismos.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Harmonie von Gedanken und Handeln",
+          "content": "Mahatma Gandhi, der durch sein eigenes Beispiel führte, lehrte die Bedeutung der Übereinstimmung zwischen Glauben, Worten und Taten. Er lebte bescheiden und äußerst integer und zeigte, wie innere Harmonie zu echtem Frieden und Glück führt. Wenn deine Gedanken, Worte und Taten einander entsprechen, beseitigst du innere Konflikte und Reue. Gandhis Leben zeigte, dass eine solche Einheit des Selbst nicht nur das persönliche Glück fördert, sondern auch Vertrauen und Respekt bei anderen aufbaut. Wahres Glück erblüht, wenn wir in wahrhaftiger Harmonie mit uns selbst leben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Armonia tra pensiero e azione",
+          "content": "Mahatma Gandhi, che guidava con l’esempio, insegnò l’importanza di allineare le proprie convinzioni, parole e azioni. Visse in modo umile e con grande integrità, dimostrando come l’armonia interiore conduca a una pace e una felicità autentiche. Quando i tuoi pensieri, le tue parole e le tue azioni rispecchiano gli uni gli altri, elimini i conflitti interiori e i rimorsi. La vita di Gandhi ha mostrato che tale unità dell’essere non solo alimenta la felicità personale, ma genera anche fiducia e rispetto da parte degli altri. La vera felicità fiorisce quando viviamo in un’armonia autentica con noi stessi.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Гармония мыслей и действий",
+          "content": "Махатма Ганди, который вел за собой личным примером, учил важности согласования своих убеждений, слов и поступков. Он жил скромно и с большой нравственной целостностью, демонстрируя, как внутренняя гармония приводит к подлинному миру и счастью. Когда ваши мысли, слова и дела отражают друг друга, вы устраняете внутренний конфликт и сожаления. Жизнь Ганди показала, что такое единство себя не только питает личное счастье, но и вызывает доверие и уважение у окружающих. Истинное счастье расцветает, когда мы живем в искренней гармонии с самим собой.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "تناغم الفكر والفعل",
+          "content": "علّم المهاتما غاندي، الذي قاد بالمثال، أهمية التوافق بين المعتقدات والكلمات والأفعال. عاش بتواضع وبنزاهة عظيمة، مما أظهر كيف تؤدي التناغم الداخلي إلى السلام والسعادة الحقيقية. عندما تكون أفكارك وكلماتك وأفعالك مرآة لبعضها بعضًا، فإنك تقضي على الصراع الداخلي والندم. وقد أظهرت حياة غاندي أن مثل هذه الوحدة الذاتية لا تغذي السعادة الشخصية فحسب، بل تبني أيضًا الثقة والاحترام من الآخرين. إن السعادة الحقيقية تزدهر عندما نعيش في وئام صادق مع أنفسنا.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_008",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness depends upon ourselves.",
+        "tr": "Mutluluk kendimize bağlıdır.",
+        "fr": "Le bonheur dépend de nous-mêmes.",
+        "pt": "A felicidade depende de nós mesmos.",
+        "nl": "Geluk hangt van onszelf af.",
+        "es": "La felicidad depende de nosotros mismos.",
+        "de": "Das Glück hängt von uns selbst ab.",
+        "it": "La felicità dipende da noi stessi.",
+        "ru": "Счастье зависит от нас самих.",
+        "ar": "السعادة تعتمد علينا نحن أنفسنا."
+      },
+      "authors": {
+        "en": "Aristotle",
+        "tr": "Aristoteles",
+        "fr": "Aristote",
+        "pt": "Aristóteles",
+        "nl": "Aristoteles",
+        "es": "Aristóteles",
+        "de": "Aristoteles",
+        "it": "Aristotele",
+        "ru": "Аристотель",
+        "ar": "أرسطو"
+      },
+      "tags": {
+        "en": ["choice", "responsibility", "attitude"],
+        "tr": ["seçim", "sorumluluk", "tutum"],
+        "fr": ["choix", "responsabilité", "attitude"],
+        "pt": ["escolha", "responsabilidade", "atitude"],
+        "nl": ["keuze", "verantwoordelijkheid", "houding"],
+        "es": ["elección", "responsabilidad", "actitud"],
+        "de": ["Wahl", "Verantwortung", "Einstellung"],
+        "it": ["scelta", "responsabilità", "atteggiamento"],
+        "ru": ["выбор", "ответственность", "отношение"],
+        "ar": ["الاختيار", "المسؤولية", "الموقف"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "Happiness in Your Own Hands",
+          "content": "Even 2,300 years ago, Aristotle understood that happiness is a personal choice and responsibility. The ancient Greek philosopher argued that external circumstances matter far less than our own attitude and actions. This wisdom — that our well-being depends largely on ourselves — has been echoed by modern positive psychology. It empowers us to seek habits and mindsets that cultivate joy from within. Ultimately, Aristotle reminds us that we hold the keys to our own happiness.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Mutluluk Kendi Elimizde",
+          "content": "2300 yıl önce bile Aristoteles, mutluluğun kişisel bir seçim ve sorumluluk olduğunu anlamıştı. Antik Yunan filozofu, dış koşulların, kendi tutumumuz ve eylemlerimiz kadar önemli olmadığını savundu. Bu bilgelik — refahımızın büyük ölçüde kendimize bağlı olduğu düşüncesi — modern pozitif psikoloji tarafından da yinelendi. Bu anlayış, neşeyi içimizden yetiştirecek alışkanlıklar ve zihniyetler aramamıza güç veriyor. Sonuçta, Aristoteles bize kendi mutluluğumuzun anahtarlarının elimizde olduğunu hatırlatır.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le bonheur entre nos mains",
+          "content": "Il y a 2300 ans déjà, Aristote avait compris que le bonheur est un choix personnel et une responsabilité individuelle. Le philosophe grec ancien soutenait que les circonstances extérieures importent bien moins que notre propre attitude et nos actions. Cette sagesse — selon laquelle notre bien-être dépend en grande partie de nous-mêmes — a été reprise par la psychologie positive moderne. Elle nous donne le pouvoir de rechercher des habitudes et des états d'esprit qui cultivent la joie de l'intérieur. En fin de compte, Aristote nous rappelle que nous détenons les clés de notre propre bonheur.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A felicidade em suas próprias mãos",
+          "content": "Há 2300 anos, Aristóteles já entendia que a felicidade é uma escolha pessoal e uma responsabilidade individual. O antigo filósofo grego argumentou que as circunstâncias externas importam muito menos do que nossa própria atitude e ações. Essa sabedoria — de que o nosso bem-estar depende em grande medida de nós mesmos — foi ecoada pela psicologia positiva moderna. Ela nos capacita a buscar hábitos e mentalidades que cultivem a alegria a partir de dentro. Em última análise, Aristóteles nos lembra que nós é que possuímos as chaves da nossa própria felicidade.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Geluk in eigen hand",
+          "content": "Al 2300 jaar geleden begreep Aristoteles dat geluk een persoonlijke keuze en verantwoordelijkheid is. De antieke Griekse filosoof argumenteerde dat externe omstandigheden veel minder van belang zijn dan onze eigen houding en daden. Deze wijsheid — dat ons welzijn grotendeels van onszelf afhangt — is overgenomen door de moderne positieve psychologie. Het geeft ons de kracht om gewoonten en denkwijzen te zoeken die vreugde van binnenuit cultiveren. Uiteindelijk herinnert Aristoteles ons eraan dat wij de sleutels tot ons eigen geluk in handen hebben.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La felicidad depende de ti",
+          "content": "Hace 2300 años, Aristóteles ya entendía que la felicidad es una elección personal y una responsabilidad propia. Este antiguo filósofo griego argumentó que las circunstancias externas importan mucho menos que nuestra propia actitud y acciones. Esta sabiduría — que nuestro bienestar depende en gran medida de nosotros mismos — ha sido repetida por la psicología positiva moderna. Nos empodera a buscar hábitos y mentalidades que cultiven la alegría desde dentro. En última instancia, Aristóteles nos recuerda que tenemos en nuestras manos las llaves de nuestra propia felicidad.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Das Glück liegt in unseren Händen",
+          "content": "Schon vor 2300 Jahren verstand Aristoteles, dass Glück eine persönliche Wahl und Verantwortung ist. Der antike griechische Philosoph argumentierte, dass äußere Umstände weit weniger wichtig sind als unsere eigene Einstellung und unser Handeln. Diese Weisheit — dass unser Wohlbefinden weitgehend von uns selbst abhängt — wurde von der modernen Positiven Psychologie aufgegriffen. Sie befähigt uns, Gewohnheiten und Denkweisen zu suchen, die die Freude von innen heraus fördern. Letztendlich erinnert uns Aristoteles daran, dass wir die Schlüssel zu unserem eigenen Glück in der Hand halten.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La felicità nelle tue mani",
+          "content": "Già 2300 anni fa, Aristotele aveva capito che la felicità è una scelta personale e una responsabilità individuale. Il filosofo greco antico sosteneva che le circostanze esterne contano molto meno del nostro atteggiamento e delle nostre azioni. Questa saggezza — secondo cui il nostro benessere dipende in larga misura da noi stessi — è stata ripresa dalla psicologia positiva moderna. Ci dà il potere di cercare abitudini e mentalità che coltivino la gioia dall'interno. In definitiva, Aristotele ci ricorda che deteniamo le chiavi della nostra stessa felicità.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Счастье — в наших руках",
+          "content": "Еще 2300 лет назад Аристотель понимал, что счастье — это личный выбор и ответственность. Древнегреческий философ утверждал, что внешние обстоятельства значат гораздо меньше, чем наше собственное отношение и поступки. Эта мудрость — что наше благополучие во многом зависит от нас самих — была подхвачена современной позитивной психологией. Она дает нам силу искать привычки и образ мыслей, которые взращивают радость изнутри. В конечном счете, Аристотель напоминает нам, что ключи к нашему собственному счастью находятся у нас в руках.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "السعادة في أيدينا",
+          "content": "حتى قبل 2300 عام، فهم أرسطو أن السعادة اختيار شخصي ومسؤولية فردية. جادل هذا الفيلسوف اليوناني القديم بأن الظروف الخارجية تقل أهميتها بكثير عن موقفنا وأفعالنا الخاصة. وقد ترددت أصداء هذه الحكمة — التي تفيد بأن رفاهيتنا تعتمد إلى حد كبير على أنفسنا — في علم النفس الإيجابي الحديث. إنها تمنحنا القوة للبحث عن العادات والعقليات التي تنمّي الفرح من الداخل. وفي النهاية، يذكرنا أرسطو بأن مفاتيح سعادتنا الخاصة في أيدينا.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_009",
+      "category": "happiness",
+      "texts": {
+        "en": "Resolve to keep happy, and your joy and you shall form an invincible host against difficulties.",
+        "tr": "Mutlu kalmaya karar verin, böylece neşenizle birlikte zorluklara karşı yenilmez bir güç oluşturacaksınız.",
+        "fr": "Décidez de rester heureux, et votre joie, avec vous, formera une force invincible contre les difficultés.",
+        "pt": "Decida manter-se feliz, e sua alegria junto com você formarão um exército invencível contra as dificuldades.",
+        "nl": "Besluit om glücklich te blijven, en jouw vreugde zal samen met jou een onoverwinnelijk leger vormen tegen moeilijkheden.",
+        "es": "Decide mantenerte feliz, y tu alegría y tú formarán un ejército invencible contra las dificultades.",
+        "de": "Nimm dir vor, glücklich zu bleiben, und deine Freude wird zusammen mit dir ein unbesiegbares Heer gegen Schwierigkeiten bilden.",
+        "it": "Decidi di mantenerti felice, e la tua gioia insieme a te formerà un esercito invincibile contro le difficoltà.",
+        "ru": "Реши быть счастливым — и ты вместе со своей радостью станешь непобедимой силой перед лицом трудностей.",
+        "ar": "اعقد العزم على أن تبقى سعيدًا، وستشكّل مع بهجتك جيشًا لا يقهر في مواجهة الصعوبات."
+      },
+      "authors": {
+        "en": "Helen Keller",
+        "tr": "Helen Keller",
+        "fr": "Helen Keller",
+        "pt": "Helen Keller",
+        "nl": "Helen Keller",
+        "es": "Helen Keller",
+        "de": "Helen Keller",
+        "it": "Helen Keller",
+        "ru": "Хелен Келлер",
+        "ar": "هيلين كيلر"
+      },
+      "tags": {
+        "en": ["optimism", "resilience", "strength"],
+        "tr": ["iyimserlik", "dayanıklılık", "güç"],
+        "fr": ["optimisme", "résilience", "force"],
+        "pt": ["otimismo", "resiliência", "força"],
+        "nl": ["optimisme", "veerkracht", "kracht"],
+        "es": ["optimismo", "resiliencia", "fortaleza"],
+        "de": ["Optimismus", "Resilienz", "Stärke"],
+        "it": ["ottimismo", "resilienza", "forza"],
+        "ru": ["оптимизм", "стойкость", "сила"],
+        "ar": ["التفاؤل", "الصمود", "القوة"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Your Joy, Your Invincible Ally",
+          "content": "Helen Keller, who lost her sight and hearing as a child, became a symbol of optimism and resilience. She often spoke about the power of positive resolve in the face of hardship. By deciding to remain joyful despite her challenges, she discovered that her optimism gave her incredible strength against difficulties. Keller’s life proved that maintaining hope and happiness forms an 'invincible' alliance, helping to conquer obstacles that once seemed insurmountable. Her message: if you hold onto joy, it will empower you to overcome anything.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Neşeniz, Yenilmez Müttefikiniz",
+          "content": "Henüz çocukken görme ve duyma yetisini kaybeden Helen Keller, iyimserliğin ve dayanıklılığın bir sembolü haline geldi. Zorluklar karşısında olumlu kararlılığın gücü hakkında sık sık konuşurdu. Zorluklarına rağmen neşeli kalmaya karar vererek, iyimserliğinin ona zorluklara karşı inanılmaz bir güç verdiğini keşfetti. Keller'ın hayatı, umudu ve mutluluğu sürdürmenin 'yenilmez' bir ittifak oluşturduğunu ve bir zamanlar aşılmaz görünen engellerin üstesinden gelmeye yardımcı olduğunu kanıtladı. Onun mesajı şuydu: eğer neşeyi bırakmazsanız, sizi her şeyi aşmanız için güçlendirecektir.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Votre joie, votre alliée invincible",
+          "content": "Helen Keller, qui perdit la vue et l'ouïe dans son enfance, est devenue un symbole d’optimisme et de résilience. Elle parlait souvent du pouvoir de la détermination positive face à l'adversité. En décidant de rester joyeuse malgré ses difficultés, elle a découvert que son optimisme lui donnait une force incroyable contre les épreuves. La vie de Keller a prouvé que garder espoir et bonheur forme une alliance « invincible », aidant à surmonter des obstacles autrefois insurmontables. Son message était le suivant : si vous vous accrochez à la joie, elle vous donnera le pouvoir de surmonter n'importe quoi.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Sua Alegria, Sua Aliada Invencível",
+          "content": "Helen Keller, que perdeu a visão e a audição ainda criança, tornou-se um símbolo de otimismo e resiliência. Ela costumava falar sobre o poder da determinação positiva diante das dificuldades. Ao decidir permanecer alegre apesar de seus desafios, ela descobriu que seu otimismo lhe dava uma força incrível contra as adversidades. A vida de Keller provou que manter a esperança e a felicidade forma uma aliança “invencível”, ajudando a vencer obstáculos que antes pareciam intransponíveis. Sua mensagem era: se você se apegar à alegria, ela lhe dará poder para superar qualquer coisa.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Jouw vreugde, je onoverwinnelijke bondgenoot",
+          "content": "Helen Keller, die als kind haar gezichts- en gehoorvermogen verloor, werd een symbool van optimisme en veerkracht. Ze sprak vaak over de kracht van positieve vastberadenheid in het aangezicht van tegenspoed. Door te beslissen om ondanks haar uitdagingen vrolijk te blijven, ontdekte ze dat haar optimisme haar een ongelooflijke kracht gaf tegen moeilijkheden. Kellers leven bewees dat het behouden van hoop en geluk een 'onoverwinnelijk' bondgenootschap vormt dat helpt obstakels te overwinnen die ooit onoverkomelijk leken. Haar boodschap was: als je vasthoudt aan vreugde, zal die je de kracht geven om alles te overwinnen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Tu alegría, tu aliada invencible",
+          "content": "Helen Keller, quien perdió la vista y el oído de niña, se convirtió en un símbolo de optimismo y resistencia. A menudo hablaba sobre el poder de la determinación positiva frente a las dificultades. Al decidir mantenerse alegre a pesar de sus desafíos, descubrió que su optimismo le daba una fuerza increíble contra las dificultades. La vida de Keller demostró que mantener la esperanza y la felicidad forma una alianza \"invencible\" que ayuda a conquistar obstáculos que antes parecían insuperables. Su mensaje: si te aferras a la alegría, ésta te dará el poder de superar cualquier cosa.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Deine Freude, dein unbesiegbarer Verbündeter",
+          "content": "Helen Keller, die als Kind ihr Seh- und Hörvermögen verlor, wurde zu einem Symbol für Optimismus und Widerstandsfähigkeit. Sie sprach oft über die Macht des positiven Entschlusses angesichts von Widrigkeiten. Indem sie beschloss, trotz ihrer Herausforderungen fröhlich zu bleiben, entdeckte sie, dass ihr Optimismus ihr eine unglaubliche Stärke im Umgang mit Schwierigkeiten verlieh. Kellers Leben bewies, dass das Bewahren von Hoffnung und Fröhlichkeit eine 'unbesiegbare' Allianz bildet, die hilft, einst unüberwindbar scheinende Hindernisse zu überwinden. Ihre Botschaft lautete: Wenn du an der Freude festhältst, wird sie dir die Kraft geben, alles zu überwinden.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La tua gioia, la tua alleata invincibile",
+          "content": "Helen Keller, che da bambina perse la vista e l’udito, divenne un simbolo di ottimismo e resilienza. Parlava spesso del potere della determinazione positiva di fronte alle avversità. Decidendo di rimanere gioiosa nonostante le sue sfide, scoprì che il suo ottimismo le dava una forza incredibile contro le difficoltà. La vita della Keller ha dimostrato che mantenere la speranza e la felicità forma un'alleanza 'invincibile' che aiuta a conquistare ostacoli che un tempo sembravano insormontabili. Il suo messaggio era: se ti aggrappi alla gioia, essa ti darà la forza di superare qualsiasi cosa.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Твоя радость — твой непобедимый союзник",
+          "content": "Хелен Келлер, которая в детстве потеряла зрение и слух, стала символом оптимизма и стойкости. Она часто говорила о силе позитивной решимости перед лицом невзгод. Решив оставаться радостной несмотря на свои трудности, она обнаружила, что ее оптимизм придавал ей невероятную силу против любых испытаний. Жизнь Келлер доказала, że сохранение надежды и счастья образует «непобедимый» союз, помогающий преодолевать препятствия, которые когда-то казались непреодолимыми. Ее послание заключалось в следующем: если вы удерживаете радость, она даст вам силы преодолеть что угодно.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "بهجتك، حليفتك التي لا تقهر",
+          "content": "فقدت هيلين كيلر بصرها وسمعها في طفولتها، لكنها أصبحت رمزًا للتفاؤل والصمود. كانت كثيرًا ما تتحدث عن قوة العزم الإيجابي في مواجهة الشدائد. من خلال قرارها البقاء مبتهجة رغم تحدياتها، اكتشفت أن تفاؤلها منحها قوة هائلة في مواجهة الصعاب. أثبتت حياة كيلر أن الحفاظ على الأمل والسعادة يشكل تحالفًا \"لا يقهر\" يساعد على التغلب على العقبات التي بدت يومًا مستحيلة. رسالتها كانت: إذا تمسكت بالفرح، فسوف يمنحك القوة لتجاوز أي شيء.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_010",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is only real when shared.",
+        "tr": "Mutluluk, paylaşıldığında gerçektir.",
+        "fr": "Le bonheur n'est réel que lorsqu'il est partagé.",
+        "pt": "A felicidade só é real quando compartilhada.",
+        "nl": "Geluk is alleen echt wanneer het gedeeld wordt.",
+        "es": "La felicidad solo es real cuando se comparte.",
+        "de": "Glück ist nur echt, wenn man es teilt.",
+        "it": "La felicità è reale solo quando è condivisa.",
+        "ru": "Счастье действительно только, когда им делишься.",
+        "ar": "السعادة حقيقية فقط عندما نتشاركها."
+      },
+      "authors": {
+        "en": "Christopher McCandless",
+        "tr": "Christopher McCandless",
+        "fr": "Christopher McCandless",
+        "pt": "Christopher McCandless",
+        "nl": "Christopher McCandless",
+        "es": "Christopher McCandless",
+        "de": "Christopher McCandless",
+        "it": "Christopher McCandless",
+        "ru": "Кристофер МакКэндлесс",
+        "ar": "كريستوفر ماكندلس"
+      },
+      "tags": {
+        "en": ["sharing", "connection", "friendship"],
+        "tr": ["paylaşım", "bağ", "dostluk"],
+        "fr": ["partage", "lien", "amitié"],
+        "pt": ["partilha", "conexão", "amizade"],
+        "nl": ["delen", "verbinding", "vriendschap"],
+        "es": ["compartir", "conexión", "amistad"],
+        "de": ["Teilen", "Verbindung", "Freundschaft"],
+        "it": ["condivisione", "connessione", "amicizia"],
+        "ru": ["дружба", "близость", "общение"],
+        "ar": ["المشاركة", "الصداقة", "التواصل"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "Shared Happiness",
+          "content": "Christopher McCandless, the young adventurer depicted in 'Into the Wild', learned a profound lesson during his solitary journey. After seeking happiness in isolation, he realized in his final days that joy was meaningless unless shared with others. In his journal, he famously noted 'happiness is only real when shared', a reflection of the human truth that connections amplify our well-being. We often find that experiences become richer and sorrows lighter when we have someone to share them with. McCandless’s journey reminds us that community and love give happiness its depth.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Paylaşılan Mutluluk",
+          "content": "'Into the Wild' filminde hikayesi anlatılan genç maceracı Christopher McCandless, tek başına çıktığı yolculuk sırasında derin bir ders öğrendi. Mutluluğu yalnızlıkta aradıktan sonra, yaşamının son günlerinde neşenin başkalarıyla paylaşılmadıkça anlamsız olduğunu fark etti. Günlüğüne ünlü bir not düştü: 'Mutluluk, paylaşıldığında gerçektir.' Bu, bağların iyiliğimizi nasıl katladığının insani gerçeğini yansıtır. Genellikle, deneyimlerin birisiyle paylaştığımızda daha zengin, üzüntülerin daha hafif hale geldiğini görürüz. McCandless’in yolculuğu, topluluğun ve sevginin mutluluğa derinlik kattığını bize hatırlatıyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Bonheur partagé",
+          "content": "Christopher McCandless, le jeune aventurier dépeint dans 'Into the Wild', a tiré une leçon profonde lors de son voyage en solitaire. Après avoir cherché le bonheur dans l’isolement, il a réalisé dans ses derniers jours que la joie n’a de sens que si elle est partagée avec autrui. Dans son journal, il a noté de façon célèbre que 'le bonheur n’est réel que lorsqu’il est partagé', ce qui reflète la vérité humaine selon laquelle les liens amplifient notre bien-être. Nous constatons souvent que les expériences deviennent plus riches et les peines plus légères lorsqu’on a quelqu’un avec qui les partager. Le parcours de McCandless nous rappelle que la communauté et l’amour donnent toute sa profondeur au bonheur.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Felicidade Compartilhada",
+          "content": "Christopher McCandless, o jovem aventureiro retratado em 'Into the Wild', aprendeu uma lição profunda durante sua jornada solitária. Depois de buscar a felicidade no isolamento, ele percebeu em seus dias finais que a alegria não tinha sentido a menos que fosse compartilhada com os outros. Em seu diário, ele registrou de forma célebre: 'A felicidade só é real quando compartilhada', uma reflexão da verdade humana de que as conexões amplificam nosso bem-estar. Muitas vezes descobrimos que as experiências se tornam mais ricas e as tristezas mais leves quando temos alguém com quem compartilhá-las. A jornada de McCandless nos lembra que a comunidade e o amor dão profundidade à felicidade.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Gedeeld geluk",
+          "content": "Christopher McCandless, de jonge avonturier uit 'Into the Wild', leerde een diepgaande les tijdens zijn eenzame reis. Nadat hij geluk in afzondering had gezocht, besefte hij in zijn laatste dagen dat vreugde zinloos was als die niet met anderen gedeeld werd. In zijn dagboek noteerde hij beroemd: 'Geluk is alleen echt wanneer het gedeeld wordt', een weerspiegeling van de menselijke waarheid dat verbindingen ons welzijn versterken. We merken vaak dat ervaringen rijker worden en verdriet lichter weegt wanneer we iemand hebben om ze mee te delen. McCandless’ reis herinnert ons eraan dat gemeenschap en liefde het geluk diepgang geven.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La felicidad compartida",
+          "content": "Christopher McCandless, el joven aventurero retratado en 'Into the Wild', aprendió una lección profunda durante su viaje solitario. Después de buscar la felicidad en la soledad, se dio cuenta en sus últimos días de que la alegría no tenía sentido a menos que se compartiera con otros. En su diario, anotó famosamente: 'La felicidad solo es real cuando se comparte', lo que refleja la verdad humana de que las conexiones amplifican nuestro bienestar. A menudo encontramos que las experiencias se vuelven más ricas y las penas más ligeras cuando tenemos a alguien con quien compartirlas. El viaje de McCandless nos recuerda que la comunidad y el amor dan profundidad a la felicidad.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Geteiltes Glück",
+          "content": "Christopher McCandless, der junge Abenteurer, der in 'Into the Wild' dargestellt wird, lernte während seiner einsamen Reise eine tiefgreifende Lektion. Nachdem er das Glück in der Isolation gesucht hatte, erkannte er in seinen letzten Tagen, dass Freude bedeutungslos ist, wenn sie nicht mit anderen geteilt wird. In seinem Tagebuch notierte er berühmt: 'Glück ist nur echt, wenn man es teilt', was die menschliche Wahrheit widerspiegelt, dass Verbindungen unser Wohlbefinden verstärken. Wir stellen oft fest, dass Erlebnisse reicher werden und Kummer leichter wiegt, wenn wir jemanden haben, mit dem wir sie teilen können. McCandless’ Reise erinnert uns daran, dass Gemeinschaft und Liebe dem Glück Tiefe verleihen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Felicità condivisa",
+          "content": "Christopher McCandless, il giovane avventuriero descritto in 'Into the Wild', imparò una lezione profonda durante il suo viaggio solitario. Dopo aver cercato la felicità nell’isolamento, nei suoi ultimi giorni capì che la gioia era priva di senso se non veniva condivisa con gli altri. Nel suo diario annotò famosamente: 'La felicità è reale solo quando è condivisa', riflettendo la verità umana che i legami amplificano il nostro benessere. Spesso scopriamo che le esperienze diventano più ricche e i dolori più lievi quando abbiamo qualcuno con cui condividerli. Il viaggio di McCandless ci ricorda che la comunità e l’amore danno profondità alla felicità.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Настоящее счастье — разделенное",
+          "content": "Кристофер МакКэндлесс, молодой искатель приключений, изображенный в фильме «Into the Wild», извлек глубокий урок во время своего одинокого путешествия. Стремясь найти счастье в одиночестве, он в последние дни понял, что радость не имеет смысла, если ею не поделиться с другими. В своем дневнике он знаменито отметил: «Счастье действительно только, когда им делишься», отражая человеческую истину о том, что связи усиливают наше благополучие. Мы часто замечаем, что переживания становятся богаче, а печали легче, когда нам есть с кем ими поделиться. Путешествие МакКендлесса напоминает нам, что общность и любовь придают счастью глубину.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "السعادة المشتركة",
+          "content": "تعلم كريستوفر ماكندلس، الشاب المغامر الذي صُوِّرت قصته في 'Into the Wild'، درسًا عميقًا خلال رحلته المنفردة. بعد أن سعى وراء السعادة في العزلة، أدرك في أيامه الأخيرة أن الفرح بلا معنى ما لم يُشارك مع الآخرين. في مذكراته، كتب مقولة شهيرة: 'السعادة حقيقية فقط عندما نتشاركها'، مما يعكس حقيقة إنسانية مفادها أن الروابط تعزز رفاهيتنا. نجد غالبًا أن التجارب تصبح أعمق والأحزان أخف عندما يكون لدينا شخص نتقاسمها معه. تذكرنا رحلة ماكندلس أن المجتمع والحب يضفيان عمقًا على السعادة.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_011",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is not a goal; it is a by-product of a life well-lived.",
+        "tr": "Mutluluk bir hedef değildir; iyi yaşanmış bir hayatın yan ürünüdür.",
+        "fr": "Le bonheur n'est pas un objectif ; c'est le sous-produit d'une vie bien vécue.",
+        "pt": "A felicidade não é um objetivo; é um subproduto de uma vida bem vivida.",
+        "nl": "Geluk is geen doel; het is een bijproduct van een goed geleefd leven.",
+        "es": "La felicidad no es una meta; es un subproducto de una vida bien vivida.",
+        "de": "Glück ist kein Ziel; es ist ein Nebenprodukt eines gut gelebten Lebens.",
+        "it": "La felicità non è un obiettivo; è un sottoprodotto de una vita ben vissuta.",
+        "ru": "Счастье — не цель; это побочный продукт хорошо прожитой жизни.",
+        "ar": "السعادة ليست هدفًا؛ بل هي نتيجة ثانوية لحياة طيبة."
+      },
+      "authors": {
+        "en": "Eleanor Roosevelt",
+        "tr": "Eleanor Roosevelt",
+        "fr": "Eleanor Roosevelt",
+        "pt": "Eleanor Roosevelt",
+        "nl": "Eleanor Roosevelt",
+        "es": "Eleanor Roosevelt",
+        "de": "Eleanor Roosevelt",
+        "it": "Eleanor Roosevelt",
+        "ru": "Элеонора Рузвельт",
+        "ar": "إليانور روزفلت"
+      },
+      "tags": {
+        "en": ["purpose", "fulfillment", "meaning"],
+        "tr": ["amaç", "tatmin", "anlam"],
+        "fr": ["but", "accomplissement", "sens"],
+        "pt": ["propósito", "realização", "significado"],
+        "nl": ["doel", "voldoening", "betekenis"],
+        "es": ["propósito", "realización", "sentido"],
+        "de": ["Zweck", "Erfüllung", "Sinn"],
+        "it": ["scopo", "realizzazione", "significato"],
+        "ru": ["цель", "удовлетворение", "смысл"],
+        "ar": ["الهدف", "الرضا", "المعنى"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Happiness Comes from Living Well",
+          "content": "Eleanor Roosevelt, one of America’s most influential First Ladies, observed that happiness comes indirectly, as a result of how we live. She devoted her life to service, human rights, and personal growth, rather than chasing happiness itself. In doing so, she found deep fulfillment, illustrating her belief that joy is a by-product of a life rich with meaning and purpose. Instead of treating happiness as the finish line, she taught that it naturally emerges when we focus on living well and doing good. Her insight encourages us to pursue passion and virtue, trusting that happiness will follow.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Mutluluk İyi Yaşamaktan Gelir",
+          "content": "Amerika’nın en etkili First Lady’lerinden biri olan Eleanor Roosevelt, mutluluğun dolaylı yoldan, nasıl yaşadığımızın bir sonucu olarak geldiğini gözlemledi. Hayatını doğrudan mutluluğun peşinden koşmak yerine hizmete, insan haklarına ve kişisel gelişime adadı. Bunu yaparak derin bir tatmin buldu ve neşenin anlam ve amaçla dolu bir hayatın yan ürünü olduğuna dair inancını somutlaştırdı. Mutluluğu bir varış noktası olarak görmek yerine, iyi yaşamaya ve iyilik yapmaya odaklandığımızda kendiliğinden ortaya çıktığını öğretti. Onun öngörüsü, tutkuyu ve erdemi takip etmemizi ve mutluluğun da bunun ardından geleceğine güvenmemizi teşvik ediyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le bonheur découle d'une vie bien vécue",
+          "content": "Eleanor Roosevelt, l'une des Premières Dames les plus influentes de l'histoire américaine, a observé que le bonheur vient indirectement, comme résultat de notre façon de vivre. Elle a consacré sa vie au service, aux droits de l'homme et à l'épanouissement personnel, plutôt qu'à la poursuite du bonheur en soi. Ce faisant, elle a trouvé un profond épanouissement, illustrant sa conviction que la joie est un sous-produit d'une vie riche de sens et de but. Au lieu de considérer le bonheur comme une ligne d'arrivée, elle a enseigné qu'il émerge naturellement lorsque nous nous concentrons sur bien vivre et bien faire. Sa perspicacité nous encourage à poursuivre nos passions et la vertu, en confiance que le bonheur suivra.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Felicidade Vem de Viver Bem",
+          "content": "Eleanor Roosevelt, uma das Primeiras-Damas mais influentes da história dos EUA, observou que a felicidade surge indiretamente, como resultado de como vivemos. Ela dedicou sua vida ao serviço, aos direitos humanos e ao crescimento pessoal, em vez de perseguir a felicidade em si. Ao fazer isso, encontrou uma realização profunda, ilustrando sua convicção de que a alegria é um subproduto de uma vida rica em significado e propósito. Em vez de tratar a felicidade como a linha de chegada, ela ensinou que ela surge naturalmente quando nos concentramos em viver bem e fazer o bem. Sua percepção nos encoraja a perseguir a paixão e a virtude, confiando que a felicidade se seguirá.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Geluk komt voort uit goed leven",
+          "content": "Eleanor Roosevelt, een van de meest invloedrijke First Ladies van Amerika, merkte op dat geluk indirect komt, als resultaat van hoe we leven. Ze wijdde haar leven aan dienstbaarheid, mensenrechten en persoonlijke groei, in plaats van het najagen van geluk op zichzelf. Door dat te doen vond ze een diepe vervulling, waarmee ze illustreerde dat vreugde een bijproduct is van een leven vol betekenis en doel. In plaats van geluk als de finish te zien, leerde ze dat het vanzelf ontstaat wanneer we ons richten op goed leven en goed doen. Haar inzicht moedigt ons aan om passie en deugd na te streven, in het vertrouwen dat het geluk zal volgen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La felicidad proviene de vivir bien",
+          "content": "Eleanor Roosevelt, una de las Primeras Damas más influyentes de Estados Unidos, observó que la felicidad llega de forma indirecta, como resultado de cómo vivimos. Dedicó su vida al servicio, a los derechos humanos y al crecimiento personal, en lugar de perseguir la felicidad en sí misma. Al hacerlo, encontró una profunda realización, ilustrando su creencia de que la alegría es un subproducto de una vida llena de significado y propósito. En lugar de tratar la felicidad como la meta final, enseñó que surge naturalmente cuando nos enfocamos en vivir bien y hacer el bien. Su visión nos anima a perseguir la pasión y la virtud, confiando en que la felicidad le seguirá.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Glück kommt vom guten Leben",
+          "content": "Eleanor Roosevelt, eine der einflussreichsten First Ladies Amerikas, stellte fest, dass Glück indirekt kommt – als Ergebnis unserer Lebensweise. Sie widmete ihr Leben dem Dienst an anderen, den Menschenrechten und dem persönlichen Wachstum, statt dem Glück selbst nachzujagen. Damit fand sie eine tiefe Erfüllung und veranschaulichte ihren Glauben, dass Freude ein Nebenprodukt eines Lebens voller Sinn und Zweck ist. Anstatt das Glück als Endziel zu betrachten, lehrte sie, dass es von selbst entsteht, wenn wir uns darauf konzentrieren, gut zu leben und Gutes zu tun. Ihre Einsicht ermutigt uns, Leidenschaft und Tugend zu verfolgen und darauf zu vertrauen, dass das Glück folgen wird.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La felicità deriva dal vivere bene",
+          "content": "Eleanor Roosevelt, una delle First Lady più influenti d’America, osservò che la felicità arriva indirettamente, come risultato di come viviamo. Dedicò la sua vita al servizio, ai diritti umani e alla crescita personale, invece di rincorrere la felicità in sé. Così facendo trovò un appagamento profondo, a dimostrazione della sua convinzione che la gioia è un sottoprodotto di una vita ricca di significato e scopo. Invece di trattare la felicità come il traguardo finale, insegnò che essa emerge naturalmente quando ci concentriamo sul vivere bene e fare del bene. La sua intuizione ci incoraggia a perseguire la passione e la virtù, confidando che la felicità ne seguirà.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Счастье приходит от правильно прожитой жизни",
+          "content": "Элеонора Рузвельт, одна из самых влиятельных первых леди Америки, заметила, что счастье приходит косвенно — как результат того, как мы живем. Она посвятила свою жизнь служению, правам человека и личностному росту вместо погони за самим счастьем. Делая так, она обрела глубокое удовлетворение, иллюстрируя свою убежденность в том, что радость — это побочный продукт жизни, наполненной смыслом и целью. Вместо того чтобы рассматривать счастье как финишную черту, она учила, что оно возникает естественным образом, когда мы сосредоточены на том, чтобы жить правильно и творить добро. Ее прозрение побуждает нас следовать за страстью и добродетелью, доверяя, что счастье последует.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "السعادة تنبع من الحياة الطيبة",
+          "content": "لاحظت إليانور روزفلت، إحدى السيدات الأوائل الأكثر تأثيرًا في أمريكا، أن السعادة تأتي بشكل غير مباشر كنتيجة لطريقة عيشنا. كرست حياتها للخدمة وحقوق الإنسان والنمو الشخصي، بدلاً من ملاحقة السعادة بحد ذاتها. وبقيامها بذلك، وجدت إشباعًا عميقًا, مما جسّد اعتقادها بأن الفرح هو ناتج ثانوي لحياة غنية بالمعنى والهدف. وبدلاً من اعتبار السعادة خط النهاية, علّمت أنها تظهر بشكل طبيعي عندما نركز على العيش بشكل جيد وفعل الخير. إن بصيرتها تشجعنا على اتباع الشغف والفضيلة, والثقة بأن السعادة ستأتي تباعًا.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_012",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is not something you postpone for the future; it is something you design for the present.",
+        "tr": "Mutluluk geleceğe ertelediğiniz bir şey değildir; bugün için tasarladığınız bir şeydir.",
+        "fr": "Le bonheur n'est pas quelque chose que vous remettez à plus tard ; c'est quelque chose que vous concevez pour le présent.",
+        "pt": "A felicidade não é algo que você adia para o futuro; é algo que você projeta para o presente.",
+        "nl": "Geluk is niet iets dat je uitstelt naar de toekomst; het is iets dat je ontwerpt voor het heden.",
+        "es": "La felicidad no es algo que pospones para el futuro; es algo que diseñas para el presente.",
+        "de": "Glück ist nichts, was man auf die Zukunft verschiebt; es ist etwas, das man für die Gegenwart gestaltet.",
+        "it": "La felicità non è qualcosa che rimandi al futuro; è qualcosa che progetti per il presente.",
+        "ru": "Счастье — это не то, что вы откладываете на будущее; это то, что вы создаете для настоящего.",
+        "ar": "السعادة ليست شيئًا تؤجله إلى المستقبل; إنها شيء تصممه للحاضر."
+      },
+      "authors": {
+        "en": "Jim Rohn",
+        "tr": "Jim Rohn",
+        "fr": "Jim Rohn",
+        "pt": "Jim Rohn",
+        "nl": "Jim Rohn",
+        "es": "Jim Rohn",
+        "de": "Jim Rohn",
+        "it": "Jim Rohn",
+        "ru": "Джим Рон",
+        "ar": "جيم رون"
+      },
+      "tags": {
+        "en": ["present", "intention", "action"],
+        "tr": ["şimdi", "niyet", "eylem"],
+        "fr": ["présent", "intention", "action"],
+        "pt": ["presente", "intenção", "ação"],
+        "nl": ["nu", "intentie", "actie"],
+        "es": ["presente", "intención", "acción"],
+        "de": ["Gegenwart", "Absicht", "Handeln"],
+        "it": ["presente", "intenzione", "azione"],
+        "ru": ["настоящее", "намерение", "действие"],
+        "ar": ["الحاضر", "النية", "العمل"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Happiness in the Present",
+          "content": "Motivational speaker Jim Rohn urged people to cultivate happiness in the present rather than waiting for a future payoff. He noted that many postpone joy, expecting it will come after achieving certain goals or milestones, only to find that moment keeps moving further away. Rohn’s approach was to 'design' your life so you enjoy it now — by embracing daily pleasures, nurturing gratitude, and doing fulfilling work today. This proactive mindset transforms happiness into a habit, not a distant destination. By focusing on the present, we ensure that we don’t miss the only time we ever truly have — the current moment — to be happy.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Mutluluk Şimdide",
+          "content": "Motivasyon konuşmacısı Jim Rohn, insanlara gelecekteki bir ödülü beklemek yerine mutluluğu şimdide beslemeleri için çağrıda bulundu. Birçok insanın sevinci ertelediğini, belirli hedeflere veya dönüm noktalarına ulaştıktan sonra geleceğini beklediğini, ancak o anın sürekli uzaklaştığını belirtti. Rohn’un yaklaşımı, günlük zevkleri kucaklayarak, şükran duygusunu besleyerek ve bugün tatmin edici işler yaparak hayatınızı 'bugünden tasarlamak' ve böylece şimdi keyfini çıkarmaktı. Bu proaktif zihniyet, mutluluğu uzak bir hedef olmaktan çıkarıp bir alışkanlığa dönüştürüyor. Anda kalarak, gerçekten sahip olduğumuz tek zamanı — şu anı — mutlu olmak için kaçırmamış oluruz.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le bonheur au présent",
+          "content": "Le conférencier motivateur Jim Rohn a exhorté les gens à cultiver le bonheur dans le présent plutôt que d’attendre une récompense future. Il a fait remarquer que beaucoup repoussent la joie, s’attendant à ce qu’elle vienne après avoir atteint certains objectifs ou étapes, pour découvrir que ce moment ne fait que s’éloigner davantage. L’approche de Rohn consistait à 'concevoir' sa vie de sorte à en profiter dès maintenant — en embrassant les plaisirs quotidiens, en nourrissant la gratitude et en faisant dès aujourd’hui un travail épanouissant. Cet état d’esprit proactif transforme le bonheur en habitude plutôt qu’en destination lointaine. En nous concentrant sur le présent, nous nous assurons de ne pas manquer le seul temps que nous ayons vraiment — le moment présent — pour être heureux.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Felicidade no Presente",
+          "content": "O palestrante motivacional Jim Rohn instou as pessoas a cultivarem a felicidade no presente em vez de esperar por uma recompensa futura. Ele observou que muitos adiam a alegria, esperando que ela venha após atingir certas metas ou marcos, apenas para perceber que esse momento continua se distanciando. A abordagem de Rohn era 'projetar' sua vida para aproveitá-la agora — abraçando os prazeres diários, nutrindo a gratidão e fazendo um trabalho gratificante hoje. Essa mentalidade proativa transforma a felicidade em um hábito, não em um destino distante. Ao nos concentrarmos no presente, garantimos que não percamos o único tempo que realmente temos — o momento atual — para sermos felizes.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Geluk in het heden",
+          "content": "Motivational speaker Jim Rohn riep mensen op om het geluk in het heden te cultiveren in plaats van te wachten op een toekomstige beloning. Hij merkte op dat velen het geluk uitstellen, in de verwachting dat het zal komen nadat ze bepaalde doelen of mijlpalen hebben bereikt, om er vervolgens achter te komen dat dat moment steeds verder opschuift. Rohns benadering was om je leven zo te 'ontwerpen' dat je er nu van geniet — door dagelijkse genoegens te omarmen, dankbaarheid te koesteren en vandaag zinvol werk te doen. Deze proactieve denkwijze maakt van geluk een gewoonte in plaats van een verre bestemming. Door ons op het heden te richten, zorgen we ervoor dat we de enige tijd die we echt hebben — het huidige moment — niet missen om gelukkig te zijn.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La felicidad en el presente",
+          "content": "El orador motivacional Jim Rohn instó a la gente a cultivar la felicidad en el presente en lugar de esperar una recompensa futura. Señaló que muchos posponen la alegría, esperando que llegue después de alcanzar ciertas metas o hitos, solo para descubrir que ese momento sigue alejándose. El enfoque de Rohn era 'diseñar' tu vida para disfrutarla ahora — abrazando los placeres diarios, fomentando la gratitud y realizando un trabajo gratificante hoy. Esta mentalidad proactiva transforma la felicidad en un hábito, no en un destino lejano. Al enfocarnos en el presente, nos aseguramos de no perdernos el único tiempo que realmente tenemos — el momento actual — para ser felices.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Glück im Hier und Jetzt",
+          "content": "Der Motivationstrainer Jim Rohn forderte die Menschen auf, das Glück in der Gegenwart zu kultivieren, anstatt auf eine zukünftige Belohnung zu warten. Er stellte fest, dass viele die Freude aufschieben und erwarten, dass sie erst nach dem Erreichen bestimmter Ziele oder Meilensteine kommt – nur um festzustellen, dass sich dieser Moment immer weiter entfernt. Rohns Ansatz bestand darin, das eigene Leben so zu 'gestalten', dass man es jetzt genießt — indem man tägliche Freuden annimmt, Dankbarkeit pflegt und noch heute erfüllende Arbeit leistet. Diese proaktive Einstellung macht Glück zur Gewohnheit statt zu einem fernen Ziel. Indem wir uns auf die Gegenwart konzentrieren, stellen wir sicher, dass wir die einzige Zeit, die wir wirklich haben – den gegenwärtigen Moment – nicht verpassen, um glücklich zu sein.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La felicità nel presente",
+          "content": "Il motivatore Jim Rohn ha esortato le persone a coltivare la felicità nel presente piuttosto che aspettare una ricompensa futura. Ha osservato che molti rimandano la gioia, aspettandosi che arrivi dopo aver raggiunto certi obiettivi o traguardi, per poi scoprire che quel momento continua ad allontanarsi. L’approccio di Rohn consisteva nel 'progettare' la propria vita in modo da goderne ora — abbracciando i piaceri quotidiani, nutrendo la gratitudine e svolgendo oggi un lavoro gratificante. Questa mentalità proattiva trasforma la felicità in un’abitudine, non in una meta lontana. Concentrandoci sul presente, ci assicuriamo di non perdere l’unico tempo che abbiamo davvero — il momento attuale — per essere felici.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Счастье — это сейчас",
+          "content": "Мотиватор Джим Рон призывал людей культивировать счастье в настоящем, вместо того чтобы ждать будущего вознаграждения. Он отмечал, что многие откладывают радость, ожидая, что она придет после достижения определенных целей или вех, лишь чтобы обнаружить, что этот момент все отодвигается. Подход Рона заключался в том, чтобы 'спроектировать' свою жизнь так, чтобы наслаждаться ею сейчас — принимая ежедневные удовольствия, воспитывая благодарность и занимаясь уже сегодня делом по душе. Этот проактивный образ мышления превращает счастье в привычку, а не в далекую цель. Фокусируясь на настоящем, мы гарантируем, что не упустим единственное время, которое у нас действительно есть — текущий момент — чтобы быть счастливыми.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "السعادة في الحاضر",
+          "content": "حث المتحدث التحفيزي جيم رون الناس على تنمية السعادة في الحاضر بدلاً من انتظار مكافأة مستقبلية. وأشار إلى أن الكثيرين يؤجلون الفرح، متوقعين أنه سيأتي بعد تحقيق أهداف أو معالم معينة، ليكتشفوا أن تلك اللحظة تبتعد أكثر فأكثر. تمثّل نهج رون في 'تصميم' حياتك بحيث تستمتع بها الآن — من خلال تبني الملذات اليومية، وتغذية الامتنان، والقيام بعمل مُرضٍ اليوم. هذه العقلية الاستباقية تحول السعادة إلى عادة وليست هدفًا بعيدًا. من خلال التركيز على الحاضر، نضمن أننا لا نفوّت الوقت الوحيد الذي نملكه حقًا — اللحظة الحالية — لنكون سعداء.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_013",
+      "category": "happiness",
+      "texts": {
+        "en": "There is no path to happiness; happiness is the path.",
+        "tr": "Mutluluğa giden bir yol yoktur; mutluluk yolun kendisidir.",
+        "fr": "Il n'y a pas de chemin vers le bonheur ; le bonheur est le chemin.",
+        "pt": "Não há um caminho para a felicidade; a felicidade é o caminho.",
+        "nl": "Er is geen pad naar geluk; geluk is het pad.",
+        "es": "No hay un camino hacia la felicidad; la felicidad es el camino.",
+        "de": "Es gibt keinen Weg zum Glück; Glück ist der Weg.",
+        "it": "Non c'è un sentiero verso la felicità; la felicità é il sentiero.",
+        "ru": "Нет пути к счастью; счастье — это и есть путь.",
+        "ar": "لا يوجد طريق إلى السعادة؛ فالسعادة هي الطريق."
+      },
+      "authors": {
+        "en": "Buddha",
+        "tr": "Buda",
+        "fr": "Bouddha",
+        "pt": "Buda",
+        "nl": "Boeddha",
+        "es": "Buda",
+        "de": "Buddha",
+        "it": "Buddha",
+        "ru": "Будда",
+        "ar": "بوذا"
+      },
+      "tags": {
+        "en": ["journey", "mindfulness", "perspective"],
+        "tr": ["yolculuk", "farkındalık", "bakış açısı"],
+        "fr": ["voyage", "pleine conscience", "perspective"],
+        "pt": ["jornada", "atenção plena", "perspectiva"],
+        "nl": ["reis", "mindfulness", "perspectief"],
+        "es": ["camino", "atención plena", "perspectiva"],
+        "de": ["Reise", "Achtsamkeit", "Perspektive"],
+        "it": ["viaggio", "consapevolezza", "prospettiva"],
+        "ru": ["путь", "осознанность", "взгляд"],
+        "ar": ["الرحلة", "الوعي", "المنظور"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "The Journey is the Destination",
+          "content": "Gautama Buddha taught that chasing happiness as a distant goal is a misunderstanding — happiness is found in the journey itself. In Buddhism, the emphasis is on mindful living: fully experiencing the present moment without fixation on a future outcome. When we stop treating happiness as a finish line and instead find it in each step along the way, life becomes more meaningful. Practitioners of this philosophy learn to enjoy the process of living, turning everyday moments into peace and contentment. The wisdom here is clear: we create our path of happiness by how we walk it, not by where it leads.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Varış Değil Yolculuk",
+          "content": "Gautama Buda, mutluluğu uzak bir hedef olarak kovalamayı bir yanlış anlama olarak öğretti — mutluluk yolculuğun içinde bulunur. Budizm'de vurgu, anda farkındalıkla yaşamaktadır: gelecekteki bir sonuca odaklanmaksızın anı tam anlamıyla deneyimlemek. Mutluluğu bir bitiş çizgisi olarak görmekten vazgeçip, onun her adımda bulunabileceğini fark ettiğimizde hayat daha anlamlı hale gelir. Bu felsefeyi uygulayanlar, yaşamın sürecinden keyif almayı öğrenir ve gündelik anları huzur ve memnuniyete dönüştürür. Buradaki bilgelik açıktır: mutluluk yolumuzu, nereye götürdüğüne göre değil, onu nasıl yürüdüğümüze göre yaratırız.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le voyage est la destination",
+          "content": "Gautama Bouddha a enseigné que poursuivre le bonheur comme un but lointain est une méprise — le bonheur se trouve dans le chemin lui-même. Dans le bouddhisme, l'accent est mis sur la pleine conscience : faire l'expérience totale du moment présent sans se focaliser sur un résultat futur. Lorsque nous cessons de considérer le bonheur comme une ligne d'arrivée et que nous le trouvons plutôt à chaque étape du parcours, la vie prend un sens plus profond. Les adeptes de cette philosophie apprennent à apprécier le processus de la vie, transformant les moments quotidiens en paix et en contentement. La sagesse ici est claire : nous créons notre chemin de bonheur par notre manière de le parcourir, non par la destination.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A jornada é o destino",
+          "content": "Gautama Buda ensinou que buscar a felicidade como um objetivo distante é um equívoco — a felicidade é encontrada na própria jornada. No budismo, enfatiza-se a vida consciente: experimentar plenamente o momento presente sem se fixar em um resultado futuro. Quando deixamos de tratar a felicidade como uma linha de chegada e, em vez disso, a encontramos em cada passo ao longo do caminho, a vida se torna mais significativa. Os praticantes dessa filosofia aprendem a apreciar o processo de viver, transformando os momentos cotidianos em paz e contentamento. A sabedoria aqui é clara: criamos nosso caminho da felicidade pela maneira como o trilhamos, não por onde ele nos leva.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De reis is de bestemming",
+          "content": "Gautama Boeddha leerde dat het najagen van geluk als een verre eindbestemming berust op een misvatting — geluk wordt gevonden in de reis zelf. In het boeddhisme ligt de nadruk op aandachtig leven: het huidige moment volledig ervaren zonder je te fixeren op een toekomstig resultaat. Wanneer we ophouden geluk te zien als een eindstreep en het in plaats daarvan in elke stap onderweg vinden, krijgt het leven meer betekenis. Beoefenaars van deze filosofie leren te genieten van het proces van leven, waardoor alledaagse momenten veranderen in vrede en tevredenheid. De wijsheid hier is duidelijk: we creëren ons pad naar geluk door hoe we het bewandelen, niet door waar het naartoe leidt.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El viaje es la meta",
+          "content": "Gautama Buda enseñó que perseguir la felicidad como una meta lejana es un error — la felicidad se encuentra en el camino mismo. En el budismo, se enfatiza la vida consciente: experimentar plenamente el momento presente sin fijarse en un resultado futuro. Cuando dejamos de tratar la felicidad como la meta final y en su lugar la encontramos en cada paso del camino, la vida se vuelve más significativa. Quienes practican esta filosofía aprenden a disfrutar del proceso de vivir, convirtiendo los momentos cotidianos en paz y plenitud. La sabiduría aquí es clara: creamos nuestro sendero de felicidad mediante la forma en que lo caminamos, no a dónde nos lleva.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Weg ist das Ziel",
+          "content": "Gautama Buddha lehrte, dass das Verfolgen des Glücks als fernes Ziel ein Missverständnis ist — das Glück findet sich im Weg selbst. Im Buddhismus liegt der Schwerpunkt auf achtsamem Leben: den gegenwärtigen Moment vollständig zu erleben, ohne sich auf ein zukünftiges Ergebnis zu fixieren. Wenn wir aufhören, das Glück als Zielband zu behandeln und es stattdessen in jedem Schritt unterwegs finden, wird das Leben sinnvoller. Praktizierende dieser Philosophie lernen, den Prozess des Lebens zu genießen und alltägliche Momente in Frieden und Zufriedenheit zu verwandeln. Die Weisheit hier ist klar: Wir gestalten unseren Weg zum Glück durch die Art, wie wir ihn gehen, nicht durch das Ziel, zu dem er führt.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il viaggio è la destinazione",
+          "content": "Gautama Buddha insegnò che inseguire la felicità come un obiettivo lontano è un malinteso — la felicità si trova nel viaggio stesso. Nel buddismo si pone l'accento sul vivere con consapevolezza: sperimentare appieno il momento presente senza fissarsi su un risultato futuro. Quando smettiamo di considerare la felicità come il traguardo finale e invece la troviamo in ogni passo lungo il percorso, la vita diventa più significativa. I praticanti di questa filosofia imparano ad apprezzare il processo di vivere, trasformando i momenti quotidiani in pace e contentezza. La saggezza qui è chiara: creiamo il nostro sentiero di felicità da come lo percorriamo, non da dove porta.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Путь и есть счастье",
+          "content": "Гаутама Будда учил, что погоня за счастьем как за далекой целью — это заблуждение: счастье находится в самом пути. В буддизме делается упор на осознанную жизнь: полное переживание настоящего момента без зацикленности на будущем результате. Когда мы перестаем относиться к счастью как к финишу и вместо этого находим его на каждом шагу по дороге, жизнь становится более осмысленной. Приверженцы этой философии учатся наслаждаться процессом жизни, превращая повседневные мгновения в мир и удовлетворенность. Мудрость здесь очевидна: мы прокладываем путь к счастью тем, как мы по нему идем, а не тем, куда он ведет.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "الرحلة هي الوجهة",
+          "content": "علّم غوتاما بوذا أن مطاردة السعادة كهدف بعيد هي سوء فهم — فالسعادة تُوجد في الرحلة نفسها. في البوذية، التركيز على العيش بوعي تام: أن تختبر اللحظة الحاضرة بكاملها دون انشغال بنتيجة مستقبلية. عندما نتوقف عن التعامل مع السعادة كخط نهاية ونجدها بدلًا من ذلك في كل خطوة على طول الطريق، تصبح الحياة أكثر معنًى. يتعلم ممارسو هذه الفلسفة الاستمتاع بعملية الحياة، محوّلين اللحظات اليومية إلى سلام ورضا. الحكمة هنا واضحة: نحن نخلق طريق سعادتنا من خلال كيفية السير عليه، وليس من خلال حيث يقودنا.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_014",
+      "category": "happiness",
+      "texts": {
+        "en": "The happiest people don't have the best of everything; they just make the best of everything they have.",
+        "tr": "En mutlu insanlar her şeyin en iyisine sahip değildir; sadece ellerindekinin en iyisini yaparlar.",
+        "fr": "Les gens les plus heureux n'ont pas le meilleur de tout ; ils tirent simplement le meilleur parti de tout ce qu'ils ont.",
+        "pt": "As pessoas mais felizes não têm o melhor de tudo; elas simplesmente tiram o melhor de tudo o que têm.",
+        "nl": "De gelukkigste mensen hebben niet van alles het beste; ze maken gewoon van alles het beste.",
+        "es": "Las personas más felices no tienen lo mejor de todo; simplemente sacan lo mejor de todo lo que tienen.",
+        "de": "Die glücklichsten Menschen haben nicht das Beste von allem; sie machen einfach aus allem das Beste.",
+        "it": "Le persone più felici non hanno il meglio di tutto; semplicemente traggono il meglio da tutto ciò che hanno.",
+        "ru": "Самые счастливые люди обладают nicht самым лучшим из всего; они просто извлекают максимум из того, что имеют.",
+        "ar": "إن أسعد الناس ليس لديهم كل شيء مثالي؛ لكنهم ببساطة يصنعون الأفضل من كل ما لديهم."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
       },
       "tags": {
-        "en": ["nature", "patience", "natural flow"],
-        "tr": ["doğa", "sabır", "doğal akış"]
-      },
-      "readTime": 1,
-      "stories": {
-        "en": {
-          "title": "Learning from Nature's Rhythm",
-          "content": "Nature doesn't rush, yet everything is accomplished in perfect timing. A sunset doesn't try to be faster or more impressive than the day before—it simply unfolds as it is meant to. Similarly, your life doesn't need to be forced or hurried. Happiness often comes not from pushing harder, but from allowing yourself to unfold naturally, trusting your own rhythm and timing. Like the sunset, you have your own perfect pace.",
-          "readTime": 3
-        },
-        "tr": {
-          "title": "Doğanın Ritminden Öğrenmek",
-          "content": "Doğa acele etmez, yine de her şey mükemmel zamanlamada gerçekleşir. Gün batımı bir önceki günden daha hızlı ya da daha etkileyici olmaya çalışmaz—sadece olması gerektiği gibi açılır. Benzer şekilde, hayatınızın zorlanması ya da acele ettirilmesi gerekmez. Mutluluk çoğu zaman daha sert zorlamaktan değil, kendinizin doğal olarak açılmasına izin vermekten, kendi ritminize ve zamanlamanıza güvenmekten gelir. Gün batımı gibi, sizin de kendi mükemmel hızınız var.",
-          "readTime": 3
-        }
-      }
-    },
-    {
-      "id": "happiness_003",
-      "category": "happiness",
-      "texts": {
-        "en": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.",
-        "tr": "Bazen neşeniz gülümsemenizin kaynağıdır, ama bazen gülümsemeniz neşenizin kaynağı olabilir."
-      },
-      "authors": {
-        "en": "Thích Nhất Hạnh",
-        "tr": "Thích Nhất Hạnh"
-      },
-      "tags": {
-        "en": ["smile", "joy", "practice"],
-        "tr": ["gülümseme", "neşe", "pratik"]
-      },
-      "readTime": 1,
-      "stories": {
-        "en": {
-          "title": "The Power of a Simple Smile",
-          "content": "Zen master Thích Nhất Hạnh understood the profound connection between our facial expressions and our inner state. Research confirms what he taught: the simple act of smiling, even when we don't feel like it, can actually trigger the release of happiness-inducing chemicals in our brain. It's not about fake positivity, but about understanding that sometimes we can create the feeling by starting with the action. Your smile is both a reflection and a generator of your inner joy.",
-          "readTime": 3
-        },
-        "tr": {
-          "title": "Basit Bir Gülümsemenin Gücü",
-          "content": "Zen ustası Thích Nhất Hạnh yüz ifadelerimiz ile iç durumumuz arasındaki derin bağlantıyı anlıyordu. Araştırmalar onun öğrettiklerini doğruluyor: gülümsemek istemediğimizde bile gülümsemenin basit eylemi, aslında beynimizde mutluluk yaratan kimyasalların salınımını tetikleyebilir. Bu sahte pozitiflikle ilgili değil, bazen eylemi başlatarak duyguyu yaratabileceğimizi anlamakla ilgili. Gülümsemeniz hem iç neşenizin yansıması hem de üreticisidir.",
-          "readTime": 3
-        }
-      }
-    },
-    {
-      "id": "happiness_004",
-      "category": "happiness",
-      "texts": {
-        "en": "From 'The Happiness Project': The days are long, but the years are short. Pay attention to the moments that matter.",
-        "tr": "'Mutluluk Projesi'nden: Günler uzun, ama yıllar kısa. Önemli anlara dikkat edin."
-      },
-      "authors": {
-        "en": "Gretchen Rubin",
-        "tr": "Gretchen Rubin"
-      },
-      "tags": {
-        "en": ["time", "presence", "awareness"],
-        "tr": ["zaman", "varlık", "farkındalık"]
+        "en": ["gratitude", "contentment", "attitude"],
+        "tr": ["minnettarlık", "memnuniyet", "tutum"],
+        "fr": ["gratitude", "contentement", "attitude"],
+        "pt": ["gratidão", "contentamento", "atitude"],
+        "nl": ["dankbaarheid", "tevredenheid", "houding"],
+        "es": ["gratitud", "satisfacción", "actitud"],
+        "de": ["Dankbarkeit", "Zufriedenheit", "Einstellung"],
+        "it": ["gratitudine", "soddisfazione", "atteggiamento"],
+        "ru": ["благодарность", "удовлетворенность", "отношение"],
+        "ar": ["الامتنان", "القناعة", "الموقف"]
       },
       "readTime": 2,
       "stories": {
         "en": {
-          "title": "The Paradox of Time and Happiness",
-          "content": "Gretchen Rubin captures a universal truth about time and happiness. When we're in the midst of daily life—dealing with work stress, household chores, or small frustrations—the day can feel endless. Yet when we look back, years seem to have flown by in a blink. The secret to happiness lies in recognizing this paradox and choosing to pay attention to the small, precious moments within those long days. The laugh of a child, a perfect cup of coffee, a text from a friend—these moments, when noticed, become the foundation of a happy life.",
+          "title": "Making the Best of What You Have",
+          "content": "This popular saying, often shared in motivational circles, highlights an essential truth about outlook. The happiest individuals aren't those who have every luxury or advantage; they're the ones who make the most of whatever they have. Instead of constantly seeking more or better, they practice gratitude and creativity with their current circumstances. By finding silver linings and opportunities in the hand they're dealt, they turn even ordinary situations into something positive. This attitude of making the best of everything not only reduces envy and dissatisfaction, but it creates a sustainable form of happiness from within.",
           "readTime": 3
         },
         "tr": {
-          "title": "Zaman ve Mutluluğun Paradoksu",
-          "content": "Gretchen Rubin zaman ve mutluluk hakkında evrensel bir gerçeği yakalıyor. Günlük hayatın ortasındayken—iş stresi, ev işleri ya da küçük hayal kırıklıklarıyla uğraşırken—gün sonsuz gelebilir. Yine de geriye baktığımızda, yıllar göz açıp kapayıncaya kadar geçmiş gibi görünür. Mutluluğun sırrı bu paradoksu tanımakta ve o uzun günlerin içindeki küçük, değerli anlara dikkat etmeyi seçmekte yatar. Bir çocuğun kahkahası, mükemmel bir fincan kahve, bir arkadaştan gelen mesaj—bu anlar, fark edildiğinde, mutlu bir hayatın temeli haline gelir.",
+          "title": "Elindekinin En İyisini Yapmak",
+          "content": "Motivasyon çevrelerinde sıkça paylaşılan bu popüler söz, bakış açısıyla ilgili temel bir gerçeği vurgular. En mutlu insanlar, her lüks ya da avantaja sahip olanlar değil; ellerindekini en iyi şekilde değerlendirenlerdir. Sürekli daha fazlasını veya daha iyisini aramak yerine, mevcut koşullarına şükran ve yaratıcılıkla yaklaşırlar. Kendilerine dağıtılan kartlarda iyi yönler ve fırsatlar bularak, sıradan durumları bile olumlu bir şeye dönüştürürler. Her şeyin en iyisini yapmak tutumu, sadece kıskançlığı ve memnuniyetsizliği azaltmakla kalmaz, aynı zamanda içeriden sürdürülebilir bir mutluluk biçimi yaratır.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Tirer le meilleur de ce qu'on a",
+          "content": "Ce dicton populaire, souvent partagé dans les cercles de motivation, met en avant une vérité essentielle sur la perspective. Les personnes les plus heureuses ne sont pas celles qui ont chaque luxe ou avantage ; ce sont celles qui tirent le meilleur parti de tout ce qu'elles ont. Au lieu de chercher constamment plus ou mieux, elles pratiquent la gratitude et la créativité avec leurs circonstances actuelles. En trouvant des lueurs d'espoir et des opportunités dans les cartes qu'elles ont en main, elles transforment même les situations ordinaires en quelque chose de positif. Cette attitude de tirer le meilleur de chaque chose réduit non seulement l'envie et l'insatisfaction, mais crée aussi une forme durable de bonheur venant de l'intérieur.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Fazer o Melhor com o que Você Tem",
+          "content": "Este ditado popular, frequentemente compartilhado em círculos motivacionais, destaca uma verdade essencial sobre a perspectiva. As pessoas mais felizes não são aquelas que têm todos os luxos ou vantagens; são aquelas que aproveitam ao máximo tudo o que têm. Em vez de buscar constantemente mais ou melhor, elas praticam a gratidão e a criatividade com as circunstâncias atuais. Encontrando pontos positivos e oportunidades nas cartas que lhes foram dadas, elas transformam até mesmo situações comuns em algo positivo. Essa atitude de tirar o melhor de tudo não apenas reduz a inveja e a insatisfação, mas também cria uma forma sustentável de felicidade de dentro para fora.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Het beste maken van wat je hebt",
+          "content": "Deze populaire uitspraak, vaak gedeeld in motiverende kringen, wijst op een wezenlijke waarheid over onze kijk op het leven. De gelukkigste mensen zijn niet degenen die elke luxe of elk voordeel hebben; het zijn degenen die het beste maken van wat ze hebben. In plaats van voortdurend meer of beter na te jagen, beoefenen ze dankbaarheid en creativiteit binnen hun huidige omstandigheden. Door in de kaarten die ze krijgen toch zilveren randjes en kansen te vinden, veranderen ze zelfs alledaagse situaties in iets positiefs. Deze houding om van alles het beste te maken vermindert niet alleen afgunst en ontevredenheid, maar creëert ook een duurzame vorm van geluk van binnenuit.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Sacarle el máximo a lo que tienes",
+          "content": "Este dicho popular, a menudo compartido en círculos motivacionales, destaca una verdad esencial sobre la actitud. Las personas más felices no son aquellas que tienen cada lujo o ventaja; son aquellas que sacan el máximo provecho de todo lo que tienen. En lugar de buscar constantemente más o algo mejor, practican la gratitud y la creatividad con sus circunstancias actuales. Al encontrar el lado positivo y oportunidades en las cartas que les han tocado, convierten incluso situaciones ordinarias en algo positivo. Esta actitud de hacer lo mejor con todo no solo reduce la envidia y la insatisfacción, sino que crea una forma sostenible de felicidad desde adentro.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Aus allem das Beste machen",
+          "content": "Diese Redensart, die in Motivationskreisen oft geteilt wird, hebt eine wesentliche Wahrheit über die Einstellung hervor. Die glücklichsten Menschen sind nicht diejenigen, die jeden Luxus oder Vorteil haben; es sind diejenigen, die das Beste aus allem machen, was sie haben. Anstatt ständig nach mehr oder Besserem zu suchen, üben sie Dankbarkeit und Kreativität in ihren aktuellen Umständen. Indem sie in den Karten, die ihnen gegeben wurden, das Gute und Chancen finden, verwandeln sie selbst gewöhnliche Situationen in etwas Positives. Diese Haltung, aus allem das Beste zu machen, verringert nicht nur Neid und Unzufriedenheit, sondern schafft auch eine nachhaltige Form von Glück von innen heraus.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Trarre il meglio da ciò che si ha",
+          "content": "Questo detto popolare, spesso condiviso negli ambienti motivazionali, mette in luce una verità essenziale sull’atteggiamento. Le persone più felici non sono quelle che hanno ogni lusso o privilegio; sono quelle che sanno trarre il massimo da ciò che hanno. Invece di cercare costantemente di più o di meglio, praticano la gratitudine e la creatività con le circostanze attuali. Trovando aspetti positivi e opportunità nelle carte che sono state loro distribuite, trasformano anche situazioni ordinarie in qualcosa di positivo. Questo atteggiamento di fare il meglio di ogni cosa non solo riduce l’invidia e l’insoddisfazione, ma crea anche una forma sostenibile di felicità dall’interno.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Делать лучшее из того, что есть",
+          "content": "Эта популярная поговорка, часто упоминаемая в мотивационных кругах, подчеркивает важную истину об отношении к жизни. Самые счастливые люди — не те, у кого есть все роскоши или преимущества; а те, кто максимально используют все, что у них есть. Вместо того чтобы постоянно гнаться за большим или лучшим, они проявляют благодарность и творческий подход к своим текущим обстоятельствам. Находя светлые стороны и возможности в тех «картах», которые им выпали, они превращают даже обычные ситуации во что-то позитивное. Такой подход — делать из всего лучшее — не только уменьшает зависть и недовольство, но и создает устойчивую форму счастья изнутри.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "صنع الأفضل مما لديك",
+          "content": "هذه المقولة الشائعة، التي تتردد كثيرًا في الأوساط التحفيزية، تبرز حقيقة أساسية حول النظرة للحياة. إن أسعد الأشخاص ليسوا أولئك الذين يمتلكون كل رفاهية أو ميزة؛ بل هم الذين يستفيدون إلى أقصى حد مما لديهم. بدلاً من السعي المستمر إلى المزيد أو الأفضل، يمارسون الامتنان والإبداع مع ظروفهم الحالية. من خلال إيجاد جوانب إيجابية وفرص في الأوراق التي وُزعت عليهم، يحولون حتى المواقف العادية إلى شيء إيجابي. إن هذه العقلية المتمثلة في جعل كل شيء بأفضل صورة لا تقلل الغيرة وعدم الرضا فحسب، بل تخلق أيضًا شكلًا مستدامًا من السعادة ينبع من الداخل.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_015",
+      "category": "happiness",
+      "texts": {
+        "en": "Happiness is a journey, not a destination.",
+        "tr": "Mutluluk bir yolculuktur, bir varış noktası değil.",
+        "fr": "Le bonheur est un voyage, non une destination.",
+        "pt": "A felicidade é uma jornada, não um destino.",
+        "nl": "Geluk is een reis, geen bestemming.",
+        "es": "La felicidad es un viaje, no un destino.",
+        "de": "Glück ist eine Reise, kein Ziel.",
+        "it": "La felicità è un viaggio, non una destinazione.",
+        "ru": "Счастье — это путешествие, а не пункт назначения.",
+        "ar": "السعادة رحلة، وليست وجهة."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "ar": ""
+      },
+      "tags": {
+        "en": ["journey", "present", "enjoyment"],
+        "tr": ["yolculuk", "anı", "keyif"],
+        "fr": ["voyage", "présent", "plaisir"],
+        "pt": ["viagem", "presente", "prazer"],
+        "nl": ["reis", "moment", "plezier"],
+        "es": ["viaje", "presente", "disfrute"],
+        "de": ["Reise", "Moment", "Genuss"],
+        "it": ["viaggio", "presente", "piacere"],
+        "ru": ["путешествие", "настоящее", "наслаждение"],
+        "ar": ["الرحلة", "الحاضر", "المتعة"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "Enjoying the Journey",
+          "content": "The idea that 'happiness is a journey, not a destination' encourages us to find joy in our daily lives rather than pinning our hopes on a someday. Often people think, 'I'll be happy when I achieve X or when Y happens,' only to reach those goals and set new ones. This quote reminds us that if we are always waiting to arrive at happiness, we miss the simple pleasures along the way. Life is happening now, and every day is filled with small moments that can bring joy if we notice them. By enjoying the journey—each step, each day—we ensure that happiness isn't something we keep postponing, but something we live continuously.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Yolculuğun Keyfini Çıkarmak",
+          "content": "'Mutluluk bir yolculuktur, varış noktası değil' fikri, umutlarımızı bir gün gerçekleşecek şeylere bağlamak yerine günlük hayatımızda neşe bulmamızı teşvik eder. Genellikle insanlar 'X’e ulaştığımda ya da Y olduğunda mutlu olacağım' diye düşünür ve o hedeflere ulaştıklarında yeni hedefler belirlerler. Bu söz bize hatırlatıyor ki eğer sürekli mutluluğa varmayı beklersek, yol boyunca karşımıza çıkan basit zevkleri kaçırırız. Hayat şu anda gerçekleşiyor ve her gün, fark edersek bize neşe getirebilecek küçük anlarla dolu. Yolculuğun keyfini çıkararak — her adımı, her günü — mutluluğun sürekli ertelediğimiz bir şey değil, sürekli yaşadığımız bir şey olmasını sağlarız.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Profiter du voyage",
+          "content": "L’idée que 'le bonheur est un voyage, pas une destination' nous encourage à trouver de la joie dans notre vie quotidienne plutôt que de fonder nos espoirs sur un « un jour ». Souvent, les gens pensent : 'Je serai heureux quand j’aurai atteint X ou quand Y arrivera', pour ensuite atteindre ces objectifs et s’en fixer de nouveaux. Cette citation nous rappelle que si nous attendons toujours d’atteindre le bonheur, nous manquons les plaisirs simples en chemin. La vie se déroule maintenant, et chaque jour est rempli de petits moments qui peuvent apporter de la joie si nous y prêtons attention. En profitant du voyage — chaque étape, chaque jour — nous nous assurons que le bonheur n’est pas quelque chose que nous continuons de remettre à plus tard, mais quelque chose que nous vivons continuellement.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Aproveitando a Jornada",
+          "content": "A ideia de que 'a felicidade é uma jornada, não um destino' nos incentiva a encontrar alegria em nossas vidas diárias em vez de depositar nossas esperanças em um 'algum dia'. Frequentemente as pessoas pensam: 'Serei feliz quando alcançar X ou quando Y acontecer', para então alcançar essas metas e estabelecer outras novas. Essa citação nos lembra que, se estamos sempre esperando chegar à felicidade, perdemos os prazeres simples ao longo do caminho. A vida está acontecendo agora, e cada dia está repleto de pequenos momentos que podem trazer alegria se prestarmos atenção a eles. Ao desfrutar da jornada — cada passo, cada dia — garantimos que a felicidade não seja algo que continuamos adiando, mas algo que vivemos continuamente.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Genieten van de reis",
+          "content": "Het idee dat 'geluk een reis is, geen bestemming' moedigt ons aan om vreugde te vinden in ons dagelijks leven in plaats van onze hoop te vestigen op 'ooit'. Vaak denken mensen: 'Ik zal gelukkig zijn als ik X heb bereikt of als Y gebeurt', om vervolgens die doelen te bereiken en weer nieuwe te stellen. Dit citaat herinnert ons eraan dat als we altijd wachten om op het punt van geluk aan te komen, we de eenvoudige genoegens onderweg missen. Het leven gebeurt nu, en elke dag zit vol kleine momenten die vreugde kunnen brengen als we ze opmerken. Door van de reis te genieten — elke stap, elke dag — zorgen we ervoor dat geluk niet iets is dat we steeds uitstellen, maar iets dat we voortdurend beleven.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Disfrutar del camino",
+          "content": "La idea de que 'la felicidad es un viaje, no un destino' nos anima a encontrar la alegría en nuestra vida diaria en lugar de poner nuestras esperanzas en un « algún día ». A menudo la gente piensa: 'Seré feliz cuando logre X o cuando suceda Y', solo para alcanzar esas metas y fijarse otras nuevas. Esta frase nos recuerda que si siempre estamos esperando llegar a la felicidad, nos perdemos los placeres simples en el camino. La vida está ocurriendo ahora, y cada día está lleno de pequeños momentos que pueden traer alegría si nos damos cuenta de ellos. Disfrutando del viaje —cada paso, cada día— nos aseguramos de que la felicidad no sea algo que sigamos posponiendo, sino algo que vivimos continuamente.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Reise genießen",
+          "content": "Die Idee, dass 'Glück eine Reise ist, kein Ziel', ermutigt uns, Freude in unserem täglichen Leben zu finden, anstatt unsere Hoffnungen auf „eines Tages“ zu setzen. Oft denken die Menschen: 'Ich werde glücklich sein, wenn ich X erreiche oder wenn Y passiert', nur um dann diese Ziele zu erreichen und sich neue zu setzen. Dieses Zitat erinnert uns daran, dass wir, wenn wir immer darauf warten, beim Glück anzukommen, die einfachen Freuden unterwegs verpassen. Das Leben findet jetzt statt, und jeder Tag ist voller kleiner Momente, die Freude bringen können, wenn wir sie bemerken. Indem wir die Reise genießen — jeden Schritt, jeden Tag — stellen wir sicher, dass Glück nicht etwas ist, das wir ständig aufschieben, sondern etwas, das wir kontinuierlich leben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Godersi il viaggio",
+          "content": "L’idea che 'la felicità è un viaggio, non una destinazione' ci incoraggia a trovare la gioia nella vita quotidiana invece di riporre le nostre speranze in un « un giorno ». Spesso le persone pensano: 'Sarò felice quando raggiungerò X o quando accadrà Y', per poi raggiungere quegli obiettivi e fissarne di nuovi. Questa citazione ci ricorda che se stiamo sempre aspettando di arrivare alla felicità, ci perdiamo i piaceri semplici lungo la strada. La vita sta accadendo adesso, e ogni giorno è pieno di piccoli momenti che possono portare gioia se li notiamo. Godendoci il viaggio — ogni passo, ogni giorno — ci assicuriamo che la felicità non sia qualcosa che continuiamo a rimandare, ma qualcosa che viviamo continuamente.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Наслаждение путешествием",
+          "content": "Идея о том, что «счастье — это путь, а не пункт назначения», побуждает нас находить радость в нашей повседневной жизни, а не возлагать надежды на «когда-нибудь потом». Люди часто думают: «Я буду счастлив, когда достигну X или когда произойдет Y», — и, достигнув этих целей, ставят новые. Эта цитата напоминает нам, что если мы постоянно ждем прибытия к счастью, мы упускаем простые удовольствия на пути. Жизнь происходит сейчас, и каждый день полон небольших моментов, которые могут принести радость, если мы их замечаем. Наслаждаясь путешествием — каждым шагом, каждым днем — мы гарантируем, что счастье не останется чем-то, что мы все откладываем, а станет чем-то, что мы переживаем непрерывно.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "الاستمتاع بالرحلة",
+          "content": "إن فكرة أن 'السعادة رحلة وليست وجهة' تشجعنا على إيجاد البهجة في حياتنا اليومية بدلاً من تعليق آمالنا على «يوم ما». غالبًا ما يفكر الناس: 'سأكون سعيدًا عندما أحقق X أو عندما يحدث Y'، ثم يصلون إلى تلك الأهداف ليحددوا أهدافًا جديدة. هذه المقولة تذكرنا بأنه إذا كنا دائمًا ننتظر الوصول إلى السعادة، فإننا نفوت الملذات البسيطة على طول الطريق. الحياة تحدث الآن، وكل يوم مليء بلحظات صغيرة يمكن أن تجلب الفرح إذا انتبهنا لها. من خلال الاستمتاع بالرحلة — كل خطوة، كل يوم — نضمن أن السعادة ليست شيئًا نستمر في تأجيله، بل شيئًا نعيشه باستمرار.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "happiness_016",
+      "category": "happiness",
+      "texts": {
+        "en": "I have chosen to be happy because it is good for my health.",
+        "tr": "Mutlu olmayı seçtim, çünkü sağlığıma iyi geliyor.",
+        "fr": "J'ai choisi d'être heureux car c'est bon pour ma santé.",
+        "pt": "Eu escolhi ser feliz porque faz bem para minha saúde.",
+        "nl": "Ik heb ervoor gekozen om gelukkig te zijn, want dat is goed voor mijn gezondheid.",
+        "es": "He decidido ser feliz porque es bueno para mi salud.",
+        "de": "Ich habe beschlossen, glücklich zu sein, weil es gut für meine Gesundheit ist.",
+        "it": "Ho scelto di essere felice perché fa bene alla mia salute.",
+        "ru": "Я решил быть счастливым, потому что это хорошо для моего здоровья.",
+        "ar": "لقد اخترت أن أكون سعيدًا لأن ذلك مفيدٌ لصحتي."
+      },
+      "authors": {
+        "en": "Voltaire",
+        "tr": "Voltaire",
+        "fr": "Voltaire",
+        "pt": "Voltaire",
+        "nl": "Voltaire",
+        "es": "Voltaire",
+        "de": "Voltaire",
+        "it": "Voltaire",
+        "ru": "Вольтер",
+        "ar": "فولتير"
+      },
+      "tags": {
+        "en": ["health", "positivity", "choice"],
+        "tr": ["sağlık", "pozitiflik", "seçim"],
+        "fr": ["santé", "positivité", "choix"],
+        "pt": ["saúde", "positividade", "escolha"],
+        "nl": ["gezondheid", "positiviteit", "keuze"],
+        "es": ["salud", "positividad", "elección"],
+        "de": ["Gesundheit", "Positivität", "Wahl"],
+        "it": ["salute", "positività", "scelta"],
+        "ru": ["здоровье", "оптимизм", "выбор"],
+        "ar": ["الصحة", "الإيجابية", "الاختيار"]
+      },
+      "readTime": 1,
+      "stories": {
+        "en": {
+          "title": "A Healthy Choice: Happiness",
+          "content": "Voltaire, the Enlightenment-era philosopher known for his sharp wit, recognized a practical reason to choose a positive outlook: your health. He endured hardships and illnesses throughout his life, yet he advocated for happiness partly as a tonic for those struggles. Today, science supports his observation — stress and negativity can weaken the immune system, while a cheerful disposition can have healing effects. By deciding to be happy, Voltaire was not ignoring life's problems but approaching them in a way that kept him healthier and more resilient. His insight suggests that optimism isn't just feel-good fluff; it's also good medicine.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Sağlıklı Bir Tercih: Mutluluk",
+          "content": "Aydınlanma dönemi filozofu Voltaire, keskin zekâsıyla tanınan bir düşünür olarak, olumlu bir bakış açısını seçmek için pratik bir neden fark etti: sağlığınız. Hayatı boyunca zorluklar ve hastalıklar yaşadı, yine de mutluluğu savundu, kısmen de bu sıkıntılara bir tonik olarak. Bugün bilim, onun gözlemini destekliyor — stres ve olumsuzluk bağışıklık sistemini zayıflatabilirken neşeli bir tutum iyileştirici etkilere sahip olabiliyor. Mutlu olmayı seçerek Voltaire, hayatın sorunlarını görmezden gelmiyordu; aksine, onlara daha sağlıklı ve dirençli kalmasını sağlayan bir yaklaşımla yaklaşıyordu. Onun öngörüsü, iyimserliğin sadece hoş bir his değil, aynı zamanda iyi bir ilaç olduğunu öne sürüyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Un choix sain : le bonheur",
+          "content": "Voltaire, le philosophe de l'époque des Lumières connu pour son esprit acéré, a reconnu une raison pratique d'adopter une attitude positive : la santé. Il a enduré des épreuves et des maladies tout au long de sa vie, mais il a prôné le bonheur en partie comme un tonique face à ces difficultés. Aujourd'hui, la science soutient son observation — le stress et la négativité peuvent affaiblir le système immunitaire, tandis qu'une disposition joyeuse peut avoir des effets guérisseurs. En choisissant d'être heureux, Voltaire n'ignorait pas les problèmes de la vie ; il les abordait d'une manière qui le maintenait en meilleure santé et plus résilient. Son insight suggère que l'optimisme n'est pas qu'un simple baume pour le cœur, c'est aussi un bon remède.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Uma Escolha Saudável: Felicidade",
+          "content": "Voltaire, o filósofo do Iluminismo conhecido por seu espírito afiado, reconheceu uma razão prática para adotar uma atitude positiva: a saúde. Ele enfrentou dificuldades e doenças ao longo da vida, mas defendeu a felicidade em parte como um tônico para essas lutas. Hoje, a ciência apoia sua observação — o estresse e a negatividade podem enfraquecer o sistema imunológico, enquanto uma disposição alegre pode ter efeitos curativos. Ao decidir ser feliz, Voltaire não estava ignorando os problemas da vida, mas abordando-os em uma forma que o mantinha mais saudável e resiliente. Sua percepção sugere que o otimismo não é apenas algo agradável; é também um bom remédio.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Een gezonde keuze: geluk",
+          "content": "Voltaire, de filosoof uit de Verlichting die bekend stond om zijn scherpe geest, zag een praktische reden om voor een positieve instelling te kiezen: je gezondheid. Hij doorstond veel tegenslagen en ziektes in zijn leven, maar pleitte voor geluk, gedeeltelijk als een tonic tegen die moeilijkheden. Tegenwoordig ondersteunt de wetenschap zijn observatie — stress en negativiteit kunnen het immuunsysteem verzwakken, terwijl een opgewekte instelling heilzame effecten kan hebben. Door ervoor te kiezen gelukkig te zijn, negeerde Voltaire de problemen van het leven nicht; hij benaderde ze op een manier die hem gezonder en veerkrachtiger hield. Zijn inzicht suggereert dat optimisme niet alleen maar fijn voelt, het is ook goede medicijn.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Una elección saludable: la felicidad",
+          "content": "Voltaire, el filósofo de la Ilustración conocido por su agudo ingenio, reconoció una razón práctica para elegir una actitud positiva: la salud. Sufrió penurias y enfermedades a lo largo de su vida, pero defendió la felicidad en parte como un tónico para esas luchas. Hoy en día, la ciencia respalda su observación — el estrés y la negatividad pueden debilitar el sistema inmunológico, mientras que una disposición alegre puede tener efectos curativos. Al decidir ser feliz, Voltaire no estaba ignorando los problemas de la vida, sino abordándolos en una manera que lo mantenía más saludable y resiliente. Su percepción sugiere que el optimismo no es solo algo agradable; también es una buena medicina.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Eine gesunde Entscheidung: Glück",
+          "content": "Voltaire, der Philosoph der Aufklärung, bekannt für seinen scharfen Witz, erkannte einen praktischen Grund, eine positive Einstellung zu wählen: die Gesundheit. Er erduldete im Laufe seines Lebens viele Härten und Krankheiten, dennoch trat er für das Glück ein – teilweise als Stärkungsmittel gegen diese Schwierigkeiten. Heute stützt die Wissenschaft seine Beobachtung — Stress und Negativität können das Immunsystem schwächen, während eine heitere Gemütsverfassung heilende Wirkungen haben kann. Indem er beschloss, glücklich zu sein, ignorierte Voltaire die Probleme des Lebens nicht, sondern ging sie auf eine Weise an, die ihn gesünder und widerstandsfähiger hielt. Seine Erkenntnis lässt vermuten, dass Optimismus nicht nur etwas zum Gutfühlen ist, sondern auch eine gute Medizin.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Una scelta sana: la felicità",
+          "content": "Voltaire, il filosofo dell’Illuminismo noto per il suo spirito tagliente, riconobbe una ragione pratica per adottare un atteggiamento positivo: la salute. Sopportò difficoltà e malattie per tutta la vita, e tuttavia promosse la felicità in parte come un tonico per quelle lotte. Oggi la scienza sostiene la sua osservazione — lo stress e la negatività possono indebolire il sistema immunitario, mentre una disposizione allegra può avere effetti curativi. Decidendo di essere felice, Voltaire non stava ignorando i problemi della vita, ma affrontandoli in un modo che lo manteneva più sano e resiliente. La sua intuizione suggerisce che l’ottimismo non è solo qualcosa di piacevole, ma è anche una buona medicina.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Полезный выбор — быть счастливым",
+          "content": "Вольтер, философ эпохи Просвещения, известный своим острым умом, признал практическую причину выбирать позитивный взгляд на вещи: ваше здоровье. Он переносил трудности и болезни на протяжении всей жизни, однако выступал за счастье отчасти как тоник от этих невзгод. Сегодня наука подтверждает его наблюдение: стресс и негативность могут ослабить иммунную систему, тогда как жизнерадостный настрой может обладать целительным эффектом. Решив быть счастливым, Вольтер не игнорировал жизненные проблемы, а подходил к ним так, что это помогало ему оставаться более здоровым и стойким. Его прозрение предполагает, что оптимизм — это не просто пустяк для хорошего настроения; это еще и хорошее лекарство.",
+          "readTime": 3
+        },
+        "ar": {
+          "title": "خيار صحي: السعادة",
+          "content": "اعترف فولتير، الفيلسوف في عصر التنوير المعروف بروحه اللاذعة، بسبب عملي لتبني نظرة إيجابية: صحتك. لقد تحمل المصاعب والأمراض طوال حياته، ومع ذلك نادى بالسعادة جزئيًا كمنشط لتلك الصعوبات. اليوم، تدعم العلوم ملاحظته — فالتوتر والسلبية يمكن أن يضعفا الجهاز المناعي، في حين أن المزاج البهيج يمكن أن يكون له آثار علاجية. باختياره أن يكون سعيدًا، لم يكن فولتير يتجاهل مشكلات الحياة، بل كان يتعامل معها بطريقة أبقته أكثر صحة وصلابة. توحي بصيرته بأن التفاؤل ليس مجرد أمر لطيف للشعور الجيد؛ إنه أيضًا دواء مفيد.",
           "readTime": 3
         }
       }

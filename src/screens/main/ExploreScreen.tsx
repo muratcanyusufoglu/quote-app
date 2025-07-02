@@ -11,7 +11,6 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
-import { NavigationHeader } from "../../components/layout/NavigationHeader";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
@@ -221,7 +220,7 @@ export function ExploreScreen() {
 
   return (
     <BaseScreen style={styles.container} useGradientBackground={true}>
-      <NavigationHeader title={explore.title} currentRoute="/(tabs)/explore" />
+      {/* <NavigationHeader title={explore.title} currentRoute="/(tabs)/explore" /> */}
 
       <View style={styles.content}>
         {/* Navigation Bar */}
@@ -242,16 +241,6 @@ export function ExploreScreen() {
             </View>
 
             {/* Theme Settings Button */}
-            <TouchableOpacity
-              style={[
-                styles.themeButton,
-                { backgroundColor: theme.colors.whiteOverlay20 },
-              ]}
-              onPress={() => router.push("/themes")}
-              activeOpacity={0.7}
-            >
-              <IconSymbol name="palette" size={20} color={theme.colors.white} />
-            </TouchableOpacity>
           </View>
         </View>
 

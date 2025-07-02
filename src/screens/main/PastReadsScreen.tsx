@@ -104,11 +104,12 @@ export function PastReadsScreen() {
 
   return (
     <BaseScreen style={styles.container} useGradientBackground={true}>
+      <NavigationBar />
+
       <NavigationHeader title={history.title} currentRoute="/(tabs)/history" />
 
       <View style={styles.content}>
         {/* Navigation Bar */}
-        <NavigationBar />
 
         {lastReadQuotes.length === 0 ? (
           renderEmptyState()

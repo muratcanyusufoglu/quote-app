@@ -69,6 +69,17 @@ export function NavigationBar({ style }: NavigationBarProps) {
           color={theme.colors.brandYellow}
         />
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[
+          styles.navButton,
+          { backgroundColor: theme.colors.whiteOverlay10 },
+        ]}
+        onPress={() => router.push("/themes")}
+        activeOpacity={0.7}
+      >
+        <IconSymbol name="palette" size={20} color={theme.colors.brandYellow} />
+      </TouchableOpacity>
     </View>
   );
 }
