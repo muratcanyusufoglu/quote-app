@@ -1,7 +1,15 @@
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Notifications from "expo-notifications";
 import { router } from "expo-router";
 import { LocalizedQuote, UserPreferences } from "../types";
 import { DataService } from "./DataService";
+
+// Storage keys
+const UNREAD_QUOTES_KEY = "unread_quotes";
+const NEXT_QUOTES_KEY = "next_quotes";
+
+// App name constant
+const APP_NAME = "QuoteSpark";
 
 // Notification behavior configuration
 Notifications.setNotificationHandler({
@@ -18,7 +26,17 @@ export interface NotificationData {
   quoteId: string;
   category: string;
   type: "daily_quote";
+  date: string; // Add date to track when this quote was scheduled for
   [key: string]: unknown;
+}
+
+interface StoredQuoteSchedule {
+  quotes: Array<{
+    quote: LocalizedQuote;
+    scheduledFor: string; // ISO date string
+    timeSlot: { hour: number; minute: number };
+  }>;
+  lastUpdated: string;
 }
 
 export class NotificationService {
@@ -55,17 +73,283 @@ export class NotificationService {
   }
 
   /**
-   * Handle notification tap - navigate to quote detail
+   * Handle notification tap - navigate to quote detail and mark as read
    */
-  private handleNotificationResponse(
+  private async handleNotificationResponse(
     response: Notifications.NotificationResponse
   ) {
     const data = response.notification.request.content.data as NotificationData;
 
     if (data?.quoteId && data?.type === "daily_quote") {
       console.log("📱 Opening quote from notification:", data.quoteId);
+
+      // Mark quote as read
+      await this.markQuoteAsRead(data.quoteId);
+
       // Navigate to quote detail page
       router.push(`/quote-detail/${data.quoteId}`);
+    }
+  }
+
+  /**
+   * Mark a quote as read in storage
+   */
+  private async markQuoteAsRead(quoteId: string) {
+    try {
+      const unreadQuotes = await this.getUnreadQuotes();
+      const updatedUnread = unreadQuotes.filter((q) => q !== quoteId);
+      await AsyncStorage.setItem(
+        UNREAD_QUOTES_KEY,
+        JSON.stringify(updatedUnread)
+      );
+    } catch (error) {
+      console.error("Error marking quote as read:", error);
+    }
+  }
+
+  /**
+   * Get list of unread quote IDs
+   */
+  private async getUnreadQuotes(): Promise<string[]> {
+    try {
+      const unreadQuotes = await AsyncStorage.getItem(UNREAD_QUOTES_KEY);
+      return unreadQuotes ? JSON.parse(unreadQuotes) : [];
+    } catch (error) {
+      console.error("Error getting unread quotes:", error);
+      return [];
+    }
+  }
+
+  /**
+   * Add quotes to unread list
+   */
+  private async addUnreadQuotes(quoteIds: string[]) {
+    try {
+      const currentUnread = await this.getUnreadQuotes();
+      const newUnread = [...new Set([...currentUnread, ...quoteIds])];
+      await AsyncStorage.setItem(UNREAD_QUOTES_KEY, JSON.stringify(newUnread));
+    } catch (error) {
+      console.error("Error adding unread quotes:", error);
+    }
+  }
+
+  /**
+   * Get stored quote schedule
+   */
+  private async getStoredSchedule(): Promise<StoredQuoteSchedule | null> {
+    try {
+      const stored = await AsyncStorage.getItem(NEXT_QUOTES_KEY);
+      return stored ? JSON.parse(stored) : null;
+    } catch (error) {
+      console.error("Error getting stored schedule:", error);
+      return null;
+    }
+  }
+
+  /**
+   * Store quote schedule
+   */
+  private async storeSchedule(schedule: StoredQuoteSchedule) {
+    try {
+      await AsyncStorage.setItem(NEXT_QUOTES_KEY, JSON.stringify(schedule));
+    } catch (error) {
+      console.error("Error storing schedule:", error);
+    }
+  }
+
+  /**
+   * Schedule notifications based on user preferences
+   */
+  async scheduleNotifications(
+    userPreferences: UserPreferences,
+    isPremium: boolean
+  ): Promise<void> {
+    try {
+      // Cancel existing notifications first
+      await this.cancelAllNotifications();
+
+      // Check permissions
+      const hasPermission = await this.requestPermissions();
+      if (!hasPermission) {
+        console.log("❌ Cannot schedule notifications without permission");
+        return;
+      }
+
+      // Parse time range
+      const startTime = this.parseTime(
+        userPreferences.notificationTimeRange.start
+      );
+      const endTime = this.parseTime(userPreferences.notificationTimeRange.end);
+
+      // Calculate intervals between notifications
+      const totalMinutes = this.calculateMinutesBetween(startTime, endTime);
+      const intervalMinutes = Math.floor(
+        totalMinutes / userPreferences.notificationCount
+      );
+
+      // Calculate time slots
+      const timeSlots: Array<{ hour: number; minute: number }> = [];
+      let currentTime = startTime;
+      for (let i = 0; i < userPreferences.notificationCount; i++) {
+        timeSlots.push({ ...currentTime });
+        currentTime = this.addMinutes(currentTime, intervalMinutes);
+      }
+
+      // Get quotes for the next 7 days
+      const daysToSchedule = 7;
+      const quotesNeeded = timeSlots.length * daysToSchedule;
+      const quotes = await this.getRandomQuotes(
+        userPreferences,
+        isPremium,
+        quotesNeeded
+      );
+
+      if (quotes.length === 0) {
+        console.log("❌ No quotes available for notifications");
+        return;
+      }
+
+      // Adjust days to schedule based on available quotes
+      const actualDaysToSchedule = Math.floor(quotes.length / timeSlots.length);
+      if (actualDaysToSchedule === 0) {
+        console.log("❌ Not enough quotes for even one day of notifications");
+        return;
+      }
+
+      console.log(
+        `📅 Scheduling notifications for ${actualDaysToSchedule} days (${quotes.length} quotes available)`
+      );
+
+      // Create schedule for available days
+      const now = new Date();
+      const schedule: StoredQuoteSchedule = {
+        quotes: [],
+        lastUpdated: now.toISOString(),
+      };
+
+      // Schedule only what we can with available quotes
+      for (let day = 0; day < actualDaysToSchedule; day++) {
+        const date = new Date(now);
+        date.setDate(date.getDate() + day);
+
+        for (let slot = 0; slot < timeSlots.length; slot++) {
+          const quoteIndex = day * timeSlots.length + slot;
+          // Double check that we have this quote
+          if (quoteIndex < quotes.length) {
+            const quote = quotes[quoteIndex];
+            const timeSlot = timeSlots[slot];
+
+            schedule.quotes.push({
+              quote,
+              scheduledFor: date.toISOString(),
+              timeSlot,
+            });
+          }
+        }
+      }
+
+      // Store schedule
+      await this.storeSchedule(schedule);
+
+      // Add all quotes to unread list
+      await this.addUnreadQuotes(quotes.map((q) => q.id));
+
+      // Schedule notifications for each quote
+      for (const { quote, scheduledFor, timeSlot } of schedule.quotes) {
+        await this.scheduleQuoteNotification(quote, timeSlot, scheduledFor);
+      }
+
+      console.log(
+        `✅ Successfully scheduled ${schedule.quotes.length} notifications for the next ${actualDaysToSchedule} days`
+      );
+    } catch (error) {
+      console.error("Error scheduling notifications:", error);
+      throw error; // Rethrow to see the full error stack
+    }
+  }
+
+  /**
+   * Schedule a single quote notification
+   */
+  private async scheduleQuoteNotification(
+    quote: LocalizedQuote,
+    time: { hour: number; minute: number },
+    scheduledFor: string
+  ): Promise<void> {
+    // Get user's local timezone
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    const notificationData: NotificationData = {
+      quoteId: quote.id,
+      category: quote.category,
+      type: "daily_quote",
+      date: scheduledFor,
+    };
+
+    const notificationContent: Notifications.NotificationContentInput = {
+      title: `${APP_NAME} ✨`,
+      body: this.truncateText(quote.text, 100),
+      data: notificationData,
+      sound: true,
+    };
+
+    // Parse scheduled date
+    const scheduledDate = new Date(scheduledFor);
+    scheduledDate.setHours(time.hour, time.minute, 0, 0);
+
+    // Only schedule if the time hasn't passed
+    const now = new Date();
+    if (scheduledDate > now) {
+      const trigger: Notifications.DateTriggerInput = {
+        date: scheduledDate,
+        type: Notifications.SchedulableTriggerInputTypes.DATE,
+      };
+
+      const identifier = `quote_${quote.id}_${scheduledFor}`;
+      await Notifications.scheduleNotificationAsync({
+        identifier,
+        content: notificationContent,
+        trigger,
+      });
+
+      console.log(
+        `📱 Scheduled notification for quote ${
+          quote.id
+        } at ${scheduledDate.toLocaleString()} (${timezone})`
+      );
+    }
+  }
+
+  /**
+   * Update notifications daily
+   * Call this when app opens or at midnight
+   */
+  async updateDailySchedule(
+    userPreferences: UserPreferences,
+    isPremium: boolean
+  ): Promise<void> {
+    try {
+      const storedSchedule = await this.getStoredSchedule();
+      if (!storedSchedule) {
+        // No schedule exists, create new one
+        await this.scheduleNotifications(userPreferences, isPremium);
+        return;
+      }
+
+      // Check if schedule needs update (older than 24 hours)
+      const lastUpdated = new Date(storedSchedule.lastUpdated);
+      const now = new Date();
+      const hoursSinceUpdate =
+        (now.getTime() - lastUpdated.getTime()) / (1000 * 60 * 60);
+
+      if (hoursSinceUpdate >= 24) {
+        // Time to update schedule
+        await this.scheduleNotifications(userPreferences, isPremium);
+      } else {
+        console.log("📅 Notification schedule is up to date");
+      }
+    } catch (error) {
+      console.error("Error updating daily schedule:", error);
     }
   }
 
@@ -160,148 +444,6 @@ export class NotificationService {
   }
 
   /**
-   * Schedule notifications based on user preferences
-   */
-  async scheduleNotifications(
-    userPreferences: UserPreferences,
-    isPremium: boolean
-  ): Promise<void> {
-    try {
-      // Cancel existing notifications first
-      await this.cancelAllNotifications();
-
-      // Check permissions
-      const hasPermission = await this.requestPermissions();
-      if (!hasPermission) {
-        console.log("❌ Cannot schedule notifications without permission");
-        return;
-      }
-
-      // Get random quotes for notifications
-      const quotes = await this.getRandomQuotes(
-        userPreferences,
-        isPremium,
-        userPreferences.notificationCount || 3
-      );
-
-      if (quotes.length === 0) {
-        console.log("❌ No quotes available for notifications");
-        return;
-      }
-
-      // Parse time range
-      const startTime = this.parseTime(
-        userPreferences.notificationTimeRange.start
-      );
-      const endTime = this.parseTime(userPreferences.notificationTimeRange.end);
-
-      // Calculate intervals between notifications
-      const totalMinutes = this.calculateMinutesBetween(startTime, endTime);
-      const intervalMinutes = Math.floor(
-        totalMinutes / userPreferences.notificationCount
-      );
-
-      console.log(
-        `📅 Scheduling ${quotes.length} notifications between ${userPreferences.notificationTimeRange.start} - ${userPreferences.notificationTimeRange.end}`
-      );
-      console.log(`⏱️ Interval: ${intervalMinutes} minutes`);
-      console.log(
-        `🌍 User timezone: ${Intl.DateTimeFormat().resolvedOptions().timeZone}`
-      );
-
-      // Development mode info
-      if (__DEV__) {
-        console.log(
-          `🚧 Running in DEVELOPMENT mode. Notifications may behave differently than in production build.`
-        );
-      }
-
-      // Schedule each notification
-      for (let i = 0; i < quotes.length; i++) {
-        const quote = quotes[i];
-        const notificationTime = this.addMinutes(
-          startTime,
-          intervalMinutes * i
-        );
-
-        await this.scheduleQuoteNotification(quote, notificationTime, i);
-      }
-
-      console.log(`✅ Successfully scheduled ${quotes.length} notifications`);
-
-      // Log scheduled notifications for debugging
-      const scheduled = await this.getScheduledNotifications();
-      console.log(`📋 Total scheduled notifications: ${scheduled.length}`);
-
-      if (__DEV__ && scheduled.length > 0) {
-        console.log(
-          "🔍 Scheduled notifications details:",
-          scheduled.map((n: Notifications.NotificationRequest) => ({
-            id: n.identifier,
-            trigger: n.trigger,
-          }))
-        );
-      }
-    } catch (error) {
-      console.error("Error scheduling notifications:", error);
-    }
-  }
-
-  /**
-   * Schedule a single quote notification
-   */
-  private async scheduleQuoteNotification(
-    quote: LocalizedQuote,
-    time: { hour: number; minute: number },
-    index: number
-  ): Promise<void> {
-    // Get user's local timezone
-    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
-    const notificationData: NotificationData = {
-      quoteId: quote.id,
-      category: quote.category,
-      type: "daily_quote",
-    };
-
-    const notificationContent: Notifications.NotificationContentInput = {
-      title:
-        quote.language === "tr" ? "✨ Günlük İlham" : "✨ Daily Inspiration",
-      body: this.truncateText(quote.text, 100),
-      data: notificationData,
-      sound: true,
-    };
-
-    // Use calendar trigger with timezone support for precise local time scheduling
-    const trigger = {
-      hour: time.hour,
-      minute: time.minute,
-      repeats: true,
-      timezone: timezone, // ← Bu yerel saat dilimini kullanır
-    } as Notifications.CalendarTriggerInput;
-
-    await Notifications.scheduleNotificationAsync({
-      identifier: `daily_quote_${index}`,
-      content: notificationContent,
-      trigger,
-    });
-
-    console.log(
-      `📱 Scheduled notification ${index + 1} at ${time.hour}:${time.minute
-        .toString()
-        .padStart(2, "0")} (Timezone: ${timezone})`
-    );
-
-    // Development mode warning
-    if (__DEV__) {
-      console.warn(
-        `🚧 DEVELOPMENT MODE: Notifications may not work properly in Expo Go. ` +
-          `For accurate timing, test with production build (expo build / eas build).`
-      );
-    }
-  }
-
-  /**
    * Cancel all scheduled notifications
    */
   async cancelAllNotifications(): Promise<void> {
@@ -310,20 +452,6 @@ export class NotificationService {
       console.log("🗑️ All notifications cancelled");
     } catch (error) {
       console.error("Error cancelling notifications:", error);
-    }
-  }
-
-  /**
-   * Get all scheduled notifications (for debugging)
-   */
-  async getScheduledNotifications(): Promise<
-    Notifications.NotificationRequest[]
-  > {
-    try {
-      return await Notifications.getAllScheduledNotificationsAsync();
-    } catch (error) {
-      console.error("Error getting scheduled notifications:", error);
-      return [];
     }
   }
 

@@ -24,13 +24,13 @@ export function ShareButton({
   onShareError,
 }: ShareButtonProps) {
   const { theme } = useTheme();
+  const APP_NAME = "QuoteSpark";
 
   const handleShare = async () => {
     try {
       const shareContent = {
         message: `"${quote.text}"\n\n- ${quote.author || "Unknown"}`,
-        title:
-          quote.language === "tr" ? "✨ Günlük İlham" : "✨ Daily Inspiration",
+        title: APP_NAME,
       };
 
       await Share.share(shareContent);

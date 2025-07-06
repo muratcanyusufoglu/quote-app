@@ -32,7 +32,7 @@ const BaseScreen: React.FC<BaseScreenProps> = ({
         backgroundColor="transparent"
         translucent
       />
-      <View style={$fullScreen}>
+      <View style={[$fullScreen, { backgroundColor: theme.colors.background }]}>
         {useGradientBackground ? (
           <>
             <LinearGradient
@@ -55,7 +55,9 @@ const BaseScreen: React.FC<BaseScreenProps> = ({
           <View style={[$gradientBackground, { backgroundColor: bgColor }]} />
         )}
 
-        <SafeAreaView style={[$safeArea, safeAreaStyle]}>
+        <SafeAreaView
+          style={[$safeArea, { backgroundColor: "transparent" }, safeAreaStyle]}
+        >
           <View style={[$container, style]}>{children}</View>
         </SafeAreaView>
       </View>
