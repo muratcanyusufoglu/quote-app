@@ -56,7 +56,13 @@ import {
   X,
   Zap,
 } from "lucide-react-native";
-import { OpaqueColorValue, type StyleProp, type ViewStyle } from "react-native";
+import {
+  OpaqueColorValue,
+  Text,
+  View,
+  type StyleProp,
+  type ViewStyle,
+} from "react-native";
 
 // Map of icon names to Lucide components
 const ICON_MAPPING = {
@@ -148,27 +154,63 @@ export function IconSymbol({
 }) {
   const IconComponent = ICON_MAPPING[name];
 
+  // Debug logging
+  console.log(`🔍 IconSymbol: Requesting icon "${name}"`);
+  console.log(`🔍 IconComponent found:`, !!IconComponent);
+
   if (!IconComponent) {
     console.warn(`❌ Icon "${name}" not found in IconSymbol mapping`);
     console.log("Available icons:", Object.keys(ICON_MAPPING));
-    // Return a fallback icon instead of null
-    const FallbackIcon = ICON_MAPPING["star"];
+
+    // Return a debug text instead of fallback icon to identify the issue
     return (
-      <FallbackIcon
+      <View
+        style={[
+          {
+            width: size,
+            height: size,
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "red",
+          },
+          style,
+        ]}
+      >
+        <Text style={{ color: "white", fontSize: 8 }}>?</Text>
+      </View>
+    );
+  }
+
+  try {
+    console.log(
+      `✅ Rendering icon "${name}" with component:`,
+      IconComponent.name
+    );
+    return (
+      <IconComponent
         size={size}
         color={color}
         strokeWidth={strokeWidth}
         style={style}
       />
     );
+  } catch (error) {
+    console.error(`❌ Error rendering icon "${name}":`, error);
+    return (
+      <View
+        style={[
+          {
+            width: size,
+            height: size,
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "orange",
+          },
+          style,
+        ]}
+      >
+        <Text style={{ color: "white", fontSize: 8 }}>!</Text>
+      </View>
+    );
   }
-
-  return (
-    <IconComponent
-      size={size}
-      color={color}
-      strokeWidth={strokeWidth}
-      style={style}
-    />
-  );
 }

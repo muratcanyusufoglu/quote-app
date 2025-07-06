@@ -21,6 +21,9 @@ type TranslationKey = DeepKeys<typeof trTranslations>;
 
 // Helper function to get nested object value by dot notation
 const getNestedValue = (obj: any, path: string): string => {
+  if (!path || typeof path !== "string") {
+    return path || "";
+  }
   return path.split(".").reduce((current, key) => current?.[key], obj) || path;
 };
 
@@ -57,10 +60,18 @@ class TranslationService {
     namespace: string,
     language: SupportedLanguage
   ): Record<string, string> {
+    if (!namespace || typeof namespace !== "string") {
+      return {};
+    }
+
     const translations = this.translations[language];
+    if (!translations) {
+      return {};
+    }
+
     const namespaceValue = getNestedValue(translations, namespace);
 
-    if (typeof namespaceValue === "object") {
+    if (typeof namespaceValue === "object" && namespaceValue !== null) {
       return namespaceValue;
     }
 
@@ -104,7 +115,16 @@ export function useTranslation() {
 // Specialized hooks for specific namespaces
 export function useNavigationTranslations() {
   const { tNamespace } = useTranslation();
-  return tNamespace("navigation");
+  const navigationTranslations = tNamespace("navigation");
+
+  // Ensure we have default values for navigation items
+  return {
+    home: navigationTranslations?.home || "Home",
+    explore: navigationTranslations?.explore || "Explore",
+    favorites: navigationTranslations?.favorites || "Favorites",
+    history: navigationTranslations?.history || "History",
+    ...navigationTranslations,
+  };
 }
 
 export function useCommonTranslations() {
