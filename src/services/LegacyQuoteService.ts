@@ -202,13 +202,24 @@ class LegacyQuoteService {
       selectedCategories
     );
 
+    // For category-specific requests, use more aggressive fallback
+    const isSpecificCategory =
+      selectedCategories && selectedCategories.length > 0;
+    const fallbackThreshold = isSpecificCategory ? 1 : 3; // More aggressive for categories
+
     // Use fallback logic if insufficient unseen quotes
     const { quotes: quotesToUse, fallbackUsed } =
-      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
+      quoteFilterService.getQuotesWithFallback(
+        availableQuotes,
+        seenQuoteIds,
+        fallbackThreshold
+      );
 
     if (fallbackUsed) {
       console.log(
-        "🔄 Legacy service fallback activated: Including previously seen quotes"
+        `🔄 Legacy service fallback activated for ${
+          isSpecificCategory ? "category-specific" : "general"
+        } quotes: Including previously seen quotes`
       );
     }
 

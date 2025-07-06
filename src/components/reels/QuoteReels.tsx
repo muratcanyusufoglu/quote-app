@@ -1,5 +1,11 @@
 import { router } from "expo-router";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   Alert,
   Dimensions,
@@ -24,6 +30,7 @@ interface QuoteReelsProps {
   onQuoteView?: (quote: LocalizedQuote) => void;
   onQuoteAction?: (actionType: string) => void;
   refreshControl?: boolean;
+  categoryFilter?: string | null;
 }
 
 const { height: screenHeight } = Dimensions.get("window");
@@ -34,14 +41,18 @@ export function QuoteReels({
   onQuoteView,
   onQuoteAction,
   refreshControl = true,
+  categoryFilter = null,
 }: QuoteReelsProps) {
   const { theme } = useTheme();
+  const flatListRef = useRef<FlatList>(null);
   const [quotes, setQuotes] = useState<LocalizedQuote[]>(initialQuotes);
   const [isLoading, setIsLoading] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
   const [hasMoreQuotes, setHasMoreQuotes] = useState(true);
   const [viewedQuotes, setViewedQuotes] = useState<Set<string>>(new Set());
+  const [isFavoriteActionInProgress, setIsFavoriteActionInProgress] =
+    useState(false);
 
   // Store data
   const favoriteQuotes = useFavoriteQuotes();
@@ -53,12 +64,10 @@ export function QuoteReels({
 
   // Memoized available quotes - aynı gün içinde tüm quote'lar görülebilir
   const availableQuotes = useMemo(() => {
-    // Aynı gün içinde quote'lar tekrar görülebilir olmalı
-    // Sadece yeni quote'lar yüklendikçe liste genişler
     console.log("🔍 Total quotes:", quotes.length);
     console.log("👀 Seen quotes:", seenQuotes.length);
     console.log("✅ Available quotes (all):", quotes.length);
-    return quotes; // Tüm quote'ları göster, seen/unseen filtrelemesi yapma
+    return quotes;
   }, [quotes, seenQuotes]);
 
   // Load initial quotes if not provided
@@ -69,7 +78,6 @@ export function QuoteReels({
         loadInitialQuotes();
       } else {
         console.log("📦 Using provided initial quotes:", initialQuotes.length);
-        // Unique initial quotes'ları al
         const uniqueInitialQuotes = initialQuotes.filter(
           (quote, index, self) =>
             index === self.findIndex((q) => q.id === quote.id)
@@ -79,13 +87,35 @@ export function QuoteReels({
     }
   }, []); // Sadece ilk mount'ta çalış
 
+  // Reload quotes when category filter or initial quotes change
+  useEffect(() => {
+    if (initialQuotes.length > 0) {
+      console.log("📦 Initial quotes changed, updating:", initialQuotes.length);
+      const uniqueInitialQuotes = initialQuotes.filter(
+        (quote, index, self) =>
+          index === self.findIndex((q) => q.id === quote.id)
+      );
+      setQuotes(uniqueInitialQuotes);
+      setCurrentPage(1);
+      setHasMoreQuotes(true);
+      setViewedQuotes(new Set());
+    }
+  }, [initialQuotes, categoryFilter]);
+
   const loadInitialQuotes = useCallback(async () => {
     try {
       setIsLoading(true);
       console.log("🔄 QuoteReels: Loading initial quotes...");
-      const newQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
 
-      // Unique quote'ları al
+      let newQuotes: LocalizedQuote[];
+
+      if (categoryFilter) {
+        console.log(`📂 Loading quotes from category: ${categoryFilter}`);
+        newQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
+      } else {
+        newQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
+      }
+
       const uniqueQuotes = newQuotes.filter(
         (quote, index, self) =>
           index === self.findIndex((q) => q.id === quote.id)
@@ -101,7 +131,7 @@ export function QuoteReels({
     } finally {
       setIsLoading(false);
     }
-  }, [getHomeFeedQuotes]);
+  }, [getHomeFeedQuotes, getExploreQuotes, categoryFilter]);
 
   const loadMoreQuotes = useCallback(async () => {
     if (isLoading || !hasMoreQuotes) return;
@@ -109,22 +139,38 @@ export function QuoteReels({
     try {
       setIsLoading(true);
 
-      // Get more quotes based on current page
-      const moreQuotes = getExploreQuotes(
-        [], // No specific categories - get from all available
-        QUOTES_PER_PAGE
-      );
+      let moreQuotes: LocalizedQuote[];
+
+      if (categoryFilter) {
+        console.log(`📂 Loading more quotes from category: ${categoryFilter}`);
+        moreQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
+
+        if (moreQuotes.length === 0) {
+          console.log(
+            `🔄 No more quotes in ${categoryFilter}, cycling back to beginning`
+          );
+          moreQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
+        }
+      } else {
+        moreQuotes = getExploreQuotes([], QUOTES_PER_PAGE);
+      }
 
       if (moreQuotes.length > 0) {
         setQuotes((prevQuotes) => {
-          // Duplicate quote'ları filtrele
-          const existingIds = new Set(prevQuotes.map((q) => q.id));
-          const newUniqueQuotes = moreQuotes.filter(
-            (quote) => !existingIds.has(quote.id)
-          );
-
-          console.log("📥 New quotes to add:", newUniqueQuotes.length);
-          return [...prevQuotes, ...newUniqueQuotes];
+          if (categoryFilter) {
+            console.log(
+              "📥 Adding quotes for category (allowing duplicates):",
+              moreQuotes.length
+            );
+            return [...prevQuotes, ...moreQuotes];
+          } else {
+            const existingIds = new Set(prevQuotes.map((q) => q.id));
+            const newUniqueQuotes = moreQuotes.filter(
+              (quote) => !existingIds.has(quote.id)
+            );
+            console.log("📥 New unique quotes to add:", newUniqueQuotes.length);
+            return [...prevQuotes, ...newUniqueQuotes];
+          }
         });
         setCurrentPage((prev) => prev + 1);
         setHasMoreQuotes(moreQuotes.length === QUOTES_PER_PAGE);
@@ -136,7 +182,14 @@ export function QuoteReels({
     } finally {
       setIsLoading(false);
     }
-  }, [isLoading, hasMoreQuotes, seenQuotes, quotes, getExploreQuotes]);
+  }, [
+    isLoading,
+    hasMoreQuotes,
+    seenQuotes,
+    quotes,
+    getExploreQuotes,
+    categoryFilter,
+  ]);
 
   const handleRefresh = useCallback(async () => {
     if (isRefreshing) return;
@@ -144,9 +197,16 @@ export function QuoteReels({
     try {
       setIsRefreshing(true);
       console.log("🔄 Refreshing quotes...");
-      const freshQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
 
-      // Unique quote'ları al
+      let freshQuotes: LocalizedQuote[];
+
+      if (categoryFilter) {
+        console.log(`🔄 Refreshing quotes from category: ${categoryFilter}`);
+        freshQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
+      } else {
+        freshQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
+      }
+
       const uniqueQuotes = freshQuotes.filter(
         (quote, index, self) =>
           index === self.findIndex((q) => q.id === quote.id)
@@ -162,12 +222,10 @@ export function QuoteReels({
     } finally {
       setIsRefreshing(false);
     }
-  }, [isRefreshing, getHomeFeedQuotes]);
+  }, [isRefreshing, getHomeFeedQuotes, getExploreQuotes, categoryFilter]);
 
   const handleQuotePress = useCallback(
     (quote: LocalizedQuote) => {
-      // Quote detay sayfasına git, ancak hemen "okundu" olarak işaretleme
-      // Quote sadece detay sayfasında uzun süre kalındığında okundu işaretlenecek
       onQuoteView?.(quote);
       router.push(`/quote-detail/${quote.id}`);
     },
@@ -176,11 +234,31 @@ export function QuoteReels({
 
   const handleFavoritePress = useCallback(
     (quoteId: string) => {
+      // Prevent scrolling during favorite action
+      setIsFavoriteActionInProgress(true);
+
+      // Store current scroll position to maintain it
+      if (flatListRef.current) {
+        flatListRef.current.setNativeProps({
+          scrollEnabled: false,
+        });
+      }
+
       if (favoriteQuotes.includes(quoteId)) {
         removeFromFavorites(quoteId);
       } else {
         addToFavorites(quoteId);
       }
+
+      // Re-enable scrolling after action is complete
+      setTimeout(() => {
+        if (flatListRef.current) {
+          flatListRef.current.setNativeProps({
+            scrollEnabled: true,
+          });
+        }
+        setIsFavoriteActionInProgress(false);
+      }, 300);
     },
     [favoriteQuotes, addToFavorites, removeFromFavorites]
   );
@@ -311,10 +389,11 @@ export function QuoteReels({
   return (
     <View style={styles.container}>
       <FlatList
+        ref={flatListRef}
         data={availableQuotes}
         renderItem={renderQuoteItem}
         keyExtractor={keyExtractor}
-        pagingEnabled
+        pagingEnabled={true}
         showsVerticalScrollIndicator={false}
         snapToInterval={screenHeight}
         snapToAlignment="start"
@@ -328,6 +407,8 @@ export function QuoteReels({
         maxToRenderPerBatch={3}
         windowSize={5}
         initialNumToRender={2}
+        scrollEnabled={!isFavoriteActionInProgress}
+        scrollEventThrottle={16}
         refreshControl={
           refreshControl ? (
             <RefreshControl

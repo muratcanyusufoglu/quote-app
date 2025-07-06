@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
   },
   topBar: {
     position: "absolute",
-    top: 200, //60
+    top: 160,
     left: 0,
     right: 0,
     zIndex: 1001,
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
   exploreButton: {
     width: 44,
     height: 44,
-    backgroundColor: "red",
+    backgroundColor: "rgba(0, 0, 0, 0.4)",
     borderRadius: 22,
     justifyContent: "center",
     alignItems: "center",
@@ -213,8 +213,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 24,
-    paddingVertical: 100,
-    // Allow overflow for stack effect
+    paddingTop: 80,
+    paddingBottom: 120,
     overflow: "visible",
   },
   card: {

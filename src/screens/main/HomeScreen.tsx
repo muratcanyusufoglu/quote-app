@@ -3,7 +3,12 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
-import { useExploreQuotes, useHomeQuotes } from "../../hooks/useQuoteService";
+import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
+import {
+  useExploreQuotes,
+  useHomeQuotes,
+  useQuoteCategories,
+} from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
   useScreenTranslations,
@@ -53,8 +58,16 @@ export function HomeScreen() {
   const home = useScreenTranslations("home");
   const common = useCommonTranslations();
 
+  // Categories for getting category name
+  const { allCategories } = useQuoteCategories();
+
   // Create styles with theme
   const styles = createStyles(theme);
+
+  // Get category name for display
+  const selectedCategoryData = categoryFilter
+    ? allCategories.find((cat) => cat.id === categoryFilter)
+    : null;
 
   // Determine quote source based on user status and navigation source
   const getQuoteSource = () => {
@@ -278,31 +291,13 @@ export function HomeScreen() {
         </View>
       )}
 
-      {/* Category filter indicator - Hidden by default */}
-      {false && categoryFilter && (
-        <View
-          style={[
-            styles.categoryFilterBanner,
-            { backgroundColor: theme.colors.surface },
-          ]}
-        >
-          <View style={styles.categoryFilterContent}>
-            <Text
-              style={[styles.categoryFilterText, { color: theme.colors.text }]}
-            >
-              {home.category_filter.replace("{category}", categoryFilter || "")}
-            </Text>
-            <Text
-              style={[
-                styles.clearFilterButton,
-                { color: theme.colors.primary },
-              ]}
-              onPress={clearCategoryFilter}
-            >
-              {home.clear_filter}
-            </Text>
-          </View>
-        </View>
+      {/* Category filter indicator - Show when category is selected */}
+      {categoryFilter && selectedCategoryData && (
+        <CategoryFilterChip
+          categoryName={selectedCategoryData.name}
+          categoryId={categoryFilter}
+          onClear={clearCategoryFilter}
+        />
       )}
 
       {/* Personalization indicator - Hidden by default */}
@@ -348,6 +343,7 @@ export function HomeScreen() {
         onQuoteView={handleQuoteView}
         onQuoteAction={handleQuoteAction}
         refreshControl={true}
+        categoryFilter={categoryFilter}
       />
     </BaseScreen>
   );
@@ -444,38 +440,6 @@ const createStyles = (theme: any) =>
     debugButtonText: {
       fontSize: 14,
       fontWeight: "600",
-    },
-    categoryFilterBanner: {
-      paddingHorizontal: 16,
-      paddingVertical: 12,
-      marginHorizontal: 16,
-      marginVertical: 8,
-      borderRadius: 12,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.1,
-      shadowRadius: 4,
-      elevation: 3,
-      zIndex: 1000,
-    },
-    categoryFilterContent: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-      alignItems: "center",
-    },
-    categoryFilterText: {
-      fontSize: 16,
-      fontWeight: "600",
-      flex: 1,
-    },
-    clearFilterButton: {
-      fontSize: 14,
-      fontWeight: "600",
-      paddingHorizontal: 12,
-      paddingVertical: 4,
     },
     personalizationBanner: {
       paddingHorizontal: 16,
