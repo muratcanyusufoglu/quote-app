@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
   },
   topBar: {
     position: "absolute",
-    top: 160,
+    top: 160, //change later
     left: 0,
     right: 0,
     zIndex: 1001,
