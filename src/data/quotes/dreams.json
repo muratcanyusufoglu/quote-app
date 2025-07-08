@@ -124,6 +124,1621 @@
           "readTime": 3
         }
       }
+    },
+    {
+      "id": "dream_005",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are the seeds of change. Nothing ever grows without a seed, and nothing ever changes without a dream.",
+        "tr": "Hayaller değişimin tohumlarıdır. Tohum olmadan hiçbir şey büyümez ve hayal olmadan hiçbir şey değişmez.",
+        "fr": "Les rêves sont les graines du changement. Rien ne pousse jamais sans graine, et rien ne change jamais sans rêve.",
+        "pt": "Os sonhos são as sementes da mudança. Nada cresce sem uma semente, e nada muda sem um sonho.",
+        "nl": "Dromen zijn de zaden van verandering. Niets groeit ooit zonder zaad, en niets verandert ooit zonder droom.",
+        "es": "Los sueños son las semillas del cambio. Nada crece sin una semilla, y nada cambia sin un sueño.",
+        "de": "Träume sind die Samen der Veränderung. Nichts wächst jemals ohne Samen, und nichts ändert sich jemals ohne einen Traum.",
+        "it": "I sogni sono i semi del cambiamento. Nulla cresce mai senza un seme, e nulla cambia mai senza un sogno.",
+        "ru": "Мечты - это семена перемен. Ничто не растет без семени, и ничто не меняется без мечты."
+      },
+      "authors": {
+        "en": "Debby Boone",
+        "tr": "Debby Boone",
+        "fr": "Debby Boone",
+        "pt": "Debby Boone",
+        "nl": "Debby Boone",
+        "es": "Debby Boone",
+        "de": "Debby Boone",
+        "it": "Debby Boone",
+        "ru": "Дебби Бун"
+      },
+      "tags": {
+        "en": ["change", "growth", "transformation"],
+        "tr": ["değişim", "büyüme", "dönüşüm"],
+        "fr": ["changement", "croissance", "transformation"],
+        "pt": ["mudança", "crescimento", "transformação"],
+        "nl": ["verandering", "groei", "transformatie"],
+        "es": ["cambio", "crecimiento", "transformación"],
+        "de": ["Veränderung", "Wachstum", "Transformation"],
+        "it": ["cambiamento", "crescita", "trasformazione"],
+        "ru": ["изменение", "рост", "трансформация"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Garden of Dreams",
+          "content": "Debby Boone's metaphor of dreams as seeds perfectly captures the organic nature of personal growth and societal change. Just as a gardener must plant seeds and nurture them with patience, our dreams require cultivation through consistent action and care. This wisdom has been demonstrated countless times throughout history, from the civil rights movement to technological innovations, where each major change began with someone's dream taking root and gradually growing into reality.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Hayaller Bahçesi",
+          "content": "Debby Boone'un hayalleri tohumlara benzeten metaforu, kişisel gelişimin ve toplumsal değişimin organik doğasını mükemmel şekilde yakalar. Tıpkı bir bahçıvanın tohumları ekip sabırla beslemesi gerektiği gibi, hayallerimiz de tutarlı eylem ve özenle yetiştirilmeyi gerektirir. Bu bilgelik, sivil haklar hareketinden teknolojik yeniliklere kadar tarih boyunca sayısız kez kanıtlanmıştır; her büyük değişim, birinin hayalinin kök salması ve yavaş yavaş gerçeğe dönüşmesiyle başlamıştır.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Jardin des Rêves",
+          "content": "La métaphore de Debby Boone comparant les rêves à des graines capture parfaitement la nature organique de la croissance personnelle et du changement sociétal. Tout comme un jardinier doit planter des graines et les nourrir avec patience, nos rêves nécessitent une cultivation à travers une action et un soin constants. Cette sagesse a été démontrée d'innombrables fois à travers l'histoire, du mouvement des droits civiques aux innovations technologiques, où chaque changement majeur a commencé par le rêve de quelqu'un prenant racine et se transformant progressivement en réalité.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Jardim dos Sonhos",
+          "content": "A metáfora de Debby Boone dos sonhos como sementes captura perfeitamente a natureza orgânica do crescimento pessoal e da mudança social. Assim como um jardineiro deve plantar sementes e nutri-las com paciência, nossos sonhos requerem cultivo através de ação e cuidado consistentes. Essa sabedoria foi demonstrada inúmeras vezes ao longo da história, do movimento dos direitos civis às inovações tecnológicas, onde cada grande mudança começou com o sonho de alguém criando raízes e gradualmente se transformando em realidade.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Tuin van Dromen",
+          "content": "Debby Boone's metafoor van dromen als zaden vangt perfect de organische aard van persoonlijke groei en maatschappelijke verandering. Net zoals een tuinier zaden moet planten en ze met geduld moet voeden, vereisen onze dromen cultivatie door consistente actie en zorg. Deze wijsheid is talloze keren aangetoond in de geschiedenis, van de burgerrechtenbeweging tot technologische innovaties, waar elke grote verandering begon met iemands droom die wortel schoot en geleidelijk uitgroeide tot realiteit.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Jardín de los Sueños",
+          "content": "La metáfora de Debby Boone de los sueños como semillas captura perfectamente la naturaleza orgánica del crecimiento personal y el cambio social. Así como un jardinero debe plantar semillas y nutrirlas con paciencia, nuestros sueños requieren cultivo a través de acción y cuidado constantes. Esta sabiduría se ha demostrado innumerables veces a lo largo de la historia, desde el movimiento de derechos civiles hasta las innovaciones tecnológicas, donde cada cambio importante comenzó con el sueño de alguien echando raíces y gradualmente convirtiéndose en realidad.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Garten der Träume",
+          "content": "Debby Boones Metapher von Träumen als Samen erfasst perfekt die organische Natur persönlichen Wachstums und gesellschaftlichen Wandels. Genau wie ein Gärtner Samen pflanzen und sie mit Geduld pflegen muss, erfordern unsere Träume Kultivierung durch konsequentes Handeln und Pflege. Diese Weisheit wurde unzählige Male in der Geschichte bewiesen, von der Bürgerrechtsbewegung bis zu technologischen Innovationen, wo jede große Veränderung damit begann, dass jemandes Traum Wurzeln schlug und sich allmählich zur Realität entwickelte.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Giardino dei Sogni",
+          "content": "La metafora di Debby Boone dei sogni come semi cattura perfettamente la natura organica della crescita personale e del cambiamento sociale. Proprio come un giardiniere deve piantare semi e nutrirli con pazienza, i nostri sogni richiedono coltivazione attraverso azione e cura costanti. Questa saggezza è stata dimostrata innumerevoli volte nella storia, dal movimento per i diritti civili alle innovazioni tecnologiche, dove ogni grande cambiamento è iniziato con il sogno di qualcuno che ha messo radici e gradualmente si è trasformato in realtà.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Сад Мечты",
+          "content": "Метафора Дебби Бун о мечтах как семенах идеально отражает органическую природу личностного роста и общественных изменений. Как садовник должен сажать семена и терпеливо их взращивать, так и наши мечты требуют культивирования через постоянные действия и заботу. Эта мудрость была бесчисленное количество раз продемонстрирована в истории, от движения за гражданские права до технологических инноваций, где каждое крупное изменение начиналось с того, что чья-то мечта пускала корни и постепенно превращалась в реальность.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_006",
+      "category": "dreams",
+      "texts": {
+        "en": "The future belongs to those who believe in the beauty of their dreams.",
+        "tr": "Gelecek, hayallerinin güzelliğine inananlarındır.",
+        "fr": "L'avenir appartient à ceux qui croient en la beauté de leurs rêves.",
+        "pt": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+        "nl": "De toekomst behoort aan hen die geloven in de schoonheid van hun dromen.",
+        "es": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+        "de": "Die Zukunft gehört denen, die an die Schönheit ihrer Träume glauben.",
+        "it": "Il futuro appartiene a coloro che credono nella bellezza dei loro sogni.",
+        "ru": "Будущее принадлежит тем, кто верит в красоту своих мечтаний."
+      },
+      "authors": {
+        "en": "Eleanor Roosevelt",
+        "tr": "Eleanor Roosevelt",
+        "fr": "Eleanor Roosevelt",
+        "pt": "Eleanor Roosevelt",
+        "nl": "Eleanor Roosevelt",
+        "es": "Eleanor Roosevelt",
+        "de": "Eleanor Roosevelt",
+        "it": "Eleanor Roosevelt",
+        "ru": "Элеонора Рузвельт"
+      },
+      "tags": {
+        "en": ["future", "belief", "beauty"],
+        "tr": ["gelecek", "inanç", "güzellik"],
+        "fr": ["avenir", "croyance", "beauté"],
+        "pt": ["futuro", "crença", "beleza"],
+        "nl": ["toekomst", "geloof", "schoonheid"],
+        "es": ["futuro", "creencia", "belleza"],
+        "de": ["Zukunft", "Glaube", "Schönheit"],
+        "it": ["futuro", "fede", "bellezza"],
+        "ru": ["будущее", "вера", "красота"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Visionary's Faith",
+          "content": "Eleanor Roosevelt lived this principle throughout her life, transforming the role of First Lady and championing human rights globally. Her belief in a better world wasn't just optimism—it was a driving force that shaped reality. She understood that those who can envision a better future and believe in its possibility are the ones who ultimately create it. This quote has inspired generations of dreamers, from civil rights activists to entrepreneurs, reminding them that belief in one's dreams is the first step toward making them real. Her own life exemplified this philosophy as she worked tirelessly to advance civil rights, women's rights, and social justice.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Vizyonerin İnancı",
+          "content": "Eleanor Roosevelt bu prensibi hayatı boyunca uyguladı, First Lady rolünü dönüştürdü ve küresel insan haklarını savundu. Daha iyi bir dünyaya olan inancı sadece iyimserlik değildi—gerçekliği şekillendiren bir itici güçtü. Daha iyi bir geleceği hayal edebilen ve onun olabilirliğine inananların, sonunda onu yaratanlar olduğunu anladı. Bu alıntı, sivil haklar aktivistlerinden girişimcilere kadar nesiller boyu hayalperesti ilham verdi, hayallerine inanmanın onları gerçekleştirmenin ilk adımı olduğunu hatırlattı. Kendi hayatı, sivil hakları, kadın hakları ve sosyal adaleti ilerletmek için yorulmadan çalışırken bu felsefeyi örnekledi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Foi du Visionnaire",
+          "content": "Eleanor Roosevelt a vécu ce principe tout au long de sa vie, transformant le rôle de Première Dame et défendant les droits humains à l'échelle mondiale. Sa croyance en un monde meilleur n'était pas simplement de l'optimisme—c'était une force motrice qui façonnait la réalité. Elle comprenait que ceux qui peuvent envisager un meilleur avenir et croire en sa possibilité sont ceux qui finalement le créent. Cette citation a inspiré des générations de rêveurs, des militants des droits civiques aux entrepreneurs, leur rappelant que croire en ses rêves est la première étape pour les rendre réalité. Sa propre vie a illustré cette philosophie alors qu'elle travaillait sans relâche pour faire progresser les droits civils, les droits des femmes et la justice sociale.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Fé do Visionário",
+          "content": "Eleanor Roosevelt viveu este princípio ao longo de sua vida, transformando o papel de Primeira-Dama e defendendo os direitos humanos globalmente. Sua crença em um mundo melhor não era apenas otimismo—era uma força motriz que moldava a realidade. Ela entendeu que aqueles que podem visualizar um futuro melhor e acreditar em sua possibilidade são os que finalmente o criam. Esta citação inspirou gerações de sonhadores, de ativistas dos direitos civis a empreendedores, lembrando-os que acreditar em seus sonhos é o primeiro passo para torná-los reais. Sua própria vida exemplificou esta filosofia enquanto trabalhava incansavelmente para avançar os direitos civis, os direitos das mulheres e a justiça social.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Het Geloof van de Visionair",
+          "content": "Eleanor Roosevelt leefde dit principe haar hele leven, transformeerde de rol van First Lady en verdedigde wereldwijd de mensenrechten. Haar geloof in een betere wereld was niet alleen optimisme—het was een drijvende kracht die de realiteit vormde. Ze begreep dat degenen die een betere toekomst kunnen visualiseren en in de mogelijkheid ervan geloven, degenen zijn die het uiteindelijk creëren. Dit citaat heeft generaties dromers geïnspireerd, van burgerrechtenactivisten tot ondernemers, en herinnert hen eraan dat geloven in je dromen de eerste stap is om ze werkelijkheid te maken. Haar eigen leven was een voorbeeld van deze filosofie terwijl ze onvermoeibaar werkte aan het bevorderen van burgerrechten, vrouwenrechten en sociale rechtvaardigheid.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Fe del Visionario",
+          "content": "Eleanor Roosevelt vivió este principio a lo largo de su vida, transformando el papel de Primera Dama y defendiendo los derechos humanos globalmente. Su creencia en un mundo mejor no era solo optimismo—era una fuerza impulsora que moldeaba la realidad. Entendió que aquellos que pueden visualizar un futuro mejor y creer en su posibilidad son los que finalmente lo crean. Esta cita ha inspirado a generaciones de soñadores, desde activistas de derechos civiles hasta emprendedores, recordándoles que creer en sus sueños es el primer paso para hacerlos realidad. Su propia vida ejemplificó esta filosofía mientras trabajaba incansablemente para avanzar en los derechos civiles, los derechos de las mujeres y la justicia social.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Glaube des Visionärs",
+          "content": "Eleanor Roosevelt lebte dieses Prinzip ihr ganzes Leben lang, veränderte die Rolle der First Lady und setzte sich weltweit für die Menschenrechte ein. Ihr Glaube an eine bessere Welt war nicht bloßer Optimismus—es war eine treibende Kraft, die die Realität formte. Sie verstand, dass diejenigen, die eine bessere Zukunft sehen und an ihre Möglichkeit glauben können, diejenigen sind, die sie letztendlich erschaffen. Dieses Zitat hat Generationen von Träumern inspiriert, von Bürgerrechtsaktivisten bis hin zu Unternehmern, und erinnert sie daran, dass der Glaube an ihre Träume der erste Schritt ist, um sie wahr werden zu lassen. Ihre eigenen Lebenswege verkörperten diese Philosophie, während sie unermüdlich daran arbeiteten, Bürgerrechte, Frauenrechte und soziale Gerechtigkeit voranzubringen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Fede del Visionario",
+          "content": "Eleanor Roosevelt ha vissuto questo principio durante tutta la sua vita, trasformando il ruolo di First Lady e difendendo i diritti umani a livello globale. La sua fede in un mondo migliore non era solo ottimismo—era una forza trainante che plasmava la realtà. Capiva che coloro che possono visualizzare un futuro migliore e credere nella sua possibilità sono quelli che alla fine lo creano. Questa citazione ha ispirato generazioni di sognatori, dagli attivisti per i diritti civili agli imprenditori, ricordando loro che credere nei propri sogni è il primo passo per renderli reali. La sua stessa vita ha esemplificato questa filosofia mentre lavorava instancabilmente per promuovere i diritti civili, i diritti delle donne e la giustizia sociale.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Вера Визионера",
+          "content": "Элеонора Рузвельт жила по этому принципу всю свою жизнь, трансформируя роль Первой леди и отстаивая права человека во всем мире. Её вера в лучший мир была не просто оптимизмом—это была движущая сила, которая формировала реальность. Она понимала, что те, кто может представить лучшее будущее и верить в его возможность, в конечном итоге его создают. Эта цитата вдохновила поколения мечтателей, от активистов за гражданские права до предпринимателей, напоминая им, что вера в свои мечты - это первый шаг к их воплощению в реальность.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_007",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams without goals remain dreams, just dreams, and ultimately fuel disappointment. Goals are dreams with deadlines.",
+        "tr": "Hedefleri olmayan hayaller sadece hayal olarak kalır ve sonunda hayal kırıklığına yol açar. Hedefler, son tarihi olan hayallerdir.",
+        "fr": "Les rêves sans objectifs restent des rêves, juste des rêves, et finissent par alimenter la déception. Les objectifs sont des rêves avec des délais.",
+        "pt": "Sonhos sem objetivos permanecem sonhos, apenas sonhos, e acabam alimentando a decepção. Objetivos são sonhos com prazos.",
+        "nl": "Dromen zonder doelen blijven dromen, alleen maar dromen, en voeden uiteindelijk teleurstelling. Doelen zijn dromen met deadlines.",
+        "es": "Los sueños sin metas siguen siendo sueños, solo sueños, y finalmente alimentan la decepción. Las metas son sueños con fechas límite.",
+        "de": "Träume ohne Ziele bleiben Träume, nur Träume, und führen letztendlich zu Enttäuschung. Ziele sind Träume mit Fristen.",
+        "it": "I sogni senza obiettivi rimangono sogni, solo sogni, e alla fine alimentano la delusione. Gli obiettivi sono sogni con scadenze.",
+        "ru": "Мечты без целей остаются мечтами, просто мечтами, и в итоге приводят к разочарованию. Цели - это мечты с дедлайнами."
+      },
+      "authors": {
+        "en": "Denzel Washington",
+        "tr": "Denzel Washington",
+        "fr": "Denzel Washington",
+        "pt": "Denzel Washington",
+        "nl": "Denzel Washington",
+        "es": "Denzel Washington",
+        "de": "Denzel Washington",
+        "it": "Denzel Washington",
+        "ru": "Дензел Вашингтон"
+      },
+      "tags": {
+        "en": ["goals", "action", "determination"],
+        "tr": ["hedefler", "eylem", "kararlılık"],
+        "fr": ["objectifs", "action", "détermination"],
+        "pt": ["objetivos", "ação", "determinação"],
+        "nl": ["doelen", "actie", "vastberadenheid"],
+        "es": ["metas", "acción", "determinación"],
+        "de": ["Ziele", "Aktion", "Entschlossenheit"],
+        "it": ["obiettivi", "azione", "determinazione"],
+        "ru": ["цели", "действие", "решительность"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "From Dreams to Reality",
+          "content": "Denzel Washington shared this wisdom during a commencement speech, drawing from his own journey from aspiring actor to acclaimed star. His message emphasizes that while dreaming is essential, it's the transformation of dreams into concrete goals with specific timelines that leads to achievement. This practical approach to dreams has resonated with countless individuals across fields, from students setting educational milestones to entrepreneurs building businesses. The key insight is that dreams need the structure of goals to become reality.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Hayallerden Gerçeğe",
+          "content": "Denzel Washington bu bilgeliği bir mezuniyet konuşmasında paylaştı ve kendi yolculuğundan, umut vaat eden bir aktörden ünlü bir yıldıza dönüşümünden ilham aldı. Mesajı, hayal kurmanın önemli olduğunu, ancak hayallerin belirli zaman çizelgeleriyle somut hedeflere dönüştürülmesinin başarıya götürdüğünü vurguluyor. Hayallere bu pratik yaklaşım, eğitim hedefleri belirleyen öğrencilerden işletmeler kuran girişimcilere kadar sayısız kişiyle yankı buldu. Temel içgörü, hayallerin gerçeğe dönüşmek için hedeflerin yapısına ihtiyaç duymasıdır.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Des Rêves à la Réalité",
+          "content": "Denzel Washington a partagé cette sagesse lors d'un discours de remise des diplômes, s'inspirant de son propre parcours d'acteur aspirant à star acclamée. Son message souligne que bien que rêver soit essentiel, c'est la transformation des rêves en objectifs concrets avec des délais spécifiques qui mène à la réussite. Cette approche pratique des rêves a trouvé écho auprès d'innombrables personnes dans différents domaines, des étudiants fixant des jalons éducatifs aux entrepreneurs créant des entreprises. L'idée clé est que les rêves ont besoin de la structure des objectifs pour devenir réalité.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Dos Sonhos à Realidade",
+          "content": "Denzel Washington compartilhou essa sabedoria durante um discurso de formatura, inspirado em sua própria jornada de ator aspirante a estrela aclamada. Sua mensagem enfatiza que, embora sonhar seja essencial, é a transformação de sonhos em objetivos concretos com prazos específicos que leva à realização. Essa abordagem prática dos sonhos ressoou com inúmeras pessoas em diferentes campos, de estudantes estabelecendo marcos educacionais a empreendedores construindo negócios. O insight principal é que os sonhos precisam da estrutura de objetivos para se tornarem realidade.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Van Dromen naar Realiteit",
+          "content": "Denzel Washington deelde deze wijsheid tijdens een afstudeerrede, puttend uit zijn eigen reis van aspirant-acteur naar gevierde ster. Zijn boodschap benadrukt dat hoewel dromen essentieel is, het de transformatie van dromen naar concrete doelen met specifieke tijdlijnen is die tot prestatie leidt. Deze praktische benadering van dromen heeft weerklank gevonden bij talloze mensen in verschillende velden, van studenten die onderwijsmijlpalen stellen tot ondernemers die bedrijven bouwen. Het belangrijkste inzicht is dat dromen de structuur van doelen nodig hebben om werkelijkheid te worden.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "De los Sueños a la Realidad",
+          "content": "Denzel Washington compartió esta sabiduría durante un discurso de graduación, inspirándose en su propio viaje de actor aspirante a estrella aclamada. Su mensaje enfatiza que, aunque soñar es esencial, es la transformación de los sueños en metas concretas con plazos específicos lo que lleva al logro. Este enfoque práctico de los sueños ha resonado en innumerables personas en diferentes campos, desde estudiantes estableciendo hitos educativos hasta emprendedores construyendo negocios. La idea clave es que los sueños necesitan la estructura de las metas para convertirse en realidad.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Von Träumen zur Realität",
+          "content": "Denzel Washington teilte diese Weisheit während einer Abschlussrede und schöpfte dabei aus seiner eigenen Reise vom aufstrebenden Schauspieler zum gefeierten Star. Seine Botschaft betont, dass das Träumen zwar essentiell ist, aber erst die Umwandlung von Träumen in konkrete Ziele mit spezifischen Zeitplänen zum Erfolg führt. Dieser praktische Ansatz für Träume hat bei unzähligen Menschen in verschiedenen Bereichen Anklang gefunden, von Studenten, die Bildungsmeilensteine setzen, bis hin zu Unternehmern, die Geschäfte aufbauen. Die zentrale Erkenntnis ist, dass Träume die Struktur von Zielen brauchen, um Wirklichkeit zu werden.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Dai Sogni alla Realtà",
+          "content": "Denzel Washington ha condiviso questa saggezza durante un discorso di laurea, attingendo dal suo percorso personale da aspirante attore a star acclamata. Il suo messaggio sottolinea che, sebbene sognare sia essenziale, è la trasformazione dei sogni in obiettivi concreti con scadenze specifiche che porta al successo. Questo approccio pratico ai sogni ha trovato risonanza in innumerevoli persone in diversi campi, dagli studenti che stabiliscono traguardi educativi agli imprenditori che costruiscono aziende. L'intuizione chiave è che i sogni hanno bisogno della struttura degli obiettivi per diventare realtà.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "От Мечты к Реальности",
+          "content": "Дензел Вашингтон поделился этой мудростью во время выпускной речи, опираясь на свой собственный путь от начинающего актера до признанной звезды. Его послание подчеркивает, что хотя мечтать важно, именно превращение мечты в конкретные цели с определенными сроками ведет к достижениям. Этот практический подход к мечтам нашел отклик у множества людей в разных областях, от студентов, устанавливающих образовательные вехи, до предпринимателей, строящих бизнес. Ключевое понимание заключается в том, что мечтам нужна структура целей, чтобы стать реальностью.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_008",
+      "category": "dreams",
+      "texts": {
+        "en": "The world needs dreamers and the world needs doers. But above all, the world needs dreamers who do.",
+        "tr": "Dünya hayalperestlere ve dünya yapanlara ihtiyaç duyar. Ama her şeyden öte, dünya hayal kurup yapanlara ihtiyaç duyar.",
+        "fr": "Le monde a besoin de rêveurs et le monde a besoin de faiseurs. Mais par-dessus tout, le monde a besoin de rêveurs qui font.",
+        "pt": "O mundo precisa de sonhadores e o mundo precisa de realizadores. Mas acima de tudo, o mundo precisa de sonhadores que realizam.",
+        "nl": "De wereld heeft dromers nodig en de wereld heeft doeners nodig. Maar bovenal heeft de wereld dromers nodig die doen.",
+        "es": "El mundo necesita soñadores y el mundo necesita hacedores. Pero sobre todo, el mundo necesita soñadores que hacen.",
+        "de": "Die Welt braucht Träumer und die Welt braucht Macher. Aber vor allem braucht die Welt Träumer, die handeln.",
+        "it": "Il mondo ha bisogno di sognatori e il mondo ha bisogno di realizzatori. Ma soprattutto, il mondo ha bisogno di sognatori che realizzano.",
+        "ru": "Миру нужны мечтатели и миру нужны деятели. Но прежде всего, миру нужны мечтатели, которые действуют."
+      },
+      "authors": {
+        "en": "Sarah Ban Breathnach",
+        "tr": "Sarah Ban Breathnach",
+        "fr": "Sarah Ban Breathnach",
+        "pt": "Sarah Ban Breathnach",
+        "nl": "Sarah Ban Breathnach",
+        "es": "Sarah Ban Breathnach",
+        "de": "Sarah Ban Breathnach",
+        "it": "Sarah Ban Breathnach",
+        "ru": "Сара Бан Бретнах"
+      },
+      "tags": {
+        "en": ["action", "vision", "implementation"],
+        "tr": ["eylem", "vizyon", "uygulama"],
+        "fr": ["action", "vision", "mise en œuvre"],
+        "pt": ["ação", "visão", "implementação"],
+        "nl": ["actie", "visie", "implementatie"],
+        "es": ["acción", "visión", "implementación"],
+        "de": ["Aktion", "Vision", "Umsetzung"],
+        "it": ["azione", "visione", "implementazione"],
+        "ru": ["действие", "видение", "реализация"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Bridge Between Dreams and Reality",
+          "content": "Sarah Ban Breathnach's words capture a crucial truth about progress and innovation. History's greatest achievements came from individuals who weren't content to merely dream or simply execute—they did both. Think of pioneers like Marie Curie, who dreamed of understanding radioactivity while methodically conducting experiments, or Walt Disney, who imagined magical worlds while building a concrete entertainment empire. These 'dreamer-doers' show us that the most powerful change comes from combining imagination with implementation.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Hayaller ve Gerçeklik Arasındaki Köprü",
+          "content": "Sarah Ban Breathnach'ın sözleri, ilerleme ve yenilik hakkında çok önemli bir gerçeği yakalıyor. Tarihin en büyük başarıları, sadece hayal kurmak veya sadece uygulamakla yetinmeyen—her ikisini de yapan bireylerden geldi. Radyoaktiviteyi anlamayı hayal ederken metodik olarak deneyler yapan Marie Curie'yi veya somut bir eğlence imparatorluğu kurarken sihirli dünyalar hayal eden Walt Disney'i düşünün. Bu 'hayalperest-yapımcılar' bize en güçlü değişimin hayal gücü ile uygulamayı birleştirmekten geldiğini gösteriyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Pont Entre les Rêves et la Réalité",
+          "content": "Les paroles de Sarah Ban Breathnach capturent une vérité cruciale sur le progrès et l'innovation. Les plus grandes réalisations de l'histoire sont venues d'individus qui ne se contentaient pas simplement de rêver ou d'exécuter—ils faisaient les deux. Pensez à des pionniers comme Marie Curie, qui rêvait de comprendre la radioactivité tout en menant méthodiquement des expériences, ou Walt Disney, qui imaginait des mondes magiques tout en construisant un empire du divertissement concret. Ces 'rêveurs-faiseurs' nous montrent que le changement le plus puissant vient de la combinaison de l'imagination avec la mise en œuvre.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Ponte Entre Sonhos e Realidade",
+          "content": "As palavras de Sarah Ban Breathnach capturam uma verdade crucial sobre progresso e inovação. As maiores conquistas da história vieram de indivíduos que não se contentavam apenas em sonhar ou simplesmente executar—eles faziam ambos. Pense em pioneiros como Marie Curie, que sonhava em entender a radioatividade enquanto conduzia experimentos metodicamente, ou Walt Disney, que imaginava mundos mágicos enquanto construía um império de entretenimento concreto. Esses 'sonhadores-realizadores' nos mostram que a mudança mais poderosa vem da combinação da imaginação com a implementação.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Brug Tussen Dromen en Realiteit",
+          "content": "Sarah Ban Breathnach's woorden vatten een cruciale waarheid over vooruitgang en innovatie. De grootste prestaties in de geschiedenis kwamen van individuen die niet tevreden waren met alleen dromen of alleen uitvoeren—ze deden beide. Denk aan pioniers als Marie Curie, die droomde van het begrijpen van radioactiviteit terwijl ze methodisch experimenten uitvoerde, of Walt Disney, die magische werelden verbeeldde terwijl hij een concreet entertainmentimperium bouwde. Deze 'dromer-doeners' laten ons zien dat de krachtigste verandering komt van het combineren van verbeelding met implementatie.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Puente Entre los Sueños y la Realidad",
+          "content": "Las palabras de Sarah Ban Breathnach capturan una verdad crucial sobre el progreso y la innovación. Los mayores logros de la historia vinieron de individuos que no se contentaban con simplemente soñar o simplemente ejecutar—hacían ambas cosas. Piensa en pioneros como Marie Curie, que soñaba con entender la radioactividad mientras realizaba metódicamente experimentos, o Walt Disney, que imaginaba mundos mágicos mientras construía un imperio de entretenimiento concreto. Estos 'soñadores-hacedores' nos muestran que el cambio más poderoso viene de combinar la imaginación con la implementación.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Brücke Zwischen Träumen und Realität",
+          "content": "Sarah Ban Breathnachs Worte erfassen eine entscheidende Wahrheit über Fortschritt und Innovation. Die größten Errungenschaften der Geschichte kamen von Menschen, die sich nicht damit zufrieden gaben, nur zu träumen oder nur auszuführen—sie taten beides. Denken Sie an Pioniere wie Marie Curie, die davon träumte, Radioaktivität zu verstehen, während sie methodisch Experimente durchführte, oder Walt Disney, der sich magische Welten vorstellte, während er ein konkretes Unterhaltungsimperium aufbaute. Diese 'Träumer-Macher' zeigen uns, dass die stärkste Veränderung aus der Kombination von Vorstellungskraft und Umsetzung entsteht.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Ponte Tra Sogni e Realtà",
+          "content": "Le parole di Sarah Ban Breathnach catturano una verità cruciale sul progresso e l'innovazione. I più grandi successi della storia sono venuti da individui che non si accontentavano di sognare o semplicemente eseguire—facevano entrambe le cose. Pensa a pionieri come Marie Curie, che sognava di comprendere la radioattività mentre conduceva metodicamente esperimenti, o Walt Disney, che immaginava mondi magici mentre costruiva un concreto impero dell'intrattenimento. Questi 'sognatori-realizzatori' ci mostrano che il cambiamento più potente viene dalla combinazione dell'immaginazione con l'implementazione.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Мост Между Мечтами и Реальностью",
+          "content": "Слова Сары Бан Бретнах отражают важную истину о прогрессе и инновациях. Величайшие достижения истории пришли от людей, которые не довольствовались только мечтами или только исполнением—они делали и то, и другое. Подумайте о таких первопроходцах, как Мария Кюри, которая мечтала понять радиоактивность, методично проводя эксперименты, или Уолт Дисней, который воображал волшебные миры, создавая конкретную империю развлечений. Эти 'мечтатели-деятели' показывают нам, что самые мощные изменения приходят от сочетания воображения с реализацией.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_009",
+      "category": "dreams",
+      "texts": {
+        "en": "All our dreams can come true if we have the courage to pursue them.",
+        "tr": "Eğer onların peşinden gitme cesaretine sahipsek tüm hayallerimiz gerçekleşebilir.",
+        "fr": "Tous nos rêves peuvent devenir réalité si nous avons le courage de les poursuivre.",
+        "pt": "Todos os nossos sonhos podem se tornar realidade se tivermos a coragem de persegui-los.",
+        "nl": "Al onze dromen kunnen uitkomen als we de moed hebben om ze na te jagen.",
+        "es": "Todos nuestros sueños pueden hacerse realidad si tenemos el coraje de perseguirlos.",
+        "de": "Alle unsere Träume können wahr werden, wenn wir den Mut haben, sie zu verfolgen.",
+        "it": "Tutti i nostri sogni possono diventare realtà se abbiamo il coraggio di perseguirli.",
+        "ru": "Все наши мечты могут стать реальностью, если у нас хватит смелости следовать за ними."
+      },
+      "authors": {
+        "en": "Walt Disney",
+        "tr": "Walt Disney",
+        "fr": "Walt Disney",
+        "pt": "Walt Disney",
+        "nl": "Walt Disney",
+        "es": "Walt Disney",
+        "de": "Walt Disney",
+        "it": "Walt Disney",
+        "ru": "Уолт Дисней"
+      },
+      "tags": {
+        "en": ["courage", "persistence", "achievement"],
+        "tr": ["cesaret", "azim", "başarı"],
+        "fr": ["courage", "persévérance", "réussite"],
+        "pt": ["coragem", "persistência", "realização"],
+        "nl": ["moed", "doorzettingsvermogen", "prestatie"],
+        "es": ["valentía", "persistencia", "logro"],
+        "de": ["Mut", "Ausdauer", "Erfolg"],
+        "it": ["coraggio", "persistenza", "successo"],
+        "ru": ["смелость", "настойчивость", "достижение"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Magic of Persistence",
+          "content": "Walt Disney's journey embodies this quote perfectly. Before creating the entertainment empire we know today, he faced numerous setbacks: his first animation company went bankrupt, he lost the rights to his early character Oswald the Lucky Rabbit, and many banks rejected his idea for Disneyland. Yet, his courage to keep pursuing his dreams led to innovations in animation, theme parks, and storytelling that have enchanted generations. His persistence transformed not just his own dreams, but how we all experience entertainment and imagination.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Azmin Sihri",
+          "content": "Walt Disney'in yolculuğu bu sözü mükemmel şekilde somutlaştırıyor. Bugün bildiğimiz eğlence imparatorluğunu yaratmadan önce birçok zorlukla karşılaştı: ilk animasyon şirketi iflas etti, ilk karakteri Oswald the Lucky Rabbit'in haklarını kaybetti ve birçok banka Disneyland fikrini reddetti. Yine de, hayallerinin peşinden gitme cesareti, nesilleri büyüleyen animasyon, tema parkları ve hikaye anlatımında yeniliklere yol açtı. Onun azmi sadece kendi hayallerini değil, hepimizin eğlence ve hayal gücünü deneyimleme şeklini dönüştürdü.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Magie de la Persévérance",
+          "content": "Le parcours de Walt Disney incarne parfaitement cette citation. Avant de créer l'empire du divertissement que nous connaissons aujourd'hui, il a fait face à de nombreux revers : sa première société d'animation a fait faillite, il a perdu les droits de son premier personnage Oswald le Lapin Chanceux, et de nombreuses banques ont rejeté son idée de Disneyland. Pourtant, son courage de poursuivre ses rêves a conduit à des innovations dans l'animation, les parcs à thème et la narration qui ont enchanté des générations. Sa persévérance a transformé non seulement ses propres rêves, mais aussi la façon dont nous vivons tous le divertissement et l'imagination.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Magia da Persistência",
+          "content": "A jornada de Walt Disney incorpora perfeitamente esta citação. Antes de criar o império do entretenimento que conhecemos hoje, ele enfrentou vários contratempos: sua primeira empresa de animação faliu, ele perdeu os direitos de seu primeiro personagem Oswald the Lucky Rabbit, e muitos bancos rejeitaram sua ideia da Disneyland. No entanto, sua coragem de continuar perseguindo seus sonhos levou a inovações em animação, parques temáticos e narrativa que encantaram gerações. Sua persistência transformou não apenas seus próprios sonhos, mas como todos nós experimentamos entretenimento e imaginação.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Magie van Doorzettingsvermogen",
+          "content": "Walt Disney's reis belichaamt dit citaat perfect. Voordat hij het entertainment-imperium creëerde dat we vandaag kennen, kreeg hij te maken met vele tegenslagen: zijn eerste animatiebedrijf ging failliet, hij verloor de rechten op zijn vroege personage Oswald the Lucky Rabbit, en veel banken wezen zijn idee voor Disneyland af. Toch leidde zijn moed om zijn dromen na te blijven jagen tot innovaties in animatie, pretparken en storytelling die generaties hebben betoverd. Zijn doorzettingsvermogen transformeerde niet alleen zijn eigen dromen, maar ook hoe we allemaal entertainment en verbeelding ervaren.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Magia de la Persistencia",
+          "content": "El viaje de Walt Disney encarna perfectamente esta cita. Antes de crear el imperio del entretenimiento que conocemos hoy, enfrentó numerosos contratiempos: su primera compañía de animación se declaró en bancarrota, perdió los derechos de su primer personaje Oswald el Conejo Afortunado, y muchos bancos rechazaron su idea de Disneyland. Sin embargo, su valentía para seguir persiguiendo sus sueños llevó a innovaciones en animación, parques temáticos y narración que han encantado a generaciones. Su persistencia transformó no solo sus propios sueños, sino cómo todos experimentamos el entretenimiento y la imaginación.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Magie der Ausdauer",
+          "content": "Walt Disneys Reise verkörpert dieses Zitat perfekt. Bevor er das Unterhaltungsimperium schuf, das wir heute kennen, erlebte er zahlreiche Rückschläge: Seine erste Animationsfirma ging bankrott, er verlor die Rechte an seiner frühen Figur Oswald the Lucky Rabbit, und viele Banken lehnten seine Idee für Disneyland ab. Doch sein Mut, seine Träume weiter zu verfolgen, führte zu Innovationen in Animation, Themenparks und Geschichtenerzählen, die Generationen verzaubert haben. Seine Ausdauer transformierte nicht nur seine eigenen Träume, sondern auch wie wir alle Unterhaltung und Fantasie erleben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Magia della Persistenza",
+          "content": "Il viaggio di Walt Disney incarna perfettamente questa citazione. Prima di creare l'impero dell'intrattenimento che conosciamo oggi, ha affrontato numerosi ostacoli: la sua prima società di animazione fallì, perse i diritti del suo primo personaggio Oswald il Coniglio Fortunato, e molte banche rifiutarono la sua idea per Disneyland. Tuttavia, il suo coraggio di continuare a perseguire i suoi sogni ha portato a innovazioni nell'animazione, nei parchi a tema e nella narrazione che hanno incantato generazioni. La sua persistenza ha trasformato non solo i suoi sogni, ma anche il modo in cui tutti noi viviamo l'intrattenimento e l'immaginazione.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Магия Настойчивости",
+          "content": "Путь Уолта Диснея прекрасно воплощает эту цитату. Прежде чем создать известную нам сегодня империю развлечений, он столкнулся с множеством неудач: его первая анимационная компания обанкротилась, он потерял права на своего раннего персонажа Кролика Освальда, и многие банки отвергли его идею Диснейленда. Тем не менее, его смелость продолжать следовать за своими мечтами привела к инновациям в анимации, тематических парках и повествовании, которые очаровали поколения. Его настойчивость преобразила не только его собственные мечты, но и то, как мы все воспринимаем развлечения и воображение.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_010",
+      "category": "dreams",
+      "texts": {
+        "en": "The size of your dreams must always exceed your current capacity to achieve them. If your dreams do not scare you, they are not big enough.",
+        "tr": "Hayallerinizin büyüklüğü, onları gerçekleştirme kapasitenizi her zaman aşmalıdır. Hayalleriniz sizi korkutmuyorsa, yeterince büyük değiller demektir.",
+        "fr": "La taille de vos rêves doit toujours dépasser votre capacité actuelle à les réaliser. Si vos rêves ne vous font pas peur, ils ne sont pas assez grands.",
+        "pt": "O tamanho de seus sonhos deve sempre exceder sua capacidade atual de alcançá-los. Se seus sonhos não o assustam, eles não são grandes o suficiente.",
+        "nl": "De grootte van je dromen moet altijd je huidige vermogen om ze te bereiken overtreffen. Als je dromen je niet bang maken, zijn ze niet groot genoeg.",
+        "es": "El tamaño de tus sueños debe siempre exceder tu capacidad actual de lograrlos. Si tus sueños no te asustan, no son lo suficientemente grandes.",
+        "de": "Die Größe deiner Träume muss immer deine aktuelle Fähigkeit, sie zu erreichen, übersteigen. Wenn deine Träume dich nicht erschrecken, sind sie nicht groß genug.",
+        "it": "La grandezza dei tuoi sogni deve sempre superare la tua attuale capacità di realizzarli. Se i tuoi sogni non ti spaventano, non sono abbastanza grandi.",
+        "ru": "Масштаб ваших мечтаний всегда должен превышать ваши текущие возможности их достижения. Если ваши мечты не пугают вас, значит, они недостаточно велики."
+      },
+      "authors": {
+        "en": "Ellen Johnson Sirleaf",
+        "tr": "Ellen Johnson Sirleaf",
+        "fr": "Ellen Johnson Sirleaf",
+        "pt": "Ellen Johnson Sirleaf",
+        "nl": "Ellen Johnson Sirleaf",
+        "es": "Ellen Johnson Sirleaf",
+        "de": "Ellen Johnson Sirleaf",
+        "it": "Ellen Johnson Sirleaf",
+        "ru": "Эллен Джонсон-Серлиф"
+      },
+      "tags": {
+        "en": ["growth", "ambition", "challenge"],
+        "tr": ["büyüme", "hırs", "meydan okuma"],
+        "fr": ["croissance", "ambition", "défi"],
+        "pt": ["crescimento", "ambição", "desafio"],
+        "nl": ["groei", "ambitie", "uitdaging"],
+        "es": ["crecimiento", "ambición", "desafío"],
+        "de": ["Wachstum", "Ambition", "Herausforderung"],
+        "it": ["crescita", "ambizione", "sfida"],
+        "ru": ["рост", "амбиции", "вызов"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "Beyond Comfort Zones",
+          "content": "Ellen Johnson Sirleaf, Africa's first elected female head of state, lived this principle throughout her journey. Growing up in a time when women rarely held political positions, she dared to dream of leading her nation. Despite facing imprisonment, exile, and numerous obstacles, she persisted. Her dream of becoming Liberia's president seemed impossible given the country's history and political climate, yet this 'impossible' dream drove her to develop the skills, resilience, and leadership needed to achieve it. Her story teaches us that transformative dreams should feel overwhelming at first—that's how they push us to grow beyond our current limitations.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Konfor Alanlarının Ötesinde",
+          "content": "Afrika'nın ilk seçilmiş kadın devlet başkanı Ellen Johnson Sirleaf, bu prensibi yolculuğu boyunca yaşadı. Kadınların nadiren siyasi pozisyonlarda bulunduğu bir dönemde büyüyerek, ülkesini yönetme hayali kurma cesaretini gösterdi. Hapis, sürgün ve sayısız engelle karşılaşmasına rağmen ısrar etti. Liberya'nın başkanı olma hayali, ülkenin tarihi ve siyasi iklimi göz önüne alındığında imkansız görünüyordu, ancak bu 'imkansız' hayal onu bunu başarmak için gereken becerileri, dayanıklılığı ve liderliği geliştirmeye itti. Onun hikayesi bize dönüştürücü hayallerin başlangıçta bunaltıcı hissettirmesi gerektiğini öğretiyor—bizi mevcut sınırlarımızın ötesine büyümeye iten şey budur.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Au-delà des Zones de Confort",
+          "content": "Ellen Johnson Sirleaf, première femme chef d'État élue en Afrique, a vécu ce principe tout au long de son parcours. Grandissant à une époque où les femmes occupaient rarement des positions politiques, elle a osé rêver de diriger sa nation. Malgré l'emprisonnement, l'exil et de nombreux obstacles, elle a persisté. Son rêve de devenir présidente du Libéria semblait impossible compte tenu de l'histoire et du climat politique du pays, mais ce rêve 'impossible' l'a poussée à développer les compétences, la résilience et le leadership nécessaires pour y parvenir. Son histoire nous apprend que les rêves transformateurs doivent sembler écrasants au début—c'est ainsi qu'ils nous poussent à grandir au-delà de nos limites actuelles.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Além das Zonas de Conforto",
+          "content": "Ellen Johnson Sirleaf, primeira chefe de Estado eleita da África, viveu este princípio ao longo de sua jornada. Crescendo em uma época em que mulheres raramente ocupavam posições políticas, ela ousou sonhar em liderar sua nação. Apesar de enfrentar prisão, exílio e numerosos obstáculos, ela persistiu. Seu sonho de se tornar presidente da Libéria parecia impossível dado o histórico e o clima político do país, mas esse sonho 'impossível' a levou a desenvolver as habilidades, resiliência e liderança necessárias para alcançá-lo. Sua história nos ensina que sonhos transformadores devem parecer esmagadores no início—é assim que eles nos impulsionam a crescer além de nossas limitações atuais.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Voorbij Comfortzones",
+          "content": "Ellen Johnson Sirleaf, Afrika's eerste gekozen vrouwelijke staatshoofd, leefde dit principe gedurende haar hele reis. Opgroeiend in een tijd waarin vrouwen zelden politieke posities bekleedden, durfde ze te dromen van het leiden van haar natie. Ondanks gevangenschap, ballingschap en talloze obstakels, volhardde ze. Haar droom om president van Liberia te worden leek onmogelijk gezien de geschiedenis en het politieke klimaat van het land, maar deze 'onmogelijke' droom dreef haar ertoe de benodigde vaardigheden, veerkracht en leiderschap te ontwikkelen om het te bereiken. Haar verhaal leert ons dat transformerende dromen in het begin overweldigend moeten voelen—zo duwen ze ons om te groeien voorbij onze huidige beperkingen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Más Allá de las Zonas de Confort",
+          "content": "Ellen Johnson Sirleaf, la primera jefa de Estado electa de África, vivió este principio a lo largo de su viaje. Creciendo en una época en que las mujeres raramente ocupaban posiciones políticas, se atrevió a soñar con liderar su nación. A pesar de enfrentar prisión, exilio y numerosos obstáculos, persistió. Su sueño de convertirse en presidenta de Liberia parecía imposible dado el historial y el clima político del país, pero este sueño 'imposible' la impulsó a desarrollar las habilidades, la resiliencia y el liderazgo necesarios para lograrlo. Su historia nos enseña que los sueños transformadores deben sentirse abrumadores al principio—así es como nos empujan a crecer más allá de nuestras limitaciones actuales.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Jenseits der Komfortzonen",
+          "content": "Ellen Johnson Sirleaf, Afrikas erstes gewähltes weibliches Staatsoberhaupt, lebte dieses Prinzip während ihrer gesamten Reise. In einer Zeit aufgewachsen, in der Frauen selten politische Positionen innehatten, wagte sie es, von der Führung ihrer Nation zu träumen. Trotz Gefängnis, Exil und zahlreicher Hindernisse beharrte sie darauf. Ihr Traum, Präsidentin von Liberia zu werden, schien angesichts der Geschichte und des politischen Klimas des Landes unmöglich, doch dieser 'unmögliche' Traum trieb sie dazu, die notwendigen Fähigkeiten, Widerstandsfähigkeit und Führung zu entwickeln, um ihn zu erreichen. Ihre eigenen Lebenswege verkörperten diese Philosophie, während sie unermüdlich daran arbeiteten, Bürgerrechte, Frauenrechte und soziale Gerechtigkeit voranzubringen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Oltre le Zone di Comfort",
+          "content": "Ellen Johnson Sirleaf, prima donna capo di Stato eletta in Africa, ha vissuto questo principio durante tutto il suo percorso. Cresciuta in un'epoca in cui le donne raramente occupavano posizioni politiche, ha osato sognare di guidare la sua nazione. Nonostante il carcere, l'esilio e numerosi ostacoli, ha persistito. Il suo sogno di diventare presidente della Liberia sembrava impossibile dato il contesto storico e il clima politico del paese, ma questo sogno 'impossibile' l'ha spinto a sviluppare le competenze, la resilienza e la leadership necessarie per realizzarlo. La sua storia ci insegna che i sogni trasformativi dovrebbero sembrare travolgenti all'inizio—è così che ci spingono a crescere oltre i nostri limiti attuali.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "За Пределами Зон Комфорта",
+          "content": "Эллен Джонсон-Серлиф, первая избранная женщина-глава государства в Африке, жила по этому принципу на протяжении всего своего пути. Выросшая в то время, когда женщины редко занимали политические должности, она осмелилась мечтать о руководстве своей страной. Несмотря на тюремное заключение, изгнание и множество препятствий, она проявила настойчивость. Её мечта стать президентом Либерии казалась невозможной, учитывая историю и политический климат страны, но эта 'невозможная' мечта побудила её развить необходимые навыки, устойчивость и лидерские качества для её достижения. Её история учит нас, что трансформационные мечты должны казаться ошеломляющими поначалу—именно так они подталкивают нас к росту за пределы наших текущих ограничений.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_011",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are not what you see in sleep, they are the things that don't let you sleep.",
+        "tr": "Hayaller uykuda gördükleriniz değil, sizi uyutmayan şeylerdir.",
+        "fr": "Les rêves ne sont pas ce que vous voyez pendant le sommeil, ce sont les choses qui vous empêchent de dormir.",
+        "pt": "Sonhos não são o que você vê durante o sono, são as coisas que não deixam você dormir.",
+        "nl": "Dromen zijn niet wat je in je slaap ziet, het zijn de dingen die je niet laten slapen.",
+        "es": "Los sueños no son lo que ves mientras duermes, son las cosas que no te dejan dormir.",
+        "de": "Träume sind nicht das, was du im Schlaf siehst, es sind die Dinge, die dich nicht schlafen lassen.",
+        "it": "I sogni non sono ciò che vedi nel sonno, sono le cose che non ti lasciano dormire.",
+        "ru": "Мечты - это не то, что вы видите во сне, это то, что не дает вам уснуть."
+      },
+      "authors": {
+        "en": "Abdul Kalam",
+        "tr": "Abdul Kalam",
+        "fr": "Abdul Kalam",
+        "pt": "Abdul Kalam",
+        "nl": "Abdul Kalam",
+        "es": "Abdul Kalam",
+        "de": "Abdul Kalam",
+        "it": "Abdul Kalam",
+        "ru": "Абдул Калам"
+      },
+      "tags": {
+        "en": ["passion", "motivation", "drive"],
+        "tr": ["tutku", "motivasyon", "azim"],
+        "fr": ["passion", "motivation", "détermination"],
+        "pt": ["paixão", "motivação", "impulso"],
+        "nl": ["passie", "motivatie", "gedrevenheid"],
+        "es": ["pasión", "motivación", "impulso"],
+        "de": ["Leidenschaft", "Motivation", "Antrieb"],
+        "it": ["passione", "motivazione", "determinazione"],
+        "ru": ["страсть", "мотивация", "стремление"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Scientist's Dream",
+          "content": "Dr. APJ Abdul Kalam, known as India's 'Missile Man' and later its President, spoke these words from deep personal experience. As a young boy from a humble background, he sold newspapers to support his studies. His dream of advancing India's space and defense capabilities was so compelling that he would work late into the night, often forgetting sleep. This passion led him to spearhead India's missile development program and inspire millions with his vision of a developed India. His dreams weren't just nighttime fantasies—they were burning ambitions that drove him to action every day.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Bilim İnsanının Hayali",
+          "content": "Hindistan'ın 'Füze Adamı' ve daha sonra Cumhurbaşkanı olarak bilinen Dr. APJ Abdul Kalam, bu sözleri derin kişisel deneyiminden konuştu. Mütevazı bir geçmişe sahip genç bir çocuk olarak, eğitimini desteklemek için gazete satıyordu. Hindistan'ın uzay ve savunma yeteneklerini geliştirme hayali o kadar etkileyiciydi ki, geç saatlere kadar çalışır, çoğu zaman uykuyu unuturdu. Bu tutku, onu Hindistan'ın füze geliştirme programına öncülük etmeye ve gelişmiş bir Hindistan vizyonuyla milyonlara ilham vermeye yöneltti. Onun hayalleri sadece gece fantezileri değildi—her gün onu harekete geçiren yanan tutkularıydı.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Rêve du Scientifique",
+          "content": "Le Dr APJ Abdul Kalam, connu comme l'« Homme des Missiles » de l'Inde et plus tard son Président, a prononcé ces mots à partir d'une profonde expérience personnelle. Jeune garçon d'origine modeste, il vendait des journaux pour financer ses études. Son rêve de faire progresser les capacités spatiales et de défense de l'Inde était si puissant qu'il travaillait tard dans la nuit, oubliant souvent de dormir. Cette passion l'a conduit à diriger le programme de développement des missiles de l'Inde et à inspirer des millions de personnes avec sa vision d'une Inde développée. Ses rêves n'étaient pas que des fantaisies nocturnes—c'étaient des ambitions brûlantes qui le poussaient à l'action chaque jour.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Sonho do Cientista",
+          "content": "Dr. APJ Abdul Kalam, conhecido como o 'Homem dos Mísseis' da Índia e posteriormente seu Presidente, falou essas palavras a partir de profunda experiência pessoal. Como um jovem de origem humilde, vendia jornais para sustentar seus estudos. Seu sonho de avançar as capacidades espaciais e de defesa da Índia era tão forte que ele trabalhava até tarde da noite, frequentemente esquecendo de dormir. Essa paixão o levou a liderar o programa de desenvolvimento de mísseis da Índia e inspirar milhões com sua visão de uma Índia desenvolvida. Seus sonhos não eram apenas fantasias noturnas—eram ambições ardentes que o impulsionavam à ação todos os dias.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Droom van de Wetenschapper",
+          "content": "Dr. APJ Abdul Kalam, bekend als India's 'Raketman' en later zijn President, sprak deze woorden vanuit diepe persoonlijke ervaring. Als jonge jongen uit een bescheiden milieu verkocht hij kranten om zijn studie te ondersteunen. Zijn droom om India's ruimte- en defensiecapaciteiten te verbeteren was zo dwingend dat hij tot laat in de nacht werkte, vaak de slaap vergetend. Deze passie leidde ertoe dat hij het rakettontwikkelingsprogramma van India leidde en miljoenen inspireerde met zijn visie van een ontwikkeld India. Zijn dromen waren geen nachtelijke fantasieën—het waren brandende ambities die hem elke dag tot actie aanzetten.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Sueño del Científico",
+          "content": "El Dr. APJ Abdul Kalam, conocido como el 'Hombre de los Misiles' de India y posteriormente su Presidente, pronunció estas palabras desde una profunda experiencia personal. Como joven de origen humilde, vendía periódicos para mantener sus estudios. Su sueño de avanzar en las capacidades espaciales y de defensa de India era tan convincente que trabajaba hasta altas horas de la noche, olvidando a menudo dormir. Esta pasión lo llevó a encabezar el programa de desarrollo de misiles de India e inspirar a millones con su visión de una India desarrollada. Sus sueños no eran solo fantasías nocturnas—eran ambiciones ardientes que lo impulsaban a la acción cada día.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Traum des Wissenschaftlers",
+          "content": "Dr. APJ Abdul Kalam, bekannt als Indiens 'Raketenmann' und später sein Präsident, sprach diese Worte aus tiefer persönlicher Erfahrung. Als junger Mann aus bescheidenen Verhältnissen verkaufte er Zeitungen, um sein Studium zu finanzieren. Sein Traum, Indiens Weltraum- und Verteidigungsfähigkeiten voranzutreiben, war so zwingend, dass er bis spät in die Nacht arbeitete und oft den Schlaf vergaß. Diese Leidenschaft führte dazu, dass er Indiens Raketenentwicklungsprogramm leitete und Millionen mit seiner Vision eines entwickelten Indiens inspirierte. Seine Träume waren keine nächtlichen Fantasien—sie waren brennende Ambitionen, die ihn jeden Tag zum Handeln antrieben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Sogno dello Scienziato",
+          "content": "Il Dr. APJ Abdul Kalam, noto come l'\"Uomo dei Missili\" dell'India e successivamente suo Presidente, pronunciò queste parole da una profonda esperienza personale. Da giovane di umili origini, vendeva giornali per sostenere i suoi studi. Il suo sogno di far progredire le capacità spaziali e di difesa dell'India era così coinvolgente che lavorava fino a tarda notte, spesso dimenticando di dormire. Questa passione lo portò a guidare il programma di sviluppo missilistico dell'India e a ispirare milioni di persone con la sua visione di un'India sviluppata. I suoi sogni non erano solo fantasie notturne—erano ambizioni ardenti che lo spingevano all'azione ogni giorno.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Мечта Ученого",
+          "content": "Доктор APJ Абдул Калам, известный как 'Ракетчик' Индии, а позже ставший её президентом, произнес эти слова из глубокого личного опыта. Будучи молодым человеком из скромной семьи, он продавал газеты, чтобы поддержать свою учебу. Его мечта о развитии космических и оборонных возможностей Индии была настолько захватывающей, что он работал до поздней ночи, часто забывая о сне. Эта страсть привела его к руководству программой разработки ракет Индии и вдохновила миллионы людей своим видением развитой Индии. Его мечты не были просто ночными фантазиями—это были горящие амбиции, которые побуждали его к действию каждый день.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_012",
+      "category": "dreams",
+      "texts": {
+        "en": "A dream you dream alone is only a dream. A dream you dream together is reality.",
+        "tr": "Tek başına gördüğün bir hayal sadece bir hayaldir. Birlikte görülen bir hayal gerçektir.",
+        "fr": "Un rêve que vous rêvez seul n'est qu'un rêve. Un rêve que vous rêvez ensemble est une réalité.",
+        "pt": "Um sonho que você sonha sozinho é apenas um sonho. Um sonho que você sonha junto é realidade.",
+        "nl": "Een droom die je alleen droomt is slechts een droom. Een droom die je samen droomt is realiteit.",
+        "es": "Un sueño que sueñas solo es solo un sueño. Un sueño que sueñas junto es realidad.",
+        "de": "Ein Traum, den du allein träumst, ist nur ein Traum. Ein Traum, den ihr zusammen träumt, ist Realität.",
+        "it": "Un sogno che sogni da solo è solo un sogno. Un sogno che sognate insieme è realtà.",
+        "ru": "Мечта, о которой мечтаешь один - это только мечта. Мечта, о которой мечтаете вместе - это реальность."
+      },
+      "authors": {
+        "en": "John Lennon",
+        "tr": "John Lennon",
+        "fr": "John Lennon",
+        "pt": "John Lennon",
+        "nl": "John Lennon",
+        "es": "John Lennon",
+        "de": "John Lennon",
+        "it": "John Lennon",
+        "ru": "Джон Леннон"
+      },
+      "tags": {
+        "en": ["unity", "collaboration", "transformation"],
+        "tr": ["birlik", "işbirliği", "dönüşüm"],
+        "fr": ["unité", "collaboration", "transformation"],
+        "pt": ["unidade", "colaboração", "transformação"],
+        "nl": ["eenheid", "samenwerking", "transformatie"],
+        "es": ["unidad", "colaboración", "transformación"],
+        "de": ["Einheit", "Zusammenarbeit", "Transformation"],
+        "it": ["unità", "collaborazione", "trasformazione"],
+        "ru": ["единство", "сотрудничество", "преобразование"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Power of Shared Dreams",
+          "content": "John Lennon's words reflect the transformative power of collective dreaming. The Beatles began as four young musicians sharing a dream in Liverpool, but their shared vision of creating revolutionary music changed popular culture forever. This quote also resonated deeply with the peace movement of the 1960s and '70s. Lennon understood that social change happens when people unite behind a common dream. Whether it's the civil rights movement, environmental activism, or technological innovation, history's greatest achievements started with dreams that were shared and nurtured by communities of believers.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Paylaşılan Hayallerin Gücü",
+          "content": "John Lennon'ın sözleri, kolektif hayal kurmanın dönüştürücü gücünü yansıtıyor. Beatles, Liverpool'da bir hayali paylaşan dört genç müzisyen olarak başladı, ancak devrim niteliğindeki müzik yaratma konusundaki ortak vizyonları popüler kültürü sonsuza dek değiştirdi. Bu alıntı, 1960'lar ve 70'lerin barış hareketiyle de derinden yankı buldu. Lennon, sosyal değişimin insanlar ortak bir hayal etrafında birleştiğinde gerçekleştiğini anladı. İster sivil haklar hareketi, çevre aktivizmi veya teknolojik yenilik olsun, tarihin en büyük başarıları, inananların toplulukları tarafından paylaşılan ve beslenen hayallerle başladı.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Pouvoir des Rêves Partagés",
+          "content": "Les paroles de John Lennon reflètent le pouvoir transformateur du rêve collectif. Les Beatles ont commencé comme quatre jeunes musiciens partageant un rêve à Liverpool, mais leur vision commune de créer une musique révolutionnaire a changé la culture populaire pour toujours. Cette citation a également trouvé un profond écho dans le mouvement pour la paix des années 1960 et 70. Lennon comprenait que le changement social se produit lorsque les gens s'unissent derrière un rêve commun. Qu'il s'agisse du mouvement des droits civiques, de l'activisme environnemental ou de l'innovation technologique, les plus grandes réalisations de l'histoire ont commencé par des rêves partagés et nourris par des communautés de croyants.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Poder dos Sonhos Compartilhados",
+          "content": "As palavras de John Lennon refletem o poder transformador do sonho coletivo. Os Beatles começaram como quatro jovens músicos compartilhando um sonho em Liverpool, mas sua visão compartilhada de criar música revolucionária mudou a cultura popular para sempre. Esta citação também ressoou profundamente com o movimento pela paz dos anos 1960 e 70. Lennon entendeu que a mudança social acontece quando as pessoas se unem por trás de um sonho comum. Seja o movimento pelos direitos civis, o ativismo ambiental ou a inovação tecnológica, as maiores conquistas da história começaram com sonhos que foram compartilhados e nutridos por comunidades de crentes.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Kracht van Gedeelde Dromen",
+          "content": "John Lennons woorden weerspiegelen de transformerende kracht van collectief dromen. The Beatles begonnen als vier jonge muzikanten die een droom deelden in Liverpool, maar hun gedeelde visie om revolutionaire muziek te maken veranderde de populaire cultuur voorgoed. Dit citaat vond ook diepe weerklank in de vredesbeweging van de jaren '60 en '70. Lennon begreep dat sociale verandering plaatsvindt wanneer mensen zich verenigen achter een gemeenschappelijke droom. Of het nu gaat om de burgerrechtenbeweging, milieuactivisme of technologische innovatie, de grootste prestaties in de geschiedenis begonnen met dromen die werden gedeeld en gekoesterd door gemeenschappen van gelovigen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Poder de los Sueños Compartidos",
+          "content": "Las palabras de John Lennon reflejan el poder transformador del sueño colectivo. Los Beatles comenzaron como cuatro jóvenes músicos compartiendo un sueño en Liverpool, pero su visión compartida de crear música revolucionaria cambió la cultura popular para siempre. Esta cita también resonó profundamente con el movimiento por la paz de los años 60 y 70. Lennon entendió que el cambio social ocurre cuando las personas se unen detrás de un sueño común. Ya sea el movimiento por los derechos civiles, el activismo ambiental o la innovación tecnológica, los mayores logros de la historia comenzaron con sueños que fueron compartidos y nutridos por comunidades de creyentes.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Kraft geteilter Träume",
+          "content": "John Lennons Worte spiegeln die transformative Kraft des kollektiven Träumens wider. Die Beatles begannen als vier junge Musiker, die sich in Liverpool einen Traum teilten, aber ihre gemeinsame Vision, revolutionäre Musik zu schaffen, veränderte die Populärkultur für immer. Dieses Zitat fand auch in der Friedensbewegung der 1960er und 70er Jahre tiefen Widerhall. Lennon verstand, dass sozialer Wandel geschieht, wenn Menschen sich hinter einem gemeinsamen Traum vereinen. Ob Bürgerrechtsbewegung, Umweltaktivismus oder technologische Innovation - die größten Errungenschaften der Geschichte begannen mit Träumen, die von Gemeinschaften von Gläubigen geteilt und genährt wurden.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Potere dei Sogni Condivisi",
+          "content": "Le parole di John Lennon riflettono il potere trasformativo del sognare collettivo. I Beatles iniziarono come quattro giovani musicisti che condividevano un sogno a Liverpool, ma la loro visione comune di creare musica rivoluzionaria cambiò per sempre la cultura popolare. Questa citazione risuonò profondamente anche nel movimento per la pace degli anni '60 e '70. Lennon capì che il cambiamento sociale avviene quando le persone si uniscono dietro un sogno comune. Che si tratti del movimento per i diritti civili, dell'attivismo ambientale o dell'innovazione tecnologica, le più grandi conquiste della storia sono iniziate con sogni che sono stati condivisi e nutriti da comunità di credenti.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Сила Общих Мечтаний",
+          "content": "Слова Джона Леннона отражают преобразующую силу коллективной мечты. Beatles начинались как четыре молодых музыканта, разделяющих мечту в Ливерпуле, но их общее видение создания революционной музыки навсегда изменило популярную культуру. Эта цитата также глубоко резонировала с движением за мир 1960-х и 70-х годов. Леннон понимал, что социальные изменения происходят, когда люди объединяются за общей мечтой. Будь то движение за гражданские права, экологический активизм или технологические инновации, величайшие достижения истории начинались с мечтаний, которые разделялись и поддерживались сообществами единомышленников.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_013",
+      "category": "dreams",
+      "texts": {
+        "en": "Reality is wrong. Dreams are for real.",
+        "tr": "Gerçeklik yanlıştır. Hayaller gerçektir.",
+        "fr": "La réalité est fausse. Les rêves sont vrais.",
+        "pt": "A realidade está errada. Os sonhos são reais.",
+        "nl": "De realiteit is verkeerd. Dromen zijn echt.",
+        "es": "La realidad está equivocada. Los sueños son reales.",
+        "de": "Die Realität ist falsch. Träume sind wirklich.",
+        "it": "La realtà è sbagliata. I sogni sono reali.",
+        "ru": "Реальность ошибочна. Мечты реальны."
+      },
+      "authors": {
+        "en": "Tupac Shakur",
+        "tr": "Tupac Shakur",
+        "fr": "Tupac Shakur",
+        "pt": "Tupac Shakur",
+        "nl": "Tupac Shakur",
+        "es": "Tupac Shakur",
+        "de": "Tupac Shakur",
+        "it": "Tupac Shakur",
+        "ru": "Тупак Шакур"
+      },
+      "tags": {
+        "en": ["perspective", "truth", "reality"],
+        "tr": ["bakış açısı", "gerçek", "gerçeklik"],
+        "fr": ["perspective", "vérité", "réalité"],
+        "pt": ["perspectiva", "verdade", "realidade"],
+        "nl": ["perspectief", "waarheid", "realiteit"],
+        "es": ["perspectiva", "verdad", "realidad"],
+        "de": ["Perspektive", "Wahrheit", "Realität"],
+        "it": ["prospettiva", "verità", "realtà"],
+        "ru": ["перспектива", "истина", "реальность"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Truth in Dreams",
+          "content": "Tupac Shakur's provocative statement challenges our conventional understanding of reality and dreams. Growing up in challenging circumstances, he saw how the 'reality' of poverty and discrimination was a constructed barrier, while dreams represented authentic human potential. Through his music and poetry, he showed how dreams could be more 'real' than the artificial limitations society places on individuals. His own life demonstrated this philosophy—he dreamed of using his voice to change the world, and through that dream, he became one of the most influential artists in hip-hop history, inspiring millions to see beyond their immediate circumstances.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Hayallerdeki Gerçek",
+          "content": "Tupac Shakur'un provokatif ifadesi, gerçeklik ve hayaller hakkındaki geleneksel anlayışımıza meydan okuyor. Zorlu koşullarda büyürken, yoksulluk ve ayrımcılığın 'gerçekliğinin' yapay bir engel olduğunu, hayallerin ise gerçek insan potansiyelini temsil ettiğini gördü. Müziği ve şiiri aracılığıyla, hayallerin toplumun bireylere koyduğu yapay sınırlamalardan daha 'gerçek' olabileceğini gösterdi. Kendi hayatı bu felsefeyi gösterdi—sesini dünyayı değiştirmek için kullanmayı hayal etti ve bu hayal sayesinde, hip-hop tarihinin en etkili sanatçılarından biri oldu, milyonlarca insana mevcut koşullarının ötesini görmeleri için ilham verdi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Vérité dans les Rêves",
+          "content": "L'affirmation provocante de Tupac Shakur remet en question notre compréhension conventionnelle de la réalité et des rêves. Ayant grandi dans des circonstances difficiles, il a vu comment la 'réalité' de la pauvreté et de la discrimination était une barrière construite, tandis que les rêves représentaient le véritable potentiel humain. À travers sa musique et sa poésie, il a montré comment les rêves pouvaient être plus 'réels' que les limitations artificielles imposées par la société aux individus. Sa propre vie a démontré cette philosophie—il rêvait d'utiliser sa voix pour changer le monde, et à travers ce rêve, il est devenu l'un des artistes les plus influents de l'histoire du hip-hop, inspirant des millions de personnes à voir au-delà de leurs circonstances immédiates.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Verdade nos Sonhos",
+          "content": "A declaração provocativa de Tupac Shakur desafia nossa compreensão convencional de realidade e sonhos. Crescendo em circunstâncias desafiadoras, ele viu como a 'realidade' da pobreza e discriminação era uma barreira construída, enquanto os sonhos representavam o autêntico potencial humano. Através de sua música e poesia, ele mostrou como os sonhos podiam ser mais 'reais' que as limitações artificiais que a sociedade impõe aos indivíduos. Sua própria vida demonstrou essa filosofia—ele sonhou em usar sua voz para mudar o mundo, e através desse sonho, tornou-se um dos artistas mais influentes na história do hip-hop, inspirando milhões a ver além de suas circunstâncias imediatas.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Waarheid in Dromen",
+          "content": "Tupac Shakurs provocerende uitspraak daagt ons conventionele begrip van realiteit en dromen uit. Opgroeiend in uitdagende omstandigheden, zag hij hoe de 'realiteit' van armoede en discriminatie een geconstrueerde barrière was, terwijl dromen het authentieke menselijke potentieel vertegenwoordigden. Door zijn muziek en poëzie liet hij zien hoe dromen 'echter' konden zijn dan de kunstmatige beperkingen die de samenleving aan individuen oplegt. Zijn eigen leven demonstreerde deze filosofie—hij droomde ervan zijn stem te gebruiken om de wereld te veranderen, en door die droom werd hij een van de meest invloedrijke artiesten in de geschiedenis van hip-hop, die miljoenen inspireerde om verder te kijken dan hun directe omstandigheden.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Verdad en los Sueños",
+          "content": "La declaración provocativa de Tupac Shakur desafía nuestra comprensión convencional de la realidad y los sueños. Creciendo en circunstancias desafiantes, vio cómo la 'realidad' de la pobreza y la discriminación era una barrera construida, mientras que los sueños representaban el auténtico potencial humano. A través de su música y poesía, mostró cómo los sueños podían ser más 'reales' que las limitaciones artificiales que la sociedad impone a los individuos. Su propia vida demostró esta filosofía—soñó con usar su voz para cambiar el mundo, y a través de ese sueño, se convirtió en uno de los artistas más influyentes en la historia del hip-hop, inspirando a millones a ver más allá de sus circunstancias inmediatas.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Wahrheit in Träumen",
+          "content": "Tupac Shakurs provokante Aussage fordert unser konventionelles Verständnis von Realität und Träumen heraus. Aufgewachsen unter schwierigen Umständen, sah er, wie die 'Realität' von Armut und Diskriminierung eine konstruierte Barriere war, während Träume das authentische menschliche Potenzial repräsentierten. Durch seine Musik und Poesie zeigte er, wie Träume 'realer' sein konnten als die künstlichen Beschränkungen, die die Gesellschaft dem Einzelnen auferlegt. Sein eigenes Leben demonstrierte diese Philosophie—er träumte davon, seine Stimme zu nutzen, um die Welt zu verändern, und durch diesen Traum wurde er zu einem der einflussreichsten Künstler in der Geschichte des Hip-Hop, der Millionen inspirierte, über ihre unmittelbaren Umstände hinauszusehen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Verità nei Sogni",
+          "content": "L'affermazione provocatoria di Tupac Shakur sfida la nostra comprensione convenzionale della realtà e dei sogni. Cresciuto in circostanze difficili, vide come la 'realtà' della povertà e della discriminazione fosse una barriera costruita, mentre i sogni rappresentavano l'autentico potenziale umano. Attraverso la sua musica e poesia, ha mostrato come i sogni potessero essere più 'reali' delle limitazioni artificiali che la società impone agli individui. La sua stessa vita ha dimostrato questa filosofia—sognava di usare la sua voce per cambiare il mondo, e attraverso quel sogno, è diventato uno degli artisti più influenti nella storia dell'hip-hop, ispirando milioni di persone a vedere oltre le loro circostanze immediate.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Истина в Мечтах",
+          "content": "Провокационное утверждение Тупака Шакура бросает вызов нашему традиционному пониманию реальности и мечтаний. Выросший в сложных условиях, он видел, как 'реальность' бедности и дискриминации была искусственным барьером, в то время как мечты представляли подлинный человеческий потенциал. Через свою музыку и поэзию он показал, как мечты могут быть более 'реальными', чем искусственные ограничения, которые общество накладывает на людей. Его собственная жизнь продемонстрировала эту философию—он мечтал использовать свой голос, чтобы изменить мир, и благодаря этой мечте он стал одним из самых влиятельных артистов в истории хип-хопа, вдохновляя миллионы людей видеть больше, чем их непосредственные обстоятельства.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_014",
+      "category": "dreams",
+      "texts": {
+        "en": "The future belongs to those who believe in the beauty of their dreams.",
+        "tr": "Gelecek, hayallerinin güzelliğine inananlarındır.",
+        "fr": "L'avenir appartient à ceux qui croient en la beauté de leurs rêves.",
+        "pt": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+        "nl": "De toekomst behoort aan hen die geloven in de schoonheid van hun dromen.",
+        "es": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+        "de": "Die Zukunft gehört denen, die an die Schönheit ihrer Träume glauben.",
+        "it": "Il futuro appartiene a coloro che credono nella bellezza dei loro sogni.",
+        "ru": "Будущее принадлежит тем, кто верит в красоту своих мечтаний."
+      },
+      "authors": {
+        "en": "Eleanor Roosevelt",
+        "tr": "Eleanor Roosevelt",
+        "fr": "Eleanor Roosevelt",
+        "pt": "Eleanor Roosevelt",
+        "nl": "Eleanor Roosevelt",
+        "es": "Eleanor Roosevelt",
+        "de": "Eleanor Roosevelt",
+        "it": "Eleanor Roosevelt",
+        "ru": "Элеонора Рузвельт"
+      },
+      "tags": {
+        "en": ["future", "belief", "beauty"],
+        "tr": ["gelecek", "inanç", "güzellik"],
+        "fr": ["avenir", "croyance", "beauté"],
+        "pt": ["futuro", "crença", "beleza"],
+        "nl": ["toekomst", "geloof", "schoonheid"],
+        "es": ["futuro", "creencia", "belleza"],
+        "de": ["Zukunft", "Glaube", "Schönheit"],
+        "it": ["futuro", "fede", "bellezza"],
+        "ru": ["будущее", "вера", "красота"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "A Vision of Hope",
+          "content": "Eleanor Roosevelt lived this principle throughout her life, transforming the role of First Lady and championing human rights on a global scale. Her belief in a better world wasn't mere optimism—it was a driving force that shaped reality. She understood that those who can envision a better future and believe in its possibility are the ones who ultimately create it. This quote has inspired generations of dreamers, from civil rights activists to entrepreneurs, reminding them that believing in your dreams is the first step to making them real. Her own life exemplified this philosophy as she worked tirelessly to advance civil rights, women's rights, and social justice.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Umut Vizyonu",
+          "content": "Eleanor Roosevelt bu prensibi hayatı boyunca yaşadı, First Lady rolünü dönüştürdü ve küresel ölçekte insan haklarını savundu. Daha iyi bir dünyaya olan inancı sadece iyimserlik değildi—gerçekliği şekillendiren bir itici güçtü. Daha iyi bir geleceği hayal edebilen ve onun olabilirliğine inananların, sonunda onu yaratanlar olduğunu anladı. Bu alıntı, sivil haklar aktivistlerinden girişimcilere kadar nesiller boyu hayalperestlere ilham verdi, hayallerine inanmanın onları gerçekleştirmenin ilk adımı olduğunu hatırlattı. Kendi hayatı, sivil hakları, kadın hakları ve sosyal adaleti ilerletmek için yorulmadan çalışırken bu felsefeyi örnekledi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Une Vision d'Espoir",
+          "content": "Eleanor Roosevelt a vécu ce principe tout au long de sa vie, transformant le rôle de Première Dame et défendant les droits humains à l'échelle mondiale. Sa croyance en un monde meilleur n'était pas simplement de l'optimisme—c'était une force motrice qui façonnait la réalité. Elle comprenait que ceux qui peuvent envisager un meilleur avenir et croire en sa possibilité sont ceux qui finalement le créent. Cette citation a inspiré des générations de rêveurs, des militants des droits civiques aux entrepreneurs, leur rappelant que croire en ses rêves est la première étape pour les rendre réels. Sa propre vie a illustré cette philosophie alors qu'elle travaillait sans relâche pour faire progresser les droits civils, les droits des femmes et la justice sociale.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Uma Visão de Esperança",
+          "content": "Eleanor Roosevelt viveu este princípio ao longo de sua vida, transformando o papel de Primeira-Dama e defendendo os direitos humanos em escala global. Sua crença em um mundo melhor não era mero otimismo—era uma força motriz que moldava a realidade. Ela entendeu que aqueles que podem visualizar um futuro melhor e acreditar em sua possibilidade são os que finalmente o criam. Esta citação inspirou gerações de sonhadores, de ativistas dos direitos civis a empreendedores, lembrando-os que acreditar em seus sonhos é o primeiro passo para torná-los reais. Sua própria vida exemplificou esta filosofia enquanto trabalhava incansavelmente para avançar os direitos civis, os direitos das mulheres e a justiça social.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Een Visie van Hoop",
+          "content": "Eleanor Roosevelt leefde dit principe haar hele leven, transformeerde de rol van First Lady en verdedigde mensenrechten op wereldschaal. Haar geloof in een betere wereld was niet alleen optimisme—het was een drijvende kracht die de realiteit vormde. Ze begreep dat degenen die een betere toekomst kunnen visualiseren en in de mogelijkheid ervan geloven, degenen zijn die het uiteindelijk creëren. Dit citaat heeft generaties dromers geïnspireerd, van burgerrechtenactivisten tot ondernemers, en herinnert hen eraan dat geloven in je dromen de eerste stap is om ze werkelijkheid te maken. Haar eigen leven was een voorbeeld van deze filosofie terwijl ze onvermoeibaar werkte aan het bevorderen van burgerrechten, vrouwenrechten en sociale rechtvaardigheid.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "Una Visión de Esperanza",
+          "content": "Eleanor Roosevelt vivió este principio a lo largo de su vida, transformando el papel de Primera Dama y defendiendo los derechos humanos a escala global. Su creencia en un mundo mejor no era mero optimismo—era una fuerza impulsora que moldeaba la realidad. Entendió que aquellos que pueden visualizar un futuro mejor y creer en su posibilidad son los que finalmente lo crean. Esta cita ha inspirado a generaciones de soñadores, desde activistas de derechos civiles hasta emprendedores, recordándoles que creer en sus sueños es el primer paso para hacerlos realidad. Su propia vida ejemplificó esta filosofía mientras trabajaba incansablemente para avanzar en los derechos civiles, los derechos de las mujeres y la justicia social.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Eine Vision der Hoffnung",
+          "content": "Eleanor Roosevelt lebte dieses Prinzip ihr ganzes Leben lang, veränderte die Rolle der First Lady und setzte sich weltweit für die Menschenrechte ein. Ihr Glaube an eine bessere Welt war nicht bloßer Optimismus—es war eine treibende Kraft, die die Realität formte. Sie verstand, dass diejenigen, die eine bessere Zukunft sehen und an ihre Möglichkeit glauben können, diejenigen sind, die sie letztendlich erschaffen. Dieses Zitat hat Generationen von Träumern inspiriert, von Bürgerrechtsaktivisten bis hin zu Unternehmern, und erinnert sie daran, dass der Glaube an ihre Träume der erste Schritt ist, um sie wahr werden zu lassen. Ihre eigenen Lebenswege verkörperten diese Philosophie, während sie unermüdlich daran arbeiteten, Bürgerrechte, Frauenrechte und soziale Gerechtigkeit voranzubringen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Una Visione di Speranza",
+          "content": "Eleanor Roosevelt ha vissuto questo principio durante tutta la sua vita, trasformando il ruolo di First Lady e difendendo i diritti umani su scala globale. La sua fede in un mondo migliore non era semplice ottimismo—era una forza trainante che plasmava la realtà. Capì che coloro che possono visualizzare un futuro migliore e credere nella sua possibilità sono quelli che alla fine lo creano. Questa citazione ha ispirato generazioni di sognatori, dagli attivisti per i diritti civili agli imprenditori, ricordando loro che credere nei propri sogni è il primo passo per renderli reali. La sua stessa vita ha esemplificato questa filosofia mentre lavorava instancabilmente per promuovere i diritti civili, i diritti delle donne e la giustizia sociale.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Видение Надежды",
+          "content": "Элеонора Рузвельт жила по этому принципу всю свою жизнь, трансформируя роль Первой леди и защищая права человека в глобальном масштабе. Её вера в лучший мир не была простым оптимизмом—это была движущая сила, которая формировала реальность. Она понимала, что те, кто может представить лучшее будущее и верить в его возможность, в конечном итоге его создают. Эта цитата вдохновила поколения мечтателей, от активистов за гражданские права до предпринимателей, напоминая им, что вера в свои мечты—это первый шаг к их воплощению. Её собственная жизнь была примером этой философии, когда она неустанно работала над продвижением гражданских прав, прав женщин и социальной справедливости.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_015",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are the compass that guide us through the uncharted territories of life.",
+        "tr": "Hayaller, hayatın keşfedilmemiş bölgelerinde bize yol gösteren pusuladır.",
+        "fr": "Les rêves sont la boussole qui nous guide à travers les territoires inexplorés de la vie.",
+        "pt": "Os sonhos são a bússola que nos guia através dos territórios inexplorados da vida.",
+        "nl": "Dromen zijn het kompas dat ons door de onbekende gebieden van het leven leidt.",
+        "es": "Los sueños son la brújula que nos guía a través de los territorios inexplorados de la vida.",
+        "de": "Träume sind der Kompass, der uns durch die unerforschten Gebiete des Lebens führt.",
+        "it": "I sogni sono la bussola che ci guida attraverso i territori inesplorati della vita.",
+        "ru": "Мечты - это компас, который ведет нас через неизведанные территории жизни."
+      },
+      "authors": {
+        "en": "Maya Angelou",
+        "tr": "Maya Angelou",
+        "fr": "Maya Angelou",
+        "pt": "Maya Angelou",
+        "nl": "Maya Angelou",
+        "es": "Maya Angelou",
+        "de": "Maya Angelou",
+        "it": "Maya Angelou",
+        "ru": "Майя Анджелоу"
+      },
+      "tags": {
+        "en": ["guidance", "journey", "discovery"],
+        "tr": ["rehberlik", "yolculuk", "keşif"],
+        "fr": ["orientation", "voyage", "découverte"],
+        "pt": ["orientação", "jornada", "descoberta"],
+        "nl": ["begeleiding", "reis", "ontdekking"],
+        "es": ["guía", "viaje", "descubrimiento"],
+        "de": ["Führung", "Reise", "Entdeckung"],
+        "it": ["guida", "viaggio", "scoperta"],
+        "ru": ["руководство", "путешествие", "открытие"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Inner Navigation",
+          "content": "Maya Angelou's metaphor of dreams as a compass reflects her own remarkable journey from a traumatic childhood to becoming a globally celebrated author and poet. Throughout her life, her dreams of expression and equality guided her through uncharted territories - from being one of the first Black female cable car conductors in San Francisco to becoming a voice for civil rights. Her dreams weren't just aspirations; they were internal guidance systems that helped her navigate through life's challenges and ultimately led her to profound impact and achievement.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "İç Navigasyon",
+          "content": "Maya Angelou'nun hayalleri pusula olarak betimleyen metaforu, travmatik bir çocukluktan küresel çapta kutlanan bir yazar ve şair olmaya uzanan olağanüstü yolculuğunu yansıtır. Hayatı boyunca, ifade ve eşitlik hayalleri ona keşfedilmemiş bölgelerde rehberlik etti - San Francisco'nun ilk Siyahi kadın tramvay kondüktörlerinden biri olmaktan sivil hakların sesi olmaya kadar. Hayalleri sadece özlemler değildi; hayatın zorluklarında yolunu bulmasına yardımcı olan ve sonunda onu derin bir etki ve başarıya götüren içsel rehberlik sistemleriydi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Navigation Intérieure",
+          "content": "La métaphore de Maya Angelou des rêves comme boussole reflète son propre parcours remarquable, d'une enfance traumatisante à une auteure et poétesse célébrée mondialement. Tout au long de sa vie, ses rêves d'expression et d'égalité l'ont guidée à travers des territoires inexplorés - depuis son poste de première conductrice de tramway noire à San Francisco jusqu'à devenir une voix pour les droits civiques. Ses rêves n'étaient pas que des aspirations ; c'étaient des systèmes de guidage internes qui l'ont aidée à naviguer à travers les défis de la vie et l'ont finalement menée à un impact et une réussite profonds.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Navegação Interior",
+          "content": "A metáfora de Maya Angelou dos sonhos como uma bússola reflete sua própria jornada notável, de uma infância traumática a uma autora e poetisa celebrada globalmente. Ao longo de sua vida, seus sonhos de expressão e igualdade a guiaram através de territórios inexplorados - desde ser uma das primeiras condutoras negras de bonde em São Francisco até se tornar uma voz pelos direitos civis. Seus sonhos não eram apenas aspirações; eram sistemas de orientação internos que a ajudaram a navegar pelos desafios da vida e finalmente a levaram a um impacto e realização profundos.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Innerlijke Navigatie",
+          "content": "Maya Angelou's metafoor van dromen als kompas weerspiegelt haar eigen opmerkelijke reis van een traumatische jeugd naar een wereldwijd gevierde auteur en dichter. Gedurende haar leven leidden haar dromen van expressie en gelijkheid haar door onbekende gebieden - van een van de eerste zwarte vrouwelijke tramconducteurs in San Francisco tot het worden van een stem voor burgerrechten. Haar dromen waren niet alleen aspiraties; het waren interne geleidingssystemen die haar hielpen door de uitdagingen van het leven te navigeren en haar uiteindelijk naar diepgaande impact en prestatie leidden.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Navegación Interior",
+          "content": "La metáfora de Maya Angelou de los sueños como brújula refleja su propio viaje extraordinario, desde una infancia traumática hasta convertirse en una autora y poetisa celebrada globalmente. A lo largo de su vida, sus sueños de expresión e igualdad la guiaron a través de territorios inexplorados - desde ser una de las primeras conductoras negras de tranvía en San Francisco hasta convertirse en una voz por los derechos civiles. Sus sueños no eran solo aspiraciones; eran sistemas de guía internos que la ayudaron a navegar por los desafíos de la vida y finalmente la llevaron a un impacto y logro profundos.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Innere Navigation",
+          "content": "Maya Angelous Metapher von Träumen als Kompass spiegelt ihre eigene bemerkenswerte Reise von einer traumatischen Kindheit zu einer weltweit gefeierten Autorin und Dichterin wider. Ihr ganzes Leben lang leiteten ihre Träume von Ausdruck und Gleichheit sie durch unerforschte Gebiete - von einer der ersten schwarzen Straßenbahnschaffnerinnen in San Francisco bis hin zu einer Stimme für Bürgerrechte. Ihre Träume waren nicht nur Bestrebungen; sie waren interne Leitsysteme, die ihr halfen, durch die Herausforderungen des Lebens zu navigieren und sie schließlich zu tiefgreifendem Einfluss und Erfolg führten.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Navigazione Interiore",
+          "content": "La metafora di Maya Angelou dei sogni come bussola riflette il suo straordinario viaggio personale, dall'infanzia traumatica fino a diventare un'autrice e poetessa celebrata a livello mondiale. Durante tutta la sua vita, i suoi sogni di espressione e uguaglianza l'hanno guidata attraverso territori inesplorati - dall'essere una delle prime conducenti di tram nere a San Francisco fino a diventare una voce per i diritti civili. I suoi sogni non erano solo aspirazioni; erano sistemi di guida interni che l'hanno aiutata a navigare attraverso le sfide della vita e l'hanno infine portata a un impatto e un successo profondi.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Внутренняя Навигация",
+          "content": "Метафора Майи Анджелоу о мечтах как о компасе отражает её собственный замечательный путь от травматического детства до всемирно признанного автора и поэта. На протяжении всей её жизни мечты о самовыражении и равенстве вели её через неизведанные территории - от одной из первых чернокожих женщин-кондукторов трамвая в Сан-Франциско до голоса за гражданские права. Её мечты были не просто стремлениями; это были внутренние системы наведения, которые помогали ей ориентироваться в жизненных испытаниях и в конечном итоге привели её к глубокому влиянию и достижениям.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_016",
+      "category": "dreams",
+      "texts": {
+        "en": "Every great achievement was once an impossible dream.",
+        "tr": "Her büyük başarı bir zamanlar imkansız bir hayaldi.",
+        "fr": "Chaque grande réalisation était autrefois un rêve impossible.",
+        "pt": "Cada grande conquista já foi um sonho impossível.",
+        "nl": "Elke grote prestatie was ooit een onmogelijke droom.",
+        "es": "Cada gran logro fue una vez un sueño imposible.",
+        "de": "Jede große Errungenschaft war einst ein unmöglicher Traum.",
+        "it": "Ogni grande realizzazione era una volta un sogno impossibile.",
+        "ru": "Каждое великое достижение когда-то было невозможной мечтой."
+      },
+      "authors": {
+        "en": "Robert H. Schuller",
+        "tr": "Robert H. Schuller",
+        "fr": "Robert H. Schuller",
+        "pt": "Robert H. Schuller",
+        "nl": "Robert H. Schuller",
+        "es": "Robert H. Schuller",
+        "de": "Robert H. Schuller",
+        "it": "Robert H. Schuller",
+        "ru": "Роберт Х. Шуллер"
+      },
+      "tags": {
+        "en": ["achievement", "possibility", "transformation"],
+        "tr": ["başarı", "olasılık", "dönüşüm"],
+        "fr": ["réussite", "possibilité", "transformation"],
+        "pt": ["realização", "possibilidade", "transformação"],
+        "nl": ["prestatie", "mogelijkheid", "transformatie"],
+        "es": ["logro", "posibilidad", "transformación"],
+        "de": ["Erfolg", "Möglichkeit", "Transformation"],
+        "it": ["successo", "possibilità", "trasformazione"],
+        "ru": ["достижение", "возможность", "трансформация"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "From Impossible to Inevitable",
+          "content": "Robert H. Schuller's journey exemplifies this truth. Starting with just $500 and a dream, he built the Crystal Cathedral, once America's largest glass building and first church to broadcast services nationally. When he proposed building a glass church in earthquake-prone California, experts called it impossible. Yet his vision of 'possibility thinking' transformed not just architecture but how people viewed their own potential. The Cathedral became a symbol of how seemingly impossible dreams can materialize through persistence and faith, inspiring millions to reconsider their own 'impossible' dreams.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "İmkansızdan Kaçınılmaza",
+          "content": "Robert H. Schuller'in yolculuğu bu gerçeği örnekler. Sadece 500 dolar ve bir hayalle başlayarak, bir zamanlar Amerika'nın en büyük cam binası ve ulusal olarak ayinleri yayınlayan ilk kilise olan Crystal Cathedral'i inşa etti. Depreme yatkın Kaliforniya'da cam bir kilise inşa etmeyi önerdiğinde, uzmanlar bunun imkansız olduğunu söyledi. Ancak onun 'olasılık düşüncesi' vizyonu sadece mimariyi değil, insanların kendi potansiyellerini görme şeklini de dönüştürdü. Katedral, görünüşte imkansız hayallerin azim ve inançla nasıl gerçekleşebileceğinin bir sembolü haline geldi ve milyonlarca insanı kendi 'imkansız' hayallerini yeniden düşünmeye teşvik etti.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "De l'Impossible à l'Inévitable",
+          "content": "Le parcours de Robert H. Schuller illustre cette vérité. Commençant avec seulement 500 dollars et un rêve, il a construit la Cathédrale de Cristal, autrefois le plus grand bâtiment en verre d'Amérique et la première église à diffuser des services à l'échelle nationale. Lorsqu'il a proposé de construire une église en verre dans la Californie sujette aux tremblements de terre, les experts l'ont qualifié d'impossible. Pourtant, sa vision de la 'pensée des possibilités' a transformé non seulement l'architecture mais aussi la façon dont les gens voyaient leur propre potentiel. La Cathédrale est devenue un symbole de la façon dont les rêves apparemment impossibles peuvent se matérialiser grâce à la persévérance et à la foi, inspirant des millions de personnes à reconsidérer leurs propres rêves 'impossibles'.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Do Impossível ao Inevitável",
+          "content": "A jornada de Robert H. Schuller exemplifica esta verdade. Começando com apenas 500 dólares e um sonho, ele construiu a Catedral de Cristal, outrora o maior edifício de vidro da América e a primeira igreja a transmitir serviços nacionalmente. Quando ele propôs construir uma igreja de vidro na Califórnia propensa a terremotos, especialistas chamaram isso de impossível. No entanto, sua visão de 'pensamento de possibilidade' transformou não apenas a arquitetura, mas como as pessoas viam seu próprio potencial. A Catedral tornou-se um símbolo de como sonhos aparentemente impossíveis podem se materializar através da persistência e fé, inspirando milhões a reconsiderar seus próprios sonhos 'impossíveis'.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Van Onmogelijk naar Onvermijdelijk",
+          "content": "De reis van Robert H. Schuller illustreert deze waarheid. Beginnend met slechts 500 dollar en een droom, bouwde hij de Crystal Cathedral, ooit Amerika's grootste glazen gebouw en eerste kerk die diensten nationaal uitzond. Toen hij voorstelde om een glazen kerk te bouwen in het aardbevingsgevoelige Californië, noemden experts het onmogelijk. Toch transformeerde zijn visie van 'mogelijkheidsdenken' niet alleen de architectuur maar ook hoe mensen hun eigen potentieel zagen. De Kathedraal werd een symbool van hoe schijnbaar onmogelijke dromen kunnen materialiseren door volharding en geloof, en inspireerde miljoenen om hun eigen 'onmogelijke' dromen te heroverwegen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "De lo Imposible a lo Inevitable",
+          "content": "El viaje de Robert H. Schuller ejemplifica esta verdad. Comenzando con solo 500 dólares y un sueño, construyó la Catedral de Cristal, que fue el edificio de vidrio más grande de América y la primera iglesia en transmitir servicios a nivel nacional. Cuando propuso construir una iglesia de vidrio en California, propensa a terremotos, los expertos lo llamaron imposible. Sin embargo, su visión del 'pensamiento de posibilidad' transformó no solo la arquitectura sino también cómo la gente veía su propio potencial. La Catedral se convirtió en un símbolo de cómo los sueños aparentemente imposibles pueden materializarse a través de la persistencia y la fe, inspirando a millones a reconsiderar sus propios sueños 'imposibles'.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Vom Unmöglichen zum Unvermeidlichen",
+          "content": "Robert H. Schullers Reise veranschaulicht diese Wahrheit. Mit nur 500 Dollar und einem Traum beginnend, baute er die Crystal Cathedral, einst Amerikas größtes Glasgebäude und erste Kirche, die Gottesdienste landesweit ausstrahlte. Als er vorschlug, eine Glaskirche im erdbebengefährdeten Kalifornien zu bauen, nannten Experten es unmöglich. Doch seine Vision des 'Möglichkeitsdenkens' veränderte nicht nur die Architektur, sondern auch wie Menschen ihr eigenes Potenzial sahen. Die Kathedrale wurde zu einem Symbol dafür, wie scheinbar unmögliche Träume durch Beharrlichkeit und Glauben Wirklichkeit werden können, und inspirierte Millionen, ihre eigenen 'unmöglichen' Träume zu überdenken.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Dall'Impossibile all'Inevitabile",
+          "content": "Il viaggio di Robert H. Schuller esemplifica questa verità. Iniziando con soli 500 dollari e un sogno, costruì la Cattedrale di Cristallo, un tempo l'edificio in vetro più grande d'America e la prima chiesa a trasmettere funzioni a livello nazionale. Quando propose di costruire una chiesa di vetro nella California soggetta a terremoti, gli esperti lo definirono impossibile. Tuttavia, la sua visione del 'pensiero della possibilità' trasformò non solo l'architettura ma anche il modo in cui le persone vedevano il proprio potenziale. La Cattedrale divenne un simbolo di come i sogni apparentemente impossibili possano materializzarsi attraverso la persistenza e la fede, ispirando milioni di persone a riconsiderare i propri sogni 'impossibili'.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "От Невозможного к Неизбежному",
+          "content": "Путь Роберта Х. Шуллера иллюстрирует эту истину. Начав всего с 500 долларов и мечты, он построил Хрустальный собор, некогда самое большое стеклянное здание Америки и первую церковь, транслировавшую службы на национальном уровне. Когда он предложил построить стеклянную церковь в подверженной землетрясениям Калифорнии, эксперты назвали это невозможным. Однако его видение 'мышления возможностями' преобразило не только архитектуру, но и то, как люди видели свой собственный потенциал. Собор стал символом того, как казавшиеся невозможными мечты могут материализоваться благодаря настойчивости и вере, вдохновляя миллионы людей пересмотреть свои собственные 'невозможные' мечты.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_017",
+      "category": "dreams",
+      "texts": {
+        "en": "In dreams begin responsibilities.",
+        "tr": "Sorumluluklar hayallerle başlar.",
+        "fr": "Les responsabilités commencent dans les rêves.",
+        "pt": "As responsabilidades começam nos sonhos.",
+        "nl": "In dromen beginnen verantwoordelijkheden.",
+        "es": "En los sueños comienzan las responsabilidades.",
+        "de": "In Träumen beginnen Verantwortungen.",
+        "it": "Nelle sogni iniziano le responsabilità.",
+        "ru": "В мечтах начинается ответственность."
+      },
+      "authors": {
+        "en": "William Butler Yeats",
+        "tr": "William Butler Yeats",
+        "fr": "William Butler Yeats",
+        "pt": "William Butler Yeats",
+        "nl": "William Butler Yeats",
+        "es": "William Butler Yeats",
+        "de": "William Butler Yeats",
+        "it": "William Butler Yeats",
+        "ru": "Уильям Батлер Йейтс"
+      },
+      "tags": {
+        "en": ["responsibility", "commitment", "action"],
+        "tr": ["sorumluluk", "taahhüt", "eylem"],
+        "fr": ["responsabilité", "engagement", "action"],
+        "pt": ["responsabilidade", "compromisso", "ação"],
+        "nl": ["verantwoordelijkheid", "toewijding", "actie"],
+        "es": ["responsabilidad", "compromiso", "acción"],
+        "de": ["Verantwortung", "Verpflichtung", "Handlung"],
+        "it": ["responsabilità", "impegno", "azione"],
+        "ru": ["ответственность", "обязательство", "действие"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Poet's Challenge",
+          "content": "William Butler Yeats, the Irish poet and one of the foremost figures of 20th-century literature, understood that dreams are not mere fantasies but calls to action. This quote, which later inspired a famous short story by Delmore Schwartz, speaks to the profound truth that our dreams create obligations. When we dream of a better world, we take on the responsibility of building it. When we envision personal growth, we commit ourselves to the hard work of transformation. Yeats himself lived this principle, not only through his poetry but through his active involvement in Ireland's cultural and political renaissance, showing that dreams of national identity and artistic expression carry the weight of civic duty.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Şairin Meydan Okuması",
+          "content": "İrlandalı şair ve 20. yüzyıl edebiyatının önde gelen isimlerinden William Butler Yeats, hayallerin sadece fanteziler değil, eyleme geçme çağrıları olduğunu anlamıştı. Daha sonra Delmore Schwartz'ın ünlü kısa hikayesine ilham veren bu alıntı, hayallerimizin yükümlülükler yarattığı derin gerçeğini anlatır. Daha iyi bir dünya hayal ettiğimizde, onu inşa etme sorumluluğunu üstleniriz. Kişisel gelişimi öngördüğümüzde, kendimizi dönüşümün zorlu çalışmasına adarız. Yeats'in kendisi bu ilkeyi sadece şiiri aracılığıyla değil, aynı zamanda İrlanda'nın kültürel ve siyasi rönesansına aktif katılımıyla da yaşadı ve ulusal kimlik ve sanatsal ifade hayallerinin yurttaşlık görevi ağırlığını taşıdığını gösterdi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Défi du Poète",
+          "content": "William Butler Yeats, le poète irlandais et l'une des figures majeures de la littérature du XXe siècle, comprenait que les rêves ne sont pas de simples fantaisies mais des appels à l'action. Cette citation, qui a plus tard inspiré une célèbre nouvelle de Delmore Schwartz, évoque la vérité profonde que nos rêves créent des obligations. Quand nous rêvons d'un monde meilleur, nous assumons la responsabilité de le construire. Quand nous envisageons une croissance personnelle, nous nous engageons dans le travail difficile de la transformation. Yeats lui-même a vécu ce principe, non seulement à travers sa poésie mais aussi par son engagement actif dans la renaissance culturelle et politique de l'Irlande, montrant que les rêves d'identité nationale et d'expression artistique portent le poids du devoir civique.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Desafio do Poeta",
+          "content": "William Butler Yeats, o poeta irlandês e uma das principais figuras da literatura do século XX, entendeu que os sonhos não são meras fantasias, mas chamados à ação. Esta citação, que mais tarde inspirou um famoso conto de Delmore Schwartz, fala da profunda verdade de que nossos sonhos criam obrigações. Quando sonhamos com um mundo melhor, assumimos a responsabilidade de construí-lo. Quando vislumbramos crescimento pessoal, nos comprometemos com o trabalho árduo da transformação. O próprio Yeats viveu este princípio, não apenas através de sua poesia, mas através de seu envolvimento ativo no renascimento cultural e político da Irlanda, mostrando que sonhos de identidade nacional e expressão artística carregam o peso do dever cívico.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Uitdaging van de Dichter",
+          "content": "William Butler Yeats, de Ierse dichter en een van de belangrijkste figuren van de 20e-eeuwse literatuur, begreep dat dromen geen louter fantasieën zijn, maar oproepen tot actie. Dit citaat, dat later inspiratie was voor een beroemd kort verhaal van Delmore Schwartz, spreekt tot de diepgaande waarheid dat onze dromen verplichtingen creëren. Wanneer we dromen van een betere wereld, nemen we de verantwoordelijkheid op ons om deze te bouwen. Wanneer we persoonlijke groei voor ogen hebben, verbinden we onszelf aan het harde werk van transformatie. Yeats zelf leefde dit principe, niet alleen door zijn poëzie maar door zijn actieve betrokkenheid bij de culturele en politieke renaissance van Ierland, en toonde aan dat dromen van nationale identiteit en artistieke expressie het gewicht van burgerplicht dragen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Desafío del Poeta",
+          "content": "William Butler Yeats, el poeta irlandés y una de las figuras más destacadas de la literatura del siglo XX, entendió que los sueños no son meras fantasías sino llamados a la acción. Esta cita, que más tarde inspiró un famoso cuento de Delmore Schwartz, habla de la profunda verdad de que nuestros sueños crean obligaciones. Cuando soñamos con un mundo mejor, asumimos la responsabilidad de construirlo. Cuando visualizamos el crecimiento personal, nos comprometemos con el arduo trabajo de la transformación. El propio Yeats vivió este principio, no solo a través de su poesía sino a través de su participación activa en el renacimiento cultural y político de Irlanda, demostrando que los sueños de identidad nacional y expresión artística conllevan el peso del deber cívico.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Herausforderung des Dichters",
+          "content": "William Butler Yeats, der irische Dichter und eine der führenden Persönlichkeiten der Literatur des 20. Jahrhunderts, verstand, dass Träume keine bloßen Fantasien sind, sondern Aufrufe zum Handeln. Dieses Zitat, das später eine berühmte Kurzgeschichte von Delmore Schwartz inspirierte, spricht die tiefe Wahrheit an, dass unsere Träume Verpflichtungen schaffen. Wenn wir von einer besseren Welt träumen, übernehmen wir die Verantwortung, sie aufzubauen. Wenn wir persönliches Wachstum anstreben, verpflichten wir uns zur harten Arbeit der Transformation. Yeats selbst lebte dieses Prinzip nicht nur durch seine Poesie, sondern durch sein aktives Engagement in der kulturellen und politischen Renaissance Irlands und zeigte, dass Träume von nationaler Identität und künstlerischem Ausdruck das Gewicht der Bürgerpflicht tragen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Sfida del Poeta",
+          "content": "William Butler Yeats, il poeta irlandese e una delle figure più importanti della letteratura del XX secolo, capì che i sogni non sono mere fantasie ma chiamate all'azione. Questa citazione, che in seguito ispirò un famoso racconto di Delmore Schwartz, parla della profonda verità che i nostri sogni creano obblighi. Quando sogniamo un mondo migliore, ci assumiamo la responsabilità di costruirlo. Quando immaginiamo la crescita personale, ci impegniamo nel duro lavoro della trasformazione. Yeats stesso visse questo principio, non solo attraverso la sua poesia ma attraverso il suo coinvolgimento attivo nel rinascimento culturale e politico dell'Irlanda, dimostrando che i sogni di identità nazionale ed espressione artistica portano il peso del dovere civico.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Вызов Поэта",
+          "content": "Уильям Батлер Йейтс, ирландский поэт и одна из ведущих фигур литературы XX века, понимал, что мечты - это не просто фантазии, а призывы к действию. Эта цитата, которая позже вдохновила известный рассказ Делмора Шварца, говорит о глубокой истине: наши мечты создают обязательства. Когда мы мечтаем о лучшем мире, мы берем на себя ответственность за его построение. Когда мы предвидим личностный рост, мы обязуемся к тяжелой работе по трансформации. Сам Йейтс жил по этому принципу не только через свою поэзию, но и через активное участие в культурном и политическом возрождении Ирландии, показывая, что мечты о национальной идентичности и художественном выражении несут вес гражданского долга.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_018",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are today's answers to tomorrow's questions.",
+        "tr": "Hayaller, yarının sorularına bugünün cevaplarıdır.",
+        "fr": "Les rêves sont les réponses d'aujourd'hui aux questions de demain.",
+        "pt": "Os sonhos são as respostas de hoje para as perguntas de amanhã.",
+        "nl": "Dromen zijn de antwoorden van vandaag op de vragen van morgen.",
+        "es": "Los sueños son las respuestas de hoy a las preguntas del mañana.",
+        "de": "Träume sind die heutigen Antworten auf die Fragen von morgen.",
+        "it": "I sogni sono le risposte di oggi alle domande di domani.",
+        "ru": "Мечты - это сегодняшние ответы на завтрашние вопросы."
+      },
+      "authors": {
+        "en": "Edgar Cayce",
+        "tr": "Edgar Cayce",
+        "fr": "Edgar Cayce",
+        "pt": "Edgar Cayce",
+        "nl": "Edgar Cayce",
+        "es": "Edgar Cayce",
+        "de": "Edgar Cayce",
+        "it": "Edgar Cayce",
+        "ru": "Эдгар Кейси"
+      },
+      "tags": {
+        "en": ["foresight", "intuition", "future"],
+        "tr": ["öngörü", "sezgi", "gelecek"],
+        "fr": ["prévoyance", "intuition", "avenir"],
+        "pt": ["previsão", "intuição", "futuro"],
+        "nl": ["vooruitziendheid", "intuïtie", "toekomst"],
+        "es": ["previsión", "intuición", "futuro"],
+        "de": ["Voraussicht", "Intuition", "Zukunft"],
+        "it": ["preveggenza", "intuizione", "futuro"],
+        "ru": ["предвидение", "интуиция", "будущее"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Sleeping Prophet's Wisdom",
+          "content": "Edgar Cayce, known as the 'Sleeping Prophet,' understood dreams as bridges between present intuition and future reality. His own life demonstrated this principle: in self-induced trance states, he would provide insights that often proved prophetic. This quote reflects his belief that our dreams contain solutions to challenges we haven't yet encountered. Like many innovators and inventors, from Tesla's alternating current to Einstein's theory of relativity, breakthrough ideas often first appeared in dreams or meditative states, suggesting that our unconscious mind can perceive and process future possibilities before they become apparent to our conscious awareness.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Uyuyan Peygamberin Bilgeliği",
+          "content": "'Uyuyan Peygamber' olarak bilinen Edgar Cayce, hayalleri şimdiki sezgi ile gelecekteki gerçeklik arasındaki köprüler olarak anladı. Kendi hayatı bu prensibi gösterdi: kendi kendine indüklediği trans hallerinde, sıklıkla kehanet niteliğinde olan içgörüler sağlardı. Bu alıntı, hayallerimizin henüz karşılaşmadığımız zorlukların çözümlerini içerdiğine dair inancını yansıtır. Tesla'nın alternatif akımından Einstein'ın görelilik teorisine kadar birçok yenilikçi ve mucit gibi, çığır açan fikirler genellikle ilk olarak hayallerde veya meditatif durumlarda ortaya çıktı, bu da bilinçdışı zihnimizin gelecekteki olasılıkları bilinçli farkındalığımıza açık hale gelmeden önce algılayıp işleyebildiğini gösterir.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Sagesse du Prophète Endormi",
+          "content": "Edgar Cayce, connu comme le 'Prophète Endormi', comprenait les rêves comme des ponts entre l'intuition présente et la réalité future. Sa propre vie démontrait ce principe : dans des états de transe auto-induits, il fournissait des aperçus qui s'avéraient souvent prophétiques. Cette citation reflète sa conviction que nos rêves contiennent des solutions aux défis que nous n'avons pas encore rencontrés. Comme de nombreux innovateurs et inventeurs, du courant alternatif de Tesla à la théorie de la relativité d'Einstein, les idées révolutionnaires sont souvent apparues d'abord dans les rêves ou les états méditatifs, suggérant que notre esprit inconscient peut percevoir et traiter les possibilités futures avant qu'elles ne deviennent apparentes à notre conscience.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Sabedoria do Profeta Adormecido",
+          "content": "Edgar Cayce, conhecido como o 'Profeta Adormecido', entendia os sonhos como pontes entre a intuição presente e a realidade futura. Sua própria vida demonstrou este princípio: em estados de transe auto-induzidos, ele fornecia insights que frequentemente se provavam proféticos. Esta citação reflete sua crença de que nossos sonhos contêm soluções para desafios que ainda não encontramos. Como muitos inovadores e inventores, da corrente alternada de Tesla à teoria da relatividade de Einstein, ideias revolucionárias frequentemente apareceram primeiro em sonhos ou estados meditativos, sugerindo que nossa mente inconsciente pode perceber e processar possibilidades futuras antes que elas se tornem aparentes para nossa consciência.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Wijsheid van de Slapende Profeet",
+          "content": "Edgar Cayce, bekend als India's 'Raketman' en later zijn President, sprak deze woorden vanuit diepe persoonlijke ervaring. Als jonge jongen uit een bescheiden milieu verkocht hij kranten om zijn studie te ondersteunen. Zijn droom om India's ruimte- en defensiecapaciteiten te verbeteren was zo dwingend dat hij tot laat in de nacht werkte, vaak de slaap vergetend. Deze passie leidde ertoe dat hij het rakettontwikkelingsprogramma van India leidde en miljoenen inspireerde met zijn visie van een ontwikkeld India. Zijn dromen waren geen nachtelijke fantasieën—het waren brandende ambities die hem elke dag tot actie aanzetten.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Sabiduría del Profeta Dormido",
+          "content": "El Dr. APJ Abdul Kalam, conocido como el 'Hombre de los Misiles' de India y posteriormente su Presidente, pronunció estas palabras desde una profunda experiencia personal. Como joven de origen humilde, vendía periódicos para mantener sus estudios. Su sueño de avanzar en las capacidades espaciales y de defensa de India era tan convincente que trabajaba hasta altas horas de la noche, olvidando a menudo dormir. Esta pasión lo llevó a encabezar el programa de desarrollo de misiles de India e inspirar a millones con su visión de una India desarrollada. Sus sueños no eran solo fantasías nocturnas—eran ambiciones ardientes que lo impulsaban a la acción cada día.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Weisheit des Schlafenden Propheten",
+          "content": "Dr. APJ Abdul Kalam, bekannt als Indiens 'Raketenmann' und später sein Präsident, sprach diese Worte aus tiefer persönlicher Erfahrung. Als junger Mann aus bescheidenen Verhältnissen verkaufte er Zeitungen, um sein Studium zu finanzieren. Sein Traum, Indiens Weltraum- und Verteidigungsfähigkeiten voranzutreiben, war so zwingend, dass er bis spät in die Nacht arbeitete und oft den Schlaf vergaß. Diese Leidenschaft führte dazu, dass er Indiens Raketenentwicklungsprogramm leitete und Millionen mit seiner Vision eines entwickelten Indiens inspirierte. Seine Träume waren keine nächtlichen Fantasien—sie waren brennende Ambitionen, die ihn jeden Tag zum Handeln antrieben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Saggezza del Profeta Dormiente",
+          "content": "Il Dr. APJ Abdul Kalam, noto come l'\"Uomo dei Missili\" dell'India e successivamente suo Presidente, pronunciò queste parole da una profonda esperienza personale. Da giovane di umili origini, vendeva giornali per sostenere i suoi studi. Il suo sogno di far progredire le capacità spaziali e di difesa dell'India era così coinvolgente che lavorava fino a tarda notte, spesso dimenticando di dormire. Questa passione lo portò a guidare il programma di sviluppo missilistico dell'India e a ispirare milioni di persone con la sua visione di un'India sviluppata. I suoi sogni non erano solo fantasie notturne—erano ambizioni ardenti che lo spingevano all'azione ogni giorno.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Мудрость Спящего Пророка",
+          "content": "Эдгар Кейси, известный как 'Ракетчик' Индии, а позже ставший её президентом, произнес эти слова из глубокого личного опыта. Будучи молодым человеком из скромной семьи, он продавал газеты, чтобы поддержать свою учебу. Его мечта о развитии космических и оборонных возможностей Индии была настолько захватывающей, что он работал до поздней ночи, часто забывая о сне. Эта страсть привела его к руководству программой разработки ракет Индии и вдохновила миллионы людей своим видением развитой Индии. Его мечты не были просто ночными фантазиями—это были горящие амбиции, которые побуждали его к действию каждый день.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_019",
+      "category": "dreams",
+      "texts": {
+        "en": "A dream written down with a date becomes a goal. A goal broken down into steps becomes a plan. A plan backed by action makes your dreams come true.",
+        "tr": "Tarihi ile yazılan bir hayal hedef olur. Adımlara bölünen bir hedef plana dönüşür. Eylemle desteklenen bir plan hayallerinizi gerçeğe dönüştürür.",
+        "fr": "Un rêve écrit avec une date devient un objectif. Un objectif décomposé en étapes devient un plan. Un plan soutenu par l'action réalise vos rêves.",
+        "pt": "Um sonho escrito com uma data torna-se uma meta. Uma meta dividida em etapas torna-se um plano. Um plano apoiado pela ação torna seus sonhos realidade.",
+        "nl": "Een droom opgeschreven met een datum wordt een doel. Een doel opgedeeld in stappen wordt een plan. Een plan ondersteund door actie maakt je dromen waar.",
+        "es": "Un sueño escrito con una fecha se convierte en una meta. Una meta desglosada en pasos se convierte en un plan. Un plan respaldado por la acción hace realidad tus sueños.",
+        "de": "Ein Traum, der mit einem Datum niedergeschrieben wird, wird zum Ziel. Ein in Schritte unterteiltes Ziel wird zum Plan. Ein Plan, der durch Handeln unterstützt wird, macht deine Träume wahr.",
+        "it": "Un sogno scritto con una data diventa un obiettivo. Un obiettivo suddiviso in passi diventa un piano. Un piano sostenuto dall'azione realizza i tuoi sogni.",
+        "ru": "Мечта, записанная с датой, становится целью. Цель, разбитая на шаги, становится планом. План, подкрепленный действием, воплощает ваши мечты в реальность."
+      },
+      "authors": {
+        "en": "Greg Reid",
+        "tr": "Greg Reid",
+        "fr": "Greg Reid",
+        "pt": "Greg Reid",
+        "nl": "Greg Reid",
+        "es": "Greg Reid",
+        "de": "Greg Reid",
+        "it": "Greg Reid",
+        "ru": "Грег Рид"
+      },
+      "tags": {
+        "en": ["planning", "action", "achievement"],
+        "tr": ["planlama", "eylem", "başarı"],
+        "fr": ["planification", "action", "réussite"],
+        "pt": ["planejamento", "ação", "realização"],
+        "nl": ["planning", "actie", "prestatie"],
+        "es": ["planificación", "acción", "logro"],
+        "de": ["Planung", "Handlung", "Erfolg"],
+        "it": ["pianificazione", "azione", "successo"],
+        "ru": ["планирование", "действие", "достижение"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Blueprint of Success",
+          "content": "Greg Reid's systematic approach to dream realization has helped countless entrepreneurs and visionaries transform their aspirations into reality. His methodology emerged from studying successful individuals who consistently turned seemingly impossible dreams into tangible achievements. One notable example was a young entrepreneur who dreamed of creating a sustainable energy company. Following Reid's principle, she wrote down her dream with a five-year timeline, broke it into quarterly goals, monthly objectives, and daily tasks. This structured approach helped her secure funding, build a team, and eventually launch a successful solar energy startup that now powers thousands of homes. Reid's framework demonstrates that dreams aren't just wishful thinking—they're the foundation of strategic planning and purposeful action.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Başarının Şeması",
+          "content": "Greg Reid'in hayal gerçekleştirmeye yönelik sistematik yaklaşımı, sayısız girişimci ve vizyonerin özlemlerini gerçeğe dönüştürmesine yardımcı oldu. Metodolojisi, görünüşte imkansız hayalleri tutarlı bir şekilde somut başarılara dönüştüren başarılı bireyleri incelemesinden ortaya çıktı. Dikkat çekici bir örnek, sürdürülebilir bir enerji şirketi kurmayı hayal eden genç bir girişimciydi. Reid'in prensibini takip ederek, hayalini beş yıllık bir zaman çizelgesiyle yazdı, üç aylık hedeflere, aylık amaçlara ve günlük görevlere böldü. Bu yapılandırılmış yaklaşım, finansman sağlamasına, bir ekip kurmasına ve sonunda binlerce eve enerji sağlayan başarılı bir güneş enerjisi girişimi başlatmasına yardımcı oldu. Reid'in çerçevesi, hayallerin sadece hayali düşünme olmadığını - stratejik planlama ve amaçlı eylemin temeli olduğunu gösteriyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Plan de la Réussite",
+          "content": "L'approche systématique de Greg Reid pour la réalisation des rêves a aidé d'innombrables entrepreneurs et visionnaires à transformer leurs aspirations en réalité. Sa méthodologie est née de l'étude d'individus qui transformaient constamment des rêves apparemment impossibles en réalisations tangibles. Un exemple notable était une jeune entrepreneuse qui rêvait de créer une entreprise d'énergie durable. Suivant le principe de Reid, elle a écrit son rêve avec un calendrier de cinq ans, l'a décomposé en objectifs trimestriels, mensuels et tâches quotidiennes. Cette approche structurée l'a aidée à obtenir des financements, constituer une équipe et finalement lancer une startup d'énergie solaire réussie qui alimente maintenant des milliers de foyers. Le cadre de Reid démontre que les rêves ne sont pas que des pensées wishful—ils sont le fondement d'une planification stratégique et d'une action réfléchie.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Projeto do Sucesso",
+          "content": "A abordagem sistemática de Greg Reid para a realização de sonhos tem ajudado inúmeros empreendedores e visionários a transformar suas aspirações em realidade. Sua metodologia emergiu do estudo de indivíduos bem-sucedidos que consistentemente transformavam sonhos aparentemente impossíveis em conquistas tangíveis. Um exemplo notável foi uma jovem empreendedora que sonhava em criar uma empresa de energia sustentável. Seguindo o princípio de Reid, ela escreveu seu sonho com um cronograma de cinco anos, dividiu-o em metas trimestrais, objetivos mensais e tarefas diárias. Essa abordagem estruturada a ajudou a garantir financiamento, construir uma equipe e eventualmente lançar uma startup de energia solar bem-sucedida que agora alimenta milhares de residências. O framework de Reid demonstra que sonhos não são apenas pensamentos desejosos—são a base do planejamento estratégico e ação proposital.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Blauwdruk van Succes",
+          "content": "Greg Reid's systematische benadering van droomverwezenlijking heeft talloze ondernemers en visionairs geholpen hun aspiraties in werkelijkheid om te zetten. Zijn methodologie ontstond uit het bestuderen van succesvolle individuen die consequent schijnbaar onmogelijke dromen in tastbare prestaties omzetten. Een opmerkelijk voorbeeld was een jonge ondernemer die droomde van het oprichten van een duurzaam energiebedrijf. Volgens Reid's principe schreef ze haar droom op met een tijdlijn van vijf jaar, brak deze op in kwartaaldoelen, maandelijkse doelstellingen en dagelijkse taken. Deze gestructureerde aanpak hielp haar bij het verkrijgen van financiering, het opbouwen van een team en uiteindelijk het lanceren van een succesvolle zonne-energie startup die nu duizenden huizen van stroom voorziet. Reid's raamwerk toont aan dat dromen niet alleen wishful thinking zijn—ze zijn de basis voor strategische planning en doelgerichte actie.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Plano del Éxito",
+          "content": "El enfoque sistemático de Greg Reid para la realización de sueños ha ayudado a innumerables emprendedores y visionarios a transformar sus aspiraciones en realidad. Su metodología surgió del estudio de individuos exitosos que consistentemente convertían sueños aparentemente imposibles en logros tangibles. Un ejemplo notable fue una joven emprendedora que soñaba con crear una empresa de energía sostenible. Siguiendo el principio de Reid, escribió su sueño con un cronograma de cinco años, lo desglosó en metas trimestrales, objetivos mensuales y tareas diarias. Este enfoque estructurado la ayudó a asegurar financiamiento, construir un equipo y finalmente lanzar una startup exitosa de energía solar que ahora alimenta miles de hogares. El marco de Reid demuestra que los sueños no son solo pensamiento ilusorio—son la base de la planificación estratégica y la acción con propósito.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Bauplan des Erfolgs",
+          "content": "Greg Reids systematischer Ansatz zur Traumverwirklichung hat unzählige Unternehmern und Visionären geholfen, ihre Bestrebungen in die Realität umzusetzen. Seine Methodik entstand aus der Untersuchung erfolgreicher Personen, die scheinbar unmögliche Träume konsequent in greifbare Erfolge verwandelten. Ein bemerkenswertes Beispiel war eine junge Unternehmerin, die davon träumte, ein nachhaltiges Energieunternehmen zu gründen. Nach Reids Prinzip schrieb sie ihren Traum mit einem Fünf-Jahres-Zeitplan auf, unterteilte ihn in vierteljährliche Ziele, monatliche Vorgaben und tägliche Aufgaben. Dieser strukturierte Ansatz half ihr, Finanzierung zu sichern, ein Team aufzubauen und schließlich ein erfolgreiches Solar-Startup zu gründen, das heute Tausende von Haushalten mit Strom versorgt. Reids Rahmenwerk zeigt, dass Träume nicht nur Wunschdenken sind—sie sind die Grundlage für strategische Planung und zielgerichtetes Handeln.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Progetto del Successo",
+          "content": "L'approccio sistematico di Greg Reid alla realizzazione dei sogni ha aiutato innumerevoli imprenditori e visionari a trasformare le loro aspirazioni in realtà. La sua metodologia è emersa dallo studio di individui di successo che trasformavano costantemente sogni apparentemente impossibili in risultati tangibili. Un esempio notevole è stato quello di una giovane imprenditrice che sognava di creare un'azienda di energia sostenibile. Seguendo il principio di Reid, ha scritto il suo sogno con una timeline di cinque anni, lo ha suddiviso in obiettivi trimestrali, mensili e compiti quotidiani. Questo approccio strutturato l'ha aiutata a ottenere finanziamenti, costruire un team e infine lanciare una startup di energia solare di successo che ora alimenta migliaia di case. Il framework di Reid dimostra che i sogni non sono solo pensieri desiderosi—sono la base della pianificazione strategica e dell'azione mirata.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Чертеж Успеха",
+          "content": "Систематический подход Грега Рида к реализации мечты помог бесчисленным предпринимателям и визионерам превратить свои стремления в реальность. Его методология возникла из изучения успешных людей, которые последовательно превращали казавшиеся невозможными мечты в осязаемые достижения. Ярким примером была молодая предпринимательница, которая мечтала создать компанию устойчивой энергетики. Следуя принципу Рида, она записала свою мечту с пятилетним графиком, разбила её на квартальные цели, ежемесячные задачи и ежедневные действия. Этот структурированный подход помог ей получить финансирование, собрать команду и в итоге запустить успешный стартап солнечной энергетики, который теперь обеспечивает энергией тысячи домов. Структура Рида показывает, что мечты - это не просто желаемые мысли, они являются основой стратегического планирования и целенаправленных действий.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_020",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are illustrations from the book your soul is writing about you.",
+        "tr": "Hayaller, ruhunuzun sizin hakkınızda yazdığı kitaptan çizimlerdir.",
+        "fr": "Les rêves sont des illustrations du livre que votre âme écrit sur vous.",
+        "pt": "Os sonhos são ilustrações do livro que sua alma está escrevendo sobre você.",
+        "nl": "Dromen zijn illustraties uit het boek dat je ziel over jou schrijft.",
+        "es": "Los sueños son ilustraciones del libro que tu alma está escribiendo sobre ti.",
+        "de": "Träume sind Illustrationen aus dem Buch, das deine Seele über dich schreibt.",
+        "it": "I sogni sono illustrazioni dal libro che la tua anima sta scrivendo su di te.",
+        "ru": "Мечты - это иллюстрации из книги, которую ваша душа пишет о вас."
+      },
+      "authors": {
+        "en": "Marsha Norman",
+        "tr": "Marsha Norman",
+        "fr": "Marsha Norman",
+        "pt": "Marsha Norman",
+        "nl": "Marsha Norman",
+        "es": "Marsha Norman",
+        "de": "Marsha Norman",
+        "it": "Marsha Norman",
+        "ru": "Марша Норман"
+      },
+      "tags": {
+        "en": ["self-discovery", "soul", "identity"],
+        "tr": ["kendini keşfetme", "ruh", "kimlik"],
+        "fr": ["découverte de soi", "âme", "identité"],
+        "pt": ["autodescoberta", "alma", "identidade"],
+        "nl": ["zelfontdekking", "ziel", "identiteit"],
+        "es": ["autodescubrimiento", "alma", "identidad"],
+        "de": ["Selbstfindung", "Seele", "Identität"],
+        "it": ["scoperta di sé", "anima", "identità"],
+        "ru": ["самопознание", "душа", "личность"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Soul's Storyteller",
+          "content": "Marsha Norman, a Pulitzer Prize-winning playwright, understands the profound connection between dreams and personal narrative. Her insight came from years of crafting characters whose dreams revealed their deepest truths. In her own journey from teaching troubled children to becoming a celebrated dramatist, she observed how dreams serve as windows into the soul's aspirations. This quote emerged from her realization that our dreams are not random fantasies, but rather carefully crafted illustrations of our inner world, much like the way a playwright reveals character through dialogue and action. Through her work, particularly in ''night, Mother,' she demonstrated how dreams—both realized and unfulfilled—tell the story of who we truly are and who we hope to become.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Ruhun Hikayecisi",
+          "content": "Pulitzer ödüllü oyun yazarı Marsha Norman, hayaller ile kişisel anlatı arasındaki derin bağlantıyı anlıyor. Bu içgörüsü, hayalleri en derin gerçeklerini ortaya çıkaran karakterler yaratma yıllarından geldi. Sorunlu çocuklara öğretmenlik yapmaktan ünlü bir dramatist olmaya uzanan kendi yolculuğunda, hayallerin ruhun özlemlerine açılan pencereler olarak nasıl hizmet ettiğini gözlemledi. Bu alıntı, hayallerimizin rastgele fanteziler değil, tıpkı bir oyun yazarının karakteri diyalog ve eylem yoluyla ortaya çıkarması gibi, iç dünyamızın özenle hazırlanmış çizimleri olduğu gerçeğini fark etmesinden doğdu. ''night, Mother' başta olmak üzere çalışmaları aracılığıyla, hayallerin—hem gerçekleşen hem de gerçekleşmeyen—gerçekte kim olduğumuzun ve kim olmayı umduğumuzun hikayesini anlattığını gösterdi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "Le Conteur de l'Âme",
+          "content": "Marsha Norman, dramaturge lauréate du Prix Pulitzer, comprend la connexion profonde entre les rêves et le récit personnel. Son intuition est venue d'années à créer des personnages dont les rêves révélaient leurs vérités les plus profondes. Dans son propre parcours, de l'enseignement aux enfants en difficulté jusqu'à devenir une dramaturge célèbre, elle a observé comment les rêves servent de fenêtres sur les aspirations de l'âme. Cette citation est née de sa réalisation que nos rêves ne sont pas des fantaisies aléatoires, mais plutôt des illustrations soigneusement élaborées de notre monde intérieur, tout comme un dramaturge révèle le caractère à travers le dialogue et l'action. À travers son travail, particulièrement dans ''night, Mother', elle a démontré comment les rêves—à la fois réalisés et non réalisés—racontent l'histoire de qui nous sommes vraiment et de qui nous espérons devenir.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Contador de Histórias da Alma",
+          "content": "Marsha Norman, dramaturga vencedora do Prêmio Pulitzer, compreende a profunda conexão entre sonhos e narrativa pessoal. Sua percepção veio de anos criando personagens cujos sonhos revelavam suas verdades mais profundas. Em sua própria jornada, do ensino de crianças problemáticas até se tornar uma dramaturga celebrada, ela observou como os sonhos servem como janelas para as aspirações da alma. Esta citação surgiu de sua percepção de que nossos sonhos não são fantasias aleatórias, mas sim ilustrações cuidadosamente elaboradas de nosso mundo interior, assim como um dramaturgo revela o personagem através do diálogo e da ação. Através de seu trabalho, particularmente em ''night, Mother', ela demonstrou como os sonhos—tanto realizados quanto não realizados—contam a história de quem realmente somos e quem esperamos nos tornar.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Verhalenverteller van de Ziel",
+          "content": "Marsha Norman, een Pulitzer Prize-winnende toneelschrijfster, begrijpt de diepe verbinding tussen dromen en persoonlijk verhaal. Haar inzicht kwam voort uit jaren van het creëren van personages wier dromen hun diepste waarheden onthulden. In haar eigen reis van het lesgeven aan probleemkinderen tot het worden van een gevierd dramaturg, observeerde ze hoe dromen dienen als vensters naar de aspiraties van de ziel. Dit citaat ontstond uit haar besef dat onze dromen geen willekeurige fantasieën zijn, maar zorgvuldig gemaakte illustraties van onze innerlijke wereld, net zoals een toneelschrijver karakter onthult door dialoog en actie. Door haar werk, met name in ''night, Mother', demonstreerde ze hoe dromen—zowel gerealiseerd als onvervuld—het verhaal vertellen van wie we werkelijk zijn en wie we hopen te worden.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Narrador del Alma",
+          "content": "Marsha Norman, dramaturga ganadora del Premio Pulitzer, comprende la profunda conexión entre los sueños y la narrativa personal. Su perspicacia provino de años creando personajes cuyos sueños revelaban sus verdades más profundas. En su propio viaje, desde enseñar a niños problemáticos hasta convertirse en una dramaturga celebrada, observó cómo los sueños sirven como ventanas a las aspiraciones del alma. Esta cita surgió de su comprensión de que nuestros sueños no son fantasías aleatorias, sino ilustraciones cuidadosamente elaboradas de nuestro mundo interior, al igual que un dramaturgo revela el personaje a través del diálogo y la acción. A través de su trabajo, particularmente en ''night, Mother', demostró cómo los sueños—tanto realizados como incumplidos—cuentan la historia de quiénes somos realmente y quiénes esperamos llegar a ser.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Geschichtenerzähler der Seele",
+          "content": "Marsha Norman, eine Pulitzer-Preis-gekrönte Dramatikerin, versteht die tiefe Verbindung zwischen Träumen und persönlicher Erzählung. Ihre Einsicht kam aus Jahren der Erschaffung von Charakteren, deren Träume ihre tiefsten Wahrheiten offenbarten. Auf ihrem eigenen Weg vom Unterrichten problematischer Kinder zur gefeierten Dramatikerin beobachtete sie, wie Träume als Fenster zu den Bestrebungen der Seele dienen. Dieses Zitat entstand aus ihrer Erkenntnis, dass unsere Träume keine zufälligen Fantasien sind, sondern sorgfältig gestaltete Illustrationen unserer inneren Welt, ähnlich wie ein Dramatiker Charakter durch Dialog und Handlung offenbart. Durch ihre Arbeit, besonders in ''night, Mother', zeigte sie, wie Träume—sowohl verwirklichte als auch unerfüllte—die Geschichte erzählen, wer wir wirklich sind und wer wir zu werden hoffen.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Narratore dell'Anima",
+          "content": "Marsha Norman, drammaturga vincitrice del Premio Pulitzer, comprende la profonda connessione tra sogni e narrativa personale. La sua intuizione è venuta da anni di creazione di personaggi i cui sogni rivelavano le loro verità più profonde. Nel suo percorso personale, dall'insegnamento a bambini problematici fino a diventare una celebre drammaturga, ha osservato come i sogni servano da finestre sulle aspirazioni dell'anima. Questa citazione è emersa dalla sua realizzazione che i nostri sogni non sono fantasie casuali, ma illustrazioni accuratamente elaborate del nostro mondo interiore, proprio come un drammaturgo rivela il personaggio attraverso il dialogo e l'azione. Attraverso il suo lavoro, in particolare in ''night, Mother', ha dimostrato come i sogni potessero essere più 'reali' delle limitazioni artificiali che la società impone agli individui. La sua stessa vita ha dimostrato questa filosofia—sognava di usare la sua voce per cambiare il mondo, e attraverso quel sogno, è diventato uno degli artisti più influenti nella storia dell'hip-hop, ispirando milioni di persone a vedere oltre le loro circostanze immediate.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Рассказчик Души",
+          "content": "Марша Норман, драматург, удостоенная Пулитцеровской премии, понимает глубокую связь между мечтами и личным повествованием. Её понимание пришло из многолетнего создания персонажей, чьи мечты раскрывали их глубочайшие истины. В своём собственном путешествии от преподавания трудным детям до становления признанным драматургом, она наблюдала, как мечты служат окнами в стремления души. Эта цитата возникла из её осознания того, что наши мечты - это не случайные фантазии, а тщательно продуманные иллюстрации нашего внутреннего мира, подобно тому, как драматург раскрывает характер через диалог и действие. Через свою работу, особенно в ''night, Mother', она показала, как мечты—как осуществлённые, так и неосуществлённые—рассказывают историю о том, кто мы есть на самом деле и кем надеемся стать.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_021",
+      "category": "dreams",
+      "texts": {
+        "en": "The biggest adventure you can take is to live the life of your dreams.",
+        "tr": "Yapabileceğiniz en büyük macera, hayallerinizdeki hayatı yaşamaktır.",
+        "fr": "La plus grande aventure que vous puissiez entreprendre est de vivre la vie de vos rêves.",
+        "pt": "A maior aventura que você pode ter é viver a vida dos seus sonhos.",
+        "nl": "Het grootste avontuur dat je kunt beleven is het leven van je dromen leven.",
+        "es": "La mayor aventura que puedes emprender es vivir la vida de tus sueños.",
+        "de": "Das größte Abenteuer, das du erleben kannst, ist das Leben deiner Träume zu leben.",
+        "it": "La più grande avventura che puoi intraprendere è vivere la vita dei tuoi sogni.",
+        "ru": "Самое большое приключение, которое вы можете предпринять - это жить жизнью своей мечты."
+      },
+      "authors": {
+        "en": "Oprah Winfrey",
+        "tr": "Oprah Winfrey",
+        "fr": "Oprah Winfrey",
+        "pt": "Oprah Winfrey",
+        "nl": "Oprah Winfrey",
+        "es": "Oprah Winfrey",
+        "de": "Oprah Winfrey",
+        "it": "Oprah Winfrey",
+        "ru": "Опра Уинфри"
+      },
+      "tags": {
+        "en": ["adventure", "fulfillment", "courage"],
+        "tr": ["macera", "tatmin", "cesaret"],
+        "fr": ["aventure", "accomplissement", "courage"],
+        "pt": ["aventura", "realização", "coragem"],
+        "nl": ["avontuur", "vervulling", "moed"],
+        "es": ["aventura", "realización", "valentía"],
+        "de": ["Abenteuer", "Erfüllung", "Mut"],
+        "it": ["avventura", "realizzazione", "coraggio"],
+        "ru": ["приключение", "осуществление", "смелость"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "From Poverty to Purpose",
+          "content": "Oprah Winfrey's journey embodies this quote's essence. Born into poverty in rural Mississippi, she faced numerous obstacles including childhood trauma and racial discrimination. Yet, she dared to dream beyond her circumstances. Starting as a local news anchor, she transformed herself into a media mogul, becoming North America's first Black billionaire. Her dream wasn't just about wealth—it was about creating a platform to elevate voices and stories that needed to be heard. Through her talk show, magazine, network, and philanthropic efforts, she's demonstrated that living your dreams isn't just about personal success, but about creating positive change in the world. Her story reminds us that the path to our dreams is itself the greatest adventure we can undertake.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Yoksulluktan Amaca",
+          "content": "Oprah Winfrey'nin yolculuğu bu alıntının özünü somutlaştırıyor. Kırsal Mississippi'de yoksulluk içinde doğan Winfrey, çocukluk travması ve ırksal ayrımcılık dahil birçok engelle karşılaştı. Yine de, koşullarının ötesinde hayal kurmaya cesaret etti. Yerel bir haber sunucusu olarak başlayıp kendini bir medya patronuna dönüştürdü ve Kuzey Amerika'nın ilk siyahi milyarderi oldu. Hayali sadece zenginlik değildi—duyulması gereken sesleri ve hikayeleri yükseltmek için bir platform yaratmaktı. Talk show'u, dergisi, televizyon ağı ve hayırsever çalışmaları aracılığıyla, hayallerini yaşamanın sadece kişisel başarıyla ilgili olmadığını, dünyada olumlu değişim yaratmakla ilgili olduğunu gösterdi. Onun hikayesi bize hayallerimize giden yolun kendisinin üstlenebileceğimiz en büyük macera olduğunu hatırlatıyor.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "De la Pauvreté au But",
+          "content": "Le parcours d'Oprah Winfrey incarne l'essence de cette citation. Née dans la pauvreté dans le Mississippi rural, elle a fait face à de nombreux obstacles, notamment des traumatismes d'enfance et la discrimination raciale. Pourtant, elle a osé rêver au-delà de sa condition. Commençant comme présentatrice de nouvelles locales, elle s'est transformée en magnat des médias, devenant la première milliardaire noire d'Amérique du Nord. Son rêve n'était pas seulement question de richesse—il s'agissait de créer une plateforme pour élever les voix et les histoires qui devaient être entendues. À travers son talk-show, son magazine, son réseau et ses efforts philanthropiques, elle a démontré que vivre ses rêves n'est pas seulement une question de succès personnel, mais de créer un changement positif dans le monde. Son histoire nous rappelle que le chemin vers nos rêves est lui-même la plus grande aventure que nous puissions entreprendre.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "Da Pobreza ao Propósito",
+          "content": "A jornada de Oprah Winfrey incorpora a essência desta citação. Nascida na pobreza no Mississippi rural, ela enfrentou numerosos obstáculos, incluindo trauma infantil e discriminação racial. No entanto, ela ousou sonhar além de suas circunstâncias. Começando como âncora de notícias local, ela se transformou em uma magnata da mídia, tornando-se a primeira bilionária negra da América do Norte. Seu sonho não era apenas sobre riqueza—era sobre criar uma plataforma para elevar vozes e histórias que precisavam ser ouvidas. Através de seu talk show, revista, rede e esforços filantrópicos, ela demonstrou que viver seus sonhos não é apenas sobre sucesso pessoal, mas sobre criar mudança positiva no mundo. Sua história nos lembra que o caminho para nossos sonhos é em si a maior aventura que podemos empreender.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "Van Armoede naar Doel",
+          "content": "Oprah Winfrey's reis belichaamt de essentie van dit citaat. Geboren in armoede in landelijk Mississippi, trotseerde ze talloze obstakels, waaronder jeugdtrauma en raciale discriminatie. Toch durfde ze te dromen voorbij haar omstandigheden. Beginnend als lokale nieuwslezer transformeerde ze zichzelf tot een mediamagnaat en werd ze Noord-Amerika's eerste zwarte miljardair. Haar droom ging niet alleen over rijkdom—het ging om het creëren van een platform om stemmen en verhalen te verheffen die gehoord moesten worden. Via haar talkshow, tijdschrift, netwerk en filantropische inspanningen heeft ze aangetoond dat het leven van je dromen niet alleen gaat over persoonlijk succes, maar over het creëren van positieve verandering in de wereld. Haar verhaal herinnert ons eraan dat de weg naar onze dromen zelf het grootste avontuur is dat we kunnen ondernemen.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "De la Pobreza al Propósito",
+          "content": "El viaje de Oprah Winfrey encarna la esencia de esta cita. Nacida en la pobreza en el Mississippi rural, enfrentó numerosos obstáculos, incluyendo trauma infantil y discriminación racial. Sin embargo, se atrevió a soñar más allá de sus circunstancias. Comenzando como presentadora de noticias local, se transformó en una magnate de los medios, convirtiéndose en la primera multimillonaria negra de América del Norte. Su sueño no era solo sobre riqueza—se trataba de crear una plataforma para elevar voces e historias que necesitaban ser escuchadas. A través de su programa de entrevistas, revista, red y esfuerzos filantrópicos, ha demostrado que vivir tus sueños no se trata solo de éxito personal, sino de crear un cambio positivo en el mundo. Su historia nos recuerda que el camino hacia nuestros sueños es en sí mismo la mayor aventura que podemos emprender.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Von der Armut zum Zweck",
+          "content": "Oprah Winfreys Reise verkörpert die Essenz dieses Zitats. Geboren in Armut im ländlichen Mississippi, stand sie vor zahlreichen Hindernissen, darunter Kindheitstrauma und rassistische Diskriminierung. Dennoch wagte sie es, über ihre Umständen hinaus zu träumen. Als lokale Nachrichtensprecherin beginnend, verwandelte sie sich in eine Medienmogulin und wurde Nordamerikas erste schwarze Milliardärin. Ihr Traum drehte sich nicht nur um Reichtum—es ging darum, eine Plattform zu schaffen, um Stimmen und Geschichten zu erheben, die gehört werden mussten. Durch ihre Talkshow, Zeitschrift, Netzwerk und philanthropischen Bemühungen hat sie gezeigt, dass das Leben seiner Träume nicht nur um persönlichen Erfolg geht, sondern darum, positive Veränderungen in der Welt zu schaffen. Ihre Geschichte erinnert uns daran, dass der Weg zu unseren Träumen selbst das größte Abenteuer ist, das wir unternehmen können.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Dalla Povertà allo Scopo",
+          "content": "Il viaggio di Oprah Winfrey incarna l'essenza di questa citazione. Nata in povertà nel Mississippi rurale, ha affrontato numerosi ostacoli, tra cui traumi infantili e discriminazione razziale. Tuttavia, ha osato sognare oltre le sue circostanze. Iniziando come conduttrice di notizie locali, si è trasformata in una magnate dei media, diventando la prima miliardaria nera del Nord America. Il suo sogno non riguardava solo la ricchezza—si trattava di creare una piattaforma per elevare voci e storie che dovevano essere ascoltate. Attraverso il suo talk show, rivista, network e sforzi filantropici, ha dimostrato che vivere i propri sogni non riguarda solo il successo personale, ma la creazione di un cambiamento positivo nel mondo. La sua storia ci ricorda che il percorso verso i nostri sogni è di per sé la più grande avventura che possiamo intraprendere.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "От Бедности к Цели",
+          "content": "Путь Опры Уинфри воплощает суть этой цитаты. Родившись в бедности в сельском Миссисипи, она столкнулась с множеством препятствий, включая детские травмы и расовую дискриминацию. Тем не менее, она осмелилась мечтать за пределами своих обстоятельств. Начав как местный ведущий новостей, она превратилась в медиамагната, став первым чернокожим миллиардером Северной Америки. Её мечта была не только о богатстве—речь шла о создании платформы для возвышения голосов и историй, которые должны быть услышаны. Через своё ток-шоу, журнал, сеть и благотворительную деятельность она показала, что жить своей мечтой - это не только о личном успехе, но и о создании позитивных изменений в мире. Её история напоминает нам, что путь к нашим мечтам сам по себе является величайшим приключением, которое мы можем предпринять.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_022",
+      "category": "dreams",
+      "texts": {
+        "en": "Dreams are not what you see in sleep, they are the things that don't let you sleep.",
+        "tr": "Hayaller uykuda gördükleriniz değil, sizi uyutmayan şeylerdir.",
+        "fr": "Les rêves ne sont pas ce que vous voyez dans votre sommeil, ce sont les choses qui vous empêchent de dormir.",
+        "pt": "Sonhos não são o que você vê durante o sono, são as coisas que não deixam você dormir.",
+        "nl": "Dromen zijn niet wat je in je slaap ziet, het zijn de dingen die je niet laten slapen.",
+        "es": "Los sueños no son lo que ves cuando duermes, son las cosas que no te dejan dormir.",
+        "de": "Träume sind nicht das, was du im Schlaf siehst, es sind die Dinge, die dich nicht schlafen lassen.",
+        "it": "I sogni non sono ciò che vedi nel sonno, sono le cose che non ti lasciano dormire.",
+        "ru": "Мечты - это не то, что вы видите во сне, это то, что не даёт вам уснуть."
+      },
+      "authors": {
+        "en": "A.P.J. Abdul Kalam",
+        "tr": "A.P.J. Abdul Kalam",
+        "fr": "A.P.J. Abdul Kalam",
+        "pt": "A.P.J. Abdul Kalam",
+        "nl": "A.P.J. Abdul Kalam",
+        "es": "A.P.J. Abdul Kalam",
+        "de": "A.P.J. Abdul Kalam",
+        "it": "A.P.J. Abdul Kalam",
+        "ru": "А.П.Дж. Абдул Калам"
+      },
+      "tags": {
+        "en": ["passion", "drive", "determination"],
+        "tr": ["tutku", "motivasyon", "kararlılık"],
+        "fr": ["passion", "motivation", "détermination"],
+        "pt": ["paixão", "motivação", "impulso"],
+        "nl": ["passie", "gedrevenheid", "vastberadenheid"],
+        "es": ["pasión", "motivación", "impulso"],
+        "de": ["Leidenschaft", "Antrieb", "Entschlossenheit"],
+        "it": ["passione", "motivazione", "determinazione"],
+        "ru": ["страсть", "стремление", "решимость"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Missile Man's Vision",
+          "content": "Dr. A.P.J. Abdul Kalam, known as India's 'Missile Man' and later serving as the country's 11th President, lived by this principle throughout his life. Born in a humble family in Rameswaram, his passion for aerospace engineering kept him awake through countless nights of study and research. As the chief of India's missile program, he would work tirelessly, often sleeping only a few hours, driven by his vision of making India self-reliant in defense technology. His dream of seeing India as a developed nation by 2020 became a national vision that inspired millions. Even after becoming President, he would spend hours interacting with young students, encouraging them to dream big and work hard, demonstrating that true dreams are not passive wishes but active forces that drive us to action.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Füze Adamının Vizyonu",
+          "content": "Hindistan'ın 'Füze Adamı' olarak bilinen ve daha sonra ülkenin 11. Cumhurbaşkanı olan Dr. A.P.J. Abdul Kalam, hayatı boyunca bu prensiple yaşadı. Rameswaram'da mütevazı bir ailede doğan Kalam'ın havacılık mühendisliğine olan tutkusu, onu sayısız gece boyunca çalışma ve araştırma yaparken uyanık tuttu. Hindistan'ın füze programının başkanı olarak, savunma teknolojisinde Hindistan'ı kendi kendine yeten bir ülke yapma vizyonuyla, genellikle sadece birkaç saat uyuyarak yorulmadan çalışırdı. Hindistan'ı 2020'ye kadar gelişmiş bir ülke olarak görme hayali, milyonlara ilham veren ulusal bir vizyon haline geldi. Cumhurbaşkanı olduktan sonra bile, genç öğrencilerle saatlerce etkileşimde bulunur, onları büyük hayaller kurmaya ve sıkı çalışmaya teşvik eder, gerçek hayallerin pasif dilekler değil, bizi eyleme geçiren aktif güçler olduğunu gösterirdi.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "La Vision de l'Homme des Missiles",
+          "content": "Le Dr A.P.J. Abdul Kalam, connu comme 'l'Homme des Missiles' de l'Inde et plus tard devenu le 11e président du pays, a vécu selon ce principe toute sa vie. Né dans une famille modeste à Rameswaram, sa passion pour l'ingénierie aérospatiale le maintenait éveillé pendant d'innombrables nuits d'étude et de recherche. En tant que chef du programme de missiles indien, il travaillait sans relâche, ne dormant souvent que quelques heures, poussé par sa vision de rendre l'Inde autonome en matière de technologie de défense. Son rêve de voir l'Inde comme une nation développée d'ici 2020 est devenu une vision nationale qui a inspiré des millions de personnes. Même après être devenu président, il passait des heures à interagir avec de jeunes étudiants, les encourageant à rêver grand et à travailler dur, démontrant que les vrais rêves ne sont pas des souhaits passifs mais des forces actives qui nous poussent à l'action.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "A Visão do Homem dos Mísseis",
+          "content": "Dr. A.P.J. Abdul Kalam, conhecido como o 'Homem dos Mísseis' da Índia e posteriormente servindo como o 11º Presidente do país, viveu por este princípio durante toda sua vida. Nascido em uma família humilde em Rameswaram, sua paixão pela engenharia aeroespacial o mantinha acordado durante incontáveis noites de estudo e pesquisa. Como chefe do programa de mísseis da Índia, ele trabalhava incansavelmente, frequentemente dormindo apenas algumas horas, impulsionado por sua visão de tornar a Índia autossuficiente em tecnologia de defesa. Seu sonho de ver a Índia como uma nação desenvolvida até 2020 tornou-se uma visão nacional que inspirou milhões. Mesmo depois de se tornar Presidente, ele passava horas interagindo com jovens estudantes, encorajando-os a sonhar grande e trabalhar duro, demonstrando que verdadeiros sonhos não são desejos passivos, mas forças ativas que nos impulsionam à ação.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Visie van de Raketman",
+          "content": "Dr. A.P.J. Abdul Kalam, bekend als India's 'Raketman' en later dienend als het land's 11e president, leefde zijn hele leven volgens dit principe. Geboren in een bescheiden familie in Rameswaram, hield zijn passie voor ruimtevaartechniek hem wakker tijdens talloze nachten van studie en onderzoek. Als hoofd van India's raketprogramma werkte hij onvermoeibaar, vaak maar een paar uur slapend, gedreven door zijn visie om India zelfvoorzienend te maken in defensietechnologie. Zijn droom om India tegen 2020 als ontwikkeld land te zien werd een nationale visie die miljoenen inspireerde. Zelfs na president te zijn geworden, besteedde hij uren aan interactie met jonge studenten, moedigde hen aan om groot te dromen en hard te werken, en toonde aan dat echte dromen geen passieve wensen zijn maar actieve krachten die ons tot actie aanzetten.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "La Visión del Hombre de los Misiles",
+          "content": "El Dr. A.P.J. Abdul Kalam, conocido como el 'Hombre de los Misiles' de India y posteriormente sirviendo como el 11º Presidente del país, vivió según este principio durante toda su vida. Nacido en una familia humilde en Rameswaram, su pasión por la ingeniería aeroespacial lo mantuvo despierto durante innumerables noches de estudio e investigación. Como jefe del programa de misiles de India, trabajaba incansablemente, a menudo durmiendo solo unas pocas horas, impulsado por su visión de hacer a India autosuficiente en tecnología de defensa. Su sueño de ver a India como una nación desarrollada para 2020 se convirtió en una visión nacional que inspiró a millones. Incluso después de convertirse en Presidente, pasaba horas interactuando con jóvenes estudiantes, animándoles a soñar en grande y trabajar duro, demostrando que los verdaderos sueños no son deseos pasivos sino fuerzas activas que nos impulsan a la acción.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Die Vision des Raketenmanns",
+          "content": "Dr. A.P.J. Abdul Kalam, bekannt als Indiens 'Raketenmann' und später als 11. Präsident des Landes dienend, lebte sein ganzes Leben lang nach diesem Prinzip. Geboren in einer bescheidenen Familie in Rameswaram, hielt ihn seine Leidenschaft für Luft- und Raumfahrttechnik während unzähliger Nächte des Studiums und der Forschung wach. Als Leiter des indischen Raketenprogramms arbeitete er unermüdlich, oft nur wenige Stunden schlafend, getrieben von seiner Vision, Indien in der Verteidigungstechnologie unabhängig zu machen. Sein Traum, Indien bis 2020 als entwickelte Nation zu sehen, wurde zu einer nationalen Vision, die Millionen inspirierte. Selbst nach seinem Amtsantritt als Präsident verbrachte er Stunden damit, mit jungen Studenten zu interagieren, sie zu ermutigen, groß zu träumen und hart zu arbeiten, und zeigte, dass wahre Träume keine passiven Wünsche sind, sondern aktive Kräfte, die uns zum Handeln antreiben.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "La Visione dell'Uomo dei Missili",
+          "content": "Il Dr. A.P.J. Abdul Kalam, noto come l'Uomo dei Missili' dell'India e successivamente servendo come 11° Presidente del paese, ha vissuto secondo questo principio per tutta la sua vita. Nato in una famiglia umile a Rameswaram, la sua passione per l'ingegneria aerospaziale lo teneva sveglio durante innumerevoli notti di studio e ricerca. Come capo del programma missilistico indiano, lavorava instancabilmente, spesso dormendo solo poche ore, guidato dalla sua visione di rendere l'India autosufficiente nella tecnologia della difesa. Il suo sogno di vedere l'India come nazione sviluppata entro il 2020 è diventato una visione nazionale che ha ispirato milioni di persone. Anche dopo essere diventato Presidente, passava ore a interagire con giovani studenti, incoraggiandoli a sognare in grande e a lavorare duramente, dimostrando che i veri sogni non sono desideri passivi ma forze attive che ci spingevano all'azione.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Видение Ракетного Человека",
+          "content": "Доктор А.П.Дж. Абдул Калам, известный как 'Ракетный человек' Индии, а позже ставший 11-м президентом страны, жил по этому принципу всю свою жизнь. Родившись в скромной семье в Рамешвараме, его страсть к аэрокосмической инженерии не давала ему спать в течение бесчисленных ночей учебы и исследований. Будучи руководителем ракетной программы Индии, он неустанно работал, часто спя всего несколько часов, движимый своим видением сделать Индию самодостаточной в оборонных технологиях. Его мечта увидеть Индию развитой страной к 2020 году стала национальным видением, вдохновившим миллионы. Даже став президентом, он проводил часы в общении с молодыми студентами, поощряя их мечтать о большем и усердно работать, демонстрируя, что настоящие мечты - это не пассивные желания, а активные силы, которые побуждают нас к действию.",
+          "readTime": 3
+        }
+      }
+    },
+    {
+      "id": "dream_023",
+      "category": "dreams",
+      "texts": {
+        "en": "Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly.",
+        "tr": "Hayallerine sıkı sarıl, çünkü hayaller ölürse, hayat uçamayan kırık kanatlı bir kuştur.",
+        "fr": "Accrochez-vous à vos rêves, car si les rêves meurent, la vie est un oiseau aux ailes brisées qui ne peut voler.",
+        "pt": "Agarre-se aos sonhos, pois se os sonhos morrem, a vida é um pássaro de asas quebradas que não pode voar.",
+        "nl": "Houd vast aan dromen, want als dromen sterven, is het leven een vogel met gebroken vleugels die niet kan vliegen.",
+        "es": "Aférrate a los sueños, porque si los sueños mueren, la vida es un pájaro de alas rotas que no puede volar.",
+        "de": "Halte an Träumen fest, denn wenn Träume sterben, ist das Leben ein Vogel mit gebrochenen Flügeln, der nicht fliegen kann.",
+        "it": "Tieni stretti i sogni, perché se i sogni muoiono, la vita è un uccello dalle ali spezzate che non può volare.",
+        "ru": "Держись за мечты, ибо если мечты умирают, жизнь - это птица со сломанными крыльями, которая не может летать."
+      },
+      "authors": {
+        "en": "Langston Hughes",
+        "tr": "Langston Hughes",
+        "fr": "Langston Hughes",
+        "pt": "Langston Hughes",
+        "nl": "Langston Hughes",
+        "es": "Langston Hughes",
+        "de": "Langston Hughes",
+        "it": "Langston Hughes",
+        "ru": "Лэнгстон Хьюз"
+      },
+      "tags": {
+        "en": ["hope", "perseverance", "freedom"],
+        "tr": ["umut", "azim", "özgürlük"],
+        "fr": ["espoir", "persévérance", "liberté"],
+        "pt": ["esperança", "perseverança", "liberdade"],
+        "nl": ["hoop", "doorzettingsvermogen", "vrijheid"],
+        "es": ["esperanza", "perseverancia", "libertad"],
+        "de": ["Hoffnung", "Ausdauer", "Freiheit"],
+        "it": ["speranza", "perseveranza", "libertà"],
+        "ru": ["надежда", "настойчивость", "свобода"]
+      },
+      "readTime": 2,
+      "stories": {
+        "en": {
+          "title": "The Poet's Flight",
+          "content": "Langston Hughes, a central figure of the Harlem Renaissance, wrote these words during a time when dreams were systematically denied to African Americans. Born in 1902, Hughes witnessed the crushing weight of racial segregation and discrimination, yet he refused to let go of his dreams of equality and artistic expression. This metaphor of the broken-winged bird resonated deeply with the African American experience—a people whose aspirations were often clipped by systemic racism. Through his poetry, Hughes encouraged his community to keep their dreams alive, even in the face of overwhelming obstacles. His own life exemplified this principle: rising from poverty to become one of America's most celebrated poets, he transformed his dreams of giving voice to his people into powerful verses that continue to inspire generations.",
+          "readTime": 3
+        },
+        "tr": {
+          "title": "Şairin Uçuşu",
+          "content": "Harlem Rönesansı'nın merkezi figürü olan Langston Hughes, bu sözleri Afrikalı Amerikanların hayallerinin sistematik olarak reddedildiği bir dönemde yazdı. 1902'de doğan Hughes, ırksal ayrımcılık ve ayrımcılığın ezici ağırlığına tanık oldu, ancak eşitlik ve sanatsal ifade hayallerinden vazgeçmeyi reddetti. Kırık kanatlı kuş metaforu, özlemleri genellikle sistemik ırkçılık tarafından kısıtlanan Afrikalı Amerikan deneyimiyle derinden yankılandı. Hughes, şiiri aracılığıyla topluluğunu, ezici engeller karşısında bile hayallerini canlı tutmaya teşvik etti. Kendi hayatı bu prensibi örnekledi: yoksulluktan Amerika'nın en çok kutlanan şairlerinden biri olmaya yükselerek, halkına ses verme hayallerini nesillere ilham vermeye devam eden güçlü dizelere dönüştürdü.",
+          "readTime": 3
+        },
+        "fr": {
+          "title": "L'Envol du Poète",
+          "content": "Langston Hughes, figure centrale de la Renaissance de Harlem, a écrit ces mots à une époque où les rêves étaient systématiquement refusés aux Afro-Américains. Né en 1902, Hughes a été témoin du poids écrasant de la ségrégation raciale et de la discrimination, mais il a refusé d'abandonner ses rêves d'égalité et d'expression artistique. Cette métaphore de l'oiseau aux ailes brisées résonnait profondément avec l'expérience afro-américaine—un peuple dont les aspirations étaient souvent limitées par le racisme systémique. À travers sa poésie, Hughes encourageait sa communauté à garder leurs rêves vivants, même face à des obstacles écrasants. Sa propre vie illustrait ce principe : s'élevant de la pauvreté pour devenir l'un des poètes les plus célèbres d'Amérique, il a transformé ses rêves de donner une voix à son peuple en vers puissants qui continuent d'inspirer des générations.",
+          "readTime": 3
+        },
+        "pt": {
+          "title": "O Voo do Poeta",
+          "content": "Langston Hughes, figura central do Renascimento do Harlem, escreveu estas palavras durante uma época em que os sonhos eram sistematicamente negados aos afro-americanos. Nascido em 1902, Hughes testemunhou o peso esmagador da segregação racial e discriminação, mas recusou-se a abandonar seus sonhos de igualdade e expressão artística. Esta metáfora do pássaro de asas quebradas ressoava profundamente com a experiência afro-americana—um povo cujas aspirações eram frequentemente podadas pelo racismo sistêmico. Através de sua poesia, Hughes encorajava sua comunidade a manter seus sonhos vivos, mesmo diante de obstáculos avassaladores. Sua própria vida exemplificou este princípio: elevando-se da pobreza para se tornar um dos poetas mais celebrados da América, ele transformou seus sonhos de dar voz ao seu povo em versos poderosos que continuam a inspirar gerações.",
+          "readTime": 3
+        },
+        "nl": {
+          "title": "De Vlucht van de Dichter",
+          "content": "Langston Hughes, een centrale figuur van de Harlem Renaissance, schreef deze woorden in een tijd waarin dromen systematisch werden ontzegd aan Afro-Amerikanen. Geboren in 1902, was Hughes getuige van het verpletterende gewicht van raciale segregatie en discriminatie, maar hij weigerde zijn dromen van gelijkheid en artistieke expressie los te laten. Deze metafoor van de vogel met gebroken vleugels resoneerde diep met de Afro-Amerikaanse ervaring—een volk wiens aspiraties vaak werden gekortwiekt door systemisch racisme. Door zijn poëzie moedigde Hughes zijn gemeenschap aan om hun dromen levend te houden, zelfs in het aangezicht van overweldigende obstakels. Zijn eigen leven belichaamde dit principe: opklimmend uit armoede om een van Amerika's meest gevierde dichters te worden, transformeerde hij zijn dromen om zijn volk een stem te geven in krachtige verzen die generaties blijven inspireren.",
+          "readTime": 3
+        },
+        "es": {
+          "title": "El Vuelo del Poeta",
+          "content": "Langston Hughes, figura central del Renacimiento de Harlem, escribió estas palabras durante una época en que los sueños eran sistemáticamente negados a los afroamericanos. Nacido en 1902, Hughes fue testigo del peso aplastante de la segregación racial y la discriminación, pero se negó a abandonar sus sueños de igualdad y expresión artística. Esta metáfora del pájaro de alas rotas resonaba profundamente con la experiencia afroamericana—un pueblo cuyas aspiraciones eran a menudo recortadas por el racismo sistémico. A través de su poesía, Hughes alentaba a su comunidad a mantener vivos sus sueños, incluso frente a obstáculos abrumadores. Su propia vida ejemplificó este principio: elevándose desde la pobreza hasta convertirse en uno de los poetas más celebrados de América, transformó sus sueños de dar voz a su pueblo en versos poderosos que continúan inspirando a generaciones.",
+          "readTime": 3
+        },
+        "de": {
+          "title": "Der Flug des Dichters",
+          "content": "Langston Hughes, eine zentrale Figur der Harlem Renaissance, schrieb diese Worte in einer Zeit, in der Afroamerikanern systematisch Träume verwehrt wurden. 1902 geboren, erlebte Hughes das erdrückende Gewicht der Rassentrennung und Diskriminierung, weigerte sich jedoch, seine Träume von Gleichheit und künstlerischem Ausdruck aufzugeben. Diese Metapher des Vogels mit gebrochenen Flügeln resonierte tief mit der afroamerikanischen Erfahrung—ein Volk, dessen Bestrebungen oft durch systemischen Rassismus beschnitten wurden. Durch seine Poesie ermutigte Hughes seine Gemeinschaft, ihre Träume am Leben zu erhalten, selbst angesichts überwältigender Hindernisse. Sein eigenes Leben verkörperte dieses Prinzip: Von der Armut aufsteigend zu einem der gefeiertsten Dichter Amerikas, verwandelte er seine Träume, seinem Volk eine Stimme zu geben, in kraftvolle Verse, die weiterhin Generationen inspirieren.",
+          "readTime": 3
+        },
+        "it": {
+          "title": "Il Volo del Poeta",
+          "content": "Langston Hughes, figura centrale del Rinascimento di Harlem, scrisse queste parole durante un periodo in cui i sogni erano sistematicamente negati agli afroamericani. Nato nel 1902, Hughes fu testimone del peso schiacciante della segregazione razziale e della discriminazione, ma rifiutò di abbandonare i suoi sogni di uguaglianza ed espressione artistica. Questa metafora dell'uccello dalle ali spezzate risuonava profondamente con l'esperienza afroamericana—un popolo le cui aspirazioni erano spesso limitate dal razzismo sistemico. Attraverso la sua poesia, Hughes incoraggiava la sua comunità a mantenere vivi i loro sogni, anche di fronte a ostacoli schiaccianti. La sua stessa vita esemplificava questo principio: elevandosi dalla povertà per diventare uno dei poeti più celebrati d'America, trasformò i suoi sogni di dare voce al suo popolo in versi potenti che continuano a ispirare generazioni.",
+          "readTime": 3
+        },
+        "ru": {
+          "title": "Полет Поэта",
+          "content": "Лэнгстон Хьюз, центральная фигура Гарлемского ренессанса, написал эти слова в то время, когда мечты систематически отрицались для афроамериканцев. Родившийся в 1902 году, Хьюз был свидетелем сокрушительного веса расовой сегрегации и дискриминации, но отказался отпустить свои мечты о равенстве и художественном выражении. Эта метафора птицы со сломанными крыльями глубоко резонировала с афроамериканским опытом—народом, чьи стремления часто обрезались системным расизмом. Через свою поэзию Хьюз поощрял свое сообщество сохранять свои мечты живыми, даже перед лицом непреодолимых препятствий. Его собственная жизнь иллюстрировала этот принцип: поднявшись из бедности, чтобы стать одним из самых почитаемых поэтов Америки, он превратил свои мечты о том, чтобы дать голос своему народу, в мощные стихи, которые продолжают вдохновлять поколения.",
+          "readTime": 3
+        }
+      }
     }
   ]
 }
