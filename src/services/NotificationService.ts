@@ -181,24 +181,36 @@ export class NotificationService {
       );
       const endTime = this.parseTime(userPreferences.notificationTimeRange.end);
 
-      // Calculate intervals between notifications
+      // Calculate total available minutes
       const totalMinutes = this.calculateMinutesBetween(startTime, endTime);
-      const intervalMinutes = Math.floor(
-        totalMinutes / userPreferences.notificationCount
-      );
 
-      // Calculate time slots
-      const timeSlots: Array<{ hour: number; minute: number }> = [];
-      let currentTime = startTime;
-      for (let i = 0; i < userPreferences.notificationCount; i++) {
-        timeSlots.push({ ...currentTime });
-        currentTime = this.addMinutes(currentTime, intervalMinutes);
+      // Calculate intervals between notifications (excluding first and last)
+      const intervalsNeeded = Math.max(
+        1,
+        userPreferences.notificationCount - 1
+      );
+      const intervalMinutes = Math.floor(totalMinutes / intervalsNeeded);
+
+      // Generate base time slots (same for all days)
+      const baseTimeSlots: Array<{ hour: number; minute: number }> = [];
+
+      // First notification at start time
+      baseTimeSlots.push({ ...startTime });
+
+      // Generate middle time slots with equal intervals
+      let currentTime = { ...startTime };
+      for (let i = 1; i < userPreferences.notificationCount - 1; i++) {
+        currentTime = this.addMinutes(startTime, i * intervalMinutes);
+        baseTimeSlots.push({ ...currentTime });
       }
+
+      // Last notification at end time
+      baseTimeSlots.push({ ...endTime });
 
       // Get quotes for the next 7 days
       const daysToSchedule = 7;
-      const quotesNeeded = timeSlots.length * daysToSchedule;
-      const quotes = await this.getRandomQuotes(
+      const quotesNeeded = userPreferences.notificationCount * daysToSchedule;
+      let quotes = await this.getRandomQuotes(
         userPreferences,
         isPremium,
         quotesNeeded
@@ -209,17 +221,6 @@ export class NotificationService {
         return;
       }
 
-      // Adjust days to schedule based on available quotes
-      const actualDaysToSchedule = Math.floor(quotes.length / timeSlots.length);
-      if (actualDaysToSchedule === 0) {
-        console.log("❌ Not enough quotes for even one day of notifications");
-        return;
-      }
-
-      console.log(
-        `📅 Scheduling notifications for ${actualDaysToSchedule} days (${quotes.length} quotes available)`
-      );
-
       // Create schedule for available days
       const now = new Date();
       const schedule: StoredQuoteSchedule = {
@@ -227,44 +228,64 @@ export class NotificationService {
         lastUpdated: now.toISOString(),
       };
 
-      // Schedule only what we can with available quotes
-      for (let day = 0; day < actualDaysToSchedule; day++) {
+      // Schedule notifications for each day
+      for (let day = 0; day < daysToSchedule; day++) {
         const date = new Date(now);
         date.setDate(date.getDate() + day);
 
-        for (let slot = 0; slot < timeSlots.length; slot++) {
-          const quoteIndex = day * timeSlots.length + slot;
-          // Double check that we have this quote
-          if (quoteIndex < quotes.length) {
-            const quote = quotes[quoteIndex];
-            const timeSlot = timeSlots[slot];
+        // For each time slot in the day
+        for (let slotIndex = 0; slotIndex < baseTimeSlots.length; slotIndex++) {
+          // If we're out of quotes, get fresh quotes
+          if (quotes.length === 0) {
+            console.log("📚 Refreshing quotes pool...");
+            quotes = await this.getRandomQuotes(
+              userPreferences,
+              isPremium,
+              quotesNeeded
+            );
 
-            schedule.quotes.push({
-              quote,
-              scheduledFor: date.toISOString(),
-              timeSlot,
-            });
+            if (quotes.length === 0) {
+              console.log("❌ No quotes available after refresh");
+              break;
+            }
           }
+
+          // Get next quote and remove it from the pool
+          const quote = quotes.shift()!;
+          const timeSlot = baseTimeSlots[slotIndex];
+
+          schedule.quotes.push({
+            quote,
+            scheduledFor: date.toISOString(),
+            timeSlot,
+          });
+
+          console.log(
+            `📅 Scheduled "${quote.id}" for ${date.toLocaleDateString()} at ${
+              timeSlot.hour
+            }:${String(timeSlot.minute).padStart(2, "0")}`
+          );
         }
       }
 
       // Store schedule
       await this.storeSchedule(schedule);
 
-      // Add all quotes to unread list
-      await this.addUnreadQuotes(quotes.map((q) => q.id));
+      // Add quotes to unread list
+      const scheduledQuoteIds = schedule.quotes.map((sq) => sq.quote.id);
+      await this.addUnreadQuotes(scheduledQuoteIds);
 
-      // Schedule notifications for each quote
+      // Schedule notifications
       for (const { quote, scheduledFor, timeSlot } of schedule.quotes) {
         await this.scheduleQuoteNotification(quote, timeSlot, scheduledFor);
       }
 
       console.log(
-        `✅ Successfully scheduled ${schedule.quotes.length} notifications for the next ${actualDaysToSchedule} days`
+        `✅ Successfully scheduled ${schedule.quotes.length} notifications across ${daysToSchedule} days`
       );
     } catch (error) {
       console.error("Error scheduling notifications:", error);
-      throw error; // Rethrow to see the full error stack
+      throw error;
     }
   }
 
@@ -485,6 +506,18 @@ export class NotificationService {
     const hour = Math.floor(totalMinutes / 60) % 24;
     const minute = totalMinutes % 60;
     return { hour, minute };
+  }
+
+  /**
+   * Check if time1 is after time2
+   */
+  private isTimeAfter(
+    time1: { hour: number; minute: number },
+    time2: { hour: number; minute: number }
+  ): boolean {
+    const minutes1 = time1.hour * 60 + time1.minute;
+    const minutes2 = time2.hour * 60 + time2.minute;
+    return minutes1 > minutes2;
   }
 
   private truncateText(text: string, maxLength: number): string {
