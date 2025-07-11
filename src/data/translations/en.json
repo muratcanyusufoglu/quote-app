@@ -16,13 +16,24 @@
     "free_status": "Free",
     "reset_onboarding": "Reset Onboarding",
     "primary": "Primary",
-    "secondary": "Secondary"
+    "secondary": "Secondary",
+    "skip": "Skip"
   },
   "notifications": {
     "streak_warning": {
       "title": "Don't Break Your Streak! 🔥",
       "body": "We miss you! Open the app to keep your daily quote streak going."
     }
+  },
+  "streak": {
+    "started_title": "Great Start! 🌟",
+    "started_message": "You've started your daily quote journey! Keep it up to build your streak.",
+    "continued_title": "Streak On Fire! 🔥",
+    "continued_message": "Amazing! You're on a {count}-day streak. Keep the momentum going!",
+    "broken_title": "Don't Give Up! 💙",
+    "broken_message": "Your streak was reset, but that's okay! Every day is a fresh start.",
+    "day": "day",
+    "days": "days"
   },
   "navigation": {
     "home": "Home",

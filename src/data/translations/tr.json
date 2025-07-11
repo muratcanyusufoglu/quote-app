@@ -16,13 +16,24 @@
     "free_status": "Ücretsiz",
     "reset_onboarding": "Onboarding'i Sıfırla",
     "primary": "Birincil",
-    "secondary": "İkincil"
+    "secondary": "İkincil",
+    "skip": "Geç"
   },
   "notifications": {
     "streak_warning": {
       "title": "Serinizi Bozmayın! 🔥",
       "body": "Sizi özledik! Günlük alıntı serinizi devam ettirmek için uygulamayı açın."
     }
+  },
+  "streak": {
+    "started_title": "Harika Başlangıç! 🌟",
+    "started_message": "Günlük alıntı yolculuğunuza başladınız! Serinizi oluşturmak için devam edin.",
+    "continued_title": "Seri Yanıyor! 🔥",
+    "continued_message": "İnanılmaz! {count} günlük bir serindesiniz. Bu ivmeyi devam ettirin!",
+    "broken_title": "Pes Etmeyin! 💙",
+    "broken_message": "Seriniz sıfırlandı ama sorun değil! Her gün yeni bir başlangıçtır.",
+    "day": "gün",
+    "days": "gün"
   },
   "navigation": {
     "home": "Ana Sayfa",

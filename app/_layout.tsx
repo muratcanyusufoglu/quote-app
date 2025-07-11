@@ -13,7 +13,9 @@ import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
+import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
+import { useStreak } from "../src/hooks/useStreak";
 import { initializePaywallService } from "../src/services/PaywallService";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
 import { usePaywallSelectors } from "../src/store/usePaywallStore";
@@ -65,8 +67,9 @@ export default function RootLayout() {
   const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
   const paywallStoreHydrated = usePaywallSelectors.hasHydrated();
 
-  // Initialize notifications
+  // Initialize notifications and streak tracking
   useNotifications();
+  const { modalState, closeModal } = useStreak();
 
   useEffect(() => {
     // Initialize PaywallService when app starts
@@ -187,6 +190,14 @@ export default function RootLayout() {
 
         {/* Global PaywallModal - Accessible from anywhere in the app */}
         <PaywallModal />
+
+        {/* Global StreakModal - Shows streak achievements and breaks */}
+        <StreakModal
+          visible={modalState.visible}
+          streakCount={modalState.streakCount}
+          isStreakContinued={modalState.isStreakContinued}
+          onClose={closeModal}
+        />
       </ThemeProvider>
     </ThemeContextProvider>
   );

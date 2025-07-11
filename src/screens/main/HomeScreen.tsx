@@ -4,6 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
+import StreakModal from "../../components/ui/StreakModal";
 import { useAnalytics } from "../../hooks/useAnalytics";
 import {
   useExploreQuotes,
@@ -39,6 +40,11 @@ export function HomeScreen() {
   // Router parameters for category selection from explore
   const { selectedCategory } = useLocalSearchParams();
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
+
+  // Streak modal state
+  const [streakModalVisible, setStreakModalVisible] = useState(false);
+  const [streakCount, setStreakCount] = useState(1);
+  const [isStreakContinued, setIsStreakContinued] = useState(true);
 
   // Store hydration checks
   const quoteStoreHydrated = useHasHydrated();
@@ -178,6 +184,19 @@ export function HomeScreen() {
     );
   };
 
+  // Debug streak modal functions
+  const showStreakContinue = () => {
+    setStreakCount(3); // Example streak count
+    setIsStreakContinued(true);
+    setStreakModalVisible(true);
+  };
+
+  const showStreakBreak = () => {
+    setStreakCount(0);
+    setIsStreakContinued(false);
+    setStreakModalVisible(true);
+  };
+
   // Show loading while stores are hydrating
   if (
     !quoteStoreHydrated ||
@@ -234,7 +253,7 @@ export function HomeScreen() {
       backgroundColor="transparent" // Transparent to show QuoteReelCard gradient
       safeAreaStyle={{ paddingHorizontal: 0 }} // Override BaseScreen padding
     >
-      {/* Debug Premium Toggle - Hidden by default, can be enabled for debugging */}
+      {/* Debug Panel */}
       {__DEV__ && (
         <View
           style={[
@@ -314,10 +333,52 @@ export function HomeScreen() {
                   {common.reset_onboarding}
                 </Text>
               </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[
+                  styles.debugButton,
+                  { backgroundColor: theme.colors.brandYellow },
+                ]}
+                onPress={showStreakContinue}
+              >
+                <Text
+                  style={[
+                    styles.debugButtonText,
+                    { color: theme.colors.white },
+                  ]}
+                >
+                  🔥 Streak
+                </Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[
+                  styles.debugButton,
+                  { backgroundColor: theme.colors.error },
+                ]}
+                onPress={showStreakBreak}
+              >
+                <Text
+                  style={[
+                    styles.debugButtonText,
+                    { color: theme.colors.white },
+                  ]}
+                >
+                  💔 Break
+                </Text>
+              </TouchableOpacity>
             </View>
           </View>
         </View>
       )}
+
+      {/* Streak Modal */}
+      <StreakModal
+        visible={streakModalVisible}
+        streakCount={streakCount}
+        isStreakContinued={isStreakContinued}
+        onClose={() => setStreakModalVisible(false)}
+      />
 
       {/* Category filter indicator - Show when category is selected */}
       {categoryFilter && selectedCategoryData && (
@@ -447,7 +508,7 @@ const createStyles = (theme: any) =>
       fontWeight: "500",
     },
     debugButtons: {
-      flexDirection: "row",
+      flexDirection: "column",
       gap: 8,
     },
     debugButton: {
