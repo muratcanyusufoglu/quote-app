@@ -7,6 +7,7 @@ import { DataService } from "./DataService";
 // Storage keys
 const UNREAD_QUOTES_KEY = "unread_quotes";
 const NEXT_QUOTES_KEY = "next_quotes";
+const LAST_VISIT_KEY = "last_visit";
 
 // App name constant
 const APP_NAME = "QuoteSpark";
@@ -23,9 +24,9 @@ Notifications.setNotificationHandler({
 });
 
 export interface NotificationData {
-  quoteId: string;
-  category: string;
-  type: "daily_quote";
+  quoteId?: string;
+  category?: string;
+  type: "daily_quote" | "streak_warning";
   date: string; // Add date to track when this quote was scheduled for
   [key: string]: unknown;
 }
@@ -207,8 +208,8 @@ export class NotificationService {
       // Last notification at end time
       baseTimeSlots.push({ ...endTime });
 
-      // Get quotes for the next 7 days
-      const daysToSchedule = 7;
+      // Get quotes for the next 3 days (changed from 7 to 3)
+      const daysToSchedule = 3; // Changed from 7 to 3
       const quotesNeeded = userPreferences.notificationCount * daysToSchedule;
       let quotes = await this.getRandomQuotes(
         userPreferences,
@@ -228,7 +229,7 @@ export class NotificationService {
         lastUpdated: now.toISOString(),
       };
 
-      // Schedule notifications for each day
+      // Schedule notifications for each day (3 days)
       for (let day = 0; day < daysToSchedule; day++) {
         const date = new Date(now);
         date.setDate(date.getDate() + day);
@@ -342,6 +343,99 @@ export class NotificationService {
   }
 
   /**
+   * Check and update last visit time
+   */
+  async updateLastVisit(): Promise<void> {
+    try {
+      const now = new Date().toISOString();
+      await AsyncStorage.setItem(LAST_VISIT_KEY, now);
+    } catch (error) {
+      console.error("Error updating last visit:", error);
+    }
+  }
+
+  /**
+   * Check if user hasn't opened the app for 3 days
+   */
+  private async shouldSendStreakWarning(): Promise<boolean> {
+    try {
+      const lastVisitStr = await AsyncStorage.getItem(LAST_VISIT_KEY);
+      if (!lastVisitStr) return false;
+
+      const lastVisit = new Date(lastVisitStr);
+      const now = new Date();
+      const daysSinceLastVisit = Math.floor(
+        (now.getTime() - lastVisit.getTime()) / (1000 * 60 * 60 * 24)
+      );
+
+      return daysSinceLastVisit >= 3;
+    } catch (error) {
+      console.error("Error checking streak warning:", error);
+      return false;
+    }
+  }
+
+  /**
+   * Schedule streak warning notification
+   */
+  private async scheduleStreakWarning(
+    userPreferences: UserPreferences
+  ): Promise<void> {
+    try {
+      const shouldWarn = await this.shouldSendStreakWarning();
+      if (!shouldWarn) return;
+
+      // Get translations
+      const translations = await this.dataService.getTranslations(
+        userPreferences.language
+      );
+
+      const notificationData: NotificationData = {
+        type: "streak_warning",
+        date: new Date().toISOString(),
+      };
+
+      const notificationContent: Notifications.NotificationContentInput = {
+        title: translations.notifications.streak_warning.title,
+        body: translations.notifications.streak_warning.body,
+        data: notificationData,
+        sound: true,
+      };
+
+      // Schedule for next preferred notification time
+      const now = new Date();
+      const preferredTime = this.parseTime(
+        userPreferences.notificationTimeRange.start
+      );
+      const scheduledDate = new Date(now);
+      scheduledDate.setHours(preferredTime.hour, preferredTime.minute, 0, 0);
+
+      // If preferred time has passed, schedule for tomorrow
+      if (scheduledDate <= now) {
+        scheduledDate.setDate(scheduledDate.getDate() + 1);
+      }
+
+      const trigger: Notifications.DateTriggerInput = {
+        date: scheduledDate,
+        type: Notifications.SchedulableTriggerInputTypes.DATE,
+      };
+
+      const identifier = `streak_warning_${scheduledDate.toISOString()}`;
+      await Notifications.scheduleNotificationAsync({
+        identifier,
+        content: notificationContent,
+        trigger,
+      });
+
+      console.log(
+        `⚠️ Scheduled streak warning notification for ${scheduledDate.toLocaleString()}`
+      );
+    } catch (error) {
+      console.error("Error scheduling streak warning:", error);
+    }
+  }
+
+  /**
    * Update notifications daily
    * Call this when app opens or at midnight
    */
@@ -354,6 +448,7 @@ export class NotificationService {
       if (!storedSchedule) {
         // No schedule exists, create new one
         await this.scheduleNotifications(userPreferences, isPremium);
+        await this.scheduleStreakWarning(userPreferences);
         return;
       }
 
@@ -366,6 +461,7 @@ export class NotificationService {
       if (hoursSinceUpdate >= 24) {
         // Time to update schedule
         await this.scheduleNotifications(userPreferences, isPremium);
+        await this.scheduleStreakWarning(userPreferences);
       } else {
         console.log("📅 Notification schedule is up to date");
       }

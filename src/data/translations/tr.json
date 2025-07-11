@@ -18,6 +18,12 @@
     "primary": "Birincil",
     "secondary": "İkincil"
   },
+  "notifications": {
+    "streak_warning": {
+      "title": "Serinizi Bozmayın! 🔥",
+      "body": "Sizi özledik! Günlük alıntı serinizi devam ettirmek için uygulamayı açın."
+    }
+  },
   "navigation": {
     "home": "Ana Sayfa",
     "explore": "Keşfet",

@@ -8,6 +8,10 @@ import {
 import { Category, LocalizedCategory, LocalizedQuote, Quote } from "../types";
 import { SupportedLanguage } from "../utils/language";
 
+// Import translation files
+import enTranslations from "../data/translations/en.json";
+import trTranslations from "../data/translations/tr.json";
+
 // Cache interface for performance optimization
 interface DataCache {
   categories: Category[] | null;
@@ -24,6 +28,16 @@ export class DataService {
   };
 
   private readonly CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+
+  private translations = {
+    tr: trTranslations,
+    en: enTranslations,
+  };
+
+  // Get translations for a specific language
+  getTranslations(language: SupportedLanguage): any {
+    return this.translations[language] || this.translations.en;
+  }
 
   // Load categories from separate JSON file
   async loadCategories(): Promise<Category[]> {

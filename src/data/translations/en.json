@@ -18,6 +18,12 @@
     "primary": "Primary",
     "secondary": "Secondary"
   },
+  "notifications": {
+    "streak_warning": {
+      "title": "Don't Break Your Streak! 🔥",
+      "body": "We miss you! Open the app to keep your daily quote streak going."
+    }
+  },
   "navigation": {
     "home": "Home",
     "explore": "Explore",
