@@ -10,6 +10,7 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { ShareButton } from "../../components/ui/ShareButton";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import { useStoryReading } from "../../hooks/usePurchase";
 import { useQuoteDetail } from "../../hooks/useQuoteService";
 import {
@@ -34,6 +35,9 @@ const QuoteDetailScreen: React.FC = () => {
   const quoteId = params.id as string;
   const readTimerRef = useRef<number | null>(null);
 
+  // Analytics
+  const { trackScreen, trackQuoteView, trackQuoteFavorite } = useAnalytics();
+
   // Translations
   const common = useCommonTranslations();
   const quoteDetail = useScreenTranslations("quote_detail");
@@ -54,8 +58,22 @@ const QuoteDetailScreen: React.FC = () => {
   const quoteDetailData = useQuoteDetail(quoteId);
   const storyReading = useStoryReading();
 
+  // Track screen view
+  useEffect(() => {
+    trackScreen("QuoteDetailScreen", "QuoteDetailScreen");
+  }, [trackScreen]);
+
+  // Track quote view and start read timer
   useEffect(() => {
     if (quoteDetailData?.quote) {
+      // Track quote view analytics
+      trackQuoteView({
+        quote_id: quoteDetailData.quote.id,
+        quote_category: quoteDetailData.quote.category,
+        quote_author: quoteDetailData.quote.author,
+        language: quoteDetailData.quote.language,
+      });
+
       // Quote'ı 10 saniye sonra okundu olarak işaretle
       console.log(
         "⏱️ Starting read timer for quote:",
@@ -84,7 +102,7 @@ const QuoteDetailScreen: React.FC = () => {
         readTimerRef.current = null;
       }
     };
-  }, [quoteDetailData?.quote?.id, markAsRead, storyReading]);
+  }, [quoteDetailData?.quote?.id, markAsRead, storyReading, trackQuoteView]);
 
   const styles = createStyles(theme);
 
@@ -121,7 +139,23 @@ const QuoteDetailScreen: React.FC = () => {
   const handleFavoritePress = () => {
     if (!quoteDetailData?.quote) return;
 
-    if (favoriteQuotes.includes(quoteDetailData.quote.id)) {
+    const isCurrentlyFavorite = favoriteQuotes.includes(
+      quoteDetailData.quote.id
+    );
+    const action = isCurrentlyFavorite ? "remove" : "add";
+
+    // Track favorite analytics
+    trackQuoteFavorite(
+      {
+        quote_id: quoteDetailData.quote.id,
+        quote_category: quoteDetailData.quote.category,
+        quote_author: quoteDetailData.quote.author,
+        language: quoteDetailData.quote.language,
+      },
+      action
+    );
+
+    if (isCurrentlyFavorite) {
       removeFromFavorites(quoteDetailData.quote.id);
     } else {
       addToFavorites(quoteDetailData.quote.id);

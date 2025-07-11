@@ -9,8 +9,13 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "buildNumber": "5",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "entitlements": {
+        "aps-environment": "development"
+      },
       "infoPlist": {
         "CFBundleURLTypes": [
           {
@@ -36,6 +41,7 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.quotespark.dailyinspiration",
+      "googleServicesFile": "./google-services.json",
       "intentFilters": [
         {
           "action": "VIEW",
@@ -71,7 +77,25 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#ffffff"
+        }
+      ],
+      [
+        "@react-native-firebase/app",
+        {
+          "android": {
+            "googleServicesFile": "./google-services.json"
+          },
+          "ios": {
+            "googleServicesPlist": "./GoogleService-Info.plist"
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

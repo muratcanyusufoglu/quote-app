@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FlatList,
   StyleSheet,
@@ -10,6 +10,7 @@ import {
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
 import { NavigationHeader } from "../../components/layout/NavigationHeader";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import { useFavoriteQuotes } from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
@@ -24,6 +25,9 @@ import { useTheme } from "../../utils/ThemeContext";
 export function FavoritesScreen() {
   const { theme } = useTheme();
 
+  // Analytics
+  const { trackScreen, trackQuoteView } = useAnalytics();
+
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
@@ -36,7 +40,20 @@ export function FavoritesScreen() {
   const favorites = useScreenTranslations("favorites");
   const common = useCommonTranslations();
 
+  // Track screen view
+  useEffect(() => {
+    trackScreen("FavoritesScreen", "FavoritesScreen");
+  }, [trackScreen]);
+
   const handleQuotePress = (quote: LocalizedQuote) => {
+    // Track quote view analytics
+    trackQuoteView({
+      quote_id: quote.id,
+      quote_category: quote.category,
+      quote_author: quote.author,
+      language: quote.language,
+    });
+
     router.push(`/quote-detail/${quote.id}`);
   };
 

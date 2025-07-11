@@ -1,5 +1,5 @@
 import { LinearGradient } from "expo-linear-gradient";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -10,6 +10,7 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import {
   useCommonTranslations,
   useScreenTranslations,
@@ -36,16 +37,38 @@ export function ThemeSelectionScreen() {
     setColorScheme,
     isDark,
   } = useTheme();
+
+  // Analytics
+  const { trackScreen, trackThemeChange } = useAnalytics();
+
   const common = useCommonTranslations();
   const themeTranslations = useScreenTranslations("themes");
 
+  // Track screen view
+  useEffect(() => {
+    trackScreen("ThemeSelectionScreen", "ThemeSelectionScreen");
+  }, [trackScreen]);
+
   const handleThemeSelect = (themeOption: ThemeOption) => {
+    const oldTheme = selectedTheme;
     setSelectedTheme(themeOption);
+
+    // Track theme change
+    trackThemeChange(oldTheme, themeOption);
+
     console.log(`🎨 Theme selected: ${themeOption}`);
   };
 
   const handleColorSchemeSelect = (scheme: ColorScheme) => {
+    const oldScheme = colorScheme;
     setColorScheme(scheme);
+
+    // Track color scheme change
+    trackThemeChange(
+      `${selectedTheme}_${oldScheme}`,
+      `${selectedTheme}_${scheme}`
+    );
+
     console.log(`🌓 Color scheme selected: ${scheme}`);
   };
 

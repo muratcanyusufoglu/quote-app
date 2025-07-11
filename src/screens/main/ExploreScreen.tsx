@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Dimensions,
   FlatList,
@@ -11,6 +11,7 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import { useQuoteCategories } from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
@@ -33,6 +34,9 @@ export function ExploreScreen() {
   // Theme
   const { theme, isDark } = useTheme();
 
+  // Analytics
+  const { trackScreen, trackCategoryView, trackPaywallView } = useAnalytics();
+
   // Store data
   const isPremium = useIsPremium();
   const { showPaywall, trackAction } = usePaywallSelectors.actions();
@@ -52,6 +56,11 @@ export function ExploreScreen() {
   // Create styles with theme
   const styles = createStyles(theme);
 
+  // Track screen view
+  useEffect(() => {
+    trackScreen("ExploreScreen", "ExploreScreen");
+  }, [trackScreen]);
+
   console.log("📋 All categories loaded:", allCategories.length);
 
   // Debug: Log all categories and their icons
@@ -69,12 +78,30 @@ export function ExploreScreen() {
     // Track user action for paywall trigger
     trackAction();
 
+    // Find category data for analytics
+    const category = allCategories.find((cat) => cat.id === categoryId);
+
+    if (category) {
+      // Track category view analytics
+      trackCategoryView({
+        category_id: category.id,
+        category_name: category.name,
+        is_premium: category.isPremium,
+      });
+    }
+
     // Check if user can access this category
     const isGeneralCategory =
       categoryId.toLowerCase() === "general" ||
       categoryId.toLowerCase() === "genel";
 
     if (!isPremium && !isGeneralCategory) {
+      // Track paywall view
+      trackPaywallView({
+        trigger_source: "premium_category",
+        user_action: "viewed",
+      });
+
       // Show paywall modal for premium category
       showPaywall("premium_category");
       return;

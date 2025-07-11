@@ -374,3 +374,64 @@ export interface PaywallStoreActions {
 }
 
 export type PaywallStore = PaywallStoreState & PaywallStoreActions;
+
+// Analytics Event Types
+export interface AnalyticsEvent {
+  name: string;
+  parameters?: Record<string, any>;
+}
+
+export interface ScreenViewEvent {
+  screen_name: string;
+  screen_class?: string;
+}
+
+export interface QuoteEvent {
+  quote_id: string;
+  quote_category: string;
+  quote_author: string;
+  language: "en" | "tr";
+}
+
+export interface ShareEvent extends QuoteEvent {
+  share_method: "native" | "image";
+  content_type: "quote" | "story";
+}
+
+export interface CategoryEvent {
+  category_id: string;
+  category_name: string;
+  is_premium: boolean;
+}
+
+export interface UserActionEvent {
+  action_type:
+    | "favorite_add"
+    | "favorite_remove"
+    | "theme_change"
+    | "language_change"
+    | "category_filter";
+  item_id?: string;
+  old_value?: string;
+  new_value?: string;
+}
+
+export interface OnboardingEvent {
+  step: number;
+  total_steps: number;
+  completion_rate: number;
+  selected_preferences?: string[];
+}
+
+export interface PaywallEvent {
+  trigger_source: PaywallTriggerSource;
+  user_action: "viewed" | "dismissed" | "purchased";
+  step?: string;
+}
+
+export interface PerformanceEvent {
+  event_type: "app_start" | "screen_load" | "quote_load";
+  duration_ms: number;
+  success: boolean;
+  error_message?: string;
+}

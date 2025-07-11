@@ -4,6 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import {
   useExploreQuotes,
   useHomeQuotes,
@@ -31,6 +32,9 @@ import { useTheme } from "../../utils/ThemeContext";
 export function HomeScreen() {
   // Theme
   const { theme } = useTheme();
+
+  // Analytics
+  const { trackScreen, trackQuoteView, trackCategoryFilter } = useAnalytics();
 
   // Router parameters for category selection from explore
   const { selectedCategory } = useLocalSearchParams();
@@ -108,6 +112,11 @@ export function HomeScreen() {
     quoteStoreHydrated && purchaseStoreHydrated && onboardingStoreHydrated
   );
 
+  // Track screen view
+  useEffect(() => {
+    trackScreen("HomeScreen", "HomeScreen");
+  }, [trackScreen]);
+
   // Handle category selection from router params
   useEffect(() => {
     if (selectedCategory && typeof selectedCategory === "string") {
@@ -115,13 +124,32 @@ export function HomeScreen() {
       console.log(
         `🔗 Navigation from explore with category: ${selectedCategory}`
       );
+
+      // Track category filter analytics
+      const selectedCategoryData = allCategories.find(
+        (cat) => cat.id === selectedCategory
+      );
+      if (selectedCategoryData) {
+        trackCategoryFilter({
+          category_id: selectedCategoryData.id,
+          category_name: selectedCategoryData.name,
+          is_premium: selectedCategoryData.isPremium,
+        });
+      }
     }
-  }, [selectedCategory]);
+  }, [selectedCategory, allCategories, trackCategoryFilter]);
 
   // Handle quote view tracking
   const handleQuoteView = (quote: LocalizedQuote) => {
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
+
+    trackQuoteView({
+      quote_id: quote.id,
+      quote_category: quote.category,
+      quote_author: quote.author,
+      language: quote.language,
+    });
   };
 
   // Track actions when user interacts with quotes

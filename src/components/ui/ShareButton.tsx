@@ -1,6 +1,7 @@
 import React from "react";
 import { Share, TouchableOpacity, ViewStyle } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import { LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
 
@@ -24,6 +25,7 @@ export function ShareButton({
   onShareError,
 }: ShareButtonProps) {
   const { theme } = useTheme();
+  const { trackQuoteShare } = useAnalytics();
   const APP_NAME = "QuoteSpark";
 
   const handleShare = async () => {
@@ -34,6 +36,17 @@ export function ShareButton({
       };
 
       await Share.share(shareContent);
+
+      // Track share analytics
+      trackQuoteShare({
+        quote_id: quote.id,
+        quote_category: quote.category,
+        quote_author: quote.author,
+        language: quote.language,
+        share_method: "native",
+        content_type: "quote",
+      });
+
       console.log("📤 Quote shared successfully");
       onShareComplete?.();
     } catch (error) {

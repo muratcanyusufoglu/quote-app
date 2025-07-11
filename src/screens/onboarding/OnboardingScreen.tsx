@@ -12,6 +12,7 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { getOnboardingQuestions } from "../../data/onboardingQuestions";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import {
   useScreenTranslations,
   useTranslation,
@@ -26,6 +27,14 @@ export function OnboardingScreen() {
   const { theme } = useTheme();
   const { addAnswer, generatePreferences, setCompleted } =
     useOnboardingActions();
+
+  // Analytics
+  const {
+    trackScreen,
+    trackOnboardingStart,
+    trackOnboardingStep,
+    trackOnboardingComplete,
+  } = useAnalytics();
 
   // Translations
   const onboarding = useScreenTranslations("onboarding");
@@ -46,6 +55,27 @@ export function OnboardingScreen() {
     currentStep >= 0 && currentStep < onboardingQuestions.length
       ? onboardingQuestions[currentStep]
       : null;
+
+  // Track screen view and onboarding start
+  useEffect(() => {
+    trackScreen("OnboardingScreen", "OnboardingScreen");
+    trackOnboardingStart();
+  }, [trackScreen, trackOnboardingStart]);
+
+  // Track step completion
+  useEffect(() => {
+    if (currentStep >= 0 && currentStep < onboardingQuestions.length) {
+      const completionRate =
+        ((currentStep + 1) / onboardingQuestions.length) * 100;
+
+      trackOnboardingStep({
+        step: currentStep + 1,
+        total_steps: onboardingQuestions.length,
+        completion_rate: completionRate,
+        selected_preferences: Object.keys(answers),
+      });
+    }
+  }, [currentStep, onboardingQuestions.length, answers, trackOnboardingStep]);
 
   useEffect(() => {
     animateTransition();
@@ -122,6 +152,10 @@ export function OnboardingScreen() {
   };
 
   const completeOnboarding = () => {
+    // Track onboarding completion
+    const selectedPreferences = Object.keys(answers);
+    trackOnboardingComplete(selectedPreferences);
+
     generatePreferences();
     setCompleted(true);
     setCurrentStep(onboardingQuestions.length); // Show completion screen
