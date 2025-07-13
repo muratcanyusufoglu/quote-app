@@ -142,10 +142,30 @@ export function usePaywallTranslations() {
       storyLimit: tNamespace("paywall.story_limit"),
       actionLimit: tNamespace("paywall.action_limit"),
       default: tNamespace("paywall.default"),
+      realPurchase: tNamespace("paywall.real_purchase"),
+      modern: tNamespace("paywall.modern"),
       features: tNamespace("paywall.features"),
       pricing: tNamespace("paywall.pricing"),
+      alerts: tNamespace("paywall.alerts"),
       footer: translationService.translate("paywall.footer", language),
       processing: translationService.translate("paywall.processing", language),
+      startFreeTrial: translationService.translate(
+        "paywall.start_free_trial",
+        language
+      ),
+      getPremiumAccess: translationService.translate(
+        "paywall.get_premium_access",
+        language
+      ),
+      unlockStories: translationService.translate(
+        "paywall.unlock_stories",
+        language
+      ),
+      removeLimits: translationService.translate(
+        "paywall.remove_limits",
+        language
+      ),
+      getPremium: translationService.translate("paywall.get_premium", language),
     }),
     [tNamespace, language]
   );

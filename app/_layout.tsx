@@ -16,12 +16,15 @@ import { PaywallModal } from "../src/components/ui/PaywallModal";
 import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
 import { useStreak } from "../src/hooks/useStreak";
-import { initializePaywallService } from "../src/services/PaywallService";
+import { getPaywallService } from "../src/services/PaywallService";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
 import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
 import { useQuoteSelectors } from "../src/store/useQuoteStore";
-import { ThemeProvider as ThemeContextProvider } from "../src/utils/ThemeContext";
+import {
+  ThemeProvider as ThemeContextProvider,
+  useTheme,
+} from "../src/utils/ThemeContext";
 
 // Custom dark theme based on our new harmonious color system
 const CustomDarkTheme = {
@@ -51,6 +54,19 @@ const CustomLightTheme = {
   },
 };
 
+// StatusBar component that uses our theme
+function ThemedStatusBar() {
+  const { theme, isDark } = useTheme();
+
+  return (
+    <StatusBar
+      style={isDark ? "light" : "dark"}
+      backgroundColor={theme.colors.background}
+      translucent={false}
+    />
+  );
+}
+
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -76,7 +92,7 @@ export default function RootLayout() {
     const initializeServices = async () => {
       try {
         console.log("🚀 Initializing PaywallService...");
-        await initializePaywallService();
+        await getPaywallService().initialize();
         console.log("✅ PaywallService initialized successfully");
       } catch (error) {
         console.error("❌ Failed to initialize PaywallService:", error);
@@ -155,6 +171,7 @@ export default function RootLayout() {
       <ThemeProvider
         value={colorScheme === "dark" ? CustomDarkTheme : CustomLightTheme}
       >
+        <ThemedStatusBar />
         <Stack
           screenOptions={{
             headerShown: false,
@@ -186,7 +203,6 @@ export default function RootLayout() {
             }}
           />
         </Stack>
-        <StatusBar style="auto" />
 
         {/* Global PaywallModal - Accessible from anywhere in the app */}
         <PaywallModal />

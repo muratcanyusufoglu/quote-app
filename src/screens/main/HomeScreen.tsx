@@ -63,6 +63,7 @@ export function HomeScreen() {
 
   // Paywall tracking
   const { trackAction } = usePaywallSelectors.actions();
+  const { showPaywall } = usePaywallSelectors.actions();
 
   // Translations
   const home = useScreenTranslations("home");
@@ -195,6 +196,12 @@ export function HomeScreen() {
     setStreakCount(0);
     setIsStreakContinued(false);
     setStreakModalVisible(true);
+  };
+
+  // Debug paywall modal function
+  const handleShowPaywall = () => {
+    showPaywall("real_purchase");
+    console.log(`💰 Debug: PaywallModal opened from debug panel`);
   };
 
   // Show loading while stores are hydrating
@@ -365,6 +372,23 @@ export function HomeScreen() {
                   ]}
                 >
                   💔 Break
+                </Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[
+                  styles.debugButton,
+                  { backgroundColor: theme.colors.primary },
+                ]}
+                onPress={handleShowPaywall}
+              >
+                <Text
+                  style={[
+                    styles.debugButtonText,
+                    { color: theme.colors.white },
+                  ]}
+                >
+                  💰 Paywall
                 </Text>
               </TouchableOpacity>
             </View>

@@ -1,3 +1,4 @@
+import { LinearGradient } from "expo-linear-gradient";
 import React, { useEffect, useRef } from "react";
 import {
   Animated,
@@ -26,57 +27,66 @@ interface StreakCircleProps {
   index: number;
   isActive: boolean;
   progress: Animated.Value;
+  flickerAnim: Animated.Value;
   theme: any;
+  selectedTheme: string;
 }
 
 const StreakCircle: React.FC<StreakCircleProps> = ({
   index,
   isActive,
   progress,
+  flickerAnim,
   theme,
+  selectedTheme,
 }) => {
   const circleSize = 14;
   const circleSpacing = 10;
 
-  // Theme-specific colors
+  // Enhanced theme-specific colors with fire-like gradients
   const getCircleColors = () => {
-    const themeOption = theme.name || "default";
-    switch (themeOption) {
+    switch (selectedTheme) {
       case "ocean":
         return {
-          active: theme.colors.primary,
+          active: ["#FF6B47", "#FF8E53", "#FFA726"], // Ocean fire: coral to orange
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#FF6B47",
         };
       case "forest":
         return {
-          active: theme.colors.primary,
+          active: ["#FF5722", "#FF7043", "#FF8A65"], // Forest fire: deep orange to lighter
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#FF5722",
         };
       case "sunset":
         return {
-          active: theme.colors.primary,
+          active: ["#FF3D00", "#FF6D00", "#FF9100"], // Sunset fire: red to yellow
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#FF3D00",
         };
       case "purple":
         return {
-          active: theme.colors.primary,
+          active: ["#E91E63", "#F44336", "#FF5722"], // Purple fire: pink to red
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#E91E63",
         };
       case "minimalist":
         return {
-          active: theme.colors.primary,
+          active: ["#FF4444", "#FF6666", "#FF8888"], // Minimalist fire: clean reds
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#FF4444",
         };
       default:
         return {
-          active: theme.colors.primary,
+          active: ["#FF4500", "#FF6347", "#FFA500"], // Default fire: orange red to orange
           inactive: theme.colors.background,
           border: theme.colors.border,
+          glow: "#FF4500",
         };
     }
   };
@@ -94,24 +104,77 @@ const StreakCircle: React.FC<StreakCircleProps> = ({
     overflow: "hidden" as const,
     justifyContent: "center",
     alignItems: "center",
+    shadowColor: isActive ? colors.glow : "transparent",
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.6,
+    shadowRadius: 4,
+    elevation: isActive ? 8 : 0,
   };
 
-  const fillStyle = {
-    position: "absolute" as const,
-    width: "100%" as const,
-    height: "100%" as const,
-    backgroundColor: colors.active,
-    transform: [
-      {
-        scale: progress,
-      },
-    ],
-  };
+  // Animated fire effect with flickering
+  const fireOpacity = flickerAnim.interpolate({
+    inputRange: [0, 0.5, 1],
+    outputRange: [0.7, 1, 0.8],
+  });
+
+  const innerFireScale = progress.interpolate({
+    inputRange: [0, 0.7, 1],
+    outputRange: [0, 0.6, 1],
+  });
+
+  const outerFireScale = progress.interpolate({
+    inputRange: [0, 0.5, 1],
+    outputRange: [0, 0.8, 1.2],
+  });
+
+  const coreFireScale = progress.interpolate({
+    inputRange: [0, 0.9, 1],
+    outputRange: [0, 0.4, 0.7],
+  });
 
   return (
-    <View style={circleStyle}>
-      <Animated.View style={fillStyle} />
-    </View>
+    <Animated.View style={circleStyle}>
+      {isActive && (
+        <>
+          {/* Outer fire layer */}
+          <Animated.View
+            style={{
+              position: "absolute" as const,
+              width: "100%" as const,
+              height: "100%" as const,
+              backgroundColor: colors.active[0],
+              borderRadius: circleSize / 2,
+              transform: [{ scale: outerFireScale }],
+              opacity: fireOpacity,
+            }}
+          />
+          {/* Inner fire layer */}
+          <Animated.View
+            style={{
+              position: "absolute" as const,
+              width: "100%" as const,
+              height: "100%" as const,
+              backgroundColor: colors.active[1],
+              borderRadius: circleSize / 2,
+              transform: [{ scale: innerFireScale }],
+              opacity: fireOpacity,
+            }}
+          />
+          {/* Core fire layer */}
+          <Animated.View
+            style={{
+              position: "absolute" as const,
+              width: "100%" as const,
+              height: "100%" as const,
+              backgroundColor: colors.active[2],
+              borderRadius: circleSize / 2,
+              transform: [{ scale: coreFireScale }],
+              opacity: fireOpacity,
+            }}
+          />
+        </>
+      )}
+    </Animated.View>
   );
 };
 
@@ -122,12 +185,15 @@ export default function StreakModal({
   onClose,
 }: StreakModalProps) {
   const { t } = useTranslation();
-  const { theme } = useTheme();
+  const { theme, selectedTheme } = useTheme();
 
   // Animation values
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const scaleAnim = useRef(new Animated.Value(0.3)).current;
   const streakProgress = useRef(
+    Array.from({ length: MAX_STREAK_CIRCLES }, () => new Animated.Value(0))
+  ).current;
+  const flickerAnims = useRef(
     Array.from({ length: MAX_STREAK_CIRCLES }, () => new Animated.Value(0))
   ).current;
 
@@ -137,6 +203,7 @@ export default function StreakModal({
       fadeAnim.setValue(0);
       scaleAnim.setValue(0.3);
       streakProgress.forEach((anim) => anim.setValue(0));
+      flickerAnims.forEach((anim) => anim.setValue(0));
 
       // Modal entrance animation
       Animated.parallel([
@@ -153,7 +220,7 @@ export default function StreakModal({
         }),
       ]).start();
 
-      // Animate streak circles with a smoother, sequential animation
+      // Animate streak circles with fire-like effect
       if (isStreakContinued) {
         const activeCircles = Math.min(streakCount, MAX_STREAK_CIRCLES);
 
@@ -164,18 +231,41 @@ export default function StreakModal({
             Animated.sequence([
               // Initial delay for modal to appear
               Animated.delay(300 + index * 150),
-              // Spring animation for smooth filling
+              // Fire ignition effect
               Animated.spring(anim, {
                 toValue: 1,
-                tension: 30,
-                friction: 8,
+                tension: 40,
+                friction: 6,
                 useNativeDriver: true,
               }),
             ])
           );
 
+        // Flickering fire animation for active circles
+        const flickerAnimations = flickerAnims
+          .slice(0, activeCircles)
+          .map((anim, index) =>
+            Animated.sequence([
+              Animated.delay(300 + index * 150 + 200), // Start after ignition
+              Animated.loop(
+                Animated.sequence([
+                  Animated.timing(anim, {
+                    toValue: 1,
+                    duration: 800,
+                    useNativeDriver: true,
+                  }),
+                  Animated.timing(anim, {
+                    toValue: 0,
+                    duration: 600,
+                    useNativeDriver: true,
+                  }),
+                ])
+              ),
+            ])
+          );
+
         // Start all animations in parallel
-        Animated.parallel(animations).start();
+        Animated.parallel([...animations, ...flickerAnimations]).start();
       }
 
       // Auto close after 5 seconds
@@ -239,12 +329,71 @@ export default function StreakModal({
               index < Math.min(streakCount, MAX_STREAK_CIRCLES)
             }
             progress={streakProgress[index]}
+            flickerAnim={flickerAnims[index]}
             theme={theme}
+            selectedTheme={selectedTheme}
           />
         ))}
       </View>
     );
   };
+
+  // Enhanced theme-specific styling
+  const getThemeSpecificStyles = () => {
+    switch (selectedTheme) {
+      case "ocean":
+        return {
+          containerGlow: theme.colors.primary + "20",
+          titleGlow: theme.colors.primary,
+        };
+      case "forest":
+        return {
+          containerGlow: theme.colors.primary + "20",
+          titleGlow: theme.colors.primary,
+        };
+      case "sunset":
+        return {
+          containerGlow: "#FF3D00" + "20",
+          titleGlow: "#FF3D00",
+        };
+      case "purple":
+        return {
+          containerGlow: theme.colors.primary + "20",
+          titleGlow: theme.colors.primary,
+        };
+      case "minimalist":
+        return {
+          containerGlow: theme.colors.primary + "15",
+          titleGlow: theme.colors.primary,
+        };
+      default:
+        return {
+          containerGlow: "#FF4500" + "20",
+          titleGlow: "#FF4500",
+        };
+    }
+  };
+
+  const themeStyles = getThemeSpecificStyles();
+
+  // Themed gradient for modal overlay
+  const getOverlayGradient = () => {
+    switch (selectedTheme) {
+      case "ocean":
+        return ["rgba(178,235,242,0.7)", "rgba(33,150,243,0.4)"];
+      case "forest":
+        return ["rgba(200,230,201,0.7)", "rgba(56,142,60,0.4)"];
+      case "sunset":
+        return ["rgba(255,224,178,0.7)", "rgba(255,112,67,0.4)"];
+      case "purple":
+        return ["rgba(225,190,231,0.7)", "rgba(103,58,183,0.4)"];
+      case "minimalist":
+        return ["rgba(245,245,245,0.7)", "rgba(158,158,158,0.3)"];
+      default:
+        return ["rgba(255,224,178,0.7)", "rgba(33,150,243,0.3)"];
+    }
+  };
+  const overlayGradient = getOverlayGradient();
 
   if (!visible) return null;
 
@@ -255,73 +404,117 @@ export default function StreakModal({
       animationType="none"
       onRequestClose={handleClose}
     >
-      <TouchableOpacity
-        style={[styles.overlay, { backgroundColor: theme.colors.overlay }]}
-        activeOpacity={1}
-        onPress={handleClose}
-      >
-        <Animated.View
-          style={[
-            styles.container,
-            {
-              backgroundColor: theme.colors.surface,
-              opacity: fadeAnim,
-              transform: [{ scale: scaleAnim }],
-              shadowColor: theme.colors.shadowColor,
-              borderColor: theme.colors.border,
-            },
-          ]}
-        >
-          <View style={styles.content}>
-            <Text style={[styles.emoji, { color: theme.colors.text }]}>
-              {isStreakContinued ? "🔥" : "💔"}
-            </Text>
+      <View style={styles.absoluteFill}>
+        <LinearGradient
+          colors={overlayGradient as [string, string]}
+          style={styles.overlay}
+        />
+        <View style={styles.centeredContent}>
+          <Animated.View
+            style={[
+              styles.container,
+              {
+                backgroundColor: theme.colors.surface,
+                opacity: fadeAnim,
+                transform: [{ scale: scaleAnim }],
+                shadowColor: theme.colors.shadowColor,
+                borderColor: theme.colors.border,
+                ...(isStreakContinued && {
+                  shadowColor: themeStyles.titleGlow,
+                  shadowOpacity: 0.3,
+                  shadowRadius: 20,
+                }),
+              },
+            ]}
+          >
+            <View style={styles.content}>
+              <Text style={[styles.emoji, { color: theme.colors.text }]}>
+                {isStreakContinued ? "🔥" : "💔"}
+              </Text>
 
-            <Text style={[styles.title, { color: theme.colors.text }]}>
-              {getTitle()}
-            </Text>
-
-            {isStreakContinued && renderStreakIndicator()}
-
-            <View style={styles.streakContainer}>
               <Text
-                style={[styles.streakNumber, { color: theme.colors.primary }]}
+                style={[
+                  styles.title,
+                  {
+                    color: theme.colors.text,
+                    ...(isStreakContinued && {
+                      textShadowColor: themeStyles.titleGlow,
+                      textShadowOffset: { width: 0, height: 0 },
+                      textShadowRadius: 10,
+                    }),
+                  },
+                ]}
               >
-                {streakCount}
+                {getTitle()}
               </Text>
-              <Text style={[styles.streakLabel, { color: theme.colors.text }]}>
-                {streakCount === 1 ? t("streak.day") : t("streak.days")}
+
+              {isStreakContinued && renderStreakIndicator()}
+
+              <View style={styles.streakContainer}>
+                <Text
+                  style={[
+                    styles.streakNumber,
+                    {
+                      color: theme.colors.primary,
+                      textShadowColor: themeStyles.titleGlow,
+                      textShadowOffset: { width: 0, height: 0 },
+                      textShadowRadius: 8,
+                    },
+                  ]}
+                >
+                  {streakCount}
+                </Text>
+                <Text
+                  style={[styles.streakLabel, { color: theme.colors.text }]}
+                >
+                  {streakCount === 1 ? t("streak.day") : t("streak.days")}
+                </Text>
+              </View>
+
+              <Text
+                style={[styles.message, { color: theme.colors.textSecondary }]}
+              >
+                {getMessage()}
               </Text>
+
+              <TouchableOpacity
+                style={[
+                  styles.skipButton,
+                  { borderColor: theme.colors.primary },
+                ]}
+                onPress={handleClose}
+              >
+                <Text
+                  style={[
+                    styles.skipButtonText,
+                    { color: theme.colors.primary },
+                  ]}
+                >
+                  {t("common.skip")}
+                </Text>
+              </TouchableOpacity>
             </View>
-
-            <Text
-              style={[styles.message, { color: theme.colors.textSecondary }]}
-            >
-              {getMessage()}
-            </Text>
-
-            <TouchableOpacity
-              style={[styles.skipButton, { borderColor: theme.colors.primary }]}
-              onPress={handleClose}
-            >
-              <Text
-                style={[styles.skipButtonText, { color: theme.colors.primary }]}
-              >
-                {t("common.skip")}
-              </Text>
-            </TouchableOpacity>
-          </View>
-        </Animated.View>
-      </TouchableOpacity>
+          </Animated.View>
+        </View>
+      </View>
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
+  absoluteFill: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "transparent",
+  },
   overlay: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 0,
+  },
+  centeredContent: {
     flex: 1,
-    justifyContent: "center",
     alignItems: "center",
+    justifyContent: "center",
+    zIndex: 1,
   },
   container: {
     width: width * 0.85,

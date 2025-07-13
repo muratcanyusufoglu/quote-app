@@ -4,6 +4,7 @@ import {
   Alert,
   Dimensions,
   Modal,
+  Platform,
   ScrollView,
   StyleSheet,
   Text,
@@ -23,6 +24,199 @@ import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
+
+// Debug Panel Component
+const DebugPanel: React.FC<{
+  theme: any;
+  isVisible: boolean;
+  triggerSource: string | null;
+  subscriptionPackage: SubscriptionPackage | null;
+  isLoading: boolean;
+}> = ({ theme, isVisible, triggerSource, subscriptionPackage, isLoading }) => {
+  if (!__DEV__) return null;
+
+  return (
+    <View
+      style={[
+        debugStyles.debugContainer,
+        { backgroundColor: theme.colors.surface },
+      ]}
+    >
+      <Text style={[debugStyles.debugTitle, { color: theme.colors.text }]}>
+        🐛 Debug Info
+      </Text>
+      <View style={debugStyles.debugContent}>
+        <View style={debugStyles.debugRow}>
+          <Text
+            style={[
+              debugStyles.debugLabel,
+              { color: theme.colors.textSecondary },
+            ]}
+          >
+            Modal Visible:
+          </Text>
+          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+            {isVisible.toString()}
+          </Text>
+        </View>
+        <View style={debugStyles.debugRow}>
+          <Text
+            style={[
+              debugStyles.debugLabel,
+              { color: theme.colors.textSecondary },
+            ]}
+          >
+            Trigger Source:
+          </Text>
+          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+            {triggerSource || "none"}
+          </Text>
+        </View>
+        <View style={debugStyles.debugRow}>
+          <Text
+            style={[
+              debugStyles.debugLabel,
+              { color: theme.colors.textSecondary },
+            ]}
+          >
+            Loading State:
+          </Text>
+          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+            {isLoading.toString()}
+          </Text>
+        </View>
+        <View style={debugStyles.debugRow}>
+          <Text
+            style={[
+              debugStyles.debugLabel,
+              { color: theme.colors.textSecondary },
+            ]}
+          >
+            Platform:
+          </Text>
+          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+            {Platform.OS}
+          </Text>
+        </View>
+        {subscriptionPackage && (
+          <>
+            <View style={debugStyles.debugDivider} />
+            <Text
+              style={[debugStyles.debugSubtitle, { color: theme.colors.text }]}
+            >
+              Subscription Package:
+            </Text>
+            <View style={debugStyles.debugRow}>
+              <Text
+                style={[
+                  debugStyles.debugLabel,
+                  { color: theme.colors.textSecondary },
+                ]}
+              >
+                ID:
+              </Text>
+              <Text
+                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+              >
+                {subscriptionPackage.id}
+              </Text>
+            </View>
+            <View style={debugStyles.debugRow}>
+              <Text
+                style={[
+                  debugStyles.debugLabel,
+                  { color: theme.colors.textSecondary },
+                ]}
+              >
+                Title:
+              </Text>
+              <Text
+                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+              >
+                {subscriptionPackage.title}
+              </Text>
+            </View>
+            <View style={debugStyles.debugRow}>
+              <Text
+                style={[
+                  debugStyles.debugLabel,
+                  { color: theme.colors.textSecondary },
+                ]}
+              >
+                Current Price:
+              </Text>
+              <Text
+                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+              >
+                {subscriptionPackage.currentPrice}
+              </Text>
+            </View>
+            <View style={debugStyles.debugRow}>
+              <Text
+                style={[
+                  debugStyles.debugLabel,
+                  { color: theme.colors.textSecondary },
+                ]}
+              >
+                Trial Days:
+              </Text>
+              <Text
+                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+              >
+                {subscriptionPackage.freeTrialDays}
+              </Text>
+            </View>
+          </>
+        )}
+      </View>
+    </View>
+  );
+};
+
+const debugStyles = StyleSheet.create({
+  debugContainer: {
+    margin: 16,
+    borderRadius: 12,
+    padding: 16,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  debugTitle: {
+    fontSize: 16,
+    fontWeight: "700",
+    marginBottom: 12,
+  },
+  debugSubtitle: {
+    fontSize: 14,
+    fontWeight: "600",
+    marginTop: 8,
+    marginBottom: 8,
+  },
+  debugContent: {
+    gap: 8,
+  },
+  debugRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  debugLabel: {
+    fontSize: 14,
+    fontWeight: "500",
+  },
+  debugValue: {
+    fontSize: 14,
+    fontWeight: "400",
+  },
+  debugDivider: {
+    height: 1,
+    backgroundColor: "rgba(0,0,0,0.1)",
+    marginVertical: 8,
+  },
+});
 
 interface PaywallModalProps {
   onClose?: () => void;
@@ -149,7 +343,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     } catch (error) {
       console.error("Failed to load subscription packages:", error);
       Alert.alert(
-        "Error",
+        paywall.alerts.error,
         "Failed to load subscription options. Please try again."
       );
     }
@@ -162,94 +356,92 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     switch (triggerSource) {
       case "welcome":
         return {
-          title: "Welcome to Premium! 🎉",
-          subtitle:
-            "Unlock unlimited inspiration and transform your daily routine",
+          title: paywall.welcome.title,
+          subtitle: paywall.welcome.subtitle,
           features: [
-            "Unlimited daily quotes",
-            "Access to all premium categories",
-            "Inspiring stories behind quotes",
-            "Advanced personalization",
-            "Exclusive motivational content",
-            "Ad-free experience",
-            "Offline reading mode",
-            "Weekly inspiration insights",
+            paywall.features.unlimited_daily_quotes,
+            paywall.features.access_premium_categories,
+            paywall.features.inspiring_stories,
+            paywall.features.advanced_personalization,
+            paywall.features.exclusive_motivational,
+            paywall.features.ad_free,
+            paywall.features.offline_reading,
+            paywall.features.weekly_insights,
           ],
-          cta: "Start Free Trial",
-          highlight: "3 days free, then $39.99/year",
+          cta: paywall.startFreeTrial,
+          highlight: paywall.pricing.trial_days,
         };
 
       case "premium_category":
         return {
-          title: "Unlock Premium Categories 🔓",
-          subtitle: "Access exclusive content designed for personal growth",
+          title: paywall.premiumCategory.title,
+          subtitle: paywall.premiumCategory.subtitle,
           features: [
-            "Leadership & Success quotes",
-            "Mindfulness & Spirituality",
-            "Advanced personal development",
-            "Exclusive author collections",
-            "Deep-dive stories & context",
-            "Personalized recommendations",
-            "Priority content updates",
-            "Expert-curated collections",
+            paywall.features.leadership_success,
+            paywall.features.mindfulness_spirituality,
+            paywall.features.advanced_development,
+            paywall.features.exclusive_authors,
+            paywall.features.deep_dive_stories,
+            paywall.features.personalized_recommendations,
+            paywall.features.priority_updates,
+            paywall.features.expert_collections,
           ],
-          cta: "Get Premium Access",
-          highlight: "Join 50,000+ premium members",
+          cta: paywall.getPremiumAccess,
+          highlight: paywall.pricing.join_members,
         };
 
       case "story_limit":
         return {
-          title: "Stories Await You! 📖",
-          subtitle: "Discover the powerful stories behind life-changing quotes",
+          title: paywall.storyLimit.title,
+          subtitle: paywall.storyLimit.subtitle,
           features: [
-            "Unlimited story access",
-            "Historical quote contexts",
-            "Author biographies",
-            "Motivational backgrounds",
-            "Lesson summaries",
-            "Shareable insights",
-            "Offline story library",
-            "Weekly story collections",
+            paywall.features.unlimited_story_access,
+            paywall.features.historical_contexts,
+            paywall.features.author_biographies,
+            paywall.features.motivational_backgrounds,
+            paywall.features.lesson_summaries,
+            paywall.features.shareable_insights,
+            paywall.features.offline_library,
+            paywall.features.weekly_collections,
           ],
-          cta: "Unlock All Stories",
-          highlight: "Over 1,000 inspiring stories included",
+          cta: paywall.unlockStories,
+          highlight: paywall.pricing.stories_included,
         };
 
       case "action_limit":
         return {
-          title: "Continue Your Journey! 🚀",
-          subtitle: "Don't let limits stop your personal growth",
+          title: paywall.actionLimit.title,
+          subtitle: paywall.actionLimit.subtitle,
           features: [
-            "Unlimited daily interactions",
-            "No action restrictions",
-            "Full app functionality",
-            "Premium quote collections",
-            "Advanced sharing options",
-            "Personalized insights",
-            "Progress tracking",
-            "Unlimited favorites",
+            paywall.features.unlimited_interactions,
+            paywall.features.no_restrictions,
+            paywall.features.full_functionality,
+            paywall.features.premium_collections,
+            paywall.features.advanced_sharing,
+            paywall.features.personalized_insights,
+            paywall.features.progress_tracking,
+            paywall.features.unlimited_favorites,
           ],
-          cta: "Remove All Limits",
-          highlight: "Unlimited access for life",
+          cta: paywall.removeLimits,
+          highlight: paywall.pricing.unlimited_life,
         };
 
       case "real_purchase":
         return {
-          title: "Transform Your Life Today! ✨",
-          subtitle:
-            "Join thousands who changed their mindset with daily inspiration",
+          title: paywall.realPurchase.title,
+          subtitle: paywall.realPurchase.subtitle,
           features: [
-            "🎯 10,000+ hand-picked quotes from world leaders",
-            "📚 Exclusive stories & life lessons from successful people",
-            "🧠 AI-powered personalization based on your goals",
-            "🔥 Daily motivational challenges to build habits",
-            "📊 Track your personal growth & mindset shifts",
-            "🌟 Access to premium authors & thought leaders",
-            "💎 Ad-free, distraction-free reading experience",
-            "🚀 Weekly live inspiration sessions (Premium only)",
+            paywall.features.hand_picked_quotes,
+            paywall.features.exclusive_stories,
+            paywall.features.ai_personalization,
+            paywall.features.daily_challenges,
+            paywall.features.growth_tracking,
+            paywall.features.premium_authors,
+            paywall.features.distraction_free,
+            paywall.features.live_sessions,
           ],
-          cta: "Transform My Life Now",
-          highlight: "⚡ Limited Time: 67% OFF - Only $39.99/year",
+          cta: paywall.realPurchase.button,
+          highlight: paywall.realPurchase.highlight,
           testimonials: [
             {
               text: "This app completely changed how I start my mornings. I'm more motivated than ever!",
@@ -264,20 +456,20 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
       default:
         return {
-          title: "Upgrade to Premium 🌟",
-          subtitle: "Unlock your full potential with unlimited access",
+          title: paywall.default.title,
+          subtitle: paywall.default.subtitle,
           features: [
-            "Unlimited quotes & stories",
-            "All premium categories",
-            "Personalized experience",
-            "Ad-free reading",
-            "Offline access",
-            "Progress tracking",
-            "Priority support",
-            "Exclusive content",
+            paywall.features.quotes_stories,
+            paywall.features.all_premium_categories,
+            paywall.features.personalized_experience,
+            paywall.features.ad_free_reading,
+            paywall.features.offline_access,
+            paywall.features.progress_tracking,
+            paywall.features.priority_support,
+            paywall.features.exclusive_content,
           ],
-          cta: "Get Premium",
-          highlight: "Best value plan",
+          cta: paywall.getPremium,
+          highlight: paywall.pricing.best_value,
         };
     }
   };
@@ -291,7 +483,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const handlePurchase = async () => {
     if (!subscriptionPackage) {
-      Alert.alert("Error", "No subscription package available");
+      Alert.alert(paywall.alerts.error, paywall.alerts.no_subscription);
       return;
     }
 
@@ -306,11 +498,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
       if (result.success) {
         Alert.alert(
-          "Purchase Successful! 🎉",
-          "Welcome to Premium! You now have access to all premium features.",
+          paywall.alerts.purchase_successful,
+          paywall.alerts.welcome_premium,
           [
             {
-              text: "Get Started",
+              text: paywall.alerts.get_started,
               onPress: () => {
                 hidePaywall();
                 onPurchase?.();
@@ -320,18 +512,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         );
       } else {
         Alert.alert(
-          "Purchase Failed",
-          result.error ||
-            "An error occurred during purchase. Please try again.",
-          [{ text: "OK" }]
+          paywall.alerts.purchase_failed,
+          result.error || paywall.alerts.purchase_error_message,
+          [{ text: common.ok }]
         );
       }
     } catch (error) {
       console.error("Purchase error:", error);
       Alert.alert(
-        "Purchase Error",
-        "An unexpected error occurred. Please try again later.",
-        [{ text: "OK" }]
+        paywall.alerts.purchase_error,
+        paywall.alerts.unexpected_error,
+        [{ text: common.ok }]
       );
     } finally {
       setIsLoading(false);
@@ -347,11 +538,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
       if (result.success) {
         Alert.alert(
-          "Purchases Restored",
-          "Your previous purchases have been restored successfully!",
+          paywall.alerts.purchases_restored,
+          paywall.alerts.restored_successfully,
           [
             {
-              text: "Continue",
+              text: paywall.alerts.continue,
               onPress: () => {
                 hidePaywall();
                 onPurchase?.();
@@ -361,17 +552,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         );
       } else {
         Alert.alert(
-          "No Purchases Found",
-          "No previous purchases were found to restore.",
-          [{ text: "OK" }]
+          paywall.alerts.no_purchases,
+          paywall.alerts.no_purchases_message,
+          [{ text: common.ok }]
         );
       }
     } catch (error) {
       console.error("Restore purchases error:", error);
       Alert.alert(
-        "Restore Error",
-        "Failed to restore purchases. Please try again.",
-        [{ text: "OK" }]
+        paywall.alerts.restore_error,
+        paywall.alerts.restore_error_message,
+        [{ text: common.ok }]
       );
     } finally {
       setIsLoading(false);
@@ -380,167 +571,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   if (!isVisible) return null;
 
-  // Special layout for real purchase paywall
-  if (triggerSource === ("real_purchase" as any)) {
-    return (
-      <Modal
-        visible={isVisible}
-        transparent
-        animationType="slide"
-        statusBarTranslucent
-      >
-        <View style={styles.backdrop}>
-          <View style={styles.modernContainer}>
-            {/* Modern Header */}
-            <View style={styles.modernHeader}>
-              <TouchableOpacity
-                style={styles.modernCloseButton}
-                onPress={handleClose}
-              >
-                <IconSymbol
-                  name="xmark"
-                  size={18}
-                  color={theme.colors.textSecondary}
-                  strokeWidth={2}
-                />
-              </TouchableOpacity>
-
-              <View style={styles.headerContent}>
-                <View style={styles.premiumBadge}>
-                  <Text style={styles.premiumBadgeText}>PREMIUM</Text>
-                </View>
-                <Text style={styles.modernTitle}>
-                  Unlock Your Full Potential
-                </Text>
-                <Text style={styles.modernSubtitle}>
-                  Get unlimited access to all premium features
-                </Text>
-              </View>
-            </View>
-
-            <ScrollView
-              style={styles.modernContent}
-              contentContainerStyle={styles.modernContentContainer}
-              showsVerticalScrollIndicator={false}
-            >
-              {/* Pricing Section */}
-              <View style={styles.pricingSection}>
-                <View style={styles.pricingHeader}>
-                  <Text style={styles.planName}>Annual Premium Plan</Text>
-                  <View style={styles.savingsBadge}>
-                    <Text style={styles.savingsText}>Save 67%</Text>
-                  </View>
-                </View>
-
-                <View style={styles.priceDisplay}>
-                  <View style={styles.modernPriceRow}>
-                    <Text style={styles.mainPrice}>$39.99</Text>
-                    <Text style={styles.periodText}>/year</Text>
-                  </View>
-                  <Text style={styles.monthlyEquivalent}>
-                    Just $3.33 per month
-                  </Text>
-                  <Text style={styles.originalPriceStrike}>
-                    Regular price: $59.99
-                  </Text>
-                </View>
-
-                <View style={styles.trialCallout}>
-                  <IconSymbol
-                    name="sparkles"
-                    size={16}
-                    color={theme.colors.brandYellow}
-                  />
-                  <Text style={styles.trialText}>Start with 3 days free</Text>
-                </View>
-              </View>
-
-              {/* Features Section */}
-              <View style={styles.modernFeaturesSection}>
-                <Text style={styles.sectionTitle}>What's included:</Text>
-                <View style={styles.featuresList}>
-                  {content.features.map((feature, index) => (
-                    <View key={index} style={styles.featureRow}>
-                      <View style={styles.featureIcon}>
-                        <IconSymbol
-                          name="checkmark"
-                          size={14}
-                          color={theme.colors.brandYellow}
-                          strokeWidth={3}
-                        />
-                      </View>
-                      <Text style={styles.modernFeatureText}>{feature}</Text>
-                    </View>
-                  ))}
-                </View>
-              </View>
-
-              {/* Social Proof Section */}
-              <View style={styles.socialProofSection}>
-                <View style={styles.ratingDisplay}>
-                  <Text style={styles.ratingStars}>★★★★★</Text>
-                  <Text style={styles.ratingText}>4.9 • 50,000+ users</Text>
-                </View>
-
-                {content.testimonials && content.testimonials.length > 0 && (
-                  <View style={styles.testimonialsContainer}>
-                    {content.testimonials.map((testimonial, index) => (
-                      <View key={index} style={styles.modernTestimonialCard}>
-                        <Text style={styles.modernTestimonialText}>
-                          "{testimonial.text}"
-                        </Text>
-                        <Text style={styles.modernTestimonialAuthor}>
-                          {testimonial.author}
-                        </Text>
-                      </View>
-                    ))}
-                  </View>
-                )}
-              </View>
-            </ScrollView>
-
-            {/* Bottom CTA Section */}
-            <View style={styles.ctaSection}>
-              <TouchableOpacity
-                style={[styles.primaryCTA, isLoading && styles.disabledButton]}
-                onPress={handlePurchase}
-                disabled={isLoading || !subscriptionPackage}
-              >
-                <LinearGradient
-                  colors={[theme.colors.primary, theme.colors.brandYellow]}
-                  start={{ x: 0, y: 0 }}
-                  end={{ x: 1, y: 0 }}
-                  style={styles.ctaGradient}
-                >
-                  <Text style={styles.ctaText}>
-                    {isLoading ? "Processing..." : "Start Free Trial"}
-                  </Text>
-                  <Text style={styles.ctaSubtext}>
-                    3 days free, then $39.99/year
-                  </Text>
-                </LinearGradient>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={styles.restoreLink}
-                onPress={handleRestorePurchases}
-                disabled={isLoading}
-              >
-                <Text style={styles.restoreLinkText}>Restore Purchase</Text>
-              </TouchableOpacity>
-
-              <View style={styles.trustSection}>
-                <Text style={styles.trustText}>
-                  Cancel anytime • Secure payment • 30-day guarantee
-                </Text>
-              </View>
-            </View>
-          </View>
-        </View>
-      </Modal>
-    );
-  }
-
+  // Use the modern paywall design for all trigger sources
   return (
     <Modal
       visible={isVisible}
@@ -548,152 +579,498 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       animationType="slide"
       statusBarTranslucent
     >
-      <View style={styles.backdrop}>
-        <View style={styles.container}>
-          {/* Header with Gradient Background */}
-          <LinearGradient
-            colors={theme.colors.gradientColors as any}
-            locations={theme.colors.gradientLocations as any}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-            style={styles.headerGradient}
-          >
-            {/* Close Button */}
-            <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
+      <View style={[styles.backdrop, { backgroundColor: "rgba(0,0,0,0.7)" }]}>
+        <View
+          style={[
+            styles.modernContainer,
+            {
+              backgroundColor: theme.colors.surface,
+              shadowColor: theme.colors.shadowColor,
+              shadowOffset: { width: 0, height: -8 },
+              shadowOpacity: 0.15,
+              shadowRadius: 24,
+              elevation: 16,
+            },
+          ]}
+        >
+          {/* Modern Header */}
+          <View style={styles.modernHeader}>
+            <TouchableOpacity
+              style={styles.modernCloseButton}
+              onPress={handleClose}
+            >
               <IconSymbol
                 name="xmark"
-                size={20}
-                color={theme.colors.whiteOverlay80}
+                size={18}
+                color={theme.colors.textSecondary}
                 strokeWidth={2}
               />
             </TouchableOpacity>
 
-            {/* Premium Icon */}
-            <View style={styles.premiumIconContainer}>
+            <View style={styles.headerContent}>
+              {/* Premium Badge */}
               <LinearGradient
                 colors={[theme.colors.brandYellow, theme.colors.premium]}
-                style={styles.premiumIconGradient}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={{
+                  alignSelf: "center",
+                  borderRadius: 16,
+                  paddingHorizontal: 18,
+                  paddingVertical: 7,
+                  marginBottom: 18,
+                  shadowColor: theme.colors.brandYellow,
+                  shadowOpacity: 0.18,
+                  shadowRadius: 8,
+                  elevation: 4,
+                }}
               >
-                <IconSymbol
-                  name="crown"
-                  size={32}
-                  color={theme.colors.white}
-                  strokeWidth={2}
-                />
+                <Text
+                  style={{
+                    color: theme.colors.background,
+                    fontWeight: "700",
+                    fontSize: 13,
+                    letterSpacing: 1.2,
+                  }}
+                >
+                  {paywall.modern.premium_badge}
+                </Text>
               </LinearGradient>
+              <Text
+                style={[
+                  styles.modernTitle,
+                  {
+                    color: theme.colors.text,
+                    fontSize: 26,
+                    fontWeight: "700",
+                    marginBottom: 6,
+                  },
+                ]}
+              >
+                {content.title}
+              </Text>
+              <Text
+                style={[
+                  styles.modernSubtitle,
+                  {
+                    color: theme.colors.textSecondary,
+                    fontSize: 16,
+                    fontWeight: "500",
+                  },
+                ]}
+              >
+                {content.subtitle}
+              </Text>
             </View>
+          </View>
 
-            {/* Header Text */}
-            <Text style={styles.headerTitle}>{content.title}</Text>
-            <Text style={styles.headerSubtitle}>{content.subtitle}</Text>
-          </LinearGradient>
-
-          {/* Content */}
           <ScrollView
-            style={styles.contentScroll}
-            contentContainerStyle={styles.contentContainer}
+            style={styles.modernContent}
+            contentContainerStyle={styles.modernContentContainer}
             showsVerticalScrollIndicator={false}
           >
-            {/* Pricing Card */}
-            <PricingCard
-              theme={theme}
-              subscriptionPackage={subscriptionPackage}
-            />
+            {/* Pricing Section */}
+            <View style={styles.pricingSection}>
+              <View style={styles.pricingHeader}>
+                <Text
+                  style={[
+                    styles.planName,
+                    { color: theme.colors.text, fontWeight: "600" },
+                  ]}
+                >
+                  {subscriptionPackage?.title || paywall.modern.plan_name}
+                </Text>
+                <View
+                  style={[
+                    styles.savingsBadge,
+                    { backgroundColor: theme.colors.success },
+                  ]}
+                >
+                  <Text
+                    style={[styles.savingsText, { color: theme.colors.white }]}
+                  >
+                    {subscriptionPackage?.discount || paywall.modern.save_badge}
+                  </Text>
+                </View>
+              </View>
+
+              <View style={styles.priceDisplay}>
+                <View style={styles.modernPriceRow}>
+                  <Text
+                    style={[styles.mainPrice, { color: theme.colors.text }]}
+                  >
+                    {subscriptionPackage?.currentPrice || "$39.99"}
+                  </Text>
+                  <Text
+                    style={[
+                      styles.periodText,
+                      { color: theme.colors.textSecondary },
+                    ]}
+                  >
+                    /{subscriptionPackage?.period || "year"}
+                  </Text>
+                </View>
+                <Text
+                  style={[
+                    styles.monthlyEquivalent,
+                    { color: theme.colors.textSecondary },
+                  ]}
+                >
+                  {subscriptionPackage?.pricePerMonth
+                    ? `Just ${subscriptionPackage.pricePerMonth} per month`
+                    : paywall.modern.price_per_month}
+                </Text>
+                <Text
+                  style={[
+                    styles.originalPriceStrike,
+                    { color: theme.colors.textTertiary },
+                  ]}
+                >
+                  {subscriptionPackage?.originalPrice
+                    ? `Regular price: ${subscriptionPackage.originalPrice}`
+                    : paywall.modern.regular_price}
+                </Text>
+              </View>
+
+              <View
+                style={[
+                  styles.trialCallout,
+                  { borderColor: theme.colors.brandYellow },
+                ]}
+              >
+                <IconSymbol
+                  name="sparkles"
+                  size={16}
+                  color={theme.colors.brandYellow}
+                />
+                <Text
+                  style={[
+                    styles.trialText,
+                    { color: theme.colors.brandYellow },
+                  ]}
+                >
+                  {subscriptionPackage?.freeTrialDays
+                    ? `Start with ${subscriptionPackage.freeTrialDays} days free`
+                    : paywall.modern.trial_text}
+                </Text>
+              </View>
+            </View>
 
             {/* Features Section */}
-            <View style={styles.featuresSection}>
-              <Text style={styles.featuresTitle}>
-                What you'll get with Premium:
+            <View style={styles.modernFeaturesSection}>
+              <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>
+                {paywall.modern.section_title}
               </Text>
-
-              <View style={styles.featuresGrid}>
-                {content.features.map((feature, index) => (
-                  <PremiumFeature
-                    key={index}
-                    feature={feature}
-                    theme={theme}
-                    index={index}
-                  />
-                ))}
+              <View style={styles.featuresList}>
+                {(subscriptionPackage?.features || content.features).map(
+                  (feature, index) => (
+                    <View key={index} style={styles.featureRow}>
+                      <View
+                        style={[
+                          styles.featureIcon,
+                          {
+                            borderColor: theme.colors.brandYellow,
+                            backgroundColor: theme.colors.surface,
+                          },
+                        ]}
+                      >
+                        <IconSymbol
+                          name="checkmark"
+                          size={14}
+                          color={theme.colors.brandYellow}
+                          strokeWidth={3}
+                        />
+                      </View>
+                      <Text
+                        style={[
+                          styles.modernFeatureText,
+                          { color: theme.colors.text },
+                        ]}
+                      >
+                        {feature}
+                      </Text>
+                    </View>
+                  )
+                )}
               </View>
             </View>
 
-            {/* Testimonials for real_purchase */}
-            {triggerSource === "real_purchase" && content.testimonials && (
-              <View style={styles.testimonialsSection}>
-                <Text style={styles.testimonialsTitle}>
-                  What Our Premium Members Say:
-                </Text>
-                {content.testimonials.map((testimonial, index) => (
-                  <View key={index} style={styles.testimonialCardReal}>
-                    <Text style={styles.testimonialQuote}>
-                      "{testimonial.text}"
-                    </Text>
-                    <Text style={styles.testimonialAuthorReal}>
-                      — {testimonial.author}
-                    </Text>
-                  </View>
-                ))}
-              </View>
-            )}
-
-            {/* Action Buttons */}
-            <View style={styles.actionSection}>
-              <TouchableOpacity
-                style={[
-                  styles.primaryButton,
-                  isLoading && styles.disabledButton,
-                ]}
-                onPress={handlePurchase}
-                disabled={isLoading || !subscriptionPackage}
-              >
-                <LinearGradient
-                  colors={[theme.colors.brandYellow, theme.colors.premium]}
-                  style={styles.buttonGradient}
+            {/* Social Proof Section */}
+            <View style={styles.socialProofSection}>
+              <View style={styles.ratingDisplay}>
+                <Text
+                  style={[
+                    styles.ratingStars,
+                    { color: theme.colors.brandYellow },
+                  ]}
                 >
-                  <Text style={styles.primaryButtonText}>
-                    {isLoading ? "Processing..." : content.cta}
-                  </Text>
-                  {subscriptionPackage && (
-                    <Text style={styles.primaryButtonSubtext}>
-                      {content.highlight}
-                    </Text>
-                  )}
-                </LinearGradient>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={styles.restoreButton}
-                onPress={handleRestorePurchases}
-                disabled={isLoading}
-              >
-                <Text style={styles.restoreButtonText}>
-                  Restore Previous Purchases
+                  ★★★★★
                 </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={styles.secondaryButton}
-                onPress={handleClose}
-              >
-                <Text style={styles.secondaryButtonText}>
-                  Continue with Free Version
+                <Text
+                  style={[
+                    styles.ratingText,
+                    { color: theme.colors.textSecondary },
+                  ]}
+                >
+                  {paywall.modern.rating_text}
                 </Text>
-              </TouchableOpacity>
-            </View>
+              </View>
 
-            {/* Footer */}
-            <View style={styles.footer}>
-              <Text style={styles.footerText}>
-                Cancel anytime. Auto-renewal can be turned off in Account
-                Settings.
-              </Text>
+              {content.testimonials && content.testimonials.length > 0 && (
+                <View style={styles.testimonialsContainer}>
+                  {content.testimonials.map((testimonial, index) => (
+                    <View
+                      key={index}
+                      style={[
+                        styles.modernTestimonialCard,
+                        {
+                          borderLeftColor: theme.colors.brandYellow,
+                          backgroundColor: theme.colors.background,
+                        },
+                      ]}
+                    >
+                      <Text
+                        style={[
+                          styles.modernTestimonialText,
+                          { color: theme.colors.text },
+                        ]}
+                      >
+                        "{testimonial.text}"
+                      </Text>
+                      <Text
+                        style={[
+                          styles.modernTestimonialAuthor,
+                          { color: theme.colors.textSecondary },
+                        ]}
+                      >
+                        {testimonial.author}
+                      </Text>
+                    </View>
+                  ))}
+                </View>
+              )}
             </View>
           </ScrollView>
+
+          {/* Bottom CTA Section */}
+          <View
+            style={[
+              styles.ctaSection,
+              {
+                backgroundColor: theme.colors.surface,
+                borderTopColor: theme.colors.border,
+              },
+            ]}
+          >
+            <TouchableOpacity
+              style={[styles.primaryCTA, isLoading && styles.disabledButton]}
+              onPress={handlePurchase}
+              disabled={isLoading || !subscriptionPackage}
+              activeOpacity={0.85}
+            >
+              <LinearGradient
+                colors={[theme.colors.primary, theme.colors.brandYellow]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={styles.ctaGradient}
+              >
+                <Text style={[styles.ctaText, { color: theme.colors.white }]}>
+                  {isLoading ? paywall.processing : content.cta}
+                </Text>
+                <Text
+                  style={[
+                    styles.ctaSubtext,
+                    { color: theme.colors.whiteOverlay90 },
+                  ]}
+                >
+                  {subscriptionPackage?.freeTrialDays
+                    ? `${subscriptionPackage.freeTrialDays} days free, then ${subscriptionPackage.currentPrice}/${subscriptionPackage.period}`
+                    : paywall.pricing.trial_days}
+                </Text>
+              </LinearGradient>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={styles.restoreLink}
+              onPress={handleRestorePurchases}
+              disabled={isLoading}
+            >
+              <Text
+                style={[
+                  styles.restoreLinkText,
+                  {
+                    color: theme.colors.primary,
+                    textDecorationLine: "underline",
+                  },
+                ]}
+              >
+                {paywall.modern.restore_purchase}
+              </Text>
+            </TouchableOpacity>
+
+            <View style={styles.trustSection}>
+              <Text
+                style={[styles.trustText, { color: theme.colors.textTertiary }]}
+              >
+                {paywall.modern.trust_text}
+              </Text>
+            </View>
+          </View>
         </View>
       </View>
     </Modal>
   );
+
+  //   return (
+  //     <Modal
+  //       visible={isVisible}
+  //       transparent
+  //       animationType="slide"
+  //       statusBarTranslucent
+  //     >
+  //       <View style={styles.backdrop}>
+  //         <View style={styles.container}>
+  //           {/* Header with Gradient Background */}
+  //           <LinearGradient
+  //             colors={theme.colors.gradientColors as any}
+  //             locations={theme.colors.gradientLocations as any}
+  //             start={{ x: 0, y: 0 }}
+  //             end={{ x: 1, y: 1 }}
+  //             style={styles.headerGradient}
+  //           >
+  //             {/* Close Button */}
+  //             <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
+  //               <IconSymbol
+  //                 name="xmark"
+  //                 size={20}
+  //                 color={theme.colors.whiteOverlay80}
+  //                 strokeWidth={2}
+  //               />
+  //             </TouchableOpacity>
+
+  //             {/* Premium Icon */}
+  //             <View style={styles.premiumIconContainer}>
+  //               <LinearGradient
+  //                 colors={[theme.colors.brandYellow, theme.colors.premium]}
+  //                 style={styles.premiumIconGradient}
+  //               >
+  //                 <IconSymbol
+  //                   name="crown"
+  //                   size={32}
+  //                   color={theme.colors.white}
+  //                   strokeWidth={2}
+  //                 />
+  //               </LinearGradient>
+  //             </View>
+
+  //             {/* Header Text */}
+  //             <Text style={styles.headerTitle}>{content.title}</Text>
+  //             <Text style={styles.headerSubtitle}>{content.subtitle}</Text>
+  //           </LinearGradient>
+
+  //           {/* Content */}
+  //           <ScrollView
+  //             style={styles.contentScroll}
+  //             contentContainerStyle={styles.contentContainer}
+  //             showsVerticalScrollIndicator={false}
+  //           >
+  //             {/* Pricing Card */}
+  //             <PricingCard
+  //               theme={theme}
+  //               subscriptionPackage={subscriptionPackage}
+  //             />
+
+  //             {/* Features Section */}
+  //             <View style={styles.featuresSection}>
+  //               <Text style={styles.featuresTitle}>
+  //                 What you'll get with Premium:
+  //               </Text>
+
+  //               <View style={styles.featuresGrid}>
+  //                 {content.features.map((feature, index) => (
+  //                   <PremiumFeature
+  //                     key={index}
+  //                     feature={feature}
+  //                     theme={theme}
+  //                     index={index}
+  //                   />
+  //                 ))}
+  //               </View>
+  //             </View>
+
+  //             {/* Testimonials for real_purchase */}
+  //             {triggerSource === "real_purchase" && content.testimonials && (
+  //               <View style={styles.testimonialsSection}>
+  //                 <Text style={styles.testimonialsTitle}>
+  //                   What Our Premium Members Say:
+  //                 </Text>
+  //                 {content.testimonials.map((testimonial, index) => (
+  //                   <View key={index} style={styles.testimonialCardReal}>
+  //                     <Text style={styles.testimonialQuote}>
+  //                       "{testimonial.text}"
+  //                     </Text>
+  //                     <Text style={styles.testimonialAuthorReal}>
+  //                       — {testimonial.author}
+  //                     </Text>
+  //                   </View>
+  //                 ))}
+  //               </View>
+  //             )}
+
+  //             {/* Action Buttons */}
+  //             <View style={styles.actionSection}>
+  //               <TouchableOpacity
+  //                 style={[
+  //                   styles.primaryButton,
+  //                   isLoading && styles.disabledButton,
+  //                 ]}
+  //                 onPress={handlePurchase}
+  //                 disabled={isLoading || !subscriptionPackage}
+  //               >
+  //                 <LinearGradient
+  //                   colors={[theme.colors.brandYellow, theme.colors.premium]}
+  //                   style={styles.buttonGradient}
+  //                 >
+  //                   <Text style={styles.primaryButtonText}>
+  //                     {isLoading ? paywall.processing : content.cta}
+  //                   </Text>
+  //                   {subscriptionPackage && (
+  //                     <Text style={styles.primaryButtonSubtext}>
+  //                       {content.highlight}
+  //                     </Text>
+  //                   )}
+  //                 </LinearGradient>
+  //               </TouchableOpacity>
+
+  //               <TouchableOpacity
+  //                 style={styles.restoreButton}
+  //                 onPress={handleRestorePurchases}
+  //                 disabled={isLoading}
+  //               >
+  //                 <Text style={styles.restoreButtonText}>
+  //                   Restore Previous Purchases
+  //                 </Text>
+  //               </TouchableOpacity>
+
+  //               <TouchableOpacity
+  //                 style={styles.secondaryButton}
+  //                 onPress={handleClose}
+  //               >
+  //                 <Text style={styles.secondaryButtonText}>
+  //                   Continue with Free Version
+  //                 </Text>
+  //               </TouchableOpacity>
+  //             </View>
+
+  //             {/* Footer */}
+  //             <View style={styles.footer}>
+  //               <Text style={styles.footerText}>{paywall.footer}</Text>
+  //             </View>
+  //           </ScrollView>
+  //         </View>
+  //       </View>
+  //     </Modal>
+  //   );
 };
 
 const createStyles = (theme: any) =>
