@@ -1,6 +1,7 @@
+import DebugPanel from "@/src/components/ui/DebugPanel";
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
@@ -256,144 +257,24 @@ export function HomeScreen() {
   return (
     <BaseScreen
       style={styles.container}
-      useGradientBackground={false} // QuoteReelCard has its own gradient
+      useGradientBackground={true} // QuoteReelCard has its own gradient
       backgroundColor="transparent" // Transparent to show QuoteReelCard gradient
-      safeAreaStyle={{ paddingHorizontal: 0 }} // Override BaseScreen padding
+      safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
       {__DEV__ && (
-        <View
-          style={[
-            styles.debugPanel,
-            {
-              borderColor: theme.colors.border,
-            },
-          ]}
-        >
-          <View style={styles.debugContent}>
-            <View style={styles.debugInfo}>
-              <Text style={[styles.debugTitle, { color: theme.colors.white }]}>
-                Debug Panel
-              </Text>
-              <Text
-                style={[
-                  styles.debugText,
-                  { color: theme.colors.whiteOverlay80 },
-                ]}
-              >
-                Premium: {isPremium ? common.yes : common.no}
-              </Text>
-              <Text
-                style={[
-                  styles.debugText,
-                  {
-                    color: isPremium ? theme.colors.white : theme.colors.white,
-                  },
-                ]}
-              >
-                Quotes: {displayQuotes.length} | Categories:{" "}
-                {userPreferences?.selectedCategories?.length || 0}
-              </Text>
-              <Text style={[styles.debugText, { color: theme.colors.white }]}>
-                Language: {(common.language || "EN").toUpperCase()}
-              </Text>
-            </View>
-            <View style={styles.debugButtons}>
-              <TouchableOpacity
-                style={[
-                  styles.debugButton,
-                  {
-                    backgroundColor: isPremium
-                      ? theme.colors.premium
-                      : theme.colors.surface,
-                  },
-                ]}
-                onPress={togglePremiumStatus}
-              >
-                <Text
-                  style={[
-                    styles.debugButtonText,
-                    {
-                      color: isPremium
-                        ? theme.colors.white
-                        : theme.colors.white,
-                    },
-                  ]}
-                >
-                  {isPremium ? common.premium_status : common.free_status}
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[
-                  styles.debugButton,
-                  { backgroundColor: theme.colors.secondary },
-                ]}
-                onPress={handleResetOnboarding}
-              >
-                <Text
-                  style={[
-                    styles.debugButtonText,
-                    { color: theme.colors.white },
-                  ]}
-                >
-                  {common.reset_onboarding}
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[
-                  styles.debugButton,
-                  { backgroundColor: theme.colors.brandYellow },
-                ]}
-                onPress={showStreakContinue}
-              >
-                <Text
-                  style={[
-                    styles.debugButtonText,
-                    { color: theme.colors.white },
-                  ]}
-                >
-                  🔥 Streak
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[
-                  styles.debugButton,
-                  { backgroundColor: theme.colors.error },
-                ]}
-                onPress={showStreakBreak}
-              >
-                <Text
-                  style={[
-                    styles.debugButtonText,
-                    { color: theme.colors.white },
-                  ]}
-                >
-                  💔 Break
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
-                style={[
-                  styles.debugButton,
-                  { backgroundColor: theme.colors.primary },
-                ]}
-                onPress={handleShowPaywall}
-              >
-                <Text
-                  style={[
-                    styles.debugButtonText,
-                    { color: theme.colors.white },
-                  ]}
-                >
-                  💰 Paywall
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </View>
+        <DebugPanel
+          isPremium={isPremium}
+          displayQuotes={displayQuotes}
+          userPreferences={userPreferences}
+          common={common}
+          theme={theme}
+          togglePremiumStatus={togglePremiumStatus}
+          handleResetOnboarding={handleResetOnboarding}
+          showStreakContinue={showStreakContinue}
+          showStreakBreak={showStreakBreak}
+          handleShowPaywall={handleShowPaywall}
+        />
       )}
 
       {/* Streak Modal */}
@@ -495,64 +376,6 @@ const createStyles = (theme: any) =>
       fontWeight: "600",
       textAlign: "center",
       textDecorationLine: "underline",
-    },
-    debugPanel: {
-      position: "absolute",
-      top: 10,
-      left: 20,
-      right: 20,
-      backgroundColor: theme.colors.blackOverlay70,
-      borderRadius: 12,
-      padding: 16,
-      zIndex: 1000,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.25,
-      shadowRadius: 3.84,
-      elevation: 5,
-    },
-    debugContent: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-      alignItems: "center",
-    },
-    debugInfo: {
-      flex: 1,
-    },
-    debugTitle: {
-      fontSize: 14,
-      fontWeight: "600",
-      marginBottom: 2,
-    },
-    debugText: {
-      fontSize: 12,
-      fontWeight: "500",
-    },
-    debugButtons: {
-      flexDirection: "column",
-      gap: 8,
-    },
-    debugButton: {
-      backgroundColor: theme.colors.brandYellow,
-      paddingVertical: 8,
-      paddingHorizontal: 16,
-      borderRadius: 8,
-      marginTop: 8,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.25,
-      shadowRadius: 3.84,
-      elevation: 5,
-    },
-    debugButtonText: {
-      fontSize: 14,
-      fontWeight: "600",
     },
     personalizationBanner: {
       paddingHorizontal: 16,

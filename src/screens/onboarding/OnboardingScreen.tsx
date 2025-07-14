@@ -1,3 +1,4 @@
+import Slider from "@react-native-community/slider";
 import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
 import {
@@ -392,77 +393,33 @@ export function OnboardingScreen() {
           </Text>
         </View>
 
-        <View style={styles.sliderControls}>
-          <TouchableOpacity
-            style={[
-              styles.sliderButton,
-              {
-                backgroundColor: theme.colors.surface,
-                borderColor: theme.colors.border,
-                borderRadius: theme.borderRadius.md,
-                opacity: value <= min ? 0.5 : 1,
-              },
-            ]}
-            onPress={() => {
-              const newValue = Math.max(min, value - 1);
-              handleAnswer(question.id, newValue);
-            }}
-            disabled={value <= min}
-          >
-            <Text
-              style={[
-                styles.sliderButtonText,
-                { color: theme.colors.textSoft },
-              ]}
-            >
-              −
-            </Text>
-          </TouchableOpacity>
+        <View style={styles.sliderTrackContainer}>
+          <Slider
+            style={styles.slider}
+            minimumValue={min}
+            maximumValue={max}
+            value={value}
+            onValueChange={(newValue: number) =>
+              handleAnswer(question.id, Math.round(newValue))
+            }
+            minimumTrackTintColor={theme.colors.brandYellow}
+            maximumTrackTintColor={theme.colors.border}
+            thumbTintColor={theme.colors.brandYellow}
+            step={1}
+          />
 
-          <View style={styles.valueDisplay}>
-            <Text style={[styles.currentValue, { color: theme.colors.white }]}>
-              {value}
+          <View style={styles.sliderRange}>
+            <Text
+              style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
+            >
+              {min}
+            </Text>
+            <Text
+              style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
+            >
+              {max}
             </Text>
           </View>
-
-          <TouchableOpacity
-            style={[
-              styles.sliderButton,
-              {
-                backgroundColor: theme.colors.surface,
-                borderColor: theme.colors.border,
-                borderRadius: theme.borderRadius.md,
-                opacity: value >= max ? 0.5 : 1,
-              },
-            ]}
-            onPress={() => {
-              const newValue = Math.min(max, value + 1);
-              handleAnswer(question.id, newValue);
-            }}
-            disabled={value >= max}
-          >
-            <Text
-              style={[
-                styles.sliderButtonText,
-                { color: theme.colors.textSoft },
-              ]}
-            >
-              +
-            </Text>
-          </TouchableOpacity>
-        </View>
-
-        <View style={styles.sliderRange}>
-          <Text
-            style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
-          >
-            {min}
-          </Text>
-          <Text
-            style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
-          >
-            {max}
-          </Text>
         </View>
       </View>
     );
@@ -526,12 +483,15 @@ export function OnboardingScreen() {
                   styles.timePreset,
                   {
                     backgroundColor: isSelected
-                      ? theme.colors.brandYellow
-                      : theme.colors.surface,
+                      ? theme.colors.brandYellow + "CC" // daha belirgin, hafif opak sarı
+                      : "rgba(255,255,255,0.08)",
                     borderColor: isSelected
                       ? theme.colors.brandYellow
                       : theme.colors.border,
                     borderRadius: theme.borderRadius.lg,
+                    shadowColor: isSelected ? theme.colors.brandYellow : "#000",
+                    shadowOpacity: isSelected ? 0.18 : 0.1,
+                    elevation: isSelected ? 8 : 4,
                   },
                 ]}
                 onPress={() => {
@@ -928,53 +888,41 @@ const styles = StyleSheet.create({
   },
   // Slider
   sliderContainer: {
-    paddingVertical: 20,
+    paddingVertical: 30,
+    paddingHorizontal: 20,
   },
   sliderValueContainer: {
     alignItems: "center",
-    marginBottom: 24,
+    marginBottom: 32,
   },
   sliderValue: {
-    fontSize: 48,
+    fontSize: 56,
     fontWeight: "700",
-    marginBottom: 4,
+    marginBottom: 8,
   },
   sliderLabel: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: "500",
+    textAlign: "center",
   },
-  sliderControls: {
-    flexDirection: "row",
+  sliderTrackContainer: {
     alignItems: "center",
-    justifyContent: "space-between",
-    paddingHorizontal: 8,
+    marginBottom: 24,
+    paddingHorizontal: 10,
   },
-  sliderButton: {
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderWidth: 2,
-    minWidth: 80,
-    alignItems: "center",
-  },
-  sliderButtonText: {
-    fontSize: 16,
-    fontWeight: "600",
-  },
-  valueDisplay: {
-    flex: 1,
-    alignItems: "center",
-  },
-  currentValue: {
-    fontSize: 48,
-    fontWeight: "700",
+  slider: {
+    width: "100%",
+    height: 50,
   },
   sliderRange: {
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 8,
+    marginTop: 16,
+    width: "100%",
   },
   rangeText: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: "500",
   },
   // Time Picker
@@ -990,32 +938,47 @@ const styles = StyleSheet.create({
   timePreset: {
     width: "48%",
     paddingHorizontal: 16,
-    paddingVertical: 12,
-    borderWidth: 2,
-    marginBottom: 8,
+    paddingVertical: 18,
+    borderWidth: 1.5,
+    marginBottom: 12,
     alignItems: "center",
+    borderRadius: 18,
+    backgroundColor: "rgba(255,255,255,0.08)", // default yarı saydam overlay
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
   },
   timePresetLabel: {
-    fontSize: 15,
-    fontWeight: "600",
+    fontSize: 16,
+    fontWeight: "700",
     marginBottom: 4,
     textAlign: "center",
   },
   timePresetDescription: {
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: "500",
     textAlign: "center",
+    opacity: 0.85,
   },
   currentTimeDisplay: {
     alignItems: "center",
     marginTop: 10,
   },
   timeDisplayCard: {
-    paddingHorizontal: 20,
-    paddingVertical: 16,
-    borderWidth: 2,
+    paddingHorizontal: 24,
+    paddingVertical: 18,
+    borderWidth: 1.5,
     alignItems: "center",
     minWidth: 200,
+    borderRadius: 16,
+    backgroundColor: "rgba(255,255,255,0.10)",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
   },
   timeDisplayTitle: {
     fontSize: 14,

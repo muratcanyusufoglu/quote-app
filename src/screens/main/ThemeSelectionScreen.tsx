@@ -81,7 +81,7 @@ export function ThemeSelectionScreen() {
   ): string[] => {
     const baseColors = {
       default: ["#1a1a1a", "#2a2520", "#3d3420", "#f4d03f", "#f7dc6f"],
-      ocean: ["#0f172a", "#1e293b", "#0369a1", "#0ea5e9", "#38bdf8"],
+      ocean: ["#0f172a", "#1e293b", "#0369a1", "#000001FF", "#38bdf8"],
       forest: ["#0f172a", "#1e3a2e", "#15803d", "#22c55e", "#4ade80"],
       sunset: ["#1a1a1a", "#3d2917", "#c2410c", "#f97316", "#fb923c"],
       purple: ["#0f0a1a", "#2d1b47", "#7c3aed", "#a855f7", "#c084fc"],
