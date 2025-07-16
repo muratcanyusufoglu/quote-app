@@ -230,7 +230,8 @@ const QuoteDetailScreen: React.FC = () => {
           <View style={styles.storySection}>
             <View style={styles.storyHeader}>
               <Text style={styles.storyTitle}>{quote.story.title}</Text>
-              <View style={styles.storyMeta}>
+              {/* read time */}
+              {/* <View style={styles.storyMeta}>
                 <View style={styles.storyReadTimeContainer}>
                   <IconSymbol
                     name="book"
@@ -250,7 +251,7 @@ const QuoteDetailScreen: React.FC = () => {
                     )}
                   </Text>
                 )}
-              </View>
+              </View> */}
             </View>
 
             {canAccess ? (

@@ -35,6 +35,9 @@ const DebugPanel: React.FC<{
 }> = ({ theme, isVisible, triggerSource, subscriptionPackage, isLoading }) => {
   if (!__DEV__) return null;
 
+  // Use translations
+  const paywall = usePaywallTranslations();
+
   return (
     <View
       style={[
@@ -43,7 +46,7 @@ const DebugPanel: React.FC<{
       ]}
     >
       <Text style={[debugStyles.debugTitle, { color: theme.colors.text }]}>
-        🐛 Debug Info
+        {paywall.debug.title}
       </Text>
       <View style={debugStyles.debugContent}>
         <View style={debugStyles.debugRow}>
@@ -53,7 +56,7 @@ const DebugPanel: React.FC<{
               { color: theme.colors.textSecondary },
             ]}
           >
-            Modal Visible:
+            {paywall.debug.modal_visible}
           </Text>
           <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
             {isVisible.toString()}
@@ -66,10 +69,10 @@ const DebugPanel: React.FC<{
               { color: theme.colors.textSecondary },
             ]}
           >
-            Trigger Source:
+            {paywall.debug.trigger_source}
           </Text>
           <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
-            {triggerSource || "none"}
+            {triggerSource || paywall.debug.none}
           </Text>
         </View>
         <View style={debugStyles.debugRow}>
@@ -79,7 +82,7 @@ const DebugPanel: React.FC<{
               { color: theme.colors.textSecondary },
             ]}
           >
-            Loading State:
+            {paywall.debug.loading_state}
           </Text>
           <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
             {isLoading.toString()}
@@ -92,7 +95,7 @@ const DebugPanel: React.FC<{
               { color: theme.colors.textSecondary },
             ]}
           >
-            Platform:
+            {paywall.debug.platform}
           </Text>
           <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
             {Platform.OS}
@@ -104,7 +107,7 @@ const DebugPanel: React.FC<{
             <Text
               style={[debugStyles.debugSubtitle, { color: theme.colors.text }]}
             >
-              Subscription Package:
+              {paywall.debug.subscription_package}
             </Text>
             <View style={debugStyles.debugRow}>
               <Text
@@ -113,7 +116,7 @@ const DebugPanel: React.FC<{
                   { color: theme.colors.textSecondary },
                 ]}
               >
-                ID:
+                {paywall.debug.id}
               </Text>
               <Text
                 style={[debugStyles.debugValue, { color: theme.colors.text }]}
@@ -128,7 +131,7 @@ const DebugPanel: React.FC<{
                   { color: theme.colors.textSecondary },
                 ]}
               >
-                Title:
+                {paywall.debug.title_field}
               </Text>
               <Text
                 style={[debugStyles.debugValue, { color: theme.colors.text }]}
@@ -143,7 +146,7 @@ const DebugPanel: React.FC<{
                   { color: theme.colors.textSecondary },
                 ]}
               >
-                Current Price:
+                {paywall.debug.current_price}
               </Text>
               <Text
                 style={[debugStyles.debugValue, { color: theme.colors.text }]}
@@ -158,7 +161,7 @@ const DebugPanel: React.FC<{
                   { color: theme.colors.textSecondary },
                 ]}
               >
-                Trial Days:
+                {paywall.debug.trial_days}
               </Text>
               <Text
                 style={[debugStyles.debugValue, { color: theme.colors.text }]}
@@ -442,16 +445,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           ],
           cta: paywall.realPurchase.button,
           highlight: paywall.realPurchase.highlight,
-          testimonials: [
-            {
-              text: "This app completely changed how I start my mornings. I'm more motivated than ever!",
-              author: "Sarah K., CEO",
-            },
-            {
-              text: "The personalized quotes and stories are exactly what I needed for my entrepreneurial journey.",
-              author: "Michael R., Founder",
-            },
-          ],
+          testimonials: paywall.testimonials,
         };
 
       default:
@@ -835,7 +829,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                           { color: theme.colors.text },
                         ]}
                       >
-                        "{testimonial.text}"
+                        {`"${testimonial.text}"`}
                       </Text>
                       <Text
                         style={[

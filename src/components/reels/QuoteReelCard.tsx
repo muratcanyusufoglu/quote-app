@@ -1,13 +1,7 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React from "react";
-import {
-  Dimensions,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { Dimensions, StyleSheet, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
@@ -86,7 +80,7 @@ export function QuoteReelCard({
       {/* Main Quote Card with Stack Effect */}
       <View style={styles.cardContainer}>
         {/* Background Cards - More Dramatic Stack Effect */}
-        <View
+        {/* <View
           style={[
             styles.cardStack,
             styles.cardStackThird,
@@ -99,7 +93,7 @@ export function QuoteReelCard({
             styles.cardStackSecond,
             { backgroundColor: cardColor, opacity: 0.9 },
           ]}
-        />
+        /> */}
 
         {/* Main Active Card */}
         <TouchableOpacity
@@ -125,7 +119,7 @@ export function QuoteReelCard({
       </View>
 
       {/* Navigation Help Text */}
-      <View style={styles.helpContainer}>
+      {/* <View style={styles.helpContainer}>
         <View style={styles.helpTextContainer}>
           <IconSymbol
             name="search"
@@ -167,7 +161,7 @@ export function QuoteReelCard({
             Share
           </Text>
         </View>
-      </View>
+      </View> */}
     </View>
   );
 }

@@ -166,6 +166,8 @@ export function usePaywallTranslations() {
         language
       ),
       getPremium: translationService.translate("paywall.get_premium", language),
+      debug: tNamespace("paywall.debug"),
+      testimonials: tNamespace("paywall.testimonials"),
     }),
     [tNamespace, language]
   );

@@ -30,9 +30,22 @@ export function ShareButton({
 
   const handleShare = async () => {
     try {
+      // Create deep link URL for the quote
+      const deepLinkUrl = `quote://quote-detail/${quote.id}`;
+
+      // Web URL fallback for users without the app
+      // You can replace this with your actual web domain when you have one
+      const webUrl = `https://quotespark.app/quote/${quote.id}`;
+
+      // Create formatted share message with deep link
+      const shareMessage = `"${quote.text}"${
+        quote.author ? `\n\n— ${quote.author}` : ""
+      }\n\n📱 Open in QuoteSpark: ${deepLinkUrl}`;
+
       const shareContent = {
-        message: `"${quote.text}"\n\n- ${quote.author || "Unknown"}`,
+        message: shareMessage,
         title: APP_NAME,
+        url: deepLinkUrl, // This will be used on platforms that support URL sharing
       };
 
       await Share.share(shareContent);
@@ -47,7 +60,7 @@ export function ShareButton({
         content_type: "quote",
       });
 
-      console.log("📤 Quote shared successfully");
+      console.log("📤 Quote shared successfully with deep link");
       onShareComplete?.();
     } catch (error) {
       console.error("❌ Error sharing quote:", error);

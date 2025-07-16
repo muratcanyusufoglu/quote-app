@@ -57,7 +57,8 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
             #{category}
           </Text>
         </View>
-        <View
+        {/* read time */}
+        {/* <View
           style={[
             styles.readTimeContainer,
             {
@@ -79,7 +80,7 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           >
             {readTime} min
           </Text>
-        </View>
+        </View> */}
       </View>
 
       {/* Action Buttons */}
