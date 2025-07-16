@@ -117,7 +117,7 @@
       "section_title": "Neler dahil:",
       "rating_text": "4.9 • 50.000+ kullanıcı",
       "restore_purchase": "Satın Alımı Geri Yükle",
-      "trust_text": "İstediğiniz zaman iptal edin • Güvenli ödeme • 30 gün garantisi"
+      "trust_text": "İstediğiniz zaman iptal edin • Güvenli ödeme • 15 gün garantisi"
     },
     "features": {
       "all_categories": "Tüm kategorilere erişim",
@@ -374,6 +374,31 @@
       "sunset": "Sıcak turuncu ve kırmızı tonları",
       "purple": "Kraliyet moru ve lavanta tonları",
       "minimalist": "Temiz gri ve sofistike tonlar"
+    }
+  },
+  "paywall": {
+    "testimonials": [
+      {
+        "text": "Bu uygulama sabahlarımı tamamen değiştirdi. Artık çok daha motiveyim!",
+        "author": "Sarah K., CEO"
+      },
+      {
+        "text": "Kişiselleştirilmiş alıntılar ve hikayeler girişimcilik yolculuğumda tam ihtiyacım olan şeydi.",
+        "author": "Michael R., Kurucu"
+      }
+    ],
+    "debug": {
+      "title": "🐛 Hata Ayıklama Bilgisi",
+      "modal_visible": "Modal Görünürlüğü:",
+      "trigger_source": "Tetikleyici Kaynağı:",
+      "loading_state": "Yüklenme Durumu:",
+      "platform": "Platform:",
+      "subscription_package": "Abonelik Paketi:",
+      "id": "ID:",
+      "title_field": "Başlık:",
+      "current_price": "Güncel Fiyat:",
+      "trial_days": "Deneme Günleri:",
+      "none": "yok"
     }
   }
 } 

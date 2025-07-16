@@ -117,7 +117,7 @@
       "section_title": "What's included:",
       "rating_text": "4.9 • 50,000+ users",
       "restore_purchase": "Restore Purchase",
-      "trust_text": "Cancel anytime • Secure payment • 30-day guarantee"
+      "trust_text": "Cancel anytime • Secure payment • 15-day guarantee"
     },
     "features": {
       "all_categories": "Access to all categories",
@@ -216,7 +216,30 @@
     "get_premium_access": "Get Premium Access",
     "unlock_stories": "Unlock All Stories",
     "remove_limits": "Remove All Limits",
-    "get_premium": "Get Premium"
+    "get_premium": "Get Premium",
+    "testimonials": [
+      {
+        "text": "This app completely changed how I start my mornings. I'm more motivated than ever!",
+        "author": "Sarah K., CEO"
+      },
+      {
+        "text": "The personalized quotes and stories are exactly what I needed for my entrepreneurial journey.",
+        "author": "Michael R., Founder"
+      }
+    ],
+    "debug": {
+      "title": "🐛 Debug Info",
+      "modal_visible": "Modal Visible:",
+      "trigger_source": "Trigger Source:",
+      "loading_state": "Loading State:",
+      "platform": "Platform:",
+      "subscription_package": "Subscription Package:",
+      "id": "ID:",
+      "title_field": "Title:",
+      "current_price": "Current Price:",
+      "trial_days": "Trial Days:",
+      "none": "none"
+    }
   },
   "onboarding": {
     "welcome": "Welcome",
