@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTranslation } from "../../hooks/useTranslation";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { useIsPremium } from "../../store/usePurchaseStore";
@@ -29,7 +30,7 @@ interface MoodSelectionModalProps {
 interface Question {
   id: string;
   text: string;
-  options: { emoji: string; value: string }[];
+  options: { icon: string; value: string }[];
 }
 
 const questions: Question[] = [
@@ -37,33 +38,33 @@ const questions: Question[] = [
     id: "feeling",
     text: "question_feeling",
     options: [
-      { emoji: "😊", value: "happy" },
-      { emoji: "😌", value: "calm" },
-      { emoji: "😐", value: "neutral" },
-      { emoji: "😔", value: "sad" },
-      { emoji: "😢", value: "very_sad" },
+      { icon: "smile", value: "happy" },
+      { icon: "moon", value: "calm" },
+      { icon: "meh", value: "neutral" },
+      { icon: "frown", value: "sad" },
+      { icon: "cloud", value: "very_sad" },
     ],
   },
   {
     id: "energy",
     text: "question_energy",
     options: [
-      { emoji: "🔥", value: "very_energetic" },
-      { emoji: "⚡", value: "energetic" },
-      { emoji: "😴", value: "tired" },
-      { emoji: "💤", value: "very_tired" },
+      { icon: "flame", value: "very_energetic" },
+      { icon: "battery", value: "energetic" },
+      { icon: "coffee", value: "tired" },
+      { icon: "bed", value: "very_tired" },
     ],
   },
   {
     id: "affecting",
     text: "question_affecting",
     options: [
-      { emoji: "💪", value: "motivation" },
-      { emoji: "😰", value: "stress" },
-      { emoji: "😤", value: "anger" },
-      { emoji: "💭", value: "thoughts" },
-      { emoji: "🌧️", value: "anxiety" },
-      { emoji: "🎯", value: "goals" },
+      { icon: "dumbbell", value: "motivation" },
+      { icon: "alert-triangle", value: "stress" },
+      { icon: "angry", value: "anger" },
+      { icon: "brain", value: "thoughts" },
+      { icon: "cloud-rain", value: "anxiety" },
+      { icon: "target-icon", value: "goals" },
     ],
   },
 ];
@@ -105,7 +106,7 @@ export function MoodSelectionModal({
     }
   }, [visible]);
 
-  const handleOptionSelect = (option: { emoji: string; value: string }) => {
+  const handleOptionSelect = (option: { icon: string; value: string }) => {
     const newResponses = { ...responses, [currentQuestion.id]: option.value };
     setResponses(newResponses);
 
@@ -228,16 +229,13 @@ export function MoodSelectionModal({
       shadowRadius: 6,
       elevation: 4,
     },
-    optionEmoji: {
-      fontSize: 28,
-      marginBottom: 2,
-    },
     optionLabel: {
       fontSize: 10,
       color: "#fff",
       textAlign: "center",
       fontWeight: "500",
       opacity: 0.9,
+      marginTop: 4,
     },
     progressContainer: {
       flexDirection: "row",
@@ -364,7 +362,12 @@ export function MoodSelectionModal({
                       onPress={() => handleOptionSelect(option)}
                       activeOpacity={0.7}
                     >
-                      <Text style={styles.optionEmoji}>{option.emoji}</Text>
+                      <IconSymbol
+                        name={option.icon as any}
+                        size={24}
+                        color={theme.colors.brandYellow}
+                        strokeWidth={2}
+                      />
                       <Text style={styles.optionLabel}>
                         {t(`mood_motivation.emojis.${option.value}` as any)}
                       </Text>
