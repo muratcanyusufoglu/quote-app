@@ -48,12 +48,14 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           style={[
             styles.categoryContainer,
             {
-              backgroundColor: theme.colors.whiteOverlay90,
+              backgroundColor: theme.colors.whiteOverlay10,
               shadowColor: theme.colors.shadowColor,
             },
           ]}
         >
-          <Text style={[styles.categoryTag, { color: theme.colors.textSoft }]}>
+          <Text
+            style={[styles.categoryTag, { color: theme.colors.brandYellow }]}
+          >
             #{category}
           </Text>
         </View>
@@ -89,9 +91,9 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
         {quote ? (
           <ShareButton
             quote={quote}
-            size={22}
-            iconColor={theme.colors.textSoft}
-            backgroundColor={theme.colors.whiteOverlay90}
+            size={24}
+            iconColor={theme.colors.brandYellow}
+            backgroundColor={theme.colors.whiteOverlay10}
             style={styles.actionButton}
             onShareComplete={handleShareComplete}
           />
@@ -100,17 +102,18 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
             style={[
               styles.actionButton,
               {
-                backgroundColor: theme.colors.whiteOverlay90,
+                backgroundColor: theme.colors.whiteOverlay10,
                 shadowColor: theme.colors.shadowColor,
               },
             ]}
             onPress={handleSharePress}
+            activeOpacity={0.7}
           >
             <IconSymbol
               name="square.and.arrow.up"
-              size={22}
-              color={theme.colors.textSoft}
-              strokeWidth={2}
+              size={24}
+              color={theme.colors.brandYellow}
+              strokeWidth={2.5}
             />
           </TouchableOpacity>
         ) : null}
@@ -121,17 +124,18 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
             {
               backgroundColor: isFavorite
                 ? theme.colors.favoriteActive + "20" // 20% opacity
-                : theme.colors.whiteOverlay90,
+                : theme.colors.whiteOverlay10,
               shadowColor: theme.colors.shadowColor,
             },
           ]}
           onPress={handleFavoritePress}
+          activeOpacity={0.7}
         >
           <IconSymbol
             name="heart"
-            size={22}
+            size={24}
             color={
-              isFavorite ? theme.colors.favoriteRed : theme.colors.textSoft
+              isFavorite ? theme.colors.favoriteRed : theme.colors.brandYellow
             }
             strokeWidth={isFavorite ? 3 : 2}
           />
@@ -189,9 +193,9 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   actionButton: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
+    width: 50,
+    height: 50,
+    borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
     shadowOffset: {

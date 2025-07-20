@@ -167,7 +167,7 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeContextProvider>
+    <ThemeContextProvider defaultTheme={colorScheme || "system"}>
       <ThemeProvider
         value={colorScheme === "dark" ? CustomDarkTheme : CustomLightTheme}
       >

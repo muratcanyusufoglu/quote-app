@@ -10,6 +10,8 @@ import {
   View,
 } from "react-native";
 import { useTranslation } from "../../hooks/useTranslation";
+import { usePaywallSelectors } from "../../store/usePaywallStore";
+import { useIsPremium } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { height: screenHeight } = Dimensions.get("window");
@@ -77,6 +79,10 @@ export function MoodSelectionModal({
   const [responses, setResponses] = useState<{ [key: string]: string }>({});
   const [slideAnim] = useState(new Animated.Value(screenHeight));
 
+  // Premium status and paywall
+  const isPremium = useIsPremium();
+  const { showPaywall } = usePaywallSelectors.actions();
+
   const currentQuestion = questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
@@ -104,6 +110,14 @@ export function MoodSelectionModal({
     setResponses(newResponses);
 
     if (isLastQuestion) {
+      // Check if this is the "goals" option and user is not premium
+      if (!isPremium) {
+        // Show paywall for non-premium users trying to access AI goals feature
+        showPaywall("premium_feature");
+        onClose(); // Close the mood modal
+        return;
+      }
+
       // All questions answered, complete the flow
       onComplete({
         feeling: newResponses.feeling,
@@ -189,39 +203,41 @@ export function MoodSelectionModal({
       gap: 16,
     },
     optionButton: {
-      width: 60,
-      height: 60,
-      borderRadius: 30,
+      width: 70,
+      height: 80,
+      borderRadius: 35,
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: theme.colors.surface,
-      borderWidth: 2,
+      backgroundColor: theme.colors.whiteOverlay10,
+      borderWidth: 0,
       borderColor: theme.colors.border,
       shadowColor: theme.colors.shadowColor,
       shadowOffset: {
         width: 0,
         height: 2,
       },
-      shadowOpacity: 0.15,
+      shadowOpacity: 0.1,
       shadowRadius: 4,
       elevation: 3,
+      paddingVertical: 8,
     },
     optionButtonSelected: {
-      borderColor: theme.colors.primary,
-      backgroundColor: "transparent",
+      borderColor: theme.colors.brandYellow,
+      backgroundColor: theme.colors.whiteOverlay10,
       shadowOpacity: 0.2,
       shadowRadius: 6,
       elevation: 4,
     },
-    optionButtonGradient: {
-      width: "100%",
-      height: "100%",
-      borderRadius: 28,
-      justifyContent: "center",
-      alignItems: "center",
-    },
     optionEmoji: {
-      fontSize: 24,
+      fontSize: 28,
+      marginBottom: 2,
+    },
+    optionLabel: {
+      fontSize: 10,
+      color: "#fff",
+      textAlign: "center",
+      fontWeight: "500",
+      opacity: 0.9,
     },
     progressContainer: {
       flexDirection: "row",
@@ -346,24 +362,12 @@ export function MoodSelectionModal({
                           styles.optionButtonSelected,
                       ]}
                       onPress={() => handleOptionSelect(option)}
+                      activeOpacity={0.7}
                     >
-                      {responses[currentQuestion.id] === option.value ? (
-                        <LinearGradient
-                          colors={[
-                            theme.colors.gradientColors[0] + "F2",
-                            theme.colors.gradientColors[1] + "F2",
-                            theme.colors.gradientColors[2] + "F2",
-                            theme.colors.gradientColors[3] + "F2",
-                          ]}
-                          start={{ x: 0, y: 0 }}
-                          end={{ x: 1, y: 1 }}
-                          style={styles.optionButtonGradient}
-                        >
-                          <Text style={styles.optionEmoji}>{option.emoji}</Text>
-                        </LinearGradient>
-                      ) : (
-                        <Text style={styles.optionEmoji}>{option.emoji}</Text>
-                      )}
+                      <Text style={styles.optionEmoji}>{option.emoji}</Text>
+                      <Text style={styles.optionLabel}>
+                        {t(`mood_motivation.emojis.${option.value}` as any)}
+                      </Text>
                     </TouchableOpacity>
                   ))}
                 </View>

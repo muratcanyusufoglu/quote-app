@@ -69,34 +69,32 @@ export function QuoteReelCard({
         {onMoodIconPress && (
           <TouchableOpacity
             style={[
-              styles.exploreButton,
-              styles.aiMoodButton,
-              { marginLeft: 12 },
+              styles.navButton,
+              { backgroundColor: theme.colors.whiteOverlay10 },
             ]}
             onPress={onMoodIconPress}
+            activeOpacity={0.7}
           >
-            <View style={styles.aiMoodIcon}>
-              <IconSymbol
-                name="brain"
-                size={24}
-                color={theme.colors.white}
-                strokeWidth={2.5}
-              />
-            </View>
+            <IconSymbol
+              name="brain"
+              size={24}
+              color={theme.colors.brandYellow}
+              strokeWidth={2.5}
+            />
           </TouchableOpacity>
         )}
         <TouchableOpacity
           style={[
-            styles.exploreButton,
-            styles.aiMoodButton,
-            { marginLeft: 12 },
+            styles.navButton,
+            { backgroundColor: theme.colors.whiteOverlay10 },
           ]}
           onPress={navigateToExplore}
+          activeOpacity={0.7}
         >
           <IconSymbol
             name="magnifyingglass"
             size={20}
-            color={theme.colors.white}
+            color={theme.colors.brandYellow}
             strokeWidth={2}
           />
         </TouchableOpacity>
@@ -206,25 +204,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     flexDirection: "row",
     justifyContent: "flex-end",
-  },
-  exploreButton: {
-    width: 44,
-    height: 44,
-    backgroundColor: "transparent",
-    borderRadius: 22,
-    justifyContent: "center",
-    alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 6,
-    elevation: 5,
-    borderWidth: 1,
-    borderColor: "rgba(255, 255, 255, 0.2)",
-    zIndex: 200000,
+    gap: 12,
   },
   cardContainer: {
     flex: 1,
@@ -344,18 +324,19 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
   },
-  aiMoodIcon: {
-    width: 28,
-    height: 28,
+  navButton: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
-  },
-  aiMoodButton: {
-    backgroundColor: "transparent",
-    borderColor: "rgba(255, 255, 255, 0.4)",
-    borderWidth: 2,
-    shadowOpacity: 0.4,
-    shadowRadius: 8,
-    elevation: 8,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
 });

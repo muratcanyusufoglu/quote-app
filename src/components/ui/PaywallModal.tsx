@@ -1,8 +1,10 @@
 import { LinearGradient } from "expo-linear-gradient";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Alert,
+  Animated,
   Dimensions,
+  Easing,
   Modal,
   Platform,
   ScrollView,
@@ -231,50 +233,136 @@ const PremiumFeature: React.FC<{
   feature: string;
   theme: any;
   index: number;
-}> = ({ feature, theme, index }) => (
-  <View
-    style={[
-      createStyles(theme).featureItem,
-      {
-        transform: [{ translateX: index % 2 === 0 ? -5 : 5 }],
-      },
-    ]}
-  >
-    <View style={createStyles(theme).featureIconContainer}>
-      <IconSymbol
-        name="checkmark"
-        size={16}
-        color={theme.colors.brandYellow}
-        strokeWidth={3}
-      />
-    </View>
-    <Text style={createStyles(theme).featureText}>{feature}</Text>
-  </View>
-);
+}> = ({ feature, theme, index }) => {
+  const slideAnim = useRef(new Animated.Value(50)).current;
+  const opacityAnim = useRef(new Animated.Value(0)).current;
 
-// Pricing Card Component
+  useEffect(() => {
+    Animated.parallel([
+      Animated.timing(slideAnim, {
+        toValue: 0,
+        duration: 600,
+        delay: index * 100,
+        easing: Easing.out(Easing.cubic),
+        useNativeDriver: true,
+      }),
+      Animated.timing(opacityAnim, {
+        toValue: 1,
+        duration: 600,
+        delay: index * 100,
+        useNativeDriver: true,
+      }),
+    ]).start();
+  }, []);
+
+  return (
+    <Animated.View
+      style={[
+        createStyles(theme).featureItem,
+        {
+          transform: [{ translateX: slideAnim }],
+          opacity: opacityAnim,
+        },
+      ]}
+    >
+      <View style={createStyles(theme).featureIconContainer}>
+        <IconSymbol
+          name="checkmark"
+          size={16}
+          color={theme.colors.premium}
+          strokeWidth={3}
+        />
+      </View>
+      <Text style={createStyles(theme).featureText}>{feature}</Text>
+    </Animated.View>
+  );
+};
+
+// Pricing Card Component with enhanced visuals
 const PricingCard: React.FC<{
   theme: any;
   subscriptionPackage: SubscriptionPackage | null;
 }> = ({ theme, subscriptionPackage }) => {
+  const pulseAnim = useRef(new Animated.Value(1)).current;
+  const glowAnim = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    // Pulse animation for pricing card
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulseAnim, {
+          toValue: 1.02,
+          duration: 2000,
+          easing: Easing.inOut(Easing.sin),
+          useNativeDriver: true,
+        }),
+        Animated.timing(pulseAnim, {
+          toValue: 1,
+          duration: 2000,
+          easing: Easing.inOut(Easing.sin),
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+
+    // Glow animation
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(glowAnim, {
+          toValue: 1,
+          duration: 1500,
+          easing: Easing.inOut(Easing.sin),
+          useNativeDriver: false,
+        }),
+        Animated.timing(glowAnim, {
+          toValue: 0,
+          duration: 1500,
+          easing: Easing.inOut(Easing.sin),
+          useNativeDriver: false,
+        }),
+      ])
+    ).start();
+  }, []);
+
   if (!subscriptionPackage) return null;
 
   return (
-    <View style={createStyles(theme).pricingCard}>
+    <Animated.View
+      style={[
+        createStyles(theme).pricingCard,
+        {
+          transform: [{ scale: pulseAnim }],
+        },
+      ]}
+    >
       <LinearGradient
-        colors={[theme.colors.brandYellow, theme.colors.premium]}
-        locations={[0, 1]}
+        colors={[
+          theme.colors.premium,
+          theme.colors.brandYellow,
+          theme.colors.primary,
+        ]}
+        locations={[0, 0.5, 1]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={createStyles(theme).pricingGradient}
       >
         {/* Free Trial Badge */}
         {subscriptionPackage.freeTrialDays > 0 && (
-          <View style={createStyles(theme).trialBadge}>
+          <Animated.View
+            style={[
+              createStyles(theme).trialBadge,
+              {
+                shadowColor: theme.colors.premium,
+                shadowOpacity: glowAnim,
+                shadowRadius: 10,
+                elevation: 5,
+              },
+            ]}
+          >
             <Text style={createStyles(theme).trialBadgeText}>
               🎉 {subscriptionPackage.freeTrialDays} Days FREE
             </Text>
-          </View>
+          </Animated.View>
         )}
 
         {/* Pricing Info */}
@@ -300,7 +388,7 @@ const PricingCard: React.FC<{
           </Text>
         </View>
       </LinearGradient>
-    </View>
+    </Animated.View>
   );
 };
 
@@ -317,6 +405,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [subscriptionPackage, setSubscriptionPackage] =
     useState<SubscriptionPackage | null>(null);
 
+  // Animation refs
+  const slideAnim = useRef(new Animated.Value(screenHeight)).current;
+  const backdropAnim = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(0.5)).current;
+  const sparkleAnim = useRef(new Animated.Value(0)).current;
+
   // Translations
   const paywall = usePaywallTranslations();
   const common = useCommonTranslations();
@@ -326,6 +420,54 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     triggerSource,
     isLoading,
   });
+
+  // Enhanced entrance animation
+  useEffect(() => {
+    if (isVisible) {
+      Animated.parallel([
+        Animated.spring(slideAnim, {
+          toValue: 0,
+          tension: 80,
+          friction: 8,
+          useNativeDriver: true,
+        }),
+        Animated.timing(backdropAnim, {
+          toValue: 1,
+          duration: 300,
+          easing: Easing.out(Easing.quad),
+          useNativeDriver: true,
+        }),
+        Animated.spring(scaleAnim, {
+          toValue: 1,
+          tension: 150,
+          friction: 8,
+          delay: 100,
+          useNativeDriver: true,
+        }),
+      ]).start();
+
+      // Sparkle animation
+      Animated.loop(
+        Animated.sequence([
+          Animated.timing(sparkleAnim, {
+            toValue: 1,
+            duration: 2000,
+            easing: Easing.linear,
+            useNativeDriver: true,
+          }),
+          Animated.timing(sparkleAnim, {
+            toValue: 0,
+            duration: 0,
+            useNativeDriver: true,
+          }),
+        ])
+      ).start();
+    } else {
+      slideAnim.setValue(screenHeight);
+      backdropAnim.setValue(0);
+      scaleAnim.setValue(0.5);
+    }
+  }, [isVisible]);
 
   // Load subscription packages when modal becomes visible
   useEffect(() => {
@@ -445,7 +587,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           ],
           cta: paywall.realPurchase.button,
           highlight: paywall.realPurchase.highlight,
-          testimonials: paywall.testimonials,
+          testimonials: Array.isArray(paywall.testimonials)
+            ? paywall.testimonials
+            : [],
         };
 
       default:
@@ -471,8 +615,22 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const content = getContent();
 
   const handleClose = () => {
-    hidePaywall();
-    onClose?.();
+    Animated.parallel([
+      Animated.timing(slideAnim, {
+        toValue: screenHeight,
+        duration: 250,
+        easing: Easing.in(Easing.quad),
+        useNativeDriver: true,
+      }),
+      Animated.timing(backdropAnim, {
+        toValue: 0,
+        duration: 250,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      hidePaywall();
+      onClose?.();
+    });
   };
 
   const handlePurchase = async () => {
@@ -570,74 +728,109 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     <Modal
       visible={isVisible}
       transparent
-      animationType="slide"
+      animationType="none"
       statusBarTranslucent
     >
-      <View style={[styles.backdrop, { backgroundColor: "rgba(0,0,0,0.7)" }]}>
-        <View
+      <Animated.View
+        style={[
+          styles.backdrop,
+          {
+            opacity: backdropAnim,
+          },
+        ]}
+      >
+        <Animated.View
           style={[
             styles.modernContainer,
             {
+              transform: [{ translateY: slideAnim }, { scale: scaleAnim }],
               backgroundColor: theme.colors.surface,
-              shadowColor: theme.colors.shadowColor,
+              shadowColor: theme.colors.premium,
               shadowOffset: { width: 0, height: -8 },
-              shadowOpacity: 0.15,
+              shadowOpacity: 0.25,
               shadowRadius: 24,
               elevation: 16,
             },
           ]}
         >
-          {/* Modern Header */}
-          <View style={styles.modernHeader}>
+          {/* Modern Header with Enhanced Gradient */}
+          <LinearGradient
+            colors={[
+              theme.colors.primary,
+              theme.colors.brandYellow,
+              theme.colors.premium,
+            ]}
+            locations={[0, 0.6, 1]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.modernHeader}
+          >
             <TouchableOpacity
-              style={styles.modernCloseButton}
+              style={[
+                styles.modernCloseButton,
+                {
+                  backgroundColor: theme.colors.whiteOverlay20,
+                  shadowColor: theme.colors.white,
+                  shadowOpacity: 0.3,
+                  shadowRadius: 8,
+                },
+              ]}
               onPress={handleClose}
             >
               <IconSymbol
                 name="xmark"
                 size={18}
-                color={theme.colors.textSecondary}
+                color={theme.colors.white}
                 strokeWidth={2}
               />
             </TouchableOpacity>
 
             <View style={styles.headerContent}>
-              {/* Premium Badge */}
-              <LinearGradient
-                colors={[theme.colors.brandYellow, theme.colors.premium]}
-                start={{ x: 0, y: 0 }}
-                end={{ x: 1, y: 1 }}
+              {/* Premium Badge with sparkle animation */}
+              <Animated.View
                 style={{
                   alignSelf: "center",
-                  borderRadius: 16,
-                  paddingHorizontal: 18,
-                  paddingVertical: 7,
                   marginBottom: 18,
-                  shadowColor: theme.colors.brandYellow,
-                  shadowOpacity: 0.18,
-                  shadowRadius: 8,
-                  elevation: 4,
                 }}
               >
-                <Text
+                <LinearGradient
+                  colors={[theme.colors.white, theme.colors.whiteOverlay90]}
+                  start={{ x: 0, y: 0 }}
+                  end={{ x: 1, y: 1 }}
                   style={{
-                    color: theme.colors.background,
-                    fontWeight: "700",
-                    fontSize: 13,
-                    letterSpacing: 1.2,
+                    borderRadius: 20,
+                    paddingHorizontal: 20,
+                    paddingVertical: 8,
+                    shadowColor: theme.colors.white,
+                    shadowOpacity: 0.5,
+                    shadowRadius: 12,
+                    elevation: 8,
                   }}
                 >
-                  {paywall.modern.premium_badge}
-                </Text>
-              </LinearGradient>
+                  <Text
+                    style={{
+                      color: theme.colors.primary,
+                      fontWeight: "800",
+                      fontSize: 14,
+                      letterSpacing: 1.5,
+                    }}
+                  >
+                    ✨ {paywall.modern.premium_badge} ✨
+                  </Text>
+                </LinearGradient>
+              </Animated.View>
+
               <Text
                 style={[
                   styles.modernTitle,
                   {
-                    color: theme.colors.text,
-                    fontSize: 26,
-                    fontWeight: "700",
-                    marginBottom: 6,
+                    color: theme.colors.white,
+                    fontSize: 28,
+                    fontWeight: "800",
+                    marginBottom: 8,
+                    textShadowColor: theme.colors.blackOverlay30,
+                    textShadowOffset: { width: 0, height: 2 },
+                    textShadowRadius: 4,
                   },
                 ]}
               >
@@ -647,37 +840,57 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 style={[
                   styles.modernSubtitle,
                   {
-                    color: theme.colors.textSecondary,
-                    fontSize: 16,
-                    fontWeight: "500",
+                    color: theme.colors.whiteOverlay90,
+                    fontSize: 17,
+                    fontWeight: "600",
+                    textShadowColor: theme.colors.blackOverlay30,
+                    textShadowOffset: { width: 0, height: 1 },
+                    textShadowRadius: 2,
                   },
                 ]}
               >
                 {content.subtitle}
               </Text>
             </View>
-          </View>
+          </LinearGradient>
 
           <ScrollView
             style={styles.modernContent}
             contentContainerStyle={styles.modernContentContainer}
             showsVerticalScrollIndicator={false}
           >
-            {/* Pricing Section */}
-            <View style={styles.pricingSection}>
+            {/* Enhanced Pricing Section */}
+            <View
+              style={[
+                styles.pricingSection,
+                {
+                  backgroundColor: theme.colors.surface,
+                  shadowColor: theme.colors.premium,
+                  shadowOpacity: 0.15,
+                  shadowRadius: 12,
+                  borderWidth: 1,
+                  borderColor: theme.colors.brandYellow + "30",
+                },
+              ]}
+            >
               <View style={styles.pricingHeader}>
                 <Text
                   style={[
                     styles.planName,
-                    { color: theme.colors.text, fontWeight: "600" },
+                    { color: theme.colors.text, fontWeight: "700" },
                   ]}
                 >
                   {subscriptionPackage?.title || paywall.modern.plan_name}
                 </Text>
-                <View
+                <LinearGradient
+                  colors={[theme.colors.success, theme.colors.success]}
                   style={[
                     styles.savingsBadge,
-                    { backgroundColor: theme.colors.success },
+                    {
+                      shadowColor: theme.colors.success,
+                      shadowOpacity: 0.4,
+                      shadowRadius: 8,
+                    },
                   ]}
                 >
                   <Text
@@ -685,13 +898,20 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   >
                     {subscriptionPackage?.discount || paywall.modern.save_badge}
                   </Text>
-                </View>
+                </LinearGradient>
               </View>
 
               <View style={styles.priceDisplay}>
                 <View style={styles.modernPriceRow}>
                   <Text
-                    style={[styles.mainPrice, { color: theme.colors.text }]}
+                    style={[
+                      styles.mainPrice,
+                      {
+                        color: theme.colors.primary,
+                        textShadowColor: theme.colors.brandYellow + "40",
+                        textShadowRadius: 4,
+                      },
+                    ]}
                   >
                     {subscriptionPackage?.currentPrice || "$39.99"}
                   </Text>
@@ -707,7 +927,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <Text
                   style={[
                     styles.monthlyEquivalent,
-                    { color: theme.colors.textSecondary },
+                    { color: theme.colors.premium, fontWeight: "600" },
                   ]}
                 >
                   {subscriptionPackage?.pricePerMonth
@@ -729,18 +949,24 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               <View
                 style={[
                   styles.trialCallout,
-                  { borderColor: theme.colors.brandYellow },
+                  {
+                    borderColor: theme.colors.premium,
+                    backgroundColor: theme.colors.brandYellow + "10",
+                    shadowColor: theme.colors.premium,
+                    shadowOpacity: 0.2,
+                    shadowRadius: 8,
+                  },
                 ]}
               >
                 <IconSymbol
                   name="sparkles"
                   size={16}
-                  color={theme.colors.brandYellow}
+                  color={theme.colors.premium}
                 />
                 <Text
                   style={[
                     styles.trialText,
-                    { color: theme.colors.brandYellow },
+                    { color: theme.colors.premium, fontWeight: "700" },
                   ]}
                 >
                   {subscriptionPackage?.freeTrialDays
@@ -750,52 +976,50 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               </View>
             </View>
 
-            {/* Features Section */}
+            {/* Features Section with animations */}
             <View style={styles.modernFeaturesSection}>
-              <Text style={[styles.sectionTitle, { color: theme.colors.text }]}>
+              <Text
+                style={[
+                  styles.sectionTitle,
+                  {
+                    color: theme.colors.text,
+                    textAlign: "center",
+                    fontWeight: "700",
+                  },
+                ]}
+              >
                 {paywall.modern.section_title}
               </Text>
               <View style={styles.featuresList}>
                 {(subscriptionPackage?.features || content.features).map(
                   (feature, index) => (
-                    <View key={index} style={styles.featureRow}>
-                      <View
-                        style={[
-                          styles.featureIcon,
-                          {
-                            borderColor: theme.colors.brandYellow,
-                            backgroundColor: theme.colors.surface,
-                          },
-                        ]}
-                      >
-                        <IconSymbol
-                          name="checkmark"
-                          size={14}
-                          color={theme.colors.brandYellow}
-                          strokeWidth={3}
-                        />
-                      </View>
-                      <Text
-                        style={[
-                          styles.modernFeatureText,
-                          { color: theme.colors.text },
-                        ]}
-                      >
-                        {feature}
-                      </Text>
-                    </View>
+                    <PremiumFeature
+                      key={index}
+                      feature={feature}
+                      theme={theme}
+                      index={index}
+                    />
                   )
                 )}
               </View>
             </View>
 
-            {/* Social Proof Section */}
-            <View style={styles.socialProofSection}>
+            {/* Enhanced Social Proof Section */}
+            <View
+              style={[
+                styles.socialProofSection,
+                {
+                  backgroundColor: theme.colors.brandYellow + "08",
+                  borderWidth: 1,
+                  borderColor: theme.colors.brandYellow + "20",
+                },
+              ]}
+            >
               <View style={styles.ratingDisplay}>
                 <Text
                   style={[
                     styles.ratingStars,
-                    { color: theme.colors.brandYellow },
+                    { color: theme.colors.premium, fontSize: 24 },
                   ]}
                 >
                   ★★★★★
@@ -803,7 +1027,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <Text
                   style={[
                     styles.ratingText,
-                    { color: theme.colors.textSecondary },
+                    {
+                      color: theme.colors.white,
+                      fontWeight: "600",
+                      fontSize: 16,
+                    },
                   ]}
                 >
                   {paywall.modern.rating_text}
@@ -812,47 +1040,56 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
               {content.testimonials && content.testimonials.length > 0 && (
                 <View style={styles.testimonialsContainer}>
-                  {content.testimonials.map((testimonial, index) => (
-                    <View
-                      key={index}
-                      style={[
-                        styles.modernTestimonialCard,
-                        {
-                          borderLeftColor: theme.colors.brandYellow,
-                          backgroundColor: theme.colors.background,
-                        },
-                      ]}
-                    >
-                      <Text
+                  {content.testimonials.map(
+                    (testimonial: any, index: number) => (
+                      <View
+                        key={index}
                         style={[
-                          styles.modernTestimonialText,
-                          { color: theme.colors.text },
+                          styles.modernTestimonialCard,
+                          {
+                            borderLeftColor: theme.colors.premium,
+                            backgroundColor: theme.colors.white,
+                            shadowColor: theme.colors.premium,
+                            shadowOpacity: 0.1,
+                            shadowRadius: 8,
+                          },
                         ]}
                       >
-                        {`"${testimonial.text}"`}
-                      </Text>
-                      <Text
-                        style={[
-                          styles.modernTestimonialAuthor,
-                          { color: theme.colors.textSecondary },
-                        ]}
-                      >
-                        {testimonial.author}
-                      </Text>
-                    </View>
-                  ))}
+                        <Text
+                          style={[
+                            styles.modernTestimonialText,
+                            { color: theme.colors.white, fontWeight: "500" },
+                          ]}
+                        >
+                          {`"${testimonial.text}"`}
+                        </Text>
+                        <Text
+                          style={[
+                            styles.modernTestimonialAuthor,
+                            {
+                              color: theme.colors.whiteOverlay90,
+                              fontWeight: "600",
+                            },
+                          ]}
+                        >
+                          {testimonial.author}
+                        </Text>
+                      </View>
+                    )
+                  )}
                 </View>
               )}
             </View>
           </ScrollView>
 
-          {/* Bottom CTA Section */}
-          <View
+          {/* Enhanced Bottom CTA Section */}
+          <LinearGradient
+            colors={[theme.colors.surface, theme.colors.background]}
             style={[
               styles.ctaSection,
               {
-                backgroundColor: theme.colors.surface,
-                borderTopColor: theme.colors.border,
+                borderTopColor: theme.colors.brandYellow + "30",
+                borderTopWidth: 2,
               },
             ]}
           >
@@ -863,18 +1100,43 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               activeOpacity={0.85}
             >
               <LinearGradient
-                colors={[theme.colors.primary, theme.colors.brandYellow]}
+                colors={[
+                  theme.colors.premium,
+                  theme.colors.brandYellow,
+                  theme.colors.primary,
+                ]}
+                locations={[0, 0.5, 1]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 0 }}
-                style={styles.ctaGradient}
+                style={[
+                  styles.ctaGradient,
+                  {
+                    shadowColor: theme.colors.premium,
+                    shadowOpacity: 0.4,
+                    shadowRadius: 16,
+                  },
+                ]}
               >
-                <Text style={[styles.ctaText, { color: theme.colors.white }]}>
+                <Text
+                  style={[
+                    styles.ctaText,
+                    {
+                      color: theme.colors.white,
+                      fontWeight: "800",
+                      textShadowColor: theme.colors.blackOverlay30,
+                      textShadowRadius: 2,
+                    },
+                  ]}
+                >
                   {isLoading ? paywall.processing : content.cta}
                 </Text>
                 <Text
                   style={[
                     styles.ctaSubtext,
-                    { color: theme.colors.whiteOverlay90 },
+                    {
+                      color: theme.colors.whiteOverlay90,
+                      fontWeight: "600",
+                    },
                   ]}
                 >
                   {subscriptionPackage?.freeTrialDays
@@ -893,8 +1155,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 style={[
                   styles.restoreLinkText,
                   {
-                    color: theme.colors.primary,
+                    color: theme.colors.premium,
                     textDecorationLine: "underline",
+                    fontWeight: "600",
                   },
                 ]}
               >
@@ -904,176 +1167,349 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
             <View style={styles.trustSection}>
               <Text
-                style={[styles.trustText, { color: theme.colors.textTertiary }]}
+                style={[
+                  styles.trustText,
+                  {
+                    color: theme.colors.whiteOverlay90,
+                    fontWeight: "500",
+                  },
+                ]}
               >
                 {paywall.modern.trust_text}
               </Text>
             </View>
-          </View>
-        </View>
-      </View>
+          </LinearGradient>
+        </Animated.View>
+      </Animated.View>
     </Modal>
   );
-
-  //   return (
-  //     <Modal
-  //       visible={isVisible}
-  //       transparent
-  //       animationType="slide"
-  //       statusBarTranslucent
-  //     >
-  //       <View style={styles.backdrop}>
-  //         <View style={styles.container}>
-  //           {/* Header with Gradient Background */}
-  //           <LinearGradient
-  //             colors={theme.colors.gradientColors as any}
-  //             locations={theme.colors.gradientLocations as any}
-  //             start={{ x: 0, y: 0 }}
-  //             end={{ x: 1, y: 1 }}
-  //             style={styles.headerGradient}
-  //           >
-  //             {/* Close Button */}
-  //             <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
-  //               <IconSymbol
-  //                 name="xmark"
-  //                 size={20}
-  //                 color={theme.colors.whiteOverlay80}
-  //                 strokeWidth={2}
-  //               />
-  //             </TouchableOpacity>
-
-  //             {/* Premium Icon */}
-  //             <View style={styles.premiumIconContainer}>
-  //               <LinearGradient
-  //                 colors={[theme.colors.brandYellow, theme.colors.premium]}
-  //                 style={styles.premiumIconGradient}
-  //               >
-  //                 <IconSymbol
-  //                   name="crown"
-  //                   size={32}
-  //                   color={theme.colors.white}
-  //                   strokeWidth={2}
-  //                 />
-  //               </LinearGradient>
-  //             </View>
-
-  //             {/* Header Text */}
-  //             <Text style={styles.headerTitle}>{content.title}</Text>
-  //             <Text style={styles.headerSubtitle}>{content.subtitle}</Text>
-  //           </LinearGradient>
-
-  //           {/* Content */}
-  //           <ScrollView
-  //             style={styles.contentScroll}
-  //             contentContainerStyle={styles.contentContainer}
-  //             showsVerticalScrollIndicator={false}
-  //           >
-  //             {/* Pricing Card */}
-  //             <PricingCard
-  //               theme={theme}
-  //               subscriptionPackage={subscriptionPackage}
-  //             />
-
-  //             {/* Features Section */}
-  //             <View style={styles.featuresSection}>
-  //               <Text style={styles.featuresTitle}>
-  //                 What you'll get with Premium:
-  //               </Text>
-
-  //               <View style={styles.featuresGrid}>
-  //                 {content.features.map((feature, index) => (
-  //                   <PremiumFeature
-  //                     key={index}
-  //                     feature={feature}
-  //                     theme={theme}
-  //                     index={index}
-  //                   />
-  //                 ))}
-  //               </View>
-  //             </View>
-
-  //             {/* Testimonials for real_purchase */}
-  //             {triggerSource === "real_purchase" && content.testimonials && (
-  //               <View style={styles.testimonialsSection}>
-  //                 <Text style={styles.testimonialsTitle}>
-  //                   What Our Premium Members Say:
-  //                 </Text>
-  //                 {content.testimonials.map((testimonial, index) => (
-  //                   <View key={index} style={styles.testimonialCardReal}>
-  //                     <Text style={styles.testimonialQuote}>
-  //                       "{testimonial.text}"
-  //                     </Text>
-  //                     <Text style={styles.testimonialAuthorReal}>
-  //                       — {testimonial.author}
-  //                     </Text>
-  //                   </View>
-  //                 ))}
-  //               </View>
-  //             )}
-
-  //             {/* Action Buttons */}
-  //             <View style={styles.actionSection}>
-  //               <TouchableOpacity
-  //                 style={[
-  //                   styles.primaryButton,
-  //                   isLoading && styles.disabledButton,
-  //                 ]}
-  //                 onPress={handlePurchase}
-  //                 disabled={isLoading || !subscriptionPackage}
-  //               >
-  //                 <LinearGradient
-  //                   colors={[theme.colors.brandYellow, theme.colors.premium]}
-  //                   style={styles.buttonGradient}
-  //                 >
-  //                   <Text style={styles.primaryButtonText}>
-  //                     {isLoading ? paywall.processing : content.cta}
-  //                   </Text>
-  //                   {subscriptionPackage && (
-  //                     <Text style={styles.primaryButtonSubtext}>
-  //                       {content.highlight}
-  //                     </Text>
-  //                   )}
-  //                 </LinearGradient>
-  //               </TouchableOpacity>
-
-  //               <TouchableOpacity
-  //                 style={styles.restoreButton}
-  //                 onPress={handleRestorePurchases}
-  //                 disabled={isLoading}
-  //               >
-  //                 <Text style={styles.restoreButtonText}>
-  //                   Restore Previous Purchases
-  //                 </Text>
-  //               </TouchableOpacity>
-
-  //               <TouchableOpacity
-  //                 style={styles.secondaryButton}
-  //                 onPress={handleClose}
-  //               >
-  //                 <Text style={styles.secondaryButtonText}>
-  //                   Continue with Free Version
-  //                 </Text>
-  //               </TouchableOpacity>
-  //             </View>
-
-  //             {/* Footer */}
-  //             <View style={styles.footer}>
-  //               <Text style={styles.footerText}>{paywall.footer}</Text>
-  //             </View>
-  //           </ScrollView>
-  //         </View>
-  //       </View>
-  //     </Modal>
-  //   );
 };
 
 const createStyles = (theme: any) =>
   StyleSheet.create({
     backdrop: {
       flex: 1,
-      backgroundColor: "rgba(0, 0, 0, 0.8)",
-      justifyContent: "flex-end",
+      backgroundColor: "rgba(0, 0, 0, 0.85)",
+      justifyContent: "center",
+      alignItems: "center",
     },
+    modernContainer: {
+      backgroundColor: theme.colors.background,
+      borderRadius: 28,
+      maxHeight: screenHeight * 0.92,
+      width: screenWidth * 0.95,
+      overflow: "hidden",
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 8 },
+      shadowOpacity: 0.25,
+      shadowRadius: 24,
+      elevation: 16,
+    },
+    modernHeader: {
+      paddingTop: 50,
+      paddingHorizontal: 24,
+      paddingBottom: 32,
+      borderTopLeftRadius: 28,
+      borderTopRightRadius: 28,
+    },
+    modernCloseButton: {
+      alignSelf: "flex-end",
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      backgroundColor: theme.colors.whiteOverlay20,
+      justifyContent: "center",
+      alignItems: "center",
+      marginBottom: 24,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.2,
+      shadowRadius: 8,
+      elevation: 6,
+    },
+    headerContent: {
+      alignItems: "center",
+    },
+    modernTitle: {
+      fontSize: 26,
+      fontWeight: "700",
+      color: theme.colors.white,
+      textAlign: "center",
+      marginBottom: 8,
+      lineHeight: 32,
+    },
+    modernSubtitle: {
+      fontSize: 16,
+      color: theme.colors.whiteOverlay90,
+      textAlign: "center",
+      lineHeight: 24,
+    },
+    modernContent: {
+      flex: 1,
+    },
+    modernContentContainer: {
+      padding: 24,
+    },
+    pricingSection: {
+      backgroundColor: theme.colors.surface,
+      borderRadius: 20,
+      padding: 24,
+      marginBottom: 24,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.1,
+      shadowRadius: 12,
+      elevation: 6,
+    },
+    pricingHeader: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: 20,
+    },
+    planName: {
+      fontSize: 18,
+      fontWeight: "600",
+      color: theme.colors.white,
+    },
+    savingsBadge: {
+      backgroundColor: theme.colors.success,
+      paddingHorizontal: 12,
+      paddingVertical: 6,
+      borderRadius: 16,
+      shadowColor: theme.colors.success,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.3,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    savingsText: {
+      fontSize: 12,
+      fontWeight: "700",
+      color: theme.colors.white,
+    },
+    priceDisplay: {
+      alignItems: "center",
+      marginBottom: 20,
+    },
+    modernPriceRow: {
+      flexDirection: "row",
+      alignItems: "baseline",
+      marginBottom: 8,
+    },
+    mainPrice: {
+      fontSize: 52,
+      fontWeight: "800",
+      color: theme.colors.white,
+    },
+    periodText: {
+      fontSize: 18,
+      fontWeight: "600",
+      color: theme.colors.whiteOverlay90,
+      marginLeft: 4,
+    },
+    monthlyEquivalent: {
+      fontSize: 16,
+      color: theme.colors.whiteOverlay90,
+      marginBottom: 4,
+      fontWeight: "500",
+    },
+    originalPriceStrike: {
+      fontSize: 14,
+      color: theme.colors.whiteOverlay80,
+      textDecorationLine: "line-through",
+    },
+    trialCallout: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: theme.colors.background,
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      borderRadius: 16,
+      borderWidth: 2,
+      borderColor: theme.colors.brandYellow,
+    },
+    trialText: {
+      fontSize: 14,
+      fontWeight: "600",
+      color: theme.colors.brandYellow,
+      marginLeft: 8,
+    },
+    modernFeaturesSection: {
+      marginBottom: 24,
+    },
+    sectionTitle: {
+      fontSize: 20,
+      fontWeight: "700",
+      color: theme.colors.text,
+      marginBottom: 20,
+      textAlign: "center",
+    },
+    featuresList: {
+      gap: 16,
+    },
+    featureRow: {
+      flexDirection: "row",
+      alignItems: "flex-start",
+    },
+    featureIcon: {
+      width: 24,
+      height: 24,
+      borderRadius: 12,
+      backgroundColor: theme.colors.premium + "20",
+      justifyContent: "center",
+      alignItems: "center",
+      marginRight: 16,
+      marginTop: 2,
+      borderWidth: 2,
+      borderColor: theme.colors.premium,
+    },
+    featureItem: {
+      flexDirection: "row",
+      alignItems: "center",
+      paddingVertical: 12,
+      paddingHorizontal: 8,
+      backgroundColor: theme.colors.surface,
+      borderRadius: 12,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.05,
+      shadowRadius: 4,
+      elevation: 2,
+    },
+    featureIconContainer: {
+      width: 28,
+      height: 28,
+      borderRadius: 14,
+      backgroundColor: theme.colors.premium + "20",
+      justifyContent: "center",
+      alignItems: "center",
+      marginRight: 16,
+      borderWidth: 2,
+      borderColor: theme.colors.premium,
+    },
+    modernFeatureText: {
+      fontSize: 16,
+      color: theme.colors.text,
+      flex: 1,
+      lineHeight: 24,
+      fontWeight: "500",
+    },
+    featureText: {
+      fontSize: 16,
+      color: theme.colors.text,
+      flex: 1,
+      fontWeight: "500",
+    },
+    socialProofSection: {
+      backgroundColor: theme.colors.surface,
+      borderRadius: 20,
+      padding: 24,
+      marginBottom: 24,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.1,
+      shadowRadius: 12,
+      elevation: 6,
+    },
+    ratingDisplay: {
+      alignItems: "center",
+      marginBottom: 20,
+    },
+    ratingStars: {
+      fontSize: 22,
+      color: theme.colors.brandYellow,
+      marginBottom: 6,
+    },
+    ratingText: {
+      fontSize: 14,
+      color: theme.colors.textSecondary,
+      fontWeight: "500",
+    },
+    testimonialsContainer: {
+      gap: 16,
+    },
+    modernTestimonialCard: {
+      backgroundColor: theme.colors.background,
+      padding: 18,
+      borderRadius: 16,
+      borderLeftWidth: 4,
+      borderLeftColor: theme.colors.brandYellow,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.08,
+      shadowRadius: 8,
+      elevation: 4,
+    },
+    modernTestimonialText: {
+      fontSize: 15,
+      color: theme.colors.text,
+      lineHeight: 22,
+      marginBottom: 8,
+      fontStyle: "italic",
+    },
+    modernTestimonialAuthor: {
+      fontSize: 13,
+      color: theme.colors.textSecondary,
+      fontWeight: "600",
+    },
+    ctaSection: {
+      padding: 24,
+      paddingTop: 16,
+      backgroundColor: theme.colors.surface,
+      borderTopWidth: 1,
+      borderTopColor: theme.colors.border,
+    },
+    primaryCTA: {
+      borderRadius: 20,
+      marginBottom: 16,
+      shadowColor: theme.colors.shadowColor,
+      shadowOffset: { width: 0, height: 6 },
+      shadowOpacity: 0.2,
+      shadowRadius: 16,
+      elevation: 8,
+    },
+    disabledButton: {
+      opacity: 0.6,
+    },
+    ctaGradient: {
+      paddingVertical: 20,
+      paddingHorizontal: 24,
+      borderRadius: 20,
+      alignItems: "center",
+    },
+    ctaText: {
+      fontSize: 18,
+      fontWeight: "700",
+      color: theme.colors.white,
+      marginBottom: 4,
+    },
+    ctaSubtext: {
+      fontSize: 14,
+      color: theme.colors.whiteOverlay90,
+      fontWeight: "500",
+    },
+    restoreLink: {
+      paddingVertical: 12,
+      alignItems: "center",
+      marginBottom: 16,
+    },
+    restoreLinkText: {
+      fontSize: 14,
+      fontWeight: "500",
+      color: theme.colors.primary,
+    },
+    trustSection: {
+      alignItems: "center",
+    },
+    trustText: {
+      fontSize: 12,
+      color: theme.colors.textTertiary,
+      textAlign: "center",
+      lineHeight: 18,
+    },
+    // Existing styles for backwards compatibility
     container: {
       backgroundColor: theme.colors.background,
       borderTopLeftRadius: 24,
@@ -1204,29 +1640,6 @@ const createStyles = (theme: any) =>
     featuresGrid: {
       gap: 12,
     },
-    featureItem: {
-      flexDirection: "row",
-      alignItems: "center",
-      paddingVertical: 8,
-      paddingHorizontal: 4,
-    },
-    featureIconContainer: {
-      width: 28,
-      height: 28,
-      borderRadius: 14,
-      backgroundColor: theme.colors.surface,
-      justifyContent: "center",
-      alignItems: "center",
-      marginRight: 16,
-      borderWidth: 1,
-      borderColor: theme.colors.brandYellow,
-    },
-    featureText: {
-      fontSize: 16,
-      color: theme.colors.text,
-      flex: 1,
-      fontWeight: "500",
-    },
     actionSection: {
       marginBottom: 24,
     },
@@ -1244,9 +1657,6 @@ const createStyles = (theme: any) =>
       paddingHorizontal: 24,
       borderRadius: 16,
       alignItems: "center",
-    },
-    disabledButton: {
-      opacity: 0.6,
     },
     primaryButtonText: {
       fontSize: 18,
@@ -1286,539 +1696,5 @@ const createStyles = (theme: any) =>
       color: theme.colors.textTertiary,
       textAlign: "center",
       lineHeight: 16,
-    },
-
-    realPurchaseHeader: {
-      padding: 24,
-      paddingTop: 60,
-      paddingBottom: 32,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-    },
-    limitedTimeBadge: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      padding: 8,
-      borderRadius: 20,
-      marginBottom: 20,
-    },
-    limitedTimeText: {
-      fontSize: 14,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    mainOfferContainer: {
-      alignItems: "center",
-    },
-    realPurchaseTitle: {
-      fontSize: 28,
-      fontWeight: "700",
-      color: theme.colors.white,
-      textAlign: "center",
-      marginBottom: 12,
-    },
-    realPurchaseSubtitle: {
-      fontSize: 16,
-      color: theme.colors.whiteOverlay90,
-      textAlign: "center",
-      lineHeight: 22,
-    },
-    massivePricingCard: {
-      marginBottom: 24,
-      borderRadius: 20,
-      overflow: "hidden",
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.2,
-      shadowRadius: 16,
-      elevation: 8,
-    },
-    priceComparison: {
-      flexDirection: "row",
-      alignItems: "center",
-      marginBottom: 8,
-    },
-    originalPriceLabel: {
-      fontSize: 18,
-      color: theme.colors.whiteOverlay70,
-      marginRight: 12,
-    },
-    originalPriceMassive: {
-      fontSize: 18,
-      color: theme.colors.whiteOverlay70,
-    },
-    discountBanner: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      padding: 8,
-      borderRadius: 8,
-    },
-    discountPercent: {
-      fontSize: 12,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    currentPriceContainer: {
-      alignItems: "center",
-    },
-    currentPriceLabel: {
-      fontSize: 18,
-      color: theme.colors.whiteOverlay70,
-      marginBottom: 4,
-    },
-    currentPriceMassive: {
-      fontSize: 36,
-      fontWeight: "700",
-      color: theme.colors.white,
-    },
-    freeTrialHighlight: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      padding: 8,
-      borderRadius: 20,
-      marginBottom: 20,
-    },
-    freeTrialText: {
-      fontSize: 14,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    socialProofContainer: {
-      alignItems: "center",
-    },
-    socialProofText: {
-      fontSize: 14,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    socialProofSubtext: {
-      fontSize: 12,
-      color: theme.colors.whiteOverlay90,
-    },
-    realPurchaseContent: {
-      flex: 1,
-    },
-    realPurchaseContentContainer: {
-      padding: 24,
-      paddingTop: 0,
-    },
-    whatYouGetSection: {
-      marginBottom: 32,
-    },
-    whatYouGetTitle: {
-      fontSize: 20,
-      fontWeight: "600",
-      color: theme.colors.text,
-      marginBottom: 20,
-      textAlign: "center",
-    },
-    premiumFeaturesList: {
-      gap: 12,
-    },
-    premiumFeatureItem: {
-      flexDirection: "row",
-      alignItems: "center",
-      paddingVertical: 8,
-      paddingHorizontal: 4,
-    },
-    featureIconBig: {
-      width: 28,
-      height: 28,
-      borderRadius: 14,
-      backgroundColor: theme.colors.surface,
-      justifyContent: "center",
-      alignItems: "center",
-      marginRight: 16,
-      borderWidth: 1,
-      borderColor: theme.colors.brandYellow,
-    },
-    premiumFeatureText: {
-      fontSize: 16,
-      color: theme.colors.text,
-      flex: 1,
-      fontWeight: "500",
-    },
-    testimonialsSection: {
-      marginBottom: 32,
-    },
-    testimonialsTitle: {
-      fontSize: 20,
-      fontWeight: "600",
-      color: theme.colors.text,
-      marginBottom: 20,
-      textAlign: "center",
-    },
-    testimonialCardReal: {
-      backgroundColor: theme.colors.surface,
-      padding: 16,
-      borderRadius: 12,
-      marginBottom: 12,
-    },
-    testimonialQuote: {
-      fontSize: 16,
-      color: theme.colors.text,
-      marginBottom: 8,
-    },
-    testimonialAuthorReal: {
-      fontSize: 14,
-      color: theme.colors.textSecondary,
-      fontWeight: "500",
-    },
-    testimonialStars: {
-      flexDirection: "row",
-      alignItems: "center",
-    },
-    starsText: {
-      fontSize: 14,
-      color: theme.colors.brandYellow,
-    },
-    urgencySection: {
-      marginBottom: 32,
-    },
-    urgencyTitle: {
-      fontSize: 20,
-      fontWeight: "600",
-      color: theme.colors.text,
-      marginBottom: 20,
-      textAlign: "center",
-    },
-    urgencyText: {
-      fontSize: 16,
-      color: theme.colors.textSecondary,
-      textAlign: "center",
-    },
-    bottomActionBar: {
-      marginBottom: 24,
-    },
-    massivePurchaseButton: {
-      borderRadius: 16,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.2,
-      shadowRadius: 8,
-      elevation: 6,
-    },
-    massiveButtonGradient: {
-      paddingVertical: 18,
-      paddingHorizontal: 24,
-      borderRadius: 16,
-      alignItems: "center",
-    },
-    massiveButtonText: {
-      fontSize: 18,
-      fontWeight: "700",
-      color: theme.colors.white,
-      marginBottom: 2,
-    },
-    massiveButtonSubtext: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay90,
-    },
-    restoreButtonReal: {
-      paddingVertical: 12,
-      alignItems: "center",
-      marginBottom: 8,
-    },
-    restoreTextReal: {
-      fontSize: 14,
-      fontWeight: "500",
-      color: theme.colors.brandYellow,
-    },
-    trustBadges: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      padding: 8,
-      borderRadius: 20,
-      marginBottom: 20,
-    },
-    trustBadgeText: {
-      fontSize: 12,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-
-    // Modern Clean Design Styles
-    modernContainer: {
-      backgroundColor: theme.colors.background,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-      maxHeight: screenHeight * 0.9,
-      width: "100%",
-      overflow: "hidden",
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: -4 },
-      shadowOpacity: 0.1,
-      shadowRadius: 12,
-      elevation: 10,
-    },
-    modernHeader: {
-      backgroundColor: theme.colors.surface,
-      paddingTop: 50,
-      paddingHorizontal: 24,
-      paddingBottom: 32,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-      borderBottomWidth: 1,
-      borderBottomColor: theme.colors.border,
-    },
-    modernCloseButton: {
-      alignSelf: "flex-end",
-      width: 32,
-      height: 32,
-      borderRadius: 16,
-      backgroundColor: theme.colors.background,
-      justifyContent: "center",
-      alignItems: "center",
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.1,
-      shadowRadius: 4,
-      elevation: 3,
-    },
-    headerContent: {
-      alignItems: "center",
-    },
-    premiumBadge: {
-      backgroundColor: theme.colors.brandYellow,
-      paddingHorizontal: 16,
-      paddingVertical: 6,
-      borderRadius: 16,
-      marginBottom: 16,
-    },
-    premiumBadgeText: {
-      fontSize: 12,
-      fontWeight: "700",
-      color: theme.colors.background,
-      letterSpacing: 0.5,
-    },
-    modernTitle: {
-      fontSize: 24,
-      fontWeight: "700",
-      color: theme.colors.text,
-      textAlign: "center",
-      marginBottom: 8,
-      lineHeight: 30,
-    },
-    modernSubtitle: {
-      fontSize: 16,
-      color: theme.colors.textSecondary,
-      textAlign: "center",
-      lineHeight: 22,
-    },
-    modernContent: {
-      flex: 1,
-    },
-    modernContentContainer: {
-      padding: 24,
-    },
-    pricingSection: {
-      backgroundColor: theme.colors.surface,
-      borderRadius: 16,
-      padding: 24,
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.05,
-      shadowRadius: 8,
-      elevation: 3,
-    },
-    pricingHeader: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    planName: {
-      fontSize: 18,
-      fontWeight: "600",
-      color: theme.colors.text,
-    },
-    savingsBadge: {
-      backgroundColor: theme.colors.success,
-      paddingHorizontal: 12,
-      paddingVertical: 4,
-      borderRadius: 12,
-    },
-    savingsText: {
-      fontSize: 12,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    priceDisplay: {
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    modernPriceRow: {
-      flexDirection: "row",
-      alignItems: "baseline",
-      marginBottom: 8,
-    },
-    mainPrice: {
-      fontSize: 48,
-      fontWeight: "700",
-      color: theme.colors.text,
-    },
-    periodText: {
-      fontSize: 18,
-      fontWeight: "500",
-      color: theme.colors.textSecondary,
-      marginLeft: 4,
-    },
-    monthlyEquivalent: {
-      fontSize: 16,
-      color: theme.colors.textSecondary,
-      marginBottom: 4,
-    },
-    originalPriceStrike: {
-      fontSize: 14,
-      color: theme.colors.textTertiary,
-      textDecorationLine: "line-through",
-    },
-    trialCallout: {
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: theme.colors.background,
-      paddingHorizontal: 16,
-      paddingVertical: 12,
-      borderRadius: 12,
-      borderWidth: 1,
-      borderColor: theme.colors.brandYellow,
-    },
-    trialText: {
-      fontSize: 14,
-      fontWeight: "600",
-      color: theme.colors.brandYellow,
-      marginLeft: 8,
-    },
-    modernFeaturesSection: {
-      marginBottom: 24,
-    },
-    sectionTitle: {
-      fontSize: 18,
-      fontWeight: "600",
-      color: theme.colors.text,
-      marginBottom: 16,
-    },
-    featuresList: {
-      gap: 16,
-    },
-    featureRow: {
-      flexDirection: "row",
-      alignItems: "flex-start",
-    },
-    featureIcon: {
-      width: 20,
-      height: 20,
-      borderRadius: 10,
-      backgroundColor: theme.colors.surface,
-      justifyContent: "center",
-      alignItems: "center",
-      marginRight: 16,
-      marginTop: 2,
-      borderWidth: 1,
-      borderColor: theme.colors.brandYellow,
-    },
-    modernFeatureText: {
-      fontSize: 16,
-      color: theme.colors.text,
-      flex: 1,
-      lineHeight: 24,
-    },
-    socialProofSection: {
-      backgroundColor: theme.colors.surface,
-      borderRadius: 16,
-      padding: 20,
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.05,
-      shadowRadius: 8,
-      elevation: 3,
-    },
-    ratingDisplay: {
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    ratingStars: {
-      fontSize: 20,
-      color: theme.colors.brandYellow,
-      marginBottom: 4,
-    },
-    ratingText: {
-      fontSize: 14,
-      color: theme.colors.textSecondary,
-      fontWeight: "500",
-    },
-    testimonialsContainer: {
-      gap: 16,
-    },
-    modernTestimonialCard: {
-      backgroundColor: theme.colors.background,
-      padding: 16,
-      borderRadius: 12,
-      borderLeftWidth: 3,
-      borderLeftColor: theme.colors.brandYellow,
-    },
-    modernTestimonialText: {
-      fontSize: 15,
-      color: theme.colors.text,
-      lineHeight: 22,
-      marginBottom: 8,
-      fontStyle: "italic",
-    },
-    modernTestimonialAuthor: {
-      fontSize: 13,
-      color: theme.colors.textSecondary,
-      fontWeight: "500",
-    },
-    ctaSection: {
-      padding: 24,
-      paddingTop: 16,
-      backgroundColor: theme.colors.surface,
-      borderTopWidth: 1,
-      borderTopColor: theme.colors.border,
-    },
-    primaryCTA: {
-      borderRadius: 16,
-      marginBottom: 16,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.15,
-      shadowRadius: 12,
-      elevation: 6,
-    },
-    ctaGradient: {
-      paddingVertical: 18,
-      paddingHorizontal: 24,
-      borderRadius: 16,
-      alignItems: "center",
-    },
-    ctaText: {
-      fontSize: 18,
-      fontWeight: "700",
-      color: theme.colors.white,
-      marginBottom: 4,
-    },
-    ctaSubtext: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay90,
-      fontWeight: "500",
-    },
-    restoreLink: {
-      paddingVertical: 12,
-      alignItems: "center",
-      marginBottom: 16,
-    },
-    restoreLinkText: {
-      fontSize: 14,
-      fontWeight: "500",
-      color: theme.colors.primary,
-    },
-    trustSection: {
-      alignItems: "center",
-    },
-    trustText: {
-      fontSize: 12,
-      color: theme.colors.textTertiary,
-      textAlign: "center",
-      lineHeight: 18,
     },
   });

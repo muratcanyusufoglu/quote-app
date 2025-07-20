@@ -87,7 +87,7 @@ export function ShareButton({
         name="square.and.arrow.up"
         size={size}
         color={iconColor || theme.colors.white}
-        strokeWidth={2}
+        strokeWidth={2.5}
       />
     </TouchableOpacity>
   );
