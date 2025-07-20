@@ -15,6 +15,7 @@ interface QuoteReelCardProps {
   onFavoritePress: () => void;
   onShare?: (quote: LocalizedQuote) => void;
   onQuoteAction?: (actionType: string) => void;
+  onMoodIconPress?: () => void;
 }
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
@@ -28,6 +29,7 @@ export function QuoteReelCard({
   onFavoritePress,
   onShare,
   onQuoteAction,
+  onMoodIconPress,
 }: QuoteReelCardProps) {
   const { theme } = useTheme();
   // Tek renk kullan - kategori rengine göre değişmesin
@@ -64,8 +66,31 @@ export function QuoteReelCard({
 
       {/* Top Navigation */}
       <View style={styles.topBar}>
+        {onMoodIconPress && (
+          <TouchableOpacity
+            style={[
+              styles.exploreButton,
+              styles.aiMoodButton,
+              { marginLeft: 12 },
+            ]}
+            onPress={onMoodIconPress}
+          >
+            <View style={styles.aiMoodIcon}>
+              <IconSymbol
+                name="brain"
+                size={24}
+                color={theme.colors.white}
+                strokeWidth={2.5}
+              />
+            </View>
+          </TouchableOpacity>
+        )}
         <TouchableOpacity
-          style={styles.exploreButton}
+          style={[
+            styles.exploreButton,
+            styles.aiMoodButton,
+            { marginLeft: 12 },
+          ]}
           onPress={navigateToExplore}
         >
           <IconSymbol
@@ -174,8 +199,7 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   topBar: {
-    position: "absolute",
-    top: 160, //change later
+    top: 20, //change later
     left: 0,
     right: 0,
     zIndex: 1001,
@@ -186,7 +210,7 @@ const styles = StyleSheet.create({
   exploreButton: {
     width: 44,
     height: 44,
-    backgroundColor: "rgba(0, 0, 0, 0.4)",
+    backgroundColor: "transparent",
     borderRadius: 22,
     justifyContent: "center",
     alignItems: "center",
@@ -207,7 +231,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 24,
-    paddingTop: 80,
     paddingBottom: 120,
     overflow: "visible",
   },
@@ -320,5 +343,19 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
+  },
+  aiMoodIcon: {
+    width: 28,
+    height: 28,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  aiMoodButton: {
+    backgroundColor: "transparent",
+    borderColor: "rgba(255, 255, 255, 0.4)",
+    borderWidth: 2,
+    shadowOpacity: 0.4,
+    shadowRadius: 8,
+    elevation: 8,
   },
 });

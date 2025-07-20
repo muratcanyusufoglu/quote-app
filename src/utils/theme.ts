@@ -122,6 +122,65 @@ const colorPalette = {
   dark800: "#1e293b",
   dark850: "#0f172a",
   dark900: "#020617",
+
+  // Additional colors for complete theme support
+  white: "#FFFFFF",
+  black: "#000000",
+  transparent: "transparent",
+
+  // Text colors
+  textSoft: "#2c3e50",
+  textSoftSecondary: "rgba(44, 62, 80, 0.95)",
+  textSoftTertiary: "rgba(44, 62, 80, 0.75)",
+
+  // Border and background soft colors
+  borderSoft: "rgba(54, 69, 79, 0.1)",
+  backgroundSoft: "rgba(54, 69, 79, 0.05)",
+  borderSoftDark: "rgba(189, 195, 199, 0.1)",
+  backgroundSoftDark: "rgba(189, 195, 199, 0.05)",
+
+  // Overlay colors
+  overlayLight: "rgba(0, 0, 0, 0.5)",
+  overlayDark: "rgba(0, 0, 0, 0.7)",
+  backdropLight: "rgba(0, 0, 0, 0.3)",
+  backdropDark: "rgba(0, 0, 0, 0.5)",
+
+  // Interactive colors
+  favoriteRed: "#ff6b6b",
+  favoriteActive: "#ff4757",
+  goldAccent: "#FFD700",
+
+  // White overlay variations
+  whiteOverlay10: "rgba(255, 255, 255, 0.1)",
+  whiteOverlay20: "rgba(255, 255, 255, 0.2)",
+  whiteOverlay25: "rgba(255, 255, 255, 0.25)",
+  whiteOverlay70: "rgba(255, 255, 255, 0.7)",
+  whiteOverlay80: "rgba(255, 255, 255, 0.8)",
+  whiteOverlay90: "rgba(255, 255, 255, 0.9)",
+
+  // Black overlay variations
+  blackOverlay10: "rgba(0, 0, 0, 0.1)",
+  blackOverlay30: "rgba(0, 0, 0, 0.3)",
+  blackOverlay40: "rgba(0, 0, 0, 0.4)",
+  blackOverlay60: "rgba(0, 0, 0, 0.6)",
+  blackOverlay70: "rgba(0, 0, 0, 0.7)",
+
+  // Anthracite overlay colors
+  anthraciteOverlay10: "rgba(54, 69, 79, 0.1)",
+  anthraciteOverlay20: "rgba(54, 69, 79, 0.2)",
+
+  // Shadow colors
+  shadowColor: "#000000",
+  shadowLight: "rgba(0, 0, 0, 0.1)",
+  shadowMedium: "rgba(0, 0, 0, 0.3)",
+  shadowHeavy: "rgba(0, 0, 0, 0.7)",
+
+  // Gradient colors
+  gradientDark1: "#1a1a1a",
+  gradientDark2: "#2d2d2d",
+  gradientDark3: "#454545",
+  radialOverlayTransparent: "transparent",
+  radialOverlayGolden: "rgba(244, 208, 63, 0.2)",
 } as const;
 
 // Light theme definition
@@ -137,19 +196,19 @@ export const lightTheme: Theme = {
 
     // Backgrounds
     background: colorPalette.gray50,
-    surface: "#ffffff",
-    surfaceElevated: "#ffffff",
+    surface: colorPalette.white,
+    surfaceElevated: colorPalette.white,
 
     // Text colors
     text: colorPalette.gray900,
     textSecondary: colorPalette.gray600,
     textTertiary: colorPalette.gray500,
-    textInverse: "#ffffff",
+    textInverse: colorPalette.white,
 
     // Soft text colors for quote content - Darker for better contrast on golden cards
-    textSoft: "#2c3e50", // Very dark blue-gray for excellent contrast on golden background
-    textSoftSecondary: "rgba(44, 62, 80, 0.95)", // Almost opaque dark secondary
-    textSoftTertiary: "rgba(44, 62, 80, 0.75)", // Darker tertiary for good readability
+    textSoft: colorPalette.textSoft,
+    textSoftSecondary: colorPalette.textSoftSecondary,
+    textSoftTertiary: colorPalette.textSoftTertiary,
 
     // Border colors
     border: colorPalette.gray200,
@@ -157,8 +216,8 @@ export const lightTheme: Theme = {
     borderDark: colorPalette.gray300,
 
     // Soft border and background colors - matching anthracite theme
-    borderSoft: "rgba(54, 69, 79, 0.1)",
-    backgroundSoft: "rgba(54, 69, 79, 0.05)",
+    borderSoft: colorPalette.borderSoft,
+    backgroundSoft: colorPalette.backgroundSoft,
 
     // State colors
     error: colorPalette.red500,
@@ -174,52 +233,57 @@ export const lightTheme: Theme = {
     accent: colorPalette.amber500,
 
     // Overlay colors
-    overlay: "rgba(0, 0, 0, 0.5)",
-    backdrop: "rgba(0, 0, 0, 0.3)",
+    overlay: colorPalette.overlayLight,
+    backdrop: colorPalette.backdropLight,
 
     // App-wide gradient and brand colors
     brandYellow: colorPalette.golden200,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
+    gradientColors: [
+      colorPalette.gradientDark1,
+      colorPalette.gradientDark2,
+      colorPalette.gradientDark3,
+      colorPalette.golden500,
+    ],
     gradientLocations: [0, 0.3, 0.7, 1],
     radialOverlayColors: [
-      "transparent",
-      `rgba(244, 208, 63, 0.2)`,
-      "transparent",
+      colorPalette.radialOverlayTransparent,
+      colorPalette.radialOverlayGolden,
+      colorPalette.radialOverlayTransparent,
     ],
 
     // Common semantic colors used throughout the app
-    white: "#FFFFFF",
-    black: "#000000",
-    transparent: "transparent",
+    white: colorPalette.white,
+    black: colorPalette.black,
+    transparent: colorPalette.transparent,
 
     // Shadow and overlay colors
-    shadowColor: "#000000",
-    shadowLight: "rgba(0, 0, 0, 0.1)",
-    shadowMedium: "rgba(0, 0, 0, 0.3)",
-    shadowHeavy: "rgba(0, 0, 0, 0.7)",
+    shadowColor: colorPalette.shadowColor,
+    shadowLight: colorPalette.shadowLight,
+    shadowMedium: colorPalette.shadowMedium,
+    shadowHeavy: colorPalette.shadowHeavy,
 
     // Interactive colors
-    favoriteRed: "#ff6b6b",
-    favoriteActive: "#ff4757",
-    goldAccent: "#FFD700",
+    favoriteRed: colorPalette.favoriteRed,
+    favoriteActive: colorPalette.favoriteActive,
+    goldAccent: colorPalette.goldAccent,
 
     // Overlay and background variations
-    whiteOverlay10: "rgba(255, 255, 255, 0.1)",
-    whiteOverlay20: "rgba(255, 255, 255, 0.2)",
-    whiteOverlay25: "rgba(255, 255, 255, 0.25)",
-    whiteOverlay70: "rgba(255, 255, 255, 0.7)",
-    whiteOverlay80: "rgba(255, 255, 255, 0.8)",
-    whiteOverlay90: "rgba(255, 255, 255, 0.9)",
+    whiteOverlay10: colorPalette.whiteOverlay10,
+    whiteOverlay20: colorPalette.whiteOverlay20,
+    whiteOverlay25: colorPalette.whiteOverlay25,
+    whiteOverlay70: colorPalette.whiteOverlay70,
+    whiteOverlay80: colorPalette.whiteOverlay80,
+    whiteOverlay90: colorPalette.whiteOverlay90,
 
-    blackOverlay10: "rgba(0, 0, 0, 0.1)",
-    blackOverlay30: "rgba(0, 0, 0, 0.3)",
-    blackOverlay40: "rgba(0, 0, 0, 0.4)",
-    blackOverlay60: "rgba(0, 0, 0, 0.6)",
-    blackOverlay70: "rgba(0, 0, 0, 0.7)",
+    blackOverlay10: colorPalette.blackOverlay10,
+    blackOverlay30: colorPalette.blackOverlay30,
+    blackOverlay40: colorPalette.blackOverlay40,
+    blackOverlay60: colorPalette.blackOverlay60,
+    blackOverlay70: colorPalette.blackOverlay70,
 
     // Anthracite overlay colors (for soft text backgrounds)
-    anthraciteOverlay10: "rgba(54, 69, 79, 0.1)",
-    anthraciteOverlay20: "rgba(54, 69, 79, 0.2)",
+    anthraciteOverlay10: colorPalette.anthraciteOverlay10,
+    anthraciteOverlay20: colorPalette.anthraciteOverlay20,
   },
   spacing: {
     xs: 4,
@@ -280,9 +344,9 @@ export const darkTheme: Theme = {
     textInverse: colorPalette.gray900,
 
     // Soft text colors for quote content (adjusted for dark theme) - Darkened for better contrast on golden cards
-    textSoft: "#2c3e50", // Dark blue-gray (much better contrast on golden background)
-    textSoftSecondary: "rgba(44, 62, 80, 0.9)", // Darker secondary with high opacity
-    textSoftTertiary: "rgba(44, 62, 80, 0.7)", // Darker tertiary for better readability
+    textSoft: colorPalette.textSoft,
+    textSoftSecondary: colorPalette.textSoftSecondary,
+    textSoftTertiary: colorPalette.textSoftTertiary,
 
     // Border colors
     border: colorPalette.dark600,
@@ -290,8 +354,8 @@ export const darkTheme: Theme = {
     borderDark: colorPalette.dark500,
 
     // Soft border and background colors (adjusted for dark theme)
-    borderSoft: "rgba(189, 195, 199, 0.1)",
-    backgroundSoft: "rgba(189, 195, 199, 0.05)",
+    borderSoft: colorPalette.borderSoftDark,
+    backgroundSoft: colorPalette.backgroundSoftDark,
 
     // State colors
     error: colorPalette.red400,
@@ -307,52 +371,57 @@ export const darkTheme: Theme = {
     accent: colorPalette.amber400,
 
     // Overlay colors
-    overlay: "rgba(0, 0, 0, 0.7)",
-    backdrop: "rgba(0, 0, 0, 0.5)",
+    overlay: colorPalette.overlayDark,
+    backdrop: colorPalette.backdropDark,
 
     // App-wide gradient and brand colors
     brandYellow: colorPalette.golden300, // Orta açık sarı - dark tema için uygun
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#454545", colorPalette.golden500],
+    gradientColors: [
+      colorPalette.gradientDark1,
+      colorPalette.gradientDark2,
+      colorPalette.gradientDark3,
+      colorPalette.golden500,
+    ],
     gradientLocations: [0, 0.3, 0.7, 1],
     radialOverlayColors: [
-      "transparent",
-      `rgba(244, 208, 63, 0.2)`,
-      "transparent",
+      colorPalette.radialOverlayTransparent,
+      colorPalette.radialOverlayGolden,
+      colorPalette.radialOverlayTransparent,
     ],
 
     // Common semantic colors used throughout the app
-    white: "#FFFFFF",
-    black: "#000000",
-    transparent: "transparent",
+    white: colorPalette.white,
+    black: colorPalette.black,
+    transparent: colorPalette.transparent,
 
     // Shadow and overlay colors
-    shadowColor: "#000000",
-    shadowLight: "rgba(0, 0, 0, 0.1)",
-    shadowMedium: "rgba(0, 0, 0, 0.3)",
-    shadowHeavy: "rgba(0, 0, 0, 0.7)",
+    shadowColor: colorPalette.shadowColor,
+    shadowLight: colorPalette.shadowLight,
+    shadowMedium: colorPalette.shadowMedium,
+    shadowHeavy: colorPalette.shadowHeavy,
 
     // Interactive colors
-    favoriteRed: "#ff6b6b",
-    favoriteActive: "#ff4757",
-    goldAccent: "#FFD700",
+    favoriteRed: colorPalette.favoriteRed,
+    favoriteActive: colorPalette.favoriteActive,
+    goldAccent: colorPalette.goldAccent,
 
     // Overlay and background variations
-    whiteOverlay10: "rgba(255, 255, 255, 0.1)",
-    whiteOverlay20: "rgba(255, 255, 255, 0.2)",
-    whiteOverlay25: "rgba(255, 255, 255, 0.25)",
-    whiteOverlay70: "rgba(255, 255, 255, 0.7)",
-    whiteOverlay80: "rgba(255, 255, 255, 0.8)",
-    whiteOverlay90: "rgba(255, 255, 255, 0.9)",
+    whiteOverlay10: colorPalette.whiteOverlay10,
+    whiteOverlay20: colorPalette.whiteOverlay20,
+    whiteOverlay25: colorPalette.whiteOverlay25,
+    whiteOverlay70: colorPalette.whiteOverlay70,
+    whiteOverlay80: colorPalette.whiteOverlay80,
+    whiteOverlay90: colorPalette.whiteOverlay90,
 
-    blackOverlay10: "rgba(0, 0, 0, 0.1)",
-    blackOverlay30: "rgba(0, 0, 0, 0.3)",
-    blackOverlay40: "rgba(0, 0, 0, 0.4)",
-    blackOverlay60: "rgba(0, 0, 0, 0.6)",
-    blackOverlay70: "rgba(0, 0, 0, 0.7)",
+    blackOverlay10: colorPalette.blackOverlay10,
+    blackOverlay30: colorPalette.blackOverlay30,
+    blackOverlay40: colorPalette.blackOverlay40,
+    blackOverlay60: colorPalette.blackOverlay60,
+    blackOverlay70: colorPalette.blackOverlay70,
 
     // Anthracite overlay colors (for soft text backgrounds)
-    anthraciteOverlay10: "rgba(54, 69, 79, 0.1)",
-    anthraciteOverlay20: "rgba(54, 69, 79, 0.2)",
+    anthraciteOverlay10: colorPalette.anthraciteOverlay10,
+    anthraciteOverlay20: colorPalette.anthraciteOverlay20,
   },
   spacing: lightTheme.spacing,
   typography: lightTheme.typography,

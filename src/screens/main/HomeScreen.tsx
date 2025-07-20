@@ -1,12 +1,14 @@
-import DebugPanel from "@/src/components/ui/DebugPanel";
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { QuoteReels } from "../../components/reels";
+import { AIMessageCard } from "../../components/ui/AIMessageCard";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
+import { MoodSelectionModal } from "../../components/ui/MoodSelectionModal";
 import StreakModal from "../../components/ui/StreakModal";
 import { useAnalytics } from "../../hooks/useAnalytics";
+import { useMoodMotivation } from "../../hooks/useMoodMotivation";
 import {
   useExploreQuotes,
   useHomeQuotes,
@@ -37,6 +39,19 @@ export function HomeScreen() {
 
   // Analytics
   const { trackScreen, trackQuoteView, trackCategoryFilter } = useAnalytics();
+
+  // Mood-based motivation
+  const {
+    isModalVisible,
+    isGenerating,
+    generatedMessage,
+    showModal,
+    hideModal,
+    handleMoodComplete,
+    handleTryDifferent,
+    handleShare,
+    handleClose,
+  } = useMoodMotivation();
 
   // Router parameters for category selection from explore
   const { selectedCategory } = useLocalSearchParams();
@@ -262,7 +277,7 @@ export function HomeScreen() {
       safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
-      {__DEV__ && (
+      {/* {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -275,7 +290,7 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )}
+      )} */}
 
       {/* Streak Modal */}
       <StreakModal
@@ -284,6 +299,24 @@ export function HomeScreen() {
         isStreakContinued={isStreakContinued}
         onClose={() => setStreakModalVisible(false)}
       />
+
+      {/* Mood Selection Modal */}
+      <MoodSelectionModal
+        visible={isModalVisible}
+        onClose={hideModal}
+        onComplete={handleMoodComplete}
+      />
+
+      {/* AI Generated Message Card */}
+      {generatedMessage && (
+        <AIMessageCard
+          message={generatedMessage}
+          isLoading={isGenerating}
+          onShare={handleShare}
+          onTryDifferent={handleTryDifferent}
+          onClose={handleClose}
+        />
+      )}
 
       {/* Category filter indicator - Show when category is selected */}
       {categoryFilter && selectedCategoryData && (
@@ -338,6 +371,7 @@ export function HomeScreen() {
         onQuoteAction={handleQuoteAction}
         refreshControl={true}
         categoryFilter={categoryFilter}
+        onMoodIconPress={showModal}
       />
     </BaseScreen>
   );

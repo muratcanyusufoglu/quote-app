@@ -31,6 +31,7 @@ interface QuoteReelsProps {
   onQuoteAction?: (actionType: string) => void;
   refreshControl?: boolean;
   categoryFilter?: string | null;
+  onMoodIconPress?: () => void;
 }
 
 const { height: screenHeight } = Dimensions.get("window");
@@ -42,6 +43,7 @@ export function QuoteReels({
   onQuoteAction,
   refreshControl = true,
   categoryFilter = null,
+  onMoodIconPress,
 }: QuoteReelsProps) {
   const { theme } = useTheme();
   const flatListRef = useRef<FlatList>(null);
@@ -332,6 +334,7 @@ export function QuoteReels({
           handleQuoteAction("share");
         }}
         onQuoteAction={handleQuoteAction}
+        onMoodIconPress={onMoodIconPress}
       />
     ),
     [
@@ -340,6 +343,7 @@ export function QuoteReels({
       handleFavoritePress,
       handleShare,
       handleQuoteAction,
+      onMoodIconPress,
     ]
   );
 

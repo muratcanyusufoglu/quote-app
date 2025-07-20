@@ -147,6 +147,7 @@ export function usePaywallTranslations() {
       features: tNamespace("paywall.features"),
       pricing: tNamespace("paywall.pricing"),
       alerts: tNamespace("paywall.alerts"),
+
       footer: translationService.translate("paywall.footer", language),
       processing: translationService.translate("paywall.processing", language),
       startFreeTrial: translationService.translate(
@@ -166,8 +167,6 @@ export function usePaywallTranslations() {
         language
       ),
       getPremium: translationService.translate("paywall.get_premium", language),
-      debug: tNamespace("paywall.debug"),
-      testimonials: tNamespace("paywall.testimonials"),
     }),
     [tNamespace, language]
   );
