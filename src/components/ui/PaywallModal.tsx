@@ -23,6 +23,7 @@ import {
   SubscriptionPackage,
 } from "../../services/PaywallService";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
+import { usePurchaseSelectors } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
@@ -401,6 +402,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const isVisible = usePaywallSelectors.isVisible();
   const triggerSource = usePaywallSelectors.triggerSource();
   const { hidePaywall } = usePaywallSelectors.actions();
+  const { setPremium } = usePurchaseSelectors.actions();
   const [isLoading, setIsLoading] = useState(false);
   const [subscriptionPackage, setSubscriptionPackage] =
     useState<SubscriptionPackage | null>(null);
@@ -649,6 +651,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       );
 
       if (result.success) {
+        // Immediately update premium status in the store
+        console.log("✅ Purchase successful, updating premium status...");
+        setPremium(result.isPremium ?? true);
+
         Alert.alert(
           paywall.alerts.purchase_successful,
           paywall.alerts.welcome_premium,
@@ -689,6 +695,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       const result = await paywallService.restorePurchases();
 
       if (result.success) {
+        // Immediately update premium status in the store
+        console.log("✅ Purchases restored, updating premium status...");
+        setPremium(result.isPremium ?? true);
+
         Alert.alert(
           paywall.alerts.purchases_restored,
           paywall.alerts.restored_successfully,

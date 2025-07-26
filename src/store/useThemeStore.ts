@@ -15,21 +15,12 @@ interface ThemeStoreState {
   selectedTheme: ThemeOption;
   colorScheme: ColorScheme;
   _hasHydrated: boolean;
-  customColors?: {
-    primary?: string;
-    secondary?: string;
-    accent?: string;
-    surface?: string;
-    background?: string;
-  };
 }
 
 interface ThemeStoreActions {
   setTheme: (theme: ThemeOption) => void;
   setColorScheme: (scheme: ColorScheme) => void;
   setHasHydrated: (hydrated: boolean) => void;
-  setCustomColors: (colors: ThemeStoreState["customColors"]) => void;
-  resetCustomColors: () => void;
 }
 
 type ThemeStore = ThemeStoreState & ThemeStoreActions;
@@ -56,16 +47,6 @@ export const useThemeStore = create<ThemeStore>()(
       setHasHydrated: (hydrated: boolean) => {
         set({ _hasHydrated: hydrated });
       },
-
-      setCustomColors: (colors: ThemeStoreState["customColors"]) => {
-        console.log(`🎨 Custom colors updated:`, colors);
-        set({ customColors: colors });
-      },
-
-      resetCustomColors: () => {
-        console.log(`🎨 Custom colors reset`);
-        set({ customColors: undefined });
-      },
     }),
     {
       name: "theme-storage",
@@ -82,12 +63,9 @@ export const useThemeSelectors = {
   selectedTheme: () => useThemeStore((state) => state.selectedTheme),
   colorScheme: () => useThemeStore((state) => state.colorScheme),
   hasHydrated: () => useThemeStore((state) => state._hasHydrated),
-  customColors: () => useThemeStore((state) => state.customColors),
   actions: () =>
     useThemeStore((state) => ({
       setTheme: state.setTheme,
       setColorScheme: state.setColorScheme,
-      setCustomColors: state.setCustomColors,
-      resetCustomColors: state.resetCustomColors,
     })),
 };

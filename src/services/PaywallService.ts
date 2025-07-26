@@ -26,6 +26,7 @@ export interface PurchaseResult {
   transactionId?: string;
   error?: string;
   userCancelled?: boolean;
+  isPremium?: boolean;
 }
 
 export interface SubscriptionStatus {
@@ -388,6 +389,22 @@ export class PaywallService {
 
     if (result.success) {
       console.log("✅ Purchase successful!");
+
+      // Check if premium status is now active
+      try {
+        const status = await this.getSubscriptionStatus();
+        console.log("📊 Updated subscription status:", status);
+
+        // Update the result with premium status
+        return {
+          ...result,
+          isPremium: status.isActive || status.isInTrialPeriod,
+        };
+      } catch (error) {
+        console.error("Failed to check updated subscription status:", error);
+        // Return success anyway, the store will handle the status update
+        return result;
+      }
     } else if (result.userCancelled) {
       console.log("❌ Purchase cancelled by user");
       await PaywallStrategy.markFirstOfferRejected();
@@ -399,7 +416,32 @@ export class PaywallService {
   }
 
   async restorePurchases(): Promise<PurchaseResult> {
-    return await this.purchaseProvider.restorePurchases();
+    const result = await this.purchaseProvider.restorePurchases();
+
+    if (result.success) {
+      console.log("✅ Purchases restored successfully!");
+
+      // Check if premium status is now active
+      try {
+        const status = await this.getSubscriptionStatus();
+        console.log("📊 Updated subscription status after restore:", status);
+
+        // Update the result with premium status
+        return {
+          ...result,
+          isPremium: status.isActive || status.isInTrialPeriod,
+        };
+      } catch (error) {
+        console.error(
+          "Failed to check updated subscription status after restore:",
+          error
+        );
+        // Return success anyway, the store will handle the status update
+        return result;
+      }
+    }
+
+    return result;
   }
 
   async getSubscriptionStatus(): Promise<SubscriptionStatus> {
