@@ -216,29 +216,36 @@
     "get_premium_access": "Get Premium Access",
     "unlock_stories": "Unlock All Stories",
     "remove_limits": "Remove All Limits",
-    "get_premium": "Get Premium",
-    "testimonials": [
-      {
-        "text": "This app completely changed how I start my mornings. I'm more motivated than ever!",
-        "author": "Sarah K., CEO"
-      },
-      {
-        "text": "The personalized quotes and stories are exactly what I needed for my entrepreneurial journey.",
-        "author": "Michael R., Founder"
-      }
-    ],
-    "debug": {
-      "title": "🐛 Debug Info",
-      "modal_visible": "Modal Visible:",
-      "trigger_source": "Trigger Source:",
-      "loading_state": "Loading State:",
-      "platform": "Platform:",
-      "subscription_package": "Subscription Package:",
-      "id": "ID:",
-      "title_field": "Title:",
-      "current_price": "Current Price:",
-      "trial_days": "Trial Days:",
-      "none": "none"
+    "get_premium": "Get Premium"
+  },
+  "mood_motivation": {
+    "title": "Mood-Based Motivation",
+    "subtitle": "Get personalized motivation based on how you feel",
+    "question_feeling": "How are you feeling generally?",
+    "question_energy": "What's your energy level?",
+    "question_affecting": "What's affecting you most today?",
+    "generating": "Generating your personalized message...",
+    "share": "Share",
+    "try_different": "Try a Different Message",
+    "error_generating": "Error generating message",
+    "error_message": "Please try again later",
+    "close": "Close",
+    "emojis": {
+      "happy": "Happy",
+      "calm": "Calm",
+      "neutral": "Neutral",
+      "sad": "Sad",
+      "very_sad": "Very Sad",
+      "very_energetic": "Very Energetic",
+      "energetic": "Energetic",
+      "tired": "Tired",
+      "very_tired": "Very Tired",
+      "motivation": "Motivation",
+      "stress": "Stress",
+      "anger": "Anger",
+      "thoughts": "Thoughts",
+      "anxiety": "Anxiety",
+      "goals": "Goals"
     }
   },
   "onboarding": {
@@ -371,32 +378,29 @@
     "upgrade": "Upgrade to Premium"
   },
   "themes": {
-    "title": "Themes",
-    "brightness": "Brightness",
-    "brightness_description": "Choose light, dark, or system setting",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "color_themes": "Color Themes",
-    "color_themes_description": "Choose your preferred color palette",
-    "preview": "Preview",
-    "sample_text": "This is how text will look with your selected theme.",
-    "apply": "Apply",
-    "theme_names": {
-      "default": "Golden",
-      "ocean": "Ocean",
-      "forest": "Forest",
-      "sunset": "Sunset",
-      "purple": "Purple",
-      "minimalist": "Minimalist"
+    "golden": {
+      "name": "Golden",
+      "description": "Warm and inspiring golden theme"
     },
-    "theme_descriptions": {
-      "default": "Warm and inspiring golden theme",
-      "ocean": "Calming blues and teals",
-      "forest": "Natural greens and earth tones",
-      "sunset": "Warm oranges and reds",
-      "purple": "Royal purples and lavender",
-      "minimalist": "Clean grays and sophisticated tones"
+    "ocean": {
+      "name": "Ocean",
+      "description": "Calming blues and teals"
+    },
+    "forest": {
+      "name": "Forest",
+      "description": "Natural greens and earth tones"
+    },
+    "sunset": {
+      "name": "Sunset",
+      "description": "Warm oranges and reds"
+    },
+    "purple": {
+      "name": "Purple",
+      "description": "Royal purples and lavender"
+    },
+    "minimalist": {
+      "name": "Minimalist",
+      "description": "Clean grays and sophisticated tones"
     }
   }
 } 

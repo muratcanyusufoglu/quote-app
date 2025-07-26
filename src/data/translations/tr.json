@@ -218,6 +218,36 @@
     "remove_limits": "Tüm Limitleri Kaldır",
     "get_premium": "Premium Ol"
   },
+  "mood_motivation": {
+    "title": "Ruh Haline Dayalı Motivasyon",
+    "subtitle": "Nasıl hissettiğinize göre kişiselleştirilmiş motivasyon alın",
+    "question_feeling": "Genel olarak nasıl hissediyorsunuz?",
+    "question_energy": "Enerji seviyeniz nedir?",
+    "question_affecting": "Bugün sizi en çok ne etkiliyor?",
+    "generating": "Kişiselleştirilmiş mesajınız oluşturuluyor...",
+    "share": "Paylaş",
+    "try_different": "Farklı Bir Mesaj Dene",
+    "error_generating": "Mesaj oluşturma hatası",
+    "error_message": "Lütfen daha sonra tekrar deneyin",
+    "close": "Kapat",
+    "emojis": {
+      "happy": "Mutlu",
+      "calm": "Sakin",
+      "neutral": "Nötr",
+      "sad": "Üzgün",
+      "very_sad": "Çok Üzgün",
+      "very_energetic": "Çok Enerjik",
+      "energetic": "Enerjik",
+      "tired": "Yorgun",
+      "very_tired": "Çok Yorgun",
+      "motivation": "Motivasyon",
+      "stress": "Stres",
+      "anger": "Öfke",
+      "thoughts": "Düşünceler",
+      "anxiety": "Kaygı",
+      "goals": "Hedefler"
+    }
+  },
   "onboarding": {
     "welcome": "Hoş Geldiniz",
     "get_started": "Başlayalım",
@@ -235,7 +265,6 @@
     "notifications_per_day": "bildirim/gün",
     "time_start_label": "Başlangıç:",
     "time_end_label": "Bitiş:",
-    "time_start_prompt": "Başlangıç Saati",
     "time_end_prompt": "Bitiş Saati",
     "time_format_instruction_start": "Saat formatında giriniz (örn: 09:00)",
     "time_format_instruction_end": "Saat formatında giriniz (örn: 18:00)",
@@ -348,57 +377,29 @@
     "upgrade": "Premium'a Yükselt"
   },
   "themes": {
-    "title": "Temalar",
-    "brightness": "Parlaklık",
-    "brightness_description": "Açık, koyu veya sistem ayarını seçin",
-    "light": "Açık",
-    "dark": "Koyu",
-    "system": "Sistem",
-    "color_themes": "Renk Temaları",
-    "color_themes_description": "Tercih ettiğiniz renk paletini seçin",
-    "preview": "Önizleme",
-    "sample_text": "Seçtiğiniz tema ile metin bu şekilde görünecek.",
-    "apply": "Uygula",
-    "theme_names": {
-      "default": "Altın",
-      "ocean": "Okyanus",
-      "forest": "Orman",
-      "sunset": "Gün Batımı",
-      "purple": "Mor",
-      "minimalist": "Minimalist"
+    "golden": {
+      "name": "Altın",
+      "description": "Sıcak ve ilham verici altın tema"
     },
-    "theme_descriptions": {
-      "default": "Sıcak ve ilham verici altın tema",
-      "ocean": "Sakinleştirici mavi ve turkuaz tonları",
-      "forest": "Doğal yeşil ve toprak tonları",
-      "sunset": "Sıcak turuncu ve kırmızı tonları",
-      "purple": "Kraliyet moru ve lavanta tonları",
-      "minimalist": "Temiz gri ve sofistike tonlar"
-    }
-  },
-  "paywall": {
-    "testimonials": [
-      {
-        "text": "Bu uygulama sabahlarımı tamamen değiştirdi. Artık çok daha motiveyim!",
-        "author": "Sarah K., CEO"
-      },
-      {
-        "text": "Kişiselleştirilmiş alıntılar ve hikayeler girişimcilik yolculuğumda tam ihtiyacım olan şeydi.",
-        "author": "Michael R., Kurucu"
-      }
-    ],
-    "debug": {
-      "title": "🐛 Hata Ayıklama Bilgisi",
-      "modal_visible": "Modal Görünürlüğü:",
-      "trigger_source": "Tetikleyici Kaynağı:",
-      "loading_state": "Yüklenme Durumu:",
-      "platform": "Platform:",
-      "subscription_package": "Abonelik Paketi:",
-      "id": "ID:",
-      "title_field": "Başlık:",
-      "current_price": "Güncel Fiyat:",
-      "trial_days": "Deneme Günleri:",
-      "none": "yok"
+    "ocean": {
+      "name": "Okyanus",
+      "description": "Sakinleştirici mavi ve turkuaz"
+    },
+    "forest": {
+      "name": "Orman",
+      "description": "Doğal yeşil ve toprak tonları"
+    },
+    "sunset": {
+      "name": "Gün Batımı",
+      "description": "Sıcak turuncu ve kırmızı"
+    },
+    "purple": {
+      "name": "Mor",
+      "description": "Kraliyet moru ve lavanta"
+    },
+    "minimalist": {
+      "name": "Minimalist",
+      "description": "Temiz gri ve sofistike tonlar"
     }
   }
 } 
