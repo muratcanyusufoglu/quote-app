@@ -157,8 +157,13 @@ class LegacyQuoteService {
       );
     }
 
-    // Filter by selected categories if provided
+    // Filter by selected categories if provided (no mapping needed, selectedCategories are already proper IDs)
     if (selectedCategories && selectedCategories.length > 0) {
+      console.log(
+        `🎯 LegacyService filtering by selected categories:`,
+        selectedCategories
+      );
+
       availableQuotes = availableQuotes.filter((quote) =>
         selectedCategories.includes(quote.category)
       );
@@ -170,21 +175,17 @@ class LegacyQuoteService {
     // Convert to localized quotes with language check
     const localizedQuotes = availableQuotes
       .map((quote) => this.localizeQuote(quote, language))
-      .filter((localizedQuote) => {
-        // Additional check: ensure the quote has content in the requested language
-        const hasContent =
-          localizedQuote.text && localizedQuote.text.trim().length > 0;
-        if (!hasContent) {
-          console.warn(
-            `⚠️ Quote ${localizedQuote.id} has no content in ${language}`
-          );
-        }
-        return hasContent;
+      .filter((quote) => {
+        // Ensure we have valid content in the target language
+        const hasValidText = quote.text && quote.text.trim().length > 0;
+        const hasValidAuthor = quote.author && quote.author.trim().length > 0;
+        return hasValidText && hasValidAuthor;
       });
 
     console.log(
       `✅ Final localized quotes for ${language}: ${localizedQuotes.length}`
     );
+
     return localizedQuotes;
   }
 
@@ -243,13 +244,19 @@ class LegacyQuoteService {
       userPreferences.selectedCategories
     );
 
+    // Map user's selected categories for weight calculation
+    const mappedSelectedCategories = userPreferences.selectedCategories;
+
     // Create weight function based on user preferences
     const weightFunction = (quote: LocalizedQuote): number => {
       let weight = 1; // Base weight
 
-      // Increase weight for selected categories
-      if (userPreferences.selectedCategories.includes(quote.category)) {
+      // Increase weight for selected categories - use mapped categories
+      if (mappedSelectedCategories.includes(quote.category)) {
         weight += 2;
+        console.log(
+          `🎯 LegacyService weight boost for category match: ${quote.category}`
+        );
       }
 
       // Increase weight for preferred topics

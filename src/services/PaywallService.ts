@@ -356,6 +356,46 @@ export class PaywallService {
     this.packages = await this.purchaseProvider.getAvailablePackages();
   }
 
+  // Check if user has premium access from RevenueCat
+  async hasActiveSubscription(): Promise<boolean> {
+    try {
+      const status = await this.getSubscriptionStatus();
+      return status.isActive || status.isInTrialPeriod;
+    } catch (error) {
+      console.error("Failed to check active subscription:", error);
+      return false;
+    }
+  }
+
+  // Check if user is in trial period
+  async isInTrialPeriod(): Promise<boolean> {
+    try {
+      const status = await this.getSubscriptionStatus();
+      return status.isInTrialPeriod;
+    } catch (error) {
+      console.error("Failed to check trial period:", error);
+      return false;
+    }
+  }
+
+  // Get detailed subscription status from RevenueCat
+  async getDetailedSubscriptionStatus(): Promise<{
+    isActive: boolean;
+    isInTrialPeriod: boolean;
+    autoRenewEnabled: boolean;
+  }> {
+    try {
+      return await this.getSubscriptionStatus();
+    } catch (error) {
+      console.error("Failed to get detailed subscription status:", error);
+      return {
+        isActive: false,
+        isInTrialPeriod: false,
+        autoRenewEnabled: false,
+      };
+    }
+  }
+
   async getSubscriptionPackages(): Promise<SubscriptionPackage[]> {
     if (this.packages.length === 0) {
       this.packages = await this.purchaseProvider.getAvailablePackages();

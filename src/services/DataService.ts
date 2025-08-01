@@ -21,13 +21,24 @@ interface DataCache {
 
 // Single Responsibility: Handle modular data loading and caching
 export class DataService {
+  private static instance: DataService;
   private cache: DataCache = {
     categories: null,
     quotes: new Map(),
     lastUpdated: new Map(),
   };
 
-  private readonly CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+  // Cache duration (5 minutes)
+  private readonly CACHE_DURATION = 5 * 60 * 1000;
+
+  private constructor() {}
+
+  static getInstance(): DataService {
+    if (!DataService.instance) {
+      DataService.instance = new DataService();
+    }
+    return DataService.instance;
+  }
 
   private translations = {
     tr: trTranslations,
@@ -314,4 +325,4 @@ export class DataService {
 }
 
 // Export singleton instance
-export const dataService = new DataService();
+export const dataService = DataService.getInstance();

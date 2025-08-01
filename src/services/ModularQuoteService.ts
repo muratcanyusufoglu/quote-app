@@ -13,21 +13,12 @@ import { quoteFilterService } from "./QuoteFilterService";
 export class ModularQuoteService {
   private isInitialized = false;
 
-  constructor() {
-    this.initializeAsync();
-  }
+  async initialize(): Promise<void> {
+    if (this.isInitialized) return;
 
-  // Initialize service asynchronously
-  private async initializeAsync(): Promise<void> {
     try {
-      console.log("🚀 Initializing ModularQuoteService...");
-
-      // Validate data integrity
-      const validation = await dataService.validateData();
-      if (!validation.isValid) {
-        console.warn("⚠️ Data validation warnings:", validation.errors);
-      }
-
+      // Initialize data service
+      await dataService.loadCategories();
       this.isInitialized = true;
       console.log("✅ ModularQuoteService initialized");
     } catch (error) {
@@ -86,12 +77,13 @@ export class ModularQuoteService {
     let categoriesToLoad: string[];
 
     if (selectedCategories && selectedCategories.length > 0) {
-      // Filter selected categories by access
+      // Filter selected categories by access (no mapping needed, selectedCategories are already proper IDs)
       const accessibleCategories = quoteFilterService.filterCategoriesByAccess(
         categories.filter((cat) => selectedCategories.includes(cat.id)),
         isPremium
       );
       categoriesToLoad = accessibleCategories.map((cat) => cat.id);
+      console.log(`🎯 Using selected categories:`, selectedCategories);
     } else {
       // Load all accessible categories
       const accessibleCategories = quoteFilterService.filterCategoriesByAccess(
@@ -163,13 +155,17 @@ export class ModularQuoteService {
       );
     }
 
+    // Map user's selected categories for weight calculation
+    const mappedSelectedCategories = userPreferences.selectedCategories;
+
     // Weight function for personalization
     const weightFunction = (quote: LocalizedQuote): number => {
       let weight = 1;
 
-      // Category preference weight
-      if (userPreferences.selectedCategories.includes(quote.category)) {
+      // Category preference weight - use mapped categories
+      if (mappedSelectedCategories.includes(quote.category)) {
         weight += 2;
+        console.log(`🎯 Weight boost for category match: ${quote.category}`);
       }
 
       // Topic preference weight

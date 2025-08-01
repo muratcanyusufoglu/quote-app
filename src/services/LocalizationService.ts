@@ -1,9 +1,15 @@
-import { Category, LocalizedCategory, LocalizedQuote, Quote } from "../types";
+import {
+  Category,
+  Language,
+  LocalizedCategory,
+  LocalizedQuote,
+  Quote,
+} from "../types";
 
 // Single Responsibility: Handle localization of quotes and categories
 export class LocalizationService {
   // Localize a single quote
-  localizeQuote(quote: any, language: "en" | "tr"): LocalizedQuote {
+  localizeQuote(quote: any, language: Language): LocalizedQuote {
     if (!quote) {
       throw new Error(`Quote is null or undefined`);
     }
@@ -16,10 +22,13 @@ export class LocalizationService {
 
     if (quote.texts && quote.authors) {
       // New format with multilingual support
-      text = quote.texts[language] || quote.texts.en || "";
-      author = quote.authors[language] || quote.authors.en || "";
-      tags = quote.tags?.[language] || quote.tags?.en || [];
-      story = quote.stories?.[language];
+      // Try requested language first, then fallback to English, then Turkish
+      text = quote.texts[language] || quote.texts.en || quote.texts.tr || "";
+      author =
+        quote.authors[language] || quote.authors.en || quote.authors.tr || "";
+      tags = quote.tags?.[language] || quote.tags?.en || quote.tags?.tr || [];
+      story =
+        quote.stories?.[language] || quote.stories?.en || quote.stories?.tr;
     } else if (quote.text && typeof quote.text === "string") {
       // Old format - single language
       text = quote.text;
@@ -47,7 +56,7 @@ export class LocalizationService {
   }
 
   // Localize a single category
-  localizeCategory(category: any, language: "en" | "tr"): LocalizedCategory {
+  localizeCategory(category: any, language: Language): LocalizedCategory {
     if (!category) {
       throw new Error(`Category is null or undefined`);
     }
@@ -58,9 +67,17 @@ export class LocalizationService {
 
     if (category.names && category.descriptions) {
       // New format with multilingual support
-      name = category.names[language] || category.names.en || "";
+      // Try requested language first, then fallback to English, then Turkish
+      name =
+        category.names[language] ||
+        category.names.en ||
+        category.names.tr ||
+        "";
       description =
-        category.descriptions[language] || category.descriptions.en || "";
+        category.descriptions[language] ||
+        category.descriptions.en ||
+        category.descriptions.tr ||
+        "";
     } else if (category.name && category.description) {
       // Old format - single language
       name = category.name;
@@ -77,20 +94,22 @@ export class LocalizationService {
       description,
       icon: category.icon || "📝",
       color: category.color || "#6366F1",
-      isPremium: category.isPremium === true || category.isPremium === "true",
+      isPremium: !!(
+        category.isPremium === true || category.isPremium === "true"
+      ),
       language,
     };
   }
 
   // Localize multiple quotes
-  localizeQuotes(quotes: Quote[], language: "en" | "tr"): LocalizedQuote[] {
+  localizeQuotes(quotes: Quote[], language: Language): LocalizedQuote[] {
     return quotes.map((quote) => this.localizeQuote(quote, language));
   }
 
   // Localize multiple categories
   localizeCategories(
     categories: Category[],
-    language: "en" | "tr"
+    language: Language
   ): LocalizedCategory[] {
     return categories.map((category) =>
       this.localizeCategory(category, language)
@@ -113,6 +132,42 @@ export class LocalizationService {
       }
       return isValid;
     });
+  }
+
+  // Get available languages for a quote
+  getAvailableLanguages(quote: Quote): Language[] {
+    if (!quote.texts) return ["en"];
+
+    const languages: Language[] = [];
+    const supportedLangs: Language[] = [
+      "en",
+      "tr",
+      "fr",
+      "pt",
+      "nl",
+      "es",
+      "de",
+      "it",
+      "ru",
+      "id",
+      "ja",
+      "th",
+      "ms",
+    ];
+
+    for (const lang of supportedLangs) {
+      if (quote.texts[lang] && quote.texts[lang].trim().length > 0) {
+        languages.push(lang);
+      }
+    }
+
+    return languages.length > 0 ? languages : ["en"];
+  }
+
+  // Check if a specific language is available for a quote
+  isLanguageAvailable(quote: Quote, language: Language): boolean {
+    const availableLanguages = this.getAvailableLanguages(quote);
+    return availableLanguages.includes(language);
   }
 }
 

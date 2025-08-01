@@ -1,8 +1,4 @@
-interface MoodResponse {
-  feeling: string;
-  energy: string;
-  affecting: string;
-}
+import { MoodResponse } from "./MoodMotivationService";
 
 interface AIMessageResponse {
   message: string;
@@ -146,12 +142,17 @@ class AIService {
       "✨": "umut",
     };
 
-    const feeling = feelingMap[moodResponse.feeling] || moodResponse.feeling;
+    const feeling = feelingMap[moodResponse.mood] || moodResponse.mood;
     const energy = energyMap[moodResponse.energy] || moodResponse.energy;
     const affecting =
       affectingMap[moodResponse.affecting] || moodResponse.affecting;
 
-    return `Sen bir motivasyon uzmanısın. Kullanıcının ruh haline göre kişiselleştirilmiş, kısa ve etkili bir motivasyon mesajı yaz.
+    // Personalize the prompt with user's name
+    const userNamePart = moodResponse.userName
+      ? `Kullanıcının adı ${moodResponse.userName}.`
+      : "Kullanıcı anonim.";
+
+    return `Sen bir motivasyon uzmanısın. ${userNamePart} Kullanıcının ruh haline göre kişiselleştirilmiş, kısa ve etkili bir motivasyon mesajı yaz.
 
 Kullanıcının durumu:
 - Genel ruh hali: ${feeling}
@@ -166,6 +167,11 @@ Lütfen şu kriterlere uygun bir mesaj yaz:
 5. Pratik ve uygulanabilir öneriler sun
 6. Empatik ve destekleyici bir ton kullan
 7. Gereksiz uzunluktan kaçın, öz ve etkili olsun
+${
+  moodResponse.userName
+    ? `8. Kullanıcının adını (${moodResponse.userName}) doğal bir şekilde mesaja dahil et`
+    : ""
+}
 
 Mesajı doğrudan yaz, başlık veya açıklama ekleme.`;
   }

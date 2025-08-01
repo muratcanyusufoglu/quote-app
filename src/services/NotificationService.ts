@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Notifications from "expo-notifications";
 import { router } from "expo-router";
-import { LocalizedQuote, UserPreferences } from "../types";
+import { Language, LocalizedQuote, UserPreferences } from "../types";
 import { DataService } from "./DataService";
 
 // Storage keys
@@ -26,15 +26,16 @@ Notifications.setNotificationHandler({
 export interface NotificationData {
   quoteId?: string;
   category?: string;
-  type: "daily_quote" | "streak_warning";
-  date: string; // Add date to track when this quote was scheduled for
-  [key: string]: unknown;
+  type?: "daily_quote" | "streak_warning";
+  date?: string;
+  language?: Language; // Add language to notification data
+  [key: string]: unknown; // Add index signature for Expo compatibility
 }
 
 interface StoredQuoteSchedule {
   quotes: Array<{
     quote: LocalizedQuote;
-    scheduledFor: string; // ISO date string
+    scheduledFor: string;
     timeSlot: { hour: number; minute: number };
   }>;
   lastUpdated: string;
@@ -301,15 +302,78 @@ export class NotificationService {
     // Get user's local timezone
     const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
+    // Get localized app name and notification content based on quote language
+    const getLocalizedNotificationContent = (language: Language) => {
+      const translations = {
+        en: {
+          appName: "QuoteSpark",
+          title: "Daily Inspiration",
+        },
+        tr: {
+          appName: "QuoteSpark",
+          title: "Günlük İlham",
+        },
+        fr: {
+          appName: "QuoteSpark",
+          title: "Inspiration Quotidienne",
+        },
+        es: {
+          appName: "QuoteSpark",
+          title: "Inspiración Diaria",
+        },
+        de: {
+          appName: "QuoteSpark",
+          title: "Tägliche Inspiration ✨",
+        },
+        it: {
+          appName: "QuoteSpark",
+          title: "Ispirazione Quotidiana",
+        },
+        pt: {
+          appName: "QuoteSpark",
+          title: "Inspiração Diária",
+        },
+        ru: {
+          appName: "QuoteSpark",
+          title: "Ежедневное Вдохновение",
+        },
+        nl: {
+          appName: "QuoteSpark",
+          title: "Dagelijkse Inspiratie",
+        },
+        id: {
+          appName: "QuoteSpark",
+          title: "Inspirasi Harian",
+        },
+        ja: {
+          appName: "QuoteSpark",
+          title: "毎日のインスピレーション",
+        },
+        th: {
+          appName: "QuoteSpark",
+          title: "แรงบันดาลใจประจำวัน",
+        },
+        ms: {
+          appName: "QuoteSpark",
+          title: "Inspirasi Harian",
+        },
+      };
+
+      return translations[language] || translations.en;
+    };
+
+    const localizedContent = getLocalizedNotificationContent(quote.language);
+
     const notificationData: NotificationData = {
       quoteId: quote.id,
       category: quote.category,
       type: "daily_quote",
       date: scheduledFor,
+      language: quote.language, // Include language in notification data
     };
 
     const notificationContent: Notifications.NotificationContentInput = {
-      title: `${APP_NAME} ✨`,
+      title: localizedContent.title,
       body: this.truncateText(quote.text, 100),
       data: notificationData,
       sound: true,
@@ -327,7 +391,7 @@ export class NotificationService {
         type: Notifications.SchedulableTriggerInputTypes.DATE,
       };
 
-      const identifier = `quote_${quote.id}_${scheduledFor}`;
+      const identifier = `quote_${quote.id}_${scheduledFor}_${quote.language}`;
       await Notifications.scheduleNotificationAsync({
         identifier,
         content: notificationContent,
@@ -335,10 +399,37 @@ export class NotificationService {
       });
 
       console.log(
-        `📱 Scheduled notification for quote ${
-          quote.id
+        `📱 Scheduled notification for quote ${quote.id} in ${
+          quote.language
         } at ${scheduledDate.toLocaleString()} (${timezone})`
       );
+    }
+  }
+
+  /**
+   * Cancel all scheduled streak warning notifications
+   */
+  private async cancelStreakWarnings(): Promise<void> {
+    try {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+
+      // Filter and cancel only streak warning notifications
+      const streakWarningNotifications = scheduledNotifications.filter(
+        (notification) => notification.identifier.startsWith("streak_warning_")
+      );
+
+      for (const notification of streakWarningNotifications) {
+        await Notifications.cancelScheduledNotificationAsync(
+          notification.identifier
+        );
+      }
+
+      console.log(
+        `🔕 Cancelled ${streakWarningNotifications.length} streak warning notifications`
+      );
+    } catch (error) {
+      console.error("Error cancelling streak warnings:", error);
     }
   }
 
@@ -349,6 +440,11 @@ export class NotificationService {
     try {
       const now = new Date().toISOString();
       await AsyncStorage.setItem(LAST_VISIT_KEY, now);
+
+      // Cancel any pending streak warnings since user is back
+      await this.cancelStreakWarnings();
+
+      console.log("📅 Last visit updated and streak warnings cancelled");
     } catch (error) {
       console.error("Error updating last visit:", error);
     }
@@ -376,51 +472,232 @@ export class NotificationService {
   }
 
   /**
-   * Schedule streak warning notification
+   * Schedule streak warning notifications (2 per day until user returns)
    */
   private async scheduleStreakWarning(
     userPreferences: UserPreferences
   ): Promise<void> {
     try {
       const shouldWarn = await this.shouldSendStreakWarning();
-      if (!shouldWarn) return;
-
-      // Get translations
-      const translations = await this.dataService.getTranslations(
-        userPreferences.language
-      );
-
-      const notificationData: NotificationData = {
-        type: "streak_warning",
-        date: new Date().toISOString(),
-      };
-
-      const notificationContent: Notifications.NotificationContentInput = {
-        title: translations.notifications.streak_warning.title,
-        body: translations.notifications.streak_warning.body,
-        data: notificationData,
-        sound: true,
-      };
-
-      // Schedule for next preferred notification time
-      const now = new Date();
-      const preferredTime = this.parseTime(
-        userPreferences.notificationTimeRange.start
-      );
-      const scheduledDate = new Date(now);
-      scheduledDate.setHours(preferredTime.hour, preferredTime.minute, 0, 0);
-
-      // If preferred time has passed, schedule for tomorrow
-      if (scheduledDate <= now) {
-        scheduledDate.setDate(scheduledDate.getDate() + 1);
+      if (!shouldWarn) {
+        console.log("📅 No streak warning needed - user is active");
+        return;
       }
 
+      // Get localized streak warning content
+      const getStreakWarningContent = (
+        language: Language,
+        isSecond: boolean = false
+      ) => {
+        const translations = {
+          en: {
+            title: isSecond
+              ? "Your Streak Needs You! ⚡"
+              : "Don't Break Your Streak! 🔥",
+            body: isSecond
+              ? "Your daily inspiration streak is waiting! Come back and continue your journey."
+              : "We miss you! Open the app to keep your daily quote streak going.",
+          },
+          tr: {
+            title: isSecond
+              ? "Seriniz Sizi Bekliyor! ⚡"
+              : "Serinizi Bozmayın! 🔥",
+            body: isSecond
+              ? "Günlük ilham seriniz beklemede! Geri dönün ve yolculuğunuza devam edin."
+              : "Sizi özledik! Günlük alıntı serinizi devam ettirmek için uygulamayı açın.",
+          },
+          fr: {
+            title: isSecond
+              ? "Votre Série Vous Attend! ⚡"
+              : "Ne Cassez Pas Votre Série! 🔥",
+            body: isSecond
+              ? "Votre série d'inspiration quotidienne vous attend! Revenez et continuez votre voyage."
+              : "Vous nous manquez! Ouvrez l'app pour maintenir votre série de citations quotidiennes.",
+          },
+          es: {
+            title: isSecond
+              ? "¡Tu Racha Te Necesita! ⚡"
+              : "¡No Rompas Tu Racha! 🔥",
+            body: isSecond
+              ? "¡Tu racha de inspiración diaria te espera! Regresa y continúa tu viaje."
+              : "¡Te extrañamos! Abre la app para mantener tu racha de citas diarias.",
+          },
+          de: {
+            title: isSecond
+              ? "Deine Serie Braucht Dich! ⚡"
+              : "Brich Deine Serie Nicht! 🔥",
+            body: isSecond
+              ? "Deine tägliche Inspirationsserie wartet auf dich! Komm zurück und setze deine Reise fort."
+              : "Du fehlst uns! Öffne die App, um deine tägliche Zitate-Serie fortzusetzen.",
+          },
+          it: {
+            title: isSecond
+              ? "La Tua Serie Ti Aspetta! ⚡"
+              : "Non Spezzare La Tua Serie! 🔥",
+            body: isSecond
+              ? "La tua serie di ispirazione quotidiana ti sta aspettando! Torna e continua il tuo viaggio."
+              : "Ci manchi! Apri l'app per mantenere la tua serie di citazioni quotidiane.",
+          },
+          pt: {
+            title: isSecond
+              ? "Sua Sequência Precisa de Você! ⚡"
+              : "Não Quebre Sua Sequência! 🔥",
+            body: isSecond
+              ? "Sua sequência de inspiração diária está esperando! Volte e continue sua jornada."
+              : "Sentimos sua falta! Abra o app para manter sua sequência de citações diárias.",
+          },
+          ru: {
+            title: isSecond
+              ? "Ваша Серия Ждет Вас! ⚡"
+              : "Не Нарушайте Серию! 🔥",
+            body: isSecond
+              ? "Ваша серия ежедневного вдохновения ждет! Вернитесь и продолжайте свой путь."
+              : "Мы скучаем по вам! Откройте приложение, чтобы сохранить серию ежедневных цитат.",
+          },
+          nl: {
+            title: isSecond
+              ? "Je Reeks Heeft Je Nodig! ⚡"
+              : "Breek Je Reeks Niet! 🔥",
+            body: isSecond
+              ? "Je dagelijkse inspiratiereeks wacht op je! Kom terug en zet je reis voort."
+              : "We missen je! Open de app om je dagelijkse citatenreeks voort te zetten.",
+          },
+          id: {
+            title: isSecond
+              ? "Streak Anda Menunggu! ⚡"
+              : "Jangan Putuskan Streak Anda! 🔥",
+            body: isSecond
+              ? "Streak inspirasi harian Anda sedang menunggu! Kembali dan lanjutkan perjalanan Anda."
+              : "Kami merindukan Anda! Buka aplikasi untuk menjaga streak kutipan harian Anda.",
+          },
+          ja: {
+            title: isSecond
+              ? "あなたの連続記録があなたを待っています! ⚡"
+              : "連続記録を途切れさせないで! 🔥",
+            body: isSecond
+              ? "毎日のインスピレーション連続記録があなたを待っています！戻ってきて旅を続けてください。"
+              : "お久しぶりです！毎日の名言連続記録を維持するためにアプリを開いてください。",
+          },
+          th: {
+            title: isSecond
+              ? "สตรีคของคุณรอคุณอยู่! ⚡"
+              : "อย่าทำให้สตรีคขาด! 🔥",
+            body: isSecond
+              ? "สตรีคแรงบันดาลใจประจำวันของคุณรอคุณอยู่! กลับมาและทำต่อการเดินทางของคุณ"
+              : "เราคิดถึงคุณ! เปิดแอปเพื่อรักษาสตรีคคำคมประจำวันของคุณ",
+          },
+          ms: {
+            title: isSecond
+              ? "Streak Anda Menunggu Anda! ⚡"
+              : "Jangan Putuskan Streak Anda! 🔥",
+            body: isSecond
+              ? "Streak inspirasi harian anda sedang menunggu! Kembali dan teruskan perjalanan anda."
+              : "Kami rindu anda! Buka aplikasi untuk mengekalkan streak petikan harian anda.",
+          },
+        };
+
+        return translations[language] || translations.en;
+      };
+
+      // Parse user's notification time range
+      const startTime = this.parseTime(
+        userPreferences.notificationTimeRange.start
+      );
+      const endTime = this.parseTime(userPreferences.notificationTimeRange.end);
+
+      // Calculate total minutes in the range
+      const totalMinutes = this.calculateMinutesBetween(startTime, endTime);
+
+      // Calculate times for 2 notifications (divide range into 3 parts, use middle points)
+      const firstNotificationMinutes = Math.floor(totalMinutes / 3);
+      const secondNotificationMinutes = Math.floor((totalMinutes * 2) / 3);
+
+      const firstTime = this.addMinutes(startTime, firstNotificationMinutes);
+      const secondTime = this.addMinutes(startTime, secondNotificationMinutes);
+
+      console.log(
+        `🕐 Streak warning times: ${firstTime.hour}:${String(
+          firstTime.minute
+        ).padStart(2, "0")} and ${secondTime.hour}:${String(
+          secondTime.minute
+        ).padStart(2, "0")}`
+      );
+
+      // Schedule streak warnings for the next 7 days (user will come back eventually)
+      const daysToSchedule = 7;
+      const now = new Date();
+
+      for (let day = 0; day < daysToSchedule; day++) {
+        const date = new Date(now);
+        date.setDate(date.getDate() + day);
+
+        // Schedule first notification of the day
+        await this.scheduleSingleStreakWarning(
+          getStreakWarningContent(userPreferences.language, false),
+          firstTime,
+          date,
+          userPreferences.language,
+          1
+        );
+
+        // Schedule second notification of the day
+        await this.scheduleSingleStreakWarning(
+          getStreakWarningContent(userPreferences.language, true),
+          secondTime,
+          date,
+          userPreferences.language,
+          2
+        );
+      }
+
+      console.log(
+        `⚠️ Scheduled ${
+          daysToSchedule * 2
+        } streak warning notifications over ${daysToSchedule} days`
+      );
+    } catch (error) {
+      console.error("Error scheduling streak warning:", error);
+    }
+  }
+
+  /**
+   * Schedule a single streak warning notification
+   */
+  private async scheduleSingleStreakWarning(
+    content: { title: string; body: string },
+    time: { hour: number; minute: number },
+    date: Date,
+    language: Language,
+    notificationIndex: number
+  ): Promise<void> {
+    const notificationData: NotificationData = {
+      type: "streak_warning",
+      date: date.toISOString(),
+      language: language,
+    };
+
+    const notificationContent: Notifications.NotificationContentInput = {
+      title: content.title,
+      body: content.body,
+      data: notificationData,
+      sound: true,
+    };
+
+    // Set the specific time for this notification
+    const scheduledDate = new Date(date);
+    scheduledDate.setHours(time.hour, time.minute, 0, 0);
+
+    // Only schedule if the time hasn't passed
+    const now = new Date();
+    if (scheduledDate > now) {
       const trigger: Notifications.DateTriggerInput = {
         date: scheduledDate,
         type: Notifications.SchedulableTriggerInputTypes.DATE,
       };
 
-      const identifier = `streak_warning_${scheduledDate.toISOString()}`;
+      const identifier = `streak_warning_${
+        date.toISOString().split("T")[0]
+      }_${notificationIndex}_${language}`;
       await Notifications.scheduleNotificationAsync({
         identifier,
         content: notificationContent,
@@ -428,10 +705,8 @@ export class NotificationService {
       });
 
       console.log(
-        `⚠️ Scheduled streak warning notification for ${scheduledDate.toLocaleString()}`
+        `⚠️ Scheduled streak warning ${notificationIndex}/2 for ${scheduledDate.toLocaleString()} in ${language}`
       );
-    } catch (error) {
-      console.error("Error scheduling streak warning:", error);
     }
   }
 
@@ -572,11 +847,28 @@ export class NotificationService {
     }
   }
 
+  /**
+   * Get all scheduled notifications
+   */
+  async getScheduledNotifications(): Promise<
+    Notifications.NotificationRequest[]
+  > {
+    try {
+      const scheduled = await Notifications.getAllScheduledNotificationsAsync();
+      console.log(`📋 Found ${scheduled.length} scheduled notifications`);
+      return scheduled;
+    } catch (error) {
+      console.error("❌ Failed to get scheduled notifications:", error);
+      return [];
+    }
+  }
+
   // Helper methods
 
   private parseTime(timeString: string): { hour: number; minute: number } {
-    const [hour, minute] = timeString.split(":").map(Number);
-    return { hour, minute };
+    // Import parseTimeToMilitary for consistent parsing
+    const { parseTimeToMilitary } = require("../utils/language");
+    return parseTimeToMilitary(timeString);
   }
 
   private calculateMinutesBetween(
