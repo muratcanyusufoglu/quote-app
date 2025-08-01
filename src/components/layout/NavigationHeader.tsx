@@ -2,20 +2,28 @@ import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useCommonTranslations } from "../../hooks/useTranslation";
+import { usePaywallSelectors } from "../../store/usePaywallStore";
+import { useIsPremium } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 interface NavigationHeaderProps {
   title: string;
   currentRoute: string;
   showBackButton?: boolean;
+  showPremiumBadge?: boolean;
 }
 
 export function NavigationHeader({
   title,
   currentRoute,
   showBackButton = false,
+  showPremiumBadge = true,
 }: NavigationHeaderProps) {
   const { theme } = useTheme();
+  const isPremium = useIsPremium();
+  const { showPaywall } = usePaywallSelectors.actions();
+  const common = useCommonTranslations();
 
   const handleBackPress = () => {
     if (router.canGoBack()) {
@@ -25,9 +33,10 @@ export function NavigationHeader({
     }
   };
 
-  const handlePurchasePress = () => {
-    console.log("Navigate to purchase");
-    // TODO: Implement purchase navigation
+  const handlePremiumPress = () => {
+    if (!isPremium) {
+      showPaywall("premium_category");
+    }
   };
 
   const styles = StyleSheet.create({
@@ -61,18 +70,26 @@ export function NavigationHeader({
       color: theme.colors.white,
       flex: 1,
     },
-    purchaseButton: {
-      backgroundColor: theme.colors.whiteOverlay10,
-      paddingHorizontal: 16,
-      paddingVertical: 8,
-      borderRadius: 20,
+    premiumBadge: {
+      backgroundColor: isPremium
+        ? theme.colors.brandYellow
+        : theme.colors.whiteOverlay10,
+      paddingHorizontal: 12,
+      paddingVertical: 6,
+      borderRadius: 16,
       borderWidth: 1,
-      borderColor: theme.colors.whiteOverlay20,
+      borderColor: isPremium
+        ? theme.colors.goldAccent
+        : theme.colors.whiteOverlay20,
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 4,
     },
-    purchaseText: {
-      color: theme.colors.white,
-      fontSize: 14,
-      fontWeight: "600",
+    premiumText: {
+      color: isPremium ? theme.colors.textSoft : theme.colors.white,
+      fontSize: 12,
+      fontWeight: "700",
+      letterSpacing: 0.3,
     },
   });
 
@@ -92,12 +109,21 @@ export function NavigationHeader({
         <Text style={styles.title}>{title}</Text>
       </View>
 
-      <TouchableOpacity
-        style={styles.purchaseButton}
-        onPress={handlePurchasePress}
-      >
-        <Text style={styles.purchaseText}>Premium</Text>
-      </TouchableOpacity>
+      {showPremiumBadge && (
+        <TouchableOpacity
+          style={styles.premiumBadge}
+          onPress={handlePremiumPress}
+          activeOpacity={isPremium ? 1 : 0.7}
+          disabled={isPremium}
+        >
+          {isPremium && (
+            <IconSymbol name="crown" size={14} color={theme.colors.textSoft} />
+          )}
+          <Text style={styles.premiumText}>
+            {isPremium ? common.premium_status : common.free_status}
+          </Text>
+        </TouchableOpacity>
+      )}
     </View>
   );
 }

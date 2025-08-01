@@ -12,11 +12,13 @@ import { useEffect } from "react";
 import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { MiniPremiumBadge } from "../src/components/ui/MiniPremiumBadge";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
 import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
 import { useStreak } from "../src/hooks/useStreak";
 import { getPaywallService } from "../src/services/PaywallService";
+import revenueCatService from "../src/services/revenueCat";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
 import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
@@ -82,10 +84,12 @@ export default function RootLayout() {
   const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
   const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
   const paywallStoreHydrated = usePaywallSelectors.hasHydrated();
+  const { modalState, closeModal } = useStreak();
+  const { setPremium } = usePurchaseSelectors.actions();
+  const isPurchaseHydrated = usePurchaseSelectors.hasHydrated();
 
   // Initialize notifications and streak tracking
   useNotifications();
-  const { modalState, closeModal } = useStreak();
 
   useEffect(() => {
     // Initialize PaywallService when app starts
@@ -101,6 +105,33 @@ export default function RootLayout() {
 
     initializeServices();
   }, []);
+
+  // Initialize RevenueCat and sync premium status when purchase store is hydrated
+  useEffect(() => {
+    const initializeRevenueCat = async () => {
+      if (!isPurchaseHydrated) return;
+
+      try {
+        console.log("🚀 Initializing RevenueCat...");
+        const initialized = await revenueCatService.initialize();
+
+        if (initialized) {
+          console.log("✅ RevenueCat initialized successfully");
+
+          // Check premium status and sync with store
+          const isPremium = await revenueCatService.isPremiumUser();
+          console.log(`🔄 Initial RevenueCat premium check: ${isPremium}`);
+
+          setPremium(isPremium);
+          console.log(`✅ Premium status synced to store: ${isPremium}`);
+        }
+      } catch (error) {
+        console.error("❌ Failed to initialize RevenueCat:", error);
+      }
+    };
+
+    initializeRevenueCat();
+  }, [isPurchaseHydrated, setPremium]);
 
   useEffect(() => {
     if (loaded) {
@@ -206,6 +237,10 @@ export default function RootLayout() {
 
         {/* Global PaywallModal - Accessible from anywhere in the app */}
         <PaywallModal />
+
+        {/* Global MiniPremiumBadge - Shows on all screens */}
+
+        <MiniPremiumBadge />
 
         {/* Global StreakModal - Shows streak achievements and breaks */}
         <StreakModal
