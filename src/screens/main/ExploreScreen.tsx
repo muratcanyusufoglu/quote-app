@@ -37,6 +37,9 @@ export function ExploreScreen() {
   // Analytics
   const { trackScreen, trackCategoryView, trackPaywallView } = useAnalytics();
 
+  // Progressive paywall tracking
+  const { trackUserInteraction } = usePaywallSelectors.actions();
+
   // Store data
   const isPremium = useIsPremium();
   const { showPaywall, trackAction } = usePaywallSelectors.actions();
@@ -77,6 +80,14 @@ export function ExploreScreen() {
   const handleCategoryPress = (categoryId: string) => {
     // Track user action for paywall trigger
     trackAction();
+
+    // Track user interaction for progressive paywall (only for non-premium users)
+    if (!isPremium) {
+      trackUserInteraction();
+      console.log("🎯 User interaction tracked (category press)");
+    } else {
+      console.log("👑 Premium user - skipping interaction tracking");
+    }
 
     // Find category data for analytics
     const category = allCategories.find((cat) => cat.id === categoryId);
