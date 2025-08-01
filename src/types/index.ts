@@ -1,23 +1,83 @@
+// Supported languages based on quote data structure
+export type Language =
+  | "en" // English
+  | "tr" // Turkish
+  | "fr" // French
+  | "pt" // Portuguese
+  | "nl" // Dutch
+  | "es" // Spanish
+  | "de" // German
+  | "it" // Italian
+  | "ru" // Russian
+  | "id" // Indonesian
+  | "ja" // Japanese
+  | "th" // Thai
+  | "ms"; // Malay
+
 // Base interfaces for the motivational quotes app
 export interface Quote {
   id: string;
   texts: {
     en: string;
     tr: string;
+    fr?: string;
+    pt?: string;
+    nl?: string;
+    es?: string;
+    de?: string;
+    it?: string;
+    ru?: string;
+    id?: string;
+    ja?: string;
+    th?: string;
+    ms?: string;
   };
   authors: {
     en: string;
     tr: string;
+    fr?: string;
+    pt?: string;
+    nl?: string;
+    es?: string;
+    de?: string;
+    it?: string;
+    ru?: string;
+    id?: string;
+    ja?: string;
+    th?: string;
+    ms?: string;
   };
   category: string;
   tags: {
     en: string[];
     tr: string[];
+    fr?: string[];
+    pt?: string[];
+    nl?: string[];
+    es?: string[];
+    de?: string[];
+    it?: string[];
+    ru?: string[];
+    id?: string[];
+    ja?: string[];
+    th?: string[];
+    ms?: string[];
   };
   readTime: number; // in minutes
   stories?: {
     en?: Story;
     tr?: Story;
+    fr?: Story;
+    pt?: Story;
+    nl?: Story;
+    es?: Story;
+    de?: Story;
+    it?: Story;
+    ru?: Story;
+    id?: Story;
+    ja?: Story;
+    th?: Story;
+    ms?: Story;
   };
 }
 
@@ -33,10 +93,32 @@ export interface Category {
   names: {
     en: string;
     tr: string;
+    fr?: string;
+    pt?: string;
+    nl?: string;
+    es?: string;
+    de?: string;
+    it?: string;
+    ru?: string;
+    id?: string;
+    ja?: string;
+    th?: string;
+    ms?: string;
   };
   descriptions: {
     en: string;
     tr: string;
+    fr?: string;
+    pt?: string;
+    nl?: string;
+    es?: string;
+    de?: string;
+    it?: string;
+    ru?: string;
+    id?: string;
+    ja?: string;
+    th?: string;
+    ms?: string;
   };
   icon: string;
   color: string;
@@ -50,7 +132,7 @@ export interface LocalizedQuote {
   author: string;
   category: string;
   tags: string[];
-  language: "en" | "tr";
+  language: Language;
   readTime: number;
   story?: Story;
 }
@@ -62,21 +144,20 @@ export interface LocalizedCategory {
   icon: string;
   color: string;
   isPremium: boolean;
-  language: "en" | "tr";
+  language: Language;
 }
 
 export interface UserPreferences {
   selectedCategories: string[];
   favoriteQuotes: string[];
   seenQuotes: string[];
-  language: "en" | "tr";
+  language: Language;
   motivationStyle: "gentle" | "strong" | "balanced";
   stressResponse: "meditation" | "action" | "reflection";
   preferredTime: "morning" | "afternoon" | "evening";
   readingLength: "short" | "medium" | "long";
   topics: string[];
-  frequency: "daily" | "weekly" | "occasional";
-  preferredLanguages: ("en" | "tr")[];
+  preferredLanguages: Language[];
 
   // New fields for enhanced personalization
   purpose: "motivation" | "learning" | "relaxation" | "growth" | "inspiration";
@@ -85,6 +166,7 @@ export interface UserPreferences {
     start: string; // Format: "HH:mm" (e.g., "09:00")
     end: string; // Format: "HH:mm" (e.g., "18:00")
   };
+  userName: string; // User's preferred name for personalization
 }
 
 export interface OnboardingQuestion {
@@ -96,6 +178,8 @@ export interface OnboardingQuestion {
   max?: number;
   step?: number;
   required: boolean;
+  placeholder?: string;
+  maxLength?: number;
 }
 
 export interface OnboardingOption {
@@ -348,6 +432,8 @@ export type PaywallTriggerSource =
   | "action_limit"
   | "story_limit"
   | "real_purchase"
+  | "first_time"
+  | "discounted"
   | "manual";
 
 export interface PaywallTestimonial {
@@ -362,6 +448,12 @@ export interface PaywallStoreState {
   triggerSource: PaywallTriggerSource | null;
   hasSeenWelcomePaywall: boolean;
   _hasHydrated: boolean;
+
+  // Progressive paywall tracking
+  hasSeenFirstTimePaywall: boolean;
+  hasSeenDiscountPaywall: boolean;
+  userInteractionCount: number;
+  onboardingCompletedDate: string | null;
 }
 
 export interface PaywallStoreActions {
@@ -371,6 +463,14 @@ export interface PaywallStoreActions {
   resetActionCount: () => void;
   markWelcomePaywallSeen: () => void;
   setHasHydrated: (hydrated: boolean) => void;
+
+  // Progressive paywall actions
+  markOnboardingCompleted: () => void;
+  showFirstTimePaywall: () => void;
+  trackUserInteraction: () => void;
+  resetProgressivePaywall: () => void;
+  isFirstTimePaywall: () => boolean;
+  isDiscountedPaywall: () => boolean;
 }
 
 export type PaywallStore = PaywallStoreState & PaywallStoreActions;

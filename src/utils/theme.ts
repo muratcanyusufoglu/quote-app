@@ -516,6 +516,13 @@ export const getCategoryColorForTheme = (
   return baseColor;
 };
 
+// Simple category color getter
+export const getCategoryColor = (categoryId: string): string | null => {
+  const color =
+    categoryColors[categoryId.toLowerCase() as keyof typeof categoryColors];
+  return color || null;
+};
+
 // Lucide icon mappings for categories - exact matches with IconSymbol ICON_MAPPING
 export const categoryIcons = {
   // Basic categories
@@ -1073,65 +1080,35 @@ export const getThemeByOption = (
       return isDark ? purpleDarkTheme : purpleLightTheme;
     case "minimalist":
       return isDark ? minimalistDarkTheme : minimalistLightTheme;
-    case "default":
+    case "uprising":
     default:
       return isDark ? darkTheme : lightTheme;
   }
 };
 
-// Theme metadata for UI
+// Theme metadata for UI (icons and preview colors only)
 export const themeMetadata = {
-  default: {
-    name: { en: "Golden", tr: "Altın" },
-    description: {
-      en: "Warm and inspiring golden theme",
-      tr: "Sıcak ve ilham verici altın tema",
-    },
+  uprising: {
     icon: "sun",
     preview: colorPalette.golden500,
   },
   ocean: {
-    name: { en: "Ocean", tr: "Okyanus" },
-    description: {
-      en: "Calming blues and teals",
-      tr: "Sakinleştirici mavi ve turkuaz",
-    },
     icon: "waves",
     preview: oceanPalette.ocean500,
   },
   forest: {
-    name: { en: "Forest", tr: "Orman" },
-    description: {
-      en: "Natural greens and earth tones",
-      tr: "Doğal yeşil ve toprak tonları",
-    },
     icon: "tree-pine",
     preview: forestPalette.forest500,
   },
   sunset: {
-    name: { en: "Sunset", tr: "Gün Batımı" },
-    description: {
-      en: "Warm oranges and reds",
-      tr: "Sıcak turuncu ve kırmızı",
-    },
     icon: "sunset",
     preview: sunsetPalette.sunset500,
   },
   purple: {
-    name: { en: "Purple", tr: "Mor" },
-    description: {
-      en: "Royal purples and lavender",
-      tr: "Kraliyet moru ve lavanta",
-    },
     icon: "crown",
     preview: purplePalette.royal500,
   },
   minimalist: {
-    name: { en: "Minimalist", tr: "Minimalist" },
-    description: {
-      en: "Clean grays and sophisticated tones",
-      tr: "Temiz gri ve sofistike tonlar",
-    },
     icon: "square",
     preview: minimalistPalette.slate500,
   },
