@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTranslation } from "../../hooks/useTranslation";
+import { useUserName } from "../../store/useOnboardingStore";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { useIsPremium } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
@@ -36,7 +37,7 @@ interface Question {
 const questions: Question[] = [
   {
     id: "feeling",
-    text: "question_feeling",
+    text: "question_feeling", // Will be personalized at runtime
     options: [
       { icon: "smile", value: "happy" },
       { icon: "moon", value: "calm" },
@@ -76,6 +77,7 @@ export function MoodSelectionModal({
 }: MoodSelectionModalProps) {
   const { theme } = useTheme();
   const { t } = useTranslation();
+  const userName = useUserName();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [responses, setResponses] = useState<{ [key: string]: string }>({});
   const [slideAnim] = useState(new Animated.Value(screenHeight));
@@ -86,6 +88,20 @@ export function MoodSelectionModal({
 
   const currentQuestion = questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
+
+  // Get personalized question text
+  const getQuestionText = (question: Question) => {
+    if (userName) {
+      const personalizedKey = `mood_motivation.${question.text}_personalized`;
+      const personalizedText = t(personalizedKey as any);
+      // If personalized translation exists, use it with userName replacement
+      if (personalizedText !== personalizedKey) {
+        return personalizedText.replace("{userName}", userName);
+      }
+    }
+    // Fallback to regular question text
+    return t(`mood_motivation.${question.text}` as any);
+  };
 
   React.useEffect(() => {
     if (visible) {
@@ -347,7 +363,7 @@ export function MoodSelectionModal({
 
               <View style={styles.questionContainer}>
                 <Text style={styles.questionText}>
-                  {t(`mood_motivation.${currentQuestion.text}` as any)}
+                  {getQuestionText(currentQuestion)}
                 </Text>
 
                 <View style={styles.optionsContainer}>

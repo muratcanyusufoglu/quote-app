@@ -283,7 +283,14 @@ const PremiumFeature: React.FC<{
 const PricingCard: React.FC<{
   theme: any;
   subscriptionPackage: SubscriptionPackage | null;
-}> = ({ theme, subscriptionPackage }) => {
+  isDiscounted?: boolean;
+  isFirstTime?: boolean;
+}> = ({
+  theme,
+  subscriptionPackage,
+  isDiscounted = false,
+  isFirstTime = false,
+}) => {
   const pulseAnim = useRef(new Animated.Value(1)).current;
   const glowAnim = useRef(new Animated.Value(0)).current;
 
@@ -347,8 +354,44 @@ const PricingCard: React.FC<{
         end={{ x: 1, y: 1 }}
         style={createStyles(theme).pricingGradient}
       >
-        {/* Free Trial Badge */}
-        {subscriptionPackage.freeTrialDays > 0 && (
+        {/* Dynamic Badge Based on Paywall Type */}
+        {isDiscounted ? (
+          <Animated.View
+            style={[
+              createStyles(theme).trialBadge,
+              { backgroundColor: theme.colors.error },
+              {
+                shadowColor: theme.colors.error,
+                shadowOpacity: glowAnim,
+                shadowRadius: 12,
+                elevation: 6,
+              },
+            ]}
+          >
+            <Text
+              style={[createStyles(theme).trialBadgeText, { fontSize: 16 }]}
+            >
+              🔥 LAST CHANCE - 50% OFF
+            </Text>
+          </Animated.View>
+        ) : isFirstTime ? (
+          <Animated.View
+            style={[
+              createStyles(theme).trialBadge,
+              { backgroundColor: theme.colors.success },
+              {
+                shadowColor: theme.colors.success,
+                shadowOpacity: glowAnim,
+                shadowRadius: 10,
+                elevation: 5,
+              },
+            ]}
+          >
+            <Text style={createStyles(theme).trialBadgeText}>
+              🎉 WELCOME OFFER - {subscriptionPackage.freeTrialDays} Days FREE
+            </Text>
+          </Animated.View>
+        ) : subscriptionPackage.freeTrialDays > 0 ? (
           <Animated.View
             style={[
               createStyles(theme).trialBadge,
@@ -364,7 +407,7 @@ const PricingCard: React.FC<{
               🎉 {subscriptionPackage.freeTrialDays} Days FREE
             </Text>
           </Animated.View>
-        )}
+        ) : null}
 
         {/* Pricing Info */}
         <View style={createStyles(theme).pricingContent}>
@@ -401,8 +444,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const { theme } = useTheme();
   const isVisible = usePaywallSelectors.isVisible();
   const triggerSource = usePaywallSelectors.triggerSource();
+  const isFirstTimePaywall = usePaywallSelectors.isFirstTimePaywall();
+  const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
   const { hidePaywall } = usePaywallSelectors.actions();
   const { setPremium } = usePurchaseSelectors.actions();
+  const isPremium = usePurchaseSelectors.isPremium();
   const [isLoading, setIsLoading] = useState(false);
   const [subscriptionPackage, setSubscriptionPackage] =
     useState<SubscriptionPackage | null>(null);
@@ -421,7 +467,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     isVisible,
     triggerSource,
     isLoading,
+    isPremium,
   });
+
+  // Premium kontrol - eğer kullanıcı premium ise modal'ı otomatik kapat
+  useEffect(() => {
+    if (isVisible && isPremium) {
+      console.log("✅ User is premium, hiding paywall automatically");
+      hidePaywall();
+      return;
+    }
+  }, [isVisible, isPremium, hidePaywall]);
 
   // Enhanced entrance animation
   useEffect(() => {
@@ -655,19 +711,25 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         console.log("✅ Purchase successful, updating premium status...");
         setPremium(result.isPremium ?? true);
 
-        Alert.alert(
-          paywall.alerts.purchase_successful,
-          paywall.alerts.welcome_premium,
-          [
-            {
-              text: paywall.alerts.get_started,
-              onPress: () => {
-                hidePaywall();
-                onPurchase?.();
+        // First hide the paywall to allow components to refresh
+        hidePaywall();
+        onPurchase?.();
+
+        // Then show success alert after a short delay to ensure state updates propagate
+        setTimeout(() => {
+          Alert.alert(
+            paywall.alerts.purchase_successful,
+            paywall.alerts.welcome_premium,
+            [
+              {
+                text: paywall.alerts.get_started,
+                onPress: () => {
+                  // Modal is already hidden, just callback if needed
+                },
               },
-            },
-          ]
-        );
+            ]
+          );
+        }, 100); // Small delay to ensure state propagation
       } else {
         Alert.alert(
           paywall.alerts.purchase_failed,
@@ -699,19 +761,25 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         console.log("✅ Purchases restored, updating premium status...");
         setPremium(result.isPremium ?? true);
 
-        Alert.alert(
-          paywall.alerts.purchases_restored,
-          paywall.alerts.restored_successfully,
-          [
-            {
-              text: paywall.alerts.continue,
-              onPress: () => {
-                hidePaywall();
-                onPurchase?.();
+        // First hide the paywall to allow components to refresh
+        hidePaywall();
+        onPurchase?.();
+
+        // Then show success alert after a short delay to ensure state updates propagate
+        setTimeout(() => {
+          Alert.alert(
+            paywall.alerts.purchases_restored,
+            paywall.alerts.restored_successfully,
+            [
+              {
+                text: paywall.alerts.continue,
+                onPress: () => {
+                  // Modal is already hidden, just callback if needed
+                },
               },
-            },
-          ]
-        );
+            ]
+          );
+        }, 100); // Small delay to ensure state propagation
       } else {
         Alert.alert(
           paywall.alerts.no_purchases,
@@ -730,6 +798,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       setIsLoading(false);
     }
   };
+
+  // Critical: Do not render modal for premium users
+  if (isPremium) {
+    console.log("🚫 Premium user detected, not rendering paywall modal");
+    return null;
+  }
 
   if (!isVisible) return null;
 
@@ -893,11 +967,21 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   {subscriptionPackage?.title || paywall.modern.plan_name}
                 </Text>
                 <LinearGradient
-                  colors={[theme.colors.success, theme.colors.success]}
+                  colors={
+                    isDiscountedPaywall
+                      ? [theme.colors.error, theme.colors.error]
+                      : isFirstTimePaywall
+                      ? [theme.colors.brandYellow, theme.colors.premium]
+                      : [theme.colors.success, theme.colors.success]
+                  }
                   style={[
                     styles.savingsBadge,
                     {
-                      shadowColor: theme.colors.success,
+                      shadowColor: isDiscountedPaywall
+                        ? theme.colors.error
+                        : isFirstTimePaywall
+                        ? theme.colors.brandYellow
+                        : theme.colors.success,
                       shadowOpacity: 0.4,
                       shadowRadius: 8,
                     },
@@ -906,7 +990,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   <Text
                     style={[styles.savingsText, { color: theme.colors.white }]}
                   >
-                    {subscriptionPackage?.discount || paywall.modern.save_badge}
+                    {isDiscountedPaywall
+                      ? "🔥 LAST CHANCE 50% OFF"
+                      : isFirstTimePaywall
+                      ? "🎉 WELCOME OFFER"
+                      : subscriptionPackage?.discount ||
+                        paywall.modern.save_badge}
                   </Text>
                 </LinearGradient>
               </View>

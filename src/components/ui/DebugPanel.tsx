@@ -1,5 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  countryUses12HourFormat,
+  getUserCountry,
+  uses12HourFormat,
+} from "../../utils/language";
 
 interface DebugPanelProps {
   isPremium: boolean;
@@ -27,6 +32,12 @@ export function DebugPanel({
   handleShowPaywall,
 }: DebugPanelProps) {
   const styles = createStyles(theme);
+
+  // Get time format info for debugging
+  const is12HourFormat = uses12HourFormat();
+  const userCountry = getUserCountry();
+  const countryPrefers12h = countryUses12HourFormat(userCountry);
+
   return (
     <View
       style={[
@@ -52,6 +63,10 @@ export function DebugPanel({
           </Text>
           <Text style={[styles.debugText, { color: theme.colors.white }]}>
             Language: {(common.language || "EN").toUpperCase()}
+          </Text>
+          <Text style={[styles.debugText, { color: theme.colors.brandYellow }]}>
+            🕐 {userCountry}: {is12HourFormat ? "12h (AM/PM)" : "24h"} |
+            Expected: {countryPrefers12h ? "12h" : "24h"}
           </Text>
         </View>
         <View style={styles.debugButtons}>

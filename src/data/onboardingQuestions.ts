@@ -206,7 +206,7 @@ export const getOnboardingQuestions = (
     required: true,
     min: 1,
     max: 10,
-    step: 1,
+    step: 6,
   },
   {
     id: "notification_time_range",
@@ -215,30 +215,12 @@ export const getOnboardingQuestions = (
     required: true,
   },
   {
-    id: "frequency",
-    type: "single",
-    question: t("onboarding.questions.frequency"),
+    id: "user_name",
+    type: "text",
+    question: t("onboarding.questions.user_name"),
     required: true,
-    options: [
-      {
-        id: "daily",
-        label: t("onboarding.options.daily"),
-        value: "daily",
-        icon: "calendar",
-      },
-      {
-        id: "weekly",
-        label: t("onboarding.options.weekly"),
-        value: "weekly",
-        icon: "calendar",
-      },
-      {
-        id: "occasional",
-        label: t("onboarding.options.occasional"),
-        value: "occasional",
-        icon: "target",
-      },
-    ],
+    placeholder: t("onboarding.placeholders.user_name"),
+    maxLength: 50,
   },
 ];
 

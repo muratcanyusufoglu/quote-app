@@ -92,7 +92,7 @@ export function QuoteReelCard({
           activeOpacity={0.7}
         >
           <IconSymbol
-            name="magnifyingglass"
+            name="compass"
             size={20}
             color={theme.colors.brandYellow}
             strokeWidth={2}
