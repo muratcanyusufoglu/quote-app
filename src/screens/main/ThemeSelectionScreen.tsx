@@ -13,14 +13,14 @@ import { NavigationBar } from "../../components/layout/NavigationBar";
 import { useAnalytics } from "../../hooks/useAnalytics";
 import {
   useCommonTranslations,
-  useScreenTranslations,
+  useTranslation,
 } from "../../hooks/useTranslation";
 import { getThemeByOption, themeMetadata } from "../../utils/theme";
 import { useTheme } from "../../utils/ThemeContext";
 
 // Define types locally to match ThemeContext
 type ThemeOption =
-  | "default"
+  | "uprising"
   | "ocean"
   | "forest"
   | "sunset"
@@ -42,7 +42,8 @@ export function ThemeSelectionScreen() {
   const { trackScreen, trackThemeChange } = useAnalytics();
 
   const common = useCommonTranslations();
-  const themeTranslations = useScreenTranslations("themes");
+  const { t, tNamespace } = useTranslation();
+  const themeTranslations = tNamespace("themes");
 
   // Track screen view
   useEffect(() => {
@@ -80,7 +81,7 @@ export function ThemeSelectionScreen() {
     previewTheme: any
   ): string[] => {
     const baseColors = {
-      default: ["#1a1a1a", "#2a2520", "#3d3420", "#f4d03f", "#f7dc6f"],
+      uprising: ["#1a1a1a", "#2a2520", "#3d3420", "#f4d03f", "#f7dc6f"],
       ocean: ["#0f172a", "#1e293b", "#0369a1", "#000001FF", "#38bdf8"],
       forest: ["#0f172a", "#1e3a2e", "#15803d", "#22c55e", "#4ade80"],
       sunset: ["#1a1a1a", "#3d2917", "#c2410c", "#f97316", "#fb923c"],
@@ -88,7 +89,7 @@ export function ThemeSelectionScreen() {
       minimalist: ["#0f172a", "#1e293b", "#475569", "#64748b", "#94a3b8"],
     };
 
-    return baseColors[themeKey] || baseColors.default;
+    return baseColors[themeKey] || baseColors.uprising;
   };
 
   return (
@@ -105,7 +106,7 @@ export function ThemeSelectionScreen() {
           <Text
             style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
           >
-            {themeTranslations.subtitle || "Uygulamanızı kişiselleştirin"}
+            {themeTranslations.subtitle}
           </Text>
         </View>
 
@@ -115,7 +116,7 @@ export function ThemeSelectionScreen() {
         >
           {/* Color Scheme Section */}
           <View style={styles.section}>
-            <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
+            {/* <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
               {themeTranslations.brightness}
             </Text>
             <Text
@@ -125,7 +126,7 @@ export function ThemeSelectionScreen() {
               ]}
             >
               {themeTranslations.brightness_description}
-            </Text>
+            </Text> */}
 
             <View style={styles.optionsGrid}>
               {[
@@ -224,6 +225,12 @@ export function ThemeSelectionScreen() {
                   return iconMap[iconName] || "heart";
                 };
 
+                // Get theme name and description from translations
+                const themeName =
+                  t(`themes.${themeKey}.name` as any) || themeKey;
+                const themeDescription =
+                  t(`themes.${themeKey}.description` as any) || "";
+
                 return (
                   <TouchableOpacity
                     key={themeKey}
@@ -284,7 +291,7 @@ export function ThemeSelectionScreen() {
                             },
                           ]}
                         >
-                          {metadata.name.tr}
+                          {themeName}
                         </Text>
                         <Text
                           style={[
@@ -297,7 +304,7 @@ export function ThemeSelectionScreen() {
                             },
                           ]}
                         >
-                          {metadata.description.tr}
+                          {themeDescription}
                         </Text>
                       </View>
 

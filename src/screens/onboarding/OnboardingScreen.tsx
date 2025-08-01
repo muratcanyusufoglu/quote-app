@@ -1,17 +1,24 @@
 import Slider from "@react-native-community/slider";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Animated,
   Dimensions,
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
+import {
+  OnboardingCard,
+  OnboardingMultiCard,
+  OnboardingTimeCard,
+} from "../../components/onboarding";
 import { getOnboardingQuestions } from "../../data/onboardingQuestions";
 import { useAnalytics } from "../../hooks/useAnalytics";
 import {
@@ -19,15 +26,20 @@ import {
   useTranslation,
 } from "../../hooks/useTranslation";
 import { useOnboardingActions } from "../../store/useOnboardingStore";
+import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { OnboardingAnswer, OnboardingOption } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
 
-const { width: screenWidth } = Dimensions.get("window");
+const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 
 export function OnboardingScreen() {
   const { theme } = useTheme();
   const { addAnswer, generatePreferences, setCompleted } =
     useOnboardingActions();
+
+  // Progressive paywall actions (move to top level)
+  const { markOnboardingCompleted, showFirstTimePaywall } =
+    usePaywallSelectors.actions();
 
   // Analytics
   const {
@@ -51,6 +63,14 @@ export function OnboardingScreen() {
   const [slideAnim] = useState(new Animated.Value(0));
   const [fadeAnim] = useState(new Animated.Value(1));
 
+  // Enhanced animations for intro screen
+  const titleAnim = useRef(new Animated.Value(0)).current;
+  const subtitleAnim = useRef(new Animated.Value(0)).current;
+  const featuresAnim = useRef(new Animated.Value(0)).current;
+  const badgeAnim = useRef(new Animated.Value(0)).current;
+  const starAnim = useRef(new Animated.Value(0)).current;
+  const pulseAnim = useRef(new Animated.Value(1)).current;
+
   const totalSteps = onboardingQuestions.length + 2; // +2 for intro and completion
   const currentQuestion =
     currentStep >= 0 && currentStep < onboardingQuestions.length
@@ -62,6 +82,79 @@ export function OnboardingScreen() {
     trackScreen("OnboardingScreen", "OnboardingScreen");
     trackOnboardingStart();
   }, [trackScreen, trackOnboardingStart]);
+
+  // Enhanced intro animation sequence
+  useEffect(() => {
+    if (currentStep === -1) {
+      // Reset all animations
+      badgeAnim.setValue(0);
+      titleAnim.setValue(0);
+      subtitleAnim.setValue(0);
+      featuresAnim.setValue(0);
+      starAnim.setValue(0);
+
+      // Start animation sequence
+      Animated.sequence([
+        // Free badge slides in from top
+        Animated.spring(badgeAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 100,
+          friction: 8,
+          delay: 300,
+        }),
+        // Star appears with scale animation
+        Animated.spring(starAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 120,
+          friction: 6,
+        }),
+        // Title fades in
+        Animated.spring(titleAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 80,
+          friction: 8,
+        }),
+        // Subtitle follows
+        Animated.spring(subtitleAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 80,
+          friction: 8,
+        }),
+        // Features cascade in
+        Animated.stagger(150, [
+          Animated.spring(featuresAnim, {
+            toValue: 1,
+            useNativeDriver: true,
+            tension: 80,
+            friction: 8,
+          }),
+        ]),
+      ]).start();
+
+      // Continuous pulse animation for star
+      const pulseLoop = Animated.loop(
+        Animated.sequence([
+          Animated.timing(pulseAnim, {
+            toValue: 1.1,
+            duration: 2000,
+            useNativeDriver: true,
+          }),
+          Animated.timing(pulseAnim, {
+            toValue: 1,
+            duration: 2000,
+            useNativeDriver: true,
+          }),
+        ])
+      );
+      pulseLoop.start();
+
+      return () => pulseLoop.stop();
+    }
+  }, [currentStep]);
 
   // Track step completion
   useEffect(() => {
@@ -125,9 +218,15 @@ export function OnboardingScreen() {
       case "slider":
         return answer !== undefined;
       case "text":
-        return currentQuestion.id === "notification_time_range"
-          ? answer?.start && answer?.end
-          : answer !== undefined;
+        if (currentQuestion.id === "notification_time_range") {
+          return answer?.start && answer?.end;
+        } else if (currentQuestion.id === "user_name") {
+          return (
+            answer && typeof answer === "string" && answer.trim().length >= 2
+          );
+        } else {
+          return answer !== undefined;
+        }
       default:
         return false;
     }
@@ -161,8 +260,16 @@ export function OnboardingScreen() {
     setCompleted(true);
     setCurrentStep(onboardingQuestions.length); // Show completion screen
 
+    // Progressive paywall: Mark onboarding completed and trigger first paywall
+    markOnboardingCompleted();
+
     setTimeout(() => {
       router.replace("/(tabs)");
+
+      // Show first-time paywall after navigation to home screen
+      setTimeout(() => {
+        showFirstTimePaywall();
+      }, 1500); // Delay to let home screen load
     }, 2000);
   };
 
@@ -173,63 +280,225 @@ export function OnboardingScreen() {
         contentContainerStyle={styles.introContainer}
         showsVerticalScrollIndicator={false}
       >
+        {/* Animated Free Badge */}
+        <Animated.View
+          style={[
+            styles.freeBadgeContainer,
+            {
+              transform: [
+                {
+                  translateY: badgeAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [-50, 0],
+                  }),
+                },
+                { scale: badgeAnim },
+              ],
+              opacity: badgeAnim,
+            },
+          ]}
+        >
+          <LinearGradient
+            colors={[theme.colors.brandYellow, theme.colors.premium]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.freeBadge}
+          >
+            <Text style={styles.freeBadgeText}>ÜCRETSİZ</Text>
+          </LinearGradient>
+        </Animated.View>
+
         <View style={styles.welcomeSection}>
-          <View style={styles.welcomeIconContainer}>
-            <IconSymbol
-              name="star"
-              size={48}
-              color={theme.colors.brandYellow}
-              strokeWidth={2}
-            />
-          </View>
-          <Text style={[styles.welcomeTitle, { color: theme.colors.white }]}>
-            {onboarding.welcome_title}
-          </Text>
-          <Text
+          {/* Animated Star Icon */}
+          <Animated.View
             style={[
-              styles.welcomeSubtitle,
-              { color: theme.colors.whiteOverlay90 },
+              styles.welcomeIconContainer,
+              {
+                transform: [
+                  { scale: Animated.multiply(starAnim, pulseAnim) },
+                  {
+                    rotate: starAnim.interpolate({
+                      inputRange: [0, 1],
+                      outputRange: ["180deg", "0deg"],
+                    }),
+                  },
+                ],
+                opacity: starAnim,
+              },
             ]}
           >
-            {onboarding.welcome_subtitle}
-          </Text>
+            <LinearGradient
+              colors={[
+                theme.colors.brandYellow,
+                theme.colors.premium,
+                theme.colors.brandYellow,
+              ]}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={styles.starGradientContainer}
+            >
+              <IconSymbol
+                name="star"
+                size={48}
+                color={theme.colors.white}
+                strokeWidth={2}
+              />
+            </LinearGradient>
+          </Animated.View>
+
+          {/* Animated Title */}
+          <Animated.View
+            style={{
+              transform: [
+                {
+                  translateY: titleAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [30, 0],
+                  }),
+                },
+              ],
+              opacity: titleAnim,
+            }}
+          >
+            <Text style={[styles.welcomeTitle, { color: theme.colors.white }]}>
+              {onboarding.welcome_title}
+            </Text>
+          </Animated.View>
+
+          {/* Animated Subtitle */}
+          <Animated.View
+            style={{
+              transform: [
+                {
+                  translateY: subtitleAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [30, 0],
+                  }),
+                },
+              ],
+              opacity: subtitleAnim,
+            }}
+          >
+            <Text
+              style={[
+                styles.welcomeSubtitle,
+                { color: theme.colors.whiteOverlay90 },
+              ]}
+            >
+              {onboarding.welcome_subtitle}
+            </Text>
+          </Animated.View>
         </View>
 
-        <View style={styles.featuresContainer}>
-          <View style={styles.featureItem}>
-            <Text style={styles.featureIcon}>🎯</Text>
-            <Text
+        {/* Enhanced Features Section */}
+        <Animated.View
+          style={[
+            styles.featuresContainer,
+            {
+              transform: [
+                {
+                  translateY: featuresAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [50, 0],
+                  }),
+                },
+              ],
+              opacity: featuresAnim,
+            },
+          ]}
+        >
+          {[
+            {
+              icon: "🎯",
+              title: "Kişiselleştirilmiş İçerik",
+              subtitle: "Size özel tasarlanmış deneyim",
+              color: theme.colors.primary,
+            },
+            {
+              icon: "📱",
+              title: "Akıllı Bildirimler",
+              subtitle: "Tam zamanında motivasyon",
+              color: theme.colors.secondary,
+            },
+            {
+              icon: "⚡",
+              title: "Hızlı ve Etkili",
+              subtitle: "Anında ilham ve enerji",
+              color: theme.colors.brandYellow,
+            },
+          ].map((feature, index) => (
+            <TouchableOpacity
+              key={index}
               style={[
-                styles.featureText,
-                { color: theme.colors.whiteOverlay80 },
+                styles.modernFeatureCard,
+                {
+                  backgroundColor: `${feature.color}15`,
+                  borderColor: `${feature.color}30`,
+                },
               ]}
+              activeOpacity={0.8}
             >
-              {onboarding.feature_personalized}
-            </Text>
-          </View>
-          <View style={styles.featureItem}>
-            <Text style={styles.featureIcon}>📱</Text>
-            <Text
-              style={[
-                styles.featureText,
-                { color: theme.colors.whiteOverlay80 },
-              ]}
-            >
-              {onboarding.feature_notifications}
-            </Text>
-          </View>
-          <View style={styles.featureItem}>
-            <Text style={styles.featureIcon}>⚡</Text>
-            <Text
-              style={[
-                styles.featureText,
-                { color: theme.colors.whiteOverlay80 },
-              ]}
-            >
-              {onboarding.feature_fast}
-            </Text>
-          </View>
-        </View>
+              <LinearGradient
+                colors={[`${feature.color}20`, `${feature.color}10`]}
+                style={styles.featureCardGradient}
+              >
+                <View style={styles.featureIconContainer}>
+                  <Text style={styles.modernFeatureIcon}>{feature.icon}</Text>
+                </View>
+                <View style={styles.featureTextContainer}>
+                  <Text
+                    style={[
+                      styles.modernFeatureTitle,
+                      { color: theme.colors.white },
+                    ]}
+                  >
+                    {feature.title}
+                  </Text>
+                  <Text
+                    style={[
+                      styles.modernFeatureSubtitle,
+                      { color: theme.colors.whiteOverlay70 },
+                    ]}
+                  >
+                    {feature.subtitle}
+                  </Text>
+                </View>
+                <View style={styles.featureArrow}>
+                  <IconSymbol
+                    name="chevron.right"
+                    size={20}
+                    color={feature.color}
+                    strokeWidth={2}
+                  />
+                </View>
+              </LinearGradient>
+            </TouchableOpacity>
+          ))}
+        </Animated.View>
+
+        {/* Bottom CTA Section */}
+        <Animated.View
+          style={[
+            styles.ctaSection,
+            {
+              transform: [
+                {
+                  translateY: featuresAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [30, 0],
+                  }),
+                },
+              ],
+              opacity: featuresAnim,
+            },
+          ]}
+        >
+          <Text
+            style={[styles.ctaText, { color: theme.colors.whiteOverlay80 }]}
+          >
+            Başlamak için sadece birkaç kısa soru yanıtlayın
+          </Text>
+        </Animated.View>
       </ScrollView>
     </Animated.View>
   );
@@ -279,95 +548,38 @@ export function OnboardingScreen() {
       {question.options?.map((option: OnboardingOption) => {
         const isSelected = answers[question.id] === option.value;
         return (
-          <TouchableOpacity
+          <OnboardingCard
             key={option.id}
-            style={[
-              styles.option,
-              dynamicStyles.option,
-              {
-                backgroundColor: isSelected
-                  ? theme.colors.brandYellow
-                  : theme.colors.surface,
-                borderColor: isSelected
-                  ? theme.colors.brandYellow
-                  : theme.colors.border,
-                borderRadius: theme.borderRadius.lg,
-              },
-            ]}
+            icon={option.icon}
+            title={option.label}
+            isSelected={isSelected}
             onPress={() => handleAnswer(question.id, option.value)}
-          >
-            <IconSymbol
-              name={option.icon as any}
-              size={28}
-              color={isSelected ? theme.colors.white : theme.colors.brandYellow}
-              strokeWidth={2}
-            />
-            <Text
-              style={[
-                styles.optionText,
-                {
-                  color: isSelected
-                    ? theme.colors.white
-                    : theme.colors.textSoft,
-                },
-              ]}
-            >
-              {option.label}
-            </Text>
-          </TouchableOpacity>
+            variant="default"
+          />
         );
       })}
     </View>
   );
 
   const renderMultipleChoice = (question: any) => (
-    <View style={styles.optionsContainer}>
+    <View style={styles.multiOptionsContainer}>
       {question.options?.map((option: OnboardingOption) => {
         const selectedOptions = answers[question.id] || [];
         const isSelected = selectedOptions.includes(option.value);
 
         return (
-          <TouchableOpacity
+          <OnboardingMultiCard
             key={option.id}
-            style={[
-              styles.multiOption,
-              dynamicStyles.multiOption,
-              {
-                backgroundColor: isSelected
-                  ? theme.colors.brandYellow
-                  : theme.colors.surface,
-                borderColor: isSelected
-                  ? theme.colors.brandYellow
-                  : theme.colors.border,
-                borderRadius: theme.borderRadius.md,
-              },
-            ]}
+            icon={option.icon}
+            title={option.label}
+            isSelected={isSelected}
             onPress={() => {
               const newSelected = isSelected
                 ? selectedOptions.filter((v: string) => v !== option.value)
                 : [...selectedOptions, option.value];
               handleAnswer(question.id, newSelected);
             }}
-          >
-            <IconSymbol
-              name={option.icon as any}
-              size={20}
-              color={isSelected ? theme.colors.white : theme.colors.brandYellow}
-              strokeWidth={2}
-            />
-            <Text
-              style={[
-                styles.multiOptionText,
-                {
-                  color: isSelected
-                    ? theme.colors.white
-                    : theme.colors.textSoft,
-                },
-              ]}
-            >
-              {option.label}
-            </Text>
-          </TouchableOpacity>
+          />
         );
       })}
     </View>
@@ -431,36 +643,61 @@ export function OnboardingScreen() {
       end: "18:00",
     };
 
-    // Predefined time ranges for better UX
+    // Import time format utilities
+    const {
+      uses12HourFormat,
+      formatTimeForUser,
+      parseTimeToMilitary,
+    } = require("../../utils/language");
+    const use12Hour = uses12HourFormat();
+
+    // Helper function to format time ranges for display
+    const formatTimeRange = (start: string, end: string) => {
+      const startTime = parseTimeToMilitary(start);
+      const endTime = parseTimeToMilitary(end);
+      const startFormatted = formatTimeForUser(
+        startTime.hour,
+        startTime.minute
+      );
+      const endFormatted = formatTimeForUser(endTime.hour, endTime.minute);
+      return `${startFormatted} - ${endFormatted}`;
+    };
+
+    // Predefined time ranges for better UX with locale-aware formatting
     const timePresets = [
       {
         id: "early",
-        label: "🌅 " + (onboarding.time_early || "Early Bird"),
-        description: "06:00 - 12:00",
+        icon: "🌅",
+        label: onboarding.time_early || "Early Bird",
+        description: formatTimeRange("06:00", "12:00"),
         value: { start: "06:00", end: "12:00" },
       },
       {
         id: "morning",
-        label: "☀️ " + (onboarding.time_morning_range || "Morning"),
-        description: "08:00 - 14:00",
+        icon: "☀️",
+        label: onboarding.time_morning_range || "Morning",
+        description: formatTimeRange("08:00", "14:00"),
         value: { start: "08:00", end: "14:00" },
       },
       {
         id: "regular",
-        label: "💼 " + (onboarding.time_regular || "Work Hours"),
-        description: "09:00 - 18:00",
+        icon: "💼",
+        label: onboarding.time_regular || "Work Hours",
+        description: formatTimeRange("09:00", "18:00"),
         value: { start: "09:00", end: "18:00" },
       },
       {
         id: "extended",
-        label: "🌙 " + (onboarding.time_extended || "Extended"),
-        description: "07:00 - 21:00",
+        icon: "🌙",
+        label: onboarding.time_extended || "Extended",
+        description: formatTimeRange("07:00", "21:00"),
         value: { start: "07:00", end: "21:00" },
       },
       {
         id: "evening",
-        label: "🌆 " + (onboarding.time_evening_range || "Evening Focus"),
-        description: "15:00 - 20:00",
+        icon: "🌆",
+        label: onboarding.time_evening_range || "Evening Focus",
+        description: formatTimeRange("15:00", "20:00"),
         value: { start: "15:00", end: "20:00" },
       },
     ];
@@ -477,52 +714,16 @@ export function OnboardingScreen() {
           {timePresets.map((preset) => {
             const isSelected = currentPresetId === preset.id;
             return (
-              <TouchableOpacity
+              <OnboardingTimeCard
                 key={preset.id}
-                style={[
-                  styles.timePreset,
-                  {
-                    backgroundColor: isSelected
-                      ? theme.colors.brandYellow + "CC" // daha belirgin, hafif opak sarı
-                      : "rgba(255,255,255,0.08)",
-                    borderColor: isSelected
-                      ? theme.colors.brandYellow
-                      : theme.colors.border,
-                    borderRadius: theme.borderRadius.lg,
-                    shadowColor: isSelected ? theme.colors.brandYellow : "#000",
-                    shadowOpacity: isSelected ? 0.18 : 0.1,
-                    elevation: isSelected ? 8 : 4,
-                  },
-                ]}
+                icon={preset.icon}
+                title={preset.label}
+                timeRange={preset.description}
+                isSelected={isSelected}
                 onPress={() => {
                   handleAnswer("notification_time_range", preset.value);
                 }}
-              >
-                <Text
-                  style={[
-                    styles.timePresetLabel,
-                    {
-                      color: isSelected
-                        ? theme.colors.white
-                        : theme.colors.textSoft,
-                    },
-                  ]}
-                >
-                  {preset.label}
-                </Text>
-                <Text
-                  style={[
-                    styles.timePresetDescription,
-                    {
-                      color: isSelected
-                        ? theme.colors.white
-                        : theme.colors.textSoftSecondary,
-                    },
-                  ]}
-                >
-                  {preset.description}
-                </Text>
-              </TouchableOpacity>
+              />
             );
           })}
         </View>
@@ -533,17 +734,14 @@ export function OnboardingScreen() {
             style={[
               styles.timeDisplayCard,
               {
-                backgroundColor: theme.colors.surface,
-                borderColor: theme.colors.border,
+                backgroundColor: `${theme.colors.surface}25`,
+                borderColor: `${theme.colors.border}50`,
                 borderRadius: theme.borderRadius.md,
               },
             ]}
           >
             <Text
-              style={[
-                styles.timeDisplayTitle,
-                { color: theme.colors.textSoftSecondary },
-              ]}
+              style={[styles.timeDisplayTitle, { color: theme.colors.white }]}
             >
               {onboarding.selected_time_range || "Selected Time Range"}
             </Text>
@@ -553,10 +751,50 @@ export function OnboardingScreen() {
                 { color: theme.colors.brandYellow },
               ]}
             >
-              {timeRange.start} - {timeRange.end}
+              {formatTimeRange(timeRange.start, timeRange.end)}
             </Text>
           </View>
         </View>
+      </View>
+    );
+  };
+
+  const renderTextInput = (question: any) => {
+    const value = answers[question.id] || "";
+
+    return (
+      <View style={styles.textInputContainer}>
+        <TextInput
+          style={[
+            styles.textInput,
+            {
+              backgroundColor: theme.colors.whiteOverlay10,
+              borderColor: theme.colors.border,
+              color: theme.colors.white,
+            },
+          ]}
+          value={value}
+          onChangeText={(text) => handleAnswer(question.id, text)}
+          placeholder={question.placeholder || ""}
+          placeholderTextColor={theme.colors.whiteOverlay70}
+          maxLength={question.maxLength || 100}
+          autoCapitalize="words"
+          autoCorrect={false}
+          returnKeyType="done"
+          selectionColor={theme.colors.brandYellow}
+        />
+
+        {/* Character count indicator */}
+        {question.maxLength && (
+          <Text
+            style={[
+              styles.characterCount,
+              { color: theme.colors.whiteOverlay70 },
+            ]}
+          >
+            {value.length}/{question.maxLength}
+          </Text>
+        )}
       </View>
     );
   };
@@ -569,6 +807,7 @@ export function OnboardingScreen() {
         <ScrollView
           showsVerticalScrollIndicator={false}
           style={styles.questionContainer}
+          contentContainerStyle={styles.questionContent}
         >
           <Text style={[styles.questionText, { color: theme.colors.white }]}>
             {currentQuestion.question}
@@ -581,6 +820,7 @@ export function OnboardingScreen() {
           {currentQuestion.type === "slider" && renderSlider(currentQuestion)}
           {currentQuestion.id === "notification_time_range" &&
             renderTimePicker()}
+          {currentQuestion.type === "text" && renderTextInput(currentQuestion)}
         </ScrollView>
       </Animated.View>
     );
@@ -588,43 +828,9 @@ export function OnboardingScreen() {
 
   const progressPercentage = ((currentStep + 2) / totalSteps) * 100;
 
-  // Create dynamic styles based on theme
-  const dynamicStyles = StyleSheet.create({
-    option: {
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.1,
-      shadowRadius: 4,
-      elevation: 3,
-    },
-    multiOption: {
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 1,
-      },
-      shadowOpacity: 0.05,
-      shadowRadius: 2,
-      elevation: 2,
-    },
-    navButton: {
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 2,
-      },
-      shadowOpacity: 0.1,
-      shadowRadius: 4,
-      elevation: 3,
-    },
-  });
-
   return (
     <BaseScreen style={styles.container}>
-      {/* Progress Bar */}
+      {/* Enhanced Progress Bar */}
       {currentStep >= -1 && currentStep < onboardingQuestions.length && (
         <View style={styles.progressContainer}>
           <View
@@ -663,7 +869,7 @@ export function OnboardingScreen() {
         {currentStep === onboardingQuestions.length && renderCompletionScreen()}
       </View>
 
-      {/* Navigation Buttons */}
+      {/* Enhanced Navigation Buttons */}
       {currentStep < onboardingQuestions.length && (
         <View style={styles.navigationContainer}>
           {currentStep > -1 && (
@@ -671,11 +877,11 @@ export function OnboardingScreen() {
               style={[
                 styles.navButton,
                 styles.prevButton,
-                dynamicStyles.navButton,
                 {
-                  backgroundColor: theme.colors.surface,
+                  backgroundColor: `${theme.colors.surface}20`,
                   borderRadius: theme.borderRadius.md,
-                  borderColor: theme.colors.border,
+                  borderColor: `${theme.colors.border}50`,
+                  borderWidth: 1,
                 },
               ]}
               onPress={handlePrevious}
@@ -692,19 +898,27 @@ export function OnboardingScreen() {
             style={[
               styles.navButton,
               styles.nextButton,
-              dynamicStyles.navButton,
               {
                 backgroundColor: isStepComplete()
                   ? theme.colors.brandYellow
-                  : theme.colors.border,
+                  : `${theme.colors.border}60`,
                 borderRadius: theme.borderRadius.md,
-                opacity: isStepComplete() ? 1 : 0.5,
+                opacity: isStepComplete() ? 1 : 0.6,
               },
             ]}
             onPress={handleNext}
             disabled={!isStepComplete()}
           >
-            <Text style={[styles.navButtonText, { color: theme.colors.white }]}>
+            <Text
+              style={[
+                styles.navButtonText,
+                {
+                  color: isStepComplete()
+                    ? theme.colors.blackOverlay70
+                    : theme.colors.textSecondary,
+                },
+              ]}
+            >
               {currentStep === onboardingQuestions.length - 1
                 ? onboarding.complete
                 : onboarding.next_step}
@@ -728,18 +942,18 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   progressBar: {
-    height: 4,
+    height: 6,
     width: "100%",
-    borderRadius: 2,
+    borderRadius: 3,
     marginBottom: 8,
   },
   progressFill: {
     height: "100%",
-    borderRadius: 2,
+    borderRadius: 3,
   },
   progressText: {
     fontSize: 14,
-    fontWeight: "500",
+    fontWeight: "600",
   },
   content: {
     flex: 1,
@@ -748,29 +962,64 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 0,
   },
-  // Intro Screen
+  // Enhanced Intro Screen
   introScrollView: {
     flex: 1,
   },
   introContainer: {
     flexGrow: 1,
-    justifyContent: "center",
-    paddingVertical: 60,
+    justifyContent: "space-between",
+    paddingVertical: 40,
     paddingHorizontal: 24,
-    minHeight: "100%",
+    minHeight: screenHeight * 0.8,
+  },
+  freeBadgeContainer: {
+    alignItems: "flex-start",
+    marginBottom: 20,
+  },
+  freeBadge: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 20,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  freeBadgeText: {
+    fontSize: 14,
+    fontWeight: "800",
+    color: "#fff",
+    letterSpacing: 1,
   },
   welcomeSection: {
     alignItems: "center",
     marginBottom: 40,
+    flex: 1,
+    justifyContent: "center",
   },
   welcomeIconContainer: {
     marginBottom: 24,
   },
+  starGradientContainer: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    alignItems: "center",
+    justifyContent: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 16,
+    elevation: 12,
+  },
   welcomeTitle: {
-    fontSize: 32,
-    fontWeight: "700",
+    fontSize: 36,
+    fontWeight: "800",
     textAlign: "center",
     marginBottom: 16,
+    lineHeight: 44,
   },
   welcomeSubtitle: {
     fontSize: 18,
@@ -782,25 +1031,67 @@ const styles = StyleSheet.create({
   featuresContainer: {
     width: "100%",
     alignItems: "stretch",
+    marginBottom: 30,
   },
-  featureItem: {
+  modernFeatureCard: {
+    borderRadius: 16,
+    marginBottom: 16,
+    borderWidth: 1,
+    overflow: "hidden",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 6,
+  },
+  featureCardGradient: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 20,
-    paddingHorizontal: 16,
-    paddingVertical: 4,
+    paddingHorizontal: 20,
+    paddingVertical: 20,
   },
-  featureIcon: {
-    fontSize: 24,
+  featureIconContainer: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    backgroundColor: "rgba(255,255,255,0.1)",
+    alignItems: "center",
+    justifyContent: "center",
     marginRight: 16,
-    width: 32,
-    textAlign: "center",
   },
-  featureText: {
+  modernFeatureIcon: {
+    fontSize: 24,
+  },
+  featureTextContainer: {
+    flex: 1,
+  },
+  modernFeatureTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+    marginBottom: 4,
+  },
+  modernFeatureSubtitle: {
+    fontSize: 14,
+    fontWeight: "500",
+    opacity: 0.9,
+  },
+  featureArrow: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: "rgba(255,255,255,0.1)",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ctaSection: {
+    alignItems: "center",
+    paddingVertical: 20,
+  },
+  ctaText: {
     fontSize: 16,
     fontWeight: "500",
-    flex: 1,
-    lineHeight: 22,
+    textAlign: "center",
+    lineHeight: 24,
   },
   // Completion Screen
   completionContainer: {
@@ -842,49 +1133,25 @@ const styles = StyleSheet.create({
   // Question Container
   questionContainer: {
     flex: 1,
+  },
+  questionContent: {
     paddingVertical: 20,
-    paddingHorizontal: 10,
+    paddingHorizontal: 20,
   },
   questionText: {
-    fontSize: 22,
-    fontWeight: "600",
+    fontSize: 24,
+    fontWeight: "700",
     textAlign: "center",
-    lineHeight: 30,
-    marginBottom: 28,
+    lineHeight: 32,
+    marginBottom: 32,
     paddingHorizontal: 10,
   },
   // Options
   optionsContainer: {
-    paddingVertical: 20,
-  },
-  option: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 18,
-    paddingVertical: 14,
-    borderWidth: 2,
-    marginBottom: 10,
-  },
-  optionText: {
-    fontSize: 15,
-    fontWeight: "600",
-    flex: 1,
-    marginLeft: 12,
-  },
-  // Multiple Choice
-  multiOption: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 14,
     paddingVertical: 10,
-    borderWidth: 2,
-    marginBottom: 6,
   },
-  multiOptionText: {
-    fontSize: 13,
-    fontWeight: "500",
-    flex: 1,
-    marginLeft: 10,
+  multiOptionsContainer: {
+    paddingVertical: 10,
   },
   // Slider
   sliderContainer: {
@@ -933,34 +1200,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-between",
-    marginBottom: 20,
-  },
-  timePreset: {
-    width: "48%",
-    paddingHorizontal: 16,
-    paddingVertical: 18,
-    borderWidth: 1.5,
-    marginBottom: 12,
-    alignItems: "center",
-    borderRadius: 18,
-    backgroundColor: "rgba(255,255,255,0.08)", // default yarı saydam overlay
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 4,
-  },
-  timePresetLabel: {
-    fontSize: 16,
-    fontWeight: "700",
-    marginBottom: 4,
-    textAlign: "center",
-  },
-  timePresetDescription: {
-    fontSize: 14,
-    fontWeight: "500",
-    textAlign: "center",
-    opacity: 0.85,
+    marginBottom: 24,
   },
   currentTimeDisplay: {
     alignItems: "center",
@@ -973,7 +1213,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     minWidth: 200,
     borderRadius: 16,
-    backgroundColor: "rgba(255,255,255,0.10)",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -1004,9 +1243,14 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     minWidth: 100,
     alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   prevButton: {
-    borderWidth: 2,
+    // Styles applied inline
   },
   nextButton: {
     marginLeft: "auto",
@@ -1014,5 +1258,27 @@ const styles = StyleSheet.create({
   navButtonText: {
     fontSize: 16,
     fontWeight: "600",
+  },
+  // Text Input
+  textInputContainer: {
+    marginTop: 20,
+  },
+  textInput: {
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderRadius: 12,
+    borderWidth: 1,
+    fontSize: 18,
+    fontWeight: "500",
+    lineHeight: 24,
+    textAlign: "center",
+    minHeight: 50,
+    width: "100%",
+  },
+  characterCount: {
+    fontSize: 14,
+    textAlign: "right",
+    marginTop: 8,
+    paddingHorizontal: 10,
   },
 });

@@ -40,18 +40,90 @@ export function HomeScreen() {
   // Analytics
   const { trackScreen, trackQuoteView, trackCategoryFilter } = useAnalytics();
 
+  // Progressive paywall tracking
+  const { trackUserInteraction } = usePaywallSelectors.actions();
+
   // Mood-based motivation
   const {
-    isModalVisible,
-    isGenerating,
+    isLoading: isGenerating,
     generatedMessage,
-    showModal,
-    hideModal,
-    handleMoodComplete,
-    handleTryDifferent,
-    handleShare,
-    handleClose,
+    error: moodError,
+    generateMotivation,
+    clearMessage,
   } = useMoodMotivation();
+
+  // Mood modal state (now managed locally)
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Mood modal handlers
+  const showModal = () => setIsModalVisible(true);
+  const hideModal = () => {
+    setIsModalVisible(false);
+    clearMessage();
+  };
+
+  const handleMoodComplete = async (moodResponse: any) => {
+    // Close modal first
+    setIsModalVisible(false);
+
+    // Generate motivation using new hook
+    await generateMotivation({
+      mood: moodResponse.feeling,
+      energy: moodResponse.energy,
+      affecting: moodResponse.affecting,
+      language: (userPreferences?.language || "tr") as
+        | "en"
+        | "tr"
+        | "fr"
+        | "es"
+        | "de"
+        | "it"
+        | "pt"
+        | "ru"
+        | "nl"
+        | "id"
+        | "ja"
+        | "th"
+        | "ms",
+    });
+  };
+
+  // AI Message Card handlers
+  const handleShare = () => {
+    console.log("📤 Sharing mood-based motivation message");
+    // Implement share functionality here
+  };
+
+  const handleTryDifferent = async () => {
+    if (!userPreferences) return;
+
+    // Re-generate with same mood data but different result
+    const lastMoodData = {
+      mood: "motivated", // Default or store last used values
+      energy: "medium",
+      affecting: "goals",
+      language: (userPreferences.language || "tr") as
+        | "en"
+        | "tr"
+        | "fr"
+        | "es"
+        | "de"
+        | "it"
+        | "pt"
+        | "ru"
+        | "nl"
+        | "id"
+        | "ja"
+        | "th"
+        | "ms",
+    };
+
+    await generateMotivation(lastMoodData);
+  };
+
+  const handleClose = () => {
+    clearMessage();
+  };
 
   // Router parameters for category selection from explore
   const { selectedCategory } = useLocalSearchParams();
@@ -159,8 +231,18 @@ export function HomeScreen() {
           is_premium: selectedCategoryData.isPremium,
         });
       }
+
+      // Track user interaction for progressive paywall (only for non-premium users)
+      if (!isPremium) {
+        trackUserInteraction();
+        console.log("🎯 User interaction tracked (category filter)");
+      } else {
+        console.log(
+          "👑 Premium user - skipping interaction tracking (category filter)"
+        );
+      }
     }
-  }, [selectedCategory, allCategories, trackCategoryFilter]);
+  }, [selectedCategory, allCategories, trackCategoryFilter, isPremium]);
 
   // Handle quote view tracking
   const handleQuoteView = (quote: LocalizedQuote) => {
@@ -171,8 +253,18 @@ export function HomeScreen() {
       quote_id: quote.id,
       quote_category: quote.category,
       quote_author: quote.author,
-      language: quote.language,
+      language: quote.language as "en" | "tr",
     });
+
+    // Track user interaction for progressive paywall (only for non-premium users)
+    if (!isPremium) {
+      trackUserInteraction();
+      console.log("🎯 User interaction tracked (quote view)");
+    } else {
+      console.log(
+        "👑 Premium user - skipping interaction tracking (quote view)"
+      );
+    }
   };
 
   // Track actions when user interacts with quotes
@@ -185,6 +277,16 @@ export function HomeScreen() {
   const clearCategoryFilter = () => {
     setCategoryFilter(null);
     console.log(`🧹 Category filter cleared`);
+
+    // Track user interaction for progressive paywall (only for non-premium users)
+    if (!isPremium) {
+      trackUserInteraction();
+      console.log("🎯 User interaction tracked (category clear)");
+    } else {
+      console.log(
+        "👑 Premium user - skipping interaction tracking (category clear)"
+      );
+    }
   };
 
   // Toggle premium status for debugging

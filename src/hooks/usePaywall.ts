@@ -8,6 +8,7 @@ import {
   SubscriptionStatus,
 } from "../services/PaywallService";
 import { usePaywallSelectors } from "../store/usePaywallStore";
+import { usePurchaseSelectors } from "../store/usePurchaseStore";
 import { PaywallTriggerSource } from "../types";
 
 export interface PaywallHook {
@@ -44,8 +45,7 @@ export const usePaywall = (): PaywallHook => {
   const triggerSource = usePaywallSelectors.triggerSource();
   const actionCount = usePaywallSelectors.actionCount();
   const hasSeenWelcome = usePaywallSelectors.hasSeenWelcome();
-
-  // Store actions
+  const hasHydrated = usePaywallSelectors.hasHydrated();
   const {
     showPaywall: showPaywallAction,
     hidePaywall: hidePaywallAction,
@@ -53,14 +53,22 @@ export const usePaywall = (): PaywallHook => {
     resetActionCount: resetActionCountAction,
     markWelcomePaywallSeen,
   } = usePaywallSelectors.actions();
+  const isPremium = usePurchaseSelectors.isPremium();
 
-  // Paywall display methods
   const showPaywall = useCallback(
     (source: PaywallTriggerSource) => {
-      console.log(`📱 Showing paywall with source: ${source}`);
+      // Premium kullanıcılar için paywall gösterme
+      if (isPremium) {
+        console.log(
+          `🚫 Premium user, not showing paywall for source: ${source}`
+        );
+        return;
+      }
+
+      console.log(`💰 Showing paywall with source: ${source}`);
       showPaywallAction(source);
     },
-    [showPaywallAction]
+    [isPremium, showPaywallAction]
   );
 
   const hidePaywall = useCallback(() => {
@@ -169,24 +177,44 @@ export const usePaywall = (): PaywallHook => {
 
   // Convenience methods for different paywall contexts
   const showWelcomePaywall = useCallback(() => {
+    if (isPremium) {
+      console.log(`🚫 Premium user, not showing welcome paywall`);
+      return;
+    }
     showPaywall("welcome");
-  }, [showPaywall]);
+  }, [showPaywall, isPremium]);
 
   const showPremiumCategoryPaywall = useCallback(() => {
+    if (isPremium) {
+      console.log(`🚫 Premium user, not showing premium category paywall`);
+      return;
+    }
     showPaywall("premium_category");
-  }, [showPaywall]);
+  }, [showPaywall, isPremium]);
 
   const showStoryLimitPaywall = useCallback(() => {
+    if (isPremium) {
+      console.log(`🚫 Premium user, not showing story limit paywall`);
+      return;
+    }
     showPaywall("story_limit");
-  }, [showPaywall]);
+  }, [showPaywall, isPremium]);
 
   const showActionLimitPaywall = useCallback(() => {
+    if (isPremium) {
+      console.log(`🚫 Premium user, not showing action limit paywall`);
+      return;
+    }
     showPaywall("action_limit");
-  }, [showPaywall]);
+  }, [showPaywall, isPremium]);
 
   const showRealPurchasePaywall = useCallback(() => {
+    if (isPremium) {
+      console.log(`🚫 Premium user, not showing real purchase paywall`);
+      return;
+    }
     showPaywall("real_purchase");
-  }, [showPaywall]);
+  }, [showPaywall, isPremium]);
 
   return {
     // State
