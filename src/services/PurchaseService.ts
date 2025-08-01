@@ -5,103 +5,85 @@ import {
   FREE_QUOTE_CATEGORIES_LIMIT,
   getRemainingStoryReads,
 } from "../utils/dailyReset";
-
-// RevenueCat types (will be properly imported when RevenueCat is configured)
-interface PurchaserInfo {
-  entitlements: {
-    active: {
-      [key: string]: {
-        isActive: boolean;
-        identifier: string;
-      };
-    };
-  };
-}
-
-interface PurchasePackage {
-  identifier: string;
-  product: {
-    price: string;
-    priceString: string;
-    title: string;
-    description: string;
-  };
-}
+import revenueCatService from "./revenueCat";
 
 // Single Responsibility: PurchaseService handles only purchase and premium logic
 class PurchaseService {
   private static readonly PREMIUM_ENTITLEMENT_ID = "premium_lifetime";
   private static readonly TRIAL_DURATION_DAYS = 7;
 
-  // Mock products for development (replace with actual RevenueCat products)
-  private mockProducts: PurchaseProduct[] = [
-    {
-      identifier: "premium_lifetime",
-      price: "$4.99",
-      title: "Premium Lifetime",
-      description: "Unlock all categories and unlimited stories forever",
-    },
-  ];
-
-  // Initialize RevenueCat (to be implemented)
+  // Initialize RevenueCat
   async initialize(): Promise<void> {
     try {
-      // TODO: Initialize RevenueCat SDK
-      // await Purchases.configure({
-      //   apiKey: 'your_revenuecat_api_key'
-      // });
-      console.log("PurchaseService initialized");
+      await revenueCatService.initialize();
+      console.log("PurchaseService initialized successfully");
     } catch (error) {
       console.error("Failed to initialize PurchaseService:", error);
     }
   }
 
-  // Get available products
+  // Get available products from RevenueCat
   async getProducts(): Promise<PurchaseProduct[]> {
     try {
-      // TODO: Replace with actual RevenueCat product fetching
-      // const offerings = await Purchases.getOfferings();
-      // const products = offerings.current?.availablePackages || [];
-      // return products.map(this.mapPackageToProduct);
+      const offerings = await revenueCatService.getOfferings();
+      if (!offerings || !offerings.packages) {
+        console.warn("No offerings available");
+        return [];
+      }
 
-      // For now, return mock products
-      return this.mockProducts;
+      return offerings.packages.map((pkg) => ({
+        identifier: pkg.identifier,
+        price: pkg.product.priceString,
+        title: pkg.product.title,
+        description: pkg.product.description,
+      }));
     } catch (error) {
       console.error("Failed to get products:", error);
       return [];
     }
   }
 
-  // Check if user has premium access
+  // Check if user has premium access via RevenueCat
   async checkPremiumStatus(): Promise<boolean> {
     try {
-      // TODO: Replace with actual RevenueCat premium check
-      // const purchaserInfo = await Purchases.getPurchaserInfo();
-      // return purchaserInfo.entitlements.active[this.PREMIUM_ENTITLEMENT_ID]?.isActive || false;
-
-      // For development, check AsyncStorage or return false
-      return false;
+      return await revenueCatService.isPremiumUser();
     } catch (error) {
       console.error("Failed to check premium status:", error);
       return false;
     }
   }
 
-  // Purchase premium
+  // Purchase premium via RevenueCat
   async purchasePremium(productId: string): Promise<{
     success: boolean;
     error?: string;
   }> {
     try {
-      // TODO: Implement actual RevenueCat purchase
-      // const purchaseResult = await Purchases.purchasePackage(package);
-      // return { success: true };
+      // Get available packages to find the correct one
+      const offerings = await revenueCatService.getOfferings();
+      if (!offerings) {
+        return { success: false, error: "No packages available" };
+      }
 
-      console.log(`Attempting to purchase product: ${productId}`);
+      const packageToPurchase = offerings.packages.find(
+        (pkg) => pkg.identifier === productId
+      );
 
-      // Mock successful purchase for development
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simulate API call
-      return { success: true };
+      if (!packageToPurchase) {
+        return { success: false, error: "Product not found" };
+      }
+
+      const result = await revenueCatService.purchasePackage(packageToPurchase);
+
+      if (result.success) {
+        console.log("✅ Purchase completed successfully");
+        return { success: true };
+      } else {
+        return {
+          success: false,
+          error: result.error || "Purchase failed",
+        };
+      }
     } catch (error: any) {
       console.error("Purchase failed:", error);
       return {
@@ -111,24 +93,29 @@ class PurchaseService {
     }
   }
 
-  // Restore purchases
+  // Restore purchases via RevenueCat
   async restorePurchases(): Promise<{
     success: boolean;
     hasPremium: boolean;
     error?: string;
   }> {
     try {
-      // TODO: Implement actual RevenueCat restore
-      // const purchaserInfo = await Purchases.restoreTransactions();
-      // const hasPremium = purchaserInfo.entitlements.active[this.PREMIUM_ENTITLEMENT_ID]?.isActive || false;
+      const result = await revenueCatService.restorePurchases();
 
-      console.log("Attempting to restore purchases");
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate API call
-
-      return {
-        success: true,
-        hasPremium: false, // Mock result
-      };
+      if (result.success) {
+        // Check premium status after restore
+        const hasPremium = await revenueCatService.isPremiumUser();
+        return {
+          success: true,
+          hasPremium,
+        };
+      } else {
+        return {
+          success: false,
+          hasPremium: false,
+          error: result.error || "Restore failed",
+        };
+      }
     } catch (error: any) {
       console.error("Restore failed:", error);
       return {
@@ -260,16 +247,6 @@ class PurchaseService {
       lifetimePrice,
       savingsAmount,
       savingsPercentage,
-    };
-  }
-
-  // Private helper methods
-  private mapPackageToProduct(packageInfo: PurchasePackage): PurchaseProduct {
-    return {
-      identifier: packageInfo.identifier,
-      price: packageInfo.product.priceString,
-      title: packageInfo.product.title,
-      description: packageInfo.product.description,
     };
   }
 

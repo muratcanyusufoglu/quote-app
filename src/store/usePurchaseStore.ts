@@ -3,6 +3,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { useShallow } from "zustand/react/shallow";
 import { purchaseService } from "../services/PurchaseService";
+import revenueCatService from "../services/revenueCat";
 import { PurchaseProduct, PurchaseStore } from "../types";
 
 // PurchaseStore slice for managing premium features and purchases
@@ -146,6 +147,25 @@ const usePurchaseStore = create<PurchaseStore>()(
             })
             .catch((error: any) => {
               console.error("Failed to initialize purchases:", error);
+            });
+
+          // Check and sync premium status with RevenueCat after hydration
+          revenueCatService
+            .isPremiumUser()
+            .then((isPremium: boolean) => {
+              console.log(`🔄 RevenueCat premium status synced: ${isPremium}`);
+              if (isPremium !== state.isPremium) {
+                state.setPremium(isPremium);
+                console.log(
+                  `✅ Premium status updated from RevenueCat: ${isPremium}`
+                );
+              }
+            })
+            .catch((error: any) => {
+              console.error(
+                "Failed to sync premium status with RevenueCat:",
+                error
+              );
             });
         }
       },

@@ -92,7 +92,6 @@ const useOnboardingStore = create<OnboardingStore>()(
           preferredTime: "morning",
           readingLength: "medium",
           topics: [],
-          frequency: "daily",
           preferredLanguages: [systemLanguage], // Include system language
 
           // New fields with default values
@@ -102,6 +101,7 @@ const useOnboardingStore = create<OnboardingStore>()(
             start: "09:00",
             end: "18:00",
           },
+          userName: "", // Default empty, will be filled from answers
         };
 
         // Process each answer to build preferences
@@ -146,59 +146,18 @@ const useOnboardingStore = create<OnboardingStore>()(
             case "topics":
               if (Array.isArray(answer.value)) {
                 preferences.topics = answer.value;
-                // Map topics to categories based on language
-                const topicToCategoryMap: Record<string, string[]> =
-                  systemLanguage === "tr"
-                    ? {
-                        success: ["basari", "motivasyon"],
-                        happiness: ["mutluluk"],
-                        wisdom: ["bilgelik"],
-                        love: ["ask"],
-                        growth: ["gelisim"],
-                        peace: ["huzur"],
-                        strength: ["guc"],
-                        creativity: ["yaraticilik"],
-                        leadership: ["liderlik"],
-                        courage: ["cesaret"],
-                        resilience: ["dayaniklilik"],
-                        gratitude: ["sukur"],
-                        mindfulness: ["farkindalik"],
-                      }
-                    : {
-                        success: ["success", "motivation"],
-                        happiness: ["happiness"],
-                        wisdom: ["wisdom"],
-                        love: ["love"],
-                        growth: ["growth"],
-                        peace: ["peace"],
-                        strength: ["strength"],
-                        creativity: ["creativity"],
-                        leadership: ["leadership"],
-                        courage: ["courage"],
-                        resilience: ["resilience"],
-                        gratitude: ["gratitude"],
-                        mindfulness: ["mindfulness"],
-                      };
-
-                const selectedCategories: string[] = [];
-                answer.value.forEach((topic) => {
-                  const categories = topicToCategoryMap[topic.toLowerCase()];
-                  if (categories) {
-                    selectedCategories.push(...categories);
-                  }
-                });
-                preferences.selectedCategories = [
-                  ...new Set(selectedCategories),
-                ];
+                // Use topic values directly as selectedCategories (universal English IDs)
+                preferences.selectedCategories = [...answer.value];
+                console.log(
+                  `🌍 Universal categories selected:`,
+                  preferences.selectedCategories
+                );
               }
               break;
 
-            case "frequency":
+            case "user_name":
               if (typeof answer.value === "string") {
-                preferences.frequency = answer.value as
-                  | "daily"
-                  | "weekly"
-                  | "occasional";
+                preferences.userName = answer.value.trim();
               }
               break;
 
@@ -265,30 +224,24 @@ const useOnboardingStore = create<OnboardingStore>()(
           }
         });
 
-        // Ensure at least some default categories are selected based on language and purpose
+        // Ensure at least some default categories are selected based on purpose
         if (preferences.selectedCategories.length === 0) {
-          const defaultCategoriesByPurpose =
-            systemLanguage === "tr"
-              ? {
-                  motivation: ["motivasyon", "basari", "cesaret"],
-                  learning: ["bilgelik", "gelisim", "egitim"],
-                  relaxation: ["huzur", "farkindalik", "denge"],
-                  growth: ["gelisim", "bilgelik", "liderlik"],
-                  inspiration: ["motivasyon", "yaraticilik", "hayaller"],
-                }
-              : {
-                  motivation: ["motivation", "success", "courage"],
-                  learning: ["wisdom", "growth", "education"],
-                  relaxation: ["peace", "mindfulness", "balance"],
-                  growth: ["growth", "wisdom", "leadership"],
-                  inspiration: ["motivation", "creativity", "dreams"],
-                };
+          const defaultCategoriesByPurpose = {
+            motivation: ["motivation", "success", "courage"],
+            learning: ["wisdom", "growth", "education"],
+            relaxation: ["peace", "mindfulness", "balance"],
+            growth: ["growth", "wisdom", "leadership"],
+            inspiration: ["motivation", "creativity", "dreams"],
+          };
 
-          preferences.selectedCategories =
-            defaultCategoriesByPurpose[preferences.purpose] ||
-            (systemLanguage === "tr"
-              ? ["motivasyon", "basari", "mutluluk"]
-              : ["motivation", "success", "happiness"]);
+          preferences.selectedCategories = defaultCategoriesByPurpose[
+            preferences.purpose
+          ] || ["motivation", "success", "happiness"];
+
+          console.log(
+            `🌍 Universal default categories for "${preferences.purpose}":`,
+            preferences.selectedCategories
+          );
         }
 
         set({ userPreferences: preferences });
@@ -299,14 +252,14 @@ const useOnboardingStore = create<OnboardingStore>()(
         );
       },
 
+      // Temporary reset function for testing
       resetOnboarding: () => {
         set({
           isCompleted: false,
-          currentStep: 0,
           answers: [],
           userPreferences: null,
         });
-        console.log("Onboarding reset");
+        console.log("🔄 Onboarding data reset for testing");
       },
 
       setHasHydrated: (hydrated: boolean) => {
@@ -394,10 +347,7 @@ const useOnboardingStore = create<OnboardingStore>()(
             );
 
             const defaultPreferences: UserPreferences = {
-              selectedCategories:
-                systemLanguage === "tr"
-                  ? ["motivasyon", "basari", "mutluluk"]
-                  : ["motivation", "success", "happiness"],
+              selectedCategories: ["motivation", "success", "happiness"], // Universal English IDs
               favoriteQuotes: [],
               seenQuotes: [],
               language: systemLanguage,
@@ -406,7 +356,6 @@ const useOnboardingStore = create<OnboardingStore>()(
               preferredTime: "morning",
               readingLength: "medium",
               topics: ["success", "happiness", "wisdom"],
-              frequency: "daily",
               preferredLanguages: [systemLanguage],
 
               // New fields with default values
@@ -416,11 +365,12 @@ const useOnboardingStore = create<OnboardingStore>()(
                 start: "09:00",
                 end: "18:00",
               },
+              userName: "Kullanıcı", // Default fallback name
             };
             state.userPreferences = defaultPreferences;
             console.log(
-              "✅ Default user preferences set with language:",
-              systemLanguage
+              "✅ Universal category IDs set as default:",
+              defaultPreferences.selectedCategories
             );
           }
         }
@@ -447,6 +397,9 @@ export const useUserPreferences = () =>
   useOnboardingStore((state) => state.userPreferences);
 export const useOnboardingHydrated = () =>
   useOnboardingStore((state) => state._hasHydrated);
+
+export const useUserName = () =>
+  useOnboardingStore((state) => state.userPreferences?.userName || "");
 
 export const useOnboardingActions = () =>
   useOnboardingStore(

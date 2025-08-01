@@ -1,0 +1,178 @@
+import { LinearGradient } from "expo-linear-gradient";
+import React from "react";
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  ViewStyle,
+} from "react-native";
+import { useTheme } from "../../utils/ThemeContext";
+
+interface OnboardingTimeCardProps {
+  icon: string;
+  title: string;
+  timeRange: string;
+  isSelected: boolean;
+  onPress: () => void;
+  style?: ViewStyle;
+}
+
+export function OnboardingTimeCard({
+  icon,
+  title,
+  timeRange,
+  isSelected,
+  onPress,
+  style,
+}: OnboardingTimeCardProps) {
+  const { theme } = useTheme();
+
+  return (
+    <TouchableOpacity
+      style={[
+        styles.container,
+        {
+          backgroundColor: isSelected
+            ? `${theme.colors.brandYellow}18`
+            : `${theme.colors.surface}12`,
+          borderColor: isSelected
+            ? theme.colors.brandYellow
+            : `${theme.colors.border}35`,
+          borderWidth: isSelected ? 2 : 1,
+        },
+        style,
+      ]}
+      onPress={onPress}
+      activeOpacity={0.8}
+    >
+      {isSelected && (
+        <LinearGradient
+          colors={[
+            `${theme.colors.brandYellow}12`,
+            `${theme.colors.premium}08`,
+            `${theme.colors.brandYellow}12`,
+          ]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={StyleSheet.absoluteFill}
+        />
+      )}
+
+      <View style={styles.content}>
+        <View
+          style={[
+            styles.iconContainer,
+            {
+              backgroundColor: isSelected
+                ? `${theme.colors.brandYellow}30`
+                : `${theme.colors.whiteOverlay20}`,
+            },
+          ]}
+        >
+          <Text style={styles.iconText}>{icon}</Text>
+        </View>
+
+        <View style={styles.textContainer}>
+          <Text
+            style={[
+              styles.title,
+              {
+                color: isSelected
+                  ? theme.colors.white
+                  : theme.colors.whiteOverlay90,
+                fontWeight: isSelected ? "700" : "600",
+              },
+            ]}
+          >
+            {title}
+          </Text>
+          <Text
+            style={[
+              styles.timeRange,
+              {
+                color: isSelected
+                  ? theme.colors.whiteOverlay80
+                  : theme.colors.whiteOverlay70,
+              },
+            ]}
+          >
+            {timeRange}
+          </Text>
+        </View>
+
+        {isSelected && (
+          <View
+            style={[
+              styles.selectedIndicator,
+              { backgroundColor: theme.colors.brandYellow },
+            ]}
+          >
+            <Text style={styles.selectedText}>✓</Text>
+          </View>
+        )}
+      </View>
+    </TouchableOpacity>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    borderRadius: 16,
+    marginBottom: 12,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.12,
+    shadowRadius: 8,
+    elevation: 6,
+    overflow: "hidden",
+    width: "48%",
+  },
+  content: {
+    alignItems: "center",
+    paddingHorizontal: 16,
+    paddingVertical: 18,
+    position: "relative",
+  },
+  iconContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 12,
+  },
+  iconText: {
+    fontSize: 20,
+  },
+  textContainer: {
+    alignItems: "center",
+  },
+  title: {
+    fontSize: 16,
+    lineHeight: 20,
+    textAlign: "center",
+    marginBottom: 4,
+  },
+  timeRange: {
+    fontSize: 14,
+    lineHeight: 18,
+    textAlign: "center",
+    fontWeight: "500",
+  },
+  selectedIndicator: {
+    position: "absolute",
+    top: 8,
+    right: 8,
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  selectedText: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "700",
+  },
+});

@@ -5,6 +5,7 @@ import { useShallow } from "zustand/react/shallow";
 import { PaywallStore, PaywallTriggerSource } from "../types";
 
 const ACTION_LIMIT = 15; // Her 15 aksiyonda bir paywall göster
+const SECOND_PAYWALL_INTERACTION_COUNT = 3; // İkinci paywall için gerekli interaction sayısı
 
 // PaywallStore slice for managing paywall modal and triggers
 const usePaywallStore = create<PaywallStore>()(
@@ -18,8 +19,17 @@ const usePaywallStore = create<PaywallStore>()(
       hasSeenWelcomePaywall: false,
       _hasHydrated: false,
 
+      // Progressive paywall tracking
+      hasSeenFirstTimePaywall: false,
+      hasSeenDiscountPaywall: false,
+      userInteractionCount: 0,
+      onboardingCompletedDate: null,
+
       // Actions
       showPaywall: (source: PaywallTriggerSource) => {
+        // Premium kontrolü yaparak gereksiz paywall gösterimini engelle
+        // Note: Bu kontrol sadece store seviyesinde bir güvenlik önlemi,
+        // asıl kontrol PaywallModal component'inde yapılıyor
         const today = new Date().toDateString();
         set({
           isVisible: true,
@@ -67,6 +77,80 @@ const usePaywallStore = create<PaywallStore>()(
       setHasHydrated: (hydrated: boolean) => {
         set({ _hasHydrated: hydrated });
       },
+
+      // Progressive paywall methods
+      markOnboardingCompleted: () => {
+        const today = new Date().toISOString();
+        set({
+          onboardingCompletedDate: today,
+          userInteractionCount: 0, // Reset interaction count
+        });
+        console.log(`✅ Onboarding completed, ready for first-time paywall`);
+      },
+
+      showFirstTimePaywall: () => {
+        const { hasSeenFirstTimePaywall, isVisible } = get();
+
+        if (!hasSeenFirstTimePaywall && !isVisible) {
+          console.log(`🎉 Showing first-time paywall after onboarding`);
+          set({ hasSeenFirstTimePaywall: true });
+          get().showPaywall("first_time");
+        }
+      },
+
+      trackUserInteraction: () => {
+        const {
+          userInteractionCount,
+          hasSeenFirstTimePaywall,
+          hasSeenDiscountPaywall,
+          isVisible,
+        } = get();
+
+        const newCount = userInteractionCount + 1;
+        set({ userInteractionCount: newCount });
+
+        console.log(
+          `🎯 User interaction tracked: ${newCount}/${SECOND_PAYWALL_INTERACTION_COUNT}`
+        );
+
+        // Show discounted paywall after specific interactions
+        if (
+          hasSeenFirstTimePaywall &&
+          !hasSeenDiscountPaywall &&
+          newCount >= SECOND_PAYWALL_INTERACTION_COUNT &&
+          !isVisible
+        ) {
+          console.log(
+            `💸 Showing discounted paywall after ${newCount} interactions`
+          );
+          set({
+            hasSeenDiscountPaywall: true,
+            userInteractionCount: 0, // Reset for potential future use
+          });
+          get().showPaywall("discounted");
+        }
+      },
+
+      resetProgressivePaywall: () => {
+        set({
+          hasSeenFirstTimePaywall: false,
+          hasSeenDiscountPaywall: false,
+          userInteractionCount: 0,
+          onboardingCompletedDate: null,
+        });
+        console.log(`🔄 Progressive paywall state reset`);
+      },
+
+      // Getters for paywall version detection
+      isFirstTimePaywall: () => {
+        const { triggerSource } = get();
+        return triggerSource === "first_time";
+      },
+
+      isDiscountedPaywall: () => {
+        const { triggerSource } = get();
+        return triggerSource === "discounted";
+      },
     }),
     {
       name: "paywall-store",
@@ -112,6 +196,10 @@ const usePaywallStore = create<PaywallStore>()(
         actionCount: state.actionCount,
         lastShownDate: state.lastShownDate,
         hasSeenWelcomePaywall: state.hasSeenWelcomePaywall,
+        hasSeenFirstTimePaywall: state.hasSeenFirstTimePaywall,
+        hasSeenDiscountPaywall: state.hasSeenDiscountPaywall,
+        userInteractionCount: state.userInteractionCount,
+        onboardingCompletedDate: state.onboardingCompletedDate,
         // Don't persist modal visibility or trigger source
       }),
     }
@@ -123,33 +211,45 @@ export const usePaywallVisible = () =>
   usePaywallStore((state) => state.isVisible);
 export const usePaywallActionCount = () =>
   usePaywallStore((state) => state.actionCount);
-export const usePaywallTriggerSource = () =>
-  usePaywallStore((state) => state.triggerSource);
-export const usePaywallHasSeenWelcome = () =>
-  usePaywallStore((state) => state.hasSeenWelcomePaywall);
-export const usePaywallHydrated = () =>
-  usePaywallStore((state) => state._hasHydrated);
 
-export const usePaywallActions = () =>
-  usePaywallStore(
-    useShallow((state) => ({
-      showPaywall: state.showPaywall,
-      hidePaywall: state.hidePaywall,
-      trackAction: state.trackAction,
-      resetActionCount: state.resetActionCount,
-      markWelcomePaywallSeen: state.markWelcomePaywallSeen,
-      setHasHydrated: state.setHasHydrated,
-    }))
-  );
-
-// Selector object for backward compatibility
 export const usePaywallSelectors = {
-  isVisible: usePaywallVisible,
-  actionCount: usePaywallActionCount,
-  triggerSource: usePaywallTriggerSource,
-  hasSeenWelcome: usePaywallHasSeenWelcome,
-  hasHydrated: usePaywallHydrated,
-  actions: usePaywallActions,
+  isVisible: () => usePaywallStore(useShallow((state) => state.isVisible)),
+  triggerSource: () =>
+    usePaywallStore(useShallow((state) => state.triggerSource)),
+  actionCount: () => usePaywallStore(useShallow((state) => state.actionCount)),
+  hasSeenWelcome: () =>
+    usePaywallStore(useShallow((state) => state.hasSeenWelcomePaywall)),
+  hasHydrated: () => usePaywallStore(useShallow((state) => state._hasHydrated)),
+
+  // Progressive paywall selectors
+  hasSeenFirstTime: () =>
+    usePaywallStore(useShallow((state) => state.hasSeenFirstTimePaywall)),
+  hasSeenDiscount: () =>
+    usePaywallStore(useShallow((state) => state.hasSeenDiscountPaywall)),
+  userInteractionCount: () =>
+    usePaywallStore(useShallow((state) => state.userInteractionCount)),
+  isFirstTimePaywall: () =>
+    usePaywallStore(useShallow((state) => state.isFirstTimePaywall())),
+  isDiscountedPaywall: () =>
+    usePaywallStore(useShallow((state) => state.isDiscountedPaywall())),
+
+  actions: () =>
+    usePaywallStore(
+      useShallow((state) => ({
+        showPaywall: state.showPaywall,
+        hidePaywall: state.hidePaywall,
+        trackAction: state.trackAction,
+        resetActionCount: state.resetActionCount,
+        markWelcomePaywallSeen: state.markWelcomePaywallSeen,
+        setHasHydrated: state.setHasHydrated,
+
+        // Progressive paywall actions
+        markOnboardingCompleted: state.markOnboardingCompleted,
+        showFirstTimePaywall: state.showFirstTimePaywall,
+        trackUserInteraction: state.trackUserInteraction,
+        resetProgressivePaywall: state.resetProgressivePaywall,
+      }))
+    ),
 };
 
 export default usePaywallStore;
