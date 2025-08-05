@@ -1,50 +1,163 @@
-# Welcome to your Expo app 👋
+# 📱 QuoteSpark - Daily Motivational Quotes
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A beautiful React Native app that delivers daily inspiration through carefully curated quotes and stories.
 
-## Get started
+## 🌟 Features
 
-1. Install dependencies
+- 📚 **10,000+ Curated Quotes** - Hand-picked motivational quotes from world leaders
+- 🎯 **25+ Categories** - Motivation, Success, Leadership, Mindfulness and more
+- 📖 **Inspiring Stories** - Background stories behind famous quotes
+- 🎨 **Beautiful Themes** - Multiple dark/light themes with smooth transitions
+- 🌍 **Multi-language** - English and Turkish support
+- 💎 **Premium Features** - Unlimited access, ad-free experience
+- 🔔 **Smart Notifications** - Daily inspiration reminders
+- 📊 **Analytics** - Track your reading habits and growth
+- 🎭 **Reels Experience** - TikTok-style quote browsing
 
-   ```bash
-   npm install
-   ```
+## 🚀 Quick Start
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-   npx expo start
-   ```
+- Node.js (18+)
+- Expo CLI
+- iOS Simulator / Android Emulator
+- Firebase Project
+- RevenueCat Account
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone <repository-url>
+cd quote
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Run on iOS
+npm run ios
+
+# Run on Android  
+npm run android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔧 Configuration
 
-## Learn more
+### 1. Firebase Setup
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Create Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+2. Add iOS app with bundle ID: `com.quotespark.dailyinspiration`
+3. Add Android app with package name: `com.quotespark.dailyinspiration`
+4. Download configuration files:
+   - `GoogleService-Info.plist` (iOS) → Root directory
+   - `google-services.json` (Android) → Root directory
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 2. RevenueCat Setup
 
-## Join the community
+1. Create account at [revenuecat.com](https://revenuecat.com)
+2. Create new project and add your app
+3. Configure products:
+   - `com.quotespark.dailyinspiration.lifetime`
+   - `com.quotespark.dailyinspiration.yearly`
+4. Update API key in `src/constants/config.ts`
 
-Join our community of developers creating universal apps.
+### 3. Environment Variables
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Create `.env` file:
+
+```bash
+EXPO_PUBLIC_REVENUECAT_API_KEY=your_production_api_key
+EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+EXPO_PUBLIC_SUPPORT_EMAIL=support@yourapp.com
+```
+
+## 📱 App Store Deployment
+
+### iOS
+
+1. Configure certificates in Apple Developer Console
+2. Update `app.json` with correct bundle identifier
+3. Build with EAS:
+
+```bash
+eas build --platform ios --profile production
+```
+
+### Android
+
+1. Generate keystore for signing
+2. Configure Play Console
+3. Build AAB:
+
+```bash
+eas build --platform android --profile production
+```
+
+## 🧪 Testing
+
+```bash
+# Run tests
+npm test
+
+# Run linting
+npm run lint
+
+# Type checking
+npm run type-check
+```
+
+## 📊 Analytics Events
+
+- `screen_view` - Page views
+- `quote_view` - Quote interactions
+- `quote_share` - Social sharing
+- `category_filter` - Category selections
+- `paywall_view` - Premium upgrade flows
+- `purchase_complete` - Successful purchases
+
+## 🛡️ Privacy & Legal
+
+- [Privacy Policy](https://quotespark.com/privacy)
+- [Terms of Service](https://quotespark.com/terms)
+- GDPR/CCPA compliant
+- No personal data collection without consent
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── screens/        # Screen components
+├── services/       # Business logic & API
+├── store/          # State management (Zustand)
+├── hooks/          # Custom React hooks
+├── utils/          # Helper functions
+├── types/          # TypeScript definitions
+├── data/           # Static data & quotes
+└── constants/      # App configuration
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push to branch: `git push origin feature/amazing-feature`
+5. Open Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+- Email: support@quotespark.com
+- Documentation: [docs.quotespark.com](https://docs.quotespark.com)
+- Issues: [GitHub Issues](https://github.com/youruser/quote/issues)
+
+---
+
+Made with ❤️ by QuoteSpark Team

@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "buildNumber": "15",
+      "buildNumber": "21",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",
@@ -32,7 +32,8 @@
           }
         ],
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "appStoreUrl": "https://apps.apple.com/app/quotespark-motivational/id6747951525"
     },
     "android": {
       "adaptiveIcon": {
@@ -42,6 +43,7 @@
       "edgeToEdgeEnabled": true,
       "package": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./google-services.json",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.quotespark.dailyinspiration",
       "intentFilters": [
         {
           "action": "VIEW",
@@ -72,8 +74,7 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
+          "resizeMode": "cover",
           "backgroundColor": "#ffffff"
         }
       ],

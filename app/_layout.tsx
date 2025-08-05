@@ -8,19 +8,20 @@ import * as Linking from "expo-linking";
 import { router, Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
+import { AppState, AppStateStatus } from "react-native";
 import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
-import { MiniPremiumBadge } from "../src/components/ui/MiniPremiumBadge";
+import { MiniPremiumBadge } from "@/src/components/ui/MiniPremiumBadge";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
 import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
+import { usePremium } from "../src/hooks/usePremium"; // UNIFIED: Single premium source
 import { useStreak } from "../src/hooks/useStreak";
 import { getPaywallService } from "../src/services/PaywallService";
 import revenueCatService from "../src/services/revenueCat";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
-import { usePaywallSelectors } from "../src/store/usePaywallStore";
 import { usePurchaseSelectors } from "../src/store/usePurchaseStore";
 import { useQuoteSelectors } from "../src/store/useQuoteStore";
 import {
@@ -73,18 +74,28 @@ function ThemedStatusBar() {
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
+  // Theme
+  const colorScheme = useColorScheme();
+
+  // Store hydration
+  const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
+  const onboardingStoreHydrated = useOnboardingSelectors.hasHydrated();
+  const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
+
+  // UNIFIED: Premium system
+  const { ensureFreshPremiumStatus } = usePremium();
+
+  const isHydrated =
+    quoteStoreHydrated && onboardingStoreHydrated && purchaseStoreHydrated;
+
   // Store selectors - properly call the selector functions
   const onboardingCompleted = useOnboardingSelectors.isCompleted();
-  const onboardingHydrated = useOnboardingSelectors.hasHydrated();
-  const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
-  const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
-  const paywallStoreHydrated = usePaywallSelectors.hasHydrated();
-  const { modalState, closeModal } = useStreak();
+  const { modalState, closeModal, showStreakContinue, showStreakBreak } =
+    useStreak();
   const { setPremium } = usePurchaseSelectors.actions();
   const isPurchaseHydrated = usePurchaseSelectors.hasHydrated();
 
@@ -133,6 +144,40 @@ export default function RootLayout() {
     initializeRevenueCat();
   }, [isPurchaseHydrated, setPremium]);
 
+  // Enhanced app state change handler with premium sync
+  const handleAppStateChange = useCallback(
+    async (nextAppState: AppStateStatus) => {
+      console.log(`🔄 App state changed to: ${nextAppState}`);
+
+      if (nextAppState === "active") {
+        console.log("🔄 App became active, verifying premium status...");
+
+        try {
+          // UNIFIED: Use unified premium verification
+          const actualIsPremium = await ensureFreshPremiumStatus();
+          console.log(`✅ Premium status verified: ${actualIsPremium}`);
+        } catch (error) {
+          console.error(
+            "❌ Failed to verify premium status on app focus:",
+            error
+          );
+        }
+      }
+    },
+    [ensureFreshPremiumStatus]
+  );
+
+  useEffect(() => {
+    const subscription = AppState.addEventListener(
+      "change",
+      handleAppStateChange
+    );
+
+    return () => {
+      subscription?.remove();
+    };
+  }, [handleAppStateChange]);
+
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
@@ -171,10 +216,10 @@ export default function RootLayout() {
     // Navigation logic after stores are hydrated
     if (
       loaded &&
-      onboardingHydrated &&
+      onboardingStoreHydrated &&
       quoteStoreHydrated &&
       purchaseStoreHydrated &&
-      paywallStoreHydrated
+      isHydrated
     ) {
       // Navigate to onboarding if not completed
       if (!onboardingCompleted) {
@@ -187,10 +232,10 @@ export default function RootLayout() {
   }, [
     loaded,
     onboardingCompleted,
-    onboardingHydrated,
+    onboardingStoreHydrated,
     quoteStoreHydrated,
     purchaseStoreHydrated,
-    paywallStoreHydrated,
+    isHydrated,
   ]);
 
   if (!loaded) {
