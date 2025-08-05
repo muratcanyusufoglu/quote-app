@@ -12,6 +12,8 @@ const usePurchaseStore = create<PurchaseStore>()(
     (set, get) => ({
       // State
       isPremium: false,
+      isCheckingPremium: false, // NEW: Loading state for premium checks
+      lastPremiumCheck: null, // NEW: Timestamp of last successful check
       products: [],
       isLoading: false,
       error: null,
@@ -19,8 +21,61 @@ const usePurchaseStore = create<PurchaseStore>()(
 
       // Actions
       setPremium: (isPremium: boolean) => {
-        set({ isPremium });
-        console.log(`Premium status updated: ${isPremium}`);
+        set({
+          isPremium,
+          lastPremiumCheck: Date.now(),
+          isCheckingPremium: false,
+        });
+        console.log(
+          `Premium status updated: ${isPremium} at ${new Date().toISOString()}`
+        );
+      },
+
+      setCheckingPremium: (isChecking: boolean) => {
+        set({ isCheckingPremium: isChecking });
+      },
+
+      // NEW: Centralized premium status verification
+      verifyPremiumStatus: async (): Promise<boolean> => {
+        const state = get();
+
+        // Prevent concurrent checks
+        if (state.isCheckingPremium) {
+          console.log("🔄 Premium check already in progress");
+          return state.isPremium;
+        }
+
+        set({ isCheckingPremium: true });
+
+        try {
+          console.log("🔄 Verifying premium status with RevenueCat...");
+          const actualIsPremium = await revenueCatService.isPremiumUser();
+
+          // Update state with verified status
+          set({
+            isPremium: actualIsPremium,
+            isCheckingPremium: false,
+            lastPremiumCheck: Date.now(),
+            error: null,
+          });
+
+          console.log(`✅ Premium status verified: ${actualIsPremium}`);
+          return actualIsPremium;
+        } catch (error) {
+          console.error("❌ Failed to verify premium status:", error);
+
+          // On error, keep current status but log the issue
+          set({
+            isCheckingPremium: false,
+            error:
+              error instanceof Error
+                ? error.message
+                : "Premium verification failed",
+          });
+
+          // Return current status as fallback
+          return state.isPremium;
+        }
       },
 
       setProducts: (products: PurchaseProduct[]) => {
@@ -149,30 +204,30 @@ const usePurchaseStore = create<PurchaseStore>()(
               console.error("Failed to initialize purchases:", error);
             });
 
-          // Check and sync premium status with RevenueCat after hydration
-          revenueCatService
-            .isPremiumUser()
+          // ENHANCED: Check and sync premium status with RevenueCat after hydration
+          // Force verification to ensure accurate status
+          console.log(
+            "🔄 Starting premium status verification after hydration..."
+          );
+          state
+            .verifyPremiumStatus()
             .then((isPremium: boolean) => {
-              console.log(`🔄 RevenueCat premium status synced: ${isPremium}`);
-              if (isPremium !== state.isPremium) {
-                state.setPremium(isPremium);
-                console.log(
-                  `✅ Premium status updated from RevenueCat: ${isPremium}`
-                );
-              }
+              console.log(
+                `✅ Premium status verified after hydration: ${isPremium}`
+              );
             })
             .catch((error: any) => {
               console.error(
-                "Failed to sync premium status with RevenueCat:",
+                "❌ Failed to verify premium status after hydration:",
                 error
               );
             });
         }
       },
       partialize: (state) => ({
-        isPremium: state.isPremium,
+        // Don't persist isPremium - always get from RevenueCat
+        // Don't persist checking states or timestamps
         products: state.products,
-        // Don't persist loading states or errors
       }),
     }
   )
@@ -182,6 +237,10 @@ const usePurchaseStore = create<PurchaseStore>()(
 export const usePremiumStatus = () =>
   usePurchaseStore((state) => state.isPremium);
 export const useIsPremium = () => usePurchaseStore((state) => state.isPremium);
+export const useIsCheckingPremium = () =>
+  usePurchaseStore((state) => state.isCheckingPremium);
+export const useLastPremiumCheck = () =>
+  usePurchaseStore((state) => state.lastPremiumCheck);
 export const usePurchaseProducts = () =>
   usePurchaseStore(useShallow((state) => state.products));
 export const usePurchaseLoading = () =>
@@ -194,6 +253,8 @@ export const usePurchaseActions = () =>
   usePurchaseStore(
     useShallow((state) => ({
       setPremium: state.setPremium,
+      setCheckingPremium: state.setCheckingPremium,
+      verifyPremiumStatus: state.verifyPremiumStatus,
       setProducts: state.setProducts,
       purchaseProduct: state.purchaseProduct,
       restorePurchases: state.restorePurchases,
@@ -206,6 +267,8 @@ export const usePurchaseActions = () =>
 // Legacy selector object for backward compatibility
 export const usePurchaseSelectors = {
   isPremium: usePremiumStatus,
+  isCheckingPremium: useIsCheckingPremium,
+  lastPremiumCheck: useLastPremiumCheck,
   products: usePurchaseProducts,
   isLoading: usePurchaseLoading,
   error: usePurchaseError,

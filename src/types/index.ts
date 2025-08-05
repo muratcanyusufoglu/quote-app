@@ -239,6 +239,8 @@ export interface QuoteStoreActions {
 
 export interface PurchaseStoreState {
   isPremium: boolean;
+  isCheckingPremium: boolean;
+  lastPremiumCheck: number | null;
   products: PurchaseProduct[];
   isLoading: boolean;
   error: string | null;
@@ -247,6 +249,8 @@ export interface PurchaseStoreState {
 
 export interface PurchaseStoreActions {
   setPremium: (isPremium: boolean) => void;
+  setCheckingPremium: (isChecking: boolean) => void;
+  verifyPremiumStatus: () => Promise<boolean>;
   setProducts: (products: PurchaseProduct[]) => void;
   purchaseProduct: (productId: string) => Promise<boolean>;
   restorePurchases: () => Promise<void>;
@@ -270,6 +274,7 @@ export interface OnboardingStoreActions {
   updateAnswer: (questionId: string, value: string | string[] | number) => void;
   generatePreferences: () => void;
   resetOnboarding: () => void;
+  updateLanguageFromSystem: () => boolean;
   setHasHydrated: (hydrated: boolean) => void;
 }
 

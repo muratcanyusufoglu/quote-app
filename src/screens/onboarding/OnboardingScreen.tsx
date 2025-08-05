@@ -280,34 +280,6 @@ export function OnboardingScreen() {
         contentContainerStyle={styles.introContainer}
         showsVerticalScrollIndicator={false}
       >
-        {/* Animated Free Badge */}
-        <Animated.View
-          style={[
-            styles.freeBadgeContainer,
-            {
-              transform: [
-                {
-                  translateY: badgeAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [-50, 0],
-                  }),
-                },
-                { scale: badgeAnim },
-              ],
-              opacity: badgeAnim,
-            },
-          ]}
-        >
-          <LinearGradient
-            colors={[theme.colors.brandYellow, theme.colors.premium]}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-            style={styles.freeBadge}
-          >
-            <Text style={styles.freeBadgeText}>ÜCRETSİZ</Text>
-          </LinearGradient>
-        </Animated.View>
-
         <View style={styles.welcomeSection}>
           {/* Animated Star Icon */}
           <Animated.View
@@ -410,20 +382,20 @@ export function OnboardingScreen() {
           {[
             {
               icon: "🎯",
-              title: "Kişiselleştirilmiş İçerik",
-              subtitle: "Size özel tasarlanmış deneyim",
+              title: onboarding.feature_personalized,
+              subtitle: onboarding.feature_personalized_subtitle,
               color: theme.colors.primary,
             },
             {
               icon: "📱",
-              title: "Akıllı Bildirimler",
-              subtitle: "Tam zamanında motivasyon",
+              title: onboarding.feature_notifications,
+              subtitle: onboarding.feature_notifications_subtitle,
               color: theme.colors.secondary,
             },
             {
               icon: "⚡",
-              title: "Hızlı ve Etkili",
-              subtitle: "Anında ilham ve enerji",
+              title: onboarding.feature_fast,
+              subtitle: onboarding.feature_fast_subtitle,
               color: theme.colors.brandYellow,
             },
           ].map((feature, index) => (
@@ -474,30 +446,6 @@ export function OnboardingScreen() {
               </LinearGradient>
             </TouchableOpacity>
           ))}
-        </Animated.View>
-
-        {/* Bottom CTA Section */}
-        <Animated.View
-          style={[
-            styles.ctaSection,
-            {
-              transform: [
-                {
-                  translateY: featuresAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [30, 0],
-                  }),
-                },
-              ],
-              opacity: featuresAnim,
-            },
-          ]}
-        >
-          <Text
-            style={[styles.ctaText, { color: theme.colors.whiteOverlay80 }]}
-          >
-            Başlamak için sadece birkaç kısa soru yanıtlayın
-          </Text>
         </Animated.View>
       </ScrollView>
     </Animated.View>
@@ -668,35 +616,35 @@ export function OnboardingScreen() {
       {
         id: "early",
         icon: "🌅",
-        label: onboarding.time_early || "Early Bird",
+        label: onboarding.time_early,
         description: formatTimeRange("06:00", "12:00"),
         value: { start: "06:00", end: "12:00" },
       },
       {
         id: "morning",
         icon: "☀️",
-        label: onboarding.time_morning_range || "Morning",
+        label: onboarding.time_morning_range,
         description: formatTimeRange("08:00", "14:00"),
         value: { start: "08:00", end: "14:00" },
       },
       {
         id: "regular",
         icon: "💼",
-        label: onboarding.time_regular || "Work Hours",
+        label: onboarding.time_regular,
         description: formatTimeRange("09:00", "18:00"),
         value: { start: "09:00", end: "18:00" },
       },
       {
         id: "extended",
         icon: "🌙",
-        label: onboarding.time_extended || "Extended",
+        label: onboarding.time_extended,
         description: formatTimeRange("07:00", "21:00"),
         value: { start: "07:00", end: "21:00" },
       },
       {
         id: "evening",
         icon: "🌆",
-        label: onboarding.time_evening_range || "Evening Focus",
+        label: onboarding.time_evening_range,
         description: formatTimeRange("15:00", "20:00"),
         value: { start: "15:00", end: "20:00" },
       },
@@ -743,7 +691,7 @@ export function OnboardingScreen() {
             <Text
               style={[styles.timeDisplayTitle, { color: theme.colors.white }]}
             >
-              {onboarding.selected_time_range || "Selected Time Range"}
+              {onboarding.selected_time_range}
             </Text>
             <Text
               style={[

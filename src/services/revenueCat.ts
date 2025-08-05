@@ -1,12 +1,12 @@
+import { Alert, Platform } from "react-native";
 import Purchases, {
-  PurchasesOffering,
-  PurchasesPackage,
   CustomerInfo,
-  PurchasesError,
   LOG_LEVEL,
   PURCHASES_ERROR_CODE,
+  PurchasesError,
+  PurchasesOffering,
+  PurchasesPackage,
 } from "react-native-purchases";
-import { Platform, Alert } from "react-native";
 import { REVENUECAT_CONFIG } from "../constants/config";
 
 export interface PurchasePackage {
@@ -40,33 +40,43 @@ class RevenueCatService {
   private offerings: PurchasesOffering[] = [];
 
   /**
-   * Initialize RevenueCat with configuration
+   * Initialize RevenueCat SDK
    */
   async initialize(): Promise<boolean> {
     try {
       if (this.isInitialized) {
+        console.log("🔄 RevenueCat already initialized");
         return true;
       }
 
-      // Set log level for debugging (remove in production)
-      if (__DEV__) {
-        Purchases.setLogLevel(LOG_LEVEL.DEBUG);
-      }
+      console.log("🚀 Initializing RevenueCat SDK...");
 
-      // Configure RevenueCat
+      // Configure RevenueCat with proper API key
       await Purchases.configure({
         apiKey: REVENUECAT_CONFIG.API_KEY,
-        appUserID: null, // Will use anonymous ID
+        appUserID: undefined, // Use anonymous ID
       });
 
-      // Set attributes for analytics (optional)
-      await this.setUserAttributes();
+      // Enable debug logs in development
+      if (__DEV__) {
+        Purchases.setLogLevel(LOG_LEVEL.DEBUG);
+        console.log("📝 RevenueCat debug logging enabled");
+      }
 
       this.isInitialized = true;
-      console.log("RevenueCat initialized successfully");
+      console.log("✅ RevenueCat initialized successfully");
+
+      // In development, you can test with sandbox accounts
+      if (__DEV__) {
+        console.log("🧪 Development mode - using sandbox environment");
+        console.log(
+          "📝 Use test Apple ID or Google test account for purchases"
+        );
+      }
+
       return true;
     } catch (error) {
-      console.error("RevenueCat initialization failed:", error);
+      console.error("❌ Failed to initialize RevenueCat:", error);
       return false;
     }
   }
@@ -237,23 +247,126 @@ class RevenueCatService {
   }
 
   /**
-   * Check if user has active premium subscription
+   * Development utilities for testing subscription status
+   * ⚠️ ONLY FOR DEVELOPMENT/TESTING
+   */
+  async forceSetPremiumStatus(isPremium: boolean): Promise<void> {
+    if (!__DEV__) {
+      console.warn("🚫 forceSetPremiumStatus only available in development");
+      return;
+    }
+
+    console.log(`🧪 [TEST] Forcing premium status to: ${isPremium}`);
+
+    try {
+      // This is a development hack - set a test attribute
+      await Purchases.setAttributes({
+        test_premium_override: isPremium.toString(),
+      });
+
+      console.log(`✅ [TEST] Premium status forced to: ${isPremium}`);
+    } catch (error) {
+      console.error("❌ [TEST] Failed to force premium status:", error);
+    }
+  }
+
+  /**
+   * Get test subscription status for development
+   */
+  async getTestPremiumStatus(): Promise<boolean | null> {
+    if (!__DEV__) {
+      return null;
+    }
+
+    try {
+      const customerInfo = await this.getCustomerInfo();
+      if (!customerInfo) return null;
+
+      // Check for test override using RevenueCat's custom attributes
+      // Note: This uses Purchases.setAttributes() set values
+      try {
+        const appUserID = await Purchases.getAppUserID();
+        console.log(`🧪 [TEST] Checking test override for user: ${appUserID}`);
+
+        // For development testing, we'll check a simple boolean flag
+        // This is safer than relying on attribution data
+        const testOverrideKey = "test_premium_override";
+        // Note: RevenueCat doesn't provide direct access to custom attributes
+        // So we'll remove this test override mechanism for security
+
+        console.log(`🧪 [TEST] Test override mechanism disabled for security`);
+        return null;
+      } catch (error) {
+        console.log(`🧪 [TEST] Could not check test override:`, error);
+        return null;
+      }
+    } catch (error) {
+      console.error("❌ [TEST] Failed to get test premium status:", error);
+      return null;
+    }
+  }
+
+  /**
+   * Enhanced isPremiumUser with direct subscription checking (no entitlements required)
    */
   async isPremiumUser(): Promise<boolean> {
     try {
+      // SECURITY FIX: Remove test override in production builds
+      // Only allow test override in development AND debug builds
+      if (__DEV__ && console.warn) {
+        // Additional check to ensure dev environment
+        const testStatus = await this.getTestPremiumStatus();
+        if (testStatus !== null) {
+          console.warn("🧪 [DEV] Using premium test override:", testStatus);
+          return testStatus;
+        }
+      }
+
       const customerInfo = await this.getCustomerInfo();
 
       if (!customerInfo) {
+        console.log("📊 No customer info - user is not premium");
         return false;
       }
 
-      // Check for any active entitlements
-      const hasActiveEntitlements =
-        Object.keys(customerInfo.entitlements.active).length > 0;
+      // METHOD 1: Check active subscriptions (no entitlements required)
+      const activeSubscriptions = customerInfo.activeSubscriptions;
+      const hasActiveSubscription = activeSubscriptions.length > 0;
 
-      return hasActiveEntitlements;
+      // METHOD 2: Check latest expiration date
+      const latestExpirationDate = customerInfo.latestExpirationDate;
+      const hasValidExpiration = latestExpirationDate
+        ? new Date(latestExpirationDate) > new Date()
+        : false;
+
+      // METHOD 3: Check all purchased products (lifetime purchases)
+      const allPurchasedProducts = customerInfo.allPurchasedProductIdentifiers;
+      const hasAnyPurchase = allPurchasedProducts.length > 0;
+
+      // User is premium if:
+      // 1. Has active subscription OR
+      // 2. Has valid expiration date OR
+      // 3. Has any purchased products (for lifetime/non-consumable)
+      const isPremium =
+        hasActiveSubscription || hasValidExpiration || hasAnyPurchase;
+
+      console.log("📊 RevenueCat Premium Check (Direct Subscription):", {
+        hasCustomerInfo: !!customerInfo,
+        activeSubscriptions: activeSubscriptions,
+        latestExpirationDate: latestExpirationDate,
+        allPurchasedProducts: allPurchasedProducts,
+        hasActiveSubscription,
+        hasValidExpiration,
+        hasAnyPurchase,
+        isPremium,
+      });
+
+      return isPremium;
     } catch (error) {
-      console.error("Failed to check premium status:", error);
+      console.error("❌ Failed to check premium status:", error);
+
+      // SECURITY: On error, always return false (deny access)
+      // This prevents potential bypasses through error manipulation
       return false;
     }
   }

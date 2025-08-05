@@ -12,6 +12,7 @@ import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
 import { useAnalytics } from "../../hooks/useAnalytics";
+import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import { useQuoteCategories } from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
@@ -19,13 +20,10 @@ import {
 } from "../../hooks/useTranslation";
 import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
-import {
-  useIsPremium,
-  usePurchaseHydrated,
-} from "../../store/usePurchaseStore";
-import { useHasHydrated } from "../../store/useQuoteStore";
-import { getCategoryIcon } from "../../utils/theme";
+import { usePurchaseHydrated } from "../../store/usePurchaseStore";
+import { useQuoteSelectors } from "../../store/useQuoteStore";
 import { useTheme } from "../../utils/ThemeContext";
+import { getCategoryIcon } from "../../utils/theme";
 
 const { width } = Dimensions.get("window");
 const ITEM_WIDTH = (width - 48) / 2; // 2 columns with 16px padding on sides and 16px gap
@@ -41,11 +39,11 @@ export function ExploreScreen() {
   const { trackUserInteraction } = usePaywallSelectors.actions();
 
   // Store data
-  const isPremium = useIsPremium();
+  const { isPremium } = usePremium(); // UNIFIED: Extract isPremium boolean
   const { showPaywall, trackAction } = usePaywallSelectors.actions();
 
   // Hydration checks
-  const quoteStoreHydrated = useHasHydrated();
+  const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 

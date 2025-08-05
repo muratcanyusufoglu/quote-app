@@ -1,3 +1,4 @@
+import DebugPanel from "@/src/components/ui/DebugPanel";
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -6,14 +7,17 @@ import { QuoteReels } from "../../components/reels";
 import { AIMessageCard } from "../../components/ui/AIMessageCard";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
 import { MoodSelectionModal } from "../../components/ui/MoodSelectionModal";
-import StreakModal from "../../components/ui/StreakModal";
+
 import { useAnalytics } from "../../hooks/useAnalytics";
 import { useMoodMotivation } from "../../hooks/useMoodMotivation";
+import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import {
   useExploreQuotes,
   useHomeQuotes,
   useQuoteCategories,
 } from "../../hooks/useQuoteService";
+import { useStoreReview } from "../../hooks/useStoreReview";
+import { getGlobalStreakFunctions } from "../../hooks/useStreak";
 import {
   useCommonTranslations,
   useScreenTranslations,
@@ -25,11 +29,10 @@ import {
 } from "../../store/useOnboardingStore";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import {
-  useIsPremium,
   usePurchaseActions,
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
-import { useHasHydrated } from "../../store/useQuoteStore";
+import { useQuoteSelectors } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
 
@@ -39,6 +42,9 @@ export function HomeScreen() {
 
   // Analytics
   const { trackScreen, trackQuoteView, trackCategoryFilter } = useAnalytics();
+
+  // Store review tracking
+  const { incrementQuotesRead } = useStoreReview();
 
   // Progressive paywall tracking
   const { trackUserInteraction } = usePaywallSelectors.actions();
@@ -129,21 +135,16 @@ export function HomeScreen() {
   const { selectedCategory } = useLocalSearchParams();
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
 
-  // Streak modal state
-  const [streakModalVisible, setStreakModalVisible] = useState(false);
-  const [streakCount, setStreakCount] = useState(1);
-  const [isStreakContinued, setIsStreakContinued] = useState(true);
-
   // Store hydration checks
-  const quoteStoreHydrated = useHasHydrated();
+  const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
   const purchaseStoreHydrated = usePurchaseHydrated();
   const onboardingStoreHydrated = useOnboardingHydrated();
 
   // User preferences for personalized quotes
   const userPreferences = useUserPreferences();
 
-  // Premium status and actions
-  const isPremium = useIsPremium();
+  // UNIFIED: Premium status from unified system
+  const { isPremium } = usePremium(); // Extract isPremium boolean
   const { setPremium } = usePurchaseActions();
 
   // Onboarding actions for debug
@@ -245,16 +246,20 @@ export function HomeScreen() {
   }, [selectedCategory, allCategories, trackCategoryFilter, isPremium]);
 
   // Handle quote view tracking
-  const handleQuoteView = (quote: LocalizedQuote) => {
+  const handleQuoteView = async (quote: LocalizedQuote) => {
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
 
+    // Track quote view
     trackQuoteView({
       quote_id: quote.id,
       quote_category: quote.category,
       quote_author: quote.author,
       language: quote.language as "en" | "tr",
     });
+
+    // Track quote read for store review eligibility
+    await incrementQuotesRead();
 
     // Track user interaction for progressive paywall (only for non-premium users)
     if (!isPremium) {
@@ -303,17 +308,25 @@ export function HomeScreen() {
     );
   };
 
-  // Debug streak modal functions
+  // Debug streak modal functions - access global streak functions
   const showStreakContinue = () => {
-    setStreakCount(3); // Example streak count
-    setIsStreakContinued(true);
-    setStreakModalVisible(true);
+    console.log("🔥 Debug: Triggering global streak continue modal");
+    const globalFunctions = getGlobalStreakFunctions();
+    if (globalFunctions) {
+      globalFunctions.showStreakContinue(3);
+    } else {
+      console.warn("❌ Global streak functions not available yet");
+    }
   };
 
   const showStreakBreak = () => {
-    setStreakCount(0);
-    setIsStreakContinued(false);
-    setStreakModalVisible(true);
+    console.log("💔 Debug: Triggering global streak break modal");
+    const globalFunctions = getGlobalStreakFunctions();
+    if (globalFunctions) {
+      globalFunctions.showStreakBreak(0);
+    } else {
+      console.warn("❌ Global streak functions not available yet");
+    }
   };
 
   // Debug paywall modal function
@@ -379,7 +392,7 @@ export function HomeScreen() {
       safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
-      {/* {__DEV__ && (
+      {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -392,15 +405,7 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )} */}
-
-      {/* Streak Modal */}
-      <StreakModal
-        visible={streakModalVisible}
-        streakCount={streakCount}
-        isStreakContinued={isStreakContinued}
-        onClose={() => setStreakModalVisible(false)}
-      />
+      )}
 
       {/* Mood Selection Modal */}
       <MoodSelectionModal

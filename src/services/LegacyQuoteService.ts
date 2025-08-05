@@ -224,11 +224,18 @@ class LegacyQuoteService {
       );
     }
 
-    const seenQuotes = quotesToUse.filter((quote) =>
-      seenQuoteIds.includes(quote.id)
-    );
+    // When fallback is used, reset the seen state for proper shuffling
+    // Otherwise use the original seen quote IDs for filtering
+    const seenQuotesForRandomization = fallbackUsed
+      ? [] // Reset seen state when fallback is active
+      : quotesToUse.filter((quote) => seenQuoteIds.includes(quote.id));
 
-    return getRandomItems(quotesToUse, count, seenQuotes, (quote) => quote.id);
+    return getRandomItems(
+      quotesToUse,
+      count,
+      seenQuotesForRandomization,
+      (quote) => quote.id
+    );
   }
 
   // Get personalized quotes based on user preferences
@@ -240,7 +247,7 @@ class LegacyQuoteService {
   ): LocalizedQuote[] {
     const availableQuotes = this.getFilteredQuotes(
       isPremium,
-      userPreferences.language,
+      userPreferences.language as "en" | "tr",
       userPreferences.selectedCategories
     );
 
