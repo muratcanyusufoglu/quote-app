@@ -2,14 +2,14 @@ import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Use single premium hook
 import { useCommonTranslations } from "../../hooks/useTranslation";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { useIsPremium } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 interface NavigationHeaderProps {
-  title: string;
-  currentRoute: string;
+  title?: string;
+  currentRoute?: string;
   showBackButton?: boolean;
   showPremiumBadge?: boolean;
 }
@@ -21,7 +21,7 @@ export function NavigationHeader({
   showPremiumBadge = true,
 }: NavigationHeaderProps) {
   const { theme } = useTheme();
-  const isPremium = useIsPremium();
+  const { isPremium } = usePremium(); // UNIFIED: Single source of truth
   const { showPaywall } = usePaywallSelectors.actions();
   const common = useCommonTranslations();
 

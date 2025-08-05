@@ -23,12 +23,14 @@ export function NavigationBar({ style }: NavigationBarProps) {
   const favoritesAnim = useRef(new Animated.Value(100)).current;
   const historyAnim = useRef(new Animated.Value(100)).current;
   const themesAnim = useRef(new Animated.Value(100)).current;
+  const settingsAnim = useRef(new Animated.Value(100)).current;
 
   // Opacity animations for smooth entrance
   const homeOpacity = useRef(new Animated.Value(0)).current;
   const favoritesOpacity = useRef(new Animated.Value(0)).current;
   const historyOpacity = useRef(new Animated.Value(0)).current;
   const themesOpacity = useRef(new Animated.Value(0)).current;
+  const settingsOpacity = useRef(new Animated.Value(0)).current;
 
   // Function to reset and start animation
   const startAnimation = () => {
@@ -37,11 +39,13 @@ export function NavigationBar({ style }: NavigationBarProps) {
     favoritesAnim.setValue(100);
     historyAnim.setValue(100);
     themesAnim.setValue(100);
+    settingsAnim.setValue(100);
 
     homeOpacity.setValue(0);
     favoritesOpacity.setValue(0);
     historyOpacity.setValue(0);
     themesOpacity.setValue(0);
+    settingsOpacity.setValue(0);
 
     const animations = [
       Animated.parallel([
@@ -96,6 +100,19 @@ export function NavigationBar({ style }: NavigationBarProps) {
           useNativeDriver: true,
         }),
       ]),
+      Animated.parallel([
+        Animated.spring(settingsAnim, {
+          toValue: 0,
+          useNativeDriver: true,
+          tension: 100,
+          friction: 8,
+        }),
+        Animated.timing(settingsOpacity, {
+          toValue: 1,
+          duration: 400,
+          useNativeDriver: true,
+        }),
+      ]),
     ];
 
     // Stagger the animations
@@ -138,6 +155,10 @@ export function NavigationBar({ style }: NavigationBarProps) {
 
   const navigateToThemes = () => {
     router.push("/(tabs)/themes");
+  };
+
+  const navigateToSettings = () => {
+    router.push("/settings");
   };
 
   return (
@@ -224,6 +245,28 @@ export function NavigationBar({ style }: NavigationBarProps) {
         >
           <IconSymbol
             name="palette"
+            size={20}
+            color={theme.colors.brandYellow}
+          />
+        </TouchableOpacity>
+      </Animated.View>
+
+      <Animated.View
+        style={{
+          transform: [{ translateX: settingsAnim }],
+          opacity: settingsOpacity,
+        }}
+      >
+        <TouchableOpacity
+          style={[
+            styles.navButton,
+            { backgroundColor: theme.colors.whiteOverlay10 },
+          ]}
+          onPress={navigateToSettings}
+          activeOpacity={0.7}
+        >
+          <IconSymbol
+            name="settings"
             size={20}
             color={theme.colors.brandYellow}
           />

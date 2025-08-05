@@ -39,7 +39,7 @@ const BaseScreen: React.FC<BaseScreenProps> = ({
               colors={theme.colors.gradientColors as any}
               locations={theme.colors.gradientLocations as any}
               start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
+              end={{ x: 1, y: 1.099 }}
               style={$gradientBackground}
             />
 
