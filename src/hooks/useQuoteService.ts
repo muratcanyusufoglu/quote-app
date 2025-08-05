@@ -6,6 +6,7 @@ import { useQuoteSelectors } from "../store/useQuoteStore";
 import { LocalizedCategory, LocalizedQuote } from "../types";
 import { getTimeOfDay } from "../utils/dailyReset";
 import { getPreferredLanguage, SupportedLanguage } from "../utils/language";
+import { usePremium } from "./usePremium";
 
 // Hook that provides quote data to UI components using legacy service for backward compatibility
 export function useQuoteService() {
@@ -17,7 +18,8 @@ export function useQuoteService() {
   const dailyReads = useQuoteSelectors.dailyReads();
   const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
 
-  const isPremium = usePurchaseSelectors.isPremium();
+  // UNIFIED: Use unified premium system instead of usePurchaseSelectors
+  const { isPremium } = usePremium();
   const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
 
   const userPreferences = useOnboardingSelectors.userPreferences();

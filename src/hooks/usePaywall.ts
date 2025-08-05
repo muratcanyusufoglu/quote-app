@@ -8,8 +8,8 @@ import {
   SubscriptionStatus,
 } from "../services/PaywallService";
 import { usePaywallSelectors } from "../store/usePaywallStore";
-import { usePurchaseSelectors } from "../store/usePurchaseStore";
 import { PaywallTriggerSource } from "../types";
+import { usePremium } from "./usePremium";
 
 export interface PaywallHook {
   // State
@@ -53,7 +53,9 @@ export const usePaywall = (): PaywallHook => {
     resetActionCount: resetActionCountAction,
     markWelcomePaywallSeen,
   } = usePaywallSelectors.actions();
-  const isPremium = usePurchaseSelectors.isPremium();
+
+  // UNIFIED: Use unified premium system instead of usePurchaseSelectors
+  const { isPremium, hasPremiumAccess } = usePremium();
 
   const showPaywall = useCallback(
     (source: PaywallTriggerSource) => {

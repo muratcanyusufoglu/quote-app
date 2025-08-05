@@ -6,6 +6,7 @@ import { useQuoteSelectors } from "../store/useQuoteStore";
 import { LocalizedCategory, LocalizedQuote } from "../types";
 import { getTimeOfDay } from "../utils/dailyReset";
 import { getPreferredLanguage, SupportedLanguage } from "../utils/language";
+import { usePremium } from "./usePremium";
 
 // Modern hook for modular quote service with async operations
 export function useModularQuoteService() {
@@ -15,7 +16,8 @@ export function useModularQuoteService() {
   const dailyReads = useQuoteSelectors.dailyReads();
   const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
 
-  const isPremium = usePurchaseSelectors.isPremium();
+  // UNIFIED: Use unified premium system instead of usePurchaseSelectors
+  const { isPremium } = usePremium();
   const purchaseStoreHydrated = usePurchaseSelectors.hasHydrated();
 
   const userPreferences = useOnboardingSelectors.userPreferences();

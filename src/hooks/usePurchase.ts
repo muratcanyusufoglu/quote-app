@@ -2,11 +2,13 @@ import React, { useCallback, useMemo } from "react";
 import { purchaseService } from "../services/PurchaseService";
 import { usePurchaseSelectors } from "../store/usePurchaseStore";
 import { useQuoteSelectors } from "../store/useQuoteStore";
+import { usePremium } from "./usePremium";
 
 // Hook that provides purchase functionality to UI components
 export function usePurchase() {
   // Get state from stores
-  const isPremium = usePurchaseSelectors.isPremium();
+  // UNIFIED: Use unified premium system instead of store direct access
+  const { isPremium } = usePremium();
   const products = usePurchaseSelectors.products();
   const isLoading = usePurchaseSelectors.isLoading();
   const error = usePurchaseSelectors.error();

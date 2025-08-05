@@ -4,12 +4,15 @@ import { useOnboardingSelectors } from "../store/useOnboardingStore";
 import { usePurchaseSelectors } from "../store/usePurchaseStore";
 import { useQuoteSelectors } from "../store/useQuoteStore";
 import { getPreferredLanguage, SupportedLanguage } from "../utils/language";
+import { usePremium } from "./usePremium";
 
 // Single responsibility: Handle core quote data access
 export function useQuoteData() {
   const quotes = useQuoteSelectors.quotes();
   const categories = useQuoteSelectors.categories();
-  const isPremium = usePurchaseSelectors.isPremium();
+
+  // UNIFIED: Use unified premium system instead of usePurchaseSelectors
+  const { isPremium } = usePremium();
   const userPreferences = useOnboardingSelectors.userPreferences();
 
   // Get user's preferred language

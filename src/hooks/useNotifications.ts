@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react";
 import { notificationService } from "../services/NotificationService";
 import { useUserPreferences } from "../store/useOnboardingStore";
-import { useIsPremium } from "../store/usePurchaseStore";
+import { usePremium } from "./usePremium";
 
 export function useNotifications() {
   const userPreferences = useUserPreferences();
-  const isPremium = useIsPremium();
+  // UNIFIED: Use unified premium system instead of store direct access
+  const { isPremium } = usePremium();
   const isSchedulingRef = useRef(false);
 
   // Update last visit on app startup
@@ -81,7 +82,8 @@ export function useNotifications() {
 // Hook for manually triggering notification setup (useful for settings page)
 export function useNotificationControl() {
   const userPreferences = useUserPreferences();
-  const isPremium = useIsPremium();
+  // UNIFIED: Use unified premium system instead of store direct access
+  const { isPremium } = usePremium();
 
   const scheduleNotifications = async () => {
     if (userPreferences) {
