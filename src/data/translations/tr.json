@@ -17,23 +17,39 @@
     "reset_onboarding": "Onboarding'i Sıfırla",
     "primary": "Birincil",
     "secondary": "İkincil",
-    "skip": "Geç"
+    "skip": "Geç",
+    "back":"Geri"
   },
   "notifications": {
     "streak_warning": {
       "title": "Serinizi Bozmayın! 🔥",
-      "body": "Sizi özledik! Günlük alıntı serinizi devam ettirmek için uygulamayı açın."
+      "body": "Sizi özledik! Günlük alıntı serinizi devam ettirmek için uygulamayı açın.",
+      "title_second": "Seriniz Sizi Bekliyor! ⚡",
+      "body_second": "Günlük ilham seriniz beklemede! Geri dönün ve yolculuğunuza devam edin."
     }
   },
   "streak": {
     "started_title": "Harika Başlangıç! 🌟",
+    "started_title_personalized": "Harika {userName}! 🌟",
     "started_message": "Günlük alıntı yolculuğunuza başladınız! Serinizi oluşturmak için devam edin.",
+    "started_message_personalized": "Günlük alıntı yolculuğuna başladın {userName}! Serini oluşturmak için devam et.",
     "continued_title": "Seri Yanıyor! 🔥",
+    "continued_title_personalized": "Serin yanıyor {userName}! 🔥",
     "continued_message": "İnanılmaz! {count} günlük bir serindesiniz. Bu ivmeyi devam ettirin!",
+    "continued_message_personalized": "İnanılmaz {userName}! {count} günlük bir serinde. Bu ivmeyi devam ettir!",
     "broken_title": "Pes Etmeyin! 💙",
+    "broken_title_personalized": "Pes etme {userName}! 💙",
     "broken_message": "Seriniz sıfırlandı ama sorun değil! Her gün yeni bir başlangıçtır.",
+    "broken_message_personalized": "Serin sıfırlandı {userName} ama sorun değil! Her gün yeni bir başlangıçtır.",
     "day": "gün",
-    "days": "gün"
+    "days": "gün",
+    "fire_emoji": "🔥",
+    "new_streak_started": "Yeni seri başladı!",
+    "streak_continues": "Seri devam ediyor!",
+    "streak_broken": "Seri kırıldı",
+    "great_start": "Harika başlangıç! Devam et!",
+    "keep_momentum": "Bu momentumu sürdür!",
+    "dont_give_up": "Pes etme, yarın yeniden başla!"
   },
   "navigation": {
     "home": "Ana Sayfa",
@@ -222,8 +238,11 @@
     "title": "Ruh Haline Dayalı Motivasyon",
     "subtitle": "Nasıl hissettiğinize göre kişiselleştirilmiş motivasyon alın",
     "question_feeling": "Genel olarak nasıl hissediyorsunuz?",
+    "question_feeling_personalized": "{userName}, genel olarak nasıl hissediyorsun?",
     "question_energy": "Enerji seviyeniz nedir?",
+    "question_energy_personalized": "{userName}, enerji seviyeniz nedir?",
     "question_affecting": "Bugün sizi en çok ne etkiliyor?",
+    "question_affecting_personalized": "Bugün {userName}'i en çok ne etkiliyor?",
     "generating": "Kişiselleştirilmiş mesajınız oluşturuluyor...",
     "share": "Paylaş",
     "try_different": "Farklı Bir Mesaj Dene",
@@ -258,8 +277,11 @@
     "welcome_title": "Hoş Geldiniz!",
     "welcome_subtitle": "Size en uygun quote deneyimini oluşturmak için birkaç kısa sorumuzu yanıtlayın",
     "feature_personalized": "Kişiselleştirilmiş içerik",
+    "feature_personalized_subtitle": "Size özel tasarlanmış deneyim",
     "feature_notifications": "Akıllı bildirimler",
+    "feature_notifications_subtitle": "Tam zamanında motivasyon",
     "feature_fast": "Hızlı ve etkili",
+    "feature_fast_subtitle": "Anında ilham ve enerji",
     "completion_title": "Harika!",
     "completion_subtitle": "Tercihleriniz kaydedildi. Şimdi size özel quote deneyiminiz hazırlanıyor...",
     "notifications_per_day": "bildirim/gün",
@@ -285,7 +307,10 @@
       "reading_length": "Ne kadar uzun quote'ları okumayı seviyorsunuz?",
       "notification_count": "Günde kaç bildirim almak istersiniz?",
       "notification_time_range": "Hangi saatler arasında bildirim almak istersiniz?",
-      "frequency": "Ne sıklıkla yeni içerik keşfetmek istersiniz?"
+      "user_name": "Size nasıl hitap edelim?"
+    },
+    "placeholders": {
+      "user_name": "Adınızı yazın..."
     },
     "options": {
       "motivation": "Motivasyon ve ilham",
@@ -377,9 +402,18 @@
     "upgrade": "Premium'a Yükselt"
   },
   "themes": {
-    "golden": {
-      "name": "Altın",
-      "description": "Sıcak ve ilham verici altın tema"
+    "title": "Tema Seçimi",
+    "subtitle": "Uygulamanızı kişiselleştirin",
+    "brightness": "Parlaklık",
+    "brightness_description": "Açık, koyu veya sistem ayarını takip et",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "color_themes": "Renk Temaları",
+    "color_themes_description": "Favori renk paletinizi seçin",
+    "uprising": {
+      "name": "Uprising",
+      "description": "Sıcak ve ilham verici uprising tema"
     },
     "ocean": {
       "name": "Okyanus",
@@ -401,5 +435,35 @@
       "name": "Minimalist",
       "description": "Temiz gri ve sofistike tonlar"
     }
+  },
+  "store_review": {
+    "request_title": "Quote'u Beğeniyor musunuz?",
+    "request_message": "Geri bildiriminiz uygulamayı geliştirmemize ve günlük ilhama ihtiyacı olan daha fazla kişiye ulaşmamıza yardımcı oluyor. Bizi değerlendirmek için biraz zamanınızı ayırır mısınız?",
+    "rate_now": "Şimdi Değerlendir",
+    "not_now": "Şimdi Değil",
+    "never_ask": "Bir Daha Sorma",
+    "thank_you_title": "Teşekkürler!",
+    "thank_you_message": "Desteğiniz için teşekkür ederiz. Değerlendirmeniz diğer insanların Quote'u keşfetmesine yardımcı oluyor.",
+    "review_success": "Değerlendirme başarıyla tamamlandı",
+    "review_failed": "Değerlendirme penceresi açılamadı",
+    "fallback_title": "Quote'u Değerlendirin",
+    "fallback_message": "App Store'da yorum bırakarak diğer insanların Quote'u keşfetmesine yardımcı olun"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "general": "Genel Ayarlar",
+    "user_name": "Kullanıcı Adı",
+    "language": "Dil",
+    "premium_status": "Premium Durumu",
+    "restore_purchase": "Satın Alımları Geri Yükle",
+    "restore_purchase_subtitle": "Önceki satın alımlarınızı geri yükleyin",
+    "restore_success": "Başarılı",
+    "restore_success_message": "Satın alımlar başarıyla geri yüklendi!",
+    "my_categories": "Kategorilerim",
+    "categories_subtitle": "Hangi kategorileri görmek istediğinizi seçin",
+    "minimum_categories_title": "Minimum Kategori",
+    "minimum_categories_message": "En az bir kategori seçili olmalıdır.",
+    "select_language": "Dil Seçin",
+    "back": "Geri"
   }
 } 

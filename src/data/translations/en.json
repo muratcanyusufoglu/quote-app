@@ -17,7 +17,8 @@
     "reset_onboarding": "Reset Onboarding",
     "primary": "Primary",
     "secondary": "Secondary",
-    "skip": "Skip"
+    "skip": "Skip",
+    "back": "Back"
   },
   "notifications": {
     "streak_warning": {
@@ -27,13 +28,26 @@
   },
   "streak": {
     "started_title": "Great Start! 🌟",
+    "started_title_personalized": "Great start {userName}! 🌟",
     "started_message": "You've started your daily quote journey! Keep it up to build your streak.",
+    "started_message_personalized": "You've started your daily quote journey {userName}! Keep it up to build your streak.",
     "continued_title": "Streak On Fire! 🔥",
+    "continued_title_personalized": "Your streak is on fire {userName}! 🔥",
     "continued_message": "Amazing! You're on a {count}-day streak. Keep the momentum going!",
+    "continued_message_personalized": "Amazing {userName}! You're on a {count}-day streak. Keep the momentum going!",
     "broken_title": "Don't Give Up! 💙",
+    "broken_title_personalized": "Don't give up {userName}! 💙",
     "broken_message": "Your streak was reset, but that's okay! Every day is a fresh start.",
+    "broken_message_personalized": "Your streak was reset {userName}, but that's okay! Every day is a fresh start.",
     "day": "day",
-    "days": "days"
+    "days": "days",
+    "fire_emoji": "🔥",
+    "new_streak_started": "New streak started!",
+    "streak_continues": "Streak continues!",
+    "streak_broken": "Streak broken",
+    "great_start": "Great start! Keep it up!",
+    "keep_momentum": "Keep the momentum going!",
+    "dont_give_up": "Don't give up, restart tomorrow!"
   },
   "navigation": {
     "home": "Home",
@@ -222,8 +236,11 @@
     "title": "Mood-Based Motivation",
     "subtitle": "Get personalized motivation based on how you feel",
     "question_feeling": "How are you feeling generally?",
+    "question_feeling_personalized": "How are you feeling {userName}?",
     "question_energy": "What's your energy level?",
+    "question_energy_personalized": "What's your energy level {userName}?",
     "question_affecting": "What's affecting you most today?",
+    "question_affecting_personalized": "What's affecting you most today {userName}?",
     "generating": "Generating your personalized message...",
     "share": "Share",
     "try_different": "Try a Different Message",
@@ -258,14 +275,23 @@
     "welcome_title": "Welcome!",
     "welcome_subtitle": "Answer a few quick questions to create the perfect quote experience for you",
     "feature_personalized": "Personalized content",
+    "feature_personalized_subtitle": "Customized experience for you",
     "feature_notifications": "Smart notifications",
+    "feature_notifications_subtitle": "Motivation at the right time",
     "feature_fast": "Fast and effective",
+    "feature_fast_subtitle": "Instant inspiration and energy",
     "completion_title": "Great!",
     "completion_subtitle": "Your preferences have been saved. Your personalized quote experience is being prepared...",
     "notifications_per_day": "notifications/day",
     "time_start_label": "Start:",
     "time_end_label": "End:",
     "time_start_prompt": "Start Time",
+    "time_early": "Early Bird",
+    "time_morning_range": "Morning",
+    "time_regular": "Work Hours", 
+    "time_extended": "Extended",
+    "time_evening_range": "Evening Focus",
+    "selected_time_range": "Selected Time Range",
     "time_end_prompt": "End Time",
     "time_format_instruction_start": "Enter time format (e.g. 09:00)",
     "time_format_instruction_end": "Enter time format (e.g. 18:00)",
@@ -286,7 +312,10 @@
       "reading_length": "How long quotes do you like to read?",
       "notification_count": "How many notifications do you want per day?",
       "notification_time_range": "During which hours do you want to receive notifications?",
-      "frequency": "How often do you want to discover new content?"
+      "user_name": "What should we call you?"
+    },
+    "placeholders": {
+      "user_name": "Enter your name..."
     },
     "options": {
       "motivation": "Motivation and inspiration",
@@ -378,9 +407,18 @@
     "upgrade": "Upgrade to Premium"
   },
   "themes": {
-    "golden": {
-      "name": "Golden",
-      "description": "Warm and inspiring golden theme"
+    "title": "Theme Selection",
+    "subtitle": "Personalize your app",
+    "brightness": "Brightness",
+    "brightness_description": "Light, dark or follow system setting",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "color_themes": "Color Themes",
+    "color_themes_description": "Choose your favorite color palette",
+    "uprising": {
+      "name": "Uprising",
+      "description": "Warm and inspiring uprising theme"
     },
     "ocean": {
       "name": "Ocean",
@@ -402,5 +440,35 @@
       "name": "Minimalist",
       "description": "Clean grays and sophisticated tones"
     }
+  },
+  "store_review": {
+    "request_title": "Enjoying Quote?",
+    "request_message": "Your feedback helps us improve and reach more people who need daily inspiration. Would you mind taking a moment to rate us?",
+    "rate_now": "Rate Now",
+    "not_now": "Not Now", 
+    "never_ask": "Don't Ask Again",
+    "thank_you_title": "Thank You!",
+    "thank_you_message": "We appreciate your support. Your rating helps other people discover Quote.",
+    "review_success": "Review completed successfully",
+    "review_failed": "Unable to open review dialog",
+    "fallback_title": "Rate Quote",
+    "fallback_message": "Help others discover Quote by leaving a review in the App Store"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General Settings",
+    "user_name": "User Name",
+    "language": "Language",
+    "premium_status": "Premium Status",
+    "restore_purchase": "Restore Purchase",
+    "restore_purchase_subtitle": "Restore your previous purchases",
+    "restore_success": "Success",
+    "restore_success_message": "Purchases restored successfully!",
+    "my_categories": "My Categories",
+    "categories_subtitle": "Customize which categories you see",
+    "minimum_categories_title": "Minimum Categories",
+    "minimum_categories_message": "You must have at least one category selected.",
+    "select_language": "Select Language",
+    "back": "Back"
   }
 } 

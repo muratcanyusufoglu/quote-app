@@ -4,6 +4,12 @@ import { streakService, StreakStatus } from "../services/StreakService";
 import { useQuoteSelectors } from "../store/useQuoteStore";
 import { useAnalytics } from "./useAnalytics";
 
+// Global state for debug panel access
+let globalStreakFunctions: {
+  showStreakContinue: (count?: number) => void;
+  showStreakBreak: (count?: number) => void;
+} | null = null;
+
 export interface StreakModalState {
   visible: boolean;
   streakCount: number;
@@ -167,6 +173,36 @@ export function useStreak() {
     await streakService.resetDailyTracking();
   }, []);
 
+  // Manual trigger functions for debugging/testing
+  const showStreakContinue = useCallback((count: number = 3) => {
+    console.log(
+      "🔥 useStreak: Showing streak continue modal with count:",
+      count
+    );
+    setModalState({
+      visible: true,
+      streakCount: count,
+      isStreakContinued: true,
+    });
+  }, []);
+
+  const showStreakBreak = useCallback((count: number = 0) => {
+    console.log("💔 useStreak: Showing streak break modal with count:", count);
+    setModalState({
+      visible: true,
+      streakCount: count,
+      isStreakContinued: false,
+    });
+  }, []);
+
+  // Update global functions for debug panel access
+  useEffect(() => {
+    globalStreakFunctions = {
+      showStreakContinue,
+      showStreakBreak,
+    };
+  }, [showStreakContinue, showStreakBreak]);
+
   return {
     // Modal state
     modalState,
@@ -180,6 +216,10 @@ export function useStreak() {
     updateStreakOnRead,
     checkStreakOnAppOpen,
 
+    // Debug/Manual triggers
+    showStreakContinue,
+    showStreakBreak,
+
     // Utils
     getStreakStats,
     shouldSendStreakWarning,
@@ -189,3 +229,6 @@ export function useStreak() {
     isReady: hasHydrated,
   };
 }
+
+// Export global functions for debug panel access
+export const getGlobalStreakFunctions = () => globalStreakFunctions;

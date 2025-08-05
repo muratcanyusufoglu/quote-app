@@ -35,7 +35,13 @@ class TranslationService {
   };
 
   translate(key: TranslationKey, language: SupportedLanguage): string {
-    const translations = this.translations[language];
+    // Default to English for unsupported languages
+    const translationLanguage = this.translations[
+      language as keyof typeof this.translations
+    ]
+      ? (language as keyof typeof this.translations)
+      : "en";
+    const translations = this.translations[translationLanguage];
     const value = getNestedValue(translations, key);
 
     if (!value || value === key) {
@@ -64,7 +70,13 @@ class TranslationService {
       return {};
     }
 
-    const translations = this.translations[language];
+    // Default to English for unsupported languages
+    const translationLanguage = this.translations[
+      language as keyof typeof this.translations
+    ]
+      ? (language as keyof typeof this.translations)
+      : "en";
+    const translations = this.translations[translationLanguage];
     if (!translations) {
       return {};
     }
@@ -181,6 +193,24 @@ export function useCategoryTranslations() {
 export function useScreenTranslations(screenName: string) {
   const { tNamespace } = useTranslation();
   return tNamespace(screenName);
+}
+
+// Hook to provide language update functionality
+export function useLanguageUpdate() {
+  const { updateLanguageFromSystem } = useOnboardingSelectors.actions();
+
+  return {
+    updateFromSystem: updateLanguageFromSystem,
+    forceSystemLanguageUpdate: () => {
+      const updated = updateLanguageFromSystem();
+      if (updated) {
+        console.log("🌍 Language successfully updated from system settings");
+      } else {
+        console.log("📱 Language is already up to date with system settings");
+      }
+      return updated;
+    },
+  };
 }
 
 export default useTranslation;
