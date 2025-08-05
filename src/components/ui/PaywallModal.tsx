@@ -14,6 +14,8 @@ import {
   View,
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { usePremium } from "../../hooks/usePremium";
+import { useStoreReview } from "../../hooks/useStoreReview";
 import {
   useCommonTranslations,
   usePaywallTranslations,
@@ -23,7 +25,6 @@ import {
   SubscriptionPackage,
 } from "../../services/PaywallService";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { usePurchaseSelectors } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
@@ -447,8 +448,18 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const isFirstTimePaywall = usePaywallSelectors.isFirstTimePaywall();
   const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
   const { hidePaywall } = usePaywallSelectors.actions();
-  const { setPremium } = usePurchaseSelectors.actions();
-  const isPremium = usePurchaseSelectors.isPremium();
+
+  // UNIFIED: Use unified premium system
+  const {
+    isPremium,
+    isLoading: isPremiumLoading,
+    ensureFreshPremiumStatus,
+    forceRefreshPremiumStatus,
+  } = usePremium();
+
+  // Store review for post-purchase requests
+  const storeReview = useStoreReview();
+
   const [isLoading, setIsLoading] = useState(false);
   const [subscriptionPackage, setSubscriptionPackage] =
     useState<SubscriptionPackage | null>(null);
@@ -700,40 +711,99 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     setIsLoading(true);
 
     try {
-      console.log("💰 Starting premium purchase...");
+      // ✅ STEP 1: Perform actual purchase via PaywallService
+      console.log("💰 Starting purchase process...");
       const paywallService = getPaywallService();
-      const result = await paywallService.purchaseSubscription(
+      const purchaseResult = await paywallService.purchaseSubscription(
         subscriptionPackage.id
       );
 
-      if (result.success) {
-        // Immediately update premium status in the store
-        console.log("✅ Purchase successful, updating premium status...");
-        setPremium(result.isPremium ?? true);
+      if (purchaseResult.success) {
+        console.log("✅ Purchase successful, verifying premium status...");
 
-        // First hide the paywall to allow components to refresh
-        hidePaywall();
-        onPurchase?.();
-
-        // Then show success alert after a short delay to ensure state updates propagate
-        setTimeout(() => {
-          Alert.alert(
-            paywall.alerts.purchase_successful,
-            paywall.alerts.welcome_premium,
-            [
-              {
-                text: paywall.alerts.get_started,
-                onPress: () => {
-                  // Modal is already hidden, just callback if needed
-                },
-              },
-            ]
+        try {
+          // ✅ STEP 2: Force refresh premium status (ignore cache) from unified system
+          const actualIsPremium = await forceRefreshPremiumStatus();
+          console.log(
+            "✅ Actual premium status (force refreshed):",
+            actualIsPremium
           );
-        }, 100); // Small delay to ensure state propagation
+
+          // Only hide paywall if user is actually premium
+          if (actualIsPremium) {
+            // ✅ STEP 3: Trigger onPurchase callback immediately for app-wide updates
+            onPurchase?.();
+
+            // ✅ STEP 3.5: Check if we should request store review (Premium users only)
+            setTimeout(async () => {
+              try {
+                if (await storeReview.shouldRequestReview()) {
+                  console.log(
+                    "📱 PaywallModal: Requesting store review after purchase"
+                  );
+                  await storeReview.requestReview();
+                }
+              } catch (error) {
+                console.error(
+                  "❌ PaywallModal: Error with store review:",
+                  error
+                );
+              }
+            }, 1000); // 1 second delay to let success animation complete
+
+            // ✅ STEP 4: Small delay to allow components to re-render with new premium status
+            setTimeout(() => {
+              hidePaywall();
+              console.log(
+                "🎉 PaywallModal hidden after premium status propagated"
+              );
+            }, 150);
+
+            // ✅ STEP 5: Show success message after modal is hidden
+            setTimeout(() => {
+              Alert.alert(
+                paywall.alerts.purchase_successful,
+                paywall.alerts.welcome_premium,
+                [
+                  {
+                    text: paywall.alerts.get_started,
+                    onPress: () => {
+                      // Modal is already hidden, premium features are now accessible
+                    },
+                  },
+                ]
+              );
+            }, 300);
+          } else {
+            // Something went wrong, user is not premium according to verification
+            console.error(
+              "⚠️ Purchase successful but user is not premium after verification"
+            );
+            Alert.alert(
+              "Purchase Verification",
+              "Purchase successful, but verification is still in progress. Please restart the app or contact support if the issue persists.",
+              [{ text: "OK" }]
+            );
+          }
+        } catch (error) {
+          console.error(
+            "❌ Failed to verify premium status after purchase:",
+            error
+          );
+          Alert.alert(
+            "Verification Error",
+            "Purchase may have succeeded but verification failed. Please restart the app or contact support.",
+            [{ text: "OK" }]
+          );
+        }
+      } else if (purchaseResult.userCancelled) {
+        console.log("❌ Purchase cancelled by user");
+        // User cancelled, no need to show error
       } else {
+        console.error("❌ Purchase failed:", purchaseResult.error);
         Alert.alert(
-          paywall.alerts.purchase_failed,
-          result.error || paywall.alerts.purchase_error_message,
+          paywall.alerts.purchase_error,
+          purchaseResult.error || paywall.alerts.unexpected_error,
           [{ text: common.ok }]
         );
       }
@@ -757,29 +827,62 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       const result = await paywallService.restorePurchases();
 
       if (result.success) {
-        // Immediately update premium status in the store
-        console.log("✅ Purchases restored, updating premium status...");
-        setPremium(result.isPremium ?? true);
+        console.log("✅ Purchases restored, verifying premium status...");
 
-        // First hide the paywall to allow components to refresh
-        hidePaywall();
-        onPurchase?.();
-
-        // Then show success alert after a short delay to ensure state updates propagate
-        setTimeout(() => {
-          Alert.alert(
-            paywall.alerts.purchases_restored,
-            paywall.alerts.restored_successfully,
-            [
-              {
-                text: paywall.alerts.continue,
-                onPress: () => {
-                  // Modal is already hidden, just callback if needed
-                },
-              },
-            ]
+        try {
+          // ✅ Use unified premium verification from usePremium hook (force refresh)
+          const actualIsPremium = await forceRefreshPremiumStatus();
+          console.log(
+            "✅ Actual premium status after restore (force refreshed):",
+            actualIsPremium
           );
-        }, 100); // Small delay to ensure state propagation
+
+          // Only hide paywall if user is actually premium
+          if (actualIsPremium) {
+            // ✅ Trigger onPurchase callback immediately for app-wide updates
+            onPurchase?.();
+
+            // ✅ Small delay to allow components to re-render with new premium status
+            setTimeout(() => {
+              hidePaywall();
+              console.log(
+                "🎉 PaywallModal hidden after restore and premium status propagated"
+              );
+            }, 150);
+
+            setTimeout(() => {
+              Alert.alert(
+                paywall.alerts.purchases_restored,
+                paywall.alerts.restored_successfully,
+                [
+                  {
+                    text: paywall.alerts.continue,
+                    onPress: () => {
+                      // Modal is already hidden, premium features are now accessible
+                    },
+                  },
+                ]
+              );
+            }, 300);
+          } else {
+            // No active subscription found
+            Alert.alert(
+              paywall.alerts.no_purchases,
+              paywall.alerts.no_purchases_message,
+              [{ text: common.ok }]
+            );
+          }
+        } catch (error) {
+          console.error(
+            "❌ Failed to verify premium status after restore:",
+            error
+          );
+          Alert.alert(
+            "Verification Error",
+            "Failed to verify your subscription status. Please try again or contact support.",
+            [{ text: "OK" }]
+          );
+        }
       } else {
         Alert.alert(
           paywall.alerts.no_purchases,

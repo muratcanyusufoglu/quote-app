@@ -1,3 +1,4 @@
+import { useThemeSelectors } from "@/src/store/useThemeStore";
 import React from "react";
 import {
   StyleSheet,
@@ -7,20 +8,28 @@ import {
   ViewStyle,
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { useCommonTranslations } from "../../hooks/useTranslation";
+import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
+import {
+  useCommonTranslations,
+  useScreenTranslations,
+} from "../../hooks/useTranslation";
+import {
+  useOnboardingCompleted,
+  useUserPreferences,
+} from "../../store/useOnboardingStore";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { useIsPremium } from "../../store/usePurchaseStore";
-import { useThemeSelectors } from "../../store/useThemeStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 export function MiniPremiumBadge() {
-  // All hooks must be called in the same order every time
   const { theme } = useTheme();
-  const selectedTheme = useThemeSelectors.selectedTheme();
-  const isPremium = useIsPremium();
-  const { showPaywall } = usePaywallSelectors.actions();
+  const { isPremium } = usePremium(); // UNIFIED: Extract isPremium boolean
   const common = useCommonTranslations();
+  const explore = useScreenTranslations("explore");
+  const isOnboardingCompleted = useOnboardingCompleted();
+  const userPreferences = useUserPreferences();
+  const { showPaywall } = usePaywallSelectors.actions();
   const insets = useSafeAreaInsets();
+  const selectedTheme = useThemeSelectors.selectedTheme();
 
   const handlePress = () => {
     showPaywall("premium_category");
@@ -100,9 +109,9 @@ export function MiniPremiumBadge() {
     } as TextStyle,
   });
 
-  // Only show badge for non-premium users (opposite way)
+  // Only show badge for non-premium users who have completed onboarding
   // This conditional return must come AFTER all hooks are called
-  if (isPremium) {
+  if (isPremium || !isOnboardingCompleted) {
     return null;
   }
 

@@ -29,13 +29,6 @@ export function CategoryFilterChip({
 
   const categoryIcon = getCategoryIcon(categoryId);
 
-  // Use current theme colors directly - simpler and more reliable
-  const themeColors = {
-    primary: theme.colors.primary,
-    accent: theme.colors.secondary,
-    background: `${theme.colors.primary}15`,
-  };
-
   // Entrance animation
   useEffect(() => {
     Animated.parallel([
@@ -75,83 +68,49 @@ export function CategoryFilterChip({
   const styles = StyleSheet.create({
     container: {
       position: "absolute",
-      top: insets.top + 60, // Safe area + navigation height
-      left: 20,
-      right: 20,
+      top: insets.top + 50,
+      left: 16,
+      right: 16,
       zIndex: 1000,
       alignItems: "center",
     },
     chip: {
       flexDirection: "row",
       alignItems: "center",
-      backgroundColor: theme.colors.background,
-      paddingHorizontal: 20,
-      paddingVertical: 14,
-      borderRadius: 28,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: {
-        width: 0,
-        height: 8,
-      },
-      shadowOpacity: 0.15,
-      shadowRadius: 16,
-      elevation: 12,
-      borderWidth: 1.5,
-      borderColor: themeColors.primary,
-      // Subtle background tint
-      ...(theme.colors.background.includes("rgba")
-        ? {}
-        : {
-            backgroundColor: `${theme.colors.background}F5`, // Slightly more opaque
-          }),
+      backgroundColor: theme.colors.whiteOverlay10,
+      paddingHorizontal: 16,
+      paddingVertical: 10,
+      borderRadius: 20,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
+      backdropFilter: "blur(10px)",
     },
     iconContainer: {
-      width: 32,
-      height: 32,
-      borderRadius: 16,
-      backgroundColor: themeColors.background,
+      width: 24,
+      height: 24,
+      borderRadius: 12,
+      backgroundColor: theme.colors.brandYellow + "20",
       alignItems: "center",
       justifyContent: "center",
-      marginRight: 12,
-      borderWidth: 1,
-      borderColor: `${themeColors.primary}30`,
+      marginRight: 8,
     },
     textContainer: {
       flex: 1,
-      marginRight: 12,
+      marginRight: 8,
     },
     categoryLabel: {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: "600",
       color: theme.colors.text,
-      textAlign: "left",
-      letterSpacing: 0.3,
-    },
-    categorySubtext: {
-      fontSize: 12,
-      color: theme.colors.textSecondary,
-      marginTop: 2,
-      opacity: 0.8,
+      letterSpacing: 0.2,
     },
     clearButton: {
-      width: 28,
-      height: 28,
-      borderRadius: 14,
-      backgroundColor: `${theme.colors.error}15`, // Light error background
+      width: 24,
+      height: 24,
+      borderRadius: 12,
+      backgroundColor: theme.colors.whiteOverlay20,
       alignItems: "center",
       justifyContent: "center",
-      borderWidth: 1,
-      borderColor: `${theme.colors.error}30`,
-    },
-    themeIndicator: {
-      position: "absolute",
-      left: 0,
-      top: 0,
-      bottom: 0,
-      width: 4,
-      backgroundColor: themeColors.primary,
-      borderTopLeftRadius: 28,
-      borderBottomLeftRadius: 28,
     },
   });
 
@@ -166,41 +125,37 @@ export function CategoryFilterChip({
           },
         ]}
       >
-        {/* Theme Color Indicator */}
-        <View style={styles.themeIndicator} />
-
         {/* Category Icon */}
         <View style={styles.iconContainer}>
           {categoryIcon ? (
             <IconSymbol
               name={categoryIcon as any}
-              size={18}
-              color={themeColors.primary}
-              strokeWidth={2.5}
+              size={14}
+              color={theme.colors.brandYellow}
+              strokeWidth={2}
             />
           ) : (
-            <Text style={{ fontSize: 16 }}>📂</Text>
+            <Text style={{ fontSize: 12 }}>📂</Text>
           )}
         </View>
 
         {/* Category Name */}
         <View style={styles.textContainer}>
           <Text style={styles.categoryLabel}>{categoryName}</Text>
-          <Text style={styles.categorySubtext}>Filtered by category</Text>
         </View>
 
         {/* Clear Button */}
         <TouchableOpacity
           style={styles.clearButton}
           onPress={handleClear}
-          hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
           activeOpacity={0.7}
         >
           <IconSymbol
             name="xmark"
-            size={14}
-            color={theme.colors.error}
-            strokeWidth={2.5}
+            size={12}
+            color={theme.colors.text}
+            strokeWidth={2}
           />
         </TouchableOpacity>
       </Animated.View>

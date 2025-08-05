@@ -1,3 +1,4 @@
+import { useUserName } from "@/src/store/useOnboardingStore";
 import { LinearGradient } from "expo-linear-gradient";
 import React, { useState } from "react";
 import {
@@ -10,10 +11,9 @@ import {
   View,
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { useTranslation } from "../../hooks/useTranslation";
-import { useUserName } from "../../store/useOnboardingStore";
+import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
+import useTranslation from "../../hooks/useTranslation";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { useIsPremium } from "../../store/usePurchaseStore";
 import { useTheme } from "../../utils/ThemeContext";
 
 const { height: screenHeight } = Dimensions.get("window");
@@ -81,11 +81,8 @@ export function MoodSelectionModal({
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [responses, setResponses] = useState<{ [key: string]: string }>({});
   const [slideAnim] = useState(new Animated.Value(screenHeight));
-
-  // Premium status and paywall
-  const isPremium = useIsPremium();
+  const { isPremium } = usePremium(); // UNIFIED: Extract isPremium boolean
   const { showPaywall } = usePaywallSelectors.actions();
-
   const currentQuestion = questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
@@ -165,7 +162,7 @@ export function MoodSelectionModal({
       backgroundColor: "transparent",
       borderTopLeftRadius: 24,
       borderTopRightRadius: 24,
-      minHeight: screenHeight * 0.7,
+      minHeight: screenHeight * 0.8,
       shadowColor: theme.colors.shadowColor,
       shadowOffset: {
         width: 0,

@@ -40,7 +40,7 @@ export function ShareButton({
       // Create formatted share message with deep link
       const shareMessage = `"${quote.text}"${
         quote.author ? `\n\n— ${quote.author}` : ""
-      }\n\n📱 Open in QuoteSpark: ${deepLinkUrl}`;
+      }\n\n📱 Open in QuoteSpark App: ${deepLinkUrl}`;
 
       const shareContent = {
         message: shareMessage,

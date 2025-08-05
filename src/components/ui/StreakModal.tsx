@@ -4,18 +4,19 @@ import {
   Animated,
   Dimensions,
   Modal,
+  Platform,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
-  ViewStyle,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTranslation } from "../../hooks/useTranslation";
 import { useUserName } from "../../store/useOnboardingStore";
 import { useTheme } from "../../utils/ThemeContext";
 
-const { width } = Dimensions.get("window");
-const MAX_STREAK_CIRCLES = 7;
+const { width, height } = Dimensions.get("window");
+const isIOS = Platform.OS === "ios";
 
 interface StreakModalProps {
   visible: boolean;
@@ -24,122 +25,7 @@ interface StreakModalProps {
   onClose: () => void;
 }
 
-interface StreakCircleProps {
-  index: number;
-  isActive: boolean;
-  progress: Animated.Value;
-  flickerAnim: Animated.Value;
-  theme: any;
-}
-
-const StreakCircle: React.FC<StreakCircleProps> = ({
-  index,
-  isActive,
-  progress,
-  flickerAnim,
-  theme,
-}) => {
-  const circleSize = 16;
-  const circleSpacing = 12;
-
-  // Theme-based fire colors using primary and secondary colors
-  const getFireColors = () => {
-    return {
-      outer: theme.colors.primary,
-      middle: theme.colors.primaryLight,
-      inner: theme.colors.secondary,
-      glow: theme.colors.primary,
-      inactive: theme.colors.surface,
-      border: theme.colors.border,
-    };
-  };
-
-  const colors = getFireColors();
-
-  const circleStyle: ViewStyle = {
-    width: circleSize,
-    height: circleSize,
-    borderRadius: circleSize / 2,
-    marginHorizontal: circleSpacing / 2,
-    backgroundColor: colors.inactive,
-    borderWidth: 2,
-    borderColor: isActive ? colors.glow : colors.border,
-    overflow: "hidden" as const,
-    justifyContent: "center",
-    alignItems: "center",
-    shadowColor: isActive ? colors.glow : "transparent",
-    shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: isActive ? 0.8 : 0,
-    shadowRadius: 6,
-    elevation: isActive ? 12 : 0,
-  };
-
-  // Enhanced fire effect with theme colors
-  const fireOpacity = flickerAnim.interpolate({
-    inputRange: [0, 0.5, 1],
-    outputRange: [0.8, 1, 0.9],
-  });
-
-  const innerFireScale = progress.interpolate({
-    inputRange: [0, 0.7, 1],
-    outputRange: [0, 0.7, 1],
-  });
-
-  const outerFireScale = progress.interpolate({
-    inputRange: [0, 0.5, 1],
-    outputRange: [0, 0.9, 1.3],
-  });
-
-  const coreFireScale = progress.interpolate({
-    inputRange: [0, 0.9, 1],
-    outputRange: [0, 0.5, 0.8],
-  });
-
-  return (
-    <Animated.View style={circleStyle}>
-      {isActive && (
-        <>
-          {/* Outer fire layer */}
-          <Animated.View
-            style={{
-              position: "absolute" as const,
-              width: "100%" as const,
-              height: "100%" as const,
-              backgroundColor: colors.outer,
-              borderRadius: circleSize / 2,
-              transform: [{ scale: outerFireScale }],
-              opacity: fireOpacity,
-            }}
-          />
-          {/* Middle fire layer */}
-          <Animated.View
-            style={{
-              position: "absolute" as const,
-              width: "100%" as const,
-              height: "100%" as const,
-              backgroundColor: colors.middle,
-              borderRadius: circleSize / 2,
-              transform: [{ scale: innerFireScale }],
-              opacity: fireOpacity,
-            }}
-          />
-          {/* Core fire layer */}
-          <Animated.View
-            style={{
-              position: "absolute" as const,
-              width: "100%" as const,
-              height: "100%" as const,
-              backgroundColor: colors.inner,
-              borderRadius: circleSize / 2,
-              transform: [{ scale: coreFireScale }],
-              opacity: fireOpacity,
-            }}
-          />
-        </>
-      )}
-    </Animated.View>
-  );
-};
+// Notification-style streak notification component
 
 export default function StreakModal({
   visible,
@@ -151,103 +37,57 @@ export default function StreakModal({
   const { theme } = useTheme();
   const userName = useUserName();
 
-  // Animation values
-  const fadeAnim = useRef(new Animated.Value(0)).current;
-  const scaleAnim = useRef(new Animated.Value(0.8)).current;
-  const streakProgress = useRef(
-    Array.from({ length: MAX_STREAK_CIRCLES }, () => new Animated.Value(0))
-  ).current;
-  const flickerAnims = useRef(
-    Array.from({ length: MAX_STREAK_CIRCLES }, () => new Animated.Value(0))
-  ).current;
+  // Animation values for notification slide
+  const translateY = useRef(new Animated.Value(-200)).current;
+  const opacity = useRef(new Animated.Value(0)).current;
+  const scaleAnim = useRef(new Animated.Value(0.9)).current;
 
   useEffect(() => {
     if (visible) {
       // Reset all animations
-      fadeAnim.setValue(0);
-      scaleAnim.setValue(0.8);
-      streakProgress.forEach((anim) => anim.setValue(0));
-      flickerAnims.forEach((anim) => anim.setValue(0));
+      translateY.setValue(-200);
+      opacity.setValue(0);
+      scaleAnim.setValue(0.9);
 
-      // Modal entrance animation
+      // Slide in from top animation
       Animated.parallel([
-        Animated.timing(fadeAnim, {
+        Animated.timing(translateY, {
+          toValue: 0,
+          duration: 500,
+          useNativeDriver: true,
+        }),
+        Animated.timing(opacity, {
           toValue: 1,
           duration: 400,
           useNativeDriver: true,
         }),
         Animated.spring(scaleAnim, {
           toValue: 1,
-          tension: 60,
+          tension: 100,
           friction: 8,
           useNativeDriver: true,
         }),
       ]).start();
 
-      // Animate streak circles with enhanced fire effect
-      if (isStreakContinued) {
-        const activeCircles = Math.min(streakCount, MAX_STREAK_CIRCLES);
-
-        // Sequential animations for each circle
-        const animations = streakProgress
-          .slice(0, activeCircles)
-          .map((anim, index) =>
-            Animated.sequence([
-              Animated.delay(400 + index * 120),
-              Animated.spring(anim, {
-                toValue: 1,
-                tension: 50,
-                friction: 7,
-                useNativeDriver: true,
-              }),
-            ])
-          );
-
-        // Enhanced flickering animation
-        const flickerAnimations = flickerAnims
-          .slice(0, activeCircles)
-          .map((anim, index) =>
-            Animated.sequence([
-              Animated.delay(400 + index * 120 + 300),
-              Animated.loop(
-                Animated.sequence([
-                  Animated.timing(anim, {
-                    toValue: 1,
-                    duration: 1000,
-                    useNativeDriver: true,
-                  }),
-                  Animated.timing(anim, {
-                    toValue: 0,
-                    duration: 800,
-                    useNativeDriver: true,
-                  }),
-                ])
-              ),
-            ])
-          );
-
-        Animated.parallel([...animations, ...flickerAnimations]).start();
-      }
-
-      // Auto close after 6 seconds
+      // Auto close after 4 seconds
       const timer = setTimeout(() => {
         handleClose();
-      }, 6000);
+      }, 4000);
 
       return () => clearTimeout(timer);
     }
-  }, [visible, isStreakContinued, streakCount]);
+  }, [visible]);
 
   const handleClose = () => {
     Animated.parallel([
-      Animated.timing(fadeAnim, {
-        toValue: 0,
+      Animated.timing(translateY, {
+        toValue: -200,
         duration: 300,
         useNativeDriver: true,
       }),
-      Animated.timing(scaleAnim, {
-        toValue: 0.8,
-        duration: 300,
+      Animated.timing(opacity, {
+        toValue: 0,
+        duration: 250,
         useNativeDriver: true,
       }),
     ]).start(() => {
@@ -258,71 +98,48 @@ export default function StreakModal({
   const getTitle = () => {
     if (isStreakContinued) {
       if (streakCount === 1) {
-        return userName
-          ? t("streak.started_title_personalized").replace(
-              "{userName}",
-              userName
-            )
-          : t("streak.started_title");
+        return t("streak.started_title");
       }
-      return userName
-        ? t("streak.continued_title_personalized").replace(
-            "{userName}",
-            userName
-          )
-        : t("streak.continued_title");
+      return t("streak.continued_title");
     }
-    return userName
-      ? t("streak.broken_title_personalized").replace("{userName}", userName)
-      : t("streak.broken_title");
+    return t("streak.broken_title");
   };
 
   const getMessage = () => {
     if (isStreakContinued) {
       if (streakCount === 1) {
-        return userName
-          ? t("streak.started_message_personalized").replace(
-              "{userName}",
-              userName
-            )
-          : t("streak.started_message");
+        return t("streak.started_message");
       }
-      let message = userName
-        ? t("streak.continued_message_personalized")
-        : t("streak.continued_message");
-
-      return message
-        .replace("{count}", streakCount.toString())
-        .replace("{userName}", userName || "");
+      return t("streak.continued_message").replace(
+        "{count}",
+        streakCount.toString()
+      );
     }
-    return userName
-      ? t("streak.broken_message_personalized").replace("{userName}", userName)
-      : t("streak.broken_message");
+    return t("streak.broken_message");
   };
 
-  const renderStreakIndicator = () => {
-    return (
-      <View style={styles.streakIndicator}>
-        {Array.from({ length: MAX_STREAK_CIRCLES }).map((_, index) => (
-          <StreakCircle
-            key={`streak-${index}`}
-            index={index}
-            isActive={
-              isStreakContinued &&
-              index < Math.min(streakCount, MAX_STREAK_CIRCLES)
-            }
-            progress={streakProgress[index]}
-            flickerAnim={flickerAnims[index]}
-            theme={theme}
-          />
-        ))}
-      </View>
-    );
+  const getStreakEmoji = () => {
+    if (!isStreakContinued) return "💔";
+    if (streakCount === 1) return "🌟";
+    if (streakCount >= 7) return "🔥";
+    if (streakCount >= 3) return "⚡";
+    return "✨";
   };
 
-  // Theme-based overlay gradient
-  const getOverlayGradient = () => {
-    return [theme.colors.backdrop, theme.colors.overlay];
+  // Get notification background gradient
+  const getNotificationGradient = (): [string, string, ...string[]] => {
+    if (isStreakContinued) {
+      return [
+        theme.colors.brandYellow + "F0",
+        theme.colors.brandYellow + "E0",
+        theme.colors.brandYellow + "D0",
+      ];
+    }
+    return [
+      theme.colors.whiteOverlay70,
+      theme.colors.whiteOverlay80,
+      theme.colors.whiteOverlay90,
+    ];
   };
 
   if (!visible) return null;
@@ -334,216 +151,197 @@ export default function StreakModal({
       animationType="none"
       onRequestClose={handleClose}
     >
-      <View style={styles.modalContainer}>
-        <LinearGradient
-          colors={getOverlayGradient() as [string, string]}
-          style={styles.overlay}
-        />
-        <View style={styles.centeredContent}>
-          <Animated.View
-            style={[
-              styles.container,
-              {
-                backgroundColor: theme.colors.surface,
-                opacity: fadeAnim,
-                transform: [{ scale: scaleAnim }],
-                shadowColor: theme.colors.shadowColor,
-                borderColor: theme.colors.border,
-                ...(isStreakContinued && {
-                  shadowColor: theme.colors.primary,
-                  shadowOpacity: 0.25,
-                  shadowRadius: 20,
-                  borderColor: theme.colors.primaryLight,
-                }),
-              },
-            ]}
+      <View style={styles.notificationContainer}>
+        <Animated.View
+          style={[
+            styles.notification,
+            {
+              opacity: opacity,
+              transform: [{ translateY: translateY }, { scale: scaleAnim }],
+            },
+          ]}
+        >
+          <LinearGradient
+            colors={getNotificationGradient()}
+            style={styles.notificationGradient}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
           >
-            {/* Header section */}
-            <View style={styles.header}>
-              <Text style={[styles.emoji, { color: theme.colors.text }]}>
-                {isStreakContinued ? "🔥" : "💔"}
-              </Text>
-
-              <Text
-                style={[
-                  styles.title,
-                  {
-                    color: theme.colors.text,
-                    ...(isStreakContinued && {
-                      color: theme.colors.primary,
-                    }),
-                  },
-                ]}
-              >
-                {getTitle()}
-              </Text>
-            </View>
-
-            {/* Streak visual indicator */}
-            {isStreakContinued && (
-              <View style={styles.indicatorSection}>
-                {renderStreakIndicator()}
-              </View>
-            )}
-
-            {/* Streak count section */}
-            <View style={styles.countSection}>
-              <Text
-                style={[
-                  styles.streakNumber,
-                  {
-                    color: isStreakContinued
-                      ? theme.colors.primary
-                      : theme.colors.textSecondary,
-                  },
-                ]}
-              >
-                {streakCount}
-              </Text>
-              <Text
-                style={[
-                  styles.streakLabel,
-                  { color: theme.colors.textSecondary },
-                ]}
-              >
-                {streakCount === 1 ? t("streak.day") : t("streak.days")}
-              </Text>
-            </View>
-
-            {/* Message section */}
-            <Text
-              style={[styles.message, { color: theme.colors.textSecondary }]}
-            >
-              {getMessage()}
-            </Text>
-
-            {/* Action button */}
             <TouchableOpacity
-              style={[
-                styles.actionButton,
-                {
-                  backgroundColor: theme.colors.primary,
-                  shadowColor: theme.colors.primary,
-                },
-              ]}
+              style={styles.notificationContent}
               onPress={handleClose}
+              activeOpacity={0.8}
             >
-              <Text
-                style={[styles.actionButtonText, { color: theme.colors.white }]}
+              {/* Icon & Content */}
+              <View style={styles.leftContent}>
+                {!isStreakContinued && (
+                  <View
+                    style={[
+                      styles.iconContainer,
+                      {
+                        backgroundColor: isStreakContinued
+                          ? theme.colors.brandYellow + "40"
+                          : "#00000020",
+                      },
+                    ]}
+                  >
+                    <Text style={styles.iconEmoji}>{getStreakEmoji()}</Text>
+                  </View>
+                )}
+                <View style={styles.textContent}>
+                  <Text
+                    style={[
+                      styles.notificationTitle,
+                      {
+                        color: isStreakContinued ? "#000" : "#000000",
+                      },
+                    ]}
+                  >
+                    {getTitle()}
+                  </Text>
+                  <Text
+                    style={[
+                      styles.notificationMessage,
+                      {
+                        color: isStreakContinued ? "#000000CC" : "#000000BB",
+                      },
+                    ]}
+                  >
+                    {getMessage()}
+                  </Text>
+                </View>
+              </View>
+
+              {/* Streak Count */}
+              <View style={styles.rightContent}>
+                <Text
+                  style={[
+                    styles.streakCount,
+                    {
+                      color: isStreakContinued ? "#000" : "#000000",
+                    },
+                  ]}
+                >
+                  {streakCount}
+                </Text>
+                <Text
+                  style={[
+                    styles.streakDays,
+                    {
+                      color: isStreakContinued ? "#000000AA" : "#000000AA",
+                    },
+                  ]}
+                >
+                  {streakCount === 1 ? t("streak.day") : t("streak.days")}
+                </Text>
+              </View>
+
+              {/* Close Icon */}
+              <TouchableOpacity
+                style={styles.closeButton}
+                onPress={handleClose}
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
               >
-                {t("common.skip")}
-              </Text>
+                <IconSymbol
+                  name="xmark"
+                  size={16}
+                  color={isStreakContinued ? "#00000080" : "#00000080"}
+                />
+              </TouchableOpacity>
             </TouchableOpacity>
-          </Animated.View>
-        </View>
+          </LinearGradient>
+        </Animated.View>
       </View>
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
-  modalContainer: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: "transparent",
-  },
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    zIndex: 0,
-  },
-  centeredContent: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    zIndex: 1,
-    paddingHorizontal: 20,
-  },
-  container: {
-    width: width * 0.9,
-    maxWidth: 380,
-    borderRadius: 28,
-    borderWidth: 1,
-    elevation: 24,
-    shadowOffset: {
-      width: 0,
-      height: 12,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 16,
-    overflow: "hidden",
-  },
-  header: {
-    alignItems: "center",
-    paddingTop: 32,
-    paddingHorizontal: 24,
-  },
-  emoji: {
-    fontSize: 72,
-    marginBottom: 16,
-    textAlign: "center",
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: "800",
-    textAlign: "center",
-    marginBottom: 8,
-    letterSpacing: -0.5,
-  },
-  indicatorSection: {
-    paddingHorizontal: 24,
-    paddingVertical: 20,
-  },
-  streakIndicator: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    height: 32,
+  notificationContainer: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 1000,
+    paddingTop: isIOS ? 50 : 25,
     paddingHorizontal: 16,
   },
-  countSection: {
-    alignItems: "center",
-    paddingHorizontal: 24,
-    paddingVertical: 16,
-  },
-  streakNumber: {
-    fontSize: 56,
-    fontWeight: "900",
-    textAlign: "center",
-    letterSpacing: -2,
-  },
-  streakLabel: {
-    fontSize: 18,
-    fontWeight: "600",
-    textAlign: "center",
-    marginTop: -4,
-    letterSpacing: 0.5,
-    textTransform: "lowercase",
-  },
-  message: {
-    fontSize: 16,
-    textAlign: "center",
-    lineHeight: 24,
-    paddingHorizontal: 24,
-    marginBottom: 24,
-    opacity: 0.85,
-  },
-  actionButton: {
-    marginHorizontal: 24,
-    marginBottom: 24,
+  notification: {
     borderRadius: 16,
-    paddingHorizontal: 32,
-    paddingVertical: 16,
+    overflow: "hidden",
+    elevation: 12,
+    shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 4,
+      height: 6,
     },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 8,
+    shadowOpacity: 0.25,
+    shadowRadius: 12,
   },
-  actionButtonText: {
+  notificationGradient: {
+    borderRadius: 16,
+  },
+  notificationContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+    minHeight: 80,
+  },
+  leftContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    flex: 1,
+  },
+  iconContainer: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 12,
+  },
+  iconEmoji: {
+    fontSize: 20,
+    textAlign: "center",
+  },
+  textContent: {
+    flex: 1,
+    marginRight: 8,
+  },
+  notificationTitle: {
     fontSize: 16,
     fontWeight: "700",
-    textAlign: "center",
-    letterSpacing: 0.5,
+    marginBottom: 2,
+    letterSpacing: -0.2,
+  },
+  notificationMessage: {
+    fontSize: 13,
+    fontWeight: "500",
+    opacity: 0.8,
+    lineHeight: 18,
+  },
+  rightContent: {
+    alignItems: "center",
+    marginRight: 8,
+  },
+  streakCount: {
+    fontSize: 24,
+    fontWeight: "900",
+    lineHeight: 26,
+    letterSpacing: -1,
+  },
+  streakDays: {
+    fontSize: 11,
+    fontWeight: "600",
+    textTransform: "lowercase",
+    opacity: 0.7,
+  },
+  closeButton: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
