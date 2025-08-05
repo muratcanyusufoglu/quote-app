@@ -274,7 +274,7 @@ export function QuoteReels({
       // Create formatted share message
       const shareMessage = `"${quote.text}"${
         quote.author ? `\n\n— ${quote.author}` : ""
-      }\n\n📱 Open in Quote App: ${deepLinkUrl}\n🌐 View online: ${webUrl}`;
+      }\n\n📱 Open in Quote App: ${deepLinkUrl}`;
 
       // Use React Native Share API
       const result = await Share.share({

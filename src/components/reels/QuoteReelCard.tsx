@@ -100,25 +100,8 @@ export function QuoteReelCard({
         </TouchableOpacity>
       </View>
 
-      {/* Main Quote Card with Stack Effect */}
+      {/* Main Quote Card - Centered */}
       <View style={styles.cardContainer}>
-        {/* Background Cards - More Dramatic Stack Effect */}
-        {/* <View
-          style={[
-            styles.cardStack,
-            styles.cardStackThird,
-            { backgroundColor: cardColor, opacity: 0.8 },
-          ]}
-        />
-        <View
-          style={[
-            styles.cardStack,
-            styles.cardStackSecond,
-            { backgroundColor: cardColor, opacity: 0.9 },
-          ]}
-        /> */}
-
-        {/* Main Active Card */}
         <TouchableOpacity
           style={[styles.card, { backgroundColor: cardColor }]}
           onPress={handlePress}
@@ -128,7 +111,7 @@ export function QuoteReelCard({
         </TouchableOpacity>
       </View>
 
-      {/* Bottom Actions */}
+      {/* Bottom Actions - Fixed positioning with safe area */}
       <View style={styles.actionsContainer}>
         <QuoteActions
           isFavorite={isFavorite}
@@ -140,51 +123,6 @@ export function QuoteReelCard({
           onQuoteAction={onQuoteAction}
         />
       </View>
-
-      {/* Navigation Help Text */}
-      {/* <View style={styles.helpContainer}>
-        <View style={styles.helpTextContainer}>
-          <IconSymbol
-            name="search"
-            size={10}
-            color={theme.colors.whiteOverlay80}
-            strokeWidth={2}
-          />
-          <Text
-            style={[
-              styles.helpTextSeparator,
-              { color: theme.colors.whiteOverlay80 },
-            ]}
-          >
-            Explore •{" "}
-          </Text>
-          <IconSymbol
-            name="heart"
-            size={10}
-            color={theme.colors.whiteOverlay80}
-            strokeWidth={2}
-          />
-          <Text
-            style={[
-              styles.helpTextSeparator,
-              { color: theme.colors.whiteOverlay80 },
-            ]}
-          >
-            Favorite •{" "}
-          </Text>
-          <IconSymbol
-            name="square.and.arrow.up"
-            size={10}
-            color={theme.colors.whiteOverlay80}
-            strokeWidth={2}
-          />
-          <Text
-            style={[styles.helpText, { color: theme.colors.whiteOverlay80 }]}
-          >
-            Share
-          </Text>
-        </View>
-      </View> */}
     </View>
   );
 }
@@ -197,7 +135,8 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   topBar: {
-    top: 20, //change later
+    position: "absolute",
+    top: 20,
     left: 0,
     right: 0,
     zIndex: 1001,
@@ -211,13 +150,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 24,
-    paddingBottom: 120,
+    paddingTop: 80, // Space for top navigation
+    paddingBottom: 180, // Increased space for bottom actions
     overflow: "visible",
   },
   card: {
     width: "100%",
     maxWidth: 340,
-    minHeight: 400,
+    minHeight: 420, // Restored tall card height
     borderRadius: 24,
     padding: 32,
     justifyContent: "center",
@@ -235,12 +175,14 @@ const styles = StyleSheet.create({
   },
   actionsContainer: {
     position: "absolute",
-    bottom: 100,
+    bottom: 100, // Higher positioning for better visibility
     left: 0,
     right: 0,
     paddingHorizontal: 32,
-    paddingTop: 32,
-    zIndex: 5,
+    paddingTop: 16,
+    paddingBottom: 20, // Add bottom padding for safe area
+    zIndex: 10,
+    minHeight: 60, // Ensure minimum height for buttons
   },
   helpContainer: {
     position: "absolute",

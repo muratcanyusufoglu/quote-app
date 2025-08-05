@@ -1,7 +1,8 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { LocalizedQuote } from "../../types";
+import categoriesData from "../../data/categories.json";
+import { Language, LocalizedQuote } from "../../types";
 import { useTheme } from "../../utils/ThemeContext";
 import { ShareButton } from "../ui/ShareButton";
 
@@ -9,11 +10,28 @@ interface QuoteActionsProps {
   isFavorite: boolean;
   onFavoritePress: () => void;
   onShare?: () => void;
-  quote?: LocalizedQuote; // Optional quote for ShareButton
-  category: string;
+  quote: LocalizedQuote;
+  category: string; // Category ID
   readTime: number;
   onQuoteAction?: (actionType: string) => void;
 }
+
+// Utility function to get localized category name
+const getCategoryLocalizedName = (
+  categoryId: string,
+  language: Language
+): string => {
+  const category = categoriesData.categories.find(
+    (cat) => cat.id === categoryId
+  );
+  if (!category) {
+    return categoryId; // Fallback to ID if category not found
+  }
+
+  // Get localized name based on language, fallback to English
+  const names = category.names as any;
+  return names[language] || names.en || categoryId;
+};
 
 export const QuoteActions: React.FC<QuoteActionsProps> = ({
   isFavorite,
@@ -40,6 +58,12 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
     onQuoteAction?.("share");
   };
 
+  // Get localized category name
+  const localizedCategoryName = getCategoryLocalizedName(
+    category,
+    quote.language
+  );
+
   return (
     <View style={styles.container}>
       {/* Category and Read Time Info */}
@@ -56,7 +80,7 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           <Text
             style={[styles.categoryTag, { color: theme.colors.brandYellow }]}
           >
-            #{category}
+            #{localizedCategoryName}
           </Text>
         </View>
         {/* read time */}
