@@ -36,7 +36,7 @@ export function useQuoteService() {
     const preferredLang = getPreferredLanguage(
       userPreferences?.language as SupportedLanguage
     );
-    console.log("🌍 Final language selection:", preferredLang);
+    if (__DEV__) console.log("🌍 Final language selection:", preferredLang);
     return preferredLang;
   }, [userPreferences?.language]);
 
@@ -58,15 +58,18 @@ export function useQuoteService() {
 
       // Get personalized home feed quotes
       getHomeFeedQuotes: (count: number = 10): LocalizedQuote[] => {
-        console.log(`🏠 Getting home feed quotes for language: ${language}`);
-        console.log(
-          `🏠 isPremium: ${isPremium}, seenQuotes: ${stableSeenQuotes.length}`
-        );
-        console.log(`🏠 userPreferences:`, userPreferences);
+        if (__DEV__) {
+          console.log(`🏠 Getting home feed quotes for language: ${language}`);
+          console.log(
+            `🏠 isPremium: ${isPremium}, seenQuotes: ${stableSeenQuotes.length}`
+          );
+          console.log(`🏠 userPreferences:`, userPreferences);
+        }
 
         // For non-premium users, always use general quotes regardless of preferences
         if (!isPremium) {
-          console.log(`🏠 Non-premium user - using general quotes only`);
+          if (__DEV__)
+            console.log(`🏠 Non-premium user - using general quotes only`);
           const quotes = legacyQuoteService.getRandomUnseenQuotes(
             count,
             stableSeenQuotes,
@@ -74,25 +77,28 @@ export function useQuoteService() {
             language
             // No selectedCategories - this will default to all accessible categories (only general)
           );
-          console.log(
-            `📚 Non-premium, loaded ${quotes.length} quotes in ${language}`
-          );
+          if (__DEV__)
+            console.log(
+              `📚 Non-premium, loaded ${quotes.length} quotes in ${language}`
+            );
           return quotes;
         }
 
         if (!userPreferences) {
-          console.log(
-            `🏠 Premium user, no preferences - using getRandomUnseenQuotes`
-          );
+          if (__DEV__)
+            console.log(
+              `🏠 Premium user, no preferences - using getRandomUnseenQuotes`
+            );
           const quotes = legacyQuoteService.getRandomUnseenQuotes(
             count,
             stableSeenQuotes,
             isPremium,
             language
           );
-          console.log(
-            `📚 Premium no preferences, loaded ${quotes.length} quotes in ${language}`
-          );
+          if (__DEV__)
+            console.log(
+              `📚 Premium no preferences, loaded ${quotes.length} quotes in ${language}`
+            );
           return quotes;
         }
         console.log(

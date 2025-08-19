@@ -1,4 +1,3 @@
-import DebugPanel from "@/src/components/ui/DebugPanel";
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -9,6 +8,7 @@ import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
 import { MoodSelectionModal } from "../../components/ui/MoodSelectionModal";
 
 import { useAnalytics } from "../../hooks/useAnalytics";
+import { useDailyLimit } from "../../hooks/useDailyLimit";
 import { useMoodMotivation } from "../../hooks/useMoodMotivation";
 import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import {
@@ -48,6 +48,9 @@ export function HomeScreen() {
 
   // Progressive paywall tracking
   const { trackUserInteraction } = usePaywallSelectors.actions();
+
+  // Daily quote limit tracking
+  const { tryViewQuote, limitInfo, getLimitStatusMessage } = useDailyLimit();
 
   // Mood-based motivation
   const {
@@ -245,8 +248,17 @@ export function HomeScreen() {
     }
   }, [selectedCategory, allCategories, trackCategoryFilter, isPremium]);
 
-  // Handle quote view tracking
+  // Handle quote view tracking with daily limit check
   const handleQuoteView = async (quote: LocalizedQuote) => {
+    // Check daily limit before allowing quote view
+    const canView = await tryViewQuote();
+
+    if (!canView) {
+      // Daily limit reached, paywall already shown by tryViewQuote
+      console.log("🚫 Quote view blocked - daily limit reached");
+      return;
+    }
+
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
 
@@ -392,7 +404,7 @@ export function HomeScreen() {
       safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
-      {__DEV__ && (
+      {/* {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -405,7 +417,7 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )}
+      )} */}
 
       {/* Mood Selection Modal */}
       <MoodSelectionModal
@@ -433,6 +445,20 @@ export function HomeScreen() {
           onClear={clearCategoryFilter}
         />
       )}
+
+      {/* Daily limit status indicator - Show for free users */}
+      {/* {!isPremium && (
+        <View style={[styles.limitStatusContainer, { backgroundColor: theme.colors.surface }]}>
+          <Text style={[styles.limitStatusText, { color: theme.colors.textSecondary }]}>
+            {getLimitStatusMessage()}
+          </Text>
+          {limitInfo.hasReachedLimit && (
+            <Text style={[styles.limitStatusUpgrade, { color: theme.colors.primary }]}>
+              {common.upgrade_now || "Upgrade Now"}
+            </Text>
+          )}
+        </View>
+      )} */}
 
       {/* Personalization indicator - Hidden by default */}
       {false &&
@@ -516,6 +542,28 @@ const createStyles = (theme: any) =>
       fontSize: 16,
       fontWeight: "600",
       textAlign: "center",
+      textDecorationLine: "underline",
+    },
+    limitStatusContainer: {
+      paddingHorizontal: 16,
+      paddingVertical: 8,
+      marginHorizontal: 16,
+      marginBottom: 8,
+      borderRadius: 8,
+      borderWidth: 1,
+      borderColor: "rgba(0, 0, 0, 0.1)",
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    limitStatusText: {
+      fontSize: 14,
+      fontWeight: "500",
+      flex: 1,
+    },
+    limitStatusUpgrade: {
+      fontSize: 14,
+      fontWeight: "600",
       textDecorationLine: "underline",
     },
     personalizationBanner: {

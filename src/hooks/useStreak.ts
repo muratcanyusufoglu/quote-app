@@ -117,6 +117,10 @@ export function useStreak() {
   // Handle streak update when user reads a quote
   const updateStreakOnRead = useCallback(async () => {
     try {
+      // Store'daki streak'i güncelle
+      actions.updateStreak();
+
+      // Streak service'den modal bilgisini al
       const result = await streakService.updateStreakOnRead(
         lastReadDate,
         currentStreak
@@ -146,7 +150,7 @@ export function useStreak() {
       console.error("Error updating streak on read:", error);
       return currentStreak;
     }
-  }, [lastReadDate, currentStreak, trackDailyStreak, trackUserAction]);
+  }, [lastReadDate, currentStreak, trackDailyStreak, trackUserAction, actions]);
 
   // Close modal
   const closeModal = useCallback(() => {

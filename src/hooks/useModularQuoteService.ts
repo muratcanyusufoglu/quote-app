@@ -64,7 +64,10 @@ export function useModularQuoteService() {
         async (count: number = 10): Promise<LocalizedQuote[]> => {
           if (!isReady) return [];
 
-          console.log(`🏠 Getting home feed quotes for language: ${language}`);
+          if (__DEV__)
+            console.log(
+              `🏠 Getting home feed quotes for language: ${language}`
+            );
 
           if (!userPreferences) {
             const quotes = await modularQuoteService.getRandomUnseenQuotes(
@@ -73,9 +76,10 @@ export function useModularQuoteService() {
               isPremium,
               language
             );
-            console.log(
-              `📚 No preferences, loaded ${quotes.length} quotes in ${language}`
-            );
+            if (__DEV__)
+              console.log(
+                `📚 No preferences, loaded ${quotes.length} quotes in ${language}`
+              );
             return quotes;
           }
 
@@ -85,9 +89,10 @@ export function useModularQuoteService() {
             stableSeenQuotes,
             isPremium
           );
-          console.log(
-            `👤 With preferences, loaded ${quotes.length} quotes in ${language}`
-          );
+          if (__DEV__)
+            console.log(
+              `👤 With preferences, loaded ${quotes.length} quotes in ${language}`
+            );
           return quotes;
         },
         [isReady, userPreferences, stableSeenQuotes, isPremium, language]

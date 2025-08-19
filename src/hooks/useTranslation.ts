@@ -1,9 +1,24 @@
 import { useMemo } from "react";
 import { useOnboardingSelectors } from "../store/useOnboardingStore";
-import { getPreferredLanguage, SupportedLanguage } from "../utils/language";
+import {
+  getPreferredLanguage,
+  getSystemLanguage,
+  SupportedLanguage,
+} from "../utils/language";
 
-// Import translation files
+// Import translation files (all supported languages)
+import deTranslations from "../data/translations/de.json";
 import enTranslations from "../data/translations/en.json";
+import esTranslations from "../data/translations/es.json";
+import frTranslations from "../data/translations/fr.json";
+import idTranslations from "../data/translations/id.json";
+import itTranslations from "../data/translations/it.json";
+import jaTranslations from "../data/translations/ja.json";
+import msTranslations from "../data/translations/ms.json";
+import nlTranslations from "../data/translations/nl.json";
+import ptTranslations from "../data/translations/pt.json";
+import ruTranslations from "../data/translations/ru.json";
+import thTranslations from "../data/translations/th.json";
 import trTranslations from "../data/translations/tr.json";
 
 // Type for translation keys (deep object keys)
@@ -17,7 +32,8 @@ type DeepKeys<T> = T extends object
     }[keyof T]
   : never;
 
-type TranslationKey = DeepKeys<typeof trTranslations>;
+// Use English as canonical key space
+type TranslationKey = DeepKeys<typeof enTranslations>;
 
 // Helper function to get nested object value by dot notation
 const getNestedValue = (obj: any, path: string): string => {
@@ -30,9 +46,20 @@ const getNestedValue = (obj: any, path: string): string => {
 // Translation service
 class TranslationService {
   private translations = {
-    tr: trTranslations,
     en: enTranslations,
-  };
+    tr: trTranslations,
+    de: deTranslations,
+    es: esTranslations,
+    fr: frTranslations,
+    id: idTranslations,
+    it: itTranslations,
+    ja: jaTranslations,
+    ms: msTranslations,
+    nl: nlTranslations,
+    pt: ptTranslations,
+    ru: ruTranslations,
+    th: thTranslations,
+  } as const;
 
   translate(key: TranslationKey, language: SupportedLanguage): string {
     // Default to English for unsupported languages
@@ -159,6 +186,8 @@ export function usePaywallTranslations() {
       features: tNamespace("paywall.features"),
       pricing: tNamespace("paywall.pricing"),
       alerts: tNamespace("paywall.alerts"),
+      debug: tNamespace("paywall.debug"),
+      testimonials: tNamespace("paywall.testimonials"),
 
       footer: translationService.translate("paywall.footer", language),
       processing: translationService.translate("paywall.processing", language),
@@ -197,19 +226,20 @@ export function useScreenTranslations(screenName: string) {
 
 // Hook to provide language update functionality
 export function useLanguageUpdate() {
-  const { updateLanguageFromSystem } = useOnboardingSelectors.actions();
+  const { updateAnswer, generatePreferences } =
+    useOnboardingSelectors.actions();
+
+  function updateFromSystem(): boolean {
+    const systemLanguage = getSystemLanguage();
+    updateAnswer("languages", [systemLanguage]);
+    generatePreferences();
+    console.log("🌍 Language updated from system:", systemLanguage);
+    return true;
+  }
 
   return {
-    updateFromSystem: updateLanguageFromSystem,
-    forceSystemLanguageUpdate: () => {
-      const updated = updateLanguageFromSystem();
-      if (updated) {
-        console.log("🌍 Language successfully updated from system settings");
-      } else {
-        console.log("📱 Language is already up to date with system settings");
-      }
-      return updated;
-    },
+    updateFromSystem,
+    forceSystemLanguageUpdate: () => updateFromSystem(),
   };
 }
 

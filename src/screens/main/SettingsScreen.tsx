@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import {
   Alert,
   FlatList,
+  Linking,
   ScrollView,
   StyleSheet,
   Text,
@@ -12,6 +13,7 @@ import {
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import { NavigationBar } from "../../components/layout/NavigationBar";
+import { PaywallModal } from "../../components/ui/PaywallModal";
 import categoriesData from "../../data/categories.json";
 import { usePaywall } from "../../hooks/usePaywall";
 import { usePremium } from "../../hooks/usePremium";
@@ -45,7 +47,7 @@ export function SettingsScreen() {
   const common = useCommonTranslations();
   const settings = useScreenTranslations("settings");
   const { isPremium } = usePremium();
-  const { restorePurchases } = usePaywall();
+  const { restorePurchases, showPremiumCategoryPaywall } = usePaywall();
   const userPreferences = useUserPreferences();
   const { updateAnswer, generatePreferences } = useOnboardingActions();
 
@@ -65,6 +67,12 @@ export function SettingsScreen() {
         settings.restore_success || "Success",
         settings.restore_success_message || "Purchases restored successfully!"
       );
+    }
+  };
+
+  const handlePremiumStatusPress = () => {
+    if (!isPremium) {
+      showPremiumCategoryPaywall();
     }
   };
 
@@ -337,7 +345,9 @@ export function SettingsScreen() {
       {renderSettingCard(
         "crown",
         settings.premium_status || "Premium Status",
-        isPremium ? common.premium || "Premium" : common.free || "Free"
+        isPremium ? common.premium || "Premium" : common.free || "Free",
+        handlePremiumStatusPress,
+        !isPremium
       )}
 
       {renderSettingCard(
@@ -345,6 +355,25 @@ export function SettingsScreen() {
         settings.restore_purchase || "Restore Purchase",
         settings.restore_purchase_subtitle || "Restore your previous purchases",
         handleRestorePurchase,
+        true
+      )}
+
+      {renderSettingCard(
+        "shield",
+        settings.privacy_policy || "Privacy Policy",
+        settings.privacy_policy_subtitle || "View our privacy policy",
+        () => Linking.openURL("https://quotesparkapp.netlify.app/privacy"),
+        true
+      )}
+
+      {renderSettingCard(
+        "book",
+        settings.terms_of_use || "Terms of Use",
+        settings.terms_of_use_subtitle || "Apple Standard EULA",
+        () =>
+          Linking.openURL(
+            "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+          ),
         true
       )}
     </View>
@@ -470,6 +499,7 @@ export function SettingsScreen() {
         </View>
       </BaseScreen>
       {showLanguageModal && renderLanguageModal()}
+      <PaywallModal onClose={() => {}} onPurchase={() => {}} />
     </View>
   );
 }
