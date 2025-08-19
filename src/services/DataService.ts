@@ -9,7 +9,18 @@ import { Category, LocalizedCategory, LocalizedQuote, Quote } from "../types";
 import { SupportedLanguage } from "../utils/language";
 
 // Import translation files
+import deTranslations from "../data/translations/de.json";
 import enTranslations from "../data/translations/en.json";
+import esTranslations from "../data/translations/es.json";
+import frTranslations from "../data/translations/fr.json";
+import idTranslations from "../data/translations/id.json";
+import itTranslations from "../data/translations/it.json";
+import jaTranslations from "../data/translations/ja.json";
+import msTranslations from "../data/translations/ms.json";
+import nlTranslations from "../data/translations/nl.json";
+import ptTranslations from "../data/translations/pt.json";
+import ruTranslations from "../data/translations/ru.json";
+import thTranslations from "../data/translations/th.json";
 import trTranslations from "../data/translations/tr.json";
 
 // Cache interface for performance optimization
@@ -41,9 +52,20 @@ export class DataService {
   }
 
   private translations = {
-    tr: trTranslations,
     en: enTranslations,
-  };
+    tr: trTranslations,
+    de: deTranslations,
+    es: esTranslations,
+    fr: frTranslations,
+    id: idTranslations,
+    it: itTranslations,
+    ja: jaTranslations,
+    ms: msTranslations,
+    nl: nlTranslations,
+    pt: ptTranslations,
+    ru: ruTranslations,
+    th: thTranslations,
+  } as const;
 
   // Get translations for a specific language
   getTranslations(language: SupportedLanguage): any {
