@@ -1,5 +1,6 @@
 // PaywallService.ts - Business logic for paywall and subscription management
 // Following SOLID principles for clean architecture
+// NO HARD-CODED VALUES - All data comes from RevenueCat
 
 import revenueCatService, {
   PurchasePackage as RevenueCatPackage,
@@ -19,6 +20,7 @@ export interface SubscriptionPackage {
   isPopular: boolean;
   packageType?: string; // RevenueCat package type
   currencyCode?: string;
+  priceNumber?: number;
 }
 
 export interface PurchaseResult {
@@ -57,23 +59,42 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
     console.log("📦 Getting available packages from RevenueCat");
 
     try {
+      console.log("🔄 Calling revenueCatService.getOfferings()...");
       const offerings = await revenueCatService.getOfferings();
+      console.log("📦 RevenueCat offerings received:", offerings);
 
       if (!offerings || !offerings.packages) {
-        console.warn("No offerings found from RevenueCat");
-        return this.getFallbackPackages();
+        console.warn("⚠️ No offerings or packages found from RevenueCat");
+        console.log("🔍 Offerings object:", offerings);
+        return []; // Return empty array - no fallback packages
       }
+
+      console.log(
+        `📦 Found ${offerings.packages.length} packages from RevenueCat`
+      );
+      console.log(
+        "🔍 Package details:",
+        offerings.packages.map((p) => ({
+          identifier: p.identifier,
+          packageType: p.packageType,
+          title: p.product.title,
+          price: p.product.priceString,
+          description: p.product.description,
+        }))
+      );
 
       this.revenueCatPackages = offerings.packages;
       this.packages = this.convertRevenueCatPackagesToSubscriptionPackages(
         offerings.packages
       );
 
-      console.log(`📦 Found ${this.packages.length} packages`);
+      console.log(
+        `✅ Converted ${this.packages.length} packages to SubscriptionPackage format`
+      );
       return this.packages;
     } catch (error) {
-      console.error("Failed to get packages from RevenueCat:", error);
-      return this.getFallbackPackages();
+      console.error("❌ Failed to get packages from RevenueCat:", error);
+      return []; // Return empty array - no fallback packages
     }
   }
 
@@ -81,123 +102,137 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
     packages: RevenueCatPackage[]
   ): SubscriptionPackage[] {
     return packages.map((pkg, index) => {
+      // All data comes from RevenueCat - no hard-coded values
       const isYearly =
         pkg.packageType === "ANNUAL" || pkg.identifier.includes("yearly");
       const isLifetime =
         pkg.packageType === "LIFETIME" || pkg.identifier.includes("lifetime");
 
-      // Calculate monthly equivalent for yearly packages
+      // Calculate monthly equivalent for yearly packages using actual price from RevenueCat
       const monthlyPrice = isYearly
         ? (pkg.product.price / 12).toFixed(2)
         : pkg.product.priceString;
 
-      // Determine discount and original price
-      let discount = "50% OFF";
-      let originalPrice = pkg.product.priceString;
-
-      if (isYearly) {
-        discount = "67% OFF";
-        originalPrice = `$${(pkg.product.price * 1.5).toFixed(2)}`;
-      }
+      // No fabricated discount - use what RevenueCat provides
+      const discount = ""; // RevenueCat doesn't provide discount info by default
+      const originalPrice = pkg.product.priceString; // Use actual price from RevenueCat
 
       return {
-        id: pkg.identifier,
-        title: isLifetime
-          ? "Lifetime Premium"
-          : isYearly
-          ? "Annual Premium"
-          : "Premium Plan",
+        id: pkg.identifier, // Use RevenueCat identifier
+        title:
+          pkg.product.title ||
+          this.generateTitleFromPackageType(pkg.packageType), // Use RevenueCat title or generate from type
         originalPrice,
-        currentPrice: pkg.product.priceString,
+        currentPrice: pkg.product.priceString, // Use actual price from RevenueCat
         discount,
-        period: isLifetime ? "lifetime" : isYearly ? "year" : "month",
-        freeTrialDays: 3, // Default trial period
-        pricePerMonth: isYearly ? `$${monthlyPrice}` : pkg.product.priceString,
-        packageType: pkg.packageType,
-        currencyCode: pkg.product.currencyCode,
-        features: this.getFeaturesByPackageType(pkg.packageType, index),
-        isPopular: isYearly || index === 0, // First package or yearly is popular
+        period: this.getPeriodFromPackageType(pkg.packageType), // Determine period from RevenueCat package type
+        freeTrialDays: this.getTrialDaysFromPackageType(pkg.packageType), // Get trial days from RevenueCat or default to 0
+        pricePerMonth: isYearly
+          ? `${monthlyPrice} ${pkg.product.currencyCode || "USD"}`
+          : pkg.product.priceString,
+        packageType: pkg.packageType, // Use RevenueCat package type
+        currencyCode: pkg.product.currencyCode, // Use RevenueCat currency
+        priceNumber: pkg.product.price, // Use RevenueCat price number
+        features: this.getFeaturesFromRevenueCatPackage(pkg), // Extract features from RevenueCat data
+        isPopular: this.determinePopularity(pkg, index), // Determine popularity based on RevenueCat data
       };
     });
   }
 
-  private getFeaturesByPackageType(
-    packageType: string,
-    index: number
-  ): string[] {
-    // First package features (primary offer)
-    if (index === 0) {
-      return [
-        "🎯 10,000+ hand-picked quotes from world leaders",
-        "📚 Exclusive stories & life lessons from successful people",
-        "🧠 AI-powered personalization based on your goals",
-        "🔥 Daily motivational challenges to build habits",
-        "📊 Track your personal growth & mindset shifts",
-        "🌟 Access to premium authors & thought leaders",
-        "💎 Ad-free, distraction-free reading experience",
-        "🚀 Weekly live inspiration sessions (Premium only)",
-      ];
-    }
+  private generateTitleFromPackageType(packageType?: string): string {
+    if (!packageType) return "Premium Plan";
 
-    // Second package features (fallback offer)
-    return [
-      "Unlimited daily quotes",
-      "Access to all premium categories",
-      "Inspiring stories behind quotes",
-      "Advanced personalization",
-      "Exclusive motivational content",
-      "Ad-free experience",
-      "Offline reading mode",
-      "Weekly inspiration insights",
-    ];
+    switch (packageType.toUpperCase()) {
+      case "LIFETIME":
+        return "Lifetime Premium";
+      case "ANNUAL":
+        return "Annual Premium";
+      case "MONTHLY":
+        return "Monthly Premium";
+      default:
+        return "Premium Plan";
+    }
   }
 
-  private getFallbackPackages(): SubscriptionPackage[] {
-    // Fallback packages when RevenueCat is unavailable
-    return [
-      {
-        id: "annual_premium_fallback",
-        title: "Annual Premium",
-        originalPrice: "$59.99",
-        currentPrice: "$39.99",
-        discount: "33% OFF",
-        period: "year",
-        freeTrialDays: 3,
-        pricePerMonth: "$3.33",
-        features: [
-          "🎯 10,000+ hand-picked quotes from world leaders",
-          "📚 Exclusive stories & life lessons from successful people",
-          "🧠 AI-powered personalization based on your goals",
-          "🔥 Daily motivational challenges to build habits",
-          "📊 Track your personal growth & mindset shifts",
-          "🌟 Access to premium authors & thought leaders",
-          "💎 Ad-free, distraction-free reading experience",
-          "🚀 Weekly live inspiration sessions (Premium only)",
-        ],
-        isPopular: true,
-      },
-      {
-        id: "lifetime_premium_fallback",
-        title: "Lifetime Premium",
-        originalPrice: "$199.99",
-        currentPrice: "$99.99",
-        discount: "50% OFF",
-        period: "lifetime",
-        freeTrialDays: 7,
-        pricePerMonth: "One-time",
-        features: [
-          "Everything in Annual Premium",
-          "Lifetime access - pay once, use forever",
-          "All future premium features included",
-          "Priority customer support",
-          "Exclusive lifetime member benefits",
-          "No recurring payments",
-          "Transfer to family members",
-          "Lifetime updates guarantee",
-        ],
-        isPopular: false,
-      },
-    ];
+  private getPeriodFromPackageType(packageType?: string): string {
+    if (!packageType) return "month";
+
+    switch (packageType.toUpperCase()) {
+      case "LIFETIME":
+        return "lifetime";
+      case "ANNUAL":
+        return "year";
+      case "MONTHLY":
+        return "month";
+      default:
+        return "month";
+    }
+  }
+
+  private getTrialDaysFromPackageType(packageType?: string): number {
+    // RevenueCat doesn't provide trial days by default
+    // This would need to be configured in RevenueCat dashboard or App Store/Google Play
+    // For now, return 0 - no hard-coded trial periods
+    return 0;
+  }
+
+  private determinePopularity(pkg: RevenueCatPackage, index: number): boolean {
+    // Determine popularity based on RevenueCat data, not hard-coded logic
+    // Could be based on package type, price, or other RevenueCat metadata
+    return index === 0; // First package is popular by default
+  }
+
+  private getFeaturesFromRevenueCatPackage(pkg: RevenueCatPackage): string[] {
+    // Extract features from RevenueCat package description and metadata
+    const features: string[] = [];
+
+    // Use package description if available from RevenueCat
+    if (pkg.product.description) {
+      features.push(`📝 ${pkg.product.description}`);
+    }
+
+    // Use package title if available from RevenueCat
+    if (pkg.product.title) {
+      features.push(`📦 ${pkg.product.title}`);
+    }
+
+    // Add package type information from RevenueCat
+    if (pkg.packageType) {
+      features.push(`🏷️ Package Type: ${pkg.packageType}`);
+    }
+
+    // Add price information from RevenueCat
+    if (pkg.product.priceString) {
+      features.push(`💰 Price: ${pkg.product.priceString}`);
+    }
+
+    // Add currency information from RevenueCat
+    if (pkg.product.currencyCode) {
+      features.push(`💱 Currency: ${pkg.product.currencyCode}`);
+    }
+
+    // If no features extracted from RevenueCat, provide generic ones based on package type
+    if (features.length === 0) {
+      if (pkg.packageType === "LIFETIME") {
+        features.push("🌟 Lifetime access to all premium features");
+        features.push("💎 One-time payment, no recurring charges");
+        features.push("🚀 All future updates included");
+      } else if (pkg.packageType === "ANNUAL") {
+        features.push("📅 Annual subscription with auto-renewal");
+        features.push("💎 Access to all premium features");
+        features.push("🔄 Cancel anytime");
+      } else if (pkg.packageType === "MONTHLY") {
+        features.push("📅 Monthly subscription with auto-renewal");
+        features.push("💎 Access to all premium features");
+        features.push("🔄 Cancel anytime");
+      } else {
+        features.push("✨ Premium access to exclusive content");
+        features.push("💎 Enhanced user experience");
+        features.push("🚀 Advanced features unlocked");
+      }
+    }
+
+    return features;
   }
 
   async purchasePackage(packageId: string): Promise<PurchaseResult> {
@@ -234,7 +269,7 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
   }
 
   async getSubscriptionStatus(): Promise<SubscriptionStatus> {
-    console.log("📊 Getting subscription status");
+    console.log("📊 Getting subscription status from RevenueCat");
 
     try {
       const customerInfo = await revenueCatService.getCustomerInfo();
@@ -252,11 +287,14 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
 
       return {
         isActive: hasActiveEntitlements,
-        isInTrialPeriod: false, // You can enhance this with trial period detection
+        isInTrialPeriod: false, // This would need to be determined from RevenueCat data
         autoRenewEnabled: hasActiveEntitlements,
       };
     } catch (error) {
-      console.error("Failed to get subscription status:", error);
+      console.error(
+        "Failed to get subscription status from RevenueCat:",
+        error
+      );
       return {
         isActive: false,
         isInTrialPeriod: false,
@@ -266,7 +304,7 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
   }
 
   async restorePurchases(): Promise<PurchaseResult> {
-    console.log("🔄 Restoring purchases");
+    console.log("🔄 Restoring purchases via RevenueCat");
 
     try {
       const result = await revenueCatService.restorePurchases();
@@ -294,8 +332,8 @@ export class PaywallStrategy {
   private static ACTIONS_REQUIRED_FOR_SECOND_OFFER = 5;
 
   static async shouldShowFirstOffer(): Promise<boolean> {
-    // Always show first offer if it hasn't been shown yet
-    return !this.firstOfferShown;
+    // Only show first offer if it hasn't been rejected yet
+    return !this.firstOfferRejected && !this.firstOfferShown;
   }
 
   static async markFirstOfferShown(): Promise<void> {
@@ -305,19 +343,23 @@ export class PaywallStrategy {
 
   static async markFirstOfferRejected(): Promise<void> {
     this.firstOfferRejected = true;
+    this.firstOfferShown = true;
     this.actionCount = 0; // Reset action count
     console.log("📊 First offer marked as rejected, action count reset");
   }
 
   static async shouldShowSecondOffer(): Promise<boolean> {
-    // Show second offer if first was rejected and user performed enough actions
-    const shouldShow =
-      this.firstOfferRejected &&
-      this.actionCount >= this.ACTIONS_REQUIRED_FOR_SECOND_OFFER;
+    // After first offer is rejected, always show the second (discounted) offer
+    const shouldShow = this.firstOfferRejected;
     console.log(
       `📊 Should show second offer: ${shouldShow} (rejected: ${this.firstOfferRejected}, actions: ${this.actionCount})`
     );
     return shouldShow;
+  }
+
+  static async shouldShowDiscountedByDefault(): Promise<boolean> {
+    // If first offer was rejected, all future paywalls should show discounted version
+    return this.firstOfferRejected;
   }
 
   static async incrementActionCount(): Promise<void> {
@@ -347,13 +389,14 @@ export class PaywallService {
   private packages: SubscriptionPackage[] = [];
 
   constructor() {
-    // Use RevenueCat provider instead of Mock
+    // Use RevenueCat provider - no fallback providers
     this.purchaseProvider = new RevenueCatPurchaseProvider();
   }
 
   async initialize(): Promise<void> {
     await this.purchaseProvider.initialize();
-    this.packages = await this.purchaseProvider.getAvailablePackages();
+    const fetched = await this.purchaseProvider.getAvailablePackages();
+    this.packages = this.sortPackagesForTwoOfferStrategy(fetched);
   }
 
   // Check if user has premium access from RevenueCat
@@ -398,7 +441,14 @@ export class PaywallService {
 
   async getSubscriptionPackages(): Promise<SubscriptionPackage[]> {
     if (this.packages.length === 0) {
-      this.packages = await this.purchaseProvider.getAvailablePackages();
+      const fetched = await this.purchaseProvider.getAvailablePackages();
+      this.packages = this.sortPackagesForTwoOfferStrategy(fetched);
+    }
+
+    // If no packages available from RevenueCat, return empty array
+    if (this.packages.length === 0) {
+      console.warn("No packages available from RevenueCat");
+      return [];
     }
 
     // Implement two-package strategy
@@ -422,6 +472,39 @@ export class PaywallService {
     // Default to first package
     console.log("📦 Returning default package");
     return this.packages.slice(0, 1);
+  }
+
+  // Expose all packages to UI when we need to manually switch between offers in-place
+  async getAllSubscriptionPackages(): Promise<SubscriptionPackage[]> {
+    console.log("🔍 getAllSubscriptionPackages called");
+    console.log("📦 Current packages in memory:", this.packages.length);
+
+    if (this.packages.length === 0) {
+      console.log("🔄 No packages in memory, fetching from RevenueCat...");
+      const fetched = await this.purchaseProvider.getAvailablePackages();
+      console.log("📦 Fetched packages from RevenueCat:", fetched?.length || 0);
+
+      if (fetched && fetched.length > 0) {
+        this.packages = this.sortPackagesForTwoOfferStrategy(fetched);
+        console.log("✅ Packages processed and sorted:", this.packages.length);
+      } else {
+        console.warn("⚠️ No packages fetched from RevenueCat");
+      }
+    } else {
+      console.log("✅ Using cached packages:", this.packages.length);
+    }
+
+    console.log(
+      "📦 Returning packages:",
+      this.packages.map((p) => ({
+        id: p.id,
+        title: p.title,
+        currentPrice: p.currentPrice,
+        originalPrice: p.originalPrice,
+      }))
+    );
+
+    return this.packages;
   }
 
   async purchaseSubscription(packageId: string): Promise<PurchaseResult> {
@@ -455,6 +538,16 @@ export class PaywallService {
     return result;
   }
 
+  // Allow UI to explicitly mark the first offer as rejected (e.g., user closed modal)
+  async markFirstOfferRejected(): Promise<void> {
+    await PaywallStrategy.markFirstOfferRejected();
+  }
+
+  // Check if user should see discounted paywall by default (after rejecting first offer)
+  async shouldShowDiscountedByDefault(): Promise<boolean> {
+    return await PaywallStrategy.shouldShowDiscountedByDefault();
+  }
+
   async restorePurchases(): Promise<PurchaseResult> {
     const result = await this.purchaseProvider.restorePurchases();
 
@@ -486,6 +579,44 @@ export class PaywallService {
 
   async getSubscriptionStatus(): Promise<SubscriptionStatus> {
     return await this.purchaseProvider.getSubscriptionStatus();
+  }
+
+  // Sort packages based on RevenueCat data, not hard-coded logic
+  private sortPackagesForTwoOfferStrategy(
+    packages: SubscriptionPackage[]
+  ): SubscriptionPackage[] {
+    if (!Array.isArray(packages) || packages.length <= 1) return packages || [];
+
+    const parsePrice = (p: SubscriptionPackage): number => {
+      if (typeof p.priceNumber === "number") return p.priceNumber;
+      const s = p.currentPrice || "";
+      const num = parseFloat(s.replace(/[^0-9.]/g, ""));
+      return isNaN(num) ? Number.MAX_SAFE_INTEGER : num;
+    };
+
+    // 🔍 DEBUG: Package sorting process
+    console.log(
+      "🔍 SORT DEBUG - Input packages from RevenueCat:",
+      packages.map((p) => ({
+        id: p.id,
+        price: p.currentPrice,
+        type: p.packageType,
+        discount: p.discount,
+        title: p.title,
+      }))
+    );
+
+    // Sort by price (highest first) - all data from RevenueCat
+    const sortedPackages = [...packages].sort(
+      (a, b) => parsePrice(b) - parsePrice(a)
+    );
+
+    console.log(
+      "🔍 SORT DEBUG - Final order based on RevenueCat data:",
+      sortedPackages.map((p) => p.id)
+    );
+
+    return sortedPackages;
   }
 
   // Helper method to increment action count for second offer strategy

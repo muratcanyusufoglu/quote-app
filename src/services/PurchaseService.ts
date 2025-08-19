@@ -1,3 +1,4 @@
+import { PURCHASE_CONFIG } from "../constants/config";
 import { PurchaseProduct } from "../types";
 import {
   canReadStory,
@@ -10,7 +11,8 @@ import revenueCatService from "./revenueCat";
 // Single Responsibility: PurchaseService handles only purchase and premium logic
 class PurchaseService {
   private static readonly PREMIUM_ENTITLEMENT_ID = "premium_lifetime";
-  private static readonly TRIAL_DURATION_DAYS = 7;
+  private static readonly TRIAL_DURATION_DAYS =
+    PURCHASE_CONFIG.TRIAL_PERIOD_DAYS;
 
   // Initialize RevenueCat
   async initialize(): Promise<void> {
@@ -227,14 +229,30 @@ class PurchaseService {
   }
 
   // Calculate savings for lifetime purchase
-  calculateSavings(): {
+  // Note: This method now requires actual package data from RevenueCat
+  // No hard-coded calculations - all data must come from actual packages
+  calculateSavings(
+    monthlyPackage?: any,
+    lifetimePackage?: any
+  ): {
     monthlyPrice: number;
     lifetimePrice: number;
     savingsAmount: number;
     savingsPercentage: number;
   } {
-    const monthlyPrice = 1.99;
-    const lifetimePrice = 4.99;
+    // If no packages provided, return default values
+    if (!monthlyPackage || !lifetimePackage) {
+      return {
+        monthlyPrice: 0,
+        lifetimePrice: 0,
+        savingsAmount: 0,
+        savingsPercentage: 0,
+      };
+    }
+
+    // Use actual package prices from RevenueCat
+    const monthlyPrice = monthlyPackage.price || 0;
+    const lifetimePrice = lifetimePackage.price || 0;
     const equivalentMonths = 12; // How many months the lifetime price equals
     const totalMonthlyCost = monthlyPrice * equivalentMonths;
     const savingsAmount = totalMonthlyCost - lifetimePrice;

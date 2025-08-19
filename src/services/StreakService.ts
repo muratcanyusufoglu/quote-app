@@ -177,20 +177,30 @@ export class StreakService {
       let newStreak = currentStreak;
       let shouldShowModal = false;
 
+      console.log("📖 StreakService.updateStreakOnRead called:", {
+        lastReadDate,
+        today,
+        yesterday,
+        currentStreak,
+      });
+
       if (lastReadDate !== today) {
         // User is reading for the first time today
         if (lastReadDate === yesterday) {
           // Consecutive day - increment streak
           newStreak = currentStreak + 1;
           shouldShowModal = true;
+          console.log("🔥 Consecutive day - streak incremented to:", newStreak);
         } else if (!lastReadDate) {
           // First ever read
           newStreak = 1;
           shouldShowModal = true;
+          console.log("🌟 First ever read - streak started at 1");
         } else {
           // Missed days - start new streak
           newStreak = 1;
           shouldShowModal = true;
+          console.log("💔 Missed days - streak reset to 1");
         }
 
         // Check if modal was already shown today
@@ -199,10 +209,13 @@ export class StreakService {
         );
         if (modalShownToday === today) {
           shouldShowModal = false;
+          console.log("📱 Modal already shown today, won't show again");
         }
+      } else {
+        console.log("✅ Already read today, no streak update needed");
       }
 
-      console.log("📖 Streak updated on read:", {
+      console.log("📖 Streak updated on read result:", {
         lastReadDate,
         today,
         currentStreak,

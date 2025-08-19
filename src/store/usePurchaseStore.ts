@@ -6,6 +6,9 @@ import { purchaseService } from "../services/PurchaseService";
 import revenueCatService from "../services/revenueCat";
 import { PurchaseProduct, PurchaseStore } from "../types";
 
+// Keep a singleton unsubscribe for RevenueCat updates in module scope
+let unsubscribeRevenueCatUpdates: (() => void) | null = null;
+
 // PurchaseStore slice for managing premium features and purchases
 const usePurchaseStore = create<PurchaseStore>()(
   persist(
@@ -222,6 +225,27 @@ const usePurchaseStore = create<PurchaseStore>()(
                 error
               );
             });
+
+          // Subscribe to RevenueCat customer info updates to keep state in sync
+          try {
+            if (!unsubscribeRevenueCatUpdates) {
+              console.log("👂 Subscribing to RevenueCat customer info updates");
+              unsubscribeRevenueCatUpdates =
+                revenueCatService.addCustomerInfoUpdateListener((isPremium) => {
+                  usePurchaseStore.setState({
+                    isPremium,
+                    lastPremiumCheck: Date.now(),
+                    isCheckingPremium: false,
+                    error: null,
+                  });
+                  console.log(
+                    `🔔 Premium status updated from listener: ${isPremium}`
+                  );
+                });
+            }
+          } catch (e) {
+            console.error("❌ Failed to subscribe to RevenueCat updates:", e);
+          }
         }
       },
       partialize: (state) => ({

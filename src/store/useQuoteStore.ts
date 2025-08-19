@@ -58,7 +58,7 @@ const useQuoteStore = create<QuoteStore>()(
 
       markAsRead: (quote: LocalizedQuote) => {
         const state = get();
-        const today = new Date().toDateString();
+        const today = new Date().toISOString().split("T")[0]; // ISO format kullan
 
         // Check if we need to reset daily reads
         if (shouldResetDailyReads(state.lastReadDate)) {
@@ -69,6 +69,9 @@ const useQuoteStore = create<QuoteStore>()(
             lastReadQuotes: [quote],
           });
           console.log("Daily reads reset. Quote marked as read:", quote.id);
+
+          // Streak'i sadece yeni gün başladığında güncelle
+          get().updateStreak();
         } else {
           // Add to seen quotes if not already seen
           const newSeenQuotes = state.seenQuotes.includes(quote.id)
@@ -93,13 +96,10 @@ const useQuoteStore = create<QuoteStore>()(
             }`
           );
         }
-
-        // Update streak
-        get().updateStreak();
       },
 
       resetDailyReads: () => {
-        const today = new Date().toDateString();
+        const today = new Date().toISOString().split("T")[0]; // ISO format kullan
         set({
           dailyReads: 0,
           lastReadDate: today,
@@ -109,26 +109,40 @@ const useQuoteStore = create<QuoteStore>()(
 
       updateStreak: () => {
         const state = get();
-        const today = new Date().toDateString();
-        const yesterday = new Date(
-          Date.now() - 24 * 60 * 60 * 1000
-        ).toDateString();
+        const today = new Date().toISOString().split("T")[0]; // ISO format kullan
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = yesterday.toISOString().split("T")[0];
+
+        console.log("🔥 Updating streak:", {
+          currentStreak: state.currentStreak,
+          lastReadDate: state.lastReadDate,
+          today,
+          yesterday: yesterdayStr,
+        });
 
         if (state.lastReadDate === today) {
           // Already read today, streak continues
+          console.log(
+            "✅ Already read today, streak continues:",
+            state.currentStreak
+          );
           return;
-        } else if (state.lastReadDate === yesterday) {
+        } else if (state.lastReadDate === yesterdayStr) {
           // Read yesterday, increment streak
-          set({ currentStreak: state.currentStreak + 1 });
-          console.log(`Streak updated: ${state.currentStreak + 1}`);
-        } else if (state.lastReadDate && state.lastReadDate < yesterday) {
+          const newStreak = state.currentStreak + 1;
+          set({ currentStreak: newStreak });
+          console.log(
+            `🔥 Streak incremented: ${state.currentStreak} → ${newStreak}`
+          );
+        } else if (state.lastReadDate && state.lastReadDate < yesterdayStr) {
           // Missed a day, reset streak
           set({ currentStreak: 1 });
-          console.log("Streak reset to 1 - missed reading yesterday");
+          console.log("💔 Streak reset to 1 - missed reading yesterday");
         } else {
           // First read, start streak
           set({ currentStreak: 1 });
-          console.log("Streak started: 1");
+          console.log("🌟 Streak started: 1");
         }
       },
 

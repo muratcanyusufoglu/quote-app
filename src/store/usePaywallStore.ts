@@ -5,7 +5,7 @@ import { useShallow } from "zustand/react/shallow";
 import { PaywallStore, PaywallTriggerSource } from "../types";
 
 const ACTION_LIMIT = 15; // Her 15 aksiyonda bir paywall göster
-const SECOND_PAYWALL_INTERACTION_COUNT = 3; // İkinci paywall için gerekli interaction sayısı
+const SECOND_PAYWALL_INTERACTION_COUNT = 5; // İkinci paywall için gerekli interaction sayısı (daha uzun gecikme)
 
 // PaywallStore slice for managing paywall modal and triggers
 const usePaywallStore = create<PaywallStore>()(
@@ -141,6 +141,15 @@ const usePaywallStore = create<PaywallStore>()(
         console.log(`🔄 Progressive paywall state reset`);
       },
 
+      // Reset just the interaction count for delayed discount tracking
+      resetInteractionCountForDiscount: () => {
+        set({
+          userInteractionCount: 0,
+          hasSeenDiscountPaywall: false,
+        });
+        console.log(`🎯 Interaction count reset for delayed discount tracking`);
+      },
+
       // Getters for paywall version detection
       isFirstTimePaywall: () => {
         const { triggerSource } = get();
@@ -248,6 +257,8 @@ export const usePaywallSelectors = {
         showFirstTimePaywall: state.showFirstTimePaywall,
         trackUserInteraction: state.trackUserInteraction,
         resetProgressivePaywall: state.resetProgressivePaywall,
+        resetInteractionCountForDiscount:
+          state.resetInteractionCountForDiscount,
       }))
     ),
 };
