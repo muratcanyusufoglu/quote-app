@@ -70,7 +70,7 @@ function ThemedStatusBar() {
   );
 }
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
+// Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
@@ -179,10 +179,18 @@ export default function RootLayout() {
   }, [handleAppStateChange]);
 
   useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
+    const hideSplashScreen = async () => {
+      if (loaded && isHydrated) {
+        try {
+          await SplashScreen.hideAsync();
+        } catch (error) {
+          console.warn("Error hiding splash screen:", error);
+        }
+      }
+    };
+
+    hideSplashScreen();
+  }, [loaded, isHydrated]);
 
   useEffect(() => {
     // Deep linking configuration
@@ -238,7 +246,7 @@ export default function RootLayout() {
     isHydrated,
   ]);
 
-  if (!loaded) {
+  if (!loaded || !isHydrated) {
     return null;
   }
 

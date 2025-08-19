@@ -66,9 +66,11 @@ export function QuoteReels({
 
   // Memoized available quotes - aynı gün içinde tüm quote'lar görülebilir
   const availableQuotes = useMemo(() => {
-    console.log("🔍 Total quotes:", quotes.length);
-    console.log("👀 Seen quotes:", seenQuotes.length);
-    console.log("✅ Available quotes (all):", quotes.length);
+    if (__DEV__) {
+      console.log("🔍 Total quotes:", quotes.length);
+      console.log("👀 Seen quotes:", seenQuotes.length);
+      console.log("✅ Available quotes (all):", quotes.length);
+    }
     return quotes;
   }, [quotes, seenQuotes]);
 
@@ -76,10 +78,14 @@ export function QuoteReels({
   useEffect(() => {
     if (quotes.length === 0) {
       if (initialQuotes.length === 0) {
-        console.log("🚀 No initial quotes provided, loading...");
+        if (__DEV__) console.log("🚀 No initial quotes provided, loading...");
         loadInitialQuotes();
       } else {
-        console.log("📦 Using provided initial quotes:", initialQuotes.length);
+        if (__DEV__)
+          console.log(
+            "📦 Using provided initial quotes:",
+            initialQuotes.length
+          );
         const uniqueInitialQuotes = initialQuotes.filter(
           (quote, index, self) =>
             index === self.findIndex((q) => q.id === quote.id)
@@ -92,7 +98,11 @@ export function QuoteReels({
   // Reload quotes when category filter or initial quotes change
   useEffect(() => {
     if (initialQuotes.length > 0) {
-      console.log("📦 Initial quotes changed, updating:", initialQuotes.length);
+      if (__DEV__)
+        console.log(
+          "📦 Initial quotes changed, updating:",
+          initialQuotes.length
+        );
       const uniqueInitialQuotes = initialQuotes.filter(
         (quote, index, self) =>
           index === self.findIndex((q) => q.id === quote.id)
@@ -107,12 +117,13 @@ export function QuoteReels({
   const loadInitialQuotes = useCallback(async () => {
     try {
       setIsLoading(true);
-      console.log("🔄 QuoteReels: Loading initial quotes...");
+      if (__DEV__) console.log("🔄 QuoteReels: Loading initial quotes...");
 
       let newQuotes: LocalizedQuote[];
 
       if (categoryFilter) {
-        console.log(`📂 Loading quotes from category: ${categoryFilter}`);
+        if (__DEV__)
+          console.log(`📂 Loading quotes from category: ${categoryFilter}`);
         newQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
       } else {
         newQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
@@ -123,8 +134,10 @@ export function QuoteReels({
           index === self.findIndex((q) => q.id === quote.id)
       );
 
-      console.log("📚 QuoteReels: Loaded quotes:", uniqueQuotes.length);
-      console.log("📖 QuoteReels: First quote:", uniqueQuotes[0]);
+      if (__DEV__) {
+        console.log("📚 QuoteReels: Loaded quotes:", uniqueQuotes.length);
+        console.log("📖 QuoteReels: First quote:", uniqueQuotes[0]);
+      }
       setQuotes(uniqueQuotes);
       setCurrentPage(1);
       setHasMoreQuotes(uniqueQuotes.length === QUOTES_PER_PAGE);
@@ -144,13 +157,17 @@ export function QuoteReels({
       let moreQuotes: LocalizedQuote[];
 
       if (categoryFilter) {
-        console.log(`📂 Loading more quotes from category: ${categoryFilter}`);
+        if (__DEV__)
+          console.log(
+            `📂 Loading more quotes from category: ${categoryFilter}`
+          );
         moreQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
 
         if (moreQuotes.length === 0) {
-          console.log(
-            `🔄 No more quotes in ${categoryFilter}, cycling back to beginning`
-          );
+          if (__DEV__)
+            console.log(
+              `🔄 No more quotes in ${categoryFilter}, cycling back to beginning`
+            );
           moreQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
         }
       } else {
@@ -160,17 +177,22 @@ export function QuoteReels({
       if (moreQuotes.length > 0) {
         setQuotes((prevQuotes) => {
           if (categoryFilter) {
-            console.log(
-              "📥 Adding quotes for category (allowing duplicates):",
-              moreQuotes.length
-            );
+            if (__DEV__)
+              console.log(
+                "📥 Adding quotes for category (allowing duplicates):",
+                moreQuotes.length
+              );
             return [...prevQuotes, ...moreQuotes];
           } else {
             const existingIds = new Set(prevQuotes.map((q) => q.id));
             const newUniqueQuotes = moreQuotes.filter(
               (quote) => !existingIds.has(quote.id)
             );
-            console.log("📥 New unique quotes to add:", newUniqueQuotes.length);
+            if (__DEV__)
+              console.log(
+                "📥 New unique quotes to add:",
+                newUniqueQuotes.length
+              );
             return [...prevQuotes, ...newUniqueQuotes];
           }
         });
@@ -198,12 +220,13 @@ export function QuoteReels({
 
     try {
       setIsRefreshing(true);
-      console.log("🔄 Refreshing quotes...");
+      if (__DEV__) console.log("🔄 Refreshing quotes...");
 
       let freshQuotes: LocalizedQuote[];
 
       if (categoryFilter) {
-        console.log(`🔄 Refreshing quotes from category: ${categoryFilter}`);
+        if (__DEV__)
+          console.log(`🔄 Refreshing quotes from category: ${categoryFilter}`);
         freshQuotes = getExploreQuotes([categoryFilter], QUOTES_PER_PAGE);
       } else {
         freshQuotes = getHomeFeedQuotes(QUOTES_PER_PAGE);
@@ -214,7 +237,7 @@ export function QuoteReels({
           index === self.findIndex((q) => q.id === quote.id)
       );
 
-      console.log("🔄 Fresh quotes loaded:", uniqueQuotes.length);
+      if (__DEV__) console.log("🔄 Fresh quotes loaded:", uniqueQuotes.length);
       setQuotes(uniqueQuotes);
       setCurrentPage(1);
       setHasMoreQuotes(true);

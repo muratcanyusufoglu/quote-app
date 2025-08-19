@@ -5,6 +5,8 @@ import {
   Animated,
   Dimensions,
   Easing,
+  Image,
+  Linking,
   Modal,
   Platform,
   ScrollView,
@@ -230,212 +232,7 @@ interface PaywallModalProps {
   onPurchase?: () => void;
 }
 
-// Premium Feature Item Component
-const PremiumFeature: React.FC<{
-  feature: string;
-  theme: any;
-  index: number;
-}> = ({ feature, theme, index }) => {
-  const slideAnim = useRef(new Animated.Value(50)).current;
-  const opacityAnim = useRef(new Animated.Value(0)).current;
-
-  useEffect(() => {
-    Animated.parallel([
-      Animated.timing(slideAnim, {
-        toValue: 0,
-        duration: 600,
-        delay: index * 100,
-        easing: Easing.out(Easing.cubic),
-        useNativeDriver: true,
-      }),
-      Animated.timing(opacityAnim, {
-        toValue: 1,
-        duration: 600,
-        delay: index * 100,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  }, []);
-
-  return (
-    <Animated.View
-      style={[
-        createStyles(theme).featureItem,
-        {
-          transform: [{ translateX: slideAnim }],
-          opacity: opacityAnim,
-        },
-      ]}
-    >
-      <View style={createStyles(theme).featureIconContainer}>
-        <IconSymbol
-          name="checkmark"
-          size={16}
-          color={theme.colors.premium}
-          strokeWidth={3}
-        />
-      </View>
-      <Text style={createStyles(theme).featureText}>{feature}</Text>
-    </Animated.View>
-  );
-};
-
-// Pricing Card Component with enhanced visuals
-const PricingCard: React.FC<{
-  theme: any;
-  subscriptionPackage: SubscriptionPackage | null;
-  isDiscounted?: boolean;
-  isFirstTime?: boolean;
-}> = ({
-  theme,
-  subscriptionPackage,
-  isDiscounted = false,
-  isFirstTime = false,
-}) => {
-  const pulseAnim = useRef(new Animated.Value(1)).current;
-  const glowAnim = useRef(new Animated.Value(0)).current;
-
-  useEffect(() => {
-    // Pulse animation for pricing card
-    Animated.loop(
-      Animated.sequence([
-        Animated.timing(pulseAnim, {
-          toValue: 1.02,
-          duration: 2000,
-          easing: Easing.inOut(Easing.sin),
-          useNativeDriver: true,
-        }),
-        Animated.timing(pulseAnim, {
-          toValue: 1,
-          duration: 2000,
-          easing: Easing.inOut(Easing.sin),
-          useNativeDriver: true,
-        }),
-      ])
-    ).start();
-
-    // Glow animation
-    Animated.loop(
-      Animated.sequence([
-        Animated.timing(glowAnim, {
-          toValue: 1,
-          duration: 1500,
-          easing: Easing.inOut(Easing.sin),
-          useNativeDriver: false,
-        }),
-        Animated.timing(glowAnim, {
-          toValue: 0,
-          duration: 1500,
-          easing: Easing.inOut(Easing.sin),
-          useNativeDriver: false,
-        }),
-      ])
-    ).start();
-  }, []);
-
-  if (!subscriptionPackage) return null;
-
-  return (
-    <Animated.View
-      style={[
-        createStyles(theme).pricingCard,
-        {
-          transform: [{ scale: pulseAnim }],
-        },
-      ]}
-    >
-      <LinearGradient
-        colors={[
-          theme.colors.premium,
-          theme.colors.brandYellow,
-          theme.colors.primary,
-        ]}
-        locations={[0, 0.5, 1]}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={createStyles(theme).pricingGradient}
-      >
-        {/* Dynamic Badge Based on Paywall Type */}
-        {isDiscounted ? (
-          <Animated.View
-            style={[
-              createStyles(theme).trialBadge,
-              { backgroundColor: theme.colors.error },
-              {
-                shadowColor: theme.colors.error,
-                shadowOpacity: glowAnim,
-                shadowRadius: 12,
-                elevation: 6,
-              },
-            ]}
-          >
-            <Text
-              style={[createStyles(theme).trialBadgeText, { fontSize: 16 }]}
-            >
-              🔥 LAST CHANCE - 50% OFF
-            </Text>
-          </Animated.View>
-        ) : isFirstTime ? (
-          <Animated.View
-            style={[
-              createStyles(theme).trialBadge,
-              { backgroundColor: theme.colors.success },
-              {
-                shadowColor: theme.colors.success,
-                shadowOpacity: glowAnim,
-                shadowRadius: 10,
-                elevation: 5,
-              },
-            ]}
-          >
-            <Text style={createStyles(theme).trialBadgeText}>
-              🎉 WELCOME OFFER - {subscriptionPackage.freeTrialDays} Days FREE
-            </Text>
-          </Animated.View>
-        ) : subscriptionPackage.freeTrialDays > 0 ? (
-          <Animated.View
-            style={[
-              createStyles(theme).trialBadge,
-              {
-                shadowColor: theme.colors.premium,
-                shadowOpacity: glowAnim,
-                shadowRadius: 10,
-                elevation: 5,
-              },
-            ]}
-          >
-            <Text style={createStyles(theme).trialBadgeText}>
-              🎉 {subscriptionPackage.freeTrialDays} Days FREE
-            </Text>
-          </Animated.View>
-        ) : null}
-
-        {/* Pricing Info */}
-        <View style={createStyles(theme).pricingContent}>
-          <View style={createStyles(theme).priceRow}>
-            <Text style={createStyles(theme).originalPrice}>
-              {subscriptionPackage.originalPrice}
-            </Text>
-            <View style={createStyles(theme).discountBadge}>
-              <Text style={createStyles(theme).discountText}>
-                {subscriptionPackage.discount}
-              </Text>
-            </View>
-          </View>
-
-          <Text style={createStyles(theme).currentPrice}>
-            {subscriptionPackage.currentPrice}
-          </Text>
-
-          <Text style={createStyles(theme).priceDetails}>
-            Only {subscriptionPackage.pricePerMonth}/month •{" "}
-            {subscriptionPackage.title}
-          </Text>
-        </View>
-      </LinearGradient>
-    </Animated.View>
-  );
-};
+// Removed legacy components that are not used in the new full-screen design
 
 // Main PaywallModal Component
 export const PaywallModal: React.FC<PaywallModalProps> = ({
@@ -447,7 +244,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const triggerSource = usePaywallSelectors.triggerSource();
   const isFirstTimePaywall = usePaywallSelectors.isFirstTimePaywall();
   const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
-  const { hidePaywall } = usePaywallSelectors.actions();
+  const [shouldShowDiscounted, setShouldShowDiscounted] = useState(false);
+  const { hidePaywall, showPaywall } = usePaywallSelectors.actions();
 
   // UNIFIED: Use unified premium system
   const {
@@ -463,6 +261,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [isLoading, setIsLoading] = useState(false);
   const [subscriptionPackage, setSubscriptionPackage] =
     useState<SubscriptionPackage | null>(null);
+  const [allPackages, setAllPackages] = useState<SubscriptionPackage[]>([]);
+  const [discountPercentage, setDiscountPercentage] = useState<number>(0);
 
   // Animation refs
   const slideAnim = useRef(new Animated.Value(screenHeight)).current;
@@ -479,6 +279,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     triggerSource,
     isLoading,
     isPremium,
+    isDiscountedPaywall,
+    subscriptionPackageId: subscriptionPackage?.id,
   });
 
   // Premium kontrol - eğer kullanıcı premium ise modal'ı otomatik kapat
@@ -538,22 +340,141 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     }
   }, [isVisible]);
 
-  // Load subscription packages when modal becomes visible
+  // Check if we should show discounted paywall by default
   useEffect(() => {
-    if (isVisible && !subscriptionPackage) {
+    const checkDiscountStatus = async () => {
+      if (isVisible) {
+        const paywallService = getPaywallService();
+        const shouldShow = await paywallService.shouldShowDiscountedByDefault();
+        setShouldShowDiscounted(shouldShow);
+        console.log("🔍 Should show discounted by default:", shouldShow);
+      }
+    };
+    checkDiscountStatus();
+  }, [isVisible]);
+
+  // Load subscription packages when modal becomes visible OR triggerSource changes
+  useEffect(() => {
+    if (isVisible) {
+      console.log(
+        "🔄 Modal visible or triggerSource changed, loading packages..."
+      );
       loadSubscriptionPackages();
     }
-  }, [isVisible]);
+  }, [isVisible, triggerSource]);
+
+  // Calculate discount percentage when packages change
+  useEffect(() => {
+    if (
+      allPackages.length >= 2 &&
+      (isDiscountedPaywall || shouldShowDiscounted)
+    ) {
+      calculateDiscountPercentage();
+    }
+  }, [allPackages, isDiscountedPaywall, shouldShowDiscounted]);
+
+  const calculateDiscountPercentage = () => {
+    if (allPackages.length < 2) return;
+
+    const regularPackage = allPackages[0];
+    const discountedPackage = allPackages[1];
+
+    const regularPrice =
+      regularPackage.priceNumber ||
+      parseFloat(regularPackage.currentPrice.replace(/[^0-9.]/g, ""));
+    const discountedPrice =
+      discountedPackage.priceNumber ||
+      parseFloat(discountedPackage.currentPrice.replace(/[^0-9.]/g, ""));
+
+    if (regularPrice > discountedPrice) {
+      const discount = Math.round(
+        ((regularPrice - discountedPrice) / regularPrice) * 100
+      );
+      setDiscountPercentage(discount);
+      console.log(
+        `💰 Calculated discount: ${discount}% (${regularPrice} -> ${discountedPrice})`
+      );
+    }
+  };
 
   const loadSubscriptionPackages = async () => {
     try {
+      console.log("🚀 Starting to load subscription packages...");
       const paywallService = getPaywallService();
-      const packages = await paywallService.getSubscriptionPackages();
 
-      // For now, use the first package (annual premium)
-      if (packages.length > 0) {
-        setSubscriptionPackage(packages[0]);
+      // Deterministic selection based on triggerSource to avoid strategy races
+      const packages = await paywallService.getAllSubscriptionPackages();
+      console.log("🔄 loadSubscriptionPackages called", packages);
+
+      // 🔍 DEBUG: Detailed package information
+      if (packages && packages.length > 0) {
+        packages.forEach((pkg, index) => {
+          console.log(`📦 Package ${index}:`, {
+            id: pkg.id,
+            title: pkg.title,
+            currentPrice: pkg.currentPrice,
+            originalPrice: pkg.originalPrice,
+            pricePerMonth: pkg.pricePerMonth,
+            period: pkg.period,
+            packageType: pkg.packageType,
+            features: pkg.features?.length || 0,
+          });
+        });
+      } else {
+        console.warn("⚠️ No packages received from PaywallService");
       }
+
+      // 🔍 DEBUG: Paket seçim mantığını detaylı logla
+      console.log("🔍 PAYWALL DEBUG:", {
+        triggerSource,
+        packagesCount: packages.length,
+        packages: packages.map((p) => ({
+          id: p.id,
+          price: p.currentPrice,
+          type: p.packageType,
+          discount: p.discount,
+          title: p.title,
+        })),
+        selectedPackageIndex:
+          triggerSource === "discounted" && packages.length > 1 ? 1 : 0,
+        selectedPackage:
+          triggerSource === "discounted" && packages.length > 1
+            ? packages[1]?.id
+            : packages[0]?.id,
+      });
+
+      if (packages.length === 0) return;
+
+      if (
+        (triggerSource === "discounted" || shouldShowDiscounted) &&
+        packages.length > 1
+      ) {
+        setSubscriptionPackage(packages[1]);
+        console.log("🔍 Seçilen paket:", packages[1].currentPrice);
+        console.log("✅ İndirimli paket seçildi:", packages[1].id);
+        console.log("🔍 Seçilen paket detayları:", {
+          id: packages[1].id,
+          title: packages[1].title,
+          period: packages[1].period,
+          currentPrice: packages[1].currentPrice,
+          pricePerMonth: packages[1].pricePerMonth,
+          packageType: packages[1].packageType,
+        });
+      } else {
+        setSubscriptionPackage(packages[0]);
+        console.log("✅ İndirimsiz paket seçildi:", packages[0].id);
+        console.log("🔍 Seçilen paket detayları:", {
+          id: packages[0].id,
+          title: packages[0].title,
+          period: packages[0].period,
+          currentPrice: packages[0].currentPrice,
+          pricePerMonth: packages[0].pricePerMonth,
+          packageType: packages[0].packageType,
+        });
+      }
+
+      // Store all packages for discount calculation
+      setAllPackages(packages);
     } catch (error) {
       console.error("Failed to load subscription packages:", error);
       Alert.alert(
@@ -640,6 +561,31 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           highlight: paywall.pricing.unlimited_life,
         };
 
+      case "daily_limit":
+        return {
+          title:
+            (paywall as any).daily_limit?.title || "Daily Quote Limit Reached",
+          subtitle:
+            (paywall as any).daily_limit?.subtitle ||
+            "You've reached your daily limit of 20 quotes. Upgrade to premium for unlimited access.",
+          features: [
+            paywall.features.unlimited_daily_quotes,
+            paywall.features.access_premium_categories,
+            paywall.features.inspiring_stories,
+            paywall.features.advanced_personalization,
+            paywall.features.exclusive_motivational,
+            paywall.features.ad_free,
+            paywall.features.offline_reading,
+            paywall.features.weekly_insights,
+          ],
+          cta:
+            (paywall as any).daily_limit?.button ||
+            "Upgrade for Unlimited Quotes",
+          highlight:
+            (paywall as any).daily_limit?.highlight ||
+            "Never miss your daily inspiration",
+        };
+
       case "real_purchase":
         return {
           title: paywall.realPurchase.title,
@@ -683,7 +629,37 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const content = getContent();
 
-  const handleClose = () => {
+  const handleClose = async () => {
+    // 🔍 DEBUG: Kapatma mantığını logla
+    console.log("🔍 CLOSE DEBUG:", {
+      isDiscountedPaywall,
+      triggerSource,
+      currentPackage: subscriptionPackage?.id,
+    });
+
+    // If first offer is dismissed, just close and mark as rejected
+    // DO NOT immediately reopen discounted modal
+    if (!isDiscountedPaywall && !shouldShowDiscounted) {
+      console.log(
+        "🔄 İndirimsiz modal kapatılıyor, ilk teklif reddedildi olarak işaretleniyor..."
+      );
+      try {
+        const paywallService = getPaywallService();
+        await paywallService.markFirstOfferRejected();
+        console.log("✅ İlk teklif reddedildi olarak işaretlendi");
+
+        // Reset user interaction count for delayed discount paywall tracking
+        const { resetInteractionCountForDiscount } =
+          usePaywallSelectors.actions();
+        resetInteractionCountForDiscount();
+        console.log(
+          "🎯 Kullanıcı etkileşim sayacı sıfırlandı, indirimli paywall tracking başlatıldı"
+        );
+      } catch (error) {
+        console.warn("⚠️ İlk teklif işaretlenirken hata:", error);
+      }
+    }
+
     Animated.parallel([
       Animated.timing(slideAnim, {
         toValue: screenHeight,
@@ -910,993 +886,494 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   if (!isVisible) return null;
 
-  // Use the modern paywall design for all trigger sources
+  // Render modal paywall with top spacing
   return (
     <Modal
       visible={isVisible}
-      transparent
+      transparent={true}
       animationType="none"
       statusBarTranslucent
     >
-      <Animated.View
-        style={[
-          styles.backdrop,
-          {
-            opacity: backdropAnim,
-          },
-        ]}
-      >
-        <Animated.View
-          style={[
-            styles.modernContainer,
-            {
-              transform: [{ translateY: slideAnim }, { scale: scaleAnim }],
-              backgroundColor: theme.colors.surface,
-              shadowColor: theme.colors.premium,
-              shadowOffset: { width: 0, height: -8 },
-              shadowOpacity: 0.25,
-              shadowRadius: 24,
-              elevation: 16,
-            },
-          ]}
-        >
-          {/* Modern Header with Enhanced Gradient */}
-          <LinearGradient
-            colors={[
-              theme.colors.primary,
-              theme.colors.brandYellow,
-              theme.colors.premium,
-            ]}
-            locations={[0, 0.6, 1]}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-            style={styles.modernHeader}
-          >
-            <TouchableOpacity
-              style={[
-                styles.modernCloseButton,
-                {
-                  backgroundColor: theme.colors.whiteOverlay20,
-                  shadowColor: theme.colors.white,
-                  shadowOpacity: 0.3,
-                  shadowRadius: 8,
-                },
-              ]}
-              onPress={handleClose}
-            >
-              <IconSymbol
-                name="xmark"
-                size={18}
-                color={theme.colors.white}
-                strokeWidth={2}
-              />
-            </TouchableOpacity>
+      <View style={styles.modalBackdrop}>
+        <View style={styles.modalContainer}>
+          {/* Background Image */}
+          <Image
+            source={require("../../../assets/images/paywall.png")}
+            style={styles.backgroundImage}
+            resizeMode="cover"
+          />
 
-            <View style={styles.headerContent}>
-              {/* Premium Badge with sparkle animation */}
-              <Animated.View
-                style={{
-                  alignSelf: "center",
-                  marginBottom: 18,
-                }}
-              >
-                <LinearGradient
-                  colors={[theme.colors.white, theme.colors.whiteOverlay90]}
-                  start={{ x: 0, y: 0 }}
-                  end={{ x: 1, y: 1 }}
-                  style={{
-                    borderRadius: 20,
-                    paddingHorizontal: 20,
-                    paddingVertical: 8,
-                    shadowColor: theme.colors.white,
-                    shadowOpacity: 0.5,
-                    shadowRadius: 12,
-                    elevation: 8,
-                  }}
-                >
-                  <Text
-                    style={{
-                      color: theme.colors.primary,
-                      fontWeight: "800",
-                      fontSize: 14,
-                      letterSpacing: 1.5,
-                    }}
-                  >
-                    ✨ {paywall.modern.premium_badge} ✨
-                  </Text>
-                </LinearGradient>
-              </Animated.View>
+          {/* Dark overlay for better text readability */}
+          <View style={styles.overlay} />
 
-              <Text
-                style={[
-                  styles.modernTitle,
-                  {
-                    color: theme.colors.white,
-                    fontSize: 28,
-                    fontWeight: "800",
-                    marginBottom: 8,
-                    textShadowColor: theme.colors.blackOverlay30,
-                    textShadowOffset: { width: 0, height: 2 },
-                    textShadowRadius: 4,
-                  },
-                ]}
-              >
-                {content.title}
-              </Text>
-              <Text
-                style={[
-                  styles.modernSubtitle,
-                  {
-                    color: theme.colors.whiteOverlay90,
-                    fontSize: 17,
-                    fontWeight: "600",
-                    textShadowColor: theme.colors.blackOverlay30,
-                    textShadowOffset: { width: 0, height: 1 },
-                    textShadowRadius: 2,
-                  },
-                ]}
-              >
-                {content.subtitle}
-              </Text>
-            </View>
-          </LinearGradient>
+          {/* Close Button */}
+          <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
+            <IconSymbol
+              name="xmark"
+              size={20}
+              color="#FFFFFF"
+              strokeWidth={2}
+            />
+          </TouchableOpacity>
 
-          <ScrollView
-            style={styles.modernContent}
-            contentContainerStyle={styles.modernContentContainer}
-            showsVerticalScrollIndicator={false}
-          >
-            {/* Enhanced Pricing Section */}
-            <View
-              style={[
-                styles.pricingSection,
-                {
-                  backgroundColor: theme.colors.surface,
-                  shadowColor: theme.colors.premium,
-                  shadowOpacity: 0.15,
-                  shadowRadius: 12,
-                  borderWidth: 1,
-                  borderColor: theme.colors.brandYellow + "30",
-                },
-              ]}
-            >
-              <View style={styles.pricingHeader}>
-                <Text
-                  style={[
-                    styles.planName,
-                    { color: theme.colors.text, fontWeight: "700" },
-                  ]}
-                >
-                  {subscriptionPackage?.title || paywall.modern.plan_name}
+          {/* Content */}
+          <View style={styles.contentContainer}>
+            {/* Top Section */}
+            <View style={styles.topSection}>
+              {/* Header Section */}
+              <View style={styles.headerSection}>
+                {/* Discount Badge for Discounted Paywall */}
+                {(isDiscountedPaywall || shouldShowDiscounted) &&
+                  discountPercentage > 0 && (
+                    <View style={styles.discountBadge}>
+                      <Text style={styles.discountBadgeText}>
+                        🔥{" "}
+                        {paywall.modern.discount_percentage.replace(
+                          "{percentage}",
+                          discountPercentage.toString()
+                        )}
+                      </Text>
+                    </View>
+                  )}
+
+                {/* Title */}
+                <Text style={styles.mainTitle}>
+                  {isDiscountedPaywall || shouldShowDiscounted
+                    ? paywall.modern.discount_offer_title
+                    : paywall.modern.title}
                 </Text>
-                <LinearGradient
-                  colors={
-                    isDiscountedPaywall
-                      ? [theme.colors.error, theme.colors.error]
-                      : isFirstTimePaywall
-                      ? [theme.colors.brandYellow, theme.colors.premium]
-                      : [theme.colors.success, theme.colors.success]
-                  }
-                  style={[
-                    styles.savingsBadge,
-                    {
-                      shadowColor: isDiscountedPaywall
-                        ? theme.colors.error
-                        : isFirstTimePaywall
-                        ? theme.colors.brandYellow
-                        : theme.colors.success,
-                      shadowOpacity: 0.4,
-                      shadowRadius: 8,
-                    },
-                  ]}
-                >
-                  <Text
-                    style={[styles.savingsText, { color: theme.colors.white }]}
-                  >
-                    {isDiscountedPaywall
-                      ? "🔥 LAST CHANCE 50% OFF"
-                      : isFirstTimePaywall
-                      ? "🎉 WELCOME OFFER"
-                      : subscriptionPackage?.discount ||
-                        paywall.modern.save_badge}
-                  </Text>
-                </LinearGradient>
+
+                {/* Subtitle */}
+                <Text style={styles.mainSubtitle}>
+                  {isDiscountedPaywall || shouldShowDiscounted
+                    ? paywall.modern.discount_offer_subtitle
+                    : paywall.modern.subtitle}
+                </Text>
               </View>
 
-              <View style={styles.priceDisplay}>
-                <View style={styles.modernPriceRow}>
-                  <Text
-                    style={[
-                      styles.mainPrice,
-                      {
-                        color: theme.colors.primary,
-                        textShadowColor: theme.colors.brandYellow + "40",
-                        textShadowRadius: 4,
-                      },
-                    ]}
-                  >
-                    {subscriptionPackage?.currentPrice || "$39.99"}
+              {/* Pricing Section */}
+              <View style={styles.pricingContainer}>
+                {/* Price comparison for discounted paywall */}
+                {(isDiscountedPaywall || shouldShowDiscounted) &&
+                  allPackages.length >= 2 && (
+                    <View style={styles.priceComparison}>
+                      <Text style={styles.wasPrice}>
+                        {paywall.modern.was_price.replace(
+                          "{price}",
+                          allPackages[0].currentPrice
+                        )}
+                      </Text>
+                      <Text style={styles.nowPrice}>
+                        {paywall.modern.now_price.replace(
+                          "{price}",
+                          allPackages[1].currentPrice
+                        )}
+                      </Text>
+                    </View>
+                  )}
+
+                {/* Current Price */}
+                <View style={styles.currentPriceSection}>
+                  <Text style={styles.currentPrice}>
+                    {subscriptionPackage?.currentPrice || "..."}
                   </Text>
-                  <Text
-                    style={[
-                      styles.periodText,
-                      { color: theme.colors.textSecondary },
-                    ]}
-                  >
+                  <Text style={styles.periodText}>
                     /{subscriptionPackage?.period || "year"}
                   </Text>
                 </View>
-                <Text
-                  style={[
-                    styles.monthlyEquivalent,
-                    { color: theme.colors.premium, fontWeight: "600" },
-                  ]}
-                >
-                  {subscriptionPackage?.pricePerMonth
-                    ? `Just ${subscriptionPackage.pricePerMonth} per month`
-                    : paywall.modern.price_per_month}
-                </Text>
-                <Text
-                  style={[
-                    styles.originalPriceStrike,
-                    { color: theme.colors.textTertiary },
-                  ]}
-                >
-                  {subscriptionPackage?.originalPrice
-                    ? `Regular price: ${subscriptionPackage.originalPrice}`
-                    : paywall.modern.regular_price}
-                </Text>
-              </View>
 
-              <View
-                style={[
-                  styles.trialCallout,
-                  {
-                    borderColor: theme.colors.premium,
-                    backgroundColor: theme.colors.brandYellow + "10",
-                    shadowColor: theme.colors.premium,
-                    shadowOpacity: 0.2,
-                    shadowRadius: 8,
-                  },
-                ]}
-              >
-                <IconSymbol
-                  name="sparkles"
-                  size={16}
-                  color={theme.colors.premium}
-                />
-                <Text
-                  style={[
-                    styles.trialText,
-                    { color: theme.colors.premium, fontWeight: "700" },
-                  ]}
-                >
-                  {subscriptionPackage?.freeTrialDays
-                    ? `Start with ${subscriptionPackage.freeTrialDays} days free`
-                    : paywall.modern.trial_text}
-                </Text>
+                {/* Free Trial Highlight */}
+                <View style={styles.trialHighlight}>
+                  <Text style={styles.trialText}>
+                    {paywall.modern.free_trial_highlight}
+                  </Text>
+                </View>
               </View>
             </View>
 
-            {/* Features Section with animations */}
-            <View style={styles.modernFeaturesSection}>
-              <Text
-                style={[
-                  styles.sectionTitle,
-                  {
-                    color: theme.colors.text,
-                    textAlign: "center",
-                    fontWeight: "700",
-                  },
-                ]}
-              >
-                {paywall.modern.section_title}
+            {/* Testimonials Section */}
+            <View style={styles.testimonialsContainer}>
+              <Text style={styles.testimonialsTitle}>
+                {paywall.modern.features_title}
               </Text>
-              <View style={styles.featuresList}>
-                {(subscriptionPackage?.features || content.features).map(
-                  (feature, index) => (
-                    <PremiumFeature
-                      key={index}
-                      feature={feature}
-                      theme={theme}
-                      index={index}
-                    />
+              <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                style={styles.testimonialsScroll}
+                contentContainerStyle={styles.testimonialsScrollContent}
+                pagingEnabled={false}
+                decelerationRate="fast"
+                snapToInterval={screenWidth * 0.8 + 16}
+                snapToAlignment="start"
+              >
+                {(paywall.modern.testimonials as unknown as any[])?.map(
+                  (testimonial: any, index: number) => (
+                    <View key={index} style={styles.testimonialCard}>
+                      <View style={styles.starsContainer}>
+                        {[...Array(testimonial.rating)].map((_, i) => (
+                          <Text key={i} style={styles.star}>
+                            ★
+                          </Text>
+                        ))}
+                      </View>
+                      <Text style={styles.testimonialText}>
+                        "{testimonial.text}"
+                      </Text>
+                      <Text style={styles.testimonialAuthor}>
+                        - {testimonial.author}
+                      </Text>
+                    </View>
                   )
                 )}
-              </View>
+              </ScrollView>
             </View>
+          </View>
 
-            {/* Enhanced Social Proof Section */}
-            <View
-              style={[
-                styles.socialProofSection,
-                {
-                  backgroundColor: theme.colors.brandYellow + "08",
-                  borderWidth: 1,
-                  borderColor: theme.colors.brandYellow + "20",
-                },
-              ]}
-            >
-              <View style={styles.ratingDisplay}>
-                <Text
-                  style={[
-                    styles.ratingStars,
-                    { color: theme.colors.premium, fontSize: 24 },
-                  ]}
-                >
-                  ★★★★★
-                </Text>
-                <Text
-                  style={[
-                    styles.ratingText,
-                    {
-                      color: theme.colors.white,
-                      fontWeight: "600",
-                      fontSize: 16,
-                    },
-                  ]}
-                >
-                  {paywall.modern.rating_text}
-                </Text>
-              </View>
-
-              {content.testimonials && content.testimonials.length > 0 && (
-                <View style={styles.testimonialsContainer}>
-                  {content.testimonials.map(
-                    (testimonial: any, index: number) => (
-                      <View
-                        key={index}
-                        style={[
-                          styles.modernTestimonialCard,
-                          {
-                            borderLeftColor: theme.colors.premium,
-                            backgroundColor: theme.colors.white,
-                            shadowColor: theme.colors.premium,
-                            shadowOpacity: 0.1,
-                            shadowRadius: 8,
-                          },
-                        ]}
-                      >
-                        <Text
-                          style={[
-                            styles.modernTestimonialText,
-                            { color: theme.colors.white, fontWeight: "500" },
-                          ]}
-                        >
-                          {`"${testimonial.text}"`}
-                        </Text>
-                        <Text
-                          style={[
-                            styles.modernTestimonialAuthor,
-                            {
-                              color: theme.colors.whiteOverlay90,
-                              fontWeight: "600",
-                            },
-                          ]}
-                        >
-                          {testimonial.author}
-                        </Text>
-                      </View>
-                    )
-                  )}
-                </View>
-              )}
-            </View>
-          </ScrollView>
-
-          {/* Enhanced Bottom CTA Section */}
-          <LinearGradient
-            colors={[theme.colors.surface, theme.colors.background]}
-            style={[
-              styles.ctaSection,
-              {
-                borderTopColor: theme.colors.brandYellow + "30",
-                borderTopWidth: 2,
-              },
-            ]}
-          >
+          {/* Bottom CTA Section */}
+          <View style={styles.bottomSection}>
             <TouchableOpacity
-              style={[styles.primaryCTA, isLoading && styles.disabledButton]}
+              style={[styles.ctaButton, isLoading && styles.disabledButton]}
               onPress={handlePurchase}
               disabled={isLoading || !subscriptionPackage}
               activeOpacity={0.85}
             >
               <LinearGradient
                 colors={[
-                  theme.colors.premium,
-                  theme.colors.brandYellow,
-                  theme.colors.primary,
+                  "#D97706", // Daha koyu amber - okunabilirlik için
+                  "#B45309", // Orta koyu amber
+                  "#92400E", // En koyu amber
                 ]}
                 locations={[0, 0.5, 1]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 0 }}
-                style={[
-                  styles.ctaGradient,
-                  {
-                    shadowColor: theme.colors.premium,
-                    shadowOpacity: 0.4,
-                    shadowRadius: 16,
-                  },
-                ]}
+                style={styles.ctaGradient}
               >
-                <Text
-                  style={[
-                    styles.ctaText,
-                    {
-                      color: theme.colors.white,
-                      fontWeight: "800",
-                      textShadowColor: theme.colors.blackOverlay30,
-                      textShadowRadius: 2,
-                    },
-                  ]}
-                >
-                  {isLoading ? paywall.processing : content.cta}
-                </Text>
-                <Text
-                  style={[
-                    styles.ctaSubtext,
-                    {
-                      color: theme.colors.whiteOverlay90,
-                      fontWeight: "600",
-                    },
-                  ]}
-                >
-                  {subscriptionPackage?.freeTrialDays
-                    ? `${subscriptionPackage.freeTrialDays} days free, then ${subscriptionPackage.currentPrice}/${subscriptionPackage.period}`
-                    : paywall.pricing.trial_days}
+                <Text style={styles.ctaButtonText}>
+                  {isLoading
+                    ? paywall.processing
+                    : paywall.modern.start_trial_button}
                 </Text>
               </LinearGradient>
             </TouchableOpacity>
 
+            {/* Trust indicators */}
+
+            {/* Restore Purchase Link */}
             <TouchableOpacity
-              style={styles.restoreLink}
+              style={styles.restoreButton}
               onPress={handleRestorePurchases}
               disabled={isLoading}
             >
-              <Text
-                style={[
-                  styles.restoreLinkText,
-                  {
-                    color: theme.colors.premium,
-                    textDecorationLine: "underline",
-                    fontWeight: "600",
-                  },
-                ]}
-              >
+              <Text style={styles.restoreText}>
                 {paywall.modern.restore_purchase}
               </Text>
             </TouchableOpacity>
 
-            <View style={styles.trustSection}>
-              <Text
-                style={[
-                  styles.trustText,
-                  {
-                    color: theme.colors.whiteOverlay90,
-                    fontWeight: "500",
-                  },
-                ]}
+            {/* Legal Links */}
+            <View style={styles.legalLinks}>
+              <TouchableOpacity
+                onPress={() =>
+                  Linking.openURL("https://quotesparkapp.netlify.app/privacy")
+                }
               >
-                {paywall.modern.trust_text}
-              </Text>
+                <Text style={styles.legalText}>Privacy Policy</Text>
+              </TouchableOpacity>
+              <Text style={styles.legalSeparator}>•</Text>
+              <TouchableOpacity
+                onPress={() =>
+                  Linking.openURL(
+                    "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+                  )
+                }
+              >
+                <Text style={styles.legalText}>Terms of Use</Text>
+              </TouchableOpacity>
             </View>
-          </LinearGradient>
-        </Animated.View>
-      </Animated.View>
+          </View>
+        </View>
+      </View>
     </Modal>
   );
 };
 
 const createStyles = (theme: any) =>
   StyleSheet.create({
-    backdrop: {
+    modalBackdrop: {
       flex: 1,
-      backgroundColor: "rgba(0, 0, 0, 0.85)",
-      justifyContent: "center",
-      alignItems: "center",
+      backgroundColor: "rgba(0, 0, 0, 0.5)",
+      justifyContent: "flex-end",
+      paddingTop: 60,
     },
-    modernContainer: {
-      backgroundColor: theme.colors.background,
-      borderRadius: 28,
-      maxHeight: screenHeight * 0.92,
-      width: screenWidth * 0.95,
+    modalContainer: {
+      flex: 1,
+      backgroundColor: "#000000",
+      borderTopLeftRadius: 20,
+      borderTopRightRadius: 20,
       overflow: "hidden",
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.25,
-      shadowRadius: 24,
-      elevation: 16,
     },
-    modernHeader: {
-      paddingTop: 50,
-      paddingHorizontal: 24,
-      paddingBottom: 32,
-      borderTopLeftRadius: 28,
-      borderTopRightRadius: 28,
+    backgroundImage: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      width: "100%",
+      height: "100%",
     },
-    modernCloseButton: {
-      alignSelf: "flex-end",
-      width: 36,
-      height: 36,
-      borderRadius: 18,
-      backgroundColor: theme.colors.whiteOverlay20,
+    overlay: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: "rgba(0, 0, 0, 0.5)",
+    },
+    closeButton: {
+      position: "absolute",
+      top: 50,
+      right: 20,
+      width: 40,
+      height: 40,
+      borderRadius: 20,
+      backgroundColor: "rgba(0, 0, 0, 0.3)",
       justifyContent: "center",
       alignItems: "center",
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.2,
-      shadowRadius: 8,
-      elevation: 6,
+      zIndex: 10,
+      borderWidth: 1,
+      borderColor: "rgba(255, 255, 255, 0.2)",
     },
-    headerContent: {
+    contentContainer: {
+      flex: 1,
+      paddingTop: 110,
+      paddingHorizontal: 24,
+      justifyContent: "space-between",
+    },
+    topSection: {
+      flex: 1,
+      justifyContent: "center",
+    },
+    headerSection: {
       alignItems: "center",
+      marginBottom: 20,
     },
-    modernTitle: {
-      fontSize: 26,
+    discountBadge: {
+      backgroundColor: "#FF4444",
+      paddingHorizontal: 20,
+      paddingVertical: 8,
+      borderRadius: 20,
+      marginBottom: 16,
+    },
+    discountBadgeText: {
+      color: "#FFFFFF",
+      fontSize: 14,
       fontWeight: "700",
-      color: theme.colors.white,
+      textAlign: "center",
+    },
+    mainTitle: {
+      fontSize: 28,
+      fontWeight: "800",
+      color: "#FFFFFF",
       textAlign: "center",
       marginBottom: 8,
       lineHeight: 32,
+      textShadowColor: "rgba(0, 0, 0, 0.8)",
+      textShadowOffset: { width: 0, height: 2 },
+      textShadowRadius: 4,
     },
-    modernSubtitle: {
-      fontSize: 16,
-      color: theme.colors.whiteOverlay90,
+    mainSubtitle: {
+      fontSize: 18,
+      fontWeight: "500",
+      color: "#FFFFFF",
       textAlign: "center",
       lineHeight: 24,
+      opacity: 0.9,
+      textShadowColor: "rgba(0, 0, 0, 0.8)",
+      textShadowOffset: { width: 0, height: 1 },
+      textShadowRadius: 2,
     },
-    modernContent: {
-      flex: 1,
-    },
-    modernContentContainer: {
-      padding: 24,
-    },
-    pricingSection: {
-      backgroundColor: theme.colors.surface,
-      borderRadius: 20,
-      padding: 24,
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.1,
-      shadowRadius: 12,
-      elevation: 6,
-    },
-    pricingHeader: {
-      flexDirection: "row",
-      justifyContent: "space-between",
+    pricingContainer: {
       alignItems: "center",
       marginBottom: 20,
     },
-    planName: {
+    priceComparison: {
+      alignItems: "center",
+      marginBottom: 16,
+    },
+    wasPrice: {
+      fontSize: 16,
+      color: "#FFFFFF",
+      opacity: 0.7,
+      textDecorationLine: "line-through",
+      marginBottom: 4,
+    },
+    nowPrice: {
       fontSize: 18,
+      color: "#00FF88",
       fontWeight: "600",
-      color: theme.colors.white,
     },
-    savingsBadge: {
-      backgroundColor: theme.colors.success,
-      paddingHorizontal: 12,
-      paddingVertical: 6,
-      borderRadius: 16,
-      shadowColor: theme.colors.success,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.3,
-      shadowRadius: 4,
-      elevation: 3,
-    },
-    savingsText: {
-      fontSize: 12,
-      fontWeight: "700",
-      color: theme.colors.white,
-    },
-    priceDisplay: {
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    modernPriceRow: {
+    currentPriceSection: {
       flexDirection: "row",
       alignItems: "baseline",
-      marginBottom: 8,
+      marginBottom: 16,
     },
-    mainPrice: {
-      fontSize: 52,
+    currentPrice: {
+      fontSize: 48,
       fontWeight: "800",
-      color: theme.colors.white,
+      color: "#FFFFFF",
+      textShadowColor: "rgba(0, 0, 0, 0.8)",
+      textShadowOffset: { width: 0, height: 2 },
+      textShadowRadius: 4,
     },
     periodText: {
-      fontSize: 18,
+      fontSize: 20,
       fontWeight: "600",
-      color: theme.colors.whiteOverlay90,
-      marginLeft: 4,
+      color: "#FFFFFF",
+      marginLeft: 8,
+      opacity: 0.8,
     },
-    monthlyEquivalent: {
-      fontSize: 16,
-      color: theme.colors.whiteOverlay90,
-      marginBottom: 4,
-      fontWeight: "500",
-    },
-    originalPriceStrike: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay80,
-      textDecorationLine: "line-through",
-    },
-    trialCallout: {
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: theme.colors.background,
+    trialHighlight: {
+      backgroundColor: "rgba(255, 255, 255, 0.2)",
       paddingHorizontal: 16,
-      paddingVertical: 12,
+      paddingVertical: 8,
       borderRadius: 16,
-      borderWidth: 2,
-      borderColor: theme.colors.brandYellow,
+      borderWidth: 1,
+      borderColor: "rgba(255, 255, 255, 0.3)",
     },
     trialText: {
-      fontSize: 14,
+      color: "#FFFFFF",
+      fontSize: 16,
       fontWeight: "600",
-      color: theme.colors.brandYellow,
-      marginLeft: 8,
-    },
-    modernFeaturesSection: {
-      marginBottom: 24,
-    },
-    sectionTitle: {
-      fontSize: 20,
-      fontWeight: "700",
-      color: theme.colors.text,
-      marginBottom: 20,
       textAlign: "center",
     },
-    featuresList: {
-      gap: 16,
-    },
-    featureRow: {
-      flexDirection: "row",
-      alignItems: "flex-start",
-    },
-    featureIcon: {
-      width: 24,
-      height: 24,
-      borderRadius: 12,
-      backgroundColor: theme.colors.premium + "20",
-      justifyContent: "center",
-      alignItems: "center",
-      marginRight: 16,
-      marginTop: 2,
-      borderWidth: 2,
-      borderColor: theme.colors.premium,
-    },
-    featureItem: {
-      flexDirection: "row",
-      alignItems: "center",
-      paddingVertical: 12,
-      paddingHorizontal: 8,
-      backgroundColor: theme.colors.surface,
-      borderRadius: 12,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.05,
-      shadowRadius: 4,
-      elevation: 2,
-    },
-    featureIconContainer: {
-      width: 28,
-      height: 28,
-      borderRadius: 14,
-      backgroundColor: theme.colors.premium + "20",
-      justifyContent: "center",
-      alignItems: "center",
-      marginRight: 16,
-      borderWidth: 2,
-      borderColor: theme.colors.premium,
-    },
-    modernFeatureText: {
-      fontSize: 16,
-      color: theme.colors.text,
-      flex: 1,
-      lineHeight: 24,
-      fontWeight: "500",
-    },
-    featureText: {
-      fontSize: 16,
-      color: theme.colors.text,
-      flex: 1,
-      fontWeight: "500",
-    },
-    socialProofSection: {
-      backgroundColor: theme.colors.surface,
-      borderRadius: 20,
-      padding: 24,
-      marginBottom: 24,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.1,
-      shadowRadius: 12,
-      elevation: 6,
-    },
-    ratingDisplay: {
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    ratingStars: {
-      fontSize: 22,
-      color: theme.colors.brandYellow,
-      marginBottom: 6,
-    },
-    ratingText: {
-      fontSize: 14,
-      color: theme.colors.textSecondary,
-      fontWeight: "500",
-    },
     testimonialsContainer: {
-      gap: 16,
+      alignItems: "center",
+      flex: 0,
     },
-    modernTestimonialCard: {
-      backgroundColor: theme.colors.background,
-      padding: 18,
+    testimonialsTitle: {
+      fontSize: 18,
+      fontWeight: "700",
+      color: "#FFFFFF",
+      textAlign: "center",
+      marginBottom: 15,
+      textShadowColor: "rgba(0, 0, 0, 0.8)",
+      textShadowOffset: { width: 0, height: 1 },
+      textShadowRadius: 2,
+    },
+    testimonialsScroll: {
+      maxHeight: 140,
+    },
+    testimonialsScrollContent: {
+      paddingHorizontal: 12,
+    },
+    testimonialCard: {
+      width: screenWidth * 0.8,
+      backgroundColor: "rgba(255, 255, 255, 0.15)",
       borderRadius: 16,
-      borderLeftWidth: 4,
-      borderLeftColor: theme.colors.brandYellow,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.08,
+      padding: 16,
+      marginHorizontal: 8,
+      borderWidth: 1,
+      borderColor: "rgba(255, 255, 255, 0.2)",
+      shadowColor: "rgba(0, 0, 0, 0.3)",
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 1,
       shadowRadius: 8,
-      elevation: 4,
+      elevation: 8,
     },
-    modernTestimonialText: {
-      fontSize: 15,
-      color: theme.colors.text,
-      lineHeight: 22,
-      marginBottom: 8,
+    starsContainer: {
+      flexDirection: "row",
+      marginBottom: 12,
+      justifyContent: "center",
+    },
+    star: {
+      color: "#FFD700",
+      fontSize: 16,
+      marginHorizontal: 1,
+    },
+    testimonialText: {
+      fontSize: 14,
+      color: "#FFFFFF",
+      fontWeight: "500",
+      lineHeight: 20,
+      textAlign: "center",
+      marginBottom: 10,
       fontStyle: "italic",
     },
-    modernTestimonialAuthor: {
-      fontSize: 13,
-      color: theme.colors.textSecondary,
+    testimonialAuthor: {
+      fontSize: 14,
+      color: "#FFFFFF",
       fontWeight: "600",
+      textAlign: "center",
+      opacity: 0.8,
     },
-    ctaSection: {
-      padding: 24,
-      paddingTop: 16,
-      backgroundColor: theme.colors.surface,
-      borderTopWidth: 1,
-      borderTopColor: theme.colors.border,
+    bottomSection: {
+      paddingHorizontal: 24,
+      paddingBottom: 40,
+      paddingTop: 20,
     },
-    primaryCTA: {
-      borderRadius: 20,
+    ctaButton: {
+      borderRadius: 16,
       marginBottom: 16,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 6 },
-      shadowOpacity: 0.2,
-      shadowRadius: 16,
+      shadowColor: "#000000",
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.3,
+      shadowRadius: 8,
       elevation: 8,
+    },
+    ctaGradient: {
+      paddingVertical: 16,
+      paddingHorizontal: 24,
+      borderRadius: 16,
+      alignItems: "center",
+    },
+    ctaButtonText: {
+      fontSize: 18,
+      fontWeight: "800",
+      color: "#FFFFFF",
+      textShadowColor: "rgba(0, 0, 0, 0.3)",
+      textShadowOffset: { width: 0, height: 1 },
+      textShadowRadius: 2,
+    },
+    trustSection: {
+      alignItems: "center",
+      marginBottom: 16,
+    },
+    trustText: {
+      fontSize: 14,
+      color: "#FFFFFF",
+      textAlign: "center",
+      opacity: 0.8,
+    },
+    restoreButton: {
+      alignItems: "center",
+      paddingVertical: 8,
+      marginBottom: 16,
+    },
+    restoreText: {
+      fontSize: 16,
+      color: "#FFFFFF",
+      fontWeight: "500",
+      textDecorationLine: "underline",
+      opacity: 0.8,
+    },
+    legalLinks: {
+      flexDirection: "row",
+      justifyContent: "center",
+      alignItems: "center",
+      gap: 12,
+    },
+    legalText: {
+      fontSize: 12,
+      color: "#FFFFFF",
+      opacity: 0.6,
+      textDecorationLine: "underline",
+    },
+    legalSeparator: {
+      fontSize: 12,
+      color: "#FFFFFF",
+      opacity: 0.6,
     },
     disabledButton: {
       opacity: 0.6,
     },
-    ctaGradient: {
-      paddingVertical: 20,
-      paddingHorizontal: 24,
-      borderRadius: 20,
-      alignItems: "center",
-    },
-    ctaText: {
-      fontSize: 18,
-      fontWeight: "700",
-      color: theme.colors.white,
-      marginBottom: 4,
-    },
-    ctaSubtext: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay90,
-      fontWeight: "500",
-    },
-    restoreLink: {
-      paddingVertical: 12,
-      alignItems: "center",
-      marginBottom: 16,
-    },
-    restoreLinkText: {
-      fontSize: 14,
-      fontWeight: "500",
-      color: theme.colors.primary,
-    },
-    trustSection: {
-      alignItems: "center",
-    },
-    trustText: {
-      fontSize: 12,
-      color: theme.colors.textTertiary,
-      textAlign: "center",
-      lineHeight: 18,
-    },
-    // Existing styles for backwards compatibility
-    container: {
-      backgroundColor: theme.colors.background,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-      maxHeight: screenHeight * 0.92,
-      width: "100%",
-      overflow: "hidden",
-    },
-    headerGradient: {
-      paddingTop: 60,
-      paddingHorizontal: 24,
-      paddingBottom: 32,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-    },
-    closeButton: {
-      alignSelf: "flex-end",
-      width: 36,
-      height: 36,
-      borderRadius: 18,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      justifyContent: "center",
-      alignItems: "center",
-      marginBottom: 20,
-    },
-    premiumIconContainer: {
-      alignSelf: "center",
-      marginBottom: 20,
-    },
-    premiumIconGradient: {
-      width: 80,
-      height: 80,
-      borderRadius: 40,
-      justifyContent: "center",
-      alignItems: "center",
-    },
-    headerTitle: {
-      fontSize: 28,
-      fontWeight: "700",
-      color: theme.colors.white,
-      textAlign: "center",
-      marginBottom: 12,
-    },
-    headerSubtitle: {
-      fontSize: 16,
-      color: theme.colors.whiteOverlay90,
-      textAlign: "center",
-      lineHeight: 22,
-    },
-    contentScroll: {
-      flex: 1,
-    },
-    contentContainer: {
-      padding: 24,
-      paddingTop: 0,
-    },
-    pricingCard: {
-      marginBottom: 32,
-      borderRadius: 20,
-      overflow: "hidden",
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.2,
-      shadowRadius: 16,
-      elevation: 8,
-    },
-    pricingGradient: {
-      padding: 24,
-      alignItems: "center",
-    },
-    trialBadge: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      paddingHorizontal: 16,
-      paddingVertical: 8,
-      borderRadius: 20,
-      marginBottom: 20,
-    },
-    trialBadgeText: {
-      fontSize: 14,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    pricingContent: {
-      alignItems: "center",
-    },
-    priceRow: {
-      flexDirection: "row",
-      alignItems: "baseline",
-      marginBottom: 8,
-    },
-    originalPrice: {
-      fontSize: 18,
-      color: theme.colors.whiteOverlay70,
-      textDecorationLine: "line-through",
-      marginRight: 12,
-    },
-    discountBadge: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      paddingHorizontal: 8,
-      paddingVertical: 4,
-      borderRadius: 8,
-    },
-    discountText: {
-      fontSize: 12,
-      fontWeight: "600",
-      color: theme.colors.white,
-    },
-    currentPrice: {
-      fontSize: 36,
-      fontWeight: "700",
-      color: theme.colors.white,
-      marginBottom: 4,
-    },
-    priceDetails: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay80,
-    },
-    featuresSection: {
-      marginBottom: 32,
-    },
-    featuresTitle: {
-      fontSize: 20,
-      fontWeight: "600",
-      color: theme.colors.text,
-      marginBottom: 20,
-      textAlign: "center",
-    },
-    featuresGrid: {
-      gap: 12,
-    },
-    actionSection: {
-      marginBottom: 24,
-    },
-    primaryButton: {
-      borderRadius: 16,
-      marginBottom: 12,
-      shadowColor: theme.colors.shadowColor,
-      shadowOffset: { width: 0, height: 4 },
-      shadowOpacity: 0.2,
-      shadowRadius: 8,
-      elevation: 6,
-    },
-    buttonGradient: {
-      paddingVertical: 18,
-      paddingHorizontal: 24,
-      borderRadius: 16,
-      alignItems: "center",
-    },
-    primaryButtonText: {
-      fontSize: 18,
-      fontWeight: "700",
-      color: theme.colors.white,
-      marginBottom: 2,
-    },
-    primaryButtonSubtext: {
-      fontSize: 14,
-      color: theme.colors.whiteOverlay90,
-    },
-    restoreButton: {
-      paddingVertical: 12,
-      alignItems: "center",
-      marginBottom: 8,
-    },
-    restoreButtonText: {
-      fontSize: 14,
-      fontWeight: "500",
-      color: theme.colors.brandYellow,
-    },
-    secondaryButton: {
-      paddingVertical: 16,
-      alignItems: "center",
-    },
-    secondaryButtonText: {
-      fontSize: 16,
-      fontWeight: "500",
-      color: theme.colors.textSecondary,
-    },
-    footer: {
-      alignItems: "center",
-      paddingBottom: 20,
-    },
-    footerText: {
-      fontSize: 12,
-      color: theme.colors.textTertiary,
-      textAlign: "center",
-      lineHeight: 16,
-    },
+    // Legacy styles removed to avoid duplicates - using new full-screen design
   });
