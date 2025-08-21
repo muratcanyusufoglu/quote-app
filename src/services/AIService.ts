@@ -8,7 +8,7 @@ interface AIMessageResponse {
 
 class AIService {
   private readonly GEMINI_API_URL =
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent";
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
   private readonly API_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY;
 
   async generateMoodBasedMotivation(
@@ -23,6 +23,13 @@ class AIService {
           error: "API key not configured",
         };
       }
+
+      console.log("🧠 Gemini API'ye istek gönderiliyor...", {
+        mood: moodResponse.mood,
+        energy: moodResponse.energy,
+        affecting: moodResponse.affecting,
+        language: moodResponse.language,
+      });
 
       const prompt = this.buildPrompt(moodResponse);
 
@@ -44,10 +51,10 @@ class AIService {
               },
             ],
             generationConfig: {
-              temperature: 0.7,
+              temperature: 0.8,
               topK: 40,
               topP: 0.95,
-              maxOutputTokens: 200,
+              maxOutputTokens: 250,
             },
             safetySettings: [
               {
@@ -72,16 +79,21 @@ class AIService {
       );
 
       if (!response.ok) {
-        const errorData = await response.json();
-        console.error("❌ Gemini API error:", errorData);
+        const errorData = await response.json().catch(() => ({}));
+        console.error("❌ Gemini API error:", {
+          status: response.status,
+          statusText: response.statusText,
+          errorData,
+        });
         return {
           message: "",
           success: false,
-          error: `API Error: ${response.status}`,
+          error: `API Error: ${response.status} - ${response.statusText}`,
         };
       }
 
       const data = await response.json();
+      console.log("📱 Gemini API response:", data);
 
       if (
         !data.candidates ||
@@ -120,32 +132,33 @@ class AIService {
   private buildPrompt(moodResponse: MoodResponse): string {
     // Universal emoji mapping for all languages
     const feelingMap: { [key: string]: string } = {
-      "😄": "very good",
-      "🙂": "good", 
-      "😐": "neutral",
-      "😟": "bad",
-      "😔": "very bad",
+      "😄": "very good and happy",
+      "🙂": "good and calm",
+      "😐": "neutral and balanced",
+      "😟": "bad and worried",
+      "😔": "very bad and sad",
     };
 
     const energyMap: { [key: string]: string } = {
-      "⚡": "high energy",
-      "💪": "strong",
-      "😴": "low energy", 
-      "🔋": "charged up",
+      "⚡": "very high energy and enthusiastic",
+      "💪": "strong and motivated",
+      "😴": "low energy and tired",
+      "🔋": "charged up and ready",
     };
 
     const affectingMap: { [key: string]: string } = {
-      "😊": "happiness",
-      "😥": "sadness",
-      "😠": "stress",
-      "💡": "inspiration",
-      "🌧️": "gloom",
-      "✨": "hope",
+      "😊": "happiness and joy",
+      "😥": "sadness and stress",
+      "😠": "anger and frustration",
+      "💡": "inspiration and new ideas",
+      "🌧️": "gloom and anxiety",
+      "✨": "hope and goals",
     };
 
     const feeling = feelingMap[moodResponse.mood] || moodResponse.mood;
     const energy = energyMap[moodResponse.energy] || moodResponse.energy;
-    const affecting = affectingMap[moodResponse.affecting] || moodResponse.affecting;
+    const affecting =
+      affectingMap[moodResponse.affecting] || moodResponse.affecting;
 
     const userNamePart = moodResponse.userName
       ? `User's name is ${moodResponse.userName}.`
@@ -153,24 +166,24 @@ class AIService {
 
     // Language mapping for all supported languages
     const languageMap: { [key: string]: string } = {
-      'en': 'English',
-      'tr': 'Turkish',
-      'de': 'German',
-      'es': 'Spanish',
-      'fr': 'French',
-      'it': 'Italian',
-      'pt': 'Portuguese',
-      'nl': 'Dutch',
-      'ru': 'Russian',
-      'ja': 'Japanese',
-      'th': 'Thai',
-      'id': 'Indonesian',
-      'ms': 'Malay'
+      en: "English",
+      tr: "Turkish",
+      de: "German",
+      es: "Spanish",
+      fr: "French",
+      it: "Italian",
+      pt: "Portuguese",
+      nl: "Dutch",
+      ru: "Russian",
+      ja: "Japanese",
+      th: "Thai",
+      id: "Indonesian",
+      ms: "Malay",
     };
 
-    const targetLanguage = languageMap[moodResponse.language] || 'English';
+    const targetLanguage = languageMap[moodResponse.language] || "English";
 
-    return `You are a motivational expert. ${userNamePart} Write a personalized, short and effective motivational message based on the user's mood.
+    return `You are a motivational expert and life coach. ${userNamePart} Write a personalized, short and effective motivational message based on the user's current mood and state.
 
 IMPORTANT: Write the message in ${targetLanguage} language.
 
@@ -187,7 +200,11 @@ Please write a message that meets these criteria:
 5. Provide practical and actionable suggestions
 6. Use an empathetic and supportive tone
 7. Avoid unnecessary length, be concise and effective
-${moodResponse.userName ? `8. Naturally include the user's name (${moodResponse.userName}) in the message` : ""}
+${
+  moodResponse.userName
+    ? `8. Naturally include the user's name (${moodResponse.userName}) in the message`
+    : ""
+}
 
 Write the message directly, no headers or explanations.`;
   }
