@@ -7,6 +7,7 @@ import { AIMessageCard } from "../../components/ui/AIMessageCard";
 import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
 import { MoodSelectionModal } from "../../components/ui/MoodSelectionModal";
 
+import DebugPanel from "@/src/components/ui/DebugPanel";
 import { useAnalytics } from "../../hooks/useAnalytics";
 import { useDailyLimit } from "../../hooks/useDailyLimit";
 import { useMoodMotivation } from "../../hooks/useMoodMotivation";
@@ -404,7 +405,7 @@ export function HomeScreen() {
       safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
-      {/* {__DEV__ && (
+      {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -417,7 +418,7 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )} */}
+      )}
 
       {/* Mood Selection Modal */}
       <MoodSelectionModal

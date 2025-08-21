@@ -14,12 +14,14 @@ export interface QuotePayload {
 }
 
 const APP_GROUP_ID = "group.com.quotespark.dailyinspiration";
+
 export async function writeWidgetData(payload: QuotePayload): Promise<void> {
   if (Platform.OS !== "ios") return;
   try {
     await setItem("widgetQuote", JSON.stringify(payload), APP_GROUP_ID);
+    console.log("📝 Widget verisi App Group'a yazıldı");
   } catch (e) {
-    console.warn("Failed writing widget data:", e);
+    console.warn("❌ Widget verisi yazılamadı:", e);
   }
 }
 
@@ -27,13 +29,17 @@ export async function reloadWidget(): Promise<void> {
   if (Platform.OS !== "ios") return;
   try {
     await reloadAllTimelines();
+    console.log("🔄 Widget timeline'ları yenilendi");
   } catch (e) {
-    console.warn("Failed to reload widget timelines:", e);
+    console.warn("❌ Widget timeline'ları yenilenemedi:", e);
   }
 }
 
 export async function updateWithFavoriteOrRandom(): Promise<void> {
   if (Platform.OS !== "ios") return;
+
+  console.log("🔄 Widget güncelleniyor...");
+
   // Pull from store synchronously
   const { quotes, favoriteQuotes } = useQuoteStore.getState();
   const selectedTheme = useThemeStore.getState().selectedTheme;
@@ -41,46 +47,122 @@ export async function updateWithFavoriteOrRandom(): Promise<void> {
     useOnboardingStore.getState().userPreferences?.language ||
     getSystemLanguage();
 
+  console.log("📚 Widget için veri alınıyor:", {
+    quotesCount: quotes.length,
+    favoriteCount: favoriteQuotes.length,
+    theme: selectedTheme,
+    language: preferredLang,
+  });
+
   const pick = () => {
     let chosen = undefined as any;
+
     if (Array.isArray(favoriteQuotes) && favoriteQuotes.length > 0) {
-      const id = favoriteQuotes[0];
+      // Favoriler arasından rastgele seç
+      const randomFavoriteIndex = Math.floor(
+        Math.random() * favoriteQuotes.length
+      );
+      const favoriteId = favoriteQuotes[randomFavoriteIndex];
+      console.log(
+        "⭐ Favori quote rastgele seçiliyor:",
+        favoriteId,
+        `(${randomFavoriteIndex + 1}/${favoriteQuotes.length})`
+      );
+
       chosen = Array.isArray(quotes)
-        ? quotes.find((q: any) => q.id === id)
+        ? quotes.find((q: any) => q.id === favoriteId)
         : undefined;
     }
+
     if (!chosen && Array.isArray(quotes) && quotes.length > 0) {
-      const idx = Math.floor(Math.random() * quotes.length);
-      chosen = quotes[idx];
+      // Favori yoksa veya bulunamadıysa rastgele quote seç
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      chosen = quotes[randomIndex];
+      console.log(
+        "🎲 Rastgele quote seçiliyor:",
+        chosen?.id,
+        `(${randomIndex + 1}/${quotes.length})`
+      );
     }
+
     return chosen;
   };
 
   const q = pick();
-  if (!q) return;
+  if (!q) {
+    console.warn("⚠️ Widget için quote bulunamadı");
+    return;
+  }
 
   const theme = mapThemeToColors(selectedTheme || "uprising");
   const lang = SUPPORTED_LANGUAGES.includes(preferredLang as any)
-    ? (preferredLang as any)
+    ? preferredLang
     : "en";
-  const text =
-    (q.texts && (q.texts[lang] || q.texts.en || q.texts.tr)) ||
-    (q.text as string) ||
-    (q.content as string) ||
-    "";
-  const author =
-    (q.authors && (q.authors[lang] || q.authors.en || q.authors.tr)) ||
-    (q.author as string) ||
-    undefined;
+
+  // 13 dil için tam destek - öncelik sırası: tercih edilen > en > tr > diğerleri
+  const getLocalizedText = (
+    texts: any,
+    authors: any,
+    field: "texts" | "authors"
+  ) => {
+    if (!texts || !authors) return { text: "", author: "" };
+
+    // 1. Tercih edilen dil
+    if (texts[lang] && authors[lang]) {
+      return { text: texts[lang], author: authors[lang] };
+    }
+
+    // 2. İngilizce
+    if (texts.en && authors.en) {
+      return { text: texts.en, author: authors.en };
+    }
+
+    // 3. Türkçe
+    if (texts.tr && authors.tr) {
+      return { text: texts.tr, author: authors.tr };
+    }
+
+    // 4. Diğer diller (ilk bulunan)
+    for (const supportedLang of SUPPORTED_LANGUAGES) {
+      if (texts[supportedLang] && authors[supportedLang]) {
+        return { text: texts[supportedLang], author: authors[supportedLang] };
+      }
+    }
+
+    // 5. Fallback - eski format
+    return {
+      text: (q as any).text || (q as any).content || "Quote not found",
+      author: (q as any).author || "Unknown",
+    };
+  };
+
+  const localized = getLocalizedText(q.texts, q.authors, "texts");
+
+  console.log("🌍 Widget dil ayarları:", {
+    preferred: preferredLang,
+    selected: lang,
+    text: localized.text.substring(0, 50) + "...",
+    author: localized.author,
+  });
+
   const payload: QuotePayload = {
     id: q.id,
-    text,
-    author,
+    text: localized.text,
+    author: localized.author,
     bg: theme.bg,
     fg: theme.fg,
   };
+
+  console.log("📱 Widget payload hazırlandı:", {
+    id: payload.id,
+    textLength: payload.text.length,
+    author: payload.author,
+    theme: selectedTheme,
+  });
+
   await writeWidgetData(payload);
   await reloadWidget();
+  console.log("✅ Widget başarıyla güncellendi");
 }
 
 function mapThemeToColors(theme: string): { bg: string; fg: string } {

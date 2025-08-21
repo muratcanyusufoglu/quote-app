@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { updateWithFavoriteOrRandom } from "../../services/WidgetService";
 import {
   countryUses12HourFormat,
   getUserCountry,
@@ -35,12 +36,28 @@ export function DebugPanel({
 }: DebugPanelProps) {
   const [showRevenueCatTest, setShowRevenueCatTest] = useState(false);
   const [showPackageTest, setShowPackageTest] = useState(false);
+  const [isUpdatingWidget, setIsUpdatingWidget] = useState(false);
   const styles = createStyles(theme);
 
   // Get time format info for debugging
   const is12HourFormat = uses12HourFormat();
   const userCountry = getUserCountry();
   const countryPrefers12h = countryUses12HourFormat(userCountry);
+
+  // Widget güncelleme fonksiyonu
+  const handleWidgetUpdate = async () => {
+    if (isUpdatingWidget) return;
+
+    setIsUpdatingWidget(true);
+    try {
+      console.log("🔧 Debug: Widget manuel güncelleniyor...");
+      await updateWithFavoriteOrRandom();
+    } catch (error) {
+      console.error("❌ Debug: Widget güncellenirken hata:", error);
+    } finally {
+      setIsUpdatingWidget(false);
+    }
+  };
 
   return (
     <View
@@ -145,6 +162,21 @@ export function DebugPanel({
               style={[styles.debugButtonText, { color: theme.colors.white }]}
             >
               💰 Paywall
+            </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[
+              styles.debugButton,
+              { backgroundColor: "#8b5cf6" }, // Purple for widget
+            ]}
+            onPress={handleWidgetUpdate}
+            disabled={isUpdatingWidget}
+          >
+            <Text
+              style={[styles.debugButtonText, { color: theme.colors.white }]}
+            >
+              {isUpdatingWidget ? "⏳ Güncelleniyor..." : "📱 Widget Güncelle"}
             </Text>
           </TouchableOpacity>
 

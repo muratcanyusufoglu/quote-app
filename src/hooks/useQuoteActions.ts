@@ -18,26 +18,44 @@ export function useQuoteActions() {
       isQuoteSeen: (quoteId: string) => seenQuotes.includes(quoteId),
 
       // Toggle favorite status
-      toggleFavorite: (quoteId: string) => {
-        if (favoriteQuotes.includes(quoteId)) {
-          actions.removeFromFavorites(quoteId);
-        } else {
-          actions.addToFavorites(quoteId);
+      toggleFavorite: async (quoteId: string) => {
+        try {
+          if (favoriteQuotes.includes(quoteId)) {
+            actions.removeFromFavorites(quoteId);
+            console.log("🗑️ Favorilerden çıkarıldı:", quoteId);
+          } else {
+            actions.addToFavorites(quoteId);
+            console.log("⭐ Favorilere eklendi:", quoteId);
+          }
+          // Widget'ı güncelle ve bekle
+          await updateWithFavoriteOrRandom();
+        } catch (error) {
+          console.error("❌ Widget güncellenirken hata:", error);
         }
-        updateWithFavoriteOrRandom();
       },
 
       // Mark quote as read
       markAsRead: actions.markAsRead,
 
       // Direct actions
-      addToFavorites: (quoteId: string) => {
-        actions.addToFavorites(quoteId);
-        updateWithFavoriteOrRandom();
+      addToFavorites: async (quoteId: string) => {
+        try {
+          actions.addToFavorites(quoteId);
+          console.log("⭐ Favorilere eklendi:", quoteId);
+          await updateWithFavoriteOrRandom();
+        } catch (error) {
+          console.error("❌ Widget güncellenirken hata:", error);
+        }
       },
-      removeFromFavorites: (quoteId: string) => {
-        actions.removeFromFavorites(quoteId);
-        updateWithFavoriteOrRandom();
+
+      removeFromFavorites: async (quoteId: string) => {
+        try {
+          actions.removeFromFavorites(quoteId);
+          console.log("🗑️ Favorilerden çıkarıldı:", quoteId);
+          await updateWithFavoriteOrRandom();
+        } catch (error) {
+          console.error("❌ Widget güncellenirken hata:", error);
+        }
       },
     }),
     [favoriteQuotes, seenQuotes, actions]
