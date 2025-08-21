@@ -144,6 +144,9 @@ expo-env.d.ts
 /src/data/quotes/*.json
 !/src/data/quotes/index.ts
 /src/data/quotes.json.backup
+/src/services/AIService.ts
+/src/services/firebase.ts
+
 
 #Translations and localization data
 /src/data/translations/*.json
@@ -154,3 +157,6 @@ google-services.json
 /src/constants/config.ts
 
 functions/
+
+# Widgets build output (generated during native build)
+widgets/ios/QuoteWidget/build/

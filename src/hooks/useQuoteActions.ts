@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { updateWithFavoriteOrRandom } from "../services/WidgetService";
 import { useQuoteSelectors } from "../store/useQuoteStore";
 
 // Single responsibility: Handle quote actions (favorites, reading)
@@ -23,14 +24,21 @@ export function useQuoteActions() {
         } else {
           actions.addToFavorites(quoteId);
         }
+        updateWithFavoriteOrRandom();
       },
 
       // Mark quote as read
       markAsRead: actions.markAsRead,
 
       // Direct actions
-      addToFavorites: actions.addToFavorites,
-      removeFromFavorites: actions.removeFromFavorites,
+      addToFavorites: (quoteId: string) => {
+        actions.addToFavorites(quoteId);
+        updateWithFavoriteOrRandom();
+      },
+      removeFromFavorites: (quoteId: string) => {
+        actions.removeFromFavorites(quoteId);
+        updateWithFavoriteOrRandom();
+      },
     }),
     [favoriteQuotes, seenQuotes, actions]
   );

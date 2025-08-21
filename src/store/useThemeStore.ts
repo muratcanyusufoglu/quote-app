@@ -37,6 +37,13 @@ export const useThemeStore = create<ThemeStore>()(
       setTheme: (theme: ThemeOption) => {
         console.log(`🎨 Theme changed to: ${theme}`);
         set({ selectedTheme: theme });
+        // Notify widget about theme change
+        // Dynamically import to avoid circular deps on web
+        import("../services/WidgetService").then(
+          ({ updateWithFavoriteOrRandom }) => {
+            updateWithFavoriteOrRandom();
+          }
+        );
       },
 
       setColorScheme: (scheme: ColorScheme) => {

@@ -14,7 +14,10 @@
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",
       "entitlements": {
-        "aps-environment": "development"
+        "aps-environment": "development",
+        "com.apple.security.application-groups": [
+          "group.com.quotespark.dailyinspiration"
+        ]
       },
       "infoPlist": {
         "CFBundleURLTypes": [
@@ -98,6 +101,16 @@
           },
           "ios": {
             "googleServicesPlist": "./GoogleService-Info.plist"
+          }
+        }
+      ],
+      [
+        "@niondigital/widgets-expo-config-plugin",
+        {
+          "name": "QuoteWidget",
+          "path": "./widgets/ios/QuoteWidget",
+          "buildSettings": {
+            "GENERATE_INFOPLIST_FILE": "NO"
           }
         }
       ],

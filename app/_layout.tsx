@@ -28,6 +28,8 @@ import {
   ThemeProvider as ThemeContextProvider,
   useTheme,
 } from "../src/utils/ThemeContext";
+// Widget: update initial content once stores are ready (iOS only)
+import { updateWithFavoriteOrRandom } from "../src/services/WidgetService";
 
 // Custom dark theme based on our new harmonious color system
 const CustomDarkTheme = {
@@ -190,6 +192,12 @@ export default function RootLayout() {
     };
 
     hideSplashScreen();
+  }, [loaded, isHydrated]);
+
+  // Once stores are hydrated, push a favorite/random quote to the widget
+  useEffect(() => {
+    if (!loaded || !isHydrated) return;
+    updateWithFavoriteOrRandom();
   }, [loaded, isHydrated]);
 
   useEffect(() => {

@@ -118,62 +118,78 @@ class AIService {
   }
 
   private buildPrompt(moodResponse: MoodResponse): string {
+    // Universal emoji mapping for all languages
     const feelingMap: { [key: string]: string } = {
-      "😄": "çok iyi",
-      "🙂": "iyi",
-      "😐": "normal",
-      "😟": "kötü",
-      "😔": "çok kötü",
+      "😄": "very good",
+      "🙂": "good", 
+      "😐": "neutral",
+      "😟": "bad",
+      "😔": "very bad",
     };
 
     const energyMap: { [key: string]: string } = {
-      "⚡": "yüksek enerji",
-      "💪": "güçlü",
-      "😴": "düşük enerji",
-      "🔋": "şarj olmuş",
+      "⚡": "high energy",
+      "💪": "strong",
+      "😴": "low energy", 
+      "🔋": "charged up",
     };
 
     const affectingMap: { [key: string]: string } = {
-      "😊": "mutluluk",
-      "😥": "üzüntü",
-      "😠": "stres",
-      "💡": "ilham",
-      "🌧️": "kasvet",
-      "✨": "umut",
+      "😊": "happiness",
+      "😥": "sadness",
+      "😠": "stress",
+      "💡": "inspiration",
+      "🌧️": "gloom",
+      "✨": "hope",
     };
 
     const feeling = feelingMap[moodResponse.mood] || moodResponse.mood;
     const energy = energyMap[moodResponse.energy] || moodResponse.energy;
-    const affecting =
-      affectingMap[moodResponse.affecting] || moodResponse.affecting;
+    const affecting = affectingMap[moodResponse.affecting] || moodResponse.affecting;
 
-    // Personalize the prompt with user's name
     const userNamePart = moodResponse.userName
-      ? `Kullanıcının adı ${moodResponse.userName}.`
-      : "Kullanıcı anonim.";
+      ? `User's name is ${moodResponse.userName}.`
+      : "User is anonymous.";
 
-    return `Sen bir motivasyon uzmanısın. ${userNamePart} Kullanıcının ruh haline göre kişiselleştirilmiş, kısa ve etkili bir motivasyon mesajı yaz.
+    // Language mapping for all supported languages
+    const languageMap: { [key: string]: string } = {
+      'en': 'English',
+      'tr': 'Turkish',
+      'de': 'German',
+      'es': 'Spanish',
+      'fr': 'French',
+      'it': 'Italian',
+      'pt': 'Portuguese',
+      'nl': 'Dutch',
+      'ru': 'Russian',
+      'ja': 'Japanese',
+      'th': 'Thai',
+      'id': 'Indonesian',
+      'ms': 'Malay'
+    };
 
-Kullanıcının durumu:
-- Genel ruh hali: ${feeling}
-- Enerji seviyesi: ${energy}
-- En çok etkilendiği şey: ${affecting}
+    const targetLanguage = languageMap[moodResponse.language] || 'English';
 
-Lütfen şu kriterlere uygun bir mesaj yaz:
-1. Sadece Türkçe kullan
-2. 2-3 cümle uzunluğunda olsun
-3. Pozitif ve cesaretlendirici olsun
-4. Kullanıcının mevcut durumunu anladığını göstersin
-5. Pratik ve uygulanabilir öneriler sun
-6. Empatik ve destekleyici bir ton kullan
-7. Gereksiz uzunluktan kaçın, öz ve etkili olsun
-${
-  moodResponse.userName
-    ? `8. Kullanıcının adını (${moodResponse.userName}) doğal bir şekilde mesaja dahil et`
-    : ""
-}
+    return `You are a motivational expert. ${userNamePart} Write a personalized, short and effective motivational message based on the user's mood.
 
-Mesajı doğrudan yaz, başlık veya açıklama ekleme.`;
+IMPORTANT: Write the message in ${targetLanguage} language.
+
+User's current state:
+- General mood: ${feeling}
+- Energy level: ${energy}
+- Most affected by: ${affecting}
+
+Please write a message that meets these criteria:
+1. Use ${targetLanguage} language
+2. Keep it 2-3 sentences long
+3. Be positive and encouraging
+4. Show understanding of their current state
+5. Provide practical and actionable suggestions
+6. Use an empathetic and supportive tone
+7. Avoid unnecessary length, be concise and effective
+${moodResponse.userName ? `8. Naturally include the user's name (${moodResponse.userName}) in the message` : ""}
+
+Write the message directly, no headers or explanations.`;
   }
 
   private cleanGeneratedMessage(message: string): string {

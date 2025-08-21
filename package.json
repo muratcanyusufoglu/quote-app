@@ -13,6 +13,7 @@
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@google/generative-ai": "^0.24.1",
+    "@niondigital/widgets-expo-config-plugin": "^1.1.1",
     "@react-native-async-storage/async-storage": "2.1.2",
     "@react-native-community/slider": "^4.5.7",
     "@react-native-firebase/analytics": "^22.4.0",
@@ -36,6 +37,7 @@
     "expo-sharing": "^13.1.5",
     "expo-splash-screen": "~0.30.10",
     "expo-status-bar": "~2.2.3",
+    "expo-store-review": "~8.1.5",
     "expo-symbols": "~0.4.5",
     "expo-system-ui": "~5.0.9",
     "expo-tracking-transparency": "^5.2.4",
@@ -54,8 +56,8 @@
     "react-native-view-shot": "^4.0.3",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "zustand": "^5.0.5",
-    "expo-store-review": "~8.1.5"
+    "react-native-widgetkit": "^1.0.9",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
