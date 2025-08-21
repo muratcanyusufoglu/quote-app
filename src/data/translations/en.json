@@ -23,7 +23,9 @@
   "notifications": {
     "streak_warning": {
       "title": "Don't Break Your Streak! 🔥",
-      "body": "We miss you! Open the app to keep your daily quote streak going."
+      "body": "We miss you! Open the app to keep your daily quote streak going.",
+      "title_second": "Your Streak Awaits! ⚡",
+      "body_second": "Your daily inspiration streak is waiting! Come back and continue your journey."
     }
   },
   "streak": {
@@ -88,6 +90,21 @@
     "start_reading": "Start Reading"
   },
   "paywall": {
+    "debug": {
+      "title": "Paywall Debug",
+      "modal_visible": "Modal Visible",
+      "trigger_source": "Trigger Source",
+      "none": "None",
+      "loading_state": "Loading",
+      "platform": "Platform",
+      "subscription_package": "Package",
+      "id": "ID",
+      "title_field": "Title",
+      "current_price": "Current Price",
+      "trial_days": "Trial Days"
+    },
+    "user_testimonials": []
+    ,
     "welcome": {
       "title": "Welcome to Premium! 🎉",
       "subtitle": "Discover unlimited quote experience",
@@ -120,7 +137,24 @@
       "highlight": "⚡ Limited Time: 67% OFF - Only $39.99/year"
     },
     "modern": {
-      "premium_badge": "PREMIUM",
+      "title": "Your Unlimited Source of Inspiration",
+      "subtitle": "Get unlimited access to 10,000+ inspiring quotes",
+      "premium_badge": "⭐ PREMIUM ⭐",
+      "free_trial_highlight": "🎉 3 Days FREE",
+      "days_free": "days free",
+      "start_with": "Start with",
+      "then": "then",
+      "just": "Just",
+      "per_year": "per year",
+      "regular_price_prefix": "Regular price:",
+      "last_chance_50_off": "🔥 LAST CHANCE 50% OFF",
+      "welcome_offer": "🎉 WELCOME OFFER",
+      "features_title": "What our users say:",
+      "feature_quotes": "🎯 10,000+ Premium Quotes",
+      "feature_stories": "📚 Exclusive Stories & Lessons",
+      "feature_ai": "🧠 AI-Powered Personalization",
+      "feature_adfree": "💎 Ad-Free Experience",
+      "trust_text": "⭐ 4.9 rating • 50,000+ users trust us",
       "unlock_title": "Unlock Your Full Potential",
       "unlock_subtitle": "Get unlimited access to all premium features",
       "plan_name": "Annual Premium Plan",
@@ -128,10 +162,40 @@
       "price_per_month": "Just $3.33 per month",
       "regular_price": "Regular price: $59.99",
       "trial_text": "Start with 3 days free",
+      "year": "year",
       "section_title": "What's included:",
       "rating_text": "4.9 • 50,000+ users",
+      "start_trial_button": "Start Free",
       "restore_purchase": "Restore Purchase",
-      "trust_text": "Cancel anytime • Secure payment • 15-day guarantee"
+      "legal_benefits": "Subscription gives you unlimited quotes, premium categories, ad-free reading, offline access, and personalized recommendations.",
+      "legal_renew_note": "Auto-renewable subscription. Cancel anytime in Account Settings. Payment is charged to your Apple ID.",
+      "discount_offer_title": "Don't Miss Out!",
+      "discount_offer_subtitle": "Limited time discount - get premium for less",
+      "discount_percentage": "Save {percentage}%",
+      "was_price": "Was {price}",
+      "now_price": "Now {price}",
+      "testimonials": [
+        {
+          "text": "This app has completely transformed my daily mindset. The quotes are perfectly curated and always relevant to what I need to hear.",
+          "author": "Sarah M.",
+          "rating": 5
+        },
+        {
+          "text": "I've been using this for 6 months and it's become an essential part of my morning routine. The premium content is absolutely worth it!",
+          "author": "Michael R.",
+          "rating": 5
+        },
+        {
+          "text": "The AI personalization is incredible. It's like the app knows exactly what I need to hear each day. Best investment I've made!",
+          "author": "Emma L.",
+          "rating": 5
+        },
+        {
+          "text": "As an entrepreneur, I need daily motivation. This app delivers exactly that with quotes from the most successful people in history.",
+          "author": "David K.",
+          "rating": 5
+        }
+      ]
     },
     "features": {
       "all_categories": "Access to all categories",
@@ -298,12 +362,12 @@
     "back": "Back",
     "complete": "Complete",
     "next_step": "Next",
-    "time_early": "Early Bird",
-    "time_morning_range": "Morning",
-    "time_regular": "Work Hours",
-    "time_extended": "Extended",
-    "time_evening_range": "Evening Focus",
-    "selected_time_range": "Selected Time Range",
+    "time_early_duplicate": "Early Bird",
+    "time_morning_range_duplicate": "Morning",
+    "time_regular_duplicate": "Work Hours",
+    "time_extended_duplicate": "Extended",
+    "time_evening_range_duplicate": "Evening Focus",
+    "selected_time_range_duplicate": "Selected Time Range",
     "questions": {
       "purpose": "What is your main purpose for using the app?",
       "topics": "Which topics related quotes interest you more?",
@@ -469,6 +533,10 @@
     "minimum_categories_title": "Minimum Categories",
     "minimum_categories_message": "You must have at least one category selected.",
     "select_language": "Select Language",
-    "back": "Back"
+    "back": "Back",
+    "privacy_policy": "Privacy Policy",
+    "privacy_policy_subtitle": "View our privacy policy",
+    "terms_of_use": "Terms of Use",
+    "terms_of_use_subtitle": "Apple Standard EULA"
   }
 } 

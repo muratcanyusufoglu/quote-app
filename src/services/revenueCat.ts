@@ -1,4 +1,4 @@
-import { Alert, Platform } from "react-native";
+import { Alert, NativeModules, Platform } from "react-native";
 import Purchases, {
   CustomerInfo,
   LOG_LEVEL,
@@ -7,7 +7,7 @@ import Purchases, {
   PurchasesOffering,
   PurchasesPackage,
 } from "react-native-purchases";
-import { REVENUECAT_CONFIG } from "../constants/config";
+import { APP_CONFIG, REVENUECAT_CONFIG } from "../constants/config";
 
 export interface PurchasePackage {
   identifier: string;
@@ -50,6 +50,11 @@ class RevenueCatService {
       }
 
       console.log("🚀 Initializing RevenueCat SDK...");
+      console.log(
+        `🔑 Using API Key: ${REVENUECAT_CONFIG.API_KEY.substring(0, 10)}...`
+      );
+      console.log(`📱 Platform: ${Platform.OS}`);
+      console.log(`📦 App Version: ${APP_CONFIG.VERSION}`);
 
       // Configure RevenueCat with proper API key
       await Purchases.configure({
@@ -62,6 +67,22 @@ class RevenueCatService {
         Purchases.setLogLevel(LOG_LEVEL.DEBUG);
         console.log("📝 RevenueCat debug logging enabled");
       }
+
+      // Get device locale for better localization
+      const deviceLocale =
+        Platform.OS === "ios"
+          ? NativeModules.SettingsManager?.settings?.AppleLocale ||
+            NativeModules.SettingsManager?.settings?.AppleLanguages?.[0]
+          : NativeModules.I18nManager?.localeIdentifier;
+
+      console.log("🌍 Device locale detected:", deviceLocale);
+
+      // Set user attributes for better localization
+      await Purchases.setAttributes({
+        app_version: APP_CONFIG.VERSION,
+        platform: Platform.OS,
+        locale: deviceLocale || "en_US",
+      });
 
       this.isInitialized = true;
       console.log("✅ RevenueCat initialized successfully");
@@ -88,10 +109,24 @@ class RevenueCatService {
     try {
       await Purchases.setAttributes({
         platform: Platform.OS,
-        app_version: "1.0.0", // You can get this from app.json
+        app_version: APP_CONFIG.VERSION,
       });
     } catch (error) {
       console.error("Failed to set user attributes:", error);
+    }
+  }
+
+  /**
+   * Clear cache and refresh offerings
+   */
+  async refreshOfferings(): Promise<void> {
+    try {
+      console.log("🔄 Refreshing RevenueCat offerings...");
+      this.offerings = [];
+      await Purchases.invalidateCustomerInfoCache();
+      console.log("✅ RevenueCat cache cleared successfully");
+    } catch (error) {
+      console.error("❌ Failed to refresh offerings:", error);
     }
   }
 
@@ -100,30 +135,54 @@ class RevenueCatService {
    */
   async getOfferings(): Promise<OfferingData | null> {
     try {
+      console.log("🔍 getOfferings called");
+
       if (!this.isInitialized) {
+        console.log("🔄 RevenueCat not initialized, initializing now...");
         await this.initialize();
       }
 
+      console.log("🔄 Calling Purchases.getOfferings()...");
       const offerings = await Purchases.getOfferings();
+      console.log("📦 Raw RevenueCat offerings received:", offerings);
 
       if (!offerings.current) {
-        console.warn("No current offering found");
+        console.warn("⚠️ No current offering found in RevenueCat");
+        console.log("🔍 Available offerings:", offerings);
         return null;
       }
 
+      console.log("✅ Current offering found:", offerings.current.identifier);
+      console.log(
+        "📦 Available packages count:",
+        offerings.current.availablePackages.length
+      );
+
       const packages: PurchasePackage[] =
-        offerings.current.availablePackages.map((pkg: PurchasesPackage) => ({
-          identifier: pkg.identifier,
-          packageType: pkg.packageType,
-          product: {
-            identifier: pkg.product.identifier,
-            description: pkg.product.description,
+        offerings.current.availablePackages.map((pkg: PurchasesPackage) => {
+          console.log("🔍 Processing package:", {
+            identifier: pkg.identifier,
+            packageType: pkg.packageType,
             title: pkg.product.title,
-            price: pkg.product.price,
-            priceString: pkg.product.priceString,
+            price: pkg.product.priceString,
+            actualPrice: pkg.product.price,
             currencyCode: pkg.product.currencyCode,
-          },
-        }));
+            description: pkg.product.description,
+          });
+
+          return {
+            identifier: pkg.identifier,
+            packageType: pkg.packageType,
+            product: {
+              identifier: pkg.product.identifier,
+              description: pkg.product.description,
+              title: pkg.product.title,
+              price: pkg.product.price,
+              priceString: pkg.product.priceString,
+              currencyCode: pkg.product.currencyCode,
+            },
+          };
+        });
 
       // Find specific packages
       const lifetime = packages.find(
@@ -138,13 +197,21 @@ class RevenueCatService {
 
       this.offerings = [offerings.current];
 
-      return {
+      const result = {
         packages,
         lifetime,
         yearly,
       };
+
+      console.log("✅ Returning offerings data:", {
+        packagesCount: result.packages.length,
+        lifetime: result.lifetime?.identifier,
+        yearly: result.yearly?.identifier,
+      });
+
+      return result;
     } catch (error) {
-      console.error("Failed to get offerings:", error);
+      console.error("❌ Failed to get offerings:", error);
       return null;
     }
   }
@@ -247,6 +314,26 @@ class RevenueCatService {
   }
 
   /**
+   * Force refresh customer info by invalidating RevenueCat cache
+   */
+  async refreshCustomerInfo(): Promise<CustomerInfo | null> {
+    try {
+      if (!this.isInitialized) {
+        await this.initialize();
+      }
+
+      // Invalidate cache then fetch fresh customer info
+      // Note: invalidateCustomerInfoCache does not reject; safe to await
+      // @ts-ignore: API is available in react-native-purchases
+      await Purchases.invalidateCustomerInfoCache?.();
+      return await this.getCustomerInfo();
+    } catch (error) {
+      console.error("Failed to refresh customer info:", error);
+      return null;
+    }
+  }
+
+  /**
    * Development utilities for testing subscription status
    * ⚠️ ONLY FOR DEVELOPMENT/TESTING
    */
@@ -307,10 +394,60 @@ class RevenueCatService {
   }
 
   /**
+   * Subscribe to RevenueCat customer info updates and surface premium state
+   * Returns an unsubscribe function
+   */
+  addCustomerInfoUpdateListener(
+    onUpdate: (isPremium: boolean, customerInfo: CustomerInfo) => void
+  ): () => void {
+    // Ensure initialized; fire-and-forget
+    this.initialize().catch(() => undefined);
+
+    const listener: any = Purchases.addCustomerInfoUpdateListener(
+      (customerInfo: CustomerInfo) => {
+        try {
+          const activeSubscriptions = customerInfo.activeSubscriptions;
+          const hasActiveSubscription = activeSubscriptions.length > 0;
+
+          const latestExpirationDate = customerInfo.latestExpirationDate;
+          const hasValidExpiration = latestExpirationDate
+            ? new Date(latestExpirationDate) > new Date()
+            : false;
+
+          const allPurchasedProducts =
+            customerInfo.allPurchasedProductIdentifiers;
+          const hasLifetimePurchase = allPurchasedProducts.includes(
+            REVENUECAT_CONFIG.PRODUCT_IDS.LIFETIME
+          );
+
+          const isPremium =
+            hasActiveSubscription || hasValidExpiration || hasLifetimePurchase;
+
+          onUpdate(isPremium, customerInfo);
+        } catch (e) {
+          console.error("Failed processing customer info update:", e);
+        }
+      }
+    );
+
+    return () => {
+      try {
+        // Newer SDKs expose remove(); fall back to no-op otherwise
+        listener?.remove?.();
+      } catch {
+        // ignore
+      }
+    };
+  }
+
+  /**
    * Enhanced isPremiumUser with direct subscription checking (no entitlements required)
    */
   async isPremiumUser(): Promise<boolean> {
     try {
+      // Ensure we are not using stale cached info when explicitly verifying
+      // @ts-ignore: API is available when using recent react-native-purchases
+      await Purchases.invalidateCustomerInfoCache?.();
       // SECURITY FIX: Remove test override in production builds
       // Only allow test override in development AND debug builds
       if (__DEV__ && console.warn) {
@@ -339,16 +476,21 @@ class RevenueCatService {
         ? new Date(latestExpirationDate) > new Date()
         : false;
 
-      // METHOD 3: Check all purchased products (lifetime purchases)
+      // METHOD 3: Check lifetime purchase specifically (non-consumable)
+      // IMPORTANT: Do NOT treat any historical purchase as premium. Subscriptions
+      // appear in allPurchasedProductIdentifiers even after cancellation/expiry.
+      // Only grant permanent premium for an explicit lifetime product.
       const allPurchasedProducts = customerInfo.allPurchasedProductIdentifiers;
-      const hasAnyPurchase = allPurchasedProducts.length > 0;
+      const hasLifetimePurchase = allPurchasedProducts.includes(
+        REVENUECAT_CONFIG.PRODUCT_IDS.LIFETIME
+      );
 
       // User is premium if:
       // 1. Has active subscription OR
       // 2. Has valid expiration date OR
-      // 3. Has any purchased products (for lifetime/non-consumable)
+      // 3. Has lifetime purchase (non-consumable)
       const isPremium =
-        hasActiveSubscription || hasValidExpiration || hasAnyPurchase;
+        hasActiveSubscription || hasValidExpiration || hasLifetimePurchase;
 
       console.log("📊 RevenueCat Premium Check (Direct Subscription):", {
         hasCustomerInfo: !!customerInfo,
@@ -357,7 +499,7 @@ class RevenueCatService {
         allPurchasedProducts: allPurchasedProducts,
         hasActiveSubscription,
         hasValidExpiration,
-        hasAnyPurchase,
+        hasLifetimePurchase,
         isPremium,
       });
 
@@ -406,6 +548,52 @@ class RevenueCatService {
     } catch (error) {
       console.error("Failed to get app user ID:", error);
       return null;
+    }
+  }
+
+  /**
+   * Validate RevenueCat configuration and connection
+   */
+  async validateConfiguration(): Promise<{
+    isValid: boolean;
+    apiKey: string;
+    platform: string;
+    appVersion: string;
+    customerInfo: any;
+    error?: string;
+  }> {
+    try {
+      if (!this.isInitialized) {
+        return {
+          isValid: false,
+          apiKey: REVENUECAT_CONFIG.API_KEY.substring(0, 10) + "...",
+          platform: Platform.OS,
+          appVersion: APP_CONFIG.VERSION,
+          customerInfo: null,
+          error: "RevenueCat not initialized",
+        };
+      }
+
+      // Test customer info retrieval
+      const customerInfo = await this.getCustomerInfo();
+
+      return {
+        isValid: true,
+        apiKey: REVENUECAT_CONFIG.API_KEY.substring(0, 10) + "...",
+        platform: Platform.OS,
+        appVersion: APP_CONFIG.VERSION,
+        customerInfo: customerInfo ? "Available" : "Not available",
+        error: undefined,
+      };
+    } catch (error) {
+      return {
+        isValid: false,
+        apiKey: REVENUECAT_CONFIG.API_KEY.substring(0, 10) + "...",
+        platform: Platform.OS,
+        appVersion: APP_CONFIG.VERSION,
+        customerInfo: null,
+        error: error instanceof Error ? error.message : "Unknown error",
+      };
     }
   }
 

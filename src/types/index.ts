@@ -202,6 +202,25 @@ export interface DailyStats {
   streak: number;
 }
 
+// AI mood motivation types
+export interface MoodRequest {
+  mood: string;
+  energy: string;
+  affecting: string;
+  language: Language;
+  userName?: string;
+}
+
+export interface MoodResponse {
+  message: string;
+  timestamp: string;
+  mood: string;
+  energy: string;
+  affecting: string;
+  language: Language;
+  userName?: string;
+}
+
 export interface PurchaseProduct {
   identifier: string;
   price: string;
@@ -436,6 +455,7 @@ export type PaywallTriggerSource =
   | "premium_feature"
   | "action_limit"
   | "story_limit"
+  | "daily_limit"
   | "real_purchase"
   | "first_time"
   | "discounted"
@@ -474,6 +494,7 @@ export interface PaywallStoreActions {
   showFirstTimePaywall: () => void;
   trackUserInteraction: () => void;
   resetProgressivePaywall: () => void;
+  resetInteractionCountForDiscount: () => void;
   isFirstTimePaywall: () => boolean;
   isDiscountedPaywall: () => boolean;
 }

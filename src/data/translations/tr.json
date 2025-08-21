@@ -18,7 +18,7 @@
     "primary": "Birincil",
     "secondary": "İkincil",
     "skip": "Geç",
-    "back":"Geri"
+    "back": "Geri"
   },
   "notifications": {
     "streak_warning": {
@@ -90,6 +90,20 @@
     "start_reading": "Okumaya Başla"
   },
   "paywall": {
+    "debug": {
+      "title": "Paywall Hata Ayıklama",
+      "modal_visible": "Modal Görünür",
+      "trigger_source": "Tetikleyici Kaynağı",
+      "none": "Yok",
+      "loading_state": "Yükleniyor",
+      "platform": "Platform",
+      "subscription_package": "Paket",
+      "id": "ID",
+      "title_field": "Başlık",
+      "current_price": "Güncel Fiyat",
+      "trial_days": "Deneme Günleri"
+    },
+    "testimonials": [],
     "welcome": {
       "title": "Premium'a Hoş Geldiniz! 🎉",
       "subtitle": "Sınırsız quote deneyimini keşfedin",
@@ -110,6 +124,12 @@
       "subtitle": "Daha fazla özellik ve sınırsız erişim için",
       "button": "Premium'a Başla"
     },
+    "daily_limit": {
+      "title": "Günlük Alıntı Limiti Doldu 📚",
+      "subtitle": "Bugün 20 alıntı görüntüledin. Sınırsız günlük ilham için premium'a geç!",
+      "button": "Sınırsız Alıntı İçin Yükselt",
+      "highlight": "Günlük ilhamını asla kaçırma"
+    },
     "default": {
       "title": "Premium Özellikler 🚀",
       "subtitle": "En iyi quote deneyimini yaşayın",
@@ -122,7 +142,24 @@
       "highlight": "⚡ Sınırlı Süre: %67 İndirim - Sadece ₺399.99/yıl"
     },
     "modern": {
-      "premium_badge": "PREMIUM",
+      "title": "Sınırsız İlham Kaynağınız",
+      "subtitle": "10,000+ ilham verici alıntıya sınırsız erişim kazanın",
+      "premium_badge": "⭐ PREMIUM ⭐",
+      "free_trial_highlight": "🎉 3 Gün ÜCRETSİZ",
+      "days_free": "gün ücretsiz",
+      "start_with": "Şununla başlayın",
+      "then": "sonra",
+      "just": "Sadece",
+      "per_year": "yıllık",
+      "regular_price_prefix": "Normal fiyat:",
+      "last_chance_50_off": "🔥 SON ŞANS %50 İNDİRİM",
+      "welcome_offer": "🎉 HOŞ GELDİN TEKLİFİ",
+      "features_title": "Kullanıcılarımız ne diyor:",
+      "feature_quotes": "🎯 10,000+ Premium Alıntı",
+      "feature_stories": "📚 Özel Hikayeler ve Dersler",
+      "feature_ai": "🧠 AI Destekli Kişiselleştirme",
+      "feature_adfree": "💎 Reklamsız Deneyim",
+      "trust_text": "⭐ 4.9 puan • 50,000+ kullanıcı bize güveniyor",
       "unlock_title": "Tam Potansiyelinizi Açın",
       "unlock_subtitle": "Tüm premium özelliklere sınırsız erişim elde edin",
       "plan_name": "Yıllık Premium Plan",
@@ -130,10 +167,40 @@
       "price_per_month": "Sadece ayda ₺33.33",
       "regular_price": "Normal fiyat: ₺599.99",
       "trial_text": "3 gün ücretsiz başlayın",
+      "year": "yıl",
       "section_title": "Neler dahil:",
       "rating_text": "4.9 • 50.000+ kullanıcı",
+      "start_trial_button": "Ücretsiz Başla",
       "restore_purchase": "Satın Alımı Geri Yükle",
-      "trust_text": "İstediğiniz zaman iptal edin • Güvenli ödeme • 15 gün garantisi"
+      "legal_benefits": "Abonelik; sınırsız alıntı, premium kategoriler, reklamsız okuma, çevrimdışı erişim ve kişiselleştirilmiş öneriler sunar.",
+      "legal_renew_note": "Otomatik yenilenen abonelik. Hesap Ayarları'ndan istediğiniz zaman iptal edebilirsiniz. Ödeme Apple Kimliğinize yansıtılır.",
+      "discount_offer_title": "Kaçırmayın!",
+      "discount_offer_subtitle": "Sınırlı süreli indirim - premium'u daha uygun fiyata alın",
+      "discount_percentage": "%{percentage} Tasarruf",
+      "was_price": "Önceki fiyat {price}",
+      "now_price": "Şimdi {price}",
+      "testimonials": [
+        {
+          "text": "Bu uygulama günlük zihniyetimi tamamen değiştirdi. Alıntılar mükemmel şekilde seçilmiş ve her zaman ihtiyacım olana uygun.",
+          "author": "Ayşe M.",
+          "rating": 5
+        },
+        {
+          "text": "6 aydır kullanıyorum ve sabah rutinimin vazgeçilmez parçası oldu. Premium içerik kesinlikle buna değer!",
+          "author": "Mehmet R.",
+          "rating": 5
+        },
+        {
+          "text": "AI kişiselleştirmesi inanılmaz. Sanki uygulama her gün tam olarak neye ihtiyacım olduğunu biliyor. Yaptığım en iyi yatırım!",
+          "author": "Elif L.",
+          "rating": 5
+        },
+        {
+          "text": "Girişimci olarak günlük motivasyona ihtiyacım var. Bu uygulama tarihte en başarılı insanlardan alıntılarla tam da bunu sağlıyor.",
+          "author": "Kemal K.",
+          "rating": 5
+        }
+      ]
     },
     "features": {
       "all_categories": "Tüm kategorilere erişim",
@@ -464,6 +531,10 @@
     "minimum_categories_title": "Minimum Kategori",
     "minimum_categories_message": "En az bir kategori seçili olmalıdır.",
     "select_language": "Dil Seçin",
-    "back": "Geri"
+    "back": "Geri",
+    "privacy_policy": "Gizlilik Politikası",
+    "privacy_policy_subtitle": "Gizlilik politikamızı görüntüleyin",
+    "terms_of_use": "Kullanım Şartları",
+    "terms_of_use_subtitle": "Apple Standart EULA"
   }
 } 

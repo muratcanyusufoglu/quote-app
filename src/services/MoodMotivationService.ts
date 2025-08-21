@@ -1,6 +1,5 @@
-import { httpsCallable } from "firebase/functions";
 import { Language } from "../types";
-import { functions } from "./firebase";
+import { aiService } from "./AIService";
 
 export interface MoodRequest {
   mood: string;
@@ -21,23 +20,31 @@ export interface MoodResponse {
 }
 
 class MoodMotivationService {
-  private generateMoodMotivation = httpsCallable<MoodRequest, MoodResponse>(
-    functions,
-    "generateMoodMotivation"
-  );
-
   async generateMotivation(request: MoodRequest): Promise<string> {
     try {
       console.log("🧠 Generating mood-based motivation...", request);
 
-      const result = await this.generateMoodMotivation(request);
-      const response = result.data;
+      // Create MoodResponse object for AI service
+      const moodResponse: MoodResponse = {
+        message: "",
+        timestamp: new Date().toISOString(),
+        ...request,
+      };
 
-      console.log(
-        "✅ Generated motivation:",
-        response.message.substring(0, 100) + "..."
+      const aiResponse = await aiService.generateMoodBasedMotivation(
+        moodResponse
       );
-      return response.message;
+
+      if (aiResponse.success && aiResponse.message) {
+        console.log(
+          "✅ Generated motivation:",
+          aiResponse.message.substring(0, 100) + "..."
+        );
+        return aiResponse.message;
+      } else {
+        console.error("❌ AI service failed:", aiResponse.error);
+        throw new Error(aiResponse.error || "AI service failed");
+      }
     } catch (error) {
       console.error("❌ Failed to generate motivation:", error);
 

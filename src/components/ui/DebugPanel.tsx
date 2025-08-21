@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import {
   countryUses12HourFormat,
   getUserCountry,
   uses12HourFormat,
 } from "../../utils/language";
+import RevenueCatPackageTest from "../test/RevenueCatPackageTest";
+import RevenueCatTestComponent from "../test/RevenueCatTestComponent";
 
 interface DebugPanelProps {
   isPremium: boolean;
@@ -31,6 +33,8 @@ export function DebugPanel({
   showStreakBreak,
   handleShowPaywall,
 }: DebugPanelProps) {
+  const [showRevenueCatTest, setShowRevenueCatTest] = useState(false);
+  const [showPackageTest, setShowPackageTest] = useState(false);
   const styles = createStyles(theme);
 
   // Get time format info for debugging
@@ -143,8 +147,75 @@ export function DebugPanel({
               💰 Paywall
             </Text>
           </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[
+              styles.debugButton,
+              { backgroundColor: theme.colors.success || "#22c55e" },
+            ]}
+            onPress={() => setShowPackageTest(!showPackageTest)}
+          >
+            <Text
+              style={[styles.debugButtonText, { color: theme.colors.white }]}
+            >
+              📦 Test Packages
+            </Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[
+              styles.debugButton,
+              { backgroundColor: theme.colors.warning || "#f59e0b" },
+            ]}
+            onPress={() => setShowRevenueCatTest(!showRevenueCatTest)}
+          >
+            <Text
+              style={[styles.debugButtonText, { color: theme.colors.white }]}
+            >
+              🔧 RevenueCat Test
+            </Text>
+          </TouchableOpacity>
         </View>
       </View>
+
+      {/* RevenueCat Test Components - Full Screen Modals */}
+      {showPackageTest && (
+        <View style={styles.testModal}>
+          <RevenueCatPackageTest />
+          <TouchableOpacity
+            style={[
+              styles.closeButton,
+              { backgroundColor: theme.colors.error },
+            ]}
+            onPress={() => setShowPackageTest(false)}
+          >
+            <Text
+              style={[styles.debugButtonText, { color: theme.colors.white }]}
+            >
+              ✕ Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      )}
+
+      {showRevenueCatTest && (
+        <View style={styles.testModal}>
+          <RevenueCatTestComponent />
+          <TouchableOpacity
+            style={[
+              styles.closeButton,
+              { backgroundColor: theme.colors.error },
+            ]}
+            onPress={() => setShowRevenueCatTest(false)}
+          >
+            <Text
+              style={[styles.debugButtonText, { color: theme.colors.white }]}
+            >
+              ✕ Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }
@@ -208,6 +279,25 @@ const createStyles = (theme: any) =>
     debugButtonText: {
       fontSize: 14,
       fontWeight: "600",
+    },
+    testModal: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: theme.colors.background || "#fff",
+      zIndex: 2000,
+      padding: 16,
+    },
+    closeButton: {
+      position: "absolute",
+      top: 50,
+      right: 20,
+      paddingVertical: 8,
+      paddingHorizontal: 16,
+      borderRadius: 8,
+      zIndex: 2001,
     },
   });
 
