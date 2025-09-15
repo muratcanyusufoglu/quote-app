@@ -66,22 +66,24 @@ export function AIMessageCard({
     container: {
       position: "absolute",
       top: "50%",
-      left: 20,
-      right: 20,
-      transform: [{ translateY: -150 }],
+      left: 25, // Quote card'larla aynı margin
+      right: 25, // Quote card'larla aynı margin
+      transform: [{ translateY: -180 }],
       zIndex: 1000,
     },
     card: {
       borderRadius: 20,
       overflow: "hidden",
-      shadowColor: "#000",
+      shadowColor: theme.colors.shadowColor,
       shadowOffset: {
         width: 0,
         height: 8,
       },
-      shadowOpacity: 0.3,
+      shadowOpacity: 0.25,
       shadowRadius: 16,
       elevation: 10,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
     },
     gradient: {
       padding: 24,
@@ -89,48 +91,65 @@ export function AIMessageCard({
     header: {
       flexDirection: "row",
       alignItems: "center",
-      marginBottom: 16,
+      marginBottom: 20,
     },
     aiIcon: {
-      width: 32,
-      height: 32,
-      borderRadius: 16,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      backgroundColor: theme.colors.whiteOverlay25,
       justifyContent: "center",
       alignItems: "center",
       marginRight: 12,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
+      overflow: "hidden",
+    },
+    aiIconGradient: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      borderRadius: 18,
+      opacity: 0.9,
     },
     title: {
-      fontSize: 18,
-      fontWeight: "bold",
-      color: "#fff",
+      fontSize: 22,
+      fontWeight: "800",
+      color: theme.colors.white,
       flex: 1,
+      letterSpacing: 0.2,
     },
     closeButton: {
       width: 32,
       height: 32,
       borderRadius: 16,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      backgroundColor: theme.colors.whiteOverlay20,
       justifyContent: "center",
       alignItems: "center",
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
     },
     messageContainer: {
-      marginBottom: 20,
+      marginBottom: 24,
+      paddingHorizontal: 4,
     },
     message: {
       fontSize: 16,
       lineHeight: 24,
-      color: "#fff",
-      textAlign: "center",
+      color: theme.colors.white,
+      textAlign: "left",
       fontWeight: "500",
     },
     loadingContainer: {
       alignItems: "center",
-      marginBottom: 20,
+      marginBottom: 24,
+      paddingHorizontal: 4,
     },
     loadingText: {
       fontSize: 16,
-      color: "#fff",
+      color: theme.colors.white,
       marginTop: 12,
       textAlign: "center",
     },
@@ -144,21 +163,28 @@ export function AIMessageCard({
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "center",
-      paddingVertical: 12,
+      paddingVertical: 14,
       paddingHorizontal: 16,
       borderRadius: 12,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      backgroundColor: theme.colors.whiteOverlay20,
       borderWidth: 1,
-      borderColor: "rgba(255, 255, 255, 0.3)",
+      borderColor: theme.colors.whiteOverlay20,
     },
     actionButtonText: {
       fontSize: 14,
       fontWeight: "600",
-      color: "#fff",
+      color: theme.colors.white,
       marginLeft: 8,
     },
+    primaryActionButton: {
+      backgroundColor: theme.colors.brandYellow,
+      borderColor: theme.colors.brandYellow,
+    },
+    primaryActionText: {
+      color: theme.colors.textSoft, // better contrast on yellow
+    },
     tryDifferentButton: {
-      backgroundColor: "rgba(255, 255, 255, 0.15)",
+      backgroundColor: theme.colors.whiteOverlay10,
     },
   });
 
@@ -166,18 +192,42 @@ export function AIMessageCard({
     <View style={styles.container}>
       <View style={styles.card}>
         <LinearGradient
-          colors={["#6366f1", "#8b5cf6", "#ec4899"]}
+          colors={[
+            theme.colors.gradientColors[0],
+            theme.colors.gradientColors[1],
+            theme.colors.gradientColors[2],
+            theme.colors.gradientColors[3],
+          ]}
+          locations={
+            theme.colors.gradientLocations as [number, number, number, number]
+          }
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           style={styles.gradient}
         >
           <View style={styles.header}>
             <View style={styles.aiIcon}>
-              <Text style={{ fontSize: 16 }}>🧠</Text>
+              <LinearGradient
+                colors={[theme.colors.accent, theme.colors.brandYellow]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={styles.aiIconGradient}
+              />
+              <IconSymbol
+                name="brain"
+                size={18}
+                color={theme.colors.white}
+                strokeWidth={2}
+              />
             </View>
             <Text style={styles.title}>{t("mood_motivation.title")}</Text>
             <TouchableOpacity style={styles.closeButton} onPress={onClose}>
-              <IconSymbol name="xmark" size={16} color="#fff" strokeWidth={2} />
+              <IconSymbol
+                name="xmark"
+                size={16}
+                color={theme.colors.white}
+                strokeWidth={2}
+              />
             </TouchableOpacity>
           </View>
 
@@ -196,32 +246,34 @@ export function AIMessageCard({
           {!isLoading && (
             <View style={styles.actionsContainer}>
               <TouchableOpacity
-                style={styles.actionButton}
-                onPress={handleShare}
-              >
-                <IconSymbol
-                  name="square.and.arrow.up"
-                  size={16}
-                  color="#fff"
-                  strokeWidth={2}
-                />
-                <Text style={styles.actionButtonText}>
-                  {t("mood_motivation.share")}
-                </Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity
                 style={[styles.actionButton, styles.tryDifferentButton]}
                 onPress={handleTryDifferent}
               >
                 <IconSymbol
                   name="refresh-cw"
                   size={16}
-                  color="#fff"
+                  color={theme.colors.white}
                   strokeWidth={2}
                 />
                 <Text style={styles.actionButtonText}>
                   {t("mood_motivation.try_different")}
+                </Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[styles.actionButton, styles.primaryActionButton]}
+                onPress={handleShare}
+              >
+                <IconSymbol
+                  name="square.and.arrow.up"
+                  size={16}
+                  color={theme.colors.textSoft}
+                  strokeWidth={2}
+                />
+                <Text
+                  style={[styles.actionButtonText, styles.primaryActionText]}
+                >
+                  {t("mood_motivation.share")}
                 </Text>
               </TouchableOpacity>
             </View>

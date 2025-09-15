@@ -445,12 +445,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
       if (packages.length === 0) return;
 
-      if (
+      // İndirimli paywall koşulunu kontrol et
+      const shouldSelectDiscountedPackage =
         (triggerSource === "discounted" || shouldShowDiscounted) &&
-        packages.length > 1
-      ) {
+        packages.length > 1;
+
+      if (shouldSelectDiscountedPackage) {
         setSubscriptionPackage(packages[1]);
-        console.log("🔍 Seçilen paket:", packages[1].currentPrice);
+        console.log(
+          "🔍 İNDİRİMLİ PAYWALL - Seçilen paket:",
+          packages[1].currentPrice
+        );
         console.log("✅ İndirimli paket seçildi:", packages[1].id);
         console.log("🔍 Seçilen paket detayları:", {
           id: packages[1].id,
@@ -459,9 +464,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           currentPrice: packages[1].currentPrice,
           pricePerMonth: packages[1].pricePerMonth,
           packageType: packages[1].packageType,
+          discount: packages[1].discount,
         });
       } else {
         setSubscriptionPackage(packages[0]);
+        console.log(
+          "🔍 NORMAL PAYWALL - Seçilen paket:",
+          packages[0].currentPrice
+        );
         console.log("✅ İndirimsiz paket seçildi:", packages[0].id);
         console.log("🔍 Seçilen paket detayları:", {
           id: packages[0].id,
@@ -470,6 +480,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           currentPrice: packages[0].currentPrice,
           pricePerMonth: packages[0].pricePerMonth,
           packageType: packages[0].packageType,
+          discount: packages[0].discount,
         });
       }
 
@@ -483,6 +494,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       );
     }
   };
+
+  // Responsive design için ekran boyutuna göre değerler
+  const isSmallScreen = screenHeight < 700;
+  const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
 
   const styles = createStyles(theme);
 
@@ -975,11 +990,27 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 {/* Current Price */}
                 <View style={styles.currentPriceSection}>
                   <Text style={styles.currentPrice}>
-                    {subscriptionPackage?.currentPrice || "..."}
+                    {(() => {
+                      // İndirimli paywall'da her zaman indirimli fiyatı (packages[1]) göster
+                      if (
+                        (isDiscountedPaywall || shouldShowDiscounted) &&
+                        allPackages.length >= 2
+                      ) {
+                        console.log(
+                          "🔍 İndirimli paywall ana fiyat:",
+                          allPackages[1].currentPrice
+                        );
+                        return allPackages[1].currentPrice;
+                      }
+                      // Normal paywall'da seçili paketi göster
+                      console.log(
+                        "🔍 Normal paywall ana fiyat:",
+                        subscriptionPackage?.currentPrice || "..."
+                      );
+                      return subscriptionPackage?.currentPrice || "...";
+                    })()}
                   </Text>
-                  <Text style={styles.periodText}>
-                    /{subscriptionPackage?.period || "year"}
-                  </Text>
+                  <Text style={styles.periodText}>/year</Text>
                 </View>
 
                 {/* Free Trial Highlight */}
@@ -1003,7 +1034,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 contentContainerStyle={styles.testimonialsScrollContent}
                 pagingEnabled={false}
                 decelerationRate="fast"
-                snapToInterval={screenWidth * 0.8 + 16}
+                snapToInterval={
+                  isSmallScreen
+                    ? screenWidth * 0.75 + 16
+                    : screenWidth * 0.7 + 20
+                }
                 snapToAlignment="start"
               >
                 {(paywall.modern.testimonials as unknown as any[])?.map(
@@ -1096,13 +1131,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   );
 };
 
-const createStyles = (theme: any) =>
-  StyleSheet.create({
+const createStyles = (theme: any) => {
+  // Responsive design için ekran boyutuna göre değerler
+  const isSmallScreen = screenHeight < 700;
+  const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
+
+  return StyleSheet.create({
     modalBackdrop: {
       flex: 1,
       backgroundColor: "rgba(0, 0, 0, 0.5)",
       justifyContent: "flex-end",
-      paddingTop: 60,
+      paddingTop: isSmallScreen ? 40 : 60,
     },
     modalContainer: {
       flex: 1,
@@ -1130,7 +1169,7 @@ const createStyles = (theme: any) =>
     },
     closeButton: {
       position: "absolute",
-      top: 50,
+      top: isSmallScreen ? 40 : 50,
       right: 20,
       width: 40,
       height: 40,
@@ -1144,8 +1183,8 @@ const createStyles = (theme: any) =>
     },
     contentContainer: {
       flex: 1,
-      paddingTop: 110,
-      paddingHorizontal: 24,
+      paddingTop: isSmallScreen ? 80 : isMediumScreen ? 100 : 110,
+      paddingHorizontal: isSmallScreen ? 16 : 24,
       justifyContent: "space-between",
     },
     topSection: {
@@ -1154,38 +1193,38 @@ const createStyles = (theme: any) =>
     },
     headerSection: {
       alignItems: "center",
-      marginBottom: 20,
+      marginBottom: isSmallScreen ? 16 : 20,
     },
     discountBadge: {
       backgroundColor: "#FF4444",
-      paddingHorizontal: 20,
-      paddingVertical: 8,
+      paddingHorizontal: isSmallScreen ? 16 : 20,
+      paddingVertical: isSmallScreen ? 6 : 8,
       borderRadius: 20,
-      marginBottom: 16,
+      marginBottom: isSmallScreen ? 12 : 16,
     },
     discountBadgeText: {
       color: "#FFFFFF",
-      fontSize: 14,
+      fontSize: isSmallScreen ? 12 : 14,
       fontWeight: "700",
       textAlign: "center",
     },
     mainTitle: {
-      fontSize: 28,
+      fontSize: isSmallScreen ? 22 : isMediumScreen ? 25 : 28,
       fontWeight: "800",
       color: "#FFFFFF",
       textAlign: "center",
-      marginBottom: 8,
-      lineHeight: 32,
+      marginBottom: isSmallScreen ? 6 : 8,
+      lineHeight: isSmallScreen ? 26 : isMediumScreen ? 29 : 32,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
       textShadowOffset: { width: 0, height: 2 },
       textShadowRadius: 4,
     },
     mainSubtitle: {
-      fontSize: 18,
+      fontSize: isSmallScreen ? 14 : isMediumScreen ? 16 : 18,
       fontWeight: "500",
       color: "#FFFFFF",
       textAlign: "center",
-      lineHeight: 24,
+      lineHeight: isSmallScreen ? 18 : isMediumScreen ? 20 : 24,
       opacity: 0.9,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
       textShadowOffset: { width: 0, height: 1 },
@@ -1193,31 +1232,31 @@ const createStyles = (theme: any) =>
     },
     pricingContainer: {
       alignItems: "center",
-      marginBottom: 20,
+      marginBottom: isSmallScreen ? 16 : 20,
     },
     priceComparison: {
       alignItems: "center",
-      marginBottom: 16,
+      marginBottom: isSmallScreen ? 12 : 16,
     },
     wasPrice: {
-      fontSize: 16,
+      fontSize: isSmallScreen ? 14 : 16,
       color: "#FFFFFF",
       opacity: 0.7,
       textDecorationLine: "line-through",
       marginBottom: 4,
     },
     nowPrice: {
-      fontSize: 18,
+      fontSize: isSmallScreen ? 16 : 18,
       color: "#00FF88",
       fontWeight: "600",
     },
     currentPriceSection: {
       flexDirection: "row",
       alignItems: "baseline",
-      marginBottom: 16,
+      marginBottom: isSmallScreen ? 12 : 16,
     },
     currentPrice: {
-      fontSize: 48,
+      fontSize: isSmallScreen ? 36 : isMediumScreen ? 42 : 48,
       fontWeight: "800",
       color: "#FFFFFF",
       textShadowColor: "rgba(0, 0, 0, 0.8)",
@@ -1225,7 +1264,7 @@ const createStyles = (theme: any) =>
       textShadowRadius: 4,
     },
     periodText: {
-      fontSize: 20,
+      fontSize: isSmallScreen ? 16 : isMediumScreen ? 18 : 20,
       fontWeight: "600",
       color: "#FFFFFF",
       marginLeft: 8,
@@ -1233,15 +1272,15 @@ const createStyles = (theme: any) =>
     },
     trialHighlight: {
       backgroundColor: "rgba(255, 255, 255, 0.2)",
-      paddingHorizontal: 16,
-      paddingVertical: 8,
+      paddingHorizontal: isSmallScreen ? 12 : 16,
+      paddingVertical: isSmallScreen ? 6 : 8,
       borderRadius: 16,
       borderWidth: 1,
       borderColor: "rgba(255, 255, 255, 0.3)",
     },
     trialText: {
       color: "#FFFFFF",
-      fontSize: 16,
+      fontSize: isSmallScreen ? 14 : 16,
       fontWeight: "600",
       textAlign: "center",
     },
@@ -1250,27 +1289,28 @@ const createStyles = (theme: any) =>
       flex: 0,
     },
     testimonialsTitle: {
-      fontSize: 18,
+      fontSize: isSmallScreen ? 16 : 18,
       fontWeight: "700",
       color: "#FFFFFF",
       textAlign: "center",
-      marginBottom: 15,
+      marginBottom: isSmallScreen ? 12 : 15,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
       textShadowOffset: { width: 0, height: 1 },
       textShadowRadius: 2,
     },
     testimonialsScroll: {
-      maxHeight: 140,
+      maxHeight: isSmallScreen ? 100 : isMediumScreen ? 120 : 140,
     },
     testimonialsScrollContent: {
-      paddingHorizontal: 12,
+      paddingHorizontal: isSmallScreen ? 16 : 20,
+      paddingRight: isSmallScreen ? 40 : 50,
     },
     testimonialCard: {
-      width: screenWidth * 0.8,
+      width: isSmallScreen ? screenWidth * 0.75 : screenWidth * 0.7,
       backgroundColor: "rgba(255, 255, 255, 0.15)",
       borderRadius: 16,
-      padding: 16,
-      marginHorizontal: 8,
+      padding: isSmallScreen ? 12 : 16,
+      marginHorizontal: isSmallScreen ? 8 : 10,
       borderWidth: 1,
       borderColor: "rgba(255, 255, 255, 0.2)",
       shadowColor: "rgba(0, 0, 0, 0.3)",
@@ -1281,38 +1321,38 @@ const createStyles = (theme: any) =>
     },
     starsContainer: {
       flexDirection: "row",
-      marginBottom: 12,
+      marginBottom: isSmallScreen ? 8 : 12,
       justifyContent: "center",
     },
     star: {
       color: "#FFD700",
-      fontSize: 16,
+      fontSize: isSmallScreen ? 14 : 16,
       marginHorizontal: 1,
     },
     testimonialText: {
-      fontSize: 14,
+      fontSize: isSmallScreen ? 12 : 14,
       color: "#FFFFFF",
       fontWeight: "500",
-      lineHeight: 20,
+      lineHeight: isSmallScreen ? 16 : 20,
       textAlign: "center",
-      marginBottom: 10,
+      marginBottom: isSmallScreen ? 8 : 10,
       fontStyle: "italic",
     },
     testimonialAuthor: {
-      fontSize: 14,
+      fontSize: isSmallScreen ? 12 : 14,
       color: "#FFFFFF",
       fontWeight: "600",
       textAlign: "center",
       opacity: 0.8,
     },
     bottomSection: {
-      paddingHorizontal: 24,
-      paddingBottom: 40,
-      paddingTop: 20,
+      paddingHorizontal: isSmallScreen ? 16 : 24,
+      paddingBottom: isSmallScreen ? 30 : 40,
+      paddingTop: isSmallScreen ? 16 : 20,
     },
     ctaButton: {
       borderRadius: 16,
-      marginBottom: 16,
+      marginBottom: isSmallScreen ? 12 : 16,
       shadowColor: "#000000",
       shadowOffset: { width: 0, height: 4 },
       shadowOpacity: 0.3,
@@ -1320,13 +1360,13 @@ const createStyles = (theme: any) =>
       elevation: 8,
     },
     ctaGradient: {
-      paddingVertical: 16,
-      paddingHorizontal: 24,
+      paddingVertical: isSmallScreen ? 14 : 16,
+      paddingHorizontal: isSmallScreen ? 20 : 24,
       borderRadius: 16,
       alignItems: "center",
     },
     ctaButtonText: {
-      fontSize: 18,
+      fontSize: isSmallScreen ? 16 : 18,
       fontWeight: "800",
       color: "#FFFFFF",
       textShadowColor: "rgba(0, 0, 0, 0.3)",
@@ -1345,11 +1385,11 @@ const createStyles = (theme: any) =>
     },
     restoreButton: {
       alignItems: "center",
-      paddingVertical: 8,
-      marginBottom: 16,
+      paddingVertical: isSmallScreen ? 6 : 8,
+      marginBottom: isSmallScreen ? 12 : 16,
     },
     restoreText: {
-      fontSize: 16,
+      fontSize: isSmallScreen ? 14 : 16,
       color: "#FFFFFF",
       fontWeight: "500",
       textDecorationLine: "underline",
@@ -1359,16 +1399,16 @@ const createStyles = (theme: any) =>
       flexDirection: "row",
       justifyContent: "center",
       alignItems: "center",
-      gap: 12,
+      gap: isSmallScreen ? 8 : 12,
     },
     legalText: {
-      fontSize: 12,
+      fontSize: isSmallScreen ? 10 : 12,
       color: "#FFFFFF",
       opacity: 0.6,
       textDecorationLine: "underline",
     },
     legalSeparator: {
-      fontSize: 12,
+      fontSize: isSmallScreen ? 10 : 12,
       color: "#FFFFFF",
       opacity: 0.6,
     },
@@ -1377,3 +1417,4 @@ const createStyles = (theme: any) =>
     },
     // Legacy styles removed to avoid duplicates - using new full-screen design
   });
+};

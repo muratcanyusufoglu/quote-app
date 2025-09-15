@@ -128,7 +128,9 @@
       "title": "Günlük Alıntı Limiti Doldu 📚",
       "subtitle": "Bugün 20 alıntı görüntüledin. Sınırsız günlük ilham için premium'a geç!",
       "button": "Sınırsız Alıntı İçin Yükselt",
-      "highlight": "Günlük ilhamını asla kaçırma"
+      "highlight": "Günlük ilhamını asla kaçırma",
+      "limit_reached": "🚫 Günlük limitinize ulaştınız (20/20)",
+      "upgrade_to_premium": "Premium'a Yüksel"
     },
     "default": {
       "title": "Premium Özellikler 🚀",

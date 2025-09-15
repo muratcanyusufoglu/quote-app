@@ -158,26 +158,26 @@ struct QuoteWidgetEntryView : View {
     private func getQuoteFont() -> Font {
         switch family {
         case .systemSmall:
-            return .system(size: 14, weight: .semibold)
+            return .system(size: 16, weight: .semibold)
         case .systemMedium:
-            return .system(size: 16, weight: .semibold)
-        case .systemLarge:
             return .system(size: 18, weight: .semibold)
+        case .systemLarge:
+            return .system(size: 20, weight: .semibold)
         default:
-            return .system(size: 16, weight: .semibold)
+            return .system(size: 18, weight: .semibold)
         }
     }
     
     private func getAuthorFont() -> Font {
         switch family {
         case .systemSmall:
-            return .system(size: 10, weight: .medium)
+            return .system(size: 12, weight: .medium)
         case .systemMedium:
-            return .system(size: 12, weight: .medium)
-        case .systemLarge:
             return .system(size: 14, weight: .medium)
+        case .systemLarge:
+            return .system(size: 16, weight: .medium)
         default:
-            return .system(size: 12, weight: .medium)
+            return .system(size: 14, weight: .medium)
         }
     }
     

@@ -125,6 +125,14 @@
       "subtitle": "More features and unlimited access",
       "button": "Start Premium"
     },
+    "daily_limit": {
+      "title": "Daily Quote Limit Reached 📚",
+      "subtitle": "You've viewed 20 quotes today. Go premium for unlimited daily inspiration!",
+      "button": "Upgrade for Unlimited Quotes",
+      "highlight": "Never miss your daily inspiration",
+      "limit_reached": "🚫 You've reached your daily limit (20/20)",
+      "upgrade_to_premium": "Upgrade to Premium"
+    },
     "default": {
       "title": "Premium Features 🚀",
       "subtitle": "Experience the best quote app",

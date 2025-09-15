@@ -184,14 +184,14 @@ const QuoteDetailScreen: React.FC = () => {
             onPress={handleFavoritePress}
           >
             <IconSymbol
-              name="heart"
+              name={isFavorite ? "heart.solid" : "heart"}
               size={18}
               color={
                 isFavorite
                   ? theme.colors.favoriteRed
                   : theme.colors.whiteOverlay80
               }
-              strokeWidth={isFavorite ? 3 : 2}
+              strokeWidth={isFavorite ? 0 : 2}
             />
           </TouchableOpacity>
         </View>
@@ -313,7 +313,7 @@ const QuoteDetailScreen: React.FC = () => {
           </View>
         )}
 
-        {/* Bottom Spacing */}
+        {/* Bottom Spacing - Reduced for better UX */}
         <View style={styles.bottomSpacing} />
       </ScrollView>
     </BaseScreen>
@@ -355,7 +355,7 @@ const createStyles = (theme: any) =>
     },
     contentContainer: {
       padding: 20,
-      paddingBottom: 100,
+      paddingBottom: 40,
     },
     header: {
       flexDirection: "row",
@@ -552,7 +552,7 @@ const createStyles = (theme: any) =>
       fontWeight: theme.typography.fontWeight.medium,
     },
     bottomSpacing: {
-      height: 100,
+      height: 40,
     },
   });
 

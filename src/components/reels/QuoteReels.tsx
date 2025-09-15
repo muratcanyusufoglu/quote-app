@@ -13,9 +13,14 @@ import {
   RefreshControl,
   Share,
   StyleSheet,
+  Text,
+  TouchableOpacity,
   View,
 } from "react-native";
+import { useDailyLimit } from "../../hooks/useDailyLimit";
+import { usePaywall } from "../../hooks/usePaywall";
 import { useQuoteService } from "../../hooks/useQuoteService";
+import { useTranslation } from "../../hooks/useTranslation";
 import {
   useActions,
   useFavoriteQuotes,
@@ -63,6 +68,15 @@ export function QuoteReels({
 
   // Quote service
   const { getHomeFeedQuotes, getExploreQuotes } = useQuoteService();
+
+  // Daily limit control
+  const { hasReachedDailyLimit, isPremium } = useDailyLimit();
+
+  // Paywall control
+  const { showPaywall } = usePaywall();
+
+  // Translations
+  const { t } = useTranslation();
 
   // Memoized available quotes - aynı gün içinde tüm quote'lar görülebilir
   const availableQuotes = useMemo(() => {
@@ -320,6 +334,11 @@ export function QuoteReels({
 
   const handleViewableItemsChanged = useCallback(
     ({ viewableItems }: any) => {
+      // Don't trigger viewable items change during favorite actions
+      if (isFavoriteActionInProgress) {
+        return;
+      }
+
       // Mark quotes as viewed when they become visible
       viewableItems.forEach((item: any) => {
         const quote = item.item as LocalizedQuote;
@@ -398,7 +417,7 @@ export function QuoteReels({
         <QuoteReelCard
           quote={{
             id: "empty",
-            text: "Yeni quote'lar yükleniyor...",
+            text: t("common.loading"),
             author: "",
             category: "motivation",
             tags: [],
@@ -415,6 +434,8 @@ export function QuoteReels({
 
   return (
     <View style={styles.container}>
+      {/* Daily Limit Warning Banner */}
+
       <FlatList
         ref={flatListRef}
         data={availableQuotes}
@@ -434,7 +455,9 @@ export function QuoteReels({
         maxToRenderPerBatch={3}
         windowSize={5}
         initialNumToRender={2}
-        scrollEnabled={!isFavoriteActionInProgress}
+        scrollEnabled={
+          !isFavoriteActionInProgress && (!hasReachedDailyLimit() || isPremium)
+        }
         scrollEventThrottle={16}
         refreshControl={
           refreshControl ? (
@@ -446,6 +469,21 @@ export function QuoteReels({
           ) : undefined
         }
       />
+      {hasReachedDailyLimit() && !isPremium && (
+        <View style={styles.limitWarningBanner}>
+          <Text style={styles.limitWarningText}>
+            {t("paywall.daily_limit.limit_reached")}
+          </Text>
+          <TouchableOpacity
+            style={styles.upgradeButton}
+            onPress={() => showPaywall("daily_limit")}
+          >
+            <Text style={styles.upgradeButtonText}>
+              {t("paywall.daily_limit.upgrade_to_premium")}
+            </Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }
@@ -500,5 +538,36 @@ const styles = StyleSheet.create({
   noDataSubtext: {
     fontSize: 14,
     textAlign: "center",
+  },
+  limitWarningBanner: {
+    backgroundColor: "rgba(255, 59, 48, 0.9)",
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginHorizontal: 20,
+    marginTop: 20,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "rgba(255, 59, 48, 0.3)",
+  },
+  limitWarningText: {
+    color: "#FFFFFF",
+    fontSize: 14,
+    fontWeight: "600",
+    flex: 1,
+  },
+  upgradeButton: {
+    backgroundColor: "#FFFFFF",
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+    marginLeft: 12,
+  },
+  upgradeButtonText: {
+    color: "#FF3B30",
+    fontSize: 14,
+    fontWeight: "600",
   },
 });

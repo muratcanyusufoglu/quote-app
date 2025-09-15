@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { Alert } from "react-native";
 import { dailyLimitService } from "../services/DailyLimitService";
 import { usePaywallSelectors } from "../store/usePaywallStore";
 import { usePremium } from "./usePremium";
@@ -56,9 +57,30 @@ export function useDailyLimit() {
   }, [isPremium]);
 
   /**
+   * Show alert when daily limit is reached
+   */
+  const showDailyLimitAlert = useCallback(() => {
+    Alert.alert(
+      "Günlük Limit Ulaşıldı",
+      "Bugün 20 quote'a ulaştınız. Premium'a yükselerek sınırsız erişim elde edin!",
+      [
+        {
+          text: "Premium'a Yüksel",
+          onPress: () => showPaywall("daily_limit"),
+          style: "default",
+        },
+        {
+          text: "Tamam",
+          style: "cancel",
+        },
+      ]
+    );
+  }, [showPaywall]);
+
+  /**
    * Attempt to view a quote
    * Returns true if successful, false if limit reached
-   * Automatically shows paywall if limit is reached
+   * Shows alert instead of paywall for better UX
    */
   const tryViewQuote = useCallback(async (): Promise<boolean> => {
     // Premium users can always view quotes
@@ -76,12 +98,12 @@ export function useDailyLimit() {
       console.log("✅ Quote view allowed - count incremented");
       return true;
     } else {
-      // Limit reached, show paywall
-      console.log("🚫 Daily quote limit reached - showing paywall");
-      showPaywall("daily_limit");
+      // Limit reached, show alert instead of paywall
+      console.log("🚫 Daily quote limit reached - showing alert");
+      showDailyLimitAlert();
       return false;
     }
-  }, [isPremium, loadLimitInfo, showPaywall]);
+  }, [isPremium, loadLimitInfo, showDailyLimitAlert]);
 
   /**
    * Get remaining quotes for free users
@@ -149,10 +171,10 @@ export function useDailyLimit() {
     hasReachedDailyLimit,
     resetDailyCount,
     showDailyLimitPaywall,
+    showDailyLimitAlert,
     getLimitStatusMessage,
 
     // Utilities
     refreshLimitInfo: loadLimitInfo,
   };
 }
-

@@ -68,21 +68,12 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
     <View style={styles.container}>
       {/* Category and Read Time Info */}
       <View style={styles.infoSection}>
-        <View
-          style={[
-            styles.categoryContainer,
-            {
-              backgroundColor: theme.colors.whiteOverlay10,
-              shadowColor: theme.colors.shadowColor,
-            },
-          ]}
+        <Text
+          style={[styles.categoryMinimal, { color: theme.colors.white }]}
+          accessibilityLabel="quote-category"
         >
-          <Text
-            style={[styles.categoryTag, { color: theme.colors.brandYellow }]}
-          >
-            #{localizedCategoryName}
-          </Text>
-        </View>
+          {localizedCategoryName}
+        </Text>
         {/* read time */}
         {/* <View
           style={[
@@ -156,12 +147,12 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
           activeOpacity={0.7}
         >
           <IconSymbol
-            name="heart"
+            name={isFavorite ? "heart.solid" : "heart"}
             size={24}
             color={
               isFavorite ? theme.colors.favoriteRed : theme.colors.brandYellow
             }
-            strokeWidth={isFavorite ? 3 : 2}
+            strokeWidth={isFavorite ? 0 : 2}
           />
         </TouchableOpacity>
       </View>
@@ -215,6 +206,12 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 8,
+  },
+  categoryMinimal: {
+    fontSize: 12,
+    fontWeight: "500",
+    textTransform: "capitalize",
+    opacity: 0.85,
   },
   actionButton: {
     width: 50,

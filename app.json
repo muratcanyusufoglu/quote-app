@@ -2,14 +2,14 @@
   "expo": {
     "name": "QuoteSpark – Motivational",
     "slug": "quotespark",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "quote",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "buildNumber": "1",
+      "buildNumber": "5",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",
@@ -109,6 +109,12 @@
         {
           "name": "QuoteWidget",
           "path": "./widgets/ios/QuoteWidget",
+          "bundleIdentifier": "com.quotespark.dailyinspiration.QuoteWidget",
+          "entitlements": {
+            "com.apple.security.application-groups": [
+              "group.com.quotespark.dailyinspiration"
+            ]
+          },
           "buildSettings": {
             "GENERATE_INFOPLIST_FILE": "NO"
           }

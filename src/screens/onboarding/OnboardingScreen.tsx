@@ -797,14 +797,14 @@ export function OnboardingScreen() {
               ]}
             />
           </View>
-          <Text
+          {/* <Text
             style={[
               styles.progressText,
               { color: theme.colors.whiteOverlay80 },
             ]}
           >
             {currentStep + 2} / {totalSteps}
-          </Text>
+          </Text> */}
         </View>
       )}
 

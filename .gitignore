@@ -142,7 +142,7 @@ expo-env.d.ts
 
 #Quotes Data - Exclude all quote content files
 /src/data/quotes/*.json
-!/src/data/quotes/index.ts
+/src/data/quotes/index.ts
 /src/data/quotes.json.backup
 /src/services/AIService.ts
 /src/services/firebase.ts

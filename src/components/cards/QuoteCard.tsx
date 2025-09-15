@@ -79,14 +79,14 @@ const QuoteCard: React.FC<QuoteCardProps> = ({
             hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >
             <IconSymbol
-              name="heart"
+              name={isFavorite ? "heart.solid" : "heart"}
               size={20}
               color={
                 isFavorite
                   ? theme.colors.favoriteRed
                   : theme.colors.whiteOverlay80
               }
-              strokeWidth={isFavorite ? 3 : 2}
+              strokeWidth={isFavorite ? 0 : 2}
             />
           </TouchableOpacity>
         </View>

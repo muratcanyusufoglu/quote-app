@@ -179,7 +179,7 @@ class LegacyQuoteService {
         // Ensure we have valid content in the target language
         const hasValidText = quote.text && quote.text.trim().length > 0;
         const hasValidAuthor = quote.author && quote.author.trim().length > 0;
-        return hasValidText && hasValidAuthor;
+        return hasValidText;
       });
 
     console.log(

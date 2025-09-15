@@ -178,7 +178,7 @@ export function MoodSelectionModal({
     handle: {
       width: 40,
       height: 4,
-      backgroundColor: theme.colors.textSecondary,
+      backgroundColor: theme.colors.whiteOverlay20,
       borderRadius: 2,
       alignSelf: "center",
       marginBottom: 20,
@@ -190,13 +190,13 @@ export function MoodSelectionModal({
     title: {
       fontSize: 24,
       fontWeight: "bold",
-      color: "#fff",
+      color: theme.colors.white,
       marginBottom: 8,
       textAlign: "center",
     },
     subtitle: {
       fontSize: 16,
-      color: "#fff",
+      color: theme.colors.whiteOverlay80,
       textAlign: "center",
     },
     questionContainer: {
@@ -206,7 +206,7 @@ export function MoodSelectionModal({
     questionText: {
       fontSize: 20,
       fontWeight: "600",
-      color: "#fff",
+      color: theme.colors.white,
       textAlign: "center",
       marginBottom: 32,
     },
@@ -223,8 +223,8 @@ export function MoodSelectionModal({
       justifyContent: "center",
       alignItems: "center",
       backgroundColor: theme.colors.whiteOverlay10,
-      borderWidth: 0,
-      borderColor: theme.colors.border,
+      borderWidth: 1,
+      borderColor: theme.colors.whiteOverlay20,
       shadowColor: theme.colors.shadowColor,
       shadowOffset: {
         width: 0,
@@ -237,14 +237,14 @@ export function MoodSelectionModal({
     },
     optionButtonSelected: {
       borderColor: theme.colors.brandYellow,
-      backgroundColor: theme.colors.whiteOverlay10,
+      backgroundColor: theme.colors.whiteOverlay25,
       shadowOpacity: 0.2,
       shadowRadius: 6,
       elevation: 4,
     },
     optionLabel: {
       fontSize: 10,
-      color: "#fff",
+      color: theme.colors.white,
       textAlign: "center",
       fontWeight: "500",
       opacity: 0.9,
@@ -260,7 +260,7 @@ export function MoodSelectionModal({
       height: 8,
       borderRadius: 4,
       marginHorizontal: 4,
-      backgroundColor: theme.colors.border,
+      backgroundColor: theme.colors.whiteOverlay20,
     },
     progressDotActive: {
       backgroundColor: theme.colors.primary,
@@ -275,26 +275,26 @@ export function MoodSelectionModal({
       paddingVertical: 12,
       paddingHorizontal: 20,
       borderRadius: 8,
-      backgroundColor: theme.colors.primaryLight + "20",
+      backgroundColor: theme.colors.whiteOverlay10,
       borderWidth: 1,
-      borderColor: theme.colors.primaryLight + "40",
+      borderColor: theme.colors.whiteOverlay25,
     },
     backButtonText: {
       fontSize: 16,
-      color: "#fff",
+      color: theme.colors.white,
       fontWeight: "500",
     },
     skipButton: {
       paddingVertical: 12,
       paddingHorizontal: 20,
       borderRadius: 8,
-      backgroundColor: theme.colors.primaryLight + "20",
+      backgroundColor: theme.colors.whiteOverlay10,
       borderWidth: 1,
-      borderColor: theme.colors.primaryLight + "40",
+      borderColor: theme.colors.whiteOverlay25,
     },
     skipButtonText: {
       fontSize: 16,
-      color: "#fff",
+      color: theme.colors.white,
       fontWeight: "600",
     },
     modalGradient: {

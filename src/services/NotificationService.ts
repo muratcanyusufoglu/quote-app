@@ -307,55 +307,55 @@ export class NotificationService {
       const translations = {
         en: {
           appName: "QuoteSpark",
-          title: "Daily Inspiration",
+          title: "Quote Spark",
         },
         tr: {
           appName: "QuoteSpark",
-          title: "Günlük İlham",
+          title: "Quote Spark",
         },
         fr: {
           appName: "QuoteSpark",
-          title: "Inspiration Quotidienne",
+          title: "Quote Spark",
         },
         es: {
           appName: "QuoteSpark",
-          title: "Inspiración Diaria",
+          title: "Quote Spark",
         },
         de: {
           appName: "QuoteSpark",
-          title: "Tägliche Inspiration ✨",
+          title: "Quote Spark",
         },
         it: {
           appName: "QuoteSpark",
-          title: "Ispirazione Quotidiana",
+          title: "Quote Spark",
         },
         pt: {
           appName: "QuoteSpark",
-          title: "Inspiração Diária",
+          title: "Quote Spark",
         },
         ru: {
           appName: "QuoteSpark",
-          title: "Ежедневное Вдохновение",
+          title: "Quote Spark",
         },
         nl: {
           appName: "QuoteSpark",
-          title: "Dagelijkse Inspiratie",
+          title: "Quote Spark",
         },
         id: {
           appName: "QuoteSpark",
-          title: "Inspirasi Harian",
+          title: "Quote Spark",
         },
         ja: {
           appName: "QuoteSpark",
-          title: "毎日のインスピレーション",
+          title: "Quote Spark",
         },
         th: {
           appName: "QuoteSpark",
-          title: "แรงบันดาลใจประจำวัน",
+          title: "Quote Spark",
         },
         ms: {
           appName: "QuoteSpark",
-          title: "Inspirasi Harian",
+          title: "Quote Spark",
         },
       };
 
