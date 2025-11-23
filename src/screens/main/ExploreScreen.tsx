@@ -1,5 +1,5 @@
-import { router } from "expo-router";
-import React, { useEffect } from "react";
+import {router} from "expo-router";
+import React, {useEffect} from "react";
 import {
   Dimensions,
   FlatList,
@@ -8,39 +8,39 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { NavigationBar } from "../../components/layout/NavigationBar";
-import { useAnalytics } from "../../hooks/useAnalytics";
-import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
-import { useQuoteCategories } from "../../hooks/useQuoteService";
+import {NavigationBar} from "../../components/layout/NavigationBar";
+import {useAnalytics} from "../../hooks/useAnalytics";
+import {usePremium} from "../../hooks/usePremium"; // UNIFIED: Single premium source
+import {useQuoteCategories} from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
   useScreenTranslations,
 } from "../../hooks/useTranslation";
-import { useOnboardingHydrated } from "../../store/useOnboardingStore";
-import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { usePurchaseHydrated } from "../../store/usePurchaseStore";
-import { useQuoteSelectors } from "../../store/useQuoteStore";
-import { useTheme } from "../../utils/ThemeContext";
-import { getCategoryIcon } from "../../utils/theme";
+import {useOnboardingHydrated} from "../../store/useOnboardingStore";
+import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {usePurchaseHydrated} from "../../store/usePurchaseStore";
+import {useQuoteSelectors} from "../../store/useQuoteStore";
+import {useTheme} from "../../utils/ThemeContext";
+import {getCategoryIcon} from "../../utils/theme";
 
-const { width } = Dimensions.get("window");
+const {width} = Dimensions.get("window");
 const ITEM_WIDTH = (width - 48) / 2; // 2 columns with 16px padding on sides and 16px gap
 
 export function ExploreScreen() {
   // Theme
-  const { theme, isDark } = useTheme();
+  const {theme, isDark} = useTheme();
 
   // Analytics
-  const { trackScreen, trackCategoryView, trackPaywallView } = useAnalytics();
+  const {trackScreen, trackCategoryView, trackPaywallView} = useAnalytics();
 
   // Progressive paywall tracking
-  const { trackUserInteraction } = usePaywallSelectors.actions();
+  const {trackUserInteraction} = usePaywallSelectors.actions();
 
   // Store data
-  const { isPremium } = usePremium(); // UNIFIED: Extract isPremium boolean
-  const { showPaywall, trackAction } = usePaywallSelectors.actions();
+  const {isPremium} = usePremium(); // UNIFIED: Extract isPremium boolean
+  const {showPaywall, trackAction} = usePaywallSelectors.actions();
 
   // Hydration checks
   const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
@@ -48,7 +48,7 @@ export function ExploreScreen() {
   const onboardingStoreHydrated = useOnboardingHydrated();
 
   // Categories - Show ALL categories to everyone
-  const { allCategories } = useQuoteCategories();
+  const {allCategories} = useQuoteCategories();
 
   // Translations
   const explore = useScreenTranslations("explore");
@@ -119,11 +119,11 @@ export function ExploreScreen() {
     // Navigate to home page with selected category
     router.push({
       pathname: "/(tabs)",
-      params: { selectedCategory: categoryId },
+      params: {selectedCategory: categoryId},
     });
   };
 
-  const renderCategoryCard = ({ item: category }: { item: any }) => {
+  const renderCategoryCard = ({item: category}: {item: any}) => {
     const isGeneralCategory =
       category.id.toLowerCase() === "general" ||
       category.id.toLowerCase() === "genel";
@@ -132,10 +132,10 @@ export function ExploreScreen() {
     // Kategori kartı için renk ayarları
     const categoryColor = theme.colors.brandYellow;
 
-    // Arka plan rengi açık olduğu için koyu text kullan
-    const textColor = "#2c3e50"; // Koyu mavi-gri, çok iyi contrast
-    const iconColor = "#34495e"; // Biraz daha açık koyu gri
-    const descriptionColor = "rgba(44, 62, 80, 0.8)"; // Şeffaflıklı koyu renk
+    // Tema renklerini kullan - altın arka plan için optimize edilmiş
+    const textColor = theme.colors.textSoft;
+    const iconColor = theme.colors.textSoft;
+    const descriptionColor = theme.colors.textSoftSecondary;
 
     const categoryIconName = getCategoryIcon(category.id);
 
@@ -175,7 +175,7 @@ export function ExploreScreen() {
                 strokeWidth={2}
               />
             ) : (
-              <Text style={[styles.categoryEmoji, { color: iconColor }]}>
+              <Text style={[styles.categoryEmoji, {color: iconColor}]}>
                 {category.icon || "💭"}
               </Text>
             )}
@@ -188,7 +188,7 @@ export function ExploreScreen() {
               {
                 color: textColor,
                 textShadowColor: "rgba(255, 255, 255, 0.3)",
-                textShadowOffset: { width: 0, height: 1 },
+                textShadowOffset: {width: 0, height: 1},
                 textShadowRadius: 1,
               },
             ]}
@@ -224,7 +224,7 @@ export function ExploreScreen() {
                 {
                   color: descriptionColor,
                   textShadowColor: "rgba(255, 255, 255, 0.2)",
-                  textShadowOffset: { width: 0, height: 1 },
+                  textShadowOffset: {width: 0, height: 1},
                   textShadowRadius: 1,
                 },
               ]}
@@ -246,7 +246,7 @@ export function ExploreScreen() {
     return (
       <BaseScreen useGradientBackground={true}>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: theme.colors.white }]}>
+          <Text style={[styles.loadingText, {color: theme.colors.text}]}>
             {common.loading}
           </Text>
         </View>
@@ -266,11 +266,11 @@ export function ExploreScreen() {
         <View style={styles.headerContainer}>
           <View style={styles.titleRow}>
             <View style={styles.titleContainer}>
-              <Text style={[styles.title, { color: theme.colors.white }]}>
+              <Text style={[styles.title, {color: theme.colors.text}]}>
                 {explore.categories}
               </Text>
               <Text
-                style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
+                style={[styles.subtitle, {color: theme.colors.textSecondary}]}
               >
                 {isPremium ? explore.subtitle_premium : explore.subtitle_free}
               </Text>

@@ -317,21 +317,6 @@
     "daily_limit_fallback_button": "Upgrade for Unlimited Quotes",
     "daily_limit_fallback_highlight": "Never miss your daily inspiration"
   },
-  "mood_motivation": {
-    "title": "Mood-Based Motivation",
-    "subtitle": "Get personalized motivation based on how you feel",
-    "question_feeling": "How are you feeling generally?",
-    "question_feeling_personalized": "How are you feeling {userName}?",
-    "question_energy": "What's your energy level?",
-    "question_energy_personalized": "What's your energy level {userName}?",
-    "question_affecting": "What's affecting you most today?",
-    "question_affecting_personalized": "What's affecting you most today {userName}?",
-    "generating": "Generating your personalized message...",
-    "share": "Share",
-    "try_different": "Try a Different Message",
-    "error_generating": "Error generating message",
-    "error_message": "Please try again later",
-    "close": "Close",
     "emojis": {
       "😄": "Happy",
       "🙂": "Calm",
@@ -348,8 +333,7 @@
       "💡": "Thoughts",
       "🌧️": "Anxiety",
       "✨": "Goals"
-    }
-  },
+    },
   "onboarding": {
     "welcome": "Welcome",
     "get_started": "Get Started",
@@ -561,5 +545,62 @@
     "privacy_policy_subtitle": "View our privacy policy",
     "terms_of_use": "Terms of Use",
     "terms_of_use_subtitle": "Apple Standard EULA"
+  },
+  "mood_motivation": {
+    "title": "🧠 Mood-Based Motivation",
+    "subtitle": "Get personalized motivation based on how you feel",
+    "feeling_question": "How are you feeling?",
+    "energy_question": "Energy Level?",
+    "affecting_question": "What's affecting you most?",
+    "question_feeling": "How are you feeling generally?",
+    "question_feeling_personalized": "How are you feeling {userName}?",
+    "question_energy": "What's your energy level?",
+    "question_energy_personalized": "What's your energy level {userName}?",
+    "question_affecting": "What's affecting you most today?",
+    "question_affecting_personalized": "What's affecting you most today {userName}?",
+    "generate_button": "Generate Motivation ✨",
+    "close_button": "Close",
+    "generating": "Generating your personalized message...",
+    "share": "Share",
+    "try_different": "Try a Different Message",
+    "error_generating": "Error generating message",
+    "error_message": "Please try again later",
+    "emojis": {
+      "😄": "Happy",
+      "🙂": "Calm",
+      "😐": "Neutral",
+      "😟": "Worried",
+      "😔": "Sad",
+      "⚡": "High Energy",
+      "💪": "Energetic",
+      "😴": "Tired",
+      "🔋": "Low Energy",
+      "😊": "Content",
+      "😥": "Stressed",
+      "😠": "Frustrated",
+      "💡": "Inspired",
+      "🌧️": "Overwhelmed",
+      "✨": "Motivated"
+    },
+    "moods": {
+      "happy": "Happy",
+      "sad": "Sad",
+      "anxious": "Anxious",
+      "excited": "Excited",
+      "tired": "Tired",
+      "motivated": "Motivated"
+    },
+    "energy_levels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "affecting_factors": {
+      "work": "Work",
+      "relationships": "Relationships",
+      "health": "Health",
+      "goals": "Goals",
+      "family": "Family"
+    }
   }
 } 

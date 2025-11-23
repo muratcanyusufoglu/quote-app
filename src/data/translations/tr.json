@@ -130,8 +130,8 @@
       "subtitle": "Bugün 20 alıntı görüntüledin. Sınırsız günlük ilham için premium'a geç!",
       "button": "Sınırsız Alıntı İçin Yükselt",
       "highlight": "Günlük ilhamını asla kaçırma",
-      "limit_reached": "🚫 Günlük limitinize ulaştınız (20/20)",
-      "upgrade_to_premium": "Premium'a Yüksel"
+      "limit_reached": "🚫 Günlük limitine ulaştın (20/20)",
+      "upgrade_to_premium": "Premium'a Yükselt"
     },
     "default": {
       "title": "Premium Özellikler 🚀",
@@ -315,39 +315,6 @@
     "daily_limit_fallback_subtitle": "Bugün 20 alıntı görüntüledin. Sınırsız erişim için premium'a geç!",
     "daily_limit_fallback_button": "Sınırsız Alıntı İçin Yükselt",
     "daily_limit_fallback_highlight": "Günlük ilhamını asla kaçırma"
-  },
-  "mood_motivation": {
-    "title": "Ruh Haline Dayalı Motivasyon",
-    "subtitle": "Nasıl hissettiğinize göre kişiselleştirilmiş motivasyon alın",
-    "question_feeling": "Genel olarak nasıl hissediyorsunuz?",
-    "question_feeling_personalized": "{userName}, genel olarak nasıl hissediyorsun?",
-    "question_energy": "Enerji seviyeniz nedir?",
-    "question_energy_personalized": "{userName}, enerji seviyeniz nedir?",
-    "question_affecting": "Bugün sizi en çok ne etkiliyor?",
-    "question_affecting_personalized": "Bugün {userName}'i en çok ne etkiliyor?",
-    "generating": "Kişiselleştirilmiş mesajınız oluşturuluyor...",
-    "share": "Paylaş",
-    "try_different": "Farklı Bir Mesaj Dene",
-    "error_generating": "Mesaj oluşturma hatası",
-    "error_message": "Lütfen daha sonra tekrar deneyin",
-    "close": "Kapat",
-    "emojis": {
-      "😄": "Mutlu",
-      "🙂": "Sakin",
-      "😐": "Nötr",
-      "😟": "Üzgün",
-      "😔": "Çok Üzgün",
-      "⚡": "Çok Enerjik",
-      "💪": "Enerjik",
-      "😴": "Yorgun",
-      "🔋": "Şarj Olmuş",
-      "😊": "Motivasyon",
-      "😥": "Stres",
-      "😠": "Öfke",
-      "💡": "Düşünceler",
-      "🌧️": "Kaygı",
-      "✨": "Hedefler"
-    }
   },
   "onboarding": {
     "welcome": "Hoş Geldiniz",
@@ -553,5 +520,62 @@
     "privacy_policy_subtitle": "Gizlilik politikamızı görüntüleyin",
     "terms_of_use": "Kullanım Şartları",
     "terms_of_use_subtitle": "Apple Standart EULA"
+  },
+  "mood_motivation": {
+    "title": "🧠 Ruh Haline Göre Motivasyon",
+    "subtitle": "Hissediklerinize göre kişiselleştirilmiş motivasyon alın",
+    "feeling_question": "Nasıl hissediyorsun?",
+    "energy_question": "Enerji Seviyeniz?",
+    "affecting_question": "Sizi en çok ne etkiliyor?",
+    "question_feeling": "Genel olarak nasıl hissediyorsun?",
+    "question_feeling_personalized": "Nasıl hissediyorsun {userName}?",
+    "question_energy": "Enerji seviyen ne?",
+    "question_energy_personalized": "Enerji seviyen ne {userName}?",
+    "question_affecting": "Bugün seni en çok ne etkiliyor?",
+    "question_affecting_personalized": "Bugün seni en çok ne etkiliyor {userName}?",
+    "generate_button": "Motivasyon Oluştur ✨",
+    "close_button": "Kapat",
+    "generating": "Kişiselleştirilmiş mesajınız oluşturuluyor...",
+    "share": "Paylaş",
+    "try_different": "Farklı Bir Mesaj Dene",
+    "error_generating": "Mesaj oluşturma hatası",
+    "error_message": "Lütfen daha sonra tekrar deneyin",
+    "emojis": {
+      "😄": "Mutlu",
+      "🙂": "Sakin",
+      "😐": "Nötr",
+      "😟": "Üzgün",
+      "😔": "Çok Üzgün",
+      "⚡": "Çok Enerjik",
+      "💪": "Enerjik",
+      "😴": "Yorgun",
+      "🔋": "Şarj Olmuş",
+      "😊": "Motivasyon",
+      "😥": "Stres",
+      "😠": "Öfke",
+      "💡": "Düşünceler",
+      "🌧️": "Kaygı",
+      "✨": "Hedefler"
+    },
+    "moods": {
+      "happy": "Mutlu",
+      "sad": "Üzgün",
+      "anxious": "Endişeli",
+      "excited": "Heyecanlı",
+      "tired": "Yorgun",
+      "motivated": "Motivasyonlu"
+    },
+    "energy_levels": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek"
+    },
+    "affecting_factors": {
+      "work": "İş",
+      "relationships": "İlişkiler",
+      "health": "Sağlık",
+      "goals": "Hedefler",
+      "family": "Aile"
+    }
   }
 } 

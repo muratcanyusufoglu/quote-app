@@ -1,6 +1,6 @@
-import { useUserName } from "@/src/store/useOnboardingStore";
-import { LinearGradient } from "expo-linear-gradient";
-import React, { useState } from "react";
+import {useUserName} from "@/src/store/useOnboardingStore";
+import {LinearGradient} from "expo-linear-gradient";
+import React, {useState} from "react";
 import {
   Animated,
   Dimensions,
@@ -10,13 +10,13 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
+import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {usePremium} from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import useTranslation from "../../hooks/useTranslation";
-import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { useTheme } from "../../utils/ThemeContext";
+import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {useTheme} from "../../utils/ThemeContext";
 
-const { height: screenHeight } = Dimensions.get("window");
+const {height: screenHeight} = Dimensions.get("window");
 
 interface MoodSelectionModalProps {
   visible: boolean;
@@ -31,7 +31,7 @@ interface MoodSelectionModalProps {
 interface Question {
   id: string;
   text: string;
-  options: { icon: string; value: string }[];
+  options: {icon: string; value: string}[];
 }
 
 const questions: Question[] = [
@@ -39,33 +39,33 @@ const questions: Question[] = [
     id: "feeling",
     text: "question_feeling", // Will be personalized at runtime
     options: [
-      { icon: "smile", value: "😄" },
-      { icon: "moon", value: "🙂" },
-      { icon: "meh", value: "😐" },
-      { icon: "frown", value: "😟" },
-      { icon: "cloud", value: "😔" },
+      {icon: "smile", value: "😄"},
+      {icon: "moon", value: "🙂"},
+      {icon: "meh", value: "😐"},
+      {icon: "frown", value: "😟"},
+      {icon: "cloud", value: "😔"},
     ],
   },
   {
     id: "energy",
     text: "question_energy",
     options: [
-      { icon: "flame", value: "⚡" },
-      { icon: "battery", value: "💪" },
-      { icon: "coffee", value: "😴" },
-      { icon: "bed", value: "🔋" },
+      {icon: "flame", value: "⚡"},
+      {icon: "battery", value: "💪"},
+      {icon: "coffee", value: "😴"},
+      {icon: "bed", value: "🔋"},
     ],
   },
   {
     id: "affecting",
     text: "question_affecting",
     options: [
-      { icon: "dumbbell", value: "😊" },
-      { icon: "alert-triangle", value: "😥" },
-      { icon: "angry", value: "😠" },
-      { icon: "brain", value: "💡" },
-      { icon: "cloud-rain", value: "🌧️" },
-      { icon: "target-icon", value: "✨" },
+      {icon: "dumbbell", value: "😊"},
+      {icon: "alert-triangle", value: "😥"},
+      {icon: "angry", value: "😠"},
+      {icon: "brain", value: "💡"},
+      {icon: "cloud-rain", value: "🌧️"},
+      {icon: "target-icon", value: "✨"},
     ],
   },
 ];
@@ -75,14 +75,14 @@ export function MoodSelectionModal({
   onClose,
   onComplete,
 }: MoodSelectionModalProps) {
-  const { theme } = useTheme();
-  const { t } = useTranslation();
+  const {theme} = useTheme();
+  const {t} = useTranslation();
   const userName = useUserName();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [responses, setResponses] = useState<{ [key: string]: string }>({});
+  const [responses, setResponses] = useState<{[key: string]: string}>({});
   const [slideAnim] = useState(new Animated.Value(screenHeight));
-  const { isPremium } = usePremium(); // UNIFIED: Extract isPremium boolean
-  const { showPaywall } = usePaywallSelectors.actions();
+  const {isPremium} = usePremium(); // UNIFIED: Extract isPremium boolean
+  const {showPaywall} = usePaywallSelectors.actions();
   const currentQuestion = questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
@@ -119,8 +119,8 @@ export function MoodSelectionModal({
     }
   }, [visible]);
 
-  const handleOptionSelect = (option: { icon: string; value: string }) => {
-    const newResponses = { ...responses, [currentQuestion.id]: option.value };
+  const handleOptionSelect = (option: {icon: string; value: string}) => {
+    const newResponses = {...responses, [currentQuestion.id]: option.value};
     setResponses(newResponses);
 
     if (isLastQuestion) {
@@ -190,13 +190,13 @@ export function MoodSelectionModal({
     title: {
       fontSize: 24,
       fontWeight: "bold",
-      color: theme.colors.white,
+      color: theme.colors.text,
       marginBottom: 8,
       textAlign: "center",
     },
     subtitle: {
       fontSize: 16,
-      color: theme.colors.whiteOverlay80,
+      color: theme.colors.textSecondary,
       textAlign: "center",
     },
     questionContainer: {
@@ -206,7 +206,7 @@ export function MoodSelectionModal({
     questionText: {
       fontSize: 20,
       fontWeight: "600",
-      color: theme.colors.white,
+      color: theme.colors.text,
       textAlign: "center",
       marginBottom: 32,
     },
@@ -243,8 +243,8 @@ export function MoodSelectionModal({
       elevation: 4,
     },
     optionLabel: {
-      fontSize: 10,
-      color: theme.colors.white,
+      fontSize: 14,
+      color: theme.colors.text,
       textAlign: "center",
       fontWeight: "500",
       opacity: 0.9,
@@ -281,7 +281,7 @@ export function MoodSelectionModal({
     },
     backButtonText: {
       fontSize: 16,
-      color: theme.colors.white,
+      color: theme.colors.text,
       fontWeight: "500",
     },
     skipButton: {
@@ -294,7 +294,7 @@ export function MoodSelectionModal({
     },
     skipButtonText: {
       fontSize: 16,
-      color: theme.colors.white,
+      color: theme.colors.text,
       fontWeight: "600",
     },
     modalGradient: {
@@ -326,23 +326,25 @@ export function MoodSelectionModal({
             style={[
               styles.modalContent,
               {
-                transform: [{ translateY: slideAnim }],
+                transform: [{translateY: slideAnim}],
               },
             ]}
           >
             <LinearGradient
               colors={theme.colors.gradientColors as any}
               locations={theme.colors.gradientLocations as any}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 0, y: 1 }}
+              start={{x: 0, y: 0}}
+              end={{x: 0, y: 1}}
               style={styles.modalGradient}
             >
               <View style={styles.handle} />
 
               <View style={styles.header}>
-                <Text style={styles.title}>{t("mood_motivation.title")}</Text>
+                <Text style={styles.title}>
+                  {t("mood_motivation.title" as any)}
+                </Text>
                 <Text style={styles.subtitle}>
-                  {t("mood_motivation.subtitle")}
+                  {t("mood_motivation.subtitle" as any)}
                 </Text>
               </View>
 
@@ -396,7 +398,7 @@ export function MoodSelectionModal({
                 >
                   <Text style={styles.backButtonText}>
                     {currentQuestionIndex === 0
-                      ? t("common.cancel")
+                      ? t("common.cancel" as any)
                       : t("common.back" as any)}
                   </Text>
                 </TouchableOpacity>
@@ -409,7 +411,7 @@ export function MoodSelectionModal({
                     }
                   >
                     <Text style={styles.skipButtonText}>
-                      {t("common.skip")}
+                      {t("common.skip" as any)}
                     </Text>
                   </TouchableOpacity>
                 )}

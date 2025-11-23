@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import {
   ActivityIndicator,
   Modal,
@@ -8,12 +8,12 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { useMoodMotivation } from "../../hooks/useMoodMotivation";
-import { useTranslation } from "../../hooks/useTranslation";
-import { useUserName } from "../../store/useOnboardingStore";
-import { Language } from "../../types";
-import { useTheme } from "../../utils/ThemeContext";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {useMoodMotivation} from "../../hooks/useMoodMotivation";
+import {useTranslation} from "../../hooks/useTranslation";
+import {useUserName} from "../../store/useOnboardingStore";
+import {Language} from "../../types";
+import {useTheme} from "../../utils/ThemeContext";
 
 interface MoodMotivationModalProps {
   isVisible: boolean;
@@ -24,16 +24,11 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
   isVisible,
   onClose,
 }) => {
-  const { theme } = useTheme();
-  const { t } = useTranslation();
+  const {theme} = useTheme();
+  const {t} = useTranslation();
   const userName = useUserName();
-  const {
-    isLoading,
-    generatedMessage,
-    error,
-    generateMotivation,
-    clearMessage,
-  } = useMoodMotivation();
+  const {isLoading, generatedMessage, error, generateMotivation, clearMessage} =
+    useMoodMotivation();
 
   const [selectedMood, setSelectedMood] = useState<string>("");
   const [selectedEnergy, setSelectedEnergy] = useState<string>("");
@@ -48,6 +43,14 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
     "goals",
     "family",
   ];
+
+  // Get translated labels for options
+  const getMoodLabel = (mood: string) =>
+    t(`mood_motivation.moods.${mood}` as any) || mood;
+  const getEnergyLabel = (energy: string) =>
+    t(`mood_motivation.energy_levels.${energy}` as any) || energy;
+  const getAffectingLabel = (factor: string) =>
+    t(`mood_motivation.affecting_factors.${factor}` as any) || factor;
 
   const handleGenerate = async () => {
     if (!selectedMood || !selectedEnergy || !selectedAffecting) {
@@ -110,7 +113,7 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
     sectionTitle: {
       fontSize: 16,
       fontWeight: "600",
-      color: theme.colors.text,
+      color: theme.colors.textSecondary,
       marginTop: 16,
       marginBottom: 8,
     },
@@ -131,7 +134,7 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
       borderColor: theme.colors.primary,
     },
     optionText: {
-      color: theme.colors.text,
+      color: theme.colors.textSecondary,
       fontSize: 14,
     },
     selectedOptionText: {
@@ -175,7 +178,7 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
       alignItems: "center",
     },
     closeButtonText: {
-      color: theme.colors.primary,
+      color: theme.colors.textSecondary,
       fontSize: 16,
     },
   });
@@ -197,7 +200,9 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
       >
         <View style={styles.container}>
           <View style={styles.header}>
-            <Text style={styles.title}>🧠 Mood-Based Motivation</Text>
+            <Text style={styles.title}>
+              {t("mood_motivation.title" as any)}
+            </Text>
             <TouchableOpacity
               style={styles.closeButtonHeader}
               onPress={(e) => {
@@ -215,8 +220,9 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
             </TouchableOpacity>
           </View>
           <ScrollView showsVerticalScrollIndicator={false}>
-
-            <Text style={styles.sectionTitle}>How are you feeling?</Text>
+            <Text style={styles.sectionTitle}>
+              {t("mood_motivation.feeling_question" as any)}
+            </Text>
             <View style={styles.optionContainer}>
               {moods.map((mood) => (
                 <TouchableOpacity
@@ -233,13 +239,15 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
                       selectedMood === mood && styles.selectedOptionText,
                     ]}
                   >
-                    {mood}
+                    {getMoodLabel(mood)}
                   </Text>
                 </TouchableOpacity>
               ))}
             </View>
 
-            <Text style={styles.sectionTitle}>Energy Level?</Text>
+            <Text style={styles.sectionTitle}>
+              {t("mood_motivation.energy_question" as any)}
+            </Text>
             <View style={styles.optionContainer}>
               {energyLevels.map((energy) => (
                 <TouchableOpacity
@@ -256,13 +264,15 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
                       selectedEnergy === energy && styles.selectedOptionText,
                     ]}
                   >
-                    {energy}
+                    {getEnergyLabel(energy)}
                   </Text>
                 </TouchableOpacity>
               ))}
             </View>
 
-            <Text style={styles.sectionTitle}>What's affecting you most?</Text>
+            <Text style={styles.sectionTitle}>
+              {t("mood_motivation.affecting_question" as any)}
+            </Text>
             <View style={styles.optionContainer}>
               {affectingFactors.map((factor) => (
                 <TouchableOpacity
@@ -279,7 +289,7 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
                       selectedAffecting === factor && styles.selectedOptionText,
                     ]}
                   >
-                    {factor}
+                    {getAffectingLabel(factor)}
                   </Text>
                 </TouchableOpacity>
               ))}
@@ -297,7 +307,7 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
                 <ActivityIndicator color={theme.colors.background} />
               ) : (
                 <Text style={styles.generateButtonText}>
-                  Generate Motivation ✨
+                  {t("mood_motivation.generate_button" as any)}
                 </Text>
               )}
             </TouchableOpacity>
@@ -317,7 +327,9 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
                 handleClose();
               }}
             >
-              <Text style={styles.closeButtonText}>Close</Text>
+              <Text style={styles.closeButtonText}>
+                {t("mood_motivation.close_button" as any)}
+              </Text>
             </TouchableOpacity>
           </ScrollView>
         </View>

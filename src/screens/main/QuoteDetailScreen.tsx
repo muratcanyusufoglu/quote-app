@@ -184,6 +184,10 @@ const QuoteDetailScreen: React.FC = () => {
     router.back();
   };
 
+  const handleHomePress = () => {
+    router.push("/");
+  };
+
   // Mood modal handlers
   const handleMoodIconPress = () => {
     setIsMoodModalVisible(true);
@@ -227,21 +231,39 @@ const QuoteDetailScreen: React.FC = () => {
       >
         {/* HTML-style Header */}
         <View style={styles.header}>
-          <TouchableOpacity
-            style={[
-              styles.headerButton,
-              {backgroundColor: theme.colors.whiteOverlay20},
-            ]}
-            onPress={handleMoodIconPress}
-            activeOpacity={0.7}
-          >
-            <IconSymbol
-              name="brain"
-              size={18}
-              color={theme.colors.text}
-              strokeWidth={2}
-            />
-          </TouchableOpacity>
+          <View style={styles.leftButtons}>
+            <TouchableOpacity
+              style={[
+                styles.headerButton,
+                {backgroundColor: theme.colors.whiteOverlay20},
+              ]}
+              onPress={handleHomePress}
+              activeOpacity={0.7}
+            >
+              <IconSymbol
+                name="home"
+                size={18}
+                color={theme.colors.text}
+                strokeWidth={2}
+              />
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[
+                styles.headerButton,
+                {backgroundColor: theme.colors.whiteOverlay20},
+              ]}
+              onPress={handleMoodIconPress}
+              activeOpacity={0.7}
+            >
+              <IconSymbol
+                name="brain"
+                size={18}
+                color={theme.colors.text}
+                strokeWidth={2}
+              />
+            </TouchableOpacity>
+          </View>
 
           <View
             style={[
@@ -478,6 +500,10 @@ const createStyles = (theme: any) =>
       paddingVertical: theme.spacing.md,
       paddingTop: theme.spacing.lg,
       marginBottom: theme.spacing.lg,
+    },
+    leftButtons: {
+      flexDirection: "row",
+      gap: theme.spacing.sm,
     },
     headerButton: {
       width: 44,
