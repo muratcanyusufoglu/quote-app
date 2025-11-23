@@ -1,23 +1,24 @@
-import { useLocalSearchParams } from "expo-router";
-import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import {useLocalSearchParams} from "expo-router";
+import React, {useEffect, useState} from "react";
+import {StyleSheet, Text, View} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { QuoteReels } from "../../components/reels";
-import { AIMessageCard } from "../../components/ui/AIMessageCard";
-import { CategoryFilterChip } from "../../components/ui/CategoryFilterChip";
-import { MoodSelectionModal } from "../../components/ui/MoodSelectionModal";
+import {QuoteReels} from "../../components/reels";
+import {AIMessageCard} from "../../components/ui/AIMessageCard";
+import {CategoryFilterChip} from "../../components/ui/CategoryFilterChip";
+import {MoodSelectionModal} from "../../components/ui/MoodSelectionModal";
 
-import { useAnalytics } from "../../hooks/useAnalytics";
-import { useDailyLimit } from "../../hooks/useDailyLimit";
-import { useMoodMotivation } from "../../hooks/useMoodMotivation";
-import { usePremium } from "../../hooks/usePremium"; // UNIFIED: Single premium source
+import DebugPanel from "@/src/components/ui/DebugPanel";
+import {useAnalytics} from "../../hooks/useAnalytics";
+import {useDailyLimit} from "../../hooks/useDailyLimit";
+import {useMoodMotivation} from "../../hooks/useMoodMotivation";
+import {usePremium} from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import {
   useExploreQuotes,
   useHomeQuotes,
   useQuoteCategories,
 } from "../../hooks/useQuoteService";
-import { useStoreReview } from "../../hooks/useStoreReview";
-import { getGlobalStreakFunctions } from "../../hooks/useStreak";
+import {useStoreReview} from "../../hooks/useStoreReview";
+import {getGlobalStreakFunctions} from "../../hooks/useStreak";
 import {
   useCommonTranslations,
   useScreenTranslations,
@@ -27,30 +28,30 @@ import {
   useOnboardingHydrated,
   useUserPreferences,
 } from "../../store/useOnboardingStore";
-import { usePaywallSelectors } from "../../store/usePaywallStore";
+import {usePaywallSelectors} from "../../store/usePaywallStore";
 import {
   usePurchaseActions,
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
-import { useQuoteSelectors } from "../../store/useQuoteStore";
-import { LocalizedQuote } from "../../types";
-import { useTheme } from "../../utils/ThemeContext";
+import {useQuoteSelectors} from "../../store/useQuoteStore";
+import {LocalizedQuote} from "../../types";
+import {useTheme} from "../../utils/ThemeContext";
 
 export function HomeScreen() {
   // Theme
-  const { theme } = useTheme();
+  const {theme} = useTheme();
 
   // Analytics
-  const { trackScreen, trackQuoteView, trackCategoryFilter } = useAnalytics();
+  const {trackScreen, trackQuoteView, trackCategoryFilter} = useAnalytics();
 
   // Store review tracking
-  const { incrementQuotesRead } = useStoreReview();
+  const {incrementQuotesRead} = useStoreReview();
 
   // Progressive paywall tracking
-  const { trackUserInteraction } = usePaywallSelectors.actions();
+  const {trackUserInteraction} = usePaywallSelectors.actions();
 
   // Daily quote limit tracking
-  const { tryViewQuote, limitInfo, getLimitStatusMessage } = useDailyLimit();
+  const {tryViewQuote, limitInfo, getLimitStatusMessage} = useDailyLimit();
 
   // Mood-based motivation
   const {
@@ -135,7 +136,7 @@ export function HomeScreen() {
   };
 
   // Router parameters for category selection from explore
-  const { selectedCategory } = useLocalSearchParams();
+  const {selectedCategory} = useLocalSearchParams();
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
 
   // Store hydration checks
@@ -147,22 +148,22 @@ export function HomeScreen() {
   const userPreferences = useUserPreferences();
 
   // UNIFIED: Premium status from unified system
-  const { isPremium } = usePremium(); // Extract isPremium boolean
-  const { setPremium } = usePurchaseActions();
+  const {isPremium} = usePremium(); // Extract isPremium boolean
+  const {setPremium} = usePurchaseActions();
 
   // Onboarding actions for debug
-  const { resetOnboarding } = useOnboardingActions();
+  const {resetOnboarding} = useOnboardingActions();
 
   // Paywall tracking
-  const { trackAction } = usePaywallSelectors.actions();
-  const { showPaywall } = usePaywallSelectors.actions();
+  const {trackAction} = usePaywallSelectors.actions();
+  const {showPaywall} = usePaywallSelectors.actions();
 
   // Translations
   const home = useScreenTranslations("home");
   const common = useCommonTranslations();
 
   // Categories for getting category name
-  const { allCategories } = useQuoteCategories();
+  const {allCategories} = useQuoteCategories();
 
   // Create styles with theme
   const styles = createStyles(theme);
@@ -356,7 +357,7 @@ export function HomeScreen() {
     return (
       <BaseScreen>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.loadingText, { color: theme.colors.text }]}>
+          <Text style={[styles.loadingText, {color: theme.colors.text}]}>
             {common.loading}
           </Text>
         </View>
@@ -369,13 +370,13 @@ export function HomeScreen() {
     return (
       <BaseScreen>
         <View style={styles.loadingContainer}>
-          <Text style={[styles.errorText, { color: theme.colors.error }]}>
+          <Text style={[styles.errorText, {color: theme.colors.error}]}>
             {categoryFilter
               ? home.category_no_quotes.replace("{category}", categoryFilter)
               : home.no_quotes}
           </Text>
           <Text
-            style={[styles.errorSubtext, { color: theme.colors.textSecondary }]}
+            style={[styles.errorSubtext, {color: theme.colors.textSecondary}]}
           >
             {categoryFilter
               ? home.try_other_category
@@ -383,7 +384,7 @@ export function HomeScreen() {
           </Text>
           {categoryFilter && (
             <Text
-              style={[styles.clearFilterText, { color: theme.colors.primary }]}
+              style={[styles.clearFilterText, {color: theme.colors.primary}]}
               onPress={clearCategoryFilter}
             >
               {home.back_to_home}
@@ -404,7 +405,7 @@ export function HomeScreen() {
       safeAreaStyle={{}} // Override BaseScreen padding
     >
       {/* Debug Panel */}
-      {/* {__DEV__ && (
+      {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -417,7 +418,7 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )} */}
+      )}
 
       {/* Mood Selection Modal */}
       <MoodSelectionModal
@@ -469,22 +470,19 @@ export function HomeScreen() {
           <View
             style={[
               styles.personalizationBanner,
-              { backgroundColor: theme.colors.surface },
+              {backgroundColor: theme.colors.surface},
             ]}
           >
             <View style={styles.personalizationContent}>
               <Text
-                style={[
-                  styles.personalizationText,
-                  { color: theme.colors.text },
-                ]}
+                style={[styles.personalizationText, {color: theme.colors.text}]}
               >
                 {home.personalized_quotes}
               </Text>
               <Text
                 style={[
                   styles.personalizationSubtext,
-                  { color: theme.colors.textSecondary },
+                  {color: theme.colors.textSecondary},
                 ]}
               >
                 {userPreferences?.selectedCategories?.slice(0, 3).join(", ")}

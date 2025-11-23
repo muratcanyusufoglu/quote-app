@@ -470,15 +470,51 @@ export function QuoteReels({
         }
       />
       {hasReachedDailyLimit() && !isPremium && (
-        <View style={styles.limitWarningBanner}>
-          <Text style={styles.limitWarningText}>
-            {t("paywall.daily_limit.limit_reached")}
-          </Text>
+        <View
+          style={[
+            styles.limitWarningBanner,
+            {
+              backgroundColor: theme.colors.whiteOverlay20,
+              borderColor: theme.colors.whiteOverlay25,
+            },
+          ]}
+        >
+          <View style={styles.limitWarningContent}>
+            <View
+              style={[
+                styles.limitWarningIcon,
+                { backgroundColor: theme.colors.brandYellow },
+              ]}
+            >
+              <Text style={styles.limitWarningIconText}>
+                ⚠️
+              </Text>
+            </View>
+            <Text
+              style={[
+                styles.limitWarningText,
+                { color: theme.colors.text },
+              ]}
+              numberOfLines={2}
+            >
+              {t("paywall.daily_limit.limit_reached")}
+            </Text>
+          </View>
           <TouchableOpacity
-            style={styles.upgradeButton}
+            style={[
+              styles.upgradeButton,
+              { backgroundColor: theme.colors.primary },
+            ]}
             onPress={() => showPaywall("daily_limit")}
+            activeOpacity={0.8}
           >
-            <Text style={styles.upgradeButtonText}>
+            <Text
+              style={[
+                styles.upgradeButtonText,
+                { color: theme.colors.text },
+              ]}
+              numberOfLines={1}
+            >
               {t("paywall.daily_limit.upgrade_to_premium")}
             </Text>
           </TouchableOpacity>
@@ -540,34 +576,60 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   limitWarningBanner: {
-    backgroundColor: "rgba(255, 59, 48, 0.9)",
-    paddingHorizontal: 20,
-    paddingVertical: 16,
+    paddingHorizontal: 12,
+    paddingVertical: 12,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginHorizontal: 20,
-    marginTop: 20,
-    borderRadius: 12,
+    marginHorizontal: 16,
+    marginTop: 16,
+    marginBottom: 16,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: "rgba(255, 59, 48, 0.3)",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  limitWarningContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    flex: 1,
+    marginRight: 8,
+    flexShrink: 1,
+  },
+  limitWarningIcon: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 10,
+    flexShrink: 0,
+  },
+  limitWarningIconText: {
+    fontSize: 16,
   },
   limitWarningText: {
-    color: "#FFFFFF",
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: "600",
     flex: 1,
+    flexShrink: 1,
+    lineHeight: 18,
   },
   upgradeButton: {
-    backgroundColor: "#FFFFFF",
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 8,
-    marginLeft: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 12,
+    flexShrink: 0,
   },
   upgradeButtonText: {
-    color: "#FF3B30",
-    fontSize: 14,
-    fontWeight: "600",
+    fontSize: 13,
+    fontWeight: "700",
+    textAlign: "center",
   },
 });

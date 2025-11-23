@@ -1121,8 +1121,8 @@ export const purpleDarkTheme: Theme = {
     ),
     background: purplePalette.background,
     surface: purplePalette.card,
-    text: purplePalette.textMain,
-    textSecondary: purplePalette.textSubtle,
+    text: purplePalette.textMain, // #F9FAFB - beyaz (koyu arka plan için)
+    textSecondary: purplePalette.royal200, // #9CA3AF - açık gri (daha görünür)
     brandYellow: purplePalette.primary,
     gradientColors: [purplePalette.background, purplePalette.background, purplePalette.background, purplePalette.background],
     gradientLocations: [0, 0.3, 0.7, 1],
@@ -1162,8 +1162,8 @@ export const minimalistDarkTheme: Theme = {
     ),
     background: minimalistPalette.backgroundDark,
     surface: minimalistPalette.cardDark,
-    text: minimalistPalette.textPrimaryDark,
-    textSecondary: minimalistPalette.textSecondaryDark,
+    text: minimalistPalette.textPrimaryDark, // #E0DACE - açık bej (koyu arka plan için)
+    textSecondary: minimalistPalette.textSecondaryDark, // #98989F - açık gri (daha görünür)
     brandYellow: minimalistPalette.primary,
     gradientColors: [minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark],
     gradientLocations: [0, 0.3, 0.7, 1],

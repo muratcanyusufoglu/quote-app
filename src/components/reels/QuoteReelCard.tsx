@@ -151,7 +151,7 @@ export function QuoteReelCard({
         <TouchableOpacity
           style={[
             styles.readStoryButton,
-            {backgroundColor: theme.colors.surface},
+            {backgroundColor: theme.colors.primary},
           ]}
           onPress={handlePress}
           activeOpacity={0.9}

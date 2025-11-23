@@ -29,7 +29,28 @@ export function OnboardingCard({
   variant = "default",
   style,
 }: OnboardingCardProps) {
-  const { theme } = useTheme();
+  const { theme, selectedTheme, isDark } = useTheme();
+
+  // Helper function to get theme-appropriate text colors
+  const getTextColor = (overlay?: number) => {
+    // Light themes need dark text colors
+    const isLightTheme = ['forest', 'sunset', 'minimalist'].includes(selectedTheme) && !isDark;
+    const isClassicLight = selectedTheme === 'uprising' && !isDark;
+
+    if (isLightTheme || isClassicLight) {
+      // Use dark text colors for light themes
+      if (overlay === 90) return '#2c3e50'; // textSoft equivalent
+      if (overlay === 70) return 'rgba(44, 62, 80, 0.7)'; // textSoftTertiary equivalent
+      if (overlay === 80) return 'rgba(44, 62, 80, 0.8)'; // textSoftSecondary equivalent
+      return '#383127'; // textPrimary for light themes
+    } else {
+      // Use original white overlay colors for dark themes
+      if (overlay === 90) return theme.colors.whiteOverlay90;
+      if (overlay === 70) return theme.colors.whiteOverlay70;
+      if (overlay === 80) return theme.colors.whiteOverlay80;
+      return theme.colors.white;
+    }
+  };
 
   const getCardStyles = () => {
     const baseStyle = {
@@ -70,15 +91,15 @@ export function OnboardingCard({
   const getTextStyles = (): { title: TextStyle; subtitle?: TextStyle } => {
     return {
       title: {
-        color: isSelected ? theme.colors.white : theme.colors.whiteOverlay90,
+        color: isSelected ? getTextColor() : getTextColor(90),
         fontSize: variant === "compact" ? 14 : 16,
         fontWeight: isSelected ? "700" : "600",
       },
       subtitle: subtitle
         ? {
             color: isSelected
-              ? theme.colors.whiteOverlay80
-              : theme.colors.whiteOverlay70,
+              ? getTextColor(80)
+              : getTextColor(70),
             fontSize: variant === "compact" ? 12 : 14,
             fontWeight: "500",
             marginTop: 4,
@@ -124,7 +145,7 @@ export function OnboardingCard({
             color={
               isSelected
                 ? theme.colors.brandYellow
-                : theme.colors.whiteOverlay80
+                : getTextColor(80)
             }
             strokeWidth={2}
             style={styles.icon}

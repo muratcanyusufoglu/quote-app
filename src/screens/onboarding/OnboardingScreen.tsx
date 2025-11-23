@@ -33,7 +33,7 @@ import { useTheme } from "../../utils/ThemeContext";
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 
 export function OnboardingScreen() {
-  const { theme } = useTheme();
+  const { theme, selectedTheme, isDark } = useTheme();
   const { addAnswer, generatePreferences, setCompleted } =
     useOnboardingActions();
 
@@ -273,6 +273,27 @@ export function OnboardingScreen() {
     }, 2000);
   };
 
+  // Helper function to get theme-appropriate text colors
+  const getTextColor = (overlay?: number) => {
+    // Light themes need dark text colors
+    const isLightTheme = ['forest', 'sunset', 'minimalist'].includes(selectedTheme) && !isDark;
+    const isClassicLight = selectedTheme === 'uprising' && !isDark;
+
+    if (isLightTheme || isClassicLight) {
+      // Use dark text colors for light themes
+      if (overlay === 90) return '#2c3e50'; // textSoft equivalent
+      if (overlay === 70) return 'rgba(44, 62, 80, 0.7)'; // textSoftTertiary equivalent
+      if (overlay === 80) return 'rgba(44, 62, 80, 0.8)'; // textSoftSecondary equivalent
+      return '#383127'; // textPrimary for light themes
+    } else {
+      // Use original white overlay colors for dark themes
+      if (overlay === 90) return theme.colors.whiteOverlay90;
+      if (overlay === 70) return theme.colors.whiteOverlay70;
+      if (overlay === 80) return theme.colors.whiteOverlay80;
+      return theme.colors.white;
+    }
+  };
+
   const renderIntroScreen = () => (
     <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
       <ScrollView
@@ -332,7 +353,7 @@ export function OnboardingScreen() {
               opacity: titleAnim,
             }}
           >
-            <Text style={[styles.welcomeTitle, { color: theme.colors.white }]}>
+            <Text style={[styles.welcomeTitle, { color: getTextColor() }]}>
               {onboarding.welcome_title}
             </Text>
           </Animated.View>
@@ -354,7 +375,7 @@ export function OnboardingScreen() {
             <Text
               style={[
                 styles.welcomeSubtitle,
-                { color: theme.colors.whiteOverlay90 },
+                { color: getTextColor(90) },
               ]}
             >
               {onboarding.welcome_subtitle}
@@ -421,7 +442,7 @@ export function OnboardingScreen() {
                   <Text
                     style={[
                       styles.modernFeatureTitle,
-                      { color: theme.colors.white },
+                      { color: getTextColor() },
                     ]}
                   >
                     {feature.title}
@@ -429,7 +450,7 @@ export function OnboardingScreen() {
                   <Text
                     style={[
                       styles.modernFeatureSubtitle,
-                      { color: theme.colors.whiteOverlay70 },
+                      { color: getTextColor(70) },
                     ]}
                   >
                     {feature.subtitle}
@@ -455,13 +476,13 @@ export function OnboardingScreen() {
     <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
       <View style={styles.completionContainer}>
         <Text style={styles.completionEmoji}>🎉</Text>
-        <Text style={[styles.completionTitle, { color: theme.colors.white }]}>
+        <Text style={[styles.completionTitle, { color: getTextColor() }]}>
           {onboarding.completion_title}
         </Text>
         <Text
           style={[
             styles.completionSubtitle,
-            { color: theme.colors.whiteOverlay90 },
+            { color: getTextColor(90) },
           ]}
         >
           {onboarding.completion_subtitle}
@@ -534,7 +555,7 @@ export function OnboardingScreen() {
   );
 
   const renderSlider = (question: any) => {
-    const value = answers[question.id] || question.min || 1;
+    const value = answers[question.id] || (question.id === 'notification_count' ? 7 : question.min || 1);
     const min = question.min || 1;
     const max = question.max || 10;
 
@@ -542,12 +563,12 @@ export function OnboardingScreen() {
       <View style={styles.sliderContainer}>
         <View style={styles.sliderValueContainer}>
           <Text
-            style={[styles.sliderValue, { color: theme.colors.brandYellow }]}
+            style={[styles.sliderValue, { color: getTextColor() }]}
           >
             {value}
           </Text>
           <Text
-            style={[styles.sliderLabel, { color: theme.colors.whiteOverlay80 }]}
+            style={[styles.sliderLabel, { color: getTextColor(80) }]}
           >
             {onboarding.notifications_per_day}
           </Text>
@@ -570,12 +591,12 @@ export function OnboardingScreen() {
 
           <View style={styles.sliderRange}>
             <Text
-              style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
+              style={[styles.rangeText, { color: getTextColor(70) }]}
             >
               {min}
             </Text>
             <Text
-              style={[styles.rangeText, { color: theme.colors.whiteOverlay70 }]}
+              style={[styles.rangeText, { color: getTextColor(70) }]}
             >
               {max}
             </Text>
@@ -689,7 +710,7 @@ export function OnboardingScreen() {
             ]}
           >
             <Text
-              style={[styles.timeDisplayTitle, { color: theme.colors.white }]}
+              style={[styles.timeDisplayTitle, { color: getTextColor() }]}
             >
               {onboarding.selected_time_range}
             </Text>
@@ -718,13 +739,13 @@ export function OnboardingScreen() {
             {
               backgroundColor: theme.colors.whiteOverlay10,
               borderColor: theme.colors.border,
-              color: theme.colors.white,
+              color: getTextColor(),
             },
           ]}
           value={value}
           onChangeText={(text) => handleAnswer(question.id, text)}
           placeholder={question.placeholder || ""}
-          placeholderTextColor={theme.colors.whiteOverlay70}
+          placeholderTextColor={getTextColor(70)}
           maxLength={question.maxLength || 100}
           autoCapitalize="words"
           autoCorrect={false}
@@ -737,7 +758,7 @@ export function OnboardingScreen() {
           <Text
             style={[
               styles.characterCount,
-              { color: theme.colors.whiteOverlay70 },
+              { color: getTextColor(70) },
             ]}
           >
             {value.length}/{question.maxLength}
@@ -757,7 +778,7 @@ export function OnboardingScreen() {
           style={styles.questionContainer}
           contentContainerStyle={styles.questionContent}
         >
-          <Text style={[styles.questionText, { color: theme.colors.white }]}>
+          <Text style={[styles.questionText, { color: getTextColor() }]}>
             {currentQuestion.question}
           </Text>
 
@@ -800,7 +821,7 @@ export function OnboardingScreen() {
           {/* <Text
             style={[
               styles.progressText,
-              { color: theme.colors.whiteOverlay80 },
+              { color: getTextColor(80) },
             ]}
           >
             {currentStep + 2} / {totalSteps}
@@ -835,7 +856,7 @@ export function OnboardingScreen() {
               onPress={handlePrevious}
             >
               <Text
-                style={[styles.navButtonText, { color: theme.colors.textSoft }]}
+                style={[styles.navButtonText, { color: getTextColor() }]}
               >
                 {onboarding.back}
               </Text>
@@ -863,7 +884,7 @@ export function OnboardingScreen() {
                 {
                   color: isStepComplete()
                     ? theme.colors.blackOverlay70
-                    : theme.colors.textSecondary,
+                    : getTextColor(),
                 },
               ]}
             >

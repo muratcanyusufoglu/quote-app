@@ -30,7 +30,7 @@ export function useStreak() {
 
   const { trackDailyStreak, trackUserAction } = useAnalytics();
 
-  // Check streak status when app becomes active
+  // Check streak status when app becomes active and show modal if needed
   const checkStreakOnAppOpen = useCallback(async () => {
     if (!hasHydrated) return;
 
@@ -40,18 +40,9 @@ export function useStreak() {
       const streakStatus: StreakStatus =
         await streakService.checkStreakOnAppOpen(currentStreak, lastReadDate);
 
-      console.log("🔥 Streak status:", streakStatus);
+      console.log("🔥 Streak status on app open:", streakStatus);
 
-      // Update store if streak changed
-      if (streakStatus.currentStreak !== currentStreak) {
-        // Note: We don't directly update the store here as it should be done
-        // when user actually reads a quote, but we can track analytics
-        console.log(
-          `🔥 Streak would change from ${currentStreak} to ${streakStatus.currentStreak}`
-        );
-      }
-
-      // Show modal if needed
+      // Show modal if needed (especially for break situations)
       if (streakStatus.shouldShowModal) {
         setModalState({
           visible: true,
@@ -63,13 +54,13 @@ export function useStreak() {
         if (streakStatus.isStreakContinued) {
           trackDailyStreak(streakStatus.currentStreak || currentStreak);
           trackUserAction({
-            action_type: "favorite_add", // Using existing action type as placeholder
+            action_type: "favorite_add",
             item_id: "streak_continued",
             new_value: (streakStatus.currentStreak || currentStreak).toString(),
           });
         } else {
           trackUserAction({
-            action_type: "favorite_remove", // Using existing action type as placeholder
+            action_type: "favorite_remove",
             item_id: "streak_broken",
             old_value: currentStreak.toString(),
           });
@@ -114,35 +105,45 @@ export function useStreak() {
     };
   }, [hasHydrated, checkStreakOnAppOpen]);
 
-  // Handle streak update when user reads a quote
+  // Handle streak update when user reads a quote (no modal)
   const updateStreakOnRead = useCallback(async () => {
     try {
+      // Önceki streak değerini kaydet
+      const previousStreak = currentStreak;
+
       // Store'daki streak'i güncelle
       actions.updateStreak();
 
-      // Streak service'den modal bilgisini al
+      // StreakService'den modal bilgisini al (şimdilik basit tutalım)
       const result = await streakService.updateStreakOnRead(
         lastReadDate,
-        currentStreak
+        previousStreak
       );
 
-      if (result.shouldShowModal) {
-        setModalState({
-          visible: true,
-          streakCount: result.newStreak,
-          isStreakContinued: true, // Always true when reading
-        });
+      console.log("🔥 Streak update on read:", {
+        previousStreak,
+        newStreak: result.newStreak,
+        isBreak: result.isBreak,
+        lastReadDate,
+      });
 
-        // Track analytics
+      // Okuma yaptığında modal göstermiyoruz - sadece app açıldığında gösteriyoruz
+      // Analytics için track edelim ama modal gösterme
+
+      // Track analytics silently
+      if (!result.isBreak) {
         trackDailyStreak(result.newStreak);
         trackUserAction({
-          action_type: "favorite_add", // Using existing action type as placeholder
-          item_id: "streak_updated",
+          action_type: "favorite_add",
+          item_id: "streak_continued",
           new_value: result.newStreak.toString(),
         });
-
-        // Mark modal as shown
-        await streakService.markModalShown();
+      } else {
+        trackUserAction({
+          action_type: "favorite_remove",
+          item_id: "streak_broken",
+          old_value: previousStreak.toString(),
+        });
       }
 
       return result.newStreak;
@@ -188,6 +189,9 @@ export function useStreak() {
       streakCount: count,
       isStreakContinued: true,
     });
+
+    // Mark modal as shown for testing
+    streakService.markModalShown();
   }, []);
 
   const showStreakBreak = useCallback((count: number = 0) => {
@@ -197,6 +201,9 @@ export function useStreak() {
       streakCount: count,
       isStreakContinued: false,
     });
+
+    // Mark modal as shown for testing
+    streakService.markModalShown();
   }, []);
 
   // Update global functions for debug panel access

@@ -146,7 +146,7 @@ expo-env.d.ts
 /src/data/quotes.json.backup
 /src/services/AIService.ts
 /src/services/firebase.ts
-#Translations and localization data
+Translations and localization data
 /src/data/translations/*.json
 #Firebase Configuration Files (contain sensitive API keys)
 GoogleService-Info.plist

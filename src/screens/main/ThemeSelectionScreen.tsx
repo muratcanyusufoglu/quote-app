@@ -106,108 +106,18 @@ export function ThemeSelectionScreen() {
 
         {/* Header */}
         <View style={styles.headerContainer}>
-          <Text style={[styles.title, {color: theme.colors.white}]}>
+          <Text style={[styles.title, {color: theme.colors.text}]}>
             {themeTranslations.title}
-          </Text>
-          <Text style={[styles.subtitle, {color: "rgba(255, 255, 255, 0.8)"}]}>
-            {themeTranslations.subtitle}
           </Text>
         </View>
 
         <ScrollView
           style={styles.scrollContent}
           showsVerticalScrollIndicator={false}
+          contentContainerStyle={styles.scrollContentContainer}
         >
-          {/* Color Scheme Section */}
-          <View style={styles.section}>
-            {/* <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
-              {themeTranslations.brightness}
-            </Text>
-            <Text
-              style={[
-                styles.sectionDescription,
-                { color: "rgba(255, 255, 255, 0.7)" },
-              ]}
-            >
-              {themeTranslations.brightness_description}
-            </Text> */}
-
-            <View style={styles.optionsGrid}>
-              {[
-                {
-                  key: "light" as ColorScheme,
-                  icon: "sunrise" as const,
-                  label: themeTranslations.light,
-                },
-                {
-                  key: "dark" as ColorScheme,
-                  icon: "moon" as const,
-                  label: themeTranslations.dark,
-                },
-                {
-                  key: "system" as ColorScheme,
-                  icon: "home" as const,
-                  label: themeTranslations.system,
-                },
-              ].map((option) => (
-                <TouchableOpacity
-                  key={option.key}
-                  style={[
-                    styles.colorSchemeOption,
-                    {
-                      backgroundColor: theme.colors.whiteOverlay10,
-                      borderColor:
-                        colorScheme === option.key
-                          ? theme.colors.brandYellow
-                          : theme.colors.whiteOverlay20,
-                      borderWidth: colorScheme === option.key ? 2 : 1,
-                    },
-                  ]}
-                  onPress={() => handleColorSchemeSelect(option.key)}
-                  activeOpacity={0.7}
-                >
-                  <IconSymbol
-                    name={option.icon}
-                    size={24}
-                    color={
-                      colorScheme === option.key
-                        ? theme.colors.brandYellow
-                        : theme.colors.white
-                    }
-                  />
-                  <Text
-                    style={[
-                      styles.colorSchemeLabel,
-                      {
-                        color:
-                          colorScheme === option.key
-                            ? theme.colors.brandYellow
-                            : theme.colors.white,
-                        fontWeight: colorScheme === option.key ? "600" : "500",
-                      },
-                    ]}
-                  >
-                    {option.label}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </View>
-          </View>
-
           {/* Theme Selection Section */}
           <View style={styles.section}>
-            <Text style={[styles.sectionTitle, {color: theme.colors.white}]}>
-              {themeTranslations.color_themes}
-            </Text>
-            <Text
-              style={[
-                styles.sectionDescription,
-                {color: "rgba(255, 255, 255, 0.7)"},
-              ]}
-            >
-              {themeTranslations.color_themes_description}
-            </Text>
-
             <View style={styles.themesGrid}>
               {(Object.keys(themeMetadata) as ThemeOption[]).map((themeKey) => {
                 const metadata = themeMetadata[themeKey];
@@ -215,6 +125,56 @@ export function ThemeSelectionScreen() {
 
                 // Get preview theme for this option
                 const previewTheme = getThemeByOption(themeKey, isDark);
+
+                // Helper function to determine icon color based on primary color brightness
+                const getIconColorForPrimary = (
+                  primaryColor: string
+                ): string => {
+                  // Convert hex to RGB
+                  const hex = primaryColor.replace("#", "");
+                  const r = parseInt(hex.substring(0, 2), 16);
+                  const g = parseInt(hex.substring(2, 4), 16);
+                  const b = parseInt(hex.substring(4, 6), 16);
+
+                  // Calculate brightness (0-255)
+                  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+
+                  // If primary is light, use dark icon; if dark, use light icon
+                  return brightness > 128 ? "#2A2A2A" : "#FFFFFF";
+                };
+
+                // Helper function to determine text shadow based on text color brightness
+                const getTextShadowColor = (textColor: string): string => {
+                  // Convert hex to RGB
+                  const hex = textColor.replace("#", "");
+                  const r = parseInt(hex.substring(0, 2), 16);
+                  const g = parseInt(hex.substring(2, 4), 16);
+                  const b = parseInt(hex.substring(4, 6), 16);
+
+                  // Calculate brightness (0-255)
+                  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+
+                  // If text is dark, use light shadow; if light, use dark shadow
+                  return brightness > 128
+                    ? "rgba(255, 255, 255, 0.5)"
+                    : "rgba(0, 0, 0, 0.5)";
+                };
+
+                // Helper function to get appropriate text color for theme cards
+                // Purple and Minimalist themes need light text on dark gradients
+                const getThemeCardTextColor = (
+                  themeKey: ThemeOption,
+                  isMainText: boolean
+                ): string => {
+                  if (themeKey === "purple" || themeKey === "minimalist") {
+                    // Use light colors for dark gradient backgrounds
+                    return isMainText ? "#FFFFFF" : "#E5E7EB"; // White for main, light gray for secondary
+                  }
+                  // For other themes, use the preview theme's text colors
+                  return isMainText
+                    ? previewTheme.colors.text
+                    : previewTheme.colors.textSecondary;
+                };
 
                 // Map theme icons to available icons
                 const getValidIcon = (iconName: string) => {
@@ -277,7 +237,9 @@ export function ThemeSelectionScreen() {
                         <IconSymbol
                           name={getValidIcon(metadata.icon)}
                           size={20}
-                          color="white"
+                          color={getIconColorForPrimary(
+                            previewTheme.colors.primary
+                          )}
                         />
                       </View>
 
@@ -287,9 +249,15 @@ export function ThemeSelectionScreen() {
                           style={[
                             styles.themeName,
                             {
-                              color: "white",
+                              color: getThemeCardTextColor(themeKey, true),
                               fontWeight: isSelected ? "700" : "600",
-                              textShadowColor: "rgba(0, 0, 0, 0.5)",
+                              textShadowColor:
+                                themeKey === "purple" ||
+                                themeKey === "minimalist"
+                                  ? "rgba(0, 0, 0, 0.5)" // Dark shadow for light text
+                                  : getTextShadowColor(
+                                      previewTheme.colors.text
+                                    ),
                               textShadowOffset: {width: 0, height: 1},
                               textShadowRadius: 3,
                             },
@@ -301,8 +269,14 @@ export function ThemeSelectionScreen() {
                           style={[
                             styles.themeDescription,
                             {
-                              color: "rgba(255, 255, 255, 0.95)",
-                              textShadowColor: "rgba(0, 0, 0, 0.3)",
+                              color: getThemeCardTextColor(themeKey, false),
+                              textShadowColor:
+                                themeKey === "purple" ||
+                                themeKey === "minimalist"
+                                  ? "rgba(0, 0, 0, 0.3)" // Dark shadow for light text
+                                  : getTextShadowColor(
+                                      previewTheme.colors.textSecondary
+                                    ),
                               textShadowOffset: {width: 0, height: 1},
                               textShadowRadius: 2,
                             },
@@ -320,17 +294,33 @@ export function ThemeSelectionScreen() {
                             {backgroundColor: theme.colors.brandYellow},
                           ]}
                         >
-                          <IconSymbol name="heart" size={16} color="#1a1a1a" />
+                          <IconSymbol
+                            name="checkmark"
+                            size={16}
+                            color={getIconColorForPrimary(
+                              theme.colors.brandYellow
+                            )}
+                          />
                         </View>
                       )}
 
                       {/* Subtle Overlay for Better Text Readability */}
                       <LinearGradient
-                        colors={[
-                          "transparent",
-                          "rgba(0, 0, 0, 0.05)",
-                          "rgba(0, 0, 0, 0.15)",
-                        ]}
+                        colors={
+                          // Use dark overlay for light text, light overlay for dark text
+                          getTextShadowColor(previewTheme.colors.text) ===
+                          "rgba(0, 0, 0, 0.5)"
+                            ? [
+                                "transparent",
+                                "rgba(0, 0, 0, 0.05)",
+                                "rgba(0, 0, 0, 0.15)",
+                              ]
+                            : [
+                                "transparent",
+                                "rgba(255, 255, 255, 0.05)",
+                                "rgba(255, 255, 255, 0.15)",
+                              ]
+                        }
                         locations={[0, 0.7, 1]}
                         style={styles.themeTextOverlay}
                         pointerEvents="none"
@@ -370,43 +360,14 @@ const createStyles = (theme: any) =>
       fontWeight: "700",
       marginBottom: 8,
     },
-    subtitle: {
-      fontSize: 16,
-      lineHeight: 22,
-    },
     scrollContent: {
       flex: 1,
     },
+    scrollContentContainer: {
+      paddingTop: 0,
+    },
     section: {
       marginBottom: 32,
-    },
-    sectionTitle: {
-      fontSize: 20,
-      fontWeight: "600",
-      marginBottom: 8,
-    },
-    sectionDescription: {
-      fontSize: 14,
-      marginBottom: 20,
-      lineHeight: 20,
-    },
-
-    // Color Scheme Options
-    optionsGrid: {
-      flexDirection: "row",
-      gap: 12,
-    },
-    colorSchemeOption: {
-      flex: 1,
-      alignItems: "center",
-      paddingVertical: 16,
-      paddingHorizontal: 12,
-      borderRadius: 12,
-      gap: 8,
-    },
-    colorSchemeLabel: {
-      fontSize: 14,
-      textAlign: "center",
     },
 
     // Theme Options

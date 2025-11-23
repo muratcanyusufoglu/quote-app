@@ -26,7 +26,7 @@ export class StreakService {
   }
 
   /**
-   * Check streak status when app opens
+   * Check streak status when app opens and show modal if needed
    */
   async checkStreakOnAppOpen(
     currentStreak: number,
@@ -43,18 +43,14 @@ export class StreakService {
       const modalShownToday = await AsyncStorage.getItem(
         STREAK_MODAL_SHOWN_KEY
       );
-      const shouldShowModal = modalShownToday !== today;
+      const hasModalShownToday = modalShownToday === today;
 
-      let newStreak = currentStreak;
-      let isStreakContinued = true;
-      let isNewStreak = false;
-
-      console.log("🔥 Checking streak status:", {
+      console.log("🔥 Checking streak status on app open:", {
         today,
         yesterday,
         lastReadDate,
         currentStreak,
-        modalShownToday,
+        hasModalShownToday,
       });
 
       if (!lastReadDate) {
@@ -68,35 +64,39 @@ export class StreakService {
         };
       }
 
+      let newStreak = currentStreak;
+      let isStreakContinued = true;
+      let shouldShowModal = false;
+
       if (lastReadDate === today) {
-        // User already read today - streak continues
-        console.log("✅ User already read today - streak continues");
+        // User read today - streak continues
+        console.log("✅ User read today - streak continues");
         isStreakContinued = true;
+        // Bugün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
+        shouldShowModal = !hasModalShownToday;
       } else if (lastReadDate === yesterday) {
-        // User read yesterday but not today yet - streak can continue
-        console.log("⏰ User read yesterday - streak can continue");
+        // User read yesterday - could continue streak
+        console.log("⏰ User read yesterday - can continue streak");
         isStreakContinued = true;
+        // Dün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
+        shouldShowModal = !hasModalShownToday;
       } else {
         // User missed a day - streak is broken
         console.log("💔 User missed a day - streak is broken");
         newStreak = 0;
         isStreakContinued = false;
-      }
-
-      // Determine if this is a new streak start
-      if (newStreak === 1 && lastReadDate === today) {
-        isNewStreak = true;
+        // Break durumu - modal göster
+        shouldShowModal = !hasModalShownToday;
       }
 
       const result: StreakStatus = {
         currentStreak: newStreak,
         isStreakContinued,
-        shouldShowModal:
-          shouldShowModal && (newStreak > 0 || !isStreakContinued),
-        isNewStreak,
+        shouldShowModal,
+        isNewStreak: false,
       };
 
-      console.log("🔥 Streak status result:", result);
+      console.log("🔥 Streak status on app open result:", result);
       return result;
     } catch (error) {
       console.error("Error checking streak status:", error);
@@ -169,13 +169,14 @@ export class StreakService {
   async updateStreakOnRead(
     lastReadDate: string,
     currentStreak: number
-  ): Promise<{ newStreak: number; shouldShowModal: boolean }> {
+  ): Promise<{ newStreak: number; shouldShowModal: boolean; isBreak: boolean }> {
     try {
       const today = getTodayString();
       const yesterday = getYesterdayString();
 
       let newStreak = currentStreak;
       let shouldShowModal = false;
+      let isBreak = false;
 
       console.log("📖 StreakService.updateStreakOnRead called:", {
         lastReadDate,
@@ -197,7 +198,11 @@ export class StreakService {
           shouldShowModal = true;
           console.log("🌟 First ever read - streak started at 1");
         } else {
-          // Missed days - start new streak
+          // Missed days - check if it's a break
+          if (currentStreak > 1) {
+            isBreak = true;
+            console.log("💔 Streak broken! Previous streak:", currentStreak);
+          }
           newStreak = 1;
           shouldShowModal = true;
           console.log("💔 Missed days - streak reset to 1");
@@ -221,12 +226,13 @@ export class StreakService {
         currentStreak,
         newStreak,
         shouldShowModal,
+        isBreak,
       });
 
-      return { newStreak, shouldShowModal };
+      return { newStreak, shouldShowModal, isBreak };
     } catch (error) {
       console.error("Error updating streak on read:", error);
-      return { newStreak: currentStreak, shouldShowModal: false };
+      return { newStreak: currentStreak, shouldShowModal: false, isBreak: false };
     }
   }
 
