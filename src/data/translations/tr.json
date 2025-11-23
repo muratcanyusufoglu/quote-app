@@ -495,30 +495,30 @@
     "system": "Sistem",
     "color_themes": "Renk Temaları",
     "color_themes_description": "Favori renk paletinizi seçin",
-    "uprising": {
-      "name": "Klasik",
-      "description": "Zamansız altın zarafet"
-    },
-    "ocean": {
-      "name": "Okyanus",
-      "description": "Sakinleştirici derin mavi"
-    },
-    "forest": {
-      "name": "Orman",
-      "description": "Sıcak minimalist konfor"
-    },
-    "sunset": {
-      "name": "Gün Batımı",
-      "description": "Canlı sıcak gradyan"
-    },
-    "purple": {
-      "name": "Mor",
-      "description": "Cesur cam efekti stili"
-    },
-    "minimalist": {
-      "name": "Minimalist",
-      "description": "Rafine koyu zarafet"
-    }
+      "uprising": {
+        "name": "Klasik",
+        "description": "Zamansız altın zarafet"
+      },
+      "ocean": {
+        "name": "Okyanus",
+        "description": "Sakinleştirici derin mavi"
+      },
+      "forest": {
+        "name": "Orman",
+        "description": "Sıcak minimalist konfor"
+      },
+      "sunset": {
+        "name": "Dünya",
+        "description": "Sıcak toprak tonları"
+      },
+      "purple": {
+        "name": "Mor",
+        "description": "Cesur cam efekti stili"
+      },
+      "minimalist": {
+        "name": "Minimalist",
+        "description": "Rafine koyu zarafet"
+      }
   },
   "store_review": {
     "request_title": "Quote'u Beğeniyor musunuz?",

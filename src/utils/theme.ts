@@ -763,42 +763,52 @@ const classicPalette = {
   classic900: "#991B1B",
 };
 
-// Sunset Theme - Gradient Yellow to Pink (from inspirational_quote_display_5)
+// Sunset Theme - Warm Earth Tones (from HTML example)
 const sunsetPalette = {
-  // Gradient colors
-  gradientStart: "#FCE38A", // Warm yellow
-  gradientEnd: "#F38181", // Soft coral pink
-  
-  // Card & Button colors
-  cardBg: "rgba(255, 255, 255, 0.2)", // Glassmorphism
-  buttonBg: "#FFFFFF",
-  
+  // Background colors
+  backgroundLight: "#E6E0D4",
+  backgroundDark: "#1C1C1E",
+
+  // Card colors
+  cardLight: "#F7F5F2",
+  cardDark: "#2C2C2E",
+
+  // Primary colors - warm earth tones
+  primary: "#6A5B4C", // Deep brown
+  primaryLight: "#8A7F71",
+  primaryDark: "#383127",
+
+  // Secondary colors - warm beige
+  secondary: "#D1C4B3",
+  secondaryLight: "#E0DACE",
+  secondaryDark: "#B8AB9F",
+
+  // Accent colors
+  accent: "#DCD5C9", // Light border color
+  accentLight: "#98989F", // Light text
+  accentDark: "#444446", // Dark border
+
   // Text colors
-  textMain: "#2A2A2A",
-  textSecondary: "#4A4A4A",
-  iconColor: "#616161",
-  
-  // Primary colors derived from gradient
-  primary: "#FCE38A",
-  primaryLight: "#FEF3C7",
-  primaryDark: "#FBBF24",
-  
-  // Secondary colors
-  secondary: "#F38181",
-  secondaryLight: "#FCA5A5",
-  secondaryDark: "#DC2626",
-  
-  // Additional shades
-  sunset50: "#FFFBEB",
-  sunset100: "#FEF3C7",
-  sunset200: "#FCE38A",
-  sunset300: "#FBD55A",
-  sunset400: "#FAC73C",
-  sunset500: "#F9B91E",
-  sunset600: "#F38181",
-  sunset700: "#EF5757",
-  sunset800: "#DC2626",
-  sunset900: "#991B1B",
+  textPrimaryLight: "#383127", // Dark brown for light backgrounds
+  textPrimaryDark: "#E0DACE", // Light beige for dark backgrounds
+  textSecondaryLight: "#8A7F71", // Medium brown
+  textSecondaryDark: "#98989F", // Light gray
+
+  // Border colors
+  borderLight: "#DCD5C9", // Light border
+  borderDark: "#444446", // Dark border
+
+  // Additional shades for compatibility
+  sunset50: "#E6E0D4", // Light background
+  sunset100: "#F7F5F2", // Light card
+  sunset200: "#DCD5C9", // Light border
+  sunset300: "#8A7F71", // Medium brown
+  sunset400: "#6A5B4C", // Primary brown
+  sunset500: "#383127", // Dark brown
+  sunset600: "#D1C4B3", // Warm beige
+  sunset700: "#444446", // Dark border
+  sunset800: "#2C2C2E", // Dark card
+  sunset900: "#1C1C1E", // Dark background
 };
 
 // Purple Theme - Glassmorphism Dark (from inspirational_quote_display_4)
@@ -1047,7 +1057,7 @@ export const classicDarkTheme: Theme = {
   },
 };
 
-// Sunset Themes - Gradient Yellow to Pink (gerçek gradient kullanır)
+// Sunset Themes - Warm Earth Tones (brown/beige palette)
 export const sunsetLightTheme: Theme = {
   ...lightTheme,
   colors: {
@@ -1055,16 +1065,16 @@ export const sunsetLightTheme: Theme = {
     ...createThemedColors(
       sunsetPalette.primary,
       sunsetPalette.secondary,
-      sunsetPalette.primary,
-      [sunsetPalette.gradientStart, sunsetPalette.sunset200, sunsetPalette.sunset400, sunsetPalette.gradientEnd]
+      sunsetPalette.secondary,
+      [sunsetPalette.backgroundLight, sunsetPalette.backgroundLight, sunsetPalette.backgroundLight, sunsetPalette.backgroundLight]
     ),
-    background: sunsetPalette.gradientStart,
-    surface: sunsetPalette.buttonBg,
-    text: sunsetPalette.textMain,
-    textSecondary: sunsetPalette.textSecondary,
-    brandYellow: sunsetPalette.primary,
-    gradientColors: [sunsetPalette.gradientStart, sunsetPalette.sunset200, sunsetPalette.sunset400, sunsetPalette.gradientEnd],
-    gradientLocations: [0, 0.4, 0.7, 1],
+    background: sunsetPalette.backgroundLight,
+    surface: sunsetPalette.cardLight,
+    text: sunsetPalette.textPrimaryLight,
+    textSecondary: sunsetPalette.textSecondaryLight,
+    brandYellow: sunsetPalette.secondary,
+    gradientColors: [sunsetPalette.backgroundLight, sunsetPalette.backgroundLight, sunsetPalette.backgroundLight, sunsetPalette.backgroundLight],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -1073,17 +1083,17 @@ export const sunsetDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      sunsetPalette.primary,
       sunsetPalette.secondary,
       sunsetPalette.primary,
-      [sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900]
+      sunsetPalette.secondary,
+      [sunsetPalette.backgroundDark, sunsetPalette.backgroundDark, sunsetPalette.backgroundDark, sunsetPalette.backgroundDark]
     ),
-    background: sunsetPalette.sunset900,
-    surface: sunsetPalette.sunset800,
-    text: sunsetPalette.sunset50,
-    textSecondary: sunsetPalette.sunset200,
-    brandYellow: sunsetPalette.primary,
-    gradientColors: [sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900],
+    background: sunsetPalette.backgroundDark,
+    surface: sunsetPalette.cardDark,
+    text: sunsetPalette.textPrimaryDark,
+    textSecondary: sunsetPalette.textSecondaryDark,
+    brandYellow: sunsetPalette.secondary,
+    gradientColors: [sunsetPalette.backgroundDark, sunsetPalette.backgroundDark, sunsetPalette.backgroundDark, sunsetPalette.backgroundDark],
     gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
@@ -1219,8 +1229,8 @@ export const themeMetadata = {
   },
   sunset: {
     icon: "sunset",
-    preview: sunsetPalette.gradientEnd,
-    name: "Sunset", // Gradient yellow to pink theme
+    preview: sunsetPalette.secondary,
+    name: "Earth", // Warm earth tones - brown and beige palette
   },
   purple: {
     icon: "sparkles",

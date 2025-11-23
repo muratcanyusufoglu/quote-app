@@ -87,8 +87,8 @@ export function ThemeSelectionScreen() {
       ocean: ["#0A0D13", "#161C28", "#1C2331", "#273449", "#F4C47A"],
       // Forest - Light Minimalist
       forest: ["#E8E4DC", "#F3EFE9", "#FBF9F6", "#E0CDBA", "#4A5C6A"],
-      // Sunset - Gradient Yellow to Pink
-      sunset: ["#FCE38A", "#FBD55A", "#FAC73C", "#F38181", "#EF5757"],
+      // Earth - Warm Earth Tones (brown and beige palette)
+      sunset: ["#E6E0D4", "#F7F5F2", "#DCD5C9", "#D1C4B3", "#6A5B4C"],
       // Purple - Glassmorphism Dark
       purple: ["#020617", "#0F172A", "#111827", "#F59E0B", "#EC4899"],
       // Minimalist - Elegant Dark

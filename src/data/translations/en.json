@@ -503,30 +503,30 @@
     "system": "System",
     "color_themes": "Color Themes",
     "color_themes_description": "Choose your favorite color palette",
-    "uprising": {
-      "name": "Classic",
-      "description": "Timeless golden elegance"
-    },
-    "ocean": {
-      "name": "Ocean",
-      "description": "Calming deep blue serenity"
-    },
-    "forest": {
-      "name": "Forest",
-      "description": "Warm minimalist comfort"
-    },
-    "sunset": {
-      "name": "Sunset",
-      "description": "Vibrant warm gradient"
-    },
-    "purple": {
-      "name": "Purple",
-      "description": "Bold glassmorphism style"
-    },
-    "minimalist": {
-      "name": "Minimalist",
-      "description": "Refined dark elegance"
-    }
+      "uprising": {
+        "name": "Classic",
+        "description": "Timeless golden elegance"
+      },
+      "ocean": {
+        "name": "Ocean",
+        "description": "Calming deep blue serenity"
+      },
+      "forest": {
+        "name": "Forest",
+        "description": "Warm minimalist comfort"
+      },
+      "sunset": {
+        "name": "Earth",
+        "description": "Warm earth tones"
+      },
+      "purple": {
+        "name": "Purple",
+        "description": "Bold glassmorphism style"
+      },
+      "minimalist": {
+        "name": "Minimalist",
+        "description": "Refined dark elegance"
+      }
   },
   "store_review": {
     "request_title": "Enjoying Quote?",
