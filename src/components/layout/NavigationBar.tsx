@@ -172,7 +172,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            { backgroundColor: theme.colors.whiteOverlay10 },
+            { backgroundColor: theme.colors.whiteOverlay20 },
           ]}
           onPress={navigateToHome}
           activeOpacity={0.7}
@@ -180,7 +180,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           <IconSymbol
             name="house.fill"
             size={24}
-            color={theme.colors.brandYellow}
+            color={theme.colors.text}
           />
         </TouchableOpacity>
       </Animated.View>
@@ -194,7 +194,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            { backgroundColor: theme.colors.whiteOverlay10 },
+            { backgroundColor: theme.colors.whiteOverlay20 },
           ]}
           onPress={navigateToFavorites}
           activeOpacity={0.7}
@@ -202,7 +202,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           <IconSymbol
             name="heart.fill"
             size={24}
-            color={theme.colors.brandYellow}
+            color={theme.colors.text}
           />
         </TouchableOpacity>
       </Animated.View>
@@ -216,7 +216,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            { backgroundColor: theme.colors.whiteOverlay10 },
+            { backgroundColor: theme.colors.whiteOverlay20 },
           ]}
           onPress={navigateToHistory}
           activeOpacity={0.7}
@@ -224,7 +224,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           <IconSymbol
             name="clock.fill"
             size={24}
-            color={theme.colors.brandYellow}
+            color={theme.colors.text}
           />
         </TouchableOpacity>
       </Animated.View>
@@ -238,7 +238,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            { backgroundColor: theme.colors.whiteOverlay10 },
+            { backgroundColor: theme.colors.whiteOverlay20 },
           ]}
           onPress={navigateToThemes}
           activeOpacity={0.7}
@@ -246,7 +246,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           <IconSymbol
             name="palette"
             size={20}
-            color={theme.colors.brandYellow}
+            color={theme.colors.text}
           />
         </TouchableOpacity>
       </Animated.View>
@@ -260,7 +260,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            { backgroundColor: theme.colors.whiteOverlay10 },
+            { backgroundColor: theme.colors.whiteOverlay20 },
           ]}
           onPress={navigateToSettings}
           activeOpacity={0.7}
@@ -268,7 +268,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
           <IconSymbol
             name="settings"
             size={20}
-            color={theme.colors.brandYellow}
+            color={theme.colors.text}
           />
         </TouchableOpacity>
       </Animated.View>

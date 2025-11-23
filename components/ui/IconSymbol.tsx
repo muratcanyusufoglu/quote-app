@@ -1,5 +1,4 @@
 // Modern, smooth icons using Lucide React Native
-
 import {
   AlertTriangle,
   Angry,
@@ -69,6 +68,7 @@ import {
   X,
   Zap,
 } from "lucide-react-native";
+import React, { memo, useMemo } from "react";
 import {
   OpaqueColorValue,
   Text,
@@ -169,7 +169,7 @@ export type IconName = keyof typeof ICON_MAPPING | ExtraIconNames;
  * Modern icon component using Lucide React Native for smooth, minimal icons
  * that look great across all platforms with consistent styling.
  */
-export function IconSymbol({
+function IconSymbolBase({
   name,
   size = 24,
   color = "#000000",
@@ -194,15 +194,26 @@ export function IconSymbol({
     );
   }
 
-  const IconComponent = ICON_MAPPING[name as keyof typeof ICON_MAPPING];
+  const IconComponent = useMemo(
+    () => ICON_MAPPING[name as keyof typeof ICON_MAPPING],
+    [name]
+  );
 
-  // Debug logging
-  console.log(`🔍 IconSymbol: Requesting icon "${name}"`);
-  console.log(`🔍 IconComponent found:`, !!IconComponent);
+  // Debug logging (DEV only)
+  if (__DEV__) {
+    // eslint-disable-next-line no-console
+    console.log(
+      `🔍 IconSymbol: Requesting icon "${name}" (found: ${!!IconComponent})`
+    );
+  }
 
   if (!IconComponent) {
-    console.warn(`❌ Icon "${name}" not found in IconSymbol mapping`);
-    console.log("Available icons:", Object.keys(ICON_MAPPING));
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.warn(`❌ Icon "${name}" not found in IconSymbol mapping`);
+      // eslint-disable-next-line no-console
+      console.log("Available icons:", Object.keys(ICON_MAPPING));
+    }
 
     // Return a debug text instead of fallback icon to identify the issue
     return (
@@ -224,10 +235,12 @@ export function IconSymbol({
   }
 
   try {
-    console.log(
-      `✅ Rendering icon "${name}" with component:`,
-      IconComponent.name
-    );
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.log(
+        `✅ Rendering icon "${name}" with component: ${IconComponent.name}`
+      );
+    }
     return (
       <IconComponent
         size={size}
@@ -237,7 +250,10 @@ export function IconSymbol({
       />
     );
   } catch (error) {
-    console.error(`❌ Error rendering icon "${name}":`, error);
+    if (__DEV__) {
+      // eslint-disable-next-line no-console
+      console.error(`❌ Error rendering icon "${name}":`, error);
+    }
     return (
       <View
         style={[
@@ -256,3 +272,5 @@ export function IconSymbol({
     );
   }
 }
+
+export const IconSymbol = memo(IconSymbolBase);

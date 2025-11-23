@@ -67,7 +67,7 @@ export function NavigationHeader({
     title: {
       fontSize: 24,
       fontWeight: "bold",
-      color: theme.colors.white,
+      color: theme.colors.text,
       flex: 1,
     },
     premiumBadge: {
@@ -86,7 +86,7 @@ export function NavigationHeader({
       gap: 4,
     },
     premiumText: {
-      color: isPremium ? theme.colors.textSoft : theme.colors.white,
+      color: isPremium ? theme.colors.textSoft : theme.colors.text,
       fontSize: 12,
       fontWeight: "700",
       letterSpacing: 0.3,
@@ -101,7 +101,7 @@ export function NavigationHeader({
             <IconSymbol
               name="arrow.left"
               size={20}
-              color={theme.colors.white}
+              color={theme.colors.text}
               strokeWidth={2}
             />
           </TouchableOpacity>

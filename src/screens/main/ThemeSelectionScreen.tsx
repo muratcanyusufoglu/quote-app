@@ -1,5 +1,5 @@
-import { LinearGradient } from "expo-linear-gradient";
-import React, { useEffect } from "react";
+import {LinearGradient} from "expo-linear-gradient";
+import React, {useEffect} from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -7,16 +7,16 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { NavigationBar } from "../../components/layout/NavigationBar";
-import { useAnalytics } from "../../hooks/useAnalytics";
+import {NavigationBar} from "../../components/layout/NavigationBar";
+import {useAnalytics} from "../../hooks/useAnalytics";
 import {
   useCommonTranslations,
   useTranslation,
 } from "../../hooks/useTranslation";
-import { getThemeByOption, themeMetadata } from "../../utils/theme";
-import { useTheme } from "../../utils/ThemeContext";
+import {getThemeByOption, themeMetadata} from "../../utils/theme";
+import {useTheme} from "../../utils/ThemeContext";
 
 // Define types locally to match ThemeContext
 type ThemeOption =
@@ -39,10 +39,10 @@ export function ThemeSelectionScreen() {
   } = useTheme();
 
   // Analytics
-  const { trackScreen, trackThemeChange } = useAnalytics();
+  const {trackScreen, trackThemeChange} = useAnalytics();
 
   const common = useCommonTranslations();
-  const { t, tNamespace } = useTranslation();
+  const {t, tNamespace} = useTranslation();
   const themeTranslations = tNamespace("themes");
 
   // Track screen view
@@ -75,18 +75,24 @@ export function ThemeSelectionScreen() {
 
   const styles = createStyles(theme);
 
-  // Helper function to create smooth gradients for each theme
+  // Helper function to create smooth gradients for each theme - matching actual theme colors
   const getSmoothGradientColors = (
     themeKey: ThemeOption,
     previewTheme: any
   ): string[] => {
     const baseColors = {
-      uprising: ["#1a1a1a", "#2a2520", "#3d3420", "#f4d03f", "#f7dc6f"],
-      ocean: ["#0f172a", "#1e293b", "#0369a1", "#000001FF", "#38bdf8"],
-      forest: ["#0f172a", "#1e3a2e", "#15803d", "#22c55e", "#4ade80"],
-      sunset: ["#1a1a1a", "#3d2917", "#c2410c", "#f97316", "#fb923c"],
-      purple: ["#0f0a1a", "#2d1b47", "#7c3aed", "#a855f7", "#c084fc"],
-      minimalist: ["#0f172a", "#1e293b", "#475569", "#64748b", "#94a3b8"],
+      // Uprising - Classic Gradient Yellow to Pink (from HTML Variant 2)
+      uprising: ["#FCE38A", "#FBD55A", "#FAC73C", "#F38181", "#EF5757"],
+      // Ocean - Deep Blue & Navy
+      ocean: ["#0A0D13", "#161C28", "#1C2331", "#273449", "#F4C47A"],
+      // Forest - Light Minimalist
+      forest: ["#E8E4DC", "#F3EFE9", "#FBF9F6", "#E0CDBA", "#4A5C6A"],
+      // Sunset - Gradient Yellow to Pink
+      sunset: ["#FCE38A", "#FBD55A", "#FAC73C", "#F38181", "#EF5757"],
+      // Purple - Glassmorphism Dark
+      purple: ["#020617", "#0F172A", "#111827", "#F59E0B", "#EC4899"],
+      // Minimalist - Elegant Dark
+      minimalist: ["#0F0F10", "#1C1C1E", "#2C2C2E", "#B8AB9F", "#D1C4B3"],
     };
 
     return baseColors[themeKey] || baseColors.uprising;
@@ -100,12 +106,10 @@ export function ThemeSelectionScreen() {
 
         {/* Header */}
         <View style={styles.headerContainer}>
-          <Text style={[styles.title, { color: theme.colors.white }]}>
+          <Text style={[styles.title, {color: theme.colors.white}]}>
             {themeTranslations.title}
           </Text>
-          <Text
-            style={[styles.subtitle, { color: "rgba(255, 255, 255, 0.8)" }]}
-          >
+          <Text style={[styles.subtitle, {color: "rgba(255, 255, 255, 0.8)"}]}>
             {themeTranslations.subtitle}
           </Text>
         </View>
@@ -192,13 +196,13 @@ export function ThemeSelectionScreen() {
 
           {/* Theme Selection Section */}
           <View style={styles.section}>
-            <Text style={[styles.sectionTitle, { color: theme.colors.white }]}>
+            <Text style={[styles.sectionTitle, {color: theme.colors.white}]}>
               {themeTranslations.color_themes}
             </Text>
             <Text
               style={[
                 styles.sectionDescription,
-                { color: "rgba(255, 255, 255, 0.7)" },
+                {color: "rgba(255, 255, 255, 0.7)"},
               ]}
             >
               {themeTranslations.color_themes_description}
@@ -242,7 +246,7 @@ export function ThemeSelectionScreen() {
                           : "transparent",
                         borderWidth: isSelected ? 3 : 0,
                         shadowColor: theme.colors.shadowColor,
-                        shadowOffset: { width: 0, height: 4 },
+                        shadowOffset: {width: 0, height: 4},
                         shadowOpacity: 0.3,
                         shadowRadius: 8,
                         elevation: 8,
@@ -257,8 +261,8 @@ export function ThemeSelectionScreen() {
                         getSmoothGradientColors(themeKey, previewTheme) as any
                       }
                       locations={[0, 0.2, 0.5, 0.8, 1] as any}
-                      start={{ x: 0, y: 0 }}
-                      end={{ x: 1, y: 1 }}
+                      start={{x: 0, y: 0}}
+                      end={{x: 1, y: 1}}
                       style={styles.themeGradientBackground}
                     >
                       {/* Theme Preview Color Circle */}
@@ -286,7 +290,7 @@ export function ThemeSelectionScreen() {
                               color: "white",
                               fontWeight: isSelected ? "700" : "600",
                               textShadowColor: "rgba(0, 0, 0, 0.5)",
-                              textShadowOffset: { width: 0, height: 1 },
+                              textShadowOffset: {width: 0, height: 1},
                               textShadowRadius: 3,
                             },
                           ]}
@@ -299,7 +303,7 @@ export function ThemeSelectionScreen() {
                             {
                               color: "rgba(255, 255, 255, 0.95)",
                               textShadowColor: "rgba(0, 0, 0, 0.3)",
-                              textShadowOffset: { width: 0, height: 1 },
+                              textShadowOffset: {width: 0, height: 1},
                               textShadowRadius: 2,
                             },
                           ]}
@@ -313,7 +317,7 @@ export function ThemeSelectionScreen() {
                         <View
                           style={[
                             styles.selectionIndicator,
-                            { backgroundColor: theme.colors.brandYellow },
+                            {backgroundColor: theme.colors.brandYellow},
                           ]}
                         >
                           <IconSymbol name="heart" size={16} color="#1a1a1a" />
@@ -341,7 +345,7 @@ export function ThemeSelectionScreen() {
           {/* Preview Section */}
 
           {/* Bottom spacing */}
-          <View style={{ height: 40 }} />
+          <View style={{height: 40}} />
         </ScrollView>
       </View>
     </BaseScreen>
@@ -437,7 +441,7 @@ const createStyles = (theme: any) =>
       justifyContent: "center",
       alignItems: "center",
       shadowColor: "rgba(0, 0, 0, 0.4)",
-      shadowOffset: { width: 0, height: 2 },
+      shadowOffset: {width: 0, height: 2},
       shadowOpacity: 0.8,
       shadowRadius: 4,
       elevation: 6,

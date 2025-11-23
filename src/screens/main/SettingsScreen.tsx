@@ -142,10 +142,10 @@ export function SettingsScreen() {
     const cardStyles = {
       backgroundColor: isSelected
         ? `${theme.colors.brandYellow}20`
-        : `${theme.colors.surface}15`,
+        : theme.colors.whiteOverlay20,
       borderColor: isSelected
         ? theme.colors.brandYellow
-        : `${theme.colors.border}40`,
+        : theme.colors.whiteOverlay25,
       borderWidth: isSelected ? 2 : 1,
       opacity: isAccessible ? 1 : 0.6,
     };
@@ -186,7 +186,7 @@ export function SettingsScreen() {
                 color={
                   isSelected
                     ? theme.colors.brandYellow
-                    : theme.colors.whiteOverlay80
+                    : theme.colors.text
                 }
                 strokeWidth={2}
               />
@@ -197,7 +197,7 @@ export function SettingsScreen() {
                   {
                     color: isSelected
                       ? theme.colors.brandYellow
-                      : theme.colors.whiteOverlay80,
+                      : theme.colors.text,
                   },
                 ]}
               >
@@ -211,8 +211,8 @@ export function SettingsScreen() {
                 styles.categoryName,
                 {
                   color: isSelected
-                    ? theme.colors.white
-                    : theme.colors.whiteOverlay90,
+                    ? theme.colors.text
+                    : theme.colors.text,
                   fontWeight: isSelected ? "700" : "600",
                 },
               ]}
@@ -224,8 +224,8 @@ export function SettingsScreen() {
                 styles.categoryDescription,
                 {
                   color: isSelected
-                    ? theme.colors.whiteOverlay80
-                    : theme.colors.whiteOverlay70,
+                    ? theme.colors.textSecondary
+                    : theme.colors.textSecondary,
                   opacity: 0.95,
                 },
               ]}
@@ -260,8 +260,8 @@ export function SettingsScreen() {
     showArrow = false
   ) => {
     const cardStyles = {
-      backgroundColor: `${theme.colors.surface}15`,
-      borderColor: `${theme.colors.border}40`,
+      backgroundColor: theme.colors.whiteOverlay20,
+      borderColor: theme.colors.whiteOverlay25,
       borderWidth: 1,
     };
 
@@ -279,7 +279,7 @@ export function SettingsScreen() {
           <IconSymbol
             name={icon as any}
             size={24}
-            color={theme.colors.whiteOverlay80}
+            color={theme.colors.text}
             strokeWidth={2}
             style={styles.settingIcon}
           />
@@ -288,7 +288,7 @@ export function SettingsScreen() {
               style={[
                 styles.settingTitle,
                 {
-                  color: theme.colors.whiteOverlay90,
+                  color: theme.colors.text,
                   fontWeight: "600",
                 },
               ]}
@@ -299,7 +299,7 @@ export function SettingsScreen() {
               style={[
                 styles.settingSubtitle,
                 {
-                  color: theme.colors.whiteOverlay70,
+                  color: theme.colors.textSecondary,
                   opacity: 0.95,
                 },
               ]}
@@ -311,7 +311,7 @@ export function SettingsScreen() {
             <IconSymbol
               name="chevron.right"
               size={16}
-              color={theme.colors.whiteOverlay70}
+              color={theme.colors.textSecondary}
               style={styles.arrowIcon}
             />
           )}
@@ -323,7 +323,7 @@ export function SettingsScreen() {
   const renderGeneralSettings = () => (
     <View style={styles.section}>
       <Text
-        style={[styles.sectionTitle, { color: theme.colors.whiteOverlay90 }]}
+        style={[styles.sectionTitle, { color: theme.colors.text }]}
       >
         {settings.general || "General Settings"}
       </Text>
@@ -383,14 +383,14 @@ export function SettingsScreen() {
     <View style={styles.section}>
       <View style={styles.sectionHeader}>
         <Text
-          style={[styles.sectionTitle, { color: theme.colors.whiteOverlay90 }]}
+          style={[styles.sectionTitle, { color: theme.colors.text }]}
         >
           {settings.my_categories || "My Categories"}
         </Text>
         <Text
           style={[
             styles.sectionSubtitle,
-            { color: theme.colors.whiteOverlay70 },
+            { color: theme.colors.textSecondary },
           ]}
         >
           {settings.categories_subtitle || "Customize which categories you see"}
@@ -420,14 +420,14 @@ export function SettingsScreen() {
           style={[
             styles.modalContent,
             {
-              backgroundColor: theme.colors.whiteOverlay25,
-              borderColor: theme.colors.whiteOverlay70,
+              backgroundColor: theme.colors.surface,
+              borderColor: theme.colors.border,
               borderWidth: 1,
             },
           ]}
         >
           <Text
-            style={[styles.modalTitle, { color: theme.colors.whiteOverlay90 }]}
+            style={[styles.modalTitle, { color: theme.colors.text }]}
           >
             {settings.select_language || "Select Language"}
           </Text>
@@ -439,25 +439,25 @@ export function SettingsScreen() {
             {SUPPORTED_LANGUAGES.map((langCode) => (
               <TouchableOpacity
                 key={langCode}
-                style={[
-                  styles.languageOption,
-                  {
-                    backgroundColor:
-                      language === langCode
-                        ? `${theme.colors.brandYellow}30`
-                        : theme.colors.whiteOverlay20,
-                    borderColor:
-                      language === langCode
-                        ? theme.colors.brandYellow
-                        : theme.colors.whiteOverlay70,
-                  },
-                ]}
+                  style={[
+                    styles.languageOption,
+                    {
+                      backgroundColor:
+                        language === langCode
+                          ? `${theme.colors.brandYellow}30`
+                          : theme.colors.whiteOverlay20,
+                      borderColor:
+                        language === langCode
+                          ? theme.colors.brandYellow
+                          : theme.colors.border,
+                    },
+                  ]}
                 onPress={() => handleLanguageChange(langCode)}
               >
                 <Text
                   style={[
                     styles.languageText,
-                    { color: theme.colors.whiteOverlay90 },
+                    { color: theme.colors.text },
                   ]}
                 >
                   {languageFlags[langCode]} {LANGUAGE_NAMES[langCode]}

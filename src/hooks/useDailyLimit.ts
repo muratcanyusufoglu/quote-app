@@ -3,6 +3,7 @@ import { Alert } from "react-native";
 import { dailyLimitService } from "../services/DailyLimitService";
 import { usePaywallSelectors } from "../store/usePaywallStore";
 import { usePremium } from "./usePremium";
+import { useTranslation } from "./useTranslation";
 
 interface DailyLimitInfo {
   currentCount: number;
@@ -22,6 +23,7 @@ export function useDailyLimit() {
 
   const { isPremium } = usePremium();
   const { showPaywall } = usePaywallSelectors.actions();
+  const { t } = useTranslation();
 
   // Load initial limit info
   const loadLimitInfo = useCallback(async () => {
@@ -61,21 +63,21 @@ export function useDailyLimit() {
    */
   const showDailyLimitAlert = useCallback(() => {
     Alert.alert(
-      "Günlük Limit Ulaşıldı",
-      "Bugün 20 quote'a ulaştınız. Premium'a yükselerek sınırsız erişim elde edin!",
+      t("paywall.daily_limit.title"),
+      t("paywall.daily_limit.subtitle"),
       [
         {
-          text: "Premium'a Yüksel",
+          text: t("paywall.daily_limit.button"),
           onPress: () => showPaywall("daily_limit"),
           style: "default",
         },
         {
-          text: "Tamam",
+          text: t("common.ok"),
           style: "cancel",
         },
       ]
     );
-  }, [showPaywall]);
+  }, [showPaywall, t]);
 
   /**
    * Attempt to view a quote
@@ -148,15 +150,25 @@ export function useDailyLimit() {
    */
   const getLimitStatusMessage = useCallback((): string => {
     if (isPremium) {
-      return "Premium - Unlimited quotes";
+      return (
+        t("common.premium_status") +
+        " - " +
+        t("paywall.features.unlimited_access")
+      );
     }
 
     if (limitInfo.hasReachedLimit) {
-      return "Daily limit reached - Upgrade for unlimited access";
+      return (
+        t("paywall.daily_limit.limit_reached") +
+        " - " +
+        t("paywall.daily_limit.upgrade_to_premium")
+      );
     }
 
-    return `${limitInfo.remaining} quotes remaining today`;
-  }, [isPremium, limitInfo]);
+    return `${limitInfo.remaining} ${t("home.swipe_for_more")} ${t(
+      "common.today"
+    )}`;
+  }, [isPremium, limitInfo, t]);
 
   return {
     // State

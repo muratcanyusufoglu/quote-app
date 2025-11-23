@@ -18,7 +18,8 @@
     "primary": "Birincil",
     "secondary": "İkincil",
     "skip": "Geç",
-    "back": "Geri"
+    "back": "Geri",
+    "today": "bugün"
   },
   "notifications": {
     "streak_warning": {
@@ -301,7 +302,19 @@
     "get_premium_access": "Premium Erişim Al",
     "unlock_stories": "Tüm Hikayeleri Aç",
     "remove_limits": "Tüm Limitleri Kaldır",
-    "get_premium": "Premium Ol"
+    "get_premium": "Premium Ol",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms_of_use": "Kullanım Şartları",
+    "failed_to_load_subscription": "Abonelik seçenekleri yüklenemedi. Lütfen tekrar deneyin.",
+    "purchase_verification": "Satın Alma Doğrulaması",
+    "purchase_verification_message": "Satın alma başarılı, ancak doğrulama hala devam ediyor. Lütfen uygulamayı yeniden başlatın veya sorun devam ederse destek ile iletişime geçin.",
+    "verification_error": "Doğrulama Hatası",
+    "verification_error_message": "Satın alma başarılı olmuş olabilir ancak doğrulama başarısız oldu. Lütfen uygulamayı yeniden başlatın veya destek ile iletişime geçin.",
+    "restore_verification_error": "Abonelik durumunuz doğrulanamadı. Lütfen tekrar deneyin veya destek ile iletişime geçin.",
+    "daily_limit_fallback_title": "Günlük Alıntı Limiti Doldu",
+    "daily_limit_fallback_subtitle": "Bugün 20 alıntı görüntüledin. Sınırsız erişim için premium'a geç!",
+    "daily_limit_fallback_button": "Sınırsız Alıntı İçin Yükselt",
+    "daily_limit_fallback_highlight": "Günlük ilhamını asla kaçırma"
   },
   "mood_motivation": {
     "title": "Ruh Haline Dayalı Motivasyon",
@@ -426,7 +439,9 @@
     "unlimited_stories": "Sınırsız Hikaye Aç",
     "related_topics": "İlgili Konular",
     "stories_remaining": "Bugün {count} hikaye kaldı",
-    "story_limit_reached": "Hikaye limitiniz doldu"
+    "story_limit_reached": "Hikaye limitiniz doldu",
+    "tap_to_read_story": "Hikayeyi okumak için dokunun",
+    "read_story": "Hikayeyi oku"
   },
   "categories": {
     "general": "Genel",
@@ -481,28 +496,28 @@
     "color_themes": "Renk Temaları",
     "color_themes_description": "Favori renk paletinizi seçin",
     "uprising": {
-      "name": "Uprising",
-      "description": "Sıcak ve ilham verici uprising tema"
+      "name": "Klasik",
+      "description": "Zamansız altın zarafet"
     },
     "ocean": {
       "name": "Okyanus",
-      "description": "Sakinleştirici mavi ve turkuaz"
+      "description": "Sakinleştirici derin mavi"
     },
     "forest": {
       "name": "Orman",
-      "description": "Doğal yeşil ve toprak tonları"
+      "description": "Sıcak minimalist konfor"
     },
     "sunset": {
       "name": "Gün Batımı",
-      "description": "Sıcak turuncu ve kırmızı"
+      "description": "Canlı sıcak gradyan"
     },
     "purple": {
       "name": "Mor",
-      "description": "Kraliyet moru ve lavanta"
+      "description": "Cesur cam efekti stili"
     },
     "minimalist": {
       "name": "Minimalist",
-      "description": "Temiz gri ve sofistike tonlar"
+      "description": "Rafine koyu zarafet"
     }
   },
   "store_review": {

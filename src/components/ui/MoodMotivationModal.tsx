@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useMoodMotivation } from "../../hooks/useMoodMotivation";
 import { useTranslation } from "../../hooks/useTranslation";
 import { useUserName } from "../../store/useOnboardingStore";
@@ -85,12 +86,26 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
       maxHeight: "80%",
       width: "90%",
     },
+    header: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: 20,
+    },
     title: {
       fontSize: 24,
       fontWeight: "bold",
       color: theme.colors.text,
+      flex: 1,
       textAlign: "center",
-      marginBottom: 20,
+    },
+    closeButtonHeader: {
+      width: 32,
+      height: 32,
+      justifyContent: "center",
+      alignItems: "center",
+      borderRadius: 16,
+      backgroundColor: theme.colors.whiteOverlay20,
     },
     sectionTitle: {
       fontSize: 16,
@@ -169,11 +184,37 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
     !selectedMood || !selectedEnergy || !selectedAffecting;
 
   return (
-    <Modal visible={isVisible} transparent animationType="fade">
-      <View style={styles.overlay}>
+    <Modal
+      visible={isVisible}
+      transparent
+      animationType="fade"
+      onRequestClose={handleClose}
+    >
+      <TouchableOpacity
+        style={styles.overlay}
+        activeOpacity={1}
+        onPress={handleClose}
+      >
         <View style={styles.container}>
-          <ScrollView showsVerticalScrollIndicator={false}>
+          <View style={styles.header}>
             <Text style={styles.title}>🧠 Mood-Based Motivation</Text>
+            <TouchableOpacity
+              style={styles.closeButtonHeader}
+              onPress={(e) => {
+                e.stopPropagation();
+                handleClose();
+              }}
+              activeOpacity={0.7}
+            >
+              <IconSymbol
+                name="xmark"
+                size={24}
+                color={theme.colors.text}
+                strokeWidth={2}
+              />
+            </TouchableOpacity>
+          </View>
+          <ScrollView showsVerticalScrollIndicator={false}>
 
             <Text style={styles.sectionTitle}>How are you feeling?</Text>
             <View style={styles.optionContainer}>
@@ -269,12 +310,18 @@ export const MoodMotivationModal: React.FC<MoodMotivationModalProps> = ({
               </View>
             )}
 
-            <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
+            <TouchableOpacity
+              style={styles.closeButton}
+              onPress={(e) => {
+                e.stopPropagation();
+                handleClose();
+              }}
+            >
               <Text style={styles.closeButtonText}>Close</Text>
             </TouchableOpacity>
           </ScrollView>
         </View>
-      </View>
+      </TouchableOpacity>
     </Modal>
   );
 };

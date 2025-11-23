@@ -719,6 +719,25 @@ export class NotificationService {
     isPremium: boolean
   ): Promise<void> {
     try {
+      // If user inactive for a long time, stop regular quote notifications
+      const lastVisitStr = await AsyncStorage.getItem(LAST_VISIT_KEY);
+      if (lastVisitStr) {
+        const lastVisit = new Date(lastVisitStr);
+        const now = new Date();
+        const daysSinceLastVisit = Math.floor(
+          (now.getTime() - lastVisit.getTime()) / (1000 * 60 * 60 * 24)
+        );
+        // Soft stop after 7+ days: cancel regular quotes, keep streak warnings
+        if (daysSinceLastVisit >= 7) {
+          await this.cancelOnlyQuoteNotifications();
+          await this.scheduleStreakWarning(userPreferences);
+          console.log(
+            `🔕 User inactive (${daysSinceLastVisit}d). Stopped quote notifications; streak warnings scheduled.`
+          );
+          return;
+        }
+      }
+
       const storedSchedule = await this.getStoredSchedule();
       if (!storedSchedule) {
         // No schedule exists, create new one
@@ -742,6 +761,27 @@ export class NotificationService {
       }
     } catch (error) {
       console.error("Error updating daily schedule:", error);
+    }
+  }
+
+  /**
+   * Cancel only quote notifications (keep streak warnings)
+   */
+  private async cancelOnlyQuoteNotifications(): Promise<void> {
+    try {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+      const quoteNotifications = scheduledNotifications.filter((n) =>
+        n.identifier.startsWith("quote_")
+      );
+      for (const n of quoteNotifications) {
+        await Notifications.cancelScheduledNotificationAsync(n.identifier);
+      }
+      console.log(
+        `🗑️ Cancelled ${quoteNotifications.length} quote notifications (streak warnings preserved)`
+      );
+    } catch (error) {
+      console.error("Error cancelling only quote notifications:", error);
     }
   }
 

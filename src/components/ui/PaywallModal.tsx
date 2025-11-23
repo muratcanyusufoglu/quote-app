@@ -417,6 +417,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             pricePerMonth: pkg.pricePerMonth,
             period: pkg.period,
             packageType: pkg.packageType,
+            currencyCode: pkg.currencyCode,
+            priceNumber: pkg.priceNumber,
             features: pkg.features?.length || 0,
           });
         });
@@ -464,6 +466,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           currentPrice: packages[1].currentPrice,
           pricePerMonth: packages[1].pricePerMonth,
           packageType: packages[1].packageType,
+          currencyCode: packages[1].currencyCode,
+          priceNumber: packages[1].priceNumber,
           discount: packages[1].discount,
         });
       } else {
@@ -480,6 +484,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           currentPrice: packages[0].currentPrice,
           pricePerMonth: packages[0].pricePerMonth,
           packageType: packages[0].packageType,
+          currencyCode: packages[0].currencyCode,
+          priceNumber: packages[0].priceNumber,
           discount: packages[0].discount,
         });
       }
@@ -488,10 +494,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       setAllPackages(packages);
     } catch (error) {
       console.error("Failed to load subscription packages:", error);
-      Alert.alert(
-        paywall.alerts.error,
-        "Failed to load subscription options. Please try again."
-      );
+      Alert.alert(paywall.alerts.error, paywall.failedToLoadSubscription);
     }
   };
 
@@ -579,10 +582,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       case "daily_limit":
         return {
           title:
-            (paywall as any).daily_limit?.title || "Daily Quote Limit Reached",
+            (paywall as any).daily_limit?.title ||
+            paywall.dailyLimitFallbackTitle,
           subtitle:
             (paywall as any).daily_limit?.subtitle ||
-            "You've reached your daily limit of 20 quotes. Upgrade to premium for unlimited access.",
+            paywall.dailyLimitFallbackSubtitle,
           features: [
             paywall.features.unlimited_daily_quotes,
             paywall.features.access_premium_categories,
@@ -595,10 +599,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           ],
           cta:
             (paywall as any).daily_limit?.button ||
-            "Upgrade for Unlimited Quotes",
+            paywall.dailyLimitFallbackButton,
           highlight:
             (paywall as any).daily_limit?.highlight ||
-            "Never miss your daily inspiration",
+            paywall.dailyLimitFallbackHighlight,
         };
 
       case "real_purchase":
@@ -771,9 +775,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               "⚠️ Purchase successful but user is not premium after verification"
             );
             Alert.alert(
-              "Purchase Verification",
-              "Purchase successful, but verification is still in progress. Please restart the app or contact support if the issue persists.",
-              [{ text: "OK" }]
+              paywall.purchaseVerification,
+              paywall.purchaseVerificationMessage,
+              [{ text: common.ok }]
             );
           }
         } catch (error) {
@@ -782,9 +786,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             error
           );
           Alert.alert(
-            "Verification Error",
-            "Purchase may have succeeded but verification failed. Please restart the app or contact support.",
-            [{ text: "OK" }]
+            paywall.verificationError,
+            paywall.verificationErrorMessage,
+            [{ text: common.ok }]
           );
         }
       } else if (purchaseResult.userCancelled) {
@@ -869,9 +873,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             error
           );
           Alert.alert(
-            "Verification Error",
-            "Failed to verify your subscription status. Please try again or contact support.",
-            [{ text: "OK" }]
+            paywall.verificationError,
+            paywall.restoreVerificationError,
+            [{ text: common.ok }]
           );
         }
       } else {
@@ -996,21 +1000,48 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                         (isDiscountedPaywall || shouldShowDiscounted) &&
                         allPackages.length >= 2
                       ) {
+                        const packageData = allPackages[1];
                         console.log(
                           "🔍 İndirimli paywall ana fiyat:",
-                          allPackages[1].currentPrice
+                          packageData.currentPrice,
+                          "Currency:",
+                          packageData.currencyCode
                         );
-                        return allPackages[1].currentPrice;
+                        return packageData.currentPrice;
                       }
                       // Normal paywall'da seçili paketi göster
+                      const packageData = subscriptionPackage;
                       console.log(
                         "🔍 Normal paywall ana fiyat:",
-                        subscriptionPackage?.currentPrice || "..."
+                        packageData?.currentPrice || "...",
+                        "Currency:",
+                        packageData?.currencyCode || "N/A"
                       );
-                      return subscriptionPackage?.currentPrice || "...";
+                      return packageData?.currentPrice || "...";
                     })()}
                   </Text>
-                  <Text style={styles.periodText}>/year</Text>
+                  <Text style={styles.periodText}>
+                    {(() => {
+                      // Currency code'u kullanarak period text'i oluştur
+                      const currentPackage =
+                        (isDiscountedPaywall || shouldShowDiscounted) &&
+                        allPackages.length >= 2
+                          ? allPackages[1]
+                          : subscriptionPackage;
+
+                      const currencyCode =
+                        currentPackage?.currencyCode || "USD";
+                      const period = currentPackage?.period || "year";
+
+                      // Period'u translation key'ine çevir
+                      const periodKey =
+                        period === "year"
+                          ? "paywall.modern.year"
+                          : "paywall.modern.per_year";
+
+                      return `/${paywall.modern.year}`;
+                    })()}
+                  </Text>
                 </View>
 
                 {/* Free Trial Highlight */}
@@ -1111,7 +1142,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   Linking.openURL("https://quotesparkapp.netlify.app/privacy")
                 }
               >
-                <Text style={styles.legalText}>Privacy Policy</Text>
+                <Text style={styles.legalText}>{paywall.privacyPolicy}</Text>
               </TouchableOpacity>
               <Text style={styles.legalSeparator}>•</Text>
               <TouchableOpacity
@@ -1121,7 +1152,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   )
                 }
               >
-                <Text style={styles.legalText}>Terms of Use</Text>
+                <Text style={styles.legalText}>{paywall.termsOfUse}</Text>
               </TouchableOpacity>
             </View>
           </View>

@@ -84,6 +84,13 @@ class RevenueCatService {
         locale: deviceLocale || "en_US",
       });
 
+      // Force RevenueCat to use device locale for pricing
+      if (deviceLocale) {
+        console.log("🌍 Setting RevenueCat locale to:", deviceLocale);
+        // Note: RevenueCat automatically uses device locale for pricing
+        // This is just for logging purposes
+      }
+
       this.isInitialized = true;
       console.log("✅ RevenueCat initialized successfully");
 

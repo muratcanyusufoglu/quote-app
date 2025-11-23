@@ -66,96 +66,47 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
 
   return (
     <View style={styles.container}>
-      {/* Category and Read Time Info */}
-      <View style={styles.infoSection}>
-        <Text
-          style={[styles.categoryMinimal, { color: theme.colors.white }]}
-          accessibilityLabel="quote-category"
-        >
-          {localizedCategoryName}
-        </Text>
-        {/* read time */}
-        {/* <View
-          style={[
-            styles.readTimeContainer,
-            {
-              backgroundColor: theme.colors.whiteOverlay70,
-            },
-          ]}
-        >
-          <IconSymbol
-            name="book"
-            size={12}
-            color={theme.colors.textSoftSecondary}
-            strokeWidth={2}
-          />
-          <Text
-            style={[
-              styles.readTimeText,
-              { color: theme.colors.textSoftSecondary },
-            ]}
-          >
-            {readTime} min
-          </Text>
-        </View> */}
-      </View>
-
-      {/* Action Buttons */}
-      <View style={styles.actionsSection}>
-        {/* Share Button - Use ShareButton component if quote is provided, otherwise use callback */}
-        {quote ? (
-          <ShareButton
-            quote={quote}
-            size={24}
-            iconColor={theme.colors.brandYellow}
-            backgroundColor={theme.colors.whiteOverlay10}
-            style={styles.actionButton}
-            onShareComplete={handleShareComplete}
-          />
-        ) : onShare ? (
-          <TouchableOpacity
-            style={[
-              styles.actionButton,
-              {
-                backgroundColor: theme.colors.whiteOverlay10,
-                shadowColor: theme.colors.shadowColor,
-              },
-            ]}
-            onPress={handleSharePress}
-            activeOpacity={0.7}
-          >
-            <IconSymbol
-              name="square.and.arrow.up"
-              size={24}
-              color={theme.colors.brandYellow}
-              strokeWidth={2.5}
-            />
-          </TouchableOpacity>
-        ) : null}
-
+      {/* Share Button */}
+      {quote ? (
+        <ShareButton
+          quote={quote}
+          size={18}
+          iconColor={theme.colors.textSecondary}
+          backgroundColor="transparent"
+          style={styles.actionButton}
+          onShareComplete={handleShareComplete}
+        />
+      ) : onShare ? (
         <TouchableOpacity
-          style={[
-            styles.actionButton,
-            {
-              backgroundColor: isFavorite
-                ? theme.colors.favoriteActive + "20" // 20% opacity
-                : theme.colors.whiteOverlay10,
-              shadowColor: theme.colors.shadowColor,
-            },
-          ]}
-          onPress={handleFavoritePress}
+          style={styles.actionButton}
+          onPress={handleSharePress}
           activeOpacity={0.7}
         >
           <IconSymbol
-            name={isFavorite ? "heart.solid" : "heart"}
-            size={24}
-            color={
-              isFavorite ? theme.colors.favoriteRed : theme.colors.brandYellow
-            }
-            strokeWidth={isFavorite ? 0 : 2}
+            name="square.and.arrow.up"
+            size={18}
+            color={theme.colors.textSecondary}
+            strokeWidth={2}
           />
         </TouchableOpacity>
-      </View>
+      ) : null}
+
+      {/* Divider */}
+      <View style={[styles.divider, { backgroundColor: theme.colors.whiteOverlay25 }]} />
+
+      {/* Favorite Button */}
+      <TouchableOpacity
+        style={styles.actionButton}
+        onPress={handleFavoritePress}
+        activeOpacity={0.7}
+      >
+        <IconSymbol
+          name={isFavorite ? "heart.solid" : "heart"}
+          size={18}
+          color={isFavorite ? theme.colors.favoriteRed : theme.colors.textSecondary}
+          strokeWidth={isFavorite ? 0 : 2}
+        />
+      </TouchableOpacity>
     </View>
   );
 };
@@ -163,71 +114,18 @@ export const QuoteActions: React.FC<QuoteActionsProps> = ({
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     alignItems: "center",
-    paddingHorizontal: 4,
-  },
-  infoSection: {
-    flex: 1,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-  },
-  categoryContainer: {
-    paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 16,
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 2,
-  },
-  categoryTag: {
-    fontSize: 12,
-    fontWeight: "600",
-    textTransform: "capitalize",
-  },
-  readTimeContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-    borderRadius: 12,
-    gap: 4,
-  },
-  readTimeText: {
-    fontSize: 11,
-    fontWeight: "500",
-  },
-  actionsSection: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  categoryMinimal: {
-    fontSize: 12,
-    fontWeight: "500",
-    textTransform: "capitalize",
-    opacity: 0.85,
   },
   actionButton: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
+    flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    paddingVertical: 6,
   },
-  favoriteActiveButton: {
-    backgroundColor: "rgba(255, 71, 87, 0.1)",
+  divider: {
+    width: 1,
+    height: 16,
   },
 });

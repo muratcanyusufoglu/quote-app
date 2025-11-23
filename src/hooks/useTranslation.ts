@@ -208,6 +208,54 @@ export function usePaywallTranslations() {
         language
       ),
       getPremium: translationService.translate("paywall.get_premium", language),
+      privacyPolicy: translationService.translate(
+        "paywall.privacy_policy",
+        language
+      ),
+      termsOfUse: translationService.translate(
+        "paywall.terms_of_use",
+        language
+      ),
+      failedToLoadSubscription: translationService.translate(
+        "paywall.failed_to_load_subscription",
+        language
+      ),
+      purchaseVerification: translationService.translate(
+        "paywall.purchase_verification",
+        language
+      ),
+      purchaseVerificationMessage: translationService.translate(
+        "paywall.purchase_verification_message",
+        language
+      ),
+      verificationError: translationService.translate(
+        "paywall.verification_error",
+        language
+      ),
+      verificationErrorMessage: translationService.translate(
+        "paywall.verification_error_message",
+        language
+      ),
+      restoreVerificationError: translationService.translate(
+        "paywall.restore_verification_error",
+        language
+      ),
+      dailyLimitFallbackTitle: translationService.translate(
+        "paywall.daily_limit_fallback_title",
+        language
+      ),
+      dailyLimitFallbackSubtitle: translationService.translate(
+        "paywall.daily_limit_fallback_subtitle",
+        language
+      ),
+      dailyLimitFallbackButton: translationService.translate(
+        "paywall.daily_limit_fallback_button",
+        language
+      ),
+      dailyLimitFallbackHighlight: translationService.translate(
+        "paywall.daily_limit_fallback_highlight",
+        language
+      ),
     }),
     [tNamespace, language]
   );

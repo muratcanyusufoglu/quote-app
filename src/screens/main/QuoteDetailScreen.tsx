@@ -1,5 +1,5 @@
-import { useLocalSearchParams, useRouter } from "expo-router";
-import React, { useEffect, useRef } from "react";
+import {useLocalSearchParams, useRouter} from "expo-router";
+import React, {useEffect, useRef, useState} from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -7,36 +7,54 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
-import { ShareButton } from "../../components/ui/ShareButton";
-import { useAnalytics } from "../../hooks/useAnalytics";
-import { useStoryReading } from "../../hooks/usePurchase";
-import { useQuoteDetail } from "../../hooks/useQuoteService";
+import {MoodMotivationModal} from "../../components/ui/MoodMotivationModal";
+import {ShareButton} from "../../components/ui/ShareButton";
+import {useAnalytics} from "../../hooks/useAnalytics";
+import {useMoodMotivation} from "../../hooks/useMoodMotivation";
+import {useStoryReading} from "../../hooks/usePurchase";
+import {useQuoteDetail} from "../../hooks/useQuoteService";
 import {
   useCommonTranslations,
   useScreenTranslations,
 } from "../../hooks/useTranslation";
-import { useOnboardingHydrated } from "../../store/useOnboardingStore";
-import { usePurchaseHydrated } from "../../store/usePurchaseStore";
+import {
+  useOnboardingHydrated,
+  useUserPreferences,
+} from "../../store/useOnboardingStore";
+import {usePurchaseHydrated} from "../../store/usePurchaseStore";
 import {
   useActions,
   useFavoriteQuotes,
   useQuoteHydrated,
 } from "../../store/useQuoteStore";
-import { useTheme } from "../../utils/ThemeContext";
+import {useTheme} from "../../utils/ThemeContext";
 
 const QUOTE_READ_DELAY = 10000; // 10 saniye
 
 const QuoteDetailScreen: React.FC = () => {
-  const { theme, isDark } = useTheme();
+  const {theme, isDark} = useTheme();
   const router = useRouter();
   const params = useLocalSearchParams();
   const quoteId = params.id as string;
   const readTimerRef = useRef<number | null>(null);
 
+  // Mood modal state
+  const [isMoodModalVisible, setIsMoodModalVisible] = useState(false);
+  const userPreferences = useUserPreferences();
+
+  // Mood motivation hook
+  const {
+    isLoading: isGenerating,
+    generatedMessage,
+    error: moodError,
+    generateMotivation,
+    clearMessage,
+  } = useMoodMotivation();
+
   // Analytics
-  const { trackScreen, trackQuoteView, trackQuoteFavorite } = useAnalytics();
+  const {trackScreen, trackQuoteView, trackQuoteFavorite} = useAnalytics();
 
   // Translations
   const common = useCommonTranslations();
@@ -52,7 +70,7 @@ const QuoteDetailScreen: React.FC = () => {
   const onboardingStoreHydrated = useOnboardingHydrated();
 
   // Actions
-  const { markAsRead, addToFavorites, removeFromFavorites } = useActions();
+  const {markAsRead, addToFavorites, removeFromFavorites} = useActions();
 
   // Get quote details
   const quoteDetailData = useQuoteDetail(quoteId);
@@ -133,7 +151,7 @@ const QuoteDetailScreen: React.FC = () => {
     );
   }
 
-  const { quote, category, canAccess, isFavorite, toggleFavorite } =
+  const {quote, category, canAccess, isFavorite, toggleFavorite} =
     quoteDetailData;
 
   const handleFavoritePress = () => {
@@ -166,6 +184,40 @@ const QuoteDetailScreen: React.FC = () => {
     router.back();
   };
 
+  // Mood modal handlers
+  const handleMoodIconPress = () => {
+    setIsMoodModalVisible(true);
+  };
+
+  const handleMoodModalClose = () => {
+    setIsMoodModalVisible(false);
+    clearMessage();
+  };
+
+  const handleMoodComplete = async (moodResponse: any) => {
+    setIsMoodModalVisible(false);
+
+    await generateMotivation({
+      mood: moodResponse.feeling,
+      energy: moodResponse.energy,
+      affecting: moodResponse.affecting,
+      language: (userPreferences?.language || "tr") as
+        | "en"
+        | "tr"
+        | "fr"
+        | "es"
+        | "de"
+        | "it"
+        | "pt"
+        | "ru"
+        | "nl"
+        | "id"
+        | "ja"
+        | "th"
+        | "ms",
+    });
+  };
+
   return (
     <BaseScreen useGradientBackground={true}>
       <ScrollView
@@ -173,54 +225,113 @@ const QuoteDetailScreen: React.FC = () => {
         contentContainerStyle={styles.contentContainer}
         showsVerticalScrollIndicator={false}
       >
-        {/* Header */}
+        {/* HTML-style Header */}
         <View style={styles.header}>
-          <TouchableOpacity style={styles.backButton} onPress={handleBackPress}>
-            <Text style={styles.backButtonIcon}>←</Text>
+          <TouchableOpacity
+            style={[
+              styles.headerButton,
+              {backgroundColor: theme.colors.whiteOverlay20},
+            ]}
+            onPress={handleMoodIconPress}
+            activeOpacity={0.7}
+          >
+            <IconSymbol
+              name="brain"
+              size={18}
+              color={theme.colors.text}
+              strokeWidth={2}
+            />
           </TouchableOpacity>
 
+          <View
+            style={[
+              styles.categoryPill,
+              {backgroundColor: theme.colors.whiteOverlay20},
+            ]}
+          >
+            <Text style={[styles.categoryText, {color: theme.colors.text}]}>
+              {category?.name || quote.category}
+            </Text>
+          </View>
+
           <TouchableOpacity
-            style={styles.favoriteButton}
+            style={[
+              styles.headerButton,
+              {backgroundColor: theme.colors.whiteOverlay20},
+            ]}
             onPress={handleFavoritePress}
           >
             <IconSymbol
               name={isFavorite ? "heart.solid" : "heart"}
               size={18}
-              color={
-                isFavorite
-                  ? theme.colors.favoriteRed
-                  : theme.colors.whiteOverlay80
-              }
+              color={isFavorite ? theme.colors.favoriteRed : theme.colors.text}
               strokeWidth={isFavorite ? 0 : 2}
             />
           </TouchableOpacity>
         </View>
 
-        {/* Quote Card */}
-        <View
-          style={[
-            styles.quoteContainer,
-            { backgroundColor: theme.colors.brandYellow },
-          ]}
-        >
-          <Text style={styles.quoteText}>{quote.text}</Text>
+        {/* Main Quote Content */}
+        <View style={styles.mainQuoteSection}>
+          <Text style={[styles.quoteText, {color: theme.colors.text}]}>
+            "{quote.text}"
+          </Text>
 
           {quote.author && (
-            <Text style={styles.authorText}>- {quote.author}</Text>
+            <Text
+              style={[styles.authorText, {color: theme.colors.textSecondary}]}
+            >
+              — {quote.author}
+            </Text>
           )}
+        </View>
 
-          <View style={styles.quoteFooter}>
-            <View style={styles.categoryContainer}>
-              <Text style={styles.categoryIcon}>{category?.icon}</Text>
-              <Text style={styles.categoryText}>{category?.name}</Text>
-            </View>
-
+        {/* Share and Favorite Actions */}
+        <View style={styles.footerSection}>
+          <View
+            style={[
+              styles.actionsRow,
+              {backgroundColor: theme.colors.whiteOverlay20},
+            ]}
+          >
             <ShareButton
               quote={quote}
-              size={18}
-              iconColor={theme.colors.textSoft}
-              backgroundColor="rgba(255, 255, 255, 0.2)"
-              style={styles.shareButton}
+              size={22}
+              iconColor={theme.colors.textSecondary}
+              backgroundColor="transparent"
+              style={styles.actionButton}
+            />
+
+            <View
+              style={[
+                styles.actionDivider,
+                {backgroundColor: theme.colors.whiteOverlay25},
+              ]}
+            />
+
+            <TouchableOpacity
+              style={styles.actionButton}
+              onPress={handleFavoritePress}
+            >
+              <IconSymbol
+                name={isFavorite ? "heart.solid" : "heart"}
+                size={22}
+                color={
+                  isFavorite
+                    ? theme.colors.favoriteRed
+                    : theme.colors.textSecondary
+                }
+                strokeWidth={isFavorite ? 0 : 2}
+              />
+            </TouchableOpacity>
+          </View>
+
+          {/* Home Indicator */}
+          <View style={styles.homeIndicatorContainer}>
+            <View
+              style={[
+                styles.homeIndicator,
+                {backgroundColor: theme.colors.textSecondary + "40"},
+              ]}
             />
           </View>
         </View>
@@ -229,51 +340,46 @@ const QuoteDetailScreen: React.FC = () => {
         {quote.story && (
           <View style={styles.storySection}>
             <View style={styles.storyHeader}>
-              <Text style={styles.storyTitle}>{quote.story.title}</Text>
-              {/* read time */}
-              {/* <View style={styles.storyMeta}>
-                <View style={styles.storyReadTimeContainer}>
-                  <IconSymbol
-                    name="book"
-                    size={14}
-                    color="rgba(255, 255, 255, 0.7)"
-                    strokeWidth={2}
-                  />
-                  <Text style={styles.storyReadTime}>
-                    {quote.story.readTime} {quoteDetail.minutes_short}
-                  </Text>
-                </View>
-                {!storyReading.isPremium && (
-                  <Text style={styles.remainingReads}>
-                    {quoteDetail.stories_remaining.replace(
-                      "{count}",
-                      storyReading.remainingReads.toString()
-                    )}
-                  </Text>
-                )}
-              </View> */}
+              <Text style={[styles.storyTitle, {color: theme.colors.text}]}>
+                {quote.story.title}
+              </Text>
             </View>
 
             {canAccess ? (
               <View style={styles.storyContent}>
-                <Text style={styles.storyText}>{quote.story.content}</Text>
+                <Text style={[styles.storyText, {color: theme.colors.text}]}>
+                  {quote.story.content}
+                </Text>
               </View>
             ) : (
               <View style={styles.premiumLockContainer}>
                 <IconSymbol
                   name="lock"
                   size={32}
-                  color="rgba(255, 255, 255, 0.7)"
+                  color={theme.colors.textSecondary}
                   strokeWidth={2}
                 />
-                <Text style={styles.premiumLockText}>
+                <Text
+                  style={[
+                    styles.premiumLockText,
+                    {color: theme.colors.textSecondary},
+                  ]}
+                >
                   {quoteDetail.story_premium_required}
                 </Text>
                 <TouchableOpacity
-                  style={styles.upgradeButton}
+                  style={[
+                    styles.upgradeButton,
+                    {backgroundColor: theme.colors.primary},
+                  ]}
                   onPress={() => console.log("Navigate to purchase")}
                 >
-                  <Text style={styles.upgradeButtonText}>
+                  <Text
+                    style={[
+                      styles.upgradeButtonText,
+                      {color: theme.colors.background},
+                    ]}
+                  >
                     {premium.upgrade}
                   </Text>
                 </TouchableOpacity>
@@ -316,6 +422,12 @@ const QuoteDetailScreen: React.FC = () => {
         {/* Bottom Spacing - Reduced for better UX */}
         <View style={styles.bottomSpacing} />
       </ScrollView>
+
+      {/* Mood Motivation Modal */}
+      <MoodMotivationModal
+        isVisible={isMoodModalVisible}
+        onClose={handleMoodModalClose}
+      />
     </BaseScreen>
   );
 };
@@ -354,97 +466,112 @@ const createStyles = (theme: any) =>
       flex: 1,
     },
     contentContainer: {
-      padding: 20,
+      paddingHorizontal: 12,
+      paddingTop: 20,
       paddingBottom: 40,
     },
+    // HTML-style header
     header: {
       flexDirection: "row",
       justifyContent: "space-between",
       alignItems: "center",
-      paddingVertical: theme.spacing.lg,
-      paddingTop: theme.spacing.xl,
-    },
-    backButton: {
-      width: 40,
-      height: 40,
-      justifyContent: "center",
-      alignItems: "center",
-      borderRadius: 20,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-    },
-    backButtonIcon: {
-      fontSize: 18,
-      color: "#FFFFFF",
-    },
-    favoriteButton: {
-      width: 40,
-      height: 40,
-      justifyContent: "center",
-      alignItems: "center",
-      borderRadius: 20,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-    },
-    quoteContainer: {
-      padding: 24,
-      borderRadius: 16,
-      marginBottom: 24,
-      shadowColor: "#000",
-      shadowOffset: {
-        width: 0,
-        height: 4,
-      },
-      shadowOpacity: 0.15,
-      shadowRadius: 8,
-      elevation: 6,
-    },
-    quoteText: {
-      fontSize: theme.typography.fontSize.xl,
-      fontWeight: theme.typography.fontWeight.medium,
-      color: theme.colors.textSoft,
-      lineHeight: 28,
+      paddingVertical: theme.spacing.md,
+      paddingTop: theme.spacing.lg,
       marginBottom: theme.spacing.lg,
     },
-    authorText: {
-      fontSize: theme.typography.fontSize.md,
-      color: theme.colors.textSoftSecondary,
-      marginBottom: theme.spacing.xl,
-      fontStyle: "italic",
-    },
-    quoteFooter: {
-      flexDirection: "row",
-      justifyContent: "space-between",
+    headerButton: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+      justifyContent: "center",
       alignItems: "center",
+      shadowColor: "#000",
+      shadowOffset: {width: 0, height: 2},
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
     },
-    categoryContainer: {
-      flexDirection: "row",
-      alignItems: "center",
-      backgroundColor: "rgba(54, 69, 79, 0.2)",
-      paddingHorizontal: theme.spacing.md,
-      paddingVertical: theme.spacing.sm,
-      borderRadius: theme.borderRadius.md,
-    },
-    categoryIcon: {
-      fontSize: 16,
-      marginRight: theme.spacing.xs,
+    categoryPill: {
+      paddingHorizontal: 16,
+      paddingVertical: 8,
+      borderRadius: 20,
+      shadowColor: "#000",
+      shadowOffset: {width: 0, height: 2},
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
     },
     categoryText: {
-      fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.textSoft,
-      fontWeight: theme.typography.fontWeight.medium,
+      fontSize: 13,
+      fontWeight: "500",
+      textTransform: "capitalize",
     },
-    shareButton: {
-      width: 40,
-      height: 40,
+    // Main quote section
+    mainQuoteSection: {
+      alignItems: "center",
+      paddingHorizontal: theme.spacing.md,
+      marginBottom: theme.spacing.xl,
+    },
+    quoteText: {
+      fontSize: 28,
+      fontWeight: "700",
+      textAlign: "center",
+      lineHeight: 38,
+      marginBottom: theme.spacing.md,
+      letterSpacing: -0.5,
+    },
+    authorText: {
+      fontSize: 16,
+      textAlign: "center",
+      fontWeight: "500",
+      letterSpacing: 0.2,
+    },
+    // HTML-style footer section
+    footerSection: {
+      paddingHorizontal: theme.spacing.md,
+      marginBottom: theme.spacing.xl,
+    },
+    actionsRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-around",
+      borderRadius: 999,
+      paddingVertical: 6,
+      paddingHorizontal: 6,
+      marginBottom: 12,
+      shadowColor: "#000",
+      shadowOffset: {width: 0, height: 2},
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    actionButton: {
+      flex: 1,
       justifyContent: "center",
       alignItems: "center",
-      borderRadius: 20,
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      paddingVertical: 10,
     },
+    actionDivider: {
+      width: 1,
+      height: 20,
+    },
+    homeIndicatorContainer: {
+      alignItems: "center",
+      marginTop: 8,
+    },
+    homeIndicator: {
+      width: 120,
+      height: 4,
+      borderRadius: 2,
+    },
+    // Story section
     storySection: {
-      backgroundColor: "rgba(255, 255, 255, 0.1)",
+      backgroundColor: theme.colors.whiteOverlay10,
       borderRadius: theme.borderRadius.lg,
-      padding: theme.spacing.xl,
+      paddingHorizontal: theme.spacing.lg,
+      paddingVertical: theme.spacing.xl,
       marginBottom: theme.spacing.lg,
+      marginHorizontal: theme.spacing.sm,
     },
     storyHeader: {
       marginBottom: theme.spacing.lg,
@@ -452,85 +579,57 @@ const createStyles = (theme: any) =>
     storyTitle: {
       fontSize: theme.typography.fontSize.xl,
       fontWeight: theme.typography.fontWeight.bold,
-      color: "#FFFFFF",
       marginBottom: theme.spacing.sm,
-    },
-    storyMeta: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-      alignItems: "center",
-    },
-    storyReadTimeContainer: {
-      flexDirection: "row",
-      alignItems: "center",
-    },
-    storyReadTime: {
-      fontSize: theme.typography.fontSize.sm,
-      color: "rgba(255, 255, 255, 0.7)",
-      marginLeft: theme.spacing.xs,
-    },
-    remainingReads: {
-      fontSize: theme.typography.fontSize.sm,
-      color: theme.colors.brandYellow,
-      fontWeight: theme.typography.fontWeight.medium,
     },
     storyContent: {
       // Content styling
     },
     storyText: {
       fontSize: theme.typography.fontSize.md,
-      color: "#FFFFFF",
       lineHeight: 24,
       marginBottom: theme.spacing.xl,
     },
-
     premiumLockContainer: {
       alignItems: "center",
       paddingVertical: theme.spacing.xl,
     },
-    premiumLockIcon: {
-      fontSize: 40,
-      marginBottom: theme.spacing.md,
-    },
     premiumLockText: {
       fontSize: theme.typography.fontSize.md,
-      color: "rgba(255, 255, 255, 0.7)",
       textAlign: "center",
+      marginTop: theme.spacing.md,
       marginBottom: theme.spacing.lg,
     },
     upgradeButton: {
-      backgroundColor: theme.colors.premium,
       paddingVertical: theme.spacing.md,
       paddingHorizontal: theme.spacing.xl,
-      borderRadius: theme.borderRadius.md,
+      borderRadius: 999,
       alignItems: "center",
     },
     upgradeButtonText: {
       fontSize: theme.typography.fontSize.md,
       fontWeight: theme.typography.fontWeight.semibold,
-      color: "#FFFFFF",
     },
     limitWarningContainer: {
-      backgroundColor: "rgba(255, 255, 255, 0.1)",
+      backgroundColor: theme.colors.whiteOverlay10,
       borderRadius: theme.borderRadius.lg,
       padding: theme.spacing.lg,
       marginBottom: theme.spacing.lg,
+      marginHorizontal: theme.spacing.md,
       borderWidth: 1,
-      borderColor: theme.colors.brandYellow,
+      borderColor: theme.colors.primary,
     },
     limitWarningText: {
       fontSize: theme.typography.fontSize.md,
-      color: "#FFFFFF",
       textAlign: "center",
       marginBottom: theme.spacing.md,
     },
     tagsSection: {
       marginBottom: theme.spacing.lg,
+      marginHorizontal: theme.spacing.md,
     },
     tagsTitle: {
       fontSize: theme.typography.fontSize.lg,
       fontWeight: theme.typography.fontWeight.semibold,
-      color: "#FFFFFF",
       marginBottom: theme.spacing.md,
     },
     tagsContainer: {
@@ -539,16 +638,15 @@ const createStyles = (theme: any) =>
       gap: theme.spacing.sm,
     },
     tag: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
+      backgroundColor: theme.colors.whiteOverlay20,
       paddingHorizontal: theme.spacing.md,
       paddingVertical: theme.spacing.sm,
       borderRadius: theme.borderRadius.md,
       borderWidth: 1,
-      borderColor: "rgba(255, 255, 255, 0.3)",
+      borderColor: theme.colors.whiteOverlay25,
     },
     tagText: {
       fontSize: theme.typography.fontSize.sm,
-      color: "#FFFFFF",
       fontWeight: theme.typography.fontWeight.medium,
     },
     bottomSpacing: {
@@ -556,4 +654,4 @@ const createStyles = (theme: any) =>
     },
   });
 
-export { QuoteDetailScreen };
+export {QuoteDetailScreen};

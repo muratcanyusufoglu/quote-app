@@ -49,11 +49,12 @@ export function useNotifications() {
           isPremium,
         });
 
-        await notificationService.scheduleNotifications(
+        // Use daily updater to also handle streak warnings and inactivity
+        await notificationService.updateDailySchedule(
           userPreferences,
           isPremium
         );
-        console.log("✅ Notifications scheduled successfully");
+        console.log("✅ Daily notification schedule updated successfully");
       } catch (error) {
         console.error("❌ Failed to schedule notifications:", error);
       } finally {

@@ -18,7 +18,8 @@
     "primary": "Primary",
     "secondary": "Secondary",
     "skip": "Skip",
-    "back": "Back"
+    "back": "Back",
+    "today": "today"
   },
   "notifications": {
     "streak_warning": {
@@ -302,7 +303,19 @@
     "get_premium_access": "Get Premium Access",
     "unlock_stories": "Unlock All Stories",
     "remove_limits": "Remove All Limits",
-    "get_premium": "Get Premium"
+    "get_premium": "Get Premium",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use",
+    "failed_to_load_subscription": "Failed to load subscription options. Please try again.",
+    "purchase_verification": "Purchase Verification",
+    "purchase_verification_message": "Purchase successful, but verification is still in progress. Please restart the app or contact support if the issue persists.",
+    "verification_error": "Verification Error",
+    "verification_error_message": "Purchase may have succeeded but verification failed. Please restart the app or contact support.",
+    "restore_verification_error": "Failed to verify your subscription status. Please try again or contact support.",
+    "daily_limit_fallback_title": "Daily Quote Limit Reached",
+    "daily_limit_fallback_subtitle": "You've reached your daily limit of 20 quotes. Upgrade to premium for unlimited access.",
+    "daily_limit_fallback_button": "Upgrade for Unlimited Quotes",
+    "daily_limit_fallback_highlight": "Never miss your daily inspiration"
   },
   "mood_motivation": {
     "title": "Mood-Based Motivation",
@@ -434,7 +447,9 @@
     "unlimited_stories": "Unlock Unlimited Stories",
     "related_topics": "Related Topics",
     "stories_remaining": "{count} stories left today",
-    "story_limit_reached": "Story limit reached"
+    "story_limit_reached": "Story limit reached",
+    "tap_to_read_story": "Tap to read the story",
+    "read_story": "Read the story"
   },
   "categories": {
     "general": "General",
@@ -489,28 +504,28 @@
     "color_themes": "Color Themes",
     "color_themes_description": "Choose your favorite color palette",
     "uprising": {
-      "name": "Uprising",
-      "description": "Warm and inspiring uprising theme"
+      "name": "Classic",
+      "description": "Timeless golden elegance"
     },
     "ocean": {
       "name": "Ocean",
-      "description": "Calming blues and teals"
+      "description": "Calming deep blue serenity"
     },
     "forest": {
       "name": "Forest",
-      "description": "Natural greens and earth tones"
+      "description": "Warm minimalist comfort"
     },
     "sunset": {
       "name": "Sunset",
-      "description": "Warm oranges and reds"
+      "description": "Vibrant warm gradient"
     },
     "purple": {
       "name": "Purple",
-      "description": "Royal purples and lavender"
+      "description": "Bold glassmorphism style"
     },
     "minimalist": {
       "name": "Minimalist",
-      "description": "Clean grays and sophisticated tones"
+      "description": "Refined dark elegance"
     }
   },
   "store_review": {

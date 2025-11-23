@@ -658,184 +658,222 @@ export const currentTheme = darkTheme;
 // NEW THEME PALETTES
 // ==============================
 
-// Ocean Theme - Calming blues and teals - Updated for better contrast
+// Ocean Theme - Deep Blue & Navy (from inspirational_quote_display_3)
 const oceanPalette = {
-  // Ocean blues
-  ocean50: "#f0f9ff",
-  ocean100: "#e0f2fe",
-  ocean200: "#bae6fd",
-  ocean300: "#7dd3fc",
-  ocean400: "#38bdf8",
-  ocean500: "#0ea5e9", // Primary ocean blue
-  ocean600: "#0284c7",
-  ocean700: "#0369a1",
-  ocean800: "#075985",
-  ocean900: "#0c4a6e",
-
-  // Light ocean for brand color
-  oceanLight100: "#f0f9ff", // Çok açık mavi - siyah yazı için mükemmel
-  oceanLight200: "#e0f2fe", // Açık mavi
-  oceanLight300: "#bae6fd", // Orta açık mavi
-
-  // Deep ocean/teal
-  teal50: "#f0fdfa",
-  teal100: "#ccfbf1",
-  teal200: "#99f6e4",
-  teal300: "#5eead4",
-  teal400: "#2dd4bf",
-  teal500: "#14b8a6", // Secondary teal
-  teal600: "#0d9488",
-  teal700: "#0f766e",
-  teal800: "#115e59",
-  teal900: "#134e4a",
-
-  // Light teal for brand color
-  tealLight100: "#f0fdfa", // Çok açık teal
-  tealLight200: "#ccfbf1", // Açık teal
+  // Background colors
+  background: "#1C2331",
+  surface: "#273449",
+  
+  // Primary colors
+  primary: "#F4C47A", // Golden accent
+  primaryLight: "#F9CA63",
+  primaryDark: "#F1C40F",
+  
+  // Text colors
+  textPrimary: "#EAEFFC",
+  textSecondary: "#A9B8D0",
+  textTertiary: "#8B949A",
+  
+  // Additional shades for compatibility
+  ocean50: "#EAEFFC",
+  ocean100: "#d4deeb",
+  ocean200: "#A9B8D0",
+  ocean300: "#8B9AAA",
+  ocean400: "#556880",
+  ocean500: "#273449", // Primary surface
+  ocean600: "#1C2331", // Background
+  ocean700: "#161C28",
+  ocean800: "#11151F",
+  ocean900: "#0A0D13",
 };
 
-// Forest Theme - Natural greens - Updated for better contrast
+// Forest Theme - Light Minimalist (from code.html)
 const forestPalette = {
-  // Fresh greens
-  forest50: "#f0fdf4",
-  forest100: "#dcfce7",
-  forest200: "#bbf7d0",
-  forest300: "#86efac",
-  forest400: "#4ade80",
-  forest500: "#22c55e", // Primary forest green
-  forest600: "#16a34a",
-  forest700: "#15803d",
-  forest800: "#166534",
-  forest900: "#14532d",
-
-  // Light forest for brand color
-  forestLight100: "#f0fdf4", // Çok açık yeşil - siyah yazı için mükemmel
-  forestLight200: "#dcfce7", // Açık yeşil
-  forestLight300: "#bbf7d0", // Orta açık yeşil
-
-  // Deep forest
-  pine50: "#f7fee7",
-  pine100: "#ecfccb",
-  pine200: "#d9f99d",
-  pine300: "#bef264",
-  pine400: "#a3e635",
-  pine500: "#84cc16", // Secondary pine
-  pine600: "#65a30d",
-  pine700: "#4d7c0f",
-  pine800: "#3f6212",
-  pine900: "#365314",
-
-  // Light pine for brand color
-  pineLight100: "#f7fee7", // Çok açık lime
-  pineLight200: "#ecfccb", // Açık lime
+  // Background colors
+  backgroundLight: "#FBF9F6",
+  cardLight: "#FFFFFF",
+  
+  // Primary colors
+  primary: "#4A5C6A", // Cool blue-gray
+  primaryLight: "#5E7080",
+  primaryDark: "#3A4C5A",
+  
+  // Accent colors
+  accent: "#E0CDBA", // Warm beige
+  accentLight: "#EFE2D5",
+  accentDark: "#D1BDA5",
+  
+  // Text colors
+  textPrimary: "#3D4A53",
+  textSecondary: "#8B949A",
+  textTertiary: "#B4BBC1",
+  
+  // Background dark variant
+  backgroundDark: "#2A333A",
+  cardDark: "#39444D",
+  
+  // Additional shades
+  forest50: "#FBF9F6",
+  forest100: "#F3EFE9",
+  forest200: "#E0CDBA",
+  forest300: "#C9B5A3",
+  forest400: "#8B949A",
+  forest500: "#4A5C6A",
+  forest600: "#3A4C5A",
+  forest700: "#2A3C4A",
+  forest800: "#1A2C3A",
+  forest900: "#0A1C2A",
 };
 
-// Sunset Theme - Warm oranges and reds - Updated for better contrast
+// Classic Theme - Gradient Yellow to Pink (from HTML Variant 2)
+const classicPalette = {
+  // Gradient colors
+  gradientStart: "#FCE38A", // Warm yellow
+  gradientEnd: "#F38181", // Soft coral pink
+  
+  // Card & Button colors
+  cardBg: "rgba(255, 255, 255, 0.2)", // Glassmorphism
+  buttonBg: "#FFFFFF",
+  
+  // Text colors
+  textMain: "#2A2A2A",
+  textSecondary: "#4A4A4A",
+  iconColor: "#616161",
+  
+  // Primary colors derived from gradient
+  primary: "#FCE38A",
+  primaryLight: "#FEF3C7",
+  primaryDark: "#FBBF24",
+  
+  // Secondary colors
+  secondary: "#F38181",
+  secondaryLight: "#FCA5A5",
+  secondaryDark: "#DC2626",
+  
+  // Additional shades
+  classic50: "#FFFBEB",
+  classic100: "#FEF3C7",
+  classic200: "#FCE38A",
+  classic300: "#FBD55A",
+  classic400: "#FAC73C",
+  classic500: "#F9B91E",
+  classic600: "#F38181",
+  classic700: "#EF5757",
+  classic800: "#DC2626",
+  classic900: "#991B1B",
+};
+
+// Sunset Theme - Gradient Yellow to Pink (from inspirational_quote_display_5)
 const sunsetPalette = {
-  // Sunset oranges
-  sunset50: "#fff7ed",
-  sunset100: "#ffedd5",
-  sunset200: "#fed7aa",
-  sunset300: "#fdba74",
-  sunset400: "#fb923c",
-  sunset500: "#f97316", // Primary sunset orange
-  sunset600: "#ea580c",
-  sunset700: "#c2410c",
-  sunset800: "#9a3412",
-  sunset900: "#7c2d12",
-
-  // Light sunset for brand color
-  sunsetLight100: "#fff7ed", // Çok açık turuncu - siyah yazı için mükemmel
-  sunsetLight200: "#ffedd5", // Açık turuncu
-  sunsetLight300: "#fed7aa", // Orta açık turuncu
-
-  // Deep sunset reds
-  coral50: "#fef2f2",
-  coral100: "#fee2e2",
-  coral200: "#fecaca",
-  coral300: "#fca5a5",
-  coral400: "#f87171",
-  coral500: "#ef4444", // Secondary coral red
-  coral600: "#dc2626",
-  coral700: "#b91c1c",
-  coral800: "#991b1b",
-  coral900: "#7f1d1d",
-
-  // Light coral for brand color
-  coralLight100: "#fef2f2", // Çok açık koral
-  coralLight200: "#fee2e2", // Açık koral
+  // Gradient colors
+  gradientStart: "#FCE38A", // Warm yellow
+  gradientEnd: "#F38181", // Soft coral pink
+  
+  // Card & Button colors
+  cardBg: "rgba(255, 255, 255, 0.2)", // Glassmorphism
+  buttonBg: "#FFFFFF",
+  
+  // Text colors
+  textMain: "#2A2A2A",
+  textSecondary: "#4A4A4A",
+  iconColor: "#616161",
+  
+  // Primary colors derived from gradient
+  primary: "#FCE38A",
+  primaryLight: "#FEF3C7",
+  primaryDark: "#FBBF24",
+  
+  // Secondary colors
+  secondary: "#F38181",
+  secondaryLight: "#FCA5A5",
+  secondaryDark: "#DC2626",
+  
+  // Additional shades
+  sunset50: "#FFFBEB",
+  sunset100: "#FEF3C7",
+  sunset200: "#FCE38A",
+  sunset300: "#FBD55A",
+  sunset400: "#FAC73C",
+  sunset500: "#F9B91E",
+  sunset600: "#F38181",
+  sunset700: "#EF5757",
+  sunset800: "#DC2626",
+  sunset900: "#991B1B",
 };
 
-// Purple Theme - Royal purples and lavender - Updated for better contrast
+// Purple Theme - Glassmorphism Dark (from inspirational_quote_display_4)
 const purplePalette = {
-  // Royal purples
-  royal50: "#faf5ff",
-  royal100: "#f3e8ff",
-  royal200: "#e9d5ff",
-  royal300: "#d8b4fe",
-  royal400: "#c084fc",
-  royal500: "#a855f7", // Primary royal purple
-  royal600: "#9333ea",
-  royal700: "#7c3aed",
-  royal800: "#6b21a8",
-  royal900: "#581c87",
-
-  // Light royal for brand color
-  royalLight100: "#faf5ff", // Çok açık mor - siyah yazı için mükemmel
-  royalLight200: "#f3e8ff", // Açık mor
-  royalLight300: "#e9d5ff", // Orta açık mor
-
-  // Soft lavender
-  lavender50: "#f5f3ff",
-  lavender100: "#ede9fe",
-  lavender200: "#ddd6fe",
-  lavender300: "#c4b5fd",
-  lavender400: "#a78bfa",
-  lavender500: "#8b5cf6", // Secondary lavender
-  lavender600: "#7c3aed",
-  lavender700: "#6d28d9",
-  lavender800: "#5b21b6",
-  lavender900: "#4c1d95",
-
-  // Light lavender for brand color
-  lavenderLight100: "#f5f3ff", // Çok açık lavanta
-  lavenderLight200: "#ede9fe", // Açık lavanta
+  // Background colors
+  background: "#111827",
+  card: "#1F2937",
+  cardGlass: "rgba(31, 41, 55, 0.5)", // Glassmorphism effect
+  
+  // Primary colors
+  primary: "#F59E0B", // Amber gold
+  primaryLight: "#FBBF24",
+  primaryDark: "#D97706",
+  
+  // Secondary colors
+  secondary: "#EC4899", // Pink
+  secondaryLight: "#F472B6",
+  secondaryDark: "#DB2777",
+  
+  // Accent colors
+  accent: "#8B5CF6", // Purple
+  accentLight: "#A78BFA",
+  accentDark: "#7C3AED",
+  
+  // Text colors
+  textMain: "#F9FAFB",
+  textSubtle: "#9CA3AF",
+  
+  // Additional shades
+  royal50: "#F9FAFB",
+  royal100: "#E5E7EB",
+  royal200: "#9CA3AF",
+  royal300: "#6B7280",
+  royal400: "#374151",
+  royal500: "#1F2937",
+  royal600: "#111827",
+  royal700: "#0F172A",
+  royal800: "#020617",
+  royal900: "#000000",
 };
 
-// Minimalist Theme - Sophisticated grays - Updated for better contrast
+// Minimalist Theme - Elegant Dark (from inspirational_quote_display_2)
 const minimalistPalette = {
-  // Warm grays
-  slate50: "#f8fafc",
-  slate100: "#f1f5f9",
-  slate200: "#e2e8f0",
-  slate300: "#cbd5e1",
-  slate400: "#94a3b8",
-  slate500: "#64748b", // Primary slate
-  slate600: "#475569",
-  slate700: "#334155",
-  slate800: "#1e293b",
-  slate900: "#0f172a",
-
-  // Light slate for brand color
-  slateLight100: "#f8fafc", // Çok açık gri - siyah yazı için mükemmel
-  slateLight200: "#f1f5f9", // Açık gri
-  slateLight300: "#e2e8f0", // Orta açık gri
-
-  // Pure grays
-  stone50: "#fafaf9",
-  stone100: "#f5f5f4",
-  stone200: "#e7e5e4",
-  stone300: "#d6d3d1",
-  stone400: "#a8a29e",
-  stone500: "#78716c", // Secondary stone
-  stone600: "#57534e",
-  stone700: "#44403c",
-  stone800: "#292524",
-  stone900: "#1c1917",
-
-  // Light stone for brand color
-  stoneLight100: "#fafaf9", // Çok açık stone
-  stoneLight200: "#f5f5f4", // Açık stone
+  // Light theme colors
+  backgroundLight: "#E6E0D4",
+  cardLight: "#F7F5F2",
+  textPrimaryLight: "#383127",
+  textSecondaryLight: "#8A7F71",
+  accentLight: "#6A5B4C",
+  borderLight: "#DCD5C9",
+  
+  // Dark theme colors
+  backgroundDark: "#1C1C1E",
+  cardDark: "#2C2C2E",
+  textPrimaryDark: "#E0DACE",
+  textSecondaryDark: "#98989F",
+  accentDark: "#D1C4B3",
+  borderDark: "#444446",
+  
+  // Primary colors
+  primary: "#D1C4B3", // Warm beige
+  primaryLight: "#E0D6C7",
+  primaryDark: "#B8AB9F",
+  
+  // Additional shades
+  slate50: "#F7F5F2",
+  slate100: "#E6E0D4",
+  slate200: "#D1C4B3",
+  slate300: "#B8AB9F",
+  slate400: "#98989F",
+  slate500: "#6A5B4C",
+  slate600: "#444446",
+  slate700: "#2C2C2E",
+  slate800: "#1C1C1E",
+  slate900: "#0F0F10",
 };
 
 // Create themed variations
@@ -882,19 +920,24 @@ function hexToRgba(hex: string, opacity: number): string {
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 }
 
-// Ocean Themes
+// Ocean Themes - Deep Blue & Navy
 export const oceanLightTheme: Theme = {
   ...lightTheme,
   colors: {
     ...lightTheme.colors,
     ...createThemedColors(
+      oceanPalette.primary,
       oceanPalette.ocean500,
-      oceanPalette.teal500,
-      oceanPalette.oceanLight100,
-      ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal400]
+      oceanPalette.ocean50,
+      [oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600]
     ),
-    brandYellow: oceanPalette.oceanLight100,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal400],
+    background: oceanPalette.ocean50,
+    surface: "#FFFFFF",
+    text: oceanPalette.textPrimary,
+    textSecondary: oceanPalette.textSecondary,
+    brandYellow: oceanPalette.primary,
+    gradientColors: [oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -903,29 +946,39 @@ export const oceanDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      oceanPalette.ocean400,
-      oceanPalette.teal400,
-      oceanPalette.oceanLight200,
-      ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal500]
+      oceanPalette.primary,
+      oceanPalette.ocean500,
+      oceanPalette.primary,
+      [oceanPalette.background, oceanPalette.background, oceanPalette.background, oceanPalette.background]
     ),
-    brandYellow: oceanPalette.oceanLight200,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#0ea5e9", oceanPalette.teal500],
+    background: oceanPalette.background,
+    surface: oceanPalette.surface,
+    text: oceanPalette.textPrimary,
+    textSecondary: oceanPalette.textSecondary,
+    brandYellow: oceanPalette.primary,
+    gradientColors: [oceanPalette.background, oceanPalette.background, oceanPalette.background, oceanPalette.background],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
-// Forest Themes
+// Forest Themes - Light Minimalist
 export const forestLightTheme: Theme = {
   ...lightTheme,
   colors: {
     ...lightTheme.colors,
     ...createThemedColors(
-      forestPalette.forest500,
-      forestPalette.pine500,
-      forestPalette.forestLight100,
-      ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine400]
+      forestPalette.primary,
+      forestPalette.accent,
+      forestPalette.accent,
+      [forestPalette.backgroundLight, forestPalette.backgroundLight, forestPalette.backgroundLight, forestPalette.backgroundLight]
     ),
-    brandYellow: forestPalette.forestLight100,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine400],
+    background: forestPalette.backgroundLight,
+    surface: forestPalette.cardLight,
+    text: forestPalette.textPrimary,
+    textSecondary: forestPalette.textSecondary,
+    brandYellow: forestPalette.accent,
+    gradientColors: [forestPalette.backgroundLight, forestPalette.backgroundLight, forestPalette.backgroundLight, forestPalette.backgroundLight],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -934,29 +987,84 @@ export const forestDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      forestPalette.forest400,
-      forestPalette.pine400,
-      forestPalette.forestLight200,
-      ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine500]
+      forestPalette.primary,
+      forestPalette.accent,
+      forestPalette.accent,
+      [forestPalette.backgroundDark, forestPalette.backgroundDark, forestPalette.backgroundDark, forestPalette.backgroundDark]
     ),
-    brandYellow: forestPalette.forestLight200,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#22c55e", forestPalette.pine500],
+    background: forestPalette.backgroundDark,
+    surface: forestPalette.cardDark,
+    text: forestPalette.forest50,
+    textSecondary: forestPalette.textSecondary,
+    brandYellow: forestPalette.accent,
+    gradientColors: [forestPalette.backgroundDark, forestPalette.backgroundDark, forestPalette.backgroundDark, forestPalette.backgroundDark],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
-// Sunset Themes
+// Classic Themes - Gradient Yellow to Pink (from HTML Variant 2)
+export const classicLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      classicPalette.primary,
+      classicPalette.secondary,
+      classicPalette.primary,
+      [classicPalette.gradientStart, classicPalette.classic200, classicPalette.classic400, classicPalette.gradientEnd]
+    ),
+    background: classicPalette.gradientStart,
+    surface: classicPalette.buttonBg,
+    text: classicPalette.textMain, // #2A2A2A - koyu gri/siyah (iconlar ve text için)
+    textSecondary: classicPalette.textSecondary, // #4A4A4A - orta gri
+    textTertiary: classicPalette.textMain, // #2A2A2A - iconlar için siyah (Classic tema için)
+    brandYellow: classicPalette.primary,
+    gradientColors: [classicPalette.gradientStart, classicPalette.classic200, classicPalette.classic400, classicPalette.gradientEnd],
+    gradientLocations: [0, 0.4, 0.7, 1],
+    whiteOverlay20: classicPalette.cardBg,
+  },
+};
+
+export const classicDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      classicPalette.primary,
+      classicPalette.secondary,
+      classicPalette.primary,
+      [classicPalette.classic900, classicPalette.classic800, classicPalette.classic700, classicPalette.classic600]
+    ),
+    background: classicPalette.classic900,
+    surface: classicPalette.classic800,
+    text: classicPalette.classic50, // Açık renk dark tema için
+    textSecondary: classicPalette.classic200,
+    textTertiary: classicPalette.classic300,
+    brandYellow: classicPalette.primary,
+    gradientColors: [classicPalette.classic900, classicPalette.classic800, classicPalette.classic700, classicPalette.classic600],
+    gradientLocations: [0, 0.3, 0.7, 1],
+    whiteOverlay20: "rgba(255, 255, 255, 0.2)",
+  },
+};
+
+// Sunset Themes - Gradient Yellow to Pink (gerçek gradient kullanır)
 export const sunsetLightTheme: Theme = {
   ...lightTheme,
   colors: {
     ...lightTheme.colors,
     ...createThemedColors(
-      sunsetPalette.sunset500,
-      sunsetPalette.coral500,
-      sunsetPalette.sunsetLight100,
-      ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral400]
+      sunsetPalette.primary,
+      sunsetPalette.secondary,
+      sunsetPalette.primary,
+      [sunsetPalette.gradientStart, sunsetPalette.sunset200, sunsetPalette.sunset400, sunsetPalette.gradientEnd]
     ),
-    brandYellow: sunsetPalette.sunsetLight100,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral400],
+    background: sunsetPalette.gradientStart,
+    surface: sunsetPalette.buttonBg,
+    text: sunsetPalette.textMain,
+    textSecondary: sunsetPalette.textSecondary,
+    brandYellow: sunsetPalette.primary,
+    gradientColors: [sunsetPalette.gradientStart, sunsetPalette.sunset200, sunsetPalette.sunset400, sunsetPalette.gradientEnd],
+    gradientLocations: [0, 0.4, 0.7, 1],
   },
 };
 
@@ -965,34 +1073,39 @@ export const sunsetDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      sunsetPalette.sunset400,
-      sunsetPalette.coral400,
-      sunsetPalette.sunsetLight200,
-      ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral500]
+      sunsetPalette.primary,
+      sunsetPalette.secondary,
+      sunsetPalette.primary,
+      [sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900]
     ),
-    brandYellow: sunsetPalette.sunsetLight200,
-    gradientColors: ["#1a1a1a", "#2d2d2d", "#f97316", sunsetPalette.coral500],
+    background: sunsetPalette.sunset900,
+    surface: sunsetPalette.sunset800,
+    text: sunsetPalette.sunset50,
+    textSecondary: sunsetPalette.sunset200,
+    brandYellow: sunsetPalette.primary,
+    gradientColors: [sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900, sunsetPalette.sunset900],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
-// Purple Themes
+// Purple Themes - Glassmorphism Dark
 export const purpleLightTheme: Theme = {
   ...lightTheme,
   colors: {
     ...lightTheme.colors,
     ...createThemedColors(
-      purplePalette.royal500,
-      purplePalette.lavender500,
-      purplePalette.royalLight100,
-      ["#1a1a1a", "#2d2d2d", "#a855f7", purplePalette.lavender400]
+      purplePalette.primary,
+      purplePalette.secondary,
+      purplePalette.primary,
+      [purplePalette.royal50, purplePalette.royal50, purplePalette.royal50, purplePalette.royal50]
     ),
-    brandYellow: purplePalette.royalLight100,
-    gradientColors: [
-      "#1a1a1a",
-      "#2d2d2d",
-      "#a855f7",
-      purplePalette.lavender400,
-    ],
+    background: purplePalette.royal50,
+    surface: "#FFFFFF",
+    text: purplePalette.background,
+    textSecondary: purplePalette.royal300,
+    brandYellow: purplePalette.primary,
+    gradientColors: [purplePalette.royal50, purplePalette.royal50, purplePalette.royal50, purplePalette.royal50],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -1001,39 +1114,39 @@ export const purpleDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      purplePalette.royal400,
-      purplePalette.lavender400,
-      purplePalette.royalLight200,
-      ["#1a1a1a", "#2d2d2d", "#a855f7", purplePalette.lavender500]
+      purplePalette.primary,
+      purplePalette.secondary,
+      purplePalette.primary,
+      [purplePalette.background, purplePalette.background, purplePalette.background, purplePalette.background]
     ),
-    brandYellow: purplePalette.royalLight200,
-    gradientColors: [
-      "#1a1a1a",
-      "#2d2d2d",
-      "#a855f7",
-      purplePalette.lavender500,
-    ],
+    background: purplePalette.background,
+    surface: purplePalette.card,
+    text: purplePalette.textMain,
+    textSecondary: purplePalette.textSubtle,
+    brandYellow: purplePalette.primary,
+    gradientColors: [purplePalette.background, purplePalette.background, purplePalette.background, purplePalette.background],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
-// Minimalist Themes
+// Minimalist Themes - Elegant Dark
 export const minimalistLightTheme: Theme = {
   ...lightTheme,
   colors: {
     ...lightTheme.colors,
     ...createThemedColors(
-      minimalistPalette.slate500,
-      minimalistPalette.stone500,
-      minimalistPalette.slateLight100,
-      ["#1a1a1a", "#2d2d2d", "#64748b", minimalistPalette.stone400]
+      minimalistPalette.accentLight,
+      minimalistPalette.primary,
+      minimalistPalette.primary,
+      [minimalistPalette.backgroundLight, minimalistPalette.backgroundLight, minimalistPalette.backgroundLight, minimalistPalette.backgroundLight]
     ),
-    brandYellow: minimalistPalette.slateLight100,
-    gradientColors: [
-      "#1a1a1a",
-      "#2d2d2d",
-      "#64748b",
-      minimalistPalette.stone400,
-    ],
+    background: minimalistPalette.backgroundLight,
+    surface: minimalistPalette.cardLight,
+    text: minimalistPalette.textPrimaryLight,
+    textSecondary: minimalistPalette.textSecondaryLight,
+    brandYellow: minimalistPalette.primary,
+    gradientColors: [minimalistPalette.backgroundLight, minimalistPalette.backgroundLight, minimalistPalette.backgroundLight, minimalistPalette.backgroundLight],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -1042,18 +1155,18 @@ export const minimalistDarkTheme: Theme = {
   colors: {
     ...darkTheme.colors,
     ...createThemedColors(
-      minimalistPalette.slate400,
-      minimalistPalette.stone400,
-      minimalistPalette.slateLight200,
-      ["#1a1a1a", "#2d2d2d", "#64748b", minimalistPalette.stone500]
+      minimalistPalette.accentDark,
+      minimalistPalette.primary,
+      minimalistPalette.primary,
+      [minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark]
     ),
-    brandYellow: minimalistPalette.slateLight200,
-    gradientColors: [
-      "#1a1a1a",
-      "#2d2d2d",
-      "#64748b",
-      minimalistPalette.stone500,
-    ],
+    background: minimalistPalette.backgroundDark,
+    surface: minimalistPalette.cardDark,
+    text: minimalistPalette.textPrimaryDark,
+    textSecondary: minimalistPalette.textSecondaryDark,
+    brandYellow: minimalistPalette.primary,
+    gradientColors: [minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark, minimalistPalette.backgroundDark],
+    gradientLocations: [0, 0.3, 0.7, 1],
   },
 };
 
@@ -1070,6 +1183,8 @@ export const getThemeByOption = (
   isDark: boolean = true
 ): Theme => {
   switch (themeOption) {
+    case "uprising":
+      return isDark ? classicDarkTheme : classicLightTheme;
     case "ocean":
       return isDark ? oceanDarkTheme : oceanLightTheme;
     case "forest":
@@ -1080,9 +1195,8 @@ export const getThemeByOption = (
       return isDark ? purpleDarkTheme : purpleLightTheme;
     case "minimalist":
       return isDark ? minimalistDarkTheme : minimalistLightTheme;
-    case "uprising":
     default:
-      return isDark ? darkTheme : lightTheme;
+      return isDark ? classicDarkTheme : classicLightTheme;
   }
 };
 
@@ -1090,26 +1204,32 @@ export const getThemeByOption = (
 export const themeMetadata = {
   uprising: {
     icon: "sun",
-    preview: colorPalette.golden500,
+    preview: classicPalette.gradientEnd,
+    name: "Classic", // Gradient yellow to pink theme (from HTML Variant 2)
   },
   ocean: {
     icon: "waves",
-    preview: oceanPalette.ocean500,
+    preview: oceanPalette.primary,
+    name: "Ocean", // Deep blue & navy theme
   },
   forest: {
     icon: "tree-pine",
-    preview: forestPalette.forest500,
+    preview: forestPalette.accent,
+    name: "Forest", // Light minimalist theme
   },
   sunset: {
     icon: "sunset",
-    preview: sunsetPalette.sunset500,
+    preview: sunsetPalette.gradientEnd,
+    name: "Sunset", // Gradient yellow to pink theme
   },
   purple: {
-    icon: "crown",
-    preview: purplePalette.royal500,
+    icon: "sparkles",
+    preview: purplePalette.accent,
+    name: "Purple", // Glassmorphism dark theme
   },
   minimalist: {
     icon: "square",
-    preview: minimalistPalette.slate500,
+    preview: minimalistPalette.primary,
+    name: "Minimalist", // Elegant dark theme
   },
 } as const;
