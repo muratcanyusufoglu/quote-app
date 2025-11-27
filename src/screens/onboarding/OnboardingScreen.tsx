@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {
@@ -34,6 +35,7 @@ const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 
 export function OnboardingScreen() {
   const { theme, selectedTheme, isDark } = useTheme();
+  const insets = useSafeAreaInsets();
   const { addAnswer, generatePreferences, setCompleted } =
     useOnboardingActions();
 
@@ -801,7 +803,7 @@ export function OnboardingScreen() {
     <BaseScreen style={styles.container}>
       {/* Enhanced Progress Bar */}
       {currentStep >= -1 && currentStep < onboardingQuestions.length && (
-        <View style={styles.progressContainer}>
+        <View style={[styles.progressContainer, { paddingTop: insets.top }]}>
           <View
             style={[
               styles.progressBar,
@@ -840,7 +842,7 @@ export function OnboardingScreen() {
 
       {/* Enhanced Navigation Buttons */}
       {currentStep < onboardingQuestions.length && (
-        <View style={styles.navigationContainer}>
+        <View style={[styles.navigationContainer, { paddingBottom: insets.bottom + 20 }]}>
           {currentStep > -1 && (
             <TouchableOpacity
               style={[
@@ -1007,11 +1009,6 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     borderWidth: 1,
     overflow: "hidden",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 12,
-    elevation: 6,
   },
   featureCardGradient: {
     flexDirection: "row",
@@ -1182,11 +1179,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     minWidth: 200,
     borderRadius: 16,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 4,
   },
   timeDisplayTitle: {
     fontSize: 14,
@@ -1212,11 +1204,6 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     minWidth: 100,
     alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
   },
   prevButton: {
     // Styles applied inline

@@ -1,5 +1,5 @@
-import { LinearGradient } from "expo-linear-gradient";
-import React, { useEffect, useRef, useState } from "react";
+import {LinearGradient} from "expo-linear-gradient";
+import React, {useEffect, useRef, useState} from "react";
 import {
   Alert,
   Animated,
@@ -15,9 +15,10 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { usePremium } from "../../hooks/usePremium";
-import { useStoreReview } from "../../hooks/useStoreReview";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {usePremium} from "../../hooks/usePremium";
+import {useStoreReview} from "../../hooks/useStoreReview";
 import {
   useCommonTranslations,
   usePaywallTranslations,
@@ -26,10 +27,10 @@ import {
   getPaywallService,
   SubscriptionPackage,
 } from "../../services/PaywallService";
-import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { useTheme } from "../../utils/ThemeContext";
+import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {useTheme} from "../../utils/ThemeContext";
 
-const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
+const {width: screenWidth, height: screenHeight} = Dimensions.get("window");
 
 // Debug Panel Component
 const DebugPanel: React.FC<{
@@ -38,7 +39,7 @@ const DebugPanel: React.FC<{
   triggerSource: string | null;
   subscriptionPackage: SubscriptionPackage | null;
   isLoading: boolean;
-}> = ({ theme, isVisible, triggerSource, subscriptionPackage, isLoading }) => {
+}> = ({theme, isVisible, triggerSource, subscriptionPackage, isLoading}) => {
   if (!__DEV__) return null;
 
   // Use translations
@@ -48,10 +49,10 @@ const DebugPanel: React.FC<{
     <View
       style={[
         debugStyles.debugContainer,
-        { backgroundColor: theme.colors.surface },
+        {backgroundColor: theme.colors.surface},
       ]}
     >
-      <Text style={[debugStyles.debugTitle, { color: theme.colors.text }]}>
+      <Text style={[debugStyles.debugTitle, {color: theme.colors.text}]}>
         {paywall.debug.title}
       </Text>
       <View style={debugStyles.debugContent}>
@@ -59,12 +60,12 @@ const DebugPanel: React.FC<{
           <Text
             style={[
               debugStyles.debugLabel,
-              { color: theme.colors.textSecondary },
+              {color: theme.colors.textSecondary},
             ]}
           >
             {paywall.debug.modal_visible}
           </Text>
-          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+          <Text style={[debugStyles.debugValue, {color: theme.colors.text}]}>
             {isVisible.toString()}
           </Text>
         </View>
@@ -72,12 +73,12 @@ const DebugPanel: React.FC<{
           <Text
             style={[
               debugStyles.debugLabel,
-              { color: theme.colors.textSecondary },
+              {color: theme.colors.textSecondary},
             ]}
           >
             {paywall.debug.trigger_source}
           </Text>
-          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+          <Text style={[debugStyles.debugValue, {color: theme.colors.text}]}>
             {triggerSource || paywall.debug.none}
           </Text>
         </View>
@@ -85,12 +86,12 @@ const DebugPanel: React.FC<{
           <Text
             style={[
               debugStyles.debugLabel,
-              { color: theme.colors.textSecondary },
+              {color: theme.colors.textSecondary},
             ]}
           >
             {paywall.debug.loading_state}
           </Text>
-          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+          <Text style={[debugStyles.debugValue, {color: theme.colors.text}]}>
             {isLoading.toString()}
           </Text>
         </View>
@@ -98,12 +99,12 @@ const DebugPanel: React.FC<{
           <Text
             style={[
               debugStyles.debugLabel,
-              { color: theme.colors.textSecondary },
+              {color: theme.colors.textSecondary},
             ]}
           >
             {paywall.debug.platform}
           </Text>
-          <Text style={[debugStyles.debugValue, { color: theme.colors.text }]}>
+          <Text style={[debugStyles.debugValue, {color: theme.colors.text}]}>
             {Platform.OS}
           </Text>
         </View>
@@ -111,7 +112,7 @@ const DebugPanel: React.FC<{
           <>
             <View style={debugStyles.debugDivider} />
             <Text
-              style={[debugStyles.debugSubtitle, { color: theme.colors.text }]}
+              style={[debugStyles.debugSubtitle, {color: theme.colors.text}]}
             >
               {paywall.debug.subscription_package}
             </Text>
@@ -119,13 +120,13 @@ const DebugPanel: React.FC<{
               <Text
                 style={[
                   debugStyles.debugLabel,
-                  { color: theme.colors.textSecondary },
+                  {color: theme.colors.textSecondary},
                 ]}
               >
                 {paywall.debug.id}
               </Text>
               <Text
-                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+                style={[debugStyles.debugValue, {color: theme.colors.text}]}
               >
                 {subscriptionPackage.id}
               </Text>
@@ -134,13 +135,13 @@ const DebugPanel: React.FC<{
               <Text
                 style={[
                   debugStyles.debugLabel,
-                  { color: theme.colors.textSecondary },
+                  {color: theme.colors.textSecondary},
                 ]}
               >
                 {paywall.debug.title_field}
               </Text>
               <Text
-                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+                style={[debugStyles.debugValue, {color: theme.colors.text}]}
               >
                 {subscriptionPackage.title}
               </Text>
@@ -149,13 +150,13 @@ const DebugPanel: React.FC<{
               <Text
                 style={[
                   debugStyles.debugLabel,
-                  { color: theme.colors.textSecondary },
+                  {color: theme.colors.textSecondary},
                 ]}
               >
                 {paywall.debug.current_price}
               </Text>
               <Text
-                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+                style={[debugStyles.debugValue, {color: theme.colors.text}]}
               >
                 {subscriptionPackage.currentPrice}
               </Text>
@@ -164,13 +165,13 @@ const DebugPanel: React.FC<{
               <Text
                 style={[
                   debugStyles.debugLabel,
-                  { color: theme.colors.textSecondary },
+                  {color: theme.colors.textSecondary},
                 ]}
               >
                 {paywall.debug.trial_days}
               </Text>
               <Text
-                style={[debugStyles.debugValue, { color: theme.colors.text }]}
+                style={[debugStyles.debugValue, {color: theme.colors.text}]}
               >
                 {subscriptionPackage.freeTrialDays}
               </Text>
@@ -188,7 +189,7 @@ const debugStyles = StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
+    shadowOffset: {width: 0, height: 2},
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,
@@ -239,13 +240,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   onClose,
   onPurchase,
 }) => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
+  const insets = useSafeAreaInsets();
   const isVisible = usePaywallSelectors.isVisible();
   const triggerSource = usePaywallSelectors.triggerSource();
   const isFirstTimePaywall = usePaywallSelectors.isFirstTimePaywall();
   const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
   const [shouldShowDiscounted, setShouldShowDiscounted] = useState(false);
-  const { hidePaywall, showPaywall } = usePaywallSelectors.actions();
+  const {hidePaywall, showPaywall} = usePaywallSelectors.actions();
 
   // UNIFIED: Use unified premium system
   const {
@@ -499,10 +501,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   };
 
   // Responsive design için ekran boyutuna göre değerler
+  const isVerySmallScreen = screenHeight < 650; // iPhone SE gibi çok küçük ekranlar
   const isSmallScreen = screenHeight < 700;
   const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
 
-  const styles = createStyles(theme);
+  const styles = createStyles(theme, isVerySmallScreen);
 
   // Content based on trigger source
   const getContent = () => {
@@ -668,7 +671,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         console.log("✅ İlk teklif reddedildi olarak işaretlendi");
 
         // Reset user interaction count for delayed discount paywall tracking
-        const { resetInteractionCountForDiscount } =
+        const {resetInteractionCountForDiscount} =
           usePaywallSelectors.actions();
         resetInteractionCountForDiscount();
         console.log(
@@ -777,7 +780,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             Alert.alert(
               paywall.purchaseVerification,
               paywall.purchaseVerificationMessage,
-              [{ text: common.ok }]
+              [{text: common.ok}]
             );
           }
         } catch (error) {
@@ -788,7 +791,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           Alert.alert(
             paywall.verificationError,
             paywall.verificationErrorMessage,
-            [{ text: common.ok }]
+            [{text: common.ok}]
           );
         }
       } else if (purchaseResult.userCancelled) {
@@ -799,7 +802,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         Alert.alert(
           paywall.alerts.purchase_error,
           purchaseResult.error || paywall.alerts.unexpected_error,
-          [{ text: common.ok }]
+          [{text: common.ok}]
         );
       }
     } catch (error) {
@@ -807,7 +810,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       Alert.alert(
         paywall.alerts.purchase_error,
         paywall.alerts.unexpected_error,
-        [{ text: common.ok }]
+        [{text: common.ok}]
       );
     } finally {
       setIsLoading(false);
@@ -864,7 +867,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             Alert.alert(
               paywall.alerts.no_purchases,
               paywall.alerts.no_purchases_message,
-              [{ text: common.ok }]
+              [{text: common.ok}]
             );
           }
         } catch (error) {
@@ -875,14 +878,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           Alert.alert(
             paywall.verificationError,
             paywall.restoreVerificationError,
-            [{ text: common.ok }]
+            [{text: common.ok}]
           );
         }
       } else {
         Alert.alert(
           paywall.alerts.no_purchases,
           paywall.alerts.no_purchases_message,
-          [{ text: common.ok }]
+          [{text: common.ok}]
         );
       }
     } catch (error) {
@@ -890,7 +893,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       Alert.alert(
         paywall.alerts.restore_error,
         paywall.alerts.restore_error_message,
-        [{ text: common.ok }]
+        [{text: common.ok}]
       );
     } finally {
       setIsLoading(false);
@@ -995,50 +998,20 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <View style={styles.currentPriceSection}>
                   <Text style={styles.currentPrice}>
                     {(() => {
-                      // İndirimli paywall'da her zaman indirimli fiyatı (packages[1]) göster
-                      if (
-                        (isDiscountedPaywall || shouldShowDiscounted) &&
-                        allPackages.length >= 2
-                      ) {
-                        const packageData = allPackages[1];
-                        console.log(
-                          "🔍 İndirimli paywall ana fiyat:",
-                          packageData.currentPrice,
-                          "Currency:",
-                          packageData.currencyCode
-                        );
-                        return packageData.currentPrice;
-                      }
-                      // Normal paywall'da seçili paketi göster
-                      const packageData = subscriptionPackage;
+                      // Always show the selected subscription package price for consistency
                       console.log(
-                        "🔍 Normal paywall ana fiyat:",
-                        packageData?.currentPrice || "...",
+                        "🔍 Paywall ana fiyat (subscriptionPackage):",
+                        subscriptionPackage?.currentPrice || "...",
                         "Currency:",
-                        packageData?.currencyCode || "N/A"
+                        subscriptionPackage?.currencyCode || "N/A"
                       );
-                      return packageData?.currentPrice || "...";
+                      return subscriptionPackage?.currentPrice || "...";
                     })()}
                   </Text>
                   <Text style={styles.periodText}>
                     {(() => {
-                      // Currency code'u kullanarak period text'i oluştur
-                      const currentPackage =
-                        (isDiscountedPaywall || shouldShowDiscounted) &&
-                        allPackages.length >= 2
-                          ? allPackages[1]
-                          : subscriptionPackage;
-
-                      const currencyCode =
-                        currentPackage?.currencyCode || "USD";
-                      const period = currentPackage?.period || "year";
-
-                      // Period'u translation key'ine çevir
-                      const periodKey =
-                        period === "year"
-                          ? "paywall.modern.year"
-                          : "paywall.modern.per_year";
-
+                      // Always use subscriptionPackage for consistency
+                      const period = subscriptionPackage?.period || "year";
                       return `/${paywall.modern.year}`;
                     })()}
                   </Text>
@@ -1096,7 +1069,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           </View>
 
           {/* Bottom CTA Section */}
-          <View style={styles.bottomSection}>
+          <View
+            style={[
+              styles.bottomSection,
+              {paddingBottom: (isSmallScreen ? 30 : 40) + insets.bottom},
+            ]}
+          >
             <TouchableOpacity
               style={[styles.ctaButton, isLoading && styles.disabledButton]}
               onPress={handlePurchase}
@@ -1110,8 +1088,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   "#92400E", // En koyu amber
                 ]}
                 locations={[0, 0.5, 1]}
-                start={{ x: 0, y: 0 }}
-                end={{ x: 1, y: 0 }}
+                start={{x: 0, y: 0}}
+                end={{x: 1, y: 0}}
                 style={styles.ctaGradient}
               >
                 <Text style={styles.ctaButtonText}>
@@ -1162,7 +1140,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   );
 };
 
-const createStyles = (theme: any) => {
+const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
   // Responsive design için ekran boyutuna göre değerler
   const isSmallScreen = screenHeight < 700;
   const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
@@ -1214,24 +1192,30 @@ const createStyles = (theme: any) => {
     },
     contentContainer: {
       flex: 1,
-      paddingTop: isSmallScreen ? 80 : isMediumScreen ? 100 : 110,
+      paddingTop: isVerySmallScreen
+        ? 50
+        : isSmallScreen
+        ? 60
+        : isMediumScreen
+        ? 70
+        : 80,
       paddingHorizontal: isSmallScreen ? 16 : 24,
       justifyContent: "space-between",
     },
     topSection: {
-      flex: 1,
-      justifyContent: "center",
+      flex: 0,
+      justifyContent: "flex-start",
     },
     headerSection: {
       alignItems: "center",
-      marginBottom: isSmallScreen ? 16 : 20,
+      marginBottom: isVerySmallScreen ? 10 : isSmallScreen ? 14 : 18,
     },
     discountBadge: {
       backgroundColor: "#FF4444",
       paddingHorizontal: isSmallScreen ? 16 : 20,
       paddingVertical: isSmallScreen ? 6 : 8,
       borderRadius: 20,
-      marginBottom: isSmallScreen ? 12 : 16,
+      marginBottom: isSmallScreen ? 10 : 12,
     },
     discountBadgeText: {
       color: "#FFFFFF",
@@ -1240,34 +1224,60 @@ const createStyles = (theme: any) => {
       textAlign: "center",
     },
     mainTitle: {
-      fontSize: isSmallScreen ? 22 : isMediumScreen ? 25 : 28,
+      fontSize: isVerySmallScreen
+        ? 20
+        : isSmallScreen
+        ? 22
+        : isMediumScreen
+        ? 25
+        : 28,
       fontWeight: "800",
       color: "#FFFFFF",
       textAlign: "center",
-      marginBottom: isSmallScreen ? 6 : 8,
-      lineHeight: isSmallScreen ? 26 : isMediumScreen ? 29 : 32,
+      marginBottom: isVerySmallScreen ? 4 : isSmallScreen ? 6 : 8,
+      lineHeight: isVerySmallScreen
+        ? 24
+        : isSmallScreen
+        ? 26
+        : isMediumScreen
+        ? 29
+        : 32,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: { width: 0, height: 2 },
+      textShadowOffset: {width: 0, height: 2},
       textShadowRadius: 4,
     },
     mainSubtitle: {
-      fontSize: isSmallScreen ? 14 : isMediumScreen ? 16 : 18,
+      fontSize: isVerySmallScreen
+        ? 12
+        : isSmallScreen
+        ? 14
+        : isMediumScreen
+        ? 16
+        : 18,
       fontWeight: "500",
       color: "#FFFFFF",
       textAlign: "center",
-      lineHeight: isSmallScreen ? 18 : isMediumScreen ? 20 : 24,
+      lineHeight: isVerySmallScreen
+        ? 16
+        : isSmallScreen
+        ? 18
+        : isMediumScreen
+        ? 20
+        : 24,
       opacity: 0.9,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: { width: 0, height: 1 },
+      textShadowOffset: {width: 0, height: 1},
       textShadowRadius: 2,
+      marginBottom: isVerySmallScreen ? 2 : isSmallScreen ? 2 : 4,
     },
     pricingContainer: {
       alignItems: "center",
-      marginBottom: isSmallScreen ? 16 : 20,
+      marginTop: isVerySmallScreen ? 2 : isSmallScreen ? 4 : 6,
+      marginBottom: isVerySmallScreen ? 10 : isSmallScreen ? 14 : 18,
     },
     priceComparison: {
       alignItems: "center",
-      marginBottom: isSmallScreen ? 12 : 16,
+      marginBottom: isSmallScreen ? 10 : 12,
     },
     wasPrice: {
       fontSize: isSmallScreen ? 14 : 16,
@@ -1284,14 +1294,20 @@ const createStyles = (theme: any) => {
     currentPriceSection: {
       flexDirection: "row",
       alignItems: "baseline",
-      marginBottom: isSmallScreen ? 12 : 16,
+      marginBottom: isSmallScreen ? 12 : 14,
     },
     currentPrice: {
-      fontSize: isSmallScreen ? 36 : isMediumScreen ? 42 : 48,
+      fontSize: isVerySmallScreen
+        ? 32
+        : isSmallScreen
+        ? 36
+        : isMediumScreen
+        ? 42
+        : 48,
       fontWeight: "800",
       color: "#FFFFFF",
       textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: { width: 0, height: 2 },
+      textShadowOffset: {width: 0, height: 2},
       textShadowRadius: 4,
     },
     periodText: {
@@ -1318,19 +1334,27 @@ const createStyles = (theme: any) => {
     testimonialsContainer: {
       alignItems: "center",
       flex: 0,
+      marginTop: isVerySmallScreen ? 4 : isSmallScreen ? 6 : 8,
+      marginBottom: isVerySmallScreen ? 2 : isSmallScreen ? 4 : 6,
     },
     testimonialsTitle: {
-      fontSize: isSmallScreen ? 16 : 18,
+      fontSize: isVerySmallScreen ? 14 : isSmallScreen ? 15 : 17,
       fontWeight: "700",
       color: "#FFFFFF",
       textAlign: "center",
-      marginBottom: isSmallScreen ? 12 : 15,
+      marginBottom: isVerySmallScreen ? 8 : isSmallScreen ? 10 : 12,
       textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: { width: 0, height: 1 },
+      textShadowOffset: {width: 0, height: 1},
       textShadowRadius: 2,
     },
     testimonialsScroll: {
-      maxHeight: isSmallScreen ? 100 : isMediumScreen ? 120 : 140,
+      maxHeight: isVerySmallScreen
+        ? 80
+        : isSmallScreen
+        ? 90
+        : isMediumScreen
+        ? 100
+        : 110,
     },
     testimonialsScrollContent: {
       paddingHorizontal: isSmallScreen ? 16 : 20,
@@ -1340,19 +1364,19 @@ const createStyles = (theme: any) => {
       width: isSmallScreen ? screenWidth * 0.75 : screenWidth * 0.7,
       backgroundColor: "rgba(255, 255, 255, 0.15)",
       borderRadius: 16,
-      padding: isSmallScreen ? 12 : 16,
+      padding: isSmallScreen ? 10 : 12,
       marginHorizontal: isSmallScreen ? 8 : 10,
       borderWidth: 1,
       borderColor: "rgba(255, 255, 255, 0.2)",
       shadowColor: "rgba(0, 0, 0, 0.3)",
-      shadowOffset: { width: 0, height: 4 },
+      shadowOffset: {width: 0, height: 4},
       shadowOpacity: 1,
       shadowRadius: 8,
       elevation: 8,
     },
     starsContainer: {
       flexDirection: "row",
-      marginBottom: isSmallScreen ? 8 : 12,
+      marginBottom: isSmallScreen ? 6 : 8,
       justifyContent: "center",
     },
     star: {
@@ -1361,12 +1385,12 @@ const createStyles = (theme: any) => {
       marginHorizontal: 1,
     },
     testimonialText: {
-      fontSize: isSmallScreen ? 12 : 14,
+      fontSize: isSmallScreen ? 10 : 12,
       color: "#FFFFFF",
       fontWeight: "500",
-      lineHeight: isSmallScreen ? 16 : 20,
+      lineHeight: isSmallScreen ? 14 : 16,
       textAlign: "center",
-      marginBottom: isSmallScreen ? 8 : 10,
+      marginBottom: isSmallScreen ? 6 : 8,
       fontStyle: "italic",
     },
     testimonialAuthor: {
@@ -1378,14 +1402,14 @@ const createStyles = (theme: any) => {
     },
     bottomSection: {
       paddingHorizontal: isSmallScreen ? 16 : 24,
-      paddingBottom: isSmallScreen ? 30 : 40,
-      paddingTop: isSmallScreen ? 16 : 20,
+      paddingBottom: isVerySmallScreen ? 30 : isSmallScreen ? 40 : 50,
+      paddingTop: isVerySmallScreen ? 8 : isSmallScreen ? 12 : 16,
     },
     ctaButton: {
       borderRadius: 16,
       marginBottom: isSmallScreen ? 12 : 16,
       shadowColor: "#000000",
-      shadowOffset: { width: 0, height: 4 },
+      shadowOffset: {width: 0, height: 4},
       shadowOpacity: 0.3,
       shadowRadius: 8,
       elevation: 8,
@@ -1401,7 +1425,7 @@ const createStyles = (theme: any) => {
       fontWeight: "800",
       color: "#FFFFFF",
       textShadowColor: "rgba(0, 0, 0, 0.3)",
-      textShadowOffset: { width: 0, height: 1 },
+      textShadowOffset: {width: 0, height: 1},
       textShadowRadius: 2,
     },
     trustSection: {

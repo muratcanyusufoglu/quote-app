@@ -1,5 +1,5 @@
 import {useLocalSearchParams, useRouter} from "expo-router";
-import React, {useEffect, useRef, useState} from "react";
+import React, {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {MoodMotivationModal} from "../../components/ui/MoodMotivationModal";
@@ -35,6 +36,7 @@ const QUOTE_READ_DELAY = 10000; // 10 saniye
 
 const QuoteDetailScreen: React.FC = () => {
   const {theme, isDark} = useTheme();
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   const params = useLocalSearchParams();
   const quoteId = params.id as string;
@@ -76,30 +78,41 @@ const QuoteDetailScreen: React.FC = () => {
   const quoteDetailData = useQuoteDetail(quoteId);
   const storyReading = useStoryReading();
 
-  // Track screen view
+  // Memoize styles to prevent recreation on every render
+  const styles = useMemo(() => createStyles(theme), [theme]);
+
+  // Track screen view only once when component mounts
   useEffect(() => {
     trackScreen("QuoteDetailScreen", "QuoteDetailScreen");
-  }, [trackScreen]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Only run once on mount
 
-  // Track quote view and start read timer
+  // Track quote view and start read timer - use ref to track last processed quote
+  const lastProcessedQuoteIdRef = useRef<string | null>(null);
+  const currentQuoteId = quoteDetailData?.quote?.id;
+  
   useEffect(() => {
-    if (quoteDetailData?.quote) {
-      // Track quote view analytics
-      trackQuoteView({
-        quote_id: quoteDetailData.quote.id,
-        quote_category: quoteDetailData.quote.category,
-        quote_author: quoteDetailData.quote.author,
-        language: quoteDetailData.quote.language,
-      });
+    if (!currentQuoteId || lastProcessedQuoteIdRef.current === currentQuoteId) {
+      return; // Skip if no quote or already processed this quote
+    }
 
-      // Quote'ı 10 saniye sonra okundu olarak işaretle
-      console.log(
-        "⏱️ Starting read timer for quote:",
-        quoteDetailData.quote.id
-      );
+    // Mark this quote as processed
+    lastProcessedQuoteIdRef.current = currentQuoteId;
 
-      readTimerRef.current = setTimeout(() => {
-        console.log("✅ Marking quote as read:", quoteDetailData.quote.id);
+    // Track quote view analytics
+    trackQuoteView({
+      quote_id: currentQuoteId,
+      quote_category: quoteDetailData.quote.category,
+      quote_author: quoteDetailData.quote.author,
+      language: quoteDetailData.quote.language,
+    });
+
+    // Quote'ı 10 saniye sonra okundu olarak işaretle
+    console.log("⏱️ Starting read timer for quote:", currentQuoteId);
+
+    readTimerRef.current = setTimeout(() => {
+      console.log("✅ Marking quote as read:", currentQuoteId);
+      if (quoteDetailData?.quote) {
         markAsRead(quoteDetailData.quote);
 
         // Story varsa onu da otomatik olarak oku
@@ -109,8 +122,8 @@ const QuoteDetailScreen: React.FC = () => {
             quoteDetailData.quote.story.title
           );
         }
-      }, QUOTE_READ_DELAY);
-    }
+      }
+    }, QUOTE_READ_DELAY);
 
     // Cleanup timer when component unmounts or quote changes
     return () => {
@@ -120,9 +133,7 @@ const QuoteDetailScreen: React.FC = () => {
         readTimerRef.current = null;
       }
     };
-  }, [quoteDetailData?.quote?.id, markAsRead, storyReading, trackQuoteView]);
-
-  const styles = createStyles(theme);
+  }, [currentQuoteId, markAsRead, storyReading, trackQuoteView, quoteDetailData]);
 
   if (
     !quoteStoreHydrated ||
@@ -154,7 +165,7 @@ const QuoteDetailScreen: React.FC = () => {
   const {quote, category, canAccess, isFavorite, toggleFavorite} =
     quoteDetailData;
 
-  const handleFavoritePress = () => {
+  const handleFavoritePress = useCallback(() => {
     if (!quoteDetailData?.quote) return;
 
     const isCurrentlyFavorite = favoriteQuotes.includes(
@@ -178,27 +189,27 @@ const QuoteDetailScreen: React.FC = () => {
     } else {
       addToFavorites(quoteDetailData.quote.id);
     }
-  };
+  }, [quoteDetailData, favoriteQuotes, trackQuoteFavorite, removeFromFavorites, addToFavorites]);
 
-  const handleBackPress = () => {
+  const handleBackPress = useCallback(() => {
     router.back();
-  };
+  }, [router]);
 
-  const handleHomePress = () => {
+  const handleHomePress = useCallback(() => {
     router.push("/");
-  };
+  }, [router]);
 
   // Mood modal handlers
-  const handleMoodIconPress = () => {
+  const handleMoodIconPress = useCallback(() => {
     setIsMoodModalVisible(true);
-  };
+  }, []);
 
-  const handleMoodModalClose = () => {
+  const handleMoodModalClose = useCallback(() => {
     setIsMoodModalVisible(false);
     clearMessage();
-  };
+  }, [clearMessage]);
 
-  const handleMoodComplete = async (moodResponse: any) => {
+  const handleMoodComplete = useCallback(async (moodResponse: any) => {
     setIsMoodModalVisible(false);
 
     await generateMotivation({
@@ -220,13 +231,13 @@ const QuoteDetailScreen: React.FC = () => {
         | "th"
         | "ms",
     });
-  };
+  }, [generateMotivation, userPreferences?.language]);
 
   return (
     <BaseScreen useGradientBackground={true}>
       <ScrollView
         style={styles.scrollView}
-        contentContainerStyle={styles.contentContainer}
+        contentContainerStyle={[styles.contentContainer, { paddingBottom: 40 + insets.bottom }]}
         showsVerticalScrollIndicator={false}
       >
         {/* HTML-style Header */}
@@ -248,21 +259,21 @@ const QuoteDetailScreen: React.FC = () => {
               />
             </TouchableOpacity>
 
-            <TouchableOpacity
-              style={[
-                styles.headerButton,
-                {backgroundColor: theme.colors.whiteOverlay20},
-              ]}
-              onPress={handleMoodIconPress}
-              activeOpacity={0.7}
-            >
-              <IconSymbol
-                name="brain"
-                size={18}
-                color={theme.colors.text}
-                strokeWidth={2}
-              />
-            </TouchableOpacity>
+          <TouchableOpacity
+            style={[
+              styles.headerButton,
+              {backgroundColor: theme.colors.whiteOverlay20},
+            ]}
+            onPress={handleMoodIconPress}
+            activeOpacity={0.7}
+          >
+            <IconSymbol
+              name="brain"
+              size={18}
+              color={theme.colors.text}
+              strokeWidth={2}
+            />
+          </TouchableOpacity>
           </View>
 
           <View

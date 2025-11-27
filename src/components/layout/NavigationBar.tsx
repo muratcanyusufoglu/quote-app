@@ -1,6 +1,6 @@
 import { useFocusEffect } from "@react-navigation/native";
 import { router } from "expo-router";
-import React, { useEffect, useRef } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import {
   Animated,
   StyleSheet,
@@ -32,8 +32,8 @@ export function NavigationBar({ style }: NavigationBarProps) {
   const themesOpacity = useRef(new Animated.Value(0)).current;
   const settingsOpacity = useRef(new Animated.Value(0)).current;
 
-  // Function to reset and start animation
-  const startAnimation = () => {
+  // Function to reset and start animation - memoized to prevent recreation
+  const startAnimation = useCallback(() => {
     // Reset all animations to initial state
     homeAnim.setValue(100);
     favoritesAnim.setValue(100);
@@ -117,7 +117,7 @@ export function NavigationBar({ style }: NavigationBarProps) {
 
     // Stagger the animations
     Animated.stagger(100, animations).start();
-  };
+  }, []); // Empty deps - animation refs are stable
 
   // Animate buttons from right to left on every mount (screen navigation)
   useEffect(() => {
@@ -127,39 +127,39 @@ export function NavigationBar({ style }: NavigationBarProps) {
     }, 50);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [startAnimation]);
 
   // Animate buttons when screen comes into focus
   useFocusEffect(
-    React.useCallback(() => {
+    useCallback(() => {
       // Small delay to ensure component is fully mounted
       const timer = setTimeout(() => {
         startAnimation();
       }, 0);
 
       return () => clearTimeout(timer);
-    }, [])
+    }, [startAnimation])
   );
 
-  const navigateToHome = () => {
+  const navigateToHome = useCallback(() => {
     router.push("/(tabs)");
-  };
+  }, [router]);
 
-  const navigateToFavorites = () => {
+  const navigateToFavorites = useCallback(() => {
     router.push("/(tabs)/favorites");
-  };
+  }, [router]);
 
-  const navigateToHistory = () => {
+  const navigateToHistory = useCallback(() => {
     router.push("/(tabs)/history");
-  };
+  }, [router]);
 
-  const navigateToThemes = () => {
+  const navigateToThemes = useCallback(() => {
     router.push("/(tabs)/themes");
-  };
+  }, [router]);
 
-  const navigateToSettings = () => {
+  const navigateToSettings = useCallback(() => {
     router.push("/settings");
-  };
+  }, [router]);
 
   return (
     <View style={[styles.navigationContainer, style]}>

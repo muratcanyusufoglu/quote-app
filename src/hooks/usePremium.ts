@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { usePurchaseSelectors } from "../store/usePurchaseStore";
 
+// Global flag to ensure premium status is only initialized once across all hook instances
+let globalPremiumInitialized = false;
+
 /**
  * ⭐ UNIFIED PREMIUM STATUS HOOK ⭐
  *
@@ -98,9 +101,19 @@ export function usePremium() {
     return await verifyPremiumStatus();
   }, [verifyPremiumStatus]);
 
-  // Initialize on first load
+  // Initialize on first load - only once globally
   useEffect(() => {
-    if (hasHydrated && isInitializing) {
+    if (!hasHydrated) return;
+    
+    // If already initialized globally, just mark this instance as ready
+    if (globalPremiumInitialized) {
+      setIsInitializing(false);
+      return;
+    }
+    
+    // Only initialize once globally
+    if (isInitializing && !globalPremiumInitialized) {
+      globalPremiumInitialized = true;
       console.log("🚀 Initializing premium status verification...");
       ensureFreshPremiumStatus()
         .then((verified) => {
@@ -110,6 +123,7 @@ export function usePremium() {
         .catch((error) => {
           console.error("❌ Failed to initialize premium status:", error);
           setIsInitializing(false);
+          globalPremiumInitialized = false; // Reset on error to allow retry
         });
     }
   }, [hasHydrated, isInitializing, ensureFreshPremiumStatus]);

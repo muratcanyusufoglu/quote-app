@@ -1,8 +1,10 @@
 import React, {
   createContext,
   ReactNode,
+  useCallback,
   useContext,
   useEffect,
+  useMemo,
   useState,
 } from "react";
 import { useColorScheme } from "react-native";
@@ -67,7 +69,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     }
   }, [systemColorScheme, colorScheme]);
 
-  // Load from store on mount (avoid render cycle issues)
+  // Load from store on mount and subscribe to changes
   useEffect(() => {
     const loadFromStore = async () => {
       try {
@@ -79,12 +81,25 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
           setSelectedThemeState(state.selectedTheme);
           setColorSchemeState(state.colorScheme);
         }
+
+        // Subscribe to store changes
+        const unsubscribe = useThemeStore.subscribe((state) => {
+          if (state._hasHydrated) {
+            setSelectedThemeState(state.selectedTheme);
+            setColorSchemeState(state.colorScheme);
+          }
+        });
+
+        return unsubscribe;
       } catch (error) {
         console.log("Could not load theme from store:", error);
       }
     };
 
-    loadFromStore();
+    const cleanup = loadFromStore();
+    return () => {
+      cleanup?.then((unsubscribe) => unsubscribe?.());
+    };
   }, []);
 
   // Get custom colors from store
@@ -105,17 +120,18 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     loadCustomColors();
   }, []);
 
-  // Get the theme based on selected theme option and dark mode
-  let theme;
-  try {
-    theme = getThemeByOption(selectedTheme, isDark);
-  } catch (error) {
-    console.error("Error getting theme by option:", error);
-    // Fallback to default theme
-    theme = getThemeByOption("uprising", isDark);
-  }
+  // Get the theme based on selected theme option and dark mode - memoized
+  const theme = useMemo(() => {
+    try {
+      return getThemeByOption(selectedTheme, isDark);
+    } catch (error) {
+      console.error("Error getting theme by option:", error);
+      // Fallback to default theme
+      return getThemeByOption("uprising", isDark);
+    }
+  }, [selectedTheme, isDark]);
 
-  const toggleTheme = () => {
+  const toggleTheme = useCallback(() => {
     const newScheme: ColorScheme = isDark ? "light" : "dark";
     setColorSchemeState(newScheme);
 
@@ -125,9 +141,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().setColorScheme(newScheme);
       })
       .catch(() => {});
-  };
+  }, [isDark]);
 
-  const setTheme = (dark: boolean) => {
+  const setTheme = useCallback((dark: boolean) => {
     const newScheme: ColorScheme = dark ? "dark" : "light";
     setColorSchemeState(newScheme);
 
@@ -137,9 +153,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().setColorScheme(newScheme);
       })
       .catch(() => {});
-  };
+  }, []);
 
-  const setSelectedTheme = (themeOption: ThemeOption) => {
+  const setSelectedTheme = useCallback((themeOption: ThemeOption) => {
     setSelectedThemeState(themeOption);
 
     // Save to store
@@ -148,9 +164,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().setTheme(themeOption);
       })
       .catch(() => {});
-  };
+  }, []);
 
-  const setColorScheme = (scheme: ColorScheme) => {
+  const setColorScheme = useCallback((scheme: ColorScheme) => {
     setColorSchemeState(scheme);
 
     // Save to store
@@ -159,9 +175,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().setColorScheme(scheme);
       })
       .catch(() => {});
-  };
+  }, []);
 
-  const setCustomColors = (colors: ThemeContextType["customColors"]) => {
+  const setCustomColors = useCallback((colors: ThemeContextType["customColors"]) => {
     setCustomColorsState(colors);
 
     // Save to store
@@ -170,9 +186,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().setCustomColors(colors);
       })
       .catch(() => {});
-  };
+  }, []);
 
-  const resetCustomColors = () => {
+  const resetCustomColors = useCallback(() => {
     setCustomColorsState(undefined);
 
     // Save to store
@@ -181,24 +197,37 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         useThemeStore.getState().resetCustomColors();
       })
       .catch(() => {});
-  };
+  }, []);
 
-  // Ensure theme is always defined
-  const safeTheme = theme || getThemeByOption("uprising", isDark);
-
-  const value: ThemeContextType = {
-    theme: safeTheme,
-    isDark,
-    selectedTheme,
-    colorScheme,
-    customColors,
-    toggleTheme,
-    setTheme,
-    setSelectedTheme,
-    setColorScheme,
-    setCustomColors,
-    resetCustomColors,
-  };
+  // Memoize context value to prevent unnecessary re-renders
+  const value: ThemeContextType = useMemo(
+    () => ({
+      theme,
+      isDark,
+      selectedTheme,
+      colorScheme,
+      customColors,
+      toggleTheme,
+      setTheme,
+      setSelectedTheme,
+      setColorScheme,
+      setCustomColors,
+      resetCustomColors,
+    }),
+    [
+      theme,
+      isDark,
+      selectedTheme,
+      colorScheme,
+      customColors,
+      toggleTheme,
+      setTheme,
+      setSelectedTheme,
+      setColorScheme,
+      setCustomColors,
+      resetCustomColors,
+    ]
+  );
 
   return (
     <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>

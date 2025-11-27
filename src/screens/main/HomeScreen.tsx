@@ -1,5 +1,5 @@
 import {useLocalSearchParams} from "expo-router";
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {StyleSheet, Text, View} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {QuoteReels} from "../../components/reels";
@@ -173,11 +173,24 @@ export function HomeScreen() {
     : null;
 
   // Determine quote source based on user status and navigation source
-  const getQuoteSource = () => {
+  // Use hooks conditionally but at top level - React allows this pattern
+  const categoryQuotes = useExploreQuotes(
+    categoryFilter ? [categoryFilter] : [],
+    20
+  );
+  const personalizedQuotes = useExploreQuotes(
+    isPremium && userPreferences?.selectedCategories?.length
+      ? userPreferences.selectedCategories
+      : [],
+    20
+  );
+  const homeQuotes = useHomeQuotes(20);
+
+  // Memoize the quote selection logic
+  const displayQuotes = React.useMemo(() => {
     // 1. If coming from explore (category filter active), show only that category
     if (categoryFilter) {
-      console.log(`📂 Showing quotes from category: ${categoryFilter}`);
-      return useExploreQuotes([categoryFilter], 20);
+      return categoryQuotes;
     }
 
     // 2. If premium user with preferences, show personalized quotes from selected categories
@@ -186,35 +199,47 @@ export function HomeScreen() {
       userPreferences?.selectedCategories &&
       userPreferences.selectedCategories.length > 0
     ) {
-      console.log(
-        `👑 Premium user - showing personalized quotes from categories:`,
-        userPreferences.selectedCategories
-      );
-      return useExploreQuotes(userPreferences.selectedCategories, 20);
+      return personalizedQuotes;
     }
 
     // 3. Default: show general home feed
-    console.log(`🏠 Showing default home feed`);
-    return useHomeQuotes(20);
-  };
+    return homeQuotes;
+  }, [
+    categoryFilter,
+    categoryQuotes,
+    isPremium,
+    userPreferences?.selectedCategories,
+    personalizedQuotes,
+    homeQuotes,
+  ]);
 
-  const displayQuotes = getQuoteSource();
+  // Debug logging - only log when values actually change (moved to useEffect to prevent render-time execution)
+  const prevValuesRef = useRef({ 
+    isPremium: undefined as boolean | undefined, 
+    categoryFilter: undefined as string | null | undefined,
+    displayQuotesLength: 0 
+  });
+  
+  useEffect(() => {
+    const hasChanged = 
+      prevValuesRef.current.isPremium !== isPremium ||
+      prevValuesRef.current.categoryFilter !== categoryFilter ||
+      prevValuesRef.current.displayQuotesLength !== displayQuotes.length;
+    
+    if (hasChanged) {
+      console.log(`🏠 HomeScreen DEBUG:`);
+      console.log(`📊 isPremium: ${isPremium}`);
+      console.log(`🎯 categoryFilter: ${categoryFilter || "none"}`);
+      console.log(`📱 displayQuotes length: ${displayQuotes.length}`);
+      prevValuesRef.current = { isPremium, categoryFilter, displayQuotesLength: displayQuotes.length };
+    }
+  }, [isPremium, categoryFilter, displayQuotes.length]);
 
-  // Debug logging
-  console.log(`🏠 HomeScreen DEBUG:`);
-  console.log(`📊 isPremium: ${isPremium}`);
-  console.log(`🌍 userPreferences:`, userPreferences);
-  console.log(`🎯 categoryFilter: ${categoryFilter || "none"}`);
-  console.log(`📱 displayQuotes length: ${displayQuotes.length}`);
-  console.log(
-    `✅ All stores hydrated:`,
-    quoteStoreHydrated && purchaseStoreHydrated && onboardingStoreHydrated
-  );
-
-  // Track screen view
+  // Track screen view only once when component mounts
   useEffect(() => {
     trackScreen("HomeScreen", "HomeScreen");
-  }, [trackScreen]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Only run once on mount
 
   // Handle category selection from router params
   useEffect(() => {
@@ -394,7 +419,14 @@ export function HomeScreen() {
     );
   }
 
-  console.log(`🏠 HomeScreen loaded with ${displayQuotes.length} quotes`);
+  // Log only when quotes count changes
+  const prevQuotesCountRef = useRef(displayQuotes.length);
+  useEffect(() => {
+    if (prevQuotesCountRef.current !== displayQuotes.length) {
+      console.log(`🏠 HomeScreen loaded with ${displayQuotes.length} quotes`);
+      prevQuotesCountRef.current = displayQuotes.length;
+    }
+  }, [displayQuotes.length]);
 
   return (
     <BaseScreen

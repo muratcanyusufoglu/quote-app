@@ -192,6 +192,11 @@ export function parseTimeToMilitary(timeString: string): {
   }
 }
 
+// Cache for language detection to avoid repeated logs
+let cachedSystemLanguage: SupportedLanguage | null = null;
+let languageDetectionLogged = false;
+let lastLoggedPreference: SupportedLanguage | null = null;
+
 // Get preferred language with priority:
 // 1. User preference (if set)
 // 2. System language
@@ -200,13 +205,25 @@ export function getPreferredLanguage(
   userPreference?: SupportedLanguage
 ): SupportedLanguage {
   if (userPreference) {
-    console.log("👤 Using user preference:", userPreference);
+    // Only log when preference actually changes
+    if (lastLoggedPreference !== userPreference) {
+      console.log("👤 Using user preference:", userPreference);
+      lastLoggedPreference = userPreference;
+      languageDetectionLogged = true;
+    }
     return userPreference;
   }
 
-  const systemLang = getSystemLanguage();
-  console.log("📱 Using system language:", systemLang);
-  return systemLang;
+  // Cache system language detection
+  if (!cachedSystemLanguage) {
+    cachedSystemLanguage = getSystemLanguage();
+    if (!languageDetectionLogged) {
+      console.log("📱 Using system language:", cachedSystemLanguage);
+      languageDetectionLogged = true;
+      lastLoggedPreference = cachedSystemLanguage;
+    }
+  }
+  return cachedSystemLanguage;
 }
 
 // Check if a language is supported

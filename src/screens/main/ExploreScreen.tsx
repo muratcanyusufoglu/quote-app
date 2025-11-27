@@ -1,5 +1,5 @@
 import {router} from "expo-router";
-import React, {useEffect} from "react";
+import React, {useCallback, useEffect, useMemo} from "react";
 import {
   Dimensions,
   FlatList,
@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {NavigationBar} from "../../components/layout/NavigationBar";
@@ -31,6 +32,7 @@ const ITEM_WIDTH = (width - 48) / 2; // 2 columns with 16px padding on sides and
 export function ExploreScreen() {
   // Theme
   const {theme, isDark} = useTheme();
+  const insets = useSafeAreaInsets();
 
   // Analytics
   const {trackScreen, trackCategoryView, trackPaywallView} = useAnalytics();
@@ -54,188 +56,176 @@ export function ExploreScreen() {
   const explore = useScreenTranslations("explore");
   const common = useCommonTranslations();
 
-  // Create styles with theme
-  const styles = createStyles(theme);
+  // Memoize styles to prevent recreation on every render
+  const styles = useMemo(() => createStyles(theme), [theme]);
 
   // Track screen view
   useEffect(() => {
     trackScreen("ExploreScreen", "ExploreScreen");
   }, [trackScreen]);
 
-  console.log("📋 All categories loaded:", allCategories.length);
+  const handleCategoryPress = useCallback(
+    (categoryId: string) => {
+      // Track user action for paywall trigger
+      trackAction();
 
-  // Debug: Log all categories and their icons
-  if (allCategories.length > 0) {
-    console.log("🎨 Category icon debugging:");
-    allCategories.forEach((category) => {
-      const iconName = getCategoryIcon(category.id);
-      console.log(
-        `  📁 ${category.id} -> ${iconName || `EMOJI: ${category.icon}`}`
-      );
-    });
-  }
+      // Track user interaction for progressive paywall (only for non-premium users)
+      if (!isPremium) {
+        trackUserInteraction();
+        console.log("🎯 User interaction tracked (category press)");
+      } else {
+        console.log("👑 Premium user - skipping interaction tracking");
+      }
 
-  const handleCategoryPress = (categoryId: string) => {
-    // Track user action for paywall trigger
-    trackAction();
+      // Find category data for analytics
+      const category = allCategories.find((cat) => cat.id === categoryId);
 
-    // Track user interaction for progressive paywall (only for non-premium users)
-    if (!isPremium) {
-      trackUserInteraction();
-      console.log("🎯 User interaction tracked (category press)");
-    } else {
-      console.log("👑 Premium user - skipping interaction tracking");
-    }
+      if (category) {
+        // Track category view analytics
+        trackCategoryView({
+          category_id: category.id,
+          category_name: category.name,
+          is_premium: category.isPremium,
+        });
+      }
 
-    // Find category data for analytics
-    const category = allCategories.find((cat) => cat.id === categoryId);
+      // Check if user can access this category
+      const isGeneralCategory =
+        categoryId.toLowerCase() === "general" ||
+        categoryId.toLowerCase() === "genel";
 
-    if (category) {
-      // Track category view analytics
-      trackCategoryView({
-        category_id: category.id,
-        category_name: category.name,
-        is_premium: category.isPremium,
+      if (!isPremium && !isGeneralCategory) {
+        // Track paywall view
+        trackPaywallView({
+          trigger_source: "premium_category",
+          user_action: "viewed",
+        });
+
+        // Show paywall modal for premium category
+        showPaywall("premium_category");
+        return;
+      }
+
+      // Navigate to home page with selected category
+      router.push({
+        pathname: "/(tabs)",
+        params: {selectedCategory: categoryId},
       });
-    }
+    },
+    [
+      isPremium,
+      trackAction,
+      trackUserInteraction,
+      trackCategoryView,
+      trackPaywallView,
+      showPaywall,
+      allCategories,
+    ]
+  );
 
-    // Check if user can access this category
-    const isGeneralCategory =
-      categoryId.toLowerCase() === "general" ||
-      categoryId.toLowerCase() === "genel";
+  const renderCategoryCard = useCallback(
+    ({item: category}: {item: any}) => {
+      const isGeneralCategory =
+        category.id.toLowerCase() === "general" ||
+        category.id.toLowerCase() === "genel";
+      const canAccess = isPremium || isGeneralCategory;
 
-    if (!isPremium && !isGeneralCategory) {
-      // Track paywall view
-      trackPaywallView({
-        trigger_source: "premium_category",
-        user_action: "viewed",
-      });
+      // Kategori kartı için renk ayarları
+      const categoryColor = theme.colors.brandYellow;
 
-      // Show paywall modal for premium category
-      showPaywall("premium_category");
-      return;
-    }
+      // Tema renklerini kullan - altın arka plan için optimize edilmiş
+      const textColor = theme.colors.textSoft;
+      const iconColor = theme.colors.textSoft;
+      const descriptionColor = theme.colors.textSoftSecondary;
 
-    // Navigate to home page with selected category
-    router.push({
-      pathname: "/(tabs)",
-      params: {selectedCategory: categoryId},
-    });
-  };
+      const categoryIconName = getCategoryIcon(category.id);
 
-  const renderCategoryCard = ({item: category}: {item: any}) => {
-    const isGeneralCategory =
-      category.id.toLowerCase() === "general" ||
-      category.id.toLowerCase() === "genel";
-    const canAccess = isPremium || isGeneralCategory;
-
-    // Kategori kartı için renk ayarları
-    const categoryColor = theme.colors.brandYellow;
-
-    // Tema renklerini kullan - altın arka plan için optimize edilmiş
-    const textColor = theme.colors.textSoft;
-    const iconColor = theme.colors.textSoft;
-    const descriptionColor = theme.colors.textSoftSecondary;
-
-    const categoryIconName = getCategoryIcon(category.id);
-
-    // ENHANCED DEBUG: Let's see everything
-    console.log(`🔍 DEBUGGING CATEGORY: ${category.id}`);
-    console.log(`  → Icon mapping result: ${categoryIconName}`);
-    console.log(`  → Category emoji: ${category.icon}`);
-
-    // Test if the icon exists in IconSymbol
-    if (categoryIconName) {
-      console.log(`  → Testing icon "${categoryIconName}" in IconSymbol...`);
-      console.log(`🎯 Will render IconSymbol with name: ${categoryIconName}`);
-    } else {
-      console.log(`😀 Will render emoji fallback: ${category.icon}`);
-    }
-
-    return (
-      <TouchableOpacity
-        style={[
-          styles.categoryCard,
-          {
-            backgroundColor: categoryColor,
-            opacity: canAccess ? 1 : 0.8, // Slightly less opacity for premium categories
-          },
-        ]}
-        onPress={() => handleCategoryPress(category.id)}
-        activeOpacity={0.8}
-      >
-        <View style={styles.categoryCardContent}>
-          {/* Category Icon - IconSymbol with emoji fallback */}
-          <View style={styles.categoryIconContainer}>
-            {categoryIconName ? (
-              <IconSymbol
-                name={categoryIconName as any}
-                size={28}
-                color={iconColor}
-                strokeWidth={2}
-              />
-            ) : (
-              <Text style={[styles.categoryEmoji, {color: iconColor}]}>
-                {category.icon || "💭"}
-              </Text>
-            )}
-          </View>
-
-          {/* Category Name */}
-          <Text
-            style={[
-              styles.categoryName,
-              {
-                color: textColor,
-                textShadowColor: "rgba(255, 255, 255, 0.3)",
-                textShadowOffset: {width: 0, height: 1},
-                textShadowRadius: 1,
-              },
-            ]}
-          >
-            {category.name}
-          </Text>
-
-          {/* Premium Badge - Show for non-premium users on non-general categories */}
-          {!canAccess && (
-            <View style={styles.premiumBadge}>
-              <IconSymbol
-                name="star"
-                size={10}
-                color={theme.colors.goldAccent}
-                strokeWidth={2}
-              />
-              <Text style={styles.premiumBadgeText}>{common.premium}</Text>
+      return (
+        <TouchableOpacity
+          style={[
+            styles.categoryCard,
+            {
+              backgroundColor: categoryColor,
+              opacity: canAccess ? 1 : 0.8, // Slightly less opacity for premium categories
+            },
+          ]}
+          onPress={() => handleCategoryPress(category.id)}
+          activeOpacity={0.8}
+        >
+          <View style={styles.categoryCardContent}>
+            {/* Category Icon - IconSymbol with emoji fallback */}
+            <View style={styles.categoryIconContainer}>
+              {categoryIconName ? (
+                <IconSymbol
+                  name={categoryIconName as any}
+                  size={28}
+                  color={iconColor}
+                  strokeWidth={2}
+                />
+              ) : (
+                <Text style={[styles.categoryEmoji, {color: iconColor}]}>
+                  {category.icon || "💭"}
+                </Text>
+              )}
             </View>
-          )}
 
-          {/* Free badge for general category */}
-          {isGeneralCategory && (
-            <View style={styles.freeBadge}>
-              <Text style={styles.freeBadgeText}>{common.free}</Text>
-            </View>
-          )}
-
-          {/* Category Description */}
-          {category.description && (
+            {/* Category Name */}
             <Text
               style={[
-                styles.categoryDescription,
+                styles.categoryName,
                 {
-                  color: descriptionColor,
-                  textShadowColor: "rgba(255, 255, 255, 0.2)",
+                  color: textColor,
+                  textShadowColor: "rgba(255, 255, 255, 0.3)",
                   textShadowOffset: {width: 0, height: 1},
                   textShadowRadius: 1,
                 },
               ]}
             >
-              {category.description}
+              {category.name}
             </Text>
-          )}
-        </View>
-      </TouchableOpacity>
-    );
-  };
+
+            {/* Premium Badge - Show for non-premium users on non-general categories */}
+            {!canAccess && (
+              <View style={styles.premiumBadge}>
+                <IconSymbol
+                  name="star"
+                  size={10}
+                  color={theme.colors.goldAccent}
+                  strokeWidth={2}
+                />
+                <Text style={styles.premiumBadgeText}>{common.premium}</Text>
+              </View>
+            )}
+
+            {/* Free badge for general category */}
+            {isGeneralCategory && (
+              <View style={styles.freeBadge}>
+                <Text style={styles.freeBadgeText}>{common.free}</Text>
+              </View>
+            )}
+
+            {/* Category Description */}
+            {category.description && (
+              <Text
+                style={[
+                  styles.categoryDescription,
+                  {
+                    color: descriptionColor,
+                    textShadowColor: "rgba(255, 255, 255, 0.2)",
+                    textShadowOffset: {width: 0, height: 1},
+                    textShadowRadius: 1,
+                  },
+                ]}
+              >
+                {category.description}
+              </Text>
+            )}
+          </View>
+        </TouchableOpacity>
+      );
+    },
+    [theme, isPremium, handleCategoryPress, common]
+  );
 
   // Show loading while stores are hydrating
   if (
@@ -287,7 +277,10 @@ export function ExploreScreen() {
           keyExtractor={(item) => item.id}
           numColumns={2}
           showsVerticalScrollIndicator={false}
-          contentContainerStyle={styles.categoriesContainer}
+          contentContainerStyle={[
+            styles.categoriesContainer,
+            {paddingBottom: 40 + insets.bottom},
+          ]}
           columnWrapperStyle={styles.row}
           ItemSeparatorComponent={() => <View style={styles.separator} />}
         />

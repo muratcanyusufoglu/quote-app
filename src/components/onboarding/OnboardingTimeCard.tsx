@@ -141,11 +141,6 @@ const styles = StyleSheet.create({
   container: {
     borderRadius: 16,
     marginBottom: 12,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.12,
-    shadowRadius: 8,
-    elevation: 6,
     overflow: "hidden",
     width: "48%",
   },

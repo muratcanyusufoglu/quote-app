@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
 import categoriesData from "../../data/categories.json";
 import {useTranslation} from "../../hooks/useTranslation";
@@ -55,11 +56,21 @@ export function QuoteReelCard({
 }: QuoteReelCardProps) {
   const {theme} = useTheme();
   const {t} = useTranslation();
+  const insets = useSafeAreaInsets();
   const cardColor = theme.colors.brandYellow;
   const localizedCategoryName = getCategoryLocalizedName(
     quote.category,
     quote.language
   );
+
+  // Responsive calculation for header position below "ÜCRETSİZ" badge
+  // Badge height: ~26px (paddingVertical 4*2 + fontSize 11 with lineHeight ~14px + border)
+  // Add responsive margin based on screen size to ensure header is clearly below badge
+  const isSmallScreen = screenHeight < 700;
+  const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
+  const badgeHeight = 26; // Badge approximate height (including border)
+  const margin = isSmallScreen ? 28 : isMediumScreen ? 32 : 36; // Increased margin for clear separation
+  const headerTop = insets.top + badgeHeight + margin;
 
   const navigateToExplore = () => {
     router.push("/(tabs)/explore");
@@ -91,12 +102,22 @@ export function QuoteReelCard({
       />
 
       {/* Top Header - HTML Style */}
-      <View style={styles.header}>
+      <View
+        style={[
+          styles.header,
+          {
+            // Position header below the "ÜCRETSİZ" badge
+            // Responsive positioning to ensure no overlap on all screen sizes
+            top: headerTop,
+            backgroundColor: "transparent",
+          },
+        ]}
+      >
         {onMoodIconPress ? (
           <TouchableOpacity
             style={[
               styles.headerButton,
-              {backgroundColor: theme.colors.whiteOverlay20},
+              {backgroundColor: theme.colors.whiteOverlay25},
             ]}
             onPress={onMoodIconPress}
             activeOpacity={0.7}
@@ -115,7 +136,7 @@ export function QuoteReelCard({
         <View
           style={[
             styles.categoryPill,
-            {backgroundColor: theme.colors.whiteOverlay20},
+            {backgroundColor: theme.colors.whiteOverlay25},
           ]}
         >
           <Text style={[styles.categoryText, {color: theme.colors.text}]}>
@@ -126,7 +147,7 @@ export function QuoteReelCard({
         <TouchableOpacity
           style={[
             styles.headerButton,
-            {backgroundColor: theme.colors.whiteOverlay20},
+            {backgroundColor: theme.colors.whiteOverlay25},
           ]}
           onPress={navigateToExplore}
           activeOpacity={0.7}
@@ -230,7 +251,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingHorizontal: 24,
-    zIndex: 1000,
+    zIndex: 9999,
+    elevation: 10,
   },
   headerButton: {
     width: 44,

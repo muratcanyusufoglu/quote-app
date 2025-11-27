@@ -1,4 +1,4 @@
-import { Category, LocalizedQuote, Quote } from "../types";
+import {Category, LocalizedQuote, Quote} from "../types";
 
 // Single Responsibility: Handle quote filtering logic
 export class QuoteFilterService {
@@ -35,23 +35,26 @@ export class QuoteFilterService {
   }
 
   // Get quotes with fallback to seen quotes if insufficient unseen quotes
+  // Ensures each quote is shown once until all quotes are seen
   getQuotesWithFallback(
     quotes: LocalizedQuote[],
     seenQuoteIds: string[],
     minUnseenThreshold: number = 3
-  ): { quotes: LocalizedQuote[]; fallbackUsed: boolean } {
+  ): {quotes: LocalizedQuote[]; fallbackUsed: boolean} {
     const unseenQuotes = this.filterOutSeen(quotes, seenQuoteIds);
 
-    // If we have enough unseen quotes, return them
-    if (unseenQuotes.length > minUnseenThreshold) {
-      return { quotes: unseenQuotes, fallbackUsed: false };
+    // If we have enough unseen quotes (>= threshold), return only unseen quotes
+    // This ensures each quote is shown once before showing seen quotes again
+    if (unseenQuotes.length >= minUnseenThreshold) {
+      return {quotes: unseenQuotes, fallbackUsed: false};
     }
 
-    // If not enough unseen quotes, include seen quotes as well
+    // If not enough unseen quotes, include seen quotes as well (fallback)
+    // This only happens when user has seen all or most quotes
     console.log(
-      `⚠️ Only ${unseenQuotes.length} unseen quotes available (threshold: ${minUnseenThreshold}), including seen quotes`
+      `⚠️ Only ${unseenQuotes.length} unseen quotes available (threshold: ${minUnseenThreshold}), including seen quotes as fallback`
     );
-    return { quotes: quotes, fallbackUsed: true };
+    return {quotes: quotes, fallbackUsed: true};
   }
 
   // Search quotes by text, author, or tags

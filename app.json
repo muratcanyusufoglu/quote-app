@@ -2,14 +2,14 @@
   "expo": {
     "name": "QuoteSpark – Motivational",
     "slug": "quotespark",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "quote",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "buildNumber": "2",
+      "buildNumber": "1",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",

@@ -1,5 +1,5 @@
 import categoriesData from "../data/categories.json";
-import { getAllQuotes } from "../data/quotes";
+import {getAllQuotes} from "../data/quotes";
 import {
   Category,
   LocalizedCategory,
@@ -7,9 +7,9 @@ import {
   Quote,
   UserPreferences,
 } from "../types";
-import { getRandomItems, getWeightedRandomItems } from "../utils/shuffle";
-import { localizationService } from "./LocalizationService";
-import { quoteFilterService } from "./QuoteFilterService";
+import {getRandomItems, getWeightedRandomItems} from "../utils/shuffle";
+import {localizationService} from "./LocalizationService";
+import {quoteFilterService} from "./QuoteFilterService";
 
 // Legacy QuoteService - maintains synchronous interface for backward compatibility
 class LegacyQuoteService {
@@ -172,8 +172,25 @@ class LegacyQuoteService {
       );
     }
 
+    // Group quotes by category and prioritize recent ones (reverse order)
+    const quotesByCategoryMap: Map<string, Quote[]> = new Map();
+    availableQuotes.forEach((quote) => {
+      if (!quotesByCategoryMap.has(quote.category)) {
+        quotesByCategoryMap.set(quote.category, []);
+      }
+      quotesByCategoryMap.get(quote.category)!.push(quote);
+    });
+
+    // Reverse each category's quotes to prioritize recently added ones
+    const prioritizedQuotes: Quote[] = [];
+    for (const [categoryId, categoryQuotes] of quotesByCategoryMap) {
+      // Reverse to prioritize recently added quotes (last in array = most recent)
+      const reversedQuotes = [...categoryQuotes].reverse();
+      prioritizedQuotes.push(...reversedQuotes);
+    }
+
     // Convert to localized quotes with language check
-    const localizedQuotes = availableQuotes
+    const localizedQuotes = prioritizedQuotes
       .map((quote) => this.localizeQuote(quote, language))
       .filter((quote) => {
         // Ensure we have valid content in the target language
@@ -183,7 +200,7 @@ class LegacyQuoteService {
       });
 
     console.log(
-      `✅ Final localized quotes for ${language}: ${localizedQuotes.length}`
+      `✅ Final localized quotes for ${language}: ${localizedQuotes.length} (prioritizing recent quotes)`
     );
 
     return localizedQuotes;
@@ -203,37 +220,34 @@ class LegacyQuoteService {
       selectedCategories
     );
 
-    // For category-specific requests, use more aggressive fallback
-    const isSpecificCategory =
-      selectedCategories && selectedCategories.length > 0;
-    const fallbackThreshold = isSpecificCategory ? 1 : 3; // More aggressive for categories
-
     // Use fallback logic if insufficient unseen quotes
-    const { quotes: quotesToUse, fallbackUsed } =
+    // Threshold is the requested count - if we have fewer unseen quotes than requested,
+    // we'll include seen quotes as fallback
+    const {quotes: quotesToUse, fallbackUsed} =
       quoteFilterService.getQuotesWithFallback(
         availableQuotes,
         seenQuoteIds,
-        fallbackThreshold
+        count // Use requested count as threshold
       );
 
     if (fallbackUsed) {
+      const categoryType =
+        selectedCategories && selectedCategories.length > 0
+          ? "category-specific"
+          : "general";
       console.log(
-        `🔄 Legacy service fallback activated for ${
-          isSpecificCategory ? "category-specific" : "general"
-        } quotes: Including previously seen quotes`
+        `🔄 Legacy service fallback activated for ${categoryType} quotes: Including previously seen quotes (all unseen quotes have been shown)`
       );
     }
 
-    // When fallback is used, reset the seen state for proper shuffling
-    // Otherwise use the original seen quote IDs for filtering
-    const seenQuotesForRandomization = fallbackUsed
-      ? [] // Reset seen state when fallback is active
-      : quotesToUse.filter((quote) => seenQuoteIds.includes(quote.id));
-
+    // getQuotesWithFallback already filtered quotes correctly:
+    // - If fallback not used: quotesToUse contains only unseen quotes
+    // - If fallback used: quotesToUse contains all quotes (seen + unseen)
+    // getRandomItems will ensure no duplicates within the selection
     return getRandomItems(
       quotesToUse,
       count,
-      seenQuotesForRandomization,
+      [], // Don't filter again - quotesToUse already filtered by fallback logic
       (quote) => quote.id
     );
   }
@@ -296,7 +310,7 @@ class LegacyQuoteService {
     };
 
     // Use fallback logic if insufficient unseen quotes
-    const { quotes: quotesToUse, fallbackUsed } =
+    const {quotes: quotesToUse, fallbackUsed} =
       quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
 
     if (fallbackUsed) {
@@ -384,7 +398,7 @@ class LegacyQuoteService {
 
     if (timeAppropriateQuotes.length > 0) {
       // Use fallback logic for time-appropriate quotes
-      const { quotes: quotesToUse, fallbackUsed } =
+      const {quotes: quotesToUse, fallbackUsed} =
         quoteFilterService.getQuotesWithFallback(
           timeAppropriateQuotes,
           seenQuoteIds
@@ -449,7 +463,7 @@ class LegacyQuoteService {
     totalQuotes: number;
     categoriesRead: number;
     averageReadTime: number;
-    languageDistribution: { en: number; tr: number };
+    languageDistribution: {en: number; tr: number};
   } {
     const readQuotes = this.quotes.filter((quote) =>
       readQuoteIds.includes(quote.id)
@@ -465,7 +479,7 @@ class LegacyQuoteService {
     }, 0);
 
     // This is simplified - in a real app you'd track which language was actually read
-    const languageDistribution = { en: 0, tr: 0 };
+    const languageDistribution = {en: 0, tr: 0};
     readQuotes.forEach((quote) => {
       // Assume equal distribution for now
       languageDistribution.en += 0.5;

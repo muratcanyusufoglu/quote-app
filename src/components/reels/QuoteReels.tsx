@@ -17,6 +17,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useDailyLimit } from "../../hooks/useDailyLimit";
 import { usePaywall } from "../../hooks/usePaywall";
 import { useQuoteService } from "../../hooks/useQuoteService";
@@ -51,6 +52,7 @@ export function QuoteReels({
   onMoodIconPress,
 }: QuoteReelsProps) {
   const { theme } = useTheme();
+  const insets = useSafeAreaInsets();
   const flatListRef = useRef<FlatList>(null);
   const [quotes, setQuotes] = useState<LocalizedQuote[]>(initialQuotes);
   const [isLoading, setIsLoading] = useState(false);
@@ -80,13 +82,8 @@ export function QuoteReels({
 
   // Memoized available quotes - aynı gün içinde tüm quote'lar görülebilir
   const availableQuotes = useMemo(() => {
-    if (__DEV__) {
-      console.log("🔍 Total quotes:", quotes.length);
-      console.log("👀 Seen quotes:", seenQuotes.length);
-      console.log("✅ Available quotes (all):", quotes.length);
-    }
     return quotes;
-  }, [quotes, seenQuotes]);
+  }, [quotes]);
 
   // Load initial quotes if not provided
   useEffect(() => {
@@ -476,6 +473,7 @@ export function QuoteReels({
             {
               backgroundColor: theme.colors.whiteOverlay20,
               borderColor: theme.colors.whiteOverlay25,
+              marginBottom: 16 + insets.bottom,
             },
           ]}
         >

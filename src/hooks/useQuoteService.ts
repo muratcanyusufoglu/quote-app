@@ -31,13 +31,11 @@ export function useQuoteService() {
   const isReady =
     quoteStoreHydrated && purchaseStoreHydrated && onboardingStoreHydrated;
 
-  // Get user's preferred language with smart detection
+  // Get user's preferred language with smart detection - memoized to prevent recalculation
   const language = useMemo(() => {
-    const preferredLang = getPreferredLanguage(
+    return getPreferredLanguage(
       userPreferences?.language as SupportedLanguage
     );
-    if (__DEV__) console.log("🌍 Final language selection:", preferredLang);
-    return preferredLang;
   }, [userPreferences?.language]);
 
   // Stable references to avoid infinite loops

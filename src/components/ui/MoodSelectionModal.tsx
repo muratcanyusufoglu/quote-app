@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
 import {usePremium} from "../../hooks/usePremium"; // UNIFIED: Single premium source
 import useTranslation from "../../hooks/useTranslation";
@@ -77,6 +78,7 @@ export function MoodSelectionModal({
 }: MoodSelectionModalProps) {
   const {theme} = useTheme();
   const {t} = useTranslation();
+  const insets = useSafeAreaInsets();
   const userName = useUserName();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [responses, setResponses] = useState<{[key: string]: string}>({});
@@ -335,7 +337,7 @@ export function MoodSelectionModal({
               locations={theme.colors.gradientLocations as any}
               start={{x: 0, y: 0}}
               end={{x: 0, y: 1}}
-              style={styles.modalGradient}
+              style={[styles.modalGradient, { paddingBottom: 40 + insets.bottom }]}
             >
               <View style={styles.handle} />
 

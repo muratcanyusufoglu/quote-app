@@ -16,22 +16,41 @@ import {
 class AnalyticsService {
   private isEnabled: boolean = true;
   private initialized: boolean = false;
+  private initializing: Promise<void> | null = null;
 
   async initialize(): Promise<void> {
-    try {
-      // Enable analytics collection
-      await analytics().setAnalyticsCollectionEnabled(true);
-
-      // Set default user properties
-      await analytics().setUserProperty("platform", Platform.OS);
-      await analytics().setUserProperty("app_version", "1.0.0");
-
-      this.initialized = true;
-      console.log("🔥 Firebase Analytics initialized");
-    } catch (error) {
-      console.error("❌ Failed to initialize analytics:", error);
-      this.isEnabled = false;
+    // If already initialized, return immediately
+    if (this.initialized) {
+      return;
     }
+
+    // If currently initializing, return the existing promise
+    if (this.initializing) {
+      return this.initializing;
+    }
+
+    // Create and store the initialization promise
+    this.initializing = (async () => {
+      try {
+        // Enable analytics collection
+        await analytics().setAnalyticsCollectionEnabled(true);
+
+        // Set default user properties
+        await analytics().setUserProperty("platform", Platform.OS);
+        await analytics().setUserProperty("app_version", "1.0.0");
+
+        this.initialized = true;
+        console.log("🔥 Firebase Analytics initialized");
+      } catch (error) {
+        console.error("❌ Failed to initialize analytics:", error);
+        this.isEnabled = false;
+      } finally {
+        // Clear the initializing promise after completion
+        this.initializing = null;
+      }
+    })();
+
+    return this.initializing;
   }
 
   // Enable/disable analytics

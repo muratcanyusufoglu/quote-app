@@ -199,22 +199,7 @@ function IconSymbolBase({
     [name]
   );
 
-  // Debug logging (DEV only)
-  if (__DEV__) {
-    // eslint-disable-next-line no-console
-    console.log(
-      `🔍 IconSymbol: Requesting icon "${name}" (found: ${!!IconComponent})`
-    );
-  }
-
   if (!IconComponent) {
-    if (__DEV__) {
-      // eslint-disable-next-line no-console
-      console.warn(`❌ Icon "${name}" not found in IconSymbol mapping`);
-      // eslint-disable-next-line no-console
-      console.log("Available icons:", Object.keys(ICON_MAPPING));
-    }
-
     // Return a debug text instead of fallback icon to identify the issue
     return (
       <View
@@ -234,43 +219,22 @@ function IconSymbolBase({
     );
   }
 
-  try {
-    if (__DEV__) {
-      // eslint-disable-next-line no-console
-      console.log(
-        `✅ Rendering icon "${name}" with component: ${IconComponent.name}`
-      );
-    }
-    return (
-      <IconComponent
-        size={size}
-        color={color}
-        strokeWidth={strokeWidth}
-        style={style}
-      />
-    );
-  } catch (error) {
-    if (__DEV__) {
-      // eslint-disable-next-line no-console
-      console.error(`❌ Error rendering icon "${name}":`, error);
-    }
-    return (
-      <View
-        style={[
-          {
-            width: size,
-            height: size,
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "orange",
-          },
-          style,
-        ]}
-      >
-        <Text style={{ color: "white", fontSize: 8 }}>!</Text>
-      </View>
-    );
-  }
+  return (
+    <IconComponent
+      size={size}
+      color={color}
+      strokeWidth={strokeWidth}
+      style={style}
+    />
+  );
 }
 
-export const IconSymbol = memo(IconSymbolBase);
+export const IconSymbol = memo(IconSymbolBase, (prevProps, nextProps) => {
+  return (
+    prevProps.name === nextProps.name &&
+    prevProps.size === nextProps.size &&
+    prevProps.color === nextProps.color &&
+    prevProps.strokeWidth === nextProps.strokeWidth &&
+    prevProps.style === nextProps.style
+  );
+});

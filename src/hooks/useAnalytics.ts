@@ -10,10 +10,16 @@ import {
   UserActionEvent,
 } from "../types";
 
+// Global flag to ensure analytics is only initialized once across all hook instances
+let analyticsInitialized = false;
+
 export const useAnalytics = () => {
-  // Initialize analytics on hook mount
+  // Initialize analytics only once globally
   useEffect(() => {
-    analyticsService.initialize();
+    if (!analyticsInitialized) {
+      analyticsInitialized = true;
+      analyticsService.initialize();
+    }
   }, []);
 
   // Screen tracking

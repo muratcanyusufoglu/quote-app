@@ -631,7 +631,6 @@ export const getCategoryIcon = (categoryId: string): string | null => {
   // Try exact match first
   const exactIcon = categoryIcons[categoryId as keyof typeof categoryIcons];
   if (exactIcon) {
-    console.log(`✅ Found exact icon for ${categoryId}: ${exactIcon}`);
     return exactIcon;
   }
 
@@ -639,13 +638,8 @@ export const getCategoryIcon = (categoryId: string): string | null => {
   const lowerIcon =
     categoryIcons[categoryId.toLowerCase() as keyof typeof categoryIcons];
   if (lowerIcon) {
-    console.log(`✅ Found lowercase icon for ${categoryId}: ${lowerIcon}`);
     return lowerIcon;
   }
-
-  // Log missing icon for debugging
-  console.warn(`❌ Missing icon mapping for category: "${categoryId}"`);
-  console.log(`🔍 Available icons:`, Object.keys(categoryIcons));
 
   // Return null so ExploreScreen can use emoji fallback
   return null;

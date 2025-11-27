@@ -4,10 +4,10 @@ import {
   LocalizedQuote,
   UserPreferences,
 } from "../types";
-import { getRandomItems, getWeightedRandomItems } from "../utils/shuffle";
-import { dataService } from "./DataService";
-import { localizationService } from "./LocalizationService";
-import { quoteFilterService } from "./QuoteFilterService";
+import {getRandomItems, getWeightedRandomItems} from "../utils/shuffle";
+import {dataService} from "./DataService";
+import {localizationService} from "./LocalizationService";
+import {quoteFilterService} from "./QuoteFilterService";
 
 // Modern modular quote service with lazy loading and caching
 export class ModularQuoteService {
@@ -66,6 +66,7 @@ export class ModularQuoteService {
   }
 
   // Get filtered quotes based on user access and preferences
+  // New logic: Prioritize recently added quotes, starting from the end of each category
   async getFilteredQuotes(
     isPremium: boolean,
     language: "en" | "tr",
@@ -97,17 +98,36 @@ export class ModularQuoteService {
       `📚 Loading quotes from ${categoriesToLoad.length} categories for ${language}`
     );
 
-    // Load and localize quotes
-    const quotes = await dataService.loadQuotesForCategories(categoriesToLoad);
-    const localizedQuotes = localizationService.localizeQuotes(
-      quotes,
-      language
-    );
+    // Load quotes category by category to maintain order
+    const allLocalizedQuotes: LocalizedQuote[] = [];
 
-    return localizationService.filterValidLocalizedQuotes(localizedQuotes);
+    for (const categoryId of categoriesToLoad) {
+      // Load quotes for this category
+      const categoryQuotes = await dataService.loadQuotesForCategory(
+        categoryId
+      );
+
+      // Reverse the array to prioritize recently added quotes (last in array = most recent)
+      const reversedQuotes = [...categoryQuotes].reverse();
+
+      // Localize the quotes
+      const localizedQuotes = localizationService.localizeQuotes(
+        reversedQuotes,
+        language
+      );
+
+      // Filter valid quotes and add to collection
+      const validQuotes =
+        localizationService.filterValidLocalizedQuotes(localizedQuotes);
+
+      allLocalizedQuotes.push(...validQuotes);
+    }
+
+    return allLocalizedQuotes;
   }
 
   // Get random unseen quotes with fallback to seen quotes if needed
+  // New logic: Prioritize recently added quotes from each category
   async getRandomUnseenQuotes(
     count: number,
     seenQuoteIds: string[],
@@ -115,21 +135,74 @@ export class ModularQuoteService {
     language: "en" | "tr",
     selectedCategories?: string[]
   ): Promise<LocalizedQuote[]> {
-    const availableQuotes = await this.getFilteredQuotes(
-      isPremium,
-      language,
-      selectedCategories
-    );
+    const categories = await this.getAllCategories();
 
-    // Use fallback logic if insufficient unseen quotes
-    const { quotes: quotesToUse, fallbackUsed } =
-      quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
+    // Determine which categories to load
+    let categoriesToLoad: string[];
 
-    if (fallbackUsed) {
-      console.log("🔄 Fallback activated: Including previously seen quotes");
+    if (selectedCategories && selectedCategories.length > 0) {
+      const accessibleCategories = quoteFilterService.filterCategoriesByAccess(
+        categories.filter((cat) => selectedCategories.includes(cat.id)),
+        isPremium
+      );
+      categoriesToLoad = accessibleCategories.map((cat) => cat.id);
+    } else {
+      const accessibleCategories = quoteFilterService.filterCategoriesByAccess(
+        categories,
+        isPremium
+      );
+      categoriesToLoad = accessibleCategories.map((cat) => cat.id);
     }
 
-    return getRandomItems(quotesToUse, count, [], (quote) => quote.id);
+    // Collect quotes from each category, prioritizing recent ones
+    const allQuotes: LocalizedQuote[] = [];
+
+    for (const categoryId of categoriesToLoad) {
+      const categoryQuotes = await dataService.loadQuotesForCategory(
+        categoryId
+      );
+
+      // Reverse to prioritize recently added quotes (last in array = most recent)
+      const reversedQuotes = [...categoryQuotes].reverse();
+
+      // Localize quotes
+      const localizedQuotes = localizationService.localizeQuotes(
+        reversedQuotes,
+        language
+      );
+
+      // Filter valid quotes (we'll filter seen quotes using fallback logic)
+      const validQuotes =
+        localizationService.filterValidLocalizedQuotes(localizedQuotes);
+
+      allQuotes.push(...validQuotes);
+    }
+
+    // Use fallback logic: Show unseen quotes first, only use seen quotes if insufficient
+    // This ensures each quote is shown once until all quotes are seen
+    const {quotes: quotesToUse, fallbackUsed} =
+      quoteFilterService.getQuotesWithFallback(allQuotes, seenQuoteIds, count);
+
+    if (fallbackUsed) {
+      console.log(
+        "🔄 Fallback activated: Including previously seen quotes (all unseen quotes have been shown)"
+      );
+    } else {
+      console.log(
+        `✅ Using ${quotesToUse.length} unseen quotes (prioritizing recent ones)`
+      );
+    }
+
+    // Select quotes prioritizing recent ones from each category
+    // getRandomItems ensures no duplicates within the selection
+    const selected = getRandomItems(
+      quotesToUse,
+      count,
+      [], // Don't filter again - quotesToUse already filtered by fallback logic
+      (quote) => quote.id
+    );
+
+    return selected;
   }
 
   // Get personalized quotes
@@ -139,14 +212,18 @@ export class ModularQuoteService {
     seenQuoteIds: string[],
     isPremium: boolean
   ): Promise<LocalizedQuote[]> {
+    // Convert language to supported format
+    const language: "en" | "tr" =
+      userPreferences.language === "tr" ? "tr" : "en";
+
     const availableQuotes = await this.getFilteredQuotes(
       isPremium,
-      userPreferences.language,
+      language,
       userPreferences.selectedCategories
     );
 
     // Use fallback logic if insufficient unseen quotes
-    const { quotes: quotesToUse, fallbackUsed } =
+    const {quotes: quotesToUse, fallbackUsed} =
       quoteFilterService.getQuotesWithFallback(availableQuotes, seenQuoteIds);
 
     if (fallbackUsed) {
