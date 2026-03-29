@@ -9882,15 +9882,37 @@
       }
     },
         {
-      "id": "resilience_aff_001",
+      "id": "res_078",
       "type": "affirmation",
       "texts": {
         "en": "I can handle challenges and bounce back stronger.",
-        "tr": "Zorluklarla başa çıkabilir ve daha güçlü toparlanabilirim."
+        "tr": "Zorluklarla başa çıkabilir ve daha güçlü toparlanabilirim.",
+        "fr": "Je peux faire face aux défis et rebondir plus fort(e).",
+        "pt": "Posso lidar com desafios e voltar mais forte.",
+        "nl": "Ik kan uitdagingen aan en kom sterker terug.",
+        "es": "Puedo afrontar los desafíos y recuperarme más fuerte.",
+        "de": "Ich kann Herausforderungen bewältigen und stärker zurückkommen.",
+        "it": "Posso affrontare le sfide e riprendermi più forte.",
+        "ru": "Я могу справляться с трудностями и возвращаться сильнее.",
+        "id": "Saya dapat menghadapi tantangan dan bangkit lebih kuat.",
+        "ja": "私は困難に対処し、さらに強く立ち直れます。",
+        "th": "ฉันรับมือกับความท้าทายได้และกลับมาแข็งแกร่งกว่าเดิม",
+        "ms": "Saya boleh menangani cabaran dan bangkit semula lebih kuat."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "resilience",
       "tags": {
@@ -9908,15 +9930,37 @@
       "readTime": "0"
         },
         {
-      "id": "resilience_aff_002",
+      "id": "res_079",
       "type": "affirmation",
       "texts": {
         "en": "I recover with patience and strength.",
-        "tr": "Sabır ve güçle toparlanırım."
+        "tr": "Sabır ve güçle toparlanırım.",
+        "fr": "Je me rétablis avec patience et force.",
+        "pt": "Recupero-me com paciência e força.",
+        "nl": "Ik herstel met geduld en kracht.",
+        "es": "Me recupero con paciencia y fuerza.",
+        "de": "Ich erhole mich mit Geduld und Stärke.",
+        "it": "Mi riprendo con pazienza e forza.",
+        "ru": "Я восстанавливаюсь с терпением и силой.",
+        "id": "Saya pulih dengan kesabaran dan kekuatan.",
+        "ja": "私は忍耐と強さで回復します。",
+        "th": "ฉันฟื้นตัวด้วยความอดทนและพลัง",
+        "ms": "Saya pulih dengan kesabaran dan kekuatan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "resilience",
       "tags": {
@@ -9929,6 +9973,226 @@
           "toparlanma",
           "sabır",
           "güç"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "res_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Resilience into my life.",
+        "tr": "Hayatıma Dayanıklılık enerjisini alıyorum.",
+        "fr": "J'accueille Resilience dans ma vie.",
+        "pt": "Eu acolho Resilience na minha vida.",
+        "nl": "Ik verwelkom Resilience in mijn leven.",
+        "es": "Doy la bienvenida a Resilience en mi vida.",
+        "de": "Ich heiße Resilience in meinem Leben willkommen.",
+        "it": "Accolgo Resilience nella mia vita.",
+        "ru": "Я принимаю Resilience в свою жизнь.",
+        "id": "Saya menyambut Resilience dalam hidup saya.",
+        "ja": "私はResilienceを人生に迎え入れます。",
+        "th": "ฉันต้อนรับResilienceเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Resilience dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "res_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Resilience.",
+        "tr": "Kalbim Dayanıklılık için açık.",
+        "fr": "Mon cœur est ouvert à Resilience.",
+        "pt": "Meu coração está aberto para Resilience.",
+        "nl": "Mijn hart staat open voor Resilience.",
+        "es": "Mi corazón está abierto a Resilience.",
+        "de": "Mein Herz ist offen für Resilience.",
+        "it": "Il mio cuore è aperto a Resilience.",
+        "ru": "Моё сердце открыто для Resilience.",
+        "id": "Hati saya terbuka untuk Resilience.",
+        "ja": "私の心はResilienceに開かれています。",
+        "th": "หัวใจของฉันเปิดรับResilience",
+        "ms": "Hati saya terbuka untuk Resilience."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "res_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "Resilience grows within me each day.",
+        "tr": "Dayanıklılık her gün içimde büyüyor.",
+        "fr": "Resilience grandit en moi chaque jour.",
+        "pt": "Resilience cresce dentro de mim todos os dias.",
+        "nl": "Resilience groeit elke dag in mij.",
+        "es": "Resilience crece dentro de mí cada día.",
+        "de": "Resilience wächst jeden Tag in mir.",
+        "it": "Resilience cresce in me ogni giorno.",
+        "ru": "Resilience растёт во мне каждый день.",
+        "id": "Resilience tumbuh di dalam diri saya setiap hari.",
+        "ja": "Resilienceは毎日私の中で育ちます。",
+        "th": "Resilienceเติบโตในตัวฉันทุกวัน",
+        "ms": "Resilience berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "res_083",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Resilience now.",
+        "tr": "Şimdi Dayanıklılık için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Resilience maintenant.",
+        "pt": "Eu crio espaço para Resilience agora.",
+        "nl": "Ik maak nu ruimte voor Resilience.",
+        "es": "Creo espacio para Resilience ahora.",
+        "de": "Ich schaffe jetzt Raum für Resilience.",
+        "it": "Creo spazio per Resilience ora.",
+        "ru": "Я создаю пространство для Resilience сейчас.",
+        "id": "Saya menciptakan ruang untuk Resilience sekarang.",
+        "ja": "今、Resilienceのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับResilienceในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Resilience sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "res_084",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Resilience.",
+        "tr": "Dayanıklılık yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Resilience.",
+        "pt": "Eu confio no caminho de Resilience.",
+        "nl": "Ik vertrouw op het pad van Resilience.",
+        "es": "Confío en el camino de Resilience.",
+        "de": "Ich vertraue dem Weg von Resilience.",
+        "it": "Mi fido del percorso di Resilience.",
+        "ru": "Я доверяю пути Resilience.",
+        "id": "Saya percaya pada jalan Resilience.",
+        "ja": "私はResilienceの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของResilience",
+        "ms": "Saya percaya pada jalan Resilience."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

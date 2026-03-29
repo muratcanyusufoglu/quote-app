@@ -13866,15 +13866,37 @@
       }
     },
         {
-      "id": "motivation_aff_001",
+      "id": "mot_108",
       "type": "affirmation",
       "texts": {
         "en": "I feel energized to take one bold step forward.",
-        "tr": "Bugün cesur bir adım atmak için enerjik hissediyorum."
+        "tr": "Bugün cesur bir adım atmak için enerjik hissediyorum.",
+        "fr": "Je me sens pleine d'énergie pour faire un pas audacieux en avant.",
+        "pt": "Sinto-me energizado para dar um passo ousado à frente.",
+        "nl": "Ik voel me energiek om een moedige stap vooruit te zetten.",
+        "es": "Me siento con energía para dar un paso valiente hacia adelante.",
+        "de": "Ich fühle mich energiegeladen, um einen mutigen Schritt nach vorn zu machen.",
+        "it": "Mi sento energico per fare un passo coraggioso avanti.",
+        "ru": "Я чувствую прилив энергии, чтобы сделать смелый шаг вперед.",
+        "id": "Saya merasa berenergi untuk mengambil satu langkah berani ke depan.",
+        "ja": "勇敢な一歩を踏み出すエネルギーを感じています。",
+        "th": "ฉันรู้สึกมีพลังที่จะก้าวไปข้างหน้าอย่างกล้าหาญหนึ่งก้าว",
+        "ms": "Saya berasa bertenaga untuk mengambil satu langkah berani ke hadapan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "motivation",
       "tags": {
@@ -13892,15 +13914,37 @@
       "readTime": "0"
         },
         {
-      "id": "motivation_aff_002",
+      "id": "mot_109",
       "type": "affirmation",
       "texts": {
         "en": "My motivation grows as I move.",
-        "tr": "Hareket ettikçe motivasyonum artar."
+        "tr": "Hareket ettikçe motivasyonum artar.",
+        "fr": "Ma motivation grandit à mesure que j'avance.",
+        "pt": "Minha motivação cresce à medida que me movo.",
+        "nl": "Mijn motivatie groeit terwijl ik in beweging kom.",
+        "es": "Mi motivación crece a medida que avanzo.",
+        "de": "Meine Motivation wächst, je mehr ich mich bewege.",
+        "it": "La mia motivazione cresce mentre mi muovo.",
+        "ru": "Моя мотивация растёт, когда я двигаюсь.",
+        "id": "Motivasi saya tumbuh saat saya bergerak.",
+        "ja": "動くほどにモチベーションが高まります。",
+        "th": "แรงจูงใจของฉันเพิ่มขึ้นเมื่อฉันลงมือทำ",
+        "ms": "Motivasi saya meningkat apabila saya bergerak."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "motivation",
       "tags": {
@@ -13913,6 +13957,226 @@
           "ivme",
           "eylem",
           "enerji"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mot_110",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Motivation into my life.",
+        "tr": "Hayatıma Motivasyon enerjisini alıyorum.",
+        "fr": "J'accueille Motivation dans ma vie.",
+        "pt": "Eu acolho Motivation na minha vida.",
+        "nl": "Ik verwelkom Motivation in mijn leven.",
+        "es": "Doy la bienvenida a Motivation en mi vida.",
+        "de": "Ich heiße Motivation in meinem Leben willkommen.",
+        "it": "Accolgo Motivation nella mia vita.",
+        "ru": "Я принимаю Motivation в свою жизнь.",
+        "id": "Saya menyambut Motivation dalam hidup saya.",
+        "ja": "私はMotivationを人生に迎え入れます。",
+        "th": "ฉันต้อนรับMotivationเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Motivation dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mot_111",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Motivation.",
+        "tr": "Kalbim Motivasyon için açık.",
+        "fr": "Mon cœur est ouvert à Motivation.",
+        "pt": "Meu coração está aberto para Motivation.",
+        "nl": "Mijn hart staat open voor Motivation.",
+        "es": "Mi corazón está abierto a Motivation.",
+        "de": "Mein Herz ist offen für Motivation.",
+        "it": "Il mio cuore è aperto a Motivation.",
+        "ru": "Моё сердце открыто для Motivation.",
+        "id": "Hati saya terbuka untuk Motivation.",
+        "ja": "私の心はMotivationに開かれています。",
+        "th": "หัวใจของฉันเปิดรับMotivation",
+        "ms": "Hati saya terbuka untuk Motivation."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mot_112",
+      "type": "affirmation",
+      "texts": {
+        "en": "Motivation grows within me each day.",
+        "tr": "Motivasyon her gün içimde büyüyor.",
+        "fr": "Motivation grandit en moi chaque jour.",
+        "pt": "Motivation cresce dentro de mim todos os dias.",
+        "nl": "Motivation groeit elke dag in mij.",
+        "es": "Motivation crece dentro de mí cada día.",
+        "de": "Motivation wächst jeden Tag in mir.",
+        "it": "Motivation cresce in me ogni giorno.",
+        "ru": "Motivation растёт во мне каждый день.",
+        "id": "Motivation tumbuh di dalam diri saya setiap hari.",
+        "ja": "Motivationは毎日私の中で育ちます。",
+        "th": "Motivationเติบโตในตัวฉันทุกวัน",
+        "ms": "Motivation berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mot_113",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Motivation now.",
+        "tr": "Şimdi Motivasyon için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Motivation maintenant.",
+        "pt": "Eu crio espaço para Motivation agora.",
+        "nl": "Ik maak nu ruimte voor Motivation.",
+        "es": "Creo espacio para Motivation ahora.",
+        "de": "Ich schaffe jetzt Raum für Motivation.",
+        "it": "Creo spazio per Motivation ora.",
+        "ru": "Я создаю пространство для Motivation сейчас.",
+        "id": "Saya menciptakan ruang untuk Motivation sekarang.",
+        "ja": "今、Motivationのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับMotivationในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Motivation sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mot_114",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Motivation.",
+        "tr": "Motivasyon yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Motivation.",
+        "pt": "Eu confio no caminho de Motivation.",
+        "nl": "Ik vertrouw op het pad van Motivation.",
+        "es": "Confío en el camino de Motivation.",
+        "de": "Ich vertraue dem Weg von Motivation.",
+        "it": "Mi fido del percorso di Motivation.",
+        "ru": "Я доверяю пути Motivation.",
+        "id": "Saya percaya pada jalan Motivation.",
+        "ja": "私はMotivationの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของMotivation",
+        "ms": "Saya percaya pada jalan Motivation."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

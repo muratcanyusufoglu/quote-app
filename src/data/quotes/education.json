@@ -8789,15 +8789,37 @@
       }
     },
     {
-      "id": "education_aff_001",
+      "id": "education_075",
       "type": "affirmation",
       "texts": {
         "en": "I learn quickly and apply what I learn.",
-        "tr": "Hızla öğrenir ve öğrendiklerimi uygularım."
+        "tr": "Hızla öğrenir ve öğrendiklerimi uygularım.",
+        "fr": "J'apprends vite et j'applique ce que j'apprends.",
+        "pt": "Aprendo rapidamente e aplico o que aprendo.",
+        "nl": "Ik leer snel en pas toe wat ik leer.",
+        "es": "Aprendo rápido y aplico lo que aprendo.",
+        "de": "Ich lerne schnell und wende an, was ich lerne.",
+        "it": "Imparo in fretta e applico ciò che imparo.",
+        "ru": "Я быстро учусь и применяю то, чему научился(лась).",
+        "id": "Saya belajar cepat dan menerapkan apa yang saya pelajari.",
+        "ja": "私は素早く学び、学んだことを実践します。",
+        "th": "ฉันเรียนรู้ได้เร็วและนำสิ่งที่เรียนรู้ไปใช้",
+        "ms": "Saya belajar cepat dan mengaplikasikan apa yang saya pelajari."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "education",
       "tags": {
@@ -8815,15 +8837,37 @@
       "readTime": "0"
     },
     {
-      "id": "education_aff_002",
+      "id": "education_076",
       "type": "affirmation",
       "texts": {
         "en": "I stay curious and keep improving.",
-        "tr": "Merakımı canlı tutar ve gelişmeye devam ederim."
+        "tr": "Merakımı canlı tutar ve gelişmeye devam ederim.",
+        "fr": "Je reste curieux(se) et je continue à m'améliorer.",
+        "pt": "Permaneço curioso(a) e continuo melhorando.",
+        "nl": "Ik blijf nieuwsgierig en blijf verbeteren.",
+        "es": "Me mantengo curioso(a) y sigo mejorando.",
+        "de": "Ich bleibe neugierig und verbessere mich weiter.",
+        "it": "Rimango curioso/a e continuo a migliorare.",
+        "ru": "Я остаюсь любознательным(ой) и продолжаю улучшаться.",
+        "id": "Saya tetap ingin tahu dan terus berkembang.",
+        "ja": "私は好奇心を持ち続け、成長し続けます。",
+        "th": "ฉันยังคงอยากรู้อยากเห็นและพัฒนาตัวเองต่อไป",
+        "ms": "Saya kekal ingin tahu dan terus memperbaiki diri."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "education",
       "tags": {
@@ -8836,6 +8880,226 @@
           "merak",
           "gelişim",
           "öğrenme"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Education into my life.",
+        "tr": "Hayatıma Eğitim enerjisini alıyorum.",
+        "fr": "J'accueille Education dans ma vie.",
+        "pt": "Eu acolho Education na minha vida.",
+        "nl": "Ik verwelkom Education in mijn leven.",
+        "es": "Doy la bienvenida a Education en mi vida.",
+        "de": "Ich heiße Education in meinem Leben willkommen.",
+        "it": "Accolgo Education nella mia vita.",
+        "ru": "Я принимаю Education в свою жизнь.",
+        "id": "Saya menyambut Education dalam hidup saya.",
+        "ja": "私はEducationを人生に迎え入れます。",
+        "th": "ฉันต้อนรับEducationเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Education dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Education.",
+        "tr": "Kalbim Eğitim için açık.",
+        "fr": "Mon cœur est ouvert à Education.",
+        "pt": "Meu coração está aberto para Education.",
+        "nl": "Mijn hart staat open voor Education.",
+        "es": "Mi corazón está abierto a Education.",
+        "de": "Mein Herz ist offen für Education.",
+        "it": "Il mio cuore è aperto a Education.",
+        "ru": "Моё сердце открыто для Education.",
+        "id": "Hati saya terbuka untuk Education.",
+        "ja": "私の心はEducationに開かれています。",
+        "th": "หัวใจของฉันเปิดรับEducation",
+        "ms": "Hati saya terbuka untuk Education."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "Education grows within me each day.",
+        "tr": "Eğitim her gün içimde büyüyor.",
+        "fr": "Education grandit en moi chaque jour.",
+        "pt": "Education cresce dentro de mim todos os dias.",
+        "nl": "Education groeit elke dag in mij.",
+        "es": "Education crece dentro de mí cada día.",
+        "de": "Education wächst jeden Tag in mir.",
+        "it": "Education cresce in me ogni giorno.",
+        "ru": "Education растёт во мне каждый день.",
+        "id": "Education tumbuh di dalam diri saya setiap hari.",
+        "ja": "Educationは毎日私の中で育ちます。",
+        "th": "Educationเติบโตในตัวฉันทุกวัน",
+        "ms": "Education berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Education now.",
+        "tr": "Şimdi Eğitim için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Education maintenant.",
+        "pt": "Eu crio espaço para Education agora.",
+        "nl": "Ik maak nu ruimte voor Education.",
+        "es": "Creo espacio para Education ahora.",
+        "de": "Ich schaffe jetzt Raum für Education.",
+        "it": "Creo spazio per Education ora.",
+        "ru": "Я создаю пространство для Education сейчас.",
+        "id": "Saya menciptakan ruang untuk Education sekarang.",
+        "ja": "今、Educationのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับEducationในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Education sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Education.",
+        "tr": "Eğitim yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Education.",
+        "pt": "Eu confio no caminho de Education.",
+        "nl": "Ik vertrouw op het pad van Education.",
+        "es": "Confío en el camino de Education.",
+        "de": "Ich vertraue dem Weg von Education.",
+        "it": "Mi fido del percorso di Education.",
+        "ru": "Я доверяю пути Education.",
+        "id": "Saya percaya pada jalan Education.",
+        "ja": "私はEducationの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของEducation",
+        "ms": "Saya percaya pada jalan Education."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -8299,15 +8299,37 @@
       }
     },
        {
-      "id": "health_aff_001",
+      "id": "health_075",
       "type": "affirmation",
       "texts": {
         "en": "I honor my body with healthy choices.",
-        "tr": "Bedenimi sağlıklı seçimlerle onurlandırırım."
+        "tr": "Bedenimi sağlıklı seçimlerle onurlandırırım.",
+        "fr": "Je respecte mon corps avec des choix sains.",
+        "pt": "Honro meu corpo com escolhas saudáveis.",
+        "nl": "Ik respecteer mijn lichaam met gezonde keuzes.",
+        "es": "Honro mi cuerpo con decisiones saludables.",
+        "de": "Ich ehre meinen Körper mit gesunden Entscheidungen.",
+        "it": "Onoro il mio corpo con scelte sane.",
+        "ru": "Я уважаю своё тело здоровыми выборами.",
+        "id": "Saya menghormati tubuh saya dengan pilihan yang sehat.",
+        "ja": "私は健康的な選択で自分の体を大切にします。",
+        "th": "ฉันให้เกียรติร่างกายด้วยการเลือกที่ดีต่อสุขภาพ",
+        "ms": "Saya menghormati tubuh saya dengan pilihan yang sihat."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "health",
       "tags": {
@@ -8325,15 +8347,37 @@
       "readTime": "0"
        },
        {
-      "id": "health_aff_002",
+      "id": "health_076",
       "type": "affirmation",
       "texts": {
         "en": "I listen to my body's signals.",
-        "tr": "Bedenimin sinyallerini dinlerim."
+        "tr": "Bedenimin sinyallerini dinlerim.",
+        "fr": "J'écoute les signaux de mon corps.",
+        "pt": "Eu ouço os sinais do meu corpo.",
+        "nl": "Ik luister naar de signalen van mijn lichaam.",
+        "es": "Escucho las señales de mi cuerpo.",
+        "de": "Ich höre auf die Signale meines Körpers.",
+        "it": "Ascolto i segnali del mio corpo.",
+        "ru": "Я прислушиваюсь к сигналам своего тела.",
+        "id": "Saya mendengarkan sinyal tubuh saya.",
+        "ja": "私は自分の体のサインに耳を傾けます。",
+        "th": "ฉันฟังสัญญาณจากร่างกายของฉัน",
+        "ms": "Saya mendengar isyarat tubuh saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "health",
       "tags": {
@@ -8346,6 +8390,226 @@
           "beden",
           "farkındalık",
           "özen"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Health into my life.",
+        "tr": "Hayatıma Sağlık enerjisini alıyorum.",
+        "fr": "J'accueille Health dans ma vie.",
+        "pt": "Eu acolho Health na minha vida.",
+        "nl": "Ik verwelkom Health in mijn leven.",
+        "es": "Doy la bienvenida a Health en mi vida.",
+        "de": "Ich heiße Health in meinem Leben willkommen.",
+        "it": "Accolgo Health nella mia vita.",
+        "ru": "Я принимаю Health в свою жизнь.",
+        "id": "Saya menyambut Health dalam hidup saya.",
+        "ja": "私はHealthを人生に迎え入れます。",
+        "th": "ฉันต้อนรับHealthเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Health dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Health.",
+        "tr": "Kalbim Sağlık için açık.",
+        "fr": "Mon cœur est ouvert à Health.",
+        "pt": "Meu coração está aberto para Health.",
+        "nl": "Mijn hart staat open voor Health.",
+        "es": "Mi corazón está abierto a Health.",
+        "de": "Mein Herz ist offen für Health.",
+        "it": "Il mio cuore è aperto a Health.",
+        "ru": "Моё сердце открыто для Health.",
+        "id": "Hati saya terbuka untuk Health.",
+        "ja": "私の心はHealthに開かれています。",
+        "th": "หัวใจของฉันเปิดรับHealth",
+        "ms": "Hati saya terbuka untuk Health."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "Health grows within me each day.",
+        "tr": "Sağlık her gün içimde büyüyor.",
+        "fr": "Health grandit en moi chaque jour.",
+        "pt": "Health cresce dentro de mim todos os dias.",
+        "nl": "Health groeit elke dag in mij.",
+        "es": "Health crece dentro de mí cada día.",
+        "de": "Health wächst jeden Tag in mir.",
+        "it": "Health cresce in me ogni giorno.",
+        "ru": "Health растёт во мне каждый день.",
+        "id": "Health tumbuh di dalam diri saya setiap hari.",
+        "ja": "Healthは毎日私の中で育ちます。",
+        "th": "Healthเติบโตในตัวฉันทุกวัน",
+        "ms": "Health berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Health now.",
+        "tr": "Şimdi Sağlık için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Health maintenant.",
+        "pt": "Eu crio espaço para Health agora.",
+        "nl": "Ik maak nu ruimte voor Health.",
+        "es": "Creo espacio para Health ahora.",
+        "de": "Ich schaffe jetzt Raum für Health.",
+        "it": "Creo spazio per Health ora.",
+        "ru": "Я создаю пространство для Health сейчас.",
+        "id": "Saya menciptakan ruang untuk Health sekarang.",
+        "ja": "今、Healthのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับHealthในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Health sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Health.",
+        "tr": "Sağlık yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Health.",
+        "pt": "Eu confio no caminho de Health.",
+        "nl": "Ik vertrouw op het pad van Health.",
+        "es": "Confío en el camino de Health.",
+        "de": "Ich vertraue dem Weg von Health.",
+        "it": "Mi fido del percorso di Health.",
+        "ru": "Я доверяю пути Health.",
+        "id": "Saya percaya pada jalan Health.",
+        "ja": "私はHealthの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของHealth",
+        "ms": "Saya percaya pada jalan Health."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

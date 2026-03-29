@@ -8189,15 +8189,37 @@
       }
     },
         {
-      "id": "change_aff_001",
+      "id": "change_071",
       "type": "affirmation",
       "texts": {
         "en": "I adapt to change and find opportunity in it.",
-        "tr": "Değişime uyum sağlar ve içinde fırsat görürüm."
+        "tr": "Değişime uyum sağlar ve içinde fırsat görürüm.",
+        "fr": "Je m'adapte au changement et j'y trouve des opportunités.",
+        "pt": "Adapto-me a mudanças e encontro oportunidades nelas.",
+        "nl": "Ik pas me aan verandering aan en vind er kansen in.",
+        "es": "Me adapto al cambio y encuentro oportunidades en él.",
+        "de": "Ich passe mich dem Wandel an und finde darin Chancen.",
+        "it": "Mi adatto al cambiamento e trovo opportunità in esso.",
+        "ru": "Я адаптируюсь к изменениям и нахожу в них возможности.",
+        "id": "Saya beradaptasi dengan perubahan dan menemukan peluang di dalamnya.",
+        "ja": "変化に適応し、その中に機会を見つけます。",
+        "th": "ฉันปรับตัวต่อการเปลี่ยนแปลงและพบโอกาสในนั้น",
+        "ms": "Saya menyesuaikan diri dengan perubahan dan menemui peluang di dalamnya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "change",
       "tags": {
@@ -8215,15 +8237,37 @@
       "readTime": "0"
         },
         {
-      "id": "change_aff_002",
+      "id": "change_072",
       "type": "affirmation",
       "texts": {
         "en": "I let go of what no longer fits.",
-        "tr": "Artık bana uymayanı bırakırım."
+        "tr": "Artık bana uymayanı bırakırım.",
+        "fr": "Je lâche ce qui ne me convient plus.",
+        "pt": "Deixo ir o que já não serve.",
+        "nl": "Ik laat los wat niet meer past.",
+        "es": "Dejo ir lo que ya no encaja.",
+        "de": "Ich lasse los, was nicht mehr passt.",
+        "it": "Lascio andare ciò che non mi serve più.",
+        "ru": "Я отпускаю то, что больше не подходит.",
+        "id": "Saya melepaskan apa yang tidak lagi sesuai.",
+        "ja": "もう合わないものを手放します。",
+        "th": "ฉันปล่อยสิ่งที่ไม่เหมาะกับฉันอีกต่อไป",
+        "ms": "Saya melepaskan apa yang tidak lagi sesuai."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "change",
       "tags": {
@@ -8236,6 +8280,226 @@
           "bırakma",
           "uyum",
           "güven"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_073",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Change into my life.",
+        "tr": "Hayatıma Değişim enerjisini alıyorum.",
+        "fr": "J'accueille Change dans ma vie.",
+        "pt": "Eu acolho Change na minha vida.",
+        "nl": "Ik verwelkom Change in mijn leven.",
+        "es": "Doy la bienvenida a Change en mi vida.",
+        "de": "Ich heiße Change in meinem Leben willkommen.",
+        "it": "Accolgo Change nella mia vita.",
+        "ru": "Я принимаю Change в свою жизнь.",
+        "id": "Saya menyambut Change dalam hidup saya.",
+        "ja": "私はChangeを人生に迎え入れます。",
+        "th": "ฉันต้อนรับChangeเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Change dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Change.",
+        "tr": "Kalbim Değişim için açık.",
+        "fr": "Mon cœur est ouvert à Change.",
+        "pt": "Meu coração está aberto para Change.",
+        "nl": "Mijn hart staat open voor Change.",
+        "es": "Mi corazón está abierto a Change.",
+        "de": "Mein Herz ist offen für Change.",
+        "it": "Il mio cuore è aperto a Change.",
+        "ru": "Моё сердце открыто для Change.",
+        "id": "Hati saya terbuka untuk Change.",
+        "ja": "私の心はChangeに開かれています。",
+        "th": "หัวใจของฉันเปิดรับChange",
+        "ms": "Hati saya terbuka untuk Change."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "Change grows within me each day.",
+        "tr": "Değişim her gün içimde büyüyor.",
+        "fr": "Change grandit en moi chaque jour.",
+        "pt": "Change cresce dentro de mim todos os dias.",
+        "nl": "Change groeit elke dag in mij.",
+        "es": "Change crece dentro de mí cada día.",
+        "de": "Change wächst jeden Tag in mir.",
+        "it": "Change cresce in me ogni giorno.",
+        "ru": "Change растёт во мне каждый день.",
+        "id": "Change tumbuh di dalam diri saya setiap hari.",
+        "ja": "Changeは毎日私の中で育ちます。",
+        "th": "Changeเติบโตในตัวฉันทุกวัน",
+        "ms": "Change berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Change now.",
+        "tr": "Şimdi Değişim için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Change maintenant.",
+        "pt": "Eu crio espaço para Change agora.",
+        "nl": "Ik maak nu ruimte voor Change.",
+        "es": "Creo espacio para Change ahora.",
+        "de": "Ich schaffe jetzt Raum für Change.",
+        "it": "Creo spazio per Change ora.",
+        "ru": "Я создаю пространство для Change сейчас.",
+        "id": "Saya menciptakan ruang untuk Change sekarang.",
+        "ja": "今、Changeのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับChangeในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Change sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Change.",
+        "tr": "Değişim yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Change.",
+        "pt": "Eu confio no caminho de Change.",
+        "nl": "Ik vertrouw op het pad van Change.",
+        "es": "Confío en el camino de Change.",
+        "de": "Ich vertraue dem Weg von Change.",
+        "it": "Mi fido del percorso di Change.",
+        "ru": "Я доверяю пути Change.",
+        "id": "Saya percaya pada jalan Change.",
+        "ja": "私はChangeの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของChange",
+        "ms": "Saya percaya pada jalan Change."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

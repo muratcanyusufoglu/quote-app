@@ -7775,15 +7775,37 @@
       }
     },
     {
-      "id": "spirituality_aff_001",
+      "id": "spirituality_070",
       "type": "affirmation",
       "texts": {
         "en": "I am connected to something greater than myself.",
-        "tr": "Benden daha büyük bir şeyle bağlantıdayım."
+        "tr": "Benden daha büyük bir şeyle bağlantıdayım.",
+        "fr": "Je suis connecté(e) à quelque chose de plus grand que moi.",
+        "pt": "Estou conectado(a) a algo maior do que eu.",
+        "nl": "Ik ben verbonden met iets groters dan mezelf.",
+        "es": "Estoy conectado(a) con algo más grande que yo.",
+        "de": "Ich bin mit etwas Größerem als mir selbst verbunden.",
+        "it": "Sono connesso/a a qualcosa di più grande di me.",
+        "ru": "Я связан(а) с чем-то большим, чем я сам(а).",
+        "id": "Saya terhubung dengan sesuatu yang lebih besar daripada diri saya.",
+        "ja": "私は自分を超える大きなものとつながっています。",
+        "th": "ฉันเชื่อมต่อกับสิ่งที่ยิ่งใหญ่กว่าตัวฉัน",
+        "ms": "Saya terhubung dengan sesuatu yang lebih besar daripada diri saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "spirituality",
       "tags": {
@@ -7801,15 +7823,37 @@
       "readTime": "0"
     },
     {
-      "id": "spirituality_aff_002",
+      "id": "spirituality_071",
       "type": "affirmation",
       "texts": {
         "en": "I trust the guidance within me.",
-        "tr": "İçerimdeki rehberliğe güvenirim."
+        "tr": "İçerimdeki rehberliğe güvenirim.",
+        "fr": "Je fais confiance à la guidance en moi.",
+        "pt": "Confio na orientação dentro de mim.",
+        "nl": "Ik vertrouw op de leiding in mij.",
+        "es": "Confío en la guía dentro de mí.",
+        "de": "Ich vertraue der Führung in mir.",
+        "it": "Mi fido della guida dentro di me.",
+        "ru": "Я доверяю внутреннему руководству.",
+        "id": "Saya percaya pada bimbingan di dalam diri saya.",
+        "ja": "私は内なる導きを信頼します。",
+        "th": "ฉันเชื่อมั่นในคำชี้แนะภายในตัวฉัน",
+        "ms": "Saya mempercayai bimbingan dalam diri saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "spirituality",
       "tags": {
@@ -7822,6 +7866,226 @@
           "rehberlik",
           "inanç",
           "içsel"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_072",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Spirituality into my life.",
+        "tr": "Hayatıma Maneviyat enerjisini alıyorum.",
+        "fr": "J'accueille Spirituality dans ma vie.",
+        "pt": "Eu acolho Spirituality na minha vida.",
+        "nl": "Ik verwelkom Spirituality in mijn leven.",
+        "es": "Doy la bienvenida a Spirituality en mi vida.",
+        "de": "Ich heiße Spirituality in meinem Leben willkommen.",
+        "it": "Accolgo Spirituality nella mia vita.",
+        "ru": "Я принимаю Spirituality в свою жизнь.",
+        "id": "Saya menyambut Spirituality dalam hidup saya.",
+        "ja": "私はSpiritualityを人生に迎え入れます。",
+        "th": "ฉันต้อนรับSpiritualityเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Spirituality dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_073",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Spirituality.",
+        "tr": "Kalbim Maneviyat için açık.",
+        "fr": "Mon cœur est ouvert à Spirituality.",
+        "pt": "Meu coração está aberto para Spirituality.",
+        "nl": "Mijn hart staat open voor Spirituality.",
+        "es": "Mi corazón está abierto a Spirituality.",
+        "de": "Mein Herz ist offen für Spirituality.",
+        "it": "Il mio cuore è aperto a Spirituality.",
+        "ru": "Моё сердце открыто для Spirituality.",
+        "id": "Hati saya terbuka untuk Spirituality.",
+        "ja": "私の心はSpiritualityに開かれています。",
+        "th": "หัวใจของฉันเปิดรับSpirituality",
+        "ms": "Hati saya terbuka untuk Spirituality."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "Spirituality grows within me each day.",
+        "tr": "Maneviyat her gün içimde büyüyor.",
+        "fr": "Spirituality grandit en moi chaque jour.",
+        "pt": "Spirituality cresce dentro de mim todos os dias.",
+        "nl": "Spirituality groeit elke dag in mij.",
+        "es": "Spirituality crece dentro de mí cada día.",
+        "de": "Spirituality wächst jeden Tag in mir.",
+        "it": "Spirituality cresce in me ogni giorno.",
+        "ru": "Spirituality растёт во мне каждый день.",
+        "id": "Spirituality tumbuh di dalam diri saya setiap hari.",
+        "ja": "Spiritualityは毎日私の中で育ちます。",
+        "th": "Spiritualityเติบโตในตัวฉันทุกวัน",
+        "ms": "Spirituality berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Spirituality now.",
+        "tr": "Şimdi Maneviyat için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Spirituality maintenant.",
+        "pt": "Eu crio espaço para Spirituality agora.",
+        "nl": "Ik maak nu ruimte voor Spirituality.",
+        "es": "Creo espacio para Spirituality ahora.",
+        "de": "Ich schaffe jetzt Raum für Spirituality.",
+        "it": "Creo spazio per Spirituality ora.",
+        "ru": "Я создаю пространство для Spirituality сейчас.",
+        "id": "Saya menciptakan ruang untuk Spirituality sekarang.",
+        "ja": "今、Spiritualityのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับSpiritualityในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Spirituality sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Spirituality.",
+        "tr": "Maneviyat yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Spirituality.",
+        "pt": "Eu confio no caminho de Spirituality.",
+        "nl": "Ik vertrouw op het pad van Spirituality.",
+        "es": "Confío en el camino de Spirituality.",
+        "de": "Ich vertraue dem Weg von Spirituality.",
+        "it": "Mi fido del percorso di Spirituality.",
+        "ru": "Я доверяю пути Spirituality.",
+        "id": "Saya percaya pada jalan Spirituality.",
+        "ja": "私はSpiritualityの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของSpirituality",
+        "ms": "Saya percaya pada jalan Spirituality."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

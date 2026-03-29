@@ -9991,15 +9991,37 @@
       }
     },
     {
-      "id": "dreams_aff_001",
+      "id": "dream_076",
       "type": "affirmation",
       "texts": {
         "en": "My dreams are valid and I take steps toward them.",
-        "tr": "Hayallerim değerlidir ve onlara doğru adımlar atarım."
+        "tr": "Hayallerim değerlidir ve onlara doğru adımlar atarım.",
+        "fr": "Mes rêves sont légitimes et je fais des pas vers eux.",
+        "pt": "Meus sonhos são válidos e dou passos em direção a eles.",
+        "nl": "Mijn dromen zijn geldig en ik zet stappen ernaartoe.",
+        "es": "Mis sueños son válidos y doy pasos hacia ellos.",
+        "de": "Meine Träume sind gültig und ich mache Schritte auf sie zu.",
+        "it": "I miei sogni sono validi e faccio passi verso di essi.",
+        "ru": "Мои мечты важны, и я делаю шаги к ним.",
+        "id": "Mimpi saya valid dan saya melangkah ke arahnya.",
+        "ja": "私の夢は正当で、そこへ向けて一歩ずつ進みます。",
+        "th": "ความฝันของฉันมีความหมายและฉันก้าวไปหามัน",
+        "ms": "Impian saya sah dan saya melangkah ke arahnya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "dreams",
       "tags": {
@@ -10017,15 +10039,37 @@
       "readTime": "0"
     },
     {
-      "id": "dreams_aff_002",
+      "id": "dream_077",
       "type": "affirmation",
       "texts": {
         "en": "I trust my dreams and take action.",
-        "tr": "Hayallerime güvenir ve harekete geçerim."
+        "tr": "Hayallerime güvenir ve harekete geçerim.",
+        "fr": "Je fais confiance à mes rêves et je passe à l'action.",
+        "pt": "Confio em meus sonhos e tomo atitude.",
+        "nl": "Ik vertrouw op mijn dromen en kom in actie.",
+        "es": "Confío en mis sueños y actúo.",
+        "de": "Ich vertraue meinen Träumen und handle.",
+        "it": "Mi fido dei miei sogni e agisco.",
+        "ru": "Я доверяю своим мечтам и действую.",
+        "id": "Saya percaya pada mimpi saya dan bertindak.",
+        "ja": "夢を信じて行動します。",
+        "th": "ฉันเชื่อในความฝันของฉันและลงมือทำ",
+        "ms": "Saya mempercayai impian saya dan bertindak."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "dreams",
       "tags": {
@@ -10038,6 +10082,226 @@
           "hayaller",
           "eylem",
           "güven"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dream_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Dreams into my life.",
+        "tr": "Hayatıma Hayaller enerjisini alıyorum.",
+        "fr": "J'accueille Dreams dans ma vie.",
+        "pt": "Eu acolho Dreams na minha vida.",
+        "nl": "Ik verwelkom Dreams in mijn leven.",
+        "es": "Doy la bienvenida a Dreams en mi vida.",
+        "de": "Ich heiße Dreams in meinem Leben willkommen.",
+        "it": "Accolgo Dreams nella mia vita.",
+        "ru": "Я принимаю Dreams в свою жизнь.",
+        "id": "Saya menyambut Dreams dalam hidup saya.",
+        "ja": "私はDreamsを人生に迎え入れます。",
+        "th": "ฉันต้อนรับDreamsเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Dreams dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dream_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Dreams.",
+        "tr": "Kalbim Hayaller için açık.",
+        "fr": "Mon cœur est ouvert à Dreams.",
+        "pt": "Meu coração está aberto para Dreams.",
+        "nl": "Mijn hart staat open voor Dreams.",
+        "es": "Mi corazón está abierto a Dreams.",
+        "de": "Mein Herz ist offen für Dreams.",
+        "it": "Il mio cuore è aperto a Dreams.",
+        "ru": "Моё сердце открыто для Dreams.",
+        "id": "Hati saya terbuka untuk Dreams.",
+        "ja": "私の心はDreamsに開かれています。",
+        "th": "หัวใจของฉันเปิดรับDreams",
+        "ms": "Hati saya terbuka untuk Dreams."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dream_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "Dreams grows within me each day.",
+        "tr": "Hayaller her gün içimde büyüyor.",
+        "fr": "Dreams grandit en moi chaque jour.",
+        "pt": "Dreams cresce dentro de mim todos os dias.",
+        "nl": "Dreams groeit elke dag in mij.",
+        "es": "Dreams crece dentro de mí cada día.",
+        "de": "Dreams wächst jeden Tag in mir.",
+        "it": "Dreams cresce in me ogni giorno.",
+        "ru": "Dreams растёт во мне каждый день.",
+        "id": "Dreams tumbuh di dalam diri saya setiap hari.",
+        "ja": "Dreamsは毎日私の中で育ちます。",
+        "th": "Dreamsเติบโตในตัวฉันทุกวัน",
+        "ms": "Dreams berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dream_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Dreams now.",
+        "tr": "Şimdi Hayaller için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Dreams maintenant.",
+        "pt": "Eu crio espaço para Dreams agora.",
+        "nl": "Ik maak nu ruimte voor Dreams.",
+        "es": "Creo espacio para Dreams ahora.",
+        "de": "Ich schaffe jetzt Raum für Dreams.",
+        "it": "Creo spazio per Dreams ora.",
+        "ru": "Я создаю пространство для Dreams сейчас.",
+        "id": "Saya menciptakan ruang untuk Dreams sekarang.",
+        "ja": "今、Dreamsのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับDreamsในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Dreams sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dream_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Dreams.",
+        "tr": "Hayaller yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Dreams.",
+        "pt": "Eu confio no caminho de Dreams.",
+        "nl": "Ik vertrouw op het pad van Dreams.",
+        "es": "Confío en el camino de Dreams.",
+        "de": "Ich vertraue dem Weg von Dreams.",
+        "it": "Mi fido del percorso di Dreams.",
+        "ru": "Я доверяю пути Dreams.",
+        "id": "Saya percaya pada jalan Dreams.",
+        "ja": "私はDreamsの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของDreams",
+        "ms": "Saya percaya pada jalan Dreams."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

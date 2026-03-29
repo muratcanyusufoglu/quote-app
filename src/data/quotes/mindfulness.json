@@ -9492,15 +9492,37 @@
     }
   },
         {
-      "id": "mindfulness_aff_001",
+      "id": "mindfulness_075",
       "type": "affirmation",
       "texts": {
         "en": "I am fully present in this moment.",
-        "tr": "Şu anda bu anın içindeyim."
+        "tr": "Şu anda bu anın içindeyim.",
+        "fr": "Je suis pleinement présent(e) dans ce moment.",
+        "pt": "Estou totalmente presente neste momento.",
+        "nl": "Ik ben volledig aanwezig in dit moment.",
+        "es": "Estoy plenamente presente en este momento.",
+        "de": "Ich bin in diesem Moment ganz präsent.",
+        "it": "Sono pienamente presente in questo momento.",
+        "ru": "Я полностью присутствую в этом моменте.",
+        "id": "Saya sepenuhnya hadir pada saat ini.",
+        "ja": "私は今この瞬間に完全に意識を向けています。",
+        "th": "ฉันอยู่กับปัจจุบันอย่างเต็มที่ในขณะนี้",
+        "ms": "Saya hadir sepenuhnya pada saat ini."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "mindfulness",
       "tags": {
@@ -9518,15 +9540,37 @@
       "readTime": "0"
         },
         {
-      "id": "mindfulness_aff_002",
+      "id": "mindfulness_076",
       "type": "affirmation",
       "texts": {
         "en": "I notice my breath and slow down.",
-        "tr": "Nefesimi fark eder ve yavaşlarım."
+        "tr": "Nefesimi fark eder ve yavaşlarım.",
+        "fr": "Je remarque ma respiration et je ralentis.",
+        "pt": "Percebo minha respiração e desacelero.",
+        "nl": "Ik merk mijn ademhaling op en vertraag.",
+        "es": "Noto mi respiración y desacelero.",
+        "de": "Ich bemerke meinen Atem und werde langsamer.",
+        "it": "Nota il mio respiro e rallento.",
+        "ru": "Я замечаю своё дыхание и замедляюсь.",
+        "id": "Saya memperhatikan napas saya dan melambat.",
+        "ja": "自分の呼吸に気づき、ゆっくりします。",
+        "th": "ฉันสังเกตลมหายใจของฉันและชะลอลง",
+        "ms": "Saya menyedari pernafasan saya dan memperlahankan diri."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "mindfulness",
       "tags": {
@@ -9539,6 +9583,226 @@
           "nefes",
           "farkındalık",
           "yavaş"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Mindfulness into my life.",
+        "tr": "Hayatıma Farkındalık enerjisini alıyorum.",
+        "fr": "J'accueille Mindfulness dans ma vie.",
+        "pt": "Eu acolho Mindfulness na minha vida.",
+        "nl": "Ik verwelkom Mindfulness in mijn leven.",
+        "es": "Doy la bienvenida a Mindfulness en mi vida.",
+        "de": "Ich heiße Mindfulness in meinem Leben willkommen.",
+        "it": "Accolgo Mindfulness nella mia vita.",
+        "ru": "Я принимаю Mindfulness в свою жизнь.",
+        "id": "Saya menyambut Mindfulness dalam hidup saya.",
+        "ja": "私はMindfulnessを人生に迎え入れます。",
+        "th": "ฉันต้อนรับMindfulnessเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Mindfulness dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Mindfulness.",
+        "tr": "Kalbim Farkındalık için açık.",
+        "fr": "Mon cœur est ouvert à Mindfulness.",
+        "pt": "Meu coração está aberto para Mindfulness.",
+        "nl": "Mijn hart staat open voor Mindfulness.",
+        "es": "Mi corazón está abierto a Mindfulness.",
+        "de": "Mein Herz ist offen für Mindfulness.",
+        "it": "Il mio cuore è aperto a Mindfulness.",
+        "ru": "Моё сердце открыто для Mindfulness.",
+        "id": "Hati saya terbuka untuk Mindfulness.",
+        "ja": "私の心はMindfulnessに開かれています。",
+        "th": "หัวใจของฉันเปิดรับMindfulness",
+        "ms": "Hati saya terbuka untuk Mindfulness."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "Mindfulness grows within me each day.",
+        "tr": "Farkındalık her gün içimde büyüyor.",
+        "fr": "Mindfulness grandit en moi chaque jour.",
+        "pt": "Mindfulness cresce dentro de mim todos os dias.",
+        "nl": "Mindfulness groeit elke dag in mij.",
+        "es": "Mindfulness crece dentro de mí cada día.",
+        "de": "Mindfulness wächst jeden Tag in mir.",
+        "it": "Mindfulness cresce in me ogni giorno.",
+        "ru": "Mindfulness растёт во мне каждый день.",
+        "id": "Mindfulness tumbuh di dalam diri saya setiap hari.",
+        "ja": "Mindfulnessは毎日私の中で育ちます。",
+        "th": "Mindfulnessเติบโตในตัวฉันทุกวัน",
+        "ms": "Mindfulness berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Mindfulness now.",
+        "tr": "Şimdi Farkındalık için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Mindfulness maintenant.",
+        "pt": "Eu crio espaço para Mindfulness agora.",
+        "nl": "Ik maak nu ruimte voor Mindfulness.",
+        "es": "Creo espacio para Mindfulness ahora.",
+        "de": "Ich schaffe jetzt Raum für Mindfulness.",
+        "it": "Creo spazio per Mindfulness ora.",
+        "ru": "Я создаю пространство для Mindfulness сейчас.",
+        "id": "Saya menciptakan ruang untuk Mindfulness sekarang.",
+        "ja": "今、Mindfulnessのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับMindfulnessในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Mindfulness sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Mindfulness.",
+        "tr": "Farkındalık yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Mindfulness.",
+        "pt": "Eu confio no caminho de Mindfulness.",
+        "nl": "Ik vertrouw op het pad van Mindfulness.",
+        "es": "Confío en el camino de Mindfulness.",
+        "de": "Ich vertraue dem Weg von Mindfulness.",
+        "it": "Mi fido del percorso di Mindfulness.",
+        "ru": "Я доверяю пути Mindfulness.",
+        "id": "Saya percaya pada jalan Mindfulness.",
+        "ja": "私はMindfulnessの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของMindfulness",
+        "ms": "Saya percaya pada jalan Mindfulness."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

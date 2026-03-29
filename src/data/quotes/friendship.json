@@ -6904,15 +6904,37 @@
       }
     },
     {
-      "id": "friendship_aff_001",
+      "id": "friendship_060",
       "type": "affirmation",
       "texts": {
         "en": "I attract and nurture supportive friendships.",
-        "tr": "Destekleyici dostluklar kurar ve beslerim."
+        "tr": "Destekleyici dostluklar kurar ve beslerim.",
+        "fr": "J'attire et je nourris des amitiés bienveillantes.",
+        "pt": "Atraio e cultivo amizades que me apoiam.",
+        "nl": "Ik trek ondersteunende vriendschappen aan en koester ze.",
+        "es": "Atraigo y cultivo amistades que me apoyan.",
+        "de": "Ich zie unterstützende Freundschaften an und pflege sie.",
+        "it": "Attiro e coltivo amicizie di supporto.",
+        "ru": "Я привлекаю и поддерживаю дружбу, которая меня поддерживает.",
+        "id": "Saya menarik dan merawat persahabatan yang mendukung.",
+        "ja": "私は支え合える友情を引き寄せ、育みます。",
+        "th": "ฉันดึงดูดและหล่อเลี้ยงมิตรภาพที่สนับสนุนกัน",
+        "ms": "Saya menarik dan memelihara persahabatan yang menyokong."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "friendship",
       "tags": {
@@ -6930,15 +6952,37 @@
       "readTime": "0"
     },
     {
-      "id": "friendship_aff_002",
+      "id": "friendship_061",
       "type": "affirmation",
       "texts": {
         "en": "I show up with loyalty and care.",
-        "tr": "Sadakat ve özenle yanında olurum."
+        "tr": "Sadakat ve özenle yanında olurum.",
+        "fr": "Je me présente avec loyauté et attention.",
+        "pt": "Apareço com lealdade e cuidado.",
+        "nl": "Ik kom opdagen met loyaliteit en zorg.",
+        "es": "Me presento con lealtad y cuidado.",
+        "de": "Ich erscheine mit Loyalität und Fürsorge.",
+        "it": "Mi presento con lealtà e cura.",
+        "ru": "Я проявляю себя с верностью и заботой.",
+        "id": "Saya hadir dengan kesetiaan dan kepedulian.",
+        "ja": "私は忠実さと思いやりでそばにいます。",
+        "th": "ฉันอยู่ตรงนั้นด้วยความซื่อสัตย์และการดูแล",
+        "ms": "Saya hadir dengan kesetiaan dan perhatian."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "friendship",
       "tags": {
@@ -6951,6 +6995,226 @@
           "sadakat",
           "özen",
           "destek"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_062",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Friendship into my life.",
+        "tr": "Hayatıma Arkadaşlık enerjisini alıyorum.",
+        "fr": "J'accueille Friendship dans ma vie.",
+        "pt": "Eu acolho Friendship na minha vida.",
+        "nl": "Ik verwelkom Friendship in mijn leven.",
+        "es": "Doy la bienvenida a Friendship en mi vida.",
+        "de": "Ich heiße Friendship in meinem Leben willkommen.",
+        "it": "Accolgo Friendship nella mia vita.",
+        "ru": "Я принимаю Friendship в свою жизнь.",
+        "id": "Saya menyambut Friendship dalam hidup saya.",
+        "ja": "私はFriendshipを人生に迎え入れます。",
+        "th": "ฉันต้อนรับFriendshipเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Friendship dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_063",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Friendship.",
+        "tr": "Kalbim Arkadaşlık için açık.",
+        "fr": "Mon cœur est ouvert à Friendship.",
+        "pt": "Meu coração está aberto para Friendship.",
+        "nl": "Mijn hart staat open voor Friendship.",
+        "es": "Mi corazón está abierto a Friendship.",
+        "de": "Mein Herz ist offen für Friendship.",
+        "it": "Il mio cuore è aperto a Friendship.",
+        "ru": "Моё сердце открыто для Friendship.",
+        "id": "Hati saya terbuka untuk Friendship.",
+        "ja": "私の心はFriendshipに開かれています。",
+        "th": "หัวใจของฉันเปิดรับFriendship",
+        "ms": "Hati saya terbuka untuk Friendship."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_064",
+      "type": "affirmation",
+      "texts": {
+        "en": "Friendship grows within me each day.",
+        "tr": "Arkadaşlık her gün içimde büyüyor.",
+        "fr": "Friendship grandit en moi chaque jour.",
+        "pt": "Friendship cresce dentro de mim todos os dias.",
+        "nl": "Friendship groeit elke dag in mij.",
+        "es": "Friendship crece dentro de mí cada día.",
+        "de": "Friendship wächst jeden Tag in mir.",
+        "it": "Friendship cresce in me ogni giorno.",
+        "ru": "Friendship растёт во мне каждый день.",
+        "id": "Friendship tumbuh di dalam diri saya setiap hari.",
+        "ja": "Friendshipは毎日私の中で育ちます。",
+        "th": "Friendshipเติบโตในตัวฉันทุกวัน",
+        "ms": "Friendship berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_065",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Friendship now.",
+        "tr": "Şimdi Arkadaşlık için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Friendship maintenant.",
+        "pt": "Eu crio espaço para Friendship agora.",
+        "nl": "Ik maak nu ruimte voor Friendship.",
+        "es": "Creo espacio para Friendship ahora.",
+        "de": "Ich schaffe jetzt Raum für Friendship.",
+        "it": "Creo spazio per Friendship ora.",
+        "ru": "Я создаю пространство для Friendship сейчас.",
+        "id": "Saya menciptakan ruang untuk Friendship sekarang.",
+        "ja": "今、Friendshipのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับFriendshipในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Friendship sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_066",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Friendship.",
+        "tr": "Arkadaşlık yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Friendship.",
+        "pt": "Eu confio no caminho de Friendship.",
+        "nl": "Ik vertrouw op het pad van Friendship.",
+        "es": "Confío en el camino de Friendship.",
+        "de": "Ich vertraue dem Weg von Friendship.",
+        "it": "Mi fido del percorso di Friendship.",
+        "ru": "Я доверяю пути Friendship.",
+        "id": "Saya percaya pada jalan Friendship.",
+        "ja": "私はFriendshipの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของFriendship",
+        "ms": "Saya percaya pada jalan Friendship."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -11182,15 +11182,37 @@
       }
     },
       {
-      "id": "leadership_aff_001",
+      "id": "leadership_087",
       "type": "affirmation",
       "texts": {
         "en": "I lead with integrity and empathy.",
-        "tr": "Dürüstlük ve empatiyle liderlik ederim."
+        "tr": "Dürüstlük ve empatiyle liderlik ederim.",
+        "fr": "Je dirige avec intégrité et empathie.",
+        "pt": "Eu lidero com integridade e empatia.",
+        "nl": "Ik leid met integriteit en empathie.",
+        "es": "Lidero con integridad y empatía.",
+        "de": "Ich führe mit Integrität und Empathie.",
+        "it": "Guido con integrità ed empatia.",
+        "ru": "Я веду с честностью и эмпатией.",
+        "id": "Saya memimpin dengan integritas dan empati.",
+        "ja": "私は誠実さと共感でリードします。",
+        "th": "ฉันเป็นผู้นำด้วยความซื่อสัตย์และความเห็นอกเห็นใจ",
+        "ms": "Saya memimpin dengan integriti dan empati."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "leadership",
       "tags": {
@@ -11208,15 +11230,37 @@
       "readTime": "0"
       },
       {
-      "id": "leadership_aff_002",
+      "id": "leadership_088",
       "type": "affirmation",
       "texts": {
         "en": "I set a calm and clear example.",
-        "tr": "Sakin ve net bir örnek olurum."
+        "tr": "Sakin ve net bir örnek olurum.",
+        "fr": "Je donne un exemple calme et clair.",
+        "pt": "Dou um exemplo calmo e claro.",
+        "nl": "Ik geef een rustig en duidelijk voorbeeld.",
+        "es": "Doy un ejemplo tranquilo y claro.",
+        "de": "Ich setze ein ruhiges und klares Beispiel.",
+        "it": "Do un esempio calmo e chiaro.",
+        "ru": "Я подаю спокойный и ясный пример.",
+        "id": "Saya memberi contoh yang tenang dan jelas.",
+        "ja": "落ち着いた明確な手本になります。",
+        "th": "ฉันเป็นตัวอย่างที่สงบและชัดเจน",
+        "ms": "Saya memberikan contoh yang tenang dan jelas."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "leadership",
       "tags": {
@@ -11229,6 +11273,226 @@
           "örnek",
           "netlik",
           "sakinlik"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_089",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Leadership into my life.",
+        "tr": "Hayatıma Liderlik enerjisini alıyorum.",
+        "fr": "J'accueille Leadership dans ma vie.",
+        "pt": "Eu acolho Leadership na minha vida.",
+        "nl": "Ik verwelkom Leadership in mijn leven.",
+        "es": "Doy la bienvenida a Leadership en mi vida.",
+        "de": "Ich heiße Leadership in meinem Leben willkommen.",
+        "it": "Accolgo Leadership nella mia vita.",
+        "ru": "Я принимаю Leadership в свою жизнь.",
+        "id": "Saya menyambut Leadership dalam hidup saya.",
+        "ja": "私はLeadershipを人生に迎え入れます。",
+        "th": "ฉันต้อนรับLeadershipเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Leadership dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_090",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Leadership.",
+        "tr": "Kalbim Liderlik için açık.",
+        "fr": "Mon cœur est ouvert à Leadership.",
+        "pt": "Meu coração está aberto para Leadership.",
+        "nl": "Mijn hart staat open voor Leadership.",
+        "es": "Mi corazón está abierto a Leadership.",
+        "de": "Mein Herz ist offen für Leadership.",
+        "it": "Il mio cuore è aperto a Leadership.",
+        "ru": "Моё сердце открыто для Leadership.",
+        "id": "Hati saya terbuka untuk Leadership.",
+        "ja": "私の心はLeadershipに開かれています。",
+        "th": "หัวใจของฉันเปิดรับLeadership",
+        "ms": "Hati saya terbuka untuk Leadership."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_091",
+      "type": "affirmation",
+      "texts": {
+        "en": "Leadership grows within me each day.",
+        "tr": "Liderlik her gün içimde büyüyor.",
+        "fr": "Leadership grandit en moi chaque jour.",
+        "pt": "Leadership cresce dentro de mim todos os dias.",
+        "nl": "Leadership groeit elke dag in mij.",
+        "es": "Leadership crece dentro de mí cada día.",
+        "de": "Leadership wächst jeden Tag in mir.",
+        "it": "Leadership cresce in me ogni giorno.",
+        "ru": "Leadership растёт во мне каждый день.",
+        "id": "Leadership tumbuh di dalam diri saya setiap hari.",
+        "ja": "Leadershipは毎日私の中で育ちます。",
+        "th": "Leadershipเติบโตในตัวฉันทุกวัน",
+        "ms": "Leadership berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_092",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Leadership now.",
+        "tr": "Şimdi Liderlik için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Leadership maintenant.",
+        "pt": "Eu crio espaço para Leadership agora.",
+        "nl": "Ik maak nu ruimte voor Leadership.",
+        "es": "Creo espacio para Leadership ahora.",
+        "de": "Ich schaffe jetzt Raum für Leadership.",
+        "it": "Creo spazio per Leadership ora.",
+        "ru": "Я создаю пространство для Leadership сейчас.",
+        "id": "Saya menciptakan ruang untuk Leadership sekarang.",
+        "ja": "今、Leadershipのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับLeadershipในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Leadership sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_093",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Leadership.",
+        "tr": "Liderlik yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Leadership.",
+        "pt": "Eu confio no caminho de Leadership.",
+        "nl": "Ik vertrouw op het pad van Leadership.",
+        "es": "Confío en el camino de Leadership.",
+        "de": "Ich vertraue dem Weg von Leadership.",
+        "it": "Mi fido del percorso di Leadership.",
+        "ru": "Я доверяю пути Leadership.",
+        "id": "Saya percaya pada jalan Leadership.",
+        "ja": "私はLeadershipの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของLeadership",
+        "ms": "Saya percaya pada jalan Leadership."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -10184,15 +10184,37 @@
       }
     },
    {
-      "id": "balance_aff_001",
+      "id": "balance_089",
       "type": "affirmation",
       "texts": {
         "en": "I balance my work and rest with care.",
-        "tr": "İş ve dinlenme arasında özenli bir denge kurarım."
+        "tr": "İş ve dinlenme arasında özenli bir denge kurarım.",
+        "fr": "J'équilibre mon travail et mon repos avec soin.",
+        "pt": "Equilibro meu trabalho e descanso com cuidado.",
+        "nl": "Ik balanceer mijn werk en rust met zorg.",
+        "es": "Equilibro mi trabajo y mi descanso con cuidado.",
+        "de": "Ich bringe Arbeit und Ruhe mit Sorgfalt in Balance.",
+        "it": "Bilancio lavoro e riposo con cura.",
+        "ru": "Я заботливо уравновешиваю работу и отдых.",
+        "id": "Saya menyeimbangkan pekerjaan dan istirahat dengan penuh perhatian.",
+        "ja": "私は仕事と休息を丁寧にバランスさせます。",
+        "th": "ฉันสร้างสมดุลระหว่างงานและการพักผ่อนด้วยความใส่ใจ",
+        "ms": "Saya mengimbangi kerja dan rehat dengan penuh perhatian."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "balance",
       "tags": {
@@ -10210,15 +10232,37 @@
       "readTime": "0"
    },
    {
-      "id": "balance_aff_002",
+      "id": "balance_090",
       "type": "affirmation",
       "texts": {
         "en": "I give myself permission to rest.",
-        "tr": "Dinlenmek için kendime izin veririm."
+        "tr": "Dinlenmek için kendime izin veririm.",
+        "fr": "Je me donne la permission de me reposer.",
+        "pt": "Eu me dou permissão para descansar.",
+        "nl": "Ik geef mezelf toestemming om te rusten.",
+        "es": "Me doy permiso para descansar.",
+        "de": "Ich erlaube mir, mich auszuruhen.",
+        "it": "Mi do il permesso di riposare.",
+        "ru": "Я даю себе разрешение отдыхать.",
+        "id": "Saya memberi izin pada diri saya untuk beristirahat.",
+        "ja": "私は休むことを自分に許します。",
+        "th": "ฉันให้ตัวเองอนุญาตให้พักผ่อน",
+        "ms": "Saya memberi diri saya izin untuk berehat."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "balance",
       "tags": {
@@ -10231,6 +10275,226 @@
           "dinlenme",
           "izin",
           "özen"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_091",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Balance into my life.",
+        "tr": "Hayatıma Denge enerjisini alıyorum.",
+        "fr": "J'accueille Balance dans ma vie.",
+        "pt": "Eu acolho Balance na minha vida.",
+        "nl": "Ik verwelkom Balance in mijn leven.",
+        "es": "Doy la bienvenida a Balance en mi vida.",
+        "de": "Ich heiße Balance in meinem Leben willkommen.",
+        "it": "Accolgo Balance nella mia vita.",
+        "ru": "Я принимаю Balance в свою жизнь.",
+        "id": "Saya menyambut Balance dalam hidup saya.",
+        "ja": "私はBalanceを人生に迎え入れます。",
+        "th": "ฉันต้อนรับBalanceเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Balance dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_092",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Balance.",
+        "tr": "Kalbim Denge için açık.",
+        "fr": "Mon cœur est ouvert à Balance.",
+        "pt": "Meu coração está aberto para Balance.",
+        "nl": "Mijn hart staat open voor Balance.",
+        "es": "Mi corazón está abierto a Balance.",
+        "de": "Mein Herz ist offen für Balance.",
+        "it": "Il mio cuore è aperto a Balance.",
+        "ru": "Моё сердце открыто для Balance.",
+        "id": "Hati saya terbuka untuk Balance.",
+        "ja": "私の心はBalanceに開かれています。",
+        "th": "หัวใจของฉันเปิดรับBalance",
+        "ms": "Hati saya terbuka untuk Balance."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_093",
+      "type": "affirmation",
+      "texts": {
+        "en": "Balance grows within me each day.",
+        "tr": "Denge her gün içimde büyüyor.",
+        "fr": "Balance grandit en moi chaque jour.",
+        "pt": "Balance cresce dentro de mim todos os dias.",
+        "nl": "Balance groeit elke dag in mij.",
+        "es": "Balance crece dentro de mí cada día.",
+        "de": "Balance wächst jeden Tag in mir.",
+        "it": "Balance cresce in me ogni giorno.",
+        "ru": "Balance растёт во мне каждый день.",
+        "id": "Balance tumbuh di dalam diri saya setiap hari.",
+        "ja": "Balanceは毎日私の中で育ちます。",
+        "th": "Balanceเติบโตในตัวฉันทุกวัน",
+        "ms": "Balance berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_094",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Balance now.",
+        "tr": "Şimdi Denge için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Balance maintenant.",
+        "pt": "Eu crio espaço para Balance agora.",
+        "nl": "Ik maak nu ruimte voor Balance.",
+        "es": "Creo espacio para Balance ahora.",
+        "de": "Ich schaffe jetzt Raum für Balance.",
+        "it": "Creo spazio per Balance ora.",
+        "ru": "Я создаю пространство для Balance сейчас.",
+        "id": "Saya menciptakan ruang untuk Balance sekarang.",
+        "ja": "今、Balanceのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับBalanceในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Balance sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_095",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Balance.",
+        "tr": "Denge yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Balance.",
+        "pt": "Eu confio no caminho de Balance.",
+        "nl": "Ik vertrouw op het pad van Balance.",
+        "es": "Confío en el camino de Balance.",
+        "de": "Ich vertraue dem Weg von Balance.",
+        "it": "Mi fido del percorso di Balance.",
+        "ru": "Я доверяю пути Balance.",
+        "id": "Saya percaya pada jalan Balance.",
+        "ja": "私はBalanceの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของBalance",
+        "ms": "Saya percaya pada jalan Balance."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

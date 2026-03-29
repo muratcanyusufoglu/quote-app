@@ -8055,15 +8055,37 @@
       }
     },
      {
-      "id": "family_aff_001",
+      "id": "family_070",
       "type": "affirmation",
       "texts": {
         "en": "I contribute to a loving and respectful family.",
-        "tr": "Sevgi ve saygı dolu bir aile bağını güçlendiririm."
+        "tr": "Sevgi ve saygı dolu bir aile bağını güçlendiririm.",
+        "fr": "Je contribue à une famille aimante et respectueuse.",
+        "pt": "Contribuo para uma família amorosa e respeitosa.",
+        "nl": "Ik draag bij aan een liefdevol en respectvol gezin.",
+        "es": "Contribuyo a una familia amorosa y respetuosa.",
+        "de": "Ich trage zu einer liebevollen und respektvollen Familie bei.",
+        "it": "Contribuisco a una famiglia amorevole e rispettosa.",
+        "ru": "Я вношу вклад в любящую и уважительную семью.",
+        "id": "Saya berkontribusi pada keluarga yang penuh kasih dan saling menghormati.",
+        "ja": "私は愛情と敬意のある家族に貢献します。",
+        "th": "ฉันมีส่วนช่วยให้ครอบครัวอบอุ่นและเคารพกัน",
+        "ms": "Saya menyumbang kepada keluarga yang penuh kasih dan saling menghormati."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "family",
       "tags": {
@@ -8081,15 +8103,37 @@
       "readTime": "0"
      },
      {
-      "id": "family_aff_002",
+      "id": "family_071",
       "type": "affirmation",
       "texts": {
         "en": "I communicate with patience and love.",
-        "tr": "Sabır ve sevgiyle iletişim kurarım."
+        "tr": "Sabır ve sevgiyle iletişim kurarım.",
+        "fr": "Je communique avec patience et amour.",
+        "pt": "Comunico-me com paciência e amor.",
+        "nl": "Ik communiceer met geduld en liefde.",
+        "es": "Me comunico con paciencia y amor.",
+        "de": "Ich kommuniziere mit Geduld und Liebe.",
+        "it": "Comunico con pazienza e amore.",
+        "ru": "Я общаюсь с терпением и любовью.",
+        "id": "Saya berkomunikasi dengan kesabaran dan cinta.",
+        "ja": "私は忍耐と愛を持ってコミュニケーションします。",
+        "th": "ฉันสื่อสารด้วยความอดทนและความรัก",
+        "ms": "Saya berkomunikasi dengan kesabaran dan kasih sayang."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "family",
       "tags": {
@@ -8102,6 +8146,226 @@
           "iletişim",
           "sevgi",
           "sabır"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_072",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Family into my life.",
+        "tr": "Hayatıma Aile enerjisini alıyorum.",
+        "fr": "J'accueille Family dans ma vie.",
+        "pt": "Eu acolho Family na minha vida.",
+        "nl": "Ik verwelkom Family in mijn leven.",
+        "es": "Doy la bienvenida a Family en mi vida.",
+        "de": "Ich heiße Family in meinem Leben willkommen.",
+        "it": "Accolgo Family nella mia vita.",
+        "ru": "Я принимаю Family в свою жизнь.",
+        "id": "Saya menyambut Family dalam hidup saya.",
+        "ja": "私はFamilyを人生に迎え入れます。",
+        "th": "ฉันต้อนรับFamilyเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Family dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_073",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Family.",
+        "tr": "Kalbim Aile için açık.",
+        "fr": "Mon cœur est ouvert à Family.",
+        "pt": "Meu coração está aberto para Family.",
+        "nl": "Mijn hart staat open voor Family.",
+        "es": "Mi corazón está abierto a Family.",
+        "de": "Mein Herz ist offen für Family.",
+        "it": "Il mio cuore è aperto a Family.",
+        "ru": "Моё сердце открыто для Family.",
+        "id": "Hati saya terbuka untuk Family.",
+        "ja": "私の心はFamilyに開かれています。",
+        "th": "หัวใจของฉันเปิดรับFamily",
+        "ms": "Hati saya terbuka untuk Family."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "Family grows within me each day.",
+        "tr": "Aile her gün içimde büyüyor.",
+        "fr": "Family grandit en moi chaque jour.",
+        "pt": "Family cresce dentro de mim todos os dias.",
+        "nl": "Family groeit elke dag in mij.",
+        "es": "Family crece dentro de mí cada día.",
+        "de": "Family wächst jeden Tag in mir.",
+        "it": "Family cresce in me ogni giorno.",
+        "ru": "Family растёт во мне каждый день.",
+        "id": "Family tumbuh di dalam diri saya setiap hari.",
+        "ja": "Familyは毎日私の中で育ちます。",
+        "th": "Familyเติบโตในตัวฉันทุกวัน",
+        "ms": "Family berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Family now.",
+        "tr": "Şimdi Aile için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Family maintenant.",
+        "pt": "Eu crio espaço para Family agora.",
+        "nl": "Ik maak nu ruimte voor Family.",
+        "es": "Creo espacio para Family ahora.",
+        "de": "Ich schaffe jetzt Raum für Family.",
+        "it": "Creo spazio per Family ora.",
+        "ru": "Я создаю пространство для Family сейчас.",
+        "id": "Saya menciptakan ruang untuk Family sekarang.",
+        "ja": "今、Familyのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับFamilyในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Family sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Family.",
+        "tr": "Aile yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Family.",
+        "pt": "Eu confio no caminho de Family.",
+        "nl": "Ik vertrouw op het pad van Family.",
+        "es": "Confío en el camino de Family.",
+        "de": "Ich vertraue dem Weg von Family.",
+        "it": "Mi fido del percorso di Family.",
+        "ru": "Я доверяю пути Family.",
+        "id": "Saya percaya pada jalan Family.",
+        "ja": "私はFamilyの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของFamily",
+        "ms": "Saya percaya pada jalan Family."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

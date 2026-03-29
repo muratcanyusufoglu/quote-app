@@ -3919,15 +3919,37 @@
       }
     },
     {
-      "id": "love_aff_001",
+      "id": "love_053",
       "type": "affirmation",
       "texts": {
         "en": "I give and receive love freely and safely.",
-        "tr": "Sevgiyi güvenle verir ve alırım."
+        "tr": "Sevgiyi güvenle verir ve alırım.",
+        "fr": "Je donne et reçois l'amour librement et en toute sécurité.",
+        "pt": "Dou e recebo amor livremente e com segurança.",
+        "nl": "Ik geef en ontvang liefde vrij en veilig.",
+        "es": "Doy y recibo amor libremente y con seguridad.",
+        "de": "Ich gebe und empfange Liebe frei und sicher.",
+        "it": "Do e ricevo amore liberamente e in sicurezza.",
+        "ru": "Я свободно и безопасно даю и получаю любовь.",
+        "id": "Saya memberi dan menerima cinta dengan bebas dan aman.",
+        "ja": "私は自由に、安心して愛を与え受け取ります。",
+        "th": "ฉันให้และรับความรักอย่างอิสระและปลอดภัย",
+        "ms": "Saya memberi dan menerima kasih sayang dengan bebas dan selamat."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "love",
       "tags": {
@@ -3945,15 +3967,37 @@
       "readTime": "0"
     },
     {
-      "id": "love_aff_002",
+      "id": "love_054",
       "type": "affirmation",
       "texts": {
         "en": "I am worthy of healthy love.",
-        "tr": "Sağlıklı sevgiye layığım."
+        "tr": "Sağlıklı sevgiye layığım.",
+        "fr": "Je suis digne d'un amour sain.",
+        "pt": "Sou digno(a) de um amor saudável.",
+        "nl": "Ik ben het waard om gezonde liefde te ontvangen.",
+        "es": "Merezco un amor sano.",
+        "de": "Ich bin würdig einer gesunden Liebe.",
+        "it": "Sono degno/a di un amore sano.",
+        "ru": "Я достоин/достойна здоровой любви.",
+        "id": "Saya layak mendapatkan cinta yang sehat.",
+        "ja": "私は健全な愛を受け取る価値があります。",
+        "th": "ฉันคู่ควรกับความรักที่ดีต่อสุขภาพ",
+        "ms": "Saya layak menerima kasih sayang yang sihat."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "love",
       "tags": {
@@ -3966,6 +4010,226 @@
           "değer",
           "güven",
           "şefkat"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_055",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Love into my life.",
+        "tr": "Hayatıma Aşk enerjisini alıyorum.",
+        "fr": "J'accueille Love dans ma vie.",
+        "pt": "Eu acolho Love na minha vida.",
+        "nl": "Ik verwelkom Love in mijn leven.",
+        "es": "Doy la bienvenida a Love en mi vida.",
+        "de": "Ich heiße Love in meinem Leben willkommen.",
+        "it": "Accolgo Love nella mia vita.",
+        "ru": "Я принимаю Love в свою жизнь.",
+        "id": "Saya menyambut Love dalam hidup saya.",
+        "ja": "私はLoveを人生に迎え入れます。",
+        "th": "ฉันต้อนรับLoveเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Love dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_056",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Love.",
+        "tr": "Kalbim Aşk için açık.",
+        "fr": "Mon cœur est ouvert à Love.",
+        "pt": "Meu coração está aberto para Love.",
+        "nl": "Mijn hart staat open voor Love.",
+        "es": "Mi corazón está abierto a Love.",
+        "de": "Mein Herz ist offen für Love.",
+        "it": "Il mio cuore è aperto a Love.",
+        "ru": "Моё сердце открыто для Love.",
+        "id": "Hati saya terbuka untuk Love.",
+        "ja": "私の心はLoveに開かれています。",
+        "th": "หัวใจของฉันเปิดรับLove",
+        "ms": "Hati saya terbuka untuk Love."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_057",
+      "type": "affirmation",
+      "texts": {
+        "en": "Love grows within me each day.",
+        "tr": "Aşk her gün içimde büyüyor.",
+        "fr": "Love grandit en moi chaque jour.",
+        "pt": "Love cresce dentro de mim todos os dias.",
+        "nl": "Love groeit elke dag in mij.",
+        "es": "Love crece dentro de mí cada día.",
+        "de": "Love wächst jeden Tag in mir.",
+        "it": "Love cresce in me ogni giorno.",
+        "ru": "Love растёт во мне каждый день.",
+        "id": "Love tumbuh di dalam diri saya setiap hari.",
+        "ja": "Loveは毎日私の中で育ちます。",
+        "th": "Loveเติบโตในตัวฉันทุกวัน",
+        "ms": "Love berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_058",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Love now.",
+        "tr": "Şimdi Aşk için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Love maintenant.",
+        "pt": "Eu crio espaço para Love agora.",
+        "nl": "Ik maak nu ruimte voor Love.",
+        "es": "Creo espacio para Love ahora.",
+        "de": "Ich schaffe jetzt Raum für Love.",
+        "it": "Creo spazio per Love ora.",
+        "ru": "Я создаю пространство для Love сейчас.",
+        "id": "Saya menciptakan ruang untuk Love sekarang.",
+        "ja": "今、Loveのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับLoveในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Love sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_059",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Love.",
+        "tr": "Aşk yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Love.",
+        "pt": "Eu confio no caminho de Love.",
+        "nl": "Ik vertrouw op het pad van Love.",
+        "es": "Confío en el camino de Love.",
+        "de": "Ich vertraue dem Weg von Love.",
+        "it": "Mi fido del percorso di Love.",
+        "ru": "Я доверяю пути Love.",
+        "id": "Saya percaya pada jalan Love.",
+        "ja": "私はLoveの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของLove",
+        "ms": "Saya percaya pada jalan Love."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -9092,15 +9092,37 @@
       }
     },
         {
-      "id": "gratitude_aff_001",
+      "id": "gratitude_071",
       "type": "affirmation",
       "texts": {
         "en": "I notice and appreciate the good in my life.",
-        "tr": "Hayatımdaki iyilikleri fark eder ve takdir ederim."
+        "tr": "Hayatımdaki iyilikleri fark eder ve takdir ederim.",
+        "fr": "Je remarque et j'apprécie le bien dans ma vie.",
+        "pt": "Eu percebo e aprecio o que há de bom na minha vida.",
+        "nl": "Ik zie en waardeer het goede in mijn leven.",
+        "es": "Reconozco y valoro lo bueno en mi vida.",
+        "de": "Ich bemerke und schätze das Gute in meinem Leben.",
+        "it": "Riconosco e apprezzo il bene nella mia vita.",
+        "ru": "Я замечаю и ценю хорошее в своей жизни.",
+        "id": "Saya menyadari dan menghargai hal-hal baik dalam hidup saya.",
+        "ja": "私は人生の良いことに気づき、感謝します。",
+        "th": "ฉันสังเกตและชื่นชมสิ่งดีๆ ในชีวิตของฉัน",
+        "ms": "Saya menyedari dan menghargai perkara baik dalam hidup saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "gratitude",
       "tags": {
@@ -9118,15 +9140,37 @@
       "readTime": "0"
         },
         {
-      "id": "gratitude_aff_002",
+      "id": "gratitude_072",
       "type": "affirmation",
       "texts": {
         "en": "I am grateful for small wins.",
-        "tr": "Küçük kazanımlar için minnettarım."
+        "tr": "Küçük kazanımlar için minnettarım.",
+        "fr": "Je suis reconnaissant(e) pour les petites victoires.",
+        "pt": "Sou grato(a) pelas pequenas conquistas.",
+        "nl": "Ik ben dankbaar voor kleine overwinningen.",
+        "es": "Estoy agradecido(a) por las pequeñas victorias.",
+        "de": "Ich bin dankbar für kleine Erfolge.",
+        "it": "Sono grato/a per le piccole vittorie.",
+        "ru": "Я благодарен(на) за маленькие победы.",
+        "id": "Saya bersyukur atas kemenangan kecil.",
+        "ja": "小さな勝利に感謝します。",
+        "th": "ฉันรู้สึกขอบคุณสำหรับชัยชนะเล็กๆ",
+        "ms": "Saya bersyukur atas kejayaan kecil."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "gratitude",
       "tags": {
@@ -9139,6 +9183,226 @@
           "minnettarlık",
           "kazanım",
           "takdir"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_073",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Gratitude into my life.",
+        "tr": "Hayatıma Şükür enerjisini alıyorum.",
+        "fr": "J'accueille Gratitude dans ma vie.",
+        "pt": "Eu acolho Gratitude na minha vida.",
+        "nl": "Ik verwelkom Gratitude in mijn leven.",
+        "es": "Doy la bienvenida a Gratitude en mi vida.",
+        "de": "Ich heiße Gratitude in meinem Leben willkommen.",
+        "it": "Accolgo Gratitude nella mia vita.",
+        "ru": "Я принимаю Gratitude в свою жизнь.",
+        "id": "Saya menyambut Gratitude dalam hidup saya.",
+        "ja": "私はGratitudeを人生に迎え入れます。",
+        "th": "ฉันต้อนรับGratitudeเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Gratitude dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Gratitude.",
+        "tr": "Kalbim Şükür için açık.",
+        "fr": "Mon cœur est ouvert à Gratitude.",
+        "pt": "Meu coração está aberto para Gratitude.",
+        "nl": "Mijn hart staat open voor Gratitude.",
+        "es": "Mi corazón está abierto a Gratitude.",
+        "de": "Mein Herz ist offen für Gratitude.",
+        "it": "Il mio cuore è aperto a Gratitude.",
+        "ru": "Моё сердце открыто для Gratitude.",
+        "id": "Hati saya terbuka untuk Gratitude.",
+        "ja": "私の心はGratitudeに開かれています。",
+        "th": "หัวใจของฉันเปิดรับGratitude",
+        "ms": "Hati saya terbuka untuk Gratitude."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "Gratitude grows within me each day.",
+        "tr": "Şükür her gün içimde büyüyor.",
+        "fr": "Gratitude grandit en moi chaque jour.",
+        "pt": "Gratitude cresce dentro de mim todos os dias.",
+        "nl": "Gratitude groeit elke dag in mij.",
+        "es": "Gratitude crece dentro de mí cada día.",
+        "de": "Gratitude wächst jeden Tag in mir.",
+        "it": "Gratitude cresce in me ogni giorno.",
+        "ru": "Gratitude растёт во мне каждый день.",
+        "id": "Gratitude tumbuh di dalam diri saya setiap hari.",
+        "ja": "Gratitudeは毎日私の中で育ちます。",
+        "th": "Gratitudeเติบโตในตัวฉันทุกวัน",
+        "ms": "Gratitude berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Gratitude now.",
+        "tr": "Şimdi Şükür için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Gratitude maintenant.",
+        "pt": "Eu crio espaço para Gratitude agora.",
+        "nl": "Ik maak nu ruimte voor Gratitude.",
+        "es": "Creo espacio para Gratitude ahora.",
+        "de": "Ich schaffe jetzt Raum für Gratitude.",
+        "it": "Creo spazio per Gratitude ora.",
+        "ru": "Я создаю пространство для Gratitude сейчас.",
+        "id": "Saya menciptakan ruang untuk Gratitude sekarang.",
+        "ja": "今、Gratitudeのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับGratitudeในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Gratitude sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Gratitude.",
+        "tr": "Şükür yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Gratitude.",
+        "pt": "Eu confio no caminho de Gratitude.",
+        "nl": "Ik vertrouw op het pad van Gratitude.",
+        "es": "Confío en el camino de Gratitude.",
+        "de": "Ich vertraue dem Weg von Gratitude.",
+        "it": "Mi fido del percorso di Gratitude.",
+        "ru": "Я доверяю пути Gratitude.",
+        "id": "Saya percaya pada jalan Gratitude.",
+        "ja": "私はGratitudeの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของGratitude",
+        "ms": "Saya percaya pada jalan Gratitude."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

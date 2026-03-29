@@ -9462,15 +9462,37 @@
       }
     },
       {
-      "id": "nature_aff_001",
+      "id": "nature_073",
       "type": "affirmation",
       "texts": {
         "en": "Nature restores me and I feel connected.",
-        "tr": "Doğa beni yeniler ve onunla bağlı hissederim."
+        "tr": "Doğa beni yeniler ve onunla bağlı hissederim.",
+        "fr": "La nature me régénère et je me sens connecté(e).",
+        "pt": "A natureza me restaura e sinto-me conectado(a).",
+        "nl": "De natuur herstelt me en ik voel me verbonden.",
+        "es": "La naturaleza me restaura y me siento conectado(a).",
+        "de": "Die Natur erneuert mich und ich fühle mich verbunden.",
+        "it": "La natura mi rigenera e mi sento connesso/a.",
+        "ru": "Природа меня восстанавливает, и я чувствую связь.",
+        "id": "Alam memulihkan saya dan saya merasa terhubung.",
+        "ja": "自然は私を癒し、つながりを感じます。",
+        "th": "ธรรมชาติฟื้นฟูฉันและฉันรู้สึกเชื่อมโยง",
+        "ms": "Alam memulihkan saya dan saya berasa terhubung."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "nature",
       "tags": {
@@ -9488,15 +9510,37 @@
       "readTime": "0"
       },
       {
-      "id": "nature_aff_002",
+      "id": "nature_074",
       "type": "affirmation",
       "texts": {
         "en": "I feel grounded when I connect with nature.",
-        "tr": "Doğayla bağ kurduğumda kendimi dengede hissederim."
+        "tr": "Doğayla bağ kurduğumda kendimi dengede hissederim.",
+        "fr": "Je me sens ancré(e) lorsque je me connecte à la nature.",
+        "pt": "Sinto-me ancorado(a) quando me conecto à natureza.",
+        "nl": "Ik voel me geaard wanneer ik me met de natuur verbind.",
+        "es": "Me siento enraizado(a) cuando me conecto con la naturaleza.",
+        "de": "Ich fühle mich geerdet, wenn ich mich mit der Natur verbinde.",
+        "it": "Mi sento radicato/a quando mi connetto con la natura.",
+        "ru": "Я чувствую себя заземлённым(ой), когда соединяюсь с природой.",
+        "id": "Saya merasa membumi saat terhubung dengan alam.",
+        "ja": "自然とつながると、心が落ち着きます。",
+        "th": "ฉันรู้สึกมั่นคงเมื่อเชื่อมต่อกับธรรมชาติ",
+        "ms": "Saya berasa berakar apabila saya terhubung dengan alam."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "nature",
       "tags": {
@@ -9509,6 +9553,226 @@
           "denge",
           "bağlantı",
           "sakinlik"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Nature into my life.",
+        "tr": "Hayatıma Doğa enerjisini alıyorum.",
+        "fr": "J'accueille Nature dans ma vie.",
+        "pt": "Eu acolho Nature na minha vida.",
+        "nl": "Ik verwelkom Nature in mijn leven.",
+        "es": "Doy la bienvenida a Nature en mi vida.",
+        "de": "Ich heiße Nature in meinem Leben willkommen.",
+        "it": "Accolgo Nature nella mia vita.",
+        "ru": "Я принимаю Nature в свою жизнь.",
+        "id": "Saya menyambut Nature dalam hidup saya.",
+        "ja": "私はNatureを人生に迎え入れます。",
+        "th": "ฉันต้อนรับNatureเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Nature dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Nature.",
+        "tr": "Kalbim Doğa için açık.",
+        "fr": "Mon cœur est ouvert à Nature.",
+        "pt": "Meu coração está aberto para Nature.",
+        "nl": "Mijn hart staat open voor Nature.",
+        "es": "Mi corazón está abierto a Nature.",
+        "de": "Mein Herz ist offen für Nature.",
+        "it": "Il mio cuore è aperto a Nature.",
+        "ru": "Моё сердце открыто для Nature.",
+        "id": "Hati saya terbuka untuk Nature.",
+        "ja": "私の心はNatureに開かれています。",
+        "th": "หัวใจของฉันเปิดรับNature",
+        "ms": "Hati saya terbuka untuk Nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "Nature grows within me each day.",
+        "tr": "Doğa her gün içimde büyüyor.",
+        "fr": "Nature grandit en moi chaque jour.",
+        "pt": "Nature cresce dentro de mim todos os dias.",
+        "nl": "Nature groeit elke dag in mij.",
+        "es": "Nature crece dentro de mí cada día.",
+        "de": "Nature wächst jeden Tag in mir.",
+        "it": "Nature cresce in me ogni giorno.",
+        "ru": "Nature растёт во мне каждый день.",
+        "id": "Nature tumbuh di dalam diri saya setiap hari.",
+        "ja": "Natureは毎日私の中で育ちます。",
+        "th": "Natureเติบโตในตัวฉันทุกวัน",
+        "ms": "Nature berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Nature now.",
+        "tr": "Şimdi Doğa için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Nature maintenant.",
+        "pt": "Eu crio espaço para Nature agora.",
+        "nl": "Ik maak nu ruimte voor Nature.",
+        "es": "Creo espacio para Nature ahora.",
+        "de": "Ich schaffe jetzt Raum für Nature.",
+        "it": "Creo spazio per Nature ora.",
+        "ru": "Я создаю пространство для Nature сейчас.",
+        "id": "Saya menciptakan ruang untuk Nature sekarang.",
+        "ja": "今、Natureのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับNatureในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Nature sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Nature.",
+        "tr": "Doğa yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Nature.",
+        "pt": "Eu confio no caminho de Nature.",
+        "nl": "Ik vertrouw op het pad van Nature.",
+        "es": "Confío en el camino de Nature.",
+        "de": "Ich vertraue dem Weg von Nature.",
+        "it": "Mi fido del percorso di Nature.",
+        "ru": "Я доверяю пути Nature.",
+        "id": "Saya percaya pada jalan Nature.",
+        "ja": "私はNatureの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของNature",
+        "ms": "Saya percaya pada jalan Nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -8568,15 +8568,37 @@
       }
   },
     {
-      "id": "success_aff_001",
+      "id": "success_072",
       "type": "affirmation",
       "texts": {
         "en": "I am capable of achieving the goals I set.",
-        "tr": "Koyduğum hedeflere ulaşacak güce sahibim."
+        "tr": "Koyduğum hedeflere ulaşacak güce sahibim.",
+        "fr": "Je suis capable d'atteindre les objectifs que je me fixe.",
+        "pt": "Sou capaz de alcançar as metas que estabeleço.",
+        "nl": "Ik ben in staat de doelen te bereiken die ik stel.",
+        "es": "Soy capaz de lograr las metas que me propongo.",
+        "de": "Ich bin fähig, die Ziele zu erreichen, die ich mir setze.",
+        "it": "Sono capace di raggiungere gli obiettivi che mi pongo.",
+        "ru": "Я способен(на) достигать целей, которые ставлю.",
+        "id": "Saya mampu mencapai tujuan yang saya tetapkan.",
+        "ja": "私は自分が設定した目標を達成できます。",
+        "th": "ฉันสามารถบรรลุเป้าหมายที่ตั้งไว้ได้",
+        "ms": "Saya mampu mencapai matlamat yang saya tetapkan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "success",
       "tags": {
@@ -8594,15 +8616,37 @@
       "readTime": "0"
     },
     {
-      "id": "success_aff_002",
+      "id": "success_073",
       "type": "affirmation",
       "texts": {
         "en": "I celebrate progress and keep aiming higher.",
-        "tr": "İlerlemeyi kutlar ve daha yükseğe hedef koyarım."
+        "tr": "İlerlemeyi kutlar ve daha yükseğe hedef koyarım.",
+        "fr": "Je célèbre les progrès et je vise toujours plus haut.",
+        "pt": "Celebro o progresso e continuo mirando mais alto.",
+        "nl": "Ik vier vooruitgang en blijf hoger mikken.",
+        "es": "Celebro el progreso y sigo apuntando más alto.",
+        "de": "Ich feiere Fortschritte und strebe weiter nach oben.",
+        "it": "Celebro i progressi e continuo a puntare più in alto.",
+        "ru": "Я отмечаю прогресс и продолжаю стремиться выше.",
+        "id": "Saya merayakan kemajuan dan terus menargetkan lebih tinggi.",
+        "ja": "進歩を祝い、さらに高みを目指します。",
+        "th": "ฉันเฉลิมฉลองความก้าวหน้าและยังตั้งเป้าให้สูงขึ้น",
+        "ms": "Saya meraikan kemajuan dan terus menyasarkan lebih tinggi."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "success",
       "tags": {
@@ -8615,6 +8659,226 @@
           "ilerleme",
           "hedefler",
           "özgüven"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Success into my life.",
+        "tr": "Hayatıma Başarı enerjisini alıyorum.",
+        "fr": "J'accueille Success dans ma vie.",
+        "pt": "Eu acolho Success na minha vida.",
+        "nl": "Ik verwelkom Success in mijn leven.",
+        "es": "Doy la bienvenida a Success en mi vida.",
+        "de": "Ich heiße Success in meinem Leben willkommen.",
+        "it": "Accolgo Success nella mia vita.",
+        "ru": "Я принимаю Success в свою жизнь.",
+        "id": "Saya menyambut Success dalam hidup saya.",
+        "ja": "私はSuccessを人生に迎え入れます。",
+        "th": "ฉันต้อนรับSuccessเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Success dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Success.",
+        "tr": "Kalbim Başarı için açık.",
+        "fr": "Mon cœur est ouvert à Success.",
+        "pt": "Meu coração está aberto para Success.",
+        "nl": "Mijn hart staat open voor Success.",
+        "es": "Mi corazón está abierto a Success.",
+        "de": "Mein Herz ist offen für Success.",
+        "it": "Il mio cuore è aperto a Success.",
+        "ru": "Моё сердце открыто для Success.",
+        "id": "Hati saya terbuka untuk Success.",
+        "ja": "私の心はSuccessに開かれています。",
+        "th": "หัวใจของฉันเปิดรับSuccess",
+        "ms": "Hati saya terbuka untuk Success."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "Success grows within me each day.",
+        "tr": "Başarı her gün içimde büyüyor.",
+        "fr": "Success grandit en moi chaque jour.",
+        "pt": "Success cresce dentro de mim todos os dias.",
+        "nl": "Success groeit elke dag in mij.",
+        "es": "Success crece dentro de mí cada día.",
+        "de": "Success wächst jeden Tag in mir.",
+        "it": "Success cresce in me ogni giorno.",
+        "ru": "Success растёт во мне каждый день.",
+        "id": "Success tumbuh di dalam diri saya setiap hari.",
+        "ja": "Successは毎日私の中で育ちます。",
+        "th": "Successเติบโตในตัวฉันทุกวัน",
+        "ms": "Success berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Success now.",
+        "tr": "Şimdi Başarı için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Success maintenant.",
+        "pt": "Eu crio espaço para Success agora.",
+        "nl": "Ik maak nu ruimte voor Success.",
+        "es": "Creo espacio para Success ahora.",
+        "de": "Ich schaffe jetzt Raum für Success.",
+        "it": "Creo spazio per Success ora.",
+        "ru": "Я создаю пространство для Success сейчас.",
+        "id": "Saya menciptakan ruang untuk Success sekarang.",
+        "ja": "今、Successのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับSuccessในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Success sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Success.",
+        "tr": "Başarı yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Success.",
+        "pt": "Eu confio no caminho de Success.",
+        "nl": "Ik vertrouw op het pad van Success.",
+        "es": "Confío en el camino de Success.",
+        "de": "Ich vertraue dem Weg von Success.",
+        "it": "Mi fido del percorso di Success.",
+        "ru": "Я доверяю пути Success.",
+        "id": "Saya percaya pada jalan Success.",
+        "ja": "私はSuccessの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของSuccess",
+        "ms": "Saya percaya pada jalan Success."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

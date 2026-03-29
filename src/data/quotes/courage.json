@@ -1822,15 +1822,37 @@
     "readTime": 1
   },
     {
-      "id": "courage_aff_001",
+      "id": "cour_065",
       "type": "affirmation",
       "texts": {
         "en": "I have the courage to be myself.",
-        "tr": "Kendim olmak için cesarete sahibim."
+        "tr": "Kendim olmak için cesarete sahibim.",
+        "fr": "J'ai le courage d'être moi-même.",
+        "pt": "Tenho coragem de ser eu mesmo(a).",
+        "nl": "Ik heb de moed om mezelf te zijn.",
+        "es": "Tengo el valor de ser yo mismo(a).",
+        "de": "Ich habe den Mut, ich selbst zu sein.",
+        "it": "Ho il coraggio di essere me stesso/a.",
+        "ru": "У меня есть смелость быть собой.",
+        "id": "Saya memiliki keberanian untuk menjadi diri saya sendiri.",
+        "ja": "私は自分らしくいる勇気があります。",
+        "th": "ฉันมีความกล้าที่จะเป็นตัวเอง",
+        "ms": "Saya mempunyai keberanian untuk menjadi diri saya sendiri."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "courage",
       "tags": {
@@ -1848,15 +1870,37 @@
       "readTime": "0"
     },
     {
-      "id": "courage_aff_002",
+      "id": "cour_066",
       "type": "affirmation",
       "texts": {
         "en": "I speak my truth with kindness.",
-        "tr": "Gerçeğimi nezaketle ifade ederim."
+        "tr": "Gerçeğimi nezaketle ifade ederim.",
+        "fr": "Je dis ma vérité avec bienveillance.",
+        "pt": "Falo minha verdade com gentileza.",
+        "nl": "Ik spreek mijn waarheid met vriendelijkheid.",
+        "es": "Hablo mi verdad con amabilidad.",
+        "de": "Ich spreche meine Wahrheit mit Freundlichkeit.",
+        "it": "Dico la mia verità con gentilezza.",
+        "ru": "Я говорю свою правду с добротой.",
+        "id": "Saya menyampaikan kebenaran saya dengan kebaikan.",
+        "ja": "私は優しさを持って自分の真実を伝えます。",
+        "th": "ฉันพูดความจริงของฉันด้วยความเมตตา",
+        "ms": "Saya menyampaikan kebenaran saya dengan kebaikan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "courage",
       "tags": {
@@ -1869,6 +1913,226 @@
           "gerçek",
           "nezaket",
           "cesaret"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "cour_067",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Courage into my life.",
+        "tr": "Hayatıma Cesaret enerjisini alıyorum.",
+        "fr": "J'accueille Courage dans ma vie.",
+        "pt": "Eu acolho Courage na minha vida.",
+        "nl": "Ik verwelkom Courage in mijn leven.",
+        "es": "Doy la bienvenida a Courage en mi vida.",
+        "de": "Ich heiße Courage in meinem Leben willkommen.",
+        "it": "Accolgo Courage nella mia vita.",
+        "ru": "Я принимаю Courage в свою жизнь.",
+        "id": "Saya menyambut Courage dalam hidup saya.",
+        "ja": "私はCourageを人生に迎え入れます。",
+        "th": "ฉันต้อนรับCourageเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Courage dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "cour_068",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Courage.",
+        "tr": "Kalbim Cesaret için açık.",
+        "fr": "Mon cœur est ouvert à Courage.",
+        "pt": "Meu coração está aberto para Courage.",
+        "nl": "Mijn hart staat open voor Courage.",
+        "es": "Mi corazón está abierto a Courage.",
+        "de": "Mein Herz ist offen für Courage.",
+        "it": "Il mio cuore è aperto a Courage.",
+        "ru": "Моё сердце открыто для Courage.",
+        "id": "Hati saya terbuka untuk Courage.",
+        "ja": "私の心はCourageに開かれています。",
+        "th": "หัวใจของฉันเปิดรับCourage",
+        "ms": "Hati saya terbuka untuk Courage."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "cour_069",
+      "type": "affirmation",
+      "texts": {
+        "en": "Courage grows within me each day.",
+        "tr": "Cesaret her gün içimde büyüyor.",
+        "fr": "Courage grandit en moi chaque jour.",
+        "pt": "Courage cresce dentro de mim todos os dias.",
+        "nl": "Courage groeit elke dag in mij.",
+        "es": "Courage crece dentro de mí cada día.",
+        "de": "Courage wächst jeden Tag in mir.",
+        "it": "Courage cresce in me ogni giorno.",
+        "ru": "Courage растёт во мне каждый день.",
+        "id": "Courage tumbuh di dalam diri saya setiap hari.",
+        "ja": "Courageは毎日私の中で育ちます。",
+        "th": "Courageเติบโตในตัวฉันทุกวัน",
+        "ms": "Courage berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "cour_070",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Courage now.",
+        "tr": "Şimdi Cesaret için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Courage maintenant.",
+        "pt": "Eu crio espaço para Courage agora.",
+        "nl": "Ik maak nu ruimte voor Courage.",
+        "es": "Creo espacio para Courage ahora.",
+        "de": "Ich schaffe jetzt Raum für Courage.",
+        "it": "Creo spazio per Courage ora.",
+        "ru": "Я создаю пространство для Courage сейчас.",
+        "id": "Saya menciptakan ruang untuk Courage sekarang.",
+        "ja": "今、Courageのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับCourageในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Courage sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "cour_071",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Courage.",
+        "tr": "Cesaret yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Courage.",
+        "pt": "Eu confio no caminho de Courage.",
+        "nl": "Ik vertrouw op het pad van Courage.",
+        "es": "Confío en el camino de Courage.",
+        "de": "Ich vertraue dem Weg von Courage.",
+        "it": "Mi fido del percorso di Courage.",
+        "ru": "Я доверяю пути Courage.",
+        "id": "Saya percaya pada jalan Courage.",
+        "ja": "私はCourageの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของCourage",
+        "ms": "Saya percaya pada jalan Courage."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

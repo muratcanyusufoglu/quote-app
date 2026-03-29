@@ -4095,15 +4095,37 @@
       }
     },
 {
-      "id": "travel_aff_001",
+      "id": "travel_050",
       "type": "affirmation",
       "texts": {
         "en": "I am open to new experiences and cultures.",
-        "tr": "Yeni deneyimlere ve kültürlere açığım."
+        "tr": "Yeni deneyimlere ve kültürlere açığım.",
+        "fr": "Je suis ouvert(e) aux nouvelles expériences et cultures.",
+        "pt": "Estou aberto(a) a novas experiências e culturas.",
+        "nl": "Ik sta open voor nieuwe ervaringen en culturen.",
+        "es": "Estoy abierto(a) a nuevas experiencias y culturas.",
+        "de": "Ich bin offen für neue Erfahrungen und Kulturen.",
+        "it": "Sono aperto/a a nuove esperienze e culture.",
+        "ru": "Я открыт(а) новым опытам и культурам.",
+        "id": "Saya terbuka pada pengalaman dan budaya baru.",
+        "ja": "私は新しい経験や文化に対して開かれています。",
+        "th": "ฉันเปิดใจรับประสบการณ์และวัฒนธรรมใหม่ๆ",
+        "ms": "Saya terbuka kepada pengalaman dan budaya baharu."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "travel",
       "tags": {
@@ -4121,15 +4143,37 @@
       "readTime": "0"
 },
 {
-      "id": "travel_aff_002",
+      "id": "travel_051",
       "type": "affirmation",
       "texts": {
         "en": "I feel safe exploring new places.",
-        "tr": "Yeni yerleri keşfederken güvende hissederim."
+        "tr": "Yeni yerleri keşfederken güvende hissederim.",
+        "fr": "Je me sens en sécurité en explorant de nouveaux endroits.",
+        "pt": "Sinto-me seguro(a) ao explorar novos lugares.",
+        "nl": "Ik voel me veilig als ik nieuwe plaatsen verken.",
+        "es": "Me siento seguro(a) explorando lugares nuevos.",
+        "de": "Ich fühle mich sicher, wenn ich neue Orte erkunde.",
+        "it": "Mi sento al sicuro esplorando nuovi luoghi.",
+        "ru": "Я чувствую себя в безопасности, исследуя новые места.",
+        "id": "Saya merasa aman menjelajahi tempat baru.",
+        "ja": "私は新しい場所を探索するとき、安心していられます。",
+        "th": "ฉันรู้สึกปลอดภัยเมื่อสำรวจสถานที่ใหม่ๆ",
+        "ms": "Saya berasa selamat ketika meneroka tempat baharu."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "travel",
       "tags": {
@@ -4142,6 +4186,226 @@
           "keşif",
           "güvenlik",
           "merak"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_052",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Travel into my life.",
+        "tr": "Hayatıma Seyahat enerjisini alıyorum.",
+        "fr": "J'accueille Travel dans ma vie.",
+        "pt": "Eu acolho Travel na minha vida.",
+        "nl": "Ik verwelkom Travel in mijn leven.",
+        "es": "Doy la bienvenida a Travel en mi vida.",
+        "de": "Ich heiße Travel in meinem Leben willkommen.",
+        "it": "Accolgo Travel nella mia vita.",
+        "ru": "Я принимаю Travel в свою жизнь.",
+        "id": "Saya menyambut Travel dalam hidup saya.",
+        "ja": "私はTravelを人生に迎え入れます。",
+        "th": "ฉันต้อนรับTravelเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Travel dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_053",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Travel.",
+        "tr": "Kalbim Seyahat için açık.",
+        "fr": "Mon cœur est ouvert à Travel.",
+        "pt": "Meu coração está aberto para Travel.",
+        "nl": "Mijn hart staat open voor Travel.",
+        "es": "Mi corazón está abierto a Travel.",
+        "de": "Mein Herz ist offen für Travel.",
+        "it": "Il mio cuore è aperto a Travel.",
+        "ru": "Моё сердце открыто для Travel.",
+        "id": "Hati saya terbuka untuk Travel.",
+        "ja": "私の心はTravelに開かれています。",
+        "th": "หัวใจของฉันเปิดรับTravel",
+        "ms": "Hati saya terbuka untuk Travel."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_054",
+      "type": "affirmation",
+      "texts": {
+        "en": "Travel grows within me each day.",
+        "tr": "Seyahat her gün içimde büyüyor.",
+        "fr": "Travel grandit en moi chaque jour.",
+        "pt": "Travel cresce dentro de mim todos os dias.",
+        "nl": "Travel groeit elke dag in mij.",
+        "es": "Travel crece dentro de mí cada día.",
+        "de": "Travel wächst jeden Tag in mir.",
+        "it": "Travel cresce in me ogni giorno.",
+        "ru": "Travel растёт во мне каждый день.",
+        "id": "Travel tumbuh di dalam diri saya setiap hari.",
+        "ja": "Travelは毎日私の中で育ちます。",
+        "th": "Travelเติบโตในตัวฉันทุกวัน",
+        "ms": "Travel berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_055",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Travel now.",
+        "tr": "Şimdi Seyahat için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Travel maintenant.",
+        "pt": "Eu crio espaço para Travel agora.",
+        "nl": "Ik maak nu ruimte voor Travel.",
+        "es": "Creo espacio para Travel ahora.",
+        "de": "Ich schaffe jetzt Raum für Travel.",
+        "it": "Creo spazio per Travel ora.",
+        "ru": "Я создаю пространство для Travel сейчас.",
+        "id": "Saya menciptakan ruang untuk Travel sekarang.",
+        "ja": "今、Travelのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับTravelในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Travel sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_056",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Travel.",
+        "tr": "Seyahat yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Travel.",
+        "pt": "Eu confio no caminho de Travel.",
+        "nl": "Ik vertrouw op het pad van Travel.",
+        "es": "Confío en el camino de Travel.",
+        "de": "Ich vertraue dem Weg von Travel.",
+        "it": "Mi fido del percorso di Travel.",
+        "ru": "Я доверяю пути Travel.",
+        "id": "Saya percaya pada jalan Travel.",
+        "ja": "私はTravelの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของTravel",
+        "ms": "Saya percaya pada jalan Travel."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

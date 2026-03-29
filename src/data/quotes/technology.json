@@ -6201,15 +6201,37 @@
       }
     },
     {
-      "id": "technology_aff_001",
+      "id": "technology_057",
       "type": "affirmation",
       "texts": {
         "en": "I use technology wisely to improve my life.",
-        "tr": "Teknolojiyi hayatımı iyileştirmek için bilinçle kullanırım."
+        "tr": "Teknolojiyi hayatımı iyileştirmek için bilinçle kullanırım.",
+        "fr": "J'utilise la technologie avec sagesse pour améliorer ma vie.",
+        "pt": "Uso a tecnologia com sabedoria para melhorar minha vida.",
+        "nl": "Ik gebruik technologie verstandig om mijn leven te verbeteren.",
+        "es": "Uso la tecnología sabiamente para mejorar mi vida.",
+        "de": "Ich nutze Technologie weise, um mein Leben zu verbessern.",
+        "it": "Uso la tecnologia con saggezza per migliorare la mia vita.",
+        "ru": "Я разумно использую технологии, чтобы улучшать свою жизнь.",
+        "id": "Saya menggunakan teknologi dengan bijak untuk memperbaiki hidup saya.",
+        "ja": "私はテクノロジーを賢く使い、生活を向上させます。",
+        "th": "ฉันใช้เทคโนโลยีอย่างชาญฉลาดเพื่อพัฒนาชีวิตของฉัน",
+        "ms": "Saya menggunakan teknologi dengan bijak untuk memperbaiki hidup saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "technology",
       "tags": {
@@ -6227,15 +6249,37 @@
       "readTime": "0"
     },
     {
-      "id": "technology_aff_002",
+      "id": "technology_058",
       "type": "affirmation",
       "texts": {
         "en": "I set healthy boundaries with technology.",
-        "tr": "Teknolojiyle sağlıklı sınırlar koyarım."
+        "tr": "Teknolojiyle sağlıklı sınırlar koyarım.",
+        "fr": "Je fixe des limites saines avec la technologie.",
+        "pt": "Estabeleço limites saudáveis com a tecnologia.",
+        "nl": "Ik stel gezonde grenzen met technologie.",
+        "es": "Establezco límites saludables con la tecnología.",
+        "de": "Ich setze gesunde Grenzen im Umgang mit Technologie.",
+        "it": "Imposto limiti sani con la tecnologia.",
+        "ru": "Я устанавливаю здоровые границы в использовании технологий.",
+        "id": "Saya menetapkan batasan sehat dengan teknologi.",
+        "ja": "テクノロジーとの付き合いに健全な境界を設定します。",
+        "th": "ฉันตั้งขอบเขตที่ดีต่อสุขภาพกับเทคโนโลยี",
+        "ms": "Saya menetapkan batas yang sihat dengan teknologi."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "technology",
       "tags": {
@@ -6248,6 +6292,226 @@
           "sınırlar",
           "denge",
           "niyet"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_059",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Technology into my life.",
+        "tr": "Hayatıma Teknoloji enerjisini alıyorum.",
+        "fr": "J'accueille Technology dans ma vie.",
+        "pt": "Eu acolho Technology na minha vida.",
+        "nl": "Ik verwelkom Technology in mijn leven.",
+        "es": "Doy la bienvenida a Technology en mi vida.",
+        "de": "Ich heiße Technology in meinem Leben willkommen.",
+        "it": "Accolgo Technology nella mia vita.",
+        "ru": "Я принимаю Technology в свою жизнь.",
+        "id": "Saya menyambut Technology dalam hidup saya.",
+        "ja": "私はTechnologyを人生に迎え入れます。",
+        "th": "ฉันต้อนรับTechnologyเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Technology dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_060",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Technology.",
+        "tr": "Kalbim Teknoloji için açık.",
+        "fr": "Mon cœur est ouvert à Technology.",
+        "pt": "Meu coração está aberto para Technology.",
+        "nl": "Mijn hart staat open voor Technology.",
+        "es": "Mi corazón está abierto a Technology.",
+        "de": "Mein Herz ist offen für Technology.",
+        "it": "Il mio cuore è aperto a Technology.",
+        "ru": "Моё сердце открыто для Technology.",
+        "id": "Hati saya terbuka untuk Technology.",
+        "ja": "私の心はTechnologyに開かれています。",
+        "th": "หัวใจของฉันเปิดรับTechnology",
+        "ms": "Hati saya terbuka untuk Technology."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_061",
+      "type": "affirmation",
+      "texts": {
+        "en": "Technology grows within me each day.",
+        "tr": "Teknoloji her gün içimde büyüyor.",
+        "fr": "Technology grandit en moi chaque jour.",
+        "pt": "Technology cresce dentro de mim todos os dias.",
+        "nl": "Technology groeit elke dag in mij.",
+        "es": "Technology crece dentro de mí cada día.",
+        "de": "Technology wächst jeden Tag in mir.",
+        "it": "Technology cresce in me ogni giorno.",
+        "ru": "Technology растёт во мне каждый день.",
+        "id": "Technology tumbuh di dalam diri saya setiap hari.",
+        "ja": "Technologyは毎日私の中で育ちます。",
+        "th": "Technologyเติบโตในตัวฉันทุกวัน",
+        "ms": "Technology berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_062",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Technology now.",
+        "tr": "Şimdi Teknoloji için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Technology maintenant.",
+        "pt": "Eu crio espaço para Technology agora.",
+        "nl": "Ik maak nu ruimte voor Technology.",
+        "es": "Creo espacio para Technology ahora.",
+        "de": "Ich schaffe jetzt Raum für Technology.",
+        "it": "Creo spazio per Technology ora.",
+        "ru": "Я создаю пространство для Technology сейчас.",
+        "id": "Saya menciptakan ruang untuk Technology sekarang.",
+        "ja": "今、Technologyのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับTechnologyในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Technology sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_063",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Technology.",
+        "tr": "Teknoloji yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Technology.",
+        "pt": "Eu confio no caminho de Technology.",
+        "nl": "Ik vertrouw op het pad van Technology.",
+        "es": "Confío en el camino de Technology.",
+        "de": "Ich vertraue dem Weg von Technology.",
+        "it": "Mi fido del percorso di Technology.",
+        "ru": "Я доверяю пути Technology.",
+        "id": "Saya percaya pada jalan Technology.",
+        "ja": "私はTechnologyの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของTechnology",
+        "ms": "Saya percaya pada jalan Technology."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

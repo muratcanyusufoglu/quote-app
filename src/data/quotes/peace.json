@@ -4486,15 +4486,37 @@
       }
     },
     {
-      "id": "peace_aff_001",
+      "id": "peace_036",
       "type": "affirmation",
       "texts": {
         "en": "I breathe in calm and release tension.",
-        "tr": "Sakinliği içime alır, gerginliği bırakırım."
+        "tr": "Sakinliği içime alır, gerginliği bırakırım.",
+        "fr": "J'inspire le calme et je relâche la tension.",
+        "pt": "Inspiro calma e libero a tensão.",
+        "nl": "Ik adem rust in en laat spanning los.",
+        "es": "Inhalo calma y libero la tensión.",
+        "de": "Ich atme Ruhe ein und lasse Spannung los.",
+        "it": "Inspiro calma e rilascio la tensione.",
+        "ru": "Я вдыхаю спокойствие и отпускаю напряжение.",
+        "id": "Saya menghirup ketenangan dan melepaskan ketegangan.",
+        "ja": "落ち着きを吸い込み、緊張を手放します。",
+        "th": "ฉันสูดความสงบและปล่อยความตึงเครียด",
+        "ms": "Saya menghirup ketenangan dan melepaskan ketegangan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "peace",
       "tags": {
@@ -4512,15 +4534,37 @@
       "readTime": "0"
     },
     {
-      "id": "peace_aff_002",
+      "id": "peace_037",
       "type": "affirmation",
       "texts": {
         "en": "I choose peace over worry.",
-        "tr": "Endişe yerine huzuru seçerim."
+        "tr": "Endişe yerine huzuru seçerim.",
+        "fr": "Je choisis la paix plutôt que l'inquiétude.",
+        "pt": "Escolho a paz em vez da preocupação.",
+        "nl": "Ik kies voor vrede in plaats van zorgen.",
+        "es": "Elijo la paz en lugar de la preocupación.",
+        "de": "Ich wähle Frieden statt Sorge.",
+        "it": "Scelgo la pace invece della preoccupazione.",
+        "ru": "Я выбираю покой вместо тревоги.",
+        "id": "Saya memilih kedamaian daripada kekhawatiran.",
+        "ja": "心配より平和を選びます。",
+        "th": "ฉันเลือกความสงบแทนความกังวล",
+        "ms": "Saya memilih ketenangan daripada kebimbangan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "peace",
       "tags": {
@@ -4533,6 +4577,226 @@
           "huzur",
           "sakinlik",
           "bırakma"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_038",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Peace into my life.",
+        "tr": "Hayatıma Huzur enerjisini alıyorum.",
+        "fr": "J'accueille Peace dans ma vie.",
+        "pt": "Eu acolho Peace na minha vida.",
+        "nl": "Ik verwelkom Peace in mijn leven.",
+        "es": "Doy la bienvenida a Peace en mi vida.",
+        "de": "Ich heiße Peace in meinem Leben willkommen.",
+        "it": "Accolgo Peace nella mia vita.",
+        "ru": "Я принимаю Peace в свою жизнь.",
+        "id": "Saya menyambut Peace dalam hidup saya.",
+        "ja": "私はPeaceを人生に迎え入れます。",
+        "th": "ฉันต้อนรับPeaceเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Peace dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_039",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Peace.",
+        "tr": "Kalbim Huzur için açık.",
+        "fr": "Mon cœur est ouvert à Peace.",
+        "pt": "Meu coração está aberto para Peace.",
+        "nl": "Mijn hart staat open voor Peace.",
+        "es": "Mi corazón está abierto a Peace.",
+        "de": "Mein Herz ist offen für Peace.",
+        "it": "Il mio cuore è aperto a Peace.",
+        "ru": "Моё сердце открыто для Peace.",
+        "id": "Hati saya terbuka untuk Peace.",
+        "ja": "私の心はPeaceに開かれています。",
+        "th": "หัวใจของฉันเปิดรับPeace",
+        "ms": "Hati saya terbuka untuk Peace."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_040",
+      "type": "affirmation",
+      "texts": {
+        "en": "Peace grows within me each day.",
+        "tr": "Huzur her gün içimde büyüyor.",
+        "fr": "Peace grandit en moi chaque jour.",
+        "pt": "Peace cresce dentro de mim todos os dias.",
+        "nl": "Peace groeit elke dag in mij.",
+        "es": "Peace crece dentro de mí cada día.",
+        "de": "Peace wächst jeden Tag in mir.",
+        "it": "Peace cresce in me ogni giorno.",
+        "ru": "Peace растёт во мне каждый день.",
+        "id": "Peace tumbuh di dalam diri saya setiap hari.",
+        "ja": "Peaceは毎日私の中で育ちます。",
+        "th": "Peaceเติบโตในตัวฉันทุกวัน",
+        "ms": "Peace berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_041",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Peace now.",
+        "tr": "Şimdi Huzur için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Peace maintenant.",
+        "pt": "Eu crio espaço para Peace agora.",
+        "nl": "Ik maak nu ruimte voor Peace.",
+        "es": "Creo espacio para Peace ahora.",
+        "de": "Ich schaffe jetzt Raum für Peace.",
+        "it": "Creo spazio per Peace ora.",
+        "ru": "Я создаю пространство для Peace сейчас.",
+        "id": "Saya menciptakan ruang untuk Peace sekarang.",
+        "ja": "今、Peaceのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับPeaceในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Peace sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_042",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Peace.",
+        "tr": "Huzur yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Peace.",
+        "pt": "Eu confio no caminho de Peace.",
+        "nl": "Ik vertrouw op het pad van Peace.",
+        "es": "Confío en el camino de Peace.",
+        "de": "Ich vertraue dem Weg von Peace.",
+        "it": "Mi fido del percorso di Peace.",
+        "ru": "Я доверяю пути Peace.",
+        "id": "Saya percaya pada jalan Peace.",
+        "ja": "私はPeaceの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของPeace",
+        "ms": "Saya percaya pada jalan Peace."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

@@ -37602,15 +37602,37 @@
       }
     },
     {
-      "id": "general_aff_001",
+      "id": "gen_273",
       "type": "affirmation",
       "texts": {
         "en": "I choose progress over perfection today.",
-        "tr": "Bugün mükemmeliyet yerine ilerlemeyi seçiyorum."
+        "tr": "Bugün mükemmeliyet yerine ilerlemeyi seçiyorum.",
+        "fr": "Je choisis le progrès plutôt que la perfection aujourd'hui.",
+        "pt": "Eu escolho o progresso em vez da perfeição hoje.",
+        "nl": "Ik kies vandaag voor vooruitgang in plaats van perfectie.",
+        "es": "Hoy elijo el progreso en lugar de la perfección.",
+        "de": "Ich wähle heute Fortschritt statt Perfektion.",
+        "it": "Oggi scelgo il progresso invece della perfezione.",
+        "ru": "Сегодня я выбираю прогресс вместо совершенства.",
+        "id": "Hari ini saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "今日は完璧さより進歩を選びます。",
+        "th": "วันนี้ฉันเลือกความก้าวหน้าแทนความสมบูรณ์แบบ",
+        "ms": "Hari ini saya memilih kemajuan daripada kesempurnaan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "general",
       "tags": {
@@ -37628,15 +37650,37 @@
       "readTime": "0"
     },
     {
-      "id": "general_aff_002",
+      "id": "gen_274",
       "type": "affirmation",
       "texts": {
         "en": "I can start fresh at any moment.",
-        "tr": "Her an taze bir başlangıç yapabilirim."
+        "tr": "Her an taze bir başlangıç yapabilirim.",
+        "fr": "Je peux repartir à neuf à tout moment.",
+        "pt": "Posso recomeçar a qualquer momento.",
+        "nl": "Ik kan op elk moment opnieuw beginnen.",
+        "es": "Puedo empezar de nuevo en cualquier momento.",
+        "de": "Ich kann jederzeit neu anfangen.",
+        "it": "Posso ricominciare in qualsiasi momento.",
+        "ru": "Я могу начать заново в любой момент.",
+        "id": "Saya bisa mulai kembali kapan saja.",
+        "ja": "私はいつでも新しく始められます。",
+        "th": "ฉันสามารถเริ่มต้นใหม่ได้ทุกเมื่อ",
+        "ms": "Saya boleh memulakan semula pada bila-bila masa."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "general",
       "tags": {
@@ -37649,6 +37693,226 @@
           "tazelik",
           "başlangıç",
           "seçim"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Inspiration into my life.",
+        "tr": "Hayatıma İlham enerjisini alıyorum.",
+        "fr": "J'accueille Inspiration dans ma vie.",
+        "pt": "Eu acolho Inspiração na minha vida.",
+        "nl": "Ik verwelkom Inspiratie in mijn leven.",
+        "es": "Doy la bienvenida a Inspiración en mi vida.",
+        "de": "Ich heiße Inspiration in meinem Leben willkommen.",
+        "it": "Accolgo Ispirazione nella mia vita.",
+        "ru": "Я принимаю Вдохновение в свою жизнь.",
+        "id": "Saya menyambut Inspirasi dalam hidup saya.",
+        "ja": "私はインスピレーションを人生に迎え入れます。",
+        "th": "ฉันต้อนรับแรงบันดาลใจเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Inspirasi dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Inspiration.",
+        "tr": "Kalbim İlham için açık.",
+        "fr": "Mon cœur est ouvert à Inspiration.",
+        "pt": "Meu coração está aberto para Inspiração.",
+        "nl": "Mijn hart staat open voor Inspiratie.",
+        "es": "Mi corazón está abierto a Inspiración.",
+        "de": "Mein Herz ist offen für Inspiration.",
+        "it": "Il mio cuore è aperto a Ispirazione.",
+        "ru": "Моё сердце открыто для Вдохновение.",
+        "id": "Hati saya terbuka untuk Inspirasi.",
+        "ja": "私の心はインスピレーションに開かれています。",
+        "th": "หัวใจของฉันเปิดรับแรงบันดาลใจ",
+        "ms": "Hati saya terbuka untuk Inspirasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "Inspiration grows within me each day.",
+        "tr": "İlham her gün içimde büyüyor.",
+        "fr": "Inspiration grandit en moi chaque jour.",
+        "pt": "Inspiração cresce dentro de mim todos os dias.",
+        "nl": "Inspiratie groeit elke dag in mij.",
+        "es": "Inspiración crece dentro de mí cada día.",
+        "de": "Inspiration wächst jeden Tag in mir.",
+        "it": "Ispirazione cresce in me ogni giorno.",
+        "ru": "Вдохновение растёт во мне каждый день.",
+        "id": "Inspirasi tumbuh di dalam diri saya setiap hari.",
+        "ja": "インスピレーションは毎日私の中で育ちます。",
+        "th": "แรงบันดาลใจเติบโตในตัวฉันทุกวัน",
+        "ms": "Inspirasi berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_278",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Inspiration now.",
+        "tr": "Şimdi İlham için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Inspiration maintenant.",
+        "pt": "Eu crio espaço para Inspiração agora.",
+        "nl": "Ik maak nu ruimte voor Inspiratie.",
+        "es": "Creo espacio para Inspiración ahora.",
+        "de": "Ich schaffe jetzt Raum für Inspiration.",
+        "it": "Creo spazio per Ispirazione ora.",
+        "ru": "Я создаю пространство для Вдохновение сейчас.",
+        "id": "Saya menciptakan ruang untuk Inspirasi sekarang.",
+        "ja": "今、インスピレーションのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับแรงบันดาลใจในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Inspirasi sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_279",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Inspiration.",
+        "tr": "İlham yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Inspiration.",
+        "pt": "Eu confio no caminho de Inspiração.",
+        "nl": "Ik vertrouw op het pad van Inspiratie.",
+        "es": "Confío en el camino de Inspiración.",
+        "de": "Ich vertraue dem Weg von Inspiration.",
+        "it": "Mi fido del percorso di Ispirazione.",
+        "ru": "Я доверяю пути Вдохновение.",
+        "id": "Saya percaya pada jalan Inspirasi.",
+        "ja": "私はインスピレーションの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของแรงบันดาลใจ",
+        "ms": "Saya percaya pada jalan Inspirasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

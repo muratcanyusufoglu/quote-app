@@ -7853,15 +7853,37 @@
       }
     },
     {
-      "id": "creativity_aff_001",
+      "id": "creativity_067",
       "type": "affirmation",
       "texts": {
         "en": "My ideas flow easily and I trust my creative voice.",
-        "tr": "Fikirlerim kolayca akar ve yaratıcı sesime güvenirim."
+        "tr": "Fikirlerim kolayca akar ve yaratıcı sesime güvenirim.",
+        "fr": "Mes idées viennent facilement et je fais confiance à ma voix créative.",
+        "pt": "Minhas ideias fluem com facilidade e confio na minha voz criativa.",
+        "nl": "Mijn ideeën stromen gemakkelijk en ik vertrouw op mijn creatieve stem.",
+        "es": "Mis ideas fluyen con facilidad y confío en mi voz creativa.",
+        "de": "Meine Ideen fließen leicht und ich vertraue meiner kreativen Stimme.",
+        "it": "Le mie idee scorrono facilmente e mi fido della mia voce creativa.",
+        "ru": "Мои идеи легко приходят, и я доверяю своему творческому голосу.",
+        "id": "Ide-ide saya mengalir dengan mudah dan saya percaya pada suara kreatif saya.",
+        "ja": "アイデアが自然に湧き、創造的な自分の声を信じます。",
+        "th": "ความคิดของฉันไหลลื่นและฉันเชื่อมั่นในเสียงสร้างสรรค์ของฉัน",
+        "ms": "Idea saya mengalir dengan mudah dan saya percaya pada suara kreatif saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "creativity",
       "tags": {
@@ -7879,15 +7901,37 @@
       "readTime": "0"
     },
     {
-      "id": "creativity_aff_002",
+      "id": "creativity_068",
       "type": "affirmation",
       "texts": {
         "en": "I turn curiosity into creation.",
-        "tr": "Merakımı yaratıcılığa dönüştürürüm."
+        "tr": "Merakımı yaratıcılığa dönüştürürüm.",
+        "fr": "Je transforme la curiosité en création.",
+        "pt": "Transformo a curiosidade em criação.",
+        "nl": "Ik zet nieuwsgierigheid om in creatie.",
+        "es": "Transformo la curiosidad en creación.",
+        "de": "Ich verwandle Neugier in Schöpfung.",
+        "it": "Trasformo la curiosità in creazione.",
+        "ru": "Я превращаю любопытство в творчество.",
+        "id": "Saya mengubah rasa ingin tahu menjadi kreasi.",
+        "ja": "好奇心を創造に変えます。",
+        "th": "ฉันเปลี่ยนความอยากรู้ให้เป็นการสร้างสรรค์",
+        "ms": "Saya menukar rasa ingin tahu menjadi penciptaan."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "creativity",
       "tags": {
@@ -7900,6 +7944,226 @@
           "merak",
           "yaratıcılık",
           "fikirler"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_069",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Creativity into my life.",
+        "tr": "Hayatıma Yaratıcılık enerjisini alıyorum.",
+        "fr": "J'accueille Creativity dans ma vie.",
+        "pt": "Eu acolho Creativity na minha vida.",
+        "nl": "Ik verwelkom Creativity in mijn leven.",
+        "es": "Doy la bienvenida a Creativity en mi vida.",
+        "de": "Ich heiße Creativity in meinem Leben willkommen.",
+        "it": "Accolgo Creativity nella mia vita.",
+        "ru": "Я принимаю Creativity в свою жизнь.",
+        "id": "Saya menyambut Creativity dalam hidup saya.",
+        "ja": "私はCreativityを人生に迎え入れます。",
+        "th": "ฉันต้อนรับCreativityเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Creativity dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_070",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Creativity.",
+        "tr": "Kalbim Yaratıcılık için açık.",
+        "fr": "Mon cœur est ouvert à Creativity.",
+        "pt": "Meu coração está aberto para Creativity.",
+        "nl": "Mijn hart staat open voor Creativity.",
+        "es": "Mi corazón está abierto a Creativity.",
+        "de": "Mein Herz ist offen für Creativity.",
+        "it": "Il mio cuore è aperto a Creativity.",
+        "ru": "Моё сердце открыто для Creativity.",
+        "id": "Hati saya terbuka untuk Creativity.",
+        "ja": "私の心はCreativityに開かれています。",
+        "th": "หัวใจของฉันเปิดรับCreativity",
+        "ms": "Hati saya terbuka untuk Creativity."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_071",
+      "type": "affirmation",
+      "texts": {
+        "en": "Creativity grows within me each day.",
+        "tr": "Yaratıcılık her gün içimde büyüyor.",
+        "fr": "Creativity grandit en moi chaque jour.",
+        "pt": "Creativity cresce dentro de mim todos os dias.",
+        "nl": "Creativity groeit elke dag in mij.",
+        "es": "Creativity crece dentro de mí cada día.",
+        "de": "Creativity wächst jeden Tag in mir.",
+        "it": "Creativity cresce in me ogni giorno.",
+        "ru": "Creativity растёт во мне каждый день.",
+        "id": "Creativity tumbuh di dalam diri saya setiap hari.",
+        "ja": "Creativityは毎日私の中で育ちます。",
+        "th": "Creativityเติบโตในตัวฉันทุกวัน",
+        "ms": "Creativity berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_072",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Creativity now.",
+        "tr": "Şimdi Yaratıcılık için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Creativity maintenant.",
+        "pt": "Eu crio espaço para Creativity agora.",
+        "nl": "Ik maak nu ruimte voor Creativity.",
+        "es": "Creo espacio para Creativity ahora.",
+        "de": "Ich schaffe jetzt Raum für Creativity.",
+        "it": "Creo spazio per Creativity ora.",
+        "ru": "Я создаю пространство для Creativity сейчас.",
+        "id": "Saya menciptakan ruang untuk Creativity sekarang.",
+        "ja": "今、Creativityのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับCreativityในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Creativity sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_073",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Creativity.",
+        "tr": "Yaratıcılık yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Creativity.",
+        "pt": "Eu confio no caminho de Creativity.",
+        "nl": "Ik vertrouw op het pad van Creativity.",
+        "es": "Confío en el camino de Creativity.",
+        "de": "Ich vertraue dem Weg von Creativity.",
+        "it": "Mi fido del percorso di Creativity.",
+        "ru": "Я доверяю пути Creativity.",
+        "id": "Saya percaya pada jalan Creativity.",
+        "ja": "私はCreativityの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของCreativity",
+        "ms": "Saya percaya pada jalan Creativity."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

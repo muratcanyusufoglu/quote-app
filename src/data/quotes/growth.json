@@ -8421,15 +8421,37 @@
       }
     },
         {
-      "id": "growth_aff_001",
+      "id": "growth_072",
       "type": "affirmation",
       "texts": {
         "en": "I grow stronger with every experience.",
-        "tr": "Her deneyimle daha da güçleniyorum."
+        "tr": "Her deneyimle daha da güçleniyorum.",
+        "fr": "Je deviens plus fort(e) à chaque expérience.",
+        "pt": "Fico mais forte a cada experiência.",
+        "nl": "Ik word sterker met elke ervaring.",
+        "es": "Me vuelvo más fuerte con cada experiencia.",
+        "de": "Ich werde mit jeder Erfahrung stärker.",
+        "it": "Divento più forte con ogni esperienza.",
+        "ru": "С каждым опытом я становлюсь сильнее.",
+        "id": "Saya semakin kuat dengan setiap pengalaman.",
+        "ja": "私は経験するたびに強くなります。",
+        "th": "ฉันแข็งแกร่งขึ้นจากทุกประสบการณ์",
+        "ms": "Saya menjadi lebih kuat dengan setiap pengalaman."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "growth",
       "tags": {
@@ -8447,15 +8469,37 @@
       "readTime": "0"
         },
         {
-      "id": "growth_aff_002",
+      "id": "growth_073",
       "type": "affirmation",
       "texts": {
         "en": "I welcome growth even when it feels uncomfortable.",
-        "tr": "Rahatsız hissettirse bile gelişimi kucaklarım."
+        "tr": "Rahatsız hissettirse bile gelişimi kucaklarım.",
+        "fr": "J'accueille la croissance même lorsqu'elle est inconfortable.",
+        "pt": "Acolho o crescimento mesmo quando é desconfortável.",
+        "nl": "Ik omarm groei, zelfs wanneer het ongemakkelijk voelt.",
+        "es": "Acojo el crecimiento incluso cuando se siente incómodo.",
+        "de": "Ich begrüße Wachstum, auch wenn es unangenehm ist.",
+        "it": "Accolgo la crescita anche quando è scomoda.",
+        "ru": "Я принимаю рост, даже когда это некомфортно.",
+        "id": "Saya menyambut pertumbuhan meski terasa tidak nyaman.",
+        "ja": "不快に感じるときでも成長を受け入れます。",
+        "th": "ฉันยอมรับการเติบโตแม้จะรู้สึกไม่สบายใจ",
+        "ms": "Saya menerima pertumbuhan walaupun terasa tidak selesa."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "growth",
       "tags": {
@@ -8468,6 +8512,226 @@
           "gelişim",
           "cesaret",
           "öğrenme"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Growth into my life.",
+        "tr": "Hayatıma Gelişim enerjisini alıyorum.",
+        "fr": "J'accueille Growth dans ma vie.",
+        "pt": "Eu acolho Growth na minha vida.",
+        "nl": "Ik verwelkom Growth in mijn leven.",
+        "es": "Doy la bienvenida a Growth en mi vida.",
+        "de": "Ich heiße Growth in meinem Leben willkommen.",
+        "it": "Accolgo Growth nella mia vita.",
+        "ru": "Я принимаю Growth в свою жизнь.",
+        "id": "Saya menyambut Growth dalam hidup saya.",
+        "ja": "私はGrowthを人生に迎え入れます。",
+        "th": "ฉันต้อนรับGrowthเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Growth dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Growth.",
+        "tr": "Kalbim Gelişim için açık.",
+        "fr": "Mon cœur est ouvert à Growth.",
+        "pt": "Meu coração está aberto para Growth.",
+        "nl": "Mijn hart staat open voor Growth.",
+        "es": "Mi corazón está abierto a Growth.",
+        "de": "Mein Herz ist offen für Growth.",
+        "it": "Il mio cuore è aperto a Growth.",
+        "ru": "Моё сердце открыто для Growth.",
+        "id": "Hati saya terbuka untuk Growth.",
+        "ja": "私の心はGrowthに開かれています。",
+        "th": "หัวใจของฉันเปิดรับGrowth",
+        "ms": "Hati saya terbuka untuk Growth."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "Growth grows within me each day.",
+        "tr": "Gelişim her gün içimde büyüyor.",
+        "fr": "Growth grandit en moi chaque jour.",
+        "pt": "Growth cresce dentro de mim todos os dias.",
+        "nl": "Growth groeit elke dag in mij.",
+        "es": "Growth crece dentro de mí cada día.",
+        "de": "Growth wächst jeden Tag in mir.",
+        "it": "Growth cresce in me ogni giorno.",
+        "ru": "Growth растёт во мне каждый день.",
+        "id": "Growth tumbuh di dalam diri saya setiap hari.",
+        "ja": "Growthは毎日私の中で育ちます。",
+        "th": "Growthเติบโตในตัวฉันทุกวัน",
+        "ms": "Growth berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Growth now.",
+        "tr": "Şimdi Gelişim için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Growth maintenant.",
+        "pt": "Eu crio espaço para Growth agora.",
+        "nl": "Ik maak nu ruimte voor Growth.",
+        "es": "Creo espacio para Growth ahora.",
+        "de": "Ich schaffe jetzt Raum für Growth.",
+        "it": "Creo spazio per Growth ora.",
+        "ru": "Я создаю пространство для Growth сейчас.",
+        "id": "Saya menciptakan ruang untuk Growth sekarang.",
+        "ja": "今、Growthのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับGrowthในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Growth sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Growth.",
+        "tr": "Gelişim yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Growth.",
+        "pt": "Eu confio no caminho de Growth.",
+        "nl": "Ik vertrouw op het pad van Growth.",
+        "es": "Confío en el camino de Growth.",
+        "de": "Ich vertraue dem Weg von Growth.",
+        "it": "Mi fido del percorso di Growth.",
+        "ru": "Я доверяю пути Growth.",
+        "id": "Saya percaya pada jalan Growth.",
+        "ja": "私はGrowthの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของGrowth",
+        "ms": "Saya percaya pada jalan Growth."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

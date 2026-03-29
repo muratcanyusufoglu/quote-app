@@ -12068,15 +12068,37 @@
       }
     },
     {
-      "id": "happiness_aff_001",
+      "id": "happiness_108",
       "type": "affirmation",
       "texts": {
         "en": "I allow myself to feel joy in simple moments.",
-        "tr": "Basit anlarda neşe hissetmeme izin veriyorum."
+        "tr": "Basit anlarda neşe hissetmeme izin veriyorum.",
+        "fr": "Je m'autorise à ressentir de la joie dans les moments simples.",
+        "pt": "Eu me permito sentir alegria em momentos simples.",
+        "nl": "Ik sta mezelf toe vreugde te voelen in eenvoudige momenten.",
+        "es": "Me permito sentir alegría en los momentos simples.",
+        "de": "Ich erlaube mir, in einfachen Momenten Freude zu empfinden.",
+        "it": "Mi permetto di sentire gioia nei momenti semplici.",
+        "ru": "Я позволяю себе чувствовать радость в простых моментах.",
+        "id": "Saya mengizinkan diri saya merasakan sukacita dalam momen sederhana.",
+        "ja": "シンプルな瞬間に喜びを感じることを自分に許します。",
+        "th": "ฉันยอมให้ตัวเองรู้สึกมีความสุขในช่วงเวลาง่ายๆ",
+        "ms": "Saya mengizinkan diri saya merasai kegembiraan dalam saat-saat sederhana."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "happiness",
       "tags": {
@@ -12094,15 +12116,37 @@
       "readTime": "0"
     },
     {
-      "id": "happiness_aff_002",
+      "id": "happiness_109",
       "type": "affirmation",
       "texts": {
         "en": "I create reasons to smile today.",
-        "tr": "Bugün gülümsemek için nedenler yaratırım."
+        "tr": "Bugün gülümsemek için nedenler yaratırım.",
+        "fr": "Je crée des raisons de sourire aujourd'hui.",
+        "pt": "Crio motivos para sorrir hoje.",
+        "nl": "Ik creëer vandaag redenen om te glimlachen.",
+        "es": "Creo razones para sonreír hoy.",
+        "de": "Ich schaffe heute Gründe zu lächeln.",
+        "it": "Creo motivi per sorridere oggi.",
+        "ru": "Я создаю поводы улыбнуться сегодня.",
+        "id": "Saya menciptakan alasan untuk tersenyum hari ini.",
+        "ja": "今日は笑顔になる理由を作ります。",
+        "th": "วันนี้ฉันสร้างเหตุผลที่จะยิ้ม",
+        "ms": "Saya mencipta alasan untuk tersenyum hari ini."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "happiness",
       "tags": {
@@ -12115,6 +12159,226 @@
           "neşe",
           "gülümseme",
           "bugün"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_110",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Happiness into my life.",
+        "tr": "Hayatıma Mutluluk enerjisini alıyorum.",
+        "fr": "J'accueille Happiness dans ma vie.",
+        "pt": "Eu acolho Happiness na minha vida.",
+        "nl": "Ik verwelkom Happiness in mijn leven.",
+        "es": "Doy la bienvenida a Happiness en mi vida.",
+        "de": "Ich heiße Happiness in meinem Leben willkommen.",
+        "it": "Accolgo Happiness nella mia vita.",
+        "ru": "Я принимаю Happiness в свою жизнь.",
+        "id": "Saya menyambut Happiness dalam hidup saya.",
+        "ja": "私はHappinessを人生に迎え入れます。",
+        "th": "ฉันต้อนรับHappinessเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Happiness dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_111",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Happiness.",
+        "tr": "Kalbim Mutluluk için açık.",
+        "fr": "Mon cœur est ouvert à Happiness.",
+        "pt": "Meu coração está aberto para Happiness.",
+        "nl": "Mijn hart staat open voor Happiness.",
+        "es": "Mi corazón está abierto a Happiness.",
+        "de": "Mein Herz ist offen für Happiness.",
+        "it": "Il mio cuore è aperto a Happiness.",
+        "ru": "Моё сердце открыто для Happiness.",
+        "id": "Hati saya terbuka untuk Happiness.",
+        "ja": "私の心はHappinessに開かれています。",
+        "th": "หัวใจของฉันเปิดรับHappiness",
+        "ms": "Hati saya terbuka untuk Happiness."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_112",
+      "type": "affirmation",
+      "texts": {
+        "en": "Happiness grows within me each day.",
+        "tr": "Mutluluk her gün içimde büyüyor.",
+        "fr": "Happiness grandit en moi chaque jour.",
+        "pt": "Happiness cresce dentro de mim todos os dias.",
+        "nl": "Happiness groeit elke dag in mij.",
+        "es": "Happiness crece dentro de mí cada día.",
+        "de": "Happiness wächst jeden Tag in mir.",
+        "it": "Happiness cresce in me ogni giorno.",
+        "ru": "Happiness растёт во мне каждый день.",
+        "id": "Happiness tumbuh di dalam diri saya setiap hari.",
+        "ja": "Happinessは毎日私の中で育ちます。",
+        "th": "Happinessเติบโตในตัวฉันทุกวัน",
+        "ms": "Happiness berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_113",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Happiness now.",
+        "tr": "Şimdi Mutluluk için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Happiness maintenant.",
+        "pt": "Eu crio espaço para Happiness agora.",
+        "nl": "Ik maak nu ruimte voor Happiness.",
+        "es": "Creo espacio para Happiness ahora.",
+        "de": "Ich schaffe jetzt Raum für Happiness.",
+        "it": "Creo spazio per Happiness ora.",
+        "ru": "Я создаю пространство для Happiness сейчас.",
+        "id": "Saya menciptakan ruang untuk Happiness sekarang.",
+        "ja": "今、Happinessのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับHappinessในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Happiness sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_114",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Happiness.",
+        "tr": "Mutluluk yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Happiness.",
+        "pt": "Eu confio no caminho de Happiness.",
+        "nl": "Ik vertrouw op het pad van Happiness.",
+        "es": "Confío en el camino de Happiness.",
+        "de": "Ich vertraue dem Weg von Happiness.",
+        "it": "Mi fido del percorso di Happiness.",
+        "ru": "Я доверяю пути Happiness.",
+        "id": "Saya percaya pada jalan Happiness.",
+        "ja": "私はHappinessの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของHappiness",
+        "ms": "Saya percaya pada jalan Happiness."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

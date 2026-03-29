@@ -6125,15 +6125,37 @@
       }
     },
     {
-      "id": "time_aff_001",
+      "id": "time_050",
       "type": "affirmation",
       "texts": {
         "en": "I manage my time with purpose and ease.",
-        "tr": "Zamanımı amaçla ve kolaylıkla yönetirim."
+        "tr": "Zamanımı amaçla ve kolaylıkla yönetirim.",
+        "fr": "Je gère mon temps avec intention et aisance.",
+        "pt": "Gerencio meu tempo com propósito e facilidade.",
+        "nl": "Ik beheer mijn tijd doelgericht en met gemak.",
+        "es": "Gestiono mi tiempo con propósito y facilidad.",
+        "de": "Ich manage meine Zeit mit Sinn und Leichtigkeit.",
+        "it": "Gestisco il mio tempo con intenzione e facilità.",
+        "ru": "Я управляю своим временем с целью и лёгкостью.",
+        "id": "Saya mengelola waktu saya dengan tujuan dan kemudahan.",
+        "ja": "私は目的意識を持って、楽に時間を管理します。",
+        "th": "ฉันจัดการเวลาของฉันด้วยเป้าหมายและความง่ายดาย",
+        "ms": "Saya mengurus masa saya dengan tujuan dan mudah."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "time",
       "tags": {
@@ -6151,15 +6173,37 @@
       "readTime": "0"
     },
     {
-      "id": "time_aff_002",
+      "id": "time_051",
       "type": "affirmation",
       "texts": {
         "en": "I protect time for what matters most.",
-        "tr": "Benim için en önemli olanlara zaman ayırırım."
+        "tr": "Benim için en önemli olanlara zaman ayırırım.",
+        "fr": "Je protège du temps pour ce qui compte le plus.",
+        "pt": "Protejo tempo para o que mais importa.",
+        "nl": "Ik bescherm tijd voor wat het belangrijkst is.",
+        "es": "Protejo tiempo para lo que más importa.",
+        "de": "Ich schütze Zeit für das, was am wichtigsten ist.",
+        "it": "Proteggo tempo per ciò che conta di più.",
+        "ru": "Я защищаю время для самого важного.",
+        "id": "Saya menjaga waktu untuk hal yang paling penting.",
+        "ja": "私は最も大切なことのための時間を守ります。",
+        "th": "ฉันปกป้องเวลาสำหรับสิ่งที่สำคัญที่สุด",
+        "ms": "Saya melindungi masa untuk perkara yang paling penting."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "time",
       "tags": {
@@ -6172,6 +6216,226 @@
           "öncelikler",
           "odak",
           "sınırlar"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_052",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Time into my life.",
+        "tr": "Hayatıma Zaman enerjisini alıyorum.",
+        "fr": "J'accueille Time dans ma vie.",
+        "pt": "Eu acolho Time na minha vida.",
+        "nl": "Ik verwelkom Time in mijn leven.",
+        "es": "Doy la bienvenida a Time en mi vida.",
+        "de": "Ich heiße Time in meinem Leben willkommen.",
+        "it": "Accolgo Time nella mia vita.",
+        "ru": "Я принимаю Time в свою жизнь.",
+        "id": "Saya menyambut Time dalam hidup saya.",
+        "ja": "私はTimeを人生に迎え入れます。",
+        "th": "ฉันต้อนรับTimeเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Time dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_053",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Time.",
+        "tr": "Kalbim Zaman için açık.",
+        "fr": "Mon cœur est ouvert à Time.",
+        "pt": "Meu coração está aberto para Time.",
+        "nl": "Mijn hart staat open voor Time.",
+        "es": "Mi corazón está abierto a Time.",
+        "de": "Mein Herz ist offen für Time.",
+        "it": "Il mio cuore è aperto a Time.",
+        "ru": "Моё сердце открыто для Time.",
+        "id": "Hati saya terbuka untuk Time.",
+        "ja": "私の心はTimeに開かれています。",
+        "th": "หัวใจของฉันเปิดรับTime",
+        "ms": "Hati saya terbuka untuk Time."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_054",
+      "type": "affirmation",
+      "texts": {
+        "en": "Time grows within me each day.",
+        "tr": "Zaman her gün içimde büyüyor.",
+        "fr": "Time grandit en moi chaque jour.",
+        "pt": "Time cresce dentro de mim todos os dias.",
+        "nl": "Time groeit elke dag in mij.",
+        "es": "Time crece dentro de mí cada día.",
+        "de": "Time wächst jeden Tag in mir.",
+        "it": "Time cresce in me ogni giorno.",
+        "ru": "Time растёт во мне каждый день.",
+        "id": "Time tumbuh di dalam diri saya setiap hari.",
+        "ja": "Timeは毎日私の中で育ちます。",
+        "th": "Timeเติบโตในตัวฉันทุกวัน",
+        "ms": "Time berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_055",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Time now.",
+        "tr": "Şimdi Zaman için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Time maintenant.",
+        "pt": "Eu crio espaço para Time agora.",
+        "nl": "Ik maak nu ruimte voor Time.",
+        "es": "Creo espacio para Time ahora.",
+        "de": "Ich schaffe jetzt Raum für Time.",
+        "it": "Creo spazio per Time ora.",
+        "ru": "Я создаю пространство для Time сейчас.",
+        "id": "Saya menciptakan ruang untuk Time sekarang.",
+        "ja": "今、Timeのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับTimeในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Time sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_056",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Time.",
+        "tr": "Zaman yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Time.",
+        "pt": "Eu confio no caminho de Time.",
+        "nl": "Ik vertrouw op het pad van Time.",
+        "es": "Confío en el camino de Time.",
+        "de": "Ich vertraue dem Weg von Time.",
+        "it": "Mi fido del percorso di Time.",
+        "ru": "Я доверяю пути Time.",
+        "id": "Saya percaya pada jalan Time.",
+        "ja": "私はTimeの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของTime",
+        "ms": "Saya percaya pada jalan Time."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"

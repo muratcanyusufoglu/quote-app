@@ -8672,15 +8672,37 @@
       }
     },
     {
-      "id": "patience_aff_001",
+      "id": "patience_075",
       "type": "affirmation",
       "texts": {
         "en": "I trust the timing of my life.",
-        "tr": "Hayatımın zamanlamasına güvenirim."
+        "tr": "Hayatımın zamanlamasına güvenirim.",
+        "fr": "Je fais confiance au timing de ma vie.",
+        "pt": "Confio no tempo da minha vida.",
+        "nl": "Ik vertrouw op de timing van mijn leven.",
+        "es": "Confío en el timing de mi vida.",
+        "de": "Ich vertraue auf das Timing meines Lebens.",
+        "it": "Mi fido del tempo della mia vita.",
+        "ru": "Я доверяю времени своей жизни.",
+        "id": "Saya percaya pada waktu dalam hidup saya.",
+        "ja": "私は自分の人生のタイミングを信頼します。",
+        "th": "ฉันเชื่อมั่นในจังหวะเวลาของชีวิตของฉัน",
+        "ms": "Saya mempercayai waktu dalam hidup saya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "patience",
       "tags": {
@@ -8698,15 +8720,37 @@
       "readTime": "0"
     },
     {
-      "id": "patience_aff_002",
+      "id": "patience_076",
       "type": "affirmation",
       "texts": {
         "en": "I allow things to unfold in their time.",
-        "tr": "Her şeyin zamanında gelmesine izin veririm."
+        "tr": "Her şeyin zamanında gelmesine izin veririm.",
+        "fr": "Je laisse les choses se dérouler en leur temps.",
+        "pt": "Permito que as coisas se desenrolem no seu tempo.",
+        "nl": "Ik laat dingen zich in hun tijd ontvouwen.",
+        "es": "Permito que las cosas se desarrollen a su tiempo.",
+        "de": "Ich lasse die Dinge sich zu ihrer Zeit entfalten.",
+        "it": "Permetto alle cose di svolgersi nel loro tempo.",
+        "ru": "Я позволяю вещам разворачиваться в свое время.",
+        "id": "Saya membiarkan segala sesuatu berkembang pada waktunya.",
+        "ja": "物事がその時に展開するのを許します。",
+        "th": "ฉันยอมให้สิ่งต่างๆ ดำเนินไปตามเวลาของมัน",
+        "ms": "Saya membiarkan perkara berlaku pada waktunya."
       },
       "authors": {
         "en": "",
-        "tr": ""
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
       },
       "category": "patience",
       "tags": {
@@ -8719,6 +8763,226 @@
           "zamanlama",
           "güven",
           "sakinlik"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome Patience into my life.",
+        "tr": "Hayatıma Sabır enerjisini alıyorum.",
+        "fr": "J'accueille Patience dans ma vie.",
+        "pt": "Eu acolho Patience na minha vida.",
+        "nl": "Ik verwelkom Patience in mijn leven.",
+        "es": "Doy la bienvenida a Patience en mi vida.",
+        "de": "Ich heiße Patience in meinem Leben willkommen.",
+        "it": "Accolgo Patience nella mia vita.",
+        "ru": "Я принимаю Patience в свою жизнь.",
+        "id": "Saya menyambut Patience dalam hidup saya.",
+        "ja": "私はPatienceを人生に迎え入れます。",
+        "th": "ฉันต้อนรับPatienceเข้ามาในชีวิตของฉัน",
+        "ms": "Saya menyambut Patience dalam hidup saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "My heart is open to Patience.",
+        "tr": "Kalbim Sabır için açık.",
+        "fr": "Mon cœur est ouvert à Patience.",
+        "pt": "Meu coração está aberto para Patience.",
+        "nl": "Mijn hart staat open voor Patience.",
+        "es": "Mi corazón está abierto a Patience.",
+        "de": "Mein Herz ist offen für Patience.",
+        "it": "Il mio cuore è aperto a Patience.",
+        "ru": "Моё сердце открыто для Patience.",
+        "id": "Hati saya terbuka untuk Patience.",
+        "ja": "私の心はPatienceに開かれています。",
+        "th": "หัวใจของฉันเปิดรับPatience",
+        "ms": "Hati saya terbuka untuk Patience."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "Patience grows within me each day.",
+        "tr": "Sabır her gün içimde büyüyor.",
+        "fr": "Patience grandit en moi chaque jour.",
+        "pt": "Patience cresce dentro de mim todos os dias.",
+        "nl": "Patience groeit elke dag in mij.",
+        "es": "Patience crece dentro de mí cada día.",
+        "de": "Patience wächst jeden Tag in mir.",
+        "it": "Patience cresce in me ogni giorno.",
+        "ru": "Patience растёт во мне каждый день.",
+        "id": "Patience tumbuh di dalam diri saya setiap hari.",
+        "ja": "Patienceは毎日私の中で育ちます。",
+        "th": "Patienceเติบโตในตัวฉันทุกวัน",
+        "ms": "Patience berkembang dalam diri saya setiap hari."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create space for Patience now.",
+        "tr": "Şimdi Sabır için alan yaratıyorum.",
+        "fr": "Je crée de l'espace pour Patience maintenant.",
+        "pt": "Eu crio espaço para Patience agora.",
+        "nl": "Ik maak nu ruimte voor Patience.",
+        "es": "Creo espacio para Patience ahora.",
+        "de": "Ich schaffe jetzt Raum für Patience.",
+        "it": "Creo spazio per Patience ora.",
+        "ru": "Я создаю пространство для Patience сейчас.",
+        "id": "Saya menciptakan ruang untuk Patience sekarang.",
+        "ja": "今、Patienceのための余白をつくります。",
+        "th": "ฉันสร้างพื้นที่สำหรับPatienceในตอนนี้",
+        "ms": "Saya mewujudkan ruang untuk Patience sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the path of Patience.",
+        "tr": "Sabır yoluna güveniyorum.",
+        "fr": "Je fais confiance au chemin de Patience.",
+        "pt": "Eu confio no caminho de Patience.",
+        "nl": "Ik vertrouw op het pad van Patience.",
+        "es": "Confío en el camino de Patience.",
+        "de": "Ich vertraue dem Weg von Patience.",
+        "it": "Mi fido del percorso di Patience.",
+        "ru": "Я доверяю пути Patience.",
+        "id": "Saya percaya pada jalan Patience.",
+        "ja": "私はPatienceの道を信じます。",
+        "th": "ฉันเชื่อมั่นในเส้นทางของPatience",
+        "ms": "Saya percaya pada jalan Patience."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
         ]
       },
       "readTime": "0"
