@@ -34,19 +34,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["understanding", "harmony", "compassion"],
-        "tr": ["anlayış", "uyum", "şefkat"],
-        "fr": ["compréhension", "harmonie", "compassion"],
-        "pt": ["compreensão", "harmonia", "compaixão"],
-        "nl": ["begrip", "harmonie", "mededogen"],
-        "es": ["comprensión", "armonía", "compasión"],
-        "de": ["Verständnis", "Harmonie", "Mitgefühl"],
-        "it": ["comprensione", "armonia", "compassione"],
-        "ru": ["понимание", "гармония", "сочувствие"],
-        "id": ["pengertian", "harmoni", "kasih sayang"],
-        "ja": ["理解", "調和", "慈悲"],
-        "th": ["ความเข้าใจ", "ความสามัคคี", "ความเห็นอกเห็นใจ"],
-        "ms": ["persefahaman", "keharmonian", "belas kasihan"]
+        "en": [
+          "understanding",
+          "harmony",
+          "compassion"
+        ],
+        "tr": [
+          "anlayış",
+          "uyum",
+          "şefkat"
+        ],
+        "fr": [
+          "compréhension",
+          "harmonie",
+          "compassion"
+        ],
+        "pt": [
+          "compreensão",
+          "harmonia",
+          "compaixão"
+        ],
+        "nl": [
+          "begrip",
+          "harmonie",
+          "mededogen"
+        ],
+        "es": [
+          "comprensión",
+          "armonía",
+          "compasión"
+        ],
+        "de": [
+          "Verständnis",
+          "Harmonie",
+          "Mitgefühl"
+        ],
+        "it": [
+          "comprensione",
+          "armonia",
+          "compassione"
+        ],
+        "ru": [
+          "понимание",
+          "гармония",
+          "сочувствие"
+        ],
+        "id": [
+          "pengertian",
+          "harmoni",
+          "kasih sayang"
+        ],
+        "ja": [
+          "理解",
+          "調和",
+          "慈悲"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "ความสามัคคี",
+          "ความเห็นอกเห็นใจ"
+        ],
+        "ms": [
+          "persefahaman",
+          "keharmonian",
+          "belas kasihan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "reconciliation", "healing"],
-        "tr": ["affetme", "uzlaşma", "iyileşme"],
-        "fr": ["pardon", "réconciliation", "guérison"],
-        "pt": ["perdão", "reconciliação", "cura"],
-        "nl": ["vergeving", "verzoening", "genezing"],
-        "es": ["perdón", "reconciliación", "curación"],
-        "de": ["Vergebung", "Versöhnung", "Heilung"],
-        "it": ["perdono", "riconciliazione", "guarigione"],
-        "ru": ["прощение", "примирение", "исцеление"],
-        "id": ["pengampunan", "rekonsiliasi", "penyembuhan"],
-        "ja": ["許し", "和解", "癒し"],
-        "th": ["การให้อภัย", "การปรองดอง", "การรักษา"],
-        "ms": ["pengampunan", "pendamaian", "penyembuhan"]
+        "en": [
+          "forgiveness",
+          "reconciliation",
+          "healing"
+        ],
+        "tr": [
+          "affetme",
+          "uzlaşma",
+          "iyileşme"
+        ],
+        "fr": [
+          "pardon",
+          "réconciliation",
+          "guérison"
+        ],
+        "pt": [
+          "perdão",
+          "reconciliação",
+          "cura"
+        ],
+        "nl": [
+          "vergeving",
+          "verzoening",
+          "genezing"
+        ],
+        "es": [
+          "perdón",
+          "reconciliación",
+          "curación"
+        ],
+        "de": [
+          "Vergebung",
+          "Versöhnung",
+          "Heilung"
+        ],
+        "it": [
+          "perdono",
+          "riconciliazione",
+          "guarigione"
+        ],
+        "ru": [
+          "прощение",
+          "примирение",
+          "исцеление"
+        ],
+        "id": [
+          "pengampunan",
+          "rekonsiliasi",
+          "penyembuhan"
+        ],
+        "ja": [
+          "許し",
+          "和解",
+          "癒し"
+        ],
+        "th": [
+          "การให้อภัย",
+          "การปรองดอง",
+          "การรักษา"
+        ],
+        "ms": [
+          "pengampunan",
+          "pendamaian",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["calmness", "connection", "empathy"],
-        "tr": ["sakinlik", "bağlantı", "empati"],
-        "fr": ["calme", "connexion", "empathie"],
-        "pt": ["calma", "conexão", "empatia"],
-        "nl": ["kalmte", "verbinding", "empathie"],
-        "es": ["calma", "conexión", "empatía"],
-        "de": ["Ruhe", "Verbindung", "Empathie"],
-        "it": ["calma", "connessione", "empatia"],
-        "ru": ["спокойствие", "связь", "эмпатия"],
-        "id": ["ketenangan", "koneksi", "empati"],
-        "ja": ["穏やかさ", "つながり", "共感"],
-        "th": ["ความสงบ", "การเชื่อมต่อ", "ความเห็นอกเห็นใจ"],
-        "ms": ["ketenangan", "hubungan", "empati"]
+        "en": [
+          "calmness",
+          "connection",
+          "empathy"
+        ],
+        "tr": [
+          "sakinlik",
+          "bağlantı",
+          "empati"
+        ],
+        "fr": [
+          "calme",
+          "connexion",
+          "empathie"
+        ],
+        "pt": [
+          "calma",
+          "conexão",
+          "empatia"
+        ],
+        "nl": [
+          "kalmte",
+          "verbinding",
+          "empathie"
+        ],
+        "es": [
+          "calma",
+          "conexión",
+          "empatía"
+        ],
+        "de": [
+          "Ruhe",
+          "Verbindung",
+          "Empathie"
+        ],
+        "it": [
+          "calma",
+          "connessione",
+          "empatia"
+        ],
+        "ru": [
+          "спокойствие",
+          "связь",
+          "эмпатия"
+        ],
+        "id": [
+          "ketenangan",
+          "koneksi",
+          "empati"
+        ],
+        "ja": [
+          "穏やかさ",
+          "つながり",
+          "共感"
+        ],
+        "th": [
+          "ความสงบ",
+          "การเชื่อมต่อ",
+          "ความเห็นอกเห็นใจ"
+        ],
+        "ms": [
+          "ketenangan",
+          "hubungan",
+          "empati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["unity", "aspiration", "collaboration"],
-        "tr": ["birlik", "hedef", "işbirliği"],
-        "fr": ["unité", "aspiration", "collaboration"],
-        "pt": ["unidade", "aspiração", "colaboração"],
-        "nl": ["eenheid", "streven", "samenwerking"],
-        "es": ["unidad", "aspiración", "colaboración"],
-        "de": ["Einheit", "Streben", "Zusammenarbeit"],
-        "it": ["unità", "aspirazione", "collaborazione"],
-        "ru": ["единство", "стремление", "сотрудничество"],
-        "id": ["persatuan", "aspirasi", "kolaborasi"],
-        "ja": ["団結", "志", "協力"],
-        "th": ["ความสามัคคี", "ความปรารถนา", "การร่วมมือ"],
-        "ms": ["perpaduan", "aspirasi", "kerjasama"]
+        "en": [
+          "unity",
+          "aspiration",
+          "collaboration"
+        ],
+        "tr": [
+          "birlik",
+          "hedef",
+          "işbirliği"
+        ],
+        "fr": [
+          "unité",
+          "aspiration",
+          "collaboration"
+        ],
+        "pt": [
+          "unidade",
+          "aspiração",
+          "colaboração"
+        ],
+        "nl": [
+          "eenheid",
+          "streven",
+          "samenwerking"
+        ],
+        "es": [
+          "unidad",
+          "aspiración",
+          "colaboración"
+        ],
+        "de": [
+          "Einheit",
+          "Streben",
+          "Zusammenarbeit"
+        ],
+        "it": [
+          "unità",
+          "aspirazione",
+          "collaborazione"
+        ],
+        "ru": [
+          "единство",
+          "стремление",
+          "сотрудничество"
+        ],
+        "id": [
+          "persatuan",
+          "aspirasi",
+          "kolaborasi"
+        ],
+        "ja": [
+          "団結",
+          "志",
+          "協力"
+        ],
+        "th": [
+          "ความสามัคคี",
+          "ความปรารถนา",
+          "การร่วมมือ"
+        ],
+        "ms": [
+          "perpaduan",
+          "aspirasi",
+          "kerjasama"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["listening", "serenity", "understanding"],
-        "tr": ["dinleme", "huzur", "anlayış"],
-        "fr": ["écoute", "sérénité", "compréhension"],
-        "pt": ["escuta", "serenidade", "compreensão"],
-        "nl": ["luisteren", "sereniteit", "begrip"],
-        "es": ["escucha", "serenidad", "comprensión"],
-        "de": ["Zuhören", "Gelassenheit", "Verständnis"],
-        "it": ["ascolto", "serenità", "comprensione"],
-        "ru": ["слушание", "спокойствие", "понимание"],
-        "id": ["mendengarkan", "ketenangan", "pengertian"],
-        "ja": ["傾聴", "平穏", "理解"],
-        "th": ["การฟัง", "ความสงบ", "ความเข้าใจ"],
-        "ms": ["mendengar", "ketenangan", "persefahaman"]
+        "en": [
+          "listening",
+          "serenity",
+          "understanding"
+        ],
+        "tr": [
+          "dinleme",
+          "huzur",
+          "anlayış"
+        ],
+        "fr": [
+          "écoute",
+          "sérénité",
+          "compréhension"
+        ],
+        "pt": [
+          "escuta",
+          "serenidade",
+          "compreensão"
+        ],
+        "nl": [
+          "luisteren",
+          "sereniteit",
+          "begrip"
+        ],
+        "es": [
+          "escucha",
+          "serenidad",
+          "comprensión"
+        ],
+        "de": [
+          "Zuhören",
+          "Gelassenheit",
+          "Verständnis"
+        ],
+        "it": [
+          "ascolto",
+          "serenità",
+          "comprensione"
+        ],
+        "ru": [
+          "слушание",
+          "спокойствие",
+          "понимание"
+        ],
+        "id": [
+          "mendengarkan",
+          "ketenangan",
+          "pengertian"
+        ],
+        "ja": [
+          "傾聴",
+          "平穏",
+          "理解"
+        ],
+        "th": [
+          "การฟัง",
+          "ความสงบ",
+          "ความเข้าใจ"
+        ],
+        "ms": [
+          "mendengar",
+          "ketenangan",
+          "persefahaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -619,19 +879,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["cultivation", "breathing", "presence"],
-        "tr": ["geliştirme", "nefes", "varlık"],
-        "fr": ["cultivation", "respiration", "présence"],
-        "pt": ["cultivo", "respiração", "presença"],
-        "nl": ["cultivering", "ademhaling", "aanwezigheid"],
-        "es": ["cultivo", "respiración", "presencia"],
-        "de": ["kultivierung", "atmung", "gegenwart"],
-        "it": ["coltivazione", "respirazione", "presenza"],
-        "ru": ["культивирование", "дыхание", "присутствие"],
-        "id": ["penumbuhan", "pernapasan", "kehadiran"],
-        "ja": ["育成", "呼吸", "存在"],
-        "th": ["การปลูกฝัง", "การหายใจ", "การปรากฏตัว"],
-        "ms": ["penumbuhan", "pernafasan", "kehadiran"]
+        "en": [
+          "cultivation",
+          "breathing",
+          "presence"
+        ],
+        "tr": [
+          "geliştirme",
+          "nefes",
+          "varlık"
+        ],
+        "fr": [
+          "cultivation",
+          "respiration",
+          "présence"
+        ],
+        "pt": [
+          "cultivo",
+          "respiração",
+          "presença"
+        ],
+        "nl": [
+          "cultivering",
+          "ademhaling",
+          "aanwezigheid"
+        ],
+        "es": [
+          "cultivo",
+          "respiración",
+          "presencia"
+        ],
+        "de": [
+          "kultivierung",
+          "atmung",
+          "gegenwart"
+        ],
+        "it": [
+          "coltivazione",
+          "respirazione",
+          "presenza"
+        ],
+        "ru": [
+          "культивирование",
+          "дыхание",
+          "присутствие"
+        ],
+        "id": [
+          "penumbuhan",
+          "pernapasan",
+          "kehadiran"
+        ],
+        "ja": [
+          "育成",
+          "呼吸",
+          "存在"
+        ],
+        "th": [
+          "การปลูกฝัง",
+          "การหายใจ",
+          "การปรากฏตัว"
+        ],
+        "ms": [
+          "penumbuhan",
+          "pernafasan",
+          "kehadiran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -749,19 +1061,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "conflict", "relationships"],
-        "tr": ["seçim", "çatışma", "ilişkiler"],
-        "fr": ["choix", "conflit", "relations"],
-        "pt": ["escolha", "conflito", "relacionamentos"],
-        "nl": ["keuze", "conflict", "relaties"],
-        "es": ["elección", "conflicto", "relaciones"],
-        "de": ["wahl", "konflikt", "beziehungen"],
-        "it": ["scelta", "conflitto", "relazioni"],
-        "ru": ["выбор", "конфликт", "отношения"],
-        "id": ["pilihan", "konflik", "hubungan"],
-        "ja": ["選択", "対立", "関係"],
-        "th": ["การเลือก", "ความขัดแย้ง", "ความสัมพันธ์"],
-        "ms": ["pilihan", "konflik", "hubungan"]
+        "en": [
+          "choice",
+          "conflict",
+          "relationships"
+        ],
+        "tr": [
+          "seçim",
+          "çatışma",
+          "ilişkiler"
+        ],
+        "fr": [
+          "choix",
+          "conflit",
+          "relations"
+        ],
+        "pt": [
+          "escolha",
+          "conflito",
+          "relacionamentos"
+        ],
+        "nl": [
+          "keuze",
+          "conflict",
+          "relaties"
+        ],
+        "es": [
+          "elección",
+          "conflicto",
+          "relaciones"
+        ],
+        "de": [
+          "wahl",
+          "konflikt",
+          "beziehungen"
+        ],
+        "it": [
+          "scelta",
+          "conflitto",
+          "relazioni"
+        ],
+        "ru": [
+          "выбор",
+          "конфликт",
+          "отношения"
+        ],
+        "id": [
+          "pilihan",
+          "konflik",
+          "hubungan"
+        ],
+        "ja": [
+          "選択",
+          "対立",
+          "関係"
+        ],
+        "th": [
+          "การเลือก",
+          "ความขัดแย้ง",
+          "ความสัมพันธ์"
+        ],
+        "ms": [
+          "pilihan",
+          "konflik",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -879,19 +1243,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["release", "judgment", "acceptance"],
-        "tr": ["bırakma", "yargı", "kabul"],
-        "fr": ["relâchement", "jugement", "acceptation"],
-        "pt": ["libertação", "julgamento", "aceitação"],
-        "nl": ["loslaten", "oordeel", "acceptatie"],
-        "es": ["liberación", "juicio", "aceptación"],
-        "de": ["freilassung", "urteil", "akzeptanz"],
-        "it": ["rilascio", "giudizio", "accettazione"],
-        "ru": ["освобождение", "суждение", "принятие"],
-        "id": ["pelepasan", "penilaian", "penerimaan"],
-        "ja": ["解放", "判断", "受容"],
-        "th": ["การปล่อย", "การตัดสิน", "การยอมรับ"],
-        "ms": ["pelepasan", "penghakiman", "penerimaan"]
+        "en": [
+          "release",
+          "judgment",
+          "acceptance"
+        ],
+        "tr": [
+          "bırakma",
+          "yargı",
+          "kabul"
+        ],
+        "fr": [
+          "relâchement",
+          "jugement",
+          "acceptation"
+        ],
+        "pt": [
+          "libertação",
+          "julgamento",
+          "aceitação"
+        ],
+        "nl": [
+          "loslaten",
+          "oordeel",
+          "acceptatie"
+        ],
+        "es": [
+          "liberación",
+          "juicio",
+          "aceptación"
+        ],
+        "de": [
+          "freilassung",
+          "urteil",
+          "akzeptanz"
+        ],
+        "it": [
+          "rilascio",
+          "giudizio",
+          "accettazione"
+        ],
+        "ru": [
+          "освобождение",
+          "суждение",
+          "принятие"
+        ],
+        "id": [
+          "pelepasan",
+          "penilaian",
+          "penerimaan"
+        ],
+        "ja": [
+          "解放",
+          "判断",
+          "受容"
+        ],
+        "th": [
+          "การปล่อย",
+          "การตัดสิน",
+          "การยอมรับ"
+        ],
+        "ms": [
+          "pelepasan",
+          "penghakiman",
+          "penerimaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1009,19 +1425,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["present", "freedom", "mindfulness"],
-        "tr": ["şimdiki", "özgürlük", "farkındalık"],
-        "fr": ["présent", "liberté", "pleine conscience"],
-        "pt": ["presente", "liberdade", "consciência plena"],
-        "nl": ["heden", "vrijheid", "mindfulness"],
-        "es": ["presente", "libertad", "atención plena"],
-        "de": ["gegenwart", "freiheit", "achtsamkeit"],
-        "it": ["presente", "libertà", "consapevolezza"],
-        "ru": ["настоящее", "свобода", "осознанность"],
-        "id": ["sekarang", "kebebasan", "kesadaran"],
-        "ja": ["現在", "自由", "マインドフルネス"],
-        "th": ["ปัจจุบัน", "เสรีภาพ", "สติ"],
-        "ms": ["sekarang", "kebebasan", "kesedaran"]
+        "en": [
+          "present",
+          "freedom",
+          "mindfulness"
+        ],
+        "tr": [
+          "şimdiki",
+          "özgürlük",
+          "farkındalık"
+        ],
+        "fr": [
+          "présent",
+          "liberté",
+          "pleine conscience"
+        ],
+        "pt": [
+          "presente",
+          "liberdade",
+          "consciência plena"
+        ],
+        "nl": [
+          "heden",
+          "vrijheid",
+          "mindfulness"
+        ],
+        "es": [
+          "presente",
+          "libertad",
+          "atención plena"
+        ],
+        "de": [
+          "gegenwart",
+          "freiheit",
+          "achtsamkeit"
+        ],
+        "it": [
+          "presente",
+          "libertà",
+          "consapevolezza"
+        ],
+        "ru": [
+          "настоящее",
+          "свобода",
+          "осознанность"
+        ],
+        "id": [
+          "sekarang",
+          "kebebasan",
+          "kesadaran"
+        ],
+        "ja": [
+          "現在",
+          "自由",
+          "マインドフルネス"
+        ],
+        "th": [
+          "ปัจจุบัน",
+          "เสรีภาพ",
+          "สติ"
+        ],
+        "ms": [
+          "sekarang",
+          "kebebasan",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1139,19 +1607,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creation", "radiation", "harmony"],
-        "tr": ["yaratma", "yayma", "uyum"],
-        "fr": ["création", "rayonnement", "harmonie"],
-        "pt": ["criação", "irradiação", "harmonia"],
-        "nl": ["schepping", "straling", "harmonie"],
-        "es": ["creación", "irradiación", "armonía"],
-        "de": ["schöpfung", "ausstrahlung", "harmonie"],
-        "it": ["creazione", "irradiazione", "armonia"],
-        "ru": ["создание", "излучение", "гармония"],
-        "id": ["penciptaan", "pancaran", "harmoni"],
-        "ja": ["創造", "放射", "調和"],
-        "th": ["การสร้าง", "การแผ่รังสี", "ความสามัคคี"],
-        "ms": ["penciptaan", "pancaran", "harmoni"]
+        "en": [
+          "creation",
+          "radiation",
+          "harmony"
+        ],
+        "tr": [
+          "yaratma",
+          "yayma",
+          "uyum"
+        ],
+        "fr": [
+          "création",
+          "rayonnement",
+          "harmonie"
+        ],
+        "pt": [
+          "criação",
+          "irradiação",
+          "harmonia"
+        ],
+        "nl": [
+          "schepping",
+          "straling",
+          "harmonie"
+        ],
+        "es": [
+          "creación",
+          "irradiación",
+          "armonía"
+        ],
+        "de": [
+          "schöpfung",
+          "ausstrahlung",
+          "harmonie"
+        ],
+        "it": [
+          "creazione",
+          "irradiazione",
+          "armonia"
+        ],
+        "ru": [
+          "создание",
+          "излучение",
+          "гармония"
+        ],
+        "id": [
+          "penciptaan",
+          "pancaran",
+          "harmoni"
+        ],
+        "ja": [
+          "創造",
+          "放射",
+          "調和"
+        ],
+        "th": [
+          "การสร้าง",
+          "การแผ่รังสี",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "penciptaan",
+          "pancaran",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1269,19 +1789,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "healing", "harmony"],
-        "tr": ["bağışlama", "şifa", "uyum"],
-        "fr": ["pardon", "guérison", "harmonie"],
-        "pt": ["perdão", "cura", "harmonia"],
-        "nl": ["vergeving", "genezing", "harmonie"],
-        "es": ["perdón", "sanación", "armonía"],
-        "de": ["vergebung", "heilung", "harmonie"],
-        "it": ["perdono", "guarigione", "armonia"],
-        "ru": ["прощение", "исцеление", "гармония"],
-        "id": ["pengampunan", "penyembuhan", "harmoni"],
-        "ja": ["許し", "癒し", "調和"],
-        "th": ["การให้อภัย", "การรักษา", "ความสามัคคี"],
-        "ms": ["pengampunan", "penyembuhan", "harmoni"]
+        "en": [
+          "forgiveness",
+          "healing",
+          "harmony"
+        ],
+        "tr": [
+          "bağışlama",
+          "şifa",
+          "uyum"
+        ],
+        "fr": [
+          "pardon",
+          "guérison",
+          "harmonie"
+        ],
+        "pt": [
+          "perdão",
+          "cura",
+          "harmonia"
+        ],
+        "nl": [
+          "vergeving",
+          "genezing",
+          "harmonie"
+        ],
+        "es": [
+          "perdón",
+          "sanación",
+          "armonía"
+        ],
+        "de": [
+          "vergebung",
+          "heilung",
+          "harmonie"
+        ],
+        "it": [
+          "perdono",
+          "guarigione",
+          "armonia"
+        ],
+        "ru": [
+          "прощение",
+          "исцеление",
+          "гармония"
+        ],
+        "id": [
+          "pengampunan",
+          "penyembuhan",
+          "harmoni"
+        ],
+        "ja": [
+          "許し",
+          "癒し",
+          "調和"
+        ],
+        "th": [
+          "การให้อภัย",
+          "การรักษา",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "pengampunan",
+          "penyembuhan",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1399,19 +1971,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["simplicity", "gratitude", "contentment"],
-        "tr": ["basitlik", "şükran", "memnuniyet"],
-        "fr": ["simplicité", "gratitude", "contentement"],
-        "pt": ["simplicidade", "gratidão", "contentamento"],
-        "nl": ["eenvoud", "dankbaarheid", "tevredenheid"],
-        "es": ["simplicidad", "gratitud", "contento"],
-        "de": ["einfachheit", "dankbarkeit", "zufriedenheit"],
-        "it": ["semplicità", "gratitudine", "contentezza"],
-        "ru": ["простота", "благодарность", "удовлетворенность"],
-        "id": ["kesederhanaan", "rasa syukur", "kepuasan"],
-        "ja": ["シンプルさ", "感謝", "満足"],
-        "th": ["ความเรียบง่าย", "ความขอบคุณ", "ความพอใจ"],
-        "ms": ["kesederhanaan", "rasa syukur", "kepuasan"]
+        "en": [
+          "simplicity",
+          "gratitude",
+          "contentment"
+        ],
+        "tr": [
+          "basitlik",
+          "şükran",
+          "memnuniyet"
+        ],
+        "fr": [
+          "simplicité",
+          "gratitude",
+          "contentement"
+        ],
+        "pt": [
+          "simplicidade",
+          "gratidão",
+          "contentamento"
+        ],
+        "nl": [
+          "eenvoud",
+          "dankbaarheid",
+          "tevredenheid"
+        ],
+        "es": [
+          "simplicidad",
+          "gratitud",
+          "contento"
+        ],
+        "de": [
+          "einfachheit",
+          "dankbarkeit",
+          "zufriedenheit"
+        ],
+        "it": [
+          "semplicità",
+          "gratitudine",
+          "contentezza"
+        ],
+        "ru": [
+          "простота",
+          "благодарность",
+          "удовлетворенность"
+        ],
+        "id": [
+          "kesederhanaan",
+          "rasa syukur",
+          "kepuasan"
+        ],
+        "ja": [
+          "シンプルさ",
+          "感謝",
+          "満足"
+        ],
+        "th": [
+          "ความเรียบง่าย",
+          "ความขอบคุณ",
+          "ความพอใจ"
+        ],
+        "ms": [
+          "kesederhanaan",
+          "rasa syukur",
+          "kepuasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1529,19 +2153,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "surrender", "flow"],
-        "tr": ["güven", "teslimiyet", "akış"],
-        "fr": ["confiance", "reddition", "flux"],
-        "pt": ["confiança", "rendição", "fluxo"],
-        "nl": ["vertrouwen", "overgave", "stroom"],
-        "es": ["confianza", "rendición", "flujo"],
-        "de": ["vertrauen", "hingabe", "fluss"],
-        "it": ["fiducia", "resa", "flusso"],
-        "ru": ["доверие", "сдача", "поток"],
-        "id": ["kepercayaan", "penyerahan", "aliran"],
-        "ja": ["信頼", "降伏", "流れ"],
-        "th": ["ความไว้วางใจ", "การยอมจำนน", "กระแส"],
-        "ms": ["kepercayaan", "penyerahan", "aliran"]
+        "en": [
+          "trust",
+          "surrender",
+          "flow"
+        ],
+        "tr": [
+          "güven",
+          "teslimiyet",
+          "akış"
+        ],
+        "fr": [
+          "confiance",
+          "reddition",
+          "flux"
+        ],
+        "pt": [
+          "confiança",
+          "rendição",
+          "fluxo"
+        ],
+        "nl": [
+          "vertrouwen",
+          "overgave",
+          "stroom"
+        ],
+        "es": [
+          "confianza",
+          "rendición",
+          "flujo"
+        ],
+        "de": [
+          "vertrauen",
+          "hingabe",
+          "fluss"
+        ],
+        "it": [
+          "fiducia",
+          "resa",
+          "flusso"
+        ],
+        "ru": [
+          "доверие",
+          "сдача",
+          "поток"
+        ],
+        "id": [
+          "kepercayaan",
+          "penyerahan",
+          "aliran"
+        ],
+        "ja": [
+          "信頼",
+          "降伏",
+          "流れ"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "การยอมจำนน",
+          "กระแส"
+        ],
+        "ms": [
+          "kepercayaan",
+          "penyerahan",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1659,19 +2335,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["letting go", "acceptance", "focus"],
-        "tr": ["bırakma", "kabul", "odak"],
-        "fr": ["lâcher prise", "acceptation", "concentration"],
-        "pt": ["deixar ir", "aceitação", "foco"],
-        "nl": ["loslaten", "acceptatie", "focus"],
-        "es": ["dejar ir", "aceptación", "enfoque"],
-        "de": ["loslassen", "akzeptanz", "fokus"],
-        "it": ["lasciar andare", "accettazione", "concentrazione"],
-        "ru": ["отпускать", "принятие", "фокус"],
-        "id": ["melepaskan", "penerimaan", "fokus"],
-        "ja": ["手放す", "受容", "集中"],
-        "th": ["ปล่อยวาง", "การยอมรับ", "โฟกัส"],
-        "ms": ["melepaskan", "penerimaan", "fokus"]
+        "en": [
+          "letting go",
+          "acceptance",
+          "focus"
+        ],
+        "tr": [
+          "bırakma",
+          "kabul",
+          "odak"
+        ],
+        "fr": [
+          "lâcher prise",
+          "acceptation",
+          "concentration"
+        ],
+        "pt": [
+          "deixar ir",
+          "aceitação",
+          "foco"
+        ],
+        "nl": [
+          "loslaten",
+          "acceptatie",
+          "focus"
+        ],
+        "es": [
+          "dejar ir",
+          "aceptación",
+          "enfoque"
+        ],
+        "de": [
+          "loslassen",
+          "akzeptanz",
+          "fokus"
+        ],
+        "it": [
+          "lasciar andare",
+          "accettazione",
+          "concentrazione"
+        ],
+        "ru": [
+          "отпускать",
+          "принятие",
+          "фокус"
+        ],
+        "id": [
+          "melepaskan",
+          "penerimaan",
+          "fokus"
+        ],
+        "ja": [
+          "手放す",
+          "受容",
+          "集中"
+        ],
+        "th": [
+          "ปล่อยวาง",
+          "การยอมรับ",
+          "โฟกัส"
+        ],
+        "ms": [
+          "melepaskan",
+          "penerimaan",
+          "fokus"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2517,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "thoughts", "worry"],
-        "tr": ["seçim", "düşünceler", "endişe"],
-        "fr": ["choix", "pensées", "inquiétude"],
-        "pt": ["escolha", "pensamentos", "preocupação"],
-        "nl": ["keuze", "gedachten", "zorgen"],
-        "es": ["elección", "pensamientos", "preocupación"],
-        "de": ["wahl", "gedanken", "sorgen"],
-        "it": ["scelta", "pensieri", "preoccupazione"],
-        "ru": ["выбор", "мысли", "беспокойство"],
-        "id": ["pilihan", "pikiran", "kekhawatiran"],
-        "ja": ["選択", "考え", "心配"],
-        "th": ["การเลือก", "ความคิด", "ความวิตก"],
-        "ms": ["pilihan", "pemikiran", "kebimbangan"]
+        "en": [
+          "choice",
+          "thoughts",
+          "worry"
+        ],
+        "tr": [
+          "seçim",
+          "düşünceler",
+          "endişe"
+        ],
+        "fr": [
+          "choix",
+          "pensées",
+          "inquiétude"
+        ],
+        "pt": [
+          "escolha",
+          "pensamentos",
+          "preocupação"
+        ],
+        "nl": [
+          "keuze",
+          "gedachten",
+          "zorgen"
+        ],
+        "es": [
+          "elección",
+          "pensamientos",
+          "preocupación"
+        ],
+        "de": [
+          "wahl",
+          "gedanken",
+          "sorgen"
+        ],
+        "it": [
+          "scelta",
+          "pensieri",
+          "preoccupazione"
+        ],
+        "ru": [
+          "выбор",
+          "мысли",
+          "беспокойство"
+        ],
+        "id": [
+          "pilihan",
+          "pikiran",
+          "kekhawatiran"
+        ],
+        "ja": [
+          "選択",
+          "考え",
+          "心配"
+        ],
+        "th": [
+          "การเลือก",
+          "ความคิด",
+          "ความวิตก"
+        ],
+        "ms": [
+          "pilihan",
+          "pemikiran",
+          "kebimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1919,19 +2699,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["radiation", "consciousness", "harmony"],
-        "tr": ["yayma", "farkındalık", "uyum"],
-        "fr": ["rayonnement", "conscience", "harmonie"],
-        "pt": ["irradiação", "consciência", "harmonia"],
-        "nl": ["straling", "bewustzijn", "harmonie"],
-        "es": ["irradiación", "conciencia", "armonía"],
-        "de": ["ausstrahlung", "bewusstsein", "harmonie"],
-        "it": ["irradiazione", "consapevolezza", "armonia"],
-        "ru": ["излучение", "сознание", "гармония"],
-        "id": ["pancaran", "kesadaran", "harmoni"],
-        "ja": ["放射", "意識", "調和"],
-        "th": ["การแผ่รังสี", "ความตระหนัก", "ความสามัคคี"],
-        "ms": ["pancaran", "kesedaran", "harmoni"]
+        "en": [
+          "radiation",
+          "consciousness",
+          "harmony"
+        ],
+        "tr": [
+          "yayma",
+          "farkındalık",
+          "uyum"
+        ],
+        "fr": [
+          "rayonnement",
+          "conscience",
+          "harmonie"
+        ],
+        "pt": [
+          "irradiação",
+          "consciência",
+          "harmonia"
+        ],
+        "nl": [
+          "straling",
+          "bewustzijn",
+          "harmonie"
+        ],
+        "es": [
+          "irradiación",
+          "conciencia",
+          "armonía"
+        ],
+        "de": [
+          "ausstrahlung",
+          "bewusstsein",
+          "harmonie"
+        ],
+        "it": [
+          "irradiazione",
+          "consapevolezza",
+          "armonia"
+        ],
+        "ru": [
+          "излучение",
+          "сознание",
+          "гармония"
+        ],
+        "id": [
+          "pancaran",
+          "kesadaran",
+          "harmoni"
+        ],
+        "ja": [
+          "放射",
+          "意識",
+          "調和"
+        ],
+        "th": [
+          "การแผ่รังสี",
+          "ความตระหนัก",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "pancaran",
+          "kesedaran",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2049,19 +2881,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["rhythm", "flow", "acceptance"],
-        "tr": ["ritim", "akış", "kabul"],
-        "fr": ["rythme", "flux", "acceptation"],
-        "pt": ["ritmo", "fluxo", "aceitação"],
-        "nl": ["ritme", "stroom", "acceptatie"],
-        "es": ["ritmo", "flujo", "aceptación"],
-        "de": ["rhythmus", "fluss", "akzeptanz"],
-        "it": ["ritmo", "flusso", "accettazione"],
-        "ru": ["ритм", "поток", "принятие"],
-        "id": ["irama", "aliran", "penerimaan"],
-        "ja": ["リズム", "流れ", "受容"],
-        "th": ["จังหวะ", "กระแส", "การยอมรับ"],
-        "ms": ["irama", "aliran", "penerimaan"]
+        "en": [
+          "rhythm",
+          "flow",
+          "acceptance"
+        ],
+        "tr": [
+          "ritim",
+          "akış",
+          "kabul"
+        ],
+        "fr": [
+          "rythme",
+          "flux",
+          "acceptation"
+        ],
+        "pt": [
+          "ritmo",
+          "fluxo",
+          "aceitação"
+        ],
+        "nl": [
+          "ritme",
+          "stroom",
+          "acceptatie"
+        ],
+        "es": [
+          "ritmo",
+          "flujo",
+          "aceptación"
+        ],
+        "de": [
+          "rhythmus",
+          "fluss",
+          "akzeptanz"
+        ],
+        "it": [
+          "ritmo",
+          "flusso",
+          "accettazione"
+        ],
+        "ru": [
+          "ритм",
+          "поток",
+          "принятие"
+        ],
+        "id": [
+          "irama",
+          "aliran",
+          "penerimaan"
+        ],
+        "ja": [
+          "リズム",
+          "流れ",
+          "受容"
+        ],
+        "th": [
+          "จังหวะ",
+          "กระแส",
+          "การยอมรับ"
+        ],
+        "ms": [
+          "irama",
+          "aliran",
+          "penerimaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2179,19 +3063,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["release", "tension", "welcome"],
-        "tr": ["bırakma", "gerginlik", "hoş geldin"],
-        "fr": ["relâchement", "tension", "accueil"],
-        "pt": ["libertação", "tensão", "boas-vindas"],
-        "nl": ["loslaten", "spanning", "verwelkomen"],
-        "es": ["liberación", "tensión", "bienvenida"],
-        "de": ["freilassung", "spannung", "willkommen"],
-        "it": ["rilascio", "tensione", "benvenuto"],
-        "ru": ["освобождение", "напряжение", "приветствие"],
-        "id": ["pelepasan", "ketegangan", "selamat datang"],
-        "ja": ["解放", "緊張", "歓迎"],
-        "th": ["การปล่อย", "ความเครียด", "การต้อนรับ"],
-        "ms": ["pelepasan", "ketegangan", "selamat datang"]
+        "en": [
+          "release",
+          "tension",
+          "welcome"
+        ],
+        "tr": [
+          "bırakma",
+          "gerginlik",
+          "hoş geldin"
+        ],
+        "fr": [
+          "relâchement",
+          "tension",
+          "accueil"
+        ],
+        "pt": [
+          "libertação",
+          "tensão",
+          "boas-vindas"
+        ],
+        "nl": [
+          "loslaten",
+          "spanning",
+          "verwelkomen"
+        ],
+        "es": [
+          "liberación",
+          "tensión",
+          "bienvenida"
+        ],
+        "de": [
+          "freilassung",
+          "spannung",
+          "willkommen"
+        ],
+        "it": [
+          "rilascio",
+          "tensione",
+          "benvenuto"
+        ],
+        "ru": [
+          "освобождение",
+          "напряжение",
+          "приветствие"
+        ],
+        "id": [
+          "pelepasan",
+          "ketegangan",
+          "selamat datang"
+        ],
+        "ja": [
+          "解放",
+          "緊張",
+          "歓迎"
+        ],
+        "th": [
+          "การปล่อย",
+          "ความเครียด",
+          "การต้อนรับ"
+        ],
+        "ms": [
+          "pelepasan",
+          "ketegangan",
+          "selamat datang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2309,19 +3245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["self-acceptance", "harmony", "contentment"],
-        "tr": ["öz-kabul", "uyum", "memnuniyet"],
-        "fr": ["acceptation de soi", "harmonie", "contentement"],
-        "pt": ["aceitação própria", "harmonia", "contentamento"],
-        "nl": ["zelfacceptatie", "harmonie", "tevredenheid"],
-        "es": ["aceptación propia", "armonía", "contento"],
-        "de": ["selbstakzeptanz", "harmonie", "zufriedenheit"],
-        "it": ["accettazione di sé", "armonia", "contentezza"],
-        "ru": ["самопринятие", "гармония", "удовлетворенность"],
-        "id": ["penerimaan diri", "harmoni", "kepuasan"],
-        "ja": ["自己受容", "調和", "満足"],
-        "th": ["การยอมรับตนเอง", "ความสามัคคี", "ความพอใจ"],
-        "ms": ["penerimaan diri", "harmoni", "kepuasan"]
+        "en": [
+          "self-acceptance",
+          "harmony",
+          "contentment"
+        ],
+        "tr": [
+          "öz-kabul",
+          "uyum",
+          "memnuniyet"
+        ],
+        "fr": [
+          "acceptation de soi",
+          "harmonie",
+          "contentement"
+        ],
+        "pt": [
+          "aceitação própria",
+          "harmonia",
+          "contentamento"
+        ],
+        "nl": [
+          "zelfacceptatie",
+          "harmonie",
+          "tevredenheid"
+        ],
+        "es": [
+          "aceptación propia",
+          "armonía",
+          "contento"
+        ],
+        "de": [
+          "selbstakzeptanz",
+          "harmonie",
+          "zufriedenheit"
+        ],
+        "it": [
+          "accettazione di sé",
+          "armonia",
+          "contentezza"
+        ],
+        "ru": [
+          "самопринятие",
+          "гармония",
+          "удовлетворенность"
+        ],
+        "id": [
+          "penerimaan diri",
+          "harmoni",
+          "kepuasan"
+        ],
+        "ja": [
+          "自己受容",
+          "調和",
+          "満足"
+        ],
+        "th": [
+          "การยอมรับตนเอง",
+          "ความสามัคคี",
+          "ความพอใจ"
+        ],
+        "ms": [
+          "penerimaan diri",
+          "harmoni",
+          "kepuasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2439,19 +3427,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "response", "consciousness"],
-        "tr": ["seçim", "yanıt", "farkındalık"],
-        "fr": ["choix", "réponse", "conscience"],
-        "pt": ["escolha", "resposta", "consciência"],
-        "nl": ["keuze", "reactie", "bewustzijn"],
-        "es": ["elección", "respuesta", "conciencia"],
-        "de": ["wahl", "reaktion", "bewusstsein"],
-        "it": ["scelta", "risposta", "consapevolezza"],
-        "ru": ["выбор", "ответ", "сознание"],
-        "id": ["pilihan", "tanggapan", "kesadaran"],
-        "ja": ["選択", "対応", "意識"],
-        "th": ["การเลือก", "การตอบสนอง", "ความตระหนัก"],
-        "ms": ["pilihan", "respons", "kesedaran"]
+        "en": [
+          "choice",
+          "response",
+          "consciousness"
+        ],
+        "tr": [
+          "seçim",
+          "yanıt",
+          "farkındalık"
+        ],
+        "fr": [
+          "choix",
+          "réponse",
+          "conscience"
+        ],
+        "pt": [
+          "escolha",
+          "resposta",
+          "consciência"
+        ],
+        "nl": [
+          "keuze",
+          "reactie",
+          "bewustzijn"
+        ],
+        "es": [
+          "elección",
+          "respuesta",
+          "conciencia"
+        ],
+        "de": [
+          "wahl",
+          "reaktion",
+          "bewusstsein"
+        ],
+        "it": [
+          "scelta",
+          "risposta",
+          "consapevolezza"
+        ],
+        "ru": [
+          "выбор",
+          "ответ",
+          "сознание"
+        ],
+        "id": [
+          "pilihan",
+          "tanggapan",
+          "kesadaran"
+        ],
+        "ja": [
+          "選択",
+          "対応",
+          "意識"
+        ],
+        "th": [
+          "การเลือก",
+          "การตอบสนอง",
+          "ความตระหนัก"
+        ],
+        "ms": [
+          "pilihan",
+          "respons",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2569,19 +3609,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["energy", "vibrations", "environment"],
-        "tr": ["enerji", "titreşimler", "çevre"],
-        "fr": ["énergie", "vibrations", "environnement"],
-        "pt": ["energia", "vibrações", "ambiente"],
-        "nl": ["energie", "vibraties", "omgeving"],
-        "es": ["energía", "vibraciones", "entorno"],
-        "de": ["energie", "schwingungen", "umgebung"],
-        "it": ["energia", "vibrazioni", "ambiente"],
-        "ru": ["энергия", "вибрации", "окружение"],
-        "id": ["energi", "getaran", "lingkungan"],
-        "ja": ["エネルギー", "振動", "環境"],
-        "th": ["พลังงาน", "ความสั่นสะเทือน", "สิ่งแวดล้อม"],
-        "ms": ["tenaga", "getaran", "persekitaran"]
+        "en": [
+          "energy",
+          "vibrations",
+          "environment"
+        ],
+        "tr": [
+          "enerji",
+          "titreşimler",
+          "çevre"
+        ],
+        "fr": [
+          "énergie",
+          "vibrations",
+          "environnement"
+        ],
+        "pt": [
+          "energia",
+          "vibrações",
+          "ambiente"
+        ],
+        "nl": [
+          "energie",
+          "vibraties",
+          "omgeving"
+        ],
+        "es": [
+          "energía",
+          "vibraciones",
+          "entorno"
+        ],
+        "de": [
+          "energie",
+          "schwingungen",
+          "umgebung"
+        ],
+        "it": [
+          "energia",
+          "vibrazioni",
+          "ambiente"
+        ],
+        "ru": [
+          "энергия",
+          "вибрации",
+          "окружение"
+        ],
+        "id": [
+          "energi",
+          "getaran",
+          "lingkungan"
+        ],
+        "ja": [
+          "エネルギー",
+          "振動",
+          "環境"
+        ],
+        "th": [
+          "พลังงาน",
+          "ความสั่นสะเทือน",
+          "สิ่งแวดล้อม"
+        ],
+        "ms": [
+          "tenaga",
+          "getaran",
+          "persekitaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2699,19 +3791,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "decisions", "actions"],
-        "tr": ["yönlendirme", "kararlar", "eylemler"],
-        "fr": ["guidance", "décisions", "actions"],
-        "pt": ["orientação", "decisões", "ações"],
-        "nl": ["begeleiding", "beslissingen", "acties"],
-        "es": ["guía", "decisiones", "acciones"],
-        "de": ["führung", "entscheidungen", "handlungen"],
-        "it": ["guida", "decisioni", "azioni"],
-        "ru": ["направление", "решения", "действия"],
-        "id": ["panduan", "keputusan", "tindakan"],
-        "ja": ["指導", "決定", "行動"],
-        "th": ["คำแนะนำ", "การตัดสินใจ", "การกระทำ"],
-        "ms": ["panduan", "keputusan", "tindakan"]
+        "en": [
+          "guidance",
+          "decisions",
+          "actions"
+        ],
+        "tr": [
+          "yönlendirme",
+          "kararlar",
+          "eylemler"
+        ],
+        "fr": [
+          "guidance",
+          "décisions",
+          "actions"
+        ],
+        "pt": [
+          "orientação",
+          "decisões",
+          "ações"
+        ],
+        "nl": [
+          "begeleiding",
+          "beslissingen",
+          "acties"
+        ],
+        "es": [
+          "guía",
+          "decisiones",
+          "acciones"
+        ],
+        "de": [
+          "führung",
+          "entscheidungen",
+          "handlungen"
+        ],
+        "it": [
+          "guida",
+          "decisioni",
+          "azioni"
+        ],
+        "ru": [
+          "направление",
+          "решения",
+          "действия"
+        ],
+        "id": [
+          "panduan",
+          "keputusan",
+          "tindakan"
+        ],
+        "ja": [
+          "指導",
+          "決定",
+          "行動"
+        ],
+        "th": [
+          "คำแนะนำ",
+          "การตัดสินใจ",
+          "การกระทำ"
+        ],
+        "ms": [
+          "panduan",
+          "keputusan",
+          "tindakan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2829,19 +3973,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["silence", "thoughts", "meditation"],
-        "tr": ["sessizlik", "düşünceler", "meditasyon"],
-        "fr": ["silence", "pensées", "méditation"],
-        "pt": ["silêncio", "pensamentos", "meditação"],
-        "nl": ["stilte", "gedachten", "meditatie"],
-        "es": ["silencio", "pensamientos", "meditación"],
-        "de": ["stille", "gedanken", "meditation"],
-        "it": ["silenzio", "pensieri", "meditazione"],
-        "ru": ["тишина", "мысли", "медитация"],
-        "id": ["keheningan", "pikiran", "meditasi"],
-        "ja": ["沈黙", "思考", "瞑想"],
-        "th": ["ความเงียบ", "ความคิด", "การทำสมาธิ"],
-        "ms": ["kesunyian", "pemikiran", "meditasi"]
+        "en": [
+          "silence",
+          "thoughts",
+          "meditation"
+        ],
+        "tr": [
+          "sessizlik",
+          "düşünceler",
+          "meditasyon"
+        ],
+        "fr": [
+          "silence",
+          "pensées",
+          "méditation"
+        ],
+        "pt": [
+          "silêncio",
+          "pensamentos",
+          "meditação"
+        ],
+        "nl": [
+          "stilte",
+          "gedachten",
+          "meditatie"
+        ],
+        "es": [
+          "silencio",
+          "pensamientos",
+          "meditación"
+        ],
+        "de": [
+          "stille",
+          "gedanken",
+          "meditation"
+        ],
+        "it": [
+          "silenzio",
+          "pensieri",
+          "meditazione"
+        ],
+        "ru": [
+          "тишина",
+          "мысли",
+          "медитация"
+        ],
+        "id": [
+          "keheningan",
+          "pikiran",
+          "meditasi"
+        ],
+        "ja": [
+          "沈黙",
+          "思考",
+          "瞑想"
+        ],
+        "th": [
+          "ความเงียบ",
+          "ความคิด",
+          "การทำสมาธิ"
+        ],
+        "ms": [
+          "kesunyian",
+          "pemikiran",
+          "meditasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2959,19 +4155,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "prevail", "optimism"],
-        "tr": ["güven", "üstün gelmek", "iyimserlik"],
-        "fr": ["confiance", "prévaloir", "optimisme"],
-        "pt": ["confiança", "prevalecer", "otimismo"],
-        "nl": ["vertrouwen", "zegevieren", "optimisme"],
-        "es": ["confianza", "prevalecer", "optimismo"],
-        "de": ["vertrauen", "vorherrschen", "optimismus"],
-        "it": ["fiducia", "prevalere", "ottimismo"],
-        "ru": ["доверие", "восторжествовать", "оптимизм"],
-        "id": ["kepercayaan", "menang", "optimisme"],
-        "ja": ["信頼", "勝利", "楽観主義"],
-        "th": ["ความไว้วางใจ", "ครอบงำ", "ความมั่นใจ"],
-        "ms": ["kepercayaan", "menang", "optimisme"]
+        "en": [
+          "trust",
+          "prevail",
+          "optimism"
+        ],
+        "tr": [
+          "güven",
+          "üstün gelmek",
+          "iyimserlik"
+        ],
+        "fr": [
+          "confiance",
+          "prévaloir",
+          "optimisme"
+        ],
+        "pt": [
+          "confiança",
+          "prevalecer",
+          "otimismo"
+        ],
+        "nl": [
+          "vertrouwen",
+          "zegevieren",
+          "optimisme"
+        ],
+        "es": [
+          "confianza",
+          "prevalecer",
+          "optimismo"
+        ],
+        "de": [
+          "vertrauen",
+          "vorherrschen",
+          "optimismus"
+        ],
+        "it": [
+          "fiducia",
+          "prevalere",
+          "ottimismo"
+        ],
+        "ru": [
+          "доверие",
+          "восторжествовать",
+          "оптимизм"
+        ],
+        "id": [
+          "kepercayaan",
+          "menang",
+          "optimisme"
+        ],
+        "ja": [
+          "信頼",
+          "勝利",
+          "楽観主義"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "ครอบงำ",
+          "ความมั่นใจ"
+        ],
+        "ms": [
+          "kepercayaan",
+          "menang",
+          "optimisme"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3089,19 +4337,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["beacon", "influence", "leadership"],
-        "tr": ["fener", "etki", "liderlik"],
-        "fr": ["phare", "influence", "leadership"],
-        "pt": ["farol", "influência", "liderança"],
-        "nl": ["baken", "invloed", "leiderschap"],
-        "es": ["faro", "influencia", "liderazgo"],
-        "de": ["leuchtfeuer", "einfluss", "führung"],
-        "it": ["faro", "influenza", "leadership"],
-        "ru": ["маяк", "влияние", "лидерство"],
-        "id": ["mercusuar", "pengaruh", "kepemimpinan"],
-        "ja": ["灯台", "影響", "リーダーシップ"],
-        "th": ["ประภาคาร", "อิทธิพล", "การเป็นผู้นำ"],
-        "ms": ["mercusuar", "pengaruh", "kepimpinan"]
+        "en": [
+          "beacon",
+          "influence",
+          "leadership"
+        ],
+        "tr": [
+          "fener",
+          "etki",
+          "liderlik"
+        ],
+        "fr": [
+          "phare",
+          "influence",
+          "leadership"
+        ],
+        "pt": [
+          "farol",
+          "influência",
+          "liderança"
+        ],
+        "nl": [
+          "baken",
+          "invloed",
+          "leiderschap"
+        ],
+        "es": [
+          "faro",
+          "influencia",
+          "liderazgo"
+        ],
+        "de": [
+          "leuchtfeuer",
+          "einfluss",
+          "führung"
+        ],
+        "it": [
+          "faro",
+          "influenza",
+          "leadership"
+        ],
+        "ru": [
+          "маяк",
+          "влияние",
+          "лидерство"
+        ],
+        "id": [
+          "mercusuar",
+          "pengaruh",
+          "kepemimpinan"
+        ],
+        "ja": [
+          "灯台",
+          "影響",
+          "リーダーシップ"
+        ],
+        "th": [
+          "ประภาคาร",
+          "อิทธิพล",
+          "การเป็นผู้นำ"
+        ],
+        "ms": [
+          "mercusuar",
+          "pengaruh",
+          "kepimpinan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3219,19 +4519,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["breathing", "release", "mindfulness"],
-        "tr": ["nefes alma", "serbest bırakma", "farkındalık"],
-        "fr": ["respiration", "relâchement", "pleine conscience"],
-        "pt": ["respiração", "libertação", "atenção plena"],
-        "nl": ["ademhaling", "loslaten", "bewustzijn"],
-        "es": ["respiración", "liberación", "atención plena"],
-        "de": ["atmung", "freilassung", "achtsamkeit"],
-        "it": ["respirazione", "rilascio", "consapevolezza"],
-        "ru": ["дыхание", "освобождение", "осознанность"],
-        "id": ["pernapasan", "pelepasan", "kesadaran"],
-        "ja": ["呼吸", "解放", "マインドフルネス"],
-        "th": ["การหายใจ", "การปล่อย", "สติ"],
-        "ms": ["pernafasan", "pelepasan", "kesedaran"]
+        "en": [
+          "breathing",
+          "release",
+          "mindfulness"
+        ],
+        "tr": [
+          "nefes alma",
+          "serbest bırakma",
+          "farkındalık"
+        ],
+        "fr": [
+          "respiration",
+          "relâchement",
+          "pleine conscience"
+        ],
+        "pt": [
+          "respiração",
+          "libertação",
+          "atenção plena"
+        ],
+        "nl": [
+          "ademhaling",
+          "loslaten",
+          "bewustzijn"
+        ],
+        "es": [
+          "respiración",
+          "liberación",
+          "atención plena"
+        ],
+        "de": [
+          "atmung",
+          "freilassung",
+          "achtsamkeit"
+        ],
+        "it": [
+          "respirazione",
+          "rilascio",
+          "consapevolezza"
+        ],
+        "ru": [
+          "дыхание",
+          "освобождение",
+          "осознанность"
+        ],
+        "id": [
+          "pernapasan",
+          "pelepasan",
+          "kesadaran"
+        ],
+        "ja": [
+          "呼吸",
+          "解放",
+          "マインドフルネス"
+        ],
+        "th": [
+          "การหายใจ",
+          "การปล่อย",
+          "สติ"
+        ],
+        "ms": [
+          "pernafasan",
+          "pelepasan",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3349,19 +4701,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "acceptance", "balance"],
-        "tr": ["seçim", "kabul", "denge"],
-        "fr": ["choix", "acceptation", "équilibre"],
-        "pt": ["escolha", "aceitação", "equilíbrio"],
-        "nl": ["keuze", "acceptatie", "balans"],
-        "es": ["elección", "aceptación", "equilibrio"],
-        "de": ["wahl", "akzeptanz", "balance"],
-        "it": ["scelta", "accettazione", "equilibrio"],
-        "ru": ["выбор", "принятие", "баланс"],
-        "id": ["pilihan", "penerimaan", "keseimbangan"],
-        "ja": ["選択", "受容", "バランス"],
-        "th": ["การเลือก", "การยอมรับ", "สมดุล"],
-        "ms": ["pilihan", "penerimaan", "keseimbangan"]
+        "en": [
+          "choice",
+          "acceptance",
+          "balance"
+        ],
+        "tr": [
+          "seçim",
+          "kabul",
+          "denge"
+        ],
+        "fr": [
+          "choix",
+          "acceptation",
+          "équilibre"
+        ],
+        "pt": [
+          "escolha",
+          "aceitação",
+          "equilíbrio"
+        ],
+        "nl": [
+          "keuze",
+          "acceptatie",
+          "balans"
+        ],
+        "es": [
+          "elección",
+          "aceptación",
+          "equilibrio"
+        ],
+        "de": [
+          "wahl",
+          "akzeptanz",
+          "balance"
+        ],
+        "it": [
+          "scelta",
+          "accettazione",
+          "equilibrio"
+        ],
+        "ru": [
+          "выбор",
+          "принятие",
+          "баланс"
+        ],
+        "id": [
+          "pilihan",
+          "penerimaan",
+          "keseimbangan"
+        ],
+        "ja": [
+          "選択",
+          "受容",
+          "バランス"
+        ],
+        "th": [
+          "การเลือก",
+          "การยอมรับ",
+          "สมดุล"
+        ],
+        "ms": [
+          "pilihan",
+          "penerimaan",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3479,19 +4883,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["presence", "mindfulness", "now"],
-        "tr": ["hazır olma", "farkındalık", "şimdi"],
-        "fr": ["présence", "pleine conscience", "maintenant"],
-        "pt": ["presença", "atenção plena", "agora"],
-        "nl": ["aanwezigheid", "bewustzijn", "nu"],
-        "es": ["presencia", "atención plena", "ahora"],
-        "de": ["gegenwart", "achtsamkeit", "jetzt"],
-        "it": ["presenza", "consapevolezza", "ora"],
-        "ru": ["присутствие", "осознанность", "сейчас"],
-        "id": ["kehadiran", "kesadaran", "sekarang"],
-        "ja": ["存在", "マインドフルネス", "今"],
-        "th": ["การอยู่ร่วม", "สติ", "ตอนนี้"],
-        "ms": ["kehadiran", "kesedaran", "sekarang"]
+        "en": [
+          "presence",
+          "mindfulness",
+          "now"
+        ],
+        "tr": [
+          "hazır olma",
+          "farkındalık",
+          "şimdi"
+        ],
+        "fr": [
+          "présence",
+          "pleine conscience",
+          "maintenant"
+        ],
+        "pt": [
+          "presença",
+          "atenção plena",
+          "agora"
+        ],
+        "nl": [
+          "aanwezigheid",
+          "bewustzijn",
+          "nu"
+        ],
+        "es": [
+          "presencia",
+          "atención plena",
+          "ahora"
+        ],
+        "de": [
+          "gegenwart",
+          "achtsamkeit",
+          "jetzt"
+        ],
+        "it": [
+          "presenza",
+          "consapevolezza",
+          "ora"
+        ],
+        "ru": [
+          "присутствие",
+          "осознанность",
+          "сейчас"
+        ],
+        "id": [
+          "kehadiran",
+          "kesadaran",
+          "sekarang"
+        ],
+        "ja": [
+          "存在",
+          "マインドフルネス",
+          "今"
+        ],
+        "th": [
+          "การอยู่ร่วม",
+          "สติ",
+          "ตอนนี้"
+        ],
+        "ms": [
+          "kehadiran",
+          "kesedaran",
+          "sekarang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3609,19 +5065,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["cultivation", "gratitude", "practice"],
-        "tr": ["geliştirme", "şükran", "uygulama"],
-        "fr": ["culture", "gratitude", "pratique"],
-        "pt": ["cultivo", "gratidão", "prática"],
-        "nl": ["cultivering", "dankbaarheid", "praktijk"],
-        "es": ["cultivo", "gratitud", "práctica"],
-        "de": ["kultivierung", "dankbarkeit", "praxis"],
-        "it": ["coltivazione", "gratitudine", "pratica"],
-        "ru": ["культивирование", "благодарность", "практика"],
-        "id": ["penanaman", "rasa syukur", "praktik"],
-        "ja": ["育成", "感謝", "実践"],
-        "th": ["การปลูกฝัง", "ความซาบซึ้ง", "การปฏิบัติ"],
-        "ms": ["penanaman", "kesyukuran", "amalan"]
+        "en": [
+          "cultivation",
+          "gratitude",
+          "practice"
+        ],
+        "tr": [
+          "geliştirme",
+          "şükran",
+          "uygulama"
+        ],
+        "fr": [
+          "culture",
+          "gratitude",
+          "pratique"
+        ],
+        "pt": [
+          "cultivo",
+          "gratidão",
+          "prática"
+        ],
+        "nl": [
+          "cultivering",
+          "dankbaarheid",
+          "praktijk"
+        ],
+        "es": [
+          "cultivo",
+          "gratitud",
+          "práctica"
+        ],
+        "de": [
+          "kultivierung",
+          "dankbarkeit",
+          "praxis"
+        ],
+        "it": [
+          "coltivazione",
+          "gratitudine",
+          "pratica"
+        ],
+        "ru": [
+          "культивирование",
+          "благодарность",
+          "практика"
+        ],
+        "id": [
+          "penanaman",
+          "rasa syukur",
+          "praktik"
+        ],
+        "ja": [
+          "育成",
+          "感謝",
+          "実践"
+        ],
+        "th": [
+          "การปลูกฝัง",
+          "ความซาบซึ้ง",
+          "การปฏิบัติ"
+        ],
+        "ms": [
+          "penanaman",
+          "kesyukuran",
+          "amalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3739,19 +5247,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["embrace", "natural", "being"],
-        "tr": ["kucaklama", "doğal", "varlık"],
-        "fr": ["embrasser", "naturel", "être"],
-        "pt": ["abraçar", "natural", "ser"],
-        "nl": ["omarmen", "natuurlijk", "zijn"],
-        "es": ["abrazar", "natural", "ser"],
-        "de": ["umarmen", "natürlich", "sein"],
-        "it": ["abbracciare", "naturale", "essere"],
-        "ru": ["обнимать", "естественный", "бытие"],
-        "id": ["merangkul", "alami", "keberadaan"],
-        "ja": ["受け入れる", "自然な", "存在"],
-        "th": ["ยอมรับ", "ธรรมชาติ", "การเป็น"],
-        "ms": ["merangkul", "semula jadi", "keberadaan"]
+        "en": [
+          "embrace",
+          "natural",
+          "being"
+        ],
+        "tr": [
+          "kucaklama",
+          "doğal",
+          "varlık"
+        ],
+        "fr": [
+          "embrasser",
+          "naturel",
+          "être"
+        ],
+        "pt": [
+          "abraçar",
+          "natural",
+          "ser"
+        ],
+        "nl": [
+          "omarmen",
+          "natuurlijk",
+          "zijn"
+        ],
+        "es": [
+          "abrazar",
+          "natural",
+          "ser"
+        ],
+        "de": [
+          "umarmen",
+          "natürlich",
+          "sein"
+        ],
+        "it": [
+          "abbracciare",
+          "naturale",
+          "essere"
+        ],
+        "ru": [
+          "обнимать",
+          "естественный",
+          "бытие"
+        ],
+        "id": [
+          "merangkul",
+          "alami",
+          "keberadaan"
+        ],
+        "ja": [
+          "受け入れる",
+          "自然な",
+          "存在"
+        ],
+        "th": [
+          "ยอมรับ",
+          "ธรรมชาติ",
+          "การเป็น"
+        ],
+        "ms": [
+          "merangkul",
+          "semula jadi",
+          "keberadaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3869,19 +5429,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["flow", "relationships", "harmony"],
-        "tr": ["akış", "ilişkiler", "uyum"],
-        "fr": ["flux", "relations", "harmonie"],
-        "pt": ["fluxo", "relacionamentos", "harmonia"],
-        "nl": ["stroming", "relaties", "harmonie"],
-        "es": ["flujo", "relaciones", "armonía"],
-        "de": ["fluss", "beziehungen", "harmonie"],
-        "it": ["flusso", "relazioni", "armonia"],
-        "ru": ["поток", "отношения", "гармония"],
-        "id": ["aliran", "hubungan", "harmoni"],
-        "ja": ["流れ", "人間関係", "調和"],
-        "th": ["กระแส", "ความสัมพันธ์", "ความสามัคคี"],
-        "ms": ["aliran", "hubungan", "harmoni"]
+        "en": [
+          "flow",
+          "relationships",
+          "harmony"
+        ],
+        "tr": [
+          "akış",
+          "ilişkiler",
+          "uyum"
+        ],
+        "fr": [
+          "flux",
+          "relations",
+          "harmonie"
+        ],
+        "pt": [
+          "fluxo",
+          "relacionamentos",
+          "harmonia"
+        ],
+        "nl": [
+          "stroming",
+          "relaties",
+          "harmonie"
+        ],
+        "es": [
+          "flujo",
+          "relaciones",
+          "armonía"
+        ],
+        "de": [
+          "fluss",
+          "beziehungen",
+          "harmonie"
+        ],
+        "it": [
+          "flusso",
+          "relazioni",
+          "armonia"
+        ],
+        "ru": [
+          "поток",
+          "отношения",
+          "гармония"
+        ],
+        "id": [
+          "aliran",
+          "hubungan",
+          "harmoni"
+        ],
+        "ja": [
+          "流れ",
+          "人間関係",
+          "調和"
+        ],
+        "th": [
+          "กระแส",
+          "ความสัมพันธ์",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "aliran",
+          "hubungan",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3999,19 +5611,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "thoughts", "mindfulness"],
-        "tr": ["seçim", "düşünceler", "farkındalık"],
-        "fr": ["choix", "pensées", "pleine conscience"],
-        "pt": ["escolha", "pensamentos", "atenção plena"],
-        "nl": ["keuze", "gedachten", "bewustzijn"],
-        "es": ["elección", "pensamientos", "atención plena"],
-        "de": ["wahl", "gedanken", "achtsamkeit"],
-        "it": ["scelta", "pensieri", "consapevolezza"],
-        "ru": ["выбор", "мысли", "осознанность"],
-        "id": ["pilihan", "pikiran", "kesadaran"],
-        "ja": ["選択", "思考", "マインドフルネス"],
-        "th": ["การเลือก", "ความคิด", "สติ"],
-        "ms": ["pilihan", "pemikiran", "kesedaran"]
+        "en": [
+          "choice",
+          "thoughts",
+          "mindfulness"
+        ],
+        "tr": [
+          "seçim",
+          "düşünceler",
+          "farkındalık"
+        ],
+        "fr": [
+          "choix",
+          "pensées",
+          "pleine conscience"
+        ],
+        "pt": [
+          "escolha",
+          "pensamentos",
+          "atenção plena"
+        ],
+        "nl": [
+          "keuze",
+          "gedachten",
+          "bewustzijn"
+        ],
+        "es": [
+          "elección",
+          "pensamientos",
+          "atención plena"
+        ],
+        "de": [
+          "wahl",
+          "gedanken",
+          "achtsamkeit"
+        ],
+        "it": [
+          "scelta",
+          "pensieri",
+          "consapevolezza"
+        ],
+        "ru": [
+          "выбор",
+          "мысли",
+          "осознанность"
+        ],
+        "id": [
+          "pilihan",
+          "pikiran",
+          "kesadaran"
+        ],
+        "ja": [
+          "選択",
+          "思考",
+          "マインドフルネス"
+        ],
+        "th": [
+          "การเลือก",
+          "ความคิด",
+          "สติ"
+        ],
+        "ms": [
+          "pilihan",
+          "pemikiran",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4129,19 +5793,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["surrender", "control", "acceptance"],
-        "tr": ["teslimiyet", "kontrol", "kabul"],
-        "fr": ["reddition", "contrôle", "acceptation"],
-        "pt": ["rendição", "controle", "aceitação"],
-        "nl": ["overgave", "controle", "acceptatie"],
-        "es": ["rendición", "control", "aceptación"],
-        "de": ["hingabe", "kontrolle", "akzeptanz"],
-        "it": ["resa", "controllo", "accettazione"],
-        "ru": ["капитуляция", "контроль", "принятие"],
-        "id": ["penyerahan", "kontrol", "penerimaan"],
-        "ja": ["降伏", "コントロール", "受容"],
-        "th": ["การยอมจำนน", "การควบคุม", "การยอมรับ"],
-        "ms": ["penyerahan", "kawalan", "penerimaan"]
+        "en": [
+          "surrender",
+          "control",
+          "acceptance"
+        ],
+        "tr": [
+          "teslimiyet",
+          "kontrol",
+          "kabul"
+        ],
+        "fr": [
+          "reddition",
+          "contrôle",
+          "acceptation"
+        ],
+        "pt": [
+          "rendição",
+          "controle",
+          "aceitação"
+        ],
+        "nl": [
+          "overgave",
+          "controle",
+          "acceptatie"
+        ],
+        "es": [
+          "rendición",
+          "control",
+          "aceptación"
+        ],
+        "de": [
+          "hingabe",
+          "kontrolle",
+          "akzeptanz"
+        ],
+        "it": [
+          "resa",
+          "controllo",
+          "accettazione"
+        ],
+        "ru": [
+          "капитуляция",
+          "контроль",
+          "принятие"
+        ],
+        "id": [
+          "penyerahan",
+          "kontrol",
+          "penerimaan"
+        ],
+        "ja": [
+          "降伏",
+          "コントロール",
+          "受容"
+        ],
+        "th": [
+          "การยอมจำนน",
+          "การควบคุม",
+          "การยอมรับ"
+        ],
+        "ms": [
+          "penyerahan",
+          "kawalan",
+          "penerimaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4259,19 +5975,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["nurture", "self-care", "sharing"],
-        "tr": ["besleme", "öz-bakım", "paylaşma"],
-        "fr": ["nourrir", "soin de soi", "partage"],
-        "pt": ["nutrir", "autocuidado", "compartilhamento"],
-        "nl": ["koesteren", "zelfzorg", "delen"],
-        "es": ["nutrir", "autocuidado", "compartir"],
-        "de": ["pflegen", "selbstfürsorge", "teilen"],
-        "it": ["nutrire", "autocura", "condivisione"],
-        "ru": ["воспитывать", "самоуход", "делиться"],
-        "id": ["memelihara", "perawatan diri", "berbagi"],
-        "ja": ["育む", "セルフケア", "共有"],
-        "th": ["การเลี้ยงดู", "การดูแลตนเอง", "การแบ่งปัน"],
-        "ms": ["memelihara", "penjagaan diri", "kongsi"]
+        "en": [
+          "nurture",
+          "self-care",
+          "sharing"
+        ],
+        "tr": [
+          "besleme",
+          "öz-bakım",
+          "paylaşma"
+        ],
+        "fr": [
+          "nourrir",
+          "soin de soi",
+          "partage"
+        ],
+        "pt": [
+          "nutrir",
+          "autocuidado",
+          "compartilhamento"
+        ],
+        "nl": [
+          "koesteren",
+          "zelfzorg",
+          "delen"
+        ],
+        "es": [
+          "nutrir",
+          "autocuidado",
+          "compartir"
+        ],
+        "de": [
+          "pflegen",
+          "selbstfürsorge",
+          "teilen"
+        ],
+        "it": [
+          "nutrire",
+          "autocura",
+          "condivisione"
+        ],
+        "ru": [
+          "воспитывать",
+          "самоуход",
+          "делиться"
+        ],
+        "id": [
+          "memelihara",
+          "perawatan diri",
+          "berbagi"
+        ],
+        "ja": [
+          "育む",
+          "セルフケア",
+          "共有"
+        ],
+        "th": [
+          "การเลี้ยงดู",
+          "การดูแลตนเอง",
+          "การแบ่งปัน"
+        ],
+        "ms": [
+          "memelihara",
+          "penjagaan diri",
+          "kongsi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4389,19 +6157,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gratitude", "inner peace", "appreciation"],
-        "tr": ["şükran", "iç huzur", "takdir"],
-        "fr": ["gratitude", "paix intérieure", "appréciation"],
-        "pt": ["gratidão", "paz interior", "apreciação"],
-        "nl": ["dankbaarheid", "innerlijke vrede", "waardering"],
-        "es": ["gratitud", "paz interior", "apreciación"],
-        "de": ["dankbarkeit", "innerer friede", "wertschätzung"],
-        "it": ["gratitudine", "pace interiore", "apprezzamento"],
-        "ru": ["благодарность", "внутренний мир", "признательность"],
-        "id": ["rasa syukur", "kedamaian batin", "penghargaan"],
-        "ja": ["感謝", "内なる平和", "感謝"],
-        "th": ["ความซาบซึ้ง", "สันติภาพภายใน", "การชื่นชม"],
-        "ms": ["kesyukuran", "kedamaian dalaman", "penghargaan"]
+        "en": [
+          "gratitude",
+          "inner peace",
+          "appreciation"
+        ],
+        "tr": [
+          "şükran",
+          "iç huzur",
+          "takdir"
+        ],
+        "fr": [
+          "gratitude",
+          "paix intérieure",
+          "appréciation"
+        ],
+        "pt": [
+          "gratidão",
+          "paz interior",
+          "apreciação"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "innerlijke vrede",
+          "waardering"
+        ],
+        "es": [
+          "gratitud",
+          "paz interior",
+          "apreciación"
+        ],
+        "de": [
+          "dankbarkeit",
+          "innerer friede",
+          "wertschätzung"
+        ],
+        "it": [
+          "gratitudine",
+          "pace interiore",
+          "apprezzamento"
+        ],
+        "ru": [
+          "благодарность",
+          "внутренний мир",
+          "признательность"
+        ],
+        "id": [
+          "rasa syukur",
+          "kedamaian batin",
+          "penghargaan"
+        ],
+        "ja": [
+          "感謝",
+          "内なる平和",
+          "感謝"
+        ],
+        "th": [
+          "ความซาบซึ้ง",
+          "สันติภาพภายใน",
+          "การชื่นชม"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kedamaian dalaman",
+          "penghargaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4585,19 +6405,19 @@
       "id": "peace_038",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Peace into my life.",
-        "tr": "Hayatıma Huzur enerjisini alıyorum.",
-        "fr": "J'accueille Peace dans ma vie.",
-        "pt": "Eu acolho Peace na minha vida.",
-        "nl": "Ik verwelkom Peace in mijn leven.",
-        "es": "Doy la bienvenida a Peace en mi vida.",
-        "de": "Ich heiße Peace in meinem Leben willkommen.",
-        "it": "Accolgo Peace nella mia vita.",
-        "ru": "Я принимаю Peace в свою жизнь.",
-        "id": "Saya menyambut Peace dalam hidup saya.",
-        "ja": "私はPeaceを人生に迎え入れます。",
-        "th": "ฉันต้อนรับPeaceเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Peace dalam hidup saya."
+        "en": "I make room for peace without rushing.",
+        "tr": "huzur için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à peace sans me presser.",
+        "pt": "Abro espaço para peace sem pressa.",
+        "nl": "Ik maak ruimte voor peace zonder te haasten.",
+        "es": "Hago espacio para peace sin prisa.",
+        "de": "Ich mache Platz für peace, ohne zu hetzen.",
+        "it": "Faccio spazio a peace senza fretta.",
+        "ru": "Я даю место peace без спешки.",
+        "id": "Aku memberi ruang bagi peace tanpa terburu-buru.",
+        "ja": "焦らずにpeaceのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้peaceโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk peace tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -4629,19 +6449,19 @@
       "id": "peace_039",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Peace.",
-        "tr": "Kalbim Huzur için açık.",
-        "fr": "Mon cœur est ouvert à Peace.",
-        "pt": "Meu coração está aberto para Peace.",
-        "nl": "Mijn hart staat open voor Peace.",
-        "es": "Mi corazón está abierto a Peace.",
-        "de": "Mein Herz ist offen für Peace.",
-        "it": "Il mio cuore è aperto a Peace.",
-        "ru": "Моё сердце открыто для Peace.",
-        "id": "Hati saya terbuka untuk Peace.",
-        "ja": "私の心はPeaceに開かれています。",
-        "th": "หัวใจของฉันเปิดรับPeace",
-        "ms": "Hati saya terbuka untuk Peace."
+        "en": "I stay open to peace in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde huzur için açık kalıyorum.",
+        "fr": "Je reste ouvert à peace d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a peace de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor peace op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a peace de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für peace auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a peace in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к peace так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada peace dengan cara yang terasa aman.",
+        "ja": "安心できる形でpeaceに心を開き続けます。",
+        "th": "ฉันเปิดใจให้peaceในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap peace dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -4673,19 +6493,19 @@
       "id": "peace_040",
       "type": "affirmation",
       "texts": {
-        "en": "Peace grows within me each day.",
-        "tr": "Huzur her gün içimde büyüyor.",
-        "fr": "Peace grandit en moi chaque jour.",
-        "pt": "Peace cresce dentro de mim todos os dias.",
-        "nl": "Peace groeit elke dag in mij.",
-        "es": "Peace crece dentro de mí cada día.",
-        "de": "Peace wächst jeden Tag in mir.",
-        "it": "Peace cresce in me ogni giorno.",
-        "ru": "Peace растёт во мне каждый день.",
-        "id": "Peace tumbuh di dalam diri saya setiap hari.",
-        "ja": "Peaceは毎日私の中で育ちます。",
-        "th": "Peaceเติบโตในตัวฉันทุกวัน",
-        "ms": "Peace berkembang dalam diri saya setiap hari."
+        "en": "Each day, peace grows within me.",
+        "tr": "Her gün içimde huzur büyüyor.",
+        "fr": "Chaque jour, peace grandit en moi.",
+        "pt": "A cada dia, peace cresce dentro de mim.",
+        "nl": "Elke dag groeit peace in mij.",
+        "es": "Cada día, peace crece dentro de mí.",
+        "de": "Jeden Tag wächst peace in mir.",
+        "it": "Ogni giorno, peace cresce dentro di me.",
+        "ru": "Каждый день peace растёт во мне.",
+        "id": "Setiap hari, peace tumbuh di dalam diriku.",
+        "ja": "毎日、peaceが私の中で育っています。",
+        "th": "ทุกวัน peace เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, peace berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -4717,19 +6537,19 @@
       "id": "peace_041",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Peace now.",
-        "tr": "Şimdi Huzur için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Peace maintenant.",
-        "pt": "Eu crio espaço para Peace agora.",
-        "nl": "Ik maak nu ruimte voor Peace.",
-        "es": "Creo espacio para Peace ahora.",
-        "de": "Ich schaffe jetzt Raum für Peace.",
-        "it": "Creo spazio per Peace ora.",
-        "ru": "Я создаю пространство для Peace сейчас.",
-        "id": "Saya menciptakan ruang untuk Peace sekarang.",
-        "ja": "今、Peaceのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับPeaceในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Peace sekarang."
+        "en": "I give peace a quiet place in my day.",
+        "tr": "Günümde huzur için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à peace une place calme dans ma journée.",
+        "pt": "Dou a peace um lugar tranquilo no meu dia.",
+        "nl": "Ik geef peace een rustige plek in mijn dag.",
+        "es": "Le doy a peace un lugar tranquilo en mi día.",
+        "de": "Ich gebe peace einen ruhigen Platz in meinem Tag.",
+        "it": "Do a peace un posto tranquillo nella mia giornata.",
+        "ru": "Я даю peace тихое место в своём дне.",
+        "id": "Aku memberi peace tempat yang tenang dalam hariku.",
+        "ja": "一日の中にpeaceのための静かな場所をつくります。",
+        "th": "ฉันให้peaceมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi peace tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -4761,19 +6581,19 @@
       "id": "peace_042",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Peace.",
-        "tr": "Huzur yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Peace.",
-        "pt": "Eu confio no caminho de Peace.",
-        "nl": "Ik vertrouw op het pad van Peace.",
-        "es": "Confío en el camino de Peace.",
-        "de": "Ich vertraue dem Weg von Peace.",
-        "it": "Mi fido del percorso di Peace.",
-        "ru": "Я доверяю пути Peace.",
-        "id": "Saya percaya pada jalan Peace.",
-        "ja": "私はPeaceの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของPeace",
-        "ms": "Saya percaya pada jalan Peace."
+        "en": "I trust my own way of growing in peace.",
+        "tr": "huzur konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec peace.",
+        "pt": "Confio no meu próprio jeito de crescer com peace.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in peace.",
+        "es": "Confío en mi propia manera de crecer con peace.",
+        "de": "Ich vertraue meinem eigenen Weg, in peace zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con peace.",
+        "ru": "Я доверяю своему собственному пути роста в peace.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam peace.",
+        "ja": "自分なりのpeaceの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับpeace",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam peace."
       },
       "authors": {
         "en": "",
@@ -4800,6 +6620,946 @@
         ]
       },
       "readTime": "0"
+    },
+    {
+      "id": "peace_043",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice peace with gentle consistency.",
+        "tr": "huzur konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique peace avec une douce constance.",
+        "pt": "Eu pratico peace com constância gentil.",
+        "nl": "Ik beoefen peace met zachte regelmaat.",
+        "es": "Practico peace con constancia suave.",
+        "de": "Ich übe peace mit sanfter Beständigkeit.",
+        "it": "Pratico peace con dolce costanza.",
+        "ru": "Я практикую peace с мягкой постоянностью.",
+        "id": "Saya mempraktikkan peace dengan konsistensi yang lembut.",
+        "ja": "私はpeaceを穏やかな継続で実践します。",
+        "th": "ฉันฝึกpeaceอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan peace dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_044",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, peace supports me.",
+        "tr": "Bu dönemde huzur beni destekliyor.",
+        "fr": "En cette période, peace me soutient.",
+        "pt": "Nesta fase, peace me apoia.",
+        "nl": "In deze periode ondersteunt peace mij.",
+        "es": "En esta etapa, peace me sostiene.",
+        "de": "In dieser Zeit unterstützt peace mich.",
+        "it": "In questo periodo, peace mi sostiene.",
+        "ru": "В этот период peace поддерживает меня.",
+        "id": "Di masa ini, peace mendukungku.",
+        "ja": "この時期、peaceが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ peaceคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, peace menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_045",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose peace in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla huzur seçiyorum.",
+        "fr": "Je choisis peace par de petits pas sincères.",
+        "pt": "Escolho peace em passos pequenos e honestos.",
+        "nl": "Ik kies peace in kleine, eerlijke stappen.",
+        "es": "Elijo peace con pasos pequeños y honestos.",
+        "de": "Ich wähle peace in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo peace con passi piccoli e sinceri.",
+        "ru": "Я выбираю peace маленькими, честными шагами.",
+        "id": "Aku memilih peace dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でpeaceを選びます。",
+        "th": "ฉันเลือกpeaceด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih peace dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_046",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let peace shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri huzur şekillendiriyor.",
+        "fr": "Je laisse peace façonner les choix qui comptent pour moi.",
+        "pt": "Deixo peace moldar as escolhas que importam para mim.",
+        "nl": "Ik laat peace de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que peace moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse peace die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che peace plasmi le scelte che contano per me.",
+        "ru": "Я позволяю peace формировать важные для меня решения.",
+        "id": "Aku membiarkan peace membentuk pilihan yang penting bagiku.",
+        "ja": "peaceが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้peaceหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan peace membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_047",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, peace feels natural to me.",
+        "tr": "Bugün huzur bana doğal geliyor.",
+        "fr": "Aujourd'hui, peace me semble naturel.",
+        "pt": "Hoje, peace parece natural para mim.",
+        "nl": "Vandaag voelt peace natuurlijk voor mij.",
+        "es": "Hoy, peace se siente natural para mí.",
+        "de": "Heute fühlt sich peace natürlich für mich an.",
+        "it": "Oggi peace mi sembra naturale.",
+        "ru": "Сегодня peace кажется мне естественным.",
+        "id": "Hari ini, peace terasa alami bagi saya.",
+        "ja": "今日はpeaceが自然に感じられます。",
+        "th": "วันนี้peaceให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, peace terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_48",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose peace in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda huzur seçiyorum.",
+        "fr": "Je choisis peace dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho peace nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies peace in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo peace en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle peace in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo peace nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю peace в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih peace dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でpeaceを選びます。",
+        "th": "ฉันเลือกpeaceในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih peace dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_49",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build peace.",
+        "tr": "İç sesim huzur inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis peace.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo peace.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik peace opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo peace.",
+        "de": "Meine innere Stimme wird sanfter, während ich peace aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco peace.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю peace.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun peace.",
+        "ja": "peaceを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างpeace",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina peace."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_50",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet peace at my own pace.",
+        "tr": "huzur ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer peace à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar peace no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om peace in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar peace a mi propio ritmo.",
+        "de": "Ich erlaube mir, peace in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare peace al mio ritmo.",
+        "ru": "Я позволяю себе встречать peace в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu peace dengan ritmeku.",
+        "ja": "自分のペースでpeaceに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบpeaceในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui peace mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_51",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let peace steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde huzur beni dengeliyor.",
+        "fr": "Je laisse peace m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo peace me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat peace me aarden als het leven luid voelt.",
+        "es": "Dejo que peace me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse peace mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che peace mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю peace удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan peace menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、peaceが私を落ち着かせます。",
+        "th": "ฉันยอมให้peaceทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan peace menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_52",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, peace is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde huzur büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, peace grandit.",
+        "pt": "Por meio das escolhas que faço hoje, peace cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit peace.",
+        "es": "A través de las decisiones que tomo hoy, peace crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst peace.",
+        "it": "Attraverso le scelte che faccio oggi, peace cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, peace растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, peace tumbuh.",
+        "ja": "今日の選択を通してpeaceが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ peaceกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, peace berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_53",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel peace settling into my routines.",
+        "tr": "Rutinlerimde huzur için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens peace s’installer dans mes routines.",
+        "pt": "Sinto peace se acomodar nas minhas rotinas.",
+        "nl": "Ik voel peace zich nestelen in mijn routines.",
+        "es": "Siento que peace se asienta en mis rutinas.",
+        "de": "Ich spüre, wie peace sich in meinen Routinen einlebt.",
+        "it": "Sento peace assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как peace укореняется в моих привычках.",
+        "id": "Aku merasakan peace menetap dalam rutinitasku.",
+        "ja": "日々の習慣にpeaceがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าpeaceค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan peace mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_54",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow peace to be simple, not perfect.",
+        "tr": "huzur için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise peace à être simple, pas parfait.",
+        "pt": "Permito que peace seja simples, não perfeito.",
+        "nl": "Ik laat peace simpel zijn, niet perfect.",
+        "es": "Permito que peace sea simple, no perfecto.",
+        "de": "Ich erlaube peace, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a peace di essere semplice, non perfetto.",
+        "ru": "Я позволяю peace быть простым, а не идеальным.",
+        "id": "Aku membiarkan peace tetap sederhana, bukan sempurna.",
+        "ja": "peaceがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้peaceเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan peace menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_55",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice peace showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde huzur ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque peace dans la façon dont je me parle.",
+        "pt": "Percebo peace na forma como falo comigo.",
+        "nl": "Ik merk peace op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto peace en la manera en que me hablo.",
+        "de": "Ich bemerke peace in der Art, wie ich mit mir spreche.",
+        "it": "Noto peace nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю peace в том, как я говорю с собой.",
+        "id": "Aku menyadari peace dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にpeaceが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นpeaceในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari peace dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_56",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve peace without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan huzur hak ediyorum.",
+        "fr": "Je mérite peace sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço peace sem precisar provar nada.",
+        "nl": "Ik verdien peace zonder iets te hoeven bewijzen.",
+        "es": "Merezco peace sin necesidad de demostrar nada.",
+        "de": "Ich verdiene peace, ohne etwas beweisen zu müssen.",
+        "it": "Merito peace senza dover dimostrare nulla.",
+        "ru": "Я достоин peace, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan peace tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、peaceに値します。",
+        "th": "ฉันคู่ควรกับpeaceโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh peace tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_57",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let peace grow from patience, not pressure.",
+        "tr": "huzur sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse peace grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo peace crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat peace groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que peace crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse peace aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che peace cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю peace расти из терпения, а не из давления.",
+        "id": "Aku membiarkan peace tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はpeaceを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้peaceเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan peace tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_58",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to peace when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde huzur ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à peace quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a peace quando preciso me firmar.",
+        "nl": "Ik keer terug naar peace wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a peace cuando necesito estabilizarme.",
+        "de": "Ich kehre zu peace zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a peace quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к peace, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke peace saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、peaceに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาpeace",
+        "ms": "Saya kembali kepada peace apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_59",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let peace soften my inner pressure.",
+        "tr": "İçimdeki baskıyı huzur ile yumuşatıyorum.",
+        "fr": "Je laisse peace adoucir ma pression intérieure.",
+        "pt": "Deixo peace suavizar minha pressão interna.",
+        "nl": "Ik laat peace mijn innerlijke druk verzachten.",
+        "es": "Dejo que peace suavice mi presión interna.",
+        "de": "Ich lasse peace meinen inneren Druck weicher machen.",
+        "it": "Lascio che peace ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю peace смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan peace melembutkan tekanan batinku.",
+        "ja": "peaceが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้peaceช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan peace melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_60",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that peace can be gentle and real.",
+        "tr": "huzur konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que peace peut être doux et vrai.",
+        "pt": "Confio que peace pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat peace zacht en echt kan zijn.",
+        "es": "Confío en que peace puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass peace sanft und echt sein kann.",
+        "it": "Mi fido del fatto che peace possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что peace может быть мягким и настоящим.",
+        "id": "Aku percaya peace bisa lembut dan nyata.",
+        "ja": "peaceはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าpeaceสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya peace boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_61",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give peace a little more room each day.",
+        "tr": "Her gün huzur için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à peace chaque jour.",
+        "pt": "Dou um pouco mais de espaço para peace a cada dia.",
+        "nl": "Ik geef peace elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a peace cada día.",
+        "de": "Ich gebe peace jeden Tag ein wenig mehr Raum.",
+        "it": "Do a peace un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю peace чуть больше места.",
+        "id": "Setiap hari aku memberi peace sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、peaceのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับpeaceมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi peace sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_62",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold peace without forcing it.",
+        "tr": "huzur ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir peace sans forcer.",
+        "pt": "Estou aprendendo a sustentar peace sem forçar.",
+        "nl": "Ik leer peace te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener peace sin forzar.",
+        "de": "Ich lerne, peace zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere peace senza forzare.",
+        "ru": "Я учусь удерживать peace без принуждения.",
+        "id": "Aku belajar memegang peace tanpa memaksa.",
+        "ja": "peaceを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองpeaceโดยไม่บังคับ",
+        "ms": "Saya belajar memegang peace tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_63",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by peace where I am today.",
+        "tr": "Bugün olduğum yerde huzur beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, peace me rejoint.",
+        "pt": "Onde estou hoje, peace me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet peace mij.",
+        "es": "Donde estoy hoy, peace me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir peace.",
+        "it": "Dove sono oggi, peace mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает peace.",
+        "id": "Di tempatku hari ini, peace menemuiku.",
+        "ja": "今日の私がいる場所で、peaceが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ peaceอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, peace menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_64",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice peace in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte huzur fark ediyorum.",
+        "fr": "Je remarque peace dans le calme entre les moments.",
+        "pt": "Percebo peace na calma entre os momentos.",
+        "nl": "Ik merk peace op in de rust tussen momenten.",
+        "es": "Noto peace en la calma entre momentos.",
+        "de": "Ich bemerke peace in der Ruhe zwischen den Momenten.",
+        "it": "Noto peace nella calma tra i momenti.",
+        "ru": "Я замечаю peace в тишине между моментами.",
+        "id": "Aku menyadari peace dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにpeaceを感じます。",
+        "th": "ฉันสังเกตpeaceในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari peace dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_65",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow peace to grow quietly in the background.",
+        "tr": "huzur sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse peace grandir doucement en arrière-plan.",
+        "pt": "Deixo peace crescer em silêncio ao fundo.",
+        "nl": "Ik laat peace stil op de achtergrond groeien.",
+        "es": "Dejo que peace crezca en silencio de fondo.",
+        "de": "Ich lasse peace leise im Hintergrund wachsen.",
+        "it": "Lascio che peace cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю peace тихо расти на заднем плане.",
+        "id": "Aku membiarkan peace tumbuh perlahan di latar belakang.",
+        "ja": "peaceが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้peaceเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan peace berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_66",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose peace with care, not hurry.",
+        "tr": "Acele etmeden, özenle huzur seçiyorum.",
+        "fr": "Je choisis peace avec soin, sans hâte.",
+        "pt": "Escolho peace com cuidado, sem pressa.",
+        "nl": "Ik kies peace met zorg, niet met haast.",
+        "es": "Elijo peace con cuidado, no con prisa.",
+        "de": "Ich wähle peace mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo peace con cura, non con fretta.",
+        "ru": "Я выбираю peace с заботой, а не в спешке.",
+        "id": "Aku memilih peace dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にpeaceを選びます。",
+        "th": "ฉันเลือกpeaceอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih peace dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
+    },
+    {
+      "id": "peace_67",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep peace close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken huzur ile yakın kalıyorum.",
+        "fr": "Je garde peace près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho peace por perto quando minha mente fica agitada.",
+        "nl": "Ik houd peace dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo peace cerca cuando mi mente está inquieta.",
+        "de": "Ich halte peace nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo peace vicino quando la mia mente è agitata.",
+        "ru": "Я держу peace рядом, когда ум занят.",
+        "id": "Aku menjaga peace tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもpeaceをそばに置きます。",
+        "th": "ฉันเก็บpeaceไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan peace dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "readTime": "0"
     }
   ]
-} 
+}

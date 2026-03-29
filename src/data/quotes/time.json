@@ -34,19 +34,71 @@
         "ms": "Marthe Troly-Curtin"
       },
       "tags": {
-        "en": ["enjoyment", "presence", "balance"],
-        "tr": ["keyif", "şimdi", "denge"],
-        "fr": ["plaisir", "présence", "équilibre"],
-        "pt": ["diversão", "presente", "equilíbrio"],
-        "es": ["diversión", "presencia", "equilibrio"],
-        "de": ["Genießen", "Präsenz", "Gleichgewicht"],
-        "it": ["piacere", "presenza", "equilibrio"],
-        "nl": ["genieten", "aanwezigheid", "evenwicht"],
-        "ru": ["удовольствие", "присутствие", "равновесие"],
-        "id": ["kenikmatan", "kehadiran", "keseimbangan"],
-        "ja": ["楽しみ", "存在", "バランス"],
-        "th": ["ความสนุก", "การมีอยู่", "ความสมดุล"],
-        "ms": ["kesenangan", "kehadiran", "keseimbangan"]
+        "en": [
+          "enjoyment",
+          "presence",
+          "balance"
+        ],
+        "tr": [
+          "keyif",
+          "şimdi",
+          "denge"
+        ],
+        "fr": [
+          "plaisir",
+          "présence",
+          "équilibre"
+        ],
+        "pt": [
+          "diversão",
+          "presente",
+          "equilíbrio"
+        ],
+        "es": [
+          "diversión",
+          "presencia",
+          "equilibrio"
+        ],
+        "de": [
+          "Genießen",
+          "Präsenz",
+          "Gleichgewicht"
+        ],
+        "it": [
+          "piacere",
+          "presenza",
+          "equilibrio"
+        ],
+        "nl": [
+          "genieten",
+          "aanwezigheid",
+          "evenwicht"
+        ],
+        "ru": [
+          "удовольствие",
+          "присутствие",
+          "равновесие"
+        ],
+        "id": [
+          "kenikmatan",
+          "kehadiran",
+          "keseimbangan"
+        ],
+        "ja": [
+          "楽しみ",
+          "存在",
+          "バランス"
+        ],
+        "th": [
+          "ความสนุก",
+          "การมีอยู่",
+          "ความสมดุล"
+        ],
+        "ms": [
+          "kesenangan",
+          "kehadiran",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Leo Tolstoy"
       },
       "tags": {
-        "en": ["patience", "perseverance", "wisdom"],
-        "tr": ["sabır", "azim", "bilgelik"],
-        "fr": ["patience", "persévérance", "sagesse"],
-        "pt": ["paciência", "perseverança", "sabedoria"],
-        "es": ["paciencia", "perseverancia", "sabiduría"],
-        "de": ["Geduld", "Ausdauer", "Weisheit"],
-        "it": ["pazienza", "perseveranza", "saggezza"],
-        "nl": ["geduld", "doorzettingsvermogen", "wijsheid"],
-        "ru": ["терпение", "настойчивость", "мудрость"],
-        "id": ["kesabaran", "ketekunan", "kebijaksanaan"],
-        "ja": ["忍耐", "持続", "知恵"],
-        "th": ["ความอดทน", "ความพากเพียร", "ปัญญา"],
-        "ms": ["kesabaran", "ketabahan", "kebijaksanaan"]
+        "en": [
+          "patience",
+          "perseverance",
+          "wisdom"
+        ],
+        "tr": [
+          "sabır",
+          "azim",
+          "bilgelik"
+        ],
+        "fr": [
+          "patience",
+          "persévérance",
+          "sagesse"
+        ],
+        "pt": [
+          "paciência",
+          "perseverança",
+          "sabedoria"
+        ],
+        "es": [
+          "paciencia",
+          "perseverancia",
+          "sabiduría"
+        ],
+        "de": [
+          "Geduld",
+          "Ausdauer",
+          "Weisheit"
+        ],
+        "it": [
+          "pazienza",
+          "perseveranza",
+          "saggezza"
+        ],
+        "nl": [
+          "geduld",
+          "doorzettingsvermogen",
+          "wijsheid"
+        ],
+        "ru": [
+          "терпение",
+          "настойчивость",
+          "мудрость"
+        ],
+        "id": [
+          "kesabaran",
+          "ketekunan",
+          "kebijaksanaan"
+        ],
+        "ja": [
+          "忍耐",
+          "持続",
+          "知恵"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความพากเพียร",
+          "ปัญญา"
+        ],
+        "ms": [
+          "kesabaran",
+          "ketabahan",
+          "kebijaksanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Michael Altshuler"
       },
       "tags": {
-        "en": ["control", "empowerment", "action"],
-        "tr": ["kontrol", "güçlendirme", "eylem"],
-        "fr": ["contrôle", "autonomisation", "action"],
-        "pt": ["controle", "empoderamento", "ação"],
-        "es": ["control", "empoderamiento", "acción"],
-        "de": ["Kontrolle", "Ermächtigung", "Handlung"],
-        "it": ["controllo", "responsabilità", "azione"],
-        "nl": ["controle", "empowerment", "actie"],
-        "ru": ["контроль", "расширение_возможностей", "действие"],
-        "id": ["kontrol", "pemberdayaan", "tindakan"],
-        "ja": ["制御", "エンパワーメント", "行動"],
-        "th": ["การควบคุม", "การเสริมพลัง", "การกระทำ"],
-        "ms": ["kawalan", "pemberdayaan", "tindakan"]
+        "en": [
+          "control",
+          "empowerment",
+          "action"
+        ],
+        "tr": [
+          "kontrol",
+          "güçlendirme",
+          "eylem"
+        ],
+        "fr": [
+          "contrôle",
+          "autonomisation",
+          "action"
+        ],
+        "pt": [
+          "controle",
+          "empoderamento",
+          "ação"
+        ],
+        "es": [
+          "control",
+          "empoderamiento",
+          "acción"
+        ],
+        "de": [
+          "Kontrolle",
+          "Ermächtigung",
+          "Handlung"
+        ],
+        "it": [
+          "controllo",
+          "responsabilità",
+          "azione"
+        ],
+        "nl": [
+          "controle",
+          "empowerment",
+          "actie"
+        ],
+        "ru": [
+          "контроль",
+          "расширение_возможностей",
+          "действие"
+        ],
+        "id": [
+          "kontrol",
+          "pemberdayaan",
+          "tindakan"
+        ],
+        "ja": [
+          "制御",
+          "エンパワーメント",
+          "行動"
+        ],
+        "th": [
+          "การควบคุม",
+          "การเสริมพลัง",
+          "การกระทำ"
+        ],
+        "ms": [
+          "kawalan",
+          "pemberdayaan",
+          "tindakan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Benjamin Franklin"
       },
       "tags": {
-        "en": ["irrevocable", "value", "urgency"],
-        "tr": ["geri_dönüşsüz", "değer", "acil"],
-        "fr": ["irrévocable", "valeur", "urgence"],
-        "pt": ["irrevogável", "valor", "urgência"],
-        "es": ["irrevocable", "valor", "urgencia"],
-        "de": ["unwiderruflich", "Wert", "Dringlichkeit"],
-        "it": ["irrevocabile", "valore", "urgenza"],
-        "nl": ["onherroepelijk", "waarde", "urgentie"],
-        "ru": ["безвозвратный", "ценность", "срочность"],
-        "id": ["tak_dapat_dikembalikan", "nilai", "urgen"],
-        "ja": ["取り返しのつかない", "価値", "緊急性"],
-        "th": ["ไม่อาจย้อนคืน", "คุณค่า", "ความเร่งด่วน"],
-        "ms": ["tidak_dapat_dipulihkan", "nilai", "keperluan"]
+        "en": [
+          "irrevocable",
+          "value",
+          "urgency"
+        ],
+        "tr": [
+          "geri_dönüşsüz",
+          "değer",
+          "acil"
+        ],
+        "fr": [
+          "irrévocable",
+          "valeur",
+          "urgence"
+        ],
+        "pt": [
+          "irrevogável",
+          "valor",
+          "urgência"
+        ],
+        "es": [
+          "irrevocable",
+          "valor",
+          "urgencia"
+        ],
+        "de": [
+          "unwiderruflich",
+          "Wert",
+          "Dringlichkeit"
+        ],
+        "it": [
+          "irrevocabile",
+          "valore",
+          "urgenza"
+        ],
+        "nl": [
+          "onherroepelijk",
+          "waarde",
+          "urgentie"
+        ],
+        "ru": [
+          "безвозвратный",
+          "ценность",
+          "срочность"
+        ],
+        "id": [
+          "tak_dapat_dikembalikan",
+          "nilai",
+          "urgen"
+        ],
+        "ja": [
+          "取り返しのつかない",
+          "価値",
+          "緊急性"
+        ],
+        "th": [
+          "ไม่อาจย้อนคืน",
+          "คุณค่า",
+          "ความเร่งด่วน"
+        ],
+        "ms": [
+          "tidak_dapat_dipulihkan",
+          "nilai",
+          "keperluan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "William Penn"
       },
       "tags": {
-        "en": ["priority", "management", "reflection"],
-        "tr": ["öncelik", "yönetim", "yansıma"],
-        "fr": ["priorité", "gestion", "réflexion"],
-        "pt": ["prioridade", "gestão", "reflexão"],
-        "es": ["prioridad", "gestión", "reflexión"],
-        "de": ["Priorität", "Management", "Reflexion"],
-        "it": ["priorità", "gestione", "riflessione"],
-        "nl": ["prioriteit", "management", "reflectie"],
-        "ru": ["приоритет", "управление", "размышление"],
-        "id": ["prioritas", "manajemen", "refleksi"],
-        "ja": ["優先順位", "管理", "反省"],
-        "th": ["ลำดับความสำคัญ", "การจัดการ", "การสะท้อน"],
-        "ms": ["keutamaan", "pengurusan", "refleksi"]
+        "en": [
+          "priority",
+          "management",
+          "reflection"
+        ],
+        "tr": [
+          "öncelik",
+          "yönetim",
+          "yansıma"
+        ],
+        "fr": [
+          "priorité",
+          "gestion",
+          "réflexion"
+        ],
+        "pt": [
+          "prioridade",
+          "gestão",
+          "reflexão"
+        ],
+        "es": [
+          "prioridad",
+          "gestión",
+          "reflexión"
+        ],
+        "de": [
+          "Priorität",
+          "Management",
+          "Reflexion"
+        ],
+        "it": [
+          "priorità",
+          "gestione",
+          "riflessione"
+        ],
+        "nl": [
+          "prioriteit",
+          "management",
+          "reflectie"
+        ],
+        "ru": [
+          "приоритет",
+          "управление",
+          "размышление"
+        ],
+        "id": [
+          "prioritas",
+          "manajemen",
+          "refleksi"
+        ],
+        "ja": [
+          "優先順位",
+          "管理",
+          "反省"
+        ],
+        "th": [
+          "ลำดับความสำคัญ",
+          "การจัดการ",
+          "การสะท้อน"
+        ],
+        "ms": [
+          "keutamaan",
+          "pengurusan",
+          "refleksi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -585,8 +845,7 @@
         }
       }
     },
-
-     {
+    {
       "id": "time_006",
       "category": "time",
       "texts": {
@@ -620,19 +879,71 @@
         "ms": "Lao Tzu"
       },
       "tags": {
-        "en": ["choice", "responsibility", "willpower"],
-        "tr": ["seçim", "sorumluluk", "irade"],
-        "fr": ["choix", "responsabilité", "volonté"],
-        "pt": ["escolha", "responsabilidade", "força_de_vontade"],
-        "es": ["elección", "responsabilidad", "voluntad"],
-        "de": ["Wahl", "Verantwortung", "Willenskraft"],
-        "it": ["scelta", "responsabilità", "volontà"],
-        "nl": ["keuze", "verantwoordelijkheid", "wilskracht"],
-        "ru": ["выбор", "ответственность", "сила_воли"],
-        "id": ["pilihan", "tanggung_jawab", "kemauan"],
-        "ja": ["選択", "責任", "意志力"],
-        "th": ["การเลือก", "ความรับผิดชอบ", "พลังใจ"],
-        "ms": ["pilihan", "tanggungjawab", "kemahuan"]
+        "en": [
+          "choice",
+          "responsibility",
+          "willpower"
+        ],
+        "tr": [
+          "seçim",
+          "sorumluluk",
+          "irade"
+        ],
+        "fr": [
+          "choix",
+          "responsabilité",
+          "volonté"
+        ],
+        "pt": [
+          "escolha",
+          "responsabilidade",
+          "força_de_vontade"
+        ],
+        "es": [
+          "elección",
+          "responsabilidad",
+          "voluntad"
+        ],
+        "de": [
+          "Wahl",
+          "Verantwortung",
+          "Willenskraft"
+        ],
+        "it": [
+          "scelta",
+          "responsabilità",
+          "volontà"
+        ],
+        "nl": [
+          "keuze",
+          "verantwoordelijkheid",
+          "wilskracht"
+        ],
+        "ru": [
+          "выбор",
+          "ответственность",
+          "сила_воли"
+        ],
+        "id": [
+          "pilihan",
+          "tanggung_jawab",
+          "kemauan"
+        ],
+        "ja": [
+          "選択",
+          "責任",
+          "意志力"
+        ],
+        "th": [
+          "การเลือก",
+          "ความรับผิดชอบ",
+          "พลังใจ"
+        ],
+        "ms": [
+          "pilihan",
+          "tanggungjawab",
+          "kemahuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -737,19 +1048,71 @@
         "ms": "Thich Nhat Hanh"
       },
       "tags": {
-        "en": ["mindfulness", "presence", "control"],
-        "tr": ["farkındalık", "şimdi", "kontrol"],
-        "fr": ["pleine_conscience", "présence", "contrôle"],
-        "pt": ["atenção_plena", "presença", "controle"],
-        "es": ["atención_plena", "presencia", "control"],
-        "de": ["Achtsamkeit", "Gegenwart", "Kontrolle"],
-        "it": ["consapevolezza", "presenza", "controllo"],
-        "nl": ["mindfulness", "aanwezigheid", "controle"],
-        "ru": ["осознанность", "присутствие", "контроль"],
-        "id": ["kesadaran", "kehadiran", "kontrol"],
-        "ja": ["マインドフルネス", "存在", "制御"],
-        "th": ["สติ", "การมีอยู่", "การควบคุม"],
-        "ms": ["kesedaran", "kehadiran", "kawalan"]
+        "en": [
+          "mindfulness",
+          "presence",
+          "control"
+        ],
+        "tr": [
+          "farkındalık",
+          "şimdi",
+          "kontrol"
+        ],
+        "fr": [
+          "pleine_conscience",
+          "présence",
+          "contrôle"
+        ],
+        "pt": [
+          "atenção_plena",
+          "presença",
+          "controle"
+        ],
+        "es": [
+          "atención_plena",
+          "presencia",
+          "control"
+        ],
+        "de": [
+          "Achtsamkeit",
+          "Gegenwart",
+          "Kontrolle"
+        ],
+        "it": [
+          "consapevolezza",
+          "presenza",
+          "controllo"
+        ],
+        "nl": [
+          "mindfulness",
+          "aanwezigheid",
+          "controle"
+        ],
+        "ru": [
+          "осознанность",
+          "присутствие",
+          "контроль"
+        ],
+        "id": [
+          "kesadaran",
+          "kehadiran",
+          "kontrol"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "存在",
+          "制御"
+        ],
+        "th": [
+          "สติ",
+          "การมีอยู่",
+          "การควบคุม"
+        ],
+        "ms": [
+          "kesedaran",
+          "kehadiran",
+          "kawalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -854,19 +1217,71 @@
         "ms": "Pericles"
       },
       "tags": {
-        "en": ["wisdom", "perspective", "healing"],
-        "tr": ["bilgelik", "bakış_açısı", "şifa"],
-        "fr": ["sagesse", "perspective", "guérison"],
-        "pt": ["sabedoria", "perspectiva", "cura"],
-        "es": ["sabiduría", "perspectiva", "curación"],
-        "de": ["Weisheit", "Perspektive", "Heilung"],
-        "it": ["saggezza", "prospettiva", "guarigione"],
-        "nl": ["wijsheid", "perspectief", "genezing"],
-        "ru": ["мудрость", "перспектива", "исцеление"],
-        "id": ["kebijaksanaan", "perspektif", "penyembuhan"],
-        "ja": ["知恵", "視点", "癒し"],
-        "th": ["ปัญญา", "มุมมอง", "การเยียวยา"],
-        "ms": ["kebijaksanaan", "perspektif", "penyembuhan"]
+        "en": [
+          "wisdom",
+          "perspective",
+          "healing"
+        ],
+        "tr": [
+          "bilgelik",
+          "bakış_açısı",
+          "şifa"
+        ],
+        "fr": [
+          "sagesse",
+          "perspective",
+          "guérison"
+        ],
+        "pt": [
+          "sabedoria",
+          "perspectiva",
+          "cura"
+        ],
+        "es": [
+          "sabiduría",
+          "perspectiva",
+          "curación"
+        ],
+        "de": [
+          "Weisheit",
+          "Perspektive",
+          "Heilung"
+        ],
+        "it": [
+          "saggezza",
+          "prospettiva",
+          "guarigione"
+        ],
+        "nl": [
+          "wijsheid",
+          "perspectief",
+          "genezing"
+        ],
+        "ru": [
+          "мудрость",
+          "перспектива",
+          "исцеление"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "perspektif",
+          "penyembuhan"
+        ],
+        "ja": [
+          "知恵",
+          "視点",
+          "癒し"
+        ],
+        "th": [
+          "ปัญญา",
+          "มุมมอง",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "perspektif",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -971,19 +1386,71 @@
         "ms": "Pengkhotbah 3:1"
       },
       "tags": {
-        "en": ["cycles", "acceptance", "divine_timing"],
-        "tr": ["döngüler", "kabul", "ilahi_zamanlama"],
-        "fr": ["cycles", "acceptation", "synchronisation_divine"],
-        "pt": ["ciclos", "aceitação", "tempo_divino"],
-        "es": ["ciclos", "aceptación", "tiempo_divino"],
-        "de": ["Zyklen", "Akzeptanz", "göttliches_Timing"],
-        "it": ["cicli", "accettazione", "tempismo_divino"],
-        "nl": ["cycli", "acceptatie", "goddelijke_timing"],
-        "ru": ["циклы", "принятие", "божественное_время"],
-        "id": ["siklus", "penerimaan", "waktu_ilahi"],
-        "ja": ["サイクル", "受け入れ", "神聖なタイミング"],
-        "th": ["วงจร", "การยอมรับ", "จังหวะแห่งสวรรค์"],
-        "ms": ["kitaran", "penerimaan", "masa_ilahi"]
+        "en": [
+          "cycles",
+          "acceptance",
+          "divine_timing"
+        ],
+        "tr": [
+          "döngüler",
+          "kabul",
+          "ilahi_zamanlama"
+        ],
+        "fr": [
+          "cycles",
+          "acceptation",
+          "synchronisation_divine"
+        ],
+        "pt": [
+          "ciclos",
+          "aceitação",
+          "tempo_divino"
+        ],
+        "es": [
+          "ciclos",
+          "aceptación",
+          "tiempo_divino"
+        ],
+        "de": [
+          "Zyklen",
+          "Akzeptanz",
+          "göttliches_Timing"
+        ],
+        "it": [
+          "cicli",
+          "accettazione",
+          "tempismo_divino"
+        ],
+        "nl": [
+          "cycli",
+          "acceptatie",
+          "goddelijke_timing"
+        ],
+        "ru": [
+          "циклы",
+          "принятие",
+          "божественное_время"
+        ],
+        "id": [
+          "siklus",
+          "penerimaan",
+          "waktu_ilahi"
+        ],
+        "ja": [
+          "サイクル",
+          "受け入れ",
+          "神聖なタイミング"
+        ],
+        "th": [
+          "วงจร",
+          "การยอมรับ",
+          "จังหวะแห่งสวรรค์"
+        ],
+        "ms": [
+          "kitaran",
+          "penerimaan",
+          "masa_ilahi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1088,19 +1555,71 @@
         "ms": "Sam Levenson"
       },
       "tags": {
-        "en": ["persistence", "action", "focus"],
-        "tr": ["azim", "eylem", "odaklanma"],
-        "fr": ["persistance", "action", "concentration"],
-        "pt": ["persistência", "ação", "foco"],
-        "es": ["persistencia", "acción", "enfoque"],
-        "de": ["Beharrlichkeit", "Handlung", "Fokus"],
-        "it": ["persistenza", "azione", "focus"],
-        "nl": ["doorzettingsvermogen", "actie", "focus"],
-        "ru": ["настойчивость", "действие", "фокус"],
-        "id": ["ketekunan", "tindakan", "fokus"],
-        "ja": ["持続性", "行動", "集中"],
-        "th": ["ความพยายาม", "การกระทำ", "โฟกัส"],
-        "ms": ["ketabahan", "tindakan", "fokus"]
+        "en": [
+          "persistence",
+          "action",
+          "focus"
+        ],
+        "tr": [
+          "azim",
+          "eylem",
+          "odaklanma"
+        ],
+        "fr": [
+          "persistance",
+          "action",
+          "concentration"
+        ],
+        "pt": [
+          "persistência",
+          "ação",
+          "foco"
+        ],
+        "es": [
+          "persistencia",
+          "acción",
+          "enfoque"
+        ],
+        "de": [
+          "Beharrlichkeit",
+          "Handlung",
+          "Fokus"
+        ],
+        "it": [
+          "persistenza",
+          "azione",
+          "focus"
+        ],
+        "nl": [
+          "doorzettingsvermogen",
+          "actie",
+          "focus"
+        ],
+        "ru": [
+          "настойчивость",
+          "действие",
+          "фокус"
+        ],
+        "id": [
+          "ketekunan",
+          "tindakan",
+          "fokus"
+        ],
+        "ja": [
+          "持続性",
+          "行動",
+          "集中"
+        ],
+        "th": [
+          "ความพยายาม",
+          "การกระทำ",
+          "โฟกัส"
+        ],
+        "ms": [
+          "ketabahan",
+          "tindakan",
+          "fokus"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1205,19 +1724,71 @@
         "ms": "Theophrastus"
       },
       "tags": {
-        "en": ["value", "investment", "finite"],
-        "tr": ["değer", "yatırım", "sonlu"],
-        "fr": ["valeur", "investissement", "fini"],
-        "pt": ["valor", "investimento", "finito"],
-        "es": ["valor", "inversión", "finito"],
-        "de": ["Wert", "Investition", "endlich"],
-        "it": ["valore", "investimento", "finito"],
-        "nl": ["waarde", "investering", "eindig"],
-        "ru": ["ценность", "инвестиции", "конечность"],
-        "id": ["nilai", "investasi", "terbatas"],
-        "ja": ["価値", "投資", "有限"],
-        "th": ["คุณค่า", "การลงทุน", "จำกัด"],
-        "ms": ["nilai", "pelaburan", "terhad"]
+        "en": [
+          "value",
+          "investment",
+          "finite"
+        ],
+        "tr": [
+          "değer",
+          "yatırım",
+          "sonlu"
+        ],
+        "fr": [
+          "valeur",
+          "investissement",
+          "fini"
+        ],
+        "pt": [
+          "valor",
+          "investimento",
+          "finito"
+        ],
+        "es": [
+          "valor",
+          "inversión",
+          "finito"
+        ],
+        "de": [
+          "Wert",
+          "Investition",
+          "endlich"
+        ],
+        "it": [
+          "valore",
+          "investimento",
+          "finito"
+        ],
+        "nl": [
+          "waarde",
+          "investering",
+          "eindig"
+        ],
+        "ru": [
+          "ценность",
+          "инвестиции",
+          "конечность"
+        ],
+        "id": [
+          "nilai",
+          "investasi",
+          "terbatas"
+        ],
+        "ja": [
+          "価値",
+          "投資",
+          "有限"
+        ],
+        "th": [
+          "คุณค่า",
+          "การลงทุน",
+          "จำกัด"
+        ],
+        "ms": [
+          "nilai",
+          "pelaburan",
+          "terhad"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1322,19 +1893,71 @@
         "ms": "Peribahasa Cina"
       },
       "tags": {
-        "en": ["action", "opportunity", "future"],
-        "tr": ["eylem", "fırsat", "gelecek"],
-        "fr": ["action", "opportunité", "futur"],
-        "pt": ["ação", "oportunidade", "futuro"],
-        "es": ["acción", "oportunidad", "futuro"],
-        "de": ["Handlung", "Gelegenheit", "Zukunft"],
-        "it": ["azione", "opportunità", "futuro"],
-        "nl": ["actie", "kans", "toekomst"],
-        "ru": ["действие", "возможность", "будущее"],
-        "id": ["tindakan", "peluang", "masa_depan"],
-        "ja": ["行動", "機会", "未来"],
-        "th": ["การกระทำ", "โอกาส", "อนาคต"],
-        "ms": ["tindakan", "peluang", "masa_depan"]
+        "en": [
+          "action",
+          "opportunity",
+          "future"
+        ],
+        "tr": [
+          "eylem",
+          "fırsat",
+          "gelecek"
+        ],
+        "fr": [
+          "action",
+          "opportunité",
+          "futur"
+        ],
+        "pt": [
+          "ação",
+          "oportunidade",
+          "futuro"
+        ],
+        "es": [
+          "acción",
+          "oportunidad",
+          "futuro"
+        ],
+        "de": [
+          "Handlung",
+          "Gelegenheit",
+          "Zukunft"
+        ],
+        "it": [
+          "azione",
+          "opportunità",
+          "futuro"
+        ],
+        "nl": [
+          "actie",
+          "kans",
+          "toekomst"
+        ],
+        "ru": [
+          "действие",
+          "возможность",
+          "будущее"
+        ],
+        "id": [
+          "tindakan",
+          "peluang",
+          "masa_depan"
+        ],
+        "ja": [
+          "行動",
+          "機会",
+          "未来"
+        ],
+        "th": [
+          "การกระทำ",
+          "โอกาส",
+          "อนาคต"
+        ],
+        "ms": [
+          "tindakan",
+          "peluang",
+          "masa_depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1439,19 +2062,71 @@
         "ms": "Faith Baldwin"
       },
       "tags": {
-        "en": ["change", "adaptation", "transformation"],
-        "tr": ["değişim", "uyum", "dönüşüm"],
-        "fr": ["changement", "adaptation", "transformation"],
-        "pt": ["mudança", "adaptação", "transformação"],
-        "es": ["cambio", "adaptación", "transformación"],
-        "de": ["Veränderung", "Anpassung", "Transformation"],
-        "it": ["cambiamento", "adattamento", "trasformazione"],
-        "nl": ["verandering", "aanpassing", "transformatie"],
-        "ru": ["изменение", "адаптация", "трансформация"],
-        "id": ["perubahan", "adaptasi", "transformasi"],
-        "ja": ["変化", "適応", "変形"],
-        "th": ["การเปลี่ยนแปลง", "การปรับตัว", "การเปลี่ยนรูป"],
-        "ms": ["perubahan", "penyesuaian", "transformasi"]
+        "en": [
+          "change",
+          "adaptation",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "uyum",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "adaptation",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "adaptação",
+          "transformação"
+        ],
+        "es": [
+          "cambio",
+          "adaptación",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Anpassung",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "adattamento",
+          "trasformazione"
+        ],
+        "nl": [
+          "verandering",
+          "aanpassing",
+          "transformatie"
+        ],
+        "ru": [
+          "изменение",
+          "адаптация",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "adaptasi",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "適応",
+          "変形"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การปรับตัว",
+          "การเปลี่ยนรูป"
+        ],
+        "ms": [
+          "perubahan",
+          "penyesuaian",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1556,19 +2231,71 @@
         "ms": "Carl Sandburg"
       },
       "tags": {
-        "en": ["autonomy", "value", "boundaries"],
-        "tr": ["özerklik", "değer", "sınırlar"],
-        "fr": ["autonomie", "valeur", "limites"],
-        "pt": ["autonomia", "valor", "limites"],
-        "es": ["autonomía", "valor", "límites"],
-        "de": ["Autonomie", "Wert", "Grenzen"],
-        "it": ["autonomia", "valore", "confini"],
-        "nl": ["autonomie", "waarde", "grenzen"],
-        "ru": ["автономия", "ценность", "границы"],
-        "id": ["otonomi", "nilai", "batasan"],
-        "ja": ["自律", "価値", "境界"],
-        "th": ["อิสรภาพ", "คุณค่า", "ขอบเขต"],
-        "ms": ["autonomi", "nilai", "sempadan"]
+        "en": [
+          "autonomy",
+          "value",
+          "boundaries"
+        ],
+        "tr": [
+          "özerklik",
+          "değer",
+          "sınırlar"
+        ],
+        "fr": [
+          "autonomie",
+          "valeur",
+          "limites"
+        ],
+        "pt": [
+          "autonomia",
+          "valor",
+          "limites"
+        ],
+        "es": [
+          "autonomía",
+          "valor",
+          "límites"
+        ],
+        "de": [
+          "Autonomie",
+          "Wert",
+          "Grenzen"
+        ],
+        "it": [
+          "autonomia",
+          "valore",
+          "confini"
+        ],
+        "nl": [
+          "autonomie",
+          "waarde",
+          "grenzen"
+        ],
+        "ru": [
+          "автономия",
+          "ценность",
+          "границы"
+        ],
+        "id": [
+          "otonomi",
+          "nilai",
+          "batasan"
+        ],
+        "ja": [
+          "自律",
+          "価値",
+          "境界"
+        ],
+        "th": [
+          "อิสรภาพ",
+          "คุณค่า",
+          "ขอบเขต"
+        ],
+        "ms": [
+          "autonomi",
+          "nilai",
+          "sempadan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1673,19 +2400,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["sequence", "order", "relativity"],
-        "tr": ["sıra", "düzen", "görelilik"],
-        "fr": ["séquence", "ordre", "relativité"],
-        "pt": ["sequência", "ordem", "relatividade"],
-        "es": ["secuencia", "orden", "relatividad"],
-        "de": ["Sequenz", "Ordnung", "Relativität"],
-        "it": ["sequenza", "ordine", "relatività"],
-        "nl": ["sequentie", "orde", "relativiteit"],
-        "ru": ["последовательность", "порядок", "относительность"],
-        "id": ["urutan", "tatanan", "relativitas"],
-        "ja": ["順序", "秩序", "相対性"],
-        "th": ["ลำดับ", "ระเบียบ", "สัมพัทธภาพ"],
-        "ms": ["urutan", "tertib", "relativiti"]
+        "en": [
+          "sequence",
+          "order",
+          "relativity"
+        ],
+        "tr": [
+          "sıra",
+          "düzen",
+          "görelilik"
+        ],
+        "fr": [
+          "séquence",
+          "ordre",
+          "relativité"
+        ],
+        "pt": [
+          "sequência",
+          "ordem",
+          "relatividade"
+        ],
+        "es": [
+          "secuencia",
+          "orden",
+          "relatividad"
+        ],
+        "de": [
+          "Sequenz",
+          "Ordnung",
+          "Relativität"
+        ],
+        "it": [
+          "sequenza",
+          "ordine",
+          "relatività"
+        ],
+        "nl": [
+          "sequentie",
+          "orde",
+          "relativiteit"
+        ],
+        "ru": [
+          "последовательность",
+          "порядок",
+          "относительность"
+        ],
+        "id": [
+          "urutan",
+          "tatanan",
+          "relativitas"
+        ],
+        "ja": [
+          "順序",
+          "秩序",
+          "相対性"
+        ],
+        "th": [
+          "ลำดับ",
+          "ระเบียบ",
+          "สัมพัทธภาพ"
+        ],
+        "ms": [
+          "urutan",
+          "tertib",
+          "relativiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1790,19 +2569,71 @@
         "ms": "Mason Cooley"
       },
       "tags": {
-        "en": ["acceptance", "forward_thinking", "present"],
-        "tr": ["kabul", "ileriye_bakma", "şimdi"],
-        "fr": ["acceptation", "perspective", "présent"],
-        "pt": ["aceitação", "pensamento_futuro", "presente"],
-        "es": ["aceptación", "pensamiento_futuro", "presente"],
-        "de": ["Akzeptanz", "vorausschauend", "Gegenwart"],
-        "it": ["accettazione", "prospettiva", "presente"],
-        "nl": ["acceptatie", "vooruitdenken", "heden"],
-        "ru": ["принятие", "дальновидность", "настоящее"],
-        "id": ["penerimaan", "berpikir_maju", "sekarang"],
-        "ja": ["受け入れ", "前向き思考", "現在"],
-        "th": ["การยอมรับ", "การมองไปข้างหน้า", "ปัจจุบัน"],
-        "ms": ["penerimaan", "pemikiran_maju", "kini"]
+        "en": [
+          "acceptance",
+          "forward_thinking",
+          "present"
+        ],
+        "tr": [
+          "kabul",
+          "ileriye_bakma",
+          "şimdi"
+        ],
+        "fr": [
+          "acceptation",
+          "perspective",
+          "présent"
+        ],
+        "pt": [
+          "aceitação",
+          "pensamento_futuro",
+          "presente"
+        ],
+        "es": [
+          "aceptación",
+          "pensamiento_futuro",
+          "presente"
+        ],
+        "de": [
+          "Akzeptanz",
+          "vorausschauend",
+          "Gegenwart"
+        ],
+        "it": [
+          "accettazione",
+          "prospettiva",
+          "presente"
+        ],
+        "nl": [
+          "acceptatie",
+          "vooruitdenken",
+          "heden"
+        ],
+        "ru": [
+          "принятие",
+          "дальновидность",
+          "настоящее"
+        ],
+        "id": [
+          "penerimaan",
+          "berpikir_maju",
+          "sekarang"
+        ],
+        "ja": [
+          "受け入れ",
+          "前向き思考",
+          "現在"
+        ],
+        "th": [
+          "การยอมรับ",
+          "การมองไปข้างหน้า",
+          "ปัจจุบัน"
+        ],
+        "ms": [
+          "penerimaan",
+          "pemikiran_maju",
+          "kini"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1907,19 +2738,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["perception", "relativity", "reality"],
-        "tr": ["algı", "görelilik", "gerçeklik"],
-        "fr": ["perception", "relativité", "réalité"],
-        "pt": ["percepção", "relatividade", "realidade"],
-        "es": ["percepción", "relatividad", "realidad"],
-        "de": ["Wahrnehmung", "Relativität", "Realität"],
-        "it": ["percezione", "relatività", "realtà"],
-        "nl": ["perceptie", "relativiteit", "realiteit"],
-        "ru": ["восприятие", "относительность", "реальность"],
-        "id": ["persepsi", "relativitas", "realitas"],
-        "ja": ["知覚", "相対性", "現実"],
-        "th": ["การรับรู้", "สัมพัทธภาพ", "ความจริง"],
-        "ms": ["persepsi", "relativiti", "realiti"]
+        "en": [
+          "perception",
+          "relativity",
+          "reality"
+        ],
+        "tr": [
+          "algı",
+          "görelilik",
+          "gerçeklik"
+        ],
+        "fr": [
+          "perception",
+          "relativité",
+          "réalité"
+        ],
+        "pt": [
+          "percepção",
+          "relatividade",
+          "realidade"
+        ],
+        "es": [
+          "percepción",
+          "relatividad",
+          "realidad"
+        ],
+        "de": [
+          "Wahrnehmung",
+          "Relativität",
+          "Realität"
+        ],
+        "it": [
+          "percezione",
+          "relatività",
+          "realtà"
+        ],
+        "nl": [
+          "perceptie",
+          "relativiteit",
+          "realiteit"
+        ],
+        "ru": [
+          "восприятие",
+          "относительность",
+          "реальность"
+        ],
+        "id": [
+          "persepsi",
+          "relativitas",
+          "realitas"
+        ],
+        "ja": [
+          "知覚",
+          "相対性",
+          "現実"
+        ],
+        "th": [
+          "การรับรู้",
+          "สัมพัทธภาพ",
+          "ความจริง"
+        ],
+        "ms": [
+          "persepsi",
+          "relativiti",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2024,19 +2907,71 @@
         "ms": "Francis Bacon"
       },
       "tags": {
-        "en": ["progress", "evolution", "change"],
-        "tr": ["ilerleme", "evrim", "değişim"],
-        "fr": ["progrès", "évolution", "changement"],
-        "pt": ["progresso", "evolução", "mudança"],
-        "es": ["progreso", "evolución", "cambio"],
-        "de": ["Fortschritt", "Evolution", "Veränderung"],
-        "it": ["progresso", "evoluzione", "cambiamento"],
-        "nl": ["vooruitgang", "evolutie", "verandering"],
-        "ru": ["прогресс", "эволюция", "изменение"],
-        "id": ["kemajuan", "evolusi", "perubahan"],
-        "ja": ["進歩", "進化", "変化"],
-        "th": ["ความก้าวหน้า", "วิวัฒนาการ", "การเปลี่ยนแปลง"],
-        "ms": ["kemajuan", "evolusi", "perubahan"]
+        "en": [
+          "progress",
+          "evolution",
+          "change"
+        ],
+        "tr": [
+          "ilerleme",
+          "evrim",
+          "değişim"
+        ],
+        "fr": [
+          "progrès",
+          "évolution",
+          "changement"
+        ],
+        "pt": [
+          "progresso",
+          "evolução",
+          "mudança"
+        ],
+        "es": [
+          "progreso",
+          "evolución",
+          "cambio"
+        ],
+        "de": [
+          "Fortschritt",
+          "Evolution",
+          "Veränderung"
+        ],
+        "it": [
+          "progresso",
+          "evoluzione",
+          "cambiamento"
+        ],
+        "nl": [
+          "vooruitgang",
+          "evolutie",
+          "verandering"
+        ],
+        "ru": [
+          "прогресс",
+          "эволюция",
+          "изменение"
+        ],
+        "id": [
+          "kemajuan",
+          "evolusi",
+          "perubahan"
+        ],
+        "ja": [
+          "進歩",
+          "進化",
+          "変化"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "วิวัฒนาการ",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "kemajuan",
+          "evolusi",
+          "perubahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2141,19 +3076,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["healing", "aging", "perspective"],
-        "tr": ["şifa", "yaşlanma", "bakış_açısı"],
-        "fr": ["guérison", "vieillissement", "perspective"],
-        "pt": ["cura", "envelhecimento", "perspectiva"],
-        "es": ["curación", "envejecimiento", "perspectiva"],
-        "de": ["Heilung", "Altern", "Perspektive"],
-        "it": ["guarigione", "invecchiamento", "prospettiva"],
-        "nl": ["genezing", "veroudering", "perspectief"],
-        "ru": ["исцеление", "старение", "перспектива"],
-        "id": ["penyembuhan", "penuaan", "perspektif"],
-        "ja": ["癒し", "老化", "視点"],
-        "th": ["การเยียวยา", "การแก่ชรา", "มุมมอง"],
-        "ms": ["penyembuhan", "penuaan", "perspektif"]
+        "en": [
+          "healing",
+          "aging",
+          "perspective"
+        ],
+        "tr": [
+          "şifa",
+          "yaşlanma",
+          "bakış_açısı"
+        ],
+        "fr": [
+          "guérison",
+          "vieillissement",
+          "perspective"
+        ],
+        "pt": [
+          "cura",
+          "envelhecimento",
+          "perspectiva"
+        ],
+        "es": [
+          "curación",
+          "envejecimiento",
+          "perspectiva"
+        ],
+        "de": [
+          "Heilung",
+          "Altern",
+          "Perspektive"
+        ],
+        "it": [
+          "guarigione",
+          "invecchiamento",
+          "prospettiva"
+        ],
+        "nl": [
+          "genezing",
+          "veroudering",
+          "perspectief"
+        ],
+        "ru": [
+          "исцеление",
+          "старение",
+          "перспектива"
+        ],
+        "id": [
+          "penyembuhan",
+          "penuaan",
+          "perspektif"
+        ],
+        "ja": [
+          "癒し",
+          "老化",
+          "視点"
+        ],
+        "th": [
+          "การเยียวยา",
+          "การแก่ชรา",
+          "มุมมอง"
+        ],
+        "ms": [
+          "penyembuhan",
+          "penuaan",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2258,19 +3245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["wisdom", "value", "productivity"],
-        "tr": ["bilgelik", "değer", "verimlilik"],
-        "fr": ["sagesse", "valeur", "productivité"],
-        "pt": ["sabedoria", "valor", "produtividade"],
-        "nl": ["wijsheid", "waarde", "productiviteit"],
-        "es": ["sabiduría", "valor", "productividad"],
-        "de": ["weisheit", "wert", "produktivität"],
-        "it": ["saggezza", "valore", "produttività"],
-        "ru": ["мудрость", "ценность", "продуктивность"],
-        "id": ["kebijaksanaan", "nilai", "produktivitas"],
-        "ja": ["知恵", "価値", "生産性"],
-        "th": ["ความฉลาด", "คุณค่า", "ประสิทธิภาพ"],
-        "ms": ["kebijaksanaan", "nilai", "produktiviti"]
+        "en": [
+          "wisdom",
+          "value",
+          "productivity"
+        ],
+        "tr": [
+          "bilgelik",
+          "değer",
+          "verimlilik"
+        ],
+        "fr": [
+          "sagesse",
+          "valeur",
+          "productivité"
+        ],
+        "pt": [
+          "sabedoria",
+          "valor",
+          "produtividade"
+        ],
+        "nl": [
+          "wijsheid",
+          "waarde",
+          "productiviteit"
+        ],
+        "es": [
+          "sabiduría",
+          "valor",
+          "productividad"
+        ],
+        "de": [
+          "weisheit",
+          "wert",
+          "produktivität"
+        ],
+        "it": [
+          "saggezza",
+          "valore",
+          "produttività"
+        ],
+        "ru": [
+          "мудрость",
+          "ценность",
+          "продуктивность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "nilai",
+          "produktivitas"
+        ],
+        "ja": [
+          "知恵",
+          "価値",
+          "生産性"
+        ],
+        "th": [
+          "ความฉลาด",
+          "คุณค่า",
+          "ประสิทธิภาพ"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "nilai",
+          "produktiviti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2388,19 +3427,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["presence", "planning", "balance"],
-        "tr": ["hazır olma", "planlama", "denge"],
-        "fr": ["présence", "planification", "équilibre"],
-        "pt": ["presença", "planejamento", "equilíbrio"],
-        "nl": ["aanwezigheid", "planning", "balans"],
-        "es": ["presencia", "planificación", "equilibrio"],
-        "de": ["gegenwart", "planung", "balance"],
-        "it": ["presenza", "pianificazione", "equilibrio"],
-        "ru": ["присутствие", "планирование", "баланс"],
-        "id": ["kehadiran", "perencanaan", "keseimbangan"],
-        "ja": ["存在", "計画", "バランス"],
-        "th": ["การอยู่ร่วม", "การวางแผน", "สมดุล"],
-        "ms": ["kehadiran", "perancangan", "keseimbangan"]
+        "en": [
+          "presence",
+          "planning",
+          "balance"
+        ],
+        "tr": [
+          "hazır olma",
+          "planlama",
+          "denge"
+        ],
+        "fr": [
+          "présence",
+          "planification",
+          "équilibre"
+        ],
+        "pt": [
+          "presença",
+          "planejamento",
+          "equilíbrio"
+        ],
+        "nl": [
+          "aanwezigheid",
+          "planning",
+          "balans"
+        ],
+        "es": [
+          "presencia",
+          "planificación",
+          "equilibrio"
+        ],
+        "de": [
+          "gegenwart",
+          "planung",
+          "balance"
+        ],
+        "it": [
+          "presenza",
+          "pianificazione",
+          "equilibrio"
+        ],
+        "ru": [
+          "присутствие",
+          "планирование",
+          "баланс"
+        ],
+        "id": [
+          "kehadiran",
+          "perencanaan",
+          "keseimbangan"
+        ],
+        "ja": [
+          "存在",
+          "計画",
+          "バランス"
+        ],
+        "th": [
+          "การอยู่ร่วม",
+          "การวางแผน",
+          "สมดุล"
+        ],
+        "ms": [
+          "kehadiran",
+          "perancangan",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2518,19 +3609,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["honor", "past", "future"],
-        "tr": ["onurlandırma", "geçmiş", "gelecek"],
-        "fr": ["honneur", "passé", "avenir"],
-        "pt": ["honra", "passado", "futuro"],
-        "nl": ["eer", "verleden", "toekomst"],
-        "es": ["honor", "pasado", "futuro"],
-        "de": ["ehre", "vergangenheit", "zukunft"],
-        "it": ["onore", "passato", "futuro"],
-        "ru": ["честь", "прошлое", "будущее"],
-        "id": ["kehormatan", "masa lalu", "masa depan"],
-        "ja": ["尊敬", "過去", "未来"],
-        "th": ["เกียรติ", "อดีต", "อนาคต"],
-        "ms": ["kehormatan", "masa lalu", "masa depan"]
+        "en": [
+          "honor",
+          "past",
+          "future"
+        ],
+        "tr": [
+          "onurlandırma",
+          "geçmiş",
+          "gelecek"
+        ],
+        "fr": [
+          "honneur",
+          "passé",
+          "avenir"
+        ],
+        "pt": [
+          "honra",
+          "passado",
+          "futuro"
+        ],
+        "nl": [
+          "eer",
+          "verleden",
+          "toekomst"
+        ],
+        "es": [
+          "honor",
+          "pasado",
+          "futuro"
+        ],
+        "de": [
+          "ehre",
+          "vergangenheit",
+          "zukunft"
+        ],
+        "it": [
+          "onore",
+          "passato",
+          "futuro"
+        ],
+        "ru": [
+          "честь",
+          "прошлое",
+          "будущее"
+        ],
+        "id": [
+          "kehormatan",
+          "masa lalu",
+          "masa depan"
+        ],
+        "ja": [
+          "尊敬",
+          "過去",
+          "未来"
+        ],
+        "th": [
+          "เกียรติ",
+          "อดีต",
+          "อนาคต"
+        ],
+        "ms": [
+          "kehormatan",
+          "masa lalu",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2648,19 +3791,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["purpose", "intentionality", "value"],
-        "tr": ["amaç", "kasıtlılık", "değer"],
-        "fr": ["but", "intentionnalité", "valeur"],
-        "pt": ["propósito", "intencionalidade", "valor"],
-        "nl": ["doel", "intentionnaliteit", "waarde"],
-        "es": ["propósito", "intencionalidad", "valor"],
-        "de": ["zweck", "intentionalität", "wert"],
-        "it": ["scopo", "intenzionalità", "valore"],
-        "ru": ["цель", "намеренность", "ценность"],
-        "id": ["tujuan", "kesengajaan", "nilai"],
-        "ja": ["目的", "意図性", "価値"],
-        "th": ["จุดมุ่งหมาย", "ความตั้งใจ", "คุณค่า"],
-        "ms": ["tujuan", "kesengajaan", "nilai"]
+        "en": [
+          "purpose",
+          "intentionality",
+          "value"
+        ],
+        "tr": [
+          "amaç",
+          "kasıtlılık",
+          "değer"
+        ],
+        "fr": [
+          "but",
+          "intentionnalité",
+          "valeur"
+        ],
+        "pt": [
+          "propósito",
+          "intencionalidade",
+          "valor"
+        ],
+        "nl": [
+          "doel",
+          "intentionnaliteit",
+          "waarde"
+        ],
+        "es": [
+          "propósito",
+          "intencionalidad",
+          "valor"
+        ],
+        "de": [
+          "zweck",
+          "intentionalität",
+          "wert"
+        ],
+        "it": [
+          "scopo",
+          "intenzionalità",
+          "valore"
+        ],
+        "ru": [
+          "цель",
+          "намеренность",
+          "ценность"
+        ],
+        "id": [
+          "tujuan",
+          "kesengajaan",
+          "nilai"
+        ],
+        "ja": [
+          "目的",
+          "意図性",
+          "価値"
+        ],
+        "th": [
+          "จุดมุ่งหมาย",
+          "ความตั้งใจ",
+          "คุณค่า"
+        ],
+        "ms": [
+          "tujuan",
+          "kesengajaan",
+          "nilai"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2778,19 +3973,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["learning", "presence", "hope"],
-        "tr": ["öğrenme", "hazır olma", "umut"],
-        "fr": ["apprentissage", "présence", "espoir"],
-        "pt": ["aprendizado", "presença", "esperança"],
-        "nl": ["leren", "aanwezigheid", "hoop"],
-        "es": ["aprendizaje", "presencia", "esperanza"],
-        "de": ["lernen", "gegenwart", "hoffnung"],
-        "it": ["apprendimento", "presenza", "speranza"],
-        "ru": ["обучение", "присутствие", "надежда"],
-        "id": ["pembelajaran", "kehadiran", "harapan"],
-        "ja": ["学習", "存在", "希望"],
-        "th": ["การเรียนรู้", "การอยู่ร่วม", "ความหวัง"],
-        "ms": ["pembelajaran", "kehadiran", "harapan"]
+        "en": [
+          "learning",
+          "presence",
+          "hope"
+        ],
+        "tr": [
+          "öğrenme",
+          "hazır olma",
+          "umut"
+        ],
+        "fr": [
+          "apprentissage",
+          "présence",
+          "espoir"
+        ],
+        "pt": [
+          "aprendizado",
+          "presença",
+          "esperança"
+        ],
+        "nl": [
+          "leren",
+          "aanwezigheid",
+          "hoop"
+        ],
+        "es": [
+          "aprendizaje",
+          "presencia",
+          "esperanza"
+        ],
+        "de": [
+          "lernen",
+          "gegenwart",
+          "hoffnung"
+        ],
+        "it": [
+          "apprendimento",
+          "presenza",
+          "speranza"
+        ],
+        "ru": [
+          "обучение",
+          "присутствие",
+          "надежда"
+        ],
+        "id": [
+          "pembelajaran",
+          "kehadiran",
+          "harapan"
+        ],
+        "ja": [
+          "学習",
+          "存在",
+          "希望"
+        ],
+        "th": [
+          "การเรียนรู้",
+          "การอยู่ร่วม",
+          "ความหวัง"
+        ],
+        "ms": [
+          "pembelajaran",
+          "kehadiran",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2908,19 +4155,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["relationships", "investment", "priority"],
-        "tr": ["ilişkiler", "yatırım", "öncelik"],
-        "fr": ["relations", "investissement", "priorité"],
-        "pt": ["relacionamentos", "investimento", "prioridade"],
-        "nl": ["relaties", "investering", "prioriteit"],
-        "es": ["relaciones", "inversión", "prioridad"],
-        "de": ["beziehungen", "investition", "priorität"],
-        "it": ["relazioni", "investimento", "priorità"],
-        "ru": ["отношения", "инвестиции", "приоритет"],
-        "id": ["hubungan", "investasi", "prioritas"],
-        "ja": ["人間関係", "投資", "優先順位"],
-        "th": ["ความสัมพันธ์", "การลงทุน", "ลำดับความสำคัญ"],
-        "ms": ["hubungan", "pelaburan", "prioriti"]
+        "en": [
+          "relationships",
+          "investment",
+          "priority"
+        ],
+        "tr": [
+          "ilişkiler",
+          "yatırım",
+          "öncelik"
+        ],
+        "fr": [
+          "relations",
+          "investissement",
+          "priorité"
+        ],
+        "pt": [
+          "relacionamentos",
+          "investimento",
+          "prioridade"
+        ],
+        "nl": [
+          "relaties",
+          "investering",
+          "prioriteit"
+        ],
+        "es": [
+          "relaciones",
+          "inversión",
+          "prioridad"
+        ],
+        "de": [
+          "beziehungen",
+          "investition",
+          "priorität"
+        ],
+        "it": [
+          "relazioni",
+          "investimento",
+          "priorità"
+        ],
+        "ru": [
+          "отношения",
+          "инвестиции",
+          "приоритет"
+        ],
+        "id": [
+          "hubungan",
+          "investasi",
+          "prioritas"
+        ],
+        "ja": [
+          "人間関係",
+          "投資",
+          "優先順位"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "การลงทุน",
+          "ลำดับความสำคัญ"
+        ],
+        "ms": [
+          "hubungan",
+          "pelaburan",
+          "prioriti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3038,19 +4337,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["respect", "resource", "value"],
-        "tr": ["saygı", "kaynak", "değer"],
-        "fr": ["respect", "ressource", "valeur"],
-        "pt": ["respeito", "recurso", "valor"],
-        "nl": ["respect", "hulpbron", "waarde"],
-        "es": ["respeto", "recurso", "valor"],
-        "de": ["respekt", "ressource", "wert"],
-        "it": ["rispetto", "risorsa", "valore"],
-        "ru": ["уважение", "ресурс", "ценность"],
-        "id": ["penghormatan", "sumber daya", "nilai"],
-        "ja": ["尊敬", "資源", "価値"],
-        "th": ["ความเคารพ", "ทรัพยากร", "คุณค่า"],
-        "ms": ["penghormatan", "sumber", "nilai"]
+        "en": [
+          "respect",
+          "resource",
+          "value"
+        ],
+        "tr": [
+          "saygı",
+          "kaynak",
+          "değer"
+        ],
+        "fr": [
+          "respect",
+          "ressource",
+          "valeur"
+        ],
+        "pt": [
+          "respeito",
+          "recurso",
+          "valor"
+        ],
+        "nl": [
+          "respect",
+          "hulpbron",
+          "waarde"
+        ],
+        "es": [
+          "respeto",
+          "recurso",
+          "valor"
+        ],
+        "de": [
+          "respekt",
+          "ressource",
+          "wert"
+        ],
+        "it": [
+          "rispetto",
+          "risorsa",
+          "valore"
+        ],
+        "ru": [
+          "уважение",
+          "ресурс",
+          "ценность"
+        ],
+        "id": [
+          "penghormatan",
+          "sumber daya",
+          "nilai"
+        ],
+        "ja": [
+          "尊敬",
+          "資源",
+          "価値"
+        ],
+        "th": [
+          "ความเคารพ",
+          "ทรัพยากร",
+          "คุณค่า"
+        ],
+        "ms": [
+          "penghormatan",
+          "sumber",
+          "nilai"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3168,19 +4519,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["rest", "renewal", "energy"],
-        "tr": ["dinlenme", "yenilenme", "enerji"],
-        "fr": ["repos", "renouvellement", "énergie"],
-        "pt": ["descanso", "renovação", "energia"],
-        "nl": ["rust", "vernieuwing", "energie"],
-        "es": ["descanso", "renovación", "energía"],
-        "de": ["ruhe", "erneuerung", "energie"],
-        "it": ["riposo", "rinnovamento", "energia"],
-        "ru": ["отдых", "обновление", "энергия"],
-        "id": ["istirahat", "pembaruan", "energi"],
-        "ja": ["休息", "更新", "エネルギー"],
-        "th": ["การพักผ่อน", "การต่ออายุ", "พลังงาน"],
-        "ms": ["rehat", "pembaharuan", "tenaga"]
+        "en": [
+          "rest",
+          "renewal",
+          "energy"
+        ],
+        "tr": [
+          "dinlenme",
+          "yenilenme",
+          "enerji"
+        ],
+        "fr": [
+          "repos",
+          "renouvellement",
+          "énergie"
+        ],
+        "pt": [
+          "descanso",
+          "renovação",
+          "energia"
+        ],
+        "nl": [
+          "rust",
+          "vernieuwing",
+          "energie"
+        ],
+        "es": [
+          "descanso",
+          "renovación",
+          "energía"
+        ],
+        "de": [
+          "ruhe",
+          "erneuerung",
+          "energie"
+        ],
+        "it": [
+          "riposo",
+          "rinnovamento",
+          "energia"
+        ],
+        "ru": [
+          "отдых",
+          "обновление",
+          "энергия"
+        ],
+        "id": [
+          "istirahat",
+          "pembaruan",
+          "energi"
+        ],
+        "ja": [
+          "休息",
+          "更新",
+          "エネルギー"
+        ],
+        "th": [
+          "การพักผ่อน",
+          "การต่ออายุ",
+          "พลังงาน"
+        ],
+        "ms": [
+          "rehat",
+          "pembaharuan",
+          "tenaga"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3298,19 +4701,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "development", "learning"],
-        "tr": ["büyüme", "gelişim", "öğrenme"],
-        "fr": ["croissance", "développement", "apprentissage"],
-        "pt": ["crescimento", "desenvolvimento", "aprendizado"],
-        "nl": ["groei", "ontwikkeling", "leren"],
-        "es": ["crecimiento", "desarrollo", "aprendizaje"],
-        "de": ["wachstum", "entwicklung", "lernen"],
-        "it": ["crescita", "sviluppo", "apprendimento"],
-        "ru": ["рост", "развитие", "обучение"],
-        "id": ["pertumbuhan", "pengembangan", "pembelajaran"],
-        "ja": ["成長", "発展", "学習"],
-        "th": ["การเติบโต", "การพัฒนา", "การเรียนรู้"],
-        "ms": ["pertumbuhan", "pembangunan", "pembelajaran"]
+        "en": [
+          "growth",
+          "development",
+          "learning"
+        ],
+        "tr": [
+          "büyüme",
+          "gelişim",
+          "öğrenme"
+        ],
+        "fr": [
+          "croissance",
+          "développement",
+          "apprentissage"
+        ],
+        "pt": [
+          "crescimento",
+          "desenvolvimento",
+          "aprendizado"
+        ],
+        "nl": [
+          "groei",
+          "ontwikkeling",
+          "leren"
+        ],
+        "es": [
+          "crecimiento",
+          "desarrollo",
+          "aprendizaje"
+        ],
+        "de": [
+          "wachstum",
+          "entwicklung",
+          "lernen"
+        ],
+        "it": [
+          "crescita",
+          "sviluppo",
+          "apprendimento"
+        ],
+        "ru": [
+          "рост",
+          "развитие",
+          "обучение"
+        ],
+        "id": [
+          "pertumbuhan",
+          "pengembangan",
+          "pembelajaran"
+        ],
+        "ja": [
+          "成長",
+          "発展",
+          "学習"
+        ],
+        "th": [
+          "การเติบโต",
+          "การพัฒนา",
+          "การเรียนรู้"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "pembangunan",
+          "pembelajaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3428,19 +4883,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["appreciation", "goals", "balance"],
-        "tr": ["takdir", "hedefler", "denge"],
-        "fr": ["appréciation", "objectifs", "équilibre"],
-        "pt": ["apreciação", "metas", "equilíbrio"],
-        "nl": ["waardering", "doelen", "balans"],
-        "es": ["apreciación", "metas", "equilibrio"],
-        "de": ["wertschätzung", "ziele", "balance"],
-        "it": ["apprezzamento", "obiettivi", "equilibrio"],
-        "ru": ["признательность", "цели", "баланс"],
-        "id": ["penghargaan", "tujuan", "keseimbangan"],
-        "ja": ["感謝", "目標", "バランス"],
-        "th": ["การชื่นชม", "เป้าหมาย", "สมดุล"],
-        "ms": ["penghargaan", "matlamat", "keseimbangan"]
+        "en": [
+          "appreciation",
+          "goals",
+          "balance"
+        ],
+        "tr": [
+          "takdir",
+          "hedefler",
+          "denge"
+        ],
+        "fr": [
+          "appréciation",
+          "objectifs",
+          "équilibre"
+        ],
+        "pt": [
+          "apreciação",
+          "metas",
+          "equilíbrio"
+        ],
+        "nl": [
+          "waardering",
+          "doelen",
+          "balans"
+        ],
+        "es": [
+          "apreciación",
+          "metas",
+          "equilibrio"
+        ],
+        "de": [
+          "wertschätzung",
+          "ziele",
+          "balance"
+        ],
+        "it": [
+          "apprezzamento",
+          "obiettivi",
+          "equilibrio"
+        ],
+        "ru": [
+          "признательность",
+          "цели",
+          "баланс"
+        ],
+        "id": [
+          "penghargaan",
+          "tujuan",
+          "keseimbangan"
+        ],
+        "ja": [
+          "感謝",
+          "目標",
+          "バランス"
+        ],
+        "th": [
+          "การชื่นชม",
+          "เป้าหมาย",
+          "สมดุล"
+        ],
+        "ms": [
+          "penghargaan",
+          "matlamat",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3558,19 +5065,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["values", "fulfillment", "alignment"],
-        "tr": ["değerler", "tatmin", "uyum"],
-        "fr": ["valeurs", "accomplissement", "alignement"],
-        "pt": ["valores", "realização", "alinhamento"],
-        "nl": ["waarden", "vervulling", "uitlijning"],
-        "es": ["valores", "realización", "alineación"],
-        "de": ["werte", "erfüllung", "ausrichtung"],
-        "it": ["valori", "realizzazione", "allineamento"],
-        "ru": ["ценности", "удовлетворение", "согласованность"],
-        "id": ["nilai", "kepuasan", "keselarasan"],
-        "ja": ["価値観", "達成", "整合性"],
-        "th": ["ค่านิยม", "ความพอใจ", "การจัดตำแหน่ง"],
-        "ms": ["nilai", "kepuasan", "penjajaran"]
+        "en": [
+          "values",
+          "fulfillment",
+          "alignment"
+        ],
+        "tr": [
+          "değerler",
+          "tatmin",
+          "uyum"
+        ],
+        "fr": [
+          "valeurs",
+          "accomplissement",
+          "alignement"
+        ],
+        "pt": [
+          "valores",
+          "realização",
+          "alinhamento"
+        ],
+        "nl": [
+          "waarden",
+          "vervulling",
+          "uitlijning"
+        ],
+        "es": [
+          "valores",
+          "realización",
+          "alineación"
+        ],
+        "de": [
+          "werte",
+          "erfüllung",
+          "ausrichtung"
+        ],
+        "it": [
+          "valori",
+          "realizzazione",
+          "allineamento"
+        ],
+        "ru": [
+          "ценности",
+          "удовлетворение",
+          "согласованность"
+        ],
+        "id": [
+          "nilai",
+          "kepuasan",
+          "keselarasan"
+        ],
+        "ja": [
+          "価値観",
+          "達成",
+          "整合性"
+        ],
+        "th": [
+          "ค่านิยม",
+          "ความพอใจ",
+          "การจัดตำแหน่ง"
+        ],
+        "ms": [
+          "nilai",
+          "kepuasan",
+          "penjajaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3688,19 +5247,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["rituals", "honor", "energy"],
-        "tr": ["ritüeller", "onur", "enerji"],
-        "fr": ["rituels", "honneur", "énergie"],
-        "pt": ["rituais", "honra", "energia"],
-        "nl": ["rituelen", "eer", "energie"],
-        "es": ["rituales", "honor", "energía"],
-        "de": ["rituale", "ehre", "energie"],
-        "it": ["rituali", "onore", "energia"],
-        "ru": ["ритуалы", "честь", "энергия"],
-        "id": ["ritual", "kehormatan", "energi"],
-        "ja": ["儀式", "尊敬", "エネルギー"],
-        "th": ["พิธีกรรม", "เกียรติ", "พลังงาน"],
-        "ms": ["ritual", "kehormatan", "tenaga"]
+        "en": [
+          "rituals",
+          "honor",
+          "energy"
+        ],
+        "tr": [
+          "ritüeller",
+          "onur",
+          "enerji"
+        ],
+        "fr": [
+          "rituels",
+          "honneur",
+          "énergie"
+        ],
+        "pt": [
+          "rituais",
+          "honra",
+          "energia"
+        ],
+        "nl": [
+          "rituelen",
+          "eer",
+          "energie"
+        ],
+        "es": [
+          "rituales",
+          "honor",
+          "energía"
+        ],
+        "de": [
+          "rituale",
+          "ehre",
+          "energie"
+        ],
+        "it": [
+          "rituali",
+          "onore",
+          "energia"
+        ],
+        "ru": [
+          "ритуалы",
+          "честь",
+          "энергия"
+        ],
+        "id": [
+          "ritual",
+          "kehormatan",
+          "energi"
+        ],
+        "ja": [
+          "儀式",
+          "尊敬",
+          "エネルギー"
+        ],
+        "th": [
+          "พิธีกรรม",
+          "เกียรติ",
+          "พลังงาน"
+        ],
+        "ms": [
+          "ritual",
+          "kehormatan",
+          "tenaga"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3818,19 +5429,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "past", "progress"],
-        "tr": ["bağışlama", "geçmiş", "ilerleme"],
-        "fr": ["pardon", "passé", "progrès"],
-        "pt": ["perdão", "passado", "progresso"],
-        "nl": ["vergeving", "verleden", "vooruitgang"],
-        "es": ["perdón", "pasado", "progreso"],
-        "de": ["vergebung", "vergangenheit", "fortschritt"],
-        "it": ["perdono", "passato", "progresso"],
-        "ru": ["прощение", "прошлое", "прогресс"],
-        "id": ["pengampunan", "masa lalu", "kemajuan"],
-        "ja": ["許し", "過去", "進歩"],
-        "th": ["การให้อภัย", "อดีต", "ความก้าวหน้า"],
-        "ms": ["pengampunan", "masa lalu", "kemajuan"]
+        "en": [
+          "forgiveness",
+          "past",
+          "progress"
+        ],
+        "tr": [
+          "bağışlama",
+          "geçmiş",
+          "ilerleme"
+        ],
+        "fr": [
+          "pardon",
+          "passé",
+          "progrès"
+        ],
+        "pt": [
+          "perdão",
+          "passado",
+          "progresso"
+        ],
+        "nl": [
+          "vergeving",
+          "verleden",
+          "vooruitgang"
+        ],
+        "es": [
+          "perdón",
+          "pasado",
+          "progreso"
+        ],
+        "de": [
+          "vergebung",
+          "vergangenheit",
+          "fortschritt"
+        ],
+        "it": [
+          "perdono",
+          "passato",
+          "progresso"
+        ],
+        "ru": [
+          "прощение",
+          "прошлое",
+          "прогресс"
+        ],
+        "id": [
+          "pengampunan",
+          "masa lalu",
+          "kemajuan"
+        ],
+        "ja": [
+          "許し",
+          "過去",
+          "進歩"
+        ],
+        "th": [
+          "การให้อภัย",
+          "อดีต",
+          "ความก้าวหน้า"
+        ],
+        "ms": [
+          "pengampunan",
+          "masa lalu",
+          "kemajuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3948,19 +5611,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "timing", "perfection"],
-        "tr": ["güven", "zamanlama", "mükemmellik"],
-        "fr": ["confiance", "timing", "perfection"],
-        "pt": ["confiança", "timing", "perfeição"],
-        "nl": ["vertrouwen", "timing", "perfectie"],
-        "es": ["confianza", "timing", "perfección"],
-        "de": ["vertrauen", "timing", "perfektion"],
-        "it": ["fiducia", "tempismo", "perfezione"],
-        "ru": ["доверие", "время", "совершенство"],
-        "id": ["kepercayaan", "timing", "kesempurnaan"],
-        "ja": ["信頼", "タイミング", "完璧さ"],
-        "th": ["ความไว้วางใจ", "ช่วงเวลา", "ความสมบูรณ์แบบ"],
-        "ms": ["kepercayaan", "masa", "kesempurnaan"]
+        "en": [
+          "trust",
+          "timing",
+          "perfection"
+        ],
+        "tr": [
+          "güven",
+          "zamanlama",
+          "mükemmellik"
+        ],
+        "fr": [
+          "confiance",
+          "timing",
+          "perfection"
+        ],
+        "pt": [
+          "confiança",
+          "timing",
+          "perfeição"
+        ],
+        "nl": [
+          "vertrouwen",
+          "timing",
+          "perfectie"
+        ],
+        "es": [
+          "confianza",
+          "timing",
+          "perfección"
+        ],
+        "de": [
+          "vertrauen",
+          "timing",
+          "perfektion"
+        ],
+        "it": [
+          "fiducia",
+          "tempismo",
+          "perfezione"
+        ],
+        "ru": [
+          "доверие",
+          "время",
+          "совершенство"
+        ],
+        "id": [
+          "kepercayaan",
+          "timing",
+          "kesempurnaan"
+        ],
+        "ja": [
+          "信頼",
+          "タイミング",
+          "完璧さ"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "ช่วงเวลา",
+          "ความสมบูรณ์แบบ"
+        ],
+        "ms": [
+          "kepercayaan",
+          "masa",
+          "kesempurnaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4078,19 +5793,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["balance", "productivity", "presence"],
-        "tr": ["denge", "üretkenlik", "hazır olma"],
-        "fr": ["équilibre", "productivité", "présence"],
-        "pt": ["equilíbrio", "produtividade", "presença"],
-        "nl": ["balans", "productiviteit", "aanwezigheid"],
-        "es": ["equilibrio", "productividad", "presencia"],
-        "de": ["balance", "produktivität", "präsenz"],
-        "it": ["equilibrio", "produttività", "presenza"],
-        "ru": ["баланс", "продуктивность", "присутствие"],
-        "id": ["keseimbangan", "produktivitas", "kehadiran"],
-        "ja": ["バランス", "生産性", "存在"],
-        "th": ["สมดุล", "ประสิทธิภาพ", "การอยู่ร่วม"],
-        "ms": ["keseimbangan", "produktiviti", "kehadiran"]
+        "en": [
+          "balance",
+          "productivity",
+          "presence"
+        ],
+        "tr": [
+          "denge",
+          "üretkenlik",
+          "hazır olma"
+        ],
+        "fr": [
+          "équilibre",
+          "productivité",
+          "présence"
+        ],
+        "pt": [
+          "equilíbrio",
+          "produtividade",
+          "presença"
+        ],
+        "nl": [
+          "balans",
+          "productiviteit",
+          "aanwezigheid"
+        ],
+        "es": [
+          "equilibrio",
+          "productividad",
+          "presencia"
+        ],
+        "de": [
+          "balance",
+          "produktivität",
+          "präsenz"
+        ],
+        "it": [
+          "equilibrio",
+          "produttività",
+          "presenza"
+        ],
+        "ru": [
+          "баланс",
+          "продуктивность",
+          "присутствие"
+        ],
+        "id": [
+          "keseimbangan",
+          "produktivitas",
+          "kehadiran"
+        ],
+        "ja": [
+          "バランス",
+          "生産性",
+          "存在"
+        ],
+        "th": [
+          "สมดุล",
+          "ประสิทธิภาพ",
+          "การอยู่ร่วม"
+        ],
+        "ms": [
+          "keseimbangan",
+          "produktiviti",
+          "kehadiran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4208,19 +5975,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["seasons", "celebration", "natural"],
-        "tr": ["mevsimler", "kutlama", "doğal"],
-        "fr": ["saisons", "célébration", "naturel"],
-        "pt": ["estações", "celebração", "natural"],
-        "nl": ["seizoenen", "viering", "natuurlijk"],
-        "es": ["estaciones", "celebración", "natural"],
-        "de": ["jahreszeiten", "feier", "natürlich"],
-        "it": ["stagioni", "celebrazione", "naturale"],
-        "ru": ["сезоны", "празднование", "естественный"],
-        "id": ["musim", "perayaan", "alami"],
-        "ja": ["季節", "祝賀", "自然な"],
-        "th": ["ฤดูกาล", "การเฉลิมฉลอง", "ธรรมชาติ"],
-        "ms": ["musim", "perayaan", "semula jadi"]
+        "en": [
+          "seasons",
+          "celebration",
+          "natural"
+        ],
+        "tr": [
+          "mevsimler",
+          "kutlama",
+          "doğal"
+        ],
+        "fr": [
+          "saisons",
+          "célébration",
+          "naturel"
+        ],
+        "pt": [
+          "estações",
+          "celebração",
+          "natural"
+        ],
+        "nl": [
+          "seizoenen",
+          "viering",
+          "natuurlijk"
+        ],
+        "es": [
+          "estaciones",
+          "celebración",
+          "natural"
+        ],
+        "de": [
+          "jahreszeiten",
+          "feier",
+          "natürlich"
+        ],
+        "it": [
+          "stagioni",
+          "celebrazione",
+          "naturale"
+        ],
+        "ru": [
+          "сезоны",
+          "празднование",
+          "естественный"
+        ],
+        "id": [
+          "musim",
+          "perayaan",
+          "alami"
+        ],
+        "ja": [
+          "季節",
+          "祝賀",
+          "自然な"
+        ],
+        "th": [
+          "ฤดูกาล",
+          "การเฉลิมฉลอง",
+          "ธรรมชาติ"
+        ],
+        "ms": [
+          "musim",
+          "perayaan",
+          "semula jadi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4338,19 +6157,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "meaning", "creation"],
-        "tr": ["anılar", "anlam", "yaratma"],
-        "fr": ["souvenirs", "signification", "création"],
-        "pt": ["memórias", "significado", "criação"],
-        "nl": ["herinneringen", "betekenis", "schepping"],
-        "es": ["recuerdos", "significado", "creación"],
-        "de": ["erinnerungen", "bedeutung", "schöpfung"],
-        "it": ["ricordi", "significato", "creazione"],
-        "ru": ["воспоминания", "значение", "создание"],
-        "id": ["kenangan", "makna", "penciptaan"],
-        "ja": ["思い出", "意味", "創造"],
-        "th": ["ความทรงจำ", "ความหมาย", "การสร้าง"],
-        "ms": ["kenangan", "makna", "penciptaan"]
+        "en": [
+          "memories",
+          "meaning",
+          "creation"
+        ],
+        "tr": [
+          "anılar",
+          "anlam",
+          "yaratma"
+        ],
+        "fr": [
+          "souvenirs",
+          "signification",
+          "création"
+        ],
+        "pt": [
+          "memórias",
+          "significado",
+          "criação"
+        ],
+        "nl": [
+          "herinneringen",
+          "betekenis",
+          "schepping"
+        ],
+        "es": [
+          "recuerdos",
+          "significado",
+          "creación"
+        ],
+        "de": [
+          "erinnerungen",
+          "bedeutung",
+          "schöpfung"
+        ],
+        "it": [
+          "ricordi",
+          "significato",
+          "creazione"
+        ],
+        "ru": [
+          "воспоминания",
+          "значение",
+          "создание"
+        ],
+        "id": [
+          "kenangan",
+          "makna",
+          "penciptaan"
+        ],
+        "ja": [
+          "思い出",
+          "意味",
+          "創造"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ความหมาย",
+          "การสร้าง"
+        ],
+        "ms": [
+          "kenangan",
+          "makna",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4468,19 +6339,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["bridge", "dreams", "reality"],
-        "tr": ["köprü", "rüyalar", "gerçeklik"],
-        "fr": ["pont", "rêves", "réalité"],
-        "pt": ["ponte", "sonhos", "realidade"],
-        "nl": ["brug", "dromen", "realiteit"],
-        "es": ["puente", "sueños", "realidad"],
-        "de": ["brücke", "träume", "realität"],
-        "it": ["ponte", "sogni", "realtà"],
-        "ru": ["мост", "мечты", "реальность"],
-        "id": ["jembatan", "impian", "kenyataan"],
-        "ja": ["橋", "夢", "現実"],
-        "th": ["สะพาน", "ความฝัน", "ความเป็นจริง"],
-        "ms": ["jambatan", "impian", "realiti"]
+        "en": [
+          "bridge",
+          "dreams",
+          "reality"
+        ],
+        "tr": [
+          "köprü",
+          "rüyalar",
+          "gerçeklik"
+        ],
+        "fr": [
+          "pont",
+          "rêves",
+          "réalité"
+        ],
+        "pt": [
+          "ponte",
+          "sonhos",
+          "realidade"
+        ],
+        "nl": [
+          "brug",
+          "dromen",
+          "realiteit"
+        ],
+        "es": [
+          "puente",
+          "sueños",
+          "realidad"
+        ],
+        "de": [
+          "brücke",
+          "träume",
+          "realität"
+        ],
+        "it": [
+          "ponte",
+          "sogni",
+          "realtà"
+        ],
+        "ru": [
+          "мост",
+          "мечты",
+          "реальность"
+        ],
+        "id": [
+          "jembatan",
+          "impian",
+          "kenyataan"
+        ],
+        "ja": [
+          "橋",
+          "夢",
+          "現実"
+        ],
+        "th": [
+          "สะพาน",
+          "ความฝัน",
+          "ความเป็นจริง"
+        ],
+        "ms": [
+          "jambatan",
+          "impian",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4598,19 +6521,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["flow", "acceptance", "harmony"],
-        "tr": ["akış", "kabul", "uyum"],
-        "fr": ["flux", "acceptation", "harmonie"],
-        "pt": ["fluxo", "aceitação", "harmonia"],
-        "nl": ["stroming", "acceptatie", "harmonie"],
-        "es": ["flujo", "aceptación", "armonía"],
-        "de": ["fluss", "akzeptanz", "harmonie"],
-        "it": ["flusso", "accettazione", "armonia"],
-        "ru": ["поток", "принятие", "гармония"],
-        "id": ["aliran", "penerimaan", "harmoni"],
-        "ja": ["流れ", "受容", "調和"],
-        "th": ["กระแส", "การยอมรับ", "ความสามัคคี"],
-        "ms": ["aliran", "penerimaan", "harmoni"]
+        "en": [
+          "flow",
+          "acceptance",
+          "harmony"
+        ],
+        "tr": [
+          "akış",
+          "kabul",
+          "uyum"
+        ],
+        "fr": [
+          "flux",
+          "acceptation",
+          "harmonie"
+        ],
+        "pt": [
+          "fluxo",
+          "aceitação",
+          "harmonia"
+        ],
+        "nl": [
+          "stroming",
+          "acceptatie",
+          "harmonie"
+        ],
+        "es": [
+          "flujo",
+          "aceptación",
+          "armonía"
+        ],
+        "de": [
+          "fluss",
+          "akzeptanz",
+          "harmonie"
+        ],
+        "it": [
+          "flusso",
+          "accettazione",
+          "armonia"
+        ],
+        "ru": [
+          "поток",
+          "принятие",
+          "гармония"
+        ],
+        "id": [
+          "aliran",
+          "penerimaan",
+          "harmoni"
+        ],
+        "ja": [
+          "流れ",
+          "受容",
+          "調和"
+        ],
+        "th": [
+          "กระแส",
+          "การยอมรับ",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "aliran",
+          "penerimaan",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4728,19 +6703,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["teacher", "healer", "wisdom"],
-        "tr": ["öğretmen", "şifacı", "bilgelik"],
-        "fr": ["enseignant", "guérisseur", "sagesse"],
-        "pt": ["professor", "curador", "sabedoria"],
-        "nl": ["leraar", "genezer", "wijsheid"],
-        "es": ["maestro", "sanador", "sabiduría"],
-        "de": ["lehrer", "heiler", "weisheit"],
-        "it": ["insegnante", "guaritore", "saggezza"],
-        "ru": ["учитель", "целитель", "мудрость"],
-        "id": ["guru", "penyembuh", "kebijaksanaan"],
-        "ja": ["教師", "癒し手", "知恵"],
-        "th": ["ครู", "ผู้เยียวยา", "ความชาญฉลาด"],
-        "ms": ["guru", "penyembuh", "kebijaksanaan"]
+        "en": [
+          "teacher",
+          "healer",
+          "wisdom"
+        ],
+        "tr": [
+          "öğretmen",
+          "şifacı",
+          "bilgelik"
+        ],
+        "fr": [
+          "enseignant",
+          "guérisseur",
+          "sagesse"
+        ],
+        "pt": [
+          "professor",
+          "curador",
+          "sabedoria"
+        ],
+        "nl": [
+          "leraar",
+          "genezer",
+          "wijsheid"
+        ],
+        "es": [
+          "maestro",
+          "sanador",
+          "sabiduría"
+        ],
+        "de": [
+          "lehrer",
+          "heiler",
+          "weisheit"
+        ],
+        "it": [
+          "insegnante",
+          "guaritore",
+          "saggezza"
+        ],
+        "ru": [
+          "учитель",
+          "целитель",
+          "мудрость"
+        ],
+        "id": [
+          "guru",
+          "penyembuh",
+          "kebijaksanaan"
+        ],
+        "ja": [
+          "教師",
+          "癒し手",
+          "知恵"
+        ],
+        "th": [
+          "ครู",
+          "ผู้เยียวยา",
+          "ความชาญฉลาด"
+        ],
+        "ms": [
+          "guru",
+          "penyembuh",
+          "kebijaksanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4858,19 +6885,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gift", "precious", "appreciation"],
-        "tr": ["armağan", "kıymetli", "takdir"],
-        "fr": ["cadeau", "précieux", "appréciation"],
-        "pt": ["dom", "precioso", "apreciação"],
-        "nl": ["geschenk", "kostbaar", "waardering"],
-        "es": ["regalo", "precioso", "apreciación"],
-        "de": ["geschenk", "kostbar", "wertschätzung"],
-        "it": ["dono", "prezioso", "apprezzamento"],
-        "ru": ["подарок", "драгоценный", "признательность"],
-        "id": ["hadiah", "berharga", "penghargaan"],
-        "ja": ["贈り物", "貴重な", "感謝"],
-        "th": ["ของขวัญ", "มีค่า", "การชื่นชม"],
-        "ms": ["hadiah", "berharga", "penghargaan"]
+        "en": [
+          "gift",
+          "precious",
+          "appreciation"
+        ],
+        "tr": [
+          "armağan",
+          "kıymetli",
+          "takdir"
+        ],
+        "fr": [
+          "cadeau",
+          "précieux",
+          "appréciation"
+        ],
+        "pt": [
+          "dom",
+          "precioso",
+          "apreciação"
+        ],
+        "nl": [
+          "geschenk",
+          "kostbaar",
+          "waardering"
+        ],
+        "es": [
+          "regalo",
+          "precioso",
+          "apreciación"
+        ],
+        "de": [
+          "geschenk",
+          "kostbar",
+          "wertschätzung"
+        ],
+        "it": [
+          "dono",
+          "prezioso",
+          "apprezzamento"
+        ],
+        "ru": [
+          "подарок",
+          "драгоценный",
+          "признательность"
+        ],
+        "id": [
+          "hadiah",
+          "berharga",
+          "penghargaan"
+        ],
+        "ja": [
+          "贈り物",
+          "貴重な",
+          "感謝"
+        ],
+        "th": [
+          "ของขวัญ",
+          "มีค่า",
+          "การชื่นชม"
+        ],
+        "ms": [
+          "hadiah",
+          "berharga",
+          "penghargaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4988,19 +7067,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["purpose", "intention", "meaning"],
-        "tr": ["amaç", "niyet", "anlam"],
-        "fr": ["but", "intention", "signification"],
-        "pt": ["propósito", "intenção", "significado"],
-        "nl": ["doel", "intentie", "betekenis"],
-        "es": ["propósito", "intención", "significado"],
-        "de": ["zweck", "absicht", "bedeutung"],
-        "it": ["scopo", "intenzione", "significato"],
-        "ru": ["цель", "намерение", "значение"],
-        "id": ["tujuan", "niat", "makna"],
-        "ja": ["目的", "意図", "意味"],
-        "th": ["จุดมุ่งหมาย", "ความตั้งใจ", "ความหมาย"],
-        "ms": ["tujuan", "niat", "makna"]
+        "en": [
+          "purpose",
+          "intention",
+          "meaning"
+        ],
+        "tr": [
+          "amaç",
+          "niyet",
+          "anlam"
+        ],
+        "fr": [
+          "but",
+          "intention",
+          "signification"
+        ],
+        "pt": [
+          "propósito",
+          "intenção",
+          "significado"
+        ],
+        "nl": [
+          "doel",
+          "intentie",
+          "betekenis"
+        ],
+        "es": [
+          "propósito",
+          "intención",
+          "significado"
+        ],
+        "de": [
+          "zweck",
+          "absicht",
+          "bedeutung"
+        ],
+        "it": [
+          "scopo",
+          "intenzione",
+          "significato"
+        ],
+        "ru": [
+          "цель",
+          "намерение",
+          "значение"
+        ],
+        "id": [
+          "tujuan",
+          "niat",
+          "makna"
+        ],
+        "ja": [
+          "目的",
+          "意図",
+          "意味"
+        ],
+        "th": [
+          "จุดมุ่งหมาย",
+          "ความตั้งใจ",
+          "ความหมาย"
+        ],
+        "ms": [
+          "tujuan",
+          "niat",
+          "makna"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5118,19 +7249,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["present", "mindfulness", "awareness"],
-        "tr": ["şimdiki", "farkındalık", "farkındalık"],
-        "fr": ["présent", "pleine conscience", "conscience"],
-        "pt": ["presente", "consciência plena", "consciência"],
-        "nl": ["heden", "mindfulness", "bewustzijn"],
-        "es": ["presente", "atención plena", "conciencia"],
-        "de": ["gegenwart", "achtsamkeit", "bewusstsein"],
-        "it": ["presente", "consapevolezza", "consapevolezza"],
-        "ru": ["настоящее", "осознанность", "осознание"],
-        "id": ["sekarang", "kesadaran", "kesadaran"],
-        "ja": ["現在", "マインドフルネス", "意識"],
-        "th": ["ปัจจุบัน", "สติสัมปชัญญะ", "ความตระหนัก"],
-        "ms": ["kini", "kesedaran", "kesedaran"]
+        "en": [
+          "present",
+          "mindfulness",
+          "awareness"
+        ],
+        "tr": [
+          "şimdiki",
+          "farkındalık",
+          "farkındalık"
+        ],
+        "fr": [
+          "présent",
+          "pleine conscience",
+          "conscience"
+        ],
+        "pt": [
+          "presente",
+          "consciência plena",
+          "consciência"
+        ],
+        "nl": [
+          "heden",
+          "mindfulness",
+          "bewustzijn"
+        ],
+        "es": [
+          "presente",
+          "atención plena",
+          "conciencia"
+        ],
+        "de": [
+          "gegenwart",
+          "achtsamkeit",
+          "bewusstsein"
+        ],
+        "it": [
+          "presente",
+          "consapevolezza",
+          "consapevolezza"
+        ],
+        "ru": [
+          "настоящее",
+          "осознанность",
+          "осознание"
+        ],
+        "id": [
+          "sekarang",
+          "kesadaran",
+          "kesadaran"
+        ],
+        "ja": [
+          "現在",
+          "マインドフルネス",
+          "意識"
+        ],
+        "th": [
+          "ปัจจุบัน",
+          "สติสัมปชัญญะ",
+          "ความตระหนัก"
+        ],
+        "ms": [
+          "kini",
+          "kesedaran",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5248,19 +7431,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["relationships", "investment", "connection"],
-        "tr": ["ilişkiler", "yatırım", "bağ"],
-        "fr": ["relations", "investissement", "connexion"],
-        "pt": ["relacionamentos", "investimento", "conexão"],
-        "nl": ["relaties", "investering", "verbinding"],
-        "es": ["relaciones", "inversión", "conexión"],
-        "de": ["beziehungen", "investition", "verbindung"],
-        "it": ["relazioni", "investimento", "connessione"],
-        "ru": ["отношения", "инвестиции", "связь"],
-        "id": ["hubungan", "investasi", "koneksi"],
-        "ja": ["関係", "投資", "つながり"],
-        "th": ["ความสัมพันธ์", "การลงทุน", "การเชื่อมต่อ"],
-        "ms": ["hubungan", "pelaburan", "sambungan"]
+        "en": [
+          "relationships",
+          "investment",
+          "connection"
+        ],
+        "tr": [
+          "ilişkiler",
+          "yatırım",
+          "bağ"
+        ],
+        "fr": [
+          "relations",
+          "investissement",
+          "connexion"
+        ],
+        "pt": [
+          "relacionamentos",
+          "investimento",
+          "conexão"
+        ],
+        "nl": [
+          "relaties",
+          "investering",
+          "verbinding"
+        ],
+        "es": [
+          "relaciones",
+          "inversión",
+          "conexión"
+        ],
+        "de": [
+          "beziehungen",
+          "investition",
+          "verbindung"
+        ],
+        "it": [
+          "relazioni",
+          "investimento",
+          "connessione"
+        ],
+        "ru": [
+          "отношения",
+          "инвестиции",
+          "связь"
+        ],
+        "id": [
+          "hubungan",
+          "investasi",
+          "koneksi"
+        ],
+        "ja": [
+          "関係",
+          "投資",
+          "つながり"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "การลงทุน",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "hubungan",
+          "pelaburan",
+          "sambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5378,19 +7613,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "learning", "development"],
-        "tr": ["büyüme", "öğrenme", "gelişim"],
-        "fr": ["croissance", "apprentissage", "développement"],
-        "pt": ["crescimento", "aprendizado", "desenvolvimento"],
-        "nl": ["groei", "leren", "ontwikkeling"],
-        "es": ["crecimiento", "aprendizaje", "desarrollo"],
-        "de": ["wachstum", "lernen", "entwicklung"],
-        "it": ["crescita", "apprendimento", "sviluppo"],
-        "ru": ["рост", "обучение", "развитие"],
-        "id": ["pertumbuhan", "pembelajaran", "pengembangan"],
-        "ja": ["成長", "学習", "発達"],
-        "th": ["การเติบโต", "การเรียนรู้", "การพัฒนา"],
-        "ms": ["pertumbuhan", "pembelajaran", "pembangunan"]
+        "en": [
+          "growth",
+          "learning",
+          "development"
+        ],
+        "tr": [
+          "büyüme",
+          "öğrenme",
+          "gelişim"
+        ],
+        "fr": [
+          "croissance",
+          "apprentissage",
+          "développement"
+        ],
+        "pt": [
+          "crescimento",
+          "aprendizado",
+          "desenvolvimento"
+        ],
+        "nl": [
+          "groei",
+          "leren",
+          "ontwikkeling"
+        ],
+        "es": [
+          "crecimiento",
+          "aprendizaje",
+          "desarrollo"
+        ],
+        "de": [
+          "wachstum",
+          "lernen",
+          "entwicklung"
+        ],
+        "it": [
+          "crescita",
+          "apprendimento",
+          "sviluppo"
+        ],
+        "ru": [
+          "рост",
+          "обучение",
+          "развитие"
+        ],
+        "id": [
+          "pertumbuhan",
+          "pembelajaran",
+          "pengembangan"
+        ],
+        "ja": [
+          "成長",
+          "学習",
+          "発達"
+        ],
+        "th": [
+          "การเติบโต",
+          "การเรียนรู้",
+          "การพัฒนา"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "pembelajaran",
+          "pembangunan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5508,19 +7795,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gratitude", "thankfulness", "appreciation"],
-        "tr": ["şükran", "minnettarlık", "takdir"],
-        "fr": ["gratitude", "reconnaissance", "appréciation"],
-        "pt": ["gratidão", "gratidão", "apreciação"],
-        "nl": ["dankbaarheid", "dankbaarheid", "waardering"],
-        "es": ["gratitud", "gratitud", "apreciación"],
-        "de": ["dankbarkeit", "dankbarkeit", "wertschätzung"],
-        "it": ["gratitudine", "gratitudine", "apprezzamento"],
-        "ru": ["благодарность", "благодарность", "признательность"],
-        "id": ["rasa syukur", "rasa syukur", "penghargaan"],
-        "ja": ["感謝", "感謝", "感謝"],
-        "th": ["ความซาบซึ้ง", "ความซาบซึ้ง", "การชื่นชม"],
-        "ms": ["kesyukuran", "kesyukuran", "penghargaan"]
+        "en": [
+          "gratitude",
+          "thankfulness",
+          "appreciation"
+        ],
+        "tr": [
+          "şükran",
+          "minnettarlık",
+          "takdir"
+        ],
+        "fr": [
+          "gratitude",
+          "reconnaissance",
+          "appréciation"
+        ],
+        "pt": [
+          "gratidão",
+          "gratidão",
+          "apreciação"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "dankbaarheid",
+          "waardering"
+        ],
+        "es": [
+          "gratitud",
+          "gratitud",
+          "apreciación"
+        ],
+        "de": [
+          "dankbarkeit",
+          "dankbarkeit",
+          "wertschätzung"
+        ],
+        "it": [
+          "gratitudine",
+          "gratitudine",
+          "apprezzamento"
+        ],
+        "ru": [
+          "благодарность",
+          "благодарность",
+          "признательность"
+        ],
+        "id": [
+          "rasa syukur",
+          "rasa syukur",
+          "penghargaan"
+        ],
+        "ja": [
+          "感謝",
+          "感謝",
+          "感謝"
+        ],
+        "th": [
+          "ความซาบซึ้ง",
+          "ความซาบซึ้ง",
+          "การชื่นชม"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kesyukuran",
+          "penghargaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5638,19 +7977,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creativity", "expression", "art"],
-        "tr": ["yaratıcılık", "ifade", "sanat"],
-        "fr": ["créativité", "expression", "art"],
-        "pt": ["criatividade", "expressão", "arte"],
-        "nl": ["creativiteit", "expressie", "kunst"],
-        "es": ["creatividad", "expresión", "arte"],
-        "de": ["kreativität", "ausdruck", "kunst"],
-        "it": ["creatività", "espressione", "arte"],
-        "ru": ["креативность", "выражение", "искусство"],
-        "id": ["kreativitas", "ekspresi", "seni"],
-        "ja": ["創造性", "表現", "芸術"],
-        "th": ["ความคิดสร้างสรรค์", "การแสดงออก", "ศิลปะ"],
-        "ms": ["kreativiti", "ekspresi", "seni"]
+        "en": [
+          "creativity",
+          "expression",
+          "art"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "ifade",
+          "sanat"
+        ],
+        "fr": [
+          "créativité",
+          "expression",
+          "art"
+        ],
+        "pt": [
+          "criatividade",
+          "expressão",
+          "arte"
+        ],
+        "nl": [
+          "creativiteit",
+          "expressie",
+          "kunst"
+        ],
+        "es": [
+          "creatividad",
+          "expresión",
+          "arte"
+        ],
+        "de": [
+          "kreativität",
+          "ausdruck",
+          "kunst"
+        ],
+        "it": [
+          "creatività",
+          "espressione",
+          "arte"
+        ],
+        "ru": [
+          "креативность",
+          "выражение",
+          "искусство"
+        ],
+        "id": [
+          "kreativitas",
+          "ekspresi",
+          "seni"
+        ],
+        "ja": [
+          "創造性",
+          "表現",
+          "芸術"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "การแสดงออก",
+          "ศิลปะ"
+        ],
+        "ms": [
+          "kreativiti",
+          "ekspresi",
+          "seni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5768,19 +8159,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["rest", "rejuvenation", "recovery"],
-        "tr": ["dinlenme", "yenilenme", "kurtarma"],
-        "fr": ["repos", "rajeunissement", "récupération"],
-        "pt": ["descanso", "rejuvenescimento", "recuperação"],
-        "nl": ["rust", "verjonging", "herstel"],
-        "es": ["descanso", "rejuvenecimiento", "recuperación"],
-        "de": ["ruhe", "verjüngung", "erholung"],
-        "it": ["riposo", "ringiovanimento", "recupero"],
-        "ru": ["отдых", "омоложение", "восстановление"],
-        "id": ["istirahat", "peremajaan", "pemulihan"],
-        "ja": ["休息", "若返り", "回復"],
-        "th": ["การพักผ่อน", "การฟื้นฟู", "การฟื้นตัว"],
-        "ms": ["rehat", "peremajaan", "pemulihan"]
+        "en": [
+          "rest",
+          "rejuvenation",
+          "recovery"
+        ],
+        "tr": [
+          "dinlenme",
+          "yenilenme",
+          "kurtarma"
+        ],
+        "fr": [
+          "repos",
+          "rajeunissement",
+          "récupération"
+        ],
+        "pt": [
+          "descanso",
+          "rejuvenescimento",
+          "recuperação"
+        ],
+        "nl": [
+          "rust",
+          "verjonging",
+          "herstel"
+        ],
+        "es": [
+          "descanso",
+          "rejuvenecimiento",
+          "recuperación"
+        ],
+        "de": [
+          "ruhe",
+          "verjüngung",
+          "erholung"
+        ],
+        "it": [
+          "riposo",
+          "ringiovanimento",
+          "recupero"
+        ],
+        "ru": [
+          "отдых",
+          "омоложение",
+          "восстановление"
+        ],
+        "id": [
+          "istirahat",
+          "peremajaan",
+          "pemulihan"
+        ],
+        "ja": [
+          "休息",
+          "若返り",
+          "回復"
+        ],
+        "th": [
+          "การพักผ่อน",
+          "การฟื้นฟู",
+          "การฟื้นตัว"
+        ],
+        "ms": [
+          "rehat",
+          "peremajaan",
+          "pemulihan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5898,19 +8341,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["legacy", "impact", "contribution"],
-        "tr": ["miras", "etki", "katkı"],
-        "fr": ["héritage", "impact", "contribution"],
-        "pt": ["legado", "impacto", "contribuição"],
-        "nl": ["nalatenschap", "impact", "bijdrage"],
-        "es": ["legado", "impacto", "contribución"],
-        "de": ["vermächtnis", "einfluss", "beitrag"],
-        "it": ["eredità", "impatto", "contributo"],
-        "ru": ["наследие", "влияние", "вклад"],
-        "id": ["warisan", "dampak", "kontribusi"],
-        "ja": ["遺産", "影響", "貢献"],
-        "th": ["มรดก", "ผลกระทบ", "การมีส่วนร่วม"],
-        "ms": ["warisan", "impak", "sumbangan"]
+        "en": [
+          "legacy",
+          "impact",
+          "contribution"
+        ],
+        "tr": [
+          "miras",
+          "etki",
+          "katkı"
+        ],
+        "fr": [
+          "héritage",
+          "impact",
+          "contribution"
+        ],
+        "pt": [
+          "legado",
+          "impacto",
+          "contribuição"
+        ],
+        "nl": [
+          "nalatenschap",
+          "impact",
+          "bijdrage"
+        ],
+        "es": [
+          "legado",
+          "impacto",
+          "contribución"
+        ],
+        "de": [
+          "vermächtnis",
+          "einfluss",
+          "beitrag"
+        ],
+        "it": [
+          "eredità",
+          "impatto",
+          "contributo"
+        ],
+        "ru": [
+          "наследие",
+          "влияние",
+          "вклад"
+        ],
+        "id": [
+          "warisan",
+          "dampak",
+          "kontribusi"
+        ],
+        "ja": [
+          "遺産",
+          "影響",
+          "貢献"
+        ],
+        "th": [
+          "มรดก",
+          "ผลกระทบ",
+          "การมีส่วนร่วม"
+        ],
+        "ms": [
+          "warisan",
+          "impak",
+          "sumbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6028,19 +8523,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["joy", "simplicity", "presence"],
-        "tr": ["sevinç", "basitlik", "hazır olma"],
-        "fr": ["joie", "simplicité", "présence"],
-        "pt": ["alegria", "simplicidade", "presença"],
-        "nl": ["vreugde", "eenvoud", "aanwezigheid"],
-        "es": ["alegría", "simplicidad", "presencia"],
-        "de": ["freude", "einfachheit", "präsenz"],
-        "it": ["gioia", "semplicità", "presenza"],
-        "ru": ["радость", "простота", "присутствие"],
-        "id": ["kegembiraan", "kesederhanaan", "kehadiran"],
-        "ja": ["喜び", "単純さ", "存在"],
-        "th": ["ความสุข", "ความเรียบง่าย", "การอยู่ร่วม"],
-        "ms": ["kegembiraan", "kesederhanaan", "kehadiran"]
+        "en": [
+          "joy",
+          "simplicity",
+          "presence"
+        ],
+        "tr": [
+          "sevinç",
+          "basitlik",
+          "hazır olma"
+        ],
+        "fr": [
+          "joie",
+          "simplicité",
+          "présence"
+        ],
+        "pt": [
+          "alegria",
+          "simplicidade",
+          "presença"
+        ],
+        "nl": [
+          "vreugde",
+          "eenvoud",
+          "aanwezigheid"
+        ],
+        "es": [
+          "alegría",
+          "simplicidad",
+          "presencia"
+        ],
+        "de": [
+          "freude",
+          "einfachheit",
+          "präsenz"
+        ],
+        "it": [
+          "gioia",
+          "semplicità",
+          "presenza"
+        ],
+        "ru": [
+          "радость",
+          "простота",
+          "присутствие"
+        ],
+        "id": [
+          "kegembiraan",
+          "kesederhanaan",
+          "kehadiran"
+        ],
+        "ja": [
+          "喜び",
+          "単純さ",
+          "存在"
+        ],
+        "th": [
+          "ความสุข",
+          "ความเรียบง่าย",
+          "การอยู่ร่วม"
+        ],
+        "ms": [
+          "kegembiraan",
+          "kesederhanaan",
+          "kehadiran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6129,7 +8676,7 @@
       "type": "affirmation",
       "texts": {
         "en": "I manage my time with purpose and ease.",
-        "tr": "Zamanımı amaçla ve kolaylıkla yönetirim.",
+        "tr": "zamanımı amaçla ve kolaylıkla yönetirim.",
         "fr": "Je gère mon temps avec intention et aisance.",
         "pt": "Gerencio meu tempo com propósito e facilidade.",
         "nl": "Ik beheer mijn tijd doelgericht en met gemak.",
@@ -6224,19 +8771,19 @@
       "id": "time_052",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Time into my life.",
-        "tr": "Hayatıma Zaman enerjisini alıyorum.",
-        "fr": "J'accueille Time dans ma vie.",
-        "pt": "Eu acolho Time na minha vida.",
-        "nl": "Ik verwelkom Time in mijn leven.",
-        "es": "Doy la bienvenida a Time en mi vida.",
-        "de": "Ich heiße Time in meinem Leben willkommen.",
-        "it": "Accolgo Time nella mia vita.",
-        "ru": "Я принимаю Time в свою жизнь.",
-        "id": "Saya menyambut Time dalam hidup saya.",
-        "ja": "私はTimeを人生に迎え入れます。",
-        "th": "ฉันต้อนรับTimeเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Time dalam hidup saya."
+        "en": "I make room for time without rushing.",
+        "tr": "zaman için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à time sans me presser.",
+        "pt": "Abro espaço para time sem pressa.",
+        "nl": "Ik maak ruimte voor time zonder te haasten.",
+        "es": "Hago espacio para time sin prisa.",
+        "de": "Ich mache Platz für time, ohne zu hetzen.",
+        "it": "Faccio spazio a time senza fretta.",
+        "ru": "Я даю место time без спешки.",
+        "id": "Aku memberi ruang bagi time tanpa terburu-buru.",
+        "ja": "焦らずにtimeのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้timeโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk time tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -6268,19 +8815,19 @@
       "id": "time_053",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Time.",
-        "tr": "Kalbim Zaman için açık.",
-        "fr": "Mon cœur est ouvert à Time.",
-        "pt": "Meu coração está aberto para Time.",
-        "nl": "Mijn hart staat open voor Time.",
-        "es": "Mi corazón está abierto a Time.",
-        "de": "Mein Herz ist offen für Time.",
-        "it": "Il mio cuore è aperto a Time.",
-        "ru": "Моё сердце открыто для Time.",
-        "id": "Hati saya terbuka untuk Time.",
-        "ja": "私の心はTimeに開かれています。",
-        "th": "หัวใจของฉันเปิดรับTime",
-        "ms": "Hati saya terbuka untuk Time."
+        "en": "I stay open to time in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde zaman için açık kalıyorum.",
+        "fr": "Je reste ouvert à time d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a time de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor time op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a time de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für time auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a time in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к time так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada time dengan cara yang terasa aman.",
+        "ja": "安心できる形でtimeに心を開き続けます。",
+        "th": "ฉันเปิดใจให้timeในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap time dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -6312,19 +8859,19 @@
       "id": "time_054",
       "type": "affirmation",
       "texts": {
-        "en": "Time grows within me each day.",
-        "tr": "Zaman her gün içimde büyüyor.",
-        "fr": "Time grandit en moi chaque jour.",
-        "pt": "Time cresce dentro de mim todos os dias.",
-        "nl": "Time groeit elke dag in mij.",
-        "es": "Time crece dentro de mí cada día.",
-        "de": "Time wächst jeden Tag in mir.",
-        "it": "Time cresce in me ogni giorno.",
-        "ru": "Time растёт во мне каждый день.",
-        "id": "Time tumbuh di dalam diri saya setiap hari.",
-        "ja": "Timeは毎日私の中で育ちます。",
-        "th": "Timeเติบโตในตัวฉันทุกวัน",
-        "ms": "Time berkembang dalam diri saya setiap hari."
+        "en": "Each day, time grows within me.",
+        "tr": "Her gün içimde zaman büyüyor.",
+        "fr": "Chaque jour, time grandit en moi.",
+        "pt": "A cada dia, time cresce dentro de mim.",
+        "nl": "Elke dag groeit time in mij.",
+        "es": "Cada día, time crece dentro de mí.",
+        "de": "Jeden Tag wächst time in mir.",
+        "it": "Ogni giorno, time cresce dentro di me.",
+        "ru": "Каждый день time растёт во мне.",
+        "id": "Setiap hari, time tumbuh di dalam diriku.",
+        "ja": "毎日、timeが私の中で育っています。",
+        "th": "ทุกวัน time เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, time berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -6356,19 +8903,19 @@
       "id": "time_055",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Time now.",
-        "tr": "Şimdi Zaman için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Time maintenant.",
-        "pt": "Eu crio espaço para Time agora.",
-        "nl": "Ik maak nu ruimte voor Time.",
-        "es": "Creo espacio para Time ahora.",
-        "de": "Ich schaffe jetzt Raum für Time.",
-        "it": "Creo spazio per Time ora.",
-        "ru": "Я создаю пространство для Time сейчас.",
-        "id": "Saya menciptakan ruang untuk Time sekarang.",
-        "ja": "今、Timeのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับTimeในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Time sekarang."
+        "en": "I give time a quiet place in my day.",
+        "tr": "Günümde zaman için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à time une place calme dans ma journée.",
+        "pt": "Dou a time um lugar tranquilo no meu dia.",
+        "nl": "Ik geef time een rustige plek in mijn dag.",
+        "es": "Le doy a time un lugar tranquilo en mi día.",
+        "de": "Ich gebe time einen ruhigen Platz in meinem Tag.",
+        "it": "Do a time un posto tranquillo nella mia giornata.",
+        "ru": "Я даю time тихое место в своём дне.",
+        "id": "Aku memberi time tempat yang tenang dalam hariku.",
+        "ja": "一日の中にtimeのための静かな場所をつくります。",
+        "th": "ฉันให้timeมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi time tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -6400,19 +8947,19 @@
       "id": "time_056",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Time.",
-        "tr": "Zaman yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Time.",
-        "pt": "Eu confio no caminho de Time.",
-        "nl": "Ik vertrouw op het pad van Time.",
-        "es": "Confío en el camino de Time.",
-        "de": "Ich vertraue dem Weg von Time.",
-        "it": "Mi fido del percorso di Time.",
-        "ru": "Я доверяю пути Time.",
-        "id": "Saya percaya pada jalan Time.",
-        "ja": "私はTimeの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของTime",
-        "ms": "Saya percaya pada jalan Time."
+        "en": "I trust my own way of growing in time.",
+        "tr": "zaman konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec time.",
+        "pt": "Confio no meu próprio jeito de crescer com time.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in time.",
+        "es": "Confío en mi propia manera de crecer con time.",
+        "de": "Ich vertraue meinem eigenen Weg, in time zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con time.",
+        "ru": "Я доверяю своему собственному пути роста в time.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam time.",
+        "ja": "自分なりのtimeの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับtime",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam time."
       },
       "authors": {
         "en": "",
@@ -6438,6 +8985,946 @@
           "olumlama"
         ]
       },
+      "readTime": "0"
+    },
+    {
+      "id": "time_057",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice time with gentle consistency.",
+        "tr": "zaman konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique time avec une douce constance.",
+        "pt": "Eu pratico time com constância gentil.",
+        "nl": "Ik beoefen time met zachte regelmaat.",
+        "es": "Practico time con constancia suave.",
+        "de": "Ich übe time mit sanfter Beständigkeit.",
+        "it": "Pratico time con dolce costanza.",
+        "ru": "Я практикую time с мягкой постоянностью.",
+        "id": "Saya mempraktikkan time dengan konsistensi yang lembut.",
+        "ja": "私はtimeを穏やかな継続で実践します。",
+        "th": "ฉันฝึกtimeอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan time dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_058",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, time supports me.",
+        "tr": "Bu dönemde zaman beni destekliyor.",
+        "fr": "En cette période, time me soutient.",
+        "pt": "Nesta fase, time me apoia.",
+        "nl": "In deze periode ondersteunt time mij.",
+        "es": "En esta etapa, time me sostiene.",
+        "de": "In dieser Zeit unterstützt time mich.",
+        "it": "In questo periodo, time mi sostiene.",
+        "ru": "В этот период time поддерживает меня.",
+        "id": "Di masa ini, time mendukungku.",
+        "ja": "この時期、timeが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ timeคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, time menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_059",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose time in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla zaman seçiyorum.",
+        "fr": "Je choisis time par de petits pas sincères.",
+        "pt": "Escolho time em passos pequenos e honestos.",
+        "nl": "Ik kies time in kleine, eerlijke stappen.",
+        "es": "Elijo time con pasos pequeños y honestos.",
+        "de": "Ich wähle time in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo time con passi piccoli e sinceri.",
+        "ru": "Я выбираю time маленькими, честными шагами.",
+        "id": "Aku memilih time dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でtimeを選びます。",
+        "th": "ฉันเลือกtimeด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih time dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_060",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let time shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri zaman şekillendiriyor.",
+        "fr": "Je laisse time façonner les choix qui comptent pour moi.",
+        "pt": "Deixo time moldar as escolhas que importam para mim.",
+        "nl": "Ik laat time de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que time moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse time die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che time plasmi le scelte che contano per me.",
+        "ru": "Я позволяю time формировать важные для меня решения.",
+        "id": "Aku membiarkan time membentuk pilihan yang penting bagiku.",
+        "ja": "timeが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้timeหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan time membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_061",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, time feels natural to me.",
+        "tr": "Bugün zaman bana doğal geliyor.",
+        "fr": "Aujourd'hui, time me semble naturel.",
+        "pt": "Hoje, time parece natural para mim.",
+        "nl": "Vandaag voelt time natuurlijk voor mij.",
+        "es": "Hoy, time se siente natural para mí.",
+        "de": "Heute fühlt sich time natürlich für mich an.",
+        "it": "Oggi time mi sembra naturale.",
+        "ru": "Сегодня time кажется мне естественным.",
+        "id": "Hari ini, time terasa alami bagi saya.",
+        "ja": "今日はtimeが自然に感じられます。",
+        "th": "วันนี้timeให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, time terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_62",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose time in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda zaman seçiyorum.",
+        "fr": "Je choisis time dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho time nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies time in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo time en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle time in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo time nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю time в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih time dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でtimeを選びます。",
+        "th": "ฉันเลือกtimeในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih time dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_63",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build time.",
+        "tr": "İç sesim zaman inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis time.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo time.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik time opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo time.",
+        "de": "Meine innere Stimme wird sanfter, während ich time aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco time.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю time.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun time.",
+        "ja": "timeを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างtime",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina time."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_64",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet time at my own pace.",
+        "tr": "zaman ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer time à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar time no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om time in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar time a mi propio ritmo.",
+        "de": "Ich erlaube mir, time in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare time al mio ritmo.",
+        "ru": "Я позволяю себе встречать time в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu time dengan ritmeku.",
+        "ja": "自分のペースでtimeに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบtimeในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui time mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_65",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let time steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde zaman beni dengeliyor.",
+        "fr": "Je laisse time m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo time me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat time me aarden als het leven luid voelt.",
+        "es": "Dejo que time me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse time mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che time mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю time удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan time menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、timeが私を落ち着かせます。",
+        "th": "ฉันยอมให้timeทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan time menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_66",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, time is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde zaman büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, time grandit.",
+        "pt": "Por meio das escolhas que faço hoje, time cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit time.",
+        "es": "A través de las decisiones que tomo hoy, time crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst time.",
+        "it": "Attraverso le scelte che faccio oggi, time cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, time растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, time tumbuh.",
+        "ja": "今日の選択を通してtimeが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ timeกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, time berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_67",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel time settling into my routines.",
+        "tr": "Rutinlerimde zaman için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens time s’installer dans mes routines.",
+        "pt": "Sinto time se acomodar nas minhas rotinas.",
+        "nl": "Ik voel time zich nestelen in mijn routines.",
+        "es": "Siento que time se asienta en mis rutinas.",
+        "de": "Ich spüre, wie time sich in meinen Routinen einlebt.",
+        "it": "Sento time assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как time укореняется в моих привычках.",
+        "id": "Aku merasakan time menetap dalam rutinitasku.",
+        "ja": "日々の習慣にtimeがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าtimeค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan time mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_68",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow time to be simple, not perfect.",
+        "tr": "zaman için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise time à être simple, pas parfait.",
+        "pt": "Permito que time seja simples, não perfeito.",
+        "nl": "Ik laat time simpel zijn, niet perfect.",
+        "es": "Permito que time sea simple, no perfecto.",
+        "de": "Ich erlaube time, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a time di essere semplice, non perfetto.",
+        "ru": "Я позволяю time быть простым, а не идеальным.",
+        "id": "Aku membiarkan time tetap sederhana, bukan sempurna.",
+        "ja": "timeがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้timeเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan time menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_69",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice time showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde zaman ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque time dans la façon dont je me parle.",
+        "pt": "Percebo time na forma como falo comigo.",
+        "nl": "Ik merk time op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto time en la manera en que me hablo.",
+        "de": "Ich bemerke time in der Art, wie ich mit mir spreche.",
+        "it": "Noto time nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю time в том, как я говорю с собой.",
+        "id": "Aku menyadari time dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にtimeが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นtimeในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari time dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_70",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve time without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan zaman hak ediyorum.",
+        "fr": "Je mérite time sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço time sem precisar provar nada.",
+        "nl": "Ik verdien time zonder iets te hoeven bewijzen.",
+        "es": "Merezco time sin necesidad de demostrar nada.",
+        "de": "Ich verdiene time, ohne etwas beweisen zu müssen.",
+        "it": "Merito time senza dover dimostrare nulla.",
+        "ru": "Я достоин time, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan time tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、timeに値します。",
+        "th": "ฉันคู่ควรกับtimeโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh time tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_71",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let time grow from patience, not pressure.",
+        "tr": "zaman sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse time grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo time crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat time groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que time crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse time aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che time cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю time расти из терпения, а не из давления.",
+        "id": "Aku membiarkan time tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はtimeを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้timeเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan time tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to time when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde zaman ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à time quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a time quando preciso me firmar.",
+        "nl": "Ik keer terug naar time wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a time cuando necesito estabilizarme.",
+        "de": "Ich kehre zu time zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a time quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к time, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke time saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、timeに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาtime",
+        "ms": "Saya kembali kepada time apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let time soften my inner pressure.",
+        "tr": "İçimdeki baskıyı zaman ile yumuşatıyorum.",
+        "fr": "Je laisse time adoucir ma pression intérieure.",
+        "pt": "Deixo time suavizar minha pressão interna.",
+        "nl": "Ik laat time mijn innerlijke druk verzachten.",
+        "es": "Dejo que time suavice mi presión interna.",
+        "de": "Ich lasse time meinen inneren Druck weicher machen.",
+        "it": "Lascio che time ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю time смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan time melembutkan tekanan batinku.",
+        "ja": "timeが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้timeช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan time melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that time can be gentle and real.",
+        "tr": "zaman konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que time peut être doux et vrai.",
+        "pt": "Confio que time pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat time zacht en echt kan zijn.",
+        "es": "Confío en que time puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass time sanft und echt sein kann.",
+        "it": "Mi fido del fatto che time possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что time может быть мягким и настоящим.",
+        "id": "Aku percaya time bisa lembut dan nyata.",
+        "ja": "timeはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าtimeสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya time boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give time a little more room each day.",
+        "tr": "Her gün zaman için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à time chaque jour.",
+        "pt": "Dou um pouco mais de espaço para time a cada dia.",
+        "nl": "Ik geef time elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a time cada día.",
+        "de": "Ich gebe time jeden Tag ein wenig mehr Raum.",
+        "it": "Do a time un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю time чуть больше места.",
+        "id": "Setiap hari aku memberi time sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、timeのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับtimeมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi time sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold time without forcing it.",
+        "tr": "zaman ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir time sans forcer.",
+        "pt": "Estou aprendendo a sustentar time sem forçar.",
+        "nl": "Ik leer time te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener time sin forzar.",
+        "de": "Ich lerne, time zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere time senza forzare.",
+        "ru": "Я учусь удерживать time без принуждения.",
+        "id": "Aku belajar memegang time tanpa memaksa.",
+        "ja": "timeを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองtimeโดยไม่บังคับ",
+        "ms": "Saya belajar memegang time tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by time where I am today.",
+        "tr": "Bugün olduğum yerde zaman beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, time me rejoint.",
+        "pt": "Onde estou hoje, time me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet time mij.",
+        "es": "Donde estoy hoy, time me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir time.",
+        "it": "Dove sono oggi, time mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает time.",
+        "id": "Di tempatku hari ini, time menemuiku.",
+        "ja": "今日の私がいる場所で、timeが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ timeอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, time menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice time in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte zaman fark ediyorum.",
+        "fr": "Je remarque time dans le calme entre les moments.",
+        "pt": "Percebo time na calma entre os momentos.",
+        "nl": "Ik merk time op in de rust tussen momenten.",
+        "es": "Noto time en la calma entre momentos.",
+        "de": "Ich bemerke time in der Ruhe zwischen den Momenten.",
+        "it": "Noto time nella calma tra i momenti.",
+        "ru": "Я замечаю time в тишине между моментами.",
+        "id": "Aku menyadari time dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにtimeを感じます。",
+        "th": "ฉันสังเกตtimeในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari time dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow time to grow quietly in the background.",
+        "tr": "zaman sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse time grandir doucement en arrière-plan.",
+        "pt": "Deixo time crescer em silêncio ao fundo.",
+        "nl": "Ik laat time stil op de achtergrond groeien.",
+        "es": "Dejo que time crezca en silencio de fondo.",
+        "de": "Ich lasse time leise im Hintergrund wachsen.",
+        "it": "Lascio che time cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю time тихо расти на заднем плане.",
+        "id": "Aku membiarkan time tumbuh perlahan di latar belakang.",
+        "ja": "timeが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้timeเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan time berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose time with care, not hurry.",
+        "tr": "Acele etmeden, özenle zaman seçiyorum.",
+        "fr": "Je choisis time avec soin, sans hâte.",
+        "pt": "Escolho time com cuidado, sem pressa.",
+        "nl": "Ik kies time met zorg, niet met haast.",
+        "es": "Elijo time con cuidado, no con prisa.",
+        "de": "Ich wähle time mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo time con cura, non con fretta.",
+        "ru": "Я выбираю time с заботой, а не в спешке.",
+        "id": "Aku memilih time dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にtimeを選びます。",
+        "th": "ฉันเลือกtimeอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih time dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
+      "readTime": "0"
+    },
+    {
+      "id": "time_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep time close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken zaman ile yakın kalıyorum.",
+        "fr": "Je garde time près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho time por perto quando minha mente fica agitada.",
+        "nl": "Ik houd time dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo time cerca cuando mi mente está inquieta.",
+        "de": "Ich halte time nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo time vicino quando la mia mente è agitata.",
+        "ru": "Я держу time рядом, когда ум занят.",
+        "id": "Aku menjaga time tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもtimeをそばに置きます。",
+        "th": "ฉันเก็บtimeไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan time dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "time",
       "readTime": "0"
     }
   ]

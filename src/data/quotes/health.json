@@ -1,6 +1,6 @@
 {
   "quotes": [
-       {
+    {
       "id": "health_001",
       "category": "health",
       "texts": {
@@ -15,7 +15,7 @@
         "ru": "Здоровье не ценится, пока не приходит болезнь.",
         "id": "Kesehatan tidak dihargai sampai penyakit datang.",
         "ja": "病気にならない限り、健康は大切にされない。",
-       "th": "สุขภาพไม่ได้รับการเห็นคุณค่าจนกว่าความเจ็บป่วยจะมาเยือน",
+        "th": "สุขภาพไม่ได้รับการเห็นคุณค่าจนกว่าความเจ็บป่วยจะมาเยือน",
         "ms": "Kesihatan tidak dihargai sehingga penyakit datang."
       },
       "authors": {
@@ -368,7 +368,7 @@
         },
         "es": {
           "title": "El Poder de la Rutina",
-        "content": "El adagio de Benjamin Franklin enfatiza la importancia de una rutina diaria disciplinada, particularmente el sueño, para el bienestar general. Los buenos hábitos de sueño contribuyen no solo a la salud física, sino también a la agudeza mental y la capacidad de éxito en diversos aspectos de la vida.",
+          "content": "El adagio de Benjamin Franklin enfatiza la importancia de una rutina diaria disciplinada, particularmente el sueño, para el bienestar general. Los buenos hábitos de sueño contribuyen no solo a la salud física, sino también a la agudeza mental y la capacidad de éxito en diversos aspectos de la vida.",
           "readTime": 0
         },
         "de": {
@@ -816,7 +816,7 @@
         }
       }
     },
-        {
+    {
       "id": "health_009",
       "category": "health",
       "texts": {
@@ -1462,19 +1462,71 @@
         "ms": "Martha Graham"
       },
       "tags": {
-        "en": ["respect", "body image", "sanctity"],
-        "tr": ["saygı", "beden imajı", "kutsallık"],
-        "fr": ["respect", "image corporelle", "sacralité"],
-        "pt": ["respeito", "imagem corporal", "santidade"],
-        "nl": ["respect", "lichaamsbeeld", "heiligheid"],
-        "es": ["respeto", "imagen corporal", "santidad"],
-        "de": ["respekt", "körperbild", "heiligkeit"],
-        "it": ["rispetto", "immagine corporea", "sacralità"],
-        "ru": ["уважение", "образ тела", "святость"],
-        "id": ["hormat", "citra tubuh", "kesucian"],
-        "ja": ["尊敬", "身体イメージ", "神聖さ"],
-        "th": ["ความเคารพ", "ภาพลักษณ์ร่างกาย", "ความศักดิ์สิทธิ์"],
-        "ms": ["hormat", "imej badan", "kesucian"]
+        "en": [
+          "respect",
+          "body image",
+          "sanctity"
+        ],
+        "tr": [
+          "saygı",
+          "beden imajı",
+          "kutsallık"
+        ],
+        "fr": [
+          "respect",
+          "image corporelle",
+          "sacralité"
+        ],
+        "pt": [
+          "respeito",
+          "imagem corporal",
+          "santidade"
+        ],
+        "nl": [
+          "respect",
+          "lichaamsbeeld",
+          "heiligheid"
+        ],
+        "es": [
+          "respeto",
+          "imagen corporal",
+          "santidad"
+        ],
+        "de": [
+          "respekt",
+          "körperbild",
+          "heiligkeit"
+        ],
+        "it": [
+          "rispetto",
+          "immagine corporea",
+          "sacralità"
+        ],
+        "ru": [
+          "уважение",
+          "образ тела",
+          "святость"
+        ],
+        "id": [
+          "hormat",
+          "citra tubuh",
+          "kesucian"
+        ],
+        "ja": [
+          "尊敬",
+          "身体イメージ",
+          "神聖さ"
+        ],
+        "th": [
+          "ความเคารพ",
+          "ภาพลักษณ์ร่างกาย",
+          "ความศักดิ์สิทธิ์"
+        ],
+        "ms": [
+          "hormat",
+          "imej badan",
+          "kesucian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1579,19 +1631,71 @@
         "ms": "Thomas Edison"
       },
       "tags": {
-        "en": ["preventive medicine", "holistic", "future of health"],
-        "tr": ["koruyucu hekimlik", "bütünsel", "sağlığın geleceği"],
-        "fr": ["médecine préventive", "holistique", "avenir de la santé"],
-        "pt": ["medicina preventiva", "holística", "futuro da saúde"],
-        "nl": ["preventieve geneeskunde", "holistisch", "toekomst van gezondheid"],
-        "es": ["medicina preventiva", "holística", "futuro de la salud"],
-        "de": ["präventivmedizin", "ganzheitlich", "zukunft der gesundheit"],
-        "it": ["medicina preventiva", "olistica", "futuro della salute"],
-        "ru": ["профилактическая медицина", "целостный", "будущее здоровья"],
-        "id": ["kedokteran preventif", "holistik", "masa depan kesehatan"],
-        "ja": ["予防医学", "ホリスティック", "健康の未来"],
-        "th": ["การแพทย์ป้องกัน", "องค์รวม", "อนาคตของสุขภาพ"],
-        "ms": ["perubatan pencegahan", "holistik", "masa depan kesihatan"]
+        "en": [
+          "preventive medicine",
+          "holistic",
+          "future of health"
+        ],
+        "tr": [
+          "koruyucu hekimlik",
+          "bütünsel",
+          "sağlığın geleceği"
+        ],
+        "fr": [
+          "médecine préventive",
+          "holistique",
+          "avenir de la santé"
+        ],
+        "pt": [
+          "medicina preventiva",
+          "holística",
+          "futuro da saúde"
+        ],
+        "nl": [
+          "preventieve geneeskunde",
+          "holistisch",
+          "toekomst van gezondheid"
+        ],
+        "es": [
+          "medicina preventiva",
+          "holística",
+          "futuro de la salud"
+        ],
+        "de": [
+          "präventivmedizin",
+          "ganzheitlich",
+          "zukunft der gesundheit"
+        ],
+        "it": [
+          "medicina preventiva",
+          "olistica",
+          "futuro della salute"
+        ],
+        "ru": [
+          "профилактическая медицина",
+          "целостный",
+          "будущее здоровья"
+        ],
+        "id": [
+          "kedokteran preventif",
+          "holistik",
+          "masa depan kesehatan"
+        ],
+        "ja": [
+          "予防医学",
+          "ホリスティック",
+          "健康の未来"
+        ],
+        "th": [
+          "การแพทย์ป้องกัน",
+          "องค์รวม",
+          "อนาคตของสุขภาพ"
+        ],
+        "ms": [
+          "perubatan pencegahan",
+          "holistik",
+          "masa depan kesihatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1696,19 +1800,71 @@
         "ms": "Henry Wadsworth Longfellow"
       },
       "tags": {
-        "en": ["mental health", "lifestyle", "prevention"],
-        "tr": ["akıl sağlığı", "yaşam tarzı", "önleme"],
-        "fr": ["santé mentale", "mode de vie", "prévention"],
-        "pt": ["saúde mental", "estilo de vida", "prevenção"],
-        "nl": ["mentale gezondheid", "levensstijl", "preventie"],
-        "es": ["salud mental", "estilo de vida", "prevención"],
-        "de": ["mentale gesundheit", "lebensstil", "prävention"],
-        "it": ["salute mentale", "stile di vita", "prevenzione"],
-        "ru": ["ментальное здоровье", "образ жизни", "профилактика"],
-        "id": ["kesehatan mental", "gaya hidup", "pencegahan"],
-        "ja": ["メンタルヘルス", "ライフスタイル", "予防"],
-        "th": ["สุขภาพจิต", "วิถีชีวิต", "การป้องกัน"],
-        "ms": ["kesihatan mental", "gaya hidup", "pencegahan"]
+        "en": [
+          "mental health",
+          "lifestyle",
+          "prevention"
+        ],
+        "tr": [
+          "akıl sağlığı",
+          "yaşam tarzı",
+          "önleme"
+        ],
+        "fr": [
+          "santé mentale",
+          "mode de vie",
+          "prévention"
+        ],
+        "pt": [
+          "saúde mental",
+          "estilo de vida",
+          "prevenção"
+        ],
+        "nl": [
+          "mentale gezondheid",
+          "levensstijl",
+          "preventie"
+        ],
+        "es": [
+          "salud mental",
+          "estilo de vida",
+          "prevención"
+        ],
+        "de": [
+          "mentale gesundheit",
+          "lebensstil",
+          "prävention"
+        ],
+        "it": [
+          "salute mentale",
+          "stile di vita",
+          "prevenzione"
+        ],
+        "ru": [
+          "ментальное здоровье",
+          "образ жизни",
+          "профилактика"
+        ],
+        "id": [
+          "kesehatan mental",
+          "gaya hidup",
+          "pencegahan"
+        ],
+        "ja": [
+          "メンタルヘルス",
+          "ライフスタイル",
+          "予防"
+        ],
+        "th": [
+          "สุขภาพจิต",
+          "วิถีชีวิต",
+          "การป้องกัน"
+        ],
+        "ms": [
+          "kesihatan mental",
+          "gaya hidup",
+          "pencegahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1813,19 +1969,71 @@
         "ms": "Ralph Marston"
       },
       "tags": {
-        "en": ["rest", "renewal", "well-being"],
-        "tr": ["dinlenme", "yenilenme", "esenlik"],
-        "fr": ["repos", "renouveau", "bien-être"],
-        "pt": ["descanso", "renovação", "bem-estar"],
-        "nl": ["rust", "vernieuwing", "welzijn"],
-        "es": ["descanso", "renovación", "bienestar"],
-        "de": ["ruhe", "erneuerung", "wohlbefinden"],
-        "it": ["riposo", "rinnovamento", "benessere"],
-        "ru": ["отдых", "обновление", "благополучие"],
-        "id": ["istirahat", "pembaruan", "kesejahteraan"],
-        "ja": ["休息", "再生", "幸福"],
-        "th": ["การพักผ่อน", "การฟื้นฟู", "ความเป็นอยู่ที่ดี"],
-        "ms": ["rehat", "pembaharuan", "kesejahteraan"]
+        "en": [
+          "rest",
+          "renewal",
+          "well-being"
+        ],
+        "tr": [
+          "dinlenme",
+          "yenilenme",
+          "esenlik"
+        ],
+        "fr": [
+          "repos",
+          "renouveau",
+          "bien-être"
+        ],
+        "pt": [
+          "descanso",
+          "renovação",
+          "bem-estar"
+        ],
+        "nl": [
+          "rust",
+          "vernieuwing",
+          "welzijn"
+        ],
+        "es": [
+          "descanso",
+          "renovación",
+          "bienestar"
+        ],
+        "de": [
+          "ruhe",
+          "erneuerung",
+          "wohlbefinden"
+        ],
+        "it": [
+          "riposo",
+          "rinnovamento",
+          "benessere"
+        ],
+        "ru": [
+          "отдых",
+          "обновление",
+          "благополучие"
+        ],
+        "id": [
+          "istirahat",
+          "pembaruan",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "休息",
+          "再生",
+          "幸福"
+        ],
+        "th": [
+          "การพักผ่อน",
+          "การฟื้นฟู",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "rehat",
+          "pembaharuan",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1930,19 +2138,71 @@
         "ms": "John F. Kennedy"
       },
       "tags": {
-        "en": ["fitness", "intellectual", "performance"],
-        "tr": ["fitness", "entelektüel", "performans"],
-        "fr": ["forme physique", "intellectuel", "performance"],
-        "pt": ["fitness", "intelectual", "desempenho"],
-        "nl": ["fitness", "intellectueel", "prestatie"],
-        "es": ["fitness", "intelectual", "rendimiento"],
-        "de": ["fitness", "intellektuell", "leistung"],
-        "it": ["fitness", "intellettuale", "prestazione"],
-        "ru": ["фитнес", "интеллектуальный", "производительность"],
-        "id": ["kebugaran", "intelektual", "kinerja"],
-        "ja": ["フィットネス", "知的", "パフォーマンス"],
-        "th": ["สมรรถภาพ", "ปัญญา", "ประสิทธิภาพ"],
-        "ms": ["kecergasan", "intelektual", "prestasi"]
+        "en": [
+          "fitness",
+          "intellectual",
+          "performance"
+        ],
+        "tr": [
+          "fitness",
+          "entelektüel",
+          "performans"
+        ],
+        "fr": [
+          "forme physique",
+          "intellectuel",
+          "performance"
+        ],
+        "pt": [
+          "fitness",
+          "intelectual",
+          "desempenho"
+        ],
+        "nl": [
+          "fitness",
+          "intellectueel",
+          "prestatie"
+        ],
+        "es": [
+          "fitness",
+          "intelectual",
+          "rendimiento"
+        ],
+        "de": [
+          "fitness",
+          "intellektuell",
+          "leistung"
+        ],
+        "it": [
+          "fitness",
+          "intellettuale",
+          "prestazione"
+        ],
+        "ru": [
+          "фитнес",
+          "интеллектуальный",
+          "производительность"
+        ],
+        "id": [
+          "kebugaran",
+          "intelektual",
+          "kinerja"
+        ],
+        "ja": [
+          "フィットネス",
+          "知的",
+          "パフォーマンス"
+        ],
+        "th": [
+          "สมรรถภาพ",
+          "ปัญญา",
+          "ประสิทธิภาพ"
+        ],
+        "ms": [
+          "kecergasan",
+          "intelektual",
+          "prestasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2013,7 +2273,7 @@
         }
       }
     },
-   {
+    {
       "id": "health_020",
       "category": "health",
       "texts": {
@@ -2047,19 +2307,71 @@
         "ms": "Peribahasa"
       },
       "tags": {
-        "en": ["nutrition", "prevention", "simplicity"],
-        "tr": ["beslenme", "önleme", "sadelik"],
-        "fr": ["nutrition", "prévention", "simplicité"],
-        "pt": ["nutrição", "prevenção", "simplicidade"],
-        "nl": ["voeding", "preventie", "eenvoud"],
-        "es": ["nutrición", "prevención", "simplicidad"],
-        "de": ["ernährung", "prävention", "einfachheit"],
-        "it": ["nutrizione", "prevenzione", "semplicità"],
-        "ru": ["питание", "профилактика", "простота"],
-        "id": ["nutrisi", "pencegahan", "kesederhanaan"],
-        "ja": ["栄養", "予防", "シンプルさ"],
-        "th": ["โภชนาการ", "การป้องกัน", "ความเรียบง่าย"],
-        "ms": ["pemakanan", "pencegahan", "kesederhanaan"]
+        "en": [
+          "nutrition",
+          "prevention",
+          "simplicity"
+        ],
+        "tr": [
+          "beslenme",
+          "önleme",
+          "sadelik"
+        ],
+        "fr": [
+          "nutrition",
+          "prévention",
+          "simplicité"
+        ],
+        "pt": [
+          "nutrição",
+          "prevenção",
+          "simplicidade"
+        ],
+        "nl": [
+          "voeding",
+          "preventie",
+          "eenvoud"
+        ],
+        "es": [
+          "nutrición",
+          "prevención",
+          "simplicidad"
+        ],
+        "de": [
+          "ernährung",
+          "prävention",
+          "einfachheit"
+        ],
+        "it": [
+          "nutrizione",
+          "prevenzione",
+          "semplicità"
+        ],
+        "ru": [
+          "питание",
+          "профилактика",
+          "простота"
+        ],
+        "id": [
+          "nutrisi",
+          "pencegahan",
+          "kesederhanaan"
+        ],
+        "ja": [
+          "栄養",
+          "予防",
+          "シンプルさ"
+        ],
+        "th": [
+          "โภชนาการ",
+          "การป้องกัน",
+          "ความเรียบง่าย"
+        ],
+        "ms": [
+          "pemakanan",
+          "pencegahan",
+          "kesederhanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2164,19 +2476,71 @@
         "ms": "Deepak Chopra"
       },
       "tags": {
-        "en": ["holistic", "well-being", "integration"],
-        "tr": ["bütünsel", "esenlik", "entegrasyon"],
-        "fr": ["holistique", "bien-être", "intégration"],
-        "pt": ["holístico", "bem-estar", "integração"],
-        "nl": ["holistisch", "welzijn", "integratie"],
-        "es": ["holístico", "bienestar", "integración"],
-        "de": ["ganzheitlich", "wohlbefinden", "integration"],
-        "it": ["olistico", "benessere", "integrazione"],
-        "ru": ["целостный", "благополучие", "интеграция"],
-        "id": ["holistik", "kesejahteraan", "integrasi"],
-        "ja": ["ホリスティック", "幸福", "統合"],
-        "th": ["องค์รวม", "ความเป็นอยู่ที่ดี", "การบูรณาการ"],
-        "ms": ["holistik", "kesejahteraan", "integrasi"]
+        "en": [
+          "holistic",
+          "well-being",
+          "integration"
+        ],
+        "tr": [
+          "bütünsel",
+          "esenlik",
+          "entegrasyon"
+        ],
+        "fr": [
+          "holistique",
+          "bien-être",
+          "intégration"
+        ],
+        "pt": [
+          "holístico",
+          "bem-estar",
+          "integração"
+        ],
+        "nl": [
+          "holistisch",
+          "welzijn",
+          "integratie"
+        ],
+        "es": [
+          "holístico",
+          "bienestar",
+          "integración"
+        ],
+        "de": [
+          "ganzheitlich",
+          "wohlbefinden",
+          "integration"
+        ],
+        "it": [
+          "olistico",
+          "benessere",
+          "integrazione"
+        ],
+        "ru": [
+          "целостный",
+          "благополучие",
+          "интеграция"
+        ],
+        "id": [
+          "holistik",
+          "kesejahteraan",
+          "integrasi"
+        ],
+        "ja": [
+          "ホリスティック",
+          "幸福",
+          "統合"
+        ],
+        "th": [
+          "องค์รวม",
+          "ความเป็นอยู่ที่ดี",
+          "การบูรณาการ"
+        ],
+        "ms": [
+          "holistik",
+          "kesejahteraan",
+          "integrasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2281,19 +2645,71 @@
         "ms": "Dalai Lama XIV"
       },
       "tags": {
-        "en": ["happiness", "mental health", "inner peace"],
-        "tr": ["mutluluk", "akıl sağlığı", "iç huzur"],
-        "fr": ["bonheur", "santé mentale", "paix intérieure"],
-        "pt": ["felicidade", "saúde mental", "paz interior"],
-        "nl": ["geluk", "mentale gezondheid", "innerlijke rust"],
-        "es": ["felicidad", "salud mental", "paz interior"],
-        "de": ["glück", "mentale gesundheit", "innerer frieden"],
-        "it": ["felicità", "salute mentale", "pace interiore"],
-        "ru": ["счастье", "ментальное здоровье", "внутренний покой"],
-        "id": ["kebahagiaan", "kesehatan mental", "kedamaian batin"],
-        "ja": ["幸福", "メンタルヘルス", "内なる平和"],
-        "th": ["ความสุข", "สุขภาพจิต", "ความสงบภายใน"],
-        "ms": ["kebahagiaan", "kesihatan mental", "kedamaian dalaman"]
+        "en": [
+          "happiness",
+          "mental health",
+          "inner peace"
+        ],
+        "tr": [
+          "mutluluk",
+          "akıl sağlığı",
+          "iç huzur"
+        ],
+        "fr": [
+          "bonheur",
+          "santé mentale",
+          "paix intérieure"
+        ],
+        "pt": [
+          "felicidade",
+          "saúde mental",
+          "paz interior"
+        ],
+        "nl": [
+          "geluk",
+          "mentale gezondheid",
+          "innerlijke rust"
+        ],
+        "es": [
+          "felicidad",
+          "salud mental",
+          "paz interior"
+        ],
+        "de": [
+          "glück",
+          "mentale gesundheit",
+          "innerer frieden"
+        ],
+        "it": [
+          "felicità",
+          "salute mentale",
+          "pace interiore"
+        ],
+        "ru": [
+          "счастье",
+          "ментальное здоровье",
+          "внутренний покой"
+        ],
+        "id": [
+          "kebahagiaan",
+          "kesehatan mental",
+          "kedamaian batin"
+        ],
+        "ja": [
+          "幸福",
+          "メンタルヘルス",
+          "内なる平和"
+        ],
+        "th": [
+          "ความสุข",
+          "สุขภาพจิต",
+          "ความสงบภายใน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "kesihatan mental",
+          "kedamaian dalaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2398,19 +2814,71 @@
         "ms": "Leigh Hunt"
       },
       "tags": {
-        "en": ["happiness", "foundation", "well-being"],
-        "tr": ["mutluluk", "temel", "esenlik"],
-        "fr": ["bonheur", "fondation", "bien-être"],
-        "pt": ["felicidade", "fundação", "bem-estar"],
-        "nl": ["geluk", "fundament", "welzijn"],
-        "es": ["felicidad", "fundamento", "bienestar"],
-        "de": ["glück", "grundlage", "wohlbefinden"],
-        "it": ["felicità", "fondamenta", "benessere"],
-        "ru": ["счастье", "основа", "благополучие"],
-        "id": ["kebahagiaan", "dasar", "kesejahteraan"],
-        "ja": ["幸福", "基盤", "幸福"],
-        "th": ["ความสุข", "รากฐาน", "ความเป็นอยู่ที่ดี"],
-        "ms": ["kebahagiaan", "asas", "kesejahteraan"]
+        "en": [
+          "happiness",
+          "foundation",
+          "well-being"
+        ],
+        "tr": [
+          "mutluluk",
+          "temel",
+          "esenlik"
+        ],
+        "fr": [
+          "bonheur",
+          "fondation",
+          "bien-être"
+        ],
+        "pt": [
+          "felicidade",
+          "fundação",
+          "bem-estar"
+        ],
+        "nl": [
+          "geluk",
+          "fundament",
+          "welzijn"
+        ],
+        "es": [
+          "felicidad",
+          "fundamento",
+          "bienestar"
+        ],
+        "de": [
+          "glück",
+          "grundlage",
+          "wohlbefinden"
+        ],
+        "it": [
+          "felicità",
+          "fondamenta",
+          "benessere"
+        ],
+        "ru": [
+          "счастье",
+          "основа",
+          "благополучие"
+        ],
+        "id": [
+          "kebahagiaan",
+          "dasar",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "幸福",
+          "基盤",
+          "幸福"
+        ],
+        "th": [
+          "ความสุข",
+          "รากฐาน",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "asas",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2515,19 +2983,71 @@
         "ms": "Naomi Judd"
       },
       "tags": {
-        "en": ["mind-body connection", "thoughts", "well-being"],
-        "tr": ["zihin-beden bağlantısı", "düşünceler", "esenlik"],
-        "fr": ["connexion corps-esprit", "pensées", "bien-être"],
-        "pt": ["conexão mente-corpo", "pensamentos", "bem-estar"],
-        "nl": ["geest-lichaam verbinding", "gedachten", "welzijn"],
-        "es": ["conexión mente-cuerpo", "pensamientos", "bienestar"],
-        "de": ["geist-körper-verbindung", "gedanken", "wohlbefinden"],
-        "it": ["connessione mente-corpo", "pensieri", "benessere"],
-        "ru": ["связь разума и тела", "мысли", "благополучие"],
-        "id": ["hubungan pikiran-tubuh", "pikiran", "kesejahteraan"],
-        "ja": ["心身のつながり", "思考", "幸福"],
-        "th": ["การเชื่อมโยงจิตใจและร่างกาย", "ความคิด", "ความเป็นอยู่ที่ดี"],
-        "ms": ["hubungan minda-badan", "pemikiran", "kesejahteraan"]
+        "en": [
+          "mind-body connection",
+          "thoughts",
+          "well-being"
+        ],
+        "tr": [
+          "zihin-beden bağlantısı",
+          "düşünceler",
+          "esenlik"
+        ],
+        "fr": [
+          "connexion corps-esprit",
+          "pensées",
+          "bien-être"
+        ],
+        "pt": [
+          "conexão mente-corpo",
+          "pensamentos",
+          "bem-estar"
+        ],
+        "nl": [
+          "geest-lichaam verbinding",
+          "gedachten",
+          "welzijn"
+        ],
+        "es": [
+          "conexión mente-cuerpo",
+          "pensamientos",
+          "bienestar"
+        ],
+        "de": [
+          "geist-körper-verbindung",
+          "gedanken",
+          "wohlbefinden"
+        ],
+        "it": [
+          "connessione mente-corpo",
+          "pensieri",
+          "benessere"
+        ],
+        "ru": [
+          "связь разума и тела",
+          "мысли",
+          "благополучие"
+        ],
+        "id": [
+          "hubungan pikiran-tubuh",
+          "pikiran",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "心身のつながり",
+          "思考",
+          "幸福"
+        ],
+        "th": [
+          "การเชื่อมโยงจิตใจและร่างกาย",
+          "ความคิด",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "hubungan minda-badan",
+          "pemikiran",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2632,19 +3152,71 @@
         "ms": "Michael Bernard Beckwith"
       },
       "tags": {
-        "en": ["gratitude", "mindset", "attraction"],
-        "tr": ["şükran", "zihniyet", "çekim"],
-        "fr": ["gratitude", "état d'esprit", "attraction"],
-        "pt": ["gratidão", "mentalidade", "atração"],
-        "nl": ["dankbaarheid", "mindset", "aantrekking"],
-        "es": ["gratitud", "mentalidad", "atracción"],
-        "de": ["dankbarkeit", "denkweise", "anziehung"],
-        "it": ["gratitudine", "mentalità", "attrazione"],
-        "ru": ["благодарность", "мышление", "притяжение"],
-        "id": ["syukur", "pola pikir", "ketertarikan"],
-        "ja": ["感謝", "マインドセット", "引き寄せ"],
-        "th": ["ความกตัญญู", "ทัศนคติ", "การดึงดูด"],
-        "ms": ["kesyukuran", "pola pemikiran", "tarikan"]
+        "en": [
+          "gratitude",
+          "mindset",
+          "attraction"
+        ],
+        "tr": [
+          "şükran",
+          "zihniyet",
+          "çekim"
+        ],
+        "fr": [
+          "gratitude",
+          "état d'esprit",
+          "attraction"
+        ],
+        "pt": [
+          "gratidão",
+          "mentalidade",
+          "atração"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "mindset",
+          "aantrekking"
+        ],
+        "es": [
+          "gratitud",
+          "mentalidad",
+          "atracción"
+        ],
+        "de": [
+          "dankbarkeit",
+          "denkweise",
+          "anziehung"
+        ],
+        "it": [
+          "gratitudine",
+          "mentalità",
+          "attrazione"
+        ],
+        "ru": [
+          "благодарность",
+          "мышление",
+          "притяжение"
+        ],
+        "id": [
+          "syukur",
+          "pola pikir",
+          "ketertarikan"
+        ],
+        "ja": [
+          "感謝",
+          "マインドセット",
+          "引き寄せ"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "ทัศนคติ",
+          "การดึงดูด"
+        ],
+        "ms": [
+          "kesyukuran",
+          "pola pemikiran",
+          "tarikan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2749,19 +3321,71 @@
         "ms": "Ralph Waldo Emerson"
       },
       "tags": {
-        "en": ["success", "foundation", "performance"],
-        "tr": ["başarı", "temel", "performans"],
-        "fr": ["succès", "fondation", "performance"],
-        "pt": ["sucesso", "fundação", "desempenho"],
-        "nl": ["succes", "fundament", "prestatie"],
-        "es": ["éxito", "fundamento", "rendimiento"],
-        "de": ["erfolg", "grundlage", "leistung"],
-        "it": ["successo", "fondamenta", "prestazione"],
-        "ru": ["успех", "основа", "производительность"],
-        "id": ["kesuksesan", "dasar", "kinerja"],
-        "ja": ["成功", "基盤", "パフォーマンス"],
-        "th": ["ความสำเร็จ", "รากฐาน", "ประสิทธิภาพ"],
-        "ms": ["kejayaan", "asas", "prestasi"]
+        "en": [
+          "success",
+          "foundation",
+          "performance"
+        ],
+        "tr": [
+          "başarı",
+          "temel",
+          "performans"
+        ],
+        "fr": [
+          "succès",
+          "fondation",
+          "performance"
+        ],
+        "pt": [
+          "sucesso",
+          "fundação",
+          "desempenho"
+        ],
+        "nl": [
+          "succes",
+          "fundament",
+          "prestatie"
+        ],
+        "es": [
+          "éxito",
+          "fundamento",
+          "rendimiento"
+        ],
+        "de": [
+          "erfolg",
+          "grundlage",
+          "leistung"
+        ],
+        "it": [
+          "successo",
+          "fondamenta",
+          "prestazione"
+        ],
+        "ru": [
+          "успех",
+          "основа",
+          "производительность"
+        ],
+        "id": [
+          "kesuksesan",
+          "dasar",
+          "kinerja"
+        ],
+        "ja": [
+          "成功",
+          "基盤",
+          "パフォーマンス"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "รากฐาน",
+          "ประสิทธิภาพ"
+        ],
+        "ms": [
+          "kejayaan",
+          "asas",
+          "prestasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2866,19 +3490,71 @@
         "ms": "Albert Schweitzer"
       },
       "tags": {
-        "en": ["happiness", "simplicity", "forgetting"],
-        "tr": ["mutluluk", "sadelik", "unutmak"],
-        "fr": ["bonheur", "simplicité", "oublier"],
-        "pt": ["felicidade", "simplicidade", "esquecer"],
-        "nl": ["geluk", "eenvoud", "vergeten"],
-        "es": ["felicidad", "simplicidad", "olvidar"],
-        "de": ["glück", "einfachheit", "vergessen"],
-        "it": ["felicità", "semplicità", "dimenticare"],
-        "ru": ["счастье", "простота", "забывать"],
-        "id": ["kebahagiaan", "kesederhanaan", "melupakan"],
-        "ja": ["幸福", "シンプルさ", "忘れること"],
-        "th": ["ความสุข", "ความเรียบง่าย", "การลืม"],
-        "ms": ["kebahagiaan", "kesederhanaan", "melupakan"]
+        "en": [
+          "happiness",
+          "simplicity",
+          "forgetting"
+        ],
+        "tr": [
+          "mutluluk",
+          "sadelik",
+          "unutmak"
+        ],
+        "fr": [
+          "bonheur",
+          "simplicité",
+          "oublier"
+        ],
+        "pt": [
+          "felicidade",
+          "simplicidade",
+          "esquecer"
+        ],
+        "nl": [
+          "geluk",
+          "eenvoud",
+          "vergeten"
+        ],
+        "es": [
+          "felicidad",
+          "simplicidad",
+          "olvidar"
+        ],
+        "de": [
+          "glück",
+          "einfachheit",
+          "vergessen"
+        ],
+        "it": [
+          "felicità",
+          "semplicità",
+          "dimenticare"
+        ],
+        "ru": [
+          "счастье",
+          "простота",
+          "забывать"
+        ],
+        "id": [
+          "kebahagiaan",
+          "kesederhanaan",
+          "melupakan"
+        ],
+        "ja": [
+          "幸福",
+          "シンプルさ",
+          "忘れること"
+        ],
+        "th": [
+          "ความสุข",
+          "ความเรียบง่าย",
+          "การลืม"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "kesederhanaan",
+          "melupakan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2983,19 +3659,71 @@
         "ms": "Arthur Schopenhauer"
       },
       "tags": {
-        "en": ["responsibility", "duty", "self-care"],
-        "tr": ["sorumluluk", "görev", "öz bakım"],
-        "fr": ["responsabilité", "devoir", "auto-soins"],
-        "pt": ["responsabilidade", "dever", "autocuidado"],
-        "nl": ["verantwoordelijkheid", "plicht", "zelfzorg"],
-        "es": ["responsabilidad", "deber", "autocuidado"],
-        "de": ["verantwortung", "pflicht", "selbstpflege"],
-        "it": ["responsabilità", "dovere", "cura di sé"],
-        "ru": ["ответственность", "долг", "самоуход"],
-        "id": ["tanggung jawab", "tugas", "perawatan diri"],
-        "ja": ["責任", "義務", "自己ケア"],
-        "th": ["ความรับผิดชอบ", "หน้าที่", "การดูแลตนเอง"],
-        "ms": ["tanggungjawab", "tugas", "penjagaan diri"]
+        "en": [
+          "responsibility",
+          "duty",
+          "self-care"
+        ],
+        "tr": [
+          "sorumluluk",
+          "görev",
+          "öz bakım"
+        ],
+        "fr": [
+          "responsabilité",
+          "devoir",
+          "auto-soins"
+        ],
+        "pt": [
+          "responsabilidade",
+          "dever",
+          "autocuidado"
+        ],
+        "nl": [
+          "verantwoordelijkheid",
+          "plicht",
+          "zelfzorg"
+        ],
+        "es": [
+          "responsabilidad",
+          "deber",
+          "autocuidado"
+        ],
+        "de": [
+          "verantwortung",
+          "pflicht",
+          "selbstpflege"
+        ],
+        "it": [
+          "responsabilità",
+          "dovere",
+          "cura di sé"
+        ],
+        "ru": [
+          "ответственность",
+          "долг",
+          "самоуход"
+        ],
+        "id": [
+          "tanggung jawab",
+          "tugas",
+          "perawatan diri"
+        ],
+        "ja": [
+          "責任",
+          "義務",
+          "自己ケア"
+        ],
+        "th": [
+          "ความรับผิดชอบ",
+          "หน้าที่",
+          "การดูแลตนเอง"
+        ],
+        "ms": [
+          "tanggungjawab",
+          "tugas",
+          "penjagaan diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3100,19 +3828,71 @@
         "ms": "Gary Zukav"
       },
       "tags": {
-        "en": ["self-care", "responsibility", "existence"],
-        "tr": ["öz bakım", "sorumluluk", "varoluş"],
-        "fr": ["auto-soins", "responsabilité", "existence"],
-        "pt": ["autocuidado", "responsabilidade", "existência"],
-        "nl": ["zelfzorg", "verantwoordelijkheid", "existentie"],
-        "es": ["autocuidado", "responsabilidad", "existencia"],
-        "de": ["selbstpflege", "verantwortung", "existenz"],
-        "it": ["cura di sé", "responsabilità", "esistenza"],
-        "ru": ["самоуход", "ответственность", "существование"],
-        "id": ["perawatan diri", "tanggung jawab", "keberadaan"],
-        "ja": ["自己ケア", "責任", "存在"],
-        "th": ["การดูแลตนเอง", "ความรับผิดชอบ", "การดำรงอยู่"],
-        "ms": ["penjagaan diri", "tanggungjawab", "kewujudan"]
+        "en": [
+          "self-care",
+          "responsibility",
+          "existence"
+        ],
+        "tr": [
+          "öz bakım",
+          "sorumluluk",
+          "varoluş"
+        ],
+        "fr": [
+          "auto-soins",
+          "responsabilité",
+          "existence"
+        ],
+        "pt": [
+          "autocuidado",
+          "responsabilidade",
+          "existência"
+        ],
+        "nl": [
+          "zelfzorg",
+          "verantwoordelijkheid",
+          "existentie"
+        ],
+        "es": [
+          "autocuidado",
+          "responsabilidad",
+          "existencia"
+        ],
+        "de": [
+          "selbstpflege",
+          "verantwortung",
+          "existenz"
+        ],
+        "it": [
+          "cura di sé",
+          "responsabilità",
+          "esistenza"
+        ],
+        "ru": [
+          "самоуход",
+          "ответственность",
+          "существование"
+        ],
+        "id": [
+          "perawatan diri",
+          "tanggung jawab",
+          "keberadaan"
+        ],
+        "ja": [
+          "自己ケア",
+          "責任",
+          "存在"
+        ],
+        "th": [
+          "การดูแลตนเอง",
+          "ความรับผิดชอบ",
+          "การดำรงอยู่"
+        ],
+        "ms": [
+          "penjagaan diri",
+          "tanggungjawab",
+          "kewujudan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3217,19 +3997,71 @@
         "ms": "William Londen"
       },
       "tags": {
-        "en": ["holistic", "lifestyle", "prevention"],
-        "tr": ["bütünsel", "yaşam tarzı", "önleme"],
-        "fr": ["holistique", "mode de vie", "prévention"],
-        "pt": ["holístico", "estilo de vida", "prevenção"],
-        "nl": ["holistisch", "levensstijl", "preventie"],
-        "es": ["holístico", "estilo de vida", "prevención"],
-        "de": ["ganzheitlich", "lebensstil", "prävention"],
-        "it": ["olistico", "stile di vita", "prevenzione"],
-        "ru": ["целостный", "образ жизни", "профилактика"],
-        "id": ["holistik", "gaya hidup", "pencegahan"],
-        "ja": ["ホリスティック", "ライフスタイル", "予防"],
-        "th": ["องค์รวม", "วิถีชีวิต", "การป้องกัน"],
-        "ms": ["holistik", "gaya hidup", "pencegahan"]
+        "en": [
+          "holistic",
+          "lifestyle",
+          "prevention"
+        ],
+        "tr": [
+          "bütünsel",
+          "yaşam tarzı",
+          "önleme"
+        ],
+        "fr": [
+          "holistique",
+          "mode de vie",
+          "prévention"
+        ],
+        "pt": [
+          "holístico",
+          "estilo de vida",
+          "prevenção"
+        ],
+        "nl": [
+          "holistisch",
+          "levensstijl",
+          "preventie"
+        ],
+        "es": [
+          "holístico",
+          "estilo de vida",
+          "prevención"
+        ],
+        "de": [
+          "ganzheitlich",
+          "lebensstil",
+          "prävention"
+        ],
+        "it": [
+          "olistico",
+          "stile di vita",
+          "prevenzione"
+        ],
+        "ru": [
+          "целостный",
+          "образ жизни",
+          "профилактика"
+        ],
+        "id": [
+          "holistik",
+          "gaya hidup",
+          "pencegahan"
+        ],
+        "ja": [
+          "ホリスティック",
+          "ライフスタイル",
+          "予防"
+        ],
+        "th": [
+          "องค์รวม",
+          "วิถีชีวิต",
+          "การป้องกัน"
+        ],
+        "ms": [
+          "holistik",
+          "gaya hidup",
+          "pencegahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3334,19 +4166,71 @@
         "ms": "Winston Churchill"
       },
       "tags": {
-        "en": ["nation", "economy", "prosperity"],
-        "tr": ["ulus", "ekonomi", "refah"],
-        "fr": ["nation", "économie", "prospérité"],
-        "pt": ["nação", "economia", "prosperidade"],
-        "nl": ["natie", "economie", "welvaart"],
-        "es": ["nación", "economía", "prosperidad"],
-        "de": ["nation", "wirtschaft", "wohlstand"],
-        "it": ["nazione", "economia", "prosperità"],
-        "ru": ["нация", "экономика", "процветание"],
-        "id": ["bangsa", "ekonomi", "kemakmuran"],
-        "ja": ["国家", "経済", "繁栄"],
-        "th": ["ชาติ", "เศรษฐกิจ", "ความเจริญรุ่งเรือง"],
-        "ms": ["negara", "ekonomi", "kemakmuran"]
+        "en": [
+          "nation",
+          "economy",
+          "prosperity"
+        ],
+        "tr": [
+          "ulus",
+          "ekonomi",
+          "refah"
+        ],
+        "fr": [
+          "nation",
+          "économie",
+          "prospérité"
+        ],
+        "pt": [
+          "nação",
+          "economia",
+          "prosperidade"
+        ],
+        "nl": [
+          "natie",
+          "economie",
+          "welvaart"
+        ],
+        "es": [
+          "nación",
+          "economía",
+          "prosperidad"
+        ],
+        "de": [
+          "nation",
+          "wirtschaft",
+          "wohlstand"
+        ],
+        "it": [
+          "nazione",
+          "economia",
+          "prosperità"
+        ],
+        "ru": [
+          "нация",
+          "экономика",
+          "процветание"
+        ],
+        "id": [
+          "bangsa",
+          "ekonomi",
+          "kemakmuran"
+        ],
+        "ja": [
+          "国家",
+          "経済",
+          "繁栄"
+        ],
+        "th": [
+          "ชาติ",
+          "เศรษฐกิจ",
+          "ความเจริญรุ่งเรือง"
+        ],
+        "ms": [
+          "negara",
+          "ekonomi",
+          "kemakmuran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3451,19 +4335,71 @@
         "ms": "J. Krishnamurti"
       },
       "tags": {
-        "en": ["mental health", "society", "critical thinking"],
-        "tr": ["akıl sağlığı", "toplum", "eleştirel düşünme"],
-        "fr": ["santé mentale", "société", "pensée critique"],
-        "pt": ["saúde mental", "sociedade", "pensamento crítico"],
-        "nl": ["mentale gezondheid", "maatschappij", "kritisch denken"],
-        "es": ["salud mental", "sociedad", "pensamiento crítico"],
-        "de": ["mentale gesundheit", "gesellschaft", "kritisches denken"],
-        "it": ["salute mentale", "società", "pensiero critico"],
-        "ru": ["ментальное здоровье", "общество", "критическое мышление"],
-        "id": ["kesehatan mental", "masyarakat", "pemikiran kritis"],
-        "ja": ["メンタルヘルス", "社会", "批判的思考"],
-        "th": ["สุขภาพจิต", "สังคม", "การคิดวิเคราะห์"],
-        "ms": ["kesihatan mental", "masyarakat", "pemikiran kritis"]
+        "en": [
+          "mental health",
+          "society",
+          "critical thinking"
+        ],
+        "tr": [
+          "akıl sağlığı",
+          "toplum",
+          "eleştirel düşünme"
+        ],
+        "fr": [
+          "santé mentale",
+          "société",
+          "pensée critique"
+        ],
+        "pt": [
+          "saúde mental",
+          "sociedade",
+          "pensamento crítico"
+        ],
+        "nl": [
+          "mentale gezondheid",
+          "maatschappij",
+          "kritisch denken"
+        ],
+        "es": [
+          "salud mental",
+          "sociedad",
+          "pensamiento crítico"
+        ],
+        "de": [
+          "mentale gesundheit",
+          "gesellschaft",
+          "kritisches denken"
+        ],
+        "it": [
+          "salute mentale",
+          "società",
+          "pensiero critico"
+        ],
+        "ru": [
+          "ментальное здоровье",
+          "общество",
+          "критическое мышление"
+        ],
+        "id": [
+          "kesehatan mental",
+          "masyarakat",
+          "pemikiran kritis"
+        ],
+        "ja": [
+          "メンタルヘルス",
+          "社会",
+          "批判的思考"
+        ],
+        "th": [
+          "สุขภาพจิต",
+          "สังคม",
+          "การคิดวิเคราะห์"
+        ],
+        "ms": [
+          "kesihatan mental",
+          "masyarakat",
+          "pemikiran kritis"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3568,19 +4504,71 @@
         "ms": "George William Curtis"
       },
       "tags": {
-        "en": ["happiness", "priority", "well-being"],
-        "tr": ["mutluluk", "öncelik", "esenlik"],
-        "fr": ["bonheur", "priorité", "bien-être"],
-        "pt": ["felicidade", "prioridade", "bem-estar"],
-        "nl": ["geluk", "prioriteit", "welzijn"],
-        "es": ["felicidad", "prioridad", "bienestar"],
-        "de": ["glück", "priorität", "wohlbefinden"],
-        "it": ["felicità", "priorità", "benessere"],
-        "ru": ["счастье", "приоритет", "благополучие"],
-        "id": ["kebahagiaan", "prioritas", "kesejahteraan"],
-        "ja": ["幸福", "優先順位", "幸福"],
-        "th": ["ความสุข", "ลำดับความสำคัญ", "ความเป็นอยู่ที่ดี"],
-        "ms": ["kebahagiaan", "keutamaan", "kesejahteraan"]
+        "en": [
+          "happiness",
+          "priority",
+          "well-being"
+        ],
+        "tr": [
+          "mutluluk",
+          "öncelik",
+          "esenlik"
+        ],
+        "fr": [
+          "bonheur",
+          "priorité",
+          "bien-être"
+        ],
+        "pt": [
+          "felicidade",
+          "prioridade",
+          "bem-estar"
+        ],
+        "nl": [
+          "geluk",
+          "prioriteit",
+          "welzijn"
+        ],
+        "es": [
+          "felicidad",
+          "prioridad",
+          "bienestar"
+        ],
+        "de": [
+          "glück",
+          "priorität",
+          "wohlbefinden"
+        ],
+        "it": [
+          "felicità",
+          "priorità",
+          "benessere"
+        ],
+        "ru": [
+          "счастье",
+          "приоритет",
+          "благополучие"
+        ],
+        "id": [
+          "kebahagiaan",
+          "prioritas",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "幸福",
+          "優先順位",
+          "幸福"
+        ],
+        "th": [
+          "ความสุข",
+          "ลำดับความสำคัญ",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "keutamaan",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3685,19 +4673,71 @@
         "ms": "Buddha"
       },
       "tags": {
-        "en": ["mindfulness", "manifestation", "mind-body"],
-        "tr": ["farkındalık", "tezahür", "zihin-beden"],
-        "fr": ["pleine conscience", "manifestation", "corps-esprit"],
-        "pt": ["atenção plena", "manifestação", "mente-corpo"],
-        "nl": ["mindfulness", "manifestatie", "geest-lichaam"],
-        "es": ["atención plena", "manifestación", "mente-cuerpo"],
-        "de": ["achtsamkeit", "manifestation", "geist-körper"],
-        "it": ["consapevolezza", "manifestazione", "mente-corpo"],
-        "ru": ["осознанность", "манифестация", "разум-тело"],
-        "id": ["kesadaran", "manifestasi", "pikiran-tubuh"],
-        "ja": ["マインドフルネス", "具現化", "心身"],
-        "th": ["สติ", "การสำแดง", "จิตใจ-ร่างกาย"],
-        "ms": ["kesedaran", "manifestasi", "minda-badan"]
+        "en": [
+          "mindfulness",
+          "manifestation",
+          "mind-body"
+        ],
+        "tr": [
+          "farkındalık",
+          "tezahür",
+          "zihin-beden"
+        ],
+        "fr": [
+          "pleine conscience",
+          "manifestation",
+          "corps-esprit"
+        ],
+        "pt": [
+          "atenção plena",
+          "manifestação",
+          "mente-corpo"
+        ],
+        "nl": [
+          "mindfulness",
+          "manifestatie",
+          "geest-lichaam"
+        ],
+        "es": [
+          "atención plena",
+          "manifestación",
+          "mente-cuerpo"
+        ],
+        "de": [
+          "achtsamkeit",
+          "manifestation",
+          "geist-körper"
+        ],
+        "it": [
+          "consapevolezza",
+          "manifestazione",
+          "mente-corpo"
+        ],
+        "ru": [
+          "осознанность",
+          "манифестация",
+          "разум-тело"
+        ],
+        "id": [
+          "kesadaran",
+          "manifestasi",
+          "pikiran-tubuh"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "具現化",
+          "心身"
+        ],
+        "th": [
+          "สติ",
+          "การสำแดง",
+          "จิตใจ-ร่างกาย"
+        ],
+        "ms": [
+          "kesedaran",
+          "manifestasi",
+          "minda-badan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3768,7 +4808,7 @@
         }
       }
     },
-     {
+    {
       "id": "health_035",
       "category": "health",
       "texts": {
@@ -3802,19 +4842,71 @@
         "ms": "Fyodor Dostoevsky"
       },
       "tags": {
-        "en": ["mental health", "joy", "innocence"],
-        "tr": ["akıl sağlığı", "neşe", "masumiyet"],
-        "fr": ["santé mentale", "joie", "innocence"],
-        "pt": ["saúde mental", "alegria", "inocência"],
-        "nl": ["mentale gezondheid", "vreugde", "onschuld"],
-        "es": ["salud mental", "alegría", "inocencia"],
-        "de": ["mentale gesundheit", "freude", "unschuld"],
-        "it": ["salute mentale", "gioia", "innocenza"],
-        "ru": ["ментальное здоровье", "радость", "невинность"],
-        "id": ["kesehatan mental", "kegembiraan", "kemurnian"],
-        "ja": ["メンタルヘルス", "喜び", "無垢"],
-        "th": ["สุขภาพจิต", "ความสุข", "ความบริสุทธิ์"],
-        "ms": ["kesihatan mental", "kegembiraan", "kemurnian"]
+        "en": [
+          "mental health",
+          "joy",
+          "innocence"
+        ],
+        "tr": [
+          "akıl sağlığı",
+          "neşe",
+          "masumiyet"
+        ],
+        "fr": [
+          "santé mentale",
+          "joie",
+          "innocence"
+        ],
+        "pt": [
+          "saúde mental",
+          "alegria",
+          "inocência"
+        ],
+        "nl": [
+          "mentale gezondheid",
+          "vreugde",
+          "onschuld"
+        ],
+        "es": [
+          "salud mental",
+          "alegría",
+          "inocencia"
+        ],
+        "de": [
+          "mentale gesundheit",
+          "freude",
+          "unschuld"
+        ],
+        "it": [
+          "salute mentale",
+          "gioia",
+          "innocenza"
+        ],
+        "ru": [
+          "ментальное здоровье",
+          "радость",
+          "невинность"
+        ],
+        "id": [
+          "kesehatan mental",
+          "kegembiraan",
+          "kemurnian"
+        ],
+        "ja": [
+          "メンタルヘルス",
+          "喜び",
+          "無垢"
+        ],
+        "th": [
+          "สุขภาพจิต",
+          "ความสุข",
+          "ความบริสุทธิ์"
+        ],
+        "ms": [
+          "kesihatan mental",
+          "kegembiraan",
+          "kemurnian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3919,19 +5011,71 @@
         "ms": "Benjamin Franklin"
       },
       "tags": {
-        "en": ["medicine", "prevention", "natural health"],
-        "tr": ["tıp", "önleme", "doğal sağlık"],
-        "fr": ["médecine", "prévention", "santé naturelle"],
-        "pt": ["medicina", "prevenção", "saúde natural"],
-        "nl": ["geneeskunde", "preventie", "natuurlijke gezondheid"],
-        "es": ["medicina", "prevención", "salud natural"],
-        "de": ["medizin", "prävention", "natürliche gesundheit"],
-        "it": ["medicina", "prevenzione", "salute naturale"],
-        "ru": ["медицина", "профилактика", "естественное здоровье"],
-        "id": ["kedokteran", "pencegahan", "kesehatan alami"],
-        "ja": ["医学", "予防", "自然な健康"],
-        "th": ["การแพทย์", "การป้องกัน", "สุขภาพธรรมชาติ"],
-        "ms": ["perubatan", "pencegahan", "kesihatan semula jadi"]
+        "en": [
+          "medicine",
+          "prevention",
+          "natural health"
+        ],
+        "tr": [
+          "tıp",
+          "önleme",
+          "doğal sağlık"
+        ],
+        "fr": [
+          "médecine",
+          "prévention",
+          "santé naturelle"
+        ],
+        "pt": [
+          "medicina",
+          "prevenção",
+          "saúde natural"
+        ],
+        "nl": [
+          "geneeskunde",
+          "preventie",
+          "natuurlijke gezondheid"
+        ],
+        "es": [
+          "medicina",
+          "prevención",
+          "salud natural"
+        ],
+        "de": [
+          "medizin",
+          "prävention",
+          "natürliche gesundheit"
+        ],
+        "it": [
+          "medicina",
+          "prevenzione",
+          "salute naturale"
+        ],
+        "ru": [
+          "медицина",
+          "профилактика",
+          "естественное здоровье"
+        ],
+        "id": [
+          "kedokteran",
+          "pencegahan",
+          "kesehatan alami"
+        ],
+        "ja": [
+          "医学",
+          "予防",
+          "自然な健康"
+        ],
+        "th": [
+          "การแพทย์",
+          "การป้องกัน",
+          "สุขภาพธรรมชาติ"
+        ],
+        "ms": [
+          "perubatan",
+          "pencegahan",
+          "kesihatan semula jadi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4036,19 +5180,71 @@
         "ms": "Anne Wilson Schaef"
       },
       "tags": {
-        "en": ["value", "investment", "future"],
-        "tr": ["değer", "yatırım", "gelecek"],
-        "fr": ["valeur", "investissement", "avenir"],
-        "pt": ["valor", "investimento", "futuro"],
-        "nl": ["waarde", "investering", "toekomst"],
-        "es": ["valor", "inversión", "futuro"],
-        "de": ["wert", "investition", "zukunft"],
-        "it": ["valore", "investimento", "futuro"],
-        "ru": ["ценность", "инвестиции", "будущее"],
-        "id": ["nilai", "investasi", "masa depan"],
-        "ja": ["価値", "投資", "未来"],
-        "th": ["คุณค่า", "การลงทุน", "อนาคต"],
-        "ms": ["nilai", "pelaburan", "masa depan"]
+        "en": [
+          "value",
+          "investment",
+          "future"
+        ],
+        "tr": [
+          "değer",
+          "yatırım",
+          "gelecek"
+        ],
+        "fr": [
+          "valeur",
+          "investissement",
+          "avenir"
+        ],
+        "pt": [
+          "valor",
+          "investimento",
+          "futuro"
+        ],
+        "nl": [
+          "waarde",
+          "investering",
+          "toekomst"
+        ],
+        "es": [
+          "valor",
+          "inversión",
+          "futuro"
+        ],
+        "de": [
+          "wert",
+          "investition",
+          "zukunft"
+        ],
+        "it": [
+          "valore",
+          "investimento",
+          "futuro"
+        ],
+        "ru": [
+          "ценность",
+          "инвестиции",
+          "будущее"
+        ],
+        "id": [
+          "nilai",
+          "investasi",
+          "masa depan"
+        ],
+        "ja": [
+          "価値",
+          "投資",
+          "未来"
+        ],
+        "th": [
+          "คุณค่า",
+          "การลงทุน",
+          "อนาคต"
+        ],
+        "ms": [
+          "nilai",
+          "pelaburan",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4153,19 +5349,71 @@
         "ms": "Lao Tzu"
       },
       "tags": {
-        "en": ["mindset", "resilience", "mental health"],
-        "tr": ["zihniyet", "dayanıklılık", "akıl sağlığı"],
-        "fr": ["état d'esprit", "résilience", "santé mentale"],
-        "pt": ["mentalidade", "resiliência", "saúde mental"],
-        "nl": ["mindset", "veerkracht", "mentale gezondheid"],
-        "es": ["mentalidad", "resiliencia", "salud mental"],
-        "de": ["denkweise", "widerstandsfähigkeit", "mentale gesundheit"],
-        "it": ["mentalità", "resilienza", "salute mentale"],
-        "ru": ["мышление", "устойчивость", "ментальное здоровье"],
-        "id": ["pola pikir", "ketahanan", "kesehatan mental"],
-        "ja": ["マインドセット", "レジリエンス", "メンタルヘルス"],
-        "th": ["ทัศนคติ", "ความยืดหยุ่น", "สุขภาพจิต"],
-        "ms": ["pola pemikiran", "ketahanan", "kesihatan mental"]
+        "en": [
+          "mindset",
+          "resilience",
+          "mental health"
+        ],
+        "tr": [
+          "zihniyet",
+          "dayanıklılık",
+          "akıl sağlığı"
+        ],
+        "fr": [
+          "état d'esprit",
+          "résilience",
+          "santé mentale"
+        ],
+        "pt": [
+          "mentalidade",
+          "resiliência",
+          "saúde mental"
+        ],
+        "nl": [
+          "mindset",
+          "veerkracht",
+          "mentale gezondheid"
+        ],
+        "es": [
+          "mentalidad",
+          "resiliencia",
+          "salud mental"
+        ],
+        "de": [
+          "denkweise",
+          "widerstandsfähigkeit",
+          "mentale gesundheit"
+        ],
+        "it": [
+          "mentalità",
+          "resilienza",
+          "salute mentale"
+        ],
+        "ru": [
+          "мышление",
+          "устойчивость",
+          "ментальное здоровье"
+        ],
+        "id": [
+          "pola pikir",
+          "ketahanan",
+          "kesehatan mental"
+        ],
+        "ja": [
+          "マインドセット",
+          "レジリエンス",
+          "メンタルヘルス"
+        ],
+        "th": [
+          "ทัศนคติ",
+          "ความยืดหยุ่น",
+          "สุขภาพจิต"
+        ],
+        "ms": [
+          "pola pemikiran",
+          "ketahanan",
+          "kesihatan mental"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4270,19 +5518,71 @@
         "ms": "Peribahasa Tidak Dikenali"
       },
       "tags": {
-        "en": ["appreciation", "perspective", "value"],
-        "tr": ["takdir", "bakış açısı", "değer"],
-        "fr": ["appréciation", "perspective", "valeur"],
-        "pt": ["apreciação", "perspectiva", "valor"],
-        "nl": ["waardering", "perspectief", "waarde"],
-        "es": ["apreciación", "perspectiva", "valor"],
-        "de": ["wertschätzung", "perspektive", "wert"],
-        "it": ["apprezzamento", "prospettiva", "valore"],
-        "ru": ["признательность", "перспектива", "ценность"],
-        "id": ["penghargaan", "perspektif", "nilai"],
-        "ja": ["感謝", "視点", "価値"],
-        "th": ["การชื่นชม", "มุมมอง", "คุณค่า"],
-        "ms": ["penghargaan", "perspektif", "nilai"]
+        "en": [
+          "appreciation",
+          "perspective",
+          "value"
+        ],
+        "tr": [
+          "takdir",
+          "bakış açısı",
+          "değer"
+        ],
+        "fr": [
+          "appréciation",
+          "perspective",
+          "valeur"
+        ],
+        "pt": [
+          "apreciação",
+          "perspectiva",
+          "valor"
+        ],
+        "nl": [
+          "waardering",
+          "perspectief",
+          "waarde"
+        ],
+        "es": [
+          "apreciación",
+          "perspectiva",
+          "valor"
+        ],
+        "de": [
+          "wertschätzung",
+          "perspektive",
+          "wert"
+        ],
+        "it": [
+          "apprezzamento",
+          "prospettiva",
+          "valore"
+        ],
+        "ru": [
+          "признательность",
+          "перспектива",
+          "ценность"
+        ],
+        "id": [
+          "penghargaan",
+          "perspektif",
+          "nilai"
+        ],
+        "ja": [
+          "感謝",
+          "視点",
+          "価値"
+        ],
+        "th": [
+          "การชื่นชม",
+          "มุมมอง",
+          "คุณค่า"
+        ],
+        "ms": [
+          "penghargaan",
+          "perspektif",
+          "nilai"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4387,19 +5687,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["inner peace", "physical health", "balance"],
-        "tr": ["iç huzur", "fiziksel sağlık", "denge"],
-        "fr": ["paix intérieure", "santé physique", "équilibre"],
-        "pt": ["paz interior", "saúde física", "equilíbrio"],
-        "nl": ["innerlijke vrede", "fysieke gezondheid", "balans"],
-        "es": ["paz interior", "salud física", "equilibrio"],
-        "de": ["innerer frieden", "körperliche gesundheit", "gleichgewicht"],
-        "it": ["pace interiore", "salute fisica", "equilibrio"],
-        "ru": ["внутренний покой", "физическое здоровье", "баланс"],
-        "id": ["kedamaian batin", "kesehatan fisik", "keseimbangan"],
-        "ja": ["内なる平和", "身体の健康", "バランス"],
-        "th": ["ความสงบภายใน", "สุขภาพกาย", "สมดุล"],
-        "ms": ["kedamaian dalaman", "kesihatan fizikal", "keseimbangan"]
+        "en": [
+          "inner peace",
+          "physical health",
+          "balance"
+        ],
+        "tr": [
+          "iç huzur",
+          "fiziksel sağlık",
+          "denge"
+        ],
+        "fr": [
+          "paix intérieure",
+          "santé physique",
+          "équilibre"
+        ],
+        "pt": [
+          "paz interior",
+          "saúde física",
+          "equilíbrio"
+        ],
+        "nl": [
+          "innerlijke vrede",
+          "fysieke gezondheid",
+          "balans"
+        ],
+        "es": [
+          "paz interior",
+          "salud física",
+          "equilibrio"
+        ],
+        "de": [
+          "innerer frieden",
+          "körperliche gesundheit",
+          "gleichgewicht"
+        ],
+        "it": [
+          "pace interiore",
+          "salute fisica",
+          "equilibrio"
+        ],
+        "ru": [
+          "внутренний покой",
+          "физическое здоровье",
+          "баланс"
+        ],
+        "id": [
+          "kedamaian batin",
+          "kesehatan fisik",
+          "keseimbangan"
+        ],
+        "ja": [
+          "内なる平和",
+          "身体の健康",
+          "バランス"
+        ],
+        "th": [
+          "ความสงบภายใน",
+          "สุขภาพกาย",
+          "สมดุล"
+        ],
+        "ms": [
+          "kedamaian dalaman",
+          "kesihatan fizikal",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4504,19 +5856,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["exercise", "rest", "vitality"],
-        "tr": ["egzersiz", "dinlenme", "canlılık"],
-        "fr": ["exercice", "repos", "vitalité"],
-        "pt": ["exercício", "descanso", "vitalidade"],
-        "nl": ["beweging", "rust", "vitaliteit"],
-        "es": ["ejercicio", "descanso", "vitalidad"],
-        "de": ["bewegung", "ruhe", "vitalität"],
-        "it": ["esercizio", "riposo", "vitalità"],
-        "ru": ["движение", "отдых", "жизненная сила"],
-        "id": ["olahraga", "istirahat", "vitalitas"],
-        "ja": ["運動", "休息", "活力"],
-        "th": ["การออกกำลังกาย", "การพักผ่อน", "พลังชีวิต"],
-        "ms": ["senaman", "rehat", "vitaliti"]
+        "en": [
+          "exercise",
+          "rest",
+          "vitality"
+        ],
+        "tr": [
+          "egzersiz",
+          "dinlenme",
+          "canlılık"
+        ],
+        "fr": [
+          "exercice",
+          "repos",
+          "vitalité"
+        ],
+        "pt": [
+          "exercício",
+          "descanso",
+          "vitalidade"
+        ],
+        "nl": [
+          "beweging",
+          "rust",
+          "vitaliteit"
+        ],
+        "es": [
+          "ejercicio",
+          "descanso",
+          "vitalidad"
+        ],
+        "de": [
+          "bewegung",
+          "ruhe",
+          "vitalität"
+        ],
+        "it": [
+          "esercizio",
+          "riposo",
+          "vitalità"
+        ],
+        "ru": [
+          "движение",
+          "отдых",
+          "жизненная сила"
+        ],
+        "id": [
+          "olahraga",
+          "istirahat",
+          "vitalitas"
+        ],
+        "ja": [
+          "運動",
+          "休息",
+          "活力"
+        ],
+        "th": [
+          "การออกกำลังกาย",
+          "การพักผ่อน",
+          "พลังชีวิต"
+        ],
+        "ms": [
+          "senaman",
+          "rehat",
+          "vitaliti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4621,19 +6025,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["kindness", "mental health", "community"],
-        "tr": ["nezaket", "akıl sağlığı", "topluluk"],
-        "fr": ["bonté", "santé mentale", "communauté"],
-        "pt": ["bondade", "saúde mental", "comunidade"],
-        "nl": ["vriendelijkheid", "mentale gezondheid", "gemeenschap"],
-        "es": ["bondad", "salud mental", "comunidad"],
-        "de": ["freundlichkeit", "mentale gesundheit", "gemeinschaft"],
-        "it": ["gentilezza", "salute mentale", "comunità"],
-        "ru": ["доброта", "ментальное здоровье", "сообщество"],
-        "id": ["kebaikan", "kesehatan mental", "komunitas"],
-        "ja": ["優しさ", "メンタルヘルス", "コミュニティ"],
-        "th": ["ความเมตตา", "สุขภาพจิต", "ชุมชน"],
-        "ms": ["kebaikan", "kesihatan mental", "komuniti"]
+        "en": [
+          "kindness",
+          "mental health",
+          "community"
+        ],
+        "tr": [
+          "nezaket",
+          "akıl sağlığı",
+          "topluluk"
+        ],
+        "fr": [
+          "bonté",
+          "santé mentale",
+          "communauté"
+        ],
+        "pt": [
+          "bondade",
+          "saúde mental",
+          "comunidade"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "mentale gezondheid",
+          "gemeenschap"
+        ],
+        "es": [
+          "bondad",
+          "salud mental",
+          "comunidad"
+        ],
+        "de": [
+          "freundlichkeit",
+          "mentale gesundheit",
+          "gemeinschaft"
+        ],
+        "it": [
+          "gentilezza",
+          "salute mentale",
+          "comunità"
+        ],
+        "ru": [
+          "доброта",
+          "ментальное здоровье",
+          "сообщество"
+        ],
+        "id": [
+          "kebaikan",
+          "kesehatan mental",
+          "komunitas"
+        ],
+        "ja": [
+          "優しさ",
+          "メンタルヘルス",
+          "コミュニティ"
+        ],
+        "th": [
+          "ความเมตตา",
+          "สุขภาพจิต",
+          "ชุมชน"
+        ],
+        "ms": [
+          "kebaikan",
+          "kesihatan mental",
+          "komuniti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4738,19 +6194,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["spirituality", "mental health", "healing"],
-        "tr": ["maneviyat", "akıl sağlığı", "iyileşme"],
-        "fr": ["spiritualité", "santé mentale", "guérison"],
-        "pt": ["espiritualidade", "saúde mental", "cura"],
-        "nl": ["spiritualiteit", "mentale gezondheid", "genezing"],
-        "es": ["espiritualidad", "salud mental", "curación"],
-        "de": ["spiritualität", "mentale gesundheit", "heilung"],
-        "it": ["spiritualità", "salute mentale", "guarigione"],
-        "ru": ["духовность", "ментальное здоровье", "исцеление"],
-        "id": ["spiritualitas", "kesehatan mental", "penyembuhan"],
-        "ja": ["スピリチュアリティ", "メンタルヘルス", "癒し"],
-        "th": ["จิตวิญญาณ", "สุขภาพจิต", "การเยียวยา"],
-        "ms": ["kerohanian", "kesihatan mental", "penyembuhan"]
+        "en": [
+          "spirituality",
+          "mental health",
+          "healing"
+        ],
+        "tr": [
+          "maneviyat",
+          "akıl sağlığı",
+          "iyileşme"
+        ],
+        "fr": [
+          "spiritualité",
+          "santé mentale",
+          "guérison"
+        ],
+        "pt": [
+          "espiritualidade",
+          "saúde mental",
+          "cura"
+        ],
+        "nl": [
+          "spiritualiteit",
+          "mentale gezondheid",
+          "genezing"
+        ],
+        "es": [
+          "espiritualidad",
+          "salud mental",
+          "curación"
+        ],
+        "de": [
+          "spiritualität",
+          "mentale gesundheit",
+          "heilung"
+        ],
+        "it": [
+          "spiritualità",
+          "salute mentale",
+          "guarigione"
+        ],
+        "ru": [
+          "духовность",
+          "ментальное здоровье",
+          "исцеление"
+        ],
+        "id": [
+          "spiritualitas",
+          "kesehatan mental",
+          "penyembuhan"
+        ],
+        "ja": [
+          "スピリチュアリティ",
+          "メンタルヘルス",
+          "癒し"
+        ],
+        "th": [
+          "จิตวิญญาณ",
+          "สุขภาพจิต",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "kerohanian",
+          "kesihatan mental",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4855,19 +6363,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "mental health", "resilience"],
-        "tr": ["umut", "akıl sağlığı", "dayanıklılık"],
-        "fr": ["espoir", "santé mentale", "résilience"],
-        "pt": ["esperança", "saúde mental", "resiliência"],
-        "nl": ["hoop", "mentale gezondheid", "veerkracht"],
-        "es": ["esperanza", "salud mental", "resiliencia"],
-        "de": ["hoffnung", "mentale gesundheit", "widerstandsfähigkeit"],
-        "it": ["speranza", "salute mentale", "resilienza"],
-        "ru": ["надежда", "ментальное здоровье", "устойчивость"],
-        "id": ["harapan", "kesehatan mental", "ketahanan"],
-        "ja": ["希望", "メンタルヘルス", "レジリエンス"],
-        "th": ["ความหวัง", "สุขภาพจิต", "ความยืดหยุ่น"],
-        "ms": ["harapan", "kesihatan mental", "ketahanan"]
+        "en": [
+          "hope",
+          "mental health",
+          "resilience"
+        ],
+        "tr": [
+          "umut",
+          "akıl sağlığı",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "espoir",
+          "santé mentale",
+          "résilience"
+        ],
+        "pt": [
+          "esperança",
+          "saúde mental",
+          "resiliência"
+        ],
+        "nl": [
+          "hoop",
+          "mentale gezondheid",
+          "veerkracht"
+        ],
+        "es": [
+          "esperanza",
+          "salud mental",
+          "resiliencia"
+        ],
+        "de": [
+          "hoffnung",
+          "mentale gesundheit",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "speranza",
+          "salute mentale",
+          "resilienza"
+        ],
+        "ru": [
+          "надежда",
+          "ментальное здоровье",
+          "устойчивость"
+        ],
+        "id": [
+          "harapan",
+          "kesehatan mental",
+          "ketahanan"
+        ],
+        "ja": [
+          "希望",
+          "メンタルヘルス",
+          "レジリエンス"
+        ],
+        "th": [
+          "ความหวัง",
+          "สุขภาพจิต",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "harapan",
+          "kesihatan mental",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4938,7 +6498,7 @@
         }
       }
     },
-        {
+    {
       "id": "health_045",
       "category": "health",
       "texts": {
@@ -4972,19 +6532,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["laughter", "mental health", "well-being"],
-        "tr": ["kahkaha", "akıl sağlığı", "esenlik"],
-        "fr": ["rire", "santé mentale", "bien-être"],
-        "pt": ["riso", "saúde mental", "bem-estar"],
-        "nl": ["lachen", "mentale gezondheid", "welzijn"],
-        "es": ["risa", "salud mental", "bienestar"],
-        "de": ["lachen", "mentale gesundheit", "wohlbefinden"],
-        "it": ["risata", "salute mentale", "benessere"],
-        "ru": ["смех", "ментальное здоровье", "благополучие"],
-        "id": ["tawa", "kesehatan mental", "kesejahteraan"],
-        "ja": ["笑い", "メンタルヘルス", "幸福"],
-        "th": ["เสียงหัวเราะ", "สุขภาพจิต", "ความเป็นอยู่ที่ดี"],
-        "ms": ["ketawa", "kesihatan mental", "kesejahteraan"]
+        "en": [
+          "laughter",
+          "mental health",
+          "well-being"
+        ],
+        "tr": [
+          "kahkaha",
+          "akıl sağlığı",
+          "esenlik"
+        ],
+        "fr": [
+          "rire",
+          "santé mentale",
+          "bien-être"
+        ],
+        "pt": [
+          "riso",
+          "saúde mental",
+          "bem-estar"
+        ],
+        "nl": [
+          "lachen",
+          "mentale gezondheid",
+          "welzijn"
+        ],
+        "es": [
+          "risa",
+          "salud mental",
+          "bienestar"
+        ],
+        "de": [
+          "lachen",
+          "mentale gesundheit",
+          "wohlbefinden"
+        ],
+        "it": [
+          "risata",
+          "salute mentale",
+          "benessere"
+        ],
+        "ru": [
+          "смех",
+          "ментальное здоровье",
+          "благополучие"
+        ],
+        "id": [
+          "tawa",
+          "kesehatan mental",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "笑い",
+          "メンタルヘルス",
+          "幸福"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "สุขภาพจิต",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "ketawa",
+          "kesihatan mental",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5089,19 +6701,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gratitude", "mental health", "wellness"],
-        "tr": ["şükran", "akıl sağlığı", "esenlik"],
-        "fr": ["gratitude", "santé mentale", "bien-être"],
-        "pt": ["gratidão", "saúde mental", "bem-estar"],
-        "nl": ["dankbaarheid", "mentale gezondheid", "welzijn"],
-        "es": ["gratitud", "salud mental", "bienestar"],
-        "de": ["dankbarkeit", "mentale gesundheit", "wohlbefinden"],
-        "it": ["gratitudine", "salute mentale", "benessere"],
-        "ru": ["благодарность", "ментальное здоровье", "благополучие"],
-        "id": ["syukur", "kesehatan mental", "kesejahteraan"],
-        "ja": ["感謝", "メンタルヘルス", "ウェルネス"],
-        "th": ["ความกตัญญู", "สุขภาพจิต", "ความเป็นอยู่ที่ดี"],
-        "ms": ["kesyukuran", "kesihatan mental", "kesejahteraan"]
+        "en": [
+          "gratitude",
+          "mental health",
+          "wellness"
+        ],
+        "tr": [
+          "şükran",
+          "akıl sağlığı",
+          "esenlik"
+        ],
+        "fr": [
+          "gratitude",
+          "santé mentale",
+          "bien-être"
+        ],
+        "pt": [
+          "gratidão",
+          "saúde mental",
+          "bem-estar"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "mentale gezondheid",
+          "welzijn"
+        ],
+        "es": [
+          "gratitud",
+          "salud mental",
+          "bienestar"
+        ],
+        "de": [
+          "dankbarkeit",
+          "mentale gesundheit",
+          "wohlbefinden"
+        ],
+        "it": [
+          "gratitudine",
+          "salute mentale",
+          "benessere"
+        ],
+        "ru": [
+          "благодарность",
+          "ментальное здоровье",
+          "благополучие"
+        ],
+        "id": [
+          "syukur",
+          "kesehatan mental",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "感謝",
+          "メンタルヘルス",
+          "ウェルネス"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "สุขภาพจิต",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kesihatan mental",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5206,19 +6870,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "environment", "mental health"],
-        "tr": ["affetme", "çevre", "akıl sağlığı"],
-        "fr": ["pardon", "environnement", "santé mentale"],
-        "pt": ["perdão", "ambiente", "saúde mental"],
-        "nl": ["vergeving", "milieu", "mentale gezondheid"],
-        "es": ["perdón", "medio ambiente", "salud mental"],
-        "de": ["vergebung", "umwelt", "mentale gesundheit"],
-        "it": ["perdono", "ambiente", "salute mentale"],
-        "ru": ["прощение", "окружающая среда", "ментальное здоровье"],
-        "id": ["pengampunan", "lingkungan", "kesehatan mental"],
-        "ja": ["許し", "環境", "メンタルヘルス"],
-        "th": ["การให้อภัย", "สิ่งแวดล้อม", "สุขภาพจิต"],
-        "ms": ["pengampunan", "alam sekitar", "kesihatan mental"]
+        "en": [
+          "forgiveness",
+          "environment",
+          "mental health"
+        ],
+        "tr": [
+          "affetme",
+          "çevre",
+          "akıl sağlığı"
+        ],
+        "fr": [
+          "pardon",
+          "environnement",
+          "santé mentale"
+        ],
+        "pt": [
+          "perdão",
+          "ambiente",
+          "saúde mental"
+        ],
+        "nl": [
+          "vergeving",
+          "milieu",
+          "mentale gezondheid"
+        ],
+        "es": [
+          "perdón",
+          "medio ambiente",
+          "salud mental"
+        ],
+        "de": [
+          "vergebung",
+          "umwelt",
+          "mentale gesundheit"
+        ],
+        "it": [
+          "perdono",
+          "ambiente",
+          "salute mentale"
+        ],
+        "ru": [
+          "прощение",
+          "окружающая среда",
+          "ментальное здоровье"
+        ],
+        "id": [
+          "pengampunan",
+          "lingkungan",
+          "kesehatan mental"
+        ],
+        "ja": [
+          "許し",
+          "環境",
+          "メンタルヘルス"
+        ],
+        "th": [
+          "การให้อภัย",
+          "สิ่งแวดล้อม",
+          "สุขภาพจิต"
+        ],
+        "ms": [
+          "pengampunan",
+          "alam sekitar",
+          "kesihatan mental"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5323,19 +7039,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["nutrition", "community", "emotional health"],
-        "tr": ["beslenme", "topluluk", "duygusal sağlık"],
-        "fr": ["nutrition", "communauté", "santé émotionnelle"],
-        "pt": ["nutrição", "comunidade", "saúde emocional"],
-        "nl": ["voeding", "gemeenschap", "emotionele gezondheid"],
-        "es": ["nutrición", "comunidad", "salud emocional"],
-        "de": ["ernährung", "gemeinschaft", "emotionale gesundheit"],
-        "it": ["nutrizione", "comunità", "salute emotiva"],
-        "ru": ["питание", "сообщество", "эмоциональное здоровье"],
-        "id": ["gizi", "komunitas", "kesehatan emosional"],
-        "ja": ["栄養", "コミュニティ", "感情の健康"],
-        "th": ["โภชนาการ", "ชุมชน", "สุขภาพอารมณ์"],
-        "ms": ["pemakanan", "komuniti", "kesihatan emosi"]
+        "en": [
+          "nutrition",
+          "community",
+          "emotional health"
+        ],
+        "tr": [
+          "beslenme",
+          "topluluk",
+          "duygusal sağlık"
+        ],
+        "fr": [
+          "nutrition",
+          "communauté",
+          "santé émotionnelle"
+        ],
+        "pt": [
+          "nutrição",
+          "comunidade",
+          "saúde emocional"
+        ],
+        "nl": [
+          "voeding",
+          "gemeenschap",
+          "emotionele gezondheid"
+        ],
+        "es": [
+          "nutrición",
+          "comunidad",
+          "salud emocional"
+        ],
+        "de": [
+          "ernährung",
+          "gemeinschaft",
+          "emotionale gesundheit"
+        ],
+        "it": [
+          "nutrizione",
+          "comunità",
+          "salute emotiva"
+        ],
+        "ru": [
+          "питание",
+          "сообщество",
+          "эмоциональное здоровье"
+        ],
+        "id": [
+          "gizi",
+          "komunitas",
+          "kesehatan emosional"
+        ],
+        "ja": [
+          "栄養",
+          "コミュニティ",
+          "感情の健康"
+        ],
+        "th": [
+          "โภชนาการ",
+          "ชุมชน",
+          "สุขภาพอารมณ์"
+        ],
+        "ms": [
+          "pemakanan",
+          "komuniti",
+          "kesihatan emosi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5440,19 +7208,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["sleep", "mental health", "restoration"],
-        "tr": ["uyku", "akıl sağlığı", "yenilenme"],
-        "fr": ["sommeil", "santé mentale", "restauration"],
-        "pt": ["sono", "saúde mental", "restauração"],
-        "nl": ["slaap", "mentale gezondheid", "herstel"],
-        "es": ["sueño", "salud mental", "restauración"],
-        "de": ["schlaf", "mentale gesundheit", "erholung"],
-        "it": ["sonno", "salute mentale", "ristoro"],
-        "ru": ["сон", "ментальное здоровье", "восстановление"],
-        "id": ["tidur", "kesehatan mental", "pemulihan"],
-        "ja": ["睡眠", "メンタルヘルス", "回復"],
-        "th": ["การนอนหลับ", "สุขภาพจิต", "การฟื้นฟู"],
-        "ms": ["tidur", "kesihatan mental", "pemulihan"]
+        "en": [
+          "sleep",
+          "mental health",
+          "restoration"
+        ],
+        "tr": [
+          "uyku",
+          "akıl sağlığı",
+          "yenilenme"
+        ],
+        "fr": [
+          "sommeil",
+          "santé mentale",
+          "restauration"
+        ],
+        "pt": [
+          "sono",
+          "saúde mental",
+          "restauração"
+        ],
+        "nl": [
+          "slaap",
+          "mentale gezondheid",
+          "herstel"
+        ],
+        "es": [
+          "sueño",
+          "salud mental",
+          "restauración"
+        ],
+        "de": [
+          "schlaf",
+          "mentale gesundheit",
+          "erholung"
+        ],
+        "it": [
+          "sonno",
+          "salute mentale",
+          "ristoro"
+        ],
+        "ru": [
+          "сон",
+          "ментальное здоровье",
+          "восстановление"
+        ],
+        "id": [
+          "tidur",
+          "kesehatan mental",
+          "pemulihan"
+        ],
+        "ja": [
+          "睡眠",
+          "メンタルヘルス",
+          "回復"
+        ],
+        "th": [
+          "การนอนหลับ",
+          "สุขภาพจิต",
+          "การฟื้นฟู"
+        ],
+        "ms": [
+          "tidur",
+          "kesihatan mental",
+          "pemulihan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5557,19 +7377,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["breathing", "mental health", "calmness"],
-        "tr": ["nefes alma", "akıl sağlığı", "sakinlik"],
-        "fr": ["respiration", "santé mentale", "calme"],
-        "pt": ["respiração", "saúde mental", "calma"],
-        "nl": ["ademhaling", "mentale gezondheid", "kalmte"],
-        "es": ["respiración", "salud mental", "calma"],
-        "de": ["atmung", "mentale gesundheit", "ruhe"],
-        "it": ["respirazione", "salute mentale", "calma"],
-        "ru": ["дыхание", "ментальное здоровье", "спокойствие"],
-        "id": ["pernapasan", "kesehatan mental", "ketenangan"],
-        "ja": ["呼吸", "メンタルヘルス", "平静"],
-        "th": ["การหายใจ", "สุขภาพจิต", "ความสงบ"],
-        "ms": ["pernafasan", "kesihatan mental", "ketenangan"]
+        "en": [
+          "breathing",
+          "mental health",
+          "calmness"
+        ],
+        "tr": [
+          "nefes alma",
+          "akıl sağlığı",
+          "sakinlik"
+        ],
+        "fr": [
+          "respiration",
+          "santé mentale",
+          "calme"
+        ],
+        "pt": [
+          "respiração",
+          "saúde mental",
+          "calma"
+        ],
+        "nl": [
+          "ademhaling",
+          "mentale gezondheid",
+          "kalmte"
+        ],
+        "es": [
+          "respiración",
+          "salud mental",
+          "calma"
+        ],
+        "de": [
+          "atmung",
+          "mentale gesundheit",
+          "ruhe"
+        ],
+        "it": [
+          "respirazione",
+          "salute mentale",
+          "calma"
+        ],
+        "ru": [
+          "дыхание",
+          "ментальное здоровье",
+          "спокойствие"
+        ],
+        "id": [
+          "pernapasan",
+          "kesehatan mental",
+          "ketenangan"
+        ],
+        "ja": [
+          "呼吸",
+          "メンタルヘルス",
+          "平静"
+        ],
+        "th": [
+          "การหายใจ",
+          "สุขภาพจิต",
+          "ความสงบ"
+        ],
+        "ms": [
+          "pernafasan",
+          "kesihatan mental",
+          "ketenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5674,19 +7546,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["nature", "healing", "spiritual health"],
-        "tr": ["doğa", "iyileşme", "manevi sağlık"],
-        "fr": ["nature", "guérison", "santé spirituelle"],
-        "pt": ["natureza", "cura", "saúde espiritual"],
-        "nl": ["natuur", "genezing", "spirituele gezondheid"],
-        "es": ["naturaleza", "curación", "salud espiritual"],
-        "de": ["natur", "heilung", "spirituelle gesundheit"],
-        "it": ["natura", "guarigione", "salute spirituale"],
-        "ru": ["природа", "исцеление", "духовное здоровье"],
-        "id": ["alam", "penyembuhan", "kesehatan spiritual"],
-        "ja": ["自然", "癒し", "スピリチュアルな健康"],
-        "th": ["ธรรมชาติ", "การเยียวยา", "สุขภาพจิตวิญญาณ"],
-        "ms": ["alam semula jadi", "penyembuhan", "kesihatan rohani"]
+        "en": [
+          "nature",
+          "healing",
+          "spiritual health"
+        ],
+        "tr": [
+          "doğa",
+          "iyileşme",
+          "manevi sağlık"
+        ],
+        "fr": [
+          "nature",
+          "guérison",
+          "santé spirituelle"
+        ],
+        "pt": [
+          "natureza",
+          "cura",
+          "saúde espiritual"
+        ],
+        "nl": [
+          "natuur",
+          "genezing",
+          "spirituele gezondheid"
+        ],
+        "es": [
+          "naturaleza",
+          "curación",
+          "salud espiritual"
+        ],
+        "de": [
+          "natur",
+          "heilung",
+          "spirituelle gesundheit"
+        ],
+        "it": [
+          "natura",
+          "guarigione",
+          "salute spirituale"
+        ],
+        "ru": [
+          "природа",
+          "исцеление",
+          "духовное здоровье"
+        ],
+        "id": [
+          "alam",
+          "penyembuhan",
+          "kesehatan spiritual"
+        ],
+        "ja": [
+          "自然",
+          "癒し",
+          "スピリチュアルな健康"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "การเยียวยา",
+          "สุขภาพจิตวิญญาณ"
+        ],
+        "ms": [
+          "alam semula jadi",
+          "penyembuhan",
+          "kesihatan rohani"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5791,19 +7715,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["intuition", "healing", "self-awareness"],
-        "tr": ["sezgi", "iyileşme", "öz farkındalık"],
-        "fr": ["intuition", "guérison", "conscience de soi"],
-        "pt": ["intuição", "cura", "autoconhecimento"],
-        "nl": ["intuïtie", "genezing", "zelfbewustzijn"],
-        "es": ["intuición", "curación", "autoconciencia"],
-        "de": ["intuition", "heilung", "selbstbewusstsein"],
-        "it": ["intuizione", "guarigione", "consapevolezza di sé"],
-        "ru": ["интуиция", "исцеление", "самосознание"],
-        "id": ["intuisi", "penyembuhan", "kesadaran diri"],
-        "ja": ["直感", "癒し", "自己認識"],
-        "th": ["สัญชาตญาณ", "การเยียวยา", "การตระหนักรู้ในตนเอง"],
-        "ms": ["intuisi", "penyembuhan", "kesedaran diri"]
+        "en": [
+          "intuition",
+          "healing",
+          "self-awareness"
+        ],
+        "tr": [
+          "sezgi",
+          "iyileşme",
+          "öz farkındalık"
+        ],
+        "fr": [
+          "intuition",
+          "guérison",
+          "conscience de soi"
+        ],
+        "pt": [
+          "intuição",
+          "cura",
+          "autoconhecimento"
+        ],
+        "nl": [
+          "intuïtie",
+          "genezing",
+          "zelfbewustzijn"
+        ],
+        "es": [
+          "intuición",
+          "curación",
+          "autoconciencia"
+        ],
+        "de": [
+          "intuition",
+          "heilung",
+          "selbstbewusstsein"
+        ],
+        "it": [
+          "intuizione",
+          "guarigione",
+          "consapevolezza di sé"
+        ],
+        "ru": [
+          "интуиция",
+          "исцеление",
+          "самосознание"
+        ],
+        "id": [
+          "intuisi",
+          "penyembuhan",
+          "kesadaran diri"
+        ],
+        "ja": [
+          "直感",
+          "癒し",
+          "自己認識"
+        ],
+        "th": [
+          "สัญชาตญาณ",
+          "การเยียวยา",
+          "การตระหนักรู้ในตนเอง"
+        ],
+        "ms": [
+          "intuisi",
+          "penyembuhan",
+          "kesedaran diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5908,19 +7884,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["touch", "healing", "emotional health"],
-        "tr": ["dokunma", "iyileşme", "duygusal sağlık"],
-        "fr": ["toucher", "guérison", "santé émotionnelle"],
-        "pt": ["toque", "cura", "saúde emocional"],
-        "nl": ["aanraking", "genezing", "emotionele gezondheid"],
-        "es": ["tacto", "curación", "salud emocional"],
-        "de": ["berührung", "heilung", "emotionale gesundheit"],
-        "it": ["tatto", "guarigione", "salute emotiva"],
-        "ru": ["прикосновение", "исцеление", "эмоциональное здоровье"],
-        "id": ["sentuhan", "penyembuhan", "kesehatan emosional"],
-        "ja": ["タッチ", "癒し", "感情の健康"],
-        "th": ["การสัมผัส", "การเยียวยา", "สุขภาพอารมณ์"],
-        "ms": ["sentuhan", "penyembuhan", "kesihatan emosi"]
+        "en": [
+          "touch",
+          "healing",
+          "emotional health"
+        ],
+        "tr": [
+          "dokunma",
+          "iyileşme",
+          "duygusal sağlık"
+        ],
+        "fr": [
+          "toucher",
+          "guérison",
+          "santé émotionnelle"
+        ],
+        "pt": [
+          "toque",
+          "cura",
+          "saúde emocional"
+        ],
+        "nl": [
+          "aanraking",
+          "genezing",
+          "emotionele gezondheid"
+        ],
+        "es": [
+          "tacto",
+          "curación",
+          "salud emocional"
+        ],
+        "de": [
+          "berührung",
+          "heilung",
+          "emotionale gesundheit"
+        ],
+        "it": [
+          "tatto",
+          "guarigione",
+          "salute emotiva"
+        ],
+        "ru": [
+          "прикосновение",
+          "исцеление",
+          "эмоциональное здоровье"
+        ],
+        "id": [
+          "sentuhan",
+          "penyembuhan",
+          "kesehatan emosional"
+        ],
+        "ja": [
+          "タッチ",
+          "癒し",
+          "感情の健康"
+        ],
+        "th": [
+          "การสัมผัส",
+          "การเยียวยา",
+          "สุขภาพอารมณ์"
+        ],
+        "ms": [
+          "sentuhan",
+          "penyembuhan",
+          "kesihatan emosi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6025,19 +8053,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "emotional health", "strength"],
-        "tr": ["sevgi", "duygusal sağlık", "güç"],
-        "fr": ["amour", "santé émotionnelle", "force"],
-        "pt": ["amor", "saúde emocional", "força"],
-        "nl": ["liefde", "emotionele gezondheid", "kracht"],
-        "es": ["amor", "salud emocional", "fuerza"],
-        "de": ["liebe", "emotionale gesundheit", "stärke"],
-        "it": ["amore", "salute emotiva", "forza"],
-        "ru": ["любовь", "эмоциональное здоровье", "сила"],
-        "id": ["cinta", "kesehatan emosional", "kekuatan"],
-        "ja": ["愛", "感情の健康", "強さ"],
-        "th": ["ความรัก", "สุขภาพอารมณ์", "ความแข็งแกร่ง"],
-        "ms": ["cinta", "kesihatan emosi", "kekuatan"]
+        "en": [
+          "love",
+          "emotional health",
+          "strength"
+        ],
+        "tr": [
+          "sevgi",
+          "duygusal sağlık",
+          "güç"
+        ],
+        "fr": [
+          "amour",
+          "santé émotionnelle",
+          "force"
+        ],
+        "pt": [
+          "amor",
+          "saúde emocional",
+          "força"
+        ],
+        "nl": [
+          "liefde",
+          "emotionele gezondheid",
+          "kracht"
+        ],
+        "es": [
+          "amor",
+          "salud emocional",
+          "fuerza"
+        ],
+        "de": [
+          "liebe",
+          "emotionale gesundheit",
+          "stärke"
+        ],
+        "it": [
+          "amore",
+          "salute emotiva",
+          "forza"
+        ],
+        "ru": [
+          "любовь",
+          "эмоциональное здоровье",
+          "сила"
+        ],
+        "id": [
+          "cinta",
+          "kesehatan emosional",
+          "kekuatan"
+        ],
+        "ja": [
+          "愛",
+          "感情の健康",
+          "強さ"
+        ],
+        "th": [
+          "ความรัก",
+          "สุขภาพอารมณ์",
+          "ความแข็งแกร่ง"
+        ],
+        "ms": [
+          "cinta",
+          "kesihatan emosi",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6142,19 +8222,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["mindfulness", "mental health", "healing"],
-        "tr": ["farkındalık", "akıl sağlığı", "iyileşme"],
-        "fr": ["pleine conscience", "santé mentale", "guérison"],
-        "pt": ["consciência plena", "saúde mental", "cura"],
-        "nl": ["mindfulness", "mentale gezondheid", "genezing"],
-        "es": ["conciencia plena", "salud mental", "curación"],
-        "de": ["achtsamkeit", "mentale gesundheit", "heilung"],
-        "it": ["consapevolezza", "salute mentale", "guarigione"],
-        "ru": ["осознанность", "ментальное здоровье", "исцеление"],
-        "id": ["kesadaran penuh", "kesehatan mental", "penyembuhan"],
-        "ja": ["マインドフルネス", "メンタルヘルス", "癒し"],
-        "th": ["สติ", "สุขภาพจิต", "การเยียวยา"],
-        "ms": ["kesedaran penuh", "kesihatan mental", "penyembuhan"]
+        "en": [
+          "mindfulness",
+          "mental health",
+          "healing"
+        ],
+        "tr": [
+          "farkındalık",
+          "akıl sağlığı",
+          "iyileşme"
+        ],
+        "fr": [
+          "pleine conscience",
+          "santé mentale",
+          "guérison"
+        ],
+        "pt": [
+          "consciência plena",
+          "saúde mental",
+          "cura"
+        ],
+        "nl": [
+          "mindfulness",
+          "mentale gezondheid",
+          "genezing"
+        ],
+        "es": [
+          "conciencia plena",
+          "salud mental",
+          "curación"
+        ],
+        "de": [
+          "achtsamkeit",
+          "mentale gesundheit",
+          "heilung"
+        ],
+        "it": [
+          "consapevolezza",
+          "salute mentale",
+          "guarigione"
+        ],
+        "ru": [
+          "осознанность",
+          "ментальное здоровье",
+          "исцеление"
+        ],
+        "id": [
+          "kesadaran penuh",
+          "kesehatan mental",
+          "penyembuhan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "メンタルヘルス",
+          "癒し"
+        ],
+        "th": [
+          "สติ",
+          "สุขภาพจิต",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "kesedaran penuh",
+          "kesihatan mental",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6259,19 +8391,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["movement", "joy", "physical health"],
-        "tr": ["hareket", "neşe", "fiziksel sağlık"],
-        "fr": ["mouvement", "joie", "santé physique"],
-        "pt": ["movimento", "alegria", "saúde física"],
-        "nl": ["beweging", "vreugde", "fysieke gezondheid"],
-        "es": ["movimiento", "alegría", "salud física"],
-        "de": ["bewegung", "freude", "körperliche gesundheit"],
-        "it": ["movimento", "gioia", "salute fisica"],
-        "ru": ["движение", "радость", "физическое здоровье"],
-        "id": ["gerakan", "kegembiraan", "kesehatan fisik"],
-        "ja": ["運動", "喜び", "身体の健康"],
-        "th": ["การเคลื่อนไหว", "ความสุข", "สุขภาพกาย"],
-        "ms": ["pergerakan", "kegembiraan", "kesihatan fizikal"]
+        "en": [
+          "movement",
+          "joy",
+          "physical health"
+        ],
+        "tr": [
+          "hareket",
+          "neşe",
+          "fiziksel sağlık"
+        ],
+        "fr": [
+          "mouvement",
+          "joie",
+          "santé physique"
+        ],
+        "pt": [
+          "movimento",
+          "alegria",
+          "saúde física"
+        ],
+        "nl": [
+          "beweging",
+          "vreugde",
+          "fysieke gezondheid"
+        ],
+        "es": [
+          "movimiento",
+          "alegría",
+          "salud física"
+        ],
+        "de": [
+          "bewegung",
+          "freude",
+          "körperliche gesundheit"
+        ],
+        "it": [
+          "movimento",
+          "gioia",
+          "salute fisica"
+        ],
+        "ru": [
+          "движение",
+          "радость",
+          "физическое здоровье"
+        ],
+        "id": [
+          "gerakan",
+          "kegembiraan",
+          "kesehatan fisik"
+        ],
+        "ja": [
+          "運動",
+          "喜び",
+          "身体の健康"
+        ],
+        "th": [
+          "การเคลื่อนไหว",
+          "ความสุข",
+          "สุขภาพกาย"
+        ],
+        "ms": [
+          "pergerakan",
+          "kegembiraan",
+          "kesihatan fizikal"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6376,19 +8560,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["nutrition", "balance", "spiritual health"],
-        "tr": ["beslenme", "denge", "manevi sağlık"],
-        "fr": ["nutrition", "équilibre", "santé spirituelle"],
-        "pt": ["nutrição", "equilíbrio", "saúde espiritual"],
-        "nl": ["voeding", "balans", "spirituele gezondheid"],
-        "es": ["nutrición", "equilibrio", "salud espiritual"],
-        "de": ["ernährung", "gleichgewicht", "spirituelle gesundheit"],
-        "it": ["nutrizione", "equilibrio", "salute spirituale"],
-        "ru": ["питание", "баланс", "духовное здоровье"],
-        "id": ["gizi", "keseimbangan", "kesehatan spiritual"],
-        "ja": ["栄養", "バランス", "スピリチュアルな健康"],
-        "th": ["โภชนาการ", "ความสมดุล", "สุขภาพจิตวิญญาณ"],
-        "ms": ["pemakanan", "keseimbangan", "kesihatan rohani"]
+        "en": [
+          "nutrition",
+          "balance",
+          "spiritual health"
+        ],
+        "tr": [
+          "beslenme",
+          "denge",
+          "manevi sağlık"
+        ],
+        "fr": [
+          "nutrition",
+          "équilibre",
+          "santé spirituelle"
+        ],
+        "pt": [
+          "nutrição",
+          "equilíbrio",
+          "saúde espiritual"
+        ],
+        "nl": [
+          "voeding",
+          "balans",
+          "spirituele gezondheid"
+        ],
+        "es": [
+          "nutrición",
+          "equilibrio",
+          "salud espiritual"
+        ],
+        "de": [
+          "ernährung",
+          "gleichgewicht",
+          "spirituelle gesundheit"
+        ],
+        "it": [
+          "nutrizione",
+          "equilibrio",
+          "salute spirituale"
+        ],
+        "ru": [
+          "питание",
+          "баланс",
+          "духовное здоровье"
+        ],
+        "id": [
+          "gizi",
+          "keseimbangan",
+          "kesehatan spiritual"
+        ],
+        "ja": [
+          "栄養",
+          "バランス",
+          "スピリチュアルな健康"
+        ],
+        "th": [
+          "โภชนาการ",
+          "ความสมดุล",
+          "สุขภาพจิตวิญญาณ"
+        ],
+        "ms": [
+          "pemakanan",
+          "keseimbangan",
+          "kesihatan rohani"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6493,19 +8729,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "resilience", "mental health"],
-        "tr": ["umut", "direnç", "akıl sağlığı"],
-        "fr": ["espoir", "résilience", "santé mentale"],
-        "pt": ["esperança", "resiliência", "saúde mental"],
-        "nl": ["hoop", "veerkracht", "mentale gezondheid"],
-        "es": ["esperanza", "resiliencia", "salud mental"],
-        "de": ["hoffnung", "resilienz", "mentale gesundheit"],
-        "it": ["speranza", "resilienza", "salute mentale"],
-        "ru": ["надежда", "устойчивость", "ментальное здоровье"],
-        "id": ["harapan", "ketahanan", "kesehatan mental"],
-        "ja": ["希望", "レジリエンス", "メンタルヘルス"],
-        "th": ["ความหวัง", "ความยืดหยุ่น", "สุขภาพจิต"],
-        "ms": ["harapan", "ketahanan", "kesihatan mental"]
+        "en": [
+          "hope",
+          "resilience",
+          "mental health"
+        ],
+        "tr": [
+          "umut",
+          "direnç",
+          "akıl sağlığı"
+        ],
+        "fr": [
+          "espoir",
+          "résilience",
+          "santé mentale"
+        ],
+        "pt": [
+          "esperança",
+          "resiliência",
+          "saúde mental"
+        ],
+        "nl": [
+          "hoop",
+          "veerkracht",
+          "mentale gezondheid"
+        ],
+        "es": [
+          "esperanza",
+          "resiliencia",
+          "salud mental"
+        ],
+        "de": [
+          "hoffnung",
+          "resilienz",
+          "mentale gesundheit"
+        ],
+        "it": [
+          "speranza",
+          "resilienza",
+          "salute mentale"
+        ],
+        "ru": [
+          "надежда",
+          "устойчивость",
+          "ментальное здоровье"
+        ],
+        "id": [
+          "harapan",
+          "ketahanan",
+          "kesehatan mental"
+        ],
+        "ja": [
+          "希望",
+          "レジリエンス",
+          "メンタルヘルス"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความยืดหยุ่น",
+          "สุขภาพจิต"
+        ],
+        "ms": [
+          "harapan",
+          "ketahanan",
+          "kesihatan mental"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6610,19 +8898,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["purpose", "well-being", "motivation"],
-        "tr": ["amaç", "esenlik", "motivasyon"],
-        "fr": ["but", "bien-être", "motivation"],
-        "pt": ["propósito", "bem-estar", "motivação"],
-        "nl": ["doel", "welzijn", "motivatie"],
-        "es": ["propósito", "bienestar", "motivación"],
-        "de": ["ziel", "wohlbefinden", "motivation"],
-        "it": ["scopo", "benessere", "motivazione"],
-        "ru": ["цель", "благополучие", "мотивация"],
-        "id": ["tujuan", "kesejahteraan", "motivasi"],
-        "ja": ["目的", "幸福", "動機"],
-        "th": ["เป้าหมาย", "ความเป็นอยู่ที่ดี", "แรงจูงใจ"],
-        "ms": ["tujuan", "kesejahteraan", "motivasi"]
+        "en": [
+          "purpose",
+          "well-being",
+          "motivation"
+        ],
+        "tr": [
+          "amaç",
+          "esenlik",
+          "motivasyon"
+        ],
+        "fr": [
+          "but",
+          "bien-être",
+          "motivation"
+        ],
+        "pt": [
+          "propósito",
+          "bem-estar",
+          "motivação"
+        ],
+        "nl": [
+          "doel",
+          "welzijn",
+          "motivatie"
+        ],
+        "es": [
+          "propósito",
+          "bienestar",
+          "motivación"
+        ],
+        "de": [
+          "ziel",
+          "wohlbefinden",
+          "motivation"
+        ],
+        "it": [
+          "scopo",
+          "benessere",
+          "motivazione"
+        ],
+        "ru": [
+          "цель",
+          "благополучие",
+          "мотивация"
+        ],
+        "id": [
+          "tujuan",
+          "kesejahteraan",
+          "motivasi"
+        ],
+        "ja": [
+          "目的",
+          "幸福",
+          "動機"
+        ],
+        "th": [
+          "เป้าหมาย",
+          "ความเป็นอยู่ที่ดี",
+          "แรงจูงใจ"
+        ],
+        "ms": [
+          "tujuan",
+          "kesejahteraan",
+          "motivasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6727,19 +9067,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["community", "well-being", "connection"],
-        "tr": ["topluluk", "esenlik", "bağlantı"],
-        "fr": ["communauté", "bien-être", "connexion"],
-        "pt": ["comunidade", "bem-estar", "conexão"],
-        "nl": ["gemeenschap", "welzijn", "verbinding"],
-        "es": ["comunidad", "bienestar", "conexión"],
-        "de": ["gemeinschaft", "wohlbefinden", "verbindung"],
-        "it": ["comunità", "benessere", "connessione"],
-        "ru": ["сообщество", "благополучие", "связь"],
-        "id": ["komunitas", "kesejahteraan", "koneksi"],
-        "ja": ["コミュニティ", "幸福", "つながり"],
-        "th": ["ชุมชน", "ความเป็นอยู่ที่ดี", "การเชื่อมต่อ"],
-        "ms": ["komuniti", "kesejahteraan", "hubungan"]
+        "en": [
+          "community",
+          "well-being",
+          "connection"
+        ],
+        "tr": [
+          "topluluk",
+          "esenlik",
+          "bağlantı"
+        ],
+        "fr": [
+          "communauté",
+          "bien-être",
+          "connexion"
+        ],
+        "pt": [
+          "comunidade",
+          "bem-estar",
+          "conexão"
+        ],
+        "nl": [
+          "gemeenschap",
+          "welzijn",
+          "verbinding"
+        ],
+        "es": [
+          "comunidad",
+          "bienestar",
+          "conexión"
+        ],
+        "de": [
+          "gemeinschaft",
+          "wohlbefinden",
+          "verbindung"
+        ],
+        "it": [
+          "comunità",
+          "benessere",
+          "connessione"
+        ],
+        "ru": [
+          "сообщество",
+          "благополучие",
+          "связь"
+        ],
+        "id": [
+          "komunitas",
+          "kesejahteraan",
+          "koneksi"
+        ],
+        "ja": [
+          "コミュニティ",
+          "幸福",
+          "つながり"
+        ],
+        "th": [
+          "ชุมชน",
+          "ความเป็นอยู่ที่ดี",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "komuniti",
+          "kesejahteraan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6844,19 +9236,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["sleep", "restoration", "health"],
-        "tr": ["uyku", "yenilenme", "sağlık"],
-        "fr": ["sommeil", "restauration", "santé"],
-        "pt": ["sono", "restauração", "saúde"],
-        "nl": ["slaap", "herstel", "gezondheid"],
-        "es": ["sueño", "restauración", "salud"],
-        "de": ["schlaf", "wiederherstellung", "gesundheit"],
-        "it": ["sonno", "ristoro", "salute"],
-        "ru": ["сон", "восстановление", "здоровье"],
-        "id": ["tidur", "pemulihan", "kesehatan"],
-        "ja": ["睡眠", "修復", "健康"],
-        "th": ["การนอนหลับ", "การฟื้นฟู", "สุขภาพ"],
-        "ms": ["tidur", "pemulihan", "kesihatan"]
+        "en": [
+          "sleep",
+          "restoration",
+          "health"
+        ],
+        "tr": [
+          "uyku",
+          "yenilenme",
+          "sağlık"
+        ],
+        "fr": [
+          "sommeil",
+          "restauration",
+          "santé"
+        ],
+        "pt": [
+          "sono",
+          "restauração",
+          "saúde"
+        ],
+        "nl": [
+          "slaap",
+          "herstel",
+          "gezondheid"
+        ],
+        "es": [
+          "sueño",
+          "restauración",
+          "salud"
+        ],
+        "de": [
+          "schlaf",
+          "wiederherstellung",
+          "gesundheit"
+        ],
+        "it": [
+          "sonno",
+          "ristoro",
+          "salute"
+        ],
+        "ru": [
+          "сон",
+          "восстановление",
+          "здоровье"
+        ],
+        "id": [
+          "tidur",
+          "pemulihan",
+          "kesehatan"
+        ],
+        "ja": [
+          "睡眠",
+          "修復",
+          "健康"
+        ],
+        "th": [
+          "การนอนหลับ",
+          "การฟื้นฟู",
+          "สุขภาพ"
+        ],
+        "ms": [
+          "tidur",
+          "pemulihan",
+          "kesihatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6961,19 +9405,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gratitude", "mental health", "well-being"],
-        "tr": ["minnettarlık", "akıl sağlığı", "esenlik"],
-        "fr": ["gratitude", "santé mentale", "bien-être"],
-        "pt": ["gratidão", "saúde mental", "bem-estar"],
-        "nl": ["dankbaarheid", "mentale gezondheid", "welzijn"],
-        "es": ["gratitud", "salud mental", "bienestar"],
-        "de": ["dankbarkeit", "mentale gesundheit", "wohlbefinden"],
-        "it": ["gratitudine", "salute mentale", "benessere"],
-        "ru": ["благодарность", "ментальное здоровье", "благополучие"],
-        "id": ["rasa syukur", "kesehatan mental", "kesejahteraan"],
-        "ja": ["感謝", "メンタルヘルス", "幸福"],
-        "th": ["ความกตัญญู", "สุขภาพจิต", "ความเป็นอยู่ที่ดี"],
-        "ms": ["kesyukuran", "kesihatan mental", "kesejahteraan"]
+        "en": [
+          "gratitude",
+          "mental health",
+          "well-being"
+        ],
+        "tr": [
+          "minnettarlık",
+          "akıl sağlığı",
+          "esenlik"
+        ],
+        "fr": [
+          "gratitude",
+          "santé mentale",
+          "bien-être"
+        ],
+        "pt": [
+          "gratidão",
+          "saúde mental",
+          "bem-estar"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "mentale gezondheid",
+          "welzijn"
+        ],
+        "es": [
+          "gratitud",
+          "salud mental",
+          "bienestar"
+        ],
+        "de": [
+          "dankbarkeit",
+          "mentale gesundheit",
+          "wohlbefinden"
+        ],
+        "it": [
+          "gratitudine",
+          "salute mentale",
+          "benessere"
+        ],
+        "ru": [
+          "благодарность",
+          "ментальное здоровье",
+          "благополучие"
+        ],
+        "id": [
+          "rasa syukur",
+          "kesehatan mental",
+          "kesejahteraan"
+        ],
+        "ja": [
+          "感謝",
+          "メンタルヘルス",
+          "幸福"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "สุขภาพจิต",
+          "ความเป็นอยู่ที่ดี"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kesihatan mental",
+          "kesejahteraan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7078,19 +9574,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["laughter", "emotional health", "healing"],
-        "tr": ["kahkaha", "duygusal sağlık", "iyileşme"],
-        "fr": ["rire", "santé émotionnelle", "guérison"],
-        "pt": ["riso", "saúde emocional", "cura"],
-        "nl": ["lachen", "emotionele gezondheid", "genezing"],
-        "es": ["risa", "salud emocional", "curación"],
-        "de": ["lachen", "emotionale gesundheit", "heilung"],
-        "it": ["risata", "salute emotiva", "guarigione"],
-        "ru": ["смех", "эмоциональное здоровье", "исцеление"],
-        "id": ["tawa", "kesehatan emosional", "penyembuhan"],
-        "ja": ["笑い", "感情の健康", "癒し"],
-        "th": ["เสียงหัวเราะ", "สุขภาพอารมณ์", "การเยียวยา"],
-        "ms": ["ketawa", "kesihatan emosi", "penyembuhan"]
+        "en": [
+          "laughter",
+          "emotional health",
+          "healing"
+        ],
+        "tr": [
+          "kahkaha",
+          "duygusal sağlık",
+          "iyileşme"
+        ],
+        "fr": [
+          "rire",
+          "santé émotionnelle",
+          "guérison"
+        ],
+        "pt": [
+          "riso",
+          "saúde emocional",
+          "cura"
+        ],
+        "nl": [
+          "lachen",
+          "emotionele gezondheid",
+          "genezing"
+        ],
+        "es": [
+          "risa",
+          "salud emocional",
+          "curación"
+        ],
+        "de": [
+          "lachen",
+          "emotionale gesundheit",
+          "heilung"
+        ],
+        "it": [
+          "risata",
+          "salute emotiva",
+          "guarigione"
+        ],
+        "ru": [
+          "смех",
+          "эмоциональное здоровье",
+          "исцеление"
+        ],
+        "id": [
+          "tawa",
+          "kesehatan emosional",
+          "penyembuhan"
+        ],
+        "ja": [
+          "笑い",
+          "感情の健康",
+          "癒し"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "สุขภาพอารมณ์",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "ketawa",
+          "kesihatan emosi",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7195,19 +9743,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "resilience", "heart health"],
-        "tr": ["cesaret", "direnç", "kalp sağlığı"],
-        "fr": ["courage", "résilience", "santé cardiaque"],
-        "pt": ["coragem", "resiliência", "saúde cardíaca"],
-        "nl": ["moed", "veerkracht", "hartgezondheid"],
-        "es": ["coraje", "resiliencia", "salud cardíaca"],
-        "de": ["mut", "resilienz", "herzgesundheit"],
-        "it": ["coraggio", "resilienza", "salute cardiaca"],
-        "ru": ["смелость", "устойчивость", "здоровье сердца"],
-        "id": ["keberanian", "ketahanan", "kesehatan jantung"],
-        "ja": ["勇気", "レジリエンス", "心臓の健康"],
-        "th": ["ความกล้าหาญ", "ความยืดหยุ่น", "สุขภาพหัวใจ"],
-        "ms": ["keberanian", "ketahanan", "kesihatan jantung"]
+        "en": [
+          "courage",
+          "resilience",
+          "heart health"
+        ],
+        "tr": [
+          "cesaret",
+          "direnç",
+          "kalp sağlığı"
+        ],
+        "fr": [
+          "courage",
+          "résilience",
+          "santé cardiaque"
+        ],
+        "pt": [
+          "coragem",
+          "resiliência",
+          "saúde cardíaca"
+        ],
+        "nl": [
+          "moed",
+          "veerkracht",
+          "hartgezondheid"
+        ],
+        "es": [
+          "coraje",
+          "resiliencia",
+          "salud cardíaca"
+        ],
+        "de": [
+          "mut",
+          "resilienz",
+          "herzgesundheit"
+        ],
+        "it": [
+          "coraggio",
+          "resilienza",
+          "salute cardiaca"
+        ],
+        "ru": [
+          "смелость",
+          "устойчивость",
+          "здоровье сердца"
+        ],
+        "id": [
+          "keberanian",
+          "ketahanan",
+          "kesehatan jantung"
+        ],
+        "ja": [
+          "勇気",
+          "レジリエンス",
+          "心臓の健康"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ความยืดหยุ่น",
+          "สุขภาพหัวใจ"
+        ],
+        "ms": [
+          "keberanian",
+          "ketahanan",
+          "kesihatan jantung"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8298,7 +10898,7 @@
         }
       }
     },
-       {
+    {
       "id": "health_075",
       "type": "affirmation",
       "texts": {
@@ -8345,8 +10945,8 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_076",
       "type": "affirmation",
       "texts": {
@@ -8393,24 +10993,24 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_077",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Health into my life.",
-        "tr": "Hayatıma Sağlık enerjisini alıyorum.",
-        "fr": "J'accueille Health dans ma vie.",
-        "pt": "Eu acolho Health na minha vida.",
-        "nl": "Ik verwelkom Health in mijn leven.",
-        "es": "Doy la bienvenida a Health en mi vida.",
-        "de": "Ich heiße Health in meinem Leben willkommen.",
-        "it": "Accolgo Health nella mia vita.",
-        "ru": "Я принимаю Health в свою жизнь.",
-        "id": "Saya menyambut Health dalam hidup saya.",
-        "ja": "私はHealthを人生に迎え入れます。",
-        "th": "ฉันต้อนรับHealthเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Health dalam hidup saya."
+        "en": "I make room for health without rushing.",
+        "tr": "sağlık için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à health sans me presser.",
+        "pt": "Abro espaço para health sem pressa.",
+        "nl": "Ik maak ruimte voor health zonder te haasten.",
+        "es": "Hago espacio para health sin prisa.",
+        "de": "Ich mache Platz für health, ohne zu hetzen.",
+        "it": "Faccio spazio a health senza fretta.",
+        "ru": "Я даю место health без спешки.",
+        "id": "Aku memberi ruang bagi health tanpa terburu-buru.",
+        "ja": "焦らずにhealthのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้healthโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk health tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -8437,24 +11037,24 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_078",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Health.",
-        "tr": "Kalbim Sağlık için açık.",
-        "fr": "Mon cœur est ouvert à Health.",
-        "pt": "Meu coração está aberto para Health.",
-        "nl": "Mijn hart staat open voor Health.",
-        "es": "Mi corazón está abierto a Health.",
-        "de": "Mein Herz ist offen für Health.",
-        "it": "Il mio cuore è aperto a Health.",
-        "ru": "Моё сердце открыто для Health.",
-        "id": "Hati saya terbuka untuk Health.",
-        "ja": "私の心はHealthに開かれています。",
-        "th": "หัวใจของฉันเปิดรับHealth",
-        "ms": "Hati saya terbuka untuk Health."
+        "en": "I stay open to health in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde sağlık için açık kalıyorum.",
+        "fr": "Je reste ouvert à health d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a health de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor health op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a health de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für health auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a health in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к health так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada health dengan cara yang terasa aman.",
+        "ja": "安心できる形でhealthに心を開き続けます。",
+        "th": "ฉันเปิดใจให้healthในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap health dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8481,24 +11081,24 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_079",
       "type": "affirmation",
       "texts": {
-        "en": "Health grows within me each day.",
-        "tr": "Sağlık her gün içimde büyüyor.",
-        "fr": "Health grandit en moi chaque jour.",
-        "pt": "Health cresce dentro de mim todos os dias.",
-        "nl": "Health groeit elke dag in mij.",
-        "es": "Health crece dentro de mí cada día.",
-        "de": "Health wächst jeden Tag in mir.",
-        "it": "Health cresce in me ogni giorno.",
-        "ru": "Health растёт во мне каждый день.",
-        "id": "Health tumbuh di dalam diri saya setiap hari.",
-        "ja": "Healthは毎日私の中で育ちます。",
-        "th": "Healthเติบโตในตัวฉันทุกวัน",
-        "ms": "Health berkembang dalam diri saya setiap hari."
+        "en": "Each day, health grows within me.",
+        "tr": "Her gün içimde sağlık büyüyor.",
+        "fr": "Chaque jour, health grandit en moi.",
+        "pt": "A cada dia, health cresce dentro de mim.",
+        "nl": "Elke dag groeit health in mij.",
+        "es": "Cada día, health crece dentro de mí.",
+        "de": "Jeden Tag wächst health in mir.",
+        "it": "Ogni giorno, health cresce dentro di me.",
+        "ru": "Каждый день health растёт во мне.",
+        "id": "Setiap hari, health tumbuh di dalam diriku.",
+        "ja": "毎日、healthが私の中で育っています。",
+        "th": "ทุกวัน health เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, health berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8525,24 +11125,24 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_080",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Health now.",
-        "tr": "Şimdi Sağlık için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Health maintenant.",
-        "pt": "Eu crio espaço para Health agora.",
-        "nl": "Ik maak nu ruimte voor Health.",
-        "es": "Creo espacio para Health ahora.",
-        "de": "Ich schaffe jetzt Raum für Health.",
-        "it": "Creo spazio per Health ora.",
-        "ru": "Я создаю пространство для Health сейчас.",
-        "id": "Saya menciptakan ruang untuk Health sekarang.",
-        "ja": "今、Healthのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับHealthในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Health sekarang."
+        "en": "I give health a quiet place in my day.",
+        "tr": "Günümde sağlık için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à health une place calme dans ma journée.",
+        "pt": "Dou a health um lugar tranquilo no meu dia.",
+        "nl": "Ik geef health een rustige plek in mijn dag.",
+        "es": "Le doy a health un lugar tranquilo en mi día.",
+        "de": "Ich gebe health einen ruhigen Platz in meinem Tag.",
+        "it": "Do a health un posto tranquillo nella mia giornata.",
+        "ru": "Я даю health тихое место в своём дне.",
+        "id": "Aku memberi health tempat yang tenang dalam hariku.",
+        "ja": "一日の中にhealthのための静かな場所をつくります。",
+        "th": "ฉันให้healthมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi health tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8569,24 +11169,24 @@
         ]
       },
       "readTime": "0"
-       },
-       {
+    },
+    {
       "id": "health_081",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Health.",
-        "tr": "Sağlık yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Health.",
-        "pt": "Eu confio no caminho de Health.",
-        "nl": "Ik vertrouw op het pad van Health.",
-        "es": "Confío en el camino de Health.",
-        "de": "Ich vertraue dem Weg von Health.",
-        "it": "Mi fido del percorso di Health.",
-        "ru": "Я доверяю пути Health.",
-        "id": "Saya percaya pada jalan Health.",
-        "ja": "私はHealthの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของHealth",
-        "ms": "Saya percaya pada jalan Health."
+        "en": "I trust my own way of growing in health.",
+        "tr": "sağlık konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec health.",
+        "pt": "Confio no meu próprio jeito de crescer com health.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in health.",
+        "es": "Confío en mi propia manera de crecer con health.",
+        "de": "Ich vertraue meinem eigenen Weg, in health zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con health.",
+        "ru": "Я доверяю своему собственному пути роста в health.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam health.",
+        "ja": "自分なりのhealthの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับhealth",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam health."
       },
       "authors": {
         "en": "",
@@ -8613,6 +11213,946 @@
         ]
       },
       "readTime": "0"
-       }
+    },
+    {
+      "id": "health_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice health with gentle consistency.",
+        "tr": "sağlık konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique health avec une douce constance.",
+        "pt": "Eu pratico health com constância gentil.",
+        "nl": "Ik beoefen health met zachte regelmaat.",
+        "es": "Practico health con constancia suave.",
+        "de": "Ich übe health mit sanfter Beständigkeit.",
+        "it": "Pratico health con dolce costanza.",
+        "ru": "Я практикую health с мягкой постоянностью.",
+        "id": "Saya mempraktikkan health dengan konsistensi yang lembut.",
+        "ja": "私はhealthを穏やかな継続で実践します。",
+        "th": "ฉันฝึกhealthอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan health dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "health_083",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, health supports me.",
+        "tr": "Bu dönemde sağlık beni destekliyor.",
+        "fr": "En cette période, health me soutient.",
+        "pt": "Nesta fase, health me apoia.",
+        "nl": "In deze periode ondersteunt health mij.",
+        "es": "En esta etapa, health me sostiene.",
+        "de": "In dieser Zeit unterstützt health mich.",
+        "it": "In questo periodo, health mi sostiene.",
+        "ru": "В этот период health поддерживает меня.",
+        "id": "Di masa ini, health mendukungku.",
+        "ja": "この時期、healthが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ healthคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, health menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "health_084",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose health in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla sağlık seçiyorum.",
+        "fr": "Je choisis health par de petits pas sincères.",
+        "pt": "Escolho health em passos pequenos e honestos.",
+        "nl": "Ik kies health in kleine, eerlijke stappen.",
+        "es": "Elijo health con pasos pequeños y honestos.",
+        "de": "Ich wähle health in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo health con passi piccoli e sinceri.",
+        "ru": "Я выбираю health маленькими, честными шагами.",
+        "id": "Aku memilih health dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でhealthを選びます。",
+        "th": "ฉันเลือกhealthด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih health dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "health_085",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let health shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri sağlık şekillendiriyor.",
+        "fr": "Je laisse health façonner les choix qui comptent pour moi.",
+        "pt": "Deixo health moldar as escolhas que importam para mim.",
+        "nl": "Ik laat health de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que health moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse health die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che health plasmi le scelte che contano per me.",
+        "ru": "Я позволяю health формировать важные для меня решения.",
+        "id": "Aku membiarkan health membentuk pilihan yang penting bagiku.",
+        "ja": "healthが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้healthหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan health membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "health_086",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, health feels natural to me.",
+        "tr": "Bugün sağlık bana doğal geliyor.",
+        "fr": "Aujourd'hui, health me semble naturel.",
+        "pt": "Hoje, health parece natural para mim.",
+        "nl": "Vandaag voelt health natuurlijk voor mij.",
+        "es": "Hoy, health se siente natural para mí.",
+        "de": "Heute fühlt sich health natürlich für mich an.",
+        "it": "Oggi health mi sembra naturale.",
+        "ru": "Сегодня health кажется мне естественным.",
+        "id": "Hari ini, health terasa alami bagi saya.",
+        "ja": "今日はhealthが自然に感じられます。",
+        "th": "วันนี้healthให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, health terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "health_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose health in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda sağlık seçiyorum.",
+        "fr": "Je choisis health dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho health nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies health in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo health en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle health in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo health nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю health в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih health dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でhealthを選びます。",
+        "th": "ฉันเลือกhealthในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih health dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build health.",
+        "tr": "İç sesim sağlık inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis health.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo health.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik health opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo health.",
+        "de": "Meine innere Stimme wird sanfter, während ich health aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco health.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю health.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun health.",
+        "ja": "healthを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างhealth",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina health."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet health at my own pace.",
+        "tr": "sağlık ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer health à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar health no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om health in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar health a mi propio ritmo.",
+        "de": "Ich erlaube mir, health in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare health al mio ritmo.",
+        "ru": "Я позволяю себе встречать health в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu health dengan ritmeku.",
+        "ja": "自分のペースでhealthに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบhealthในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui health mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let health steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde sağlık beni dengeliyor.",
+        "fr": "Je laisse health m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo health me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat health me aarden als het leven luid voelt.",
+        "es": "Dejo que health me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse health mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che health mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю health удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan health menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、healthが私を落ち着かせます。",
+        "th": "ฉันยอมให้healthทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan health menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, health is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde sağlık büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, health grandit.",
+        "pt": "Por meio das escolhas que faço hoje, health cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit health.",
+        "es": "A través de las decisiones que tomo hoy, health crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst health.",
+        "it": "Attraverso le scelte che faccio oggi, health cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, health растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, health tumbuh.",
+        "ja": "今日の選択を通してhealthが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ healthกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, health berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel health settling into my routines.",
+        "tr": "Rutinlerimde sağlık için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens health s’installer dans mes routines.",
+        "pt": "Sinto health se acomodar nas minhas rotinas.",
+        "nl": "Ik voel health zich nestelen in mijn routines.",
+        "es": "Siento que health se asienta en mis rutinas.",
+        "de": "Ich spüre, wie health sich in meinen Routinen einlebt.",
+        "it": "Sento health assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как health укореняется в моих привычках.",
+        "id": "Aku merasakan health menetap dalam rutinitasku.",
+        "ja": "日々の習慣にhealthがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าhealthค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan health mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow health to be simple, not perfect.",
+        "tr": "sağlık için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise health à être simple, pas parfait.",
+        "pt": "Permito que health seja simples, não perfeito.",
+        "nl": "Ik laat health simpel zijn, niet perfect.",
+        "es": "Permito que health sea simple, no perfecto.",
+        "de": "Ich erlaube health, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a health di essere semplice, non perfetto.",
+        "ru": "Я позволяю health быть простым, а не идеальным.",
+        "id": "Aku membiarkan health tetap sederhana, bukan sempurna.",
+        "ja": "healthがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้healthเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan health menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice health showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde sağlık ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque health dans la façon dont je me parle.",
+        "pt": "Percebo health na forma como falo comigo.",
+        "nl": "Ik merk health op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto health en la manera en que me hablo.",
+        "de": "Ich bemerke health in der Art, wie ich mit mir spreche.",
+        "it": "Noto health nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю health в том, как я говорю с собой.",
+        "id": "Aku menyadari health dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にhealthが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นhealthในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari health dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve health without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan sağlık hak ediyorum.",
+        "fr": "Je mérite health sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço health sem precisar provar nada.",
+        "nl": "Ik verdien health zonder iets te hoeven bewijzen.",
+        "es": "Merezco health sin necesidad de demostrar nada.",
+        "de": "Ich verdiene health, ohne etwas beweisen zu müssen.",
+        "it": "Merito health senza dover dimostrare nulla.",
+        "ru": "Я достоин health, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan health tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、healthに値します。",
+        "th": "ฉันคู่ควรกับhealthโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh health tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let health grow from patience, not pressure.",
+        "tr": "sağlık sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse health grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo health crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat health groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que health crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse health aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che health cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю health расти из терпения, а не из давления.",
+        "id": "Aku membiarkan health tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はhealthを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้healthเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan health tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to health when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde sağlık ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à health quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a health quando preciso me firmar.",
+        "nl": "Ik keer terug naar health wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a health cuando necesito estabilizarme.",
+        "de": "Ich kehre zu health zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a health quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к health, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke health saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、healthに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาhealth",
+        "ms": "Saya kembali kepada health apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let health soften my inner pressure.",
+        "tr": "İçimdeki baskıyı sağlık ile yumuşatıyorum.",
+        "fr": "Je laisse health adoucir ma pression intérieure.",
+        "pt": "Deixo health suavizar minha pressão interna.",
+        "nl": "Ik laat health mijn innerlijke druk verzachten.",
+        "es": "Dejo que health suavice mi presión interna.",
+        "de": "Ich lasse health meinen inneren Druck weicher machen.",
+        "it": "Lascio che health ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю health смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan health melembutkan tekanan batinku.",
+        "ja": "healthが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้healthช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan health melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_99",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that health can be gentle and real.",
+        "tr": "sağlık konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que health peut être doux et vrai.",
+        "pt": "Confio que health pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat health zacht en echt kan zijn.",
+        "es": "Confío en que health puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass health sanft und echt sein kann.",
+        "it": "Mi fido del fatto che health possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что health может быть мягким и настоящим.",
+        "id": "Aku percaya health bisa lembut dan nyata.",
+        "ja": "healthはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าhealthสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya health boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_100",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give health a little more room each day.",
+        "tr": "Her gün sağlık için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à health chaque jour.",
+        "pt": "Dou um pouco mais de espaço para health a cada dia.",
+        "nl": "Ik geef health elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a health cada día.",
+        "de": "Ich gebe health jeden Tag ein wenig mehr Raum.",
+        "it": "Do a health un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю health чуть больше места.",
+        "id": "Setiap hari aku memberi health sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、healthのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับhealthมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi health sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_101",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold health without forcing it.",
+        "tr": "sağlık ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir health sans forcer.",
+        "pt": "Estou aprendendo a sustentar health sem forçar.",
+        "nl": "Ik leer health te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener health sin forzar.",
+        "de": "Ich lerne, health zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere health senza forzare.",
+        "ru": "Я учусь удерживать health без принуждения.",
+        "id": "Aku belajar memegang health tanpa memaksa.",
+        "ja": "healthを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองhealthโดยไม่บังคับ",
+        "ms": "Saya belajar memegang health tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_102",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by health where I am today.",
+        "tr": "Bugün olduğum yerde sağlık beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, health me rejoint.",
+        "pt": "Onde estou hoje, health me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet health mij.",
+        "es": "Donde estoy hoy, health me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir health.",
+        "it": "Dove sono oggi, health mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает health.",
+        "id": "Di tempatku hari ini, health menemuiku.",
+        "ja": "今日の私がいる場所で、healthが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ healthอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, health menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_103",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice health in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte sağlık fark ediyorum.",
+        "fr": "Je remarque health dans le calme entre les moments.",
+        "pt": "Percebo health na calma entre os momentos.",
+        "nl": "Ik merk health op in de rust tussen momenten.",
+        "es": "Noto health en la calma entre momentos.",
+        "de": "Ich bemerke health in der Ruhe zwischen den Momenten.",
+        "it": "Noto health nella calma tra i momenti.",
+        "ru": "Я замечаю health в тишине между моментами.",
+        "id": "Aku menyadari health dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにhealthを感じます。",
+        "th": "ฉันสังเกตhealthในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari health dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_104",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow health to grow quietly in the background.",
+        "tr": "sağlık sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse health grandir doucement en arrière-plan.",
+        "pt": "Deixo health crescer em silêncio ao fundo.",
+        "nl": "Ik laat health stil op de achtergrond groeien.",
+        "es": "Dejo que health crezca en silencio de fondo.",
+        "de": "Ich lasse health leise im Hintergrund wachsen.",
+        "it": "Lascio che health cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю health тихо расти на заднем плане.",
+        "id": "Aku membiarkan health tumbuh perlahan di latar belakang.",
+        "ja": "healthが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้healthเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan health berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_105",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose health with care, not hurry.",
+        "tr": "Acele etmeden, özenle sağlık seçiyorum.",
+        "fr": "Je choisis health avec soin, sans hâte.",
+        "pt": "Escolho health com cuidado, sem pressa.",
+        "nl": "Ik kies health met zorg, niet met haast.",
+        "es": "Elijo health con cuidado, no con prisa.",
+        "de": "Ich wähle health mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo health con cura, non con fretta.",
+        "ru": "Я выбираю health с заботой, а не в спешке.",
+        "id": "Aku memilih health dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にhealthを選びます。",
+        "th": "ฉันเลือกhealthอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih health dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    },
+    {
+      "id": "health_106",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep health close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken sağlık ile yakın kalıyorum.",
+        "fr": "Je garde health près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho health por perto quando minha mente fica agitada.",
+        "nl": "Ik houd health dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo health cerca cuando mi mente está inquieta.",
+        "de": "Ich halte health nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo health vicino quando la mia mente è agitata.",
+        "ru": "Я держу health рядом, когда ум занят.",
+        "id": "Aku menjaga health tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもhealthをそばに置きます。",
+        "th": "ฉันเก็บhealthไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan health dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "health",
+      "readTime": "0"
+    }
   ]
 }

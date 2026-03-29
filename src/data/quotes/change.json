@@ -1,6 +1,6 @@
 {
   "quotes": [
-        {
+    {
       "id": "change_001",
       "category": "change",
       "texts": {
@@ -34,19 +34,71 @@
         "ms": "Oscar Wilde"
       },
       "tags": {
-        "en": ["authenticity", "uniqueness", "self-acceptance"],
-        "tr": ["özgünlük", "benzersizlik", "kendini kabul"],
-        "fr": ["authenticité", "unicité", "acceptation de soi"],
-        "pt": ["autenticidade", "unicidade", "autoaceitação"],
-        "nl": ["authenticiteit", "uniciteit", "zelfacceptatie"],
-        "es": ["autenticidad", "unicidad", "autoaceptación"],
-        "de": ["Authentizität", "Einzigartigkeit", "Selbstakzeptanz"],
-        "it": ["autenticità", "unicità", "accettazione di sé"],
-        "ru": ["аутентичность", "уникальность", "самопринятие"],
-        "id": ["keaslian", "keunikan", "penerimaan diri"],
-        "ja": ["本物", "独自性", "自己受容"],
-        "th": ["ความเป็นตัวของตัวเอง", "ความเป็นเอกลักษณ์", "การยอมรับตัวเอง"],
-        "ms": ["keaslian", "keunikan", "penerimaan diri"]
+        "en": [
+          "authenticity",
+          "uniqueness",
+          "self-acceptance"
+        ],
+        "tr": [
+          "özgünlük",
+          "benzersizlik",
+          "kendini kabul"
+        ],
+        "fr": [
+          "authenticité",
+          "unicité",
+          "acceptation de soi"
+        ],
+        "pt": [
+          "autenticidade",
+          "unicidade",
+          "autoaceitação"
+        ],
+        "nl": [
+          "authenticiteit",
+          "uniciteit",
+          "zelfacceptatie"
+        ],
+        "es": [
+          "autenticidad",
+          "unicidad",
+          "autoaceptación"
+        ],
+        "de": [
+          "Authentizität",
+          "Einzigartigkeit",
+          "Selbstakzeptanz"
+        ],
+        "it": [
+          "autenticità",
+          "unicità",
+          "accettazione di sé"
+        ],
+        "ru": [
+          "аутентичность",
+          "уникальность",
+          "самопринятие"
+        ],
+        "id": [
+          "keaslian",
+          "keunikan",
+          "penerimaan diri"
+        ],
+        "ja": [
+          "本物",
+          "独自性",
+          "自己受容"
+        ],
+        "th": [
+          "ความเป็นตัวของตัวเอง",
+          "ความเป็นเอกลักษณ์",
+          "การยอมรับตัวเอง"
+        ],
+        "ms": [
+          "keaslian",
+          "keunikan",
+          "penerimaan diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Tony Robbins"
       },
       "tags": {
-        "en": ["beginning", "action", "possibility"],
-        "tr": ["başlangıç", "eylem", "olasılık"],
-        "fr": ["commencement", "action", "possibilité"],
-        "pt": ["começo", "ação", "possibilidade"],
-        "nl": ["begin", "actie", "mogelijkheid"],
-        "es": ["comienzo", "acción", "posibilidad"],
-        "de": ["Anfang", "Aktion", "Möglichkeit"],
-        "it": ["inizio", "azione", "possibilità"],
-        "ru": ["начало", "действие", "возможность"],
-        "id": ["permulaan", "tindakan", "kemungkinan"],
-        "ja": ["始まり", "行動", "可能性"],
-        "th": ["การเริ่มต้น", "การกระทำ", "ความเป็นไปได้"],
-        "ms": ["permulaan", "tindakan", "kemungkinan"]
+        "en": [
+          "beginning",
+          "action",
+          "possibility"
+        ],
+        "tr": [
+          "başlangıç",
+          "eylem",
+          "olasılık"
+        ],
+        "fr": [
+          "commencement",
+          "action",
+          "possibilité"
+        ],
+        "pt": [
+          "começo",
+          "ação",
+          "possibilidade"
+        ],
+        "nl": [
+          "begin",
+          "actie",
+          "mogelijkheid"
+        ],
+        "es": [
+          "comienzo",
+          "acción",
+          "posibilidad"
+        ],
+        "de": [
+          "Anfang",
+          "Aktion",
+          "Möglichkeit"
+        ],
+        "it": [
+          "inizio",
+          "azione",
+          "possibilità"
+        ],
+        "ru": [
+          "начало",
+          "действие",
+          "возможность"
+        ],
+        "id": [
+          "permulaan",
+          "tindakan",
+          "kemungkinan"
+        ],
+        "ja": [
+          "始まり",
+          "行動",
+          "可能性"
+        ],
+        "th": [
+          "การเริ่มต้น",
+          "การกระทำ",
+          "ความเป็นไปได้"
+        ],
+        "ms": [
+          "permulaan",
+          "tindakan",
+          "kemungkinan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Mahatma Gandhi"
       },
       "tags": {
-        "en": ["leadership", "responsibility", "impact"],
-        "tr": ["liderlik", "sorumluluk", "etki"],
-        "fr": ["leadership", "responsabilité", "impact"],
-        "pt": ["liderança", "responsabilidade", "impacto"],
-        "nl": ["leiderschap", "verantwoordelijkheid", "impact"],
-        "es": ["liderazgo", "responsabilidad", "impacto"],
-        "de": ["Führung", "Verantwortung", "Einfluss"],
-        "it": ["leadership", "responsabilità", "impatto"],
-        "ru": ["лидерство", "ответственность", "влияние"],
-        "id": ["kepemimpinan", "tanggung jawab", "dampak"],
-        "ja": ["リーダーシップ", "責任", "影響"],
-        "th": ["ความเป็นผู้นำ", "ความรับผิดชอบ", "ผลกระทบ"],
-        "ms": ["kepimpinan", "tanggungjawab", "kesan"]
+        "en": [
+          "leadership",
+          "responsibility",
+          "impact"
+        ],
+        "tr": [
+          "liderlik",
+          "sorumluluk",
+          "etki"
+        ],
+        "fr": [
+          "leadership",
+          "responsabilité",
+          "impact"
+        ],
+        "pt": [
+          "liderança",
+          "responsabilidade",
+          "impacto"
+        ],
+        "nl": [
+          "leiderschap",
+          "verantwoordelijkheid",
+          "impact"
+        ],
+        "es": [
+          "liderazgo",
+          "responsabilidad",
+          "impacto"
+        ],
+        "de": [
+          "Führung",
+          "Verantwortung",
+          "Einfluss"
+        ],
+        "it": [
+          "leadership",
+          "responsabilità",
+          "impatto"
+        ],
+        "ru": [
+          "лидерство",
+          "ответственность",
+          "влияние"
+        ],
+        "id": [
+          "kepemimpinan",
+          "tanggung jawab",
+          "dampak"
+        ],
+        "ja": [
+          "リーダーシップ",
+          "責任",
+          "影響"
+        ],
+        "th": [
+          "ความเป็นผู้นำ",
+          "ความรับผิดชอบ",
+          "ผลกระทบ"
+        ],
+        "ms": [
+          "kepimpinan",
+          "tanggungjawab",
+          "kesan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -348,7 +504,9 @@
           "title": "Memimpin dengan Contoh",
           "content": "Kata-kata Mahatma Gandhi adalah seruan kuat untuk bertindak, menekankan bahawa perubahan bermula dari diri kita sendiri. Jika kita mahukan dunia yang lebih baik - penuh dengan kedamaian, keadilan, atau kasih sayang - kita mesti menjelmakan nilai-nilai tersebut dalam tindakan kita sendiri. Gandhi menghidupkan prinsip ini, memimpin perjuangan kemerdekaan India dengan tanpa kekerasan dan integriti. Hidupnya mengingatkan kita bahawa menunggu orang lain untuk mengubah dunia adalah sia-sia; kesan sebenar datang dari mengambil tanggungjawab ke atas kelakuan kita sendiri dan memberi inspirasi kepada orang lain melalui contoh.",
           "readTime": 0
-        }}},
+        }
+      }
+    },
     {
       "id": "change_004",
       "category": "change",
@@ -383,19 +541,71 @@
         "ms": "Norman Vincent Peale"
       },
       "tags": {
-        "en": ["mindset", "perspective", "transformation"],
-        "tr": ["zihniyet", "bakış açısı", "dönüşüm"],
-        "fr": ["mentalité", "perspective", "transformation"],
-        "pt": ["mentalidade", "perspectiva", "transformação"],
-        "nl": ["mindset", "perspectief", "transformatie"],
-        "es": ["mentalidad", "perspectiva", "transformación"],
-        "de": ["Denkweise", "Perspektive", "Transformation"],
-        "it": ["mentalità", "prospettiva", "trasformazione"],
-        "ru": ["мышление", "перспектива", "трансформация"],
-        "id": ["pola pikir", "perspektif", "transformasi"],
-        "ja": ["マインドセット", "視点", "変革"],
-        "th": ["ทัศนคติ", "มุมมอง", "การเปลี่ยนแปลง"],
-        "ms": ["pemikiran", "perspektif", "transformasi"]
+        "en": [
+          "mindset",
+          "perspective",
+          "transformation"
+        ],
+        "tr": [
+          "zihniyet",
+          "bakış açısı",
+          "dönüşüm"
+        ],
+        "fr": [
+          "mentalité",
+          "perspective",
+          "transformation"
+        ],
+        "pt": [
+          "mentalidade",
+          "perspectiva",
+          "transformação"
+        ],
+        "nl": [
+          "mindset",
+          "perspectief",
+          "transformatie"
+        ],
+        "es": [
+          "mentalidad",
+          "perspectiva",
+          "transformación"
+        ],
+        "de": [
+          "Denkweise",
+          "Perspektive",
+          "Transformation"
+        ],
+        "it": [
+          "mentalità",
+          "prospettiva",
+          "trasformazione"
+        ],
+        "ru": [
+          "мышление",
+          "перспектива",
+          "трансформация"
+        ],
+        "id": [
+          "pola pikir",
+          "perspektif",
+          "transformasi"
+        ],
+        "ja": [
+          "マインドセット",
+          "視点",
+          "変革"
+        ],
+        "th": [
+          "ทัศนคติ",
+          "มุมมอง",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "pemikiran",
+          "perspektif",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -500,19 +710,71 @@
         "ms": "Oprah Winfrey"
       },
       "tags": {
-        "en": ["attitude", "future", "transformation"],
-        "tr": ["tutum", "gelecek", "dönüşüm"],
-        "fr": ["attitude", "avenir", "transformation"],
-        "pt": ["atitude", "futuro", "transformação"],
-        "nl": ["houding", "toekomst", "transformatie"],
-        "es": ["actitud", "futuro", "transformación"],
-        "de": ["Einstellung", "Zukunft", "Transformation"],
-        "it": ["atteggiamento", "futuro", "trasformazione"],
-        "ru": ["отношение", "будущее", "трансформация"],
-        "id": ["sikap", "masa depan", "transformasi"],
-        "ja": ["態度", "未来", "変革"],
-        "th": ["ทัศนคติ", "อนาคต", "การเปลี่ยนแปลง"],
-        "ms": ["sikap", "masa depan", "transformasi"]
+        "en": [
+          "attitude",
+          "future",
+          "transformation"
+        ],
+        "tr": [
+          "tutum",
+          "gelecek",
+          "dönüşüm"
+        ],
+        "fr": [
+          "attitude",
+          "avenir",
+          "transformation"
+        ],
+        "pt": [
+          "atitude",
+          "futuro",
+          "transformação"
+        ],
+        "nl": [
+          "houding",
+          "toekomst",
+          "transformatie"
+        ],
+        "es": [
+          "actitud",
+          "futuro",
+          "transformación"
+        ],
+        "de": [
+          "Einstellung",
+          "Zukunft",
+          "Transformation"
+        ],
+        "it": [
+          "atteggiamento",
+          "futuro",
+          "trasformazione"
+        ],
+        "ru": [
+          "отношение",
+          "будущее",
+          "трансформация"
+        ],
+        "id": [
+          "sikap",
+          "masa depan",
+          "transformasi"
+        ],
+        "ja": [
+          "態度",
+          "未来",
+          "変革"
+        ],
+        "th": [
+          "ทัศนคติ",
+          "อนาคต",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "sikap",
+          "masa depan",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -617,19 +879,71 @@
         "ms": "T.S. Eliot"
       },
       "tags": {
-        "en": ["opportunity", "renewal", "moment"],
-        "tr": ["fırsat", "yenilenme", "an"],
-        "fr": ["opportunité", "renouveau", "moment"],
-        "pt": ["oportunidade", "renovação", "momento"],
-        "nl": ["kans", "vernieuwing", "moment"],
-        "es": ["oportunidad", "renovación", "momento"],
-        "de": ["Gelegenheit", "Erneuerung", "Moment"],
-        "it": ["opportunità", "rinnovamento", "momento"],
-        "ru": ["возможность", "обновление", "момент"],
-        "id": ["peluang", "pembaruan", "momen"],
-        "ja": ["機会", "再生", "瞬間"],
-        "th": ["โอกาส", "การเริ่มใหม่", "ขณะ"],
-        "ms": ["peluang", "pembaharuan", "saat"]
+        "en": [
+          "opportunity",
+          "renewal",
+          "moment"
+        ],
+        "tr": [
+          "fırsat",
+          "yenilenme",
+          "an"
+        ],
+        "fr": [
+          "opportunité",
+          "renouveau",
+          "moment"
+        ],
+        "pt": [
+          "oportunidade",
+          "renovação",
+          "momento"
+        ],
+        "nl": [
+          "kans",
+          "vernieuwing",
+          "moment"
+        ],
+        "es": [
+          "oportunidad",
+          "renovación",
+          "momento"
+        ],
+        "de": [
+          "Gelegenheit",
+          "Erneuerung",
+          "Moment"
+        ],
+        "it": [
+          "opportunità",
+          "rinnovamento",
+          "momento"
+        ],
+        "ru": [
+          "возможность",
+          "обновление",
+          "момент"
+        ],
+        "id": [
+          "peluang",
+          "pembaruan",
+          "momen"
+        ],
+        "ja": [
+          "機会",
+          "再生",
+          "瞬間"
+        ],
+        "th": [
+          "โอกาส",
+          "การเริ่มใหม่",
+          "ขณะ"
+        ],
+        "ms": [
+          "peluang",
+          "pembaharuan",
+          "saat"
+        ]
       },
       "readTime": 1,
       "stories": {
@@ -734,19 +1048,71 @@
         "ms": "Max Depree"
       },
       "tags": {
-        "en": ["growth", "change", "aspiration"],
-        "tr": ["büyüme", "değişim", "hedef"],
-        "fr": ["croissance", "changement", "aspiration"],
-        "pt": ["crescimento", "mudança", "aspiração"],
-        "nl": ["groei", "verandering", "aspiratie"],
-        "es": ["crecimiento", "cambio", "aspiración"],
-        "de": ["Wachstum", "Veränderung", "Streben"],
-        "it": ["crescita", "cambiamento", "aspirazione"],
-        "ru": ["рост", "изменение", "стремление"],
-        "id": ["pertumbuhan", "perubahan", "aspirasi"],
-        "ja": ["成長", "変化", "志"],
-        "th": ["การเติบโต", "การเปลี่ยนแปลง", "ความปรารถนา"],
-        "ms": ["pertumbuhan", "perubahan", "aspirasi"]
+        "en": [
+          "growth",
+          "change",
+          "aspiration"
+        ],
+        "tr": [
+          "büyüme",
+          "değişim",
+          "hedef"
+        ],
+        "fr": [
+          "croissance",
+          "changement",
+          "aspiration"
+        ],
+        "pt": [
+          "crescimento",
+          "mudança",
+          "aspiração"
+        ],
+        "nl": [
+          "groei",
+          "verandering",
+          "aspiratie"
+        ],
+        "es": [
+          "crecimiento",
+          "cambio",
+          "aspiración"
+        ],
+        "de": [
+          "Wachstum",
+          "Veränderung",
+          "Streben"
+        ],
+        "it": [
+          "crescita",
+          "cambiamento",
+          "aspirazione"
+        ],
+        "ru": [
+          "рост",
+          "изменение",
+          "стремление"
+        ],
+        "id": [
+          "pertumbuhan",
+          "perubahan",
+          "aspirasi"
+        ],
+        "ja": [
+          "成長",
+          "変化",
+          "志"
+        ],
+        "th": [
+          "การเติบโต",
+          "การเปลี่ยนแปลง",
+          "ความปรารถนา"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "perubahan",
+          "aspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -851,19 +1217,71 @@
         "ms": "Socrates"
       },
       "tags": {
-        "en": ["focus", "progress", "creation"],
-        "tr": ["odaklanma", "ilerleme", "yaratma"],
-        "fr": ["concentration", "progrès", "création"],
-        "pt": ["foco", "progresso", "criação"],
-        "nl": ["focus", "vooruitgang", "creatie"],
-        "es": ["enfoque", "progreso", "creación"],
-        "de": ["Fokus", "Fortschritt", "Schöpfung"],
-        "it": ["concentrazione", "progresso", "creazione"],
-        "ru": ["фокус", "прогресс", "создание"],
-        "id": ["fokus", "kemajuan", "penciptaan"],
-        "ja": ["集中", "進歩", "創造"],
-        "th": ["โฟกัส", "ความก้าวหน้า", "การสร้าง"],
-        "ms": ["fokus", "kemajuan", "penciptaan"]
+        "en": [
+          "focus",
+          "progress",
+          "creation"
+        ],
+        "tr": [
+          "odaklanma",
+          "ilerleme",
+          "yaratma"
+        ],
+        "fr": [
+          "concentration",
+          "progrès",
+          "création"
+        ],
+        "pt": [
+          "foco",
+          "progresso",
+          "criação"
+        ],
+        "nl": [
+          "focus",
+          "vooruitgang",
+          "creatie"
+        ],
+        "es": [
+          "enfoque",
+          "progreso",
+          "creación"
+        ],
+        "de": [
+          "Fokus",
+          "Fortschritt",
+          "Schöpfung"
+        ],
+        "it": [
+          "concentrazione",
+          "progresso",
+          "creazione"
+        ],
+        "ru": [
+          "фокус",
+          "прогресс",
+          "создание"
+        ],
+        "id": [
+          "fokus",
+          "kemajuan",
+          "penciptaan"
+        ],
+        "ja": [
+          "集中",
+          "進歩",
+          "創造"
+        ],
+        "th": [
+          "โฟกัส",
+          "ความก้าวหน้า",
+          "การสร้าง"
+        ],
+        "ms": [
+          "fokus",
+          "kemajuan",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -968,19 +1386,71 @@
         "ms": "John F. Kennedy"
       },
       "tags": {
-        "en": ["change", "future", "adaptability"],
-        "tr": ["değişim", "gelecek", "uyum sağlama"],
-        "fr": ["changement", "avenir", "adaptabilité"],
-        "pt": ["mudança", "futuro", "adaptabilidade"],
-        "nl": ["verandering", "toekomst", "aanpassingsvermogen"],
-        "es": ["cambio", "futuro", "adaptabilidad"],
-        "de": ["Veränderung", "Zukunft", "Anpassungsfähigkeit"],
-        "it": ["cambiamento", "futuro", "adattabilità"],
-        "ru": ["изменение", "будущее", "адаптивность"],
-        "id": ["perubahan", "masa depan", "adaptabilitas"],
-        "ja": ["変化", "未来", "適応力"],
-        "th": ["การเปลี่ยนแปลง", "อนาคต", "ความสามารถในการปรับตัว"],
-        "ms": ["perubahan", "masa depan", "kebolehsuaian"]
+        "en": [
+          "change",
+          "future",
+          "adaptability"
+        ],
+        "tr": [
+          "değişim",
+          "gelecek",
+          "uyum sağlama"
+        ],
+        "fr": [
+          "changement",
+          "avenir",
+          "adaptabilité"
+        ],
+        "pt": [
+          "mudança",
+          "futuro",
+          "adaptabilidade"
+        ],
+        "nl": [
+          "verandering",
+          "toekomst",
+          "aanpassingsvermogen"
+        ],
+        "es": [
+          "cambio",
+          "futuro",
+          "adaptabilidad"
+        ],
+        "de": [
+          "Veränderung",
+          "Zukunft",
+          "Anpassungsfähigkeit"
+        ],
+        "it": [
+          "cambiamento",
+          "futuro",
+          "adattabilità"
+        ],
+        "ru": [
+          "изменение",
+          "будущее",
+          "адаптивность"
+        ],
+        "id": [
+          "perubahan",
+          "masa depan",
+          "adaptabilitas"
+        ],
+        "ja": [
+          "変化",
+          "未来",
+          "適応力"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "อนาคต",
+          "ความสามารถในการปรับตัว"
+        ],
+        "ms": [
+          "perubahan",
+          "masa depan",
+          "kebolehsuaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1085,19 +1555,71 @@
         "ms": "Winston Churchill"
       },
       "tags": {
-        "en": ["improvement", "change", "perfection"],
-        "tr": ["iyileşme", "değişim", "mükemmellik"],
-        "fr": ["amélioration", "changement", "perfection"],
-        "pt": ["melhoria", "mudança", "perfeição"],
-        "nl": ["verbetering", "verandering", "perfectie"],
-        "es": ["mejora", "cambio", "perfección"],
-        "de": ["Verbesserung", "Veränderung", "Perfektion"],
-        "it": ["miglioramento", "cambiamento", "perfezione"],
-        "ru": ["совершенствование", "изменение", "совершенство"],
-        "id": ["peningkatan", "perubahan", "kesempurnaan"],
-        "ja": ["改善", "変化", "完璧"],
-        "th": ["การพัฒนา", "การเปลี่ยนแปลง", "ความสมบูรณ์แบบ"],
-        "ms": ["peningkatan", "perubahan", "kesempurnaan"]
+        "en": [
+          "improvement",
+          "change",
+          "perfection"
+        ],
+        "tr": [
+          "iyileşme",
+          "değişim",
+          "mükemmellik"
+        ],
+        "fr": [
+          "amélioration",
+          "changement",
+          "perfection"
+        ],
+        "pt": [
+          "melhoria",
+          "mudança",
+          "perfeição"
+        ],
+        "nl": [
+          "verbetering",
+          "verandering",
+          "perfectie"
+        ],
+        "es": [
+          "mejora",
+          "cambio",
+          "perfección"
+        ],
+        "de": [
+          "Verbesserung",
+          "Veränderung",
+          "Perfektion"
+        ],
+        "it": [
+          "miglioramento",
+          "cambiamento",
+          "perfezione"
+        ],
+        "ru": [
+          "совершенствование",
+          "изменение",
+          "совершенство"
+        ],
+        "id": [
+          "peningkatan",
+          "perubahan",
+          "kesempurnaan"
+        ],
+        "ja": [
+          "改善",
+          "変化",
+          "完璧"
+        ],
+        "th": [
+          "การพัฒนา",
+          "การเปลี่ยนแปลง",
+          "ความสมบูรณ์แบบ"
+        ],
+        "ms": [
+          "peningkatan",
+          "perubahan",
+          "kesempurnaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1202,19 +1724,71 @@
         "ms": "Alan Watts"
       },
       "tags": {
-        "en": ["acceptance", "flow", "change"],
-        "tr": ["kabul", "akış", "değişim"],
-        "fr": ["acceptation", "flux", "changement"],
-        "pt": ["aceitação", "fluxo", "mudança"],
-        "nl": ["acceptatie", "stroming", "verandering"],
-        "es": ["aceptación", "fluidez", "cambio"],
-        "de": ["Akzeptanz", "Fluss", "Veränderung"],
-        "it": ["accettazione", "flusso", "cambiamento"],
-        "ru": ["принятие", "поток", "изменение"],
-        "id": ["penerimaan", "aliran", "perubahan"],
-        "ja": ["受け入れ", "流れ", "変化"],
-        "th": ["การยอมรับ", "การไหล", "การเปลี่ยนแปลง"],
-        "ms": ["penerimaan", "aliran", "perubahan"]
+        "en": [
+          "acceptance",
+          "flow",
+          "change"
+        ],
+        "tr": [
+          "kabul",
+          "akış",
+          "değişim"
+        ],
+        "fr": [
+          "acceptation",
+          "flux",
+          "changement"
+        ],
+        "pt": [
+          "aceitação",
+          "fluxo",
+          "mudança"
+        ],
+        "nl": [
+          "acceptatie",
+          "stroming",
+          "verandering"
+        ],
+        "es": [
+          "aceptación",
+          "fluidez",
+          "cambio"
+        ],
+        "de": [
+          "Akzeptanz",
+          "Fluss",
+          "Veränderung"
+        ],
+        "it": [
+          "accettazione",
+          "flusso",
+          "cambiamento"
+        ],
+        "ru": [
+          "принятие",
+          "поток",
+          "изменение"
+        ],
+        "id": [
+          "penerimaan",
+          "aliran",
+          "perubahan"
+        ],
+        "ja": [
+          "受け入れ",
+          "流れ",
+          "変化"
+        ],
+        "th": [
+          "การยอมรับ",
+          "การไหล",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "penerimaan",
+          "aliran",
+          "perubahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1319,19 +1893,71 @@
         "ms": "Lao Tzu"
       },
       "tags": {
-        "en": ["acceptance", "change", "flow"],
-        "tr": ["kabul", "değişim", "akış"],
-        "fr": ["acceptation", "changement", "flux"],
-        "pt": ["aceitação", "mudança", "fluxo"],
-        "nl": ["acceptatie", "verandering", "stroming"],
-        "es": ["aceptación", "cambio", "fluidez"],
-        "de": ["Akzeptanz", "Veränderung", "Fluss"],
-        "it": ["accettazione", "cambiamento", "flusso"],
-        "ru": ["принятие", "изменение", "поток"],
-        "id": ["penerimaan", "perubahan", "aliran"],
-        "ja": ["受け入れ", "変化", "流れ"],
-        "th": ["การยอมรับ", "การเปลี่ยนแปลง", "การไหล"],
-        "ms": ["penerimaan", "perubahan", "aliran"]
+        "en": [
+          "acceptance",
+          "change",
+          "flow"
+        ],
+        "tr": [
+          "kabul",
+          "değişim",
+          "akış"
+        ],
+        "fr": [
+          "acceptation",
+          "changement",
+          "flux"
+        ],
+        "pt": [
+          "aceitação",
+          "mudança",
+          "fluxo"
+        ],
+        "nl": [
+          "acceptatie",
+          "verandering",
+          "stroming"
+        ],
+        "es": [
+          "aceptación",
+          "cambio",
+          "fluidez"
+        ],
+        "de": [
+          "Akzeptanz",
+          "Veränderung",
+          "Fluss"
+        ],
+        "it": [
+          "accettazione",
+          "cambiamento",
+          "flusso"
+        ],
+        "ru": [
+          "принятие",
+          "изменение",
+          "поток"
+        ],
+        "id": [
+          "penerimaan",
+          "perubahan",
+          "aliran"
+        ],
+        "ja": [
+          "受け入れ",
+          "変化",
+          "流れ"
+        ],
+        "th": [
+          "การยอมรับ",
+          "การเปลี่ยนแปลง",
+          "การไหล"
+        ],
+        "ms": [
+          "penerimaan",
+          "perubahan",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1436,19 +2062,71 @@
         "ms": "Zig Ziglar"
       },
       "tags": {
-        "en": ["action", "potential", "beginning"],
-        "tr": ["eylem", "potansiyel", "başlangıç"],
-        "fr": ["action", "potentiel", "commencement"],
-        "pt": ["ação", "potencial", "começo"],
-        "nl": ["actie", "potentieel", "begin"],
-        "es": ["acción", "potencial", "comienzo"],
-        "de": ["Aktion", "Potenzial", "Anfang"],
-        "it": ["azione", "potenziale", "inizio"],
-        "ru": ["действие", "потенциал", "начало"],
-        "id": ["tindakan", "potensi", "permulaan"],
-        "ja": ["行動", "可能性", "始まり"],
-        "th": ["การกระทำ", "ศักยภาพ", "การเริ่มต้น"],
-        "ms": ["tindakan", "potensi", "permulaan"]
+        "en": [
+          "action",
+          "potential",
+          "beginning"
+        ],
+        "tr": [
+          "eylem",
+          "potansiyel",
+          "başlangıç"
+        ],
+        "fr": [
+          "action",
+          "potentiel",
+          "commencement"
+        ],
+        "pt": [
+          "ação",
+          "potencial",
+          "começo"
+        ],
+        "nl": [
+          "actie",
+          "potentieel",
+          "begin"
+        ],
+        "es": [
+          "acción",
+          "potencial",
+          "comienzo"
+        ],
+        "de": [
+          "Aktion",
+          "Potenzial",
+          "Anfang"
+        ],
+        "it": [
+          "azione",
+          "potenziale",
+          "inizio"
+        ],
+        "ru": [
+          "действие",
+          "потенциал",
+          "начало"
+        ],
+        "id": [
+          "tindakan",
+          "potensi",
+          "permulaan"
+        ],
+        "ja": [
+          "行動",
+          "可能性",
+          "始まり"
+        ],
+        "th": [
+          "การกระทำ",
+          "ศักยภาพ",
+          "การเริ่มต้น"
+        ],
+        "ms": [
+          "tindakan",
+          "potensi",
+          "permulaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1553,19 +2231,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["action", "momentum", "change"],
-        "tr": ["eylem", "ivme", "değişim"],
-        "fr": ["action", "élan", "changement"],
-        "pt": ["ação", "impulso", "mudança"],
-        "nl": ["actie", "momentum", "verandering"],
-        "es": ["acción", "impulso", "cambio"],
-        "de": ["Aktion", "Schwung", "Veränderung"],
-        "it": ["azione", "slancio", "cambiamento"],
-        "ru": ["действие", "импульс", "изменение"],
-        "id": ["tindakan", "momentum", "perubahan"],
-        "ja": ["行動", "勢い", "変化"],
-        "th": ["การกระทำ", "โมเมนตัม", "การเปลี่ยนแปลง"],
-        "ms": ["tindakan", "momentum", "perubahan"]
+        "en": [
+          "action",
+          "momentum",
+          "change"
+        ],
+        "tr": [
+          "eylem",
+          "ivme",
+          "değişim"
+        ],
+        "fr": [
+          "action",
+          "élan",
+          "changement"
+        ],
+        "pt": [
+          "ação",
+          "impulso",
+          "mudança"
+        ],
+        "nl": [
+          "actie",
+          "momentum",
+          "verandering"
+        ],
+        "es": [
+          "acción",
+          "impulso",
+          "cambio"
+        ],
+        "de": [
+          "Aktion",
+          "Schwung",
+          "Veränderung"
+        ],
+        "it": [
+          "azione",
+          "slancio",
+          "cambiamento"
+        ],
+        "ru": [
+          "действие",
+          "импульс",
+          "изменение"
+        ],
+        "id": [
+          "tindakan",
+          "momentum",
+          "perubahan"
+        ],
+        "ja": [
+          "行動",
+          "勢い",
+          "変化"
+        ],
+        "th": [
+          "การกระทำ",
+          "โมเมนตัม",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "tindakan",
+          "momentum",
+          "perubahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1670,19 +2400,71 @@
         "ms": "Norman Vincent Peale"
       },
       "tags": {
-        "en": ["mindset", "perspective", "transformation"],
-        "tr": ["zihniyet", "bakış açısı", "dönüşüm"],
-        "fr": ["mentalité", "perspective", "transformation"],
-        "pt": ["mentalidade", "perspectiva", "transformação"],
-        "nl": ["mindset", "perspectief", "transformatie"],
-        "es": ["mentalidad", "perspectiva", "transformación"],
-        "de": ["Denkweise", "Perspektive", "Transformation"],
-        "it": ["mentalità", "prospettiva", "trasformazione"],
-        "ru": ["мышление", "перспектива", "трансформация"],
-        "id": ["pola pikir", "perspektif", "transformasi"],
-        "ja": ["マインドセット", "視点", "変革"],
-        "th": ["ทัศนคติ", "มุมมอง", "การเปลี่ยนแปลง"],
-        "ms": ["pemikiran", "perspektif", "transformasi"]
+        "en": [
+          "mindset",
+          "perspective",
+          "transformation"
+        ],
+        "tr": [
+          "zihniyet",
+          "bakış açısı",
+          "dönüşüm"
+        ],
+        "fr": [
+          "mentalité",
+          "perspective",
+          "transformation"
+        ],
+        "pt": [
+          "mentalidade",
+          "perspectiva",
+          "transformação"
+        ],
+        "nl": [
+          "mindset",
+          "perspectief",
+          "transformatie"
+        ],
+        "es": [
+          "mentalidad",
+          "perspectiva",
+          "transformación"
+        ],
+        "de": [
+          "Denkweise",
+          "Perspektive",
+          "Transformation"
+        ],
+        "it": [
+          "mentalità",
+          "prospettiva",
+          "trasformazione"
+        ],
+        "ru": [
+          "мышление",
+          "перспектива",
+          "трансформация"
+        ],
+        "id": [
+          "pola pikir",
+          "perspektif",
+          "transformasi"
+        ],
+        "ja": [
+          "マインドセット",
+          "視点",
+          "変革"
+        ],
+        "th": [
+          "ทัศนคติ",
+          "มุมมอง",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "pemikiran",
+          "perspektif",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1787,19 +2569,71 @@
         "ms": "Oprah Winfrey"
       },
       "tags": {
-        "en": ["attitude", "future", "transformation"],
-        "tr": ["tutum", "gelecek", "dönüşüm"],
-        "fr": ["attitude", "avenir", "transformation"],
-        "pt": ["atitude", "futuro", "transformação"],
-        "nl": ["houding", "toekomst", "transformatie"],
-        "es": ["actitud", "futuro", "transformación"],
-        "de": ["Einstellung", "Zukunft", "Transformation"],
-        "it": ["atteggiamento", "futuro", "trasformazione"],
-        "ru": ["отношение", "будущее", "трансформация"],
-        "id": ["sikap", "masa depan", "transformasi"],
-        "ja": ["態度", "未来", "変革"],
-        "th": ["ทัศนคติ", "อนาคต", "การเปลี่ยนแปลง"],
-        "ms": ["sikap", "masa depan", "transformasi"]
+        "en": [
+          "attitude",
+          "future",
+          "transformation"
+        ],
+        "tr": [
+          "tutum",
+          "gelecek",
+          "dönüşüm"
+        ],
+        "fr": [
+          "attitude",
+          "avenir",
+          "transformation"
+        ],
+        "pt": [
+          "atitude",
+          "futuro",
+          "transformação"
+        ],
+        "nl": [
+          "houding",
+          "toekomst",
+          "transformatie"
+        ],
+        "es": [
+          "actitud",
+          "futuro",
+          "transformación"
+        ],
+        "de": [
+          "Einstellung",
+          "Zukunft",
+          "Transformation"
+        ],
+        "it": [
+          "atteggiamento",
+          "futuro",
+          "trasformazione"
+        ],
+        "ru": [
+          "отношение",
+          "будущее",
+          "трансформация"
+        ],
+        "id": [
+          "sikap",
+          "masa depan",
+          "transformasi"
+        ],
+        "ja": [
+          "態度",
+          "未来",
+          "変革"
+        ],
+        "th": [
+          "ทัศนคติ",
+          "อนาคต",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "sikap",
+          "masa depan",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1904,19 +2738,71 @@
         "ms": "Maya Angelou"
       },
       "tags": {
-        "en": ["action", "attitude", "change"],
-        "tr": ["eylem", "tutum", "değişim"],
-        "fr": ["action", "attitude", "changement"],
-        "pt": ["ação", "atitude", "mudança"],
-        "nl": ["actie", "houding", "verandering"],
-        "es": ["acción", "actitud", "cambio"],
-        "de": ["Aktion", "Einstellung", "Veränderung"],
-        "it": ["azione", "atteggiamento", "cambiamento"],
-        "ru": ["действие", "отношение", "изменение"],
-        "id": ["tindakan", "sikap", "perubahan"],
-        "ja": ["行動", "態度", "変化"],
-        "th": ["การกระทำ", "ทัศนคติ", "การเปลี่ยนแปลง"],
-        "ms": ["tindakan", "sikap", "perubahan"]
+        "en": [
+          "action",
+          "attitude",
+          "change"
+        ],
+        "tr": [
+          "eylem",
+          "tutum",
+          "değişim"
+        ],
+        "fr": [
+          "action",
+          "attitude",
+          "changement"
+        ],
+        "pt": [
+          "ação",
+          "atitude",
+          "mudança"
+        ],
+        "nl": [
+          "actie",
+          "houding",
+          "verandering"
+        ],
+        "es": [
+          "acción",
+          "actitud",
+          "cambio"
+        ],
+        "de": [
+          "Aktion",
+          "Einstellung",
+          "Veränderung"
+        ],
+        "it": [
+          "azione",
+          "atteggiamento",
+          "cambiamento"
+        ],
+        "ru": [
+          "действие",
+          "отношение",
+          "изменение"
+        ],
+        "id": [
+          "tindakan",
+          "sikap",
+          "perubahan"
+        ],
+        "ja": [
+          "行動",
+          "態度",
+          "変化"
+        ],
+        "th": [
+          "การกระทำ",
+          "ทัศนคติ",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "tindakan",
+          "sikap",
+          "perubahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2021,19 +2907,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["thinking", "change", "perspective"],
-        "tr": ["düşünce", "değişim", "bakış açısı"],
-        "fr": ["pensée", "changement", "perspective"],
-        "pt": ["pensamento", "mudança", "perspectiva"],
-        "nl": ["denken", "verandering", "perspectief"],
-        "es": ["pensamiento", "cambio", "perspectiva"],
-        "de": ["Denken", "Veränderung", "Perspektive"],
-        "it": ["pensiero", "cambiamento", "prospettiva"],
-        "ru": ["мышление", "изменение", "перспектива"],
-        "id": ["pemikiran", "perubahan", "perspektif"],
-        "ja": ["思考", "変化", "視点"],
-        "th": ["ความคิด", "การเปลี่ยนแปลง", "มุมมอง"],
-        "ms": ["pemikiran", "perubahan", "perspektif"]
+        "en": [
+          "thinking",
+          "change",
+          "perspective"
+        ],
+        "tr": [
+          "düşünce",
+          "değişim",
+          "bakış açısı"
+        ],
+        "fr": [
+          "pensée",
+          "changement",
+          "perspective"
+        ],
+        "pt": [
+          "pensamento",
+          "mudança",
+          "perspectiva"
+        ],
+        "nl": [
+          "denken",
+          "verandering",
+          "perspectief"
+        ],
+        "es": [
+          "pensamiento",
+          "cambio",
+          "perspectiva"
+        ],
+        "de": [
+          "Denken",
+          "Veränderung",
+          "Perspektive"
+        ],
+        "it": [
+          "pensiero",
+          "cambiamento",
+          "prospettiva"
+        ],
+        "ru": [
+          "мышление",
+          "изменение",
+          "перспектива"
+        ],
+        "id": [
+          "pemikiran",
+          "perubahan",
+          "perspektif"
+        ],
+        "ja": [
+          "思考",
+          "変化",
+          "視点"
+        ],
+        "th": [
+          "ความคิด",
+          "การเปลี่ยนแปลง",
+          "มุมมอง"
+        ],
+        "ms": [
+          "pemikiran",
+          "perubahan",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2138,19 +3076,71 @@
         "ms": "Amira Lestari"
       },
       "tags": {
-        "en": ["change", "opportunity", "journey"],
-        "tr": ["değişim", "fırsat", "yolculuk"],
-        "fr": ["changement", "opportunité", "voyage"],
-        "pt": ["mudança", "oportunidade", "jornada"],
-        "nl": ["verandering", "kans", "reis"],
-        "es": ["cambio", "oportunidad", "viaje"],
-        "de": ["Veränderung", "Gelegenheit", "Reise"],
-        "it": ["cambiamento", "opportunità", "viaggio"],
-        "ru": ["изменение", "возможность", "путешествие"],
-        "id": ["perubahan", "peluang", "perjalanan"],
-        "ja": ["変化", "機会", "旅"],
-        "th": ["การเปลี่ยนแปลง", "โอกาส", "การเดินทาง"],
-        "ms": ["perubahan", "peluang", "perjalanan"]
+        "en": [
+          "change",
+          "opportunity",
+          "journey"
+        ],
+        "tr": [
+          "değişim",
+          "fırsat",
+          "yolculuk"
+        ],
+        "fr": [
+          "changement",
+          "opportunité",
+          "voyage"
+        ],
+        "pt": [
+          "mudança",
+          "oportunidade",
+          "jornada"
+        ],
+        "nl": [
+          "verandering",
+          "kans",
+          "reis"
+        ],
+        "es": [
+          "cambio",
+          "oportunidad",
+          "viaje"
+        ],
+        "de": [
+          "Veränderung",
+          "Gelegenheit",
+          "Reise"
+        ],
+        "it": [
+          "cambiamento",
+          "opportunità",
+          "viaggio"
+        ],
+        "ru": [
+          "изменение",
+          "возможность",
+          "путешествие"
+        ],
+        "id": [
+          "perubahan",
+          "peluang",
+          "perjalanan"
+        ],
+        "ja": [
+          "変化",
+          "機会",
+          "旅"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "โอกาส",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "perubahan",
+          "peluang",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2255,19 +3245,71 @@
         "ms": "Fatima Oliveira"
       },
       "tags": {
-        "en": ["change", "life", "adaptation"],
-        "tr": ["değişim", "hayat", "uyum"],
-        "fr": ["changement", "vie", "adaptation"],
-        "pt": ["mudança", "vida", "adaptação"],
-        "nl": ["verandering", "leven", "aanpassing"],
-        "es": ["cambio", "vida", "adaptación"],
-        "de": ["Veränderung", "Leben", "Anpassung"],
-        "it": ["cambiamento", "vita", "adattamento"],
-        "ru": ["изменение", "жизнь", "адаптация"],
-        "id": ["perubahan", "kehidupan", "adaptasi"],
-        "ja": ["変化", "人生", "適応"],
-        "th": ["การเปลี่ยนแปลง", "ชีวิต", "การปรับตัว"],
-        "ms": ["perubahan", "kehidupan", "penyesuaian"]
+        "en": [
+          "change",
+          "life",
+          "adaptation"
+        ],
+        "tr": [
+          "değişim",
+          "hayat",
+          "uyum"
+        ],
+        "fr": [
+          "changement",
+          "vie",
+          "adaptation"
+        ],
+        "pt": [
+          "mudança",
+          "vida",
+          "adaptação"
+        ],
+        "nl": [
+          "verandering",
+          "leven",
+          "aanpassing"
+        ],
+        "es": [
+          "cambio",
+          "vida",
+          "adaptación"
+        ],
+        "de": [
+          "Veränderung",
+          "Leben",
+          "Anpassung"
+        ],
+        "it": [
+          "cambiamento",
+          "vita",
+          "adattamento"
+        ],
+        "ru": [
+          "изменение",
+          "жизнь",
+          "адаптация"
+        ],
+        "id": [
+          "perubahan",
+          "kehidupan",
+          "adaptasi"
+        ],
+        "ja": [
+          "変化",
+          "人生",
+          "適応"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ชีวิต",
+          "การปรับตัว"
+        ],
+        "ms": [
+          "perubahan",
+          "kehidupan",
+          "penyesuaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2372,19 +3414,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["change", "courage", "path"],
-        "tr": ["değişim", "cesaret", "yol"],
-        "fr": ["changement", "courage", "chemin"],
-        "pt": ["mudança", "coragem", "caminho"],
-        "nl": ["verandering", "moed", "pad"],
-        "es": ["cambio", "coraje", "camino"],
-        "de": ["Veränderung", "Mut", "Weg"],
-        "it": ["cambiamento", "coraggio", "sentiero"],
-        "ru": ["изменение", "смелость", "путь"],
-        "id": ["perubahan", "keberanian", "jalan"],
-        "ja": ["変化", "勇気", "道"],
-        "th": ["การเปลี่ยนแปลง", "ความกล้าหาญ", "เส้นทาง"],
-        "ms": ["perubahan", "keberanian", "laluan"]
+        "en": [
+          "change",
+          "courage",
+          "path"
+        ],
+        "tr": [
+          "değişim",
+          "cesaret",
+          "yol"
+        ],
+        "fr": [
+          "changement",
+          "courage",
+          "chemin"
+        ],
+        "pt": [
+          "mudança",
+          "coragem",
+          "caminho"
+        ],
+        "nl": [
+          "verandering",
+          "moed",
+          "pad"
+        ],
+        "es": [
+          "cambio",
+          "coraje",
+          "camino"
+        ],
+        "de": [
+          "Veränderung",
+          "Mut",
+          "Weg"
+        ],
+        "it": [
+          "cambiamento",
+          "coraggio",
+          "sentiero"
+        ],
+        "ru": [
+          "изменение",
+          "смелость",
+          "путь"
+        ],
+        "id": [
+          "perubahan",
+          "keberanian",
+          "jalan"
+        ],
+        "ja": [
+          "変化",
+          "勇気",
+          "道"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความกล้าหาญ",
+          "เส้นทาง"
+        ],
+        "ms": [
+          "perubahan",
+          "keberanian",
+          "laluan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2489,19 +3583,71 @@
         "ms": "Chaiya Srisuk"
       },
       "tags": {
-        "en": ["change", "destiny", "nature"],
-        "tr": ["değişim", "kader", "doğa"],
-        "fr": ["changement", "destin", "nature"],
-        "pt": ["mudança", "destino", "natureza"],
-        "nl": ["verandering", "lot", "natuur"],
-        "es": ["cambio", "destino", "naturaleza"],
-        "de": ["Veränderung", "Schicksal", "Natur"],
-        "it": ["cambiamento", "destino", "natura"],
-        "ru": ["изменение", "судьба", "природа"],
-        "id": ["perubahan", "takdir", "alam"],
-        "ja": ["変化", "運命", "自然"],
-        "th": ["การเปลี่ยนแปลง", "โชคชะตา", "ธรรมชาติ"],
-        "ms": ["perubahan", "nasib", "alam semula jadi"]
+        "en": [
+          "change",
+          "destiny",
+          "nature"
+        ],
+        "tr": [
+          "değişim",
+          "kader",
+          "doğa"
+        ],
+        "fr": [
+          "changement",
+          "destin",
+          "nature"
+        ],
+        "pt": [
+          "mudança",
+          "destino",
+          "natureza"
+        ],
+        "nl": [
+          "verandering",
+          "lot",
+          "natuur"
+        ],
+        "es": [
+          "cambio",
+          "destino",
+          "naturaleza"
+        ],
+        "de": [
+          "Veränderung",
+          "Schicksal",
+          "Natur"
+        ],
+        "it": [
+          "cambiamento",
+          "destino",
+          "natura"
+        ],
+        "ru": [
+          "изменение",
+          "судьба",
+          "природа"
+        ],
+        "id": [
+          "perubahan",
+          "takdir",
+          "alam"
+        ],
+        "ja": [
+          "変化",
+          "運命",
+          "自然"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "โชคชะตา",
+          "ธรรมชาติ"
+        ],
+        "ms": [
+          "perubahan",
+          "nasib",
+          "alam semula jadi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2606,19 +3752,71 @@
         "ms": "Elena Petrovna"
       },
       "tags": {
-        "en": ["change", "progress", "innovation"],
-        "tr": ["değişim", "ilerleme", "yenilik"],
-        "fr": ["changement", "progrès", "innovation"],
-        "pt": ["mudança", "progresso", "inovação"],
-        "nl": ["verandering", "vooruitgang", "innovatie"],
-        "es": ["cambio", "progreso", "innovación"],
-        "de": ["Veränderung", "Fortschritt", "Innovation"],
-        "it": ["cambiamento", "progresso", "innovazione"],
-        "ru": ["изменение", "прогресс", "инновация"],
-        "id": ["perubahan", "kemajuan", "inovasi"],
-        "ja": ["変化", "進歩", "革新"],
-        "th": ["การเปลี่ยนแปลง", "ความก้าวหน้า", "นวัตกรรม"],
-        "ms": ["perubahan", "kemajuan", "inovasi"]
+        "en": [
+          "change",
+          "progress",
+          "innovation"
+        ],
+        "tr": [
+          "değişim",
+          "ilerleme",
+          "yenilik"
+        ],
+        "fr": [
+          "changement",
+          "progrès",
+          "innovation"
+        ],
+        "pt": [
+          "mudança",
+          "progresso",
+          "inovação"
+        ],
+        "nl": [
+          "verandering",
+          "vooruitgang",
+          "innovatie"
+        ],
+        "es": [
+          "cambio",
+          "progreso",
+          "innovación"
+        ],
+        "de": [
+          "Veränderung",
+          "Fortschritt",
+          "Innovation"
+        ],
+        "it": [
+          "cambiamento",
+          "progresso",
+          "innovazione"
+        ],
+        "ru": [
+          "изменение",
+          "прогресс",
+          "инновация"
+        ],
+        "id": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ],
+        "ja": [
+          "変化",
+          "進歩",
+          "革新"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความก้าวหน้า",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2723,19 +3921,71 @@
         "ms": "Aminah Yusof"
       },
       "tags": {
-        "en": ["change", "future", "growth"],
-        "tr": ["değişim", "gelecek", "büyüme"],
-        "fr": ["changement", "avenir", "croissance"],
-        "pt": ["mudança", "futuro", "crescimento"],
-        "nl": ["verandering", "toekomst", "groei"],
-        "es": ["cambio", "futuro", "crecimiento"],
-        "de": ["Veränderung", "Zukunft", "Wachstum"],
-        "it": ["cambiamento", "futuro", "crescita"],
-        "ru": ["изменение", "будущее", "рост"],
-        "id": ["perubahan", "masa depan", "pertumbuhan"],
-        "ja": ["変化", "未来", "成長"],
-        "th": ["การเปลี่ยนแปลง", "อนาคต", "การเติบโต"],
-        "ms": ["perubahan", "masa depan", "pertumbuhan"]
+        "en": [
+          "change",
+          "future",
+          "growth"
+        ],
+        "tr": [
+          "değişim",
+          "gelecek",
+          "büyüme"
+        ],
+        "fr": [
+          "changement",
+          "avenir",
+          "croissance"
+        ],
+        "pt": [
+          "mudança",
+          "futuro",
+          "crescimento"
+        ],
+        "nl": [
+          "verandering",
+          "toekomst",
+          "groei"
+        ],
+        "es": [
+          "cambio",
+          "futuro",
+          "crecimiento"
+        ],
+        "de": [
+          "Veränderung",
+          "Zukunft",
+          "Wachstum"
+        ],
+        "it": [
+          "cambiamento",
+          "futuro",
+          "crescita"
+        ],
+        "ru": [
+          "изменение",
+          "будущее",
+          "рост"
+        ],
+        "id": [
+          "perubahan",
+          "masa depan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "変化",
+          "未来",
+          "成長"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "อนาคต",
+          "การเติบโต"
+        ],
+        "ms": [
+          "perubahan",
+          "masa depan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2806,7 +4056,7 @@
         }
       }
     },
-     {
+    {
       "id": "change_025",
       "category": "change",
       "texts": {
@@ -2840,19 +4090,71 @@
         "ms": "Sofia Mendes"
       },
       "tags": {
-        "en": ["change", "soul", "transformation"],
-        "tr": ["değişim", "ruh", "dönüşüm"],
-        "fr": ["changement", "âme", "transformation"],
-        "pt": ["mudança", "alma", "transformação"],
-        "nl": ["verandering", "ziel", "transformatie"],
-        "es": ["cambio", "alma", "transformación"],
-        "de": ["Veränderung", "Seele", "Transformation"],
-        "it": ["cambiamento", "anima", "trasformazione"],
-        "ru": ["изменение", "душа", "трансформация"],
-        "id": ["perubahan", "jiwa", "transformasi"],
-        "ja": ["変化", "魂", "変容"],
-        "th": ["การเปลี่ยนแปลง", "จิตวิญญาณ", "การเปลี่ยนแปลง"],
-        "ms": ["perubahan", "jiwa", "transformasi"]
+        "en": [
+          "change",
+          "soul",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "ruh",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "âme",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "alma",
+          "transformação"
+        ],
+        "nl": [
+          "verandering",
+          "ziel",
+          "transformatie"
+        ],
+        "es": [
+          "cambio",
+          "alma",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Seele",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "anima",
+          "trasformazione"
+        ],
+        "ru": [
+          "изменение",
+          "душа",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "jiwa",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "魂",
+          "変容"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "จิตวิญญาณ",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "perubahan",
+          "jiwa",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2957,19 +4259,71 @@
         "ms": "Clara van den Berg"
       },
       "tags": {
-        "en": ["change", "self-discovery", "reflection"],
-        "tr": ["değişim", "kendini keşfetme", "yansıma"],
-        "fr": ["changement", "découverte de soi", "réflexion"],
-        "pt": ["mudança", "autodescoberta", "reflexão"],
-        "nl": ["verandering", "zelfontdekking", "reflectie"],
-        "es": ["cambio", "autodescubrimiento", "reflexión"],
-        "de": ["Veränderung", "Selbstfindung", "Spiegelung"],
-        "it": ["cambiamento", "scoperta di sé", "riflessione"],
-        "ru": ["изменение", "самопознание", "отражение"],
-        "id": ["perubahan", "penemuan diri", "refleksi"],
-        "ja": ["変化", "自己発見", "反射"],
-        "th": ["การเปลี่ยนแปลง", "การค้นพบตัวเอง", "การสะท้อน"],
-        "ms": ["perubahan", "penemuan diri", "pantulan"]
+        "en": [
+          "change",
+          "self-discovery",
+          "reflection"
+        ],
+        "tr": [
+          "değişim",
+          "kendini keşfetme",
+          "yansıma"
+        ],
+        "fr": [
+          "changement",
+          "découverte de soi",
+          "réflexion"
+        ],
+        "pt": [
+          "mudança",
+          "autodescoberta",
+          "reflexão"
+        ],
+        "nl": [
+          "verandering",
+          "zelfontdekking",
+          "reflectie"
+        ],
+        "es": [
+          "cambio",
+          "autodescubrimiento",
+          "reflexión"
+        ],
+        "de": [
+          "Veränderung",
+          "Selbstfindung",
+          "Spiegelung"
+        ],
+        "it": [
+          "cambiamento",
+          "scoperta di sé",
+          "riflessione"
+        ],
+        "ru": [
+          "изменение",
+          "самопознание",
+          "отражение"
+        ],
+        "id": [
+          "perubahan",
+          "penemuan diri",
+          "refleksi"
+        ],
+        "ja": [
+          "変化",
+          "自己発見",
+          "反射"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การค้นพบตัวเอง",
+          "การสะท้อน"
+        ],
+        "ms": [
+          "perubahan",
+          "penemuan diri",
+          "pantulan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3074,19 +4428,71 @@
         "ms": "Leyla Öztürk"
       },
       "tags": {
-        "en": ["change", "renewal", "life"],
-        "tr": ["değişim", "yenilenme", "hayat"],
-        "fr": ["changement", "renouveau", "vie"],
-        "pt": ["mudança", "renovação", "vida"],
-        "nl": ["verandering", "vernieuwing", "leven"],
-        "es": ["cambio", "renovación", "vida"],
-        "de": ["Veränderung", "Erneuerung", "Leben"],
-        "it": ["cambiamento", "rinnovamento", "vita"],
-        "ru": ["изменение", "обновление", "жизнь"],
-        "id": ["perubahan", "pembaruan", "kehidupan"],
-        "ja": ["変化", "再生", "人生"],
-        "th": ["การเปลี่ยนแปลง", "การฟื้นฟู", "ชีวิต"],
-        "ms": ["perubahan", "pembaharuan", "kehidupan"]
+        "en": [
+          "change",
+          "renewal",
+          "life"
+        ],
+        "tr": [
+          "değişim",
+          "yenilenme",
+          "hayat"
+        ],
+        "fr": [
+          "changement",
+          "renouveau",
+          "vie"
+        ],
+        "pt": [
+          "mudança",
+          "renovação",
+          "vida"
+        ],
+        "nl": [
+          "verandering",
+          "vernieuwing",
+          "leven"
+        ],
+        "es": [
+          "cambio",
+          "renovación",
+          "vida"
+        ],
+        "de": [
+          "Veränderung",
+          "Erneuerung",
+          "Leben"
+        ],
+        "it": [
+          "cambiamento",
+          "rinnovamento",
+          "vita"
+        ],
+        "ru": [
+          "изменение",
+          "обновление",
+          "жизнь"
+        ],
+        "id": [
+          "perubahan",
+          "pembaruan",
+          "kehidupan"
+        ],
+        "ja": [
+          "変化",
+          "再生",
+          "人生"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การฟื้นฟู",
+          "ชีวิต"
+        ],
+        "ms": [
+          "perubahan",
+          "pembaharuan",
+          "kehidupan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3191,19 +4597,71 @@
         "ms": "Giovanni Rossi"
       },
       "tags": {
-        "en": ["change", "existence", "harmony"],
-        "tr": ["değişim", "varoluş", "uyum"],
-        "fr": ["changement", "existence", "harmonie"],
-        "pt": ["mudança", "existência", "harmonia"],
-        "nl": ["verandering", "bestaan", "harmonie"],
-        "es": ["cambio", "existencia", "armonía"],
-        "de": ["Veränderung", "Dasein", "Harmonie"],
-        "it": ["cambiamento", "esistenza", "armonia"],
-        "ru": ["изменение", "существование", "гармония"],
-        "id": ["perubahan", "keberadaan", "harmoni"],
-        "ja": ["変化", "存在", "調和"],
-        "th": ["การเปลี่ยนแปลง", "การดำรงอยู่", "ความกลมกลืน"],
-        "ms": ["perubahan", "kewujudan", "harmoni"]
+        "en": [
+          "change",
+          "existence",
+          "harmony"
+        ],
+        "tr": [
+          "değişim",
+          "varoluş",
+          "uyum"
+        ],
+        "fr": [
+          "changement",
+          "existence",
+          "harmonie"
+        ],
+        "pt": [
+          "mudança",
+          "existência",
+          "harmonia"
+        ],
+        "nl": [
+          "verandering",
+          "bestaan",
+          "harmonie"
+        ],
+        "es": [
+          "cambio",
+          "existencia",
+          "armonía"
+        ],
+        "de": [
+          "Veränderung",
+          "Dasein",
+          "Harmonie"
+        ],
+        "it": [
+          "cambiamento",
+          "esistenza",
+          "armonia"
+        ],
+        "ru": [
+          "изменение",
+          "существование",
+          "гармония"
+        ],
+        "id": [
+          "perubahan",
+          "keberadaan",
+          "harmoni"
+        ],
+        "ja": [
+          "変化",
+          "存在",
+          "調和"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การดำรงอยู่",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "perubahan",
+          "kewujudan",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3308,19 +4766,71 @@
         "ms": "María López"
       },
       "tags": {
-        "en": ["change", "future", "creation"],
-        "tr": ["değişim", "gelecek", "yaratma"],
-        "fr": ["changement", "avenir", "création"],
-        "pt": ["mudança", "futuro", "criação"],
-        "nl": ["verandering", "toekomst", "creatie"],
-        "es": ["cambio", "futuro", "creación"],
-        "de": ["Veränderung", "Zukunft", "Schöpfung"],
-        "it": ["cambiamento", "futuro", "creazione"],
-        "ru": ["изменение", "будущее", "создание"],
-        "id": ["perubahan", "masa depan", "penciptaan"],
-        "ja": ["変化", "未来", "創造"],
-        "th": ["การเปลี่ยนแปลง", "อนาคต", "การสร้าง"],
-        "ms": ["perubahan", "masa depan", "penciptaan"]
+        "en": [
+          "change",
+          "future",
+          "creation"
+        ],
+        "tr": [
+          "değişim",
+          "gelecek",
+          "yaratma"
+        ],
+        "fr": [
+          "changement",
+          "avenir",
+          "création"
+        ],
+        "pt": [
+          "mudança",
+          "futuro",
+          "criação"
+        ],
+        "nl": [
+          "verandering",
+          "toekomst",
+          "creatie"
+        ],
+        "es": [
+          "cambio",
+          "futuro",
+          "creación"
+        ],
+        "de": [
+          "Veränderung",
+          "Zukunft",
+          "Schöpfung"
+        ],
+        "it": [
+          "cambiamento",
+          "futuro",
+          "creazione"
+        ],
+        "ru": [
+          "изменение",
+          "будущее",
+          "создание"
+        ],
+        "id": [
+          "perubahan",
+          "masa depan",
+          "penciptaan"
+        ],
+        "ja": [
+          "変化",
+          "未来",
+          "創造"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "อนาคต",
+          "การสร้าง"
+        ],
+        "ms": [
+          "perubahan",
+          "masa depan",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3425,19 +4935,71 @@
         "ms": "Anastasia Volkov"
       },
       "tags": {
-        "en": ["change", "possibility", "hope"],
-        "tr": ["değişim", "olasılık", "umut"],
-        "fr": ["changement", "possibilité", "espoir"],
-        "pt": ["mudança", "possibilidade", "esperança"],
-        "nl": ["verandering", "mogelijkheid", "hoop"],
-        "es": ["cambio", "posibilidad", "esperanza"],
-        "de": ["Veränderung", "Möglichkeit", "Hoffnung"],
-        "it": ["cambiamento", "possibilità", "speranza"],
-        "ru": ["изменение", "возможность", "надежда"],
-        "id": ["perubahan", "kemungkinan", "harapan"],
-        "ja": ["変化", "可能性", "希望"],
-        "th": ["การเปลี่ยนแปลง", "ความเป็นไปได้", "ความหวัง"],
-        "ms": ["perubahan", "kemungkinan", "harapan"]
+        "en": [
+          "change",
+          "possibility",
+          "hope"
+        ],
+        "tr": [
+          "değişim",
+          "olasılık",
+          "umut"
+        ],
+        "fr": [
+          "changement",
+          "possibilité",
+          "espoir"
+        ],
+        "pt": [
+          "mudança",
+          "possibilidade",
+          "esperança"
+        ],
+        "nl": [
+          "verandering",
+          "mogelijkheid",
+          "hoop"
+        ],
+        "es": [
+          "cambio",
+          "posibilidad",
+          "esperanza"
+        ],
+        "de": [
+          "Veränderung",
+          "Möglichkeit",
+          "Hoffnung"
+        ],
+        "it": [
+          "cambiamento",
+          "possibilità",
+          "speranza"
+        ],
+        "ru": [
+          "изменение",
+          "возможность",
+          "надежда"
+        ],
+        "id": [
+          "perubahan",
+          "kemungkinan",
+          "harapan"
+        ],
+        "ja": [
+          "変化",
+          "可能性",
+          "希望"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความเป็นไปได้",
+          "ความหวัง"
+        ],
+        "ms": [
+          "perubahan",
+          "kemungkinan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3542,19 +5104,71 @@
         "ms": "Rudi Hartono"
       },
       "tags": {
-        "en": ["change", "guidance", "journey"],
-        "tr": ["değişim", "rehberlik", "yolculuk"],
-        "fr": ["changement", "guidance", "voyage"],
-        "pt": ["mudança", "orientação", "jornada"],
-        "nl": ["verandering", "begeleiding", "reis"],
-        "es": ["cambio", "guía", "viaje"],
-        "de": ["Veränderung", "Führung", "Reise"],
-        "it": ["cambiamento", "guida", "viaggio"],
-        "ru": ["изменение", "руководство", "путешествие"],
-        "id": ["perubahan", "panduan", "perjalanan"],
-        "ja": ["変化", "指導", "旅"],
-        "th": ["การเปลี่ยนแปลง", "การนำทาง", "การเดินทาง"],
-        "ms": ["perubahan", "panduan", "perjalanan"]
+        "en": [
+          "change",
+          "guidance",
+          "journey"
+        ],
+        "tr": [
+          "değişim",
+          "rehberlik",
+          "yolculuk"
+        ],
+        "fr": [
+          "changement",
+          "guidance",
+          "voyage"
+        ],
+        "pt": [
+          "mudança",
+          "orientação",
+          "jornada"
+        ],
+        "nl": [
+          "verandering",
+          "begeleiding",
+          "reis"
+        ],
+        "es": [
+          "cambio",
+          "guía",
+          "viaje"
+        ],
+        "de": [
+          "Veränderung",
+          "Führung",
+          "Reise"
+        ],
+        "it": [
+          "cambiamento",
+          "guida",
+          "viaggio"
+        ],
+        "ru": [
+          "изменение",
+          "руководство",
+          "путешествие"
+        ],
+        "id": [
+          "perubahan",
+          "panduan",
+          "perjalanan"
+        ],
+        "ja": [
+          "変化",
+          "指導",
+          "旅"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การนำทาง",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "perubahan",
+          "panduan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3659,19 +5273,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["change", "exploration", "opportunity"],
-        "tr": ["değişim", "keşif", "fırsat"],
-        "fr": ["changement", "exploration", "opportunité"],
-        "pt": ["mudança", "exploração", "oportunidade"],
-        "nl": ["verandering", "verkenning", "kans"],
-        "es": ["cambio", "exploración", "oportunidad"],
-        "de": ["Veränderung", "Erkundung", "Gelegenheit"],
-        "it": ["cambiamento", "esplorazione", "opportunità"],
-        "ru": ["изменение", "исследование", "возможность"],
-        "id": ["perubahan", "penjelajahan", "peluang"],
-        "ja": ["変化", "探検", "機会"],
-        "th": ["การเปลี่ยนแปลง", "การสำรวจ", "โอกาส"],
-        "ms": ["perubahan", "penerokaan", "peluang"]
+        "en": [
+          "change",
+          "exploration",
+          "opportunity"
+        ],
+        "tr": [
+          "değişim",
+          "keşif",
+          "fırsat"
+        ],
+        "fr": [
+          "changement",
+          "exploration",
+          "opportunité"
+        ],
+        "pt": [
+          "mudança",
+          "exploração",
+          "oportunidade"
+        ],
+        "nl": [
+          "verandering",
+          "verkenning",
+          "kans"
+        ],
+        "es": [
+          "cambio",
+          "exploración",
+          "oportunidad"
+        ],
+        "de": [
+          "Veränderung",
+          "Erkundung",
+          "Gelegenheit"
+        ],
+        "it": [
+          "cambiamento",
+          "esplorazione",
+          "opportunità"
+        ],
+        "ru": [
+          "изменение",
+          "исследование",
+          "возможность"
+        ],
+        "id": [
+          "perubahan",
+          "penjelajahan",
+          "peluang"
+        ],
+        "ja": [
+          "変化",
+          "探検",
+          "機会"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การสำรวจ",
+          "โอกาส"
+        ],
+        "ms": [
+          "perubahan",
+          "penerokaan",
+          "peluang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3776,19 +5442,71 @@
         "ms": "Chaiya Srisuk"
       },
       "tags": {
-        "en": ["change", "dreams", "transformation"],
-        "tr": ["değişim", "hayaller", "dönüşüm"],
-        "fr": ["changement", "rêves", "transformation"],
-        "pt": ["mudança", "sonhos", "transformação"],
-        "nl": ["verandering", "dromen", "transformatie"],
-        "es": ["cambio", "sueños", "transformación"],
-        "de": ["Veränderung", "Träume", "Transformation"],
-        "it": ["cambiamento", "sogni", "trasformazione"],
-        "ru": ["изменение", "мечты", "трансформация"],
-        "id": ["perubahan", "impian", "transformasi"],
-        "ja": ["変化", "夢", "変容"],
-        "th": ["การเปลี่ยนแปลง", "ความฝัน", "การเปลี่ยนแปลง"],
-        "ms": ["perubahan", "impian", "transformasi"]
+        "en": [
+          "change",
+          "dreams",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "hayaller",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "rêves",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "sonhos",
+          "transformação"
+        ],
+        "nl": [
+          "verandering",
+          "dromen",
+          "transformatie"
+        ],
+        "es": [
+          "cambio",
+          "sueños",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Träume",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "sogni",
+          "trasformazione"
+        ],
+        "ru": [
+          "изменение",
+          "мечты",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "impian",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "夢",
+          "変容"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความฝัน",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "perubahan",
+          "impian",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3893,19 +5611,71 @@
         "ms": "Fatima Ismail"
       },
       "tags": {
-        "en": ["change", "hope", "growth"],
-        "tr": ["değişim", "umut", "büyüme"],
-        "fr": ["changement", "espoir", "croissance"],
-        "pt": ["mudança", "esperança", "crescimento"],
-        "nl": ["verandering", "hoop", "groei"],
-        "es": ["cambio", "esperanza", "crecimiento"],
-        "de": ["Veränderung", "Hoffnung", "Wachstum"],
-        "it": ["cambiamento", "speranza", "crescita"],
-        "ru": ["изменение", "надежда", "рост"],
-        "id": ["perubahan", "harapan", "pertumbuhan"],
-        "ja": ["変化", "希望", "成長"],
-        "th": ["การเปลี่ยนแปลง", "ความหวัง", "การเติบโต"],
-        "ms": ["perubahan", "harapan", "pertumbuhan"]
+        "en": [
+          "change",
+          "hope",
+          "growth"
+        ],
+        "tr": [
+          "değişim",
+          "umut",
+          "büyüme"
+        ],
+        "fr": [
+          "changement",
+          "espoir",
+          "croissance"
+        ],
+        "pt": [
+          "mudança",
+          "esperança",
+          "crescimento"
+        ],
+        "nl": [
+          "verandering",
+          "hoop",
+          "groei"
+        ],
+        "es": [
+          "cambio",
+          "esperanza",
+          "crecimiento"
+        ],
+        "de": [
+          "Veränderung",
+          "Hoffnung",
+          "Wachstum"
+        ],
+        "it": [
+          "cambiamento",
+          "speranza",
+          "crescita"
+        ],
+        "ru": [
+          "изменение",
+          "надежда",
+          "рост"
+        ],
+        "id": [
+          "perubahan",
+          "harapan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "変化",
+          "希望",
+          "成長"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความหวัง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "perubahan",
+          "harapan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4010,19 +5780,71 @@
         "ms": "Aylin Kaya"
       },
       "tags": {
-        "en": ["change", "renewal", "illumination"],
-        "tr": ["değişim", "yenilenme", "aydınlatma"],
-        "fr": ["changement", "renouveau", "illumination"],
-        "pt": ["mudança", "renovação", "iluminação"],
-        "nl": ["verandering", "vernieuwing", "verlichting"],
-        "es": ["cambio", "renovación", "iluminación"],
-        "de": ["Veränderung", "Erneuerung", "Erleuchtung"],
-        "it": ["cambiamento", "rinnovamento", "illuminazione"],
-        "ru": ["изменение", "обновление", "освещение"],
-        "id": ["perubahan", "pembaruan", "penerangan"],
-        "ja": ["変化", "再生", "照明"],
-        "th": ["การเปลี่ยนแปลง", "การฟื้นฟู", "การส่องสว่าง"],
-        "ms": ["perubahan", "pembaharuan", "pencerahan"]
+        "en": [
+          "change",
+          "renewal",
+          "illumination"
+        ],
+        "tr": [
+          "değişim",
+          "yenilenme",
+          "aydınlatma"
+        ],
+        "fr": [
+          "changement",
+          "renouveau",
+          "illumination"
+        ],
+        "pt": [
+          "mudança",
+          "renovação",
+          "iluminação"
+        ],
+        "nl": [
+          "verandering",
+          "vernieuwing",
+          "verlichting"
+        ],
+        "es": [
+          "cambio",
+          "renovación",
+          "iluminación"
+        ],
+        "de": [
+          "Veränderung",
+          "Erneuerung",
+          "Erleuchtung"
+        ],
+        "it": [
+          "cambiamento",
+          "rinnovamento",
+          "illuminazione"
+        ],
+        "ru": [
+          "изменение",
+          "обновление",
+          "освещение"
+        ],
+        "id": [
+          "perubahan",
+          "pembaruan",
+          "penerangan"
+        ],
+        "ja": [
+          "変化",
+          "再生",
+          "照明"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การฟื้นฟู",
+          "การส่องสว่าง"
+        ],
+        "ms": [
+          "perubahan",
+          "pembaharuan",
+          "pencerahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4127,19 +5949,71 @@
         "ms": "Luís Ferreira"
       },
       "tags": {
-        "en": ["change", "connection", "transition"],
-        "tr": ["değişim", "bağlantı", "geçiş"],
-        "fr": ["changement", "connexion", "transition"],
-        "pt": ["mudança", "conexão", "transição"],
-        "nl": ["verandering", "verbinding", "overgang"],
-        "es": ["cambio", "conexión", "transición"],
-        "de": ["Veränderung", "Verbindung", "Übergang"],
-        "it": ["cambiamento", "connessione", "transizione"],
-        "ru": ["изменение", "связь", "переход"],
-        "id": ["perubahan", "hubungan", "transisi"],
-        "ja": ["変化", "つながり", "移行"],
-        "th": ["การเปลี่ยนแปลง", "การเชื่อมโยง", "การเปลี่ยนผ่าน"],
-        "ms": ["perubahan", "hubungan", "peralihan"]
+        "en": [
+          "change",
+          "connection",
+          "transition"
+        ],
+        "tr": [
+          "değişim",
+          "bağlantı",
+          "geçiş"
+        ],
+        "fr": [
+          "changement",
+          "connexion",
+          "transition"
+        ],
+        "pt": [
+          "mudança",
+          "conexão",
+          "transição"
+        ],
+        "nl": [
+          "verandering",
+          "verbinding",
+          "overgang"
+        ],
+        "es": [
+          "cambio",
+          "conexión",
+          "transición"
+        ],
+        "de": [
+          "Veränderung",
+          "Verbindung",
+          "Übergang"
+        ],
+        "it": [
+          "cambiamento",
+          "connessione",
+          "transizione"
+        ],
+        "ru": [
+          "изменение",
+          "связь",
+          "переход"
+        ],
+        "id": [
+          "perubahan",
+          "hubungan",
+          "transisi"
+        ],
+        "ja": [
+          "変化",
+          "つながり",
+          "移行"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเชื่อมโยง",
+          "การเปลี่ยนผ่าน"
+        ],
+        "ms": [
+          "perubahan",
+          "hubungan",
+          "peralihan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4244,19 +6118,71 @@
         "ms": "Amara Wijaya"
       },
       "tags": {
-        "en": ["change", "destiny", "transformation"],
-        "tr": ["değişim", "kader", "dönüşüm"],
-        "fr": ["changement", "destin", "transformation"],
-        "pt": ["mudança", "destino", "transformação"],
-        "nl": ["verandering", "lotsbestemming", "transformatie"],
-        "es": ["cambio", "destino", "transformación"],
-        "de": ["Veränderung", "Schicksal", "Transformation"],
-        "it": ["cambiamento", "destino", "trasformazione"],
-        "ru": ["изменение", "судьба", "трансформация"],
-        "id": ["perubahan", "takdir", "transformasi"],
-        "ja": ["変化", "運命", "変容"],
-        "th": ["การเปลี่ยนแปลง", "โชคชะตา", "การเปลี่ยนแปลง"],
-        "ms": ["perubahan", "takdir", "transformasi"]
+        "en": [
+          "change",
+          "destiny",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "kader",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "destin",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "destino",
+          "transformação"
+        ],
+        "nl": [
+          "verandering",
+          "lotsbestemming",
+          "transformatie"
+        ],
+        "es": [
+          "cambio",
+          "destino",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Schicksal",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "destino",
+          "trasformazione"
+        ],
+        "ru": [
+          "изменение",
+          "судьба",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "takdir",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "運命",
+          "変容"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "โชคชะตา",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "perubahan",
+          "takdir",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4361,19 +6287,71 @@
         "ms": "Clara Mendes"
       },
       "tags": {
-        "en": ["change", "evolution", "harmony"],
-        "tr": ["değişim", "evrim", "uyum"],
-        "fr": ["changement", "évolution", "harmonie"],
-        "pt": ["mudança", "evolução", "harmonia"],
-        "nl": ["verandering", "evolutie", "harmonie"],
-        "es": ["cambio", "evolución", "armonía"],
-        "de": ["Veränderung", "Evolution", "Harmonie"],
-        "it": ["cambiamento", "evoluzione", "armonia"],
-        "ru": ["изменение", "эволюция", "гармония"],
-        "id": ["perubahan", "evolusi", "harmoni"],
-        "ja": ["変化", "進化", "調和"],
-        "th": ["การเปลี่ยนแปลง", "วิวัฒนาการ", "ความกลมกลืน"],
-        "ms": ["perubahan", "evolusi", "harmoni"]
+        "en": [
+          "change",
+          "evolution",
+          "harmony"
+        ],
+        "tr": [
+          "değişim",
+          "evrim",
+          "uyum"
+        ],
+        "fr": [
+          "changement",
+          "évolution",
+          "harmonie"
+        ],
+        "pt": [
+          "mudança",
+          "evolução",
+          "harmonia"
+        ],
+        "nl": [
+          "verandering",
+          "evolutie",
+          "harmonie"
+        ],
+        "es": [
+          "cambio",
+          "evolución",
+          "armonía"
+        ],
+        "de": [
+          "Veränderung",
+          "Evolution",
+          "Harmonie"
+        ],
+        "it": [
+          "cambiamento",
+          "evoluzione",
+          "armonia"
+        ],
+        "ru": [
+          "изменение",
+          "эволюция",
+          "гармония"
+        ],
+        "id": [
+          "perubahan",
+          "evolusi",
+          "harmoni"
+        ],
+        "ja": [
+          "変化",
+          "進化",
+          "調和"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "วิวัฒนาการ",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "perubahan",
+          "evolusi",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4478,19 +6456,71 @@
         "ms": "Elena Petrova"
       },
       "tags": {
-        "en": ["change", "opportunity", "beginnings"],
-        "tr": ["değişim", "fırsat", "başlangıçlar"],
-        "fr": ["changement", "opportunité", "débuts"],
-        "pt": ["mudança", "oportunidade", "começos"],
-        "nl": ["verandering", "kans", "begin"],
-        "es": ["cambio", "oportunidad", "comienzos"],
-        "de": ["Veränderung", "Gelegenheit", "Anfänge"],
-        "it": ["cambiamento", "opportunità", "inizi"],
-        "ru": ["изменение", "возможность", "начала"],
-        "id": ["perubahan", "peluang", "awal"],
-        "ja": ["変化", "機会", "始まり"],
-        "th": ["การเปลี่ยนแปลง", "โอกาส", "การเริ่มต้น"],
-        "ms": ["perubahan", "peluang", "permulaan"]
+        "en": [
+          "change",
+          "opportunity",
+          "beginnings"
+        ],
+        "tr": [
+          "değişim",
+          "fırsat",
+          "başlangıçlar"
+        ],
+        "fr": [
+          "changement",
+          "opportunité",
+          "débuts"
+        ],
+        "pt": [
+          "mudança",
+          "oportunidade",
+          "começos"
+        ],
+        "nl": [
+          "verandering",
+          "kans",
+          "begin"
+        ],
+        "es": [
+          "cambio",
+          "oportunidad",
+          "comienzos"
+        ],
+        "de": [
+          "Veränderung",
+          "Gelegenheit",
+          "Anfänge"
+        ],
+        "it": [
+          "cambiamento",
+          "opportunità",
+          "inizi"
+        ],
+        "ru": [
+          "изменение",
+          "возможность",
+          "начала"
+        ],
+        "id": [
+          "perubahan",
+          "peluang",
+          "awal"
+        ],
+        "ja": [
+          "変化",
+          "機会",
+          "始まり"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "โอกาส",
+          "การเริ่มต้น"
+        ],
+        "ms": [
+          "perubahan",
+          "peluang",
+          "permulaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4595,19 +6625,71 @@
         "ms": "Mateo Alvarez"
       },
       "tags": {
-        "en": ["change", "renewal", "progress"],
-        "tr": ["değişim", "yenilenme", "ilerleme"],
-        "fr": ["changement", "renouveau", "progrès"],
-        "pt": ["mudança", "renovação", "progresso"],
-        "nl": ["verandering", "vernieuwing", "vooruitgang"],
-        "es": ["cambio", "renovación", "progreso"],
-        "de": ["Veränderung", "Erneuerung", "Fortschritt"],
-        "it": ["cambiamento", "rinnovamento", "progresso"],
-        "ru": ["изменение", "обновление", "прогресс"],
-        "id": ["perubahan", "pembaruan", "kemajuan"],
-        "ja": ["変化", "再生", "進歩"],
-        "th": ["การเปลี่ยนแปลง", "การฟื้นฟู", "ความก้าวหน้า"],
-        "ms": ["perubahan", "pembaharuan", "kemajuan"]
+        "en": [
+          "change",
+          "renewal",
+          "progress"
+        ],
+        "tr": [
+          "değişim",
+          "yenilenme",
+          "ilerleme"
+        ],
+        "fr": [
+          "changement",
+          "renouveau",
+          "progrès"
+        ],
+        "pt": [
+          "mudança",
+          "renovação",
+          "progresso"
+        ],
+        "nl": [
+          "verandering",
+          "vernieuwing",
+          "vooruitgang"
+        ],
+        "es": [
+          "cambio",
+          "renovación",
+          "progreso"
+        ],
+        "de": [
+          "Veränderung",
+          "Erneuerung",
+          "Fortschritt"
+        ],
+        "it": [
+          "cambiamento",
+          "rinnovamento",
+          "progresso"
+        ],
+        "ru": [
+          "изменение",
+          "обновление",
+          "прогресс"
+        ],
+        "id": [
+          "perubahan",
+          "pembaruan",
+          "kemajuan"
+        ],
+        "ja": [
+          "変化",
+          "再生",
+          "進歩"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การฟื้นฟู",
+          "ความก้าวหน้า"
+        ],
+        "ms": [
+          "perubahan",
+          "pembaharuan",
+          "kemajuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4712,19 +6794,71 @@
         "ms": "Lotte van Dijk"
       },
       "tags": {
-        "en": ["change", "progress", "innovation"],
-        "tr": ["değişim", "ilerleme", "yenilik"],
-        "fr": ["changement", "progrès", "innovation"],
-        "pt": ["mudança", "progresso", "inovação"],
-        "nl": ["verandering", "vooruitgang", "innovatie"],
-        "es": ["cambio", "progreso", "innovación"],
-        "de": ["Veränderung", "Fortschritt", "Innovation"],
-        "it": ["cambiamento", "progresso", "innovazione"],
-        "ru": ["изменение", "прогресс", "инновация"],
-        "id": ["perubahan", "kemajuan", "inovasi"],
-        "ja": ["変化", "進歩", "革新"],
-        "th": ["การเปลี่ยนแปลง", "ความก้าวหน้า", "นวัตกรรม"],
-        "ms": ["perubahan", "kemajuan", "inovasi"]
+        "en": [
+          "change",
+          "progress",
+          "innovation"
+        ],
+        "tr": [
+          "değişim",
+          "ilerleme",
+          "yenilik"
+        ],
+        "fr": [
+          "changement",
+          "progrès",
+          "innovation"
+        ],
+        "pt": [
+          "mudança",
+          "progresso",
+          "inovação"
+        ],
+        "nl": [
+          "verandering",
+          "vooruitgang",
+          "innovatie"
+        ],
+        "es": [
+          "cambio",
+          "progreso",
+          "innovación"
+        ],
+        "de": [
+          "Veränderung",
+          "Fortschritt",
+          "Innovation"
+        ],
+        "it": [
+          "cambiamento",
+          "progresso",
+          "innovazione"
+        ],
+        "ru": [
+          "изменение",
+          "прогресс",
+          "инновация"
+        ],
+        "id": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ],
+        "ja": [
+          "変化",
+          "進歩",
+          "革新"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความก้าวหน้า",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4829,19 +6963,71 @@
         "ms": "Hans Müller"
       },
       "tags": {
-        "en": ["change", "guidance", "uncertainty"],
-        "tr": ["değişim", "rehberlik", "belirsizlik"],
-        "fr": ["changement", "guidance", "incertitude"],
-        "pt": ["mudança", "orientação", "incerteza"],
-        "nl": ["verandering", "begeleiding", "onzekerheid"],
-        "es": ["cambio", "guía", "incertidumbre"],
-        "de": ["Veränderung", "Führung", "Unsicherheit"],
-        "it": ["cambiamento", "guida", "incertezza"],
-        "ru": ["изменение", "руководство", "неопределенность"],
-        "id": ["perubahan", "panduan", "ketidakpastian"],
-        "ja": ["変化", "指導", "不確実性"],
-        "th": ["การเปลี่ยนแปลง", "การนำทาง", "ความไม่แน่นอน"],
-        "ms": ["perubahan", "panduan", "ketidakpastian"]
+        "en": [
+          "change",
+          "guidance",
+          "uncertainty"
+        ],
+        "tr": [
+          "değişim",
+          "rehberlik",
+          "belirsizlik"
+        ],
+        "fr": [
+          "changement",
+          "guidance",
+          "incertitude"
+        ],
+        "pt": [
+          "mudança",
+          "orientação",
+          "incerteza"
+        ],
+        "nl": [
+          "verandering",
+          "begeleiding",
+          "onzekerheid"
+        ],
+        "es": [
+          "cambio",
+          "guía",
+          "incertidumbre"
+        ],
+        "de": [
+          "Veränderung",
+          "Führung",
+          "Unsicherheit"
+        ],
+        "it": [
+          "cambiamento",
+          "guida",
+          "incertezza"
+        ],
+        "ru": [
+          "изменение",
+          "руководство",
+          "неопределенность"
+        ],
+        "id": [
+          "perubahan",
+          "panduan",
+          "ketidakpastian"
+        ],
+        "ja": [
+          "変化",
+          "指導",
+          "不確実性"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การนำทาง",
+          "ความไม่แน่นอน"
+        ],
+        "ms": [
+          "perubahan",
+          "panduan",
+          "ketidakpastian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4946,19 +7132,71 @@
         "ms": "Sofia Bianchi"
       },
       "tags": {
-        "en": ["change", "creativity", "story"],
-        "tr": ["değişim", "yaratıcılık", "hikâye"],
-        "fr": ["changement", "créativité", "histoire"],
-        "pt": ["mudança", "criatividade", "história"],
-        "nl": ["verandering", "creativiteit", "verhaal"],
-        "es": ["cambio", "creatividad", "historia"],
-        "de": ["Veränderung", "Kreativität", "Geschichte"],
-        "it": ["cambiamento", "creatività", "storia"],
-        "ru": ["изменение", "креативность", "история"],
-        "id": ["perubahan", "kreativitas", "cerita"],
-        "ja": ["変化", "創造性", "物語"],
-        "th": ["การเปลี่ยนแปลง", "ความคิดสร้างสรรค์", "เรื่องราว"],
-        "ms": ["perubahan", "kreativiti", "cerita"]
+        "en": [
+          "change",
+          "creativity",
+          "story"
+        ],
+        "tr": [
+          "değişim",
+          "yaratıcılık",
+          "hikâye"
+        ],
+        "fr": [
+          "changement",
+          "créativité",
+          "histoire"
+        ],
+        "pt": [
+          "mudança",
+          "criatividade",
+          "história"
+        ],
+        "nl": [
+          "verandering",
+          "creativiteit",
+          "verhaal"
+        ],
+        "es": [
+          "cambio",
+          "creatividad",
+          "historia"
+        ],
+        "de": [
+          "Veränderung",
+          "Kreativität",
+          "Geschichte"
+        ],
+        "it": [
+          "cambiamento",
+          "creatività",
+          "storia"
+        ],
+        "ru": [
+          "изменение",
+          "креативность",
+          "история"
+        ],
+        "id": [
+          "perubahan",
+          "kreativitas",
+          "cerita"
+        ],
+        "ja": [
+          "変化",
+          "創造性",
+          "物語"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความคิดสร้างสรรค์",
+          "เรื่องราว"
+        ],
+        "ms": [
+          "perubahan",
+          "kreativiti",
+          "cerita"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5063,19 +7301,71 @@
         "ms": "Ahmet Yılmaz"
       },
       "tags": {
-        "en": ["change", "exploration", "journey"],
-        "tr": ["değişim", "keşif", "yolculuk"],
-        "fr": ["changement", "exploration", "voyage"],
-        "pt": ["mudança", "exploração", "jornada"],
-        "nl": ["verandering", "verkenning", "reis"],
-        "es": ["cambio", "exploración", "viaje"],
-        "de": ["Veränderung", "Erkundung", "Reise"],
-        "it": ["cambiamento", "esplorazione", "viaggio"],
-        "ru": ["изменение", "исследование", "путешествие"],
-        "id": ["perubahan", "penjelajahan", "perjalanan"],
-        "ja": ["変化", "探検", "旅"],
-        "th": ["การเปลี่ยนแปลง", "การสำรวจ", "การเดินทาง"],
-        "ms": ["perubahan", "penerokaan", "perjalanan"]
+        "en": [
+          "change",
+          "exploration",
+          "journey"
+        ],
+        "tr": [
+          "değişim",
+          "keşif",
+          "yolculuk"
+        ],
+        "fr": [
+          "changement",
+          "exploration",
+          "voyage"
+        ],
+        "pt": [
+          "mudança",
+          "exploração",
+          "jornada"
+        ],
+        "nl": [
+          "verandering",
+          "verkenning",
+          "reis"
+        ],
+        "es": [
+          "cambio",
+          "exploración",
+          "viaje"
+        ],
+        "de": [
+          "Veränderung",
+          "Erkundung",
+          "Reise"
+        ],
+        "it": [
+          "cambiamento",
+          "esplorazione",
+          "viaggio"
+        ],
+        "ru": [
+          "изменение",
+          "исследование",
+          "путешествие"
+        ],
+        "id": [
+          "perubahan",
+          "penjelajahan",
+          "perjalanan"
+        ],
+        "ja": [
+          "変化",
+          "探検",
+          "旅"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การสำรวจ",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "perubahan",
+          "penerokaan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5180,19 +7470,71 @@
         "ms": "Chaiya Srisuk"
       },
       "tags": {
-        "en": ["change", "time", "transformation"],
-        "tr": ["değişim", "zaman", "dönüşüm"],
-        "fr": ["changement", "temps", "transformation"],
-        "pt": ["mudança", "tempo", "transformação"],
-        "nl": ["verandering", "tijd", "transformatie"],
-        "es": ["cambio", "tiempo", "transformación"],
-        "de": ["Veränderung", "Zeit", "Transformation"],
-        "it": ["cambiamento", "tempo", "trasformazione"],
-        "ru": ["изменение", "время", "трансформация"],
-        "id": ["perubahan", "waktu", "transformasi"],
-        "ja": ["変化", "時間", "変容"],
-        "th": ["การเปลี่ยนแปลง", "เวลา", "การเปลี่ยนแปลง"],
-        "ms": ["perubahan", "masa", "transformasi"]
+        "en": [
+          "change",
+          "time",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "zaman",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "temps",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "tempo",
+          "transformação"
+        ],
+        "nl": [
+          "verandering",
+          "tijd",
+          "transformatie"
+        ],
+        "es": [
+          "cambio",
+          "tiempo",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Zeit",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "tempo",
+          "trasformazione"
+        ],
+        "ru": [
+          "изменение",
+          "время",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "waktu",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "時間",
+          "変容"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "เวลา",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "perubahan",
+          "masa",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5297,19 +7639,71 @@
         "ms": "Aisyah Rahim"
       },
       "tags": {
-        "en": ["change", "growth", "future"],
-        "tr": ["değişim", "büyüme", "gelecek"],
-        "fr": ["changement", "croissance", "futur"],
-        "pt": ["mudança", "crescimento", "futuro"],
-        "nl": ["verandering", "groei", "toekomst"],
-        "es": ["cambio", "crecimiento", "futuro"],
-        "de": ["Veränderung", "Wachstum", "Zukunft"],
-        "it": ["cambiamento", "crescita", "futuro"],
-        "ru": ["изменение", "рост", "будущее"],
-        "id": ["perubahan", "pertumbuhan", "masa depan"],
-        "ja": ["変化", "成長", "未来"],
-        "th": ["การเปลี่ยนแปลง", "การเติบโต", "อนาคต"],
-        "ms": ["perubahan", "pertumbuhan", "masa depan"]
+        "en": [
+          "change",
+          "growth",
+          "future"
+        ],
+        "tr": [
+          "değişim",
+          "büyüme",
+          "gelecek"
+        ],
+        "fr": [
+          "changement",
+          "croissance",
+          "futur"
+        ],
+        "pt": [
+          "mudança",
+          "crescimento",
+          "futuro"
+        ],
+        "nl": [
+          "verandering",
+          "groei",
+          "toekomst"
+        ],
+        "es": [
+          "cambio",
+          "crecimiento",
+          "futuro"
+        ],
+        "de": [
+          "Veränderung",
+          "Wachstum",
+          "Zukunft"
+        ],
+        "it": [
+          "cambiamento",
+          "crescita",
+          "futuro"
+        ],
+        "ru": [
+          "изменение",
+          "рост",
+          "будущее"
+        ],
+        "id": [
+          "perubahan",
+          "pertumbuhan",
+          "masa depan"
+        ],
+        "ja": [
+          "変化",
+          "成長",
+          "未来"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเติบโต",
+          "อนาคต"
+        ],
+        "ms": [
+          "perubahan",
+          "pertumbuhan",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5414,19 +7808,71 @@
         "ms": "Isabelle Dubois"
       },
       "tags": {
-        "en": ["change", "possibility", "hope"],
-        "tr": ["değişim", "olasılık", "umut"],
-        "fr": ["changement", "possibilité", "espoir"],
-        "pt": ["mudança", "possibilidade", "esperança"],
-        "nl": ["verandering", "mogelijkheid", "hoop"],
-        "es": ["cambio", "posibilidad", "esperanza"],
-        "de": ["Veränderung", "Möglichkeit", "Hoffnung"],
-        "it": ["cambiamento", "possibilità", "speranza"],
-        "ru": ["изменение", "возможность", "надежда"],
-        "id": ["perubahan", "kemungkinan", "harapan"],
-        "ja": ["変化", "可能性", "希望"],
-        "th": ["การเปลี่ยนแปลง", "ความเป็นไปได้", "ความหวัง"],
-        "ms": ["perubahan", "kemungkinan", "harapan"]
+        "en": [
+          "change",
+          "possibility",
+          "hope"
+        ],
+        "tr": [
+          "değişim",
+          "olasılık",
+          "umut"
+        ],
+        "fr": [
+          "changement",
+          "possibilité",
+          "espoir"
+        ],
+        "pt": [
+          "mudança",
+          "possibilidade",
+          "esperança"
+        ],
+        "nl": [
+          "verandering",
+          "mogelijkheid",
+          "hoop"
+        ],
+        "es": [
+          "cambio",
+          "posibilidad",
+          "esperanza"
+        ],
+        "de": [
+          "Veränderung",
+          "Möglichkeit",
+          "Hoffnung"
+        ],
+        "it": [
+          "cambiamento",
+          "possibilità",
+          "speranza"
+        ],
+        "ru": [
+          "изменение",
+          "возможность",
+          "надежда"
+        ],
+        "id": [
+          "perubahan",
+          "kemungkinan",
+          "harapan"
+        ],
+        "ja": [
+          "変化",
+          "可能性",
+          "希望"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความเป็นไปได้",
+          "ความหวัง"
+        ],
+        "ms": [
+          "perubahan",
+          "kemungkinan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5531,19 +7977,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["change", "dreams", "reality"],
-        "tr": ["değişim", "hayaller", "gerçeklik"],
-        "fr": ["changement", "rêves", "réalité"],
-        "pt": ["mudança", "sonhos", "realidade"],
-        "nl": ["verandering", "dromen", "realiteit"],
-        "es": ["cambio", "sueños", "realidad"],
-        "de": ["Veränderung", "Träume", "Realität"],
-        "it": ["cambiamento", "sogni", "realtà"],
-        "ru": ["изменение", "мечты", "реальность"],
-        "id": ["perubahan", "mimpi", "kenyataan"],
-        "ja": ["変化", "夢", "現実"],
-        "th": ["การเปลี่ยนแปลง", "ความฝัน", "ความเป็นจริง"],
-        "ms": ["perubahan", "impian", "realiti"]
+        "en": [
+          "change",
+          "dreams",
+          "reality"
+        ],
+        "tr": [
+          "değişim",
+          "hayaller",
+          "gerçeklik"
+        ],
+        "fr": [
+          "changement",
+          "rêves",
+          "réalité"
+        ],
+        "pt": [
+          "mudança",
+          "sonhos",
+          "realidade"
+        ],
+        "nl": [
+          "verandering",
+          "dromen",
+          "realiteit"
+        ],
+        "es": [
+          "cambio",
+          "sueños",
+          "realidad"
+        ],
+        "de": [
+          "Veränderung",
+          "Träume",
+          "Realität"
+        ],
+        "it": [
+          "cambiamento",
+          "sogni",
+          "realtà"
+        ],
+        "ru": [
+          "изменение",
+          "мечты",
+          "реальность"
+        ],
+        "id": [
+          "perubahan",
+          "mimpi",
+          "kenyataan"
+        ],
+        "ja": [
+          "変化",
+          "夢",
+          "現実"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความฝัน",
+          "ความเป็นจริง"
+        ],
+        "ms": [
+          "perubahan",
+          "impian",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5614,7 +8112,7 @@
         }
       }
     },
-     {
+    {
       "id": "change_049",
       "category": "change",
       "texts": {
@@ -5648,19 +8146,71 @@
         "ms": "Beatriz Silva"
       },
       "tags": {
-        "en": ["change", "life", "rhythm"],
-        "tr": ["değişim", "hayat", "ritim"],
-        "fr": ["changement", "vie", "rythme"],
-        "pt": ["mudança", "vida", "ritmo"],
-        "nl": ["verandering", "leven", "ritme"],
-        "es": ["cambio", "vida", "ritmo"],
-        "de": ["Veränderung", "Leben", "Rhythmus"],
-        "it": ["cambiamento", "vita", "ritmo"],
-        "ru": ["изменение", "жизнь", "ритм"],
-        "id": ["perubahan", "kehidupan", "ritme"],
-        "ja": ["変化", "人生", "リズム"],
-        "th": ["การเปลี่ยนแปลง", "ชีวิต", "จังหวะ"],
-        "ms": ["perubahan", "kehidupan", "irama"]
+        "en": [
+          "change",
+          "life",
+          "rhythm"
+        ],
+        "tr": [
+          "değişim",
+          "hayat",
+          "ritim"
+        ],
+        "fr": [
+          "changement",
+          "vie",
+          "rythme"
+        ],
+        "pt": [
+          "mudança",
+          "vida",
+          "ritmo"
+        ],
+        "nl": [
+          "verandering",
+          "leven",
+          "ritme"
+        ],
+        "es": [
+          "cambio",
+          "vida",
+          "ritmo"
+        ],
+        "de": [
+          "Veränderung",
+          "Leben",
+          "Rhythmus"
+        ],
+        "it": [
+          "cambiamento",
+          "vita",
+          "ritmo"
+        ],
+        "ru": [
+          "изменение",
+          "жизнь",
+          "ритм"
+        ],
+        "id": [
+          "perubahan",
+          "kehidupan",
+          "ritme"
+        ],
+        "ja": [
+          "変化",
+          "人生",
+          "リズム"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ชีวิต",
+          "จังหวะ"
+        ],
+        "ms": [
+          "perubahan",
+          "kehidupan",
+          "irama"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5765,19 +8315,71 @@
         "ms": "Lila Santoso"
       },
       "tags": {
-        "en": ["change", "growth", "soul"],
-        "tr": ["değişim", "büyüme", "ruh"],
-        "fr": ["changement", "croissance", "âme"],
-        "pt": ["mudança", "crescimento", "alma"],
-        "nl": ["verandering", "groei", "ziel"],
-        "es": ["cambio", "crecimiento", "alma"],
-        "de": ["Veränderung", "Wachstum", "Seele"],
-        "it": ["cambiamento", "crescita", "anima"],
-        "ru": ["изменение", "рост", "душа"],
-        "id": ["perubahan", "pertumbuhan", "jiwa"],
-        "ja": ["変化", "成長", "魂"],
-        "th": ["การเปลี่ยนแปลง", "การเติบโต", "จิตวิญญาณ"],
-        "ms": ["perubahan", "pertumbuhan", "jiwa"]
+        "en": [
+          "change",
+          "growth",
+          "soul"
+        ],
+        "tr": [
+          "değişim",
+          "büyüme",
+          "ruh"
+        ],
+        "fr": [
+          "changement",
+          "croissance",
+          "âme"
+        ],
+        "pt": [
+          "mudança",
+          "crescimento",
+          "alma"
+        ],
+        "nl": [
+          "verandering",
+          "groei",
+          "ziel"
+        ],
+        "es": [
+          "cambio",
+          "crecimiento",
+          "alma"
+        ],
+        "de": [
+          "Veränderung",
+          "Wachstum",
+          "Seele"
+        ],
+        "it": [
+          "cambiamento",
+          "crescita",
+          "anima"
+        ],
+        "ru": [
+          "изменение",
+          "рост",
+          "душа"
+        ],
+        "id": [
+          "perubahan",
+          "pertumbuhan",
+          "jiwa"
+        ],
+        "ja": [
+          "変化",
+          "成長",
+          "魂"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเติบโต",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "perubahan",
+          "pertumbuhan",
+          "jiwa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5882,19 +8484,71 @@
         "ms": "Emre Kaya"
       },
       "tags": {
-        "en": ["change", "understanding", "evolution"],
-        "tr": ["değişim", "anlayış", "evrim"],
-        "fr": ["changement", "compréhension", "évolution"],
-        "pt": ["mudança", "compreensão", "evolução"],
-        "nl": ["verandering", "begrip", "evolutie"],
-        "es": ["cambio", "comprensión", "evolución"],
-        "de": ["Veränderung", "Verständnis", "Evolution"],
-        "it": ["cambiamento", "comprensione", "evoluzione"],
-        "ru": ["изменение", "понимание", "эволюция"],
-        "id": ["perubahan", "pemahaman", "evolusi"],
-        "ja": ["変化", "理解", "進化"],
-        "th": ["การเปลี่ยนแปลง", "ความเข้าใจ", "วิวัฒนาการ"],
-        "ms": ["perubahan", "pemahaman", "evolusi"]
+        "en": [
+          "change",
+          "understanding",
+          "evolution"
+        ],
+        "tr": [
+          "değişim",
+          "anlayış",
+          "evrim"
+        ],
+        "fr": [
+          "changement",
+          "compréhension",
+          "évolution"
+        ],
+        "pt": [
+          "mudança",
+          "compreensão",
+          "evolução"
+        ],
+        "nl": [
+          "verandering",
+          "begrip",
+          "evolutie"
+        ],
+        "es": [
+          "cambio",
+          "comprensión",
+          "evolución"
+        ],
+        "de": [
+          "Veränderung",
+          "Verständnis",
+          "Evolution"
+        ],
+        "it": [
+          "cambiamento",
+          "comprensione",
+          "evoluzione"
+        ],
+        "ru": [
+          "изменение",
+          "понимание",
+          "эволюция"
+        ],
+        "id": [
+          "perubahan",
+          "pemahaman",
+          "evolusi"
+        ],
+        "ja": [
+          "変化",
+          "理解",
+          "進化"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความเข้าใจ",
+          "วิวัฒนาการ"
+        ],
+        "ms": [
+          "perubahan",
+          "pemahaman",
+          "evolusi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5999,19 +8653,71 @@
         "ms": "Clara van der Berg"
       },
       "tags": {
-        "en": ["change", "guidance", "doubt"],
-        "tr": ["değişim", "rehberlik", "şüphe"],
-        "fr": ["changement", "guidance", "doute"],
-        "pt": ["mudança", "orientação", "dúvida"],
-        "nl": ["verandering", "begeleiding", "twijfel"],
-        "es": ["cambio", "guía", "duda"],
-        "de": ["Veränderung", "Führung", "Zweifel"],
-        "it": ["cambiamento", "guida", "dubbio"],
-        "ru": ["изменение", "руководство", "сомнение"],
-        "id": ["perubahan", "panduan", "keraguan"],
-        "ja": ["変化", "指導", "疑問"],
-        "th": ["การเปลี่ยนแปลง", "การนำทาง", "ความสงสัย"],
-        "ms": ["perubahan", "panduan", "keraguan"]
+        "en": [
+          "change",
+          "guidance",
+          "doubt"
+        ],
+        "tr": [
+          "değişim",
+          "rehberlik",
+          "şüphe"
+        ],
+        "fr": [
+          "changement",
+          "guidance",
+          "doute"
+        ],
+        "pt": [
+          "mudança",
+          "orientação",
+          "dúvida"
+        ],
+        "nl": [
+          "verandering",
+          "begeleiding",
+          "twijfel"
+        ],
+        "es": [
+          "cambio",
+          "guía",
+          "duda"
+        ],
+        "de": [
+          "Veränderung",
+          "Führung",
+          "Zweifel"
+        ],
+        "it": [
+          "cambiamento",
+          "guida",
+          "dubbio"
+        ],
+        "ru": [
+          "изменение",
+          "руководство",
+          "сомнение"
+        ],
+        "id": [
+          "perubahan",
+          "panduan",
+          "keraguan"
+        ],
+        "ja": [
+          "変化",
+          "指導",
+          "疑問"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การนำทาง",
+          "ความสงสัย"
+        ],
+        "ms": [
+          "perubahan",
+          "panduan",
+          "keraguan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6116,19 +8822,71 @@
         "ms": "Anaïs Laurent"
       },
       "tags": {
-        "en": ["change", "discovery", "illumination"],
-        "tr": ["değişim", "keşif", "aydınlatma"],
-        "fr": ["changement", "découverte", "illumination"],
-        "pt": ["mudança", "descoberta", "iluminação"],
-        "nl": ["verandering", "ontdekking", "verlichting"],
-        "es": ["cambio", "descubrimiento", "iluminación"],
-        "de": ["Veränderung", "Entdeckung", "Erleuchtung"],
-        "it": ["cambiamento", "scoperta", "illuminazione"],
-        "ru": ["изменение", "открытие", "освещение"],
-        "id": ["perubahan", "penemuan", "penerangan"],
-        "ja": ["変化", "発見", "照明"],
-        "th": ["การเปลี่ยนแปลง", "การค้นพบ", "การส่องสว่าง"],
-        "ms": ["perubahan", "penemuan", "penerangan"]
+        "en": [
+          "change",
+          "discovery",
+          "illumination"
+        ],
+        "tr": [
+          "değişim",
+          "keşif",
+          "aydınlatma"
+        ],
+        "fr": [
+          "changement",
+          "découverte",
+          "illumination"
+        ],
+        "pt": [
+          "mudança",
+          "descoberta",
+          "iluminação"
+        ],
+        "nl": [
+          "verandering",
+          "ontdekking",
+          "verlichting"
+        ],
+        "es": [
+          "cambio",
+          "descubrimiento",
+          "iluminación"
+        ],
+        "de": [
+          "Veränderung",
+          "Entdeckung",
+          "Erleuchtung"
+        ],
+        "it": [
+          "cambiamento",
+          "scoperta",
+          "illuminazione"
+        ],
+        "ru": [
+          "изменение",
+          "открытие",
+          "освещение"
+        ],
+        "id": [
+          "perubahan",
+          "penemuan",
+          "penerangan"
+        ],
+        "ja": [
+          "変化",
+          "発見",
+          "照明"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การค้นพบ",
+          "การส่องสว่าง"
+        ],
+        "ms": [
+          "perubahan",
+          "penemuan",
+          "penerangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6233,19 +8991,71 @@
         "ms": "Mariana Costa"
       },
       "tags": {
-        "en": ["change", "growth", "time"],
-        "tr": ["değişim", "büyüme", "zaman"],
-        "fr": ["changement", "croissance", "temps"],
-        "pt": ["mudança", "crescimento", "tempo"],
-        "nl": ["verandering", "groei", "tijd"],
-        "es": ["cambio", "crecimiento", "tiempo"],
-        "de": ["Veränderung", "Wachstum", "Zeit"],
-        "it": ["cambiamento", "crescita", "tempo"],
-        "ru": ["изменение", "рост", "время"],
-        "id": ["perubahan", "pertumbuhan", "waktu"],
-        "ja": ["変化", "成長", "時間"],
-        "th": ["การเปลี่ยนแปลง", "การเติบโต", "เวลา"],
-        "ms": ["perubahan", "pertumbuhan", "masa"]
+        "en": [
+          "change",
+          "growth",
+          "time"
+        ],
+        "tr": [
+          "değişim",
+          "büyüme",
+          "zaman"
+        ],
+        "fr": [
+          "changement",
+          "croissance",
+          "temps"
+        ],
+        "pt": [
+          "mudança",
+          "crescimento",
+          "tempo"
+        ],
+        "nl": [
+          "verandering",
+          "groei",
+          "tijd"
+        ],
+        "es": [
+          "cambio",
+          "crecimiento",
+          "tiempo"
+        ],
+        "de": [
+          "Veränderung",
+          "Wachstum",
+          "Zeit"
+        ],
+        "it": [
+          "cambiamento",
+          "crescita",
+          "tempo"
+        ],
+        "ru": [
+          "изменение",
+          "рост",
+          "время"
+        ],
+        "id": [
+          "perubahan",
+          "pertumbuhan",
+          "waktu"
+        ],
+        "ja": [
+          "変化",
+          "成長",
+          "時間"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเติบโต",
+          "เวลา"
+        ],
+        "ms": [
+          "perubahan",
+          "pertumbuhan",
+          "masa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6316,7 +9126,7 @@
         }
       }
     },
-     {
+    {
       "id": "change_055",
       "category": "change",
       "texts": {
@@ -6350,19 +9160,71 @@
         "ms": "Elena Rossi"
       },
       "tags": {
-        "en": ["change", "music", "transformation"],
-        "tr": ["değişim", "müzik", "dönüşüm"],
-        "fr": ["changement", "musique", "transformation"],
-        "pt": ["mudança", "música", "transformação"],
-        "nl": ["verandering", "muziek", "transformatie"],
-        "es": ["cambio", "música", "transformación"],
-        "de": ["Veränderung", "Musik", "Transformation"],
-        "it": ["cambiamento", "musica", "trasformazione"],
-        "ru": ["изменение", "музыка", "трансформация"],
-        "id": ["perubahan", "musik", "transformasi"],
-        "ja": ["変化", "音楽", "変容"],
-        "th": ["การเปลี่ยนแปลง", "ดนตรี", "การเปลี่ยนแปลง"],
-        "ms": ["perubahan", "muzik", "transformasi"]
+        "en": [
+          "change",
+          "music",
+          "transformation"
+        ],
+        "tr": [
+          "değişim",
+          "müzik",
+          "dönüşüm"
+        ],
+        "fr": [
+          "changement",
+          "musique",
+          "transformation"
+        ],
+        "pt": [
+          "mudança",
+          "música",
+          "transformação"
+        ],
+        "nl": [
+          "verandering",
+          "muziek",
+          "transformatie"
+        ],
+        "es": [
+          "cambio",
+          "música",
+          "transformación"
+        ],
+        "de": [
+          "Veränderung",
+          "Musik",
+          "Transformation"
+        ],
+        "it": [
+          "cambiamento",
+          "musica",
+          "trasformazione"
+        ],
+        "ru": [
+          "изменение",
+          "музыка",
+          "трансформация"
+        ],
+        "id": [
+          "perubahan",
+          "musik",
+          "transformasi"
+        ],
+        "ja": [
+          "変化",
+          "音楽",
+          "変容"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ดนตรี",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "perubahan",
+          "muzik",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6467,19 +9329,71 @@
         "ms": "Svetlana Petrova"
       },
       "tags": {
-        "en": ["change", "renewal", "dawn"],
-        "tr": ["değişim", "yenilenme", "şafak"],
-        "fr": ["changement", "renouveau", "aube"],
-        "pt": ["mudança", "renovação", "amanhecer"],
-        "nl": ["verandering", "vernieuwing", "dageraad"],
-        "es": ["cambio", "renovación", "amanecer"],
-        "de": ["Veränderung", "Erneuerung", "Morgendämmerung"],
-        "it": ["cambiamento", "rinnovamento", "alba"],
-        "ru": ["изменение", "обновление", "рассвет"],
-        "id": ["perubahan", "pembaruan", "fajar"],
-        "ja": ["変化", "再生", "夜明け"],
-        "th": ["การเปลี่ยนแปลง", "การฟื้นฟู", "รุ่งอรุณ"],
-        "ms": ["perubahan", "pembaharuan", "fajar"]
+        "en": [
+          "change",
+          "renewal",
+          "dawn"
+        ],
+        "tr": [
+          "değişim",
+          "yenilenme",
+          "şafak"
+        ],
+        "fr": [
+          "changement",
+          "renouveau",
+          "aube"
+        ],
+        "pt": [
+          "mudança",
+          "renovação",
+          "amanhecer"
+        ],
+        "nl": [
+          "verandering",
+          "vernieuwing",
+          "dageraad"
+        ],
+        "es": [
+          "cambio",
+          "renovación",
+          "amanecer"
+        ],
+        "de": [
+          "Veränderung",
+          "Erneuerung",
+          "Morgendämmerung"
+        ],
+        "it": [
+          "cambiamento",
+          "rinnovamento",
+          "alba"
+        ],
+        "ru": [
+          "изменение",
+          "обновление",
+          "рассвет"
+        ],
+        "id": [
+          "perubahan",
+          "pembaruan",
+          "fajar"
+        ],
+        "ja": [
+          "変化",
+          "再生",
+          "夜明け"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การฟื้นฟู",
+          "รุ่งอรุณ"
+        ],
+        "ms": [
+          "perubahan",
+          "pembaharuan",
+          "fajar"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6584,19 +9498,71 @@
         "ms": "Mateo Alvarez"
       },
       "tags": {
-        "en": ["change", "opportunity", "future"],
-        "tr": ["değişim", "fırsat", "gelecek"],
-        "fr": ["changement", "opportunité", "futur"],
-        "pt": ["mudança", "oportunidade", "futuro"],
-        "nl": ["verandering", "kans", "toekomst"],
-        "es": ["cambio", "oportunidad", "futuro"],
-        "de": ["Veränderung", "Gelegenheit", "Zukunft"],
-        "it": ["cambiamento", "opportunità", "futuro"],
-        "ru": ["изменение", "возможность", "будущее"],
-        "id": ["perubahan", "peluang", "masa depan"],
-        "ja": ["変化", "機会", "未来"],
-        "th": ["การเปลี่ยนแปลง", "โอกาส", "อนาคต"],
-        "ms": ["perubahan", "peluang", "masa depan"]
+        "en": [
+          "change",
+          "opportunity",
+          "future"
+        ],
+        "tr": [
+          "değişim",
+          "fırsat",
+          "gelecek"
+        ],
+        "fr": [
+          "changement",
+          "opportunité",
+          "futur"
+        ],
+        "pt": [
+          "mudança",
+          "oportunidade",
+          "futuro"
+        ],
+        "nl": [
+          "verandering",
+          "kans",
+          "toekomst"
+        ],
+        "es": [
+          "cambio",
+          "oportunidad",
+          "futuro"
+        ],
+        "de": [
+          "Veränderung",
+          "Gelegenheit",
+          "Zukunft"
+        ],
+        "it": [
+          "cambiamento",
+          "opportunità",
+          "futuro"
+        ],
+        "ru": [
+          "изменение",
+          "возможность",
+          "будущее"
+        ],
+        "id": [
+          "perubahan",
+          "peluang",
+          "masa depan"
+        ],
+        "ja": [
+          "変化",
+          "機会",
+          "未来"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "โอกาส",
+          "อนาคต"
+        ],
+        "ms": [
+          "perubahan",
+          "peluang",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6701,19 +9667,71 @@
         "ms": "Hana Müller"
       },
       "tags": {
-        "en": ["change", "progress", "innovation"],
-        "tr": ["değişim", "ilerleme", "yenilik"],
-        "fr": ["changement", "progrès", "innovation"],
-        "pt": ["mudança", "progresso", "inovação"],
-        "nl": ["verandering", "vooruitgang", "innovatie"],
-        "es": ["cambio", "progreso", "innovación"],
-        "de": ["Veränderung", "Fortschritt", "Innovation"],
-        "it": ["cambiamento", "progresso", "innovazione"],
-        "ru": ["изменение", "прогресс", "инновация"],
-        "id": ["perubahan", "kemajuan", "inovasi"],
-        "ja": ["変化", "進歩", "革新"],
-        "th": ["การเปลี่ยนแปลง", "ความก้าวหน้า", "นวัตกรรม"],
-        "ms": ["perubahan", "kemajuan", "inovasi"]
+        "en": [
+          "change",
+          "progress",
+          "innovation"
+        ],
+        "tr": [
+          "değişim",
+          "ilerleme",
+          "yenilik"
+        ],
+        "fr": [
+          "changement",
+          "progrès",
+          "innovation"
+        ],
+        "pt": [
+          "mudança",
+          "progresso",
+          "inovação"
+        ],
+        "nl": [
+          "verandering",
+          "vooruitgang",
+          "innovatie"
+        ],
+        "es": [
+          "cambio",
+          "progreso",
+          "innovación"
+        ],
+        "de": [
+          "Veränderung",
+          "Fortschritt",
+          "Innovation"
+        ],
+        "it": [
+          "cambiamento",
+          "progresso",
+          "innovazione"
+        ],
+        "ru": [
+          "изменение",
+          "прогресс",
+          "инновация"
+        ],
+        "id": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ],
+        "ja": [
+          "変化",
+          "進歩",
+          "革新"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความก้าวหน้า",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "perubahan",
+          "kemajuan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6818,19 +9836,71 @@
         "ms": "Siriwan Chaisuriya"
       },
       "tags": {
-        "en": ["change", "enlightenment", "journey"],
-        "tr": ["değişim", "aydınlanma", "yolculuk"],
-        "fr": ["changement", "illumination", "voyage"],
-        "pt": ["mudança", "esclarecimento", "jornada"],
-        "nl": ["verandering", "verlichting", "reis"],
-        "es": ["cambio", "iluminación", "viaje"],
-        "de": ["Veränderung", "Erleuchtung", "Reise"],
-        "it": ["cambiamento", "illuminazione", "viaggio"],
-        "ru": ["изменение", "просвещение", "путешествие"],
-        "id": ["perubahan", "pencerahan", "perjalanan"],
-        "ja": ["変化", "啓発", "旅"],
-        "th": ["การเปลี่ยนแปลง", "การรู้แจ้ง", "การเดินทาง"],
-        "ms": ["perubahan", "pencerahan", "perjalanan"]
+        "en": [
+          "change",
+          "enlightenment",
+          "journey"
+        ],
+        "tr": [
+          "değişim",
+          "aydınlanma",
+          "yolculuk"
+        ],
+        "fr": [
+          "changement",
+          "illumination",
+          "voyage"
+        ],
+        "pt": [
+          "mudança",
+          "esclarecimento",
+          "jornada"
+        ],
+        "nl": [
+          "verandering",
+          "verlichting",
+          "reis"
+        ],
+        "es": [
+          "cambio",
+          "iluminación",
+          "viaje"
+        ],
+        "de": [
+          "Veränderung",
+          "Erleuchtung",
+          "Reise"
+        ],
+        "it": [
+          "cambiamento",
+          "illuminazione",
+          "viaggio"
+        ],
+        "ru": [
+          "изменение",
+          "просвещение",
+          "путешествие"
+        ],
+        "id": [
+          "perubahan",
+          "pencerahan",
+          "perjalanan"
+        ],
+        "ja": [
+          "変化",
+          "啓発",
+          "旅"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การรู้แจ้ง",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "perubahan",
+          "pencerahan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6935,19 +10005,71 @@
         "ms": "Yuki Nakamura"
       },
       "tags": {
-        "en": ["change", "dance", "life"],
-        "tr": ["değişim", "dans", "hayat"],
-        "fr": ["changement", "danse", "vie"],
-        "pt": ["mudança", "dança", "vida"],
-        "nl": ["verandering", "dans", "leven"],
-        "es": ["cambio", "danza", "vida"],
-        "de": ["Veränderung", "Tanz", "Leben"],
-        "it": ["cambiamento", "danza", "vita"],
-        "ru": ["изменение", "танец", "жизнь"],
-        "id": ["perubahan", "tarian", "kehidupan"],
-        "ja": ["変化", "ダンス", "人生"],
-        "th": ["การเปลี่ยนแปลง", "การเต้นรำ", "ชีวิต"],
-        "ms": ["perubahan", "tarian", "kehidupan"]
+        "en": [
+          "change",
+          "dance",
+          "life"
+        ],
+        "tr": [
+          "değişim",
+          "dans",
+          "hayat"
+        ],
+        "fr": [
+          "changement",
+          "danse",
+          "vie"
+        ],
+        "pt": [
+          "mudança",
+          "dança",
+          "vida"
+        ],
+        "nl": [
+          "verandering",
+          "dans",
+          "leven"
+        ],
+        "es": [
+          "cambio",
+          "danza",
+          "vida"
+        ],
+        "de": [
+          "Veränderung",
+          "Tanz",
+          "Leben"
+        ],
+        "it": [
+          "cambiamento",
+          "danza",
+          "vita"
+        ],
+        "ru": [
+          "изменение",
+          "танец",
+          "жизнь"
+        ],
+        "id": [
+          "perubahan",
+          "tarian",
+          "kehidupan"
+        ],
+        "ja": [
+          "変化",
+          "ダンス",
+          "人生"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเต้นรำ",
+          "ชีวิต"
+        ],
+        "ms": [
+          "perubahan",
+          "tarian",
+          "kehidupan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7052,19 +10174,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["growth", "opportunity", "transformation"],
-        "tr": ["büyüme", "fırsat", "dönüşüm"],
-        "fr": ["croissance", "opportunité", "transformation"],
-        "pt": ["crescimento", "oportunidade", "transformação"],
-        "nl": ["groei", "kans", "transformatie"],
-        "es": ["crecimiento", "oportunidad", "transformación"],
-        "de": ["Wachstum", "Gelegenheit", "Transformation"],
-        "it": ["crescita", "opportunità", "trasformazione"],
-        "ru": ["рост", "возможность", "трансформация"],
-        "id": ["pertumbuhan", "peluang", "transformasi"],
-        "ja": ["成長", "機会", "変革"],
-        "th": ["การเติบโต", "โอกาส", "การเปลี่ยนแปลง"],
-        "ms": ["pertumbuhan", "peluang", "transformasi"]
+        "en": [
+          "growth",
+          "opportunity",
+          "transformation"
+        ],
+        "tr": [
+          "büyüme",
+          "fırsat",
+          "dönüşüm"
+        ],
+        "fr": [
+          "croissance",
+          "opportunité",
+          "transformation"
+        ],
+        "pt": [
+          "crescimento",
+          "oportunidade",
+          "transformação"
+        ],
+        "nl": [
+          "groei",
+          "kans",
+          "transformatie"
+        ],
+        "es": [
+          "crecimiento",
+          "oportunidad",
+          "transformación"
+        ],
+        "de": [
+          "Wachstum",
+          "Gelegenheit",
+          "Transformation"
+        ],
+        "it": [
+          "crescita",
+          "opportunità",
+          "trasformazione"
+        ],
+        "ru": [
+          "рост",
+          "возможность",
+          "трансформация"
+        ],
+        "id": [
+          "pertumbuhan",
+          "peluang",
+          "transformasi"
+        ],
+        "ja": [
+          "成長",
+          "機会",
+          "変革"
+        ],
+        "th": [
+          "การเติบโต",
+          "โอกาส",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "peluang",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7169,19 +10343,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["letting go", "renewal", "possibility"],
-        "tr": ["bırakmak", "yenilenme", "olasılık"],
-        "fr": ["lâcher prise", "renouvellement", "possibilité"],
-        "pt": ["deixar ir", "renovação", "possibilidade"],
-        "nl": ["loslaten", "vernieuwing", "mogelijkheid"],
-        "es": ["soltar", "renovación", "posibilidad"],
-        "de": ["loslassen", "Erneuerung", "Möglichkeit"],
-        "it": ["lasciar andare", "rinnovamento", "possibilità"],
-        "ru": ["отпускать", "обновление", "возможность"],
-        "id": ["melepaskan", "pembaharuan", "kemungkinan"],
-        "ja": ["手放す", "再生", "可能性"],
-        "th": ["ปล่อยวาง", "การต่ออายุ", "ความเป็นไปได้"],
-        "ms": ["melepaskan", "pembaharuan", "kemungkinan"]
+        "en": [
+          "letting go",
+          "renewal",
+          "possibility"
+        ],
+        "tr": [
+          "bırakmak",
+          "yenilenme",
+          "olasılık"
+        ],
+        "fr": [
+          "lâcher prise",
+          "renouvellement",
+          "possibilité"
+        ],
+        "pt": [
+          "deixar ir",
+          "renovação",
+          "possibilidade"
+        ],
+        "nl": [
+          "loslaten",
+          "vernieuwing",
+          "mogelijkheid"
+        ],
+        "es": [
+          "soltar",
+          "renovación",
+          "posibilidad"
+        ],
+        "de": [
+          "loslassen",
+          "Erneuerung",
+          "Möglichkeit"
+        ],
+        "it": [
+          "lasciar andare",
+          "rinnovamento",
+          "possibilità"
+        ],
+        "ru": [
+          "отпускать",
+          "обновление",
+          "возможность"
+        ],
+        "id": [
+          "melepaskan",
+          "pembaharuan",
+          "kemungkinan"
+        ],
+        "ja": [
+          "手放す",
+          "再生",
+          "可能性"
+        ],
+        "th": [
+          "ปล่อยวาง",
+          "การต่ออายุ",
+          "ความเป็นไปได้"
+        ],
+        "ms": [
+          "melepaskan",
+          "pembaharuan",
+          "kemungkinan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7286,19 +10512,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["authenticity", "trust", "self-discovery"],
-        "tr": ["özgünlük", "güven", "kendini keşfetme"],
-        "fr": ["authenticité", "confiance", "découverte de soi"],
-        "pt": ["autenticidade", "confiança", "autodescoberta"],
-        "nl": ["authenticiteit", "vertrouwen", "zelfontdekking"],
-        "es": ["autenticidad", "confianza", "autodescubrimiento"],
-        "de": ["Authentizität", "Vertrauen", "Selbstentdeckung"],
-        "it": ["autenticità", "fiducia", "autodiscoperta"],
-        "ru": ["аутентичность", "доверие", "самооткрытие"],
-        "id": ["keaslian", "kepercayaan", "penemuan diri"],
-        "ja": ["本物らしさ", "信頼", "自己発見"],
-        "th": ["ความแท้จริง", "ความเชื่อมั่น", "การค้นพบตัวเอง"],
-        "ms": ["ketulenan", "kepercayaan", "penemuan diri"]
+        "en": [
+          "authenticity",
+          "trust",
+          "self-discovery"
+        ],
+        "tr": [
+          "özgünlük",
+          "güven",
+          "kendini keşfetme"
+        ],
+        "fr": [
+          "authenticité",
+          "confiance",
+          "découverte de soi"
+        ],
+        "pt": [
+          "autenticidade",
+          "confiança",
+          "autodescoberta"
+        ],
+        "nl": [
+          "authenticiteit",
+          "vertrouwen",
+          "zelfontdekking"
+        ],
+        "es": [
+          "autenticidad",
+          "confianza",
+          "autodescubrimiento"
+        ],
+        "de": [
+          "Authentizität",
+          "Vertrauen",
+          "Selbstentdeckung"
+        ],
+        "it": [
+          "autenticità",
+          "fiducia",
+          "autodiscoperta"
+        ],
+        "ru": [
+          "аутентичность",
+          "доверие",
+          "самооткрытие"
+        ],
+        "id": [
+          "keaslian",
+          "kepercayaan",
+          "penemuan diri"
+        ],
+        "ja": [
+          "本物らしさ",
+          "信頼",
+          "自己発見"
+        ],
+        "th": [
+          "ความแท้จริง",
+          "ความเชื่อมั่น",
+          "การค้นพบตัวเอง"
+        ],
+        "ms": [
+          "ketulenan",
+          "kepercayaan",
+          "penemuan diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7403,19 +10681,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["adaptability", "resilience", "grace"],
-        "tr": ["uyum yeteneği", "dayanıklılık", "zarafet"],
-        "fr": ["adaptabilité", "résilience", "grâce"],
-        "pt": ["adaptabilidade", "resiliência", "graça"],
-        "nl": ["aanpassingsvermogen", "veerkracht", "gratie"],
-        "es": ["adaptabilidad", "resiliencia", "gracia"],
-        "de": ["Anpassungsfähigkeit", "Belastbarkeit", "Anmut"],
-        "it": ["adattabilità", "resilienza", "grazia"],
-        "ru": ["адаптивность", "устойчивость", "грация"],
-        "id": ["kemampuan beradaptasi", "ketahanan", "keanggunan"],
-        "ja": ["適応性", "回復力", "優雅さ"],
-        "th": ["ความสามารถในการปรับตัว", "ความยืดหยุ่น", "ความสง่างาม"],
-        "ms": ["kebolehsuaian", "daya tahan", "keanggunan"]
+        "en": [
+          "adaptability",
+          "resilience",
+          "grace"
+        ],
+        "tr": [
+          "uyum yeteneği",
+          "dayanıklılık",
+          "zarafet"
+        ],
+        "fr": [
+          "adaptabilité",
+          "résilience",
+          "grâce"
+        ],
+        "pt": [
+          "adaptabilidade",
+          "resiliência",
+          "graça"
+        ],
+        "nl": [
+          "aanpassingsvermogen",
+          "veerkracht",
+          "gratie"
+        ],
+        "es": [
+          "adaptabilidad",
+          "resiliencia",
+          "gracia"
+        ],
+        "de": [
+          "Anpassungsfähigkeit",
+          "Belastbarkeit",
+          "Anmut"
+        ],
+        "it": [
+          "adattabilità",
+          "resilienza",
+          "grazia"
+        ],
+        "ru": [
+          "адаптивность",
+          "устойчивость",
+          "грация"
+        ],
+        "id": [
+          "kemampuan beradaptasi",
+          "ketahanan",
+          "keanggunan"
+        ],
+        "ja": [
+          "適応性",
+          "回復力",
+          "優雅さ"
+        ],
+        "th": [
+          "ความสามารถในการปรับตัว",
+          "ความยืดหยุ่น",
+          "ความสง่างาม"
+        ],
+        "ms": [
+          "kebolehsuaian",
+          "daya tahan",
+          "keanggunan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7520,19 +10850,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["endings", "new beginnings", "perspective"],
-        "tr": ["sonlar", "yeni başlangıçlar", "bakış açısı"],
-        "fr": ["fins", "nouveaux départs", "perspective"],
-        "pt": ["fins", "novos começos", "perspectiva"],
-        "nl": ["eindes", "nieuwe beginnen", "perspectief"],
-        "es": ["finales", "nuevos comienzos", "perspectiva"],
-        "de": ["Enden", "neue Anfänge", "Perspektive"],
-        "it": ["fini", "nuovi inizi", "prospettiva"],
-        "ru": ["окончания", "новые начала", "перспектива"],
-        "id": ["akhir", "awal baru", "perspektif"],
-        "ja": ["終わり", "新しい始まり", "視点"],
-        "th": ["จุดจบ", "จุดเริ่มต้นใหม่", "มุมมอง"],
-        "ms": ["penghujung", "permulaan baru", "perspektif"]
+        "en": [
+          "endings",
+          "new beginnings",
+          "perspective"
+        ],
+        "tr": [
+          "sonlar",
+          "yeni başlangıçlar",
+          "bakış açısı"
+        ],
+        "fr": [
+          "fins",
+          "nouveaux départs",
+          "perspective"
+        ],
+        "pt": [
+          "fins",
+          "novos começos",
+          "perspectiva"
+        ],
+        "nl": [
+          "eindes",
+          "nieuwe beginnen",
+          "perspectief"
+        ],
+        "es": [
+          "finales",
+          "nuevos comienzos",
+          "perspectiva"
+        ],
+        "de": [
+          "Enden",
+          "neue Anfänge",
+          "Perspektive"
+        ],
+        "it": [
+          "fini",
+          "nuovi inizi",
+          "prospettiva"
+        ],
+        "ru": [
+          "окончания",
+          "новые начала",
+          "перспектива"
+        ],
+        "id": [
+          "akhir",
+          "awal baru",
+          "perspektif"
+        ],
+        "ja": [
+          "終わり",
+          "新しい始まり",
+          "視点"
+        ],
+        "th": [
+          "จุดจบ",
+          "จุดเริ่มต้นใหม่",
+          "มุมมอง"
+        ],
+        "ms": [
+          "penghujung",
+          "permulaan baru",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7637,19 +11019,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["growth mindset", "courage", "discomfort"],
-        "tr": ["büyüme zihniyeti", "cesaret", "rahatsızlık"],
-        "fr": ["esprit de croissance", "courage", "inconfort"],
-        "pt": ["mentalidade de crescimento", "coragem", "desconforto"],
-        "nl": ["groeimentaliteit", "moed", "ongemak"],
-        "es": ["mentalidad de crecimiento", "coraje", "malestar"],
-        "de": ["Wachstumsmentalität", "Mut", "Unbehagen"],
-        "it": ["mentalità di crescita", "coraggio", "disagio"],
-        "ru": ["настрой на рост", "мужество", "дискомфорт"],
-        "id": ["mindset pertumbuhan", "keberanian", "ketidaknyamanan"],
-        "ja": ["成長マインドセット", "勇気", "不快感"],
-        "th": ["ความคิดในการเติบโต", "ความกล้า", "ความไม่สบาย"],
-        "ms": ["mindset pertumbuhan", "keberanian", "ketidakselesaan"]
+        "en": [
+          "growth mindset",
+          "courage",
+          "discomfort"
+        ],
+        "tr": [
+          "büyüme zihniyeti",
+          "cesaret",
+          "rahatsızlık"
+        ],
+        "fr": [
+          "esprit de croissance",
+          "courage",
+          "inconfort"
+        ],
+        "pt": [
+          "mentalidade de crescimento",
+          "coragem",
+          "desconforto"
+        ],
+        "nl": [
+          "groeimentaliteit",
+          "moed",
+          "ongemak"
+        ],
+        "es": [
+          "mentalidad de crecimiento",
+          "coraje",
+          "malestar"
+        ],
+        "de": [
+          "Wachstumsmentalität",
+          "Mut",
+          "Unbehagen"
+        ],
+        "it": [
+          "mentalità di crescita",
+          "coraggio",
+          "disagio"
+        ],
+        "ru": [
+          "настрой на рост",
+          "мужество",
+          "дискомфорт"
+        ],
+        "id": [
+          "mindset pertumbuhan",
+          "keberanian",
+          "ketidaknyamanan"
+        ],
+        "ja": [
+          "成長マインドセット",
+          "勇気",
+          "不快感"
+        ],
+        "th": [
+          "ความคิดในการเติบโต",
+          "ความกล้า",
+          "ความไม่สบาย"
+        ],
+        "ms": [
+          "mindset pertumbuhan",
+          "keberanian",
+          "ketidakselesaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7754,19 +11188,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["uncertainty", "possibility", "discovery"],
-        "tr": ["belirsizlik", "olasılık", "keşif"],
-        "fr": ["incertitude", "possibilité", "découverte"],
-        "pt": ["incerteza", "possibilidade", "descoberta"],
-        "nl": ["onzekerheid", "mogelijkheid", "ontdekking"],
-        "es": ["incertidumbre", "posibilidad", "descubrimiento"],
-        "de": ["Unsicherheit", "Möglichkeit", "Entdeckung"],
-        "it": ["incertezza", "possibilità", "scoperta"],
-        "ru": ["неопределенность", "возможность", "открытие"],
-        "id": ["ketidakpastian", "kemungkinan", "penemuan"],
-        "ja": ["不確実性", "可能性", "発見"],
-        "th": ["ความไม่แน่นอน", "ความเป็นไปได้", "การค้นพบ"],
-        "ms": ["ketidakpastian", "kemungkinan", "penemuan"]
+        "en": [
+          "uncertainty",
+          "possibility",
+          "discovery"
+        ],
+        "tr": [
+          "belirsizlik",
+          "olasılık",
+          "keşif"
+        ],
+        "fr": [
+          "incertitude",
+          "possibilité",
+          "découverte"
+        ],
+        "pt": [
+          "incerteza",
+          "possibilidade",
+          "descoberta"
+        ],
+        "nl": [
+          "onzekerheid",
+          "mogelijkheid",
+          "ontdekking"
+        ],
+        "es": [
+          "incertidumbre",
+          "posibilidad",
+          "descubrimiento"
+        ],
+        "de": [
+          "Unsicherheit",
+          "Möglichkeit",
+          "Entdeckung"
+        ],
+        "it": [
+          "incertezza",
+          "possibilità",
+          "scoperta"
+        ],
+        "ru": [
+          "неопределенность",
+          "возможность",
+          "открытие"
+        ],
+        "id": [
+          "ketidakpastian",
+          "kemungkinan",
+          "penemuan"
+        ],
+        "ja": [
+          "不確実性",
+          "可能性",
+          "発見"
+        ],
+        "th": [
+          "ความไม่แน่นอน",
+          "ความเป็นไปได้",
+          "การค้นพบ"
+        ],
+        "ms": [
+          "ketidakpastian",
+          "kemungkinan",
+          "penemuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7871,19 +11357,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["challenges", "evolution", "growth"],
-        "tr": ["zorluklar", "evrim", "büyüme"],
-        "fr": ["défis", "évolution", "croissance"],
-        "pt": ["desafios", "evolução", "crescimento"],
-        "nl": ["uitdagingen", "evolutie", "groei"],
-        "es": ["desafíos", "evolución", "crecimiento"],
-        "de": ["Herausforderungen", "Evolution", "Wachstum"],
-        "it": ["sfide", "evoluzione", "crescita"],
-        "ru": ["вызовы", "эволюция", "рост"],
-        "id": ["tantangan", "evolusi", "pertumbuhan"],
-        "ja": ["挑戦", "進化", "成長"],
-        "th": ["ความท้าทาย", "วิวัฒนาการ", "การเติบโต"],
-        "ms": ["cabaran", "evolusi", "pertumbuhan"]
+        "en": [
+          "challenges",
+          "evolution",
+          "growth"
+        ],
+        "tr": [
+          "zorluklar",
+          "evrim",
+          "büyüme"
+        ],
+        "fr": [
+          "défis",
+          "évolution",
+          "croissance"
+        ],
+        "pt": [
+          "desafios",
+          "evolução",
+          "crescimento"
+        ],
+        "nl": [
+          "uitdagingen",
+          "evolutie",
+          "groei"
+        ],
+        "es": [
+          "desafíos",
+          "evolución",
+          "crecimiento"
+        ],
+        "de": [
+          "Herausforderungen",
+          "Evolution",
+          "Wachstum"
+        ],
+        "it": [
+          "sfide",
+          "evoluzione",
+          "crescita"
+        ],
+        "ru": [
+          "вызовы",
+          "эволюция",
+          "рост"
+        ],
+        "id": [
+          "tantangan",
+          "evolusi",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "挑戦",
+          "進化",
+          "成長"
+        ],
+        "th": [
+          "ความท้าทาย",
+          "วิวัฒนาการ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "cabaran",
+          "evolusi",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7988,19 +11526,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["past", "future", "courage"],
-        "tr": ["geçmiş", "gelecek", "cesaret"],
-        "fr": ["passé", "avenir", "courage"],
-        "pt": ["passado", "futuro", "coragem"],
-        "nl": ["verleden", "toekomst", "moed"],
-        "es": ["pasado", "futuro", "coraje"],
-        "de": ["Vergangenheit", "Zukunft", "Mut"],
-        "it": ["passato", "futuro", "coraggio"],
-        "ru": ["прошлое", "будущее", "мужество"],
-        "id": ["masa lalu", "masa depan", "keberanian"],
-        "ja": ["過去", "未来", "勇気"],
-        "th": ["อดีต", "อนาคต", "ความกล้า"],
-        "ms": ["masa lalu", "masa depan", "keberanian"]
+        "en": [
+          "past",
+          "future",
+          "courage"
+        ],
+        "tr": [
+          "geçmiş",
+          "gelecek",
+          "cesaret"
+        ],
+        "fr": [
+          "passé",
+          "avenir",
+          "courage"
+        ],
+        "pt": [
+          "passado",
+          "futuro",
+          "coragem"
+        ],
+        "nl": [
+          "verleden",
+          "toekomst",
+          "moed"
+        ],
+        "es": [
+          "pasado",
+          "futuro",
+          "coraje"
+        ],
+        "de": [
+          "Vergangenheit",
+          "Zukunft",
+          "Mut"
+        ],
+        "it": [
+          "passato",
+          "futuro",
+          "coraggio"
+        ],
+        "ru": [
+          "прошлое",
+          "будущее",
+          "мужество"
+        ],
+        "id": [
+          "masa lalu",
+          "masa depan",
+          "keberanian"
+        ],
+        "ja": [
+          "過去",
+          "未来",
+          "勇気"
+        ],
+        "th": [
+          "อดีต",
+          "อนาคต",
+          "ความกล้า"
+        ],
+        "ms": [
+          "masa lalu",
+          "masa depan",
+          "keberanian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8105,19 +11695,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["flow", "trust", "divine timing"],
-        "tr": ["akış", "güven", "ilahi zamanlama"],
-        "fr": ["flux", "confiance", "timing divin"],
-        "pt": ["fluxo", "confiança", "timing divino"],
-        "nl": ["stroom", "vertrouwen", "goddelijke timing"],
-        "es": ["flujo", "confianza", "timing divino"],
-        "de": ["Fluss", "Vertrauen", "göttliches Timing"],
-        "it": ["flusso", "fiducia", "timing divino"],
-        "ru": ["поток", "доверие", "божественное время"],
-        "id": ["aliran", "kepercayaan", "waktu ilahi"],
-        "ja": ["流れ", "信頼", "神聖なタイミング"],
-        "th": ["กระแส", "ความเชื่อมั่น", "ช่วงเวลาที่เหมาะสมทางพระเจ้า"],
-        "ms": ["aliran", "kepercayaan", "masa ilahi"]
+        "en": [
+          "flow",
+          "trust",
+          "divine timing"
+        ],
+        "tr": [
+          "akış",
+          "güven",
+          "ilahi zamanlama"
+        ],
+        "fr": [
+          "flux",
+          "confiance",
+          "timing divin"
+        ],
+        "pt": [
+          "fluxo",
+          "confiança",
+          "timing divino"
+        ],
+        "nl": [
+          "stroom",
+          "vertrouwen",
+          "goddelijke timing"
+        ],
+        "es": [
+          "flujo",
+          "confianza",
+          "timing divino"
+        ],
+        "de": [
+          "Fluss",
+          "Vertrauen",
+          "göttliches Timing"
+        ],
+        "it": [
+          "flusso",
+          "fiducia",
+          "timing divino"
+        ],
+        "ru": [
+          "поток",
+          "доверие",
+          "божественное время"
+        ],
+        "id": [
+          "aliran",
+          "kepercayaan",
+          "waktu ilahi"
+        ],
+        "ja": [
+          "流れ",
+          "信頼",
+          "神聖なタイミング"
+        ],
+        "th": [
+          "กระแส",
+          "ความเชื่อมั่น",
+          "ช่วงเวลาที่เหมาะสมทางพระเจ้า"
+        ],
+        "ms": [
+          "aliran",
+          "kepercayaan",
+          "masa ilahi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8188,12 +11830,12 @@
         }
       }
     },
-        {
+    {
       "id": "change_071",
       "type": "affirmation",
       "texts": {
         "en": "I adapt to change and find opportunity in it.",
-        "tr": "Değişime uyum sağlar ve içinde fırsat görürüm.",
+        "tr": "değişime uyum sağlar ve içinde fırsat görürüm.",
         "fr": "Je m'adapte au changement et j'y trouve des opportunités.",
         "pt": "Adapto-me a mudanças e encontro oportunidades nelas.",
         "nl": "Ik pas me aan verandering aan en vind er kansen in.",
@@ -8235,8 +11877,8 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_072",
       "type": "affirmation",
       "texts": {
@@ -8283,24 +11925,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_073",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Change into my life.",
-        "tr": "Hayatıma Değişim enerjisini alıyorum.",
-        "fr": "J'accueille Change dans ma vie.",
-        "pt": "Eu acolho Change na minha vida.",
-        "nl": "Ik verwelkom Change in mijn leven.",
-        "es": "Doy la bienvenida a Change en mi vida.",
-        "de": "Ich heiße Change in meinem Leben willkommen.",
-        "it": "Accolgo Change nella mia vita.",
-        "ru": "Я принимаю Change в свою жизнь.",
-        "id": "Saya menyambut Change dalam hidup saya.",
-        "ja": "私はChangeを人生に迎え入れます。",
-        "th": "ฉันต้อนรับChangeเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Change dalam hidup saya."
+        "en": "I make room for change without rushing.",
+        "tr": "değişim için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à change sans me presser.",
+        "pt": "Abro espaço para change sem pressa.",
+        "nl": "Ik maak ruimte voor change zonder te haasten.",
+        "es": "Hago espacio para change sin prisa.",
+        "de": "Ich mache Platz für change, ohne zu hetzen.",
+        "it": "Faccio spazio a change senza fretta.",
+        "ru": "Я даю место change без спешки.",
+        "id": "Aku memberi ruang bagi change tanpa terburu-buru.",
+        "ja": "焦らずにchangeのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้changeโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk change tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -8327,24 +11969,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_074",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Change.",
-        "tr": "Kalbim Değişim için açık.",
-        "fr": "Mon cœur est ouvert à Change.",
-        "pt": "Meu coração está aberto para Change.",
-        "nl": "Mijn hart staat open voor Change.",
-        "es": "Mi corazón está abierto a Change.",
-        "de": "Mein Herz ist offen für Change.",
-        "it": "Il mio cuore è aperto a Change.",
-        "ru": "Моё сердце открыто для Change.",
-        "id": "Hati saya terbuka untuk Change.",
-        "ja": "私の心はChangeに開かれています。",
-        "th": "หัวใจของฉันเปิดรับChange",
-        "ms": "Hati saya terbuka untuk Change."
+        "en": "I stay open to change in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde değişim için açık kalıyorum.",
+        "fr": "Je reste ouvert à change d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a change de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor change op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a change de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für change auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a change in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к change так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada change dengan cara yang terasa aman.",
+        "ja": "安心できる形でchangeに心を開き続けます。",
+        "th": "ฉันเปิดใจให้changeในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap change dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8371,24 +12013,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_075",
       "type": "affirmation",
       "texts": {
-        "en": "Change grows within me each day.",
-        "tr": "Değişim her gün içimde büyüyor.",
-        "fr": "Change grandit en moi chaque jour.",
-        "pt": "Change cresce dentro de mim todos os dias.",
-        "nl": "Change groeit elke dag in mij.",
-        "es": "Change crece dentro de mí cada día.",
-        "de": "Change wächst jeden Tag in mir.",
-        "it": "Change cresce in me ogni giorno.",
-        "ru": "Change растёт во мне каждый день.",
-        "id": "Change tumbuh di dalam diri saya setiap hari.",
-        "ja": "Changeは毎日私の中で育ちます。",
-        "th": "Changeเติบโตในตัวฉันทุกวัน",
-        "ms": "Change berkembang dalam diri saya setiap hari."
+        "en": "Each day, change grows within me.",
+        "tr": "Her gün içimde değişim büyüyor.",
+        "fr": "Chaque jour, change grandit en moi.",
+        "pt": "A cada dia, change cresce dentro de mim.",
+        "nl": "Elke dag groeit change in mij.",
+        "es": "Cada día, change crece dentro de mí.",
+        "de": "Jeden Tag wächst change in mir.",
+        "it": "Ogni giorno, change cresce dentro di me.",
+        "ru": "Каждый день change растёт во мне.",
+        "id": "Setiap hari, change tumbuh di dalam diriku.",
+        "ja": "毎日、changeが私の中で育っています。",
+        "th": "ทุกวัน change เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, change berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8415,24 +12057,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_076",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Change now.",
-        "tr": "Şimdi Değişim için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Change maintenant.",
-        "pt": "Eu crio espaço para Change agora.",
-        "nl": "Ik maak nu ruimte voor Change.",
-        "es": "Creo espacio para Change ahora.",
-        "de": "Ich schaffe jetzt Raum für Change.",
-        "it": "Creo spazio per Change ora.",
-        "ru": "Я создаю пространство для Change сейчас.",
-        "id": "Saya menciptakan ruang untuk Change sekarang.",
-        "ja": "今、Changeのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับChangeในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Change sekarang."
+        "en": "I give change a quiet place in my day.",
+        "tr": "Günümde değişim için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à change une place calme dans ma journée.",
+        "pt": "Dou a change um lugar tranquilo no meu dia.",
+        "nl": "Ik geef change een rustige plek in mijn dag.",
+        "es": "Le doy a change un lugar tranquilo en mi día.",
+        "de": "Ich gebe change einen ruhigen Platz in meinem Tag.",
+        "it": "Do a change un posto tranquillo nella mia giornata.",
+        "ru": "Я даю change тихое место в своём дне.",
+        "id": "Aku memberi change tempat yang tenang dalam hariku.",
+        "ja": "一日の中にchangeのための静かな場所をつくります。",
+        "th": "ฉันให้changeมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi change tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8459,24 +12101,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "change_077",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Change.",
-        "tr": "Değişim yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Change.",
-        "pt": "Eu confio no caminho de Change.",
-        "nl": "Ik vertrouw op het pad van Change.",
-        "es": "Confío en el camino de Change.",
-        "de": "Ich vertraue dem Weg von Change.",
-        "it": "Mi fido del percorso di Change.",
-        "ru": "Я доверяю пути Change.",
-        "id": "Saya percaya pada jalan Change.",
-        "ja": "私はChangeの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของChange",
-        "ms": "Saya percaya pada jalan Change."
+        "en": "I trust my own way of growing in change.",
+        "tr": "değişim konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec change.",
+        "pt": "Confio no meu próprio jeito de crescer com change.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in change.",
+        "es": "Confío en mi propia manera de crecer con change.",
+        "de": "Ich vertraue meinem eigenen Weg, in change zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con change.",
+        "ru": "Я доверяю своему собственному пути роста в change.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam change.",
+        "ja": "自分なりのchangeの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับchange",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam change."
       },
       "authors": {
         "en": "",
@@ -8503,6 +12145,946 @@
         ]
       },
       "readTime": "0"
-        }
+    },
+    {
+      "id": "change_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice change with gentle consistency.",
+        "tr": "değişim konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique change avec une douce constance.",
+        "pt": "Eu pratico change com constância gentil.",
+        "nl": "Ik beoefen change met zachte regelmaat.",
+        "es": "Practico change con constancia suave.",
+        "de": "Ich übe change mit sanfter Beständigkeit.",
+        "it": "Pratico change con dolce costanza.",
+        "ru": "Я практикую change с мягкой постоянностью.",
+        "id": "Saya mempraktikkan change dengan konsistensi yang lembut.",
+        "ja": "私はchangeを穏やかな継続で実践します。",
+        "th": "ฉันฝึกchangeอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan change dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, change supports me.",
+        "tr": "Bu dönemde değişim beni destekliyor.",
+        "fr": "En cette période, change me soutient.",
+        "pt": "Nesta fase, change me apoia.",
+        "nl": "In deze periode ondersteunt change mij.",
+        "es": "En esta etapa, change me sostiene.",
+        "de": "In dieser Zeit unterstützt change mich.",
+        "it": "In questo periodo, change mi sostiene.",
+        "ru": "В этот период change поддерживает меня.",
+        "id": "Di masa ini, change mendukungku.",
+        "ja": "この時期、changeが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ changeคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, change menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose change in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla değişim seçiyorum.",
+        "fr": "Je choisis change par de petits pas sincères.",
+        "pt": "Escolho change em passos pequenos e honestos.",
+        "nl": "Ik kies change in kleine, eerlijke stappen.",
+        "es": "Elijo change con pasos pequeños y honestos.",
+        "de": "Ich wähle change in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo change con passi piccoli e sinceri.",
+        "ru": "Я выбираю change маленькими, честными шагами.",
+        "id": "Aku memilih change dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でchangeを選びます。",
+        "th": "ฉันเลือกchangeด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih change dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let change shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri değişim şekillendiriyor.",
+        "fr": "Je laisse change façonner les choix qui comptent pour moi.",
+        "pt": "Deixo change moldar as escolhas que importam para mim.",
+        "nl": "Ik laat change de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que change moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse change die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che change plasmi le scelte che contano per me.",
+        "ru": "Я позволяю change формировать важные для меня решения.",
+        "id": "Aku membiarkan change membentuk pilihan yang penting bagiku.",
+        "ja": "changeが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้changeหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan change membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, change feels natural to me.",
+        "tr": "Bugün değişim bana doğal geliyor.",
+        "fr": "Aujourd'hui, change me semble naturel.",
+        "pt": "Hoje, change parece natural para mim.",
+        "nl": "Vandaag voelt change natuurlijk voor mij.",
+        "es": "Hoy, change se siente natural para mí.",
+        "de": "Heute fühlt sich change natürlich für mich an.",
+        "it": "Oggi change mi sembra naturale.",
+        "ru": "Сегодня change кажется мне естественным.",
+        "id": "Hari ini, change terasa alami bagi saya.",
+        "ja": "今日はchangeが自然に感じられます。",
+        "th": "วันนี้changeให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, change terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose change in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda değişim seçiyorum.",
+        "fr": "Je choisis change dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho change nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies change in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo change en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle change in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo change nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю change в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih change dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でchangeを選びます。",
+        "th": "ฉันเลือกchangeในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih change dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build change.",
+        "tr": "İç sesim değişim inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis change.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo change.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik change opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo change.",
+        "de": "Meine innere Stimme wird sanfter, während ich change aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco change.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю change.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun change.",
+        "ja": "changeを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างchange",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina change."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet change at my own pace.",
+        "tr": "değişim ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer change à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar change no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om change in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar change a mi propio ritmo.",
+        "de": "Ich erlaube mir, change in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare change al mio ritmo.",
+        "ru": "Я позволяю себе встречать change в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu change dengan ritmeku.",
+        "ja": "自分のペースでchangeに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบchangeในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui change mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let change steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde değişim beni dengeliyor.",
+        "fr": "Je laisse change m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo change me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat change me aarden als het leven luid voelt.",
+        "es": "Dejo que change me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse change mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che change mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю change удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan change menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、changeが私を落ち着かせます。",
+        "th": "ฉันยอมให้changeทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan change menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, change is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde değişim büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, change grandit.",
+        "pt": "Por meio das escolhas que faço hoje, change cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit change.",
+        "es": "A través de las decisiones que tomo hoy, change crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst change.",
+        "it": "Attraverso le scelte che faccio oggi, change cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, change растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, change tumbuh.",
+        "ja": "今日の選択を通してchangeが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ changeกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, change berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel change settling into my routines.",
+        "tr": "Rutinlerimde değişim için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens change s’installer dans mes routines.",
+        "pt": "Sinto change se acomodar nas minhas rotinas.",
+        "nl": "Ik voel change zich nestelen in mijn routines.",
+        "es": "Siento que change se asienta en mis rutinas.",
+        "de": "Ich spüre, wie change sich in meinen Routinen einlebt.",
+        "it": "Sento change assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как change укореняется в моих привычках.",
+        "id": "Aku merasakan change menetap dalam rutinitasku.",
+        "ja": "日々の習慣にchangeがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าchangeค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan change mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow change to be simple, not perfect.",
+        "tr": "değişim için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise change à être simple, pas parfait.",
+        "pt": "Permito que change seja simples, não perfeito.",
+        "nl": "Ik laat change simpel zijn, niet perfect.",
+        "es": "Permito que change sea simple, no perfecto.",
+        "de": "Ich erlaube change, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a change di essere semplice, non perfetto.",
+        "ru": "Я позволяю change быть простым, а не идеальным.",
+        "id": "Aku membiarkan change tetap sederhana, bukan sempurna.",
+        "ja": "changeがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้changeเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan change menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice change showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde değişim ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque change dans la façon dont je me parle.",
+        "pt": "Percebo change na forma como falo comigo.",
+        "nl": "Ik merk change op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto change en la manera en que me hablo.",
+        "de": "Ich bemerke change in der Art, wie ich mit mir spreche.",
+        "it": "Noto change nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю change в том, как я говорю с собой.",
+        "id": "Aku menyadari change dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にchangeが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นchangeในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari change dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve change without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan değişim hak ediyorum.",
+        "fr": "Je mérite change sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço change sem precisar provar nada.",
+        "nl": "Ik verdien change zonder iets te hoeven bewijzen.",
+        "es": "Merezco change sin necesidad de demostrar nada.",
+        "de": "Ich verdiene change, ohne etwas beweisen zu müssen.",
+        "it": "Merito change senza dover dimostrare nulla.",
+        "ru": "Я достоин change, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan change tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、changeに値します。",
+        "th": "ฉันคู่ควรกับchangeโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh change tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let change grow from patience, not pressure.",
+        "tr": "değişim sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse change grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo change crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat change groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que change crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse change aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che change cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю change расти из терпения, а не из давления.",
+        "id": "Aku membiarkan change tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はchangeを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้changeเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan change tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to change when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde değişim ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à change quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a change quando preciso me firmar.",
+        "nl": "Ik keer terug naar change wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a change cuando necesito estabilizarme.",
+        "de": "Ich kehre zu change zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a change quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к change, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke change saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、changeに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาchange",
+        "ms": "Saya kembali kepada change apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let change soften my inner pressure.",
+        "tr": "İçimdeki baskıyı değişim ile yumuşatıyorum.",
+        "fr": "Je laisse change adoucir ma pression intérieure.",
+        "pt": "Deixo change suavizar minha pressão interna.",
+        "nl": "Ik laat change mijn innerlijke druk verzachten.",
+        "es": "Dejo que change suavice mi presión interna.",
+        "de": "Ich lasse change meinen inneren Druck weicher machen.",
+        "it": "Lascio che change ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю change смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan change melembutkan tekanan batinku.",
+        "ja": "changeが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้changeช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan change melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that change can be gentle and real.",
+        "tr": "değişim konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que change peut être doux et vrai.",
+        "pt": "Confio que change pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat change zacht en echt kan zijn.",
+        "es": "Confío en que change puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass change sanft und echt sein kann.",
+        "it": "Mi fido del fatto che change possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что change может быть мягким и настоящим.",
+        "id": "Aku percaya change bisa lembut dan nyata.",
+        "ja": "changeはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าchangeสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya change boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give change a little more room each day.",
+        "tr": "Her gün değişim için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à change chaque jour.",
+        "pt": "Dou um pouco mais de espaço para change a cada dia.",
+        "nl": "Ik geef change elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a change cada día.",
+        "de": "Ich gebe change jeden Tag ein wenig mehr Raum.",
+        "it": "Do a change un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю change чуть больше места.",
+        "id": "Setiap hari aku memberi change sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、changeのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับchangeมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi change sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold change without forcing it.",
+        "tr": "değişim ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir change sans forcer.",
+        "pt": "Estou aprendendo a sustentar change sem forçar.",
+        "nl": "Ik leer change te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener change sin forzar.",
+        "de": "Ich lerne, change zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere change senza forzare.",
+        "ru": "Я учусь удерживать change без принуждения.",
+        "id": "Aku belajar memegang change tanpa memaksa.",
+        "ja": "changeを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองchangeโดยไม่บังคับ",
+        "ms": "Saya belajar memegang change tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by change where I am today.",
+        "tr": "Bugün olduğum yerde değişim beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, change me rejoint.",
+        "pt": "Onde estou hoje, change me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet change mij.",
+        "es": "Donde estoy hoy, change me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir change.",
+        "it": "Dove sono oggi, change mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает change.",
+        "id": "Di tempatku hari ini, change menemuiku.",
+        "ja": "今日の私がいる場所で、changeが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ changeอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, change menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_99",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice change in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte değişim fark ediyorum.",
+        "fr": "Je remarque change dans le calme entre les moments.",
+        "pt": "Percebo change na calma entre os momentos.",
+        "nl": "Ik merk change op in de rust tussen momenten.",
+        "es": "Noto change en la calma entre momentos.",
+        "de": "Ich bemerke change in der Ruhe zwischen den Momenten.",
+        "it": "Noto change nella calma tra i momenti.",
+        "ru": "Я замечаю change в тишине между моментами.",
+        "id": "Aku menyadari change dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにchangeを感じます。",
+        "th": "ฉันสังเกตchangeในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari change dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_100",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow change to grow quietly in the background.",
+        "tr": "değişim sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse change grandir doucement en arrière-plan.",
+        "pt": "Deixo change crescer em silêncio ao fundo.",
+        "nl": "Ik laat change stil op de achtergrond groeien.",
+        "es": "Dejo que change crezca en silencio de fondo.",
+        "de": "Ich lasse change leise im Hintergrund wachsen.",
+        "it": "Lascio che change cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю change тихо расти на заднем плане.",
+        "id": "Aku membiarkan change tumbuh perlahan di latar belakang.",
+        "ja": "changeが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้changeเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan change berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_101",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose change with care, not hurry.",
+        "tr": "Acele etmeden, özenle değişim seçiyorum.",
+        "fr": "Je choisis change avec soin, sans hâte.",
+        "pt": "Escolho change com cuidado, sem pressa.",
+        "nl": "Ik kies change met zorg, niet met haast.",
+        "es": "Elijo change con cuidado, no con prisa.",
+        "de": "Ich wähle change mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo change con cura, non con fretta.",
+        "ru": "Я выбираю change с заботой, а не в спешке.",
+        "id": "Aku memilih change dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にchangeを選びます。",
+        "th": "ฉันเลือกchangeอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih change dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    },
+    {
+      "id": "change_102",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep change close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken değişim ile yakın kalıyorum.",
+        "fr": "Je garde change près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho change por perto quando minha mente fica agitada.",
+        "nl": "Ik houd change dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo change cerca cuando mi mente está inquieta.",
+        "de": "Ich halte change nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo change vicino quando la mia mente è agitata.",
+        "ru": "Я держу change рядом, когда ум занят.",
+        "id": "Aku menjaga change tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもchangeをそばに置きます。",
+        "th": "ฉันเก็บchangeไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan change dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "readTime": "0"
+    }
   ]
-} 
+}

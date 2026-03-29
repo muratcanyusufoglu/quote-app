@@ -1,6 +1,6 @@
 {
   "quotes": [
-{
+    {
       "id": "travel_001",
       "category": "travel",
       "texts": {
@@ -34,19 +34,71 @@
         "ms": "Gustave Flaubert"
       },
       "tags": {
-        "en": ["perspective", "humility", "discovery"],
-        "tr": ["bakış açısı", "alçakgönüllülük", "keşif"],
-        "fr": ["perspective", "humilité", "découverte"],
-        "pt": ["perspectiva", "humildade", "descoberta"],
-        "nl": ["perspectief", "nederigheid", "ontdekking"],
-        "es": ["perspectiva", "humildad", "descubrimiento"],
-        "de": ["Perspektive", "Demut", "Entdeckung"],
-        "it": ["prospettiva", "umiltà", "scoperta"],
-        "ru": ["перспектива", "скромность", "открытие"],
-        "id": ["perspektif", "kerendahan hati", "penemuan"],
-        "ja": ["視点", "謙虚さ", "発見"],
-        "th": ["มุมมอง", "ความถ่อมตัว", "การค้นพบ"],
-        "ms": ["perspektif", "kerendahan hati", "penemuan"]
+        "en": [
+          "perspective",
+          "humility",
+          "discovery"
+        ],
+        "tr": [
+          "bakış açısı",
+          "alçakgönüllülük",
+          "keşif"
+        ],
+        "fr": [
+          "perspective",
+          "humilité",
+          "découverte"
+        ],
+        "pt": [
+          "perspectiva",
+          "humildade",
+          "descoberta"
+        ],
+        "nl": [
+          "perspectief",
+          "nederigheid",
+          "ontdekking"
+        ],
+        "es": [
+          "perspectiva",
+          "humildad",
+          "descubrimiento"
+        ],
+        "de": [
+          "Perspektive",
+          "Demut",
+          "Entdeckung"
+        ],
+        "it": [
+          "prospettiva",
+          "umiltà",
+          "scoperta"
+        ],
+        "ru": [
+          "перспектива",
+          "скромность",
+          "открытие"
+        ],
+        "id": [
+          "perspektif",
+          "kerendahan hati",
+          "penemuan"
+        ],
+        "ja": [
+          "視点",
+          "謙虚さ",
+          "発見"
+        ],
+        "th": [
+          "มุมมอง",
+          "ความถ่อมตัว",
+          "การค้นพบ"
+        ],
+        "ms": [
+          "perspektif",
+          "kerendahan hati",
+          "penemuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "storytelling", "connection"],
-        "tr": ["anılar", "hikaye anlatımı", "bağlantı"],
-        "fr": ["souvenirs", "récit", "connexion"],
-        "pt": ["memórias", "contação de histórias", "conexão"],
-        "nl": ["herinneringen", "verhalen", "verbinding"],
-        "es": ["recuerdos", "narración", "conexión"],
-        "de": ["Erinnerungen", "Geschichtenerzählen", "Verbindung"],
-        "it": ["ricordi", "narrazione", "connessione"],
-        "ru": ["воспоминания", "рассказы", "связь"],
-        "id": ["kenangan", "cerita", "hubungan"],
-        "ja": ["思い出", "物語", "つながり"],
-        "th": ["ความทรงจำ", "การเล่าเรื่อง", "การเชื่อมต่อ"],
-        "ms": ["kenangan", "penceritaan", "hubungan"]
+        "en": [
+          "memories",
+          "storytelling",
+          "connection"
+        ],
+        "tr": [
+          "anılar",
+          "hikaye anlatımı",
+          "bağlantı"
+        ],
+        "fr": [
+          "souvenirs",
+          "récit",
+          "connexion"
+        ],
+        "pt": [
+          "memórias",
+          "contação de histórias",
+          "conexão"
+        ],
+        "nl": [
+          "herinneringen",
+          "verhalen",
+          "verbinding"
+        ],
+        "es": [
+          "recuerdos",
+          "narración",
+          "conexión"
+        ],
+        "de": [
+          "Erinnerungen",
+          "Geschichtenerzählen",
+          "Verbindung"
+        ],
+        "it": [
+          "ricordi",
+          "narrazione",
+          "connessione"
+        ],
+        "ru": [
+          "воспоминания",
+          "рассказы",
+          "связь"
+        ],
+        "id": [
+          "kenangan",
+          "cerita",
+          "hubungan"
+        ],
+        "ja": [
+          "思い出",
+          "物語",
+          "つながり"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "การเล่าเรื่อง",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "kenangan",
+          "penceritaan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "journey", "empathy"],
-        "tr": ["büyüme", "yolculuk", "empati"],
-        "fr": ["croissance", "voyage", "empathie"],
-        "pt": ["crescimento", "jornada", "empatia"],
-        "nl": ["groei", "reis", "empathie"],
-        "es": ["crecimiento", "viaje", "empatía"],
-        "de": ["Wachstum", "Reise", "Empathie"],
-        "it": ["crescita", "viaggio", "empatia"],
-        "ru": ["рост", "путешествие", "эмпатия"],
-        "id": ["pertumbuhan", "perjalanan", "empati"],
-        "ja": ["成長", "旅", "共感"],
-        "th": ["การเติบโต", "การเดินทาง", "ความเห็นอกเห็นใจ"],
-        "ms": ["pertumbuhan", "perjalanan", "empati"]
+        "en": [
+          "growth",
+          "journey",
+          "empathy"
+        ],
+        "tr": [
+          "büyüme",
+          "yolculuk",
+          "empati"
+        ],
+        "fr": [
+          "croissance",
+          "voyage",
+          "empathie"
+        ],
+        "pt": [
+          "crescimento",
+          "jornada",
+          "empatia"
+        ],
+        "nl": [
+          "groei",
+          "reis",
+          "empathie"
+        ],
+        "es": [
+          "crecimiento",
+          "viaje",
+          "empatía"
+        ],
+        "de": [
+          "Wachstum",
+          "Reise",
+          "Empathie"
+        ],
+        "it": [
+          "crescita",
+          "viaggio",
+          "empatia"
+        ],
+        "ru": [
+          "рост",
+          "путешествие",
+          "эмпатия"
+        ],
+        "id": [
+          "pertumbuhan",
+          "perjalanan",
+          "empati"
+        ],
+        "ja": [
+          "成長",
+          "旅",
+          "共感"
+        ],
+        "th": [
+          "การเติบโต",
+          "การเดินทาง",
+          "ความเห็นอกเห็นใจ"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "perjalanan",
+          "empati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["beginnings", "spirituality", "transformation"],
-        "tr": ["başlangıçlar", "maneviyat", "dönüşüm"],
-        "fr": ["débuts", "spiritualité", "transformation"],
-        "pt": ["começos", "espiritualidade", "transformação"],
-        "nl": ["begin", "spiritualiteit", "transformatie"],
-        "es": ["comienzos", "espiritualidad", "transformación"],
-        "de": ["Anfänge", "Spiritualität", "Transformation"],
-        "it": ["inizi", "spiritualità", "trasformazione"],
-        "ru": ["начало", "духовность", "трансформация"],
-        "id": ["permulaan", "spiritualitas", "transformasi"],
-        "ja": ["始まり", "精神性", "変革"],
-        "th": ["การเริ่มต้น", "จิตวิญญาณ", "การเปลี่ยนแปลง"],
-        "ms": ["permulaan", "kerohanian", "transformasi"]
+        "en": [
+          "beginnings",
+          "spirituality",
+          "transformation"
+        ],
+        "tr": [
+          "başlangıçlar",
+          "maneviyat",
+          "dönüşüm"
+        ],
+        "fr": [
+          "débuts",
+          "spiritualité",
+          "transformation"
+        ],
+        "pt": [
+          "começos",
+          "espiritualidade",
+          "transformação"
+        ],
+        "nl": [
+          "begin",
+          "spiritualiteit",
+          "transformatie"
+        ],
+        "es": [
+          "comienzos",
+          "espiritualidad",
+          "transformación"
+        ],
+        "de": [
+          "Anfänge",
+          "Spiritualität",
+          "Transformation"
+        ],
+        "it": [
+          "inizi",
+          "spiritualità",
+          "trasformazione"
+        ],
+        "ru": [
+          "начало",
+          "духовность",
+          "трансформация"
+        ],
+        "id": [
+          "permulaan",
+          "spiritualitas",
+          "transformasi"
+        ],
+        "ja": [
+          "始まり",
+          "精神性",
+          "変革"
+        ],
+        "th": [
+          "การเริ่มต้น",
+          "จิตวิญญาณ",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "permulaan",
+          "kerohanian",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["belonging", "home", "exploration"],
-        "tr": ["aidiyet", "ev", "keşif"],
-        "fr": ["appartenance", "foyer", "exploration"],
-        "pt": ["pertencimento", "lar", "exploração"],
-        "nl": ["verbondenheid", "thuis", "verkenning"],
-        "es": ["pertenencia", "hogar", "exploración"],
-        "de": ["Zugehörigkeit", "Zuhause", "Erkundung"],
-        "it": ["appartenenza", "casa", "esplorazione"],
-        "ru": ["принадлежность", "дом", "исследование"],
-        "id": ["keberadaan", "rumah", "eksplorasi"],
-        "ja": ["帰属", "家", "探検"],
-        "th": ["ความรู้สึกเป็นส่วนหนึ่ง", "บ้าน", "การสำรวจ"],
-        "ms": ["kebersamaan", "rumah", "penerokaan"]
+        "en": [
+          "belonging",
+          "home",
+          "exploration"
+        ],
+        "tr": [
+          "aidiyet",
+          "ev",
+          "keşif"
+        ],
+        "fr": [
+          "appartenance",
+          "foyer",
+          "exploration"
+        ],
+        "pt": [
+          "pertencimento",
+          "lar",
+          "exploração"
+        ],
+        "nl": [
+          "verbondenheid",
+          "thuis",
+          "verkenning"
+        ],
+        "es": [
+          "pertenencia",
+          "hogar",
+          "exploración"
+        ],
+        "de": [
+          "Zugehörigkeit",
+          "Zuhause",
+          "Erkundung"
+        ],
+        "it": [
+          "appartenenza",
+          "casa",
+          "esplorazione"
+        ],
+        "ru": [
+          "принадлежность",
+          "дом",
+          "исследование"
+        ],
+        "id": [
+          "keberadaan",
+          "rumah",
+          "eksplorasi"
+        ],
+        "ja": [
+          "帰属",
+          "家",
+          "探検"
+        ],
+        "th": [
+          "ความรู้สึกเป็นส่วนหนึ่ง",
+          "บ้าน",
+          "การสำรวจ"
+        ],
+        "ms": [
+          "kebersamaan",
+          "rumah",
+          "penerokaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -619,19 +879,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["openness", "adventure", "mindset"],
-        "tr": ["açıklık", "macera", "zihniyet"],
-        "fr": ["ouverture", "aventure", "mentalité"],
-        "pt": ["abertura", "aventura", "mentalidade"],
-        "es": ["apertura", "aventura", "mentalidad"],
-        "de": ["Offenheit", "Abenteuer", "Mentalität"],
-        "it": ["apertura", "avventura", "mentalità"],
-        "nl": ["openheid", "avontuur", "mindset"],
-        "ru": ["открытость", "приключение", "мироощущение"],
-        "id": ["keterbukaan", "petualangan", "pola pikir"],
-        "ja": ["開放性", "冒険", "マインドセット"],
-        "th": ["การเปิดใจ", "การผจญภัย", "มุมมอง"],
-        "ms": ["keterbukaan", "pengembaraan", "mindset"]
+        "en": [
+          "openness",
+          "adventure",
+          "mindset"
+        ],
+        "tr": [
+          "açıklık",
+          "macera",
+          "zihniyet"
+        ],
+        "fr": [
+          "ouverture",
+          "aventure",
+          "mentalité"
+        ],
+        "pt": [
+          "abertura",
+          "aventura",
+          "mentalidade"
+        ],
+        "es": [
+          "apertura",
+          "aventura",
+          "mentalidad"
+        ],
+        "de": [
+          "Offenheit",
+          "Abenteuer",
+          "Mentalität"
+        ],
+        "it": [
+          "apertura",
+          "avventura",
+          "mentalità"
+        ],
+        "nl": [
+          "openheid",
+          "avontuur",
+          "mindset"
+        ],
+        "ru": [
+          "открытость",
+          "приключение",
+          "мироощущение"
+        ],
+        "id": [
+          "keterbukaan",
+          "petualangan",
+          "pola pikir"
+        ],
+        "ja": [
+          "開放性",
+          "冒険",
+          "マインドセット"
+        ],
+        "th": [
+          "การเปิดใจ",
+          "การผจญภัย",
+          "มุมมอง"
+        ],
+        "ms": [
+          "keterbukaan",
+          "pengembaraan",
+          "mindset"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -736,19 +1048,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["transformation", "inner_journey", "experience"],
-        "tr": ["dönüşüm", "içsel_yolculuk", "deneyim"],
-        "fr": ["transformation", "voyage_intérieur", "expérience"],
-        "pt": ["transformação", "jornada_interior", "experiência"],
-        "es": ["transformación", "viaje_interior", "experiencia"],
-        "de": ["Transformation", "innere_Reise", "Erfahrung"],
-        "it": ["trasformazione", "viaggio_interiore", "esperienza"],
-        "nl": ["transformatie", "innerlijke_reis", "ervaring"],
-        "ru": ["трансформация", "внутреннее_путешествие", "опыт"],
-        "id": ["transformasi", "perjalanan_batin", "pengalaman"],
-        "ja": ["変容", "内なる旅", "経験"],
-        "th": ["การเปลี่ยนแปลง", "การเดินทางภายใน", "ประสบการณ์"],
-        "ms": ["transformasi", "perjalanan_dalaman", "pengalaman"]
+        "en": [
+          "transformation",
+          "inner_journey",
+          "experience"
+        ],
+        "tr": [
+          "dönüşüm",
+          "içsel_yolculuk",
+          "deneyim"
+        ],
+        "fr": [
+          "transformation",
+          "voyage_intérieur",
+          "expérience"
+        ],
+        "pt": [
+          "transformação",
+          "jornada_interior",
+          "experiência"
+        ],
+        "es": [
+          "transformación",
+          "viaje_interior",
+          "experiencia"
+        ],
+        "de": [
+          "Transformation",
+          "innere_Reise",
+          "Erfahrung"
+        ],
+        "it": [
+          "trasformazione",
+          "viaggio_interiore",
+          "esperienza"
+        ],
+        "nl": [
+          "transformatie",
+          "innerlijke_reis",
+          "ervaring"
+        ],
+        "ru": [
+          "трансформация",
+          "внутреннее_путешествие",
+          "опыт"
+        ],
+        "id": [
+          "transformasi",
+          "perjalanan_batin",
+          "pengalaman"
+        ],
+        "ja": [
+          "変容",
+          "内なる旅",
+          "経験"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเดินทางภายใน",
+          "ประสบการณ์"
+        ],
+        "ms": [
+          "transformasi",
+          "perjalanan_dalaman",
+          "pengalaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["experience", "learning", "spontaneity"],
-        "tr": ["deneyim", "öğrenme", "spontanelik"],
-        "fr": ["expérience", "apprentissage", "spontanéité"],
-        "pt": ["experiência", "aprendizado", "espontaneidade"],
-        "es": ["experiencia", "aprendizaje", "espontaneidad"],
-        "de": ["Erfahrung", "Lernen", "Spontaneität"],
-        "it": ["esperienza", "apprendimento", "spontaneità"],
-        "nl": ["ervaring", "leren", "spontaniteit"],
-        "ru": ["опыт", "обучение", "спонтанность"],
-        "id": ["pengalaman", "pembelajaran", "spontanitas"],
-        "ja": ["経験", "学び", "自然さ"],
-        "th": ["ประสบการณ์", "การเรียนรู้", "ความเป็นธรรมชาติ"],
-        "ms": ["pengalaman", "pembelajaran", "spontaniti"]
+        "en": [
+          "experience",
+          "learning",
+          "spontaneity"
+        ],
+        "tr": [
+          "deneyim",
+          "öğrenme",
+          "spontanelik"
+        ],
+        "fr": [
+          "expérience",
+          "apprentissage",
+          "spontanéité"
+        ],
+        "pt": [
+          "experiência",
+          "aprendizado",
+          "espontaneidade"
+        ],
+        "es": [
+          "experiencia",
+          "aprendizaje",
+          "espontaneidad"
+        ],
+        "de": [
+          "Erfahrung",
+          "Lernen",
+          "Spontaneität"
+        ],
+        "it": [
+          "esperienza",
+          "apprendimento",
+          "spontaneità"
+        ],
+        "nl": [
+          "ervaring",
+          "leren",
+          "spontaniteit"
+        ],
+        "ru": [
+          "опыт",
+          "обучение",
+          "спонтанность"
+        ],
+        "id": [
+          "pengalaman",
+          "pembelajaran",
+          "spontanitas"
+        ],
+        "ja": [
+          "経験",
+          "学び",
+          "自然さ"
+        ],
+        "th": [
+          "ประสบการณ์",
+          "การเรียนรู้",
+          "ความเป็นธรรมชาติ"
+        ],
+        "ms": [
+          "pengalaman",
+          "pembelajaran",
+          "spontaniti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["storytelling", "culture", "connection"],
-        "tr": ["hikaye_anlatımı", "kültür", "bağlantı"],
-        "fr": ["narration", "culture", "connexion"],
-        "pt": ["narrativa", "cultura", "conexão"],
-        "es": ["narración", "cultura", "conexión"],
-        "de": ["Erzählkunst", "Kultur", "Verbindung"],
-        "it": ["narrazione", "cultura", "connessione"],
-        "nl": ["verhalenvertellen", "cultuur", "verbinding"],
-        "ru": ["рассказывание_историй", "культура", "связь"],
-        "id": ["penceritaan", "budaya", "koneksi"],
-        "ja": ["ストーリーテリング", "文化", "つながり"],
-        "th": ["การเล่าเรื่อง", "วัฒนธรรม", "การเชื่อมต่อ"],
-        "ms": ["penceritaan", "budaya", "hubungan"]
+        "en": [
+          "storytelling",
+          "culture",
+          "connection"
+        ],
+        "tr": [
+          "hikaye_anlatımı",
+          "kültür",
+          "bağlantı"
+        ],
+        "fr": [
+          "narration",
+          "culture",
+          "connexion"
+        ],
+        "pt": [
+          "narrativa",
+          "cultura",
+          "conexão"
+        ],
+        "es": [
+          "narración",
+          "cultura",
+          "conexión"
+        ],
+        "de": [
+          "Erzählkunst",
+          "Kultur",
+          "Verbindung"
+        ],
+        "it": [
+          "narrazione",
+          "cultura",
+          "connessione"
+        ],
+        "nl": [
+          "verhalenvertellen",
+          "cultuur",
+          "verbinding"
+        ],
+        "ru": [
+          "рассказывание_историй",
+          "культура",
+          "связь"
+        ],
+        "id": [
+          "penceritaan",
+          "budaya",
+          "koneksi"
+        ],
+        "ja": [
+          "ストーリーテリング",
+          "文化",
+          "つながり"
+        ],
+        "th": [
+          "การเล่าเรื่อง",
+          "วัฒนธรรม",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "penceritaan",
+          "budaya",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1087,19 +1555,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["timelessness", "experience", "wonder"],
-        "tr": ["zamansızlık", "deneyim", "hayranlık"],
-        "fr": ["intemporalité", "expérience", "émerveillement"],
-        "pt": ["atemporalidade", "experiência", "encantamento"],
-        "es": ["intemporalidad", "experiencia", "asombro"],
-        "de": ["Zeitlosigkeit", "Erfahrung", "Staunen"],
-        "it": ["atemporalità", "esperienza", "meraviglia"],
-        "nl": ["tijdloosheid", "ervaring", "verwondering"],
-        "ru": ["вневременность", "опыт", "удивление"],
-        "id": ["keabadian", "pengalaman", "keajaiban"],
-        "ja": ["永遠性", "経験", "驚嘆"],
-        "th": ["ความเป็นนิรันดร์", "ประสบการณ์", "ความมหัศจรรย์"],
-        "ms": ["kekekalan", "pengalaman", "keajaiban"]
+        "en": [
+          "timelessness",
+          "experience",
+          "wonder"
+        ],
+        "tr": [
+          "zamansızlık",
+          "deneyim",
+          "hayranlık"
+        ],
+        "fr": [
+          "intemporalité",
+          "expérience",
+          "émerveillement"
+        ],
+        "pt": [
+          "atemporalidade",
+          "experiência",
+          "encantamento"
+        ],
+        "es": [
+          "intemporalidad",
+          "experiencia",
+          "asombro"
+        ],
+        "de": [
+          "Zeitlosigkeit",
+          "Erfahrung",
+          "Staunen"
+        ],
+        "it": [
+          "atemporalità",
+          "esperienza",
+          "meraviglia"
+        ],
+        "nl": [
+          "tijdloosheid",
+          "ervaring",
+          "verwondering"
+        ],
+        "ru": [
+          "вневременность",
+          "опыт",
+          "удивление"
+        ],
+        "id": [
+          "keabadian",
+          "pengalaman",
+          "keajaiban"
+        ],
+        "ja": [
+          "永遠性",
+          "経験",
+          "驚嘆"
+        ],
+        "th": [
+          "ความเป็นนิรันดร์",
+          "ประสบการณ์",
+          "ความมหัศจรรย์"
+        ],
+        "ms": [
+          "kekekalan",
+          "pengalaman",
+          "keajaiban"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1204,19 +1724,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["journey", "persistence", "exploration"],
-        "tr": ["yolculuk", "sebat", "keşif"],
-        "fr": ["voyage", "persévérance", "exploration"],
-        "pt": ["jornada", "persistência", "exploração"],
-        "es": ["viaje", "persistencia", "exploración"],
-        "de": ["Reise", "Ausdauer", "Erkundung"],
-        "it": ["viaggio", "perseveranza", "esplorazione"],
-        "nl": ["reis", "volharding", "verkenning"],
-        "ru": ["путешествие", "упорство", "исследование"],
-        "id": ["perjalanan", "ketekunan", "eksplorasi"],
-        "ja": ["旅", "持続", "探検"],
-        "th": ["การเดินทาง", "ความเพียร", "การสำรวจ"],
-        "ms": ["perjalanan", "ketabahan", "penjelajahan"]
+        "en": [
+          "journey",
+          "persistence",
+          "exploration"
+        ],
+        "tr": [
+          "yolculuk",
+          "sebat",
+          "keşif"
+        ],
+        "fr": [
+          "voyage",
+          "persévérance",
+          "exploration"
+        ],
+        "pt": [
+          "jornada",
+          "persistência",
+          "exploração"
+        ],
+        "es": [
+          "viaje",
+          "persistencia",
+          "exploración"
+        ],
+        "de": [
+          "Reise",
+          "Ausdauer",
+          "Erkundung"
+        ],
+        "it": [
+          "viaggio",
+          "perseveranza",
+          "esplorazione"
+        ],
+        "nl": [
+          "reis",
+          "volharding",
+          "verkenning"
+        ],
+        "ru": [
+          "путешествие",
+          "упорство",
+          "исследование"
+        ],
+        "id": [
+          "perjalanan",
+          "ketekunan",
+          "eksplorasi"
+        ],
+        "ja": [
+          "旅",
+          "持続",
+          "探検"
+        ],
+        "th": [
+          "การเดินทาง",
+          "ความเพียร",
+          "การสำรวจ"
+        ],
+        "ms": [
+          "perjalanan",
+          "ketabahan",
+          "penjelajahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["memories", "value", "experience"],
-        "tr": ["anılar", "değer", "deneyim"],
-        "fr": ["souvenirs", "valeur", "expérience"],
-        "pt": ["memórias", "valor", "experiência"],
-        "es": ["recuerdos", "valor", "experiencia"],
-        "de": ["Erinnerungen", "Wert", "Erfahrung"],
-        "it": ["ricordi", "valore", "esperienza"],
-        "nl": ["herinneringen", "waarde", "ervaring"],
-        "ru": ["воспоминания", "ценность", "опыт"],
-        "id": ["kenangan", "nilai", "pengalaman"],
-        "ja": ["思い出", "価値", "経験"],
-        "th": ["ความทรงจำ", "คุณค่า", "ประสบการณ์"],
-        "ms": ["kenangan", "nilai", "pengalaman"]
+        "en": [
+          "memories",
+          "value",
+          "experience"
+        ],
+        "tr": [
+          "anılar",
+          "değer",
+          "deneyim"
+        ],
+        "fr": [
+          "souvenirs",
+          "valeur",
+          "expérience"
+        ],
+        "pt": [
+          "memórias",
+          "valor",
+          "experiência"
+        ],
+        "es": [
+          "recuerdos",
+          "valor",
+          "experiencia"
+        ],
+        "de": [
+          "Erinnerungen",
+          "Wert",
+          "Erfahrung"
+        ],
+        "it": [
+          "ricordi",
+          "valore",
+          "esperienza"
+        ],
+        "nl": [
+          "herinneringen",
+          "waarde",
+          "ervaring"
+        ],
+        "ru": [
+          "воспоминания",
+          "ценность",
+          "опыт"
+        ],
+        "id": [
+          "kenangan",
+          "nilai",
+          "pengalaman"
+        ],
+        "ja": [
+          "思い出",
+          "価値",
+          "経験"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "คุณค่า",
+          "ประสบการณ์"
+        ],
+        "ms": [
+          "kenangan",
+          "nilai",
+          "pengalaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["understanding", "growth", "perspective"],
-        "tr": ["anlayış", "büyüme", "bakış_açısı"],
-        "fr": ["compréhension", "croissance", "perspective"],
-        "pt": ["compreensão", "crescimento", "perspectiva"],
-        "es": ["comprensión", "crecimiento", "perspectiva"],
-        "de": ["Verständnis", "Wachstum", "Perspektive"],
-        "it": ["comprensione", "crescita", "prospettiva"],
-        "nl": ["begrip", "groei", "perspectief"],
-        "ru": ["понимание", "рост", "перспектива"],
-        "id": ["pemahaman", "pertumbuhan", "perspektif"],
-        "ja": ["理解", "成長", "視点"],
-        "th": ["ความเข้าใจ", "การเติบโต", "มุมมอง"],
-        "ms": ["pemahaman", "pertumbuhan", "perspektif"]
+        "en": [
+          "understanding",
+          "growth",
+          "perspective"
+        ],
+        "tr": [
+          "anlayış",
+          "büyüme",
+          "bakış_açısı"
+        ],
+        "fr": [
+          "compréhension",
+          "croissance",
+          "perspective"
+        ],
+        "pt": [
+          "compreensão",
+          "crescimento",
+          "perspectiva"
+        ],
+        "es": [
+          "comprensión",
+          "crecimiento",
+          "perspectiva"
+        ],
+        "de": [
+          "Verständnis",
+          "Wachstum",
+          "Perspektive"
+        ],
+        "it": [
+          "comprensione",
+          "crescita",
+          "prospettiva"
+        ],
+        "nl": [
+          "begrip",
+          "groei",
+          "perspectief"
+        ],
+        "ru": [
+          "понимание",
+          "рост",
+          "перспектива"
+        ],
+        "id": [
+          "pemahaman",
+          "pertumbuhan",
+          "perspektif"
+        ],
+        "ja": [
+          "理解",
+          "成長",
+          "視点"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "การเติบโต",
+          "มุมมอง"
+        ],
+        "ms": [
+          "pemahaman",
+          "pertumbuhan",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1555,19 +2231,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["connection", "emotion", "discovery"],
-        "tr": ["bağlantı", "duygu", "keşif"],
-        "fr": ["connexion", "émotion", "découverte"],
-        "pt": ["conexão", "emoção", "descoberta"],
-        "es": ["conexión", "emoción", "descubrimiento"],
-        "de": ["Verbindung", "Emotion", "Entdeckung"],
-        "it": ["connessione", "emozione", "scoperta"],
-        "nl": ["verbinding", "emotie", "ontdekking"],
-        "ru": ["связь", "эмоция", "открытие"],
-        "id": ["koneksi", "emosi", "penemuan"],
-        "ja": ["つながり", "感情", "発見"],
-        "th": ["การเชื่อมต่อ", "อารมณ์", "การค้นพบ"],
-        "ms": ["hubungan", "emosi", "penemuan"]
+        "en": [
+          "connection",
+          "emotion",
+          "discovery"
+        ],
+        "tr": [
+          "bağlantı",
+          "duygu",
+          "keşif"
+        ],
+        "fr": [
+          "connexion",
+          "émotion",
+          "découverte"
+        ],
+        "pt": [
+          "conexão",
+          "emoção",
+          "descoberta"
+        ],
+        "es": [
+          "conexión",
+          "emoción",
+          "descubrimiento"
+        ],
+        "de": [
+          "Verbindung",
+          "Emotion",
+          "Entdeckung"
+        ],
+        "it": [
+          "connessione",
+          "emozione",
+          "scoperta"
+        ],
+        "nl": [
+          "verbinding",
+          "emotie",
+          "ontdekking"
+        ],
+        "ru": [
+          "связь",
+          "эмоция",
+          "открытие"
+        ],
+        "id": [
+          "koneksi",
+          "emosi",
+          "penemuan"
+        ],
+        "ja": [
+          "つながり",
+          "感情",
+          "発見"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "อารมณ์",
+          "การค้นพบ"
+        ],
+        "ms": [
+          "hubungan",
+          "emosi",
+          "penemuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1672,19 +2400,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["dreams", "freedom", "aspiration"],
-        "tr": ["hayaller", "özgürlük", "hedef"],
-        "fr": ["rêves", "liberté", "aspiration"],
-        "pt": ["sonhos", "liberdade", "aspiração"],
-        "es": ["sueños", "libertad", "aspiración"],
-        "de": ["Träume", "Freiheit", "Streben"],
-        "it": ["sogni", "libertà", "aspirazione"],
-        "nl": ["dromen", "vrijheid", "aspiratie"],
-        "ru": ["мечты", "свобода", "стремление"],
-        "id": ["mimpi", "kebebasan", "aspirasi"],
-        "ja": ["夢", "自由", "志"],
-        "th": ["ความฝัน", "อิสรภาพ", "ความปรารถนา"],
-        "ms": ["impian", "kebebasan", "aspirasi"]
+        "en": [
+          "dreams",
+          "freedom",
+          "aspiration"
+        ],
+        "tr": [
+          "hayaller",
+          "özgürlük",
+          "hedef"
+        ],
+        "fr": [
+          "rêves",
+          "liberté",
+          "aspiration"
+        ],
+        "pt": [
+          "sonhos",
+          "liberdade",
+          "aspiração"
+        ],
+        "es": [
+          "sueños",
+          "libertad",
+          "aspiración"
+        ],
+        "de": [
+          "Träume",
+          "Freiheit",
+          "Streben"
+        ],
+        "it": [
+          "sogni",
+          "libertà",
+          "aspirazione"
+        ],
+        "nl": [
+          "dromen",
+          "vrijheid",
+          "aspiratie"
+        ],
+        "ru": [
+          "мечты",
+          "свобода",
+          "стремление"
+        ],
+        "id": [
+          "mimpi",
+          "kebebasan",
+          "aspirasi"
+        ],
+        "ja": [
+          "夢",
+          "自由",
+          "志"
+        ],
+        "th": [
+          "ความฝัน",
+          "อิสรภาพ",
+          "ความปรารถนา"
+        ],
+        "ms": [
+          "impian",
+          "kebebasan",
+          "aspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["transformation", "soul", "journey"],
-        "tr": ["dönüşüm", "ruh", "yolculuk"],
-        "fr": ["transformation", "âme", "voyage"],
-        "pt": ["transformação", "alma", "jornada"],
-        "es": ["transformación", "alma", "viaje"],
-        "de": ["Verwandlung", "Seele", "Reise"],
-        "it": ["trasformazione", "anima", "viaggio"],
-        "nl": ["transformatie", "ziel", "reis"],
-        "ru": ["преображение", "душа", "путешествие"],
-        "id": ["transformasi", "jiwa", "perjalanan"],
-        "ja": ["変容", "魂", "旅"],
-        "th": ["การเปลี่ยนแปลง", "จิตวิญญาณ", "การเดินทาง"],
-        "ms": ["transformasi", "jiwa", "perjalanan"]
+        "en": [
+          "transformation",
+          "soul",
+          "journey"
+        ],
+        "tr": [
+          "dönüşüm",
+          "ruh",
+          "yolculuk"
+        ],
+        "fr": [
+          "transformation",
+          "âme",
+          "voyage"
+        ],
+        "pt": [
+          "transformação",
+          "alma",
+          "jornada"
+        ],
+        "es": [
+          "transformación",
+          "alma",
+          "viaje"
+        ],
+        "de": [
+          "Verwandlung",
+          "Seele",
+          "Reise"
+        ],
+        "it": [
+          "trasformazione",
+          "anima",
+          "viaggio"
+        ],
+        "nl": [
+          "transformatie",
+          "ziel",
+          "reis"
+        ],
+        "ru": [
+          "преображение",
+          "душа",
+          "путешествие"
+        ],
+        "id": [
+          "transformasi",
+          "jiwa",
+          "perjalanan"
+        ],
+        "ja": [
+          "変容",
+          "魂",
+          "旅"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "จิตวิญญาณ",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "transformasi",
+          "jiwa",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["guidance", "destiny", "heart"],
-        "tr": ["rehberlik", "kader", "kalp"],
-        "fr": ["guidance", "destin", "cœur"],
-        "pt": ["orientação", "destino", "coração"],
-        "es": ["guía", "destino", "corazón"],
-        "de": ["Führung", "Schicksal", "Herz"],
-        "it": ["guida", "destino", "cuore"],
-        "nl": ["begeleiding", "lot", "hart"],
-        "ru": ["руководство", "судьба", "сердце"],
-        "id": ["panduan", "takdir", "hati"],
-        "ja": ["導き", "運命", "心"],
-        "th": ["การนำทาง", "โชคชะตา", "หัวใจ"],
-        "ms": ["panduan", "takdir", "hati"]
+        "en": [
+          "guidance",
+          "destiny",
+          "heart"
+        ],
+        "tr": [
+          "rehberlik",
+          "kader",
+          "kalp"
+        ],
+        "fr": [
+          "guidance",
+          "destin",
+          "cœur"
+        ],
+        "pt": [
+          "orientação",
+          "destino",
+          "coração"
+        ],
+        "es": [
+          "guía",
+          "destino",
+          "corazón"
+        ],
+        "de": [
+          "Führung",
+          "Schicksal",
+          "Herz"
+        ],
+        "it": [
+          "guida",
+          "destino",
+          "cuore"
+        ],
+        "nl": [
+          "begeleiding",
+          "lot",
+          "hart"
+        ],
+        "ru": [
+          "руководство",
+          "судьба",
+          "сердце"
+        ],
+        "id": [
+          "panduan",
+          "takdir",
+          "hati"
+        ],
+        "ja": [
+          "導き",
+          "運命",
+          "心"
+        ],
+        "th": [
+          "การนำทาง",
+          "โชคชะตา",
+          "หัวใจ"
+        ],
+        "ms": [
+          "panduan",
+          "takdir",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2023,19 +2907,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["connection", "stories", "humanity"],
-        "tr": ["bağlantı", "hikayeler", "insanlık"],
-        "fr": ["connexion", "histoires", "humanité"],
-        "pt": ["conexão", "histórias", "humanidade"],
-        "es": ["conexión", "historias", "humanidad"],
-        "de": ["Verbindung", "Geschichten", "Menschlichkeit"],
-        "it": ["connessione", "storie", "umanità"],
-        "nl": ["verbinding", "verhalen", "menselijkheid"],
-        "ru": ["связь", "истории", "человечность"],
-        "id": ["koneksi", "cerita", "kemanusiaan"],
-        "ja": ["つながり", "物語", "人間性"],
-        "th": ["การเชื่อมต่อ", "เรื่องราว", "มนุษยชาติ"],
-        "ms": ["hubungan", "cerita", "kemanusiaan"]
+        "en": [
+          "connection",
+          "stories",
+          "humanity"
+        ],
+        "tr": [
+          "bağlantı",
+          "hikayeler",
+          "insanlık"
+        ],
+        "fr": [
+          "connexion",
+          "histoires",
+          "humanité"
+        ],
+        "pt": [
+          "conexão",
+          "histórias",
+          "humanidade"
+        ],
+        "es": [
+          "conexión",
+          "historias",
+          "humanidad"
+        ],
+        "de": [
+          "Verbindung",
+          "Geschichten",
+          "Menschlichkeit"
+        ],
+        "it": [
+          "connessione",
+          "storie",
+          "umanità"
+        ],
+        "nl": [
+          "verbinding",
+          "verhalen",
+          "menselijkheid"
+        ],
+        "ru": [
+          "связь",
+          "истории",
+          "человечность"
+        ],
+        "id": [
+          "koneksi",
+          "cerita",
+          "kemanusiaan"
+        ],
+        "ja": [
+          "つながり",
+          "物語",
+          "人間性"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "เรื่องราว",
+          "มนุษยชาติ"
+        ],
+        "ms": [
+          "hubungan",
+          "cerita",
+          "kemanusiaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["nature", "listening", "wisdom"],
-        "tr": ["doğa", "dinleme", "bilgelik"],
-        "fr": ["nature", "écoute", "sagesse"],
-        "pt": ["natureza", "escuta", "sabedoria"],
-        "es": ["naturaleza", "escucha", "sabiduría"],
-        "de": ["Natur", "Zuhören", "Weisheit"],
-        "it": ["natura", "ascolto", "saggezza"],
-        "nl": ["natuur", "luisteren", "wijsheid"],
-        "ru": ["природа", "слушание", "мудрость"],
-        "id": ["alam", "mendengarkan", "kebijaksanaan"],
-        "ja": ["自然", "傾聴", "知恵"],
-        "th": ["ธรรมชาติ", "การฟัง", "ปัญญา"],
-        "ms": ["alam", "mendengar", "kebijaksanaan"]
+        "en": [
+          "nature",
+          "listening",
+          "wisdom"
+        ],
+        "tr": [
+          "doğa",
+          "dinleme",
+          "bilgelik"
+        ],
+        "fr": [
+          "nature",
+          "écoute",
+          "sagesse"
+        ],
+        "pt": [
+          "natureza",
+          "escuta",
+          "sabedoria"
+        ],
+        "es": [
+          "naturaleza",
+          "escucha",
+          "sabiduría"
+        ],
+        "de": [
+          "Natur",
+          "Zuhören",
+          "Weisheit"
+        ],
+        "it": [
+          "natura",
+          "ascolto",
+          "saggezza"
+        ],
+        "nl": [
+          "natuur",
+          "luisteren",
+          "wijsheid"
+        ],
+        "ru": [
+          "природа",
+          "слушание",
+          "мудрость"
+        ],
+        "id": [
+          "alam",
+          "mendengarkan",
+          "kebijaksanaan"
+        ],
+        "ja": [
+          "自然",
+          "傾聴",
+          "知恵"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "การฟัง",
+          "ปัญญา"
+        ],
+        "ms": [
+          "alam",
+          "mendengar",
+          "kebijaksanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2257,19 +3245,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["freedom", "departure", "growth"],
-        "tr": ["özgürlük", "ayrılış", "büyüme"],
-        "fr": ["liberté", "départ", "croissance"],
-        "pt": ["liberdade", "partida", "crescimento"],
-        "es": ["libertad", "partida", "crecimiento"],
-        "de": ["Freiheit", "Aufbruch", "Wachstum"],
-        "it": ["libertà", "partenza", "crescita"],
-        "nl": ["vrijheid", "vertrek", "groei"],
-        "ru": ["свобода", "отъезд", "рост"],
-        "id": ["kebebasan", "keberangkatan", "pertumbuhan"],
-        "ja": ["自由", "出発", "成長"],
-        "th": ["เสรีภาพ", "การออกเดินทาง", "การเติบโต"],
-        "ms": ["kebebasan", "perlepasan", "pertumbuhan"]
+        "en": [
+          "freedom",
+          "departure",
+          "growth"
+        ],
+        "tr": [
+          "özgürlük",
+          "ayrılış",
+          "büyüme"
+        ],
+        "fr": [
+          "liberté",
+          "départ",
+          "croissance"
+        ],
+        "pt": [
+          "liberdade",
+          "partida",
+          "crescimento"
+        ],
+        "es": [
+          "libertad",
+          "partida",
+          "crecimiento"
+        ],
+        "de": [
+          "Freiheit",
+          "Aufbruch",
+          "Wachstum"
+        ],
+        "it": [
+          "libertà",
+          "partenza",
+          "crescita"
+        ],
+        "nl": [
+          "vrijheid",
+          "vertrek",
+          "groei"
+        ],
+        "ru": [
+          "свобода",
+          "отъезд",
+          "рост"
+        ],
+        "id": [
+          "kebebasan",
+          "keberangkatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "自由",
+          "出発",
+          "成長"
+        ],
+        "th": [
+          "เสรีภาพ",
+          "การออกเดินทาง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kebebasan",
+          "perlepasan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["pursuit", "life", "growth"],
-        "tr": ["peşinde koşma", "hayat", "büyüme"],
-        "fr": ["poursuite", "vie", "croissance"],
-        "pt": ["perseguição", "vida", "crescimento"],
-        "es": ["persecución", "vida", "crecimiento"],
-        "de": ["Verfolgung", "Leben", "Wachstum"],
-        "it": ["inseguimento", "vita", "crescita"],
-        "nl": ["achtervolging", "leven", "groei"],
-        "ru": ["погоня", "жизнь", "рост"],
-        "id": ["pengejaran", "hidup", "pertumbuhan"],
-        "ja": ["追求", "人生", "成長"],
-        "th": ["การไล่ตาม", "ชีวิต", "การเติบโต"],
-        "ms": ["pengejaran", "hidup", "pertumbuhan"]
+        "en": [
+          "pursuit",
+          "life",
+          "growth"
+        ],
+        "tr": [
+          "peşinde koşma",
+          "hayat",
+          "büyüme"
+        ],
+        "fr": [
+          "poursuite",
+          "vie",
+          "croissance"
+        ],
+        "pt": [
+          "perseguição",
+          "vida",
+          "crescimento"
+        ],
+        "es": [
+          "persecución",
+          "vida",
+          "crecimiento"
+        ],
+        "de": [
+          "Verfolgung",
+          "Leben",
+          "Wachstum"
+        ],
+        "it": [
+          "inseguimento",
+          "vita",
+          "crescita"
+        ],
+        "nl": [
+          "achtervolging",
+          "leven",
+          "groei"
+        ],
+        "ru": [
+          "погоня",
+          "жизнь",
+          "рост"
+        ],
+        "id": [
+          "pengejaran",
+          "hidup",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "追求",
+          "人生",
+          "成長"
+        ],
+        "th": [
+          "การไล่ตาม",
+          "ชีวิต",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pengejaran",
+          "hidup",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2490,19 +3582,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["dreams", "winds", "memory"],
-        "tr": ["hayaller", "rüzgarlar", "hafıza"],
-        "fr": ["rêves", "vents", "mémoire"],
-        "pt": ["sonhos", "ventos", "memória"],
-        "es": ["sueños", "vientos", "memoria"],
-        "de": ["Träume", "Winde", "Erinnerung"],
-        "it": ["sogni", "venti", "memoria"],
-        "nl": ["dromen", "winden", "herinnering"],
-        "ru": ["сны", "ветра", "память"],
-        "id": ["mimpi", "angin", "kenangan"],
-        "ja": ["夢", "風", "記憶"],
-        "th": ["ความฝัน", "ลม", "ความทรงจำ"],
-        "ms": ["mimpi", "angin", "kenangan"]
+        "en": [
+          "dreams",
+          "winds",
+          "memory"
+        ],
+        "tr": [
+          "hayaller",
+          "rüzgarlar",
+          "hafıza"
+        ],
+        "fr": [
+          "rêves",
+          "vents",
+          "mémoire"
+        ],
+        "pt": [
+          "sonhos",
+          "ventos",
+          "memória"
+        ],
+        "es": [
+          "sueños",
+          "vientos",
+          "memoria"
+        ],
+        "de": [
+          "Träume",
+          "Winde",
+          "Erinnerung"
+        ],
+        "it": [
+          "sogni",
+          "venti",
+          "memoria"
+        ],
+        "nl": [
+          "dromen",
+          "winden",
+          "herinnering"
+        ],
+        "ru": [
+          "сны",
+          "ветра",
+          "память"
+        ],
+        "id": [
+          "mimpi",
+          "angin",
+          "kenangan"
+        ],
+        "ja": [
+          "夢",
+          "風",
+          "記憶"
+        ],
+        "th": [
+          "ความฝัน",
+          "ลม",
+          "ความทรงจำ"
+        ],
+        "ms": [
+          "mimpi",
+          "angin",
+          "kenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2607,19 +3751,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["empathy", "culture", "learning"],
-        "tr": ["empati", "kültür", "öğrenme"],
-        "fr": ["empathie", "culture", "apprentissage"],
-        "pt": ["empatia", "cultura", "aprendizado"],
-        "es": ["empatía", "cultura", "aprendizaje"],
-        "de": ["Empathie", "Kultur", "Lernen"],
-        "it": ["empatia", "cultura", "apprendimento"],
-        "nl": ["empathie", "cultuur", "leren"],
-        "ru": ["эмпатия", "культура", "обучение"],
-        "id": ["empati", "budaya", "pembelajaran"],
-        "ja": ["共感", "文化", "学習"],
-        "th": ["ความเห็นอกเห็นใจ", "วัฒนธรรม", "การเรียนรู้"],
-        "ms": ["empati", "budaya", "pembelajaran"]
+        "en": [
+          "empathy",
+          "culture",
+          "learning"
+        ],
+        "tr": [
+          "empati",
+          "kültür",
+          "öğrenme"
+        ],
+        "fr": [
+          "empathie",
+          "culture",
+          "apprentissage"
+        ],
+        "pt": [
+          "empatia",
+          "cultura",
+          "aprendizado"
+        ],
+        "es": [
+          "empatía",
+          "cultura",
+          "aprendizaje"
+        ],
+        "de": [
+          "Empathie",
+          "Kultur",
+          "Lernen"
+        ],
+        "it": [
+          "empatia",
+          "cultura",
+          "apprendimento"
+        ],
+        "nl": [
+          "empathie",
+          "cultuur",
+          "leren"
+        ],
+        "ru": [
+          "эмпатия",
+          "культура",
+          "обучение"
+        ],
+        "id": [
+          "empati",
+          "budaya",
+          "pembelajaran"
+        ],
+        "ja": [
+          "共感",
+          "文化",
+          "学習"
+        ],
+        "th": [
+          "ความเห็นอกเห็นใจ",
+          "วัฒนธรรม",
+          "การเรียนรู้"
+        ],
+        "ms": [
+          "empati",
+          "budaya",
+          "pembelajaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2724,19 +3920,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["connection", "culture", "heart"],
-        "tr": ["bağlantı", "kültür", "kalp"],
-        "fr": ["connexion", "culture", "cœur"],
-        "pt": ["conexão", "cultura", "coração"],
-        "es": ["conexión", "cultura", "corazón"],
-        "de": ["Verbindung", "Kultur", "Herz"],
-        "it": ["connessione", "cultura", "cuore"],
-        "nl": ["verbinding", "cultuur", "hart"],
-        "ru": ["связь", "культура", "сердце"],
-        "id": ["koneksi", "budaya", "hati"],
-        "ja": ["つながり", "文化", "心"],
-        "th": ["การเชื่อมต่อ", "วัฒนธรรม", "หัวใจ"],
-        "ms": ["hubungan", "budaya", "hati"]
+        "en": [
+          "connection",
+          "culture",
+          "heart"
+        ],
+        "tr": [
+          "bağlantı",
+          "kültür",
+          "kalp"
+        ],
+        "fr": [
+          "connexion",
+          "culture",
+          "cœur"
+        ],
+        "pt": [
+          "conexão",
+          "cultura",
+          "coração"
+        ],
+        "es": [
+          "conexión",
+          "cultura",
+          "corazón"
+        ],
+        "de": [
+          "Verbindung",
+          "Kultur",
+          "Herz"
+        ],
+        "it": [
+          "connessione",
+          "cultura",
+          "cuore"
+        ],
+        "nl": [
+          "verbinding",
+          "cultuur",
+          "hart"
+        ],
+        "ru": [
+          "связь",
+          "культура",
+          "сердце"
+        ],
+        "id": [
+          "koneksi",
+          "budaya",
+          "hati"
+        ],
+        "ja": [
+          "つながり",
+          "文化",
+          "心"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "วัฒนธรรม",
+          "หัวใจ"
+        ],
+        "ms": [
+          "hubungan",
+          "budaya",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2841,19 +4089,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["silence", "wisdom", "introspection"],
-        "tr": ["sessizlik", "bilgelik", "iç gözlem"],
-        "fr": ["silence", "sagesse", "introspection"],
-        "pt": ["silêncio", "sabedoria", "introspecção"],
-        "es": ["silencio", "sabiduría", "introspección"],
-        "de": ["Stille", "Weisheit", "Introspektion"],
-        "it": ["silenzio", "saggezza", "introspezione"],
-        "nl": ["stilte", "wijsheid", "introspectie"],
-        "ru": ["тишина", "мудрость", "самоанализ"],
-        "id": ["kehemahan", "kebijaksanaan", "introspeksi"],
-        "ja": ["静寂", "知恵", "内省"],
-        "th": ["ความเงียบ", "ปัญญา", "การพิจารณาตนเอง"],
-        "ms": ["kesunyian", "kebijaksanaan", "introspeksi"]
+        "en": [
+          "silence",
+          "wisdom",
+          "introspection"
+        ],
+        "tr": [
+          "sessizlik",
+          "bilgelik",
+          "iç gözlem"
+        ],
+        "fr": [
+          "silence",
+          "sagesse",
+          "introspection"
+        ],
+        "pt": [
+          "silêncio",
+          "sabedoria",
+          "introspecção"
+        ],
+        "es": [
+          "silencio",
+          "sabiduría",
+          "introspección"
+        ],
+        "de": [
+          "Stille",
+          "Weisheit",
+          "Introspektion"
+        ],
+        "it": [
+          "silenzio",
+          "saggezza",
+          "introspezione"
+        ],
+        "nl": [
+          "stilte",
+          "wijsheid",
+          "introspectie"
+        ],
+        "ru": [
+          "тишина",
+          "мудрость",
+          "самоанализ"
+        ],
+        "id": [
+          "kehemahan",
+          "kebijaksanaan",
+          "introspeksi"
+        ],
+        "ja": [
+          "静寂",
+          "知恵",
+          "内省"
+        ],
+        "th": [
+          "ความเงียบ",
+          "ปัญญา",
+          "การพิจารณาตนเอง"
+        ],
+        "ms": [
+          "kesunyian",
+          "kebijaksanaan",
+          "introspeksi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2895,36 +4195,36 @@
         "nl": {
           "title": "De Lessen van de Stilte",
           "content": "Dit citaat sluit aan bij de zenboeddhistische praktijk van zazen, waarbij stilte tijdens meditatie diepe zelfontdekking bevordert. In de visioenszoektochten van inheemse Amerikanen leren eenzame reizen in de stilte van de natuur diepgaande spirituele lessen. Het citaat suggereert dat de rust van een reis wijsheid biedt voorbij woorden, net als de woestijn kermissen van het vroege Christendom, die goddelijke inzichten zochten in de stilte van afgelegen landschappen en begeleiding vonden in de afwezigheid van wereldlijk lawaai.",
-          "readTime":0
+          "readTime": 0
         },
-          "ru": {
-            "title": "Уроки Тишины",
-            "content": "Эта цитата согласуется с практикой дзэн-буддизма дзадзэн, где тишина во время медитации способствует глубокому самопознанию. В поисках видений у коренных американцев одинокие путешествия в тишине природы учат глубоким духовным урокам. Цитата предполагает, что покой путешествия предлагает мудрость, превосходящую слова, подобно пустынным отшельникам раннего христианства, которые искали божественные прозрения в тишине отдаленных пейзажей, находя руководство в отсутствии мирского шума.",
-            "readTime": 0
-          },
-          "id": {
-            "title": "Pelajaran dari Keheningan",
-            "content": "Kutipan ini selaras dengan praktik Zen Buddhis zazen, di mana keheningan selama meditasi memupuk penemuan diri yang mendalam. Dalam pencarian visi penduduk asli Amerika, perjalanan menyendiri dalam keheningan alam mengajarkan pelajaran spiritual yang mendalam. Kutipan ini menunjukkan bahwa ketenangan perjalanan menawarkan kebijaksanaan yang melampaui kata-kata, seperti para pertapa gurun dalam Kekristenan awal yang mencari wawasan ilahi dalam keheningan lanskap terpencil, menemukan bimbingan dalam ketiadaan kebisingan duniawi.",
-            "readTime": 0
-          },
-          "ja": {
-            "title": "静寂の教訓",
-            "content": "この引用は、禅仏教の坐禅の修行と一致しており、瞑想中の静寂が深い自己発見を促進します。ネイティブアメリカンのビジョンクエストでは、自然の静寂の中での孤独な旅が深い霊的教訓を教えます。この引用は、旅の静けさが言葉を超えた知恵を提供することを示唆しています。これは、初期キリスト教の砂漠の隠者が遠く離れた風景の静寂の中で神の洞察を求め、世俗の騒音の不在の中で導きを見つけたのと似ています。",
-            "readTime": 0
-          },
-          "th": {
-            "title": "บทเรียนจากความเงียบ",
-            "content": "คำพูดนี้สอดคล้องกับการปฏิบัติเซนพุทธศาสนาของซาเซน ซึ่งความเงียบระหว่างการทำสมาธิส่งเสริมการค้นพบตนเองอย่างลึกซึ้ง ในการแสวงหาวิสัยทัศน์ของชาวพื้นเมืองอเมริกัน การเดินทางเพียงลำพังในความเงียบของธรรมชาติสอนบทเรียนทางจิตวิญญาณที่ลึกซึ้ง คำพูดนี้บ่งชี้ว่าความเงียบของการเดินทางมอบปัญญาที่เหนือกว่าคำพูด เช่นเดียวกับนักบวชในทะเลทรายของคริสต์ศาสนยุคแรกที่แสวงหาความเข้าใจอันศักดิ์สิทธิ์ในความเงียบของภูมิทัศน์ที่ห่างไกล และพบการนำทางในความว่างเปล่าจากเสียงรบกวนของโลก",
-            "readTime": 0
-          },
-          "ms": {
-            "title": "Pelajaran dari Kesunyian",
-            "content": "Petikan ini selari dengan amalan Zen Buddha zazen, di mana kesunyian semasa meditasi memupuk penemuan diri yang mendalam. Dalam pencarian visi Orang Asli Amerika, perjalanan bersendirian dalam kesunyian alam mengajar pelajaran rohani yang mendalam. Petikan ini menunjukkan bahawa ketenangan perjalanan menawarkan kebijaksanaan yang melampaui kata-kata, seperti pertapa gurun dalam Kristian awal yang mencari wawasan ilahi dalam kesunyian lanskap terpencil, menemui panduan dalam ketiadaan bunyi duniawi.",
-            "readTime": 0
-          }
+        "ru": {
+          "title": "Уроки Тишины",
+          "content": "Эта цитата согласуется с практикой дзэн-буддизма дзадзэн, где тишина во время медитации способствует глубокому самопознанию. В поисках видений у коренных американцев одинокие путешествия в тишине природы учат глубоким духовным урокам. Цитата предполагает, что покой путешествия предлагает мудрость, превосходящую слова, подобно пустынным отшельникам раннего христианства, которые искали божественные прозрения в тишине отдаленных пейзажей, находя руководство в отсутствии мирского шума.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Pelajaran dari Keheningan",
+          "content": "Kutipan ini selaras dengan praktik Zen Buddhis zazen, di mana keheningan selama meditasi memupuk penemuan diri yang mendalam. Dalam pencarian visi penduduk asli Amerika, perjalanan menyendiri dalam keheningan alam mengajarkan pelajaran spiritual yang mendalam. Kutipan ini menunjukkan bahwa ketenangan perjalanan menawarkan kebijaksanaan yang melampaui kata-kata, seperti para pertapa gurun dalam Kekristenan awal yang mencari wawasan ilahi dalam keheningan lanskap terpencil, menemukan bimbingan dalam ketiadaan kebisingan duniawi.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "静寂の教訓",
+          "content": "この引用は、禅仏教の坐禅の修行と一致しており、瞑想中の静寂が深い自己発見を促進します。ネイティブアメリカンのビジョンクエストでは、自然の静寂の中での孤独な旅が深い霊的教訓を教えます。この引用は、旅の静けさが言葉を超えた知恵を提供することを示唆しています。これは、初期キリスト教の砂漠の隠者が遠く離れた風景の静寂の中で神の洞察を求め、世俗の騒音の不在の中で導きを見つけたのと似ています。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "บทเรียนจากความเงียบ",
+          "content": "คำพูดนี้สอดคล้องกับการปฏิบัติเซนพุทธศาสนาของซาเซน ซึ่งความเงียบระหว่างการทำสมาธิส่งเสริมการค้นพบตนเองอย่างลึกซึ้ง ในการแสวงหาวิสัยทัศน์ของชาวพื้นเมืองอเมริกัน การเดินทางเพียงลำพังในความเงียบของธรรมชาติสอนบทเรียนทางจิตวิญญาณที่ลึกซึ้ง คำพูดนี้บ่งชี้ว่าความเงียบของการเดินทางมอบปัญญาที่เหนือกว่าคำพูด เช่นเดียวกับนักบวชในทะเลทรายของคริสต์ศาสนยุคแรกที่แสวงหาความเข้าใจอันศักดิ์สิทธิ์ในความเงียบของภูมิทัศน์ที่ห่างไกล และพบการนำทางในความว่างเปล่าจากเสียงรบกวนของโลก",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Pelajaran dari Kesunyian",
+          "content": "Petikan ini selari dengan amalan Zen Buddha zazen, di mana kesunyian semasa meditasi memupuk penemuan diri yang mendalam. Dalam pencarian visi Orang Asli Amerika, perjalanan bersendirian dalam kesunyian alam mengajar pelajaran rohani yang mendalam. Petikan ini menunjukkan bahawa ketenangan perjalanan menawarkan kebijaksanaan yang melampaui kata-kata, seperti pertapa gurun dalam Kristian awal yang mencari wawasan ilahi dalam kesunyian lanskap terpencil, menemui panduan dalam ketiadaan bunyi duniawi.",
+          "readTime": 0
         }
-      },
-      {
+      }
+    },
+    {
       "id": "travel_040",
       "category": "travel",
       "texts": {
@@ -2958,19 +4258,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["heart", "exploration", "inner journey"],
-        "tr": ["kalp", "keşif", "iç yolculuk"],
-        "fr": ["cœur", "exploration", "voyage intérieur"],
-        "pt": ["coração", "exploração", "jornada interior"],
-        "es": ["corazón", "exploración", "viaje interior"],
-        "de": ["Herz", "Erkundung", "innere Reise"],
-        "it": ["cuore", "esplorazione", "viaggio interiore"],
-        "nl": ["hart", "verkenning", "innerlijke reis"],
-        "ru": ["сердце", "исследование", "внутреннее путешествие"],
-        "id": ["hati", "penjelajahan", "perjalanan batin"],
-        "ja": ["心", "探検", "内なる旅"],
-        "th": ["หัวใจ", "การสำรวจ", "การเดินทางภายใน"],
-        "ms": ["hati", "penerokaan", "perjalanan dalaman"]
+        "en": [
+          "heart",
+          "exploration",
+          "inner journey"
+        ],
+        "tr": [
+          "kalp",
+          "keşif",
+          "iç yolculuk"
+        ],
+        "fr": [
+          "cœur",
+          "exploration",
+          "voyage intérieur"
+        ],
+        "pt": [
+          "coração",
+          "exploração",
+          "jornada interior"
+        ],
+        "es": [
+          "corazón",
+          "exploración",
+          "viaje interior"
+        ],
+        "de": [
+          "Herz",
+          "Erkundung",
+          "innere Reise"
+        ],
+        "it": [
+          "cuore",
+          "esplorazione",
+          "viaggio interiore"
+        ],
+        "nl": [
+          "hart",
+          "verkenning",
+          "innerlijke reis"
+        ],
+        "ru": [
+          "сердце",
+          "исследование",
+          "внутреннее путешествие"
+        ],
+        "id": [
+          "hati",
+          "penjelajahan",
+          "perjalanan batin"
+        ],
+        "ja": [
+          "心",
+          "探検",
+          "内なる旅"
+        ],
+        "th": [
+          "หัวใจ",
+          "การสำรวจ",
+          "การเดินทางภายใน"
+        ],
+        "ms": [
+          "hati",
+          "penerokaan",
+          "perjalanan dalaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3075,19 +4427,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["presence", "discovery", "new horizons"],
-        "tr": ["varlık", "keşif", "yeni ufuklar"],
-        "fr": ["présence", "découverte", "nouveaux horizons"],
-        "pt": ["presença", "descoberta", "novos horizontes"],
-        "es": ["presencia", "descubrimiento", "nuevos horizontes"],
-        "de": ["Präsenz", "Entdeckung", "neue Horizonte"],
-        "it": ["presenza", "scoperta", "nuovi orizzonti"],
-        "nl": ["aanwezigheid", "ontdekking", "nieuwe horizonten"],
-        "ru": ["присутствие", "открытие", "новые горизонты"],
-        "id": ["kehadiran", "penemuan", "cakrawala baru"],
-        "ja": ["存在", "発見", "新しい地平"],
-        "th": ["การมีอยู่", "การค้นพบ", "ขอบฟ้าใหม่"],
-        "ms": ["kehadiran", "penemuan", "ufuk baru"]
+        "en": [
+          "presence",
+          "discovery",
+          "new horizons"
+        ],
+        "tr": [
+          "varlık",
+          "keşif",
+          "yeni ufuklar"
+        ],
+        "fr": [
+          "présence",
+          "découverte",
+          "nouveaux horizons"
+        ],
+        "pt": [
+          "presença",
+          "descoberta",
+          "novos horizontes"
+        ],
+        "es": [
+          "presencia",
+          "descubrimiento",
+          "nuevos horizontes"
+        ],
+        "de": [
+          "Präsenz",
+          "Entdeckung",
+          "neue Horizonte"
+        ],
+        "it": [
+          "presenza",
+          "scoperta",
+          "nuovi orizzonti"
+        ],
+        "nl": [
+          "aanwezigheid",
+          "ontdekking",
+          "nieuwe horizonten"
+        ],
+        "ru": [
+          "присутствие",
+          "открытие",
+          "новые горизонты"
+        ],
+        "id": [
+          "kehadiran",
+          "penemuan",
+          "cakrawala baru"
+        ],
+        "ja": [
+          "存在",
+          "発見",
+          "新しい地平"
+        ],
+        "th": [
+          "การมีอยู่",
+          "การค้นพบ",
+          "ขอบฟ้าใหม่"
+        ],
+        "ms": [
+          "kehadiran",
+          "penemuan",
+          "ufuk baru"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3192,19 +4596,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["self-discovery", "reflection", "water"],
-        "tr": ["öz-keşif", "yansıma", "su"],
-        "fr": ["découverte de soi", "réflexion", "eau"],
-        "pt": ["autodescoberta", "reflexão", "água"],
-        "es": ["autodescubrimiento", "reflexión", "agua"],
-        "de": ["Selbsterkenntnis", "Reflexion", "Wasser"],
-        "it": ["autoscoperta", "riflessione", "acqua"],
-        "nl": ["zelfontdekking", "reflectie", "water"],
-        "ru": ["самопознание", "отражение", "вода"],
-        "id": ["penemuan diri", "pantulan", "air"],
-        "ja": ["自己発見", "反射", "水"],
-        "th": ["การค้นพบตนเอง", "การสะท้อน", "น้ำ"],
-        "ms": ["penemuan diri", "pantulan", "air"]
+        "en": [
+          "self-discovery",
+          "reflection",
+          "water"
+        ],
+        "tr": [
+          "öz-keşif",
+          "yansıma",
+          "su"
+        ],
+        "fr": [
+          "découverte de soi",
+          "réflexion",
+          "eau"
+        ],
+        "pt": [
+          "autodescoberta",
+          "reflexão",
+          "água"
+        ],
+        "es": [
+          "autodescubrimiento",
+          "reflexión",
+          "agua"
+        ],
+        "de": [
+          "Selbsterkenntnis",
+          "Reflexion",
+          "Wasser"
+        ],
+        "it": [
+          "autoscoperta",
+          "riflessione",
+          "acqua"
+        ],
+        "nl": [
+          "zelfontdekking",
+          "reflectie",
+          "water"
+        ],
+        "ru": [
+          "самопознание",
+          "отражение",
+          "вода"
+        ],
+        "id": [
+          "penemuan diri",
+          "pantulan",
+          "air"
+        ],
+        "ja": [
+          "自己発見",
+          "反射",
+          "水"
+        ],
+        "th": [
+          "การค้นพบตนเอง",
+          "การสะท้อน",
+          "น้ำ"
+        ],
+        "ms": [
+          "penemuan diri",
+          "pantulan",
+          "air"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3309,19 +4765,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["stars", "beginnings", "guidance"],
-        "tr": ["yıldızlar", "başlangıçlar", "rehberlik"],
-        "fr": ["étoiles", "nouveaux départs", "guidance"],
-        "pt": ["estrelas", "começos", "orientação"],
-        "es": ["estrellas", "comienzos", "guía"],
-        "de": ["Sterne", "Anfänge", "Führung"],
-        "it": ["stelle", "inizi", "guida"],
-        "nl": ["sterren", "begin", "begeleiding"],
-        "ru": ["звезды", "начало", "руководство"],
-        "id": ["bintang", "awal", "panduan"],
-        "ja": ["星", "始まり", "導き"],
-        "th": ["ดวงดาว", "การเริ่มต้น", "การนำทาง"],
-        "ms": ["bintang", "permulaan", "panduan"]
+        "en": [
+          "stars",
+          "beginnings",
+          "guidance"
+        ],
+        "tr": [
+          "yıldızlar",
+          "başlangıçlar",
+          "rehberlik"
+        ],
+        "fr": [
+          "étoiles",
+          "nouveaux départs",
+          "guidance"
+        ],
+        "pt": [
+          "estrelas",
+          "começos",
+          "orientação"
+        ],
+        "es": [
+          "estrellas",
+          "comienzos",
+          "guía"
+        ],
+        "de": [
+          "Sterne",
+          "Anfänge",
+          "Führung"
+        ],
+        "it": [
+          "stelle",
+          "inizi",
+          "guida"
+        ],
+        "nl": [
+          "sterren",
+          "begin",
+          "begeleiding"
+        ],
+        "ru": [
+          "звезды",
+          "начало",
+          "руководство"
+        ],
+        "id": [
+          "bintang",
+          "awal",
+          "panduan"
+        ],
+        "ja": [
+          "星",
+          "始まり",
+          "導き"
+        ],
+        "th": [
+          "ดวงดาว",
+          "การเริ่มต้น",
+          "การนำทาง"
+        ],
+        "ms": [
+          "bintang",
+          "permulaan",
+          "panduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3426,19 +4934,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["connection", "stories", "impact"],
-        "tr": ["bağlantı", "hikayeler", "etki"],
-        "fr": ["connexion", "histoires", "impact"],
-        "pt": ["conexão", "histórias", "impacto"],
-        "es": ["conexión", "historias", "impacto"],
-        "de": ["Verbindung", "Geschichten", "Einfluss"],
-        "it": ["connessione", "storie", "impatto"],
-        "nl": ["verbinding", "verhalen", "impact"],
-        "ru": ["связь", "истории", "влияние"],
-        "id": ["koneksi", "cerita", "dampak"],
-        "ja": ["つながり", "物語", "影響"],
-        "th": ["การเชื่อมต่อ", "เรื่องราว", "ผลกระทบ"],
-        "ms": ["hubungan", "cerita", "kesan"]
+        "en": [
+          "connection",
+          "stories",
+          "impact"
+        ],
+        "tr": [
+          "bağlantı",
+          "hikayeler",
+          "etki"
+        ],
+        "fr": [
+          "connexion",
+          "histoires",
+          "impact"
+        ],
+        "pt": [
+          "conexão",
+          "histórias",
+          "impacto"
+        ],
+        "es": [
+          "conexión",
+          "historias",
+          "impacto"
+        ],
+        "de": [
+          "Verbindung",
+          "Geschichten",
+          "Einfluss"
+        ],
+        "it": [
+          "connessione",
+          "storie",
+          "impatto"
+        ],
+        "nl": [
+          "verbinding",
+          "verhalen",
+          "impact"
+        ],
+        "ru": [
+          "связь",
+          "истории",
+          "влияние"
+        ],
+        "id": [
+          "koneksi",
+          "cerita",
+          "dampak"
+        ],
+        "ja": [
+          "つながり",
+          "物語",
+          "影響"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "เรื่องราว",
+          "ผลกระทบ"
+        ],
+        "ms": [
+          "hubungan",
+          "cerita",
+          "kesan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3543,19 +5103,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["soul", "journey", "revelation"],
-        "tr": ["ruh", "yolculuk", "vahiy"],
-        "fr": ["âme", "voyage", "révélation"],
-        "pt": ["alma", "jornada", "revelação"],
-        "es": ["alma", "viaje", "revelación"],
-        "de": ["Seele", "Reise", "Offenbarung"],
-        "it": ["anima", "viaggio", "rivelazione"],
-        "nl": ["ziel", "reis", "openbaring"],
-        "ru": ["душа", "путешествие", "откровение"],
-        "id": ["jiwa", "perjalanan", "pengungkapan"],
-        "ja": ["魂", "旅", "啓示"],
-        "th": ["จิตวิญญาณ", "การเดินทาง", "การเปิดเผย"],
-        "ms": ["jiwa", "perjalanan", "pendedahan"]
+        "en": [
+          "soul",
+          "journey",
+          "revelation"
+        ],
+        "tr": [
+          "ruh",
+          "yolculuk",
+          "vahiy"
+        ],
+        "fr": [
+          "âme",
+          "voyage",
+          "révélation"
+        ],
+        "pt": [
+          "alma",
+          "jornada",
+          "revelação"
+        ],
+        "es": [
+          "alma",
+          "viaje",
+          "revelación"
+        ],
+        "de": [
+          "Seele",
+          "Reise",
+          "Offenbarung"
+        ],
+        "it": [
+          "anima",
+          "viaggio",
+          "rivelazione"
+        ],
+        "nl": [
+          "ziel",
+          "reis",
+          "openbaring"
+        ],
+        "ru": [
+          "душа",
+          "путешествие",
+          "откровение"
+        ],
+        "id": [
+          "jiwa",
+          "perjalanan",
+          "pengungkapan"
+        ],
+        "ja": [
+          "魂",
+          "旅",
+          "啓示"
+        ],
+        "th": [
+          "จิตวิญญาณ",
+          "การเดินทาง",
+          "การเปิดเผย"
+        ],
+        "ms": [
+          "jiwa",
+          "perjalanan",
+          "pendedahan"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -3660,19 +5272,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["spirit", "trails", "experience"],
-        "tr": ["ruh", "yollar", "deneyim"],
-        "fr": ["esprit", "sentiers", "expérience"],
-        "pt": ["espírito", "trilhas", "experiência"],
-        "es": ["espíritu", "senderos", "experiencia"],
-        "de": ["Geist", "Pfade", "Erfahrung"],
-        "it": ["spirito", "sentieri", "esperienza"],
-        "nl": ["geest", "paden", "ervaring"],
-        "ru": ["дух", "тропы", "опыт"],
-        "id": ["jiwa", "jejak", "pengalaman"],
-        "ja": ["魂", "道", "経験"],
-        "th": ["จิตวิญญาณ", "เส้นทาง", "ประสบการณ์"],
-        "ms": ["jiwa", "laluan", "pengalaman"]
+        "en": [
+          "spirit",
+          "trails",
+          "experience"
+        ],
+        "tr": [
+          "ruh",
+          "yollar",
+          "deneyim"
+        ],
+        "fr": [
+          "esprit",
+          "sentiers",
+          "expérience"
+        ],
+        "pt": [
+          "espírito",
+          "trilhas",
+          "experiência"
+        ],
+        "es": [
+          "espíritu",
+          "senderos",
+          "experiencia"
+        ],
+        "de": [
+          "Geist",
+          "Pfade",
+          "Erfahrung"
+        ],
+        "it": [
+          "spirito",
+          "sentieri",
+          "esperienza"
+        ],
+        "nl": [
+          "geest",
+          "paden",
+          "ervaring"
+        ],
+        "ru": [
+          "дух",
+          "тропы",
+          "опыт"
+        ],
+        "id": [
+          "jiwa",
+          "jejak",
+          "pengalaman"
+        ],
+        "ja": [
+          "魂",
+          "道",
+          "経験"
+        ],
+        "th": [
+          "จิตวิญญาณ",
+          "เส้นทาง",
+          "ประสบการณ์"
+        ],
+        "ms": [
+          "jiwa",
+          "laluan",
+          "pengalaman"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -3777,19 +5441,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["laughter", "connection", "unity"],
-        "tr": ["kahkaha", "bağlantı", "birlik"],
-        "fr": ["rire", "connexion", "unité"],
-        "pt": ["risada", "conexão", "unidade"],
-        "es": ["risa", "conexión", "unidad"],
-        "de": ["Lachen", "Verbindung", "Einheit"],
-        "it": ["risata", "connessione", "unità"],
-        "nl": ["lachen", "verbinding", "eenheid"],
-        "ru": ["смех", "связь", "единство"],
-        "id": ["tawa", "koneksi", "persatuan"],
-        "ja": ["笑い", "つながり", "団結"],
-        "th": ["เสียงหัวเราะ", "การเชื่อมต่อ", "ความสามัคคี"],
-        "ms": ["gelak tawa", "hubungan", "perpaduan"]
+        "en": [
+          "laughter",
+          "connection",
+          "unity"
+        ],
+        "tr": [
+          "kahkaha",
+          "bağlantı",
+          "birlik"
+        ],
+        "fr": [
+          "rire",
+          "connexion",
+          "unité"
+        ],
+        "pt": [
+          "risada",
+          "conexão",
+          "unidade"
+        ],
+        "es": [
+          "risa",
+          "conexión",
+          "unidad"
+        ],
+        "de": [
+          "Lachen",
+          "Verbindung",
+          "Einheit"
+        ],
+        "it": [
+          "risata",
+          "connessione",
+          "unità"
+        ],
+        "nl": [
+          "lachen",
+          "verbinding",
+          "eenheid"
+        ],
+        "ru": [
+          "смех",
+          "связь",
+          "единство"
+        ],
+        "id": [
+          "tawa",
+          "koneksi",
+          "persatuan"
+        ],
+        "ja": [
+          "笑い",
+          "つながり",
+          "団結"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "การเชื่อมต่อ",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "gelak tawa",
+          "hubungan",
+          "perpaduan"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -3894,19 +5610,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["horizon", "transformation", "purpose"],
-        "tr": ["ufuk", "dönüşüm", "amaç"],
-        "fr": ["horizon", "transformation", "but"],
-        "pt": ["horizonte", "transformação", "propósito"],
-        "es": ["horizonte", "transformación", "propósito"],
-        "de": ["Horizont", "Transformation", "Zweck"],
-        "it": ["orizzonte", "trasformazione", "scopo"],
-        "nl": ["horizon", "transformatie", "doel"],
-        "ru": ["горизонт", "трансформация", "цель"],
-        "id": ["cakrawala", "transformasi", "tujuan"],
-        "ja": ["地平線", "変容", "目的"],
-        "th": ["ขอบฟ้า", "การเปลี่ยนแปลง", "จุดมุ่งหมาย"],
-        "ms": ["ufuk", "transformasi", "tujuan"]
+        "en": [
+          "horizon",
+          "transformation",
+          "purpose"
+        ],
+        "tr": [
+          "ufuk",
+          "dönüşüm",
+          "amaç"
+        ],
+        "fr": [
+          "horizon",
+          "transformation",
+          "but"
+        ],
+        "pt": [
+          "horizonte",
+          "transformação",
+          "propósito"
+        ],
+        "es": [
+          "horizonte",
+          "transformación",
+          "propósito"
+        ],
+        "de": [
+          "Horizont",
+          "Transformation",
+          "Zweck"
+        ],
+        "it": [
+          "orizzonte",
+          "trasformazione",
+          "scopo"
+        ],
+        "nl": [
+          "horizon",
+          "transformatie",
+          "doel"
+        ],
+        "ru": [
+          "горизонт",
+          "трансформация",
+          "цель"
+        ],
+        "id": [
+          "cakrawala",
+          "transformasi",
+          "tujuan"
+        ],
+        "ja": [
+          "地平線",
+          "変容",
+          "目的"
+        ],
+        "th": [
+          "ขอบฟ้า",
+          "การเปลี่ยนแปลง",
+          "จุดมุ่งหมาย"
+        ],
+        "ms": [
+          "ufuk",
+          "transformasi",
+          "tujuan"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -4011,19 +5779,71 @@
         "ms": "Tidak Diketahui"
       },
       "tags": {
-        "en": ["connection", "stories", "observation"],
-        "tr": ["bağlantı", "hikayeler", "gözlem"],
-        "fr": ["connexion", "histoires", "observation"],
-        "pt": ["conexão", "histórias", "observação"],
-        "es": ["conexión", "historias", "observación"],
-        "de": ["Verbindung", "Geschichten", "Beobachtung"],
-        "it": ["connessione", "storie", "osservazione"],
-        "nl": ["verbinding", "verhalen", "observatie"],
-        "ru": ["связь", "истории", "наблюдение"],
-        "id": ["koneksi", "cerita", "pengamatan"],
-        "ja": ["つながり", "物語", "観察"],
-        "th": ["การเชื่อมต่อ", "เรื่องราว", "การสังเกต"],
-        "ms": ["hubungan", "cerita", "pemerhatian"]
+        "en": [
+          "connection",
+          "stories",
+          "observation"
+        ],
+        "tr": [
+          "bağlantı",
+          "hikayeler",
+          "gözlem"
+        ],
+        "fr": [
+          "connexion",
+          "histoires",
+          "observation"
+        ],
+        "pt": [
+          "conexão",
+          "histórias",
+          "observação"
+        ],
+        "es": [
+          "conexión",
+          "historias",
+          "observación"
+        ],
+        "de": [
+          "Verbindung",
+          "Geschichten",
+          "Beobachtung"
+        ],
+        "it": [
+          "connessione",
+          "storie",
+          "osservazione"
+        ],
+        "nl": [
+          "verbinding",
+          "verhalen",
+          "observatie"
+        ],
+        "ru": [
+          "связь",
+          "истории",
+          "наблюдение"
+        ],
+        "id": [
+          "koneksi",
+          "cerita",
+          "pengamatan"
+        ],
+        "ja": [
+          "つながり",
+          "物語",
+          "観察"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "เรื่องราว",
+          "การสังเกต"
+        ],
+        "ms": [
+          "hubungan",
+          "cerita",
+          "pemerhatian"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -4094,7 +5914,7 @@
         }
       }
     },
-{
+    {
       "id": "travel_050",
       "type": "affirmation",
       "texts": {
@@ -4141,8 +5961,8 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_051",
       "type": "affirmation",
       "texts": {
@@ -4189,24 +6009,24 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_052",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Travel into my life.",
-        "tr": "Hayatıma Seyahat enerjisini alıyorum.",
-        "fr": "J'accueille Travel dans ma vie.",
-        "pt": "Eu acolho Travel na minha vida.",
-        "nl": "Ik verwelkom Travel in mijn leven.",
-        "es": "Doy la bienvenida a Travel en mi vida.",
-        "de": "Ich heiße Travel in meinem Leben willkommen.",
-        "it": "Accolgo Travel nella mia vita.",
-        "ru": "Я принимаю Travel в свою жизнь.",
-        "id": "Saya menyambut Travel dalam hidup saya.",
-        "ja": "私はTravelを人生に迎え入れます。",
-        "th": "ฉันต้อนรับTravelเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Travel dalam hidup saya."
+        "en": "I make room for travel without rushing.",
+        "tr": "seyahat için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à travel sans me presser.",
+        "pt": "Abro espaço para travel sem pressa.",
+        "nl": "Ik maak ruimte voor travel zonder te haasten.",
+        "es": "Hago espacio para travel sin prisa.",
+        "de": "Ich mache Platz für travel, ohne zu hetzen.",
+        "it": "Faccio spazio a travel senza fretta.",
+        "ru": "Я даю место travel без спешки.",
+        "id": "Aku memberi ruang bagi travel tanpa terburu-buru.",
+        "ja": "焦らずにtravelのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้travelโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk travel tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -4233,24 +6053,24 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_053",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Travel.",
-        "tr": "Kalbim Seyahat için açık.",
-        "fr": "Mon cœur est ouvert à Travel.",
-        "pt": "Meu coração está aberto para Travel.",
-        "nl": "Mijn hart staat open voor Travel.",
-        "es": "Mi corazón está abierto a Travel.",
-        "de": "Mein Herz ist offen für Travel.",
-        "it": "Il mio cuore è aperto a Travel.",
-        "ru": "Моё сердце открыто для Travel.",
-        "id": "Hati saya terbuka untuk Travel.",
-        "ja": "私の心はTravelに開かれています。",
-        "th": "หัวใจของฉันเปิดรับTravel",
-        "ms": "Hati saya terbuka untuk Travel."
+        "en": "I stay open to travel in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde seyahat için açık kalıyorum.",
+        "fr": "Je reste ouvert à travel d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a travel de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor travel op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a travel de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für travel auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a travel in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к travel так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada travel dengan cara yang terasa aman.",
+        "ja": "安心できる形でtravelに心を開き続けます。",
+        "th": "ฉันเปิดใจให้travelในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap travel dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -4277,24 +6097,24 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_054",
       "type": "affirmation",
       "texts": {
-        "en": "Travel grows within me each day.",
-        "tr": "Seyahat her gün içimde büyüyor.",
-        "fr": "Travel grandit en moi chaque jour.",
-        "pt": "Travel cresce dentro de mim todos os dias.",
-        "nl": "Travel groeit elke dag in mij.",
-        "es": "Travel crece dentro de mí cada día.",
-        "de": "Travel wächst jeden Tag in mir.",
-        "it": "Travel cresce in me ogni giorno.",
-        "ru": "Travel растёт во мне каждый день.",
-        "id": "Travel tumbuh di dalam diri saya setiap hari.",
-        "ja": "Travelは毎日私の中で育ちます。",
-        "th": "Travelเติบโตในตัวฉันทุกวัน",
-        "ms": "Travel berkembang dalam diri saya setiap hari."
+        "en": "Each day, travel grows within me.",
+        "tr": "Her gün içimde seyahat büyüyor.",
+        "fr": "Chaque jour, travel grandit en moi.",
+        "pt": "A cada dia, travel cresce dentro de mim.",
+        "nl": "Elke dag groeit travel in mij.",
+        "es": "Cada día, travel crece dentro de mí.",
+        "de": "Jeden Tag wächst travel in mir.",
+        "it": "Ogni giorno, travel cresce dentro di me.",
+        "ru": "Каждый день travel растёт во мне.",
+        "id": "Setiap hari, travel tumbuh di dalam diriku.",
+        "ja": "毎日、travelが私の中で育っています。",
+        "th": "ทุกวัน travel เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, travel berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -4321,24 +6141,24 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_055",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Travel now.",
-        "tr": "Şimdi Seyahat için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Travel maintenant.",
-        "pt": "Eu crio espaço para Travel agora.",
-        "nl": "Ik maak nu ruimte voor Travel.",
-        "es": "Creo espacio para Travel ahora.",
-        "de": "Ich schaffe jetzt Raum für Travel.",
-        "it": "Creo spazio per Travel ora.",
-        "ru": "Я создаю пространство для Travel сейчас.",
-        "id": "Saya menciptakan ruang untuk Travel sekarang.",
-        "ja": "今、Travelのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับTravelในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Travel sekarang."
+        "en": "I give travel a quiet place in my day.",
+        "tr": "Günümde seyahat için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à travel une place calme dans ma journée.",
+        "pt": "Dou a travel um lugar tranquilo no meu dia.",
+        "nl": "Ik geef travel een rustige plek in mijn dag.",
+        "es": "Le doy a travel un lugar tranquilo en mi día.",
+        "de": "Ich gebe travel einen ruhigen Platz in meinem Tag.",
+        "it": "Do a travel un posto tranquillo nella mia giornata.",
+        "ru": "Я даю travel тихое место в своём дне.",
+        "id": "Aku memberi travel tempat yang tenang dalam hariku.",
+        "ja": "一日の中にtravelのための静かな場所をつくります。",
+        "th": "ฉันให้travelมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi travel tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -4365,24 +6185,24 @@
         ]
       },
       "readTime": "0"
-},
-{
+    },
+    {
       "id": "travel_056",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Travel.",
-        "tr": "Seyahat yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Travel.",
-        "pt": "Eu confio no caminho de Travel.",
-        "nl": "Ik vertrouw op het pad van Travel.",
-        "es": "Confío en el camino de Travel.",
-        "de": "Ich vertraue dem Weg von Travel.",
-        "it": "Mi fido del percorso di Travel.",
-        "ru": "Я доверяю пути Travel.",
-        "id": "Saya percaya pada jalan Travel.",
-        "ja": "私はTravelの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของTravel",
-        "ms": "Saya percaya pada jalan Travel."
+        "en": "I trust my own way of growing in travel.",
+        "tr": "seyahat konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec travel.",
+        "pt": "Confio no meu próprio jeito de crescer com travel.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in travel.",
+        "es": "Confío en mi propia manera de crecer con travel.",
+        "de": "Ich vertraue meinem eigenen Weg, in travel zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con travel.",
+        "ru": "Я доверяю своему собственному пути роста в travel.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam travel.",
+        "ja": "自分なりのtravelの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับtravel",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam travel."
       },
       "authors": {
         "en": "",
@@ -4409,6 +6229,946 @@
         ]
       },
       "readTime": "0"
-}
+    },
+    {
+      "id": "travel_057",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice travel with gentle consistency.",
+        "tr": "seyahat konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique travel avec une douce constance.",
+        "pt": "Eu pratico travel com constância gentil.",
+        "nl": "Ik beoefen travel met zachte regelmaat.",
+        "es": "Practico travel con constancia suave.",
+        "de": "Ich übe travel mit sanfter Beständigkeit.",
+        "it": "Pratico travel con dolce costanza.",
+        "ru": "Я практикую travel с мягкой постоянностью.",
+        "id": "Saya mempraktikkan travel dengan konsistensi yang lembut.",
+        "ja": "私はtravelを穏やかな継続で実践します。",
+        "th": "ฉันฝึกtravelอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan travel dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "travel_058",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, travel supports me.",
+        "tr": "Bu dönemde seyahat beni destekliyor.",
+        "fr": "En cette période, travel me soutient.",
+        "pt": "Nesta fase, travel me apoia.",
+        "nl": "In deze periode ondersteunt travel mij.",
+        "es": "En esta etapa, travel me sostiene.",
+        "de": "In dieser Zeit unterstützt travel mich.",
+        "it": "In questo periodo, travel mi sostiene.",
+        "ru": "В этот период travel поддерживает меня.",
+        "id": "Di masa ini, travel mendukungku.",
+        "ja": "この時期、travelが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ travelคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, travel menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "travel_059",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose travel in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla seyahat seçiyorum.",
+        "fr": "Je choisis travel par de petits pas sincères.",
+        "pt": "Escolho travel em passos pequenos e honestos.",
+        "nl": "Ik kies travel in kleine, eerlijke stappen.",
+        "es": "Elijo travel con pasos pequeños y honestos.",
+        "de": "Ich wähle travel in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo travel con passi piccoli e sinceri.",
+        "ru": "Я выбираю travel маленькими, честными шагами.",
+        "id": "Aku memilih travel dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でtravelを選びます。",
+        "th": "ฉันเลือกtravelด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih travel dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "travel_060",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let travel shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri seyahat şekillendiriyor.",
+        "fr": "Je laisse travel façonner les choix qui comptent pour moi.",
+        "pt": "Deixo travel moldar as escolhas que importam para mim.",
+        "nl": "Ik laat travel de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que travel moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse travel die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che travel plasmi le scelte che contano per me.",
+        "ru": "Я позволяю travel формировать важные для меня решения.",
+        "id": "Aku membiarkan travel membentuk pilihan yang penting bagiku.",
+        "ja": "travelが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้travelหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan travel membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "travel_061",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, travel feels natural to me.",
+        "tr": "Bugün seyahat bana doğal geliyor.",
+        "fr": "Aujourd'hui, travel me semble naturel.",
+        "pt": "Hoje, travel parece natural para mim.",
+        "nl": "Vandaag voelt travel natuurlijk voor mij.",
+        "es": "Hoy, travel se siente natural para mí.",
+        "de": "Heute fühlt sich travel natürlich für mich an.",
+        "it": "Oggi travel mi sembra naturale.",
+        "ru": "Сегодня travel кажется мне естественным.",
+        "id": "Hari ini, travel terasa alami bagi saya.",
+        "ja": "今日はtravelが自然に感じられます。",
+        "th": "วันนี้travelให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, travel terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "travel_62",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose travel in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda seyahat seçiyorum.",
+        "fr": "Je choisis travel dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho travel nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies travel in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo travel en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle travel in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo travel nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю travel в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih travel dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でtravelを選びます。",
+        "th": "ฉันเลือกtravelในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih travel dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_63",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build travel.",
+        "tr": "İç sesim seyahat inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis travel.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo travel.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik travel opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo travel.",
+        "de": "Meine innere Stimme wird sanfter, während ich travel aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco travel.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю travel.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun travel.",
+        "ja": "travelを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างtravel",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina travel."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_64",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet travel at my own pace.",
+        "tr": "seyahat ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer travel à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar travel no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om travel in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar travel a mi propio ritmo.",
+        "de": "Ich erlaube mir, travel in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare travel al mio ritmo.",
+        "ru": "Я позволяю себе встречать travel в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu travel dengan ritmeku.",
+        "ja": "自分のペースでtravelに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบtravelในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui travel mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_65",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let travel steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde seyahat beni dengeliyor.",
+        "fr": "Je laisse travel m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo travel me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat travel me aarden als het leven luid voelt.",
+        "es": "Dejo que travel me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse travel mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che travel mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю travel удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan travel menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、travelが私を落ち着かせます。",
+        "th": "ฉันยอมให้travelทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan travel menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_66",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, travel is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde seyahat büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, travel grandit.",
+        "pt": "Por meio das escolhas que faço hoje, travel cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit travel.",
+        "es": "A través de las decisiones que tomo hoy, travel crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst travel.",
+        "it": "Attraverso le scelte che faccio oggi, travel cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, travel растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, travel tumbuh.",
+        "ja": "今日の選択を通してtravelが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ travelกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, travel berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_67",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel travel settling into my routines.",
+        "tr": "Rutinlerimde seyahat için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens travel s’installer dans mes routines.",
+        "pt": "Sinto travel se acomodar nas minhas rotinas.",
+        "nl": "Ik voel travel zich nestelen in mijn routines.",
+        "es": "Siento que travel se asienta en mis rutinas.",
+        "de": "Ich spüre, wie travel sich in meinen Routinen einlebt.",
+        "it": "Sento travel assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как travel укореняется в моих привычках.",
+        "id": "Aku merasakan travel menetap dalam rutinitasku.",
+        "ja": "日々の習慣にtravelがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าtravelค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan travel mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_68",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow travel to be simple, not perfect.",
+        "tr": "seyahat için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise travel à être simple, pas parfait.",
+        "pt": "Permito que travel seja simples, não perfeito.",
+        "nl": "Ik laat travel simpel zijn, niet perfect.",
+        "es": "Permito que travel sea simple, no perfecto.",
+        "de": "Ich erlaube travel, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a travel di essere semplice, non perfetto.",
+        "ru": "Я позволяю travel быть простым, а не идеальным.",
+        "id": "Aku membiarkan travel tetap sederhana, bukan sempurna.",
+        "ja": "travelがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้travelเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan travel menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_69",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice travel showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde seyahat ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque travel dans la façon dont je me parle.",
+        "pt": "Percebo travel na forma como falo comigo.",
+        "nl": "Ik merk travel op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto travel en la manera en que me hablo.",
+        "de": "Ich bemerke travel in der Art, wie ich mit mir spreche.",
+        "it": "Noto travel nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю travel в том, как я говорю с собой.",
+        "id": "Aku menyadari travel dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にtravelが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นtravelในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari travel dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_70",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve travel without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan seyahat hak ediyorum.",
+        "fr": "Je mérite travel sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço travel sem precisar provar nada.",
+        "nl": "Ik verdien travel zonder iets te hoeven bewijzen.",
+        "es": "Merezco travel sin necesidad de demostrar nada.",
+        "de": "Ich verdiene travel, ohne etwas beweisen zu müssen.",
+        "it": "Merito travel senza dover dimostrare nulla.",
+        "ru": "Я достоин travel, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan travel tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、travelに値します。",
+        "th": "ฉันคู่ควรกับtravelโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh travel tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_71",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let travel grow from patience, not pressure.",
+        "tr": "seyahat sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse travel grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo travel crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat travel groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que travel crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse travel aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che travel cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю travel расти из терпения, а не из давления.",
+        "id": "Aku membiarkan travel tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はtravelを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้travelเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan travel tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to travel when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde seyahat ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à travel quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a travel quando preciso me firmar.",
+        "nl": "Ik keer terug naar travel wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a travel cuando necesito estabilizarme.",
+        "de": "Ich kehre zu travel zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a travel quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к travel, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke travel saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、travelに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาtravel",
+        "ms": "Saya kembali kepada travel apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let travel soften my inner pressure.",
+        "tr": "İçimdeki baskıyı seyahat ile yumuşatıyorum.",
+        "fr": "Je laisse travel adoucir ma pression intérieure.",
+        "pt": "Deixo travel suavizar minha pressão interna.",
+        "nl": "Ik laat travel mijn innerlijke druk verzachten.",
+        "es": "Dejo que travel suavice mi presión interna.",
+        "de": "Ich lasse travel meinen inneren Druck weicher machen.",
+        "it": "Lascio che travel ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю travel смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan travel melembutkan tekanan batinku.",
+        "ja": "travelが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้travelช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan travel melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that travel can be gentle and real.",
+        "tr": "seyahat konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que travel peut être doux et vrai.",
+        "pt": "Confio que travel pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat travel zacht en echt kan zijn.",
+        "es": "Confío en que travel puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass travel sanft und echt sein kann.",
+        "it": "Mi fido del fatto che travel possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что travel может быть мягким и настоящим.",
+        "id": "Aku percaya travel bisa lembut dan nyata.",
+        "ja": "travelはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าtravelสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya travel boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give travel a little more room each day.",
+        "tr": "Her gün seyahat için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à travel chaque jour.",
+        "pt": "Dou um pouco mais de espaço para travel a cada dia.",
+        "nl": "Ik geef travel elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a travel cada día.",
+        "de": "Ich gebe travel jeden Tag ein wenig mehr Raum.",
+        "it": "Do a travel un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю travel чуть больше места.",
+        "id": "Setiap hari aku memberi travel sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、travelのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับtravelมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi travel sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold travel without forcing it.",
+        "tr": "seyahat ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir travel sans forcer.",
+        "pt": "Estou aprendendo a sustentar travel sem forçar.",
+        "nl": "Ik leer travel te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener travel sin forzar.",
+        "de": "Ich lerne, travel zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere travel senza forzare.",
+        "ru": "Я учусь удерживать travel без принуждения.",
+        "id": "Aku belajar memegang travel tanpa memaksa.",
+        "ja": "travelを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองtravelโดยไม่บังคับ",
+        "ms": "Saya belajar memegang travel tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by travel where I am today.",
+        "tr": "Bugün olduğum yerde seyahat beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, travel me rejoint.",
+        "pt": "Onde estou hoje, travel me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet travel mij.",
+        "es": "Donde estoy hoy, travel me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir travel.",
+        "it": "Dove sono oggi, travel mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает travel.",
+        "id": "Di tempatku hari ini, travel menemuiku.",
+        "ja": "今日の私がいる場所で、travelが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ travelอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, travel menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice travel in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte seyahat fark ediyorum.",
+        "fr": "Je remarque travel dans le calme entre les moments.",
+        "pt": "Percebo travel na calma entre os momentos.",
+        "nl": "Ik merk travel op in de rust tussen momenten.",
+        "es": "Noto travel en la calma entre momentos.",
+        "de": "Ich bemerke travel in der Ruhe zwischen den Momenten.",
+        "it": "Noto travel nella calma tra i momenti.",
+        "ru": "Я замечаю travel в тишине между моментами.",
+        "id": "Aku menyadari travel dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにtravelを感じます。",
+        "th": "ฉันสังเกตtravelในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari travel dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow travel to grow quietly in the background.",
+        "tr": "seyahat sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse travel grandir doucement en arrière-plan.",
+        "pt": "Deixo travel crescer em silêncio ao fundo.",
+        "nl": "Ik laat travel stil op de achtergrond groeien.",
+        "es": "Dejo que travel crezca en silencio de fondo.",
+        "de": "Ich lasse travel leise im Hintergrund wachsen.",
+        "it": "Lascio che travel cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю travel тихо расти на заднем плане.",
+        "id": "Aku membiarkan travel tumbuh perlahan di latar belakang.",
+        "ja": "travelが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้travelเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan travel berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose travel with care, not hurry.",
+        "tr": "Acele etmeden, özenle seyahat seçiyorum.",
+        "fr": "Je choisis travel avec soin, sans hâte.",
+        "pt": "Escolho travel com cuidado, sem pressa.",
+        "nl": "Ik kies travel met zorg, niet met haast.",
+        "es": "Elijo travel con cuidado, no con prisa.",
+        "de": "Ich wähle travel mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo travel con cura, non con fretta.",
+        "ru": "Я выбираю travel с заботой, а не в спешке.",
+        "id": "Aku memilih travel dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にtravelを選びます。",
+        "th": "ฉันเลือกtravelอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih travel dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    },
+    {
+      "id": "travel_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep travel close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken seyahat ile yakın kalıyorum.",
+        "fr": "Je garde travel près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho travel por perto quando minha mente fica agitada.",
+        "nl": "Ik houd travel dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo travel cerca cuando mi mente está inquieta.",
+        "de": "Ich halte travel nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo travel vicino quando la mia mente è agitata.",
+        "ru": "Я держу travel рядом, когда ум занят.",
+        "id": "Aku menjaga travel tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもtravelをそばに置きます。",
+        "th": "ฉันเก็บtravelไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan travel dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "travel",
+      "readTime": "0"
+    }
   ]
-} 
+}

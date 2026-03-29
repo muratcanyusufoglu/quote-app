@@ -34,19 +34,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["innovation", "imagination", "intelligence"],
-        "tr": ["yenilik", "hayal gücü", "zeka"],
-        "fr": ["innovation", "imagination", "intelligence"],
-        "pt": ["inovação", "imaginação", "inteligência"],
-        "nl": ["innovatie", "verbeelding", "intelligentie"],
-        "es": ["innovación", "imaginación", "inteligencia"],
-        "de": ["Innovation", "Fantasie", "Intelligenz"],
-        "it": ["innovazione", "immaginazione", "intelligenza"],
-        "ru": ["инновация", "воображение", "интеллект"],
-        "id": ["inovasi", "imajinasi", "kecerdasan"],
-        "ja": ["革新", "想像力", "知性"],
-        "th": ["นวัตกรรม", "จินตนาการ", "สติปัญญา"],
-        "ms": ["inovasi", "imaginasi", "kecerdasan"]
+        "en": [
+          "innovation",
+          "imagination",
+          "intelligence"
+        ],
+        "tr": [
+          "yenilik",
+          "hayal gücü",
+          "zeka"
+        ],
+        "fr": [
+          "innovation",
+          "imagination",
+          "intelligence"
+        ],
+        "pt": [
+          "inovação",
+          "imaginação",
+          "inteligência"
+        ],
+        "nl": [
+          "innovatie",
+          "verbeelding",
+          "intelligentie"
+        ],
+        "es": [
+          "innovación",
+          "imaginación",
+          "inteligencia"
+        ],
+        "de": [
+          "Innovation",
+          "Fantasie",
+          "Intelligenz"
+        ],
+        "it": [
+          "innovazione",
+          "immaginazione",
+          "intelligenza"
+        ],
+        "ru": [
+          "инновация",
+          "воображение",
+          "интеллект"
+        ],
+        "id": [
+          "inovasi",
+          "imajinasi",
+          "kecerdasan"
+        ],
+        "ja": [
+          "革新",
+          "想像力",
+          "知性"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "จินตนาการ",
+          "สติปัญญา"
+        ],
+        "ms": [
+          "inovasi",
+          "imaginasi",
+          "kecerdasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Pablo Picasso"
       },
       "tags": {
-        "en": ["childhood", "art", "imagination"],
-        "tr": ["çocukluk", "sanat", "hayal gücü"],
-        "fr": ["enfance", "art", "imagination"],
-        "pt": ["infância", "arte", "imaginação"],
-        "nl": ["kindertijd", "kunst", "verbeelding"],
-        "es": ["infancia", "arte", "imaginación"],
-        "de": ["Kindheit", "Kunst", "Fantasie"],
-        "it": ["infanzia", "arte", "immaginazione"],
-        "ru": ["детство", "искусство", "воображение"],
-        "id": ["masa kanak-kanak", "seni", "imajinasi"],
-        "ja": ["子供時代", "芸術", "想像力"],
-        "th": ["วัยเด็ก", "ศิลปะ", "จินตนาการ"],
-        "ms": ["zaman kanak-kanak", "seni", "imaginasi"]
+        "en": [
+          "childhood",
+          "art",
+          "imagination"
+        ],
+        "tr": [
+          "çocukluk",
+          "sanat",
+          "hayal gücü"
+        ],
+        "fr": [
+          "enfance",
+          "art",
+          "imagination"
+        ],
+        "pt": [
+          "infância",
+          "arte",
+          "imaginação"
+        ],
+        "nl": [
+          "kindertijd",
+          "kunst",
+          "verbeelding"
+        ],
+        "es": [
+          "infancia",
+          "arte",
+          "imaginación"
+        ],
+        "de": [
+          "Kindheit",
+          "Kunst",
+          "Fantasie"
+        ],
+        "it": [
+          "infanzia",
+          "arte",
+          "immaginazione"
+        ],
+        "ru": [
+          "детство",
+          "искусство",
+          "воображение"
+        ],
+        "id": [
+          "masa kanak-kanak",
+          "seni",
+          "imajinasi"
+        ],
+        "ja": [
+          "子供時代",
+          "芸術",
+          "想像力"
+        ],
+        "th": [
+          "วัยเด็ก",
+          "ศิลปะ",
+          "จินตนาการ"
+        ],
+        "ms": [
+          "zaman kanak-kanak",
+          "seni",
+          "imaginasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Henri Matisse"
       },
       "tags": {
-        "en": ["courage", "art", "self-expression"],
-        "tr": ["cesaret", "sanat", "kendini ifade"],
-        "fr": ["courage", "art", "expression de soi"],
-        "pt": ["coragem", "arte", "autoexpressão"],
-        "nl": ["moed", "kunst", "zelfexpressie"],
-        "es": ["valentía", "arte", "autoexpresión"],
-        "de": ["Mut", "Kunst", "Selbstausdruck"],
-        "it": ["coraggio", "arte", "espressione personale"],
-        "ru": ["смелость", "искусство", "самовыражение"],
-        "id": ["keberanian", "seni", "ekspresi diri"],
-        "ja": ["勇気", "芸術", "自己表現"],
-        "th": ["ความกล้าหาญ", "ศิลปะ", "การแสดงออกตนเอง"],
-        "ms": ["keberanian", "seni", "ekspresi diri"]
+        "en": [
+          "courage",
+          "art",
+          "self-expression"
+        ],
+        "tr": [
+          "cesaret",
+          "sanat",
+          "kendini ifade"
+        ],
+        "fr": [
+          "courage",
+          "art",
+          "expression de soi"
+        ],
+        "pt": [
+          "coragem",
+          "arte",
+          "autoexpressão"
+        ],
+        "nl": [
+          "moed",
+          "kunst",
+          "zelfexpressie"
+        ],
+        "es": [
+          "valentía",
+          "arte",
+          "autoexpresión"
+        ],
+        "de": [
+          "Mut",
+          "Kunst",
+          "Selbstausdruck"
+        ],
+        "it": [
+          "coraggio",
+          "arte",
+          "espressione personale"
+        ],
+        "ru": [
+          "смелость",
+          "искусство",
+          "самовыражение"
+        ],
+        "id": [
+          "keberanian",
+          "seni",
+          "ekspresi diri"
+        ],
+        "ja": [
+          "勇気",
+          "芸術",
+          "自己表現"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ศิลปะ",
+          "การแสดงออกตนเอง"
+        ],
+        "ms": [
+          "keberanian",
+          "seni",
+          "ekspresi diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Ursula K. Le Guin"
       },
       "tags": {
-        "en": ["childhood", "survival", "imagination"],
-        "tr": ["çocukluk", "hayatta kalma", "hayal gücü"],
-        "fr": ["enfance", "survie", "imagination"],
-        "pt": ["infância", "sobrevivência", "imaginação"],
-        "nl": ["kindertijd", "overleving", "verbeelding"],
-        "es": ["infancia", "supervivencia", "imaginación"],
-        "de": ["Kindheit", "Überleben", "Fantasie"],
-        "it": ["infanzia", "sopravvivenza", "immaginazione"],
-        "ru": ["детство", "выживание", "воображение"],
-        "id": ["masa kanak-kanak", "kelangsungan hidup", "imajinasi"],
-        "ja": ["子供時代", "生存", "想像力"],
-        "th": ["วัยเด็ก", "การอยู่รอด", "จินตนาการ"],
-        "ms": ["zaman kanak-kanak", "kelangsungan hidup", "imaginasi"]
+        "en": [
+          "childhood",
+          "survival",
+          "imagination"
+        ],
+        "tr": [
+          "çocukluk",
+          "hayatta kalma",
+          "hayal gücü"
+        ],
+        "fr": [
+          "enfance",
+          "survie",
+          "imagination"
+        ],
+        "pt": [
+          "infância",
+          "sobrevivência",
+          "imaginação"
+        ],
+        "nl": [
+          "kindertijd",
+          "overleving",
+          "verbeelding"
+        ],
+        "es": [
+          "infancia",
+          "supervivencia",
+          "imaginación"
+        ],
+        "de": [
+          "Kindheit",
+          "Überleben",
+          "Fantasie"
+        ],
+        "it": [
+          "infanzia",
+          "sopravvivenza",
+          "immaginazione"
+        ],
+        "ru": [
+          "детство",
+          "выживание",
+          "воображение"
+        ],
+        "id": [
+          "masa kanak-kanak",
+          "kelangsungan hidup",
+          "imajinasi"
+        ],
+        "ja": [
+          "子供時代",
+          "生存",
+          "想像力"
+        ],
+        "th": [
+          "วัยเด็ก",
+          "การอยู่รอด",
+          "จินตนาการ"
+        ],
+        "ms": [
+          "zaman kanak-kanak",
+          "kelangsungan hidup",
+          "imaginasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Maya Angelou"
       },
       "tags": {
-        "en": ["abundance", "practice", "growth"],
-        "tr": ["bolluk", "pratik", "gelişim"],
-        "fr": ["abondance", "pratique", "croissance"],
-        "pt": ["abundância", "prática", "crescimento"],
-        "nl": ["overvloed", "oefening", "groei"],
-        "es": ["abundancia", "práctica", "crecimiento"],
-        "de": ["Fülle", "Übung", "Wachstum"],
-        "it": ["abbondanza", "pratica", "crescita"],
-        "ru": ["изобилие", "практика", "рост"],
-        "id": ["kelimpahan", "latihan", "pertumbuhan"],
-        "ja": ["豊かさ", "実践", "成長"],
-        "th": ["ความอุดมสมบูรณ์", "การฝึกฝน", "การเติบโต"],
-        "ms": ["kelimpahan", "amalan", "pertumbuhan"]
+        "en": [
+          "abundance",
+          "practice",
+          "growth"
+        ],
+        "tr": [
+          "bolluk",
+          "pratik",
+          "gelişim"
+        ],
+        "fr": [
+          "abondance",
+          "pratique",
+          "croissance"
+        ],
+        "pt": [
+          "abundância",
+          "prática",
+          "crescimento"
+        ],
+        "nl": [
+          "overvloed",
+          "oefening",
+          "groei"
+        ],
+        "es": [
+          "abundancia",
+          "práctica",
+          "crecimiento"
+        ],
+        "de": [
+          "Fülle",
+          "Übung",
+          "Wachstum"
+        ],
+        "it": [
+          "abbondanza",
+          "pratica",
+          "crescita"
+        ],
+        "ru": [
+          "изобилие",
+          "практика",
+          "рост"
+        ],
+        "id": [
+          "kelimpahan",
+          "latihan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "豊かさ",
+          "実践",
+          "成長"
+        ],
+        "th": [
+          "ความอุดมสมบูรณ์",
+          "การฝึกฝน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kelimpahan",
+          "amalan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -619,19 +879,71 @@
         "ms": "Maria Popova"
       },
       "tags": {
-        "en": ["connection", "insight", "synthesis"],
-        "tr": ["bağlantı", "içgörü", "sentez"],
-        "fr": ["connexion", "perspicacité", "synthèse"],
-        "pt": ["conexão", "insight", "síntese"],
-        "nl": ["verbinding", "inzicht", "synthese"],
-        "es": ["conexión", "perspicacia", "síntesis"],
-        "de": ["Verbindung", "Einsicht", "Synthese"],
-        "it": ["connessione", "intuizione", "sintesi"],
-        "ru": ["связь", "озарение", "синтез"],
-        "id": ["koneksi", "wawasan", "sintesis"],
-        "ja": ["つながり", "洞察", "統合"],
-        "th": ["การเชื่อมโยง", "ความเข้าใจ", "การสังเคราะห์"],
-        "ms": ["hubungan", "wawasan", "sintesis"]
+        "en": [
+          "connection",
+          "insight",
+          "synthesis"
+        ],
+        "tr": [
+          "bağlantı",
+          "içgörü",
+          "sentez"
+        ],
+        "fr": [
+          "connexion",
+          "perspicacité",
+          "synthèse"
+        ],
+        "pt": [
+          "conexão",
+          "insight",
+          "síntese"
+        ],
+        "nl": [
+          "verbinding",
+          "inzicht",
+          "synthese"
+        ],
+        "es": [
+          "conexión",
+          "perspicacia",
+          "síntesis"
+        ],
+        "de": [
+          "Verbindung",
+          "Einsicht",
+          "Synthese"
+        ],
+        "it": [
+          "connessione",
+          "intuizione",
+          "sintesi"
+        ],
+        "ru": [
+          "связь",
+          "озарение",
+          "синтез"
+        ],
+        "id": [
+          "koneksi",
+          "wawasan",
+          "sintesis"
+        ],
+        "ja": [
+          "つながり",
+          "洞察",
+          "統合"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "ความเข้าใจ",
+          "การสังเคราะห์"
+        ],
+        "ms": [
+          "hubungan",
+          "wawasan",
+          "sintesis"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -736,19 +1048,71 @@
         "ms": "Kurt Vonnegut"
       },
       "tags": {
-        "en": ["art", "growth", "self-expression"],
-        "tr": ["sanat", "gelişim", "kendini ifade"],
-        "fr": ["art", "croissance", "expression de soi"],
-        "pt": ["arte", "crescimento", "autoexpressão"],
-        "nl": ["kunst", "groei", "zelfexpressie"],
-        "es": ["arte", "crecimiento", "autoexpresión"],
-        "de": ["Kunst", "Wachstum", "Selbstausdruck"],
-        "it": ["arte", "crescita", "espressione personale"],
-        "ru": ["искусство", "рост", "самовыражение"],
-        "id": ["seni", "pertumbuhan", "ekspresi diri"],
-        "ja": ["芸術", "成長", "自己表現"],
-        "th": ["ศิลปะ", "การเติบโต", "การแสดงออกตนเอง"],
-        "ms": ["seni", "pertumbuhan", "ekspresi diri"]
+        "en": [
+          "art",
+          "growth",
+          "self-expression"
+        ],
+        "tr": [
+          "sanat",
+          "gelişim",
+          "kendini ifade"
+        ],
+        "fr": [
+          "art",
+          "croissance",
+          "expression de soi"
+        ],
+        "pt": [
+          "arte",
+          "crescimento",
+          "autoexpressão"
+        ],
+        "nl": [
+          "kunst",
+          "groei",
+          "zelfexpressie"
+        ],
+        "es": [
+          "arte",
+          "crecimiento",
+          "autoexpresión"
+        ],
+        "de": [
+          "Kunst",
+          "Wachstum",
+          "Selbstausdruck"
+        ],
+        "it": [
+          "arte",
+          "crescita",
+          "espressione personale"
+        ],
+        "ru": [
+          "искусство",
+          "рост",
+          "самовыражение"
+        ],
+        "id": [
+          "seni",
+          "pertumbuhan",
+          "ekspresi diri"
+        ],
+        "ja": [
+          "芸術",
+          "成長",
+          "自己表現"
+        ],
+        "th": [
+          "ศิลปะ",
+          "การเติบโต",
+          "การแสดงออกตนเอง"
+        ],
+        "ms": [
+          "seni",
+          "pertumbuhan",
+          "ekspresi diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Scott Adams"
       },
       "tags": {
-        "en": ["mistakes", "art", "learning"],
-        "tr": ["hatalar", "sanat", "öğrenme"],
-        "fr": ["erreurs", "art", "apprentissage"],
-        "pt": ["erros", "arte", "aprendizado"],
-        "nl": ["fouten", "kunst", "leren"],
-        "es": ["errores", "arte", "aprendizaje"],
-        "de": ["Fehler", "Kunst", "Lernen"],
-        "it": ["errori", "arte", "apprendimento"],
-        "ru": ["ошибки", "искусство", "обучение"],
-        "id": ["kesalahan", "seni", "pembelajaran"],
-        "ja": ["ミス", "芸術", "学習"],
-        "th": ["ความผิดพลาด", "ศิลปะ", "การเรียนรู้"],
-        "ms": ["kesilapan", "seni", "pembelajaran"]
+        "en": [
+          "mistakes",
+          "art",
+          "learning"
+        ],
+        "tr": [
+          "hatalar",
+          "sanat",
+          "öğrenme"
+        ],
+        "fr": [
+          "erreurs",
+          "art",
+          "apprentissage"
+        ],
+        "pt": [
+          "erros",
+          "arte",
+          "aprendizado"
+        ],
+        "nl": [
+          "fouten",
+          "kunst",
+          "leren"
+        ],
+        "es": [
+          "errores",
+          "arte",
+          "aprendizaje"
+        ],
+        "de": [
+          "Fehler",
+          "Kunst",
+          "Lernen"
+        ],
+        "it": [
+          "errori",
+          "arte",
+          "apprendimento"
+        ],
+        "ru": [
+          "ошибки",
+          "искусство",
+          "обучение"
+        ],
+        "id": [
+          "kesalahan",
+          "seni",
+          "pembelajaran"
+        ],
+        "ja": [
+          "ミス",
+          "芸術",
+          "学習"
+        ],
+        "th": [
+          "ความผิดพลาด",
+          "ศิลปะ",
+          "การเรียนรู้"
+        ],
+        "ms": [
+          "kesilapan",
+          "seni",
+          "pembelajaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Dieter F. Uchtdorf"
       },
       "tags": {
-        "en": ["desire", "soul", "creation"],
-        "tr": ["arzu", "ruh", "yaratma"],
-        "fr": ["désir", "âme", "création"],
-        "pt": ["desejo", "alma", "criação"],
-        "nl": ["verlangen", "ziel", "creatie"],
-        "es": ["deseo", "alma", "creación"],
-        "de": ["Wunsch", "Seele", "Schöpfung"],
-        "it": ["desiderio", "anima", "creazione"],
-        "ru": ["желание", "душа", "созидание"],
-        "id": ["keinginan", "jiwa", "penciptaan"],
-        "ja": ["欲求", "魂", "創造"],
-        "th": ["ความปรารถนา", "จิตวิญญาณ", "การสร้างสรรค์"],
-        "ms": ["keinginan", "jiwa", "penciptaan"]
+        "en": [
+          "desire",
+          "soul",
+          "creation"
+        ],
+        "tr": [
+          "arzu",
+          "ruh",
+          "yaratma"
+        ],
+        "fr": [
+          "désir",
+          "âme",
+          "création"
+        ],
+        "pt": [
+          "desejo",
+          "alma",
+          "criação"
+        ],
+        "nl": [
+          "verlangen",
+          "ziel",
+          "creatie"
+        ],
+        "es": [
+          "deseo",
+          "alma",
+          "creación"
+        ],
+        "de": [
+          "Wunsch",
+          "Seele",
+          "Schöpfung"
+        ],
+        "it": [
+          "desiderio",
+          "anima",
+          "creazione"
+        ],
+        "ru": [
+          "желание",
+          "душа",
+          "созидание"
+        ],
+        "id": [
+          "keinginan",
+          "jiwa",
+          "penciptaan"
+        ],
+        "ja": [
+          "欲求",
+          "魂",
+          "創造"
+        ],
+        "th": [
+          "ความปรารถนา",
+          "จิตวิญญาณ",
+          "การสร้างสรรค์"
+        ],
+        "ms": [
+          "keinginan",
+          "jiwa",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1087,19 +1555,71 @@
         "ms": "William Plomer"
       },
       "tags": {
-        "en": ["connection", "insight", "imagination"],
-        "tr": ["bağlantı", "içgörü", "hayal gücü"],
-        "fr": ["connexion", "perspicacité", "imagination"],
-        "pt": ["conexão", "insight", "imaginação"],
-        "nl": ["verbinding", "inzicht", "verbeelding"],
-        "es": ["conexión", "perspicacia", "imaginación"],
-        "de": ["Verbindung", "Einsicht", "Fantasie"],
-        "it": ["connessione", "intuizione", "immaginazione"],
-        "ru": ["связь", "озарение", "воображение"],
-        "id": ["koneksi", "wawasan", "imajinasi"],
-        "ja": ["つながり", "洞察", "想像力"],
-        "th": ["การเชื่อมโยง", "ความเข้าใจ", "จินตนาการ"],
-        "ms": ["hubungan", "wawasan", "imaginasi"]
+        "en": [
+          "connection",
+          "insight",
+          "imagination"
+        ],
+        "tr": [
+          "bağlantı",
+          "içgörü",
+          "hayal gücü"
+        ],
+        "fr": [
+          "connexion",
+          "perspicacité",
+          "imagination"
+        ],
+        "pt": [
+          "conexão",
+          "insight",
+          "imaginação"
+        ],
+        "nl": [
+          "verbinding",
+          "inzicht",
+          "verbeelding"
+        ],
+        "es": [
+          "conexión",
+          "perspicacia",
+          "imaginación"
+        ],
+        "de": [
+          "Verbindung",
+          "Einsicht",
+          "Fantasie"
+        ],
+        "it": [
+          "connessione",
+          "intuizione",
+          "immaginazione"
+        ],
+        "ru": [
+          "связь",
+          "озарение",
+          "воображение"
+        ],
+        "id": [
+          "koneksi",
+          "wawasan",
+          "imajinasi"
+        ],
+        "ja": [
+          "つながり",
+          "洞察",
+          "想像力"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "ความเข้าใจ",
+          "จินตนาการ"
+        ],
+        "ms": [
+          "hubungan",
+          "wawasan",
+          "imaginasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1170,7 +1690,7 @@
         }
       }
     },
-        {
+    {
       "id": "creativity_011",
       "category": "creativity",
       "texts": {
@@ -1204,19 +1724,71 @@
         "ms": "Albert Einstein"
       },
       "tags": {
-        "en": ["innovation", "imagination", "intelligence"],
-        "tr": ["yenilik", "hayal gücü", "zeka"],
-        "fr": ["innovation", "imagination", "intelligence"],
-        "pt": ["inovação", "imaginação", "inteligência"],
-        "nl": ["innovatie", "verbeelding", "intelligentie"],
-        "es": ["innovación", "imaginación", "inteligencia"],
-        "de": ["Innovation", "Fantasie", "Intelligenz"],
-        "it": ["innovazione", "immaginazione", "intelligenza"],
-        "ru": ["инновация", "воображение", "интеллект"],
-        "id": ["inovasi", "imajinasi", "kecerdasan"],
-        "ja": ["革新", "想像力", "知性"],
-        "th": ["นวัตกรรม", "จินตนาการ", "สติปัญญา"],
-        "ms": ["inovasi", "imaginasi", "kecerdasan"]
+        "en": [
+          "innovation",
+          "imagination",
+          "intelligence"
+        ],
+        "tr": [
+          "yenilik",
+          "hayal gücü",
+          "zeka"
+        ],
+        "fr": [
+          "innovation",
+          "imagination",
+          "intelligence"
+        ],
+        "pt": [
+          "inovação",
+          "imaginação",
+          "inteligência"
+        ],
+        "nl": [
+          "innovatie",
+          "verbeelding",
+          "intelligentie"
+        ],
+        "es": [
+          "innovación",
+          "imaginación",
+          "inteligencia"
+        ],
+        "de": [
+          "Innovation",
+          "Fantasie",
+          "Intelligenz"
+        ],
+        "it": [
+          "innovazione",
+          "immaginazione",
+          "intelligenza"
+        ],
+        "ru": [
+          "инновация",
+          "воображение",
+          "интеллект"
+        ],
+        "id": [
+          "inovasi",
+          "imajinasi",
+          "kecerdasan"
+        ],
+        "ja": [
+          "革新",
+          "想像力",
+          "知性"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "จินตนาการ",
+          "สติปัญญา"
+        ],
+        "ms": [
+          "inovasi",
+          "imaginasi",
+          "kecerdasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Maya Angelou"
       },
       "tags": {
-        "en": ["abundance", "inspiration", "expression"],
-        "tr": ["bolluks", "ilham", "ifade"],
-        "fr": ["abondance", "inspiration", "expression"],
-        "pt": ["abundância", "inspiração", "expressão"],
-        "nl": ["overvloed", "inspiratie", "uitdrukking"],
-        "es": ["abundancia", "inspiración", "expresión"],
-        "de": ["Fülle", "Inspiration", "Ausdruck"],
-        "it": ["abbondanza", "ispirazione", "espressione"],
-        "ru": ["изобилие", "вдохновение", "выражение"],
-        "id": ["kelimpahan", "inspirasi", "ekspresi"],
-        "ja": ["豊かさ", "インスピレーション", "表現"],
-        "th": ["ความอุดมสมบูรณ์", "แรงบันดาลใจ", "การแสดงออก"],
-        "ms": ["kelimpahan", "inspirasi", "ekspresi"]
+        "en": [
+          "abundance",
+          "inspiration",
+          "expression"
+        ],
+        "tr": [
+          "bolluks",
+          "ilham",
+          "ifade"
+        ],
+        "fr": [
+          "abondance",
+          "inspiration",
+          "expression"
+        ],
+        "pt": [
+          "abundância",
+          "inspiração",
+          "expressão"
+        ],
+        "nl": [
+          "overvloed",
+          "inspiratie",
+          "uitdrukking"
+        ],
+        "es": [
+          "abundancia",
+          "inspiración",
+          "expresión"
+        ],
+        "de": [
+          "Fülle",
+          "Inspiration",
+          "Ausdruck"
+        ],
+        "it": [
+          "abbondanza",
+          "ispirazione",
+          "espressione"
+        ],
+        "ru": [
+          "изобилие",
+          "вдохновение",
+          "выражение"
+        ],
+        "id": [
+          "kelimpahan",
+          "inspirasi",
+          "ekspresi"
+        ],
+        "ja": [
+          "豊かさ",
+          "インスピレーション",
+          "表現"
+        ],
+        "th": [
+          "ความอุดมสมบูรณ์",
+          "แรงบันดาลใจ",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "kelimpahan",
+          "inspirasi",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Rollo May"
       },
       "tags": {
-        "en": ["creation", "process", "innovation"],
-        "tr": ["yaratma", "süreç", "yenilik"],
-        "fr": ["création", "processus", "innovation"],
-        "pt": ["criação", "processo", "inovação"],
-        "nl": ["creatie", "proces", "innovatie"],
-        "es": ["creación", "proceso", "innovación"],
-        "de": ["Schöpfung", "Prozess", "Innovation"],
-        "it": ["creazione", "processo", "innovazione"],
-        "ru": ["созидание", "процесс", "инновация"],
-        "id": ["penciptaan", "proses", "inovasi"],
-        "ja": ["創造", "プロセス", "革新"],
-        "th": ["การสร้าง", "กระบวนการ", "นวัตกรรม"],
-        "ms": ["penciptaan", "proses", "inovasi"]
+        "en": [
+          "creation",
+          "process",
+          "innovation"
+        ],
+        "tr": [
+          "yaratma",
+          "süreç",
+          "yenilik"
+        ],
+        "fr": [
+          "création",
+          "processus",
+          "innovation"
+        ],
+        "pt": [
+          "criação",
+          "processo",
+          "inovação"
+        ],
+        "nl": [
+          "creatie",
+          "proces",
+          "innovatie"
+        ],
+        "es": [
+          "creación",
+          "proceso",
+          "innovación"
+        ],
+        "de": [
+          "Schöpfung",
+          "Prozess",
+          "Innovation"
+        ],
+        "it": [
+          "creazione",
+          "processo",
+          "innovazione"
+        ],
+        "ru": [
+          "созидание",
+          "процесс",
+          "инновация"
+        ],
+        "id": [
+          "penciptaan",
+          "proses",
+          "inovasi"
+        ],
+        "ja": [
+          "創造",
+          "プロセス",
+          "革新"
+        ],
+        "th": [
+          "การสร้าง",
+          "กระบวนการ",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "penciptaan",
+          "proses",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1555,19 +2231,71 @@
         "ms": "Osho"
       },
       "tags": {
-        "en": ["passion", "life", "expression"],
-        "tr": ["tutku", "hayat", "ifade"],
-        "fr": ["passion", "vie", "expression"],
-        "pt": ["paixão", "vida", "expressão"],
-        "nl": ["passie", "leven", "uitdrukking"],
-        "es": ["pasión", "vida", "expresión"],
-        "de": ["Leidenschaft", "Leben", "Ausdruck"],
-        "it": ["passione", "vita", "espressione"],
-        "ru": ["страсть", "жизнь", "выражение"],
-        "id": ["gairah", "kehidupan", "ekspresi"],
-        "ja": ["情熱", "人生", "表現"],
-        "th": ["ความหลงใหล", "ชีวิต", "การแสดงออก"],
-        "ms": ["ghairah", "kehidupan", "ekspresi"]
+        "en": [
+          "passion",
+          "life",
+          "expression"
+        ],
+        "tr": [
+          "tutku",
+          "hayat",
+          "ifade"
+        ],
+        "fr": [
+          "passion",
+          "vie",
+          "expression"
+        ],
+        "pt": [
+          "paixão",
+          "vida",
+          "expressão"
+        ],
+        "nl": [
+          "passie",
+          "leven",
+          "uitdrukking"
+        ],
+        "es": [
+          "pasión",
+          "vida",
+          "expresión"
+        ],
+        "de": [
+          "Leidenschaft",
+          "Leben",
+          "Ausdruck"
+        ],
+        "it": [
+          "passione",
+          "vita",
+          "espressione"
+        ],
+        "ru": [
+          "страсть",
+          "жизнь",
+          "выражение"
+        ],
+        "id": [
+          "gairah",
+          "kehidupan",
+          "ekspresi"
+        ],
+        "ja": [
+          "情熱",
+          "人生",
+          "表現"
+        ],
+        "th": [
+          "ความหลงใหล",
+          "ชีวิต",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "ghairah",
+          "kehidupan",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1672,19 +2400,71 @@
         "ms": "Albert Szent-Györgyi"
       },
       "tags": {
-        "en": ["perspective", "innovation", "thought"],
-        "tr": ["perspektif", "yenilik", "düşünce"],
-        "fr": ["perspective", "innovation", "pensée"],
-        "pt": ["perspectiva", "inovação", "pensamento"],
-        "nl": ["perspectief", "innovatie", "gedachte"],
-        "es": ["perspectiva", "innovación", "pensamiento"],
-        "de": ["Perspektive", "Innovation", "Gedanke"],
-        "it": ["prospettiva", "innovazione", "pensiero"],
-        "ru": ["перспектива", "инновация", "мысль"],
-        "id": ["perspektif", "inovasi", "pemikiran"],
-        "ja": ["視点", "革新", "思考"],
-        "th": ["มุมมอง", "นวัตกรรม", "ความคิด"],
-        "ms": ["perspektif", "inovasi", "pemikiran"]
+        "en": [
+          "perspective",
+          "innovation",
+          "thought"
+        ],
+        "tr": [
+          "perspektif",
+          "yenilik",
+          "düşünce"
+        ],
+        "fr": [
+          "perspective",
+          "innovation",
+          "pensée"
+        ],
+        "pt": [
+          "perspectiva",
+          "inovação",
+          "pensamento"
+        ],
+        "nl": [
+          "perspectief",
+          "innovatie",
+          "gedachte"
+        ],
+        "es": [
+          "perspectiva",
+          "innovación",
+          "pensamiento"
+        ],
+        "de": [
+          "Perspektive",
+          "Innovation",
+          "Gedanke"
+        ],
+        "it": [
+          "prospettiva",
+          "innovazione",
+          "pensiero"
+        ],
+        "ru": [
+          "перспектива",
+          "инновация",
+          "мысль"
+        ],
+        "id": [
+          "perspektif",
+          "inovasi",
+          "pemikiran"
+        ],
+        "ja": [
+          "視点",
+          "革新",
+          "思考"
+        ],
+        "th": [
+          "มุมมอง",
+          "นวัตกรรม",
+          "ความคิด"
+        ],
+        "ms": [
+          "perspektif",
+          "inovasi",
+          "pemikiran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "Edwin Land"
       },
       "tags": {
-        "en": ["insight", "breakthrough", "clarity"],
-        "tr": ["içgörü", "atılım", "netlik"],
-        "fr": ["perspicacité", "percée", "clarté"],
-        "pt": ["insight", "avanço", "clareza"],
-        "nl": ["inzicht", "doorbraak", "duidelijkheid"],
-        "es": ["perspicacia", "avance", "claridad"],
-        "de": ["Einsicht", "Durchbruch", "Klarheit"],
-        "it": ["intuizione", "svolta", "chiarezza"],
-        "ru": ["озарение", "прорыв", "ясность"],
-        "id": ["wawasan", "terobosan", "kejelasan"],
-        "ja": ["洞察", "突破", "明快さ"],
-        "th": ["ความเข้าใจ", "การก้าวหน้า", "ความชัดเจน"],
-        "ms": ["wawasan", "terobosan", "kejelasan"]
+        "en": [
+          "insight",
+          "breakthrough",
+          "clarity"
+        ],
+        "tr": [
+          "içgörü",
+          "atılım",
+          "netlik"
+        ],
+        "fr": [
+          "perspicacité",
+          "percée",
+          "clarté"
+        ],
+        "pt": [
+          "insight",
+          "avanço",
+          "clareza"
+        ],
+        "nl": [
+          "inzicht",
+          "doorbraak",
+          "duidelijkheid"
+        ],
+        "es": [
+          "perspicacia",
+          "avance",
+          "claridad"
+        ],
+        "de": [
+          "Einsicht",
+          "Durchbruch",
+          "Klarheit"
+        ],
+        "it": [
+          "intuizione",
+          "svolta",
+          "chiarezza"
+        ],
+        "ru": [
+          "озарение",
+          "прорыв",
+          "ясность"
+        ],
+        "id": [
+          "wawasan",
+          "terobosan",
+          "kejelasan"
+        ],
+        "ja": [
+          "洞察",
+          "突破",
+          "明快さ"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "การก้าวหน้า",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wawasan",
+          "terobosan",
+          "kejelasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "Amara Okoye"
       },
       "tags": {
-        "en": ["curiosity", "courage", "innovation"],
-        "tr": ["merak", "cesaret", "yenilik"],
-        "fr": ["curiosité", "courage", "innovation"],
-        "pt": ["curiosidade", "coragem", "inovação"],
-        "nl": ["nieuwsgierigheid", "moed", "innovatie"],
-        "es": ["curiosidad", "coraje", "innovación"],
-        "de": ["Neugier", "Mut", "Innovation"],
-        "it": ["curiosità", "coraggio", "innovazione"],
-        "ru": ["любопытство", "мужество", "инновация"],
-        "id": ["rasa ingin tahu", "keberanian", "inovasi"],
-        "ja": ["好奇心", "勇気", "革新"],
-        "th": ["ความอยากรู้", "ความกล้า", "นวัตกรรม"],
-        "ms": ["rasa ingin tahu", "keberanian", "inovasi"]
+        "en": [
+          "curiosity",
+          "courage",
+          "innovation"
+        ],
+        "tr": [
+          "merak",
+          "cesaret",
+          "yenilik"
+        ],
+        "fr": [
+          "curiosité",
+          "courage",
+          "innovation"
+        ],
+        "pt": [
+          "curiosidade",
+          "coragem",
+          "inovação"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "moed",
+          "innovatie"
+        ],
+        "es": [
+          "curiosidad",
+          "coraje",
+          "innovación"
+        ],
+        "de": [
+          "Neugier",
+          "Mut",
+          "Innovation"
+        ],
+        "it": [
+          "curiosità",
+          "coraggio",
+          "innovazione"
+        ],
+        "ru": [
+          "любопытство",
+          "мужество",
+          "инновация"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "keberanian",
+          "inovasi"
+        ],
+        "ja": [
+          "好奇心",
+          "勇気",
+          "革新"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "ความกล้า",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "keberanian",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2023,19 +2907,71 @@
         "ms": "Lila Santos"
       },
       "tags": {
-        "en": ["dreams", "art", "realization"],
-        "tr": ["hayaller", "sanat", "gerçekleşme"],
-        "fr": ["rêves", "art", "réalisation"],
-        "pt": ["sonhos", "arte", "realização"],
-        "nl": ["dromen", "kunst", "verwezenlijking"],
-        "es": ["sueños", "arte", "realización"],
-        "de": ["Träume", "Kunst", "Verwirklichung"],
-        "it": ["sogni", "arte", "realizzazione"],
-        "ru": ["мечты", "искусство", "реализация"],
-        "id": ["mimpi", "seni", "realisasi"],
-        "ja": ["夢", "芸術", "実現"],
-        "th": ["ความฝัน", "ศิลปะ", "การทำให้เป็นจริง"],
-        "ms": ["impian", "seni", "realisasi"]
+        "en": [
+          "dreams",
+          "art",
+          "realization"
+        ],
+        "tr": [
+          "hayaller",
+          "sanat",
+          "gerçekleşme"
+        ],
+        "fr": [
+          "rêves",
+          "art",
+          "réalisation"
+        ],
+        "pt": [
+          "sonhos",
+          "arte",
+          "realização"
+        ],
+        "nl": [
+          "dromen",
+          "kunst",
+          "verwezenlijking"
+        ],
+        "es": [
+          "sueños",
+          "arte",
+          "realización"
+        ],
+        "de": [
+          "Träume",
+          "Kunst",
+          "Verwirklichung"
+        ],
+        "it": [
+          "sogni",
+          "arte",
+          "realizzazione"
+        ],
+        "ru": [
+          "мечты",
+          "искусство",
+          "реализация"
+        ],
+        "id": [
+          "mimpi",
+          "seni",
+          "realisasi"
+        ],
+        "ja": [
+          "夢",
+          "芸術",
+          "実現"
+        ],
+        "th": [
+          "ความฝัน",
+          "ศิลปะ",
+          "การทำให้เป็นจริง"
+        ],
+        "ms": [
+          "impian",
+          "seni",
+          "realisasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Sofia Mendes"
       },
       "tags": {
-        "en": ["imagination", "possibility", "connection"],
-        "tr": ["hayal gücü", "olasılık", "bağlantı"],
-        "fr": ["imagination", "possibilité", "connexion"],
-        "pt": ["imaginação", "possibilidade", "conexão"],
-        "nl": ["verbeelding", "mogelijkheid", "verbinding"],
-        "es": ["imaginación", "posibilidad", "conexión"],
-        "de": ["Fantasie", "Möglichkeit", "Verbindung"],
-        "it": ["immaginazione", "possibilità", "connessione"],
-        "ru": ["воображение", "возможность", "связь"],
-        "id": ["imajinasi", "kemungkinan", "koneksi"],
-        "ja": ["想像力", "可能性", "つながり"],
-        "th": ["จินตนาการ", "ความเป็นไปได้", "การเชื่อมโยง"],
-        "ms": ["imaginasi", "kemungkinan", "hubungan"]
+        "en": [
+          "imagination",
+          "possibility",
+          "connection"
+        ],
+        "tr": [
+          "hayal gücü",
+          "olasılık",
+          "bağlantı"
+        ],
+        "fr": [
+          "imagination",
+          "possibilité",
+          "connexion"
+        ],
+        "pt": [
+          "imaginação",
+          "possibilidade",
+          "conexão"
+        ],
+        "nl": [
+          "verbeelding",
+          "mogelijkheid",
+          "verbinding"
+        ],
+        "es": [
+          "imaginación",
+          "posibilidad",
+          "conexión"
+        ],
+        "de": [
+          "Fantasie",
+          "Möglichkeit",
+          "Verbindung"
+        ],
+        "it": [
+          "immaginazione",
+          "possibilità",
+          "connessione"
+        ],
+        "ru": [
+          "воображение",
+          "возможность",
+          "связь"
+        ],
+        "id": [
+          "imajinasi",
+          "kemungkinan",
+          "koneksi"
+        ],
+        "ja": [
+          "想像力",
+          "可能性",
+          "つながり"
+        ],
+        "th": [
+          "จินตนาการ",
+          "ความเป็นไปได้",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "imaginasi",
+          "kemungkinan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2257,19 +3245,71 @@
         "ms": "Jamal Al-Rifai"
       },
       "tags": {
-        "en": ["rebellion", "freedom", "innovation"],
-        "tr": ["isyan", "özgürlük", "yenilik"],
-        "fr": ["rébellion", "liberté", "innovation"],
-        "pt": ["rebelião", "liberdade", "inovação"],
-        "nl": ["rebellie", "vrijheid", "innovatie"],
-        "es": ["rebelión", "libertad", "innovación"],
-        "de": ["Rebellion", "Freiheit", "Innovation"],
-        "it": ["ribellione", "libertà", "innovazione"],
-        "ru": ["бунт", "свобода", "инновация"],
-        "id": ["pemberontakan", "kebebasan", "inovasi"],
-        "ja": ["反乱", "自由", "革新"],
-        "th": ["การกบฏ", "เสรีภาพ", "นวัตกรรม"],
-        "ms": ["pemberontakan", "kebebasan", "inovasi"]
+        "en": [
+          "rebellion",
+          "freedom",
+          "innovation"
+        ],
+        "tr": [
+          "isyan",
+          "özgürlük",
+          "yenilik"
+        ],
+        "fr": [
+          "rébellion",
+          "liberté",
+          "innovation"
+        ],
+        "pt": [
+          "rebelião",
+          "liberdade",
+          "inovação"
+        ],
+        "nl": [
+          "rebellie",
+          "vrijheid",
+          "innovatie"
+        ],
+        "es": [
+          "rebelión",
+          "libertad",
+          "innovación"
+        ],
+        "de": [
+          "Rebellion",
+          "Freiheit",
+          "Innovation"
+        ],
+        "it": [
+          "ribellione",
+          "libertà",
+          "innovazione"
+        ],
+        "ru": [
+          "бунт",
+          "свобода",
+          "инновация"
+        ],
+        "id": [
+          "pemberontakan",
+          "kebebasan",
+          "inovasi"
+        ],
+        "ja": [
+          "反乱",
+          "自由",
+          "革新"
+        ],
+        "th": [
+          "การกบฏ",
+          "เสรีภาพ",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "pemberontakan",
+          "kebebasan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Ananya Sharma"
       },
       "tags": {
-        "en": ["progress", "inspiration", "spark"],
-        "tr": ["ilerleme", "ilham", "kıvılcım"],
-        "fr": ["progrès", "inspiration", "étincelle"],
-        "pt": ["progresso", "inspiração", "faísca"],
-        "nl": ["vooruitgang", "inspiratie", "vonk"],
-        "es": ["progreso", "inspiración", "chispa"],
-        "de": ["Fortschritt", "Inspiration", "Funke"],
-        "it": ["progresso", "ispirazione", "scintilla"],
-        "ru": ["прогресс", "вдохновение", "искра"],
-        "id": ["kemajuan", "inspirasi", "percikan"],
-        "ja": ["進歩", "インスピレーション", "火花"],
-        "th": ["ความก้าวหน้า", "แรงบันดาลใจ", "ประกาย"],
-        "ms": ["kemajuan", "inspirasi", "percikan"]
+        "en": [
+          "progress",
+          "inspiration",
+          "spark"
+        ],
+        "tr": [
+          "ilerleme",
+          "ilham",
+          "kıvılcım"
+        ],
+        "fr": [
+          "progrès",
+          "inspiration",
+          "étincelle"
+        ],
+        "pt": [
+          "progresso",
+          "inspiração",
+          "faísca"
+        ],
+        "nl": [
+          "vooruitgang",
+          "inspiratie",
+          "vonk"
+        ],
+        "es": [
+          "progreso",
+          "inspiración",
+          "chispa"
+        ],
+        "de": [
+          "Fortschritt",
+          "Inspiration",
+          "Funke"
+        ],
+        "it": [
+          "progresso",
+          "ispirazione",
+          "scintilla"
+        ],
+        "ru": [
+          "прогресс",
+          "вдохновение",
+          "искра"
+        ],
+        "id": [
+          "kemajuan",
+          "inspirasi",
+          "percikan"
+        ],
+        "ja": [
+          "進歩",
+          "インスピレーション",
+          "火花"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "แรงบันดาลใจ",
+          "ประกาย"
+        ],
+        "ms": [
+          "kemajuan",
+          "inspirasi",
+          "percikan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2491,19 +3583,71 @@
         "ms": "Aisha Ndlovu"
       },
       "tags": {
-        "en": ["soul", "expression", "rhythm"],
-        "tr": ["ruh", "ifade", "ritim"],
-        "fr": ["âme", "expression", "rythme"],
-        "pt": ["alma", "expressão", "ritmo"],
-        "nl": ["ziel", "uitdrukking", "ritme"],
-        "es": ["alma", "expresión", "ritmo"],
-        "de": ["Seele", "Ausdruck", "Rhythmus"],
-        "it": ["anima", "espressione", "ritmo"],
-        "ru": ["душа", "выражение", "ритм"],
-        "id": ["jiwa", "ekspresi", "irama"],
-        "ja": ["魂", "表現", "リズム"],
-        "th": ["จิตวิญญาณ", "การแสดงออก", "จังหวะ"],
-        "ms": ["jiwa", "ekspresi", "irama"]
+        "en": [
+          "soul",
+          "expression",
+          "rhythm"
+        ],
+        "tr": [
+          "ruh",
+          "ifade",
+          "ritim"
+        ],
+        "fr": [
+          "âme",
+          "expression",
+          "rythme"
+        ],
+        "pt": [
+          "alma",
+          "expressão",
+          "ritmo"
+        ],
+        "nl": [
+          "ziel",
+          "uitdrukking",
+          "ritme"
+        ],
+        "es": [
+          "alma",
+          "expresión",
+          "ritmo"
+        ],
+        "de": [
+          "Seele",
+          "Ausdruck",
+          "Rhythmus"
+        ],
+        "it": [
+          "anima",
+          "espressione",
+          "ritmo"
+        ],
+        "ru": [
+          "душа",
+          "выражение",
+          "ритм"
+        ],
+        "id": [
+          "jiwa",
+          "ekspresi",
+          "irama"
+        ],
+        "ja": [
+          "魂",
+          "表現",
+          "リズム"
+        ],
+        "th": [
+          "จิตวิญญาณ",
+          "การแสดงออก",
+          "จังหวะ"
+        ],
+        "ms": [
+          "jiwa",
+          "ekspresi",
+          "irama"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3752,71 @@
         "ms": "Clara Morales"
       },
       "tags": {
-        "en": ["courage", "art", "boundlessness"],
-        "tr": ["cesaret", "sanat", "sınırsızlık"],
-        "fr": ["courage", "art", "infini"],
-        "pt": ["coragem", "arte", "ilimitado"],
-        "nl": ["moed", "kunst", "grenzeloosheid"],
-        "es": ["coraje", "arte", "sin límites"],
-        "de": ["Mut", "Kunst", "Grenzenlosigkeit"],
-        "it": ["coraggio", "arte", "illimitatezza"],
-        "ru": ["смелость", "искусство", "безграничность"],
-        "id": ["keberanian", "seni", "tak terbatas"],
-        "ja": ["勇気", "芸術", "無限"],
-        "th": ["ความกล้า", "ศิลปะ", "ไร้ขอบเขต"],
-        "ms": ["keberanian", "seni", "tanpa batas"]
+        "en": [
+          "courage",
+          "art",
+          "boundlessness"
+        ],
+        "tr": [
+          "cesaret",
+          "sanat",
+          "sınırsızlık"
+        ],
+        "fr": [
+          "courage",
+          "art",
+          "infini"
+        ],
+        "pt": [
+          "coragem",
+          "arte",
+          "ilimitado"
+        ],
+        "nl": [
+          "moed",
+          "kunst",
+          "grenzeloosheid"
+        ],
+        "es": [
+          "coraje",
+          "arte",
+          "sin límites"
+        ],
+        "de": [
+          "Mut",
+          "Kunst",
+          "Grenzenlosigkeit"
+        ],
+        "it": [
+          "coraggio",
+          "arte",
+          "illimitatezza"
+        ],
+        "ru": [
+          "смелость",
+          "искусство",
+          "безграничность"
+        ],
+        "id": [
+          "keberanian",
+          "seni",
+          "tak terbatas"
+        ],
+        "ja": [
+          "勇気",
+          "芸術",
+          "無限"
+        ],
+        "th": [
+          "ความกล้า",
+          "ศิลปะ",
+          "ไร้ขอบเขต"
+        ],
+        "ms": [
+          "keberanian",
+          "seni",
+          "tanpa batas"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2725,19 +3921,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["chaos", "growth", "potential"],
-        "tr": ["kaos", "büyüme", "potansiyel"],
-        "fr": ["chaos", "croissance", "potentiel"],
-        "pt": ["caos", "crescimento", "potencial"],
-        "nl": ["chaos", "groei", "potentieel"],
-        "es": ["caos", "crecimiento", "potencial"],
-        "de": ["Chaos", "Wachstum", "Potenzial"],
-        "it": ["caos", "crescita", "potenziale"],
-        "ru": ["хаос", "рост", "потенциал"],
-        "id": ["kekacauan", "pertumbuhan", "potensi"],
-        "ja": ["混沌", "成長", "可能性"],
-        "th": ["ความโกลาหล", "การเติบโต", "ศักยภาพ"],
-        "ms": ["kekacauan", "pertumbuhan", "potensi"]
+        "en": [
+          "chaos",
+          "growth",
+          "potential"
+        ],
+        "tr": [
+          "kaos",
+          "büyüme",
+          "potansiyel"
+        ],
+        "fr": [
+          "chaos",
+          "croissance",
+          "potentiel"
+        ],
+        "pt": [
+          "caos",
+          "crescimento",
+          "potencial"
+        ],
+        "nl": [
+          "chaos",
+          "groei",
+          "potentieel"
+        ],
+        "es": [
+          "caos",
+          "crecimiento",
+          "potencial"
+        ],
+        "de": [
+          "Chaos",
+          "Wachstum",
+          "Potenzial"
+        ],
+        "it": [
+          "caos",
+          "crescita",
+          "potenziale"
+        ],
+        "ru": [
+          "хаос",
+          "рост",
+          "потенциал"
+        ],
+        "id": [
+          "kekacauan",
+          "pertumbuhan",
+          "potensi"
+        ],
+        "ja": [
+          "混沌",
+          "成長",
+          "可能性"
+        ],
+        "th": [
+          "ความโกลาหล",
+          "การเติบโต",
+          "ศักยภาพ"
+        ],
+        "ms": [
+          "kekacauan",
+          "pertumbuhan",
+          "potensi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2842,19 +4090,71 @@
         "ms": "Fatima El-Sayed"
       },
       "tags": {
-        "en": ["ideas", "change", "movement"],
-        "tr": ["fikirler", "değişim", "hareket"],
-        "fr": ["idées", "changement", "mouvement"],
-        "pt": ["ideias", "mudança", "movimento"],
-        "nl": ["ideeën", "verandering", "beweging"],
-        "es": ["ideas", "cambio", "movimiento"],
-        "de": ["Ideen", "Veränderung", "Bewegung"],
-        "it": ["idee", "cambiamento", "movimento"],
-        "ru": ["идеи", "перемена", "движение"],
-        "id": ["ide", "perubahan", "gerakan"],
-        "ja": ["アイデア", "変化", "動き"],
-        "th": ["แนวคิด", "การเปลี่ยนแปลง", "การเคลื่อนไหว"],
-        "ms": ["idea", "perubahan", "pergerakan"]
+        "en": [
+          "ideas",
+          "change",
+          "movement"
+        ],
+        "tr": [
+          "fikirler",
+          "değişim",
+          "hareket"
+        ],
+        "fr": [
+          "idées",
+          "changement",
+          "mouvement"
+        ],
+        "pt": [
+          "ideias",
+          "mudança",
+          "movimento"
+        ],
+        "nl": [
+          "ideeën",
+          "verandering",
+          "beweging"
+        ],
+        "es": [
+          "ideas",
+          "cambio",
+          "movimiento"
+        ],
+        "de": [
+          "Ideen",
+          "Veränderung",
+          "Bewegung"
+        ],
+        "it": [
+          "idee",
+          "cambiamento",
+          "movimento"
+        ],
+        "ru": [
+          "идеи",
+          "перемена",
+          "движение"
+        ],
+        "id": [
+          "ide",
+          "perubahan",
+          "gerakan"
+        ],
+        "ja": [
+          "アイデア",
+          "変化",
+          "動き"
+        ],
+        "th": [
+          "แนวคิด",
+          "การเปลี่ยนแปลง",
+          "การเคลื่อนไหว"
+        ],
+        "ms": [
+          "idea",
+          "perubahan",
+          "pergerakan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2959,19 +4259,71 @@
         "ms": "Lina Sari"
       },
       "tags": {
-        "en": ["intuition", "guidance", "expression"],
-        "tr": ["sezgi", "rehberlik", "ifade"],
-        "fr": ["intuition", "guidance", "expression"],
-        "pt": ["intuição", "orientação", "expressão"],
-        "nl": ["intuïtie", "begeleiding", "uitdrukking"],
-        "es": ["intuición", "guía", "expresión"],
-        "de": ["Intuition", "Führung", "Ausdruck"],
-        "it": ["intuizione", "guida", "espressione"],
-        "ru": ["интуиция", "руководство", "выражение"],
-        "id": ["intuisi", "panduan", "ekspresi"],
-        "ja": ["直感", "指導", "表現"],
-        "th": ["สัญชาตญาณ", "การนำทาง", "การแสดงออก"],
-        "ms": ["intuisi", "panduan", "ekspresi"]
+        "en": [
+          "intuition",
+          "guidance",
+          "expression"
+        ],
+        "tr": [
+          "sezgi",
+          "rehberlik",
+          "ifade"
+        ],
+        "fr": [
+          "intuition",
+          "guidance",
+          "expression"
+        ],
+        "pt": [
+          "intuição",
+          "orientação",
+          "expressão"
+        ],
+        "nl": [
+          "intuïtie",
+          "begeleiding",
+          "uitdrukking"
+        ],
+        "es": [
+          "intuición",
+          "guía",
+          "expresión"
+        ],
+        "de": [
+          "Intuition",
+          "Führung",
+          "Ausdruck"
+        ],
+        "it": [
+          "intuizione",
+          "guida",
+          "espressione"
+        ],
+        "ru": [
+          "интуиция",
+          "руководство",
+          "выражение"
+        ],
+        "id": [
+          "intuisi",
+          "panduan",
+          "ekspresi"
+        ],
+        "ja": [
+          "直感",
+          "指導",
+          "表現"
+        ],
+        "th": [
+          "สัญชาตญาณ",
+          "การนำทาง",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "intuisi",
+          "panduan",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3076,19 +4428,71 @@
         "ms": "Mei Ling Chen"
       },
       "tags": {
-        "en": ["spark", "possibility", "illumination"],
-        "tr": ["kıvılcım", "olasılık", "aydınlatma"],
-        "fr": ["étincelle", "possibilité", "illumination"],
-        "pt": ["faísca", "possibilidade", "iluminação"],
-        "nl": ["vonk", "mogelijkheid", "verlichting"],
-        "es": ["chispa", "posibilidad", "iluminación"],
-        "de": ["Funke", "Möglichkeit", "Erleuchtung"],
-        "it": ["scintilla", "possibilità", "illuminazione"],
-        "ru": ["искра", "возможность", "освещение"],
-        "id": ["percikan", "kemungkinan", "penerangan"],
-        "ja": ["火花", "可能性", "照明"],
-        "th": ["ประกายไฟ", "ความเป็นไปได้", "การส่องสว่าง"],
-        "ms": ["percikan", "kemungkinan", "pencahayaan"]
+        "en": [
+          "spark",
+          "possibility",
+          "illumination"
+        ],
+        "tr": [
+          "kıvılcım",
+          "olasılık",
+          "aydınlatma"
+        ],
+        "fr": [
+          "étincelle",
+          "possibilité",
+          "illumination"
+        ],
+        "pt": [
+          "faísca",
+          "possibilidade",
+          "iluminação"
+        ],
+        "nl": [
+          "vonk",
+          "mogelijkheid",
+          "verlichting"
+        ],
+        "es": [
+          "chispa",
+          "posibilidad",
+          "iluminación"
+        ],
+        "de": [
+          "Funke",
+          "Möglichkeit",
+          "Erleuchtung"
+        ],
+        "it": [
+          "scintilla",
+          "possibilità",
+          "illuminazione"
+        ],
+        "ru": [
+          "искра",
+          "возможность",
+          "освещение"
+        ],
+        "id": [
+          "percikan",
+          "kemungkinan",
+          "penerangan"
+        ],
+        "ja": [
+          "火花",
+          "可能性",
+          "照明"
+        ],
+        "th": [
+          "ประกายไฟ",
+          "ความเป็นไปได้",
+          "การส่องสว่าง"
+        ],
+        "ms": [
+          "percikan",
+          "kemungkinan",
+          "pencahayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3193,19 +4597,71 @@
         "ms": "Sofia Mendes"
       },
       "tags": {
-        "en": ["dreams", "reality", "connection"],
-        "tr": ["hayaller", "gerçeklik", "bağlantı"],
-        "fr": ["rêves", "réalité", "connexion"],
-        "pt": ["sonhos", "realidade", "conexão"],
-        "nl": ["dromen", "realiteit", "verbinding"],
-        "es": ["sueños", "realidad", "conexión"],
-        "de": ["Träume", "Realität", "Verbindung"],
-        "it": ["sogni", "realtà", "connessione"],
-        "ru": ["мечты", "реальность", "связь"],
-        "id": ["mimpi", "kenyataan", "koneksi"],
-        "ja": ["夢", "現実", "つながり"],
-        "th": ["ความฝัน", "ความเป็นจริง", "การเชื่อมต่อ"],
-        "ms": ["mimpi", "realiti", "hubungan"]
+        "en": [
+          "dreams",
+          "reality",
+          "connection"
+        ],
+        "tr": [
+          "hayaller",
+          "gerçeklik",
+          "bağlantı"
+        ],
+        "fr": [
+          "rêves",
+          "réalité",
+          "connexion"
+        ],
+        "pt": [
+          "sonhos",
+          "realidade",
+          "conexão"
+        ],
+        "nl": [
+          "dromen",
+          "realiteit",
+          "verbinding"
+        ],
+        "es": [
+          "sueños",
+          "realidad",
+          "conexión"
+        ],
+        "de": [
+          "Träume",
+          "Realität",
+          "Verbindung"
+        ],
+        "it": [
+          "sogni",
+          "realtà",
+          "connessione"
+        ],
+        "ru": [
+          "мечты",
+          "реальность",
+          "связь"
+        ],
+        "id": [
+          "mimpi",
+          "kenyataan",
+          "koneksi"
+        ],
+        "ja": [
+          "夢",
+          "現実",
+          "つながり"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความเป็นจริง",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "mimpi",
+          "realiti",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3310,19 +4766,71 @@
         "ms": "Anouk van der Meer"
       },
       "tags": {
-        "en": ["heart", "silence", "introspection"],
-        "tr": ["kalp", "sessizlik", "iç gözlem"],
-        "fr": ["cœur", "silence", "introspection"],
-        "pt": ["coração", "silêncio", "introspecção"],
-        "nl": ["hart", "stilte", "introspectie"],
-        "es": ["corazón", "silencio", "introspección"],
-        "de": ["Herz", "Stille", "Introspektion"],
-        "it": ["cuore", "silenzio", "introspezione"],
-        "ru": ["сердце", "тишина", "самоанализ"],
-        "id": ["hati", "keheningan", "introspeksi"],
-        "ja": ["心", "静寂", "内省"],
-        "th": ["หัวใจ", "ความเงียบ", "การสำรวจภายใน"],
-        "ms": ["hati", "kesunyian", "introspeksi"]
+        "en": [
+          "heart",
+          "silence",
+          "introspection"
+        ],
+        "tr": [
+          "kalp",
+          "sessizlik",
+          "iç gözlem"
+        ],
+        "fr": [
+          "cœur",
+          "silence",
+          "introspection"
+        ],
+        "pt": [
+          "coração",
+          "silêncio",
+          "introspecção"
+        ],
+        "nl": [
+          "hart",
+          "stilte",
+          "introspectie"
+        ],
+        "es": [
+          "corazón",
+          "silencio",
+          "introspección"
+        ],
+        "de": [
+          "Herz",
+          "Stille",
+          "Introspektion"
+        ],
+        "it": [
+          "cuore",
+          "silenzio",
+          "introspezione"
+        ],
+        "ru": [
+          "сердце",
+          "тишина",
+          "самоанализ"
+        ],
+        "id": [
+          "hati",
+          "keheningan",
+          "introspeksi"
+        ],
+        "ja": [
+          "心",
+          "静寂",
+          "内省"
+        ],
+        "th": [
+          "หัวใจ",
+          "ความเงียบ",
+          "การสำรวจภายใน"
+        ],
+        "ms": [
+          "hati",
+          "kesunyian",
+          "introspeksi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3427,19 +4935,71 @@
         "ms": "Elena Petrova"
       },
       "tags": {
-        "en": ["memory", "melody", "heritage"],
-        "tr": ["anı", "melodi", "miras"],
-        "fr": ["mémoire", "mélodie", "héritage"],
-        "pt": ["memória", "melodia", "herança"],
-        "nl": ["herinnering", "melodie", "erfgoed"],
-        "es": ["memoria", "melodía", "herencia"],
-        "de": ["Erinnerung", "Melodie", "Erbe"],
-        "it": ["memoria", "melodia", "eredità"],
-        "ru": ["память", "мелодия", "наследие"],
-        "id": ["kenangan", "melodi", "warisan"],
-        "ja": ["記憶", "メロディー", "遺産"],
-        "th": ["ความทรงจำ", "ทำนอง", "มรดก"],
-        "ms": ["kenangan", "melodi", "warisan"]
+        "en": [
+          "memory",
+          "melody",
+          "heritage"
+        ],
+        "tr": [
+          "anı",
+          "melodi",
+          "miras"
+        ],
+        "fr": [
+          "mémoire",
+          "mélodie",
+          "héritage"
+        ],
+        "pt": [
+          "memória",
+          "melodia",
+          "herança"
+        ],
+        "nl": [
+          "herinnering",
+          "melodie",
+          "erfgoed"
+        ],
+        "es": [
+          "memoria",
+          "melodía",
+          "herencia"
+        ],
+        "de": [
+          "Erinnerung",
+          "Melodie",
+          "Erbe"
+        ],
+        "it": [
+          "memoria",
+          "melodia",
+          "eredità"
+        ],
+        "ru": [
+          "память",
+          "мелодия",
+          "наследие"
+        ],
+        "id": [
+          "kenangan",
+          "melodi",
+          "warisan"
+        ],
+        "ja": [
+          "記憶",
+          "メロディー",
+          "遺産"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ทำนอง",
+          "มรดก"
+        ],
+        "ms": [
+          "kenangan",
+          "melodi",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3544,19 +5104,71 @@
         "ms": "Ahmet Yilmaz"
       },
       "tags": {
-        "en": ["courage", "exploration", "unknown"],
-        "tr": ["cesaret", "keşif", "bilinmeyen"],
-        "fr": ["courage", "exploration", "inconnu"],
-        "pt": ["coragem", "exploração", "desconhecido"],
-        "nl": ["moed", "verkenning", "onbekend"],
-        "es": ["coraje", "exploración", "desconocido"],
-        "de": ["Mut", "Erforschung", "Unbekanntes"],
-        "it": ["coraggio", "esplorazione", "ignoto"],
-        "ru": ["смелость", "исследование", "неизвестное"],
-        "id": ["keberanian", "penjelajahan", "tak diketahui"],
-        "ja": ["勇気", "探検", "未知"],
-        "th": ["ความกล้า", "การสำรวจ", "สิ่งที่ไม่รู้จัก"],
-        "ms": ["keberanian", "penjelajahan", "tidak diketahui"]
+        "en": [
+          "courage",
+          "exploration",
+          "unknown"
+        ],
+        "tr": [
+          "cesaret",
+          "keşif",
+          "bilinmeyen"
+        ],
+        "fr": [
+          "courage",
+          "exploration",
+          "inconnu"
+        ],
+        "pt": [
+          "coragem",
+          "exploração",
+          "desconhecido"
+        ],
+        "nl": [
+          "moed",
+          "verkenning",
+          "onbekend"
+        ],
+        "es": [
+          "coraje",
+          "exploración",
+          "desconocido"
+        ],
+        "de": [
+          "Mut",
+          "Erforschung",
+          "Unbekanntes"
+        ],
+        "it": [
+          "coraggio",
+          "esplorazione",
+          "ignoto"
+        ],
+        "ru": [
+          "смелость",
+          "исследование",
+          "неизвестное"
+        ],
+        "id": [
+          "keberanian",
+          "penjelajahan",
+          "tak diketahui"
+        ],
+        "ja": [
+          "勇気",
+          "探検",
+          "未知"
+        ],
+        "th": [
+          "ความกล้า",
+          "การสำรวจ",
+          "สิ่งที่ไม่รู้จัก"
+        ],
+        "ms": [
+          "keberanian",
+          "penjelajahan",
+          "tidak diketahui"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3661,19 +5273,71 @@
         "ms": "Ravi Shankar"
       },
       "tags": {
-        "en": ["universe", "music", "expression"],
-        "tr": ["evren", "müzik", "ifade"],
-        "fr": ["univers", "musique", "expression"],
-        "pt": ["universo", "música", "expressão"],
-        "nl": ["universum", "muziek", "uitdrukking"],
-        "es": ["universo", "música", "expresión"],
-        "de": ["Universum", "Musik", "Ausdruck"],
-        "it": ["universo", "musica", "espressione"],
-        "ru": ["вселенная", "музыка", "выражение"],
-        "id": ["alam semesta", "musik", "ekspresi"],
-        "ja": ["宇宙", "音楽", "表現"],
-        "th": ["จักรวาล", "ดนตรี", "การแสดงออก"],
-        "ms": ["alam semesta", "muzik", "ekspresi"]
+        "en": [
+          "universe",
+          "music",
+          "expression"
+        ],
+        "tr": [
+          "evren",
+          "müzik",
+          "ifade"
+        ],
+        "fr": [
+          "univers",
+          "musique",
+          "expression"
+        ],
+        "pt": [
+          "universo",
+          "música",
+          "expressão"
+        ],
+        "nl": [
+          "universum",
+          "muziek",
+          "uitdrukking"
+        ],
+        "es": [
+          "universo",
+          "música",
+          "expresión"
+        ],
+        "de": [
+          "Universum",
+          "Musik",
+          "Ausdruck"
+        ],
+        "it": [
+          "universo",
+          "musica",
+          "espressione"
+        ],
+        "ru": [
+          "вселенная",
+          "музыка",
+          "выражение"
+        ],
+        "id": [
+          "alam semesta",
+          "musik",
+          "ekspresi"
+        ],
+        "ja": [
+          "宇宙",
+          "音楽",
+          "表現"
+        ],
+        "th": [
+          "จักรวาล",
+          "ดนตรี",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "alam semesta",
+          "muzik",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3778,19 +5442,71 @@
         "ms": "Isabella Rossi"
       },
       "tags": {
-        "en": ["imagination", "artistry", "creation"],
-        "tr": ["hayal gücü", "sanat", "yaratma"],
-        "fr": ["imagination", "art", "création"],
-        "pt": ["imaginação", "arte", "criação"],
-        "nl": ["verbeelding", "kunst", "creatie"],
-        "es": ["imaginación", "arte", "creación"],
-        "de": ["Fantasie", "Kunst", "Schöpfung"],
-        "it": ["immaginazione", "arte", "creazione"],
-        "ru": ["воображение", "искусство", "творение"],
-        "id": ["imajinasi", "seni", "penciptaan"],
-        "ja": ["想像力", "芸術", "創造"],
-        "th": ["จินตนาการ", "ศิลปะ", "การสร้าง"],
-        "ms": ["imaginasi", "seni", "penciptaan"]
+        "en": [
+          "imagination",
+          "artistry",
+          "creation"
+        ],
+        "tr": [
+          "hayal gücü",
+          "sanat",
+          "yaratma"
+        ],
+        "fr": [
+          "imagination",
+          "art",
+          "création"
+        ],
+        "pt": [
+          "imaginação",
+          "arte",
+          "criação"
+        ],
+        "nl": [
+          "verbeelding",
+          "kunst",
+          "creatie"
+        ],
+        "es": [
+          "imaginación",
+          "arte",
+          "creación"
+        ],
+        "de": [
+          "Fantasie",
+          "Kunst",
+          "Schöpfung"
+        ],
+        "it": [
+          "immaginazione",
+          "arte",
+          "creazione"
+        ],
+        "ru": [
+          "воображение",
+          "искусство",
+          "творение"
+        ],
+        "id": [
+          "imajinasi",
+          "seni",
+          "penciptaan"
+        ],
+        "ja": [
+          "想像力",
+          "芸術",
+          "創造"
+        ],
+        "th": [
+          "จินตนาการ",
+          "ศิลปะ",
+          "การสร้าง"
+        ],
+        "ms": [
+          "imaginasi",
+          "seni",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3895,19 +5611,71 @@
         "ms": "Aisyah Pratama"
       },
       "tags": {
-        "en": ["dance", "inspiration", "ideas"],
-        "tr": ["dans", "ilham", "fikirler"],
-        "fr": ["danse", "inspiration", "idées"],
-        "pt": ["dança", "inspiração", "ideias"],
-        "nl": ["dans", "inspiratie", "ideeën"],
-        "es": ["danza", "inspiración", "ideas"],
-        "de": ["Tanz", "Inspiration", "Ideen"],
-        "it": ["danza", "ispirazione", "idee"],
-        "ru": ["танец", "вдохновение", "идеи"],
-        "id": ["tarian", "inspirasi", "ide"],
-        "ja": ["ダンス", "インスピレーション", "アイデア"],
-        "th": ["การเต้นรำ", "แรงบันดาลใจ", "แนวคิด"],
-        "ms": ["tarian", "inspirasi", "idea"]
+        "en": [
+          "dance",
+          "inspiration",
+          "ideas"
+        ],
+        "tr": [
+          "dans",
+          "ilham",
+          "fikirler"
+        ],
+        "fr": [
+          "danse",
+          "inspiration",
+          "idées"
+        ],
+        "pt": [
+          "dança",
+          "inspiração",
+          "ideias"
+        ],
+        "nl": [
+          "dans",
+          "inspiratie",
+          "ideeën"
+        ],
+        "es": [
+          "danza",
+          "inspiración",
+          "ideas"
+        ],
+        "de": [
+          "Tanz",
+          "Inspiration",
+          "Ideen"
+        ],
+        "it": [
+          "danza",
+          "ispirazione",
+          "idee"
+        ],
+        "ru": [
+          "танец",
+          "вдохновение",
+          "идеи"
+        ],
+        "id": [
+          "tarian",
+          "inspirasi",
+          "ide"
+        ],
+        "ja": [
+          "ダンス",
+          "インスピレーション",
+          "アイデア"
+        ],
+        "th": [
+          "การเต้นรำ",
+          "แรงบันดาลใจ",
+          "แนวคิด"
+        ],
+        "ms": [
+          "tarian",
+          "inspirasi",
+          "idea"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4012,19 +5780,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["soul", "creation", "reality"],
-        "tr": ["ruh", "yaratma", "gerçeklik"],
-        "fr": ["âme", "création", "réalité"],
-        "pt": ["alma", "criação", "realidade"],
-        "nl": ["ziel", "creatie", "realiteit"],
-        "es": ["alma", "creación", "realidad"],
-        "de": ["Seele", "Schöpfung", "Realität"],
-        "it": ["anima", "creazione", "realtà"],
-        "ru": ["душа", "творение", "реальность"],
-        "id": ["jiwa", "penciptaan", "kenyataan"],
-        "ja": ["魂", "創造", "現実"],
-        "th": ["จิตวิญญาณ", "การสร้าง", "ความเป็นจริง"],
-        "ms": ["jiwa", "penciptaan", "realiti"]
+        "en": [
+          "soul",
+          "creation",
+          "reality"
+        ],
+        "tr": [
+          "ruh",
+          "yaratma",
+          "gerçeklik"
+        ],
+        "fr": [
+          "âme",
+          "création",
+          "réalité"
+        ],
+        "pt": [
+          "alma",
+          "criação",
+          "realidade"
+        ],
+        "nl": [
+          "ziel",
+          "creatie",
+          "realiteit"
+        ],
+        "es": [
+          "alma",
+          "creación",
+          "realidad"
+        ],
+        "de": [
+          "Seele",
+          "Schöpfung",
+          "Realität"
+        ],
+        "it": [
+          "anima",
+          "creazione",
+          "realtà"
+        ],
+        "ru": [
+          "душа",
+          "творение",
+          "реальность"
+        ],
+        "id": [
+          "jiwa",
+          "penciptaan",
+          "kenyataan"
+        ],
+        "ja": [
+          "魂",
+          "創造",
+          "現実"
+        ],
+        "th": [
+          "จิตวิญญาณ",
+          "การสร้าง",
+          "ความเป็นจริง"
+        ],
+        "ms": [
+          "jiwa",
+          "penciptaan",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4129,19 +5949,71 @@
         "ms": "Chaiya Srisuk"
       },
       "tags": {
-        "en": ["nature", "innovation", "persistence"],
-        "tr": ["doğa", "yenilik", "sebat"],
-        "fr": ["nature", "innovation", "persévérance"],
-        "pt": ["natureza", "inovação", "persistência"],
-        "nl": ["natuur", "innovatie", "volharding"],
-        "es": ["naturaleza", "innovación", "persistencia"],
-        "de": ["Natur", "Innovation", "Ausdauer"],
-        "it": ["natura", "innovazione", "persistenza"],
-        "ru": ["природа", "инновация", "упорство"],
-        "id": ["alam", "inovasi", "ketekunan"],
-        "ja": ["自然", "革新", "持続"],
-        "th": ["ธรรมชาติ", "นวัตกรรม", "ความพากเพียร"],
-        "ms": ["alam semula jadi", "inovasi", "ketabahan"]
+        "en": [
+          "nature",
+          "innovation",
+          "persistence"
+        ],
+        "tr": [
+          "doğa",
+          "yenilik",
+          "sebat"
+        ],
+        "fr": [
+          "nature",
+          "innovation",
+          "persévérance"
+        ],
+        "pt": [
+          "natureza",
+          "inovação",
+          "persistência"
+        ],
+        "nl": [
+          "natuur",
+          "innovatie",
+          "volharding"
+        ],
+        "es": [
+          "naturaleza",
+          "innovación",
+          "persistencia"
+        ],
+        "de": [
+          "Natur",
+          "Innovation",
+          "Ausdauer"
+        ],
+        "it": [
+          "natura",
+          "innovazione",
+          "persistenza"
+        ],
+        "ru": [
+          "природа",
+          "инновация",
+          "упорство"
+        ],
+        "id": [
+          "alam",
+          "inovasi",
+          "ketekunan"
+        ],
+        "ja": [
+          "自然",
+          "革新",
+          "持続"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "นวัตกรรม",
+          "ความพากเพียร"
+        ],
+        "ms": [
+          "alam semula jadi",
+          "inovasi",
+          "ketabahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4246,19 +6118,71 @@
         "ms": "Lina Müller"
       },
       "tags": {
-        "en": ["flame", "innovation", "warmth"],
-        "tr": ["alev", "yenilik", "sıcaklık"],
-        "fr": ["flamme", "innovation", "chaleur"],
-        "pt": ["chama", "inovação", "calor"],
-        "nl": ["vlam", "innovatie", "warmte"],
-        "es": ["llama", "innovación", "calor"],
-        "de": ["Flamme", "Innovation", "Wärme"],
-        "it": ["fiamma", "innovazione", "calore"],
-        "ru": ["пламя", "инновация", "тепло"],
-        "id": ["api", "inovasi", "kehangatan"],
-        "ja": ["炎", "イノベーション", "温かさ"],
-        "th": ["เปลวไฟ", "นวัตกรรม", "ความอบอุ่น"],
-        "ms": ["api", "inovasi", "kehangatan"]
+        "en": [
+          "flame",
+          "innovation",
+          "warmth"
+        ],
+        "tr": [
+          "alev",
+          "yenilik",
+          "sıcaklık"
+        ],
+        "fr": [
+          "flamme",
+          "innovation",
+          "chaleur"
+        ],
+        "pt": [
+          "chama",
+          "inovação",
+          "calor"
+        ],
+        "nl": [
+          "vlam",
+          "innovatie",
+          "warmte"
+        ],
+        "es": [
+          "llama",
+          "innovación",
+          "calor"
+        ],
+        "de": [
+          "Flamme",
+          "Innovation",
+          "Wärme"
+        ],
+        "it": [
+          "fiamma",
+          "innovazione",
+          "calore"
+        ],
+        "ru": [
+          "пламя",
+          "инновация",
+          "тепло"
+        ],
+        "id": [
+          "api",
+          "inovasi",
+          "kehangatan"
+        ],
+        "ja": [
+          "炎",
+          "イノベーション",
+          "温かさ"
+        ],
+        "th": [
+          "เปลวไฟ",
+          "นวัตกรรม",
+          "ความอบอุ่น"
+        ],
+        "ms": [
+          "api",
+          "inovasi",
+          "kehangatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4363,19 +6287,71 @@
         "ms": "Fatima Hassan"
       },
       "tags": {
-        "en": ["patience", "growth", "creation"],
-        "tr": ["sabır", "büyüme", "yaratma"],
-        "fr": ["patience", "croissance", "création"],
-        "pt": ["paciência", "crescimento", "criação"],
-        "nl": ["geduld", "groei", "creatie"],
-        "es": ["paciencia", "crecimiento", "creación"],
-        "de": ["Geduld", "Wachstum", "Schöpfung"],
-        "it": ["pazienza", "crescita", "creazione"],
-        "ru": ["терпение", "рост", "творение"],
-        "id": ["kesabaran", "pertumbuhan", "penciptaan"],
-        "ja": ["忍耐", "成長", "創造"],
-        "th": ["ความอดทน", "การเติบโต", "การสร้าง"],
-        "ms": ["kesabaran", "pertumbuhan", "penciptaan"]
+        "en": [
+          "patience",
+          "growth",
+          "creation"
+        ],
+        "tr": [
+          "sabır",
+          "büyüme",
+          "yaratma"
+        ],
+        "fr": [
+          "patience",
+          "croissance",
+          "création"
+        ],
+        "pt": [
+          "paciência",
+          "crescimento",
+          "criação"
+        ],
+        "nl": [
+          "geduld",
+          "groei",
+          "creatie"
+        ],
+        "es": [
+          "paciencia",
+          "crecimiento",
+          "creación"
+        ],
+        "de": [
+          "Geduld",
+          "Wachstum",
+          "Schöpfung"
+        ],
+        "it": [
+          "pazienza",
+          "crescita",
+          "creazione"
+        ],
+        "ru": [
+          "терпение",
+          "рост",
+          "творение"
+        ],
+        "id": [
+          "kesabaran",
+          "pertumbuhan",
+          "penciptaan"
+        ],
+        "ja": [
+          "忍耐",
+          "成長",
+          "創造"
+        ],
+        "th": [
+          "ความอดทน",
+          "การเติบโต",
+          "การสร้าง"
+        ],
+        "ms": [
+          "kesabaran",
+          "pertumbuhan",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4480,19 +6456,71 @@
         "ms": "Siti Rahmah"
       },
       "tags": {
-        "en": ["dreams", "freedom", "inspiration"],
-        "tr": ["hayaller", "özgürlük", "ilham"],
-        "fr": ["rêves", "liberté", "inspiration"],
-        "pt": ["sonhos", "liberdade", "inspiração"],
-        "nl": ["dromen", "vrijheid", "inspiratie"],
-        "es": ["sueños", "libertad", "inspiración"],
-        "de": ["Träume", "Freiheit", "Inspiration"],
-        "it": ["sogni", "libertà", "ispirazione"],
-        "ru": ["мечты", "свобода", "вдохновение"],
-        "id": ["mimpi", "kebebasan", "inspirasi"],
-        "ja": ["夢", "自由", "インスピレーション"],
-        "th": ["ความฝัน", "อิสรภาพ", "แรงบันดาลใจ"],
-        "ms": ["impian", "kebebasan", "inspirasi"]
+        "en": [
+          "dreams",
+          "freedom",
+          "inspiration"
+        ],
+        "tr": [
+          "hayaller",
+          "özgürlük",
+          "ilham"
+        ],
+        "fr": [
+          "rêves",
+          "liberté",
+          "inspiration"
+        ],
+        "pt": [
+          "sonhos",
+          "liberdade",
+          "inspiração"
+        ],
+        "nl": [
+          "dromen",
+          "vrijheid",
+          "inspiratie"
+        ],
+        "es": [
+          "sueños",
+          "libertad",
+          "inspiración"
+        ],
+        "de": [
+          "Träume",
+          "Freiheit",
+          "Inspiration"
+        ],
+        "it": [
+          "sogni",
+          "libertà",
+          "ispirazione"
+        ],
+        "ru": [
+          "мечты",
+          "свобода",
+          "вдохновение"
+        ],
+        "id": [
+          "mimpi",
+          "kebebasan",
+          "inspirasi"
+        ],
+        "ja": [
+          "夢",
+          "自由",
+          "インスピレーション"
+        ],
+        "th": [
+          "ความฝัน",
+          "อิสรภาพ",
+          "แรงบันดาลใจ"
+        ],
+        "ms": [
+          "impian",
+          "kebebasan",
+          "inspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4597,19 +6625,71 @@
         "ms": "João Silva"
       },
       "tags": {
-        "en": ["spark", "possibility", "light"],
-        "tr": ["kıvılcım", "olasılık", "ışık"],
-        "fr": ["étincelle", "possibilité", "lumière"],
-        "pt": ["faísca", "possibilidade", "luz"],
-        "nl": ["vonk", "mogelijkheid", "licht"],
-        "es": ["chispa", "posibilidad", "luz"],
-        "de": ["Funke", "Möglichkeit", "Licht"],
-        "it": ["scintilla", "possibilità", "luce"],
-        "ru": ["искра", "возможность", "свет"],
-        "id": ["percikan", "kemungkinan", "cahaya"],
-        "ja": ["火花", "可能性", "光"],
-        "th": ["ประกาย", "ความเป็นไปได้", "แสง"],
-        "ms": ["percikan", "kemungkinan", "cahaya"]
+        "en": [
+          "spark",
+          "possibility",
+          "light"
+        ],
+        "tr": [
+          "kıvılcım",
+          "olasılık",
+          "ışık"
+        ],
+        "fr": [
+          "étincelle",
+          "possibilité",
+          "lumière"
+        ],
+        "pt": [
+          "faísca",
+          "possibilidade",
+          "luz"
+        ],
+        "nl": [
+          "vonk",
+          "mogelijkheid",
+          "licht"
+        ],
+        "es": [
+          "chispa",
+          "posibilidad",
+          "luz"
+        ],
+        "de": [
+          "Funke",
+          "Möglichkeit",
+          "Licht"
+        ],
+        "it": [
+          "scintilla",
+          "possibilità",
+          "luce"
+        ],
+        "ru": [
+          "искра",
+          "возможность",
+          "свет"
+        ],
+        "id": [
+          "percikan",
+          "kemungkinan",
+          "cahaya"
+        ],
+        "ja": [
+          "火花",
+          "可能性",
+          "光"
+        ],
+        "th": [
+          "ประกาย",
+          "ความเป็นไปได้",
+          "แสง"
+        ],
+        "ms": [
+          "percikan",
+          "kemungkinan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4714,19 +6794,71 @@
         "ms": "Marie Dubois"
       },
       "tags": {
-        "en": ["heart", "art", "life"],
-        "tr": ["kalp", "sanat", "yaşam"],
-        "fr": ["cœur", "art", "vie"],
-        "pt": ["coração", "arte", "vida"],
-        "nl": ["hart", "kunst", "leven"],
-        "es": ["corazón", "arte", "vida"],
-        "de": ["Herz", "Kunst", "Leben"],
-        "it": ["cuore", "arte", "vita"],
-        "ru": ["сердце", "искусство", "жизнь"],
-        "id": ["hati", "seni", "kehidupan"],
-        "ja": ["心", "芸術", "人生"],
-        "th": ["หัวใจ", "ศิลปะ", "ชีวิต"],
-        "ms": ["hati", "seni", "kehidupan"]
+        "en": [
+          "heart",
+          "art",
+          "life"
+        ],
+        "tr": [
+          "kalp",
+          "sanat",
+          "yaşam"
+        ],
+        "fr": [
+          "cœur",
+          "art",
+          "vie"
+        ],
+        "pt": [
+          "coração",
+          "arte",
+          "vida"
+        ],
+        "nl": [
+          "hart",
+          "kunst",
+          "leven"
+        ],
+        "es": [
+          "corazón",
+          "arte",
+          "vida"
+        ],
+        "de": [
+          "Herz",
+          "Kunst",
+          "Leben"
+        ],
+        "it": [
+          "cuore",
+          "arte",
+          "vita"
+        ],
+        "ru": [
+          "сердце",
+          "искусство",
+          "жизнь"
+        ],
+        "id": [
+          "hati",
+          "seni",
+          "kehidupan"
+        ],
+        "ja": [
+          "心",
+          "芸術",
+          "人生"
+        ],
+        "th": [
+          "หัวใจ",
+          "ศิลปะ",
+          "ชีวิต"
+        ],
+        "ms": [
+          "hati",
+          "seni",
+          "kehidupan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4831,19 +6963,71 @@
         "ms": "Elena Petrova"
       },
       "tags": {
-        "en": ["mind", "stars", "connection"],
-        "tr": ["zihin", "yıldızlar", "bağlantı"],
-        "fr": ["esprit", "étoiles", "connexion"],
-        "pt": ["mente", "estrelas", "conexão"],
-        "nl": ["geest", "sterren", "verbinding"],
-        "es": ["mente", "estrellas", "conexión"],
-        "de": ["Geist", "Sterne", "Verbindung"],
-        "it": ["mente", "stelle", "connessione"],
-        "ru": ["разум", "звезды", "связь"],
-        "id": ["pikiran", "bintang", "hubungan"],
-        "ja": ["心", "星", "つながり"],
-        "th": ["จิตใจ", "ดวงดาว", "การเชื่อมโยง"],
-        "ms": ["minda", "bintang", "hubungan"]
+        "en": [
+          "mind",
+          "stars",
+          "connection"
+        ],
+        "tr": [
+          "zihin",
+          "yıldızlar",
+          "bağlantı"
+        ],
+        "fr": [
+          "esprit",
+          "étoiles",
+          "connexion"
+        ],
+        "pt": [
+          "mente",
+          "estrelas",
+          "conexão"
+        ],
+        "nl": [
+          "geest",
+          "sterren",
+          "verbinding"
+        ],
+        "es": [
+          "mente",
+          "estrellas",
+          "conexión"
+        ],
+        "de": [
+          "Geist",
+          "Sterne",
+          "Verbindung"
+        ],
+        "it": [
+          "mente",
+          "stelle",
+          "connessione"
+        ],
+        "ru": [
+          "разум",
+          "звезды",
+          "связь"
+        ],
+        "id": [
+          "pikiran",
+          "bintang",
+          "hubungan"
+        ],
+        "ja": [
+          "心",
+          "星",
+          "つながり"
+        ],
+        "th": [
+          "จิตใจ",
+          "ดวงดาว",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "minda",
+          "bintang",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4948,19 +7132,71 @@
         "ms": "Ananya Sharma"
       },
       "tags": {
-        "en": ["melody", "harmony", "chaos"],
-        "tr": ["melodi", "uyum", "kaos"],
-        "fr": ["mélodie", "harmonie", "chaos"],
-        "pt": ["melodia", "harmonia", "caos"],
-        "nl": ["melodie", "harmonie", "chaos"],
-        "es": ["melodía", "armonía", "caos"],
-        "de": ["Melodie", "Harmonie", "Chaos"],
-        "it": ["melodia", "armonia", "caos"],
-        "ru": ["мелодия", "гармония", "хаос"],
-        "id": ["melodi", "harmoni", "kekacauan"],
-        "ja": ["メロディー", "調和", "カオス"],
-        "th": ["ทำนอง", "ความกลมกลืน", "ความโกลาหล"],
-        "ms": ["melodi", "keharmonian", "kekacauan"]
+        "en": [
+          "melody",
+          "harmony",
+          "chaos"
+        ],
+        "tr": [
+          "melodi",
+          "uyum",
+          "kaos"
+        ],
+        "fr": [
+          "mélodie",
+          "harmonie",
+          "chaos"
+        ],
+        "pt": [
+          "melodia",
+          "harmonia",
+          "caos"
+        ],
+        "nl": [
+          "melodie",
+          "harmonie",
+          "chaos"
+        ],
+        "es": [
+          "melodía",
+          "armonía",
+          "caos"
+        ],
+        "de": [
+          "Melodie",
+          "Harmonie",
+          "Chaos"
+        ],
+        "it": [
+          "melodia",
+          "armonia",
+          "caos"
+        ],
+        "ru": [
+          "мелодия",
+          "гармония",
+          "хаос"
+        ],
+        "id": [
+          "melodi",
+          "harmoni",
+          "kekacauan"
+        ],
+        "ja": [
+          "メロディー",
+          "調和",
+          "カオス"
+        ],
+        "th": [
+          "ทำนอง",
+          "ความกลมกลืน",
+          "ความโกลาหล"
+        ],
+        "ms": [
+          "melodi",
+          "keharmonian",
+          "kekacauan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5065,19 +7301,71 @@
         "ms": "Lucas van den Berg"
       },
       "tags": {
-        "en": ["guidance", "exploration", "discovery"],
-        "tr": ["rehberlik", "keşif", "buluş"],
-        "fr": ["guidance", "exploration", "découverte"],
-        "pt": ["orientação", "exploração", "descoberta"],
-        "nl": ["begeleiding", "verkenning", "ontdekking"],
-        "es": ["guía", "exploración", "descubrimiento"],
-        "de": ["Führung", "Erkundung", "Entdeckung"],
-        "it": ["guida", "esplorazione", "scoperta"],
-        "ru": ["руководство", "исследование", "открытие"],
-        "id": ["panduan", "eksplorasi", "penemuan"],
-        "ja": ["指導", "探検", "発見"],
-        "th": ["การนำทาง", "การสำรวจ", "การค้นพบ"],
-        "ms": ["panduan", "penjelajahan", "penemuan"]
+        "en": [
+          "guidance",
+          "exploration",
+          "discovery"
+        ],
+        "tr": [
+          "rehberlik",
+          "keşif",
+          "buluş"
+        ],
+        "fr": [
+          "guidance",
+          "exploration",
+          "découverte"
+        ],
+        "pt": [
+          "orientação",
+          "exploração",
+          "descoberta"
+        ],
+        "nl": [
+          "begeleiding",
+          "verkenning",
+          "ontdekking"
+        ],
+        "es": [
+          "guía",
+          "exploración",
+          "descubrimiento"
+        ],
+        "de": [
+          "Führung",
+          "Erkundung",
+          "Entdeckung"
+        ],
+        "it": [
+          "guida",
+          "esplorazione",
+          "scoperta"
+        ],
+        "ru": [
+          "руководство",
+          "исследование",
+          "открытие"
+        ],
+        "id": [
+          "panduan",
+          "eksplorasi",
+          "penemuan"
+        ],
+        "ja": [
+          "指導",
+          "探検",
+          "発見"
+        ],
+        "th": [
+          "การนำทาง",
+          "การสำรวจ",
+          "การค้นพบ"
+        ],
+        "ms": [
+          "panduan",
+          "penjelajahan",
+          "penemuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5182,19 +7470,71 @@
         "ms": "Sofia Morales"
       },
       "tags": {
-        "en": ["imagination", "transformation", "flow"],
-        "tr": ["hayal gücü", "dönüşüm", "akış"],
-        "fr": ["imagination", "transformation", "flux"],
-        "pt": ["imaginação", "transformação", "fluxo"],
-        "nl": ["verbeelding", "transformatie", "stroom"],
-        "es": ["imaginación", "transformación", "flujo"],
-        "de": ["Fantasie", "Transformation", "Fluss"],
-        "it": ["immaginazione", "trasformazione", "flusso"],
-        "ru": ["воображение", "трансформация", "поток"],
-        "id": ["imajinasi", "transformasi", "aliran"],
-        "ja": ["想像力", "変革", "流れ"],
-        "th": ["จินตนาการ", "การเปลี่ยนแปลง", "กระแส"],
-        "ms": ["imaginasi", "transformasi", "aliran"]
+        "en": [
+          "imagination",
+          "transformation",
+          "flow"
+        ],
+        "tr": [
+          "hayal gücü",
+          "dönüşüm",
+          "akış"
+        ],
+        "fr": [
+          "imagination",
+          "transformation",
+          "flux"
+        ],
+        "pt": [
+          "imaginação",
+          "transformação",
+          "fluxo"
+        ],
+        "nl": [
+          "verbeelding",
+          "transformatie",
+          "stroom"
+        ],
+        "es": [
+          "imaginación",
+          "transformación",
+          "flujo"
+        ],
+        "de": [
+          "Fantasie",
+          "Transformation",
+          "Fluss"
+        ],
+        "it": [
+          "immaginazione",
+          "trasformazione",
+          "flusso"
+        ],
+        "ru": [
+          "воображение",
+          "трансформация",
+          "поток"
+        ],
+        "id": [
+          "imajinasi",
+          "transformasi",
+          "aliran"
+        ],
+        "ja": [
+          "想像力",
+          "変革",
+          "流れ"
+        ],
+        "th": [
+          "จินตนาการ",
+          "การเปลี่ยนแปลง",
+          "กระแส"
+        ],
+        "ms": [
+          "imaginasi",
+          "transformasi",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5299,19 +7639,71 @@
         "ms": "Hiroshi Tanaka"
       },
       "tags": {
-        "en": ["curiosity", "growth", "inspiration"],
-        "tr": ["merak", "büyüme", "ilham"],
-        "fr": ["curiosité", "croissance", "inspiration"],
-        "pt": ["curiosidade", "crescimento", "inspiração"],
-        "nl": ["nieuwsgierigheid", "groei", "inspiratie"],
-        "es": ["curiosidad", "crecimiento", "inspiración"],
-        "de": ["Neugier", "Wachstum", "Inspiration"],
-        "it": ["curiosità", "crescita", "ispirazione"],
-        "ru": ["любопытство", "рост", "вдохновение"],
-        "id": ["rasa ingin tahu", "pertumbuhan", "inspirasi"],
-        "ja": ["好奇心", "成長", "インスピレーション"],
-        "th": ["ความอยากรู้", "การเติบโต", "แรงบันดาลใจ"],
-        "ms": ["rasa ingin tahu", "pertumbuhan", "inspirasi"]
+        "en": [
+          "curiosity",
+          "growth",
+          "inspiration"
+        ],
+        "tr": [
+          "merak",
+          "büyüme",
+          "ilham"
+        ],
+        "fr": [
+          "curiosité",
+          "croissance",
+          "inspiration"
+        ],
+        "pt": [
+          "curiosidade",
+          "crescimento",
+          "inspiração"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "groei",
+          "inspiratie"
+        ],
+        "es": [
+          "curiosidad",
+          "crecimiento",
+          "inspiración"
+        ],
+        "de": [
+          "Neugier",
+          "Wachstum",
+          "Inspiration"
+        ],
+        "it": [
+          "curiosità",
+          "crescita",
+          "ispirazione"
+        ],
+        "ru": [
+          "любопытство",
+          "рост",
+          "вдохновение"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "pertumbuhan",
+          "inspirasi"
+        ],
+        "ja": [
+          "好奇心",
+          "成長",
+          "インスピレーション"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "การเติบโต",
+          "แรงบันดาลใจ"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "pertumbuhan",
+          "inspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5416,19 +7808,71 @@
         "ms": "Fatima Yılmaz"
       },
       "tags": {
-        "en": ["innovation", "warmth", "energy"],
-        "tr": ["yenilik", "sıcaklık", "enerji"],
-        "fr": ["innovation", "chaleur", "énergie"],
-        "pt": ["inovação", "calor", "energia"],
-        "nl": ["innovatie", "warmte", "energie"],
-        "es": ["innovación", "calor", "energía"],
-        "de": ["Innovation", "Wärme", "Energie"],
-        "it": ["innovazione", "calore", "energia"],
-        "ru": ["инновация", "тепло", "энергия"],
-        "id": ["inovasi", "kehangatan", "energi"],
-        "ja": ["革新", "暖かさ", "エネルギー"],
-        "th": ["นวัตกรรม", "ความอบอุ่น", "พลังงาน"],
-        "ms": ["inovasi", "kehangatan", "tenaga"]
+        "en": [
+          "innovation",
+          "warmth",
+          "energy"
+        ],
+        "tr": [
+          "yenilik",
+          "sıcaklık",
+          "enerji"
+        ],
+        "fr": [
+          "innovation",
+          "chaleur",
+          "énergie"
+        ],
+        "pt": [
+          "inovação",
+          "calor",
+          "energia"
+        ],
+        "nl": [
+          "innovatie",
+          "warmte",
+          "energie"
+        ],
+        "es": [
+          "innovación",
+          "calor",
+          "energía"
+        ],
+        "de": [
+          "Innovation",
+          "Wärme",
+          "Energie"
+        ],
+        "it": [
+          "innovazione",
+          "calore",
+          "energia"
+        ],
+        "ru": [
+          "инновация",
+          "тепло",
+          "энергия"
+        ],
+        "id": [
+          "inovasi",
+          "kehangatan",
+          "energi"
+        ],
+        "ja": [
+          "革新",
+          "暖かさ",
+          "エネルギー"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "ความอบอุ่น",
+          "พลังงาน"
+        ],
+        "ms": [
+          "inovasi",
+          "kehangatan",
+          "tenaga"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5533,19 +7977,71 @@
         "ms": "Nisa Suryani"
       },
       "tags": {
-        "en": ["thought", "guidance", "wind"],
-        "tr": ["düşünce", "rehberlik", "rüzgar"],
-        "fr": ["pensée", "guidance", "vent"],
-        "pt": ["pensamento", "orientação", "vento"],
-        "nl": ["gedachten", "begeleiding", "wind"],
-        "es": ["pensamiento", "guía", "viento"],
-        "de": ["Gedanken", "Führung", "Wind"],
-        "it": ["pensiero", "guida", "vento"],
-        "ru": ["мысль", "руководство", "ветер"],
-        "id": ["pemikiran", "panduan", "angin"],
-        "ja": ["思考", "指導", "風"],
-        "th": ["ความคิด", "การนำทาง", "สายลม"],
-        "ms": ["pemikiran", "panduan", "angin"]
+        "en": [
+          "thought",
+          "guidance",
+          "wind"
+        ],
+        "tr": [
+          "düşünce",
+          "rehberlik",
+          "rüzgar"
+        ],
+        "fr": [
+          "pensée",
+          "guidance",
+          "vent"
+        ],
+        "pt": [
+          "pensamento",
+          "orientação",
+          "vento"
+        ],
+        "nl": [
+          "gedachten",
+          "begeleiding",
+          "wind"
+        ],
+        "es": [
+          "pensamiento",
+          "guía",
+          "viento"
+        ],
+        "de": [
+          "Gedanken",
+          "Führung",
+          "Wind"
+        ],
+        "it": [
+          "pensiero",
+          "guida",
+          "vento"
+        ],
+        "ru": [
+          "мысль",
+          "руководство",
+          "ветер"
+        ],
+        "id": [
+          "pemikiran",
+          "panduan",
+          "angin"
+        ],
+        "ja": [
+          "思考",
+          "指導",
+          "風"
+        ],
+        "th": [
+          "ความคิด",
+          "การนำทาง",
+          "สายลม"
+        ],
+        "ms": [
+          "pemikiran",
+          "panduan",
+          "angin"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5650,19 +8146,71 @@
         "ms": "Chaiya Srisuk"
       },
       "tags": {
-        "en": ["tradition", "change", "pathfinding"],
-        "tr": ["gelenek", "değişim", "yol açma"],
-        "fr": ["tradition", "changement", "tracé de chemin"],
-        "pt": ["tradição", "mudança", "traçado de caminhos"],
-        "nl": ["traditie", "verandering", "pad vinden"],
-        "es": ["tradición", "cambio", "trazado de caminos"],
-        "de": ["Tradition", "Veränderung", "Wegfindung"],
-        "it": ["tradizione", "cambiamento", "tracciamento di sentieri"],
-        "ru": ["традиция", "изменение", "прокладывание пути"],
-        "id": ["tradisi", "perubahan", "pencarian jalan"],
-        "ja": ["伝統", "変化", "道開き"],
-        "th": ["ประเพณี", "การเปลี่ยนแปลง", "การหาเส้นทาง"],
-        "ms": ["tradisi", "perubahan", "pencarian laluan"]
+        "en": [
+          "tradition",
+          "change",
+          "pathfinding"
+        ],
+        "tr": [
+          "gelenek",
+          "değişim",
+          "yol açma"
+        ],
+        "fr": [
+          "tradition",
+          "changement",
+          "tracé de chemin"
+        ],
+        "pt": [
+          "tradição",
+          "mudança",
+          "traçado de caminhos"
+        ],
+        "nl": [
+          "traditie",
+          "verandering",
+          "pad vinden"
+        ],
+        "es": [
+          "tradición",
+          "cambio",
+          "trazado de caminos"
+        ],
+        "de": [
+          "Tradition",
+          "Veränderung",
+          "Wegfindung"
+        ],
+        "it": [
+          "tradizione",
+          "cambiamento",
+          "tracciamento di sentieri"
+        ],
+        "ru": [
+          "традиция",
+          "изменение",
+          "прокладывание пути"
+        ],
+        "id": [
+          "tradisi",
+          "perubahan",
+          "pencarian jalan"
+        ],
+        "ja": [
+          "伝統",
+          "変化",
+          "道開き"
+        ],
+        "th": [
+          "ประเพณี",
+          "การเปลี่ยนแปลง",
+          "การหาเส้นทาง"
+        ],
+        "ms": [
+          "tradisi",
+          "perubahan",
+          "pencarian laluan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5767,19 +8315,71 @@
         "ms": "Giovanni Rossi"
       },
       "tags": {
-        "en": ["dreams", "unity", "art"],
-        "tr": ["hayaller", "birlik", "sanat"],
-        "fr": ["rêves", "unité", "art"],
-        "pt": ["sonhos", "unidade", "arte"],
-        "nl": ["dromen", "eenheid", "kunst"],
-        "es": ["sueños", "unidad", "arte"],
-        "de": ["Träume", "Einheit", "Kunst"],
-        "it": ["sogni", "unità", "arte"],
-        "ru": ["мечты", "единство", "искусство"],
-        "id": ["mimpi", "kesatuan", "seni"],
-        "ja": ["夢", "統一", "芸術"],
-        "th": ["ความฝัน", "ความเป็นหนึ่ง", "ศิลปะ"],
-        "ms": ["impian", "kesatuan", "seni"]
+        "en": [
+          "dreams",
+          "unity",
+          "art"
+        ],
+        "tr": [
+          "hayaller",
+          "birlik",
+          "sanat"
+        ],
+        "fr": [
+          "rêves",
+          "unité",
+          "art"
+        ],
+        "pt": [
+          "sonhos",
+          "unidade",
+          "arte"
+        ],
+        "nl": [
+          "dromen",
+          "eenheid",
+          "kunst"
+        ],
+        "es": [
+          "sueños",
+          "unidad",
+          "arte"
+        ],
+        "de": [
+          "Träume",
+          "Einheit",
+          "Kunst"
+        ],
+        "it": [
+          "sogni",
+          "unità",
+          "arte"
+        ],
+        "ru": [
+          "мечты",
+          "единство",
+          "искусство"
+        ],
+        "id": [
+          "mimpi",
+          "kesatuan",
+          "seni"
+        ],
+        "ja": [
+          "夢",
+          "統一",
+          "芸術"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความเป็นหนึ่ง",
+          "ศิลปะ"
+        ],
+        "ms": [
+          "impian",
+          "kesatuan",
+          "seni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5850,7 +8450,7 @@
         }
       }
     },
-     {
+    {
       "id": "creativity_051",
       "category": "creativity",
       "texts": {
@@ -5884,19 +8484,71 @@
         "ms": "Aisha Nkomo"
       },
       "tags": {
-        "en": ["possibility", "inspiration", "light"],
-        "tr": ["olasılık", "ilham", "ışık"],
-        "fr": ["possibilité", "inspiration", "lumière"],
-        "pt": ["possibilidade", "inspiração", "luz"],
-        "nl": ["mogelijkheid", "inspiratie", "licht"],
-        "es": ["posibilidad", "inspiración", "luz"],
-        "de": ["Möglichkeit", "Inspiration", "Licht"],
-        "it": ["possibilità", "ispirazione", "luce"],
-        "ru": ["возможность", "вдохновение", "свет"],
-        "id": ["kemungkinan", "inspirasi", "cahaya"],
-        "ja": ["可能性", "インスピレーション", "光"],
-        "th": ["ความเป็นไปได้", "แรงบันดาลใจ", "แสงสว่าง"],
-        "ms": ["kemungkinan", "inspirasi", "cahaya"]
+        "en": [
+          "possibility",
+          "inspiration",
+          "light"
+        ],
+        "tr": [
+          "olasılık",
+          "ilham",
+          "ışık"
+        ],
+        "fr": [
+          "possibilité",
+          "inspiration",
+          "lumière"
+        ],
+        "pt": [
+          "possibilidade",
+          "inspiração",
+          "luz"
+        ],
+        "nl": [
+          "mogelijkheid",
+          "inspiratie",
+          "licht"
+        ],
+        "es": [
+          "posibilidad",
+          "inspiración",
+          "luz"
+        ],
+        "de": [
+          "Möglichkeit",
+          "Inspiration",
+          "Licht"
+        ],
+        "it": [
+          "possibilità",
+          "ispirazione",
+          "luce"
+        ],
+        "ru": [
+          "возможность",
+          "вдохновение",
+          "свет"
+        ],
+        "id": [
+          "kemungkinan",
+          "inspirasi",
+          "cahaya"
+        ],
+        "ja": [
+          "可能性",
+          "インスピレーション",
+          "光"
+        ],
+        "th": [
+          "ความเป็นไปได้",
+          "แรงบันดาลใจ",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "kemungkinan",
+          "inspirasi",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6001,19 +8653,71 @@
         "ms": "Mateo Cruz"
       },
       "tags": {
-        "en": ["connection", "ideas", "unity"],
-        "tr": ["bağlantı", "fikirler", "birlik"],
-        "fr": ["connexion", "idées", "unité"],
-        "pt": ["conexão", "ideias", "unidade"],
-        "nl": ["verbinding", "ideeën", "eenheid"],
-        "es": ["conexión", "ideas", "unidad"],
-        "de": ["Verbindung", "Ideen", "Einheit"],
-        "it": ["connessione", "idee", "unità"],
-        "ru": ["связь", "идеи", "единство"],
-        "id": ["koneksi", "ide", "kesatuan"],
-        "ja": ["つながり", "アイデア", "統一"],
-        "th": ["การเชื่อมโยง", "ความคิด", "ความเป็นหนึ่ง"],
-        "ms": ["hubungan", "idea", "kesatuan"]
+        "en": [
+          "connection",
+          "ideas",
+          "unity"
+        ],
+        "tr": [
+          "bağlantı",
+          "fikirler",
+          "birlik"
+        ],
+        "fr": [
+          "connexion",
+          "idées",
+          "unité"
+        ],
+        "pt": [
+          "conexão",
+          "ideias",
+          "unidade"
+        ],
+        "nl": [
+          "verbinding",
+          "ideeën",
+          "eenheid"
+        ],
+        "es": [
+          "conexión",
+          "ideas",
+          "unidad"
+        ],
+        "de": [
+          "Verbindung",
+          "Ideen",
+          "Einheit"
+        ],
+        "it": [
+          "connessione",
+          "idee",
+          "unità"
+        ],
+        "ru": [
+          "связь",
+          "идеи",
+          "единство"
+        ],
+        "id": [
+          "koneksi",
+          "ide",
+          "kesatuan"
+        ],
+        "ja": [
+          "つながり",
+          "アイデア",
+          "統一"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "ความคิด",
+          "ความเป็นหนึ่ง"
+        ],
+        "ms": [
+          "hubungan",
+          "idea",
+          "kesatuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6118,19 +8822,71 @@
         "ms": "Elena Petrova"
       },
       "tags": {
-        "en": ["melody", "routine", "expression"],
-        "tr": ["melodi", "rutin", "ifade"],
-        "fr": ["mélodie", "routine", "expression"],
-        "pt": ["melodia", "rotina", "expressão"],
-        "nl": ["melodie", "routine", "expressie"],
-        "es": ["melodía", "rutina", "expresión"],
-        "de": ["Melodie", "Routine", "Ausdruck"],
-        "it": ["melodia", "routine", "espressione"],
-        "ru": ["мелодия", "рутина", "выражение"],
-        "id": ["melodi", "rutinitas", "ekspresi"],
-        "ja": ["メロディー", "ルーチン", "表現"],
-        "th": ["ทำนอง", "กิจวัตร", "การแสดงออก"],
-        "ms": ["melodi", "rutin", "ekspresi"]
+        "en": [
+          "melody",
+          "routine",
+          "expression"
+        ],
+        "tr": [
+          "melodi",
+          "rutin",
+          "ifade"
+        ],
+        "fr": [
+          "mélodie",
+          "routine",
+          "expression"
+        ],
+        "pt": [
+          "melodia",
+          "rotina",
+          "expressão"
+        ],
+        "nl": [
+          "melodie",
+          "routine",
+          "expressie"
+        ],
+        "es": [
+          "melodía",
+          "rutina",
+          "expresión"
+        ],
+        "de": [
+          "Melodie",
+          "Routine",
+          "Ausdruck"
+        ],
+        "it": [
+          "melodia",
+          "routine",
+          "espressione"
+        ],
+        "ru": [
+          "мелодия",
+          "рутина",
+          "выражение"
+        ],
+        "id": [
+          "melodi",
+          "rutinitas",
+          "ekspresi"
+        ],
+        "ja": [
+          "メロディー",
+          "ルーチン",
+          "表現"
+        ],
+        "th": [
+          "ทำนอง",
+          "กิจวัตร",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "melodi",
+          "rutin",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6235,19 +8991,71 @@
         "ms": "Siti Rahma"
       },
       "tags": {
-        "en": ["navigation", "mind", "exploration"],
-        "tr": ["navigasyon", "zihin", "keşif"],
-        "fr": ["navigation", "esprit", "exploration"],
-        "pt": ["navegação", "mente", "exploração"],
-        "nl": ["navigatie", "geest", "verkenning"],
-        "es": ["navegación", "mente", "exploración"],
-        "de": ["Navigation", "Geist", "Erkundung"],
-        "it": ["navigazione", "mente", "esplorazione"],
-        "ru": ["навигация", "разум", "исследование"],
-        "id": ["navigasi", "pikiran", "eksplorasi"],
-        "ja": ["ナビゲーション", "心", "探検"],
-        "th": ["การนำทาง", "จิตใจ", "การสำรวจ"],
-        "ms": ["navigasi", "minda", "penerokaan"]
+        "en": [
+          "navigation",
+          "mind",
+          "exploration"
+        ],
+        "tr": [
+          "navigasyon",
+          "zihin",
+          "keşif"
+        ],
+        "fr": [
+          "navigation",
+          "esprit",
+          "exploration"
+        ],
+        "pt": [
+          "navegação",
+          "mente",
+          "exploração"
+        ],
+        "nl": [
+          "navigatie",
+          "geest",
+          "verkenning"
+        ],
+        "es": [
+          "navegación",
+          "mente",
+          "exploración"
+        ],
+        "de": [
+          "Navigation",
+          "Geist",
+          "Erkundung"
+        ],
+        "it": [
+          "navigazione",
+          "mente",
+          "esplorazione"
+        ],
+        "ru": [
+          "навигация",
+          "разум",
+          "исследование"
+        ],
+        "id": [
+          "navigasi",
+          "pikiran",
+          "eksplorasi"
+        ],
+        "ja": [
+          "ナビゲーション",
+          "心",
+          "探検"
+        ],
+        "th": [
+          "การนำทาง",
+          "จิตใจ",
+          "การสำรวจ"
+        ],
+        "ms": [
+          "navigasi",
+          "minda",
+          "penerokaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6352,19 +9160,71 @@
         "ms": "Amara Diallo"
       },
       "tags": {
-        "en": ["courage", "vision", "creation"],
-        "tr": ["cesaret", "vizyon", "yaratma"],
-        "fr": ["courage", "vision", "création"],
-        "pt": ["coragem", "visão", "criação"],
-        "nl": ["moed", "visie", "creatie"],
-        "es": ["coraje", "visión", "creación"],
-        "de": ["Mut", "Vision", "Schöpfung"],
-        "it": ["coraggio", "visione", "creazione"],
-        "ru": ["смелость", "видение", "создание"],
-        "id": ["keberanian", "visi", "penciptaan"],
-        "ja": ["勇気", "ビジョン", "創造"],
-        "th": ["ความกล้าหาญ", "วิสัยทัศน์", "การสร้าง"],
-        "ms": ["keberanian", "visi", "penciptaan"]
+        "en": [
+          "courage",
+          "vision",
+          "creation"
+        ],
+        "tr": [
+          "cesaret",
+          "vizyon",
+          "yaratma"
+        ],
+        "fr": [
+          "courage",
+          "vision",
+          "création"
+        ],
+        "pt": [
+          "coragem",
+          "visão",
+          "criação"
+        ],
+        "nl": [
+          "moed",
+          "visie",
+          "creatie"
+        ],
+        "es": [
+          "coraje",
+          "visión",
+          "creación"
+        ],
+        "de": [
+          "Mut",
+          "Vision",
+          "Schöpfung"
+        ],
+        "it": [
+          "coraggio",
+          "visione",
+          "creazione"
+        ],
+        "ru": [
+          "смелость",
+          "видение",
+          "создание"
+        ],
+        "id": [
+          "keberanian",
+          "visi",
+          "penciptaan"
+        ],
+        "ja": [
+          "勇気",
+          "ビジョン",
+          "創造"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "วิสัยทัศน์",
+          "การสร้าง"
+        ],
+        "ms": [
+          "keberanian",
+          "visi",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6469,19 +9329,71 @@
         "ms": "Lucas Müller"
       },
       "tags": {
-        "en": ["doubt", "renewal", "hope"],
-        "tr": ["şüphe", "yenilenme", "umut"],
-        "fr": ["doute", "renouveau", "espoir"],
-        "pt": ["dúvida", "renovação", "esperança"],
-        "nl": ["twijfel", "vernieuwing", "hoop"],
-        "es": ["duda", "renovación", "esperanza"],
-        "de": ["Zweifel", "Erneuerung", "Hoffnung"],
-        "it": ["dubbio", "rinnovamento", "speranza"],
-        "ru": ["сомнение", "обновление", "надежда"],
-        "id": ["keraguan", "pembaruan", "harapan"],
-        "ja": ["疑い", "再生", "希望"],
-        "th": ["ความสงสัย", "การฟื้นฟู", "ความหวัง"],
-        "ms": ["keraguan", "pembaharuan", "harapan"]
+        "en": [
+          "doubt",
+          "renewal",
+          "hope"
+        ],
+        "tr": [
+          "şüphe",
+          "yenilenme",
+          "umut"
+        ],
+        "fr": [
+          "doute",
+          "renouveau",
+          "espoir"
+        ],
+        "pt": [
+          "dúvida",
+          "renovação",
+          "esperança"
+        ],
+        "nl": [
+          "twijfel",
+          "vernieuwing",
+          "hoop"
+        ],
+        "es": [
+          "duda",
+          "renovación",
+          "esperanza"
+        ],
+        "de": [
+          "Zweifel",
+          "Erneuerung",
+          "Hoffnung"
+        ],
+        "it": [
+          "dubbio",
+          "rinnovamento",
+          "speranza"
+        ],
+        "ru": [
+          "сомнение",
+          "обновление",
+          "надежда"
+        ],
+        "id": [
+          "keraguan",
+          "pembaruan",
+          "harapan"
+        ],
+        "ja": [
+          "疑い",
+          "再生",
+          "希望"
+        ],
+        "th": [
+          "ความสงสัย",
+          "การฟื้นฟู",
+          "ความหวัง"
+        ],
+        "ms": [
+          "keraguan",
+          "pembaharuan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6586,19 +9498,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["imagination", "flow", "inspiration"],
-        "tr": ["hayal gücü", "akış", "ilham"],
-        "fr": ["imagination", "flux", "inspiration"],
-        "pt": ["imaginação", "fluxo", "inspiração"],
-        "nl": ["verbeelding", "stroom", "inspiratie"],
-        "es": ["imaginación", "flujo", "inspiración"],
-        "de": ["Vorstellungskraft", "Fluss", "Inspiration"],
-        "it": ["immaginazione", "flusso", "ispirazione"],
-        "ru": ["воображение", "поток", "вдохновение"],
-        "id": ["imajinasi", "aliran", "inspirasi"],
-        "ja": ["想像力", "流れ", "インスピレーション"],
-        "th": ["จินตนาการ", "กระแส", "แรงบันดาลใจ"],
-        "ms": ["imaginasi", "aliran", "inspirasi"]
+        "en": [
+          "imagination",
+          "flow",
+          "inspiration"
+        ],
+        "tr": [
+          "hayal gücü",
+          "akış",
+          "ilham"
+        ],
+        "fr": [
+          "imagination",
+          "flux",
+          "inspiration"
+        ],
+        "pt": [
+          "imaginação",
+          "fluxo",
+          "inspiração"
+        ],
+        "nl": [
+          "verbeelding",
+          "stroom",
+          "inspiratie"
+        ],
+        "es": [
+          "imaginación",
+          "flujo",
+          "inspiración"
+        ],
+        "de": [
+          "Vorstellungskraft",
+          "Fluss",
+          "Inspiration"
+        ],
+        "it": [
+          "immaginazione",
+          "flusso",
+          "ispirazione"
+        ],
+        "ru": [
+          "воображение",
+          "поток",
+          "вдохновение"
+        ],
+        "id": [
+          "imajinasi",
+          "aliran",
+          "inspirasi"
+        ],
+        "ja": [
+          "想像力",
+          "流れ",
+          "インスピレーション"
+        ],
+        "th": [
+          "จินตนาการ",
+          "กระแส",
+          "แรงบันดาลใจ"
+        ],
+        "ms": [
+          "imaginasi",
+          "aliran",
+          "inspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6716,19 +9680,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["process", "trust", "journey"],
-        "tr": ["süreç", "güven", "yolculuk"],
-        "fr": ["processus", "confiance", "voyage"],
-        "pt": ["processo", "confiança", "jornada"],
-        "nl": ["proces", "vertrouwen", "reis"],
-        "es": ["proceso", "confianza", "viaje"],
-        "de": ["Prozess", "Vertrauen", "Reise"],
-        "it": ["processo", "fiducia", "viaggio"],
-        "ru": ["процесс", "доверие", "путешествие"],
-        "id": ["proses", "kepercayaan", "perjalanan"],
-        "ja": ["プロセス", "信頼", "旅"],
-        "th": ["กระบวนการ", "ความเชื่อมั่น", "การเดินทาง"],
-        "ms": ["proses", "kepercayaan", "perjalanan"]
+        "en": [
+          "process",
+          "trust",
+          "journey"
+        ],
+        "tr": [
+          "süreç",
+          "güven",
+          "yolculuk"
+        ],
+        "fr": [
+          "processus",
+          "confiance",
+          "voyage"
+        ],
+        "pt": [
+          "processo",
+          "confiança",
+          "jornada"
+        ],
+        "nl": [
+          "proces",
+          "vertrouwen",
+          "reis"
+        ],
+        "es": [
+          "proceso",
+          "confianza",
+          "viaje"
+        ],
+        "de": [
+          "Prozess",
+          "Vertrauen",
+          "Reise"
+        ],
+        "it": [
+          "processo",
+          "fiducia",
+          "viaggio"
+        ],
+        "ru": [
+          "процесс",
+          "доверие",
+          "путешествие"
+        ],
+        "id": [
+          "proses",
+          "kepercayaan",
+          "perjalanan"
+        ],
+        "ja": [
+          "プロセス",
+          "信頼",
+          "旅"
+        ],
+        "th": [
+          "กระบวนการ",
+          "ความเชื่อมั่น",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "proses",
+          "kepercayaan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6846,19 +9862,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["mistakes", "learning", "growth"],
-        "tr": ["hatalar", "öğrenme", "büyüme"],
-        "fr": ["erreurs", "apprentissage", "croissance"],
-        "pt": ["erros", "aprendizado", "crescimento"],
-        "nl": ["fouten", "leren", "groei"],
-        "es": ["errores", "aprendizaje", "crecimiento"],
-        "de": ["Fehler", "Lernen", "Wachstum"],
-        "it": ["errori", "apprendimento", "crescita"],
-        "ru": ["ошибки", "обучение", "рост"],
-        "id": ["kesalahan", "pembelajaran", "pertumbuhan"],
-        "ja": ["間違い", "学習", "成長"],
-        "th": ["ความผิดพลาด", "การเรียนรู้", "การเติบโต"],
-        "ms": ["kesilapan", "pembelajaran", "pertumbuhan"]
+        "en": [
+          "mistakes",
+          "learning",
+          "growth"
+        ],
+        "tr": [
+          "hatalar",
+          "öğrenme",
+          "büyüme"
+        ],
+        "fr": [
+          "erreurs",
+          "apprentissage",
+          "croissance"
+        ],
+        "pt": [
+          "erros",
+          "aprendizado",
+          "crescimento"
+        ],
+        "nl": [
+          "fouten",
+          "leren",
+          "groei"
+        ],
+        "es": [
+          "errores",
+          "aprendizaje",
+          "crecimiento"
+        ],
+        "de": [
+          "Fehler",
+          "Lernen",
+          "Wachstum"
+        ],
+        "it": [
+          "errori",
+          "apprendimento",
+          "crescita"
+        ],
+        "ru": [
+          "ошибки",
+          "обучение",
+          "рост"
+        ],
+        "id": [
+          "kesalahan",
+          "pembelajaran",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "間違い",
+          "学習",
+          "成長"
+        ],
+        "th": [
+          "ความผิดพลาด",
+          "การเรียนรู้",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kesilapan",
+          "pembelajaran",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6976,19 +10044,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["voice", "expression", "authenticity"],
-        "tr": ["ses", "ifade", "özgünlük"],
-        "fr": ["voix", "expression", "authenticité"],
-        "pt": ["voz", "expressão", "autenticidade"],
-        "nl": ["stem", "expressie", "authenticiteit"],
-        "es": ["voz", "expresión", "autenticidad"],
-        "de": ["Stimme", "Ausdruck", "Authentizität"],
-        "it": ["voce", "espressione", "autenticità"],
-        "ru": ["голос", "выражение", "аутентичность"],
-        "id": ["suara", "ekspresi", "keaslian"],
-        "ja": ["声", "表現", "本物らしさ"],
-        "th": ["เสียง", "การแสดงออก", "ความแท้จริง"],
-        "ms": ["suara", "ekspresi", "ketulenan"]
+        "en": [
+          "voice",
+          "expression",
+          "authenticity"
+        ],
+        "tr": [
+          "ses",
+          "ifade",
+          "özgünlük"
+        ],
+        "fr": [
+          "voix",
+          "expression",
+          "authenticité"
+        ],
+        "pt": [
+          "voz",
+          "expressão",
+          "autenticidade"
+        ],
+        "nl": [
+          "stem",
+          "expressie",
+          "authenticiteit"
+        ],
+        "es": [
+          "voz",
+          "expresión",
+          "autenticidad"
+        ],
+        "de": [
+          "Stimme",
+          "Ausdruck",
+          "Authentizität"
+        ],
+        "it": [
+          "voce",
+          "espressione",
+          "autenticità"
+        ],
+        "ru": [
+          "голос",
+          "выражение",
+          "аутентичность"
+        ],
+        "id": [
+          "suara",
+          "ekspresi",
+          "keaslian"
+        ],
+        "ja": [
+          "声",
+          "表現",
+          "本物らしさ"
+        ],
+        "th": [
+          "เสียง",
+          "การแสดงออก",
+          "ความแท้จริง"
+        ],
+        "ms": [
+          "suara",
+          "ekspresi",
+          "ketulenan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7106,19 +10226,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["collaboration", "inspiration", "sources"],
-        "tr": ["işbirliği", "ilham", "kaynaklar"],
-        "fr": ["collaboration", "inspiration", "sources"],
-        "pt": ["colaboração", "inspiração", "fontes"],
-        "nl": ["samenwerking", "inspiratie", "bronnen"],
-        "es": ["colaboración", "inspiración", "fuentes"],
-        "de": ["Zusammenarbeit", "Inspiration", "Quellen"],
-        "it": ["collaborazione", "ispirazione", "fonti"],
-        "ru": ["сотрудничество", "вдохновение", "источники"],
-        "id": ["kolaborasi", "inspirasi", "sumber"],
-        "ja": ["協力", "インスピレーション", "源泉"],
-        "th": ["การทำงานร่วมกัน", "แรงบันดาลใจ", "แหล่งที่มา"],
-        "ms": ["kerjasama", "inspirasi", "sumber"]
+        "en": [
+          "collaboration",
+          "inspiration",
+          "sources"
+        ],
+        "tr": [
+          "işbirliği",
+          "ilham",
+          "kaynaklar"
+        ],
+        "fr": [
+          "collaboration",
+          "inspiration",
+          "sources"
+        ],
+        "pt": [
+          "colaboração",
+          "inspiração",
+          "fontes"
+        ],
+        "nl": [
+          "samenwerking",
+          "inspiratie",
+          "bronnen"
+        ],
+        "es": [
+          "colaboración",
+          "inspiración",
+          "fuentes"
+        ],
+        "de": [
+          "Zusammenarbeit",
+          "Inspiration",
+          "Quellen"
+        ],
+        "it": [
+          "collaborazione",
+          "ispirazione",
+          "fonti"
+        ],
+        "ru": [
+          "сотрудничество",
+          "вдохновение",
+          "источники"
+        ],
+        "id": [
+          "kolaborasi",
+          "inspirasi",
+          "sumber"
+        ],
+        "ja": [
+          "協力",
+          "インスピレーション",
+          "源泉"
+        ],
+        "th": [
+          "การทำงานร่วมกัน",
+          "แรงบันดาลใจ",
+          "แหล่งที่มา"
+        ],
+        "ms": [
+          "kerjasama",
+          "inspirasi",
+          "sumber"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7236,19 +10408,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["challenges", "transformation", "opportunities"],
-        "tr": ["zorluklar", "dönüşüm", "fırsatlar"],
-        "fr": ["défis", "transformation", "opportunités"],
-        "pt": ["desafios", "transformação", "oportunidades"],
-        "nl": ["uitdagingen", "transformatie", "mogelijkheden"],
-        "es": ["desafíos", "transformación", "oportunidades"],
-        "de": ["Herausforderungen", "Transformation", "Möglichkeiten"],
-        "it": ["sfide", "trasformazione", "opportunità"],
-        "ru": ["вызовы", "трансформация", "возможности"],
-        "id": ["tantangan", "transformasi", "peluang"],
-        "ja": ["挑戦", "変革", "機会"],
-        "th": ["ความท้าทาย", "การเปลี่ยนแปลง", "โอกาส"],
-        "ms": ["cabaran", "transformasi", "peluang"]
+        "en": [
+          "challenges",
+          "transformation",
+          "opportunities"
+        ],
+        "tr": [
+          "zorluklar",
+          "dönüşüm",
+          "fırsatlar"
+        ],
+        "fr": [
+          "défis",
+          "transformation",
+          "opportunités"
+        ],
+        "pt": [
+          "desafios",
+          "transformação",
+          "oportunidades"
+        ],
+        "nl": [
+          "uitdagingen",
+          "transformatie",
+          "mogelijkheden"
+        ],
+        "es": [
+          "desafíos",
+          "transformación",
+          "oportunidades"
+        ],
+        "de": [
+          "Herausforderungen",
+          "Transformation",
+          "Möglichkeiten"
+        ],
+        "it": [
+          "sfide",
+          "trasformazione",
+          "opportunità"
+        ],
+        "ru": [
+          "вызовы",
+          "трансформация",
+          "возможности"
+        ],
+        "id": [
+          "tantangan",
+          "transformasi",
+          "peluang"
+        ],
+        "ja": [
+          "挑戦",
+          "変革",
+          "機会"
+        ],
+        "th": [
+          "ความท้าทาย",
+          "การเปลี่ยนแปลง",
+          "โอกาส"
+        ],
+        "ms": [
+          "cabaran",
+          "transformasi",
+          "peluang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7366,19 +10590,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["curiosity", "daily practice", "nurture"],
-        "tr": ["merak", "günlük pratik", "besleme"],
-        "fr": ["curiosité", "pratique quotidienne", "nourrir"],
-        "pt": ["curiosidade", "prática diária", "nutrir"],
-        "nl": ["nieuwsgierigheid", "dagelijkse praktijk", "koesteren"],
-        "es": ["curiosidad", "práctica diaria", "nutrir"],
-        "de": ["Neugier", "tägliche Praxis", "pflegen"],
-        "it": ["curiosità", "pratica quotidiana", "nutrire"],
-        "ru": ["любопытство", "ежедневная практика", "питать"],
-        "id": ["rasa ingin tahu", "praktik harian", "membina"],
-        "ja": ["好奇心", "毎日の実践", "育む"],
-        "th": ["ความอยากรู้อยากเห็น", "การฝึกฝนประจำวัน", "บำรุงรักษา"],
-        "ms": ["rasa ingin tahu", "amalan harian", "membina"]
+        "en": [
+          "curiosity",
+          "daily practice",
+          "nurture"
+        ],
+        "tr": [
+          "merak",
+          "günlük pratik",
+          "besleme"
+        ],
+        "fr": [
+          "curiosité",
+          "pratique quotidienne",
+          "nourrir"
+        ],
+        "pt": [
+          "curiosidade",
+          "prática diária",
+          "nutrir"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "dagelijkse praktijk",
+          "koesteren"
+        ],
+        "es": [
+          "curiosidad",
+          "práctica diaria",
+          "nutrir"
+        ],
+        "de": [
+          "Neugier",
+          "tägliche Praxis",
+          "pflegen"
+        ],
+        "it": [
+          "curiosità",
+          "pratica quotidiana",
+          "nutrire"
+        ],
+        "ru": [
+          "любопытство",
+          "ежедневная практика",
+          "питать"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "praktik harian",
+          "membina"
+        ],
+        "ja": [
+          "好奇心",
+          "毎日の実践",
+          "育む"
+        ],
+        "th": [
+          "ความอยากรู้อยากเห็น",
+          "การฝึกฝนประจำวัน",
+          "บำรุงรักษา"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "amalan harian",
+          "membina"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7496,19 +10772,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["rhythm", "harmony", "flow"],
-        "tr": ["ritim", "uyum", "akış"],
-        "fr": ["rythme", "harmonie", "flux"],
-        "pt": ["ritmo", "harmonia", "fluxo"],
-        "nl": ["ritme", "harmonie", "stroom"],
-        "es": ["ritmo", "armonía", "flujo"],
-        "de": ["Rhythmus", "Harmonie", "Fluss"],
-        "it": ["ritmo", "armonia", "flusso"],
-        "ru": ["ритм", "гармония", "поток"],
-        "id": ["irama", "harmoni", "aliran"],
-        "ja": ["リズム", "調和", "流れ"],
-        "th": ["จังหวะ", "ความกลมกลืน", "กระแส"],
-        "ms": ["irama", "harmoni", "aliran"]
+        "en": [
+          "rhythm",
+          "harmony",
+          "flow"
+        ],
+        "tr": [
+          "ritim",
+          "uyum",
+          "akış"
+        ],
+        "fr": [
+          "rythme",
+          "harmonie",
+          "flux"
+        ],
+        "pt": [
+          "ritmo",
+          "harmonia",
+          "fluxo"
+        ],
+        "nl": [
+          "ritme",
+          "harmonie",
+          "stroom"
+        ],
+        "es": [
+          "ritmo",
+          "armonía",
+          "flujo"
+        ],
+        "de": [
+          "Rhythmus",
+          "Harmonie",
+          "Fluss"
+        ],
+        "it": [
+          "ritmo",
+          "armonia",
+          "flusso"
+        ],
+        "ru": [
+          "ритм",
+          "гармония",
+          "поток"
+        ],
+        "id": [
+          "irama",
+          "harmoni",
+          "aliran"
+        ],
+        "ja": [
+          "リズム",
+          "調和",
+          "流れ"
+        ],
+        "th": [
+          "จังหวะ",
+          "ความกลมกลืน",
+          "กระแส"
+        ],
+        "ms": [
+          "irama",
+          "harmoni",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7626,19 +10954,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["celebration", "wins", "momentum"],
-        "tr": ["kutlama", "başarılar", "momentum"],
-        "fr": ["célébration", "victoires", "élan"],
-        "pt": ["celebração", "vitórias", "impulso"],
-        "nl": ["viering", "overwinningen", "momentum"],
-        "es": ["celebración", "victorias", "impulso"],
-        "de": ["Feier", "Siege", "Momentum"],
-        "it": ["celebrazione", "vittorie", "slancio"],
-        "ru": ["празднование", "победы", "импульс"],
-        "id": ["perayaan", "kemenangan", "momentum"],
-        "ja": ["祝賀", "勝利", "勢い"],
-        "th": ["การเฉลิมฉลอง", "ชัยชนะ", "โมเมนตัม"],
-        "ms": ["perayaan", "kemenangan", "momentum"]
+        "en": [
+          "celebration",
+          "wins",
+          "momentum"
+        ],
+        "tr": [
+          "kutlama",
+          "başarılar",
+          "momentum"
+        ],
+        "fr": [
+          "célébration",
+          "victoires",
+          "élan"
+        ],
+        "pt": [
+          "celebração",
+          "vitórias",
+          "impulso"
+        ],
+        "nl": [
+          "viering",
+          "overwinningen",
+          "momentum"
+        ],
+        "es": [
+          "celebración",
+          "victorias",
+          "impulso"
+        ],
+        "de": [
+          "Feier",
+          "Siege",
+          "Momentum"
+        ],
+        "it": [
+          "celebrazione",
+          "vittorie",
+          "slancio"
+        ],
+        "ru": [
+          "празднование",
+          "победы",
+          "импульс"
+        ],
+        "id": [
+          "perayaan",
+          "kemenangan",
+          "momentum"
+        ],
+        "ja": [
+          "祝賀",
+          "勝利",
+          "勢い"
+        ],
+        "th": [
+          "การเฉลิมฉลอง",
+          "ชัยชนะ",
+          "โมเมนตัม"
+        ],
+        "ms": [
+          "perayaan",
+          "kemenangan",
+          "momentum"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7756,19 +11136,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["sharing", "courage", "vulnerability"],
-        "tr": ["paylaşma", "cesaret", "savunmasızlık"],
-        "fr": ["partage", "courage", "vulnérabilité"],
-        "pt": ["compartilhamento", "coragem", "vulnerabilidade"],
-        "nl": ["delen", "moed", "kwetsbaarheid"],
-        "es": ["compartir", "coraje", "vulnerabilidad"],
-        "de": ["Teilen", "Mut", "Verletzlichkeit"],
-        "it": ["condivisione", "coraggio", "vulnerabilità"],
-        "ru": ["деление", "мужество", "уязвимость"],
-        "id": ["berbagi", "keberanian", "kerentanan"],
-        "ja": ["共有", "勇気", "脆弱性"],
-        "th": ["การแบ่งปัน", "ความกล้าหาญ", "ความเปราะบาง"],
-        "ms": ["kongsi", "keberanian", "kerentanan"]
+        "en": [
+          "sharing",
+          "courage",
+          "vulnerability"
+        ],
+        "tr": [
+          "paylaşma",
+          "cesaret",
+          "savunmasızlık"
+        ],
+        "fr": [
+          "partage",
+          "courage",
+          "vulnérabilité"
+        ],
+        "pt": [
+          "compartilhamento",
+          "coragem",
+          "vulnerabilidade"
+        ],
+        "nl": [
+          "delen",
+          "moed",
+          "kwetsbaarheid"
+        ],
+        "es": [
+          "compartir",
+          "coraje",
+          "vulnerabilidad"
+        ],
+        "de": [
+          "Teilen",
+          "Mut",
+          "Verletzlichkeit"
+        ],
+        "it": [
+          "condivisione",
+          "coraggio",
+          "vulnerabilità"
+        ],
+        "ru": [
+          "деление",
+          "мужество",
+          "уязвимость"
+        ],
+        "id": [
+          "berbagi",
+          "keberanian",
+          "kerentanan"
+        ],
+        "ja": [
+          "共有",
+          "勇気",
+          "脆弱性"
+        ],
+        "th": [
+          "การแบ่งปัน",
+          "ความกล้าหาญ",
+          "ความเปราะบาง"
+        ],
+        "ms": [
+          "kongsi",
+          "keberanian",
+          "kerentanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7952,19 +11384,19 @@
       "id": "creativity_069",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Creativity into my life.",
-        "tr": "Hayatıma Yaratıcılık enerjisini alıyorum.",
-        "fr": "J'accueille Creativity dans ma vie.",
-        "pt": "Eu acolho Creativity na minha vida.",
-        "nl": "Ik verwelkom Creativity in mijn leven.",
-        "es": "Doy la bienvenida a Creativity en mi vida.",
-        "de": "Ich heiße Creativity in meinem Leben willkommen.",
-        "it": "Accolgo Creativity nella mia vita.",
-        "ru": "Я принимаю Creativity в свою жизнь.",
-        "id": "Saya menyambut Creativity dalam hidup saya.",
-        "ja": "私はCreativityを人生に迎え入れます。",
-        "th": "ฉันต้อนรับCreativityเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Creativity dalam hidup saya."
+        "en": "I make room for creativity without rushing.",
+        "tr": "yaratıcılık için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à creativity sans me presser.",
+        "pt": "Abro espaço para creativity sem pressa.",
+        "nl": "Ik maak ruimte voor creativity zonder te haasten.",
+        "es": "Hago espacio para creativity sin prisa.",
+        "de": "Ich mache Platz für creativity, ohne zu hetzen.",
+        "it": "Faccio spazio a creativity senza fretta.",
+        "ru": "Я даю место creativity без спешки.",
+        "id": "Aku memberi ruang bagi creativity tanpa terburu-buru.",
+        "ja": "焦らずにcreativityのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้creativityโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk creativity tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -7996,19 +11428,19 @@
       "id": "creativity_070",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Creativity.",
-        "tr": "Kalbim Yaratıcılık için açık.",
-        "fr": "Mon cœur est ouvert à Creativity.",
-        "pt": "Meu coração está aberto para Creativity.",
-        "nl": "Mijn hart staat open voor Creativity.",
-        "es": "Mi corazón está abierto a Creativity.",
-        "de": "Mein Herz ist offen für Creativity.",
-        "it": "Il mio cuore è aperto a Creativity.",
-        "ru": "Моё сердце открыто для Creativity.",
-        "id": "Hati saya terbuka untuk Creativity.",
-        "ja": "私の心はCreativityに開かれています。",
-        "th": "หัวใจของฉันเปิดรับCreativity",
-        "ms": "Hati saya terbuka untuk Creativity."
+        "en": "I stay open to creativity in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde yaratıcılık için açık kalıyorum.",
+        "fr": "Je reste ouvert à creativity d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a creativity de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor creativity op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a creativity de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für creativity auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a creativity in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к creativity так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada creativity dengan cara yang terasa aman.",
+        "ja": "安心できる形でcreativityに心を開き続けます。",
+        "th": "ฉันเปิดใจให้creativityในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap creativity dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8040,19 +11472,19 @@
       "id": "creativity_071",
       "type": "affirmation",
       "texts": {
-        "en": "Creativity grows within me each day.",
-        "tr": "Yaratıcılık her gün içimde büyüyor.",
-        "fr": "Creativity grandit en moi chaque jour.",
-        "pt": "Creativity cresce dentro de mim todos os dias.",
-        "nl": "Creativity groeit elke dag in mij.",
-        "es": "Creativity crece dentro de mí cada día.",
-        "de": "Creativity wächst jeden Tag in mir.",
-        "it": "Creativity cresce in me ogni giorno.",
-        "ru": "Creativity растёт во мне каждый день.",
-        "id": "Creativity tumbuh di dalam diri saya setiap hari.",
-        "ja": "Creativityは毎日私の中で育ちます。",
-        "th": "Creativityเติบโตในตัวฉันทุกวัน",
-        "ms": "Creativity berkembang dalam diri saya setiap hari."
+        "en": "Each day, creativity grows within me.",
+        "tr": "Her gün içimde yaratıcılık büyüyor.",
+        "fr": "Chaque jour, creativity grandit en moi.",
+        "pt": "A cada dia, creativity cresce dentro de mim.",
+        "nl": "Elke dag groeit creativity in mij.",
+        "es": "Cada día, creativity crece dentro de mí.",
+        "de": "Jeden Tag wächst creativity in mir.",
+        "it": "Ogni giorno, creativity cresce dentro di me.",
+        "ru": "Каждый день creativity растёт во мне.",
+        "id": "Setiap hari, creativity tumbuh di dalam diriku.",
+        "ja": "毎日、creativityが私の中で育っています。",
+        "th": "ทุกวัน creativity เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, creativity berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8084,19 +11516,19 @@
       "id": "creativity_072",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Creativity now.",
-        "tr": "Şimdi Yaratıcılık için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Creativity maintenant.",
-        "pt": "Eu crio espaço para Creativity agora.",
-        "nl": "Ik maak nu ruimte voor Creativity.",
-        "es": "Creo espacio para Creativity ahora.",
-        "de": "Ich schaffe jetzt Raum für Creativity.",
-        "it": "Creo spazio per Creativity ora.",
-        "ru": "Я создаю пространство для Creativity сейчас.",
-        "id": "Saya menciptakan ruang untuk Creativity sekarang.",
-        "ja": "今、Creativityのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับCreativityในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Creativity sekarang."
+        "en": "I give creativity a quiet place in my day.",
+        "tr": "Günümde yaratıcılık için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à creativity une place calme dans ma journée.",
+        "pt": "Dou a creativity um lugar tranquilo no meu dia.",
+        "nl": "Ik geef creativity een rustige plek in mijn dag.",
+        "es": "Le doy a creativity un lugar tranquilo en mi día.",
+        "de": "Ich gebe creativity einen ruhigen Platz in meinem Tag.",
+        "it": "Do a creativity un posto tranquillo nella mia giornata.",
+        "ru": "Я даю creativity тихое место в своём дне.",
+        "id": "Aku memberi creativity tempat yang tenang dalam hariku.",
+        "ja": "一日の中にcreativityのための静かな場所をつくります。",
+        "th": "ฉันให้creativityมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi creativity tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8128,19 +11560,19 @@
       "id": "creativity_073",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Creativity.",
-        "tr": "Yaratıcılık yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Creativity.",
-        "pt": "Eu confio no caminho de Creativity.",
-        "nl": "Ik vertrouw op het pad van Creativity.",
-        "es": "Confío en el camino de Creativity.",
-        "de": "Ich vertraue dem Weg von Creativity.",
-        "it": "Mi fido del percorso di Creativity.",
-        "ru": "Я доверяю пути Creativity.",
-        "id": "Saya percaya pada jalan Creativity.",
-        "ja": "私はCreativityの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของCreativity",
-        "ms": "Saya percaya pada jalan Creativity."
+        "en": "I trust my own way of growing in creativity.",
+        "tr": "yaratıcılık konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec creativity.",
+        "pt": "Confio no meu próprio jeito de crescer com creativity.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in creativity.",
+        "es": "Confío en mi propia manera de crecer con creativity.",
+        "de": "Ich vertraue meinem eigenen Weg, in creativity zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con creativity.",
+        "ru": "Я доверяю своему собственному пути роста в creativity.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam creativity.",
+        "ja": "自分なりのcreativityの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับcreativity",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam creativity."
       },
       "authors": {
         "en": "",
@@ -8167,6 +11599,946 @@
         ]
       },
       "readTime": "0"
+    },
+    {
+      "id": "creativity_074",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice creativity with gentle consistency.",
+        "tr": "yaratıcılık konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique creativity avec une douce constance.",
+        "pt": "Eu pratico creativity com constância gentil.",
+        "nl": "Ik beoefen creativity met zachte regelmaat.",
+        "es": "Practico creativity con constancia suave.",
+        "de": "Ich übe creativity mit sanfter Beständigkeit.",
+        "it": "Pratico creativity con dolce costanza.",
+        "ru": "Я практикую creativity с мягкой постоянностью.",
+        "id": "Saya mempraktikkan creativity dengan konsistensi yang lembut.",
+        "ja": "私はcreativityを穏やかな継続で実践します。",
+        "th": "ฉันฝึกcreativityอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan creativity dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_075",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, creativity supports me.",
+        "tr": "Bu dönemde yaratıcılık beni destekliyor.",
+        "fr": "En cette période, creativity me soutient.",
+        "pt": "Nesta fase, creativity me apoia.",
+        "nl": "In deze periode ondersteunt creativity mij.",
+        "es": "En esta etapa, creativity me sostiene.",
+        "de": "In dieser Zeit unterstützt creativity mich.",
+        "it": "In questo periodo, creativity mi sostiene.",
+        "ru": "В этот период creativity поддерживает меня.",
+        "id": "Di masa ini, creativity mendukungku.",
+        "ja": "この時期、creativityが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ creativityคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, creativity menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_076",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose creativity in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla yaratıcılık seçiyorum.",
+        "fr": "Je choisis creativity par de petits pas sincères.",
+        "pt": "Escolho creativity em passos pequenos e honestos.",
+        "nl": "Ik kies creativity in kleine, eerlijke stappen.",
+        "es": "Elijo creativity con pasos pequeños y honestos.",
+        "de": "Ich wähle creativity in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo creativity con passi piccoli e sinceri.",
+        "ru": "Я выбираю creativity маленькими, честными шагами.",
+        "id": "Aku memilih creativity dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でcreativityを選びます。",
+        "th": "ฉันเลือกcreativityด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih creativity dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let creativity shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri yaratıcılık şekillendiriyor.",
+        "fr": "Je laisse creativity façonner les choix qui comptent pour moi.",
+        "pt": "Deixo creativity moldar as escolhas que importam para mim.",
+        "nl": "Ik laat creativity de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que creativity moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse creativity die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che creativity plasmi le scelte che contano per me.",
+        "ru": "Я позволяю creativity формировать важные для меня решения.",
+        "id": "Aku membiarkan creativity membentuk pilihan yang penting bagiku.",
+        "ja": "creativityが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้creativityหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan creativity membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, creativity feels natural to me.",
+        "tr": "Bugün yaratıcılık bana doğal geliyor.",
+        "fr": "Aujourd'hui, creativity me semble naturel.",
+        "pt": "Hoje, creativity parece natural para mim.",
+        "nl": "Vandaag voelt creativity natuurlijk voor mij.",
+        "es": "Hoy, creativity se siente natural para mí.",
+        "de": "Heute fühlt sich creativity natürlich für mich an.",
+        "it": "Oggi creativity mi sembra naturale.",
+        "ru": "Сегодня creativity кажется мне естественным.",
+        "id": "Hari ini, creativity terasa alami bagi saya.",
+        "ja": "今日はcreativityが自然に感じられます。",
+        "th": "วันนี้creativityให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, creativity terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose creativity in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda yaratıcılık seçiyorum.",
+        "fr": "Je choisis creativity dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho creativity nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies creativity in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo creativity en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle creativity in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo creativity nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю creativity в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih creativity dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でcreativityを選びます。",
+        "th": "ฉันเลือกcreativityในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih creativity dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build creativity.",
+        "tr": "İç sesim yaratıcılık inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis creativity.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo creativity.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik creativity opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo creativity.",
+        "de": "Meine innere Stimme wird sanfter, während ich creativity aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco creativity.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю creativity.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun creativity.",
+        "ja": "creativityを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างcreativity",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina creativity."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet creativity at my own pace.",
+        "tr": "yaratıcılık ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer creativity à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar creativity no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om creativity in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar creativity a mi propio ritmo.",
+        "de": "Ich erlaube mir, creativity in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare creativity al mio ritmo.",
+        "ru": "Я позволяю себе встречать creativity в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu creativity dengan ritmeku.",
+        "ja": "自分のペースでcreativityに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบcreativityในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui creativity mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let creativity steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde yaratıcılık beni dengeliyor.",
+        "fr": "Je laisse creativity m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo creativity me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat creativity me aarden als het leven luid voelt.",
+        "es": "Dejo que creativity me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse creativity mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che creativity mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю creativity удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan creativity menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、creativityが私を落ち着かせます。",
+        "th": "ฉันยอมให้creativityทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan creativity menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, creativity is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde yaratıcılık büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, creativity grandit.",
+        "pt": "Por meio das escolhas que faço hoje, creativity cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit creativity.",
+        "es": "A través de las decisiones que tomo hoy, creativity crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst creativity.",
+        "it": "Attraverso le scelte che faccio oggi, creativity cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, creativity растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, creativity tumbuh.",
+        "ja": "今日の選択を通してcreativityが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ creativityกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, creativity berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel creativity settling into my routines.",
+        "tr": "Rutinlerimde yaratıcılık için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens creativity s’installer dans mes routines.",
+        "pt": "Sinto creativity se acomodar nas minhas rotinas.",
+        "nl": "Ik voel creativity zich nestelen in mijn routines.",
+        "es": "Siento que creativity se asienta en mis rutinas.",
+        "de": "Ich spüre, wie creativity sich in meinen Routinen einlebt.",
+        "it": "Sento creativity assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как creativity укореняется в моих привычках.",
+        "id": "Aku merasakan creativity menetap dalam rutinitasku.",
+        "ja": "日々の習慣にcreativityがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าcreativityค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan creativity mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow creativity to be simple, not perfect.",
+        "tr": "yaratıcılık için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise creativity à être simple, pas parfait.",
+        "pt": "Permito que creativity seja simples, não perfeito.",
+        "nl": "Ik laat creativity simpel zijn, niet perfect.",
+        "es": "Permito que creativity sea simple, no perfecto.",
+        "de": "Ich erlaube creativity, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a creativity di essere semplice, non perfetto.",
+        "ru": "Я позволяю creativity быть простым, а не идеальным.",
+        "id": "Aku membiarkan creativity tetap sederhana, bukan sempurna.",
+        "ja": "creativityがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้creativityเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan creativity menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice creativity showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde yaratıcılık ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque creativity dans la façon dont je me parle.",
+        "pt": "Percebo creativity na forma como falo comigo.",
+        "nl": "Ik merk creativity op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto creativity en la manera en que me hablo.",
+        "de": "Ich bemerke creativity in der Art, wie ich mit mir spreche.",
+        "it": "Noto creativity nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю creativity в том, как я говорю с собой.",
+        "id": "Aku menyadari creativity dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にcreativityが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นcreativityในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari creativity dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve creativity without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan yaratıcılık hak ediyorum.",
+        "fr": "Je mérite creativity sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço creativity sem precisar provar nada.",
+        "nl": "Ik verdien creativity zonder iets te hoeven bewijzen.",
+        "es": "Merezco creativity sin necesidad de demostrar nada.",
+        "de": "Ich verdiene creativity, ohne etwas beweisen zu müssen.",
+        "it": "Merito creativity senza dover dimostrare nulla.",
+        "ru": "Я достоин creativity, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan creativity tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、creativityに値します。",
+        "th": "ฉันคู่ควรกับcreativityโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh creativity tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let creativity grow from patience, not pressure.",
+        "tr": "yaratıcılık sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse creativity grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo creativity crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat creativity groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que creativity crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse creativity aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che creativity cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю creativity расти из терпения, а не из давления.",
+        "id": "Aku membiarkan creativity tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はcreativityを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้creativityเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan creativity tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to creativity when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde yaratıcılık ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à creativity quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a creativity quando preciso me firmar.",
+        "nl": "Ik keer terug naar creativity wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a creativity cuando necesito estabilizarme.",
+        "de": "Ich kehre zu creativity zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a creativity quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к creativity, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke creativity saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、creativityに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาcreativity",
+        "ms": "Saya kembali kepada creativity apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let creativity soften my inner pressure.",
+        "tr": "İçimdeki baskıyı yaratıcılık ile yumuşatıyorum.",
+        "fr": "Je laisse creativity adoucir ma pression intérieure.",
+        "pt": "Deixo creativity suavizar minha pressão interna.",
+        "nl": "Ik laat creativity mijn innerlijke druk verzachten.",
+        "es": "Dejo que creativity suavice mi presión interna.",
+        "de": "Ich lasse creativity meinen inneren Druck weicher machen.",
+        "it": "Lascio che creativity ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю creativity смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan creativity melembutkan tekanan batinku.",
+        "ja": "creativityが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้creativityช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan creativity melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that creativity can be gentle and real.",
+        "tr": "yaratıcılık konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que creativity peut être doux et vrai.",
+        "pt": "Confio que creativity pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat creativity zacht en echt kan zijn.",
+        "es": "Confío en que creativity puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass creativity sanft und echt sein kann.",
+        "it": "Mi fido del fatto che creativity possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что creativity может быть мягким и настоящим.",
+        "id": "Aku percaya creativity bisa lembut dan nyata.",
+        "ja": "creativityはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าcreativityสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya creativity boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give creativity a little more room each day.",
+        "tr": "Her gün yaratıcılık için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à creativity chaque jour.",
+        "pt": "Dou um pouco mais de espaço para creativity a cada dia.",
+        "nl": "Ik geef creativity elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a creativity cada día.",
+        "de": "Ich gebe creativity jeden Tag ein wenig mehr Raum.",
+        "it": "Do a creativity un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю creativity чуть больше места.",
+        "id": "Setiap hari aku memberi creativity sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、creativityのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับcreativityมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi creativity sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold creativity without forcing it.",
+        "tr": "yaratıcılık ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir creativity sans forcer.",
+        "pt": "Estou aprendendo a sustentar creativity sem forçar.",
+        "nl": "Ik leer creativity te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener creativity sin forzar.",
+        "de": "Ich lerne, creativity zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere creativity senza forzare.",
+        "ru": "Я учусь удерживать creativity без принуждения.",
+        "id": "Aku belajar memegang creativity tanpa memaksa.",
+        "ja": "creativityを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองcreativityโดยไม่บังคับ",
+        "ms": "Saya belajar memegang creativity tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by creativity where I am today.",
+        "tr": "Bugün olduğum yerde yaratıcılık beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, creativity me rejoint.",
+        "pt": "Onde estou hoje, creativity me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet creativity mij.",
+        "es": "Donde estoy hoy, creativity me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir creativity.",
+        "it": "Dove sono oggi, creativity mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает creativity.",
+        "id": "Di tempatku hari ini, creativity menemuiku.",
+        "ja": "今日の私がいる場所で、creativityが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ creativityอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, creativity menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice creativity in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte yaratıcılık fark ediyorum.",
+        "fr": "Je remarque creativity dans le calme entre les moments.",
+        "pt": "Percebo creativity na calma entre os momentos.",
+        "nl": "Ik merk creativity op in de rust tussen momenten.",
+        "es": "Noto creativity en la calma entre momentos.",
+        "de": "Ich bemerke creativity in der Ruhe zwischen den Momenten.",
+        "it": "Noto creativity nella calma tra i momenti.",
+        "ru": "Я замечаю creativity в тишине между моментами.",
+        "id": "Aku menyadari creativity dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにcreativityを感じます。",
+        "th": "ฉันสังเกตcreativityในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari creativity dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow creativity to grow quietly in the background.",
+        "tr": "yaratıcılık sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse creativity grandir doucement en arrière-plan.",
+        "pt": "Deixo creativity crescer em silêncio ao fundo.",
+        "nl": "Ik laat creativity stil op de achtergrond groeien.",
+        "es": "Dejo que creativity crezca en silencio de fondo.",
+        "de": "Ich lasse creativity leise im Hintergrund wachsen.",
+        "it": "Lascio che creativity cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю creativity тихо расти на заднем плане.",
+        "id": "Aku membiarkan creativity tumbuh perlahan di latar belakang.",
+        "ja": "creativityが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้creativityเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan creativity berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose creativity with care, not hurry.",
+        "tr": "Acele etmeden, özenle yaratıcılık seçiyorum.",
+        "fr": "Je choisis creativity avec soin, sans hâte.",
+        "pt": "Escolho creativity com cuidado, sem pressa.",
+        "nl": "Ik kies creativity met zorg, niet met haast.",
+        "es": "Elijo creativity con cuidado, no con prisa.",
+        "de": "Ich wähle creativity mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo creativity con cura, non con fretta.",
+        "ru": "Я выбираю creativity с заботой, а не в спешке.",
+        "id": "Aku memilih creativity dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にcreativityを選びます。",
+        "th": "ฉันเลือกcreativityอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih creativity dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep creativity close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken yaratıcılık ile yakın kalıyorum.",
+        "fr": "Je garde creativity près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho creativity por perto quando minha mente fica agitada.",
+        "nl": "Ik houd creativity dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo creativity cerca cuando mi mente está inquieta.",
+        "de": "Ich halte creativity nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo creativity vicino quando la mia mente è agitata.",
+        "ru": "Я держу creativity рядом, когда ум занят.",
+        "id": "Aku menjaga creativity tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもcreativityをそばに置きます。",
+        "th": "ฉันเก็บcreativityไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan creativity dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "readTime": "0"
     }
   ]
-} 
+}

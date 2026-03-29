@@ -34,19 +34,71 @@
         "ms": "Matt Mullenweg"
       },
       "tags": {
-        "en": ["connection", "innovation", "humanity"],
-        "tr": ["bağlantı", "yenilik", "insanlık"],
-        "fr": ["connexion", "innovation", "humanité"],
-        "pt": ["conexão", "inovação", "humanidade"],
-        "nl": ["verbinding", "innovatie", "mensheid"],
-        "es": ["conexión", "innovación", "humanidad"],
-        "de": ["Verbindung", "Innovation", "Menschheit"],
-        "it": ["connessione", "innovazione", "umanità"],
-        "ru": ["связь", "инновации", "человечество"],
-        "id": ["koneksi", "inovasi", "kemanusiaan"],
-        "ja": ["つながり", "革新", "人類"],
-        "th": ["การเชื่อมต่อ", "นวัตกรรม", "มนุษยชาติ"],
-        "ms": ["hubungan", "inovasi", "kemanusiaan"]
+        "en": [
+          "connection",
+          "innovation",
+          "humanity"
+        ],
+        "tr": [
+          "bağlantı",
+          "yenilik",
+          "insanlık"
+        ],
+        "fr": [
+          "connexion",
+          "innovation",
+          "humanité"
+        ],
+        "pt": [
+          "conexão",
+          "inovação",
+          "humanidade"
+        ],
+        "nl": [
+          "verbinding",
+          "innovatie",
+          "mensheid"
+        ],
+        "es": [
+          "conexión",
+          "innovación",
+          "humanidad"
+        ],
+        "de": [
+          "Verbindung",
+          "Innovation",
+          "Menschheit"
+        ],
+        "it": [
+          "connessione",
+          "innovazione",
+          "umanità"
+        ],
+        "ru": [
+          "связь",
+          "инновации",
+          "человечество"
+        ],
+        "id": [
+          "koneksi",
+          "inovasi",
+          "kemanusiaan"
+        ],
+        "ja": [
+          "つながり",
+          "革新",
+          "人類"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "นวัตกรรม",
+          "มนุษยชาติ"
+        ],
+        "ms": [
+          "hubungan",
+          "inovasi",
+          "kemanusiaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Bill Gates"
       },
       "tags": {
-        "en": ["integration", "ubiquity", "user-experience"],
-        "tr": ["entegrasyon", "her yerde bulunma", "kullanıcı deneyimi"],
-        "fr": ["intégration", "ubiquité", "expérience utilisateur"],
-        "pt": ["integração", "ubiquidade", "experiência do usuário"],
-        "nl": ["integratie", "alomtegenwoordigheid", "gebruikerservaring"],
-        "es": ["integración", "ubicuidade", "experiencia de usuario"],
-        "de": ["Integration", "Allgegenwart", "Benutzererfahrung"],
-        "it": ["integrazione", "ubiquità", "esperienza utente"],
-        "ru": ["интеграция", "повсеместность", "пользовательский опыт"],
-        "id": ["integrasi", "keberadaan di mana-mana", "pengalaman pengguna"],
-        "ja": ["統合", "遍在", "ユーザー体験"],
-        "th": ["การบูรณาการ", "ความแพร่หลาย", "ประสบการณ์ผู้ใช้"],
-        "ms": ["integrasi", "keberadaan meluas", "pengalaman pengguna"]
+        "en": [
+          "integration",
+          "ubiquity",
+          "user-experience"
+        ],
+        "tr": [
+          "entegrasyon",
+          "her yerde bulunma",
+          "kullanıcı deneyimi"
+        ],
+        "fr": [
+          "intégration",
+          "ubiquité",
+          "expérience utilisateur"
+        ],
+        "pt": [
+          "integração",
+          "ubiquidade",
+          "experiência do usuário"
+        ],
+        "nl": [
+          "integratie",
+          "alomtegenwoordigheid",
+          "gebruikerservaring"
+        ],
+        "es": [
+          "integración",
+          "ubicuidade",
+          "experiencia de usuario"
+        ],
+        "de": [
+          "Integration",
+          "Allgegenwart",
+          "Benutzererfahrung"
+        ],
+        "it": [
+          "integrazione",
+          "ubiquità",
+          "esperienza utente"
+        ],
+        "ru": [
+          "интеграция",
+          "повсеместность",
+          "пользовательский опыт"
+        ],
+        "id": [
+          "integrasi",
+          "keberadaan di mana-mana",
+          "pengalaman pengguna"
+        ],
+        "ja": [
+          "統合",
+          "遍在",
+          "ユーザー体験"
+        ],
+        "th": [
+          "การบูรณาการ",
+          "ความแพร่หลาย",
+          "ประสบการณ์ผู้ใช้"
+        ],
+        "ms": [
+          "integrasi",
+          "keberadaan meluas",
+          "pengalaman pengguna"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Edward Teller"
       },
       "tags": {
-        "en": ["innovation", "progress", "future"],
-        "tr": ["yenilik", "ilerleme", "gelecek"],
-        "fr": ["innovation", "progrès", "futur"],
-        "pt": ["inovação", "progresso", "futuro"],
-        "nl": ["innovatie", "vooruitgang", "toekomst"],
-        "es": ["innovación", "progreso", "futuro"],
-        "de": ["Innovation", "Fortschritt", "Zukunft"],
-        "it": ["innovazione", "progresso", "futuro"],
-        "ru": ["инновации", "прогресс", "будущее"],
-        "id": ["inovasi", "kemajuan", "masa depan"],
-        "ja": ["革新", "進歩", "未来"],
-        "th": ["นวัตกรรม", "ความก้าวหน้า", "อนาคต"],
-        "ms": ["inovasi", "kemajuan", "masa depan"]
+        "en": [
+          "innovation",
+          "progress",
+          "future"
+        ],
+        "tr": [
+          "yenilik",
+          "ilerleme",
+          "gelecek"
+        ],
+        "fr": [
+          "innovation",
+          "progrès",
+          "futur"
+        ],
+        "pt": [
+          "inovação",
+          "progresso",
+          "futuro"
+        ],
+        "nl": [
+          "innovatie",
+          "vooruitgang",
+          "toekomst"
+        ],
+        "es": [
+          "innovación",
+          "progreso",
+          "futuro"
+        ],
+        "de": [
+          "Innovation",
+          "Fortschritt",
+          "Zukunft"
+        ],
+        "it": [
+          "innovazione",
+          "progresso",
+          "futuro"
+        ],
+        "ru": [
+          "инновации",
+          "прогресс",
+          "будущее"
+        ],
+        "id": [
+          "inovasi",
+          "kemajuan",
+          "masa depan"
+        ],
+        "ja": [
+          "革新",
+          "進歩",
+          "未来"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "ความก้าวหน้า",
+          "อนาคต"
+        ],
+        "ms": [
+          "inovasi",
+          "kemajuan",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Michelangelo"
       },
       "tags": {
-        "en": ["ambition", "vision", "impact"],
-        "tr": ["hırs", "vizyon", "etki"],
-        "fr": ["ambition", "vision", "impact"],
-        "pt": ["ambição", "visão", "impacto"],
-        "nl": ["ambitie", "visie", "impact"],
-        "es": ["ambición", "visión", "impacto"],
-        "de": ["Ehrgeiz", "Vision", "Auswirkung"],
-        "it": ["ambizione", "visione", "impatto"],
-        "ru": ["амбиции", "видение", "влияние"],
-        "id": ["ambisi", "visi", "dampak"],
-        "ja": ["野心", "ビジョン", "影響"],
-        "th": ["ความทะเยอทะยาน", "วิสัยทัศน์", "ผลกระทบ"],
-        "ms": ["cita-cita", "wawasan", "kesan"]
+        "en": [
+          "ambition",
+          "vision",
+          "impact"
+        ],
+        "tr": [
+          "hırs",
+          "vizyon",
+          "etki"
+        ],
+        "fr": [
+          "ambition",
+          "vision",
+          "impact"
+        ],
+        "pt": [
+          "ambição",
+          "visão",
+          "impacto"
+        ],
+        "nl": [
+          "ambitie",
+          "visie",
+          "impact"
+        ],
+        "es": [
+          "ambición",
+          "visión",
+          "impacto"
+        ],
+        "de": [
+          "Ehrgeiz",
+          "Vision",
+          "Auswirkung"
+        ],
+        "it": [
+          "ambizione",
+          "visione",
+          "impatto"
+        ],
+        "ru": [
+          "амбиции",
+          "видение",
+          "влияние"
+        ],
+        "id": [
+          "ambisi",
+          "visi",
+          "dampak"
+        ],
+        "ja": [
+          "野心",
+          "ビジョン",
+          "影響"
+        ],
+        "th": [
+          "ความทะเยอทะยาน",
+          "วิสัยทัศน์",
+          "ผลกระทบ"
+        ],
+        "ms": [
+          "cita-cita",
+          "wawasan",
+          "kesan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -468,7 +676,7 @@
         }
       }
     },
-{
+    {
       "id": "technology_005",
       "category": "technology",
       "texts": {
@@ -502,19 +710,71 @@
         "ms": "Arthur C. Clarke"
       },
       "tags": {
-        "en": ["futurism", "innovation", "perception"],
-        "tr": ["fütürizm", "yenilik", "algı"],
-        "fr": ["futurisme", "innovation", "perception"],
-        "pt": ["futurismo", "inovação", "percepção"],
-        "nl": ["futurisme", "innovatie", "perceptie"],
-        "es": ["futurismo", "innovación", "percepción"],
-        "de": ["Futurismus", "Innovation", "Wahrnehmung"],
-        "it": ["futurismo", "innovazione", "percezione"],
-        "ru": ["футуризм", "инновации", "восприятие"],
-        "id": ["futurisme", "inovasi", "persepsi"],
-        "ja": ["未来主義", "革新", "認識"],
-        "th": ["อนาคตนิยม", "นวัตกรรม", "การรับรู้"],
-        "ms": ["futurisme", "inovasi", "persepsi"]
+        "en": [
+          "futurism",
+          "innovation",
+          "perception"
+        ],
+        "tr": [
+          "fütürizm",
+          "yenilik",
+          "algı"
+        ],
+        "fr": [
+          "futurisme",
+          "innovation",
+          "perception"
+        ],
+        "pt": [
+          "futurismo",
+          "inovação",
+          "percepção"
+        ],
+        "nl": [
+          "futurisme",
+          "innovatie",
+          "perceptie"
+        ],
+        "es": [
+          "futurismo",
+          "innovación",
+          "percepción"
+        ],
+        "de": [
+          "Futurismus",
+          "Innovation",
+          "Wahrnehmung"
+        ],
+        "it": [
+          "futurismo",
+          "innovazione",
+          "percezione"
+        ],
+        "ru": [
+          "футуризм",
+          "инновации",
+          "восприятие"
+        ],
+        "id": [
+          "futurisme",
+          "inovasi",
+          "persepsi"
+        ],
+        "ja": [
+          "未来主義",
+          "革新",
+          "認識"
+        ],
+        "th": [
+          "อนาคตนิยม",
+          "นวัตกรรม",
+          "การรับรู้"
+        ],
+        "ms": [
+          "futurisme",
+          "inovasi",
+          "persepsi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -619,19 +879,71 @@
         "ms": "Nelson Mandela"
       },
       "tags": {
-        "en": ["resilience", "perseverance", "courage"],
-        "tr": ["direnç", "azim", "cesaret"],
-        "fr": ["résilience", "persévérance", "courage"],
-        "pt": ["resiliência", "perseverança", "coragem"],
-        "nl": ["veerkracht", "doorzettingsvermogen", "moed"],
-        "es": ["resiliencia", "perseverancia", "coraje"],
-        "de": ["Resilienz", "Beharrlichkeit", "Mut"],
-        "it": ["resilienza", "perseveranza", "coraggio"],
-        "ru": ["стойкость", "упорство", "мужество"],
-        "id": ["ketahanan", "ketekunan", "keberanian"],
-        "ja": ["レジリエンス", "忍耐", "勇気"],
-        "th": ["ความยืดหยุ่น", "ความพากเพียร", "ความกล้า"],
-        "ms": ["ketahanan", "ketabahan", "keberanian"]
+        "en": [
+          "resilience",
+          "perseverance",
+          "courage"
+        ],
+        "tr": [
+          "direnç",
+          "azim",
+          "cesaret"
+        ],
+        "fr": [
+          "résilience",
+          "persévérance",
+          "courage"
+        ],
+        "pt": [
+          "resiliência",
+          "perseverança",
+          "coragem"
+        ],
+        "nl": [
+          "veerkracht",
+          "doorzettingsvermogen",
+          "moed"
+        ],
+        "es": [
+          "resiliencia",
+          "perseverancia",
+          "coraje"
+        ],
+        "de": [
+          "Resilienz",
+          "Beharrlichkeit",
+          "Mut"
+        ],
+        "it": [
+          "resilienza",
+          "perseveranza",
+          "coraggio"
+        ],
+        "ru": [
+          "стойкость",
+          "упорство",
+          "мужество"
+        ],
+        "id": [
+          "ketahanan",
+          "ketekunan",
+          "keberanian"
+        ],
+        "ja": [
+          "レジリエンス",
+          "忍耐",
+          "勇気"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความพากเพียร",
+          "ความกล้า"
+        ],
+        "ms": [
+          "ketahanan",
+          "ketabahan",
+          "keberanian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -736,19 +1048,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["imagination", "innovation", "reality"],
-        "tr": ["hayal gücü", "yenilik", "gerçeklik"],
-        "fr": ["imagination", "innovation", "réalité"],
-        "pt": ["imaginação", "inovação", "realidade"],
-        "nl": ["verbeelding", "innovatie", "realiteit"],
-        "es": ["imaginación", "innovación", "realidad"],
-        "de": ["Vorstellungskraft", "Innovation", "Realität"],
-        "it": ["immaginazione", "innovazione", "realtà"],
-        "ru": ["воображение", "инновации", "реальность"],
-        "id": ["imajinasi", "inovasi", "realitas"],
-        "ja": ["想像力", "革新", "現実"],
-        "th": ["จินตนาการ", "นวัตกรรม", "ความเป็นจริง"],
-        "ms": ["imaginasi", "inovasi", "realiti"]
+        "en": [
+          "imagination",
+          "innovation",
+          "reality"
+        ],
+        "tr": [
+          "hayal gücü",
+          "yenilik",
+          "gerçeklik"
+        ],
+        "fr": [
+          "imagination",
+          "innovation",
+          "réalité"
+        ],
+        "pt": [
+          "imaginação",
+          "inovação",
+          "realidade"
+        ],
+        "nl": [
+          "verbeelding",
+          "innovatie",
+          "realiteit"
+        ],
+        "es": [
+          "imaginación",
+          "innovación",
+          "realidad"
+        ],
+        "de": [
+          "Vorstellungskraft",
+          "Innovation",
+          "Realität"
+        ],
+        "it": [
+          "immaginazione",
+          "innovazione",
+          "realtà"
+        ],
+        "ru": [
+          "воображение",
+          "инновации",
+          "реальность"
+        ],
+        "id": [
+          "imajinasi",
+          "inovasi",
+          "realitas"
+        ],
+        "ja": [
+          "想像力",
+          "革新",
+          "現実"
+        ],
+        "th": [
+          "จินตนาการ",
+          "นวัตกรรม",
+          "ความเป็นจริง"
+        ],
+        "ms": [
+          "imaginasi",
+          "inovasi",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["programming", "harmony", "creation"],
-        "tr": ["programlama", "uyum", "yaratım"],
-        "fr": ["programmation", "harmonie", "création"],
-        "pt": ["programação", "harmonia", "criação"],
-        "nl": ["programmeren", "harmonie", "creatie"],
-        "es": ["programación", "armonía", "creación"],
-        "de": ["Programmieren", "Harmonie", "Schöpfung"],
-        "it": ["programmazione", "armonia", "creazione"],
-        "ru": ["программирование", "гармония", "созидание"],
-        "id": ["pemrograman", "harmoni", "penciptaan"],
-        "ja": ["プログラミング", "調和", "創造"],
-        "th": ["การเขียนโปรแกรม", "ความสามัคคี", "การสร้างสรรค์"],
-        "ms": ["pengaturcaraan", "harmoni", "penciptaan"]
+        "en": [
+          "programming",
+          "harmony",
+          "creation"
+        ],
+        "tr": [
+          "programlama",
+          "uyum",
+          "yaratım"
+        ],
+        "fr": [
+          "programmation",
+          "harmonie",
+          "création"
+        ],
+        "pt": [
+          "programação",
+          "harmonia",
+          "criação"
+        ],
+        "nl": [
+          "programmeren",
+          "harmonie",
+          "creatie"
+        ],
+        "es": [
+          "programación",
+          "armonía",
+          "creación"
+        ],
+        "de": [
+          "Programmieren",
+          "Harmonie",
+          "Schöpfung"
+        ],
+        "it": [
+          "programmazione",
+          "armonia",
+          "creazione"
+        ],
+        "ru": [
+          "программирование",
+          "гармония",
+          "созидание"
+        ],
+        "id": [
+          "pemrograman",
+          "harmoni",
+          "penciptaan"
+        ],
+        "ja": [
+          "プログラミング",
+          "調和",
+          "創造"
+        ],
+        "th": [
+          "การเขียนโปรแกรม",
+          "ความสามัคคี",
+          "การสร้างสรรค์"
+        ],
+        "ms": [
+          "pengaturcaraan",
+          "harmoni",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["progress", "history", "future"],
-        "tr": ["ilerleme", "tarih", "gelecek"],
-        "fr": ["progrès", "histoire", "futur"],
-        "pt": ["progresso", "história", "futuro"],
-        "nl": ["vooruitgang", "geschiedenis", "toekomst"],
-        "es": ["progreso", "historia", "futuro"],
-        "de": ["Fortschritt", "Geschichte", "Zukunft"],
-        "it": ["progresso", "storia", "futuro"],
-        "ru": ["прогресс", "история", "будущее"],
-        "id": ["kemajuan", "sejarah", "masa depan"],
-        "ja": ["進歩", "歴史", "未来"],
-        "th": ["ความก้าวหน้า", "ประวัติศาสตร์", "อนาคต"],
-        "ms": ["kemajuan", "sejarah", "masa depan"]
+        "en": [
+          "progress",
+          "history",
+          "future"
+        ],
+        "tr": [
+          "ilerleme",
+          "tarih",
+          "gelecek"
+        ],
+        "fr": [
+          "progrès",
+          "histoire",
+          "futur"
+        ],
+        "pt": [
+          "progresso",
+          "história",
+          "futuro"
+        ],
+        "nl": [
+          "vooruitgang",
+          "geschiedenis",
+          "toekomst"
+        ],
+        "es": [
+          "progreso",
+          "historia",
+          "futuro"
+        ],
+        "de": [
+          "Fortschritt",
+          "Geschichte",
+          "Zukunft"
+        ],
+        "it": [
+          "progresso",
+          "storia",
+          "futuro"
+        ],
+        "ru": [
+          "прогресс",
+          "история",
+          "будущее"
+        ],
+        "id": [
+          "kemajuan",
+          "sejarah",
+          "masa depan"
+        ],
+        "ja": [
+          "進歩",
+          "歴史",
+          "未来"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "ประวัติศาสตร์",
+          "อนาคต"
+        ],
+        "ms": [
+          "kemajuan",
+          "sejarah",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1087,19 +1555,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["innovation", "change", "growth"],
-        "tr": ["yenilik", "değişim", "büyüme"],
-        "fr": ["innovation", "changement", "croissance"],
-        "pt": ["inovação", "mudança", "crescimento"],
-        "nl": ["innovatie", "verandering", "groei"],
-        "es": ["innovación", "cambio", "crecimiento"],
-        "de": ["Innovation", "Veränderung", "Wachstum"],
-        "it": ["innovazione", "cambiamento", "crescita"],
-        "ru": ["инновации", "перемены", "рост"],
-        "id": ["inovasi", "perubahan", "pertumbuhan"],
-        "ja": ["革新", "変化", "成長"],
-        "th": ["นวัตกรรม", "การเปลี่ยนแปลง", "การเติบโต"],
-        "ms": ["inovasi", "perubahan", "pertumbuhan"]
+        "en": [
+          "innovation",
+          "change",
+          "growth"
+        ],
+        "tr": [
+          "yenilik",
+          "değişim",
+          "büyüme"
+        ],
+        "fr": [
+          "innovation",
+          "changement",
+          "croissance"
+        ],
+        "pt": [
+          "inovação",
+          "mudança",
+          "crescimento"
+        ],
+        "nl": [
+          "innovatie",
+          "verandering",
+          "groei"
+        ],
+        "es": [
+          "innovación",
+          "cambio",
+          "crecimiento"
+        ],
+        "de": [
+          "Innovation",
+          "Veränderung",
+          "Wachstum"
+        ],
+        "it": [
+          "innovazione",
+          "cambiamento",
+          "crescita"
+        ],
+        "ru": [
+          "инновации",
+          "перемены",
+          "рост"
+        ],
+        "id": [
+          "inovasi",
+          "perubahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "革新",
+          "変化",
+          "成長"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "การเปลี่ยนแปลง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "inovasi",
+          "perubahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1204,19 +1724,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["freedom", "empowerment", "opportunity"],
-        "tr": ["özgürlük", "güçlendirme", "fırsat"],
-        "fr": ["liberté", "autonomisation", "opportunité"],
-        "pt": ["liberdade", "empoderamento", "oportunidade"],
-        "nl": ["vrijheid", "empowerment", "kansen"],
-        "es": ["libertad", "empoderamiento", "oportunidad"],
-        "de": ["Freiheit", "Ermächtigung", "Gelegenheit"],
-        "it": ["libertà", "empowerment", "opportunità"],
-        "ru": ["свобода", "расширение возможностей", "возможность"],
-        "id": ["kebebasan", "pemberdayaan", "kesempatan"],
-        "ja": ["自由", "エンパワーメント", "機会"],
-        "th": ["อิสรภาพ", "การเพิ่มพลัง", "โอกาส"],
-        "ms": ["kebebasan", "pemberdayaan", "peluang"]
+        "en": [
+          "freedom",
+          "empowerment",
+          "opportunity"
+        ],
+        "tr": [
+          "özgürlük",
+          "güçlendirme",
+          "fırsat"
+        ],
+        "fr": [
+          "liberté",
+          "autonomisation",
+          "opportunité"
+        ],
+        "pt": [
+          "liberdade",
+          "empoderamento",
+          "oportunidade"
+        ],
+        "nl": [
+          "vrijheid",
+          "empowerment",
+          "kansen"
+        ],
+        "es": [
+          "libertad",
+          "empoderamiento",
+          "oportunidad"
+        ],
+        "de": [
+          "Freiheit",
+          "Ermächtigung",
+          "Gelegenheit"
+        ],
+        "it": [
+          "libertà",
+          "empowerment",
+          "opportunità"
+        ],
+        "ru": [
+          "свобода",
+          "расширение возможностей",
+          "возможность"
+        ],
+        "id": [
+          "kebebasan",
+          "pemberdayaan",
+          "kesempatan"
+        ],
+        "ja": [
+          "自由",
+          "エンパワーメント",
+          "機会"
+        ],
+        "th": [
+          "อิสรภาพ",
+          "การเพิ่มพลัง",
+          "โอกาส"
+        ],
+        "ms": [
+          "kebebasan",
+          "pemberdayaan",
+          "peluang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["order", "technology", "balance"],
-        "tr": ["düzen", "teknoloji", "denge"],
-        "fr": ["ordre", "technologie", "équilibre"],
-        "pt": ["ordem", "tecnologia", "equilíbrio"],
-        "nl": ["orde", "technologie", "balans"],
-        "es": ["orden", "tecnología", "equilibrio"],
-        "de": ["Ordnung", "Technologie", "Gleichgewicht"],
-        "it": ["ordine", "tecnologia", "equilibrio"],
-        "ru": ["порядок", "технология", "баланс"],
-        "id": ["ketertiban", "teknologi", "keseimbangan"],
-        "ja": ["秩序", "技術", "バランス"],
-        "th": ["ระเบียบ", "เทคโนโลยี", "สมดุล"],
-        "ms": ["ketertiban", "teknologi", "keseimbangan"]
+        "en": [
+          "order",
+          "technology",
+          "balance"
+        ],
+        "tr": [
+          "düzen",
+          "teknoloji",
+          "denge"
+        ],
+        "fr": [
+          "ordre",
+          "technologie",
+          "équilibre"
+        ],
+        "pt": [
+          "ordem",
+          "tecnologia",
+          "equilíbrio"
+        ],
+        "nl": [
+          "orde",
+          "technologie",
+          "balans"
+        ],
+        "es": [
+          "orden",
+          "tecnología",
+          "equilibrio"
+        ],
+        "de": [
+          "Ordnung",
+          "Technologie",
+          "Gleichgewicht"
+        ],
+        "it": [
+          "ordine",
+          "tecnologia",
+          "equilibrio"
+        ],
+        "ru": [
+          "порядок",
+          "технология",
+          "баланс"
+        ],
+        "id": [
+          "ketertiban",
+          "teknologi",
+          "keseimbangan"
+        ],
+        "ja": [
+          "秩序",
+          "技術",
+          "バランス"
+        ],
+        "th": [
+          "ระเบียบ",
+          "เทคโนโลยี",
+          "สมดุล"
+        ],
+        "ms": [
+          "ketertiban",
+          "teknologi",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["possibility", "innovation", "overcoming"],
-        "tr": ["olasılık", "yenilik", "aşma"],
-        "fr": ["possibilité", "innovation", "surmontement"],
-        "pt": ["possibilidade", "inovação", "superação"],
-        "nl": ["mogelijkheid", "innovatie", "overwinning"],
-        "es": ["posibilidad", "innovación", "superación"],
-        "de": ["Möglichkeit", "Innovation", "Überwindung"],
-        "it": ["possibilità", "innovazione", "superamento"],
-        "ru": ["возможность", "инновация", "преодоление"],
-        "id": ["kemungkinan", "inovasi", "pengatasi"],
-        "ja": ["可能性", "革新", "克服"],
-        "th": ["ความเป็นไปได้", "นวัตกรรม", "การเอาชนะ"],
-        "ms": ["kemungkinan", "inovasi", "pengatasi"]
+        "en": [
+          "possibility",
+          "innovation",
+          "overcoming"
+        ],
+        "tr": [
+          "olasılık",
+          "yenilik",
+          "aşma"
+        ],
+        "fr": [
+          "possibilité",
+          "innovation",
+          "surmontement"
+        ],
+        "pt": [
+          "possibilidade",
+          "inovação",
+          "superação"
+        ],
+        "nl": [
+          "mogelijkheid",
+          "innovatie",
+          "overwinning"
+        ],
+        "es": [
+          "posibilidad",
+          "innovación",
+          "superación"
+        ],
+        "de": [
+          "Möglichkeit",
+          "Innovation",
+          "Überwindung"
+        ],
+        "it": [
+          "possibilità",
+          "innovazione",
+          "superamento"
+        ],
+        "ru": [
+          "возможность",
+          "инновация",
+          "преодоление"
+        ],
+        "id": [
+          "kemungkinan",
+          "inovasi",
+          "pengatasi"
+        ],
+        "ja": [
+          "可能性",
+          "革新",
+          "克服"
+        ],
+        "th": [
+          "ความเป็นไปได้",
+          "นวัตกรรม",
+          "การเอาชนะ"
+        ],
+        "ms": [
+          "kemungkinan",
+          "inovasi",
+          "pengatasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1555,19 +2231,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["progress", "exploration", "future"],
-        "tr": ["ilerleme", "keşif", "gelecek"],
-        "fr": ["progrès", "exploration", "futur"],
-        "pt": ["progresso", "exploração", "futuro"],
-        "nl": ["vooruitgang", "verkenning", "toekomst"],
-        "es": ["progreso", "exploración", "futuro"],
-        "de": ["Fortschritt", "Erkundung", "Zukunft"],
-        "it": ["progresso", "esplorazione", "futuro"],
-        "ru": ["прогресс", "исследование", "будущее"],
-        "id": ["kemajuan", "eksplorasi", "masa depan"],
-        "ja": ["進歩", "探検", "未来"],
-        "th": ["ความก้าวหน้า", "การสำรวจ", "อนาคต"],
-        "ms": ["kemajuan", "penerokaan", "masa depan"]
+        "en": [
+          "progress",
+          "exploration",
+          "future"
+        ],
+        "tr": [
+          "ilerleme",
+          "keşif",
+          "gelecek"
+        ],
+        "fr": [
+          "progrès",
+          "exploration",
+          "futur"
+        ],
+        "pt": [
+          "progresso",
+          "exploração",
+          "futuro"
+        ],
+        "nl": [
+          "vooruitgang",
+          "verkenning",
+          "toekomst"
+        ],
+        "es": [
+          "progreso",
+          "exploración",
+          "futuro"
+        ],
+        "de": [
+          "Fortschritt",
+          "Erkundung",
+          "Zukunft"
+        ],
+        "it": [
+          "progresso",
+          "esplorazione",
+          "futuro"
+        ],
+        "ru": [
+          "прогресс",
+          "исследование",
+          "будущее"
+        ],
+        "id": [
+          "kemajuan",
+          "eksplorasi",
+          "masa depan"
+        ],
+        "ja": [
+          "進歩",
+          "探検",
+          "未来"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "การสำรวจ",
+          "อนาคต"
+        ],
+        "ms": [
+          "kemajuan",
+          "penerokaan",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1672,19 +2400,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "aspiration", "reality"],
-        "tr": ["bağlantı", "hedef", "gerçeklik"],
-        "fr": ["connexion", "aspiration", "réalité"],
-        "pt": ["conexão", "aspiração", "realidade"],
-        "nl": ["verbinding", "aspiratie", "realiteit"],
-        "es": ["conexión", "aspiración", "realidad"],
-        "de": ["Verbindung", "Streben", "Realität"],
-        "it": ["connessione", "aspirazione", "realtà"],
-        "ru": ["связь", "стремление", "реальность"],
-        "id": ["koneksi", "aspirasi", "kenyataan"],
-        "ja": ["つながり", "志向", "現実"],
-        "th": ["การเชื่อมต่อ", "ความปรารถนา", "ความเป็นจริง"],
-        "ms": ["hubungan", "aspirasi", "realiti"]
+        "en": [
+          "connection",
+          "aspiration",
+          "reality"
+        ],
+        "tr": [
+          "bağlantı",
+          "hedef",
+          "gerçeklik"
+        ],
+        "fr": [
+          "connexion",
+          "aspiration",
+          "réalité"
+        ],
+        "pt": [
+          "conexão",
+          "aspiração",
+          "realidade"
+        ],
+        "nl": [
+          "verbinding",
+          "aspiratie",
+          "realiteit"
+        ],
+        "es": [
+          "conexión",
+          "aspiración",
+          "realidad"
+        ],
+        "de": [
+          "Verbindung",
+          "Streben",
+          "Realität"
+        ],
+        "it": [
+          "connessione",
+          "aspirazione",
+          "realtà"
+        ],
+        "ru": [
+          "связь",
+          "стремление",
+          "реальность"
+        ],
+        "id": [
+          "koneksi",
+          "aspirasi",
+          "kenyataan"
+        ],
+        "ja": [
+          "つながり",
+          "志向",
+          "現実"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "ความปรารถนา",
+          "ความเป็นจริง"
+        ],
+        "ms": [
+          "hubungan",
+          "aspirasi",
+          "realiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["clarity", "progress", "confidence"],
-        "tr": ["netlik", "ilerleme", "güven"],
-        "fr": ["clarté", "progrès", "confiance"],
-        "pt": ["clareza", "progresso", "confiança"],
-        "nl": ["duidelijkheid", "vooruitgang", "vertrouwen"],
-        "es": ["claridad", "progreso", "confianza"],
-        "de": ["Klarheit", "Fortschritt", "Vertrauen"],
-        "it": ["chiarezza", "progresso", "fiducia"],
-        "ru": ["ясность", "прогресс", "уверенность"],
-        "id": ["kejelasan", "kemajuan", "kepercayaan"],
-        "ja": ["明瞭", "進歩", "自信"],
-        "th": ["ความชัดเจน", "ความก้าวหน้า", "ความมั่นใจ"],
-        "ms": ["kejelasan", "kemajuan", "keyakinan"]
+        "en": [
+          "clarity",
+          "progress",
+          "confidence"
+        ],
+        "tr": [
+          "netlik",
+          "ilerleme",
+          "güven"
+        ],
+        "fr": [
+          "clarté",
+          "progrès",
+          "confiance"
+        ],
+        "pt": [
+          "clareza",
+          "progresso",
+          "confiança"
+        ],
+        "nl": [
+          "duidelijkheid",
+          "vooruitgang",
+          "vertrouwen"
+        ],
+        "es": [
+          "claridad",
+          "progreso",
+          "confianza"
+        ],
+        "de": [
+          "Klarheit",
+          "Fortschritt",
+          "Vertrauen"
+        ],
+        "it": [
+          "chiarezza",
+          "progresso",
+          "fiducia"
+        ],
+        "ru": [
+          "ясность",
+          "прогресс",
+          "уверенность"
+        ],
+        "id": [
+          "kejelasan",
+          "kemajuan",
+          "kepercayaan"
+        ],
+        "ja": [
+          "明瞭",
+          "進歩",
+          "自信"
+        ],
+        "th": [
+          "ความชัดเจน",
+          "ความก้าวหน้า",
+          "ความมั่นใจ"
+        ],
+        "ms": [
+          "kejelasan",
+          "kemajuan",
+          "keyakinan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creativity", "progress", "innovation"],
-        "tr": ["yaratıcılık", "ilerleme", "yenilik"],
-        "fr": ["créativité", "progrès", "innovation"],
-        "pt": ["criatividade", "progresso", "inovação"],
-        "nl": ["creativiteit", "vooruitgang", "innovatie"],
-        "es": ["creatividad", "progreso", "innovación"],
-        "de": ["Kreativität", "Fortschritt", "Innovation"],
-        "it": ["creatività", "progresso", "innovazione"],
-        "ru": ["креативность", "прогресс", "инновация"],
-        "id": ["kreativitas", "kemajuan", "inovasi"],
-        "ja": ["創造性", "進歩", "革新"],
-        "th": ["ความคิดสร้างสรรค์", "ความก้าวหน้า", "นวัตกรรม"],
-        "ms": ["kreativiti", "kemajuan", "inovasi"]
+        "en": [
+          "creativity",
+          "progress",
+          "innovation"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "ilerleme",
+          "yenilik"
+        ],
+        "fr": [
+          "créativité",
+          "progrès",
+          "innovation"
+        ],
+        "pt": [
+          "criatividade",
+          "progresso",
+          "inovação"
+        ],
+        "nl": [
+          "creativiteit",
+          "vooruitgang",
+          "innovatie"
+        ],
+        "es": [
+          "creatividad",
+          "progreso",
+          "innovación"
+        ],
+        "de": [
+          "Kreativität",
+          "Fortschritt",
+          "Innovation"
+        ],
+        "it": [
+          "creatività",
+          "progresso",
+          "innovazione"
+        ],
+        "ru": [
+          "креативность",
+          "прогресс",
+          "инновация"
+        ],
+        "id": [
+          "kreativitas",
+          "kemajuan",
+          "inovasi"
+        ],
+        "ja": [
+          "創造性",
+          "進歩",
+          "革新"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความก้าวหน้า",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "kreativiti",
+          "kemajuan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2023,19 +2907,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["opportunity", "access", "empowerment"],
-        "tr": ["fırsat", "erişim", "güçlendirme"],
-        "fr": ["opportunité", "accès", "autonomisation"],
-        "pt": ["oportunidade", "acesso", "empoderamento"],
-        "nl": ["kans", "toegang", "empowerment"],
-        "es": ["oportunidad", "acceso", "empoderamiento"],
-        "de": ["Gelegenheit", "Zugang", "Ermächtigung"],
-        "it": ["opportunità", "accesso", "empowerment"],
-        "ru": ["возможность", "доступ", "расширение возможностей"],
-        "id": ["peluang", "akses", "pemberdayaan"],
-        "ja": ["機会", "アクセス", "エンパワーメント"],
-        "th": ["โอกาส", "การเข้าถึง", "การเพิ่มพลัง"],
-        "ms": ["peluang", "akses", "pemberdayaan"]
+        "en": [
+          "opportunity",
+          "access",
+          "empowerment"
+        ],
+        "tr": [
+          "fırsat",
+          "erişim",
+          "güçlendirme"
+        ],
+        "fr": [
+          "opportunité",
+          "accès",
+          "autonomisation"
+        ],
+        "pt": [
+          "oportunidade",
+          "acesso",
+          "empoderamento"
+        ],
+        "nl": [
+          "kans",
+          "toegang",
+          "empowerment"
+        ],
+        "es": [
+          "oportunidad",
+          "acceso",
+          "empoderamiento"
+        ],
+        "de": [
+          "Gelegenheit",
+          "Zugang",
+          "Ermächtigung"
+        ],
+        "it": [
+          "opportunità",
+          "accesso",
+          "empowerment"
+        ],
+        "ru": [
+          "возможность",
+          "доступ",
+          "расширение возможностей"
+        ],
+        "id": [
+          "peluang",
+          "akses",
+          "pemberdayaan"
+        ],
+        "ja": [
+          "機会",
+          "アクセス",
+          "エンパワーメント"
+        ],
+        "th": [
+          "โอกาส",
+          "การเข้าถึง",
+          "การเพิ่มพลัง"
+        ],
+        "ms": [
+          "peluang",
+          "akses",
+          "pemberdayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["imagination", "future", "creativity"],
-        "tr": ["hayal gücü", "gelecek", "yaratıcılık"],
-        "fr": ["imagination", "avenir", "créativité"],
-        "pt": ["imaginação", "futuro", "criatividade"],
-        "nl": ["verbeelding", "toekomst", "creativiteit"],
-        "es": ["imaginación", "futuro", "creatividad"],
-        "de": ["Vorstellungskraft", "Zukunft", "Kreativität"],
-        "it": ["immaginazione", "futuro", "creatività"],
-        "ru": ["воображение", "будущее", "креативность"],
-        "id": ["imajinasi", "masa depan", "kreativitas"],
-        "ja": ["想像力", "未来", "創造性"],
-        "th": ["จินตนาการ", "อนาคต", "ความคิดสร้างสรรค์"],
-        "ms": ["imaginasi", "masa depan", "kreativiti"]
+        "en": [
+          "imagination",
+          "future",
+          "creativity"
+        ],
+        "tr": [
+          "hayal gücü",
+          "gelecek",
+          "yaratıcılık"
+        ],
+        "fr": [
+          "imagination",
+          "avenir",
+          "créativité"
+        ],
+        "pt": [
+          "imaginação",
+          "futuro",
+          "criatividade"
+        ],
+        "nl": [
+          "verbeelding",
+          "toekomst",
+          "creativiteit"
+        ],
+        "es": [
+          "imaginación",
+          "futuro",
+          "creatividad"
+        ],
+        "de": [
+          "Vorstellungskraft",
+          "Zukunft",
+          "Kreativität"
+        ],
+        "it": [
+          "immaginazione",
+          "futuro",
+          "creatività"
+        ],
+        "ru": [
+          "воображение",
+          "будущее",
+          "креативность"
+        ],
+        "id": [
+          "imajinasi",
+          "masa depan",
+          "kreativitas"
+        ],
+        "ja": [
+          "想像力",
+          "未来",
+          "創造性"
+        ],
+        "th": [
+          "จินตนาการ",
+          "อนาคต",
+          "ความคิดสร้างสรรค์"
+        ],
+        "ms": [
+          "imaginasi",
+          "masa depan",
+          "kreativiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2257,19 +3245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["journey", "horizons", "progress"],
-        "tr": ["yolculuk", "ufuklar", "ilerleme"],
-        "fr": ["voyage", "horizons", "progrès"],
-        "pt": ["jornada", "horizontes", "progresso"],
-        "nl": ["reis", "horizonten", "vooruitgang"],
-        "es": ["viaje", "horizontes", "progreso"],
-        "de": ["Reise", "Horizonte", "Fortschritt"],
-        "it": ["viaggio", "orizzonti", "progresso"],
-        "ru": ["путешествие", "горизонты", "прогресс"],
-        "id": ["perjalanan", "cakrawala", "kemajuan"],
-        "ja": ["旅", "地平", "進歩"],
-        "th": ["การเดินทาง", "ขอบฟ้า", "ความก้าวหน้า"],
-        "ms": ["perjalanan", "ufuk", "kemajuan"]
+        "en": [
+          "journey",
+          "horizons",
+          "progress"
+        ],
+        "tr": [
+          "yolculuk",
+          "ufuklar",
+          "ilerleme"
+        ],
+        "fr": [
+          "voyage",
+          "horizons",
+          "progrès"
+        ],
+        "pt": [
+          "jornada",
+          "horizontes",
+          "progresso"
+        ],
+        "nl": [
+          "reis",
+          "horizonten",
+          "vooruitgang"
+        ],
+        "es": [
+          "viaje",
+          "horizontes",
+          "progreso"
+        ],
+        "de": [
+          "Reise",
+          "Horizonte",
+          "Fortschritt"
+        ],
+        "it": [
+          "viaggio",
+          "orizzonti",
+          "progresso"
+        ],
+        "ru": [
+          "путешествие",
+          "горизонты",
+          "прогресс"
+        ],
+        "id": [
+          "perjalanan",
+          "cakrawala",
+          "kemajuan"
+        ],
+        "ja": [
+          "旅",
+          "地平",
+          "進歩"
+        ],
+        "th": [
+          "การเดินทาง",
+          "ขอบฟ้า",
+          "ความก้าวหน้า"
+        ],
+        "ms": [
+          "perjalanan",
+          "ufuk",
+          "kemajuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["potential", "innovation", "inspiration"],
-        "tr": ["potansiyel", "yenilik", "ilham"],
-        "fr": ["potentiel", "innovation", "inspiration"],
-        "pt": ["potencial", "inovação", "inspiração"],
-        "nl": ["potentieel", "innovatie", "inspiratie"],
-        "es": ["potencial", "innovación", "inspiración"],
-        "de": ["Potenzial", "Innovation", "Inspiration"],
-        "it": ["potenziale", "innovazione", "ispirazione"],
-        "ru": ["потенциал", "инновация", "вдохновение"],
-        "id": ["potensi", "inovasi", "inspirasi"],
-        "ja": ["潜在能力", "革新", "インスピレーション"],
-        "th": ["ศักยภาพ", "นวัตกรรม", "แรงบันดาลใจ"],
-        "ms": ["potensi", "inovasi", "inspirasi"]
+        "en": [
+          "potential",
+          "innovation",
+          "inspiration"
+        ],
+        "tr": [
+          "potansiyel",
+          "yenilik",
+          "ilham"
+        ],
+        "fr": [
+          "potentiel",
+          "innovation",
+          "inspiration"
+        ],
+        "pt": [
+          "potencial",
+          "inovação",
+          "inspiração"
+        ],
+        "nl": [
+          "potentieel",
+          "innovatie",
+          "inspiratie"
+        ],
+        "es": [
+          "potencial",
+          "innovación",
+          "inspiración"
+        ],
+        "de": [
+          "Potenzial",
+          "Innovation",
+          "Inspiration"
+        ],
+        "it": [
+          "potenziale",
+          "innovazione",
+          "ispirazione"
+        ],
+        "ru": [
+          "потенциал",
+          "инновация",
+          "вдохновение"
+        ],
+        "id": [
+          "potensi",
+          "inovasi",
+          "inspirasi"
+        ],
+        "ja": [
+          "潜在能力",
+          "革新",
+          "インスピレーション"
+        ],
+        "th": [
+          "ศักยภาพ",
+          "นวัตกรรม",
+          "แรงบันดาลใจ"
+        ],
+        "ms": [
+          "potensi",
+          "inovasi",
+          "inspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2491,19 +3583,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "exploration", "discovery"],
-        "tr": ["rehberlik", "keşif", "buluş"],
-        "fr": ["guidance", "exploration", "découverte"],
-        "pt": ["orientação", "exploração", "descoberta"],
-        "nl": ["begeleiding", "verkenning", "ontdekking"],
-        "es": ["guía", "exploración", "descubrimiento"],
-        "de": ["Führung", "Erkundung", "Entdeckung"],
-        "it": ["guida", "esplorazione", "scoperta"],
-        "ru": ["руководство", "исследование", "открытие"],
-        "id": ["panduan", "eksplorasi", "penemuan"],
-        "ja": ["指導", "探検", "発見"],
-        "th": ["การนำทาง", "การสำรวจ", "การค้นพบ"],
-        "ms": ["panduan", "penerokaan", "penemuan"]
+        "en": [
+          "guidance",
+          "exploration",
+          "discovery"
+        ],
+        "tr": [
+          "rehberlik",
+          "keşif",
+          "buluş"
+        ],
+        "fr": [
+          "guidance",
+          "exploration",
+          "découverte"
+        ],
+        "pt": [
+          "orientação",
+          "exploração",
+          "descoberta"
+        ],
+        "nl": [
+          "begeleiding",
+          "verkenning",
+          "ontdekking"
+        ],
+        "es": [
+          "guía",
+          "exploración",
+          "descubrimiento"
+        ],
+        "de": [
+          "Führung",
+          "Erkundung",
+          "Entdeckung"
+        ],
+        "it": [
+          "guida",
+          "esplorazione",
+          "scoperta"
+        ],
+        "ru": [
+          "руководство",
+          "исследование",
+          "открытие"
+        ],
+        "id": [
+          "panduan",
+          "eksplorasi",
+          "penemuan"
+        ],
+        "ja": [
+          "指導",
+          "探検",
+          "発見"
+        ],
+        "th": [
+          "การนำทาง",
+          "การสำรวจ",
+          "การค้นพบ"
+        ],
+        "ms": [
+          "panduan",
+          "penerokaan",
+          "penemuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3752,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "progress", "potential"],
-        "tr": ["büyüme", "ilerleme", "potansiyel"],
-        "fr": ["croissance", "progrès", "potentiel"],
-        "pt": ["crescimento", "progresso", "potencial"],
-        "nl": ["groei", "vooruitgang", "potentieel"],
-        "es": ["crecimiento", "progreso", "potencial"],
-        "de": ["Wachstum", "Fortschritt", "Potenzial"],
-        "it": ["crescita", "progresso", "potenziale"],
-        "ru": ["рост", "прогресс", "потенциал"],
-        "id": ["pertumbuhan", "kemajuan", "potensi"],
-        "ja": ["成長", "進歩", "潜在能力"],
-        "th": ["การเติบโต", "ความก้าวหน้า", "ศักยภาพ"],
-        "ms": ["pertumbuhan", "kemajuan", "potensi"]
+        "en": [
+          "growth",
+          "progress",
+          "potential"
+        ],
+        "tr": [
+          "büyüme",
+          "ilerleme",
+          "potansiyel"
+        ],
+        "fr": [
+          "croissance",
+          "progrès",
+          "potentiel"
+        ],
+        "pt": [
+          "crescimento",
+          "progresso",
+          "potencial"
+        ],
+        "nl": [
+          "groei",
+          "vooruitgang",
+          "potentieel"
+        ],
+        "es": [
+          "crecimiento",
+          "progreso",
+          "potencial"
+        ],
+        "de": [
+          "Wachstum",
+          "Fortschritt",
+          "Potenzial"
+        ],
+        "it": [
+          "crescita",
+          "progresso",
+          "potenziale"
+        ],
+        "ru": [
+          "рост",
+          "прогресс",
+          "потенциал"
+        ],
+        "id": [
+          "pertumbuhan",
+          "kemajuan",
+          "potensi"
+        ],
+        "ja": [
+          "成長",
+          "進歩",
+          "潜在能力"
+        ],
+        "th": [
+          "การเติบโต",
+          "ความก้าวหน้า",
+          "ศักยภาพ"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "kemajuan",
+          "potensi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2725,19 +3921,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "reality", "connection"],
-        "tr": ["hayaller", "gerçeklik", "bağlantı"],
-        "fr": ["rêves", "réalité", "connexion"],
-        "pt": ["sonhos", "realidade", "conexão"],
-        "nl": ["dromen", "realiteit", "verbinding"],
-        "es": ["sueños", "realidad", "conexión"],
-        "de": ["Träume", "Realität", "Verbindung"],
-        "it": ["sogni", "realtà", "connessione"],
-        "ru": ["мечты", "реальность", "связь"],
-        "id": ["mimpi", "kenyataan", "hubungan"],
-        "ja": ["夢", "現実", "つながり"],
-        "th": ["ความฝัน", "ความเป็นจริง", "การเชื่อมโยง"],
-        "ms": ["impian", "realiti", "hubungan"]
+        "en": [
+          "dreams",
+          "reality",
+          "connection"
+        ],
+        "tr": [
+          "hayaller",
+          "gerçeklik",
+          "bağlantı"
+        ],
+        "fr": [
+          "rêves",
+          "réalité",
+          "connexion"
+        ],
+        "pt": [
+          "sonhos",
+          "realidade",
+          "conexão"
+        ],
+        "nl": [
+          "dromen",
+          "realiteit",
+          "verbinding"
+        ],
+        "es": [
+          "sueños",
+          "realidad",
+          "conexión"
+        ],
+        "de": [
+          "Träume",
+          "Realität",
+          "Verbindung"
+        ],
+        "it": [
+          "sogni",
+          "realtà",
+          "connessione"
+        ],
+        "ru": [
+          "мечты",
+          "реальность",
+          "связь"
+        ],
+        "id": [
+          "mimpi",
+          "kenyataan",
+          "hubungan"
+        ],
+        "ja": [
+          "夢",
+          "現実",
+          "つながり"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความเป็นจริง",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "impian",
+          "realiti",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2842,19 +4090,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["ambition", "progress", "momentum"],
-        "tr": ["hırs", "ilerleme", "ivme"],
-        "fr": ["ambition", "progrès", "élan"],
-        "pt": ["ambição", "progresso", "impulso"],
-        "nl": ["ambitie", "vooruitgang", "momentum"],
-        "es": ["ambición", "progreso", "impulso"],
-        "de": ["Ambition", "Fortschritt", "Schwung"],
-        "it": ["ambizione", "progresso", "slancio"],
-        "ru": ["амбиция", "прогресс", "импульс"],
-        "id": ["ambisi", "kemajuan", "momentum"],
-        "ja": ["野心", "進歩", "勢い"],
-        "th": ["ความทะเยอทะยาน", "ความก้าวหน้า", "แรงผลักดัน"],
-        "ms": ["cita-cita", "kemajuan", "momentum"]
+        "en": [
+          "ambition",
+          "progress",
+          "momentum"
+        ],
+        "tr": [
+          "hırs",
+          "ilerleme",
+          "ivme"
+        ],
+        "fr": [
+          "ambition",
+          "progrès",
+          "élan"
+        ],
+        "pt": [
+          "ambição",
+          "progresso",
+          "impulso"
+        ],
+        "nl": [
+          "ambitie",
+          "vooruitgang",
+          "momentum"
+        ],
+        "es": [
+          "ambición",
+          "progreso",
+          "impulso"
+        ],
+        "de": [
+          "Ambition",
+          "Fortschritt",
+          "Schwung"
+        ],
+        "it": [
+          "ambizione",
+          "progresso",
+          "slancio"
+        ],
+        "ru": [
+          "амбиция",
+          "прогресс",
+          "импульс"
+        ],
+        "id": [
+          "ambisi",
+          "kemajuan",
+          "momentum"
+        ],
+        "ja": [
+          "野心",
+          "進歩",
+          "勢い"
+        ],
+        "th": [
+          "ความทะเยอทะยาน",
+          "ความก้าวหน้า",
+          "แรงผลักดัน"
+        ],
+        "ms": [
+          "cita-cita",
+          "kemajuan",
+          "momentum"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2959,19 +4259,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["reflection", "aspirations", "society"],
-        "tr": ["yansıma", "arzular", "toplum"],
-        "fr": ["réflexion", "aspirations", "société"],
-        "pt": ["reflexão", "aspirações", "sociedade"],
-        "nl": ["reflectie", "aspiraties", "samenleving"],
-        "es": ["reflexión", "aspiraciones", "sociedad"],
-        "de": ["Spiegelung", "Aspirationen", "Gesellschaft"],
-        "it": ["riflessione", "aspirazioni", "società"],
-        "ru": ["отражение", "стремления", "общество"],
-        "id": ["cerminan", "aspirasi", "masyarakat"],
-        "ja": ["反射", "志向", "社会"],
-        "th": ["การสะท้อน", "ความปรารถนา", "สังคม"],
-        "ms": ["cerminan", "aspirasi", "masyarakat"]
+        "en": [
+          "reflection",
+          "aspirations",
+          "society"
+        ],
+        "tr": [
+          "yansıma",
+          "arzular",
+          "toplum"
+        ],
+        "fr": [
+          "réflexion",
+          "aspirations",
+          "société"
+        ],
+        "pt": [
+          "reflexão",
+          "aspirações",
+          "sociedade"
+        ],
+        "nl": [
+          "reflectie",
+          "aspiraties",
+          "samenleving"
+        ],
+        "es": [
+          "reflexión",
+          "aspiraciones",
+          "sociedad"
+        ],
+        "de": [
+          "Spiegelung",
+          "Aspirationen",
+          "Gesellschaft"
+        ],
+        "it": [
+          "riflessione",
+          "aspirazioni",
+          "società"
+        ],
+        "ru": [
+          "отражение",
+          "стремления",
+          "общество"
+        ],
+        "id": [
+          "cerminan",
+          "aspirasi",
+          "masyarakat"
+        ],
+        "ja": [
+          "反射",
+          "志向",
+          "社会"
+        ],
+        "th": [
+          "การสะท้อน",
+          "ความปรารถนา",
+          "สังคม"
+        ],
+        "ms": [
+          "cerminan",
+          "aspirasi",
+          "masyarakat"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3076,19 +4428,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["opportunity", "innovation", "access"],
-        "tr": ["fırsat", "yenilik", "erişim"],
-        "fr": ["opportunité", "innovation", "accès"],
-        "pt": ["oportunidade", "inovação", "acesso"],
-        "nl": ["kansen", "innovatie", "toegang"],
-        "es": ["oportunidad", "innovación", "acceso"],
-        "de": ["Gelegenheit", "Innovation", "Zugang"],
-        "it": ["opportunità", "innovazione", "accesso"],
-        "ru": ["возможность", "инновация", "доступ"],
-        "id": ["peluang", "inovasi", "akses"],
-        "ja": ["機会", "革新", "アクセス"],
-        "th": ["โอกาส", "นวัตกรรม", "การเข้าถึง"],
-        "ms": ["peluang", "inovasi", "akses"]
+        "en": [
+          "opportunity",
+          "innovation",
+          "access"
+        ],
+        "tr": [
+          "fırsat",
+          "yenilik",
+          "erişim"
+        ],
+        "fr": [
+          "opportunité",
+          "innovation",
+          "accès"
+        ],
+        "pt": [
+          "oportunidade",
+          "inovação",
+          "acesso"
+        ],
+        "nl": [
+          "kansen",
+          "innovatie",
+          "toegang"
+        ],
+        "es": [
+          "oportunidad",
+          "innovación",
+          "acceso"
+        ],
+        "de": [
+          "Gelegenheit",
+          "Innovation",
+          "Zugang"
+        ],
+        "it": [
+          "opportunità",
+          "innovazione",
+          "accesso"
+        ],
+        "ru": [
+          "возможность",
+          "инновация",
+          "доступ"
+        ],
+        "id": [
+          "peluang",
+          "inovasi",
+          "akses"
+        ],
+        "ja": [
+          "機会",
+          "革新",
+          "アクセス"
+        ],
+        "th": [
+          "โอกาส",
+          "นวัตกรรม",
+          "การเข้าถึง"
+        ],
+        "ms": [
+          "peluang",
+          "inovasi",
+          "akses"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3193,19 +4597,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["illumination", "future", "guidance"],
-        "tr": ["aydınlatma", "gelecek", "rehberlik"],
-        "fr": ["illumination", "avenir", "guidance"],
-        "pt": ["iluminação", "futuro", "orientação"],
-        "nl": ["verlichting", "toekomst", "begeleiding"],
-        "es": ["iluminación", "futuro", "guía"],
-        "de": ["Erleuchtung", "Zukunft", "Führung"],
-        "it": ["illuminazione", "futuro", "guida"],
-        "ru": ["освещение", "будущее", "руководство"],
-        "id": ["penerangan", "masa depan", "panduan"],
-        "ja": ["照明", "未来", "指導"],
-        "th": ["การส่องสว่าง", "อนาคต", "การนำทาง"],
-        "ms": ["penerangan", "masa depan", "panduan"]
+        "en": [
+          "illumination",
+          "future",
+          "guidance"
+        ],
+        "tr": [
+          "aydınlatma",
+          "gelecek",
+          "rehberlik"
+        ],
+        "fr": [
+          "illumination",
+          "avenir",
+          "guidance"
+        ],
+        "pt": [
+          "iluminação",
+          "futuro",
+          "orientação"
+        ],
+        "nl": [
+          "verlichting",
+          "toekomst",
+          "begeleiding"
+        ],
+        "es": [
+          "iluminación",
+          "futuro",
+          "guía"
+        ],
+        "de": [
+          "Erleuchtung",
+          "Zukunft",
+          "Führung"
+        ],
+        "it": [
+          "illuminazione",
+          "futuro",
+          "guida"
+        ],
+        "ru": [
+          "освещение",
+          "будущее",
+          "руководство"
+        ],
+        "id": [
+          "penerangan",
+          "masa depan",
+          "panduan"
+        ],
+        "ja": [
+          "照明",
+          "未来",
+          "指導"
+        ],
+        "th": [
+          "การส่องสว่าง",
+          "อนาคต",
+          "การนำทาง"
+        ],
+        "ms": [
+          "penerangan",
+          "masa depan",
+          "panduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3310,19 +4766,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["exploration", "progress", "journey"],
-        "tr": ["keşif", "ilerleme", "yolculuk"],
-        "fr": ["exploration", "progrès", "voyage"],
-        "pt": ["exploração", "progresso", "jornada"],
-        "nl": ["verkenning", "vooruitgang", "reis"],
-        "es": ["exploración", "progreso", "viaje"],
-        "de": ["Erforschung", "Fortschritt", "Reise"],
-        "it": ["esplorazione", "progresso", "viaggio"],
-        "ru": ["исследование", "прогресс", "путешествие"],
-        "id": ["eksplorasi", "kemajuan", "perjalanan"],
-        "ja": ["探検", "進歩", "旅"],
-        "th": ["การสำรวจ", "ความก้าวหน้า", "การเดินทาง"],
-        "ms": ["penerokaan", "kemajuan", "perjalanan"]
+        "en": [
+          "exploration",
+          "progress",
+          "journey"
+        ],
+        "tr": [
+          "keşif",
+          "ilerleme",
+          "yolculuk"
+        ],
+        "fr": [
+          "exploration",
+          "progrès",
+          "voyage"
+        ],
+        "pt": [
+          "exploração",
+          "progresso",
+          "jornada"
+        ],
+        "nl": [
+          "verkenning",
+          "vooruitgang",
+          "reis"
+        ],
+        "es": [
+          "exploración",
+          "progreso",
+          "viaje"
+        ],
+        "de": [
+          "Erforschung",
+          "Fortschritt",
+          "Reise"
+        ],
+        "it": [
+          "esplorazione",
+          "progresso",
+          "viaggio"
+        ],
+        "ru": [
+          "исследование",
+          "прогресс",
+          "путешествие"
+        ],
+        "id": [
+          "eksplorasi",
+          "kemajuan",
+          "perjalanan"
+        ],
+        "ja": [
+          "探検",
+          "進歩",
+          "旅"
+        ],
+        "th": [
+          "การสำรวจ",
+          "ความก้าวหน้า",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "penerokaan",
+          "kemajuan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3427,19 +4935,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creativity", "future", "innovation"],
-        "tr": ["yaratıcılık", "gelecek", "yenilik"],
-        "fr": ["créativité", "avenir", "innovation"],
-        "pt": ["criatividade", "futuro", "inovação"],
-        "nl": ["creativiteit", "toekomst", "innovatie"],
-        "es": ["creatividad", "futuro", "innovación"],
-        "de": ["Kreativität", "Zukunft", "Innovation"],
-        "it": ["creatività", "futuro", "innovazione"],
-        "ru": ["творчество", "будущее", "инновация"],
-        "id": ["kreativitas", "masa depan", "inovasi"],
-        "ja": ["創造性", "未来", "革新"],
-        "th": ["ความคิดสร้างสรรค์", "อนาคต", "นวัตกรรม"],
-        "ms": ["kreativiti", "masa depan", "inovasi"]
+        "en": [
+          "creativity",
+          "future",
+          "innovation"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "gelecek",
+          "yenilik"
+        ],
+        "fr": [
+          "créativité",
+          "avenir",
+          "innovation"
+        ],
+        "pt": [
+          "criatividade",
+          "futuro",
+          "inovação"
+        ],
+        "nl": [
+          "creativiteit",
+          "toekomst",
+          "innovatie"
+        ],
+        "es": [
+          "creatividad",
+          "futuro",
+          "innovación"
+        ],
+        "de": [
+          "Kreativität",
+          "Zukunft",
+          "Innovation"
+        ],
+        "it": [
+          "creatività",
+          "futuro",
+          "innovazione"
+        ],
+        "ru": [
+          "творчество",
+          "будущее",
+          "инновация"
+        ],
+        "id": [
+          "kreativitas",
+          "masa depan",
+          "inovasi"
+        ],
+        "ja": [
+          "創造性",
+          "未来",
+          "革新"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "อนาคต",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "kreativiti",
+          "masa depan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3544,19 +5104,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "exploration", "direction"],
-        "tr": ["rehberlik", "keşif", "yön"],
-        "fr": ["guidance", "exploration", "direction"],
-        "pt": ["orientação", "exploração", "direção"],
-        "nl": ["begeleiding", "verkenning", "richting"],
-        "es": ["guía", "exploración", "dirección"],
-        "de": ["Führung", "Erforschung", "Richtung"],
-        "it": ["guida", "esplorazione", "direzione"],
-        "ru": ["руководство", "исследование", "направление"],
-        "id": ["panduan", "eksplorasi", "arah"],
-        "ja": ["指導", "探検", "方向"],
-        "th": ["การนำทาง", "การสำรวจ", "ทิศทาง"],
-        "ms": ["panduan", "penerokaan", "arah"]
+        "en": [
+          "guidance",
+          "exploration",
+          "direction"
+        ],
+        "tr": [
+          "rehberlik",
+          "keşif",
+          "yön"
+        ],
+        "fr": [
+          "guidance",
+          "exploration",
+          "direction"
+        ],
+        "pt": [
+          "orientação",
+          "exploração",
+          "direção"
+        ],
+        "nl": [
+          "begeleiding",
+          "verkenning",
+          "richting"
+        ],
+        "es": [
+          "guía",
+          "exploración",
+          "dirección"
+        ],
+        "de": [
+          "Führung",
+          "Erforschung",
+          "Richtung"
+        ],
+        "it": [
+          "guida",
+          "esplorazione",
+          "direzione"
+        ],
+        "ru": [
+          "руководство",
+          "исследование",
+          "направление"
+        ],
+        "id": [
+          "panduan",
+          "eksplorasi",
+          "arah"
+        ],
+        "ja": [
+          "指導",
+          "探検",
+          "方向"
+        ],
+        "th": [
+          "การนำทาง",
+          "การสำรวจ",
+          "ทิศทาง"
+        ],
+        "ms": [
+          "panduan",
+          "penerokaan",
+          "arah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3661,19 +5273,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["progress", "connection", "creation"],
-        "tr": ["ilerleme", "bağlantı", "yaratım"],
-        "fr": ["progrès", "connexion", "création"],
-        "pt": ["progresso", "conexão", "criação"],
-        "nl": ["vooruitgang", "verbinding", "creatie"],
-        "es": ["progreso", "conexión", "creación"],
-        "de": ["Fortschritt", "Verbindung", "Schöpfung"],
-        "it": ["progresso", "connessione", "creazione"],
-        "ru": ["прогресс", "связь", "создание"],
-        "id": ["kemajuan", "hubungan", "penciptaan"],
-        "ja": ["進歩", "つながり", "創造"],
-        "th": ["ความก้าวหน้า", "การเชื่อมโยง", "การสร้าง"],
-        "ms": ["kemajuan", "hubungan", "penciptaan"]
+        "en": [
+          "progress",
+          "connection",
+          "creation"
+        ],
+        "tr": [
+          "ilerleme",
+          "bağlantı",
+          "yaratım"
+        ],
+        "fr": [
+          "progrès",
+          "connexion",
+          "création"
+        ],
+        "pt": [
+          "progresso",
+          "conexão",
+          "criação"
+        ],
+        "nl": [
+          "vooruitgang",
+          "verbinding",
+          "creatie"
+        ],
+        "es": [
+          "progreso",
+          "conexión",
+          "creación"
+        ],
+        "de": [
+          "Fortschritt",
+          "Verbindung",
+          "Schöpfung"
+        ],
+        "it": [
+          "progresso",
+          "connessione",
+          "creazione"
+        ],
+        "ru": [
+          "прогресс",
+          "связь",
+          "создание"
+        ],
+        "id": [
+          "kemajuan",
+          "hubungan",
+          "penciptaan"
+        ],
+        "ja": [
+          "進歩",
+          "つながり",
+          "創造"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "การเชื่อมโยง",
+          "การสร้าง"
+        ],
+        "ms": [
+          "kemajuan",
+          "hubungan",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3778,19 +5442,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "future", "potential"],
-        "tr": ["büyüme", "gelecek", "potansiyel"],
-        "fr": ["croissance", "avenir", "potentiel"],
-        "pt": ["crescimento", "futuro", "potencial"],
-        "nl": ["groei", "toekomst", "potentieel"],
-        "es": ["crecimiento", "futuro", "potencial"],
-        "de": ["Wachstum", "Zukunft", "Potenzial"],
-        "it": ["crescita", "futuro", "potenziale"],
-        "ru": ["рост", "будущее", "потенциал"],
-        "id": ["pertumbuhan", "masa depan", "potensi"],
-        "ja": ["成長", "未来", "可能性"],
-        "th": ["การเติบโต", "อนาคต", "ศักยภาพ"],
-        "ms": ["pertumbuhan", "masa depan", "potensi"]
+        "en": [
+          "growth",
+          "future",
+          "potential"
+        ],
+        "tr": [
+          "büyüme",
+          "gelecek",
+          "potansiyel"
+        ],
+        "fr": [
+          "croissance",
+          "avenir",
+          "potentiel"
+        ],
+        "pt": [
+          "crescimento",
+          "futuro",
+          "potencial"
+        ],
+        "nl": [
+          "groei",
+          "toekomst",
+          "potentieel"
+        ],
+        "es": [
+          "crecimiento",
+          "futuro",
+          "potencial"
+        ],
+        "de": [
+          "Wachstum",
+          "Zukunft",
+          "Potenzial"
+        ],
+        "it": [
+          "crescita",
+          "futuro",
+          "potenziale"
+        ],
+        "ru": [
+          "рост",
+          "будущее",
+          "потенциал"
+        ],
+        "id": [
+          "pertumbuhan",
+          "masa depan",
+          "potensi"
+        ],
+        "ja": [
+          "成長",
+          "未来",
+          "可能性"
+        ],
+        "th": [
+          "การเติบโต",
+          "อนาคต",
+          "ศักยภาพ"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "masa depan",
+          "potensi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3895,19 +5611,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "aspiration", "realization"],
-        "tr": ["bağlantı", "hedef", "gerçekleşme"],
-        "fr": ["connexion", "aspiration", "réalisation"],
-        "pt": ["conexão", "aspiração", "realização"],
-        "nl": ["verbinding", "aspiratie", "realisatie"],
-        "es": ["conexión", "aspiración", "realización"],
-        "de": ["Verbindung", "Streben", "Verwirklichung"],
-        "it": ["connessione", "aspirazione", "realizzazione"],
-        "ru": ["связь", "стремление", "реализация"],
-        "id": ["hubungan", "aspirasi", "realisasi"],
-        "ja": ["つながり", "願望", "実現"],
-        "th": ["การเชื่อมโยง", "ความปรารถนา", "การทำให้เป็นจริง"],
-        "ms": ["hubungan", "aspirasi", "realisasi"]
+        "en": [
+          "connection",
+          "aspiration",
+          "realization"
+        ],
+        "tr": [
+          "bağlantı",
+          "hedef",
+          "gerçekleşme"
+        ],
+        "fr": [
+          "connexion",
+          "aspiration",
+          "réalisation"
+        ],
+        "pt": [
+          "conexão",
+          "aspiração",
+          "realização"
+        ],
+        "nl": [
+          "verbinding",
+          "aspiratie",
+          "realisatie"
+        ],
+        "es": [
+          "conexión",
+          "aspiración",
+          "realización"
+        ],
+        "de": [
+          "Verbindung",
+          "Streben",
+          "Verwirklichung"
+        ],
+        "it": [
+          "connessione",
+          "aspirazione",
+          "realizzazione"
+        ],
+        "ru": [
+          "связь",
+          "стремление",
+          "реализация"
+        ],
+        "id": [
+          "hubungan",
+          "aspirasi",
+          "realisasi"
+        ],
+        "ja": [
+          "つながり",
+          "願望",
+          "実現"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "ความปรารถนา",
+          "การทำให้เป็นจริง"
+        ],
+        "ms": [
+          "hubungan",
+          "aspirasi",
+          "realisasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4012,19 +5780,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["innovation", "inspiration", "creation"],
-        "tr": ["yenilik", "ilham", "yaratım"],
-        "fr": ["innovation", "inspiration", "création"],
-        "pt": ["inovação", "inspiração", "criação"],
-        "nl": ["innovatie", "inspiratie", "creatie"],
-        "es": ["innovación", "inspiración", "creación"],
-        "de": ["Innovation", "Inspiration", "Schöpfung"],
-        "it": ["innovazione", "ispirazione", "creazione"],
-        "ru": ["инновация", "вдохновение", "создание"],
-        "id": ["inovasi", "inspirasi", "penciptaan"],
-        "ja": ["革新", "インスピレーション", "創造"],
-        "th": ["นวัตกรรม", "แรงบันดาลใจ", "การสร้าง"],
-        "ms": ["inovasi", "inspirasi", "penciptaan"]
+        "en": [
+          "innovation",
+          "inspiration",
+          "creation"
+        ],
+        "tr": [
+          "yenilik",
+          "ilham",
+          "yaratım"
+        ],
+        "fr": [
+          "innovation",
+          "inspiration",
+          "création"
+        ],
+        "pt": [
+          "inovação",
+          "inspiração",
+          "criação"
+        ],
+        "nl": [
+          "innovatie",
+          "inspiratie",
+          "creatie"
+        ],
+        "es": [
+          "innovación",
+          "inspiración",
+          "creación"
+        ],
+        "de": [
+          "Innovation",
+          "Inspiration",
+          "Schöpfung"
+        ],
+        "it": [
+          "innovazione",
+          "ispirazione",
+          "creazione"
+        ],
+        "ru": [
+          "инновация",
+          "вдохновение",
+          "создание"
+        ],
+        "id": [
+          "inovasi",
+          "inspirasi",
+          "penciptaan"
+        ],
+        "ja": [
+          "革新",
+          "インスピレーション",
+          "創造"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "แรงบันดาลใจ",
+          "การสร้าง"
+        ],
+        "ms": [
+          "inovasi",
+          "inspirasi",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4129,19 +5949,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["discovery", "progress", "momentum"],
-        "tr": ["keşif", "ilerleme", "ivme"],
-        "fr": ["découverte", "progrès", "élan"],
-        "pt": ["descoberta", "progresso", "impulso"],
-        "nl": ["ontdekking", "vooruitgang", "momentum"],
-        "es": ["descubrimiento", "progreso", "impulso"],
-        "de": ["Entdeckung", "Fortschritt", "Schwung"],
-        "it": ["scoperta", "progresso", "slancio"],
-        "ru": ["открытие", "прогресс", "импульс"],
-        "id": ["penemuan", "kemajuan", "momentum"],
-        "ja": ["発見", "進歩", "勢い"],
-        "th": ["การค้นพบ", "ความก้าวหน้า", "แรงผลักดัน"],
-        "ms": ["penemuan", "kemajuan", "momentum"]
+        "en": [
+          "discovery",
+          "progress",
+          "momentum"
+        ],
+        "tr": [
+          "keşif",
+          "ilerleme",
+          "ivme"
+        ],
+        "fr": [
+          "découverte",
+          "progrès",
+          "élan"
+        ],
+        "pt": [
+          "descoberta",
+          "progresso",
+          "impulso"
+        ],
+        "nl": [
+          "ontdekking",
+          "vooruitgang",
+          "momentum"
+        ],
+        "es": [
+          "descubrimiento",
+          "progreso",
+          "impulso"
+        ],
+        "de": [
+          "Entdeckung",
+          "Fortschritt",
+          "Schwung"
+        ],
+        "it": [
+          "scoperta",
+          "progresso",
+          "slancio"
+        ],
+        "ru": [
+          "открытие",
+          "прогресс",
+          "импульс"
+        ],
+        "id": [
+          "penemuan",
+          "kemajuan",
+          "momentum"
+        ],
+        "ja": [
+          "発見",
+          "進歩",
+          "勢い"
+        ],
+        "th": [
+          "การค้นพบ",
+          "ความก้าวหน้า",
+          "แรงผลักดัน"
+        ],
+        "ms": [
+          "penemuan",
+          "kemajuan",
+          "momentum"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4246,19 +6118,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["opportunity", "access", "future"],
-        "tr": ["fırsat", "erişim", "gelecek"],
-        "fr": ["opportunité", "accès", "avenir"],
-        "pt": ["oportunidade", "acesso", "futuro"],
-        "nl": ["kans", "toegang", "toekomst"],
-        "es": ["oportunidad", "acceso", "futuro"],
-        "de": ["Gelegenheit", "Zugang", "Zukunft"],
-        "it": ["opportunità", "accesso", "futuro"],
-        "ru": ["возможность", "доступ", "будущее"],
-        "id": ["peluang", "akses", "masa depan"],
-        "ja": ["機会", "アクセス", "未来"],
-        "th": ["โอกาส", "การเข้าถึง", "อนาคต"],
-        "ms": ["peluang", "akses", "masa depan"]
+        "en": [
+          "opportunity",
+          "access",
+          "future"
+        ],
+        "tr": [
+          "fırsat",
+          "erişim",
+          "gelecek"
+        ],
+        "fr": [
+          "opportunité",
+          "accès",
+          "avenir"
+        ],
+        "pt": [
+          "oportunidade",
+          "acesso",
+          "futuro"
+        ],
+        "nl": [
+          "kans",
+          "toegang",
+          "toekomst"
+        ],
+        "es": [
+          "oportunidad",
+          "acceso",
+          "futuro"
+        ],
+        "de": [
+          "Gelegenheit",
+          "Zugang",
+          "Zukunft"
+        ],
+        "it": [
+          "opportunità",
+          "accesso",
+          "futuro"
+        ],
+        "ru": [
+          "возможность",
+          "доступ",
+          "будущее"
+        ],
+        "id": [
+          "peluang",
+          "akses",
+          "masa depan"
+        ],
+        "ja": [
+          "機会",
+          "アクセス",
+          "未来"
+        ],
+        "th": [
+          "โอกาส",
+          "การเข้าถึง",
+          "อนาคต"
+        ],
+        "ms": [
+          "peluang",
+          "akses",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4363,19 +6287,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "progress", "illumination"],
-        "tr": ["rehberlik", "ilerleme", "aydınlatma"],
-        "fr": ["guidance", "progrès", "illumination"],
-        "pt": ["orientação", "progresso", "iluminação"],
-        "nl": ["begeleiding", "vooruitgang", "verlichting"],
-        "es": ["guía", "progreso", "iluminación"],
-        "de": ["Führung", "Fortschritt", "Erleuchtung"],
-        "it": ["guida", "progresso", "illuminazione"],
-        "ru": ["руководство", "прогресс", "освещение"],
-        "id": ["panduan", "kemajuan", "penerangan"],
-        "ja": ["指導", "進歩", "照明"],
-        "th": ["การนำทาง", "ความก้าวหน้า", "การส่องสว่าง"],
-        "ms": ["panduan", "kemajuan", "penerangan"]
+        "en": [
+          "guidance",
+          "progress",
+          "illumination"
+        ],
+        "tr": [
+          "rehberlik",
+          "ilerleme",
+          "aydınlatma"
+        ],
+        "fr": [
+          "guidance",
+          "progrès",
+          "illumination"
+        ],
+        "pt": [
+          "orientação",
+          "progresso",
+          "iluminação"
+        ],
+        "nl": [
+          "begeleiding",
+          "vooruitgang",
+          "verlichting"
+        ],
+        "es": [
+          "guía",
+          "progreso",
+          "iluminación"
+        ],
+        "de": [
+          "Führung",
+          "Fortschritt",
+          "Erleuchtung"
+        ],
+        "it": [
+          "guida",
+          "progresso",
+          "illuminazione"
+        ],
+        "ru": [
+          "руководство",
+          "прогресс",
+          "освещение"
+        ],
+        "id": [
+          "panduan",
+          "kemajuan",
+          "penerangan"
+        ],
+        "ja": [
+          "指導",
+          "進歩",
+          "照明"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความก้าวหน้า",
+          "การส่องสว่าง"
+        ],
+        "ms": [
+          "panduan",
+          "kemajuan",
+          "penerangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4480,19 +6456,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "progress", "creativity"],
-        "tr": ["uyum", "ilerleme", "yaratıcılık"],
-        "fr": ["harmonie", "progrès", "créativité"],
-        "pt": ["harmonia", "progresso", "criatividade"],
-        "nl": ["harmonie", "vooruitgang", "creativiteit"],
-        "es": ["armonía", "progreso", "creatividad"],
-        "de": ["Harmonie", "Fortschritt", "Kreativität"],
-        "it": ["armonia", "progresso", "creatività"],
-        "ru": ["гармония", "прогресс", "творчество"],
-        "id": ["harmoni", "kemajuan", "kreativitas"],
-        "ja": ["調和", "進歩", "創造性"],
-        "th": ["ความกลมกลืน", "ความก้าวหน้า", "ความคิดสร้างสรรค์"],
-        "ms": ["harmoni", "kemajuan", "kreativiti"]
+        "en": [
+          "harmony",
+          "progress",
+          "creativity"
+        ],
+        "tr": [
+          "uyum",
+          "ilerleme",
+          "yaratıcılık"
+        ],
+        "fr": [
+          "harmonie",
+          "progrès",
+          "créativité"
+        ],
+        "pt": [
+          "harmonia",
+          "progresso",
+          "criatividade"
+        ],
+        "nl": [
+          "harmonie",
+          "vooruitgang",
+          "creativiteit"
+        ],
+        "es": [
+          "armonía",
+          "progreso",
+          "creatividad"
+        ],
+        "de": [
+          "Harmonie",
+          "Fortschritt",
+          "Kreativität"
+        ],
+        "it": [
+          "armonia",
+          "progresso",
+          "creatività"
+        ],
+        "ru": [
+          "гармония",
+          "прогресс",
+          "творчество"
+        ],
+        "id": [
+          "harmoni",
+          "kemajuan",
+          "kreativitas"
+        ],
+        "ja": [
+          "調和",
+          "進歩",
+          "創造性"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "ความก้าวหน้า",
+          "ความคิดสร้างสรรค์"
+        ],
+        "ms": [
+          "harmoni",
+          "kemajuan",
+          "kreativiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4597,19 +6625,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creation", "future", "potential"],
-        "tr": ["yaratım", "gelecek", "potansiyel"],
-        "fr": ["création", "avenir", "potentiel"],
-        "pt": ["criação", "futuro", "potencial"],
-        "nl": ["creatie", "toekomst", "potentieel"],
-        "es": ["creación", "futuro", "potencial"],
-        "de": ["Schöpfung", "Zukunft", "Potenzial"],
-        "it": ["creazione", "futuro", "potenziale"],
-        "ru": ["создание", "будущее", "потенциал"],
-        "id": ["penciptaan", "masa depan", "potensi"],
-        "ja": ["創造", "未来", "可能性"],
-        "th": ["การสร้าง", "อนาคต", "ศักยภาพ"],
-        "ms": ["penciptaan", "masa depan", "potensi"]
+        "en": [
+          "creation",
+          "future",
+          "potential"
+        ],
+        "tr": [
+          "yaratım",
+          "gelecek",
+          "potansiyel"
+        ],
+        "fr": [
+          "création",
+          "avenir",
+          "potentiel"
+        ],
+        "pt": [
+          "criação",
+          "futuro",
+          "potencial"
+        ],
+        "nl": [
+          "creatie",
+          "toekomst",
+          "potentieel"
+        ],
+        "es": [
+          "creación",
+          "futuro",
+          "potencial"
+        ],
+        "de": [
+          "Schöpfung",
+          "Zukunft",
+          "Potenzial"
+        ],
+        "it": [
+          "creazione",
+          "futuro",
+          "potenziale"
+        ],
+        "ru": [
+          "создание",
+          "будущее",
+          "потенциал"
+        ],
+        "id": [
+          "penciptaan",
+          "masa depan",
+          "potensi"
+        ],
+        "ja": [
+          "創造",
+          "未来",
+          "可能性"
+        ],
+        "th": [
+          "การสร้าง",
+          "อนาคต",
+          "ศักยภาพ"
+        ],
+        "ms": [
+          "penciptaan",
+          "masa depan",
+          "potensi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4714,19 +6794,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["inclusivity", "progress", "community"],
-        "tr": ["kapsayıcılık", "ilerleme", "topluluk"],
-        "fr": ["inclusion", "progrès", "communauté"],
-        "pt": ["inclusividade", "progresso", "comunidade"],
-        "nl": ["inclusiviteit", "vooruitgang", "gemeenschap"],
-        "es": ["inclusividad", "progreso", "comunidad"],
-        "de": ["Inklusivität", "Fortschritt", "Gemeinschaft"],
-        "it": ["inclusività", "progresso", "comunità"],
-        "ru": ["инклюзивность", "прогресс", "сообщество"],
-        "id": ["inklusivitas", "kemajuan", "komunitas"],
-        "ja": ["包括性", "進歩", "コミュニティ"],
-        "th": ["ความครอบคลุม", "ความก้าวหน้า", "ชุมชน"],
-        "ms": ["keterangkuman", "kemajuan", "komuniti"]
+        "en": [
+          "inclusivity",
+          "progress",
+          "community"
+        ],
+        "tr": [
+          "kapsayıcılık",
+          "ilerleme",
+          "topluluk"
+        ],
+        "fr": [
+          "inclusion",
+          "progrès",
+          "communauté"
+        ],
+        "pt": [
+          "inclusividade",
+          "progresso",
+          "comunidade"
+        ],
+        "nl": [
+          "inclusiviteit",
+          "vooruitgang",
+          "gemeenschap"
+        ],
+        "es": [
+          "inclusividad",
+          "progreso",
+          "comunidad"
+        ],
+        "de": [
+          "Inklusivität",
+          "Fortschritt",
+          "Gemeinschaft"
+        ],
+        "it": [
+          "inclusività",
+          "progresso",
+          "comunità"
+        ],
+        "ru": [
+          "инклюзивность",
+          "прогресс",
+          "сообщество"
+        ],
+        "id": [
+          "inklusivitas",
+          "kemajuan",
+          "komunitas"
+        ],
+        "ja": [
+          "包括性",
+          "進歩",
+          "コミュニティ"
+        ],
+        "th": [
+          "ความครอบคลุม",
+          "ความก้าวหน้า",
+          "ชุมชน"
+        ],
+        "ms": [
+          "keterangkuman",
+          "kemajuan",
+          "komuniti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4831,19 +6963,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creativity", "future", "expression"],
-        "tr": ["yaratıcılık", "gelecek", "ifade"],
-        "fr": ["créativité", "avenir", "expression"],
-        "pt": ["criatividade", "futuro", "expressão"],
-        "nl": ["creativiteit", "toekomst", "expressie"],
-        "es": ["creatividad", "futuro", "expresión"],
-        "de": ["Kreativität", "Zukunft", "Ausdruck"],
-        "it": ["creatività", "futuro", "espressione"],
-        "ru": ["творчество", "будущее", "выражение"],
-        "id": ["kreativitas", "masa depan", "ekspresi"],
-        "ja": ["創造性", "未来", "表現"],
-        "th": ["ความคิดสร้างสรรค์", "อนาคต", "การแสดงออก"],
-        "ms": ["kreativiti", "masa depan", "ekspresi"]
+        "en": [
+          "creativity",
+          "future",
+          "expression"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "gelecek",
+          "ifade"
+        ],
+        "fr": [
+          "créativité",
+          "avenir",
+          "expression"
+        ],
+        "pt": [
+          "criatividade",
+          "futuro",
+          "expressão"
+        ],
+        "nl": [
+          "creativiteit",
+          "toekomst",
+          "expressie"
+        ],
+        "es": [
+          "creatividad",
+          "futuro",
+          "expresión"
+        ],
+        "de": [
+          "Kreativität",
+          "Zukunft",
+          "Ausdruck"
+        ],
+        "it": [
+          "creatività",
+          "futuro",
+          "espressione"
+        ],
+        "ru": [
+          "творчество",
+          "будущее",
+          "выражение"
+        ],
+        "id": [
+          "kreativitas",
+          "masa depan",
+          "ekspresi"
+        ],
+        "ja": [
+          "創造性",
+          "未来",
+          "表現"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "อนาคต",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "kreativiti",
+          "masa depan",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4947,19 +7131,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["navigation", "future", "exploration"],
-        "tr": ["navigasyon", "gelecek", "keşif"],
-        "fr": ["navigation", "avenir", "exploration"],
-        "pt": ["navegação", "futuro", "exploração"],
-        "nl": ["navigatie", "toekomst", "verkenning"],
-        "es": ["navegación", "futuro", "exploración"],
-        "de": ["Navigation", "Zukunft", "Erkundung"],
-        "it": ["navigazione", "futuro", "esplorazione"],
-        "ru": ["навигация", "будущее", "исследование"],
-        "id": ["navigasi", "masa depan", "eksplorasi"],
-        "ja": ["航海", "未来", "探検"],
-        "th": ["การนำทาง", "อนาคต", "การสำรวจ"],
-        "ms": ["navigasi", "masa depan", "penerokaan"]
+        "en": [
+          "navigation",
+          "future",
+          "exploration"
+        ],
+        "tr": [
+          "navigasyon",
+          "gelecek",
+          "keşif"
+        ],
+        "fr": [
+          "navigation",
+          "avenir",
+          "exploration"
+        ],
+        "pt": [
+          "navegação",
+          "futuro",
+          "exploração"
+        ],
+        "nl": [
+          "navigatie",
+          "toekomst",
+          "verkenning"
+        ],
+        "es": [
+          "navegación",
+          "futuro",
+          "exploración"
+        ],
+        "de": [
+          "Navigation",
+          "Zukunft",
+          "Erkundung"
+        ],
+        "it": [
+          "navigazione",
+          "futuro",
+          "esplorazione"
+        ],
+        "ru": [
+          "навигация",
+          "будущее",
+          "исследование"
+        ],
+        "id": [
+          "navigasi",
+          "masa depan",
+          "eksplorasi"
+        ],
+        "ja": [
+          "航海",
+          "未来",
+          "探検"
+        ],
+        "th": [
+          "การนำทาง",
+          "อนาคต",
+          "การสำรวจ"
+        ],
+        "ms": [
+          "navigasi",
+          "masa depan",
+          "penerokaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5064,19 +7300,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "community", "collaboration"],
-        "tr": ["bağlantı", "topluluk", "işbirliği"],
-        "fr": ["connexion", "communauté", "collaboration"],
-        "pt": ["conexão", "comunidade", "colaboração"],
-        "nl": ["verbinding", "gemeenschap", "samenwerking"],
-        "es": ["conexión", "comunidad", "colaboración"],
-        "de": ["Verbindung", "Gemeinschaft", "Zusammenarbeit"],
-        "it": ["connessione", "comunità", "collaborazione"],
-        "ru": ["связь", "сообщество", "сотрудничество"],
-        "id": ["hubungan", "komunitas", "kolaborasi"],
-        "ja": ["つながり", "コミュニティ", "協力"],
-        "th": ["การเชื่อมโยง", "ชุมชน", "ความร่วมมือ"],
-        "ms": ["hubungan", "komuniti", "kolaborasi"]
+        "en": [
+          "connection",
+          "community",
+          "collaboration"
+        ],
+        "tr": [
+          "bağlantı",
+          "topluluk",
+          "işbirliği"
+        ],
+        "fr": [
+          "connexion",
+          "communauté",
+          "collaboration"
+        ],
+        "pt": [
+          "conexão",
+          "comunidade",
+          "colaboração"
+        ],
+        "nl": [
+          "verbinding",
+          "gemeenschap",
+          "samenwerking"
+        ],
+        "es": [
+          "conexión",
+          "comunidad",
+          "colaboración"
+        ],
+        "de": [
+          "Verbindung",
+          "Gemeinschaft",
+          "Zusammenarbeit"
+        ],
+        "it": [
+          "connessione",
+          "comunità",
+          "collaborazione"
+        ],
+        "ru": [
+          "связь",
+          "сообщество",
+          "сотрудничество"
+        ],
+        "id": [
+          "hubungan",
+          "komunitas",
+          "kolaborasi"
+        ],
+        "ja": [
+          "つながり",
+          "コミュニティ",
+          "協力"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "ชุมชน",
+          "ความร่วมมือ"
+        ],
+        "ms": [
+          "hubungan",
+          "komuniti",
+          "kolaborasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5181,19 +7469,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "potential", "innovation"],
-        "tr": ["büyüme", "potansiyel", "yenilik"],
-        "fr": ["croissance", "potentiel", "innovation"],
-        "pt": ["crescimento", "potencial", "inovação"],
-        "nl": ["groei", "potentieel", "innovatie"],
-        "es": ["crecimiento", "potencial", "innovación"],
-        "de": ["Wachstum", "Potenzial", "Innovation"],
-        "it": ["crescita", "potenziale", "innovazione"],
-        "ru": ["рост", "потенциал", "инновация"],
-        "id": ["pertumbuhan", "potensi", "inovasi"],
-        "ja": ["成長", "可能性", "革新"],
-        "th": ["การเติบโต", "ศักยภาพ", "นวัตกรรม"],
-        "ms": ["pertumbuhan", "potensi", "inovasi"]
+        "en": [
+          "growth",
+          "potential",
+          "innovation"
+        ],
+        "tr": [
+          "büyüme",
+          "potansiyel",
+          "yenilik"
+        ],
+        "fr": [
+          "croissance",
+          "potentiel",
+          "innovation"
+        ],
+        "pt": [
+          "crescimento",
+          "potencial",
+          "inovação"
+        ],
+        "nl": [
+          "groei",
+          "potentieel",
+          "innovatie"
+        ],
+        "es": [
+          "crecimiento",
+          "potencial",
+          "innovación"
+        ],
+        "de": [
+          "Wachstum",
+          "Potenzial",
+          "Innovation"
+        ],
+        "it": [
+          "crescita",
+          "potenziale",
+          "innovazione"
+        ],
+        "ru": [
+          "рост",
+          "потенциал",
+          "инновация"
+        ],
+        "id": [
+          "pertumbuhan",
+          "potensi",
+          "inovasi"
+        ],
+        "ja": [
+          "成長",
+          "可能性",
+          "革新"
+        ],
+        "th": [
+          "การเติบโต",
+          "ศักยภาพ",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "potensi",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5298,19 +7638,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["imagination", "reality", "connection"],
-        "tr": ["hayal", "gerçeklik", "bağlantı"],
-        "fr": ["imagination", "réalité", "connexion"],
-        "pt": ["imaginação", "realidade", "conexão"],
-        "nl": ["verbeelding", "realiteit", "verbinding"],
-        "es": ["imaginación", "realidad", "conexión"],
-        "de": ["Vorstellungskraft", "Realität", "Verbindung"],
-        "it": ["immaginazione", "realtà", "connessione"],
-        "ru": ["воображение", "реальность", "связь"],
-        "id": ["imajinasi", "kenyataan", "hubungan"],
-        "ja": ["想像", "現実", "つながり"],
-        "th": ["จินตนาการ", "ความเป็นจริง", "การเชื่อมโยง"],
-        "ms": ["imaginasi", "realiti", "hubungan"]
+        "en": [
+          "imagination",
+          "reality",
+          "connection"
+        ],
+        "tr": [
+          "hayal",
+          "gerçeklik",
+          "bağlantı"
+        ],
+        "fr": [
+          "imagination",
+          "réalité",
+          "connexion"
+        ],
+        "pt": [
+          "imaginação",
+          "realidade",
+          "conexão"
+        ],
+        "nl": [
+          "verbeelding",
+          "realiteit",
+          "verbinding"
+        ],
+        "es": [
+          "imaginación",
+          "realidad",
+          "conexión"
+        ],
+        "de": [
+          "Vorstellungskraft",
+          "Realität",
+          "Verbindung"
+        ],
+        "it": [
+          "immaginazione",
+          "realtà",
+          "connessione"
+        ],
+        "ru": [
+          "воображение",
+          "реальность",
+          "связь"
+        ],
+        "id": [
+          "imajinasi",
+          "kenyataan",
+          "hubungan"
+        ],
+        "ja": [
+          "想像",
+          "現実",
+          "つながり"
+        ],
+        "th": [
+          "จินตนาการ",
+          "ความเป็นจริง",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "imaginasi",
+          "realiti",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5415,19 +7807,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["progress", "comfort", "advancement"],
-        "tr": ["ilerleme", "rahatlık", "gelişim"],
-        "fr": ["progrès", "confort", "avancement"],
-        "pt": ["progresso", "conforto", "avanço"],
-        "nl": ["vooruitgang", "comfort", "vooruitstrevendheid"],
-        "es": ["progreso", "comodidad", "avance"],
-        "de": ["Fortschritt", "Komfort", "Weiterentwicklung"],
-        "it": ["progresso", "comfort", "avanzamento"],
-        "ru": ["прогресс", "комфорт", "развитие"],
-        "id": ["kemajuan", "kenyamanan", "pembangunan"],
-        "ja": ["進歩", "快適", "発展"],
-        "th": ["ความก้าวหน้า", "ความสะดวกสบาย", "การพัฒนา"],
-        "ms": ["kemajuan", "keselesaan", "pemajuan"]
+        "en": [
+          "progress",
+          "comfort",
+          "advancement"
+        ],
+        "tr": [
+          "ilerleme",
+          "rahatlık",
+          "gelişim"
+        ],
+        "fr": [
+          "progrès",
+          "confort",
+          "avancement"
+        ],
+        "pt": [
+          "progresso",
+          "conforto",
+          "avanço"
+        ],
+        "nl": [
+          "vooruitgang",
+          "comfort",
+          "vooruitstrevendheid"
+        ],
+        "es": [
+          "progreso",
+          "comodidad",
+          "avance"
+        ],
+        "de": [
+          "Fortschritt",
+          "Komfort",
+          "Weiterentwicklung"
+        ],
+        "it": [
+          "progresso",
+          "comfort",
+          "avanzamento"
+        ],
+        "ru": [
+          "прогресс",
+          "комфорт",
+          "развитие"
+        ],
+        "id": [
+          "kemajuan",
+          "kenyamanan",
+          "pembangunan"
+        ],
+        "ja": [
+          "進歩",
+          "快適",
+          "発展"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "ความสะดวกสบาย",
+          "การพัฒนา"
+        ],
+        "ms": [
+          "kemajuan",
+          "keselesaan",
+          "pemajuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5532,19 +7976,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "journey", "innovation"],
-        "tr": ["hayaller", "yolculuk", "yenilik"],
-        "fr": ["rêves", "voyage", "innovation"],
-        "pt": ["sonhos", "jornada", "inovação"],
-        "nl": ["dromen", "reis", "innovatie"],
-        "es": ["sueños", "viaje", "innovación"],
-        "de": ["Träume", "Reise", "Innovation"],
-        "it": ["sogni", "viaggio", "innovazione"],
-        "ru": ["мечты", "путешествие", "инновация"],
-        "id": ["mimpi", "perjalanan", "inovasi"],
-        "ja": ["夢", "旅", "革新"],
-        "th": ["ความฝัน", "การเดินทาง", "นวัตกรรม"],
-        "ms": ["impian", "perjalanan", "inovasi"]
+        "en": [
+          "dreams",
+          "journey",
+          "innovation"
+        ],
+        "tr": [
+          "hayaller",
+          "yolculuk",
+          "yenilik"
+        ],
+        "fr": [
+          "rêves",
+          "voyage",
+          "innovation"
+        ],
+        "pt": [
+          "sonhos",
+          "jornada",
+          "inovação"
+        ],
+        "nl": [
+          "dromen",
+          "reis",
+          "innovatie"
+        ],
+        "es": [
+          "sueños",
+          "viaje",
+          "innovación"
+        ],
+        "de": [
+          "Träume",
+          "Reise",
+          "Innovation"
+        ],
+        "it": [
+          "sogni",
+          "viaggio",
+          "innovazione"
+        ],
+        "ru": [
+          "мечты",
+          "путешествие",
+          "инновация"
+        ],
+        "id": [
+          "mimpi",
+          "perjalanan",
+          "inovasi"
+        ],
+        "ja": [
+          "夢",
+          "旅",
+          "革新"
+        ],
+        "th": [
+          "ความฝัน",
+          "การเดินทาง",
+          "นวัตกรรม"
+        ],
+        "ms": [
+          "impian",
+          "perjalanan",
+          "inovasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5649,19 +8145,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["creativity", "future", "expression"],
-        "tr": ["yaratıcılık", "gelecek", "ifade"],
-        "fr": ["créativité", "avenir", "expression"],
-        "pt": ["criatividade", "futuro", "expressão"],
-        "nl": ["creativiteit", "toekomst", "expressie"],
-        "es": ["creatividad", "futuro", "expresión"],
-        "de": ["Kreativität", "Zukunft", "Ausdruck"],
-        "it": ["creatività", "futuro", "espressione"],
-        "ru": ["креативность", "будущее", "выражение"],
-        "id": ["kreativitas", "masa depan", "ekspresi"],
-        "ja": ["創造性", "未来", "表現"],
-        "th": ["ความคิดสร้างสรรค์", "อนาคต", "การแสดงออก"],
-        "ms": ["kreativiti", "masa depan", "ekspresi"]
+        "en": [
+          "creativity",
+          "future",
+          "expression"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "gelecek",
+          "ifade"
+        ],
+        "fr": [
+          "créativité",
+          "avenir",
+          "expression"
+        ],
+        "pt": [
+          "criatividade",
+          "futuro",
+          "expressão"
+        ],
+        "nl": [
+          "creativiteit",
+          "toekomst",
+          "expressie"
+        ],
+        "es": [
+          "creatividad",
+          "futuro",
+          "expresión"
+        ],
+        "de": [
+          "Kreativität",
+          "Zukunft",
+          "Ausdruck"
+        ],
+        "it": [
+          "creatività",
+          "futuro",
+          "espressione"
+        ],
+        "ru": [
+          "креативность",
+          "будущее",
+          "выражение"
+        ],
+        "id": [
+          "kreativitas",
+          "masa depan",
+          "ekspresi"
+        ],
+        "ja": [
+          "創造性",
+          "未来",
+          "表現"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "อนาคต",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "kreativiti",
+          "masa depan",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5766,19 +8314,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["ambition", "progress", "motivation"],
-        "tr": ["hırs", "ilerleme", "motivasyon"],
-        "fr": ["ambition", "progrès", "motivation"],
-        "pt": ["ambição", "progresso", "motivação"],
-        "nl": ["ambitie", "vooruitgang", "motivatie"],
-        "es": ["ambición", "progreso", "motivación"],
-        "de": ["Ambition", "Fortschritt", "Motivation"],
-        "it": ["ambizione", "progresso", "motivazione"],
-        "ru": ["амбиция", "прогресс", "мотивация"],
-        "id": ["ambisi", "kemajuan", "motivasi"],
-        "ja": ["野心", "進歩", "動機"],
-        "th": ["ความทะเยอทะยาน", "ความก้าวหน้า", "แรงจูงใจ"],
-        "ms": ["cita-cita", "kemajuan", "motivasi"]
+        "en": [
+          "ambition",
+          "progress",
+          "motivation"
+        ],
+        "tr": [
+          "hırs",
+          "ilerleme",
+          "motivasyon"
+        ],
+        "fr": [
+          "ambition",
+          "progrès",
+          "motivation"
+        ],
+        "pt": [
+          "ambição",
+          "progresso",
+          "motivação"
+        ],
+        "nl": [
+          "ambitie",
+          "vooruitgang",
+          "motivatie"
+        ],
+        "es": [
+          "ambición",
+          "progreso",
+          "motivación"
+        ],
+        "de": [
+          "Ambition",
+          "Fortschritt",
+          "Motivation"
+        ],
+        "it": [
+          "ambizione",
+          "progresso",
+          "motivazione"
+        ],
+        "ru": [
+          "амбиция",
+          "прогресс",
+          "мотивация"
+        ],
+        "id": [
+          "ambisi",
+          "kemajuan",
+          "motivasi"
+        ],
+        "ja": [
+          "野心",
+          "進歩",
+          "動機"
+        ],
+        "th": [
+          "ความทะเยอทะยาน",
+          "ความก้าวหน้า",
+          "แรงจูงใจ"
+        ],
+        "ms": [
+          "cita-cita",
+          "kemajuan",
+          "motivasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5883,19 +8483,72 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["curiosity", "reflection", "discovery"],
-        "tr": ["merak", "yansıma", "keşif"],
-        "fr": ["curiosité", "réflexion", "découverte"],
-        "pt": ["curiosidade", "reflexão", "descoberta"],
-        "nl": ["nieuwsgierigheid", "reflectie", "ontdekking"],
-        "es": ["curiosidad", "reflexión", "descubrimiento"],
-        "de": ["Neugier", "Spiegelung", "Entdeckung"],
-        "it": ["curiosità", "riflessione", "scoperta"],
-        "ru": ["любопытство", "отражение", "открытие"],
-        "id": ["rasa ingin tahu", "pantulan", "penemuan"],
-        "ja": ["好奇心", "反映", "tags発見"],
-        "th": ["ความอยากรู้", "การสะท้อน", "tagsการค้นพบ"],
-        "ms": ["rasa ingin tahu", "pantulan", "penerokaan", "tags"]
+        "en": [
+          "curiosity",
+          "reflection",
+          "discovery"
+        ],
+        "tr": [
+          "merak",
+          "yansıma",
+          "keşif"
+        ],
+        "fr": [
+          "curiosité",
+          "réflexion",
+          "découverte"
+        ],
+        "pt": [
+          "curiosidade",
+          "reflexão",
+          "descoberta"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "reflectie",
+          "ontdekking"
+        ],
+        "es": [
+          "curiosidad",
+          "reflexión",
+          "descubrimiento"
+        ],
+        "de": [
+          "Neugier",
+          "Spiegelung",
+          "Entdeckung"
+        ],
+        "it": [
+          "curiosità",
+          "riflessione",
+          "scoperta"
+        ],
+        "ru": [
+          "любопытство",
+          "отражение",
+          "открытие"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "pantulan",
+          "penemuan"
+        ],
+        "ja": [
+          "好奇心",
+          "反映",
+          "tags発見"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "การสะท้อน",
+          "tagsการค้นพบ"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "pantulan",
+          "penerokaan",
+          "tags"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6000,19 +8653,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "clarity", "exploration"],
-        "tr": ["rehberlik", "açıklık", "keşif"],
-        "fr": ["guidance", "clarté", "tags"],
-        "pt": ["orientação", "exploração", "clareza"],
-        "nl": ["begeleiding", "tags", "verkenning"],
-        "es": ["guía", "claridad", "exploración"],
-        "de": ["Führung", "Klarheit", "Erkundung"],
-        "it": ["guida", "chiarezza", "esplorazione"],
-        "ru": ["руководство", "ясность", "исследование"],
-        "id": ["bimbingan", "kejelasan", "eksplorasi"],
-        "ja": ["指導", "明確さ", "探検"],
-        "th": ["การนำทาง", "ความชัดเจน", "การสำรวจ"],
-        "ms": ["bimbingan", "kejelasan", "penerokaan"]
+        "en": [
+          "guidance",
+          "clarity",
+          "exploration"
+        ],
+        "tr": [
+          "rehberlik",
+          "açıklık",
+          "keşif"
+        ],
+        "fr": [
+          "guidance",
+          "clarté",
+          "tags"
+        ],
+        "pt": [
+          "orientação",
+          "exploração",
+          "clareza"
+        ],
+        "nl": [
+          "begeleiding",
+          "tags",
+          "verkenning"
+        ],
+        "es": [
+          "guía",
+          "claridad",
+          "exploración"
+        ],
+        "de": [
+          "Führung",
+          "Klarheit",
+          "Erkundung"
+        ],
+        "it": [
+          "guida",
+          "chiarezza",
+          "esplorazione"
+        ],
+        "ru": [
+          "руководство",
+          "ясность",
+          "исследование"
+        ],
+        "id": [
+          "bimbingan",
+          "kejelasan",
+          "eksplorasi"
+        ],
+        "ja": [
+          "指導",
+          "明確さ",
+          "探検"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความชัดเจน",
+          "การสำรวจ"
+        ],
+        "ms": [
+          "bimbingan",
+          "kejelasan",
+          "penerokaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6117,19 +8822,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "connection", "future"],
-        "tr": ["umut", "bağlantı", "gelecek"],
-        "fr": ["espoir", "connexion", "avenir"],
-        "pt": ["esperança", "conexão", "futuro"],
-        "nl": ["hoop", "verbinding", "toekomst"],
-        "es": ["esperanza", "conexión", "futuro"],
-        "de": ["Hoffnung", "Verbindung", "Zukunft"],
-        "it": ["speranza", "connessione", "futuro"],
-        "ru": ["надежда", "связь", "будущее"],
-        "id": ["harapan", "hubungan", "masa depan"],
-        "ja": ["希望", "つながり", "未来"],
-        "th": ["ความหวัง", "การเชื่อมต่อ", "อนาคต"],
-        "ms": ["harapan", "hubungan", "masa depan"]
+        "en": [
+          "hope",
+          "connection",
+          "future"
+        ],
+        "tr": [
+          "umut",
+          "bağlantı",
+          "gelecek"
+        ],
+        "fr": [
+          "espoir",
+          "connexion",
+          "avenir"
+        ],
+        "pt": [
+          "esperança",
+          "conexão",
+          "futuro"
+        ],
+        "nl": [
+          "hoop",
+          "verbinding",
+          "toekomst"
+        ],
+        "es": [
+          "esperanza",
+          "conexión",
+          "futuro"
+        ],
+        "de": [
+          "Hoffnung",
+          "Verbindung",
+          "Zukunft"
+        ],
+        "it": [
+          "speranza",
+          "connessione",
+          "futuro"
+        ],
+        "ru": [
+          "надежда",
+          "связь",
+          "будущее"
+        ],
+        "id": [
+          "harapan",
+          "hubungan",
+          "masa depan"
+        ],
+        "ja": [
+          "希望",
+          "つながり",
+          "未来"
+        ],
+        "th": [
+          "ความหวัง",
+          "การเชื่อมต่อ",
+          "อนาคต"
+        ],
+        "ms": [
+          "harapan",
+          "hubungan",
+          "masa depan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6205,7 +8962,7 @@
       "type": "affirmation",
       "texts": {
         "en": "I use technology wisely to improve my life.",
-        "tr": "Teknolojiyi hayatımı iyileştirmek için bilinçle kullanırım.",
+        "tr": "teknolojiyi hayatımı iyileştirmek için bilinçle kullanırım.",
         "fr": "J'utilise la technologie avec sagesse pour améliorer ma vie.",
         "pt": "Uso a tecnologia com sabedoria para melhorar minha vida.",
         "nl": "Ik gebruik technologie verstandig om mijn leven te verbeteren.",
@@ -6253,7 +9010,7 @@
       "type": "affirmation",
       "texts": {
         "en": "I set healthy boundaries with technology.",
-        "tr": "Teknolojiyle sağlıklı sınırlar koyarım.",
+        "tr": "teknolojiyle sağlıklı sınırlar koyarım.",
         "fr": "Je fixe des limites saines avec la technologie.",
         "pt": "Estabeleço limites saudáveis com a tecnologia.",
         "nl": "Ik stel gezonde grenzen met technologie.",
@@ -6300,19 +9057,19 @@
       "id": "technology_059",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Technology into my life.",
-        "tr": "Hayatıma Teknoloji enerjisini alıyorum.",
-        "fr": "J'accueille Technology dans ma vie.",
-        "pt": "Eu acolho Technology na minha vida.",
-        "nl": "Ik verwelkom Technology in mijn leven.",
-        "es": "Doy la bienvenida a Technology en mi vida.",
-        "de": "Ich heiße Technology in meinem Leben willkommen.",
-        "it": "Accolgo Technology nella mia vita.",
-        "ru": "Я принимаю Technology в свою жизнь.",
-        "id": "Saya menyambut Technology dalam hidup saya.",
-        "ja": "私はTechnologyを人生に迎え入れます。",
-        "th": "ฉันต้อนรับTechnologyเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Technology dalam hidup saya."
+        "en": "I make room for technology without rushing.",
+        "tr": "teknoloji için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à technology sans me presser.",
+        "pt": "Abro espaço para technology sem pressa.",
+        "nl": "Ik maak ruimte voor technology zonder te haasten.",
+        "es": "Hago espacio para technology sin prisa.",
+        "de": "Ich mache Platz für technology, ohne zu hetzen.",
+        "it": "Faccio spazio a technology senza fretta.",
+        "ru": "Я даю место technology без спешки.",
+        "id": "Aku memberi ruang bagi technology tanpa terburu-buru.",
+        "ja": "焦らずにtechnologyのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้technologyโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk technology tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -6344,19 +9101,19 @@
       "id": "technology_060",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Technology.",
-        "tr": "Kalbim Teknoloji için açık.",
-        "fr": "Mon cœur est ouvert à Technology.",
-        "pt": "Meu coração está aberto para Technology.",
-        "nl": "Mijn hart staat open voor Technology.",
-        "es": "Mi corazón está abierto a Technology.",
-        "de": "Mein Herz ist offen für Technology.",
-        "it": "Il mio cuore è aperto a Technology.",
-        "ru": "Моё сердце открыто для Technology.",
-        "id": "Hati saya terbuka untuk Technology.",
-        "ja": "私の心はTechnologyに開かれています。",
-        "th": "หัวใจของฉันเปิดรับTechnology",
-        "ms": "Hati saya terbuka untuk Technology."
+        "en": "I stay open to technology in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde teknoloji için açık kalıyorum.",
+        "fr": "Je reste ouvert à technology d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a technology de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor technology op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a technology de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für technology auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a technology in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к technology так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada technology dengan cara yang terasa aman.",
+        "ja": "安心できる形でtechnologyに心を開き続けます。",
+        "th": "ฉันเปิดใจให้technologyในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap technology dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -6388,19 +9145,19 @@
       "id": "technology_061",
       "type": "affirmation",
       "texts": {
-        "en": "Technology grows within me each day.",
-        "tr": "Teknoloji her gün içimde büyüyor.",
-        "fr": "Technology grandit en moi chaque jour.",
-        "pt": "Technology cresce dentro de mim todos os dias.",
-        "nl": "Technology groeit elke dag in mij.",
-        "es": "Technology crece dentro de mí cada día.",
-        "de": "Technology wächst jeden Tag in mir.",
-        "it": "Technology cresce in me ogni giorno.",
-        "ru": "Technology растёт во мне каждый день.",
-        "id": "Technology tumbuh di dalam diri saya setiap hari.",
-        "ja": "Technologyは毎日私の中で育ちます。",
-        "th": "Technologyเติบโตในตัวฉันทุกวัน",
-        "ms": "Technology berkembang dalam diri saya setiap hari."
+        "en": "Each day, technology grows within me.",
+        "tr": "Her gün içimde teknoloji büyüyor.",
+        "fr": "Chaque jour, technology grandit en moi.",
+        "pt": "A cada dia, technology cresce dentro de mim.",
+        "nl": "Elke dag groeit technology in mij.",
+        "es": "Cada día, technology crece dentro de mí.",
+        "de": "Jeden Tag wächst technology in mir.",
+        "it": "Ogni giorno, technology cresce dentro di me.",
+        "ru": "Каждый день technology растёт во мне.",
+        "id": "Setiap hari, technology tumbuh di dalam diriku.",
+        "ja": "毎日、technologyが私の中で育っています。",
+        "th": "ทุกวัน technology เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, technology berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -6432,19 +9189,19 @@
       "id": "technology_062",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Technology now.",
-        "tr": "Şimdi Teknoloji için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Technology maintenant.",
-        "pt": "Eu crio espaço para Technology agora.",
-        "nl": "Ik maak nu ruimte voor Technology.",
-        "es": "Creo espacio para Technology ahora.",
-        "de": "Ich schaffe jetzt Raum für Technology.",
-        "it": "Creo spazio per Technology ora.",
-        "ru": "Я создаю пространство для Technology сейчас.",
-        "id": "Saya menciptakan ruang untuk Technology sekarang.",
-        "ja": "今、Technologyのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับTechnologyในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Technology sekarang."
+        "en": "I give technology a quiet place in my day.",
+        "tr": "Günümde teknoloji için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à technology une place calme dans ma journée.",
+        "pt": "Dou a technology um lugar tranquilo no meu dia.",
+        "nl": "Ik geef technology een rustige plek in mijn dag.",
+        "es": "Le doy a technology un lugar tranquilo en mi día.",
+        "de": "Ich gebe technology einen ruhigen Platz in meinem Tag.",
+        "it": "Do a technology un posto tranquillo nella mia giornata.",
+        "ru": "Я даю technology тихое место в своём дне.",
+        "id": "Aku memberi technology tempat yang tenang dalam hariku.",
+        "ja": "一日の中にtechnologyのための静かな場所をつくります。",
+        "th": "ฉันให้technologyมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi technology tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -6476,19 +9233,19 @@
       "id": "technology_063",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Technology.",
-        "tr": "Teknoloji yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Technology.",
-        "pt": "Eu confio no caminho de Technology.",
-        "nl": "Ik vertrouw op het pad van Technology.",
-        "es": "Confío en el camino de Technology.",
-        "de": "Ich vertraue dem Weg von Technology.",
-        "it": "Mi fido del percorso di Technology.",
-        "ru": "Я доверяю пути Technology.",
-        "id": "Saya percaya pada jalan Technology.",
-        "ja": "私はTechnologyの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของTechnology",
-        "ms": "Saya percaya pada jalan Technology."
+        "en": "I trust my own way of growing in technology.",
+        "tr": "teknoloji konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec technology.",
+        "pt": "Confio no meu próprio jeito de crescer com technology.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in technology.",
+        "es": "Confío en mi propia manera de crecer con technology.",
+        "de": "Ich vertraue meinem eigenen Weg, in technology zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con technology.",
+        "ru": "Я доверяю своему собственному пути роста в technology.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam technology.",
+        "ja": "自分なりのtechnologyの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับtechnology",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam technology."
       },
       "authors": {
         "en": "",
@@ -6514,6 +9271,946 @@
           "olumlama"
         ]
       },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_064",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice technology with gentle consistency.",
+        "tr": "teknoloji konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique technology avec une douce constance.",
+        "pt": "Eu pratico technology com constância gentil.",
+        "nl": "Ik beoefen technology met zachte regelmaat.",
+        "es": "Practico technology con constancia suave.",
+        "de": "Ich übe technology mit sanfter Beständigkeit.",
+        "it": "Pratico technology con dolce costanza.",
+        "ru": "Я практикую technology с мягкой постоянностью.",
+        "id": "Saya mempraktikkan technology dengan konsistensi yang lembut.",
+        "ja": "私はtechnologyを穏やかな継続で実践します。",
+        "th": "ฉันฝึกtechnologyอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan technology dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_065",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, technology supports me.",
+        "tr": "Bu dönemde teknoloji beni destekliyor.",
+        "fr": "En cette période, technology me soutient.",
+        "pt": "Nesta fase, technology me apoia.",
+        "nl": "In deze periode ondersteunt technology mij.",
+        "es": "En esta etapa, technology me sostiene.",
+        "de": "In dieser Zeit unterstützt technology mich.",
+        "it": "In questo periodo, technology mi sostiene.",
+        "ru": "В этот период technology поддерживает меня.",
+        "id": "Di masa ini, technology mendukungku.",
+        "ja": "この時期、technologyが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ technologyคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, technology menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_066",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose technology in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla teknoloji seçiyorum.",
+        "fr": "Je choisis technology par de petits pas sincères.",
+        "pt": "Escolho technology em passos pequenos e honestos.",
+        "nl": "Ik kies technology in kleine, eerlijke stappen.",
+        "es": "Elijo technology con pasos pequeños y honestos.",
+        "de": "Ich wähle technology in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo technology con passi piccoli e sinceri.",
+        "ru": "Я выбираю technology маленькими, честными шагами.",
+        "id": "Aku memilih technology dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でtechnologyを選びます。",
+        "th": "ฉันเลือกtechnologyด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih technology dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_067",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let technology shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri teknoloji şekillendiriyor.",
+        "fr": "Je laisse technology façonner les choix qui comptent pour moi.",
+        "pt": "Deixo technology moldar as escolhas que importam para mim.",
+        "nl": "Ik laat technology de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que technology moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse technology die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che technology plasmi le scelte che contano per me.",
+        "ru": "Я позволяю technology формировать важные для меня решения.",
+        "id": "Aku membiarkan technology membentuk pilihan yang penting bagiku.",
+        "ja": "technologyが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้technologyหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan technology membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_068",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, technology feels natural to me.",
+        "tr": "Bugün teknoloji bana doğal geliyor.",
+        "fr": "Aujourd'hui, technology me semble naturel.",
+        "pt": "Hoje, technology parece natural para mim.",
+        "nl": "Vandaag voelt technology natuurlijk voor mij.",
+        "es": "Hoy, technology se siente natural para mí.",
+        "de": "Heute fühlt sich technology natürlich für mich an.",
+        "it": "Oggi technology mi sembra naturale.",
+        "ru": "Сегодня technology кажется мне естественным.",
+        "id": "Hari ini, technology terasa alami bagi saya.",
+        "ja": "今日はtechnologyが自然に感じられます。",
+        "th": "วันนี้technologyให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, technology terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_69",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose technology in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda teknoloji seçiyorum.",
+        "fr": "Je choisis technology dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho technology nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies technology in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo technology en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle technology in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo technology nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю technology в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih technology dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でtechnologyを選びます。",
+        "th": "ฉันเลือกtechnologyในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih technology dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_70",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build technology.",
+        "tr": "İç sesim teknoloji inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis technology.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo technology.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik technology opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo technology.",
+        "de": "Meine innere Stimme wird sanfter, während ich technology aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco technology.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю technology.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun technology.",
+        "ja": "technologyを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างtechnology",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina technology."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_71",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet technology at my own pace.",
+        "tr": "teknoloji ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer technology à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar technology no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om technology in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar technology a mi propio ritmo.",
+        "de": "Ich erlaube mir, technology in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare technology al mio ritmo.",
+        "ru": "Я позволяю себе встречать technology в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu technology dengan ritmeku.",
+        "ja": "自分のペースでtechnologyに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบtechnologyในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui technology mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let technology steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde teknoloji beni dengeliyor.",
+        "fr": "Je laisse technology m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo technology me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat technology me aarden als het leven luid voelt.",
+        "es": "Dejo que technology me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse technology mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che technology mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю technology удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan technology menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、technologyが私を落ち着かせます。",
+        "th": "ฉันยอมให้technologyทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan technology menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, technology is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde teknoloji büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, technology grandit.",
+        "pt": "Por meio das escolhas que faço hoje, technology cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit technology.",
+        "es": "A través de las decisiones que tomo hoy, technology crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst technology.",
+        "it": "Attraverso le scelte che faccio oggi, technology cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, technology растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, technology tumbuh.",
+        "ja": "今日の選択を通してtechnologyが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ technologyกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, technology berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel technology settling into my routines.",
+        "tr": "Rutinlerimde teknoloji için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens technology s’installer dans mes routines.",
+        "pt": "Sinto technology se acomodar nas minhas rotinas.",
+        "nl": "Ik voel technology zich nestelen in mijn routines.",
+        "es": "Siento que technology se asienta en mis rutinas.",
+        "de": "Ich spüre, wie technology sich in meinen Routinen einlebt.",
+        "it": "Sento technology assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как technology укореняется в моих привычках.",
+        "id": "Aku merasakan technology menetap dalam rutinitasku.",
+        "ja": "日々の習慣にtechnologyがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าtechnologyค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan technology mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow technology to be simple, not perfect.",
+        "tr": "teknoloji için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise technology à être simple, pas parfait.",
+        "pt": "Permito que technology seja simples, não perfeito.",
+        "nl": "Ik laat technology simpel zijn, niet perfect.",
+        "es": "Permito que technology sea simple, no perfecto.",
+        "de": "Ich erlaube technology, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a technology di essere semplice, non perfetto.",
+        "ru": "Я позволяю technology быть простым, а не идеальным.",
+        "id": "Aku membiarkan technology tetap sederhana, bukan sempurna.",
+        "ja": "technologyがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้technologyเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan technology menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice technology showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde teknoloji ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque technology dans la façon dont je me parle.",
+        "pt": "Percebo technology na forma como falo comigo.",
+        "nl": "Ik merk technology op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto technology en la manera en que me hablo.",
+        "de": "Ich bemerke technology in der Art, wie ich mit mir spreche.",
+        "it": "Noto technology nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю technology в том, как я говорю с собой.",
+        "id": "Aku menyadari technology dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にtechnologyが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นtechnologyในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari technology dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve technology without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan teknoloji hak ediyorum.",
+        "fr": "Je mérite technology sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço technology sem precisar provar nada.",
+        "nl": "Ik verdien technology zonder iets te hoeven bewijzen.",
+        "es": "Merezco technology sin necesidad de demostrar nada.",
+        "de": "Ich verdiene technology, ohne etwas beweisen zu müssen.",
+        "it": "Merito technology senza dover dimostrare nulla.",
+        "ru": "Я достоин technology, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan technology tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、technologyに値します。",
+        "th": "ฉันคู่ควรกับtechnologyโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh technology tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let technology grow from patience, not pressure.",
+        "tr": "teknoloji sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse technology grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo technology crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat technology groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que technology crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse technology aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che technology cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю technology расти из терпения, а не из давления.",
+        "id": "Aku membiarkan technology tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はtechnologyを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้technologyเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan technology tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to technology when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde teknoloji ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à technology quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a technology quando preciso me firmar.",
+        "nl": "Ik keer terug naar technology wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a technology cuando necesito estabilizarme.",
+        "de": "Ich kehre zu technology zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a technology quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к technology, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke technology saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、technologyに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาtechnology",
+        "ms": "Saya kembali kepada technology apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let technology soften my inner pressure.",
+        "tr": "İçimdeki baskıyı teknoloji ile yumuşatıyorum.",
+        "fr": "Je laisse technology adoucir ma pression intérieure.",
+        "pt": "Deixo technology suavizar minha pressão interna.",
+        "nl": "Ik laat technology mijn innerlijke druk verzachten.",
+        "es": "Dejo que technology suavice mi presión interna.",
+        "de": "Ich lasse technology meinen inneren Druck weicher machen.",
+        "it": "Lascio che technology ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю technology смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan technology melembutkan tekanan batinku.",
+        "ja": "technologyが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้technologyช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan technology melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that technology can be gentle and real.",
+        "tr": "teknoloji konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que technology peut être doux et vrai.",
+        "pt": "Confio que technology pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat technology zacht en echt kan zijn.",
+        "es": "Confío en que technology puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass technology sanft und echt sein kann.",
+        "it": "Mi fido del fatto che technology possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что technology может быть мягким и настоящим.",
+        "id": "Aku percaya technology bisa lembut dan nyata.",
+        "ja": "technologyはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าtechnologyสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya technology boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give technology a little more room each day.",
+        "tr": "Her gün teknoloji için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à technology chaque jour.",
+        "pt": "Dou um pouco mais de espaço para technology a cada dia.",
+        "nl": "Ik geef technology elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a technology cada día.",
+        "de": "Ich gebe technology jeden Tag ein wenig mehr Raum.",
+        "it": "Do a technology un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю technology чуть больше места.",
+        "id": "Setiap hari aku memberi technology sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、technologyのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับtechnologyมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi technology sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold technology without forcing it.",
+        "tr": "teknoloji ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir technology sans forcer.",
+        "pt": "Estou aprendendo a sustentar technology sem forçar.",
+        "nl": "Ik leer technology te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener technology sin forzar.",
+        "de": "Ich lerne, technology zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere technology senza forzare.",
+        "ru": "Я учусь удерживать technology без принуждения.",
+        "id": "Aku belajar memegang technology tanpa memaksa.",
+        "ja": "technologyを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองtechnologyโดยไม่บังคับ",
+        "ms": "Saya belajar memegang technology tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by technology where I am today.",
+        "tr": "Bugün olduğum yerde teknoloji beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, technology me rejoint.",
+        "pt": "Onde estou hoje, technology me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet technology mij.",
+        "es": "Donde estoy hoy, technology me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir technology.",
+        "it": "Dove sono oggi, technology mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает technology.",
+        "id": "Di tempatku hari ini, technology menemuiku.",
+        "ja": "今日の私がいる場所で、technologyが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ technologyอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, technology menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice technology in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte teknoloji fark ediyorum.",
+        "fr": "Je remarque technology dans le calme entre les moments.",
+        "pt": "Percebo technology na calma entre os momentos.",
+        "nl": "Ik merk technology op in de rust tussen momenten.",
+        "es": "Noto technology en la calma entre momentos.",
+        "de": "Ich bemerke technology in der Ruhe zwischen den Momenten.",
+        "it": "Noto technology nella calma tra i momenti.",
+        "ru": "Я замечаю technology в тишине между моментами.",
+        "id": "Aku menyadari technology dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにtechnologyを感じます。",
+        "th": "ฉันสังเกตtechnologyในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari technology dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow technology to grow quietly in the background.",
+        "tr": "teknoloji sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse technology grandir doucement en arrière-plan.",
+        "pt": "Deixo technology crescer em silêncio ao fundo.",
+        "nl": "Ik laat technology stil op de achtergrond groeien.",
+        "es": "Dejo que technology crezca en silencio de fondo.",
+        "de": "Ich lasse technology leise im Hintergrund wachsen.",
+        "it": "Lascio che technology cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю technology тихо расти на заднем плане.",
+        "id": "Aku membiarkan technology tumbuh perlahan di latar belakang.",
+        "ja": "technologyが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้technologyเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan technology berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose technology with care, not hurry.",
+        "tr": "Acele etmeden, özenle teknoloji seçiyorum.",
+        "fr": "Je choisis technology avec soin, sans hâte.",
+        "pt": "Escolho technology com cuidado, sem pressa.",
+        "nl": "Ik kies technology met zorg, niet met haast.",
+        "es": "Elijo technology con cuidado, no con prisa.",
+        "de": "Ich wähle technology mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo technology con cura, non con fretta.",
+        "ru": "Я выбираю technology с заботой, а не в спешке.",
+        "id": "Aku memilih technology dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にtechnologyを選びます。",
+        "th": "ฉันเลือกtechnologyอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih technology dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "readTime": "0"
+    },
+    {
+      "id": "technology_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep technology close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken teknoloji ile yakın kalıyorum.",
+        "fr": "Je garde technology près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho technology por perto quando minha mente fica agitada.",
+        "nl": "Ik houd technology dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo technology cerca cuando mi mente está inquieta.",
+        "de": "Ich halte technology nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo technology vicino quando la mia mente è agitata.",
+        "ru": "Я держу technology рядом, когда ум занят.",
+        "id": "Aku menjaga technology tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもtechnologyをそばに置きます。",
+        "th": "ฉันเก็บtechnologyไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan technology dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
       "readTime": "0"
     }
   ]

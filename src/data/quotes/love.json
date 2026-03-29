@@ -12,8 +12,16 @@
         "tr": "Lao Tzu"
       },
       "tags": {
-        "en": ["strength", "courage", "relationships"],
-        "tr": ["güç", "cesaret", "ilişkiler"]
+        "en": [
+          "strength",
+          "courage",
+          "relationships"
+        ],
+        "tr": [
+          "güç",
+          "cesaret",
+          "ilişkiler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -41,8 +49,16 @@
       },
       "category": "love",
       "tags": {
-        "en": ["strength", "courage", "relationships"],
-        "tr": ["güç", "cesaret", "ilişkiler"]
+        "en": [
+          "strength",
+          "courage",
+          "relationships"
+        ],
+        "tr": [
+          "güç",
+          "cesaret",
+          "ilişkiler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -72,8 +88,16 @@
       },
       "category": "love",
       "tags": {
-        "en": ["soulmate", "connection", "devotion"],
-        "tr": ["ruh eşi", "bağlantı", "bağlılık"]
+        "en": [
+          "soulmate",
+          "connection",
+          "devotion"
+        ],
+        "tr": [
+          "ruh eşi",
+          "bağlantı",
+          "bağlılık"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -103,8 +127,16 @@
       },
       "category": "love",
       "tags": {
-        "en": ["friendship", "support", "presence"],
-        "tr": ["arkadaşlık", "destek", "varlık"]
+        "en": [
+          "friendship",
+          "support",
+          "presence"
+        ],
+        "tr": [
+          "arkadaşlık",
+          "destek",
+          "varlık"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -148,15 +180,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["shared vision", "partnership", "growth"],
-        "tr": ["ortak vizyon", "ortaklık", "büyüme"],
-        "fr": ["vision partagée", "partenariat", "croissance"],
-        "pt": ["visão compartilhada", "parceria", "crescimento"],
-        "nl": ["gedeelde visie", "partnerschap", "groei"],
-        "es": ["visión compartida", "asociación", "crecimiento"],
-        "de": ["gemeinsame Vision", "Partnerschaft", "Wachstum"],
-        "it": ["visione condivisa", "partnership", "crescita"],
-        "ru": ["общее видение", "партнерство", "рост"]
+        "en": [
+          "shared vision",
+          "partnership",
+          "growth"
+        ],
+        "tr": [
+          "ortak vizyon",
+          "ortaklık",
+          "büyüme"
+        ],
+        "fr": [
+          "vision partagée",
+          "partenariat",
+          "croissance"
+        ],
+        "pt": [
+          "visão compartilhada",
+          "parceria",
+          "crescimento"
+        ],
+        "nl": [
+          "gedeelde visie",
+          "partnerschap",
+          "groei"
+        ],
+        "es": [
+          "visión compartida",
+          "asociación",
+          "crecimiento"
+        ],
+        "de": [
+          "gemeinsame Vision",
+          "Partnerschaft",
+          "Wachstum"
+        ],
+        "it": [
+          "visione condivisa",
+          "partnership",
+          "crescita"
+        ],
+        "ru": [
+          "общее видение",
+          "партнерство",
+          "рост"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -233,15 +301,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["patience", "growth", "nurturing"],
-        "tr": ["sabır", "gelişim", "besleme"],
-        "fr": ["patience", "croissance", "nurture"],
-        "pt": ["paciência", "crescimento", "nutrição"],
-        "nl": ["geduld", "groei", "koestering"],
-        "es": ["paciencia", "crecimiento", "nutrición"],
-        "de": ["Geduld", "Wachstum", "Pflege"],
-        "it": ["pazienza", "crescita", "nutrimento"],
-        "ru": ["терпение", "рост", "забота"]
+        "en": [
+          "patience",
+          "growth",
+          "nurturing"
+        ],
+        "tr": [
+          "sabır",
+          "gelişim",
+          "besleme"
+        ],
+        "fr": [
+          "patience",
+          "croissance",
+          "nurture"
+        ],
+        "pt": [
+          "paciência",
+          "crescimento",
+          "nutrição"
+        ],
+        "nl": [
+          "geduld",
+          "groei",
+          "koestering"
+        ],
+        "es": [
+          "paciencia",
+          "crecimiento",
+          "nutrición"
+        ],
+        "de": [
+          "Geduld",
+          "Wachstum",
+          "Pflege"
+        ],
+        "it": [
+          "pazienza",
+          "crescita",
+          "nutrimento"
+        ],
+        "ru": [
+          "терпение",
+          "рост",
+          "забота"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -318,15 +422,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["connection", "mindfulness", "unity"],
-        "tr": ["bağlantı", "farkındalık", "birlik"],
-        "fr": ["connexion", "pleine conscience", "unité"],
-        "pt": ["conexão", "atenção plena", "unidade"],
-        "nl": ["verbinding", "mindfulness", "eenheid"],
-        "es": ["conexión", "atención plena", "unidad"],
-        "de": ["Verbindung", "Achtsamkeit", "Einheit"],
-        "it": ["connessione", "consapevolezza", "unità"],
-        "ru": ["связь", "осознанность", "единство"]
+        "en": [
+          "connection",
+          "mindfulness",
+          "unity"
+        ],
+        "tr": [
+          "bağlantı",
+          "farkındalık",
+          "birlik"
+        ],
+        "fr": [
+          "connexion",
+          "pleine conscience",
+          "unité"
+        ],
+        "pt": [
+          "conexão",
+          "atenção plena",
+          "unidade"
+        ],
+        "nl": [
+          "verbinding",
+          "mindfulness",
+          "eenheid"
+        ],
+        "es": [
+          "conexión",
+          "atención plena",
+          "unidad"
+        ],
+        "de": [
+          "Verbindung",
+          "Achtsamkeit",
+          "Einheit"
+        ],
+        "it": [
+          "connessione",
+          "consapevolezza",
+          "unità"
+        ],
+        "ru": [
+          "связь",
+          "осознанность",
+          "единство"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -403,15 +543,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["shared purpose", "vision", "companionship"],
-        "tr": ["ortak amaç", "vizyon", "yoldaşlık"],
-        "fr": ["but commun", "vision", "compagnonnage"],
-        "pt": ["propósito compartilhado", "visão", "companheirismo"],
-        "nl": ["gedeeld doel", "visie", "kameraadschap"],
-        "es": ["propósito compartido", "visión", "compañerismo"],
-        "de": ["gemeinsamer Zweck", "Vision", "Gefährtenschaft"],
-        "it": ["scopo condiviso", "visione", "compagnia"],
-        "ru": ["общая цель", "видение", "спутничество"]
+        "en": [
+          "shared purpose",
+          "vision",
+          "companionship"
+        ],
+        "tr": [
+          "ortak amaç",
+          "vizyon",
+          "yoldaşlık"
+        ],
+        "fr": [
+          "but commun",
+          "vision",
+          "compagnonnage"
+        ],
+        "pt": [
+          "propósito compartilhado",
+          "visão",
+          "companheirismo"
+        ],
+        "nl": [
+          "gedeeld doel",
+          "visie",
+          "kameraadschap"
+        ],
+        "es": [
+          "propósito compartido",
+          "visión",
+          "compañerismo"
+        ],
+        "de": [
+          "gemeinsamer Zweck",
+          "Vision",
+          "Gefährtenschaft"
+        ],
+        "it": [
+          "scopo condiviso",
+          "visione",
+          "compagnia"
+        ],
+        "ru": [
+          "общая цель",
+          "видение",
+          "спутничество"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -488,15 +664,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["freedom", "appreciation", "understanding"],
-        "tr": ["özgürlük", "takdir", "anlayış"],
-        "fr": ["liberté", "appréciation", "compréhension"],
-        "pt": ["liberdade", "apreciação", "compreensão"],
-        "nl": ["vrijheid", "waardering", "begrip"],
-        "es": ["libertad", "apreciación", "comprensión"],
-        "de": ["Freiheit", "Wertschätzung", "Verständnis"],
-        "it": ["libertà", "apprezzamento", "comprensione"],
-        "ru": ["свобода", "признание", "понимание"]
+        "en": [
+          "freedom",
+          "appreciation",
+          "understanding"
+        ],
+        "tr": [
+          "özgürlük",
+          "takdir",
+          "anlayış"
+        ],
+        "fr": [
+          "liberté",
+          "appréciation",
+          "compréhension"
+        ],
+        "pt": [
+          "liberdade",
+          "apreciação",
+          "compreensão"
+        ],
+        "nl": [
+          "vrijheid",
+          "waardering",
+          "begrip"
+        ],
+        "es": [
+          "libertad",
+          "apreciación",
+          "comprensión"
+        ],
+        "de": [
+          "Freiheit",
+          "Wertschätzung",
+          "Verständnis"
+        ],
+        "it": [
+          "libertà",
+          "apprezzamento",
+          "comprensione"
+        ],
+        "ru": [
+          "свобода",
+          "признание",
+          "понимание"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -573,15 +785,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["nurturing", "growth", "empowerment"],
-        "tr": ["besleme", "gelişim", "güçlendirme"],
-        "fr": ["nourriture", "croissance", "autonomisation"],
-        "pt": ["nutrição", "crescimento", "empoderamento"],
-        "nl": ["koestering", "groei", "empowerment"],
-        "es": ["nutrición", "crecimiento", "empoderamiento"],
-        "de": ["Pflege", "Wachstum", "Ermächtigung"],
-        "it": ["nutrimento", "crescita", "potenziamento"],
-        "ru": ["забота", "рост", "расширение возможностей"]
+        "en": [
+          "nurturing",
+          "growth",
+          "empowerment"
+        ],
+        "tr": [
+          "besleme",
+          "gelişim",
+          "güçlendirme"
+        ],
+        "fr": [
+          "nourriture",
+          "croissance",
+          "autonomisation"
+        ],
+        "pt": [
+          "nutrição",
+          "crescimento",
+          "empoderamento"
+        ],
+        "nl": [
+          "koestering",
+          "groei",
+          "empowerment"
+        ],
+        "es": [
+          "nutrición",
+          "crecimiento",
+          "empoderamiento"
+        ],
+        "de": [
+          "Pflege",
+          "Wachstum",
+          "Ermächtigung"
+        ],
+        "it": [
+          "nutrimento",
+          "crescita",
+          "potenziamento"
+        ],
+        "ru": [
+          "забота",
+          "рост",
+          "расширение возможностей"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -658,15 +906,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["dreams", "transformation", "manifestation"],
-        "tr": ["hayaller", "dönüşüm", "gerçekleşme"],
-        "fr": ["rêves", "transformation", "manifestation"],
-        "pt": ["sonhos", "transformação", "manifestação"],
-        "nl": ["dromen", "transformatie", "manifestatie"],
-        "es": ["sueños", "transformación", "manifestación"],
-        "de": ["Träume", "Transformation", "Manifestation"],
-        "it": ["sogni", "trasformazione", "manifestazione"],
-        "ru": ["мечты", "трансформация", "проявление"]
+        "en": [
+          "dreams",
+          "transformation",
+          "manifestation"
+        ],
+        "tr": [
+          "hayaller",
+          "dönüşüm",
+          "gerçekleşme"
+        ],
+        "fr": [
+          "rêves",
+          "transformation",
+          "manifestation"
+        ],
+        "pt": [
+          "sonhos",
+          "transformação",
+          "manifestação"
+        ],
+        "nl": [
+          "dromen",
+          "transformatie",
+          "manifestatie"
+        ],
+        "es": [
+          "sueños",
+          "transformación",
+          "manifestación"
+        ],
+        "de": [
+          "Träume",
+          "Transformation",
+          "Manifestation"
+        ],
+        "it": [
+          "sogni",
+          "trasformazione",
+          "manifestazione"
+        ],
+        "ru": [
+          "мечты",
+          "трансформация",
+          "проявление"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -743,15 +1027,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["courage", "vulnerability", "authenticity"],
-        "tr": ["cesaret", "kırılganlık", "özgünlük"],
-        "fr": ["courage", "vulnérabilité", "authenticité"],
-        "pt": ["coragem", "vulnerabilidade", "autenticidade"],
-        "nl": ["moed", "kwetsbaarheid", "authenticiteit"],
-        "es": ["coraje", "vulnerabilidad", "autenticidad"],
-        "de": ["Mut", "Verletzlichkeit", "Authentizität"],
-        "it": ["coraggio", "vulnerabilità", "autenticità"],
-        "ru": ["смелость", "уязвимость", "подлинность"]
+        "en": [
+          "courage",
+          "vulnerability",
+          "authenticity"
+        ],
+        "tr": [
+          "cesaret",
+          "kırılganlık",
+          "özgünlük"
+        ],
+        "fr": [
+          "courage",
+          "vulnérabilité",
+          "authenticité"
+        ],
+        "pt": [
+          "coragem",
+          "vulnerabilidade",
+          "autenticidade"
+        ],
+        "nl": [
+          "moed",
+          "kwetsbaarheid",
+          "authenticiteit"
+        ],
+        "es": [
+          "coraje",
+          "vulnerabilidad",
+          "autenticidad"
+        ],
+        "de": [
+          "Mut",
+          "Verletzlichkeit",
+          "Authentizität"
+        ],
+        "it": [
+          "coraggio",
+          "vulnerabilità",
+          "autenticità"
+        ],
+        "ru": [
+          "смелость",
+          "уязвимость",
+          "подлинность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -828,15 +1148,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["harmony", "connection", "spirituality"],
-        "tr": ["ahenk", "bağlantı", "maneviyat"],
-        "fr": ["harmonie", "connexion", "spiritualité"],
-        "pt": ["harmonia", "conexão", "espiritualidade"],
-        "nl": ["harmonie", "verbinding", "spiritualiteit"],
-        "es": ["armonía", "conexión", "espiritualidad"],
-        "de": ["Harmonie", "Verbindung", "Spiritualität"],
-        "it": ["armonia", "connessione", "spiritualità"],
-        "ru": ["гармония", "связь", "духовность"]
+        "en": [
+          "harmony",
+          "connection",
+          "spirituality"
+        ],
+        "tr": [
+          "ahenk",
+          "bağlantı",
+          "maneviyat"
+        ],
+        "fr": [
+          "harmonie",
+          "connexion",
+          "spiritualité"
+        ],
+        "pt": [
+          "harmonia",
+          "conexão",
+          "espiritualidade"
+        ],
+        "nl": [
+          "harmonie",
+          "verbinding",
+          "spiritualiteit"
+        ],
+        "es": [
+          "armonía",
+          "conexión",
+          "espiritualidad"
+        ],
+        "de": [
+          "Harmonie",
+          "Verbindung",
+          "Spiritualität"
+        ],
+        "it": [
+          "armonia",
+          "connessione",
+          "spiritualità"
+        ],
+        "ru": [
+          "гармония",
+          "связь",
+          "духовность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -913,15 +1269,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["perspective", "infinity", "wisdom"],
-        "tr": ["bakış açısı", "sonsuzluk", "bilgelik"],
-        "fr": ["perspective", "infinité", "sagesse"],
-        "pt": ["perspectiva", "infinidade", "sabedoria"],
-        "nl": ["perspectief", "oneindigheid", "wijsheid"],
-        "es": ["perspectiva", "infinitud", "sabiduría"],
-        "de": ["Perspektive", "Unendlichkeit", "Weisheit"],
-        "it": ["prospettiva", "infinità", "saggezza"],
-        "ru": ["перспектива", "бесконечность", "мудрость"]
+        "en": [
+          "perspective",
+          "infinity",
+          "wisdom"
+        ],
+        "tr": [
+          "bakış açısı",
+          "sonsuzluk",
+          "bilgelik"
+        ],
+        "fr": [
+          "perspective",
+          "infinité",
+          "sagesse"
+        ],
+        "pt": [
+          "perspectiva",
+          "infinidade",
+          "sabedoria"
+        ],
+        "nl": [
+          "perspectief",
+          "oneindigheid",
+          "wijsheid"
+        ],
+        "es": [
+          "perspectiva",
+          "infinitud",
+          "sabiduría"
+        ],
+        "de": [
+          "Perspektive",
+          "Unendlichkeit",
+          "Weisheit"
+        ],
+        "it": [
+          "prospettiva",
+          "infinità",
+          "saggezza"
+        ],
+        "ru": [
+          "перспектива",
+          "бесконечность",
+          "мудрость"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -998,15 +1390,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["mindfulness", "compassion", "joy"],
-        "tr": ["farkındalık", "şefkat", "neşe"],
-        "fr": ["pleine conscience", "compassion", "joie"],
-        "pt": ["atenção plena", "compaixão", "alegria"],
-        "nl": ["mindfulness", "mededogen", "vreugde"],
-        "es": ["atención plena", "compasión", "alegría"],
-        "de": ["Achtsamkeit", "Mitgefühl", "Freude"],
-        "it": ["consapevolezza", "compassione", "gioia"],
-        "ru": ["осознанность", "сострадание", "радость"]
+        "en": [
+          "mindfulness",
+          "compassion",
+          "joy"
+        ],
+        "tr": [
+          "farkındalık",
+          "şefkat",
+          "neşe"
+        ],
+        "fr": [
+          "pleine conscience",
+          "compassion",
+          "joie"
+        ],
+        "pt": [
+          "atenção plena",
+          "compaixão",
+          "alegria"
+        ],
+        "nl": [
+          "mindfulness",
+          "mededogen",
+          "vreugde"
+        ],
+        "es": [
+          "atención plena",
+          "compasión",
+          "alegría"
+        ],
+        "de": [
+          "Achtsamkeit",
+          "Mitgefühl",
+          "Freude"
+        ],
+        "it": [
+          "consapevolezza",
+          "compassione",
+          "gioia"
+        ],
+        "ru": [
+          "осознанность",
+          "сострадание",
+          "радость"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1083,15 +1511,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["freedom", "appreciation", "authenticity"],
-        "tr": ["özgürlük", "takdir", "özgünlük"],
-        "fr": ["liberté", "appréciation", "authenticité"],
-        "pt": ["liberdade", "apreciação", "autenticidade"],
-        "nl": ["vrijheid", "waardering", "authenticiteit"],
-        "es": ["libertad", "apreciación", "autenticidad"],
-        "de": ["Freiheit", "Wertschätzung", "Authentizität"],
-        "it": ["libertà", "apprezzamento", "autenticità"],
-        "ru": ["свобода", "признание", "подлинность"]
+        "en": [
+          "freedom",
+          "appreciation",
+          "authenticity"
+        ],
+        "tr": [
+          "özgürlük",
+          "takdir",
+          "özgünlük"
+        ],
+        "fr": [
+          "liberté",
+          "appréciation",
+          "authenticité"
+        ],
+        "pt": [
+          "liberdade",
+          "apreciação",
+          "autenticidade"
+        ],
+        "nl": [
+          "vrijheid",
+          "waardering",
+          "authenticiteit"
+        ],
+        "es": [
+          "libertad",
+          "apreciación",
+          "autenticidad"
+        ],
+        "de": [
+          "Freiheit",
+          "Wertschätzung",
+          "Authentizität"
+        ],
+        "it": [
+          "libertà",
+          "apprezzamento",
+          "autenticità"
+        ],
+        "ru": [
+          "свобода",
+          "признание",
+          "подлинность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1168,15 +1632,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["connection", "trust", "understanding"],
-        "tr": ["bağlantı", "güven", "anlayış"],
-        "fr": ["connexion", "confiance", "compréhension"],
-        "pt": ["conexão", "confiança", "compreensão"],
-        "nl": ["verbinding", "vertrouwen", "begrip"],
-        "es": ["conexión", "confianza", "comprensión"],
-        "de": ["Verbindung", "Vertrauen", "Verständnis"],
-        "it": ["connessione", "fiducia", "comprensione"],
-        "ru": ["связь", "доверие", "понимание"]
+        "en": [
+          "connection",
+          "trust",
+          "understanding"
+        ],
+        "tr": [
+          "bağlantı",
+          "güven",
+          "anlayış"
+        ],
+        "fr": [
+          "connexion",
+          "confiance",
+          "compréhension"
+        ],
+        "pt": [
+          "conexão",
+          "confiança",
+          "compreensão"
+        ],
+        "nl": [
+          "verbinding",
+          "vertrouwen",
+          "begrip"
+        ],
+        "es": [
+          "conexión",
+          "confianza",
+          "comprensión"
+        ],
+        "de": [
+          "Verbindung",
+          "Vertrauen",
+          "Verständnis"
+        ],
+        "it": [
+          "connessione",
+          "fiducia",
+          "comprensione"
+        ],
+        "ru": [
+          "связь",
+          "доверие",
+          "понимание"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1253,15 +1753,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["self-love", "acceptance", "celebration"],
-        "tr": ["öz-sevgi", "kabul", "kutlama"],
-        "fr": ["amour de soi", "acceptation", "célébration"],
-        "pt": ["amor próprio", "aceitação", "celebração"],
-        "nl": ["zelfliefde", "acceptatie", "viering"],
-        "es": ["amor propio", "aceptación", "celebración"],
-        "de": ["Selbstliebe", "Akzeptanz", "Feier"],
-        "it": ["amor proprio", "accettazione", "celebrazione"],
-        "ru": ["самолюбие", "принятие", "празднование"]
+        "en": [
+          "self-love",
+          "acceptance",
+          "celebration"
+        ],
+        "tr": [
+          "öz-sevgi",
+          "kabul",
+          "kutlama"
+        ],
+        "fr": [
+          "amour de soi",
+          "acceptation",
+          "célébration"
+        ],
+        "pt": [
+          "amor próprio",
+          "aceitação",
+          "celebração"
+        ],
+        "nl": [
+          "zelfliefde",
+          "acceptatie",
+          "viering"
+        ],
+        "es": [
+          "amor propio",
+          "aceptación",
+          "celebración"
+        ],
+        "de": [
+          "Selbstliebe",
+          "Akzeptanz",
+          "Feier"
+        ],
+        "it": [
+          "amor proprio",
+          "accettazione",
+          "celebrazione"
+        ],
+        "ru": [
+          "самолюбие",
+          "принятие",
+          "празднование"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1338,15 +1874,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["courage", "authenticity", "acceptance"],
-        "tr": ["cesaret", "özgünlük", "kabul"],
-        "fr": ["courage", "authenticité", "acceptation"],
-        "pt": ["coragem", "autenticidade", "aceitação"],
-        "nl": ["moed", "authenticiteit", "acceptatie"],
-        "es": ["valentía", "autenticidad", "aceptación"],
-        "de": ["Mut", "Authentizität", "Akzeptanz"],
-        "it": ["coraggio", "autenticità", "accettazione"],
-        "ru": ["смелость", "подлинность", "принятие"]
+        "en": [
+          "courage",
+          "authenticity",
+          "acceptance"
+        ],
+        "tr": [
+          "cesaret",
+          "özgünlük",
+          "kabul"
+        ],
+        "fr": [
+          "courage",
+          "authenticité",
+          "acceptation"
+        ],
+        "pt": [
+          "coragem",
+          "autenticidade",
+          "aceitação"
+        ],
+        "nl": [
+          "moed",
+          "authenticiteit",
+          "acceptatie"
+        ],
+        "es": [
+          "valentía",
+          "autenticidad",
+          "aceptación"
+        ],
+        "de": [
+          "Mut",
+          "Authentizität",
+          "Akzeptanz"
+        ],
+        "it": [
+          "coraggio",
+          "autenticità",
+          "accettazione"
+        ],
+        "ru": [
+          "смелость",
+          "подлинность",
+          "принятие"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1423,15 +1995,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["nurturing", "growth", "balance"],
-        "tr": ["besleyici", "büyüme", "denge"],
-        "fr": ["nourrissant", "croissance", "équilibre"],
-        "pt": ["nutrição", "crescimento", "equilíbrio"],
-        "nl": ["koestering", "groei", "balans"],
-        "es": ["nutrición", "crecimiento", "equilibrio"],
-        "de": ["Pflege", "Wachstum", "Balance"],
-        "it": ["nutrimento", "crescita", "equilibrio"],
-        "ru": ["забота", "рост", "баланс"]
+        "en": [
+          "nurturing",
+          "growth",
+          "balance"
+        ],
+        "tr": [
+          "besleyici",
+          "büyüme",
+          "denge"
+        ],
+        "fr": [
+          "nourrissant",
+          "croissance",
+          "équilibre"
+        ],
+        "pt": [
+          "nutrição",
+          "crescimento",
+          "equilíbrio"
+        ],
+        "nl": [
+          "koestering",
+          "groei",
+          "balans"
+        ],
+        "es": [
+          "nutrición",
+          "crecimiento",
+          "equilibrio"
+        ],
+        "de": [
+          "Pflege",
+          "Wachstum",
+          "Balance"
+        ],
+        "it": [
+          "nutrimento",
+          "crescita",
+          "equilibrio"
+        ],
+        "ru": [
+          "забота",
+          "рост",
+          "баланс"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1508,15 +2116,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["dreams", "growth", "nurturing"],
-        "tr": ["hayaller", "büyüme", "besleyici"],
-        "fr": ["rêves", "croissance", "nourrissant"],
-        "pt": ["sonhos", "crescimento", "nutrição"],
-        "nl": ["dromen", "groei", "koestering"],
-        "es": ["sueños", "crecimiento", "nutrición"],
-        "de": ["Träume", "Wachstum", "Pflege"],
-        "it": ["sogni", "crescita", "nutrimento"],
-        "ru": ["мечты", "рост", "забота"]
+        "en": [
+          "dreams",
+          "growth",
+          "nurturing"
+        ],
+        "tr": [
+          "hayaller",
+          "büyüme",
+          "besleyici"
+        ],
+        "fr": [
+          "rêves",
+          "croissance",
+          "nourrissant"
+        ],
+        "pt": [
+          "sonhos",
+          "crescimento",
+          "nutrição"
+        ],
+        "nl": [
+          "dromen",
+          "groei",
+          "koestering"
+        ],
+        "es": [
+          "sueños",
+          "crecimiento",
+          "nutrición"
+        ],
+        "de": [
+          "Träume",
+          "Wachstum",
+          "Pflege"
+        ],
+        "it": [
+          "sogni",
+          "crescita",
+          "nutrimento"
+        ],
+        "ru": [
+          "мечты",
+          "рост",
+          "забота"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1593,15 +2237,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["wholeness", "belonging", "independence"],
-        "tr": ["bütünlük", "aidiyet", "bağımsızlık"],
-        "fr": ["plénitude", "appartenance", "indépendance"],
-        "pt": ["integridade", "pertencimento", "independência"],
-        "nl": ["heelheid", "verbondenheid", "onafhankelijkheid"],
-        "es": ["plenitud", "pertenencia", "independencia"],
-        "de": ["Ganzheit", "Zugehörigkeit", "Unabhängigkeit"],
-        "it": ["completezza", "appartenenza", "indipendenza"],
-        "ru": ["целостность", "принадлежность", "независимость"]
+        "en": [
+          "wholeness",
+          "belonging",
+          "independence"
+        ],
+        "tr": [
+          "bütünlük",
+          "aidiyet",
+          "bağımsızlık"
+        ],
+        "fr": [
+          "plénitude",
+          "appartenance",
+          "indépendance"
+        ],
+        "pt": [
+          "integridade",
+          "pertencimento",
+          "independência"
+        ],
+        "nl": [
+          "heelheid",
+          "verbondenheid",
+          "onafhankelijkheid"
+        ],
+        "es": [
+          "plenitud",
+          "pertenencia",
+          "independencia"
+        ],
+        "de": [
+          "Ganzheit",
+          "Zugehörigkeit",
+          "Unabhängigkeit"
+        ],
+        "it": [
+          "completezza",
+          "appartenenza",
+          "indipendenza"
+        ],
+        "ru": [
+          "целостность",
+          "принадлежность",
+          "независимость"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1678,15 +2358,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["transformation", "possibility", "healing"],
-        "tr": ["dönüşüm", "olasılık", "iyileşme"],
-        "fr": ["transformation", "possibilité", "guérison"],
-        "pt": ["transformação", "possibilidade", "cura"],
-        "nl": ["transformatie", "mogelijkheid", "genezing"],
-        "es": ["transformación", "posibilidad", "sanación"],
-        "de": ["Transformation", "Möglichkeit", "Heilung"],
-        "it": ["trasformazione", "possibilità", "guarigione"],
-        "ru": ["трансформация", "возможность", "исцеление"]
+        "en": [
+          "transformation",
+          "possibility",
+          "healing"
+        ],
+        "tr": [
+          "dönüşüm",
+          "olasılık",
+          "iyileşme"
+        ],
+        "fr": [
+          "transformation",
+          "possibilité",
+          "guérison"
+        ],
+        "pt": [
+          "transformação",
+          "possibilidade",
+          "cura"
+        ],
+        "nl": [
+          "transformatie",
+          "mogelijkheid",
+          "genezing"
+        ],
+        "es": [
+          "transformación",
+          "posibilidad",
+          "sanación"
+        ],
+        "de": [
+          "Transformation",
+          "Möglichkeit",
+          "Heilung"
+        ],
+        "it": [
+          "trasformazione",
+          "possibilità",
+          "guarigione"
+        ],
+        "ru": [
+          "трансформация",
+          "возможность",
+          "исцеление"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1763,15 +2479,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["balance", "solitude", "connection"],
-        "tr": ["denge", "yalnızlık", "bağlantı"],
-        "fr": ["équilibre", "solitude", "connexion"],
-        "pt": ["equilíbrio", "solidão", "conexão"],
-        "nl": ["balans", "eenzaamheid", "verbinding"],
-        "es": ["equilibrio", "soledad", "conexión"],
-        "de": ["Balance", "Einsamkeit", "Verbindung"],
-        "it": ["equilibrio", "solitudine", "connessione"],
-        "ru": ["баланс", "одиночество", "связь"]
+        "en": [
+          "balance",
+          "solitude",
+          "connection"
+        ],
+        "tr": [
+          "denge",
+          "yalnızlık",
+          "bağlantı"
+        ],
+        "fr": [
+          "équilibre",
+          "solitude",
+          "connexion"
+        ],
+        "pt": [
+          "equilíbrio",
+          "solidão",
+          "conexão"
+        ],
+        "nl": [
+          "balans",
+          "eenzaamheid",
+          "verbinding"
+        ],
+        "es": [
+          "equilibrio",
+          "soledad",
+          "conexión"
+        ],
+        "de": [
+          "Balance",
+          "Einsamkeit",
+          "Verbindung"
+        ],
+        "it": [
+          "equilibrio",
+          "solitudine",
+          "connessione"
+        ],
+        "ru": [
+          "баланс",
+          "одиночество",
+          "связь"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1848,15 +2600,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["memories", "transformation", "connection"],
-        "tr": ["anılar", "dönüşüm", "bağlantı"],
-        "fr": ["souvenirs", "transformation", "connexion"],
-        "pt": ["memórias", "transformação", "conexão"],
-        "nl": ["herinneringen", "transformatie", "verbinding"],
-        "es": ["recuerdos", "transformación", "conexión"],
-        "de": ["Erinnerungen", "Transformation", "Verbindung"],
-        "it": ["ricordi", "trasformazione", "connessione"],
-        "ru": ["воспоминания", "трансформация", "связь"]
+        "en": [
+          "memories",
+          "transformation",
+          "connection"
+        ],
+        "tr": [
+          "anılar",
+          "dönüşüm",
+          "bağlantı"
+        ],
+        "fr": [
+          "souvenirs",
+          "transformation",
+          "connexion"
+        ],
+        "pt": [
+          "memórias",
+          "transformação",
+          "conexão"
+        ],
+        "nl": [
+          "herinneringen",
+          "transformatie",
+          "verbinding"
+        ],
+        "es": [
+          "recuerdos",
+          "transformación",
+          "conexión"
+        ],
+        "de": [
+          "Erinnerungen",
+          "Transformation",
+          "Verbindung"
+        ],
+        "it": [
+          "ricordi",
+          "trasformazione",
+          "connessione"
+        ],
+        "ru": [
+          "воспоминания",
+          "трансформация",
+          "связь"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1933,15 +2721,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["courage", "acceptance", "transformation"],
-        "tr": ["cesaret", "kabul", "dönüşüm"],
-        "fr": ["courage", "acceptation", "transformation"],
-        "pt": ["coragem", "aceitação", "transformação"],
-        "nl": ["moed", "acceptatie", "transformatie"],
-        "es": ["coraje", "aceptación", "transformación"],
-        "de": ["Mut", "Akzeptanz", "Transformation"],
-        "it": ["coraggio", "accettazione", "trasformazione"],
-        "ru": ["смелость", "принятие", "трансформация"]
+        "en": [
+          "courage",
+          "acceptance",
+          "transformation"
+        ],
+        "tr": [
+          "cesaret",
+          "kabul",
+          "dönüşüm"
+        ],
+        "fr": [
+          "courage",
+          "acceptation",
+          "transformation"
+        ],
+        "pt": [
+          "coragem",
+          "aceitação",
+          "transformação"
+        ],
+        "nl": [
+          "moed",
+          "acceptatie",
+          "transformatie"
+        ],
+        "es": [
+          "coraje",
+          "aceptación",
+          "transformación"
+        ],
+        "de": [
+          "Mut",
+          "Akzeptanz",
+          "Transformation"
+        ],
+        "it": [
+          "coraggio",
+          "accettazione",
+          "trasformazione"
+        ],
+        "ru": [
+          "смелость",
+          "принятие",
+          "трансформация"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2018,15 +2842,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["balance", "growth", "connection"],
-        "tr": ["denge", "büyüme", "bağlantı"],
-        "fr": ["équilibre", "croissance", "connexion"],
-        "pt": ["equilíbrio", "crescimento", "conexão"],
-        "nl": ["balans", "groei", "verbinding"],
-        "es": ["equilibrio", "crecimiento", "conexión"],
-        "de": ["Balance", "Wachstum", "Verbindung"],
-        "it": ["equilibrio", "crescita", "connessione"],
-        "ru": ["баланс", "рост", "связь"]
+        "en": [
+          "balance",
+          "growth",
+          "connection"
+        ],
+        "tr": [
+          "denge",
+          "büyüme",
+          "bağlantı"
+        ],
+        "fr": [
+          "équilibre",
+          "croissance",
+          "connexion"
+        ],
+        "pt": [
+          "equilíbrio",
+          "crescimento",
+          "conexão"
+        ],
+        "nl": [
+          "balans",
+          "groei",
+          "verbinding"
+        ],
+        "es": [
+          "equilibrio",
+          "crecimiento",
+          "conexión"
+        ],
+        "de": [
+          "Balance",
+          "Wachstum",
+          "Verbindung"
+        ],
+        "it": [
+          "equilibrio",
+          "crescita",
+          "connessione"
+        ],
+        "ru": [
+          "баланс",
+          "рост",
+          "связь"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2103,15 +2963,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["mindfulness", "acceptance", "safety"],
-        "tr": ["farkındalık", "kabul", "güvenlik"],
-        "fr": ["pleine conscience", "acceptation", "sécurité"],
-        "pt": ["atenção plena", "aceitação", "segurança"],
-        "nl": ["mindfulness", "acceptatie", "veiligheid"],
-        "es": ["atención plena", "aceptación", "seguridad"],
-        "de": ["Achtsamkeit", "Akzeptanz", "Sicherheit"],
-        "it": ["consapevolezza", "accettazione", "sicurezza"],
-        "ru": ["осознанность", "принятие", "безопасность"]
+        "en": [
+          "mindfulness",
+          "acceptance",
+          "safety"
+        ],
+        "tr": [
+          "farkındalık",
+          "kabul",
+          "güvenlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "acceptation",
+          "sécurité"
+        ],
+        "pt": [
+          "atenção plena",
+          "aceitação",
+          "segurança"
+        ],
+        "nl": [
+          "mindfulness",
+          "acceptatie",
+          "veiligheid"
+        ],
+        "es": [
+          "atención plena",
+          "aceptación",
+          "seguridad"
+        ],
+        "de": [
+          "Achtsamkeit",
+          "Akzeptanz",
+          "Sicherheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "accettazione",
+          "sicurezza"
+        ],
+        "ru": [
+          "осознанность",
+          "принятие",
+          "безопасность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2188,15 +3084,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["wisdom", "balance", "freedom"],
-        "tr": ["bilgelik", "denge", "özgürlük"],
-        "fr": ["sagesse", "équilibre", "liberté"],
-        "pt": ["sabedoria", "equilíbrio", "liberdade"],
-        "nl": ["wijsheid", "balans", "vrijheid"],
-        "es": ["sabiduría", "equilibrio", "libertad"],
-        "de": ["Weisheit", "Balance", "Freiheit"],
-        "it": ["saggezza", "equilibrio", "libertà"],
-        "ru": ["мудрость", "баланс", "свобода"]
+        "en": [
+          "wisdom",
+          "balance",
+          "freedom"
+        ],
+        "tr": [
+          "bilgelik",
+          "denge",
+          "özgürlük"
+        ],
+        "fr": [
+          "sagesse",
+          "équilibre",
+          "liberté"
+        ],
+        "pt": [
+          "sabedoria",
+          "equilíbrio",
+          "liberdade"
+        ],
+        "nl": [
+          "wijsheid",
+          "balans",
+          "vrijheid"
+        ],
+        "es": [
+          "sabiduría",
+          "equilibrio",
+          "libertad"
+        ],
+        "de": [
+          "Weisheit",
+          "Balance",
+          "Freiheit"
+        ],
+        "it": [
+          "saggezza",
+          "equilibrio",
+          "libertà"
+        ],
+        "ru": [
+          "мудрость",
+          "баланс",
+          "свобода"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2273,15 +3205,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["courage", "vulnerability", "resilience"],
-        "tr": ["cesaret", "kırılganlık", "dayanıklılık"],
-        "fr": ["courage", "vulnérabilité", "résilience"],
-        "pt": ["coragem", "vulnerabilidade", "resiliência"],
-        "nl": ["moed", "kwetsbaarheid", "veerkracht"],
-        "es": ["coraje", "vulnerabilidad", "resiliencia"],
-        "de": ["Mut", "Verletzlichkeit", "Resilienz"],
-        "it": ["coraggio", "vulnerabilità", "resilienza"],
-        "ru": ["смелость", "уязвимость", "стойкость"]
+        "en": [
+          "courage",
+          "vulnerability",
+          "resilience"
+        ],
+        "tr": [
+          "cesaret",
+          "kırılganlık",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "courage",
+          "vulnérabilité",
+          "résilience"
+        ],
+        "pt": [
+          "coragem",
+          "vulnerabilidade",
+          "resiliência"
+        ],
+        "nl": [
+          "moed",
+          "kwetsbaarheid",
+          "veerkracht"
+        ],
+        "es": [
+          "coraje",
+          "vulnerabilidad",
+          "resiliencia"
+        ],
+        "de": [
+          "Mut",
+          "Verletzlichkeit",
+          "Resilienz"
+        ],
+        "it": [
+          "coraggio",
+          "vulnerabilità",
+          "resilienza"
+        ],
+        "ru": [
+          "смелость",
+          "уязвимость",
+          "стойкость"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2358,15 +3326,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["patience", "nurturing", "growth"],
-        "tr": ["sabır", "besleyici", "büyüme"],
-        "fr": ["patience", "nourrissant", "croissance"],
-        "pt": ["paciência", "nutrição", "crescimento"],
-        "nl": ["geduld", "koesterend", "groei"],
-        "es": ["paciencia", "nutrición", "crecimiento"],
-        "de": ["Geduld", "Pflege", "Wachstum"],
-        "it": ["pazienza", "nutrimento", "crescita"],
-        "ru": ["терпение", "забота", "рост"]
+        "en": [
+          "patience",
+          "nurturing",
+          "growth"
+        ],
+        "tr": [
+          "sabır",
+          "besleyici",
+          "büyüme"
+        ],
+        "fr": [
+          "patience",
+          "nourrissant",
+          "croissance"
+        ],
+        "pt": [
+          "paciência",
+          "nutrição",
+          "crescimento"
+        ],
+        "nl": [
+          "geduld",
+          "koesterend",
+          "groei"
+        ],
+        "es": [
+          "paciencia",
+          "nutrición",
+          "crecimiento"
+        ],
+        "de": [
+          "Geduld",
+          "Pflege",
+          "Wachstum"
+        ],
+        "it": [
+          "pazienza",
+          "nutrimento",
+          "crescita"
+        ],
+        "ru": [
+          "терпение",
+          "забота",
+          "рост"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2443,15 +3447,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["transformation", "memory", "joy"],
-        "tr": ["dönüşüm", "anı", "sevinç"],
-        "fr": ["transformation", "mémoire", "joie"],
-        "pt": ["transformação", "memória", "alegria"],
-        "nl": ["transformatie", "herinnering", "vreugde"],
-        "es": ["transformación", "memoria", "alegría"],
-        "de": ["Transformation", "Erinnerung", "Freude"],
-        "it": ["trasformazione", "memoria", "gioia"],
-        "ru": ["преображение", "память", "радость"]
+        "en": [
+          "transformation",
+          "memory",
+          "joy"
+        ],
+        "tr": [
+          "dönüşüm",
+          "anı",
+          "sevinç"
+        ],
+        "fr": [
+          "transformation",
+          "mémoire",
+          "joie"
+        ],
+        "pt": [
+          "transformação",
+          "memória",
+          "alegria"
+        ],
+        "nl": [
+          "transformatie",
+          "herinnering",
+          "vreugde"
+        ],
+        "es": [
+          "transformación",
+          "memoria",
+          "alegría"
+        ],
+        "de": [
+          "Transformation",
+          "Erinnerung",
+          "Freude"
+        ],
+        "it": [
+          "trasformazione",
+          "memoria",
+          "gioia"
+        ],
+        "ru": [
+          "преображение",
+          "память",
+          "радость"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2528,15 +3568,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["transformation", "revolution", "peace"],
-        "tr": ["dönüşüm", "devrim", "barış"],
-        "fr": ["transformation", "révolution", "paix"],
-        "pt": ["transformação", "revolução", "paz"],
-        "nl": ["transformatie", "revolutie", "vrede"],
-        "es": ["transformación", "revolución", "paz"],
-        "de": ["Transformation", "Revolution", "Frieden"],
-        "it": ["trasformazione", "rivoluzione", "pace"],
-        "ru": ["преображение", "революция", "мир"]
+        "en": [
+          "transformation",
+          "revolution",
+          "peace"
+        ],
+        "tr": [
+          "dönüşüm",
+          "devrim",
+          "barış"
+        ],
+        "fr": [
+          "transformation",
+          "révolution",
+          "paix"
+        ],
+        "pt": [
+          "transformação",
+          "revolução",
+          "paz"
+        ],
+        "nl": [
+          "transformatie",
+          "revolutie",
+          "vrede"
+        ],
+        "es": [
+          "transformación",
+          "revolución",
+          "paz"
+        ],
+        "de": [
+          "Transformation",
+          "Revolution",
+          "Frieden"
+        ],
+        "it": [
+          "trasformazione",
+          "rivoluzione",
+          "pace"
+        ],
+        "ru": [
+          "преображение",
+          "революция",
+          "мир"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2613,15 +3689,51 @@
       },
       "category": "love",
       "tags": {
-        "en": ["healing", "transformation", "possibility"],
-        "tr": ["iyileşme", "dönüşüm", "olasılık"],
-        "fr": ["guérison", "transformation", "possibilité"],
-        "pt": ["cura", "transformação", "possibilidade"],
-        "nl": ["genezing", "transformatie", "mogelijkheid"],
-        "es": ["sanación", "transformación", "posibilidad"],
-        "de": ["Heilung", "Transformation", "Möglichkeit"],
-        "it": ["guarigione", "trasformazione", "possibilità"],
-        "ru": ["исцеление", "преображение", "возможность"]
+        "en": [
+          "healing",
+          "transformation",
+          "possibility"
+        ],
+        "tr": [
+          "iyileşme",
+          "dönüşüm",
+          "olasılık"
+        ],
+        "fr": [
+          "guérison",
+          "transformation",
+          "possibilité"
+        ],
+        "pt": [
+          "cura",
+          "transformação",
+          "possibilidade"
+        ],
+        "nl": [
+          "genezing",
+          "transformatie",
+          "mogelijkheid"
+        ],
+        "es": [
+          "sanación",
+          "transformación",
+          "posibilidad"
+        ],
+        "de": [
+          "Heilung",
+          "Transformation",
+          "Möglichkeit"
+        ],
+        "it": [
+          "guarigione",
+          "trasformazione",
+          "possibilità"
+        ],
+        "ru": [
+          "исцеление",
+          "преображение",
+          "возможность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2706,19 +3818,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "distance", "universal"],
-        "tr": ["bağlantı", "mesafe", "evrensel"],
-        "fr": ["connexion", "distance", "universel"],
-        "pt": ["conexão", "distância", "universal"],
-        "nl": ["verbinding", "afstand", "universeel"],
-        "es": ["conexión", "distancia", "universal"],
-        "de": ["Verbindung", "Entfernung", "universell"],
-        "it": ["connessione", "distanza", "universale"],
-        "ru": ["связь", "расстояние", "универсальный"],
-        "id": ["koneksi", "jarak", "universal"],
-        "ja": ["つながり", "距離", "普遍的"],
-        "th": ["การเชื่อมต่อ", "ระยะทาง", "สากล"],
-        "ms": ["hubungan", "jarak", "universal"]
+        "en": [
+          "connection",
+          "distance",
+          "universal"
+        ],
+        "tr": [
+          "bağlantı",
+          "mesafe",
+          "evrensel"
+        ],
+        "fr": [
+          "connexion",
+          "distance",
+          "universel"
+        ],
+        "pt": [
+          "conexão",
+          "distância",
+          "universal"
+        ],
+        "nl": [
+          "verbinding",
+          "afstand",
+          "universeel"
+        ],
+        "es": [
+          "conexión",
+          "distancia",
+          "universal"
+        ],
+        "de": [
+          "Verbindung",
+          "Entfernung",
+          "universell"
+        ],
+        "it": [
+          "connessione",
+          "distanza",
+          "universale"
+        ],
+        "ru": [
+          "связь",
+          "расстояние",
+          "универсальный"
+        ],
+        "id": [
+          "koneksi",
+          "jarak",
+          "universal"
+        ],
+        "ja": [
+          "つながり",
+          "距離",
+          "普遍的"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "ระยะทาง",
+          "สากล"
+        ],
+        "ms": [
+          "hubungan",
+          "jarak",
+          "universal"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2790,824 +3954,1188 @@
       }
     },
     {
-  "id": "love_036",
-  "texts": {
-    "en": "In the garden of life, love is the most beautiful flower.",
-    "tr": "Hayat bahçesinde, aşk en güzel çiçektir.",
-    "fr": "Dans le jardin de la vie, l'amour est la plus belle fleur.",
-    "pt": "No jardim da vida, o amor é a flor mais bela.",
-    "nl": "In de tuin van het leven is liefde de mooiste bloem.",
-    "es": "En el jardín de la vida, el amor es la flor más hermosa.",
-    "de": "Im Garten des Lebens ist die Liebe die schönste Blume.",
-    "it": "Nel giardino della vita, l'amore è il fiore più bello.",
-    "ru": "В саду жизни любовь - самый прекрасный цветок.",
-    "id": "Di taman kehidupan, cinta adalah bunga yang paling indah.",
-    "ja": "人生の庭において、愛は最も美しい花です。",
-    "th": "ในสวนแห่งชีวิต ความรักคือดอกไม้ที่สวยงามที่สุด",
-    "ms": "Di taman kehidupan, cinta adalah bunga yang paling indah."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "category": "love",
-  "tags": {
-    "en": ["beauty", "life", "metaphor"],
-    "tr": ["güzellik", "hayat", "metafor"],
-    "fr": ["beauté", "vie", "métaphore"],
-    "pt": ["beleza", "vida", "metáfora"],
-    "nl": ["schoonheid", "leven", "metafoor"],
-    "es": ["belleza", "vida", "metáfora"],
-    "de": ["Schönheit", "Leben", "Metapher"],
-    "it": ["bellezza", "vita", "metafora"],
-    "ru": ["красота", "жизнь", "метафора"],
-    "id": ["keindahan", "kehidupan", "metafora"],
-    "ja": ["美しさ", "人生", "比喩"],
-    "th": ["ความงาม", "ชีวิต", "อุปมา"],
-    "ms": ["keindahan", "kehidupan", "metafora"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Flower of Life",
-      "content": "In Persian culture, poetry often likens love to a rose—beautiful yet delicate. The 13th-century poet Rumi described love as a garden where the soul flourishes. This quote draws from that tradition, suggesting that love, like a flower, is the most striking and vital part of existence, needing care to thrive.",
-      "readTime": 0
+      "id": "love_036",
+      "texts": {
+        "en": "In the garden of life, love is the most beautiful flower.",
+        "tr": "Hayat bahçesinde, aşk en güzel çiçektir.",
+        "fr": "Dans le jardin de la vie, l'amour est la plus belle fleur.",
+        "pt": "No jardim da vida, o amor é a flor mais bela.",
+        "nl": "In de tuin van het leven is liefde de mooiste bloem.",
+        "es": "En el jardín de la vida, el amor es la flor más hermosa.",
+        "de": "Im Garten des Lebens ist die Liebe die schönste Blume.",
+        "it": "Nel giardino della vita, l'amore è il fiore più bello.",
+        "ru": "В саду жизни любовь - самый прекрасный цветок.",
+        "id": "Di taman kehidupan, cinta adalah bunga yang paling indah.",
+        "ja": "人生の庭において、愛は最も美しい花です。",
+        "th": "ในสวนแห่งชีวิต ความรักคือดอกไม้ที่สวยงามที่สุด",
+        "ms": "Di taman kehidupan, cinta adalah bunga yang paling indah."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "beauty",
+          "life",
+          "metaphor"
+        ],
+        "tr": [
+          "güzellik",
+          "hayat",
+          "metafor"
+        ],
+        "fr": [
+          "beauté",
+          "vie",
+          "métaphore"
+        ],
+        "pt": [
+          "beleza",
+          "vida",
+          "metáfora"
+        ],
+        "nl": [
+          "schoonheid",
+          "leven",
+          "metafoor"
+        ],
+        "es": [
+          "belleza",
+          "vida",
+          "metáfora"
+        ],
+        "de": [
+          "Schönheit",
+          "Leben",
+          "Metapher"
+        ],
+        "it": [
+          "bellezza",
+          "vita",
+          "metafora"
+        ],
+        "ru": [
+          "красота",
+          "жизнь",
+          "метафора"
+        ],
+        "id": [
+          "keindahan",
+          "kehidupan",
+          "metafora"
+        ],
+        "ja": [
+          "美しさ",
+          "人生",
+          "比喩"
+        ],
+        "th": [
+          "ความงาม",
+          "ชีวิต",
+          "อุปมา"
+        ],
+        "ms": [
+          "keindahan",
+          "kehidupan",
+          "metafora"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Flower of Life",
+          "content": "In Persian culture, poetry often likens love to a rose—beautiful yet delicate. The 13th-century poet Rumi described love as a garden where the soul flourishes. This quote draws from that tradition, suggesting that love, like a flower, is the most striking and vital part of existence, needing care to thrive.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Hayatın Çiçeği",
+          "content": "Pers kültüründe şiir, aşkı genellikle güzel ama narin bir güle benzetir. 13. yüzyıl şairi Mevlana, aşkı ruhun geliştiği bir bahçe olarak tarif etmiştir. Bu alıntı, bu gelenekten esinlenerek aşkın, bir çiçek gibi, varoluşun en çarpıcı ve hayati parçası olduğunu, gelişmek için özen gerektirdiğini öne sürer.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "La Fleur de la Vie",
+          "content": "Dans la culture persane, la poésie compare souvent l'amour à une rose, belle mais délicate. Le poète du XIIIe siècle, Rumi, décrivait l'amour comme un jardin où l'âme s'épanouit. Cette citation s'inspire de cette tradition, suggérant que l'amour, comme une fleur, est la partie la plus frappante et vitale de l'existence, nécessitant des soins pour prospérer.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "A Flor da Vida",
+          "content": "Na cultura persa, a poesia frequentemente compara o amor a uma rosa, bela mas delicada. O poeta do século XIII, Rumi, descrevia o amor como um jardim onde a alma floresce. Esta citação se inspira nessa tradição, sugerindo que o amor, como uma flor, é a parte mais marcante e vital da existência, precisando de cuidado para prosperar.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "De Bloem van het Leven",
+          "content": "In de Perzische cultuur vergelijkt poëzie liefde vaak met een roos, mooi maar kwetsbaar. De 13e-eeuwse dichter Rumi beschreef liefde als een tuin waarin de ziel bloeit. Deze quote put uit die traditie en suggereert dat liefde, net als een bloem, het meest opvallende en vitale deel van het bestaan is, dat zorg nodig heeft om te gedijen.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "La Flor de la Vida",
+          "content": "En la cultura persa, la poesía a menudo compara el amor con una rosa, hermosa pero delicada. El poeta del siglo XIII, Rumi, describía el amor como un jardín donde el alma florece. Esta cita se inspira en esa tradición, sugiriendo que el amor, como una flor, es la parte más llamativa y vital de la existencia, que necesita cuidados para prosperar.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Die Blume des Lebens",
+          "content": "In der persischen Kultur wird Liebe in der Poesie oft mit einer Rose verglichen – schön, aber zart. Der Dichter des 13. Jahrhunderts, Rumi, beschrieb Liebe als einen Garten, in dem die Seele erblüht. Dieses Zitat greift diese Tradition auf und legt nahe, dass Liebe, wie eine Blume, der auffälligste und lebendigste Teil des Daseins ist, der Pflege benötigt, um zu gedeihen.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "Il Fiore della Vita",
+          "content": "Nella cultura persiana, la poesia paragona spesso l'amore a una rosa, bella ma delicata. Il poeta del XIII secolo, Rumi, descriveva l'amore come un giardino in cui l'anima fiorisce. Questa citazione si ispira a quella tradizione, suggerendo che l'amore, come un fiore, è la parte più sorprendente e vitale dell'esistenza, che necessita di cure per prosperare.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Цветок Жизни",
+          "content": "В персидской культуре поэзия часто сравнивает любовь с розой — красивой, но хрупкой. Поэт XIII века Руми описывал любовь как сад, в котором процветает душа. Это высказывание опирается на эту традицию, предполагая, что любовь, подобно цветку, является самой яркой и жизненно важной частью существования, требующей заботы для процветания.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Bunga Kehidupan",
+          "content": "Dalam budaya Persia, puisi sering menyamakan cinta dengan mawar, indah namun rapuh. Penyair abad ke-13, Rumi, menggambarkan cinta sebagai taman tempat jiwa berkembang. Kutipan ini mengambil inspirasi dari tradisi tersebut, menunjukkan bahwa cinta, seperti bunga, adalah bagian paling mencolok dan vital dari keberadaan, yang membutuhkan perawatan untuk berkembang.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "人生の花",
+          "content": "ペルシア文化では、詩はしばしば愛をバラに例えます—美しくも繊細です。13世紀の詩人ルーミーは、愛を魂が花開く庭として描写しました。この引用は、その伝統に着想を得て、愛が花のように存在の最も印象的で重要な部分であり、繁栄するためには手入れが必要であることを示唆しています。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "ดอกไม้แห่งชีวิต",
+          "content": "ในวัฒนธรรมเปอร์เซีย กวีนิพนธ์มักเปรียบเทียบความรักกับดอกกุหลาบ—สวยงามแต่เปราะบาง กวีในศตวรรษที่ 13 รูมี อธิบายความรักว่าเป็นสวนที่จิตวิญญาณเจริญงอกงาม คำพูดนี้ได้รับแรงบันดาลใจจากประเพณีนั้น โดยบ่งชี้ว่าความรักเหมือนดอกไม้ เป็นส่วนที่โดดเด่นและสำคัญที่สุดของการดำรงอยู่ ซึ่งต้องการการดูแลเพื่อเติบโต",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Bunga Kehidupan",
+          "content": "Dalam budaya Parsi, puisi sering menyamakan cinta dengan mawar, indah tetapi rapuh. Penyair abad ke-13, Rumi, menggambarkan cinta sebagai taman di mana jiwa berkembang. Petikan ini diilhamkan oleh tradisi tersebut, menunjukkan bahawa cinta, seperti bunga, adalah bahagian yang paling menarik dan penting dalam kewujudan, yang memerlukan penjagaan untuk berkembang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_037",
+      "category": "love",
+      "texts": {
+        "en": "True love is not about possession; it’s about appreciation.",
+        "tr": "Gerçek aşk sahip olmakla değil, takdir etmekle ilgilidir.",
+        "fr": "L'amour véritable n'est pas une question de possession, mais d'appréciation.",
+        "pt": "O verdadeiro amor não é sobre posse, é sobre apreciação.",
+        "nl": "Ware liefde gaat niet om bezit, maar om waardering.",
+        "es": "El verdadero amor no se trata de posesión, se trata de apreciación.",
+        "de": "Wahre Liebe geht nicht um Besitz, sondern um Wertschätzung.",
+        "it": "Il vero amore non riguarda il possesso, ma l'apprezzamento.",
+        "ru": "Истинная любовь — это не обладание, а признание ценности.",
+        "id": "Cinta sejati bukan tentang kepemilikan, melainkan tentang penghargaan.",
+        "ja": "本当の愛は所有することではなく、感謝することです。",
+        "th": "ความรักที่แท้จริงไม่ใช่การครอบครอง แต่เป็นการชื่นชม",
+        "ms": "Cinta sejati bukan tentang memiliki, tetapi tentang menghargai."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "appreciation",
+          "freedom",
+          "true love"
+        ],
+        "tr": [
+          "takdir",
+          "özgürlük",
+          "gerçek aşk"
+        ],
+        "fr": [
+          "appréciation",
+          "liberté",
+          "amour véritable"
+        ],
+        "pt": [
+          "apreciação",
+          "liberdade",
+          "amor verdadeiro"
+        ],
+        "nl": [
+          "waardering",
+          "vrijheid",
+          "ware liefde"
+        ],
+        "es": [
+          "apreciación",
+          "libertad",
+          "amor verdadero"
+        ],
+        "de": [
+          "Wertschätzung",
+          "Freiheit",
+          "wahre Liebe"
+        ],
+        "it": [
+          "apprezzamento",
+          "libertà",
+          "vero amore"
+        ],
+        "ru": [
+          "признание",
+          "свобода",
+          "истинная любовь"
+        ],
+        "id": [
+          "penghargaan",
+          "kebebasan",
+          "cinta sejati"
+        ],
+        "ja": [
+          "感謝",
+          "自由",
+          "本当の愛"
+        ],
+        "th": [
+          "การชื่นชม",
+          "อิสรภาพ",
+          "รักแท้"
+        ],
+        "ms": [
+          "penghargaan",
+          "kebebasan",
+          "cinta sejati"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Gift of Freedom",
+          "content": "In Indian philosophy, love is often seen as a liberating force. The concept of ‘prema’ in Hinduism emphasizes selfless affection over ownership. This quote reflects that ideal, portraying love as an act of valuing another’s essence without binding them.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Özgürlüğün Hediyesi",
+          "content": "Hint felsefesinde aşk, genellikle özgürleştirici bir güç olarak görülür. Hinduizm’deki ‘prema’ kavramı, sahiplenme yerine özverili sevgiyi vurgular. Bu alıntı bu ideali yansıtır, aşkı bir başkasının özünü bağlamadan değerli bulma eylemi olarak tasvir eder.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "Le Don de la Liberté",
+          "content": "Dans la philosophie indienne, l'amour est souvent considéré comme une force libératrice. Le concept de ‘prema’ dans l'hindouisme met l'accent sur l'affection désintéressée plutôt que sur la possession. Cette citation reflète cet idéal, décrivant l'amour comme un acte de valorisation de l'essence d'autrui sans le lier.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "O Dom da Liberdade",
+          "content": "Na filosofia indiana, o amor é frequentemente visto como uma força libertadora. O conceito de ‘prema’ no hinduísmo enfatiza o afeto altruísta sobre a posse. Esta citação reflete esse ideal, retratando o amor como um ato de valorizar a essência de outra pessoa sem prendê-la.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "De Gave van Vrijheid",
+          "content": "In de Indiase filosofie wordt liefde vaak gezien als een bevrijdende kracht. Het concept van ‘prema’ in het hindoeïsme benadrukt onbaatzuchtige genegenheid boven eigendom. Deze quote weerspiegelt dat ideaal, waarbij liefde wordt afgeschilderd als het waarderen van iemands essentie zonder hen te binden.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "El Don de la Libertad",
+          "content": "En la filosofía india, el amor se ve a menudo como una fuerza liberadora. El concepto de ‘prema’ en el hinduismo enfatiza el afecto desinteresado sobre la posesión. Esta cita refleja ese ideal, retratando el amor como un acto de valorar la esencia de otra persona sin atarla.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Die Gabe der Freiheit",
+          "content": "In der indischen Philosophie wird Liebe oft als befreiende Kraft angesehen. Das Konzept von ‘Prema’ im Hinduismus betont selbstlose Zuneigung gegenüber Besitz. Dieses Zitat spiegelt dieses Ideal wider und stellt Liebe als einen Akt dar, die Essenz eines anderen zu schätzen, ohne ihn zu binden.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "Il Dono della Libertà",
+          "content": "Nella filosofia indiana, l'amore è spesso visto come una forza liberatrice. Il concetto di ‘prema’ nell'induismo sottolinea l'affetto disinteressato rispetto al possesso. Questa citazione riflette quell'ideale, raffigurando l'amore come un atto di valorizzazione dell'essenza di un'altra persona senza legarla.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Дар Свободы",
+          "content": "В индийской философии любовь часто рассматривается как освобождающая сила. Концепция ‘према’ в индуизме подчеркивает бескорыстную привязанность, а не владение. Это высказывание отражает этот идеал, изображая любовь как акт ценности сущности другого без привязки его.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Hadiah Kebebasan",
+          "content": "Dalam filsafat India, cinta sering dilihat sebagai kekuatan pembebas. Konsep ‘prema’ dalam Hinduisme menekankan kasih sayang tanpa pamrih di atas kepemilikan. Kutipan ini mencerminkan ideal tersebut, menggambarkan cinta sebagai tindakan menghargai esensi orang lain tanpa mengikatnya.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "自由の贈り物",
+          "content": "インドの哲学では、愛はしばしば解放的な力と見なされます。ヒンドゥー教の‘プレーマ’という概念は、所有ではなく無私の愛情を強調します。この引用はその理想を反映し、愛を他者の本質を縛らずに大切にする行為として描写します。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "ของขวัญแห่งอิสรภาพ",
+          "content": "ในปรัชญาอินเดีย ความรักมักถูกมองว่าเป็นพลังแห่งการปลดปล่อย แนวคิดของ ‘พรีมา’ ในศาสนาฮินดูเน้นย้ำถึงความรักที่ไม่เห็นแก่ตัวเหนือการครอบครอง คำพูดนี้สะท้อนถึงอุดมคตินั้น โดยแสดงถึงความรักว่าเป็นการกระทำที่ให้คุณค่ากับแก่นแท้ของผู้อื่นโดยไม่ผูกมัด",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Hadiah Kebebasan",
+          "content": "Dalam falsafah India, cinta sering dilihat sebagai kuasa pembebasan. Konsep ‘prema’ dalam Hindu menekankan kasih sayang tanpa pamrih berbanding pemilikan. Petikan ini mencerminkan ideal tersebut, menggambarkan cinta sebagai tindakan menghargai intipati seseorang tanpa mengikatnya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_038",
+      "category": "love",
+      "texts": {
+        "en": "Love is the language that every heart understands.",
+        "tr": "Aşk, her kalbin anladığı dildir.",
+        "fr": "L'amour est le langage que chaque cœur comprend.",
+        "pt": "O amor é a linguagem que todo coração entende.",
+        "nl": "Liefde is de taal die elk hart begrijpt.",
+        "es": "El amor es el lenguaje que todo corazón entiende.",
+        "de": "Liebe ist die Sprache, die jedes Herz versteht.",
+        "it": "L'amore è il linguaggio che ogni cuore comprende.",
+        "ru": "Любовь — это язык, который понимает каждое сердце.",
+        "id": "Cinta adalah bahasa yang dipahami setiap hati.",
+        "ja": "愛はすべての心が理解する言語です。",
+        "th": "ความรักคือภาษาที่ทุกหัวใจเข้าใจ",
+        "ms": "Cinta adalah bahasa yang difahami oleh setiap hati."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "communication",
+          "universal",
+          "emotion"
+        ],
+        "tr": [
+          "iletişim",
+          "evrensel",
+          "duygu"
+        ],
+        "fr": [
+          "communication",
+          "universel",
+          "émotion"
+        ],
+        "pt": [
+          "comunicação",
+          "universal",
+          "emoção"
+        ],
+        "nl": [
+          "communicatie",
+          "universeel",
+          "emotie"
+        ],
+        "es": [
+          "comunicación",
+          "universal",
+          "emoción"
+        ],
+        "de": [
+          "Kommunikation",
+          "universell",
+          "Emotion"
+        ],
+        "it": [
+          "comunicazione",
+          "universale",
+          "emozione"
+        ],
+        "ru": [
+          "общение",
+          "универсальный",
+          "эмоция"
+        ],
+        "id": [
+          "komunikasi",
+          "universal",
+          "emosi"
+        ],
+        "ja": [
+          "コミュニケーション",
+          "普遍的",
+          "感情"
+        ],
+        "th": [
+          "การสื่อสาร",
+          "สากล",
+          "อารมณ์"
+        ],
+        "ms": [
+          "komunikasi",
+          "universal",
+          "emosi"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Silent Tongue",
+          "content": "In many African cultures, love is expressed through actions rather than words, as seen in proverbs like those of the Yoruba, where deeds speak louder than declarations. This quote captures love as a universal language transcending speech, understood by all hearts.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Sessiz Dil",
+          "content": "Birçok Afrika kültüründe, Yoruba atasözlerinde olduğu gibi, aşk sözlerden ziyade eylemlerle ifade edilir; burada eylemler beyanlardan daha yüksek sesle konuşur. Bu alıntı, aşkı konuşmayı aşan evrensel bir dil olarak yakalar, tüm kalpler tarafından anlaşılır.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "La Langue Silencieuse",
+          "content": "Dans de nombreuses cultures africaines, l'amour s'exprime par des actions plutôt que par des mots, comme dans les proverbes yoruba, où les actes parlent plus fort que les déclarations. Cette citation capture l'amour comme un langage universel transcendant la parole, compris par tous les cœurs.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "A Língua Silenciosa",
+          "content": "Em muitas culturas africanas, o amor é expresso por ações em vez de palavras, como nos provérbios iorubás, onde os feitos falam mais alto que as declarações. Esta citação captura o amor como uma linguagem universal que transcende a fala, compreendida por todos os corações.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "De Stille Taal",
+          "content": "In veel Afrikaanse culturen wordt liefde uitgedrukt door daden in plaats van woorden, zoals in de spreekwoorden van de Yoruba, waar daden luider spreken dan verklaringen. Deze quote vat liefde samen als een universele taal die spraak overstijgt, begrepen door alle harten.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "La Lengua Silenciosa",
+          "content": "En muchas culturas africanas, el amor se expresa mediante acciones en lugar de palabras, como en los proverbios yoruba, donde los hechos hablan más alto que las declaraciones. Esta cita captura el amor como un lenguaje universal que trasciende el habla, entendido por todos los corazones.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Die Stille Sprache",
+          "content": "In vielen afrikanischen Kulturen wird Liebe durch Taten statt durch Worte ausgedrückt, wie in den Sprichwörtern der Yoruba, wo Taten lauter sprechen als Erklärungen. Dieses Zitat fasst Liebe als eine universelle Sprache zusammen, die über Sprache hinausgeht und von allen Herzen verstanden wird.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "La Lingua Silenziosa",
+          "content": "In molte culture africane, l'amore è espresso attraverso azioni piuttosto che parole, come nei proverbi yoruba, dove i fatti parlano più forte delle dichiarazioni. Questa citazione cattura l'amore come un linguaggio universale che trascende il discorso, compreso da tutti i cuori.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Молчаливый Язык",
+          "content": "Во многих африканских культурах любовь выражается через действия, а не слова, как в пословицах йоруба, где поступки говорят громче заявлений. Это высказывание передает любовь как универсальный язык, превосходящий речь, понятный всем сердцам.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Bahasa Sunyi",
+          "content": "Dalam banyak budaya Afrika, cinta diungkapkan melalui tindakan daripada kata-kata, seperti dalam peribahasa Yoruba, di mana perbuatan berbicara lebih keras daripada pernyataan. Kutipan ini menangkap cinta sebagai bahasa universal yang melampaui ucapan, dipahami oleh semua hati.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "沈黙の言語",
+          "content": "多くのアフリカ文化では、ヨルバ族の諺に見られるように、愛は言葉ではなく行動で表現されます。この引用は、愛を言葉を超えた普遍的な言語として捉え、すべての心に理解されるものとして描写します。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "ภาษาเงียบ",
+          "content": "ในหลายวัฒนธรรมแอฟริกัน ความรักถูกแสดงออกผ่านการกระทำมากกว่าคำพูด เช่นในสุภาษิตโยรุบา ซึ่งการกระทำดังกว่าคำประกาศ คำพูดนี้จับความรักเป็นภาษาสากลที่ก้าวข้ามการพูด เข้าใจได้โดยทุกหัวใจ",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Bahasa Sunyi",
+          "content": "Dalam banyak budaya Afrika, cinta diungkapkan melalui tindakan dan bukan kata-kata, seperti dalam peribahasa Yoruba, di mana perbuatan bercakap lebih kuat daripada pernyataan. Petikan ini menangkap cinta sebagai bahasa sejagat yang melampaui pertuturan, difahami oleh semua hati.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_039",
+      "category": "love",
+      "texts": {
+        "en": "The greatest gift of love is the freedom it gives to be oneself.",
+        "tr": "Aşkın en büyük hediyesi, kişinin kendisi olmasına verdiği özgürlüktür.",
+        "fr": "Le plus grand don de l'amour est la liberté qu'il offre d'être soi-même.",
+        "pt": "O maior presente do amor é a liberdade que ele dá para ser quem se é.",
+        "nl": "Het grootste geschenk van liefde is de vrijheid die het geeft om jezelf te zijn.",
+        "es": "El mayor regalo del amor es la libertad que otorga para ser uno mismo.",
+        "de": "Das größte Geschenk der Liebe ist die Freiheit, die sie gibt, um man selbst zu sein.",
+        "it": "Il dono più grande dell'amore è la libertà che offre di essere se stessi.",
+        "ru": "Величайший дар любви — это свобода быть самим собой.",
+        "id": "Hadiah terbesar dari cinta adalah kebebasan yang diberikannya untuk menjadi diri sendiri.",
+        "ja": "愛の最大の贈り物は、自分自身でいられる自由です。",
+        "th": "ของขวัญที่ยิ่งใหญ่ที่สุดของความรักคืออิสรภาพที่มอบให้เพื่อเป็นตัวของตัวเอง",
+        "ms": "Hadiah terbesar cinta adalah kebebasan yang diberikannya untuk menjadi diri sendiri."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "freedom",
+          "identity",
+          "gift"
+        ],
+        "tr": [
+          "özgürlük",
+          "kimlik",
+          "hediye"
+        ],
+        "fr": [
+          "liberté",
+          "identité",
+          "don"
+        ],
+        "pt": [
+          "liberdade",
+          "identidade",
+          "presente"
+        ],
+        "nl": [
+          "vrijheid",
+          "identiteit",
+          "geschenk"
+        ],
+        "es": [
+          "libertad",
+          "identidad",
+          "regalo"
+        ],
+        "de": [
+          "Freiheit",
+          "Identität",
+          "Geschenk"
+        ],
+        "it": [
+          "libertà",
+          "identità",
+          "dono"
+        ],
+        "ru": [
+          "свобода",
+          "идентичность",
+          "дар"
+        ],
+        "id": [
+          "kebebasan",
+          "identitas",
+          "hadiah"
+        ],
+        "ja": [
+          "自由",
+          "アイデンティティ",
+          "贈り物"
+        ],
+        "th": [
+          "อิสรภาพ",
+          "อัตลักษณ์",
+          "ของขวัญ"
+        ],
+        "ms": [
+          "kebebasan",
+          "identiti",
+          "hadiah"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Unbound Heart",
+          "content": "In Dutch Golden Age literature, love often symbolized personal liberation, as seen in the works of poets like P.C. Hooft. This quote echoes that sentiment, suggesting that true love nurtures individuality rather than conformity.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Bağsız Kalp",
+          "content": "Hollanda Altın Çağı edebiyatında, P.C. Hooft gibi şairlerin eserlerinde aşk genellikle kişisel özgürlüğü sembolize ederdi. Bu alıntı, gerçek aşkın bireyselliği beslediğini, uyumluluğu değil, ifade eder.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "Le Cœur Libéré",
+          "content": "Dans la littérature de l'Âge d'or néerlandais, l'amour symbolisait souvent la libération personnelle, comme on le voit dans les œuvres des poètes comme P.C. Hooft. Cette citation fait écho à ce sentiment, suggérant que le véritable amour nourrit l'individualité plutôt que la conformité.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "O Coração Livre",
+          "content": "Na literatura da Idade de Ouro Holandesa, o amor frequentemente simbolizava a libertação pessoal, como visto nas obras de poetas como P.C. Hooft. Esta citação ecoa esse sentimento, sugerindo que o verdadeiro amor nutre a individualidade em vez da conformidade.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "Het Ongebonden Hart",
+          "content": "In de Nederlandse Gouden Eeuw-literatuur symboliseerde liefde vaak persoonlijke bevrijding, zoals te zien is in de werken van dichters zoals P.C. Hooft. Deze quote weerspiegelt dat sentiment, suggererend dat ware liefde individualiteit voedt in plaats van conformiteit.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "El Corazón Libre",
+          "content": "En la literatura de la Edad de Oro holandesa, el amor a menudo simbolizaba la liberación personal, como se ve en las obras de poetas como P.C. Hooft. Esta cita refleja ese sentimiento, sugiriendo que el verdadero amor nutre la individualidad en lugar de la conformidad.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Das Ungebundene Herz",
+          "content": "In der Literatur des niederländischen Goldenen Zeitalters symbolisierte Liebe oft persönliche Befreiung, wie in den Werken von Dichtern wie P.C. Hooft zu sehen ist. Dieses Zitat spiegelt dieses Gefühl wider und legt nahe, dass wahre Liebe die Individualität fördert anstatt Konformität.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "Il Cuore Libero",
+          "content": "Nella letteratura dell'Età d'Oro olandese, l'amore spesso simboleggiava la liberazione personale, come si vede nelle opere di poeti come P.C. Hooft. Questa citazione riecheggia quel sentimento, suggerendo che il vero amore nutre l'individualità piuttosto che la conformità.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Непривязанное Сердце",
+          "content": "В литературе голландского Золотого века любовь часто символизировала личное освобождение, как видно в произведениях поэтов, таких как П.К. Хофт. Это высказывание отражает это чувство, предполагая, что настоящая любовь питает индивидуальность, а не конформизм.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Hati yang Bebas",
+          "content": "Dalam sastra Zaman Keemasan Belanda, cinta sering melambangkan pembebasan pribadi, seperti terlihat dalam karya penyair seperti P.C. Hooft. Kutipan ini menggemakan sentimen tersebut, menunjukkan bahwa cinta sejati memelihara individualitas daripada konformitas.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "縛られていない心",
+          "content": "オランダ黄金時代の文学では、愛はしばしば個人的な解放を象徴していました。P.C.フーフトのような詩人の作品に見られるように。この引用はその感情を反映し、真の愛は適合ではなく個性を育むことを示唆しています。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "หัวใจที่เป็นอิสระ",
+          "content": "ในวรรณคดีสมัยยุคทองของเนเธอร์แลนด์ ความรักมักเป็นสัญลักษณ์ของการปลดปล่อยส่วนบุคคล ดังที่เห็นได้จากผลงานของกวีเช่น พี.ซี. ฮูฟต์ คำพูดนี้สะท้อนถึงความรู้สึกนั้น โดยบ่งชี้ว่าความรักที่แท้จริงบ่มเพาะความเป็นตัวของตัวเองมากกว่าการยอมตาม",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Hati yang Bebas",
+          "content": "Dalam kesusasteraan Zaman Emas Belanda, cinta sering melambangkan pembebasan peribadi, seperti yang dilihat dalam karya penyair seperti P.C. Hooft. Petikan ini menggemakan sentimen tersebut, menunjukkan bahawa cinta sejati memupuk individualiti dan bukan konformiti.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_040",
+      "category": "love",
+      "texts": {
+        "en": "Love is not just a feeling; it’s a choice we make every day.",
+        "tr": "Aşk sadece bir his değil; her gün yaptığımız bir seçimdir.",
+        "fr": "L'amour n'est pas seulement un sentiment ; c'est un choix que nous faisons chaque jour.",
+        "pt": "O amor não é apenas um sentimento; é uma escolha que fazemos todos os dias.",
+        "nl": "Liefde is niet alleen een gevoel; het is een keuze die we elke dag maken.",
+        "es": "El amor no es solo un sentimiento; es una elección que hacemos todos los días.",
+        "de": "Liebe ist nicht nur ein Gefühl; sie ist eine Entscheidung, die wir jeden Tag treffen.",
+        "it": "L'amore non è solo un sentimento; è una scelta che facciamo ogni giorno.",
+        "ru": "Любовь — это не только чувство; это выбор, который мы делаем каждый день.",
+        "id": "Cinta bukan hanya perasaan; itu adalah pilihan yang kita buat setiap hari.",
+        "ja": "愛は単なる感情ではなく、毎日選択するものです。",
+        "th": "ความรักไม่ใช่แค่ความรู้สึก แต่เป็นการเลือกที่เราทำทุกวัน",
+        "ms": "Cinta bukan hanya perasaan; ia adalah pilihan yang kita buat setiap hari."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "choice",
+          "commitment",
+          "effort"
+        ],
+        "tr": [
+          "seçim",
+          "bağlılık",
+          "çaba"
+        ],
+        "fr": [
+          "choix",
+          "engagement",
+          "effort"
+        ],
+        "pt": [
+          "escolha",
+          "compromisso",
+          "esforço"
+        ],
+        "nl": [
+          "keuze",
+          "toewijding",
+          "inspanning"
+        ],
+        "es": [
+          "elección",
+          "compromiso",
+          "esfuerzo"
+        ],
+        "de": [
+          "Entscheidung",
+          "Engagement",
+          "Anstrengung"
+        ],
+        "it": [
+          "scelta",
+          "impegno",
+          "sforzo"
+        ],
+        "ru": [
+          "выбор",
+          "обязательство",
+          "усилие"
+        ],
+        "id": [
+          "pilihan",
+          "komitmen",
+          "usaha"
+        ],
+        "ja": [
+          "選択",
+          "コミットメント",
+          "努力"
+        ],
+        "th": [
+          "การเลือก",
+          "ความมุ่งมั่น",
+          "ความพยายาม"
+        ],
+        "ms": [
+          "pilihan",
+          "komitmen",
+          "usaha"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Daily Vow",
+          "content": "In Thai Buddhist traditions, love is an active practice of compassion and mindfulness, renewed daily through intentional acts. This quote aligns with that view, framing love as a deliberate, ongoing decision rather than a fleeting emotion.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Günlük Yemin",
+          "content": "Tay Budist geleneklerinde aşk, bilinçli eylemlerle her gün yenilenen şefkat ve farkındalık pratiğidir. Bu alıntı bu görüşle uyumludur, aşkı geçici bir duygu yerine kasıtlı, devam eden bir karar olarak çerçeveler.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "Le Vœu Quotidien",
+          "content": "Dans les traditions bouddhistes thaïlandaises, l'amour est une pratique active de compassion et de pleine conscience, renouvelée chaque jour par des actes intentionnels. Cette citation s'aligne sur cette vision, présentant l'amour comme une décision délibérée et continue plutôt qu'une émotion passagère.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "O Voto Diário",
+          "content": "Nas tradições budistas tailandesas, o amor é uma prática ativa de compaixão e atenção plena, renovada diariamente por meio de atos intencionais. Esta citação está alinhada com essa visão, enquadrando o amor como uma decisão deliberada e contínua, em vez de uma emoção fugaz.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "De Dagelijkse Gelofte",
+          "content": "In Thaise boeddhistische tradities is liefde een actieve praktijk van mededogen en mindfulness, dagelijks vernieuwd door bewuste handelingen. Deze quote sluit aan bij dat idee, waarbij liefde wordt voorgesteld als een bewuste, voortdurende beslissing in plaats van een vluchtige emotie.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "El Voto Diario",
+          "content": "En las tradiciones budistas tailandesas, el amor es una práctica activa de compasión y atención plena, renovada diariamente mediante actos intencionales. Esta cita se alinea con esa visión, presentando el amor como una decisión deliberada y continua en lugar de una emoción fugaz.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Das Tägliche Gelübde",
+          "content": "In thailändischen buddhistischen Traditionen ist Liebe eine aktive Praxis von Mitgefühl und Achtsamkeit, die täglich durch bewusste Handlungen erneuert wird. Dieses Zitat steht im Einklang mit dieser Sichtweise und stellt Liebe als eine bewusste, fortlaufende Entscheidung dar, anstatt als eine flüchtige Emotion.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "Il Voto Quotidiano",
+          "content": "Nelle tradizioni buddiste thailandesi, l'amore è una pratica attiva di compassione e consapevolezza, rinnovata ogni giorno attraverso atti intenzionali. Questa citazione si allinea con quella visione, presentando l'amore come una decisione deliberata e continua piuttosto che un'emozione fugace.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Ежедневная Клятва",
+          "content": "В тайских буддийских традициях любовь — это активная практика сострадания и осознанности, обновляемая ежедневно через намеренные действия. Это высказывание соответствует этому взгляду, представляя любовь как сознательное, продолжающееся решение, а не мимолетное чувство.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Sumpah Harian",
+          "content": "Dalam tradisi Buddha Thailand, cinta adalah praktik aktif kasih sayang dan kesadaran, diperbarui setiap hari melalui tindakan yang disengaja. Kutipan ini selaras dengan pandangan tersebut, menggambarkan cinta sebagai keputusan yang disengaja dan berkelanjutan, bukan emosi yang sementara.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "毎日の誓い",
+          "content": "タイの仏教伝統では、愛は慈悲とマインドフルネスの積極的な実践であり、意図的な行動を通じて毎日更新されます。この引用はその見方に一致し、愛を一時的な感情ではなく、意図的で継続的な決定として描いています。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "คำสาบานประจำวัน",
+          "content": "ในประเพณีพุทธศาสนาไทย ความรักเป็นการปฏิบัติที่กระตือรือร้นของความเมตตาและสติ ซึ่งได้รับการต่ออายุทุกวันผ่านการกระทำที่ตั้งใจ คำพูดนี้สอดคล้องกับมุมมองนั้น โดยกำหนดความรักเป็นการตัดสินใจที่ตั้งใจและต่อเนื่อง แทนที่จะเป็นอารมณ์ชั่วคราว",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Sumpah Harian",
+          "content": "Dalam tradisi Buddha Thai, cinta adalah amalan aktif kasih sayang dan kesedaran, diperbaharui setiap hari melalui tindakan yang disengajakan. Petikan ini selaras dengan pandangan tersebut, menggambarkan cinta sebagai keputusan yang disengajakan dan berterusan, bukan emosi yang sementara.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_041",
+      "category": "love",
+      "texts": {
+        "en": "In the tapestry of life, love is the golden thread that binds us all.",
+        "tr": "Hayatın dokusunda, aşk hepimizi birleştiren altın ipliktir.",
+        "fr": "Dans la tapisserie de la vie, l'amour est le fil d'or qui nous unit tous.",
+        "pt": "Na tapeçaria da vida, o amor é o fio dourado que nos une a todos.",
+        "nl": "In het tapijt van het leven is liefde de gouden draad die ons allen verbindt.",
+        "es": "En el tapiz de la vida, el amor es el hilo dorado que nos une a todos.",
+        "de": "Im Teppich des Lebens ist die Liebe der goldene Faden, der uns alle verbindet.",
+        "it": "Nell'arazzo della vita, l'amore è il filo d'oro che ci unisce tutti.",
+        "ru": "В гобелене жизни любовь — это золотая нить, связывающая нас всех.",
+        "id": "Dalam permadani kehidupan, cinta adalah benang emas yang mengikat kita semua.",
+        "ja": "人生のタペストリーにおいて、愛は私たち全員を結ぶ金の糸です。",
+        "th": "ในผืนผ้าของชีวิต ความรักคือเส้นด้ายสีทองที่ผูกมัดเราทุกคน",
+        "ms": "Dalam permadani kehidupan, cinta adalah benang emas yang mengikat kita semua."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "unity",
+          "connection",
+          "metaphor"
+        ],
+        "tr": [
+          "birlik",
+          "bağlantı",
+          "metafor"
+        ],
+        "fr": [
+          "unité",
+          "connexion",
+          "métaphore"
+        ],
+        "pt": [
+          "unidade",
+          "conexão",
+          "metáfora"
+        ],
+        "nl": [
+          "eenheid",
+          "verbinding",
+          "metafoor"
+        ],
+        "es": [
+          "unidad",
+          "conexión",
+          "metáfora"
+        ],
+        "de": [
+          "Einheit",
+          "Verbindung",
+          "Metapher"
+        ],
+        "it": [
+          "unità",
+          "connessione",
+          "metafora"
+        ],
+        "ru": [
+          "единство",
+          "связь",
+          "метафора"
+        ],
+        "id": [
+          "kesatuan",
+          "koneksi",
+          "metafora"
+        ],
+        "ja": [
+          "団結",
+          "つながり",
+          "比喩"
+        ],
+        "th": [
+          "ความเป็นหนึ่ง",
+          "การเชื่อมต่อ",
+          "อุปมา"
+        ],
+        "ms": [
+          "perpaduan",
+          "hubungan",
+          "metafora"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Golden Weave",
+          "content": "In Russian folklore, the idea of a ‘red thread’ often connects fated souls, but this quote expands it to a golden thread uniting all humanity. It reflects a Slavic belief in love as a force that weaves lives together into a shared fabric.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Altın Dokuma",
+          "content": "Rus folklorunda, ‘kırmızı iplik’ fikri genellikle kaderle bağlı ruhları birleştirir, ancak bu alıntı bunu tüm insanlığı birleştiren altın bir ipliğe genişletir. Bu, aşkın hayatları ortak bir dokuya ören bir güç olarak Slav inancını yansıtır.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "Le Tissage Doré",
+          "content": "Dans le folklore russe, l'idée d'un ‘fil rouge’ relie souvent les âmes destinées, mais cette citation l'élargit à un fil d'or unissant toute l'humanité. Elle reflète une croyance slave en l'amour comme une force qui tisse les vies ensemble dans un tissu commun.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "A Tecelagem Dourada",
+          "content": "No folclore russo, a ideia de um ‘fio vermelho’ frequentemente conecta almas predestinadas, mas esta citação expande isso para um fio dourado que une toda a humanidade. Reflete uma crença eslava no amor como uma força que tece vidas em um tecido compartilhado.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "Het Gouden Weefsel",
+          "content": "In de Russische folklore verbindt het idee van een ‘rode draad’ vaak voorbestemde zielen, maar deze quote breidt dit uit naar een gouden draad die de hele mensheid verbindt. Het weerspiegelt een Slavisch geloof in liefde als een kracht die levens samenweeft in een gedeelde stof.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "El Tejido Dorado",
+          "content": "En el folclore ruso, la idea de un ‘hilo rojo’ a menudo conecta almas predestinadas, pero esta cita lo amplía a un hilo dorado que une a toda la humanidad. Refleja una creencia eslava en el amor como una fuerza que teje vidas en un tejido compartido.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Das Goldene Gewebe",
+          "content": "Im russischen Volksglauben verbindet die Idee eines ‘roten Fadens’ oft schicksalhafte Seelen, aber dieses Zitat erweitert dies zu einem goldenen Faden, der die gesamte Menschheit verbindet. Es spiegelt einen slawischen Glauben an die Liebe als eine Kraft wider, die Leben zu einem gemeinsamen Gewebe verknüpft.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "La Tessitura Dorata",
+          "content": "Nel folklore russo, l'idea di un ‘filo rosso’ collega spesso anime predestinate, ma questa citazione lo amplia a un filo d'oro che unisce tutta l'umanità. Riflette una credenza slava nell'amore come una forza che tesse le vite in un tessuto condiviso.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Золотое Плетение",
+          "content": "В русском фольклоре идея ‘красной нити’ часто связывает судьбоносные души, но это высказывание расширяет её до золотой нити, объединяющей всё человечество. Оно отражает славянскую веру в любовь как силу, сплетающую жизни в общую ткань.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Tenunan Emas",
+          "content": "Dalam cerita rakyat Rusia, gagasan tentang ‘benang merah’ sering menghubungkan jiwa-jiwa yang ditakdirkan, tetapi kutipan ini memperluasnya menjadi benang emas yang menyatukan seluruh umat manusia. Ini mencerminkan kepercayaan Slavia dalam cinta sebagai kekuatan yang menenun kehidupan menjadi kain bersama.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "金の織物",
+          "content": "ロシアの民間伝承では、運命の魂をつなぐ‘赤い糸’という考えがよくありますが、この引用はその考えを全人類を結ぶ金の糸に拡張します。これは、愛が人生を共有の布に織り上げる力としてスラブの信念を反映しています。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "ผ้าทอสีทอง",
+          "content": "ในนิทานพื้นบ้านรัสเซีย แนวคิดของ ‘ด้ายแดง’ มักเชื่อมโยงจิตวิญญาณที่ถูกกำหนดไว้ แต่คำพูดนี้ขยายไปถึงด้ายสีทองที่รวมมนุษยชาติทั้งหมดเข้าด้วยกัน สะท้อนถึงความเชื่อของสลาฟในความรักเป็นพลังที่ทอชีวิตให้เป็นผืนผ้าร่วมกัน",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Tenunan Emas",
+          "content": "Dalam cerita rakyat Rusia, idea ‘benang merah’ sering menghubungkan jiwa-jiwa yang ditakdirkan, tetapi petikan ini memperluaskannya kepada benang emas yang menyatukan seluruh manusia. Ini mencerminkan kepercayaan Slavia dalam cinta sebagai kuasa yang menenun kehidupan menjadi kain bersama.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "love_042",
+      "category": "love",
+      "texts": {
+        "en": "Love is the light that guides us through the darkest nights.",
+        "tr": "Aşk, en karanlık gecelerde bize yol gösteren ışıktır.",
+        "fr": "L'amour est la lumière qui nous guide à travers les nuits les plus sombres.",
+        "pt": "O amor é a luz que nos guia pelas noites mais escuras.",
+        "nl": "Liefde is het licht dat ons leidt door de donkerste nachten.",
+        "es": "El amor es la luz que nos guía a través de las noches más oscuras.",
+        "de": "Liebe ist das Licht, das uns durch die dunkelsten Nächte führt.",
+        "it": "L'amore è la luce che ci guida attraverso le notti più buie.",
+        "ru": "Любовь — это свет, который ведёт нас через самые тёмные ночи.",
+        "id": "Cinta adalah cahaya yang memandu kita melalui malam yang paling gelap.",
+        "ja": "愛は最も暗い夜を導く光です。",
+        "th": "ความรักคือแสงสว่างที่นำทางเราผ่านคืนที่มืดมิดที่สุด",
+        "ms": "Cinta adalah cahaya yang membimbing kita melalui malam yang paling gelap."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa Nama"
+      },
+      "tags": {
+        "en": [
+          "guidance",
+          "hope",
+          "resilience"
+        ],
+        "tr": [
+          "rehberlik",
+          "umut",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "guidance",
+          "espoir",
+          "résilience"
+        ],
+        "pt": [
+          "orientação",
+          "esperança",
+          "resiliência"
+        ],
+        "nl": [
+          "begeleiding",
+          "hoop",
+          "veerkracht"
+        ],
+        "es": [
+          "guía",
+          "esperanza",
+          "resiliencia"
+        ],
+        "de": [
+          "Führung",
+          "Hoffnung",
+          "Resilienz"
+        ],
+        "it": [
+          "guida",
+          "speranza",
+          "resilienza"
+        ],
+        "ru": [
+          "руководство",
+          "надежда",
+          "стойкость"
+        ],
+        "id": [
+          "panduan",
+          "harapan",
+          "ketahanan"
+        ],
+        "ja": [
+          "指導",
+          "希望",
+          "回復力"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความหวัง",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "panduan",
+          "harapan",
+          "ketabahan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "title": "The Lantern of Love",
+          "content": "In German Romanticism, love was often depicted as a beacon in turbulent times, as in Goethe’s works. This quote draws on that imagery, presenting love as a steady light that offers direction and comfort amid life’s challenges.",
+          "readTime": 0
+        },
+        "tr": {
+          "title": "Aşkın Feneri",
+          "content": "Alman Romantizminde, Goethe’nin eserlerinde olduğu gibi, aşk genellikle çalkantılı zamanlarda bir işaret ışığı olarak tasvir edilirdi. Bu alıntı bu imgeyi kullanır, aşkı hayatın zorlukları arasında yön ve teselli sunan sabit bir ışık olarak sunar.",
+          "readTime": 0
+        },
+        "fr": {
+          "title": "La Lanterne de l'Amour",
+          "content": "Dans le romantisme allemand, l'amour était souvent dépeint comme un phare dans les temps tumultueux, comme dans les œuvres de Goethe. Cette citation s'appuie sur cette imagerie, présentant l'amour comme une lumière stable qui offre direction et réconfort au milieu des défis de la vie.",
+          "readTime": 0
+        },
+        "pt": {
+          "title": "A Lanterna do Amor",
+          "content": "No romantismo alemão, o amor era frequentemente retratado como um farol em tempos turbulentos, como nas obras de Goethe. Esta citação se baseia nessa imagem, apresentando o amor como uma luz constante que oferece direção e conforto em meio aos desafios da vida.",
+          "readTime": 0
+        },
+        "nl": {
+          "title": "De Lantaarn van Liefde",
+          "content": "In het Duitse romantisme werd liefde vaak afgebeeld als een baken in turbulente tijden, zoals in de werken van Goethe. Deze quote put uit die beeldspraak en presenteert liefde als een stabiel licht dat richting en troost biedt te midden van levensuitdagingen.",
+          "readTime": 0
+        },
+        "es": {
+          "title": "La Linterna del Amor",
+          "content": "En el romanticismo alemán, el amor a menudo se representaba como un faro en tiempos turbulentos, como en las obras de Goethe. Esta cita se basa en esa imaginería, presentando el amor como una luz constante que ofrece dirección y consuelo en medio de los desafíos de la vida.",
+          "readTime": 0
+        },
+        "de": {
+          "title": "Die Laterne der Liebe",
+          "content": "Im deutschen Romantismus wurde Liebe oft als Leuchtfeuer in stürmischen Zeiten dargestellt, wie in den Werken von Goethe. Dieses Zitat greift diese Bildsprache auf und stellt Liebe als ein beständiges Licht dar, das Orientierung und Trost inmitten der Herausforderungen des Lebens bietet.",
+          "readTime": 0
+        },
+        "it": {
+          "title": "La Lanterna dell'Amore",
+          "content": "Nel romanticismo tedesco, l'amore era spesso raffigurato come un faro in tempi turbolenti, come nelle opere di Goethe. Questa citazione si basa su quell'immaginario, presentando l'amore come una luce costante che offre direzione e conforto tra le sfide della vita.",
+          "readTime": 0
+        },
+        "ru": {
+          "title": "Фонарь Любви",
+          "content": "В немецком романтизме любовь часто изображалась как маяк в бурные времена, как в произведениях Гёте. Это высказывание опирается на этот образ, представляя любовь как устойчивый свет, который предлагает направление и утешение среди жизненных испытаний.",
+          "readTime": 0
+        },
+        "id": {
+          "title": "Lampion Cinta",
+          "content": "Dalam Romantisisme Jerman, cinta sering digambarkan sebagai mercusuar di masa-masa sulit, seperti dalam karya Goethe. Kutipan ini mengambil inspirasi dari citra tersebut, menyajikan cinta sebagai cahaya tetap yang menawarkan arah dan kenyamanan di tengah tantangan hidup.",
+          "readTime": 0
+        },
+        "ja": {
+          "title": "愛のランタン",
+          "content": "ドイツのロマン主義では、ゲーテの作品に見られるように、愛はしばしば激動の時代の道標として描かれました。この引用はそのイメージを基に、愛を人生の試練の中で方向と慰めを提供する安定した光として提示します。",
+          "readTime": 0
+        },
+        "th": {
+          "title": "โคมไฟแห่งความรัก",
+          "content": "ในแนวโรแมนติกเยอรมัน ความรักมักถูกพรรณนาว่าเป็นแสงนำทางในยามยากลำบาก ดังที่เห็นในผลงานของเกอเธ่ คำพูดนี้ได้รับแรงบันดาลใจจากภาพนั้น โดยนำเสนอความรักเป็นแสงสว่างที่มั่นคงซึ่งมอบทิศทางและความปลอบใจท่ามกลางความท้าทายของชีวิต",
+          "readTime": 0
+        },
+        "ms": {
+          "title": "Lampu Cinta",
+          "content": "Dalam Romantisisme Jerman, cinta sering digambarkan sebagai mercusuar di masa sukar, seperti dalam karya Goethe. Petikan ini mengambil inspirasi daripada imej tersebut, mempersembahkan cinta sebagai cahaya yang tetap yang menawarkan arah dan keselesaan di tengah-tengah cabaran hidup.",
+          "readTime": 0
+        }
+      }
     },
-    "tr": {
-      "title": "Hayatın Çiçeği",
-      "content": "Pers kültüründe şiir, aşkı genellikle güzel ama narin bir güle benzetir. 13. yüzyıl şairi Mevlana, aşkı ruhun geliştiği bir bahçe olarak tarif etmiştir. Bu alıntı, bu gelenekten esinlenerek aşkın, bir çiçek gibi, varoluşun en çarpıcı ve hayati parçası olduğunu, gelişmek için özen gerektirdiğini öne sürer.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "La Fleur de la Vie",
-      "content": "Dans la culture persane, la poésie compare souvent l'amour à une rose, belle mais délicate. Le poète du XIIIe siècle, Rumi, décrivait l'amour comme un jardin où l'âme s'épanouit. Cette citation s'inspire de cette tradition, suggérant que l'amour, comme une fleur, est la partie la plus frappante et vitale de l'existence, nécessitant des soins pour prospérer.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "A Flor da Vida",
-      "content": "Na cultura persa, a poesia frequentemente compara o amor a uma rosa, bela mas delicada. O poeta do século XIII, Rumi, descrevia o amor como um jardim onde a alma floresce. Esta citação se inspira nessa tradição, sugerindo que o amor, como uma flor, é a parte mais marcante e vital da existência, precisando de cuidado para prosperar.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "De Bloem van het Leven",
-      "content": "In de Perzische cultuur vergelijkt poëzie liefde vaak met een roos, mooi maar kwetsbaar. De 13e-eeuwse dichter Rumi beschreef liefde als een tuin waarin de ziel bloeit. Deze quote put uit die traditie en suggereert dat liefde, net als een bloem, het meest opvallende en vitale deel van het bestaan is, dat zorg nodig heeft om te gedijen.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "La Flor de la Vida",
-      "content": "En la cultura persa, la poesía a menudo compara el amor con una rosa, hermosa pero delicada. El poeta del siglo XIII, Rumi, describía el amor como un jardín donde el alma florece. Esta cita se inspira en esa tradición, sugiriendo que el amor, como una flor, es la parte más llamativa y vital de la existencia, que necesita cuidados para prosperar.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Die Blume des Lebens",
-      "content": "In der persischen Kultur wird Liebe in der Poesie oft mit einer Rose verglichen – schön, aber zart. Der Dichter des 13. Jahrhunderts, Rumi, beschrieb Liebe als einen Garten, in dem die Seele erblüht. Dieses Zitat greift diese Tradition auf und legt nahe, dass Liebe, wie eine Blume, der auffälligste und lebendigste Teil des Daseins ist, der Pflege benötigt, um zu gedeihen.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "Il Fiore della Vita",
-      "content": "Nella cultura persiana, la poesia paragona spesso l'amore a una rosa, bella ma delicata. Il poeta del XIII secolo, Rumi, descriveva l'amore come un giardino in cui l'anima fiorisce. Questa citazione si ispira a quella tradizione, suggerendo che l'amore, come un fiore, è la parte più sorprendente e vitale dell'esistenza, che necessita di cure per prosperare.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Цветок Жизни",
-      "content": "В персидской культуре поэзия часто сравнивает любовь с розой — красивой, но хрупкой. Поэт XIII века Руми описывал любовь как сад, в котором процветает душа. Это высказывание опирается на эту традицию, предполагая, что любовь, подобно цветку, является самой яркой и жизненно важной частью существования, требующей заботы для процветания.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Bunga Kehidupan",
-      "content": "Dalam budaya Persia, puisi sering menyamakan cinta dengan mawar, indah namun rapuh. Penyair abad ke-13, Rumi, menggambarkan cinta sebagai taman tempat jiwa berkembang. Kutipan ini mengambil inspirasi dari tradisi tersebut, menunjukkan bahwa cinta, seperti bunga, adalah bagian paling mencolok dan vital dari keberadaan, yang membutuhkan perawatan untuk berkembang.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "人生の花",
-      "content": "ペルシア文化では、詩はしばしば愛をバラに例えます—美しくも繊細です。13世紀の詩人ルーミーは、愛を魂が花開く庭として描写しました。この引用は、その伝統に着想を得て、愛が花のように存在の最も印象的で重要な部分であり、繁栄するためには手入れが必要であることを示唆しています。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "ดอกไม้แห่งชีวิต",
-      "content": "ในวัฒนธรรมเปอร์เซีย กวีนิพนธ์มักเปรียบเทียบความรักกับดอกกุหลาบ—สวยงามแต่เปราะบาง กวีในศตวรรษที่ 13 รูมี อธิบายความรักว่าเป็นสวนที่จิตวิญญาณเจริญงอกงาม คำพูดนี้ได้รับแรงบันดาลใจจากประเพณีนั้น โดยบ่งชี้ว่าความรักเหมือนดอกไม้ เป็นส่วนที่โดดเด่นและสำคัญที่สุดของการดำรงอยู่ ซึ่งต้องการการดูแลเพื่อเติบโต",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Bunga Kehidupan",
-      "content": "Dalam budaya Parsi, puisi sering menyamakan cinta dengan mawar, indah tetapi rapuh. Penyair abad ke-13, Rumi, menggambarkan cinta sebagai taman di mana jiwa berkembang. Petikan ini diilhamkan oleh tradisi tersebut, menunjukkan bahawa cinta, seperti bunga, adalah bahagian yang paling menarik dan penting dalam kewujudan, yang memerlukan penjagaan untuk berkembang.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_037",
-  "category": "love",
-  "texts": {
-    "en": "True love is not about possession; it’s about appreciation.",
-    "tr": "Gerçek aşk sahip olmakla değil, takdir etmekle ilgilidir.",
-    "fr": "L'amour véritable n'est pas une question de possession, mais d'appréciation.",
-    "pt": "O verdadeiro amor não é sobre posse, é sobre apreciação.",
-    "nl": "Ware liefde gaat niet om bezit, maar om waardering.",
-    "es": "El verdadero amor no se trata de posesión, se trata de apreciación.",
-    "de": "Wahre Liebe geht nicht um Besitz, sondern um Wertschätzung.",
-    "it": "Il vero amore non riguarda il possesso, ma l'apprezzamento.",
-    "ru": "Истинная любовь — это не обладание, а признание ценности.",
-    "id": "Cinta sejati bukan tentang kepemilikan, melainkan tentang penghargaan.",
-    "ja": "本当の愛は所有することではなく、感謝することです。",
-    "th": "ความรักที่แท้จริงไม่ใช่การครอบครอง แต่เป็นการชื่นชม",
-    "ms": "Cinta sejati bukan tentang memiliki, tetapi tentang menghargai."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["appreciation", "freedom", "true love"],
-    "tr": ["takdir", "özgürlük", "gerçek aşk"],
-    "fr": ["appréciation", "liberté", "amour véritable"],
-    "pt": ["apreciação", "liberdade", "amor verdadeiro"],
-    "nl": ["waardering", "vrijheid", "ware liefde"],
-    "es": ["apreciación", "libertad", "amor verdadero"],
-    "de": ["Wertschätzung", "Freiheit", "wahre Liebe"],
-    "it": ["apprezzamento", "libertà", "vero amore"],
-    "ru": ["признание", "свобода", "истинная любовь"],
-    "id": ["penghargaan", "kebebasan", "cinta sejati"],
-    "ja": ["感謝", "自由", "本当の愛"],
-    "th": ["การชื่นชม", "อิสรภาพ", "รักแท้"],
-    "ms": ["penghargaan", "kebebasan", "cinta sejati"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Gift of Freedom",
-      "content": "In Indian philosophy, love is often seen as a liberating force. The concept of ‘prema’ in Hinduism emphasizes selfless affection over ownership. This quote reflects that ideal, portraying love as an act of valuing another’s essence without binding them.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Özgürlüğün Hediyesi",
-      "content": "Hint felsefesinde aşk, genellikle özgürleştirici bir güç olarak görülür. Hinduizm’deki ‘prema’ kavramı, sahiplenme yerine özverili sevgiyi vurgular. Bu alıntı bu ideali yansıtır, aşkı bir başkasının özünü bağlamadan değerli bulma eylemi olarak tasvir eder.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "Le Don de la Liberté",
-      "content": "Dans la philosophie indienne, l'amour est souvent considéré comme une force libératrice. Le concept de ‘prema’ dans l'hindouisme met l'accent sur l'affection désintéressée plutôt que sur la possession. Cette citation reflète cet idéal, décrivant l'amour comme un acte de valorisation de l'essence d'autrui sans le lier.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "O Dom da Liberdade",
-      "content": "Na filosofia indiana, o amor é frequentemente visto como uma força libertadora. O conceito de ‘prema’ no hinduísmo enfatiza o afeto altruísta sobre a posse. Esta citação reflete esse ideal, retratando o amor como um ato de valorizar a essência de outra pessoa sem prendê-la.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "De Gave van Vrijheid",
-      "content": "In de Indiase filosofie wordt liefde vaak gezien als een bevrijdende kracht. Het concept van ‘prema’ in het hindoeïsme benadrukt onbaatzuchtige genegenheid boven eigendom. Deze quote weerspiegelt dat ideaal, waarbij liefde wordt afgeschilderd als het waarderen van iemands essentie zonder hen te binden.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "El Don de la Libertad",
-      "content": "En la filosofía india, el amor se ve a menudo como una fuerza liberadora. El concepto de ‘prema’ en el hinduismo enfatiza el afecto desinteresado sobre la posesión. Esta cita refleja ese ideal, retratando el amor como un acto de valorar la esencia de otra persona sin atarla.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Die Gabe der Freiheit",
-      "content": "In der indischen Philosophie wird Liebe oft als befreiende Kraft angesehen. Das Konzept von ‘Prema’ im Hinduismus betont selbstlose Zuneigung gegenüber Besitz. Dieses Zitat spiegelt dieses Ideal wider und stellt Liebe als einen Akt dar, die Essenz eines anderen zu schätzen, ohne ihn zu binden.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "Il Dono della Libertà",
-      "content": "Nella filosofia indiana, l'amore è spesso visto come una forza liberatrice. Il concetto di ‘prema’ nell'induismo sottolinea l'affetto disinteressato rispetto al possesso. Questa citazione riflette quell'ideale, raffigurando l'amore come un atto di valorizzazione dell'essenza di un'altra persona senza legarla.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Дар Свободы",
-      "content": "В индийской философии любовь часто рассматривается как освобождающая сила. Концепция ‘према’ в индуизме подчеркивает бескорыстную привязанность, а не владение. Это высказывание отражает этот идеал, изображая любовь как акт ценности сущности другого без привязки его.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Hadiah Kebebasan",
-      "content": "Dalam filsafat India, cinta sering dilihat sebagai kekuatan pembebas. Konsep ‘prema’ dalam Hinduisme menekankan kasih sayang tanpa pamrih di atas kepemilikan. Kutipan ini mencerminkan ideal tersebut, menggambarkan cinta sebagai tindakan menghargai esensi orang lain tanpa mengikatnya.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "自由の贈り物",
-      "content": "インドの哲学では、愛はしばしば解放的な力と見なされます。ヒンドゥー教の‘プレーマ’という概念は、所有ではなく無私の愛情を強調します。この引用はその理想を反映し、愛を他者の本質を縛らずに大切にする行為として描写します。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "ของขวัญแห่งอิสรภาพ",
-      "content": "ในปรัชญาอินเดีย ความรักมักถูกมองว่าเป็นพลังแห่งการปลดปล่อย แนวคิดของ ‘พรีมา’ ในศาสนาฮินดูเน้นย้ำถึงความรักที่ไม่เห็นแก่ตัวเหนือการครอบครอง คำพูดนี้สะท้อนถึงอุดมคตินั้น โดยแสดงถึงความรักว่าเป็นการกระทำที่ให้คุณค่ากับแก่นแท้ของผู้อื่นโดยไม่ผูกมัด",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Hadiah Kebebasan",
-      "content": "Dalam falsafah India, cinta sering dilihat sebagai kuasa pembebasan. Konsep ‘prema’ dalam Hindu menekankan kasih sayang tanpa pamrih berbanding pemilikan. Petikan ini mencerminkan ideal tersebut, menggambarkan cinta sebagai tindakan menghargai intipati seseorang tanpa mengikatnya.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_038",
-  "category": "love",
-  "texts": {
-    "en": "Love is the language that every heart understands.",
-    "tr": "Aşk, her kalbin anladığı dildir.",
-    "fr": "L'amour est le langage que chaque cœur comprend.",
-    "pt": "O amor é a linguagem que todo coração entende.",
-    "nl": "Liefde is de taal die elk hart begrijpt.",
-    "es": "El amor es el lenguaje que todo corazón entiende.",
-    "de": "Liebe ist die Sprache, die jedes Herz versteht.",
-    "it": "L'amore è il linguaggio che ogni cuore comprende.",
-    "ru": "Любовь — это язык, который понимает каждое сердце.",
-    "id": "Cinta adalah bahasa yang dipahami setiap hati.",
-    "ja": "愛はすべての心が理解する言語です。",
-    "th": "ความรักคือภาษาที่ทุกหัวใจเข้าใจ",
-    "ms": "Cinta adalah bahasa yang difahami oleh setiap hati."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["communication", "universal", "emotion"],
-    "tr": ["iletişim", "evrensel", "duygu"],
-    "fr": ["communication", "universel", "émotion"],
-    "pt": ["comunicação", "universal", "emoção"],
-    "nl": ["communicatie", "universeel", "emotie"],
-    "es": ["comunicación", "universal", "emoción"],
-    "de": ["Kommunikation", "universell", "Emotion"],
-    "it": ["comunicazione", "universale", "emozione"],
-    "ru": ["общение", "универсальный", "эмоция"],
-    "id": ["komunikasi", "universal", "emosi"],
-    "ja": ["コミュニケーション", "普遍的", "感情"],
-    "th": ["การสื่อสาร", "สากล", "อารมณ์"],
-    "ms": ["komunikasi", "universal", "emosi"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Silent Tongue",
-      "content": "In many African cultures, love is expressed through actions rather than words, as seen in proverbs like those of the Yoruba, where deeds speak louder than declarations. This quote captures love as a universal language transcending speech, understood by all hearts.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Sessiz Dil",
-      "content": "Birçok Afrika kültüründe, Yoruba atasözlerinde olduğu gibi, aşk sözlerden ziyade eylemlerle ifade edilir; burada eylemler beyanlardan daha yüksek sesle konuşur. Bu alıntı, aşkı konuşmayı aşan evrensel bir dil olarak yakalar, tüm kalpler tarafından anlaşılır.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "La Langue Silencieuse",
-      "content": "Dans de nombreuses cultures africaines, l'amour s'exprime par des actions plutôt que par des mots, comme dans les proverbes yoruba, où les actes parlent plus fort que les déclarations. Cette citation capture l'amour comme un langage universel transcendant la parole, compris par tous les cœurs.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "A Língua Silenciosa",
-      "content": "Em muitas culturas africanas, o amor é expresso por ações em vez de palavras, como nos provérbios iorubás, onde os feitos falam mais alto que as declarações. Esta citação captura o amor como uma linguagem universal que transcende a fala, compreendida por todos os corações.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "De Stille Taal",
-      "content": "In veel Afrikaanse culturen wordt liefde uitgedrukt door daden in plaats van woorden, zoals in de spreekwoorden van de Yoruba, waar daden luider spreken dan verklaringen. Deze quote vat liefde samen als een universele taal die spraak overstijgt, begrepen door alle harten.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "La Lengua Silenciosa",
-      "content": "En muchas culturas africanas, el amor se expresa mediante acciones en lugar de palabras, como en los proverbios yoruba, donde los hechos hablan más alto que las declaraciones. Esta cita captura el amor como un lenguaje universal que trasciende el habla, entendido por todos los corazones.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Die Stille Sprache",
-      "content": "In vielen afrikanischen Kulturen wird Liebe durch Taten statt durch Worte ausgedrückt, wie in den Sprichwörtern der Yoruba, wo Taten lauter sprechen als Erklärungen. Dieses Zitat fasst Liebe als eine universelle Sprache zusammen, die über Sprache hinausgeht und von allen Herzen verstanden wird.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "La Lingua Silenziosa",
-      "content": "In molte culture africane, l'amore è espresso attraverso azioni piuttosto che parole, come nei proverbi yoruba, dove i fatti parlano più forte delle dichiarazioni. Questa citazione cattura l'amore come un linguaggio universale che trascende il discorso, compreso da tutti i cuori.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Молчаливый Язык",
-      "content": "Во многих африканских культурах любовь выражается через действия, а не слова, как в пословицах йоруба, где поступки говорят громче заявлений. Это высказывание передает любовь как универсальный язык, превосходящий речь, понятный всем сердцам.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Bahasa Sunyi",
-      "content": "Dalam banyak budaya Afrika, cinta diungkapkan melalui tindakan daripada kata-kata, seperti dalam peribahasa Yoruba, di mana perbuatan berbicara lebih keras daripada pernyataan. Kutipan ini menangkap cinta sebagai bahasa universal yang melampaui ucapan, dipahami oleh semua hati.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "沈黙の言語",
-      "content": "多くのアフリカ文化では、ヨルバ族の諺に見られるように、愛は言葉ではなく行動で表現されます。この引用は、愛を言葉を超えた普遍的な言語として捉え、すべての心に理解されるものとして描写します。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "ภาษาเงียบ",
-      "content": "ในหลายวัฒนธรรมแอฟริกัน ความรักถูกแสดงออกผ่านการกระทำมากกว่าคำพูด เช่นในสุภาษิตโยรุบา ซึ่งการกระทำดังกว่าคำประกาศ คำพูดนี้จับความรักเป็นภาษาสากลที่ก้าวข้ามการพูด เข้าใจได้โดยทุกหัวใจ",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Bahasa Sunyi",
-      "content": "Dalam banyak budaya Afrika, cinta diungkapkan melalui tindakan dan bukan kata-kata, seperti dalam peribahasa Yoruba, di mana perbuatan bercakap lebih kuat daripada pernyataan. Petikan ini menangkap cinta sebagai bahasa sejagat yang melampaui pertuturan, difahami oleh semua hati.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_039",
-  "category": "love",
-  "texts": {
-    "en": "The greatest gift of love is the freedom it gives to be oneself.",
-    "tr": "Aşkın en büyük hediyesi, kişinin kendisi olmasına verdiği özgürlüktür.",
-    "fr": "Le plus grand don de l'amour est la liberté qu'il offre d'être soi-même.",
-    "pt": "O maior presente do amor é a liberdade que ele dá para ser quem se é.",
-    "nl": "Het grootste geschenk van liefde is de vrijheid die het geeft om jezelf te zijn.",
-    "es": "El mayor regalo del amor es la libertad que otorga para ser uno mismo.",
-    "de": "Das größte Geschenk der Liebe ist die Freiheit, die sie gibt, um man selbst zu sein.",
-    "it": "Il dono più grande dell'amore è la libertà che offre di essere se stessi.",
-    "ru": "Величайший дар любви — это свобода быть самим собой.",
-    "id": "Hadiah terbesar dari cinta adalah kebebasan yang diberikannya untuk menjadi diri sendiri.",
-    "ja": "愛の最大の贈り物は、自分自身でいられる自由です。",
-    "th": "ของขวัญที่ยิ่งใหญ่ที่สุดของความรักคืออิสรภาพที่มอบให้เพื่อเป็นตัวของตัวเอง",
-    "ms": "Hadiah terbesar cinta adalah kebebasan yang diberikannya untuk menjadi diri sendiri."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["freedom", "identity", "gift"],
-    "tr": ["özgürlük", "kimlik", "hediye"],
-    "fr": ["liberté", "identité", "don"],
-    "pt": ["liberdade", "identidade", "presente"],
-    "nl": ["vrijheid", "identiteit", "geschenk"],
-    "es": ["libertad", "identidad", "regalo"],
-    "de": ["Freiheit", "Identität", "Geschenk"],
-    "it": ["libertà", "identità", "dono"],
-    "ru": ["свобода", "идентичность", "дар"],
-    "id": ["kebebasan", "identitas", "hadiah"],
-    "ja": ["自由", "アイデンティティ", "贈り物"],
-    "th": ["อิสรภาพ", "อัตลักษณ์", "ของขวัญ"],
-    "ms": ["kebebasan", "identiti", "hadiah"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Unbound Heart",
-      "content": "In Dutch Golden Age literature, love often symbolized personal liberation, as seen in the works of poets like P.C. Hooft. This quote echoes that sentiment, suggesting that true love nurtures individuality rather than conformity.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Bağsız Kalp",
-      "content": "Hollanda Altın Çağı edebiyatında, P.C. Hooft gibi şairlerin eserlerinde aşk genellikle kişisel özgürlüğü sembolize ederdi. Bu alıntı, gerçek aşkın bireyselliği beslediğini, uyumluluğu değil, ifade eder.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "Le Cœur Libéré",
-      "content": "Dans la littérature de l'Âge d'or néerlandais, l'amour symbolisait souvent la libération personnelle, comme on le voit dans les œuvres des poètes comme P.C. Hooft. Cette citation fait écho à ce sentiment, suggérant que le véritable amour nourrit l'individualité plutôt que la conformité.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "O Coração Livre",
-      "content": "Na literatura da Idade de Ouro Holandesa, o amor frequentemente simbolizava a libertação pessoal, como visto nas obras de poetas como P.C. Hooft. Esta citação ecoa esse sentimento, sugerindo que o verdadeiro amor nutre a individualidade em vez da conformidade.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "Het Ongebonden Hart",
-      "content": "In de Nederlandse Gouden Eeuw-literatuur symboliseerde liefde vaak persoonlijke bevrijding, zoals te zien is in de werken van dichters zoals P.C. Hooft. Deze quote weerspiegelt dat sentiment, suggererend dat ware liefde individualiteit voedt in plaats van conformiteit.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "El Corazón Libre",
-      "content": "En la literatura de la Edad de Oro holandesa, el amor a menudo simbolizaba la liberación personal, como se ve en las obras de poetas como P.C. Hooft. Esta cita refleja ese sentimiento, sugiriendo que el verdadero amor nutre la individualidad en lugar de la conformidad.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Das Ungebundene Herz",
-      "content": "In der Literatur des niederländischen Goldenen Zeitalters symbolisierte Liebe oft persönliche Befreiung, wie in den Werken von Dichtern wie P.C. Hooft zu sehen ist. Dieses Zitat spiegelt dieses Gefühl wider und legt nahe, dass wahre Liebe die Individualität fördert anstatt Konformität.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "Il Cuore Libero",
-      "content": "Nella letteratura dell'Età d'Oro olandese, l'amore spesso simboleggiava la liberazione personale, come si vede nelle opere di poeti come P.C. Hooft. Questa citazione riecheggia quel sentimento, suggerendo che il vero amore nutre l'individualità piuttosto che la conformità.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Непривязанное Сердце",
-      "content": "В литературе голландского Золотого века любовь часто символизировала личное освобождение, как видно в произведениях поэтов, таких как П.К. Хофт. Это высказывание отражает это чувство, предполагая, что настоящая любовь питает индивидуальность, а не конформизм.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Hati yang Bebas",
-      "content": "Dalam sastra Zaman Keemasan Belanda, cinta sering melambangkan pembebasan pribadi, seperti terlihat dalam karya penyair seperti P.C. Hooft. Kutipan ini menggemakan sentimen tersebut, menunjukkan bahwa cinta sejati memelihara individualitas daripada konformitas.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "縛られていない心",
-      "content": "オランダ黄金時代の文学では、愛はしばしば個人的な解放を象徴していました。P.C.フーフトのような詩人の作品に見られるように。この引用はその感情を反映し、真の愛は適合ではなく個性を育むことを示唆しています。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "หัวใจที่เป็นอิสระ",
-      "content": "ในวรรณคดีสมัยยุคทองของเนเธอร์แลนด์ ความรักมักเป็นสัญลักษณ์ของการปลดปล่อยส่วนบุคคล ดังที่เห็นได้จากผลงานของกวีเช่น พี.ซี. ฮูฟต์ คำพูดนี้สะท้อนถึงความรู้สึกนั้น โดยบ่งชี้ว่าความรักที่แท้จริงบ่มเพาะความเป็นตัวของตัวเองมากกว่าการยอมตาม",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Hati yang Bebas",
-      "content": "Dalam kesusasteraan Zaman Emas Belanda, cinta sering melambangkan pembebasan peribadi, seperti yang dilihat dalam karya penyair seperti P.C. Hooft. Petikan ini menggemakan sentimen tersebut, menunjukkan bahawa cinta sejati memupuk individualiti dan bukan konformiti.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_040",
-  "category": "love",
-  "texts": {
-    "en": "Love is not just a feeling; it’s a choice we make every day.",
-    "tr": "Aşk sadece bir his değil; her gün yaptığımız bir seçimdir.",
-    "fr": "L'amour n'est pas seulement un sentiment ; c'est un choix que nous faisons chaque jour.",
-    "pt": "O amor não é apenas um sentimento; é uma escolha que fazemos todos os dias.",
-    "nl": "Liefde is niet alleen een gevoel; het is een keuze die we elke dag maken.",
-    "es": "El amor no es solo un sentimiento; es una elección que hacemos todos los días.",
-    "de": "Liebe ist nicht nur ein Gefühl; sie ist eine Entscheidung, die wir jeden Tag treffen.",
-    "it": "L'amore non è solo un sentimento; è una scelta che facciamo ogni giorno.",
-    "ru": "Любовь — это не только чувство; это выбор, который мы делаем каждый день.",
-    "id": "Cinta bukan hanya perasaan; itu adalah pilihan yang kita buat setiap hari.",
-    "ja": "愛は単なる感情ではなく、毎日選択するものです。",
-    "th": "ความรักไม่ใช่แค่ความรู้สึก แต่เป็นการเลือกที่เราทำทุกวัน",
-    "ms": "Cinta bukan hanya perasaan; ia adalah pilihan yang kita buat setiap hari."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["choice", "commitment", "effort"],
-    "tr": ["seçim", "bağlılık", "çaba"],
-    "fr": ["choix", "engagement", "effort"],
-    "pt": ["escolha", "compromisso", "esforço"],
-    "nl": ["keuze", "toewijding", "inspanning"],
-    "es": ["elección", "compromiso", "esfuerzo"],
-    "de": ["Entscheidung", "Engagement", "Anstrengung"],
-    "it": ["scelta", "impegno", "sforzo"],
-    "ru": ["выбор", "обязательство", "усилие"],
-    "id": ["pilihan", "komitmen", "usaha"],
-    "ja": ["選択", "コミットメント", "努力"],
-    "th": ["การเลือก", "ความมุ่งมั่น", "ความพยายาม"],
-    "ms": ["pilihan", "komitmen", "usaha"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Daily Vow",
-      "content": "In Thai Buddhist traditions, love is an active practice of compassion and mindfulness, renewed daily through intentional acts. This quote aligns with that view, framing love as a deliberate, ongoing decision rather than a fleeting emotion.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Günlük Yemin",
-      "content": "Tay Budist geleneklerinde aşk, bilinçli eylemlerle her gün yenilenen şefkat ve farkındalık pratiğidir. Bu alıntı bu görüşle uyumludur, aşkı geçici bir duygu yerine kasıtlı, devam eden bir karar olarak çerçeveler.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "Le Vœu Quotidien",
-      "content": "Dans les traditions bouddhistes thaïlandaises, l'amour est une pratique active de compassion et de pleine conscience, renouvelée chaque jour par des actes intentionnels. Cette citation s'aligne sur cette vision, présentant l'amour comme une décision délibérée et continue plutôt qu'une émotion passagère.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "O Voto Diário",
-      "content": "Nas tradições budistas tailandesas, o amor é uma prática ativa de compaixão e atenção plena, renovada diariamente por meio de atos intencionais. Esta citação está alinhada com essa visão, enquadrando o amor como uma decisão deliberada e contínua, em vez de uma emoção fugaz.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "De Dagelijkse Gelofte",
-      "content": "In Thaise boeddhistische tradities is liefde een actieve praktijk van mededogen en mindfulness, dagelijks vernieuwd door bewuste handelingen. Deze quote sluit aan bij dat idee, waarbij liefde wordt voorgesteld als een bewuste, voortdurende beslissing in plaats van een vluchtige emotie.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "El Voto Diario",
-      "content": "En las tradiciones budistas tailandesas, el amor es una práctica activa de compasión y atención plena, renovada diariamente mediante actos intencionales. Esta cita se alinea con esa visión, presentando el amor como una decisión deliberada y continua en lugar de una emoción fugaz.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Das Tägliche Gelübde",
-      "content": "In thailändischen buddhistischen Traditionen ist Liebe eine aktive Praxis von Mitgefühl und Achtsamkeit, die täglich durch bewusste Handlungen erneuert wird. Dieses Zitat steht im Einklang mit dieser Sichtweise und stellt Liebe als eine bewusste, fortlaufende Entscheidung dar, anstatt als eine flüchtige Emotion.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "Il Voto Quotidiano",
-      "content": "Nelle tradizioni buddiste thailandesi, l'amore è una pratica attiva di compassione e consapevolezza, rinnovata ogni giorno attraverso atti intenzionali. Questa citazione si allinea con quella visione, presentando l'amore come una decisione deliberata e continua piuttosto che un'emozione fugace.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Ежедневная Клятва",
-      "content": "В тайских буддийских традициях любовь — это активная практика сострадания и осознанности, обновляемая ежедневно через намеренные действия. Это высказывание соответствует этому взгляду, представляя любовь как сознательное, продолжающееся решение, а не мимолетное чувство.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Sumpah Harian",
-      "content": "Dalam tradisi Buddha Thailand, cinta adalah praktik aktif kasih sayang dan kesadaran, diperbarui setiap hari melalui tindakan yang disengaja. Kutipan ini selaras dengan pandangan tersebut, menggambarkan cinta sebagai keputusan yang disengaja dan berkelanjutan, bukan emosi yang sementara.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "毎日の誓い",
-      "content": "タイの仏教伝統では、愛は慈悲とマインドフルネスの積極的な実践であり、意図的な行動を通じて毎日更新されます。この引用はその見方に一致し、愛を一時的な感情ではなく、意図的で継続的な決定として描いています。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "คำสาบานประจำวัน",
-      "content": "ในประเพณีพุทธศาสนาไทย ความรักเป็นการปฏิบัติที่กระตือรือร้นของความเมตตาและสติ ซึ่งได้รับการต่ออายุทุกวันผ่านการกระทำที่ตั้งใจ คำพูดนี้สอดคล้องกับมุมมองนั้น โดยกำหนดความรักเป็นการตัดสินใจที่ตั้งใจและต่อเนื่อง แทนที่จะเป็นอารมณ์ชั่วคราว",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Sumpah Harian",
-      "content": "Dalam tradisi Buddha Thai, cinta adalah amalan aktif kasih sayang dan kesedaran, diperbaharui setiap hari melalui tindakan yang disengajakan. Petikan ini selaras dengan pandangan tersebut, menggambarkan cinta sebagai keputusan yang disengajakan dan berterusan, bukan emosi yang sementara.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_041",
-  "category": "love",
-  "texts": {
-    "en": "In the tapestry of life, love is the golden thread that binds us all.",
-    "tr": "Hayatın dokusunda, aşk hepimizi birleştiren altın ipliktir.",
-    "fr": "Dans la tapisserie de la vie, l'amour est le fil d'or qui nous unit tous.",
-    "pt": "Na tapeçaria da vida, o amor é o fio dourado que nos une a todos.",
-    "nl": "In het tapijt van het leven is liefde de gouden draad die ons allen verbindt.",
-    "es": "En el tapiz de la vida, el amor es el hilo dorado que nos une a todos.",
-    "de": "Im Teppich des Lebens ist die Liebe der goldene Faden, der uns alle verbindet.",
-    "it": "Nell'arazzo della vita, l'amore è il filo d'oro che ci unisce tutti.",
-    "ru": "В гобелене жизни любовь — это золотая нить, связывающая нас всех.",
-    "id": "Dalam permadani kehidupan, cinta adalah benang emas yang mengikat kita semua.",
-    "ja": "人生のタペストリーにおいて、愛は私たち全員を結ぶ金の糸です。",
-    "th": "ในผืนผ้าของชีวิต ความรักคือเส้นด้ายสีทองที่ผูกมัดเราทุกคน",
-    "ms": "Dalam permadani kehidupan, cinta adalah benang emas yang mengikat kita semua."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["unity", "connection", "metaphor"],
-    "tr": ["birlik", "bağlantı", "metafor"],
-    "fr": ["unité", "connexion", "métaphore"],
-    "pt": ["unidade", "conexão", "metáfora"],
-    "nl": ["eenheid", "verbinding", "metafoor"],
-    "es": ["unidad", "conexión", "metáfora"],
-    "de": ["Einheit", "Verbindung", "Metapher"],
-    "it": ["unità", "connessione", "metafora"],
-    "ru": ["единство", "связь", "метафора"],
-    "id": ["kesatuan", "koneksi", "metafora"],
-    "ja": ["団結", "つながり", "比喩"],
-    "th": ["ความเป็นหนึ่ง", "การเชื่อมต่อ", "อุปมา"],
-    "ms": ["perpaduan", "hubungan", "metafora"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Golden Weave",
-      "content": "In Russian folklore, the idea of a ‘red thread’ often connects fated souls, but this quote expands it to a golden thread uniting all humanity. It reflects a Slavic belief in love as a force that weaves lives together into a shared fabric.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Altın Dokuma",
-      "content": "Rus folklorunda, ‘kırmızı iplik’ fikri genellikle kaderle bağlı ruhları birleştirir, ancak bu alıntı bunu tüm insanlığı birleştiren altın bir ipliğe genişletir. Bu, aşkın hayatları ortak bir dokuya ören bir güç olarak Slav inancını yansıtır.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "Le Tissage Doré",
-      "content": "Dans le folklore russe, l'idée d'un ‘fil rouge’ relie souvent les âmes destinées, mais cette citation l'élargit à un fil d'or unissant toute l'humanité. Elle reflète une croyance slave en l'amour comme une force qui tisse les vies ensemble dans un tissu commun.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "A Tecelagem Dourada",
-      "content": "No folclore russo, a ideia de um ‘fio vermelho’ frequentemente conecta almas predestinadas, mas esta citação expande isso para um fio dourado que une toda a humanidade. Reflete uma crença eslava no amor como uma força que tece vidas em um tecido compartilhado.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "Het Gouden Weefsel",
-      "content": "In de Russische folklore verbindt het idee van een ‘rode draad’ vaak voorbestemde zielen, maar deze quote breidt dit uit naar een gouden draad die de hele mensheid verbindt. Het weerspiegelt een Slavisch geloof in liefde als een kracht die levens samenweeft in een gedeelde stof.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "El Tejido Dorado",
-      "content": "En el folclore ruso, la idea de un ‘hilo rojo’ a menudo conecta almas predestinadas, pero esta cita lo amplía a un hilo dorado que une a toda la humanidad. Refleja una creencia eslava en el amor como una fuerza que teje vidas en un tejido compartido.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Das Goldene Gewebe",
-      "content": "Im russischen Volksglauben verbindet die Idee eines ‘roten Fadens’ oft schicksalhafte Seelen, aber dieses Zitat erweitert dies zu einem goldenen Faden, der die gesamte Menschheit verbindet. Es spiegelt einen slawischen Glauben an die Liebe als eine Kraft wider, die Leben zu einem gemeinsamen Gewebe verknüpft.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "La Tessitura Dorata",
-      "content": "Nel folklore russo, l'idea di un ‘filo rosso’ collega spesso anime predestinate, ma questa citazione lo amplia a un filo d'oro che unisce tutta l'umanità. Riflette una credenza slava nell'amore come una forza che tesse le vite in un tessuto condiviso.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Золотое Плетение",
-      "content": "В русском фольклоре идея ‘красной нити’ часто связывает судьбоносные души, но это высказывание расширяет её до золотой нити, объединяющей всё человечество. Оно отражает славянскую веру в любовь как силу, сплетающую жизни в общую ткань.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Tenunan Emas",
-      "content": "Dalam cerita rakyat Rusia, gagasan tentang ‘benang merah’ sering menghubungkan jiwa-jiwa yang ditakdirkan, tetapi kutipan ini memperluasnya menjadi benang emas yang menyatukan seluruh umat manusia. Ini mencerminkan kepercayaan Slavia dalam cinta sebagai kekuatan yang menenun kehidupan menjadi kain bersama.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "金の織物",
-      "content": "ロシアの民間伝承では、運命の魂をつなぐ‘赤い糸’という考えがよくありますが、この引用はその考えを全人類を結ぶ金の糸に拡張します。これは、愛が人生を共有の布に織り上げる力としてスラブの信念を反映しています。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "ผ้าทอสีทอง",
-      "content": "ในนิทานพื้นบ้านรัสเซีย แนวคิดของ ‘ด้ายแดง’ มักเชื่อมโยงจิตวิญญาณที่ถูกกำหนดไว้ แต่คำพูดนี้ขยายไปถึงด้ายสีทองที่รวมมนุษยชาติทั้งหมดเข้าด้วยกัน สะท้อนถึงความเชื่อของสลาฟในความรักเป็นพลังที่ทอชีวิตให้เป็นผืนผ้าร่วมกัน",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Tenunan Emas",
-      "content": "Dalam cerita rakyat Rusia, idea ‘benang merah’ sering menghubungkan jiwa-jiwa yang ditakdirkan, tetapi petikan ini memperluaskannya kepada benang emas yang menyatukan seluruh manusia. Ini mencerminkan kepercayaan Slavia dalam cinta sebagai kuasa yang menenun kehidupan menjadi kain bersama.",
-      "readTime": 0
-    }
-  }
-},
-{
-  "id": "love_042",
-  "category": "love",
-  "texts": {
-    "en": "Love is the light that guides us through the darkest nights.",
-    "tr": "Aşk, en karanlık gecelerde bize yol gösteren ışıktır.",
-    "fr": "L'amour est la lumière qui nous guide à travers les nuits les plus sombres.",
-    "pt": "O amor é a luz que nos guia pelas noites mais escuras.",
-    "nl": "Liefde is het licht dat ons leidt door de donkerste nachten.",
-    "es": "El amor es la luz que nos guía a través de las noches más oscuras.",
-    "de": "Liebe ist das Licht, das uns durch die dunkelsten Nächte führt.",
-    "it": "L'amore è la luce che ci guida attraverso le notti più buie.",
-    "ru": "Любовь — это свет, который ведёт нас через самые тёмные ночи.",
-    "id": "Cinta adalah cahaya yang memandu kita melalui malam yang paling gelap.",
-    "ja": "愛は最も暗い夜を導く光です。",
-    "th": "ความรักคือแสงสว่างที่นำทางเราผ่านคืนที่มืดมิดที่สุด",
-    "ms": "Cinta adalah cahaya yang membimbing kita melalui malam yang paling gelap."
-  },
-  "authors": {
-    "en": "Anonymous",
-    "tr": "Anonim",
-    "fr": "Anonyme",
-    "pt": "Anônimo",
-    "nl": "Anoniem",
-    "es": "Anónimo",
-    "de": "Anonym",
-    "it": "Anonimo",
-    "ru": "Аноним",
-    "id": "Anonim",
-    "ja": "匿名",
-    "th": "ไม่ระบุชื่อ",
-    "ms": "Tanpa Nama"
-  },
-  "tags": {
-    "en": ["guidance", "hope", "resilience"],
-    "tr": ["rehberlik", "umut", "dayanıklılık"],
-    "fr": ["guidance", "espoir", "résilience"],
-    "pt": ["orientação", "esperança", "resiliência"],
-    "nl": ["begeleiding", "hoop", "veerkracht"],
-    "es": ["guía", "esperanza", "resiliencia"],
-    "de": ["Führung", "Hoffnung", "Resilienz"],
-    "it": ["guida", "speranza", "resilienza"],
-    "ru": ["руководство", "надежда", "стойкость"],
-    "id": ["panduan", "harapan", "ketahanan"],
-    "ja": ["指導", "希望", "回復力"],
-    "th": ["การนำทาง", "ความหวัง", "ความยืดหยุ่น"],
-    "ms": ["panduan", "harapan", "ketabahan"]
-  },
-  "readTime": 0,
-  "stories": {
-    "en": {
-      "title": "The Lantern of Love",
-      "content": "In German Romanticism, love was often depicted as a beacon in turbulent times, as in Goethe’s works. This quote draws on that imagery, presenting love as a steady light that offers direction and comfort amid life’s challenges.",
-      "readTime": 0
-    },
-    "tr": {
-      "title": "Aşkın Feneri",
-      "content": "Alman Romantizminde, Goethe’nin eserlerinde olduğu gibi, aşk genellikle çalkantılı zamanlarda bir işaret ışığı olarak tasvir edilirdi. Bu alıntı bu imgeyi kullanır, aşkı hayatın zorlukları arasında yön ve teselli sunan sabit bir ışık olarak sunar.",
-      "readTime": 0
-    },
-    "fr": {
-      "title": "La Lanterne de l'Amour",
-      "content": "Dans le romantisme allemand, l'amour était souvent dépeint comme un phare dans les temps tumultueux, comme dans les œuvres de Goethe. Cette citation s'appuie sur cette imagerie, présentant l'amour comme une lumière stable qui offre direction et réconfort au milieu des défis de la vie.",
-      "readTime": 0
-    },
-    "pt": {
-      "title": "A Lanterna do Amor",
-      "content": "No romantismo alemão, o amor era frequentemente retratado como um farol em tempos turbulentos, como nas obras de Goethe. Esta citação se baseia nessa imagem, apresentando o amor como uma luz constante que oferece direção e conforto em meio aos desafios da vida.",
-      "readTime": 0
-    },
-    "nl": {
-      "title": "De Lantaarn van Liefde",
-      "content": "In het Duitse romantisme werd liefde vaak afgebeeld als een baken in turbulente tijden, zoals in de werken van Goethe. Deze quote put uit die beeldspraak en presenteert liefde als een stabiel licht dat richting en troost biedt te midden van levensuitdagingen.",
-      "readTime": 0
-    },
-    "es": {
-      "title": "La Linterna del Amor",
-      "content": "En el romanticismo alemán, el amor a menudo se representaba como un faro en tiempos turbulentos, como en las obras de Goethe. Esta cita se basa en esa imaginería, presentando el amor como una luz constante que ofrece dirección y consuelo en medio de los desafíos de la vida.",
-      "readTime": 0
-    },
-    "de": {
-      "title": "Die Laterne der Liebe",
-      "content": "Im deutschen Romantismus wurde Liebe oft als Leuchtfeuer in stürmischen Zeiten dargestellt, wie in den Werken von Goethe. Dieses Zitat greift diese Bildsprache auf und stellt Liebe als ein beständiges Licht dar, das Orientierung und Trost inmitten der Herausforderungen des Lebens bietet.",
-      "readTime": 0
-    },
-    "it": {
-      "title": "La Lanterna dell'Amore",
-      "content": "Nel romanticismo tedesco, l'amore era spesso raffigurato come un faro in tempi turbolenti, come nelle opere di Goethe. Questa citazione si basa su quell'immaginario, presentando l'amore come una luce costante che offre direzione e conforto tra le sfide della vita.",
-      "readTime": 0
-    },
-    "ru": {
-      "title": "Фонарь Любви",
-      "content": "В немецком романтизме любовь часто изображалась как маяк в бурные времена, как в произведениях Гёте. Это высказывание опирается на этот образ, представляя любовь как устойчивый свет, который предлагает направление и утешение среди жизненных испытаний.",
-      "readTime": 0
-    },
-    "id": {
-      "title": "Lampion Cinta",
-      "content": "Dalam Romantisisme Jerman, cinta sering digambarkan sebagai mercusuar di masa-masa sulit, seperti dalam karya Goethe. Kutipan ini mengambil inspirasi dari citra tersebut, menyajikan cinta sebagai cahaya tetap yang menawarkan arah dan kenyamanan di tengah tantangan hidup.",
-      "readTime": 0
-    },
-    "ja": {
-      "title": "愛のランタン",
-      "content": "ドイツのロマン主義では、ゲーテの作品に見られるように、愛はしばしば激動の時代の道標として描かれました。この引用はそのイメージを基に、愛を人生の試練の中で方向と慰めを提供する安定した光として提示します。",
-      "readTime": 0
-    },
-    "th": {
-      "title": "โคมไฟแห่งความรัก",
-      "content": "ในแนวโรแมนติกเยอรมัน ความรักมักถูกพรรณนาว่าเป็นแสงนำทางในยามยากลำบาก ดังที่เห็นในผลงานของเกอเธ่ คำพูดนี้ได้รับแรงบันดาลใจจากภาพนั้น โดยนำเสนอความรักเป็นแสงสว่างที่มั่นคงซึ่งมอบทิศทางและความปลอบใจท่ามกลางความท้าทายของชีวิต",
-      "readTime": 0
-    },
-    "ms": {
-      "title": "Lampu Cinta",
-      "content": "Dalam Romantisisme Jerman, cinta sering digambarkan sebagai mercusuar di masa sukar, seperti dalam karya Goethe. Petikan ini mengambil inspirasi daripada imej tersebut, mempersembahkan cinta sebagai cahaya yang tetap yang menawarkan arah dan keselesaan di tengah-tengah cabaran hidup.",
-      "readTime": 0
-    }
-  }
-},
     {
       "id": "love_043",
       "category": "love",
@@ -3620,8 +5148,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["worth", "nourishment", "growth"],
-        "tr": ["değer", "beslenme", "büyüme"]
+        "en": [
+          "worth",
+          "nourishment",
+          "growth"
+        ],
+        "tr": [
+          "değer",
+          "beslenme",
+          "büyüme"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3651,8 +5187,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["self-love", "choice", "relationships"],
-        "tr": ["öz-sevgi", "seçim", "ilişkiler"]
+        "en": [
+          "self-love",
+          "choice",
+          "relationships"
+        ],
+        "tr": [
+          "öz-sevgi",
+          "seçim",
+          "ilişkiler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3682,8 +5226,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["attraction", "authenticity", "relationships"],
-        "tr": ["çekim", "özgünlük", "ilişkiler"]
+        "en": [
+          "attraction",
+          "authenticity",
+          "relationships"
+        ],
+        "tr": [
+          "çekim",
+          "özgünlük",
+          "ilişkiler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3713,8 +5265,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["communication", "expression", "actions"],
-        "tr": ["iletişim", "ifade", "eylemler"]
+        "en": [
+          "communication",
+          "expression",
+          "actions"
+        ],
+        "tr": [
+          "iletişim",
+          "ifade",
+          "eylemler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3744,8 +5304,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["forgiveness", "freedom", "flow"],
-        "tr": ["bağışlama", "özgürlük", "akış"]
+        "en": [
+          "forgiveness",
+          "freedom",
+          "flow"
+        ],
+        "tr": [
+          "bağışlama",
+          "özgürlük",
+          "akış"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3775,8 +5343,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["gratitude", "surrounding", "forms"],
-        "tr": ["şükran", "çevreleme", "biçimler"]
+        "en": [
+          "gratitude",
+          "surrounding",
+          "forms"
+        ],
+        "tr": [
+          "şükran",
+          "çevreleme",
+          "biçimler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3806,8 +5382,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["optimism", "support", "dreams"],
-        "tr": ["iyimserlik", "destek", "hayaller"]
+        "en": [
+          "optimism",
+          "support",
+          "dreams"
+        ],
+        "tr": [
+          "iyimserlik",
+          "destek",
+          "hayaller"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3837,8 +5421,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["boundaries", "protection", "nurturing"],
-        "tr": ["sınırlar", "koruma", "besleme"]
+        "en": [
+          "boundaries",
+          "protection",
+          "nurturing"
+        ],
+        "tr": [
+          "sınırlar",
+          "koruma",
+          "besleme"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3868,8 +5460,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["radiation", "attraction", "positivity"],
-        "tr": ["yayma", "çekim", "olumlu"]
+        "en": [
+          "radiation",
+          "attraction",
+          "positivity"
+        ],
+        "tr": [
+          "yayma",
+          "çekim",
+          "olumlu"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3899,8 +5499,16 @@
         "tr": "Anonim"
       },
       "tags": {
-        "en": ["patience", "understanding", "relationships"],
-        "tr": ["sabır", "anlayış", "ilişkiler"]
+        "en": [
+          "patience",
+          "understanding",
+          "relationships"
+        ],
+        "tr": [
+          "sabır",
+          "anlayış",
+          "ilişkiler"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4018,19 +5626,19 @@
       "id": "love_055",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Love into my life.",
-        "tr": "Hayatıma Aşk enerjisini alıyorum.",
-        "fr": "J'accueille Love dans ma vie.",
-        "pt": "Eu acolho Love na minha vida.",
-        "nl": "Ik verwelkom Love in mijn leven.",
-        "es": "Doy la bienvenida a Love en mi vida.",
-        "de": "Ich heiße Love in meinem Leben willkommen.",
-        "it": "Accolgo Love nella mia vita.",
-        "ru": "Я принимаю Love в свою жизнь.",
-        "id": "Saya menyambut Love dalam hidup saya.",
-        "ja": "私はLoveを人生に迎え入れます。",
-        "th": "ฉันต้อนรับLoveเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Love dalam hidup saya."
+        "en": "I make room for love without rushing.",
+        "tr": "aşk için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à love sans me presser.",
+        "pt": "Abro espaço para love sem pressa.",
+        "nl": "Ik maak ruimte voor love zonder te haasten.",
+        "es": "Hago espacio para love sin prisa.",
+        "de": "Ich mache Platz für love, ohne zu hetzen.",
+        "it": "Faccio spazio a love senza fretta.",
+        "ru": "Я даю место love без спешки.",
+        "id": "Aku memberi ruang bagi love tanpa terburu-buru.",
+        "ja": "焦らずにloveのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้loveโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk love tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -4062,19 +5670,19 @@
       "id": "love_056",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Love.",
-        "tr": "Kalbim Aşk için açık.",
-        "fr": "Mon cœur est ouvert à Love.",
-        "pt": "Meu coração está aberto para Love.",
-        "nl": "Mijn hart staat open voor Love.",
-        "es": "Mi corazón está abierto a Love.",
-        "de": "Mein Herz ist offen für Love.",
-        "it": "Il mio cuore è aperto a Love.",
-        "ru": "Моё сердце открыто для Love.",
-        "id": "Hati saya terbuka untuk Love.",
-        "ja": "私の心はLoveに開かれています。",
-        "th": "หัวใจของฉันเปิดรับLove",
-        "ms": "Hati saya terbuka untuk Love."
+        "en": "I stay open to love in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde aşk için açık kalıyorum.",
+        "fr": "Je reste ouvert à love d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a love de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor love op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a love de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für love auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a love in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к love так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada love dengan cara yang terasa aman.",
+        "ja": "安心できる形でloveに心を開き続けます。",
+        "th": "ฉันเปิดใจให้loveในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap love dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -4106,19 +5714,19 @@
       "id": "love_057",
       "type": "affirmation",
       "texts": {
-        "en": "Love grows within me each day.",
-        "tr": "Aşk her gün içimde büyüyor.",
-        "fr": "Love grandit en moi chaque jour.",
-        "pt": "Love cresce dentro de mim todos os dias.",
-        "nl": "Love groeit elke dag in mij.",
-        "es": "Love crece dentro de mí cada día.",
-        "de": "Love wächst jeden Tag in mir.",
-        "it": "Love cresce in me ogni giorno.",
-        "ru": "Love растёт во мне каждый день.",
-        "id": "Love tumbuh di dalam diri saya setiap hari.",
-        "ja": "Loveは毎日私の中で育ちます。",
-        "th": "Loveเติบโตในตัวฉันทุกวัน",
-        "ms": "Love berkembang dalam diri saya setiap hari."
+        "en": "Each day, love grows within me.",
+        "tr": "Her gün içimde aşk büyüyor.",
+        "fr": "Chaque jour, love grandit en moi.",
+        "pt": "A cada dia, love cresce dentro de mim.",
+        "nl": "Elke dag groeit love in mij.",
+        "es": "Cada día, love crece dentro de mí.",
+        "de": "Jeden Tag wächst love in mir.",
+        "it": "Ogni giorno, love cresce dentro di me.",
+        "ru": "Каждый день love растёт во мне.",
+        "id": "Setiap hari, love tumbuh di dalam diriku.",
+        "ja": "毎日、loveが私の中で育っています。",
+        "th": "ทุกวัน love เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, love berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -4150,19 +5758,19 @@
       "id": "love_058",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Love now.",
-        "tr": "Şimdi Aşk için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Love maintenant.",
-        "pt": "Eu crio espaço para Love agora.",
-        "nl": "Ik maak nu ruimte voor Love.",
-        "es": "Creo espacio para Love ahora.",
-        "de": "Ich schaffe jetzt Raum für Love.",
-        "it": "Creo spazio per Love ora.",
-        "ru": "Я создаю пространство для Love сейчас.",
-        "id": "Saya menciptakan ruang untuk Love sekarang.",
-        "ja": "今、Loveのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับLoveในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Love sekarang."
+        "en": "I give love a quiet place in my day.",
+        "tr": "Günümde aşk için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à love une place calme dans ma journée.",
+        "pt": "Dou a love um lugar tranquilo no meu dia.",
+        "nl": "Ik geef love een rustige plek in mijn dag.",
+        "es": "Le doy a love un lugar tranquilo en mi día.",
+        "de": "Ich gebe love einen ruhigen Platz in meinem Tag.",
+        "it": "Do a love un posto tranquillo nella mia giornata.",
+        "ru": "Я даю love тихое место в своём дне.",
+        "id": "Aku memberi love tempat yang tenang dalam hariku.",
+        "ja": "一日の中にloveのための静かな場所をつくります。",
+        "th": "ฉันให้loveมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi love tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -4194,19 +5802,19 @@
       "id": "love_059",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Love.",
-        "tr": "Aşk yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Love.",
-        "pt": "Eu confio no caminho de Love.",
-        "nl": "Ik vertrouw op het pad van Love.",
-        "es": "Confío en el camino de Love.",
-        "de": "Ich vertraue dem Weg von Love.",
-        "it": "Mi fido del percorso di Love.",
-        "ru": "Я доверяю пути Love.",
-        "id": "Saya percaya pada jalan Love.",
-        "ja": "私はLoveの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของLove",
-        "ms": "Saya percaya pada jalan Love."
+        "en": "I trust my own way of growing in love.",
+        "tr": "aşk konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec love.",
+        "pt": "Confio no meu próprio jeito de crescer com love.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in love.",
+        "es": "Confío en mi propia manera de crecer con love.",
+        "de": "Ich vertraue meinem eigenen Weg, in love zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con love.",
+        "ru": "Я доверяю своему собственному пути роста в love.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam love.",
+        "ja": "自分なりのloveの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับlove",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam love."
       },
       "authors": {
         "en": "",
@@ -4233,6 +5841,946 @@
         ]
       },
       "readTime": "0"
+    },
+    {
+      "id": "love_060",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice love with gentle consistency.",
+        "tr": "aşk konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique love avec une douce constance.",
+        "pt": "Eu pratico love com constância gentil.",
+        "nl": "Ik beoefen love met zachte regelmaat.",
+        "es": "Practico love con constancia suave.",
+        "de": "Ich übe love mit sanfter Beständigkeit.",
+        "it": "Pratico love con dolce costanza.",
+        "ru": "Я практикую love с мягкой постоянностью.",
+        "id": "Saya mempraktikkan love dengan konsistensi yang lembut.",
+        "ja": "私はloveを穏やかな継続で実践します。",
+        "th": "ฉันฝึกloveอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan love dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_061",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, love supports me.",
+        "tr": "Bu dönemde aşk beni destekliyor.",
+        "fr": "En cette période, love me soutient.",
+        "pt": "Nesta fase, love me apoia.",
+        "nl": "In deze periode ondersteunt love mij.",
+        "es": "En esta etapa, love me sostiene.",
+        "de": "In dieser Zeit unterstützt love mich.",
+        "it": "In questo periodo, love mi sostiene.",
+        "ru": "В этот период love поддерживает меня.",
+        "id": "Di masa ini, love mendukungku.",
+        "ja": "この時期、loveが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ loveคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, love menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_062",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose love in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla aşk seçiyorum.",
+        "fr": "Je choisis love par de petits pas sincères.",
+        "pt": "Escolho love em passos pequenos e honestos.",
+        "nl": "Ik kies love in kleine, eerlijke stappen.",
+        "es": "Elijo love con pasos pequeños y honestos.",
+        "de": "Ich wähle love in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo love con passi piccoli e sinceri.",
+        "ru": "Я выбираю love маленькими, честными шагами.",
+        "id": "Aku memilih love dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でloveを選びます。",
+        "th": "ฉันเลือกloveด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih love dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_063",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let love shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri aşk şekillendiriyor.",
+        "fr": "Je laisse love façonner les choix qui comptent pour moi.",
+        "pt": "Deixo love moldar as escolhas que importam para mim.",
+        "nl": "Ik laat love de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que love moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse love die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che love plasmi le scelte che contano per me.",
+        "ru": "Я позволяю love формировать важные для меня решения.",
+        "id": "Aku membiarkan love membentuk pilihan yang penting bagiku.",
+        "ja": "loveが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้loveหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan love membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_064",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, love feels natural to me.",
+        "tr": "Bugün aşk bana doğal geliyor.",
+        "fr": "Aujourd'hui, love me semble naturel.",
+        "pt": "Hoje, love parece natural para mim.",
+        "nl": "Vandaag voelt love natuurlijk voor mij.",
+        "es": "Hoy, love se siente natural para mí.",
+        "de": "Heute fühlt sich love natürlich für mich an.",
+        "it": "Oggi love mi sembra naturale.",
+        "ru": "Сегодня love кажется мне естественным.",
+        "id": "Hari ini, love terasa alami bagi saya.",
+        "ja": "今日はloveが自然に感じられます。",
+        "th": "วันนี้loveให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, love terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_65",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose love in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda aşk seçiyorum.",
+        "fr": "Je choisis love dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho love nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies love in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo love en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle love in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo love nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю love в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih love dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でloveを選びます。",
+        "th": "ฉันเลือกloveในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih love dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_66",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build love.",
+        "tr": "İç sesim aşk inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis love.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo love.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik love opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo love.",
+        "de": "Meine innere Stimme wird sanfter, während ich love aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco love.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю love.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun love.",
+        "ja": "loveを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างlove",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina love."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_67",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet love at my own pace.",
+        "tr": "aşk ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer love à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar love no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om love in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar love a mi propio ritmo.",
+        "de": "Ich erlaube mir, love in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare love al mio ritmo.",
+        "ru": "Я позволяю себе встречать love в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu love dengan ritmeku.",
+        "ja": "自分のペースでloveに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบloveในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui love mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_68",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let love steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde aşk beni dengeliyor.",
+        "fr": "Je laisse love m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo love me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat love me aarden als het leven luid voelt.",
+        "es": "Dejo que love me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse love mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che love mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю love удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan love menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、loveが私を落ち着かせます。",
+        "th": "ฉันยอมให้loveทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan love menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_69",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, love is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde aşk büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, love grandit.",
+        "pt": "Por meio das escolhas que faço hoje, love cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit love.",
+        "es": "A través de las decisiones que tomo hoy, love crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst love.",
+        "it": "Attraverso le scelte che faccio oggi, love cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, love растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, love tumbuh.",
+        "ja": "今日の選択を通してloveが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ loveกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, love berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_70",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel love settling into my routines.",
+        "tr": "Rutinlerimde aşk için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens love s’installer dans mes routines.",
+        "pt": "Sinto love se acomodar nas minhas rotinas.",
+        "nl": "Ik voel love zich nestelen in mijn routines.",
+        "es": "Siento que love se asienta en mis rutinas.",
+        "de": "Ich spüre, wie love sich in meinen Routinen einlebt.",
+        "it": "Sento love assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как love укореняется в моих привычках.",
+        "id": "Aku merasakan love menetap dalam rutinitasku.",
+        "ja": "日々の習慣にloveがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าloveค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan love mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_71",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow love to be simple, not perfect.",
+        "tr": "aşk için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise love à être simple, pas parfait.",
+        "pt": "Permito que love seja simples, não perfeito.",
+        "nl": "Ik laat love simpel zijn, niet perfect.",
+        "es": "Permito que love sea simple, no perfecto.",
+        "de": "Ich erlaube love, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a love di essere semplice, non perfetto.",
+        "ru": "Я позволяю love быть простым, а не идеальным.",
+        "id": "Aku membiarkan love tetap sederhana, bukan sempurna.",
+        "ja": "loveがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้loveเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan love menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice love showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde aşk ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque love dans la façon dont je me parle.",
+        "pt": "Percebo love na forma como falo comigo.",
+        "nl": "Ik merk love op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto love en la manera en que me hablo.",
+        "de": "Ich bemerke love in der Art, wie ich mit mir spreche.",
+        "it": "Noto love nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю love в том, как я говорю с собой.",
+        "id": "Aku menyadari love dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にloveが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นloveในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari love dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve love without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan aşk hak ediyorum.",
+        "fr": "Je mérite love sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço love sem precisar provar nada.",
+        "nl": "Ik verdien love zonder iets te hoeven bewijzen.",
+        "es": "Merezco love sin necesidad de demostrar nada.",
+        "de": "Ich verdiene love, ohne etwas beweisen zu müssen.",
+        "it": "Merito love senza dover dimostrare nulla.",
+        "ru": "Я достоин love, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan love tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、loveに値します。",
+        "th": "ฉันคู่ควรกับloveโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh love tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let love grow from patience, not pressure.",
+        "tr": "aşk sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse love grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo love crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat love groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que love crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse love aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che love cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю love расти из терпения, а не из давления.",
+        "id": "Aku membiarkan love tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はloveを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้loveเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan love tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to love when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde aşk ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à love quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a love quando preciso me firmar.",
+        "nl": "Ik keer terug naar love wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a love cuando necesito estabilizarme.",
+        "de": "Ich kehre zu love zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a love quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к love, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke love saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、loveに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาlove",
+        "ms": "Saya kembali kepada love apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let love soften my inner pressure.",
+        "tr": "İçimdeki baskıyı aşk ile yumuşatıyorum.",
+        "fr": "Je laisse love adoucir ma pression intérieure.",
+        "pt": "Deixo love suavizar minha pressão interna.",
+        "nl": "Ik laat love mijn innerlijke druk verzachten.",
+        "es": "Dejo que love suavice mi presión interna.",
+        "de": "Ich lasse love meinen inneren Druck weicher machen.",
+        "it": "Lascio che love ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю love смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan love melembutkan tekanan batinku.",
+        "ja": "loveが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้loveช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan love melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that love can be gentle and real.",
+        "tr": "aşk konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que love peut être doux et vrai.",
+        "pt": "Confio que love pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat love zacht en echt kan zijn.",
+        "es": "Confío en que love puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass love sanft und echt sein kann.",
+        "it": "Mi fido del fatto che love possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что love может быть мягким и настоящим.",
+        "id": "Aku percaya love bisa lembut dan nyata.",
+        "ja": "loveはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าloveสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya love boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give love a little more room each day.",
+        "tr": "Her gün aşk için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à love chaque jour.",
+        "pt": "Dou um pouco mais de espaço para love a cada dia.",
+        "nl": "Ik geef love elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a love cada día.",
+        "de": "Ich gebe love jeden Tag ein wenig mehr Raum.",
+        "it": "Do a love un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю love чуть больше места.",
+        "id": "Setiap hari aku memberi love sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、loveのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับloveมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi love sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold love without forcing it.",
+        "tr": "aşk ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir love sans forcer.",
+        "pt": "Estou aprendendo a sustentar love sem forçar.",
+        "nl": "Ik leer love te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener love sin forzar.",
+        "de": "Ich lerne, love zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere love senza forzare.",
+        "ru": "Я учусь удерживать love без принуждения.",
+        "id": "Aku belajar memegang love tanpa memaksa.",
+        "ja": "loveを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองloveโดยไม่บังคับ",
+        "ms": "Saya belajar memegang love tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by love where I am today.",
+        "tr": "Bugün olduğum yerde aşk beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, love me rejoint.",
+        "pt": "Onde estou hoje, love me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet love mij.",
+        "es": "Donde estoy hoy, love me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir love.",
+        "it": "Dove sono oggi, love mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает love.",
+        "id": "Di tempatku hari ini, love menemuiku.",
+        "ja": "今日の私がいる場所で、loveが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ loveอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, love menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice love in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte aşk fark ediyorum.",
+        "fr": "Je remarque love dans le calme entre les moments.",
+        "pt": "Percebo love na calma entre os momentos.",
+        "nl": "Ik merk love op in de rust tussen momenten.",
+        "es": "Noto love en la calma entre momentos.",
+        "de": "Ich bemerke love in der Ruhe zwischen den Momenten.",
+        "it": "Noto love nella calma tra i momenti.",
+        "ru": "Я замечаю love в тишине между моментами.",
+        "id": "Aku menyadari love dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにloveを感じます。",
+        "th": "ฉันสังเกตloveในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari love dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow love to grow quietly in the background.",
+        "tr": "aşk sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse love grandir doucement en arrière-plan.",
+        "pt": "Deixo love crescer em silêncio ao fundo.",
+        "nl": "Ik laat love stil op de achtergrond groeien.",
+        "es": "Dejo que love crezca en silencio de fondo.",
+        "de": "Ich lasse love leise im Hintergrund wachsen.",
+        "it": "Lascio che love cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю love тихо расти на заднем плане.",
+        "id": "Aku membiarkan love tumbuh perlahan di latar belakang.",
+        "ja": "loveが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้loveเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan love berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose love with care, not hurry.",
+        "tr": "Acele etmeden, özenle aşk seçiyorum.",
+        "fr": "Je choisis love avec soin, sans hâte.",
+        "pt": "Escolho love com cuidado, sem pressa.",
+        "nl": "Ik kies love met zorg, niet met haast.",
+        "es": "Elijo love con cuidado, no con prisa.",
+        "de": "Ich wähle love mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo love con cura, non con fretta.",
+        "ru": "Я выбираю love с заботой, а не в спешке.",
+        "id": "Aku memilih love dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にloveを選びます。",
+        "th": "ฉันเลือกloveอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih love dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
+    },
+    {
+      "id": "love_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep love close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken aşk ile yakın kalıyorum.",
+        "fr": "Je garde love près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho love por perto quando minha mente fica agitada.",
+        "nl": "Ik houd love dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo love cerca cuando mi mente está inquieta.",
+        "de": "Ich halte love nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo love vicino quando la mia mente è agitata.",
+        "ru": "Я держу love рядом, когда ум занят.",
+        "id": "Aku menjaga love tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもloveをそばに置きます。",
+        "th": "ฉันเก็บloveไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan love dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "readTime": "0"
     }
   ]
-} 
+}

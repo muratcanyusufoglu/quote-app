@@ -34,19 +34,71 @@
         "ms": "Walter Winchell"
       },
       "tags": {
-        "en": ["loyalty", "support", "trust"],
-        "tr": ["sadakat", "destek", "güven"],
-        "fr": ["loyauté", "soutien", "confiance"],
-        "pt": ["lealdade", "apoio", "confiança"],
-        "nl": ["loyaliteit", "steun", "vertrouwen"],
-        "es": ["lealtad", "apoyo", "confianza"],
-        "de": ["treue", "unterstützung", "vertrauen"],
-        "it": ["lealtà", "sostegno", "fiducia"],
-        "ru": ["верность", "поддержка", "доверие"],
-        "id": ["kesetiaan", "dukungan", "kepercayaan"],
-        "ja": ["忠誠", "支援", "信頼"],
-        "th": ["ความภักดี", "การสนับสนุน", "ความไว้วางใจ"],
-        "ms": ["kesetiaan", "sokongan", "kepercayaan"]
+        "en": [
+          "loyalty",
+          "support",
+          "trust"
+        ],
+        "tr": [
+          "sadakat",
+          "destek",
+          "güven"
+        ],
+        "fr": [
+          "loyauté",
+          "soutien",
+          "confiance"
+        ],
+        "pt": [
+          "lealdade",
+          "apoio",
+          "confiança"
+        ],
+        "nl": [
+          "loyaliteit",
+          "steun",
+          "vertrouwen"
+        ],
+        "es": [
+          "lealtad",
+          "apoyo",
+          "confianza"
+        ],
+        "de": [
+          "treue",
+          "unterstützung",
+          "vertrauen"
+        ],
+        "it": [
+          "lealtà",
+          "sostegno",
+          "fiducia"
+        ],
+        "ru": [
+          "верность",
+          "поддержка",
+          "доверие"
+        ],
+        "id": [
+          "kesetiaan",
+          "dukungan",
+          "kepercayaan"
+        ],
+        "ja": [
+          "忠誠",
+          "支援",
+          "信頼"
+        ],
+        "th": [
+          "ความภักดี",
+          "การสนับสนุน",
+          "ความไว้วางใจ"
+        ],
+        "ms": [
+          "kesetiaan",
+          "sokongan",
+          "kepercayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Ralph Waldo Emerson"
       },
       "tags": {
-        "en": ["growth", "dreams", "mutual-support"],
-        "tr": ["gelişim", "hayaller", "karşılıklı-destek"],
-        "fr": ["croissance", "rêves", "soutien-mutuel"],
-        "pt": ["crescimento", "sonhos", "apoio-mútuo"],
-        "nl": ["groei", "dromen", "wederzijdse-steun"],
-        "es": ["crecimiento", "sueños", "apoyo-mutuo"],
-        "de": ["wachstum", "träume", "gegenseitige-unterstützung"],
-        "it": ["crescita", "sogni", "sostegno-reciproco"],
-        "ru": ["рост", "мечты", "взаимная-поддержка"],
-        "id": ["pertumbuhan", "mimpi", "dukungan-saling"],
-        "ja": ["成長", "夢", "相互支援"],
-        "th": ["การเติบโต", "ความฝัน", "การสนับสนุนซึ่งกันและกัน"],
-        "ms": ["pertumbuhan", "impian", "sokongan bersama"]
+        "en": [
+          "growth",
+          "dreams",
+          "mutual-support"
+        ],
+        "tr": [
+          "gelişim",
+          "hayaller",
+          "karşılıklı-destek"
+        ],
+        "fr": [
+          "croissance",
+          "rêves",
+          "soutien-mutuel"
+        ],
+        "pt": [
+          "crescimento",
+          "sonhos",
+          "apoio-mútuo"
+        ],
+        "nl": [
+          "groei",
+          "dromen",
+          "wederzijdse-steun"
+        ],
+        "es": [
+          "crecimiento",
+          "sueños",
+          "apoyo-mutuo"
+        ],
+        "de": [
+          "wachstum",
+          "träume",
+          "gegenseitige-unterstützung"
+        ],
+        "it": [
+          "crescita",
+          "sogni",
+          "sostegno-reciproco"
+        ],
+        "ru": [
+          "рост",
+          "мечты",
+          "взаимная-поддержка"
+        ],
+        "id": [
+          "pertumbuhan",
+          "mimpi",
+          "dukungan-saling"
+        ],
+        "ja": [
+          "成長",
+          "夢",
+          "相互支援"
+        ],
+        "th": [
+          "การเติบโต",
+          "ความฝัน",
+          "การสนับสนุนซึ่งกันและกัน"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "impian",
+          "sokongan bersama"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Maya Angelou"
       },
       "tags": {
-        "en": ["harmony", "inspiration", "collaboration"],
-        "tr": ["uyum", "ilham", "işbirliği"],
-        "fr": ["harmonie", "inspiration", "collaboration"],
-        "pt": ["harmonia", "inspiração", "colaboração"],
-        "nl": ["harmonie", "inspiratie", "samenwerking"],
-        "es": ["armonía", "inspiración", "colaboración"],
-        "de": ["harmonie", "inspiration", "zusammenarbeit"],
-        "it": ["armonia", "ispirazione", "collaborazione"],
-        "ru": ["гармония", "вдохновение", "сотрудничество"],
-        "id": ["harmoni", "inspirasi", "kolaborasi"],
-        "ja": ["調和", "インスピレーション", "協力"],
-        "th": ["ความกลมกลืน", "แรงบันดาลใจ", "การร่วมมือ"],
-        "ms": ["harmoni", "inspirasi", "kerjasama"]
+        "en": [
+          "harmony",
+          "inspiration",
+          "collaboration"
+        ],
+        "tr": [
+          "uyum",
+          "ilham",
+          "işbirliği"
+        ],
+        "fr": [
+          "harmonie",
+          "inspiration",
+          "collaboration"
+        ],
+        "pt": [
+          "harmonia",
+          "inspiração",
+          "colaboração"
+        ],
+        "nl": [
+          "harmonie",
+          "inspiratie",
+          "samenwerking"
+        ],
+        "es": [
+          "armonía",
+          "inspiración",
+          "colaboración"
+        ],
+        "de": [
+          "harmonie",
+          "inspiration",
+          "zusammenarbeit"
+        ],
+        "it": [
+          "armonia",
+          "ispirazione",
+          "collaborazione"
+        ],
+        "ru": [
+          "гармония",
+          "вдохновение",
+          "сотрудничество"
+        ],
+        "id": [
+          "harmoni",
+          "inspirasi",
+          "kolaborasi"
+        ],
+        "ja": [
+          "調和",
+          "インスピレーション",
+          "協力"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "แรงบันดาลใจ",
+          "การร่วมมือ"
+        ],
+        "ms": [
+          "harmoni",
+          "inspirasi",
+          "kerjasama"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Baltasar Gracián"
       },
       "tags": {
-        "en": ["support", "sharing", "resilience"],
-        "tr": ["destek", "paylaşım", "dayanıklılık"],
-        "fr": ["soutien", "partage", "résilience"],
-        "pt": ["apoio", "compartilhamento", "resiliência"],
-        "nl": ["steun", "delen", "veerkracht"],
-        "es": ["apoyo", "compartir", "resiliencia"],
-        "de": ["unterstützung", "teilen", "widerstandsfähigkeit"],
-        "it": ["sostegno", "condivisione", "resilienza"],
-        "ru": ["поддержка", "общение", "стойкость"],
-        "id": ["dukungan", "berbagi", "ketahanan"],
-        "ja": ["支援", "共有", "回復力"],
-        "th": ["การสนับสนุน", "การแบ่งปัน", "ความยืดหยุ่น"],
-        "ms": ["sokongan", "perkongsian", "ketahanan"]
+        "en": [
+          "support",
+          "sharing",
+          "resilience"
+        ],
+        "tr": [
+          "destek",
+          "paylaşım",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "soutien",
+          "partage",
+          "résilience"
+        ],
+        "pt": [
+          "apoio",
+          "compartilhamento",
+          "resiliência"
+        ],
+        "nl": [
+          "steun",
+          "delen",
+          "veerkracht"
+        ],
+        "es": [
+          "apoyo",
+          "compartir",
+          "resiliencia"
+        ],
+        "de": [
+          "unterstützung",
+          "teilen",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "sostegno",
+          "condivisione",
+          "resilienza"
+        ],
+        "ru": [
+          "поддержка",
+          "общение",
+          "стойкость"
+        ],
+        "id": [
+          "dukungan",
+          "berbagi",
+          "ketahanan"
+        ],
+        "ja": [
+          "支援",
+          "共有",
+          "回復力"
+        ],
+        "th": [
+          "การสนับสนุน",
+          "การแบ่งปัน",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "sokongan",
+          "perkongsian",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Rabindranath Tagore"
       },
       "tags": {
-        "en": ["vision", "belief", "encouragement"],
-        "tr": ["vizyon", "inanç", "cesaret"],
-        "fr": ["vision", "croyance", "encouragement"],
-        "pt": ["visão", "crença", "encorajamento"],
-        "nl": ["visie", "geloof", "aanmoediging"],
-        "es": ["visión", "creencia", "aliento"],
-        "de": ["vision", "glaube", "ermutigung"],
-        "it": ["visione", "fede", "incoraggiamento"],
-        "ru": ["видение", "вера", "поддержка"],
-        "id": ["visi", "kepercayaan", "dukungan"],
-        "ja": ["ビジョン", "信念", "励まし"],
-        "th": ["วิสัยทัศน์", "ความเชื่อ", "การให้กำลังใจ"],
-        "ms": ["wawasan", "kepercayaan", "galakan"]
+        "en": [
+          "vision",
+          "belief",
+          "encouragement"
+        ],
+        "tr": [
+          "vizyon",
+          "inanç",
+          "cesaret"
+        ],
+        "fr": [
+          "vision",
+          "croyance",
+          "encouragement"
+        ],
+        "pt": [
+          "visão",
+          "crença",
+          "encorajamento"
+        ],
+        "nl": [
+          "visie",
+          "geloof",
+          "aanmoediging"
+        ],
+        "es": [
+          "visión",
+          "creencia",
+          "aliento"
+        ],
+        "de": [
+          "vision",
+          "glaube",
+          "ermutigung"
+        ],
+        "it": [
+          "visione",
+          "fede",
+          "incoraggiamento"
+        ],
+        "ru": [
+          "видение",
+          "вера",
+          "поддержка"
+        ],
+        "id": [
+          "visi",
+          "kepercayaan",
+          "dukungan"
+        ],
+        "ja": [
+          "ビジョン",
+          "信念",
+          "励まし"
+        ],
+        "th": [
+          "วิสัยทัศน์",
+          "ความเชื่อ",
+          "การให้กำลังใจ"
+        ],
+        "ms": [
+          "wawasan",
+          "kepercayaan",
+          "galakan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -619,19 +879,71 @@
         "ms": "Mahatma Gandhi"
       },
       "tags": {
-        "en": ["reflection", "growth", "self-discovery"],
-        "tr": ["yansıma", "gelişim", "kendini-keşif"],
-        "fr": ["réflexion", "croissance", "découverte-de-soi"],
-        "pt": ["reflexão", "crescimento", "autodescoberta"],
-        "nl": ["reflectie", "groei", "zelfontdekking"],
-        "es": ["reflexión", "crecimiento", "autodescubrimiento"],
-        "de": ["reflexion", "wachstum", "selbstfindung"],
-        "it": ["riflessione", "crescita", "scoperta-di-sé"],
-        "ru": ["отражение", "рост", "самопознание"],
-        "id": ["refleksi", "pertumbuhan", "penemuan-diri"],
-        "ja": ["反射", "成長", "自己発見"],
-        "th": ["การสะท้อน", "การเติบโต", "การค้นพบตนเอง"],
-        "ms": ["pantulan", "pertumbuhan", "penemuan diri"]
+        "en": [
+          "reflection",
+          "growth",
+          "self-discovery"
+        ],
+        "tr": [
+          "yansıma",
+          "gelişim",
+          "kendini-keşif"
+        ],
+        "fr": [
+          "réflexion",
+          "croissance",
+          "découverte-de-soi"
+        ],
+        "pt": [
+          "reflexão",
+          "crescimento",
+          "autodescoberta"
+        ],
+        "nl": [
+          "reflectie",
+          "groei",
+          "zelfontdekking"
+        ],
+        "es": [
+          "reflexión",
+          "crecimiento",
+          "autodescubrimiento"
+        ],
+        "de": [
+          "reflexion",
+          "wachstum",
+          "selbstfindung"
+        ],
+        "it": [
+          "riflessione",
+          "crescita",
+          "scoperta-di-sé"
+        ],
+        "ru": [
+          "отражение",
+          "рост",
+          "самопознание"
+        ],
+        "id": [
+          "refleksi",
+          "pertumbuhan",
+          "penemuan-diri"
+        ],
+        "ja": [
+          "反射",
+          "成長",
+          "自己発見"
+        ],
+        "th": [
+          "การสะท้อน",
+          "การเติบโต",
+          "การค้นพบตนเอง"
+        ],
+        "ms": [
+          "pantulan",
+          "pertumbuhan",
+          "penemuan diri"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -702,7 +1014,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_007",
       "category": "friendship",
       "texts": {
@@ -736,19 +1048,71 @@
         "ms": "Kahlil Gibran"
       },
       "tags": {
-        "en": ["strength", "courage", "support"],
-        "tr": ["güç", "cesaret", "destek"],
-        "fr": ["force", "courage", "soutien"],
-        "pt": ["força", "coragem", "apoio"],
-        "nl": ["kracht", "moed", "steun"],
-        "es": ["fuerza", "coraje", "apoyo"],
-        "de": ["stärke", "mut", "unterstützung"],
-        "it": ["forza", "coraggio", "sostegno"],
-        "ru": ["сила", "мужество", "поддержка"],
-        "id": ["kekuatan", "keberanian", "dukungan"],
-        "ja": ["強さ", "勇気", "支援"],
-        "th": ["ความแข็งแกร่ง", "ความกล้า", "การสนับสนุน"],
-        "ms": ["kekuatan", "keberanian", "sokongan"]
+        "en": [
+          "strength",
+          "courage",
+          "support"
+        ],
+        "tr": [
+          "güç",
+          "cesaret",
+          "destek"
+        ],
+        "fr": [
+          "force",
+          "courage",
+          "soutien"
+        ],
+        "pt": [
+          "força",
+          "coragem",
+          "apoio"
+        ],
+        "nl": [
+          "kracht",
+          "moed",
+          "steun"
+        ],
+        "es": [
+          "fuerza",
+          "coraje",
+          "apoyo"
+        ],
+        "de": [
+          "stärke",
+          "mut",
+          "unterstützung"
+        ],
+        "it": [
+          "forza",
+          "coraggio",
+          "sostegno"
+        ],
+        "ru": [
+          "сила",
+          "мужество",
+          "поддержка"
+        ],
+        "id": [
+          "kekuatan",
+          "keberanian",
+          "dukungan"
+        ],
+        "ja": [
+          "強さ",
+          "勇気",
+          "支援"
+        ],
+        "th": [
+          "ความแข็งแกร่ง",
+          "ความกล้า",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "kekuatan",
+          "keberanian",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Helen Keller"
       },
       "tags": {
-        "en": ["guidance", "hope", "support"],
-        "tr": ["rehberlik", "umut", "destek"],
-        "fr": ["guidance", "espoir", "soutien"],
-        "pt": ["orientação", "esperança", "apoio"],
-        "nl": ["begeleiding", "hoop", "steun"],
-        "es": ["guía", "esperanza", "apoyo"],
-        "de": ["führung", "hoffnung", "unterstützung"],
-        "it": ["guida", "speranza", "sostegno"],
-        "ru": ["руководство", "надежда", "поддержка"],
-        "id": ["panduan", "harapan", "dukungan"],
-        "ja": ["指導", "希望", "支援"],
-        "th": ["การนำทาง", "ความหวัง", "การสนับสนุน"],
-        "ms": ["panduan", "harapan", "sokongan"]
+        "en": [
+          "guidance",
+          "hope",
+          "support"
+        ],
+        "tr": [
+          "rehberlik",
+          "umut",
+          "destek"
+        ],
+        "fr": [
+          "guidance",
+          "espoir",
+          "soutien"
+        ],
+        "pt": [
+          "orientação",
+          "esperança",
+          "apoio"
+        ],
+        "nl": [
+          "begeleiding",
+          "hoop",
+          "steun"
+        ],
+        "es": [
+          "guía",
+          "esperanza",
+          "apoyo"
+        ],
+        "de": [
+          "führung",
+          "hoffnung",
+          "unterstützung"
+        ],
+        "it": [
+          "guida",
+          "speranza",
+          "sostegno"
+        ],
+        "ru": [
+          "руководство",
+          "надежда",
+          "поддержка"
+        ],
+        "id": [
+          "panduan",
+          "harapan",
+          "dukungan"
+        ],
+        "ja": [
+          "指導",
+          "希望",
+          "支援"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความหวัง",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "panduan",
+          "harapan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Rumi"
       },
       "tags": {
-        "en": ["connection", "love", "unity"],
-        "tr": ["bağlantı", "sevgi", "birlik"],
-        "fr": ["connexion", "amour", "unité"],
-        "pt": ["conexão", "amor", "unidade"],
-        "nl": ["verbinding", "liefde", "eenheid"],
-        "es": ["conexión", "amor", "unidad"],
-        "de": ["verbindung", "liebe", "einheit"],
-        "it": ["connessione", "amore", "unità"],
-        "ru": ["связь", "любовь", "единство"],
-        "id": ["koneksi", "cinta", "persatuan"],
-        "ja": ["つながり", "愛", "団結"],
-        "th": ["การเชื่อมต่อ", "ความรัก", "ความสามัคคี"],
-        "ms": ["hubungan", "cinta", "perpaduan"]
+        "en": [
+          "connection",
+          "love",
+          "unity"
+        ],
+        "tr": [
+          "bağlantı",
+          "sevgi",
+          "birlik"
+        ],
+        "fr": [
+          "connexion",
+          "amour",
+          "unité"
+        ],
+        "pt": [
+          "conexão",
+          "amor",
+          "unidade"
+        ],
+        "nl": [
+          "verbinding",
+          "liefde",
+          "eenheid"
+        ],
+        "es": [
+          "conexión",
+          "amor",
+          "unidad"
+        ],
+        "de": [
+          "verbindung",
+          "liebe",
+          "einheit"
+        ],
+        "it": [
+          "connessione",
+          "amore",
+          "unità"
+        ],
+        "ru": [
+          "связь",
+          "любовь",
+          "единство"
+        ],
+        "id": [
+          "koneksi",
+          "cinta",
+          "persatuan"
+        ],
+        "ja": [
+          "つながり",
+          "愛",
+          "団結"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "ความรัก",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "hubungan",
+          "cinta",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1053,7 +1521,7 @@
         }
       }
     },
-         {
+    {
       "id": "friendship_010",
       "category": "friendship",
       "texts": {
@@ -1087,19 +1555,71 @@
         "ms": "Konfusius"
       },
       "tags": {
-        "en": ["peace", "growth", "harmony"],
-        "tr": ["huzur", "büyüme", "uyum"],
-        "fr": ["paix", "croissance", "harmonie"],
-        "pt": ["paz", "crescimento", "harmonia"],
-        "nl": ["vrede", "groei", "harmonie"],
-        "es": ["paz", "crecimiento", "armonía"],
-        "de": ["frieden", "wachstum", "harmonie"],
-        "it": ["pace", "crescita", "armonia"],
-        "ru": ["покой", "рост", "гармония"],
-        "id": ["kedamaian", "pertumbuhan", "harmoni"],
-        "ja": ["平和", "成長", "調和"],
-        "th": ["ความสงบ", "การเติบโต", "ความกลมกลืน"],
-        "ms": ["kedamaian", "pertumbuhan", "harmoni"]
+        "en": [
+          "peace",
+          "growth",
+          "harmony"
+        ],
+        "tr": [
+          "huzur",
+          "büyüme",
+          "uyum"
+        ],
+        "fr": [
+          "paix",
+          "croissance",
+          "harmonie"
+        ],
+        "pt": [
+          "paz",
+          "crescimento",
+          "harmonia"
+        ],
+        "nl": [
+          "vrede",
+          "groei",
+          "harmonie"
+        ],
+        "es": [
+          "paz",
+          "crecimiento",
+          "armonía"
+        ],
+        "de": [
+          "frieden",
+          "wachstum",
+          "harmonie"
+        ],
+        "it": [
+          "pace",
+          "crescita",
+          "armonia"
+        ],
+        "ru": [
+          "покой",
+          "рост",
+          "гармония"
+        ],
+        "id": [
+          "kedamaian",
+          "pertumbuhan",
+          "harmoni"
+        ],
+        "ja": [
+          "平和",
+          "成長",
+          "調和"
+        ],
+        "th": [
+          "ความสงบ",
+          "การเติบโต",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "kedamaian",
+          "pertumbuhan",
+          "harmoni"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1204,19 +1724,71 @@
         "ms": "Maya Angelou"
       },
       "tags": {
-        "en": ["connection", "emotion", "shared experiences"],
-        "tr": ["bağlantı", "duygu", "paylaşılan deneyimler"],
-        "fr": ["connexion", "émotion", "expériences partagées"],
-        "pt": ["conexão", "emoção", "experiências compartilhadas"],
-        "nl": ["verbinding", "emotie", "gedeelde ervaringen"],
-        "es": ["conexión", "emoción", "experiencias compartidas"],
-        "de": ["verbindung", "emotion", "geteilte erfahrungen"],
-        "it": ["connessione", "emozione", "esperienze condivise"],
-        "ru": ["связь", "эмоции", "общие переживания"],
-        "id": ["koneksi", "emosi", "pengalaman bersama"],
-        "ja": ["つながり", "感情", "共有体験"],
-        "th": ["การเชื่อมต่อ", "อารมณ์", "ประสบการณ์ที่แบ่งปัน"],
-        "ms": ["hubungan", "emosi", "pengalaman dikongsi"]
+        "en": [
+          "connection",
+          "emotion",
+          "shared experiences"
+        ],
+        "tr": [
+          "bağlantı",
+          "duygu",
+          "paylaşılan deneyimler"
+        ],
+        "fr": [
+          "connexion",
+          "émotion",
+          "expériences partagées"
+        ],
+        "pt": [
+          "conexão",
+          "emoção",
+          "experiências compartilhadas"
+        ],
+        "nl": [
+          "verbinding",
+          "emotie",
+          "gedeelde ervaringen"
+        ],
+        "es": [
+          "conexión",
+          "emoción",
+          "experiencias compartidas"
+        ],
+        "de": [
+          "verbindung",
+          "emotion",
+          "geteilte erfahrungen"
+        ],
+        "it": [
+          "connessione",
+          "emozione",
+          "esperienze condivise"
+        ],
+        "ru": [
+          "связь",
+          "эмоции",
+          "общие переживания"
+        ],
+        "id": [
+          "koneksi",
+          "emosi",
+          "pengalaman bersama"
+        ],
+        "ja": [
+          "つながり",
+          "感情",
+          "共有体験"
+        ],
+        "th": [
+          "การเชื่อมต่อ",
+          "อารมณ์",
+          "ประสบการณ์ที่แบ่งปัน"
+        ],
+        "ms": [
+          "hubungan",
+          "emosi",
+          "pengalaman dikongsi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Ibn Battuta"
       },
       "tags": {
-        "en": ["guidance", "direction", "trust"],
-        "tr": ["rehberlik", "yön", "güven"],
-        "fr": ["guidance", "direction", "confiance"],
-        "pt": ["orientação", "direção", "confiança"],
-        "nl": ["begeleiding", "richting", "vertrouwen"],
-        "es": ["guía", "dirección", "confianza"],
-        "de": ["führung", "richtung", "vertrauen"],
-        "it": ["guida", "direzione", "fiducia"],
-        "ru": ["руководство", "направление", "доверие"],
-        "id": ["panduan", "arah", "kepercayaan"],
-        "ja": ["指導", "方向", "信頼"],
-        "th": ["การนำทาง", "ทิศทาง", "ความไว้วางใจ"],
-        "ms": ["panduan", "arah", "kepercayaan"]
+        "en": [
+          "guidance",
+          "direction",
+          "trust"
+        ],
+        "tr": [
+          "rehberlik",
+          "yön",
+          "güven"
+        ],
+        "fr": [
+          "guidance",
+          "direction",
+          "confiance"
+        ],
+        "pt": [
+          "orientação",
+          "direção",
+          "confiança"
+        ],
+        "nl": [
+          "begeleiding",
+          "richting",
+          "vertrouwen"
+        ],
+        "es": [
+          "guía",
+          "dirección",
+          "confianza"
+        ],
+        "de": [
+          "führung",
+          "richtung",
+          "vertrauen"
+        ],
+        "it": [
+          "guida",
+          "direzione",
+          "fiducia"
+        ],
+        "ru": [
+          "руководство",
+          "направление",
+          "доверие"
+        ],
+        "id": [
+          "panduan",
+          "arah",
+          "kepercayaan"
+        ],
+        "ja": [
+          "指導",
+          "方向",
+          "信頼"
+        ],
+        "th": [
+          "การนำทาง",
+          "ทิศทาง",
+          "ความไว้วางใจ"
+        ],
+        "ms": [
+          "panduan",
+          "arah",
+          "kepercayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Rabindranath Tagore"
       },
       "tags": {
-        "en": ["hope", "support", "resilience"],
-        "tr": ["umut", "destek", "dayanıklılık"],
-        "fr": ["espoir", "soutien", "résilience"],
-        "pt": ["esperança", "apoio", "resiliência"],
-        "nl": ["hoop", "steun", "veerkracht"],
-        "es": ["esperanza", "apoyo", "resiliencia"],
-        "de": ["hoffnung", "unterstützung", "widerstandsfähigkeit"],
-        "it": ["speranza", "sostegno", "resilienza"],
-        "ru": ["надежда", "поддержка", "устойчивость"],
-        "id": ["harapan", "dukungan", "ketahanan"],
-        "ja": ["希望", "支援", "回復力"],
-        "th": ["ความหวัง", "การสนับสนุน", "ความยืดหยุ่น"],
-        "ms": ["harapan", "sokongan", "ketabahan"]
+        "en": [
+          "hope",
+          "support",
+          "resilience"
+        ],
+        "tr": [
+          "umut",
+          "destek",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "espoir",
+          "soutien",
+          "résilience"
+        ],
+        "pt": [
+          "esperança",
+          "apoio",
+          "resiliência"
+        ],
+        "nl": [
+          "hoop",
+          "steun",
+          "veerkracht"
+        ],
+        "es": [
+          "esperanza",
+          "apoyo",
+          "resiliencia"
+        ],
+        "de": [
+          "hoffnung",
+          "unterstützung",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "speranza",
+          "sostegno",
+          "resilienza"
+        ],
+        "ru": [
+          "надежда",
+          "поддержка",
+          "устойчивость"
+        ],
+        "id": [
+          "harapan",
+          "dukungan",
+          "ketahanan"
+        ],
+        "ja": [
+          "希望",
+          "支援",
+          "回復力"
+        ],
+        "th": [
+          "ความหวัง",
+          "การสนับสนุน",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "harapan",
+          "sokongan",
+          "ketabahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1555,19 +2231,71 @@
         "ms": "Amir Khusrau"
       },
       "tags": {
-        "en": ["harmony", "emotion", "connection"],
-        "tr": ["uyum", "duygu", "bağlantı"],
-        "fr": ["harmonie", "émotion", "connexion"],
-        "pt": ["harmonia", "emoção", "conexão"],
-        "nl": ["harmonie", "emotie", "verbinding"],
-        "es": ["armonía", "emoción", "conexión"],
-        "de": ["harmonie", "emotion", "verbindung"],
-        "it": ["armonia", "emozione", "connessione"],
-        "ru": ["гармония", "эмоции", "связь"],
-        "id": ["harmoni", "emosi", "koneksi"],
-        "ja": ["調和", "感情", "つながり"],
-        "th": ["ความกลมกลืน", "อารมณ์", "การเชื่อมต่อ"],
-        "ms": ["harmoni", "emosi", "hubungan"]
+        "en": [
+          "harmony",
+          "emotion",
+          "connection"
+        ],
+        "tr": [
+          "uyum",
+          "duygu",
+          "bağlantı"
+        ],
+        "fr": [
+          "harmonie",
+          "émotion",
+          "connexion"
+        ],
+        "pt": [
+          "harmonia",
+          "emoção",
+          "conexão"
+        ],
+        "nl": [
+          "harmonie",
+          "emotie",
+          "verbinding"
+        ],
+        "es": [
+          "armonía",
+          "emoción",
+          "conexión"
+        ],
+        "de": [
+          "harmonie",
+          "emotion",
+          "verbindung"
+        ],
+        "it": [
+          "armonia",
+          "emozione",
+          "connessione"
+        ],
+        "ru": [
+          "гармония",
+          "эмоции",
+          "связь"
+        ],
+        "id": [
+          "harmoni",
+          "emosi",
+          "koneksi"
+        ],
+        "ja": [
+          "調和",
+          "感情",
+          "つながり"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "อารมณ์",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "harmoni",
+          "emosi",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1672,19 +2400,71 @@
         "ms": "Kahlil Gibran"
       },
       "tags": {
-        "en": ["refuge", "support", "trust"],
-        "tr": ["sığınak", "destek", "güven"],
-        "fr": ["refuge", "soutien", "confiance"],
-        "pt": ["refúgio", "apoio", "confiança"],
-        "nl": ["toevlucht", "steun", "vertrouwen"],
-        "es": ["refugio", "apoyo", "confianza"],
-        "de": ["zuflucht", "unterstützung", "vertrauen"],
-        "it": ["rifugio", "sostegno", "fiducia"],
-        "ru": ["убежище", "поддержка", "доверие"],
-        "id": ["perlindungan", "dukungan", "kepercayaan"],
-        "ja": ["避難所", "支援", "信頼"],
-        "th": ["ที่พักพิง", "การสนับสนุน", "ความไว้วางใจ"],
-        "ms": ["perlindungan", "sokongan", "kepercayaan"]
+        "en": [
+          "refuge",
+          "support",
+          "trust"
+        ],
+        "tr": [
+          "sığınak",
+          "destek",
+          "güven"
+        ],
+        "fr": [
+          "refuge",
+          "soutien",
+          "confiance"
+        ],
+        "pt": [
+          "refúgio",
+          "apoio",
+          "confiança"
+        ],
+        "nl": [
+          "toevlucht",
+          "steun",
+          "vertrouwen"
+        ],
+        "es": [
+          "refugio",
+          "apoyo",
+          "confianza"
+        ],
+        "de": [
+          "zuflucht",
+          "unterstützung",
+          "vertrauen"
+        ],
+        "it": [
+          "rifugio",
+          "sostegno",
+          "fiducia"
+        ],
+        "ru": [
+          "убежище",
+          "поддержка",
+          "доверие"
+        ],
+        "id": [
+          "perlindungan",
+          "dukungan",
+          "kepercayaan"
+        ],
+        "ja": [
+          "避難所",
+          "支援",
+          "信頼"
+        ],
+        "th": [
+          "ที่พักพิง",
+          "การสนับสนุน",
+          "ความไว้วางใจ"
+        ],
+        "ms": [
+          "perlindungan",
+          "sokongan",
+          "kepercayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "Chinua Achebe"
       },
       "tags": {
-        "en": ["stability", "loyalty", "connection"],
-        "tr": ["istikrar", "sadakat", "bağlantı"],
-        "fr": ["stabilité", "loyauté", "connexion"],
-        "pt": ["estabilidade", "lealdade", "conexão"],
-        "nl": ["stabiliteit", "loyaliteit", "verbinding"],
-        "es": ["estabilidad", "lealtad", "conexión"],
-        "de": ["stabilität", "loyalität", "verbindung"],
-        "it": ["stabilità", "lealtà", "connessione"],
-        "ru": ["стабильность", "верность", "связь"],
-        "id": ["stabilitas", "kesetiaan", "koneksi"],
-        "ja": ["安定", "忠誠", "つながり"],
-        "th": ["ความมั่นคง", "ความภักดี", "การเชื่อมต่อ"],
-        "ms": ["kestabilan", "kesetiaan", "hubungan"]
+        "en": [
+          "stability",
+          "loyalty",
+          "connection"
+        ],
+        "tr": [
+          "istikrar",
+          "sadakat",
+          "bağlantı"
+        ],
+        "fr": [
+          "stabilité",
+          "loyauté",
+          "connexion"
+        ],
+        "pt": [
+          "estabilidade",
+          "lealdade",
+          "conexão"
+        ],
+        "nl": [
+          "stabiliteit",
+          "loyaliteit",
+          "verbinding"
+        ],
+        "es": [
+          "estabilidad",
+          "lealtad",
+          "conexión"
+        ],
+        "de": [
+          "stabilität",
+          "loyalität",
+          "verbindung"
+        ],
+        "it": [
+          "stabilità",
+          "lealtà",
+          "connessione"
+        ],
+        "ru": [
+          "стабильность",
+          "верность",
+          "связь"
+        ],
+        "id": [
+          "stabilitas",
+          "kesetiaan",
+          "koneksi"
+        ],
+        "ja": [
+          "安定",
+          "忠誠",
+          "つながり"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "ความภักดี",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "kestabilan",
+          "kesetiaan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "Rumi"
       },
       "tags": {
-        "en": ["truth", "kindness", "reflection"],
-        "tr": ["gerçek", "nezaket", "yansıma"],
-        "fr": ["vérité", "bienveillance", "réflexion"],
-        "pt": ["verdade", "gentileza", "reflexão"],
-        "nl": ["waarheid", "vriendelijkheid", "reflectie"],
-        "es": ["verdad", "amabilidad", "reflexión"],
-        "de": ["wahrheit", "freundlichkeit", "spiegelung"],
-        "it": ["verità", "gentilezza", "riflessione"],
-        "ru": ["правда", "доброта", "отражение"],
-        "id": ["kebenaran", "kebaikan", "pantulan"],
-        "ja": ["真実", "優しさ", "反映"],
-        "th": ["ความจริง", "ความเมตตา", "การสะท้อน"],
-        "ms": ["kebenaran", "kebaikan", "pantulan"]
+        "en": [
+          "truth",
+          "kindness",
+          "reflection"
+        ],
+        "tr": [
+          "gerçek",
+          "nezaket",
+          "yansıma"
+        ],
+        "fr": [
+          "vérité",
+          "bienveillance",
+          "réflexion"
+        ],
+        "pt": [
+          "verdade",
+          "gentileza",
+          "reflexão"
+        ],
+        "nl": [
+          "waarheid",
+          "vriendelijkheid",
+          "reflectie"
+        ],
+        "es": [
+          "verdad",
+          "amabilidad",
+          "reflexión"
+        ],
+        "de": [
+          "wahrheit",
+          "freundlichkeit",
+          "spiegelung"
+        ],
+        "it": [
+          "verità",
+          "gentilezza",
+          "riflessione"
+        ],
+        "ru": [
+          "правда",
+          "доброта",
+          "отражение"
+        ],
+        "id": [
+          "kebenaran",
+          "kebaikan",
+          "pantulan"
+        ],
+        "ja": [
+          "真実",
+          "優しさ",
+          "反映"
+        ],
+        "th": [
+          "ความจริง",
+          "ความเมตตา",
+          "การสะท้อน"
+        ],
+        "ms": [
+          "kebenaran",
+          "kebaikan",
+          "pantulan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2023,19 +2907,71 @@
         "ms": "Isabel Allende"
       },
       "tags": {
-        "en": ["memories", "warmth", "companionship"],
-        "tr": ["anılar", "sıcaklık", "yoldaşlık"],
-        "fr": ["souvenirs", "chaleur", "compagnie"],
-        "pt": ["memórias", "calor", "companheirismo"],
-        "nl": ["herinneringen", "warmte", "gezelschap"],
-        "es": ["recuerdos", "calidez", "compañerismo"],
-        "de": ["erinnerungen", "wärme", "gemeinschaft"],
-        "it": ["ricordi", "calore", "compagnia"],
-        "ru": ["воспоминания", "тепло", "товарищество"],
-        "id": ["kenangan", "kehangatan", "persahabatan"],
-        "ja": ["思い出", "温かさ", "友情"],
-        "th": ["ความทรงจำ", "ความอบอุ่น", "มิตรภาพ"],
-        "ms": ["kenangan", "kehangatan", "persahabatan"]
+        "en": [
+          "memories",
+          "warmth",
+          "companionship"
+        ],
+        "tr": [
+          "anılar",
+          "sıcaklık",
+          "yoldaşlık"
+        ],
+        "fr": [
+          "souvenirs",
+          "chaleur",
+          "compagnie"
+        ],
+        "pt": [
+          "memórias",
+          "calor",
+          "companheirismo"
+        ],
+        "nl": [
+          "herinneringen",
+          "warmte",
+          "gezelschap"
+        ],
+        "es": [
+          "recuerdos",
+          "calidez",
+          "compañerismo"
+        ],
+        "de": [
+          "erinnerungen",
+          "wärme",
+          "gemeinschaft"
+        ],
+        "it": [
+          "ricordi",
+          "calore",
+          "compagnia"
+        ],
+        "ru": [
+          "воспоминания",
+          "тепло",
+          "товарищество"
+        ],
+        "id": [
+          "kenangan",
+          "kehangatan",
+          "persahabatan"
+        ],
+        "ja": [
+          "思い出",
+          "温かさ",
+          "友情"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ความอบอุ่น",
+          "มิตรภาพ"
+        ],
+        "ms": [
+          "kenangan",
+          "kehangatan",
+          "persahabatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Toni Morrison"
       },
       "tags": {
-        "en": ["trust", "connection", "continuity"],
-        "tr": ["güven", "bağlantı", "süreklilik"],
-        "fr": ["confiance", "connexion", "continuité"],
-        "pt": ["confiança", "conexão", "continuidade"],
-        "nl": ["vertrouwen", "verbinding", "continuïteit"],
-        "es": ["confianza", "conexión", "continuidad"],
-        "de": ["vertrauen", "verbindung", "kontinuität"],
-        "it": ["fiducia", "connessione", "continuità"],
-        "ru": ["доверие", "связь", "непрерывность"],
-        "id": ["kepercayaan", "koneksi", "kontinuitas"],
-        "ja": ["信頼", "つながり", "継続性"],
-        "th": ["ความไว้วางใจ", "การเชื่อมต่อ", "ความต่อเนื่อง"],
-        "ms": ["kepercayaan", "hubungan", "kesinambungan"]
+        "en": [
+          "trust",
+          "connection",
+          "continuity"
+        ],
+        "tr": [
+          "güven",
+          "bağlantı",
+          "süreklilik"
+        ],
+        "fr": [
+          "confiance",
+          "connexion",
+          "continuité"
+        ],
+        "pt": [
+          "confiança",
+          "conexão",
+          "continuidade"
+        ],
+        "nl": [
+          "vertrouwen",
+          "verbinding",
+          "continuïteit"
+        ],
+        "es": [
+          "confianza",
+          "conexión",
+          "continuidad"
+        ],
+        "de": [
+          "vertrauen",
+          "verbindung",
+          "kontinuität"
+        ],
+        "it": [
+          "fiducia",
+          "connessione",
+          "continuità"
+        ],
+        "ru": [
+          "доверие",
+          "связь",
+          "непрерывность"
+        ],
+        "id": [
+          "kepercayaan",
+          "koneksi",
+          "kontinuitas"
+        ],
+        "ja": [
+          "信頼",
+          "つながり",
+          "継続性"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "การเชื่อมต่อ",
+          "ความต่อเนื่อง"
+        ],
+        "ms": [
+          "kepercayaan",
+          "hubungan",
+          "kesinambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2223,7 +3211,7 @@
         }
       }
     },
-       {
+    {
       "id": "friendship_020",
       "category": "friendship",
       "texts": {
@@ -2257,19 +3245,71 @@
         "ms": "Naguib Mahfouz"
       },
       "tags": {
-        "en": ["companionship", "support", "journey"],
-        "tr": ["yoldaşlık", "destek", "yolculuk"],
-        "fr": ["compagnie", "soutien", "voyage"],
-        "pt": ["companheirismo", "apoio", "jornada"],
-        "nl": ["gezelschap", "steun", "reis"],
-        "es": ["compañerismo", "apoyo", "viaje"],
-        "de": ["gemeinschaft", "unterstützung", "reise"],
-        "it": ["compagnia", "sostegno", "viaggio"],
-        "ru": ["товарищество", "поддержка", "путешествие"],
-        "id": ["persahabatan", "dukungan", "perjalanan"],
-        "ja": ["仲間", "支援", "旅"],
-        "th": ["มิตรภาพ", "การสนับสนุน", "การเดินทาง"],
-        "ms": ["persahabatan", "sokongan", "perjalanan"]
+        "en": [
+          "companionship",
+          "support",
+          "journey"
+        ],
+        "tr": [
+          "yoldaşlık",
+          "destek",
+          "yolculuk"
+        ],
+        "fr": [
+          "compagnie",
+          "soutien",
+          "voyage"
+        ],
+        "pt": [
+          "companheirismo",
+          "apoio",
+          "jornada"
+        ],
+        "nl": [
+          "gezelschap",
+          "steun",
+          "reis"
+        ],
+        "es": [
+          "compañerismo",
+          "apoyo",
+          "viaje"
+        ],
+        "de": [
+          "gemeinschaft",
+          "unterstützung",
+          "reise"
+        ],
+        "it": [
+          "compagnia",
+          "sostegno",
+          "viaggio"
+        ],
+        "ru": [
+          "товарищество",
+          "поддержка",
+          "путешествие"
+        ],
+        "id": [
+          "persahabatan",
+          "dukungan",
+          "perjalanan"
+        ],
+        "ja": [
+          "仲間",
+          "支援",
+          "旅"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "การสนับสนุน",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "persahabatan",
+          "sokongan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Banana Yoshimoto"
       },
       "tags": {
-        "en": ["joy", "resonance", "connection"],
-        "tr": ["neşe", "yankı", "bağlantı"],
-        "fr": ["joie", "résonance", "connexion"],
-        "pt": ["alegria", "ressonância", "conexão"],
-        "nl": ["vreugde", "weerklank", "verbinding"],
-        "es": ["alegría", "resonancia", "conexión"],
-        "de": ["freude", "resonanz", "verbindung"],
-        "it": ["gioia", "risonanza", "connessione"],
-        "ru": ["радость", "эхо", "связь"],
-        "id": ["kebahagiaan", "gema", "koneksi"],
-        "ja": ["喜び", "共鳴", "つながり"],
-        "th": ["ความสุข", "การสะท้อน", "การเชื่อมต่อ"],
-        "ms": ["kegembiraan", "gema", "hubungan"]
+        "en": [
+          "joy",
+          "resonance",
+          "connection"
+        ],
+        "tr": [
+          "neşe",
+          "yankı",
+          "bağlantı"
+        ],
+        "fr": [
+          "joie",
+          "résonance",
+          "connexion"
+        ],
+        "pt": [
+          "alegria",
+          "ressonância",
+          "conexão"
+        ],
+        "nl": [
+          "vreugde",
+          "weerklank",
+          "verbinding"
+        ],
+        "es": [
+          "alegría",
+          "resonancia",
+          "conexión"
+        ],
+        "de": [
+          "freude",
+          "resonanz",
+          "verbindung"
+        ],
+        "it": [
+          "gioia",
+          "risonanza",
+          "connessione"
+        ],
+        "ru": [
+          "радость",
+          "эхо",
+          "связь"
+        ],
+        "id": [
+          "kebahagiaan",
+          "gema",
+          "koneksi"
+        ],
+        "ja": [
+          "喜び",
+          "共鳴",
+          "つながり"
+        ],
+        "th": [
+          "ความสุข",
+          "การสะท้อน",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "kegembiraan",
+          "gema",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2491,19 +3583,71 @@
         "ms": "Gabriel García Márquez"
       },
       "tags": {
-        "en": ["protection", "solitude", "loyalty"],
-        "tr": ["koruma", "yalnızlık", "sadakat"],
-        "fr": ["protection", "solitude", "loyauté"],
-        "pt": ["proteção", "solidão", "lealdade"],
-        "nl": ["bescherming", "eenzaamheid", "loyaliteit"],
-        "es": ["protección", "soledad", "lealtad"],
-        "de": ["schutz", "einsamkeit", "loyalität"],
-        "it": ["protezione", "solitudine", "lealtà"],
-        "ru": ["защита", "одиночество", "верность"],
-        "id": ["perlindungan", "kesepian", "kesetiaan"],
-        "ja": ["保護", "孤独", "忠誠"],
-        "th": ["การปกป้อง", "ความเหงา", "ความภักดี"],
-        "ms": ["perlindungan", "kesunyian", "kesetiaan"]
+        "en": [
+          "protection",
+          "solitude",
+          "loyalty"
+        ],
+        "tr": [
+          "koruma",
+          "yalnızlık",
+          "sadakat"
+        ],
+        "fr": [
+          "protection",
+          "solitude",
+          "loyauté"
+        ],
+        "pt": [
+          "proteção",
+          "solidão",
+          "lealdade"
+        ],
+        "nl": [
+          "bescherming",
+          "eenzaamheid",
+          "loyaliteit"
+        ],
+        "es": [
+          "protección",
+          "soledad",
+          "lealtad"
+        ],
+        "de": [
+          "schutz",
+          "einsamkeit",
+          "loyalität"
+        ],
+        "it": [
+          "protezione",
+          "solitudine",
+          "lealtà"
+        ],
+        "ru": [
+          "защита",
+          "одиночество",
+          "верность"
+        ],
+        "id": [
+          "perlindungan",
+          "kesepian",
+          "kesetiaan"
+        ],
+        "ja": [
+          "保護",
+          "孤独",
+          "忠誠"
+        ],
+        "th": [
+          "การปกป้อง",
+          "ความเหงา",
+          "ความภักดี"
+        ],
+        "ms": [
+          "perlindungan",
+          "kesunyian",
+          "kesetiaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3752,71 @@
         "ms": "Orhan Pamuk"
       },
       "tags": {
-        "en": ["love", "connection", "unity"],
-        "tr": ["sevgi", "bağlantı", "birlik"],
-        "fr": ["amour", "connexion", "unité"],
-        "pt": ["amor", "conexão", "unidade"],
-        "nl": ["liefde", "verbinding", "eenheid"],
-        "es": ["amor", "conexión", "unidad"],
-        "de": ["liebe", "verbindung", "einheit"],
-        "it": ["amore", "connessione", "unità"],
-        "ru": ["любовь", "связь", "единство"],
-        "id": ["cinta", "koneksi", "persatuan"],
-        "ja": ["愛", "つながり", "統一"],
-        "th": ["ความรัก", "การเชื่อมต่อ", "ความเป็นหนึ่งเดียว"],
-        "ms": ["kasih sayang", "hubungan", "perpaduan"]
+        "en": [
+          "love",
+          "connection",
+          "unity"
+        ],
+        "tr": [
+          "sevgi",
+          "bağlantı",
+          "birlik"
+        ],
+        "fr": [
+          "amour",
+          "connexion",
+          "unité"
+        ],
+        "pt": [
+          "amor",
+          "conexão",
+          "unidade"
+        ],
+        "nl": [
+          "liefde",
+          "verbinding",
+          "eenheid"
+        ],
+        "es": [
+          "amor",
+          "conexión",
+          "unidad"
+        ],
+        "de": [
+          "liebe",
+          "verbindung",
+          "einheit"
+        ],
+        "it": [
+          "amore",
+          "connessione",
+          "unità"
+        ],
+        "ru": [
+          "любовь",
+          "связь",
+          "единство"
+        ],
+        "id": [
+          "cinta",
+          "koneksi",
+          "persatuan"
+        ],
+        "ja": [
+          "愛",
+          "つながり",
+          "統一"
+        ],
+        "th": [
+          "ความรัก",
+          "การเชื่อมต่อ",
+          "ความเป็นหนึ่งเดียว"
+        ],
+        "ms": [
+          "kasih sayang",
+          "hubungan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2725,19 +3921,71 @@
         "ms": "Chimamanda Ngozi Adichie"
       },
       "tags": {
-        "en": ["hope", "guidance", "friendship"],
-        "tr": ["umut", "rehberlik", "dostluk"],
-        "fr": ["espoir", "guidance", "amitié"],
-        "pt": ["esperança", "orientação", "amizade"],
-        "nl": ["hoop", "begeleiding", "vriendschap"],
-        "es": ["esperanza", "guía", "amistad"],
-        "de": ["hoffnung", "führung", "freundschaft"],
-        "it": ["speranza", "guida", "amicizia"],
-        "ru": ["надежда", "руководство", "дружба"],
-        "id": ["harapan", "bimbingan", "persahabatan"],
-        "ja": ["希望", "指導", "友情"],
-        "th": ["ความหวัง", "การนำทาง", "มิตรภาพ"],
-        "ms": ["harapan", "panduan", "persahabatan"]
+        "en": [
+          "hope",
+          "guidance",
+          "friendship"
+        ],
+        "tr": [
+          "umut",
+          "rehberlik",
+          "dostluk"
+        ],
+        "fr": [
+          "espoir",
+          "guidance",
+          "amitié"
+        ],
+        "pt": [
+          "esperança",
+          "orientação",
+          "amizade"
+        ],
+        "nl": [
+          "hoop",
+          "begeleiding",
+          "vriendschap"
+        ],
+        "es": [
+          "esperanza",
+          "guía",
+          "amistad"
+        ],
+        "de": [
+          "hoffnung",
+          "führung",
+          "freundschaft"
+        ],
+        "it": [
+          "speranza",
+          "guida",
+          "amicizia"
+        ],
+        "ru": [
+          "надежда",
+          "руководство",
+          "дружба"
+        ],
+        "id": [
+          "harapan",
+          "bimbingan",
+          "persahabatan"
+        ],
+        "ja": [
+          "希望",
+          "指導",
+          "友情"
+        ],
+        "th": [
+          "ความหวัง",
+          "การนำทาง",
+          "มิตรภาพ"
+        ],
+        "ms": [
+          "harapan",
+          "panduan",
+          "persahabatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2808,7 +4056,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_025",
       "category": "friendship",
       "texts": {
@@ -2842,19 +4090,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "secrecy", "loyalty"],
-        "tr": ["güven", "gizlilik", "sadakat"],
-        "fr": ["confiance", "secret", "loyauté"],
-        "pt": ["confiança", "segredo", "lealdade"],
-        "nl": ["vertrouwen", "geheimhouding", "loyaliteit"],
-        "es": ["confianza", "secreto", "lealtad"],
-        "de": ["vertrauen", "geheimhaltung", "loyalität"],
-        "it": ["fiducia", "segretezza", "lealtà"],
-        "ru": ["доверие", "секретность", "верность"],
-        "id": ["kepercayaan", "kerahasiaan", "kesetiaan"],
-        "ja": ["信頼", "秘密", "忠誠"],
-        "th": ["ความไว้วางใจ", "ความลับ", "ความภักดี"],
-        "ms": ["kepercayaan", "kerahsiaan", "kesetiaan"]
+        "en": [
+          "trust",
+          "secrecy",
+          "loyalty"
+        ],
+        "tr": [
+          "güven",
+          "gizlilik",
+          "sadakat"
+        ],
+        "fr": [
+          "confiance",
+          "secret",
+          "loyauté"
+        ],
+        "pt": [
+          "confiança",
+          "segredo",
+          "lealdade"
+        ],
+        "nl": [
+          "vertrouwen",
+          "geheimhouding",
+          "loyaliteit"
+        ],
+        "es": [
+          "confianza",
+          "secreto",
+          "lealtad"
+        ],
+        "de": [
+          "vertrauen",
+          "geheimhaltung",
+          "loyalität"
+        ],
+        "it": [
+          "fiducia",
+          "segretezza",
+          "lealtà"
+        ],
+        "ru": [
+          "доверие",
+          "секретность",
+          "верность"
+        ],
+        "id": [
+          "kepercayaan",
+          "kerahasiaan",
+          "kesetiaan"
+        ],
+        "ja": [
+          "信頼",
+          "秘密",
+          "忠誠"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "ความลับ",
+          "ความภักดี"
+        ],
+        "ms": [
+          "kepercayaan",
+          "kerahsiaan",
+          "kesetiaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2959,19 +4259,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "heart", "eternity"],
-        "tr": ["anılar", "kalp", "sonsuzluk"],
-        "fr": ["souvenirs", "cœur", "éternité"],
-        "pt": ["memórias", "coração", "eternidade"],
-        "nl": ["herinneringen", "hart", "eeuwigheid"],
-        "es": ["recuerdos", "corazón", "eternidad"],
-        "de": ["erinnerungen", "herz", "ewigkeit"],
-        "it": ["ricordi", "cuore", "eternità"],
-        "ru": ["воспоминания", "сердце", "вечность"],
-        "id": ["kenangan", "hati", "keabadian"],
-        "ja": ["思い出", "心", "永遠"],
-        "th": ["ความทรงจำ", "หัวใจ", "นิรันดร์"],
-        "ms": ["kenangan", "hati", "keabadian"]
+        "en": [
+          "memories",
+          "heart",
+          "eternity"
+        ],
+        "tr": [
+          "anılar",
+          "kalp",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "souvenirs",
+          "cœur",
+          "éternité"
+        ],
+        "pt": [
+          "memórias",
+          "coração",
+          "eternidade"
+        ],
+        "nl": [
+          "herinneringen",
+          "hart",
+          "eeuwigheid"
+        ],
+        "es": [
+          "recuerdos",
+          "corazón",
+          "eternidad"
+        ],
+        "de": [
+          "erinnerungen",
+          "herz",
+          "ewigkeit"
+        ],
+        "it": [
+          "ricordi",
+          "cuore",
+          "eternità"
+        ],
+        "ru": [
+          "воспоминания",
+          "сердце",
+          "вечность"
+        ],
+        "id": [
+          "kenangan",
+          "hati",
+          "keabadian"
+        ],
+        "ja": [
+          "思い出",
+          "心",
+          "永遠"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "หัวใจ",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "kenangan",
+          "hati",
+          "keabadian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3076,19 +4428,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "peace", "friendship"],
-        "tr": ["ahenk", "huzur", "dostluk"],
-        "fr": ["harmonie", "paix", "amitié"],
-        "pt": ["harmonia", "paz", "amizade"],
-        "nl": ["harmonie", "vrede", "vriendschap"],
-        "es": ["armonía", "paz", "amistad"],
-        "de": ["harmonie", "frieden", "freundschaft"],
-        "it": ["armonia", "pace", "amicizia"],
-        "ru": ["гармония", "мир", "дружба"],
-        "id": ["harmoni", "kedamaian", "persahabatan"],
-        "ja": ["調和", "平和", "友情"],
-        "th": ["ความกลมกลืน", "สันติภาพ", "มิตรภาพ"],
-        "ms": ["harmoni", "kedamaian", "persahabatan"]
+        "en": [
+          "harmony",
+          "peace",
+          "friendship"
+        ],
+        "tr": [
+          "ahenk",
+          "huzur",
+          "dostluk"
+        ],
+        "fr": [
+          "harmonie",
+          "paix",
+          "amitié"
+        ],
+        "pt": [
+          "harmonia",
+          "paz",
+          "amizade"
+        ],
+        "nl": [
+          "harmonie",
+          "vrede",
+          "vriendschap"
+        ],
+        "es": [
+          "armonía",
+          "paz",
+          "amistad"
+        ],
+        "de": [
+          "harmonie",
+          "frieden",
+          "freundschaft"
+        ],
+        "it": [
+          "armonia",
+          "pace",
+          "amicizia"
+        ],
+        "ru": [
+          "гармония",
+          "мир",
+          "дружба"
+        ],
+        "id": [
+          "harmoni",
+          "kedamaian",
+          "persahabatan"
+        ],
+        "ja": [
+          "調和",
+          "平和",
+          "友情"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "สันติภาพ",
+          "มิตรภาพ"
+        ],
+        "ms": [
+          "harmoni",
+          "kedamaian",
+          "persahabatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3193,19 +4597,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["presence", "solitude", "warmth"],
-        "tr": ["varlık", "yalnızlık", "sıcaklık"],
-        "fr": ["présence", "solitude", "chaleur"],
-        "pt": ["presença", "solidão", "calor"],
-        "nl": ["aanwezigheid", "eenzaamheid", "warmte"],
-        "es": ["presencia", "soledad", "calor"],
-        "de": ["präsenz", "einsamkeit", "wärme"],
-        "it": ["presenza", "solitudine", "calore"],
-        "ru": ["присутствие", "одиночество", "тепло"],
-        "id": ["kehadiran", "kesepian", "kehangatan"],
-        "ja": ["存在", "孤独", "温かさ"],
-        "th": ["การปรากฏตัว", "ความโดดเดี่ยว", "ความอบอุ่น"],
-        "ms": ["kehadiran", "kesunyian", "kehangatan"]
+        "en": [
+          "presence",
+          "solitude",
+          "warmth"
+        ],
+        "tr": [
+          "varlık",
+          "yalnızlık",
+          "sıcaklık"
+        ],
+        "fr": [
+          "présence",
+          "solitude",
+          "chaleur"
+        ],
+        "pt": [
+          "presença",
+          "solidão",
+          "calor"
+        ],
+        "nl": [
+          "aanwezigheid",
+          "eenzaamheid",
+          "warmte"
+        ],
+        "es": [
+          "presencia",
+          "soledad",
+          "calor"
+        ],
+        "de": [
+          "präsenz",
+          "einsamkeit",
+          "wärme"
+        ],
+        "it": [
+          "presenza",
+          "solitudine",
+          "calore"
+        ],
+        "ru": [
+          "присутствие",
+          "одиночество",
+          "тепло"
+        ],
+        "id": [
+          "kehadiran",
+          "kesepian",
+          "kehangatan"
+        ],
+        "ja": [
+          "存在",
+          "孤独",
+          "温かさ"
+        ],
+        "th": [
+          "การปรากฏตัว",
+          "ความโดดเดี่ยว",
+          "ความอบอุ่น"
+        ],
+        "ms": [
+          "kehadiran",
+          "kesunyian",
+          "kehangatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3310,19 +4766,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["endurance", "adversity", "support"],
-        "tr": ["dayanıklılık", "zorluk", "destek"],
-        "fr": ["endurance", "adversité", "soutien"],
-        "pt": ["resistência", "adversidade", "apoio"],
-        "nl": ["uithoudingsvermogen", "tegenspoed", "steun"],
-        "es": ["resistencia", "adversidad", "apoyo"],
-        "de": ["ausdauer", "widrigkeiten", "unterstützung"],
-        "it": ["resistenza", "avversità", "sostegno"],
-        "ru": ["выносливость", "невзгоды", "поддержка"],
-        "id": ["ketahanan", "kesulitan", "dukungan"],
-        "ja": ["耐久力", "逆境", "支援"],
-        "th": ["ความอดทน", "ความทุกข์ยาก", "การสนับสนุน"],
-        "ms": ["ketahanan", "kesusahan", "sokongan"]
+        "en": [
+          "endurance",
+          "adversity",
+          "support"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "zorluk",
+          "destek"
+        ],
+        "fr": [
+          "endurance",
+          "adversité",
+          "soutien"
+        ],
+        "pt": [
+          "resistência",
+          "adversidade",
+          "apoio"
+        ],
+        "nl": [
+          "uithoudingsvermogen",
+          "tegenspoed",
+          "steun"
+        ],
+        "es": [
+          "resistencia",
+          "adversidad",
+          "apoyo"
+        ],
+        "de": [
+          "ausdauer",
+          "widrigkeiten",
+          "unterstützung"
+        ],
+        "it": [
+          "resistenza",
+          "avversità",
+          "sostegno"
+        ],
+        "ru": [
+          "выносливость",
+          "невзгоды",
+          "поддержка"
+        ],
+        "id": [
+          "ketahanan",
+          "kesulitan",
+          "dukungan"
+        ],
+        "ja": [
+          "耐久力",
+          "逆境",
+          "支援"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความทุกข์ยาก",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "ketahanan",
+          "kesusahan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3427,19 +4935,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["empathy", "pain", "connection"],
-        "tr": ["empati", "acı", "bağlantı"],
-        "fr": ["empathie", "douleur", "connexion"],
-        "pt": ["empatia", "dor", "conexão"],
-        "nl": ["empathie", "pijn", "verbinding"],
-        "es": ["empatía", "dolor", "conexión"],
-        "de": ["empathie", "schmerz", "verbindung"],
-        "it": ["empatia", "dolore", "connessione"],
-        "ru": ["эмпатия", "боль", "связь"],
-        "id": ["empati", "sakit", "koneksi"],
-        "ja": ["共感", "痛み", "つながり"],
-        "th": ["ความเห็นอกเห็นใจ", "ความเจ็บปวด", "การเชื่อมต่อ"],
-        "ms": ["empati", "kesakitan", "hubungan"]
+        "en": [
+          "empathy",
+          "pain",
+          "connection"
+        ],
+        "tr": [
+          "empati",
+          "acı",
+          "bağlantı"
+        ],
+        "fr": [
+          "empathie",
+          "douleur",
+          "connexion"
+        ],
+        "pt": [
+          "empatia",
+          "dor",
+          "conexão"
+        ],
+        "nl": [
+          "empathie",
+          "pijn",
+          "verbinding"
+        ],
+        "es": [
+          "empatía",
+          "dolor",
+          "conexión"
+        ],
+        "de": [
+          "empathie",
+          "schmerz",
+          "verbindung"
+        ],
+        "it": [
+          "empatia",
+          "dolore",
+          "connessione"
+        ],
+        "ru": [
+          "эмпатия",
+          "боль",
+          "связь"
+        ],
+        "id": [
+          "empati",
+          "sakit",
+          "koneksi"
+        ],
+        "ja": [
+          "共感",
+          "痛み",
+          "つながり"
+        ],
+        "th": [
+          "ความเห็นอกเห็นใจ",
+          "ความเจ็บปวด",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "empati",
+          "kesakitan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3544,19 +5104,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["unity", "dreams", "bond"],
-        "tr": ["birlik", "hayaller", "bağ"],
-        "fr": ["unité", "rêves", "lien"],
-        "pt": ["unidade", "sonhos", "vínculo"],
-        "nl": ["eenheid", "dromen", "band"],
-        "es": ["unidad", "sueños", "vínculo"],
-        "de": ["einheit", "träume", "bindung"],
-        "it": ["unità", "sogni", "legame"],
-        "ru": ["единство", "мечты", "связь"],
-        "id": ["persatuan", "mimpi", "ikatan"],
-        "ja": ["団結", "夢", "絆"],
-        "th": ["ความเป็นหนึ่งเดียว", "ความฝัน", "สายสัมพันธ์"],
-        "ms": ["perpaduan", "impian", "ikatan"]
+        "en": [
+          "unity",
+          "dreams",
+          "bond"
+        ],
+        "tr": [
+          "birlik",
+          "hayaller",
+          "bağ"
+        ],
+        "fr": [
+          "unité",
+          "rêves",
+          "lien"
+        ],
+        "pt": [
+          "unidade",
+          "sonhos",
+          "vínculo"
+        ],
+        "nl": [
+          "eenheid",
+          "dromen",
+          "band"
+        ],
+        "es": [
+          "unidad",
+          "sueños",
+          "vínculo"
+        ],
+        "de": [
+          "einheit",
+          "träume",
+          "bindung"
+        ],
+        "it": [
+          "unità",
+          "sogni",
+          "legame"
+        ],
+        "ru": [
+          "единство",
+          "мечты",
+          "связь"
+        ],
+        "id": [
+          "persatuan",
+          "mimpi",
+          "ikatan"
+        ],
+        "ja": [
+          "団結",
+          "夢",
+          "絆"
+        ],
+        "th": [
+          "ความเป็นหนึ่งเดียว",
+          "ความฝัน",
+          "สายสัมพันธ์"
+        ],
+        "ms": [
+          "perpaduan",
+          "impian",
+          "ikatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3627,7 +5239,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_032",
       "category": "friendship",
       "texts": {
@@ -3661,19 +5273,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "support", "uplift"],
-        "tr": ["direnç", "destek", "yükseltme"],
-        "fr": ["résilience", "soutien", "élévation"],
-        "pt": ["resiliência", "apoio", "elevação"],
-        "nl": ["veerkracht", "steun", "verheffing"],
-        "es": ["resiliencia", "apoyo", "elevación"],
-        "de": ["widerstandsfähigkeit", "unterstützung", "aufrichtung"],
-        "it": ["resilienza", "sostegno", "sollevamento"],
-        "ru": ["стойкость", "поддержка", "подъем"],
-        "id": ["ketahanan", "dukungan", "pengangkatan"],
-        "ja": ["回復力", "支援", "引き上げ"],
-        "th": ["ความยืดหยุ่น", "การสนับสนุน", "การยกระดับ"],
-        "ms": ["ketahanan", "sokongan", "pengangkatan"]
+        "en": [
+          "resilience",
+          "support",
+          "uplift"
+        ],
+        "tr": [
+          "direnç",
+          "destek",
+          "yükseltme"
+        ],
+        "fr": [
+          "résilience",
+          "soutien",
+          "élévation"
+        ],
+        "pt": [
+          "resiliência",
+          "apoio",
+          "elevação"
+        ],
+        "nl": [
+          "veerkracht",
+          "steun",
+          "verheffing"
+        ],
+        "es": [
+          "resiliencia",
+          "apoyo",
+          "elevación"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "unterstützung",
+          "aufrichtung"
+        ],
+        "it": [
+          "resilienza",
+          "sostegno",
+          "sollevamento"
+        ],
+        "ru": [
+          "стойкость",
+          "поддержка",
+          "подъем"
+        ],
+        "id": [
+          "ketahanan",
+          "dukungan",
+          "pengangkatan"
+        ],
+        "ja": [
+          "回復力",
+          "支援",
+          "引き上げ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "การสนับสนุน",
+          "การยกระดับ"
+        ],
+        "ms": [
+          "ketahanan",
+          "sokongan",
+          "pengangkatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3778,19 +5442,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["laughter", "joy", "comfort"],
-        "tr": ["kahkaha", "neşe", "teselli"],
-        "fr": ["rire", "joie", "réconfort"],
-        "pt": ["risada", "alegria", "consolo"],
-        "nl": ["lachen", "vreugde", "troost"],
-        "es": ["risa", "alegría", "consuelo"],
-        "de": ["lachen", "freude", "trost"],
-        "it": ["risata", "gioia", "conforto"],
-        "ru": ["смех", "радость", "утешение"],
-        "id": ["tawa", "kegembiraan", "penghiburan"],
-        "ja": ["笑い", "喜び", "慰め"],
-        "th": ["เสียงหัวเราะ", "ความสุข", "การปลอบโยน"],
-        "ms": ["ketawa", "kegembiraan", "penghiburan"]
+        "en": [
+          "laughter",
+          "joy",
+          "comfort"
+        ],
+        "tr": [
+          "kahkaha",
+          "neşe",
+          "teselli"
+        ],
+        "fr": [
+          "rire",
+          "joie",
+          "réconfort"
+        ],
+        "pt": [
+          "risada",
+          "alegria",
+          "consolo"
+        ],
+        "nl": [
+          "lachen",
+          "vreugde",
+          "troost"
+        ],
+        "es": [
+          "risa",
+          "alegría",
+          "consuelo"
+        ],
+        "de": [
+          "lachen",
+          "freude",
+          "trost"
+        ],
+        "it": [
+          "risata",
+          "gioia",
+          "conforto"
+        ],
+        "ru": [
+          "смех",
+          "радость",
+          "утешение"
+        ],
+        "id": [
+          "tawa",
+          "kegembiraan",
+          "penghiburan"
+        ],
+        "ja": [
+          "笑い",
+          "喜び",
+          "慰め"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "ความสุข",
+          "การปลอบโยน"
+        ],
+        "ms": [
+          "ketawa",
+          "kegembiraan",
+          "penghiburan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3895,19 +5611,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["acceptance", "flaws", "beauty"],
-        "tr": ["kabul", "kusurlar", "güzellik"],
-        "fr": ["acceptation", "défauts", "beauté"],
-        "pt": ["aceitação", "defeitos", "beleza"],
-        "nl": ["acceptatie", "gebreken", "schoonheid"],
-        "es": ["aceptación", "defectos", "belleza"],
-        "de": ["akzeptanz", "mängel", "schönheit"],
-        "it": ["accettazione", "difetti", "bellezza"],
-        "ru": ["принятие", "недостатки", "красота"],
-        "id": ["penerimaan", "kekurangan", "keindahan"],
-        "ja": ["受容", "欠点", "美しさ"],
-        "th": ["การยอมรับ", "ข้อบกพร่อง", "ความงาม"],
-        "ms": ["penerimaan", "kekurangan", "kecantikan"]
+        "en": [
+          "acceptance",
+          "flaws",
+          "beauty"
+        ],
+        "tr": [
+          "kabul",
+          "kusurlar",
+          "güzellik"
+        ],
+        "fr": [
+          "acceptation",
+          "défauts",
+          "beauté"
+        ],
+        "pt": [
+          "aceitação",
+          "defeitos",
+          "beleza"
+        ],
+        "nl": [
+          "acceptatie",
+          "gebreken",
+          "schoonheid"
+        ],
+        "es": [
+          "aceptación",
+          "defectos",
+          "belleza"
+        ],
+        "de": [
+          "akzeptanz",
+          "mängel",
+          "schönheit"
+        ],
+        "it": [
+          "accettazione",
+          "difetti",
+          "bellezza"
+        ],
+        "ru": [
+          "принятие",
+          "недостатки",
+          "красота"
+        ],
+        "id": [
+          "penerimaan",
+          "kekurangan",
+          "keindahan"
+        ],
+        "ja": [
+          "受容",
+          "欠点",
+          "美しさ"
+        ],
+        "th": [
+          "การยอมรับ",
+          "ข้อบกพร่อง",
+          "ความงาม"
+        ],
+        "ms": [
+          "penerimaan",
+          "kekurangan",
+          "kecantikan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4012,19 +5780,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "guidance", "light"],
-        "tr": ["umut", "rehberlik", "ışık"],
-        "fr": ["espoir", "guidance", "lumière"],
-        "pt": ["esperança", "orientação", "luz"],
-        "nl": ["hoop", "begeleiding", "licht"],
-        "es": ["esperanza", "guía", "luz"],
-        "de": ["hoffnung", "führung", "licht"],
-        "it": ["speranza", "guida", "luce"],
-        "ru": ["надежда", "руководство", "свет"],
-        "id": ["harapan", "bimbingan", "cahaya"],
-        "ja": ["希望", "指導", "光"],
-        "th": ["ความหวัง", "การนำทาง", "แสงสว่าง"],
-        "ms": ["harapan", "bimbingan", "cahaya"]
+        "en": [
+          "hope",
+          "guidance",
+          "light"
+        ],
+        "tr": [
+          "umut",
+          "rehberlik",
+          "ışık"
+        ],
+        "fr": [
+          "espoir",
+          "guidance",
+          "lumière"
+        ],
+        "pt": [
+          "esperança",
+          "orientação",
+          "luz"
+        ],
+        "nl": [
+          "hoop",
+          "begeleiding",
+          "licht"
+        ],
+        "es": [
+          "esperanza",
+          "guía",
+          "luz"
+        ],
+        "de": [
+          "hoffnung",
+          "führung",
+          "licht"
+        ],
+        "it": [
+          "speranza",
+          "guida",
+          "luce"
+        ],
+        "ru": [
+          "надежда",
+          "руководство",
+          "свет"
+        ],
+        "id": [
+          "harapan",
+          "bimbingan",
+          "cahaya"
+        ],
+        "ja": [
+          "希望",
+          "指導",
+          "光"
+        ],
+        "th": [
+          "ความหวัง",
+          "การนำทาง",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "harapan",
+          "bimbingan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4129,19 +5949,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["balance", "stability", "support"],
-        "tr": ["denge", "istikrar", "destek"],
-        "fr": ["équilibre", "stabilité", "soutien"],
-        "pt": ["equilíbrio", "estabilidade", "apoio"],
-        "nl": ["evenwicht", "stabiliteit", "steun"],
-        "es": ["equilibrio", "estabilidad", "apoyo"],
-        "de": ["gleichgewicht", "stabilität", "unterstützung"],
-        "it": ["equilibrio", "stabilità", "sostegno"],
-        "ru": ["равновесие", "стабильность", "поддержка"],
-        "id": ["keseimbangan", "stabilitas", "dukungan"],
-        "ja": ["バランス", "安定", "支援"],
-        "th": ["ความสมดุล", "ความมั่นคง", "การสนับสนุน"],
-        "ms": ["keseimbangan", "kestabilan", "sokongan"]
+        "en": [
+          "balance",
+          "stability",
+          "support"
+        ],
+        "tr": [
+          "denge",
+          "istikrar",
+          "destek"
+        ],
+        "fr": [
+          "équilibre",
+          "stabilité",
+          "soutien"
+        ],
+        "pt": [
+          "equilíbrio",
+          "estabilidade",
+          "apoio"
+        ],
+        "nl": [
+          "evenwicht",
+          "stabiliteit",
+          "steun"
+        ],
+        "es": [
+          "equilibrio",
+          "estabilidad",
+          "apoyo"
+        ],
+        "de": [
+          "gleichgewicht",
+          "stabilität",
+          "unterstützung"
+        ],
+        "it": [
+          "equilibrio",
+          "stabilità",
+          "sostegno"
+        ],
+        "ru": [
+          "равновесие",
+          "стабильность",
+          "поддержка"
+        ],
+        "id": [
+          "keseimbangan",
+          "stabilitas",
+          "dukungan"
+        ],
+        "ja": [
+          "バランス",
+          "安定",
+          "支援"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความมั่นคง",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "kestabilan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4212,7 +6084,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_037",
       "category": "friendship",
       "texts": {
@@ -4246,19 +6118,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["loyalty", "steadfastness", "support"],
-        "tr": ["sadakat", "sabitlik", "destek"],
-        "fr": ["loyauté", "fermeté", "soutien"],
-        "pt": ["lealdade", "firmeza", "apoio"],
-        "nl": ["loyaliteit", "standvastigheid", "steun"],
-        "es": ["lealtad", "firmeza", "apoyo"],
-        "de": ["loyalität", "standhaftigkeit", "unterstützung"],
-        "it": ["lealtà", "fermezza", "sostegno"],
-        "ru": ["верность", "непоколебимость", "поддержка"],
-        "id": ["kesetiaan", "keteguhan", "dukungan"],
-        "ja": ["忠誠", "堅固", "支援"],
-        "th": ["ความภักดี", "ความมั่นคง", "การสนับสนุน"],
-        "ms": ["kesetiaan", "keteguhan", "sokongan"]
+        "en": [
+          "loyalty",
+          "steadfastness",
+          "support"
+        ],
+        "tr": [
+          "sadakat",
+          "sabitlik",
+          "destek"
+        ],
+        "fr": [
+          "loyauté",
+          "fermeté",
+          "soutien"
+        ],
+        "pt": [
+          "lealdade",
+          "firmeza",
+          "apoio"
+        ],
+        "nl": [
+          "loyaliteit",
+          "standvastigheid",
+          "steun"
+        ],
+        "es": [
+          "lealtad",
+          "firmeza",
+          "apoyo"
+        ],
+        "de": [
+          "loyalität",
+          "standhaftigkeit",
+          "unterstützung"
+        ],
+        "it": [
+          "lealtà",
+          "fermezza",
+          "sostegno"
+        ],
+        "ru": [
+          "верность",
+          "непоколебимость",
+          "поддержка"
+        ],
+        "id": [
+          "kesetiaan",
+          "keteguhan",
+          "dukungan"
+        ],
+        "ja": [
+          "忠誠",
+          "堅固",
+          "支援"
+        ],
+        "th": [
+          "ความภักดี",
+          "ความมั่นคง",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "kesetiaan",
+          "keteguhan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4363,19 +6287,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["understanding", "empathy", "connection"],
-        "tr": ["anlayış", "empati", "bağlantı"],
-        "fr": ["compréhension", "empathie", "connexion"],
-        "pt": ["compreensão", "empatia", "conexão"],
-        "nl": ["begrip", "empathie", "verbinding"],
-        "es": ["comprensión", "empatía", "conexión"],
-        "de": ["verständnis", "empathie", "verbindung"],
-        "it": ["comprensione", "empatia", "connessione"],
-        "ru": ["понимание", "эмпатия", "связь"],
-        "id": ["pengertian", "empati", "koneksi"],
-        "ja": ["理解", "共感", "つながり"],
-        "th": ["ความเข้าใจ", "ความเห็นอกเห็นใจ", "การเชื่อมต่อ"],
-        "ms": ["pemahaman", "empati", "hubungan"]
+        "en": [
+          "understanding",
+          "empathy",
+          "connection"
+        ],
+        "tr": [
+          "anlayış",
+          "empati",
+          "bağlantı"
+        ],
+        "fr": [
+          "compréhension",
+          "empathie",
+          "connexion"
+        ],
+        "pt": [
+          "compreensão",
+          "empatia",
+          "conexão"
+        ],
+        "nl": [
+          "begrip",
+          "empathie",
+          "verbinding"
+        ],
+        "es": [
+          "comprensión",
+          "empatía",
+          "conexión"
+        ],
+        "de": [
+          "verständnis",
+          "empathie",
+          "verbindung"
+        ],
+        "it": [
+          "comprensione",
+          "empatia",
+          "connessione"
+        ],
+        "ru": [
+          "понимание",
+          "эмпатия",
+          "связь"
+        ],
+        "id": [
+          "pengertian",
+          "empati",
+          "koneksi"
+        ],
+        "ja": [
+          "理解",
+          "共感",
+          "つながり"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "ความเห็นอกเห็นใจ",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "pemahaman",
+          "empati",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4480,19 +6456,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["kindness", "warmth", "comfort"],
-        "tr": ["nezaket", "sıcaklık", "teselli"],
-        "fr": ["gentillesse", "chaleur", "réconfort"],
-        "pt": ["bondade", "calor", "conforto"],
-        "nl": ["vriendelijkheid", "warmte", "troost"],
-        "es": ["bondad", "calidez", "consuelo"],
-        "de": ["freundlichkeit", "wärme", "trost"],
-        "it": ["gentilezza", "calore", "conforto"],
-        "ru": ["доброта", "тепло", "утешение"],
-        "id": ["kebaikan", "kehangatan", "penghiburan"],
-        "ja": ["優しさ", "温かさ", "慰め"],
-        "th": ["ความเมตตา", "ความอบอุ่น", "การปลอบโยน"],
-        "ms": ["kebaikan", "kehangatan", "penghiburan"]
+        "en": [
+          "kindness",
+          "warmth",
+          "comfort"
+        ],
+        "tr": [
+          "nezaket",
+          "sıcaklık",
+          "teselli"
+        ],
+        "fr": [
+          "gentillesse",
+          "chaleur",
+          "réconfort"
+        ],
+        "pt": [
+          "bondade",
+          "calor",
+          "conforto"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "warmte",
+          "troost"
+        ],
+        "es": [
+          "bondad",
+          "calidez",
+          "consuelo"
+        ],
+        "de": [
+          "freundlichkeit",
+          "wärme",
+          "trost"
+        ],
+        "it": [
+          "gentilezza",
+          "calore",
+          "conforto"
+        ],
+        "ru": [
+          "доброта",
+          "тепло",
+          "утешение"
+        ],
+        "id": [
+          "kebaikan",
+          "kehangatan",
+          "penghiburan"
+        ],
+        "ja": [
+          "優しさ",
+          "温かさ",
+          "慰め"
+        ],
+        "th": [
+          "ความเมตตา",
+          "ความอบอุ่น",
+          "การปลอบโยน"
+        ],
+        "ms": [
+          "kebaikan",
+          "kehangatan",
+          "penghiburan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4597,19 +6625,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "healing", "reconciliation"],
-        "tr": ["bağışlama", "iyileşme", "uzlaşma"],
-        "fr": ["pardon", "guérison", "réconciliation"],
-        "pt": ["perdão", "cura", "reconciliação"],
-        "nl": ["vergeving", "genezing", "verzoening"],
-        "es": ["perdón", "curación", "reconciliación"],
-        "de": ["vergebung", "heilung", "versöhnung"],
-        "it": ["perdono", "guarigione", "riconciliazione"],
-        "ru": ["прощение", "исцеление", "примирение"],
-        "id": ["pengampunan", "penyembuhan", "rekonsiliasi"],
-        "ja": ["許し", "癒し", "和解"],
-        "th": ["การให้อภัย", "การเยียวยา", "การปรองดอง"],
-        "ms": ["keampunan", "penyembuhan", "perdamaian"]
+        "en": [
+          "forgiveness",
+          "healing",
+          "reconciliation"
+        ],
+        "tr": [
+          "bağışlama",
+          "iyileşme",
+          "uzlaşma"
+        ],
+        "fr": [
+          "pardon",
+          "guérison",
+          "réconciliation"
+        ],
+        "pt": [
+          "perdão",
+          "cura",
+          "reconciliação"
+        ],
+        "nl": [
+          "vergeving",
+          "genezing",
+          "verzoening"
+        ],
+        "es": [
+          "perdón",
+          "curación",
+          "reconciliación"
+        ],
+        "de": [
+          "vergebung",
+          "heilung",
+          "versöhnung"
+        ],
+        "it": [
+          "perdono",
+          "guarigione",
+          "riconciliazione"
+        ],
+        "ru": [
+          "прощение",
+          "исцеление",
+          "примирение"
+        ],
+        "id": [
+          "pengampunan",
+          "penyembuhan",
+          "rekonsiliasi"
+        ],
+        "ja": [
+          "許し",
+          "癒し",
+          "和解"
+        ],
+        "th": [
+          "การให้อภัย",
+          "การเยียวยา",
+          "การปรองดอง"
+        ],
+        "ms": [
+          "keampunan",
+          "penyembuhan",
+          "perdamaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4714,19 +6794,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["joy", "uplift", "celebration"],
-        "tr": ["neşe", "yükseltme", "kutlama"],
-        "fr": ["joie", "élévation", "célébration"],
-        "pt": ["alegria", "elevação", "celebração"],
-        "nl": ["vreugde", "verheffing", "viering"],
-        "es": ["alegría", "elevación", "celebración"],
-        "de": ["freude", "erhebung", "feier"],
-        "it": ["gioia", "sollevamento", "celebrazione"],
-        "ru": ["радость", "подъем", "празднование"],
-        "id": ["kegembiraan", "pengangkatan", "perayaan"],
-        "ja": ["喜び", "高揚", "祝賀"],
-        "th": ["ความสุข", "การยกระดับ", "การเฉลิมฉลอง"],
-        "ms": ["kegembiraan", "pengangkatan", "perayaan"]
+        "en": [
+          "joy",
+          "uplift",
+          "celebration"
+        ],
+        "tr": [
+          "neşe",
+          "yükseltme",
+          "kutlama"
+        ],
+        "fr": [
+          "joie",
+          "élévation",
+          "célébration"
+        ],
+        "pt": [
+          "alegria",
+          "elevação",
+          "celebração"
+        ],
+        "nl": [
+          "vreugde",
+          "verheffing",
+          "viering"
+        ],
+        "es": [
+          "alegría",
+          "elevación",
+          "celebración"
+        ],
+        "de": [
+          "freude",
+          "erhebung",
+          "feier"
+        ],
+        "it": [
+          "gioia",
+          "sollevamento",
+          "celebrazione"
+        ],
+        "ru": [
+          "радость",
+          "подъем",
+          "празднование"
+        ],
+        "id": [
+          "kegembiraan",
+          "pengangkatan",
+          "perayaan"
+        ],
+        "ja": [
+          "喜び",
+          "高揚",
+          "祝賀"
+        ],
+        "th": [
+          "ความสุข",
+          "การยกระดับ",
+          "การเฉลิมฉลอง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "pengangkatan",
+          "perayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4831,19 +6963,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["growth", "dreams", "connection"],
-        "tr": ["büyüme", "hayaller", "bağlantı"],
-        "fr": ["croissance", "rêves", "connexion"],
-        "pt": ["crescimento", "sonhos", "conexão"],
-        "nl": ["groei", "dromen", "verbinding"],
-        "es": ["crecimiento", "sueños", "conexión"],
-        "de": ["wachstum", "träume", "verbindung"],
-        "it": ["crescita", "sogni", "connessione"],
-        "ru": ["рост", "мечты", "связь"],
-        "id": ["pertumbuhan", "mimpi", "koneksi"],
-        "ja": ["成長", "夢", "つながり"],
-        "th": ["การเติบโต", "ความฝัน", "การเชื่อมต่อ"],
-        "ms": ["pertumbuhan", "impian", "hubungan"]
+        "en": [
+          "growth",
+          "dreams",
+          "connection"
+        ],
+        "tr": [
+          "büyüme",
+          "hayaller",
+          "bağlantı"
+        ],
+        "fr": [
+          "croissance",
+          "rêves",
+          "connexion"
+        ],
+        "pt": [
+          "crescimento",
+          "sonhos",
+          "conexão"
+        ],
+        "nl": [
+          "groei",
+          "dromen",
+          "verbinding"
+        ],
+        "es": [
+          "crecimiento",
+          "sueños",
+          "conexión"
+        ],
+        "de": [
+          "wachstum",
+          "träume",
+          "verbindung"
+        ],
+        "it": [
+          "crescita",
+          "sogni",
+          "connessione"
+        ],
+        "ru": [
+          "рост",
+          "мечты",
+          "связь"
+        ],
+        "id": [
+          "pertumbuhan",
+          "mimpi",
+          "koneksi"
+        ],
+        "ja": [
+          "成長",
+          "夢",
+          "つながり"
+        ],
+        "th": [
+          "การเติบโต",
+          "ความฝัน",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "pertumbuhan",
+          "impian",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4948,19 +7132,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["peace", "calm", "support"],
-        "tr": ["huzur", "sakinlik", "destek"],
-        "fr": ["paix", "calme", "soutien"],
-        "pt": ["paz", "calma", "apoio"],
-        "nl": ["vrede", "rust", "steun"],
-        "es": ["paz", "calma", "apoyo"],
-        "de": ["frieden", "ruhe", "unterstützung"],
-        "it": ["pace", "calma", "sostegno"],
-        "ru": ["покой", "спокойствие", "поддержка"],
-        "id": ["kedamaian", "ketenangan", "dukungan"],
-        "ja": ["平和", "穏やかさ", "支援"],
-        "th": ["ความสงบ", "ความสงบสุข", "การสนับสนุน"],
-        "ms": ["kedamaian", "ketenangan", "sokongan"]
+        "en": [
+          "peace",
+          "calm",
+          "support"
+        ],
+        "tr": [
+          "huzur",
+          "sakinlik",
+          "destek"
+        ],
+        "fr": [
+          "paix",
+          "calme",
+          "soutien"
+        ],
+        "pt": [
+          "paz",
+          "calma",
+          "apoio"
+        ],
+        "nl": [
+          "vrede",
+          "rust",
+          "steun"
+        ],
+        "es": [
+          "paz",
+          "calma",
+          "apoyo"
+        ],
+        "de": [
+          "frieden",
+          "ruhe",
+          "unterstützung"
+        ],
+        "it": [
+          "pace",
+          "calma",
+          "sostegno"
+        ],
+        "ru": [
+          "покой",
+          "спокойствие",
+          "поддержка"
+        ],
+        "id": [
+          "kedamaian",
+          "ketenangan",
+          "dukungan"
+        ],
+        "ja": [
+          "平和",
+          "穏やかさ",
+          "支援"
+        ],
+        "th": [
+          "ความสงบ",
+          "ความสงบสุข",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "kedamaian",
+          "ketenangan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5031,7 +7267,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_044",
       "category": "friendship",
       "texts": {
@@ -5065,19 +7301,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "confidentiality", "bond"],
-        "tr": ["güven", "gizlilik", "bağ"],
-        "fr": ["confiance", "confidentialité", "lien"],
-        "pt": ["confiança", "confidencialidade", "vínculo"],
-        "nl": ["vertrouwen", "vertrouwelijkheid", "band"],
-        "es": ["confianza", "confidencialidad", "vínculo"],
-        "de": ["vertrauen", "vertraulichkeit", "bindung"],
-        "it": ["fiducia", "riservatezza", "legame"],
-        "ru": ["доверие", "конфиденциальность", "связь"],
-        "id": ["kepercayaan", "kerahasiaan", "ikatan"],
-        "ja": ["信頼", "機密性", "絆"],
-        "th": ["ความไว้วางใจ", "ความลับ", "สายสัมพันธ์"],
-        "ms": ["kepercayaan", "kerahsiaan", "ikatan"]
+        "en": [
+          "trust",
+          "confidentiality",
+          "bond"
+        ],
+        "tr": [
+          "güven",
+          "gizlilik",
+          "bağ"
+        ],
+        "fr": [
+          "confiance",
+          "confidentialité",
+          "lien"
+        ],
+        "pt": [
+          "confiança",
+          "confidencialidade",
+          "vínculo"
+        ],
+        "nl": [
+          "vertrouwen",
+          "vertrouwelijkheid",
+          "band"
+        ],
+        "es": [
+          "confianza",
+          "confidencialidad",
+          "vínculo"
+        ],
+        "de": [
+          "vertrauen",
+          "vertraulichkeit",
+          "bindung"
+        ],
+        "it": [
+          "fiducia",
+          "riservatezza",
+          "legame"
+        ],
+        "ru": [
+          "доверие",
+          "конфиденциальность",
+          "связь"
+        ],
+        "id": [
+          "kepercayaan",
+          "kerahasiaan",
+          "ikatan"
+        ],
+        "ja": [
+          "信頼",
+          "機密性",
+          "絆"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "ความลับ",
+          "สายสัมพันธ์"
+        ],
+        "ms": [
+          "kepercayaan",
+          "kerahsiaan",
+          "ikatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5182,19 +7470,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["sincerity", "truth", "honesty"],
-        "tr": ["samimiyet", "gerçek", "dürüstlük"],
-        "fr": ["sincérité", "vérité", "honnêteté"],
-        "pt": ["sinceridade", "verdade", "honestidade"],
-        "nl": ["oprechtheid", "waarheid", "eerlijkheid"],
-        "es": ["sinceridad", "verdad", "honestidad"],
-        "de": ["aufrichtigkeit", "wahrheit", "ehrlichkeit"],
-        "it": ["sincerità", "verità", "onestà"],
-        "ru": ["искренность", "правда", "честность"],
-        "id": ["kejujuran", "kebenaran", "keikhlasan"],
-        "ja": ["誠実さ", "真実", "正直"],
-        "th": ["ความจริงใจ", "ความจริง", "ความซื่อสัตย์"],
-        "ms": ["keikhlasan", "kebenaran", "kejujuran"]
+        "en": [
+          "sincerity",
+          "truth",
+          "honesty"
+        ],
+        "tr": [
+          "samimiyet",
+          "gerçek",
+          "dürüstlük"
+        ],
+        "fr": [
+          "sincérité",
+          "vérité",
+          "honnêteté"
+        ],
+        "pt": [
+          "sinceridade",
+          "verdade",
+          "honestidade"
+        ],
+        "nl": [
+          "oprechtheid",
+          "waarheid",
+          "eerlijkheid"
+        ],
+        "es": [
+          "sinceridad",
+          "verdad",
+          "honestidad"
+        ],
+        "de": [
+          "aufrichtigkeit",
+          "wahrheit",
+          "ehrlichkeit"
+        ],
+        "it": [
+          "sincerità",
+          "verità",
+          "onestà"
+        ],
+        "ru": [
+          "искренность",
+          "правда",
+          "честность"
+        ],
+        "id": [
+          "kejujuran",
+          "kebenaran",
+          "keikhlasan"
+        ],
+        "ja": [
+          "誠実さ",
+          "真実",
+          "正直"
+        ],
+        "th": [
+          "ความจริงใจ",
+          "ความจริง",
+          "ความซื่อสัตย์"
+        ],
+        "ms": [
+          "keikhlasan",
+          "kebenaran",
+          "kejujuran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5299,19 +7639,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["silence", "connection", "understanding"],
-        "tr": ["sessizlik", "bağlantı", "anlayış"],
-        "fr": ["silence", "connexion", "compréhension"],
-        "pt": ["silêncio", "conexão", "compreensão"],
-        "nl": ["stilte", "verbinding", "begrip"],
-        "es": ["silencio", "conexión", "comprensión"],
-        "de": ["stille", "verbindung", "verständnis"],
-        "it": ["silenzio", "connessione", "comprensione"],
-        "ru": ["тишина", "связь", "понимание"],
-        "id": ["keheningan", "koneksi", "pengertian"],
-        "ja": ["沈黙", "つながり", "理解"],
-        "th": ["ความเงียบ", "การเชื่อมต่อ", "ความเข้าใจ"],
-        "ms": ["kesunyian", "hubungan", "pemahaman"]
+        "en": [
+          "silence",
+          "connection",
+          "understanding"
+        ],
+        "tr": [
+          "sessizlik",
+          "bağlantı",
+          "anlayış"
+        ],
+        "fr": [
+          "silence",
+          "connexion",
+          "compréhension"
+        ],
+        "pt": [
+          "silêncio",
+          "conexão",
+          "compreensão"
+        ],
+        "nl": [
+          "stilte",
+          "verbinding",
+          "begrip"
+        ],
+        "es": [
+          "silencio",
+          "conexión",
+          "comprensión"
+        ],
+        "de": [
+          "stille",
+          "verbindung",
+          "verständnis"
+        ],
+        "it": [
+          "silenzio",
+          "connessione",
+          "comprensione"
+        ],
+        "ru": [
+          "тишина",
+          "связь",
+          "понимание"
+        ],
+        "id": [
+          "keheningan",
+          "koneksi",
+          "pengertian"
+        ],
+        "ja": [
+          "沈黙",
+          "つながり",
+          "理解"
+        ],
+        "th": [
+          "ความเงียบ",
+          "การเชื่อมต่อ",
+          "ความเข้าใจ"
+        ],
+        "ms": [
+          "kesunyian",
+          "hubungan",
+          "pemahaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5416,19 +7808,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "light", "guidance"],
-        "tr": ["umut", "ışık", "rehberlik"],
-        "fr": ["espoir", "lumière", "guidance"],
-        "pt": ["esperança", "luz", "orientação"],
-        "nl": ["hoop", "licht", "begeleiding"],
-        "es": ["esperanza", "luz", "guía"],
-        "de": ["hoffnung", "licht", "führung"],
-        "it": ["speranza", "luce", "guida"],
-        "ru": ["надежда", "свет", "руководство"],
-        "id": ["harapan", "cahaya", "bimbingan"],
-        "ja": ["希望", "光", "指導"],
-        "th": ["ความหวัง", "แสงสว่าง", "การนำทาง"],
-        "ms": ["harapan", "cahaya", "bimbingan"]
+        "en": [
+          "hope",
+          "light",
+          "guidance"
+        ],
+        "tr": [
+          "umut",
+          "ışık",
+          "rehberlik"
+        ],
+        "fr": [
+          "espoir",
+          "lumière",
+          "guidance"
+        ],
+        "pt": [
+          "esperança",
+          "luz",
+          "orientação"
+        ],
+        "nl": [
+          "hoop",
+          "licht",
+          "begeleiding"
+        ],
+        "es": [
+          "esperanza",
+          "luz",
+          "guía"
+        ],
+        "de": [
+          "hoffnung",
+          "licht",
+          "führung"
+        ],
+        "it": [
+          "speranza",
+          "luce",
+          "guida"
+        ],
+        "ru": [
+          "надежда",
+          "свет",
+          "руководство"
+        ],
+        "id": [
+          "harapan",
+          "cahaya",
+          "bimbingan"
+        ],
+        "ja": [
+          "希望",
+          "光",
+          "指導"
+        ],
+        "th": [
+          "ความหวัง",
+          "แสงสว่าง",
+          "การนำทาง"
+        ],
+        "ms": [
+          "harapan",
+          "cahaya",
+          "bimbingan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5533,19 +7977,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "support", "strength"],
-        "tr": ["cesaret", "destek", "güç"],
-        "fr": ["courage", "soutien", "force"],
-        "pt": ["coragem", "apoio", "força"],
-        "nl": ["moed", "steun", "kracht"],
-        "es": ["coraje", "apoyo", "fuerza"],
-        "de": ["mut", "unterstützung", "stärke"],
-        "it": ["coraggio", "sostegno", "forza"],
-        "ru": ["смелость", "поддержка", "сила"],
-        "id": ["keberanian", "dukungan", "kekuatan"],
-        "ja": ["勇気", "支援", "力"],
-        "th": ["ความกล้า", "การสนับสนุน", "พลัง"],
-        "ms": ["keberanian", "sokongan", "kekuatan"]
+        "en": [
+          "courage",
+          "support",
+          "strength"
+        ],
+        "tr": [
+          "cesaret",
+          "destek",
+          "güç"
+        ],
+        "fr": [
+          "courage",
+          "soutien",
+          "force"
+        ],
+        "pt": [
+          "coragem",
+          "apoio",
+          "força"
+        ],
+        "nl": [
+          "moed",
+          "steun",
+          "kracht"
+        ],
+        "es": [
+          "coraje",
+          "apoyo",
+          "fuerza"
+        ],
+        "de": [
+          "mut",
+          "unterstützung",
+          "stärke"
+        ],
+        "it": [
+          "coraggio",
+          "sostegno",
+          "forza"
+        ],
+        "ru": [
+          "смелость",
+          "поддержка",
+          "сила"
+        ],
+        "id": [
+          "keberanian",
+          "dukungan",
+          "kekuatan"
+        ],
+        "ja": [
+          "勇気",
+          "支援",
+          "力"
+        ],
+        "th": [
+          "ความกล้า",
+          "การสนับสนุน",
+          "พลัง"
+        ],
+        "ms": [
+          "keberanian",
+          "sokongan",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5616,7 +8112,7 @@
         }
       }
     },
-        {
+    {
       "id": "friendship_049",
       "category": "friendship",
       "texts": {
@@ -5650,19 +8146,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["companionship", "warmth", "home"],
-        "tr": ["dostluk", "sıcaklık", "yuva"],
-        "fr": ["compagnie", "chaleur", "foyer"],
-        "pt": ["companhia", "calor", "lar"],
-        "nl": ["gezelschap", "warmte", "thuis"],
-        "es": ["compañía", "calor", "hogar"],
-        "de": ["gemeinschaft", "wärme", "zuhause"],
-        "it": ["compagnia", "calore", "casa"],
-        "ru": ["товарищество", "тепло", "дом"],
-        "id": ["persahabatan", "kehangatan", "rumah"],
-        "ja": ["仲間意識", "温かさ", "家庭"],
-        "th": ["มิตรภาพ", "ความอบอุ่น", "บ้าน"],
-        "ms": ["persahabatan", "kehangatan", "rumah"]
+        "en": [
+          "companionship",
+          "warmth",
+          "home"
+        ],
+        "tr": [
+          "dostluk",
+          "sıcaklık",
+          "yuva"
+        ],
+        "fr": [
+          "compagnie",
+          "chaleur",
+          "foyer"
+        ],
+        "pt": [
+          "companhia",
+          "calor",
+          "lar"
+        ],
+        "nl": [
+          "gezelschap",
+          "warmte",
+          "thuis"
+        ],
+        "es": [
+          "compañía",
+          "calor",
+          "hogar"
+        ],
+        "de": [
+          "gemeinschaft",
+          "wärme",
+          "zuhause"
+        ],
+        "it": [
+          "compagnia",
+          "calore",
+          "casa"
+        ],
+        "ru": [
+          "товарищество",
+          "тепло",
+          "дом"
+        ],
+        "id": [
+          "persahabatan",
+          "kehangatan",
+          "rumah"
+        ],
+        "ja": [
+          "仲間意識",
+          "温かさ",
+          "家庭"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความอบอุ่น",
+          "บ้าน"
+        ],
+        "ms": [
+          "persahabatan",
+          "kehangatan",
+          "rumah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5767,19 +8315,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["joy", "simplicity", "connection"],
-        "tr": ["neşe", "sadelik", "bağlantı"],
-        "fr": ["joie", "simplicité", "connexion"],
-        "pt": ["alegria", "simplicidade", "conexão"],
-        "nl": ["vreugde", "eenvoud", "verbinding"],
-        "es": ["alegría", "simplicidad", "conexión"],
-        "de": ["freude", "einfachheit", "verbindung"],
-        "it": ["gioia", "semplicità", "connessione"],
-        "ru": ["радость", "простота", "связь"],
-        "id": ["kegembiraan", "kesederhanaan", "koneksi"],
-        "ja": ["喜び", "シンプルさ", "つながり"],
-        "th": ["ความสุข", "ความเรียบง่าย", "การเชื่อมต่อ"],
-        "ms": ["kegembiraan", "kesederhanaan", "hubungan"]
+        "en": [
+          "joy",
+          "simplicity",
+          "connection"
+        ],
+        "tr": [
+          "neşe",
+          "sadelik",
+          "bağlantı"
+        ],
+        "fr": [
+          "joie",
+          "simplicité",
+          "connexion"
+        ],
+        "pt": [
+          "alegria",
+          "simplicidade",
+          "conexão"
+        ],
+        "nl": [
+          "vreugde",
+          "eenvoud",
+          "verbinding"
+        ],
+        "es": [
+          "alegría",
+          "simplicidad",
+          "conexión"
+        ],
+        "de": [
+          "freude",
+          "einfachheit",
+          "verbindung"
+        ],
+        "it": [
+          "gioia",
+          "semplicità",
+          "connessione"
+        ],
+        "ru": [
+          "радость",
+          "простота",
+          "связь"
+        ],
+        "id": [
+          "kegembiraan",
+          "kesederhanaan",
+          "koneksi"
+        ],
+        "ja": [
+          "喜び",
+          "シンプルさ",
+          "つながり"
+        ],
+        "th": [
+          "ความสุข",
+          "ความเรียบง่าย",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "kegembiraan",
+          "kesederhanaan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5884,19 +8484,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["empathy", "compassion", "support"],
-        "tr": ["empati", "şefkat", "destek"],
-        "fr": ["empathie", "compassion", "soutien"],
-        "pt": ["empatia", "compaixão", "apoio"],
-        "nl": ["empathie", "medeleven", "steun"],
-        "es": ["empatía", "compasión", "apoyo"],
-        "de": ["empathie", "mitgefühl", "unterstützung"],
-        "it": ["empatia", "compassione", "sostegno"],
-        "ru": ["эмпатия", "сострадание", "поддержка"],
-        "id": ["empati", "kasih sayang", "dukungan"],
-        "ja": ["共感", "慈悲", "支援"],
-        "th": ["ความเห็นอกเห็นใจ", "ความเมตตา", "การสนับสนุน"],
-        "ms": ["empati", "belas kasihan", "sokongan"]
+        "en": [
+          "empathy",
+          "compassion",
+          "support"
+        ],
+        "tr": [
+          "empati",
+          "şefkat",
+          "destek"
+        ],
+        "fr": [
+          "empathie",
+          "compassion",
+          "soutien"
+        ],
+        "pt": [
+          "empatia",
+          "compaixão",
+          "apoio"
+        ],
+        "nl": [
+          "empathie",
+          "medeleven",
+          "steun"
+        ],
+        "es": [
+          "empatía",
+          "compasión",
+          "apoyo"
+        ],
+        "de": [
+          "empathie",
+          "mitgefühl",
+          "unterstützung"
+        ],
+        "it": [
+          "empatia",
+          "compassione",
+          "sostegno"
+        ],
+        "ru": [
+          "эмпатия",
+          "сострадание",
+          "поддержка"
+        ],
+        "id": [
+          "empati",
+          "kasih sayang",
+          "dukungan"
+        ],
+        "ja": [
+          "共感",
+          "慈悲",
+          "支援"
+        ],
+        "th": [
+          "ความเห็นอกเห็นใจ",
+          "ความเมตตา",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "empati",
+          "belas kasihan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6001,19 +8653,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "balance", "friendship"],
-        "tr": ["uyum", "denge", "dostluk"],
-        "fr": ["harmonie", "équilibre", "amitié"],
-        "pt": ["harmonia", "equilíbrio", "amizade"],
-        "nl": ["harmonie", "balans", "vriendschap"],
-        "es": ["armonía", "equilibrio", "amistad"],
-        "de": ["harmonie", "gleichgewicht", "freundschaft"],
-        "it": ["armonia", "equilibrio", "amicizia"],
-        "ru": ["гармония", "равновесие", "дружба"],
-        "id": ["harmoni", "keseimbangan", "persahabatan"],
-        "ja": ["調和", "バランス", "友情"],
-        "th": ["ความกลมกลืน", "ความสมดุล", "มิตรภาพ"],
-        "ms": ["keharmonian", "keseimbangan", "persahabatan"]
+        "en": [
+          "harmony",
+          "balance",
+          "friendship"
+        ],
+        "tr": [
+          "uyum",
+          "denge",
+          "dostluk"
+        ],
+        "fr": [
+          "harmonie",
+          "équilibre",
+          "amitié"
+        ],
+        "pt": [
+          "harmonia",
+          "equilíbrio",
+          "amizade"
+        ],
+        "nl": [
+          "harmonie",
+          "balans",
+          "vriendschap"
+        ],
+        "es": [
+          "armonía",
+          "equilibrio",
+          "amistad"
+        ],
+        "de": [
+          "harmonie",
+          "gleichgewicht",
+          "freundschaft"
+        ],
+        "it": [
+          "armonia",
+          "equilibrio",
+          "amicizia"
+        ],
+        "ru": [
+          "гармония",
+          "равновесие",
+          "дружба"
+        ],
+        "id": [
+          "harmoni",
+          "keseimbangan",
+          "persahabatan"
+        ],
+        "ja": [
+          "調和",
+          "バランス",
+          "友情"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "ความสมดุล",
+          "มิตรภาพ"
+        ],
+        "ms": [
+          "keharmonian",
+          "keseimbangan",
+          "persahabatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6118,19 +8822,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["support", "uplift", "strength"],
-        "tr": ["destek", "kaldırma", "güç"],
-        "fr": ["soutien", "élévation", "force"],
-        "pt": ["apoio", "elevação", "força"],
-        "nl": ["steun", "verheffing", "kracht"],
-        "es": ["apoyo", "elevación", "fuerza"],
-        "de": ["unterstützung", "erhebung", "stärke"],
-        "it": ["sostegno", "sollevamento", "forza"],
-        "ru": ["поддержка", "подъём", "сила"],
-        "id": ["dukungan", "pengangkatan", "kekuatan"],
-        "ja": ["支援", "引き上げ", "力"],
-        "th": ["การสนับสนุน", "การยกขึ้น", "พลัง"],
-        "ms": ["sokongan", "pengangkatan", "kekuatan"]
+        "en": [
+          "support",
+          "uplift",
+          "strength"
+        ],
+        "tr": [
+          "destek",
+          "kaldırma",
+          "güç"
+        ],
+        "fr": [
+          "soutien",
+          "élévation",
+          "force"
+        ],
+        "pt": [
+          "apoio",
+          "elevação",
+          "força"
+        ],
+        "nl": [
+          "steun",
+          "verheffing",
+          "kracht"
+        ],
+        "es": [
+          "apoyo",
+          "elevación",
+          "fuerza"
+        ],
+        "de": [
+          "unterstützung",
+          "erhebung",
+          "stärke"
+        ],
+        "it": [
+          "sostegno",
+          "sollevamento",
+          "forza"
+        ],
+        "ru": [
+          "поддержка",
+          "подъём",
+          "сила"
+        ],
+        "id": [
+          "dukungan",
+          "pengangkatan",
+          "kekuatan"
+        ],
+        "ja": [
+          "支援",
+          "引き上げ",
+          "力"
+        ],
+        "th": [
+          "การสนับสนุน",
+          "การยกขึ้น",
+          "พลัง"
+        ],
+        "ms": [
+          "sokongan",
+          "pengangkatan",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6235,19 +8991,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["presence", "comfort", "journey"],
-        "tr": ["varlık", "rahatlık", "yolculuk"],
-        "fr": ["présence", "confort", "voyage"],
-        "pt": ["presença", "conforto", "jornada"],
-        "nl": ["aanwezigheid", "troost", "reis"],
-        "es": ["presencia", "comodidad", "viaje"],
-        "de": ["anwesenheit", "trost", "reise"],
-        "it": ["presenza", "comfort", "viaggio"],
-        "ru": ["присутствие", "комфорт", "путешествие"],
-        "id": ["kehadiran", "kenyamanan", "perjalanan"],
-        "ja": ["存在", "快適さ", "旅"],
-        "th": ["การปรากฏตัว", "ความสบาย", "การเดินทาง"],
-        "ms": ["kehadiran", "keselesaan", "perjalanan"]
+        "en": [
+          "presence",
+          "comfort",
+          "journey"
+        ],
+        "tr": [
+          "varlık",
+          "rahatlık",
+          "yolculuk"
+        ],
+        "fr": [
+          "présence",
+          "confort",
+          "voyage"
+        ],
+        "pt": [
+          "presença",
+          "conforto",
+          "jornada"
+        ],
+        "nl": [
+          "aanwezigheid",
+          "troost",
+          "reis"
+        ],
+        "es": [
+          "presencia",
+          "comodidad",
+          "viaje"
+        ],
+        "de": [
+          "anwesenheit",
+          "trost",
+          "reise"
+        ],
+        "it": [
+          "presenza",
+          "comfort",
+          "viaggio"
+        ],
+        "ru": [
+          "присутствие",
+          "комфорт",
+          "путешествие"
+        ],
+        "id": [
+          "kehadiran",
+          "kenyamanan",
+          "perjalanan"
+        ],
+        "ja": [
+          "存在",
+          "快適さ",
+          "旅"
+        ],
+        "th": [
+          "การปรากฏตัว",
+          "ความสบาย",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "kehadiran",
+          "keselesaan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6352,19 +9160,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["understanding", "intuition", "connection"],
-        "tr": ["anlayış", "sezgi", "bağlantı"],
-        "fr": ["compréhension", "intuition", "connexion"],
-        "pt": ["compreensão", "intuição", "conexão"],
-        "nl": ["begrip", "intuïtie", "verbinding"],
-        "es": ["comprensión", "intuición", "conexión"],
-        "de": ["verständnis", "intuition", "verbindung"],
-        "it": ["comprensione", "intuizione", "connessione"],
-        "ru": ["понимание", "интуиция", "связь"],
-        "id": ["pemahaman", "intuisi", "koneksi"],
-        "ja": ["理解", "直感", "つながり"],
-        "th": ["ความเข้าใจ", "สัญชาตญาณ", "การเชื่อมต่อ"],
-        "ms": ["pemahaman", "intuisi", "hubungan"]
+        "en": [
+          "understanding",
+          "intuition",
+          "connection"
+        ],
+        "tr": [
+          "anlayış",
+          "sezgi",
+          "bağlantı"
+        ],
+        "fr": [
+          "compréhension",
+          "intuition",
+          "connexion"
+        ],
+        "pt": [
+          "compreensão",
+          "intuição",
+          "conexão"
+        ],
+        "nl": [
+          "begrip",
+          "intuïtie",
+          "verbinding"
+        ],
+        "es": [
+          "comprensión",
+          "intuición",
+          "conexión"
+        ],
+        "de": [
+          "verständnis",
+          "intuition",
+          "verbindung"
+        ],
+        "it": [
+          "comprensione",
+          "intuizione",
+          "connessione"
+        ],
+        "ru": [
+          "понимание",
+          "интуиция",
+          "связь"
+        ],
+        "id": [
+          "pemahaman",
+          "intuisi",
+          "koneksi"
+        ],
+        "ja": [
+          "理解",
+          "直感",
+          "つながり"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "สัญชาตญาณ",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "pemahaman",
+          "intuisi",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6469,19 +9329,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "guidance", "freedom"],
-        "tr": ["sabır", "rehberlik", "özgürlük"],
-        "fr": ["patience", "guidance", "liberté"],
-        "pt": ["paciência", "orientação", "liberdade"],
-        "nl": ["geduld", "begeleiding", "vrijheid"],
-        "es": ["paciencia", "guía", "libertad"],
-        "de": ["geduld", "führung", "freiheit"],
-        "it": ["pazienza", "guida", "libertà"],
-        "ru": ["терпение", "руководство", "свобода"],
-        "id": ["kesabaran", "bimbingan", "kebebasan"],
-        "ja": ["忍耐", "指導", "自由"],
-        "th": ["ความอดทน", "การนำทาง", "อิสรภาพ"],
-        "ms": ["kesabaran", "bimbingan", "kebebasan"]
+        "en": [
+          "patience",
+          "guidance",
+          "freedom"
+        ],
+        "tr": [
+          "sabır",
+          "rehberlik",
+          "özgürlük"
+        ],
+        "fr": [
+          "patience",
+          "guidance",
+          "liberté"
+        ],
+        "pt": [
+          "paciência",
+          "orientação",
+          "liberdade"
+        ],
+        "nl": [
+          "geduld",
+          "begeleiding",
+          "vrijheid"
+        ],
+        "es": [
+          "paciencia",
+          "guía",
+          "libertad"
+        ],
+        "de": [
+          "geduld",
+          "führung",
+          "freiheit"
+        ],
+        "it": [
+          "pazienza",
+          "guida",
+          "libertà"
+        ],
+        "ru": [
+          "терпение",
+          "руководство",
+          "свобода"
+        ],
+        "id": [
+          "kesabaran",
+          "bimbingan",
+          "kebebasan"
+        ],
+        "ja": [
+          "忍耐",
+          "指導",
+          "自由"
+        ],
+        "th": [
+          "ความอดทน",
+          "การนำทาง",
+          "อิสรภาพ"
+        ],
+        "ms": [
+          "kesabaran",
+          "bimbingan",
+          "kebebasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6586,19 +9498,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["laughter", "comfort", "healing"],
-        "tr": ["kahkaha", "rahatlık", "iyileşme"],
-        "fr": ["rire", "confort", "guérison"],
-        "pt": ["risada", "conforto", "cura"],
-        "nl": ["gelach", "troost", "genezing"],
-        "es": ["risa", "comodidad", "curación"],
-        "de": ["lachen", "trost", "heilung"],
-        "it": ["risata", "comfort", "guarigione"],
-        "ru": ["смех", "комфорт", "исцеление"],
-        "id": ["tawa", "kenyamanan", "penyembuhan"],
-        "ja": ["笑い", "快適さ", "癒し"],
-        "th": ["เสียงหัวเราะ", "ความสบาย", "การเยียวยา"],
-        "ms": ["ketawa", "keselesaan", "penyembuhan"]
+        "en": [
+          "laughter",
+          "comfort",
+          "healing"
+        ],
+        "tr": [
+          "kahkaha",
+          "rahatlık",
+          "iyileşme"
+        ],
+        "fr": [
+          "rire",
+          "confort",
+          "guérison"
+        ],
+        "pt": [
+          "risada",
+          "conforto",
+          "cura"
+        ],
+        "nl": [
+          "gelach",
+          "troost",
+          "genezing"
+        ],
+        "es": [
+          "risa",
+          "comodidad",
+          "curación"
+        ],
+        "de": [
+          "lachen",
+          "trost",
+          "heilung"
+        ],
+        "it": [
+          "risata",
+          "comfort",
+          "guarigione"
+        ],
+        "ru": [
+          "смех",
+          "комфорт",
+          "исцеление"
+        ],
+        "id": [
+          "tawa",
+          "kenyamanan",
+          "penyembuhan"
+        ],
+        "ja": [
+          "笑い",
+          "快適さ",
+          "癒し"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "ความสบาย",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "ketawa",
+          "keselesaan",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6703,19 +9667,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["unity", "connection", "distance"],
-        "tr": ["birlik", "bağlantı", "mesafe"],
-        "fr": ["unité", "connexion", "distance"],
-        "pt": ["unidade", "conexão", "distância"],
-        "nl": ["eenheid", "verbinding", "afstand"],
-        "es": ["unidad", "conexión", "distancia"],
-        "de": ["einheit", "verbindung", "entfernung"],
-        "it": ["unità", "connessione", "distanza"],
-        "ru": ["единство", "связь", "расстояние"],
-        "id": ["kesatuan", "koneksi", "jarak"],
-        "ja": ["団結", "つながり", "距離"],
-        "th": ["ความเป็นหนึ่งเดียว", "การเชื่อมต่อ", "ระยะทาง"],
-        "ms": ["kesatuan", "hubungan", "jarak"]
+        "en": [
+          "unity",
+          "connection",
+          "distance"
+        ],
+        "tr": [
+          "birlik",
+          "bağlantı",
+          "mesafe"
+        ],
+        "fr": [
+          "unité",
+          "connexion",
+          "distance"
+        ],
+        "pt": [
+          "unidade",
+          "conexão",
+          "distância"
+        ],
+        "nl": [
+          "eenheid",
+          "verbinding",
+          "afstand"
+        ],
+        "es": [
+          "unidad",
+          "conexión",
+          "distancia"
+        ],
+        "de": [
+          "einheit",
+          "verbindung",
+          "entfernung"
+        ],
+        "it": [
+          "unità",
+          "connessione",
+          "distanza"
+        ],
+        "ru": [
+          "единство",
+          "связь",
+          "расстояние"
+        ],
+        "id": [
+          "kesatuan",
+          "koneksi",
+          "jarak"
+        ],
+        "ja": [
+          "団結",
+          "つながり",
+          "距離"
+        ],
+        "th": [
+          "ความเป็นหนึ่งเดียว",
+          "การเชื่อมต่อ",
+          "ระยะทาง"
+        ],
+        "ms": [
+          "kesatuan",
+          "hubungan",
+          "jarak"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6820,19 +9836,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["acceptance", "authenticity", "love"],
-        "tr": ["kabul", "otantiklik", "sevgi"],
-        "fr": ["acceptation", "authenticité", "amour"],
-        "pt": ["aceitação", "autenticidade", "amor"],
-        "nl": ["acceptatie", "authenticiteit", "liefde"],
-        "es": ["aceptación", "autenticidad", "amor"],
-        "de": ["akzeptanz", "authentizität", "liebe"],
-        "it": ["accettazione", "autenticità", "amore"],
-        "ru": ["принятие", "аутентичность", "любовь"],
-        "id": ["penerimaan", "keaslian", "cinta"],
-        "ja": ["受容", "本物", "愛"],
-        "th": ["การยอมรับ", "ความแท้จริง", "ความรัก"],
-        "ms": ["penerimaan", "keaslian", "kasih sayang"]
+        "en": [
+          "acceptance",
+          "authenticity",
+          "love"
+        ],
+        "tr": [
+          "kabul",
+          "otantiklik",
+          "sevgi"
+        ],
+        "fr": [
+          "acceptation",
+          "authenticité",
+          "amour"
+        ],
+        "pt": [
+          "aceitação",
+          "autenticidade",
+          "amor"
+        ],
+        "nl": [
+          "acceptatie",
+          "authenticiteit",
+          "liefde"
+        ],
+        "es": [
+          "aceptación",
+          "autenticidad",
+          "amor"
+        ],
+        "de": [
+          "akzeptanz",
+          "authentizität",
+          "liebe"
+        ],
+        "it": [
+          "accettazione",
+          "autenticità",
+          "amore"
+        ],
+        "ru": [
+          "принятие",
+          "аутентичность",
+          "любовь"
+        ],
+        "id": [
+          "penerimaan",
+          "keaslian",
+          "cinta"
+        ],
+        "ja": [
+          "受容",
+          "本物",
+          "愛"
+        ],
+        "th": [
+          "การยอมรับ",
+          "ความแท้จริง",
+          "ความรัก"
+        ],
+        "ms": [
+          "penerimaan",
+          "keaslian",
+          "kasih sayang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7003,19 +10071,19 @@
       "id": "friendship_062",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Friendship into my life.",
-        "tr": "Hayatıma Arkadaşlık enerjisini alıyorum.",
-        "fr": "J'accueille Friendship dans ma vie.",
-        "pt": "Eu acolho Friendship na minha vida.",
-        "nl": "Ik verwelkom Friendship in mijn leven.",
-        "es": "Doy la bienvenida a Friendship en mi vida.",
-        "de": "Ich heiße Friendship in meinem Leben willkommen.",
-        "it": "Accolgo Friendship nella mia vita.",
-        "ru": "Я принимаю Friendship в свою жизнь.",
-        "id": "Saya menyambut Friendship dalam hidup saya.",
-        "ja": "私はFriendshipを人生に迎え入れます。",
-        "th": "ฉันต้อนรับFriendshipเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Friendship dalam hidup saya."
+        "en": "I make room for friendship without rushing.",
+        "tr": "arkadaşlık için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à friendship sans me presser.",
+        "pt": "Abro espaço para friendship sem pressa.",
+        "nl": "Ik maak ruimte voor friendship zonder te haasten.",
+        "es": "Hago espacio para friendship sin prisa.",
+        "de": "Ich mache Platz für friendship, ohne zu hetzen.",
+        "it": "Faccio spazio a friendship senza fretta.",
+        "ru": "Я даю место friendship без спешки.",
+        "id": "Aku memberi ruang bagi friendship tanpa terburu-buru.",
+        "ja": "焦らずにfriendshipのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้friendshipโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk friendship tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -7047,19 +10115,19 @@
       "id": "friendship_063",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Friendship.",
-        "tr": "Kalbim Arkadaşlık için açık.",
-        "fr": "Mon cœur est ouvert à Friendship.",
-        "pt": "Meu coração está aberto para Friendship.",
-        "nl": "Mijn hart staat open voor Friendship.",
-        "es": "Mi corazón está abierto a Friendship.",
-        "de": "Mein Herz ist offen für Friendship.",
-        "it": "Il mio cuore è aperto a Friendship.",
-        "ru": "Моё сердце открыто для Friendship.",
-        "id": "Hati saya terbuka untuk Friendship.",
-        "ja": "私の心はFriendshipに開かれています。",
-        "th": "หัวใจของฉันเปิดรับFriendship",
-        "ms": "Hati saya terbuka untuk Friendship."
+        "en": "I stay open to friendship in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde arkadaşlık için açık kalıyorum.",
+        "fr": "Je reste ouvert à friendship d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a friendship de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor friendship op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a friendship de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für friendship auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a friendship in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к friendship так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada friendship dengan cara yang terasa aman.",
+        "ja": "安心できる形でfriendshipに心を開き続けます。",
+        "th": "ฉันเปิดใจให้friendshipในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap friendship dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -7091,19 +10159,19 @@
       "id": "friendship_064",
       "type": "affirmation",
       "texts": {
-        "en": "Friendship grows within me each day.",
-        "tr": "Arkadaşlık her gün içimde büyüyor.",
-        "fr": "Friendship grandit en moi chaque jour.",
-        "pt": "Friendship cresce dentro de mim todos os dias.",
-        "nl": "Friendship groeit elke dag in mij.",
-        "es": "Friendship crece dentro de mí cada día.",
-        "de": "Friendship wächst jeden Tag in mir.",
-        "it": "Friendship cresce in me ogni giorno.",
-        "ru": "Friendship растёт во мне каждый день.",
-        "id": "Friendship tumbuh di dalam diri saya setiap hari.",
-        "ja": "Friendshipは毎日私の中で育ちます。",
-        "th": "Friendshipเติบโตในตัวฉันทุกวัน",
-        "ms": "Friendship berkembang dalam diri saya setiap hari."
+        "en": "Each day, friendship grows within me.",
+        "tr": "Her gün içimde arkadaşlık büyüyor.",
+        "fr": "Chaque jour, friendship grandit en moi.",
+        "pt": "A cada dia, friendship cresce dentro de mim.",
+        "nl": "Elke dag groeit friendship in mij.",
+        "es": "Cada día, friendship crece dentro de mí.",
+        "de": "Jeden Tag wächst friendship in mir.",
+        "it": "Ogni giorno, friendship cresce dentro di me.",
+        "ru": "Каждый день friendship растёт во мне.",
+        "id": "Setiap hari, friendship tumbuh di dalam diriku.",
+        "ja": "毎日、friendshipが私の中で育っています。",
+        "th": "ทุกวัน friendship เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, friendship berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -7135,19 +10203,19 @@
       "id": "friendship_065",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Friendship now.",
-        "tr": "Şimdi Arkadaşlık için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Friendship maintenant.",
-        "pt": "Eu crio espaço para Friendship agora.",
-        "nl": "Ik maak nu ruimte voor Friendship.",
-        "es": "Creo espacio para Friendship ahora.",
-        "de": "Ich schaffe jetzt Raum für Friendship.",
-        "it": "Creo spazio per Friendship ora.",
-        "ru": "Я создаю пространство для Friendship сейчас.",
-        "id": "Saya menciptakan ruang untuk Friendship sekarang.",
-        "ja": "今、Friendshipのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับFriendshipในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Friendship sekarang."
+        "en": "I give friendship a quiet place in my day.",
+        "tr": "Günümde arkadaşlık için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à friendship une place calme dans ma journée.",
+        "pt": "Dou a friendship um lugar tranquilo no meu dia.",
+        "nl": "Ik geef friendship een rustige plek in mijn dag.",
+        "es": "Le doy a friendship un lugar tranquilo en mi día.",
+        "de": "Ich gebe friendship einen ruhigen Platz in meinem Tag.",
+        "it": "Do a friendship un posto tranquillo nella mia giornata.",
+        "ru": "Я даю friendship тихое место в своём дне.",
+        "id": "Aku memberi friendship tempat yang tenang dalam hariku.",
+        "ja": "一日の中にfriendshipのための静かな場所をつくります。",
+        "th": "ฉันให้friendshipมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi friendship tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -7179,19 +10247,19 @@
       "id": "friendship_066",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Friendship.",
-        "tr": "Arkadaşlık yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Friendship.",
-        "pt": "Eu confio no caminho de Friendship.",
-        "nl": "Ik vertrouw op het pad van Friendship.",
-        "es": "Confío en el camino de Friendship.",
-        "de": "Ich vertraue dem Weg von Friendship.",
-        "it": "Mi fido del percorso di Friendship.",
-        "ru": "Я доверяю пути Friendship.",
-        "id": "Saya percaya pada jalan Friendship.",
-        "ja": "私はFriendshipの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของFriendship",
-        "ms": "Saya percaya pada jalan Friendship."
+        "en": "I trust my own way of growing in friendship.",
+        "tr": "arkadaşlık konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec friendship.",
+        "pt": "Confio no meu próprio jeito de crescer com friendship.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in friendship.",
+        "es": "Confío en mi propia manera de crecer con friendship.",
+        "de": "Ich vertraue meinem eigenen Weg, in friendship zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con friendship.",
+        "ru": "Я доверяю своему собственному пути роста в friendship.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam friendship.",
+        "ja": "自分なりのfriendshipの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับfriendship",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam friendship."
       },
       "authors": {
         "en": "",
@@ -7218,6 +10286,946 @@
         ]
       },
       "readTime": "0"
+    },
+    {
+      "id": "friendship_067",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice friendship with gentle consistency.",
+        "tr": "arkadaşlık konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique friendship avec une douce constance.",
+        "pt": "Eu pratico friendship com constância gentil.",
+        "nl": "Ik beoefen friendship met zachte regelmaat.",
+        "es": "Practico friendship con constancia suave.",
+        "de": "Ich übe friendship mit sanfter Beständigkeit.",
+        "it": "Pratico friendship con dolce costanza.",
+        "ru": "Я практикую friendship с мягкой постоянностью.",
+        "id": "Saya mempraktikkan friendship dengan konsistensi yang lembut.",
+        "ja": "私はfriendshipを穏やかな継続で実践します。",
+        "th": "ฉันฝึกfriendshipอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan friendship dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_068",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, friendship supports me.",
+        "tr": "Bu dönemde arkadaşlık beni destekliyor.",
+        "fr": "En cette période, friendship me soutient.",
+        "pt": "Nesta fase, friendship me apoia.",
+        "nl": "In deze periode ondersteunt friendship mij.",
+        "es": "En esta etapa, friendship me sostiene.",
+        "de": "In dieser Zeit unterstützt friendship mich.",
+        "it": "In questo periodo, friendship mi sostiene.",
+        "ru": "В этот период friendship поддерживает меня.",
+        "id": "Di masa ini, friendship mendukungku.",
+        "ja": "この時期、friendshipが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ friendshipคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, friendship menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_069",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose friendship in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla arkadaşlık seçiyorum.",
+        "fr": "Je choisis friendship par de petits pas sincères.",
+        "pt": "Escolho friendship em passos pequenos e honestos.",
+        "nl": "Ik kies friendship in kleine, eerlijke stappen.",
+        "es": "Elijo friendship con pasos pequeños y honestos.",
+        "de": "Ich wähle friendship in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo friendship con passi piccoli e sinceri.",
+        "ru": "Я выбираю friendship маленькими, честными шагами.",
+        "id": "Aku memilih friendship dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でfriendshipを選びます。",
+        "th": "ฉันเลือกfriendshipด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih friendship dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_070",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let friendship shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri arkadaşlık şekillendiriyor.",
+        "fr": "Je laisse friendship façonner les choix qui comptent pour moi.",
+        "pt": "Deixo friendship moldar as escolhas que importam para mim.",
+        "nl": "Ik laat friendship de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que friendship moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse friendship die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che friendship plasmi le scelte che contano per me.",
+        "ru": "Я позволяю friendship формировать важные для меня решения.",
+        "id": "Aku membiarkan friendship membentuk pilihan yang penting bagiku.",
+        "ja": "friendshipが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้friendshipหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan friendship membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_071",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, friendship feels natural to me.",
+        "tr": "Bugün arkadaşlık bana doğal geliyor.",
+        "fr": "Aujourd'hui, friendship me semble naturel.",
+        "pt": "Hoje, friendship parece natural para mim.",
+        "nl": "Vandaag voelt friendship natuurlijk voor mij.",
+        "es": "Hoy, friendship se siente natural para mí.",
+        "de": "Heute fühlt sich friendship natürlich für mich an.",
+        "it": "Oggi friendship mi sembra naturale.",
+        "ru": "Сегодня friendship кажется мне естественным.",
+        "id": "Hari ini, friendship terasa alami bagi saya.",
+        "ja": "今日はfriendshipが自然に感じられます。",
+        "th": "วันนี้friendshipให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, friendship terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose friendship in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda arkadaşlık seçiyorum.",
+        "fr": "Je choisis friendship dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho friendship nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies friendship in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo friendship en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle friendship in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo friendship nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю friendship в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih friendship dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でfriendshipを選びます。",
+        "th": "ฉันเลือกfriendshipในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih friendship dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build friendship.",
+        "tr": "İç sesim arkadaşlık inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis friendship.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo friendship.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik friendship opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo friendship.",
+        "de": "Meine innere Stimme wird sanfter, während ich friendship aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco friendship.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю friendship.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun friendship.",
+        "ja": "friendshipを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างfriendship",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina friendship."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet friendship at my own pace.",
+        "tr": "arkadaşlık ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer friendship à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar friendship no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om friendship in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar friendship a mi propio ritmo.",
+        "de": "Ich erlaube mir, friendship in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare friendship al mio ritmo.",
+        "ru": "Я позволяю себе встречать friendship в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu friendship dengan ritmeku.",
+        "ja": "自分のペースでfriendshipに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบfriendshipในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui friendship mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let friendship steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde arkadaşlık beni dengeliyor.",
+        "fr": "Je laisse friendship m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo friendship me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat friendship me aarden als het leven luid voelt.",
+        "es": "Dejo que friendship me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse friendship mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che friendship mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю friendship удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan friendship menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、friendshipが私を落ち着かせます。",
+        "th": "ฉันยอมให้friendshipทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan friendship menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, friendship is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde arkadaşlık büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, friendship grandit.",
+        "pt": "Por meio das escolhas que faço hoje, friendship cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit friendship.",
+        "es": "A través de las decisiones que tomo hoy, friendship crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst friendship.",
+        "it": "Attraverso le scelte che faccio oggi, friendship cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, friendship растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, friendship tumbuh.",
+        "ja": "今日の選択を通してfriendshipが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ friendshipกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, friendship berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel friendship settling into my routines.",
+        "tr": "Rutinlerimde arkadaşlık için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens friendship s’installer dans mes routines.",
+        "pt": "Sinto friendship se acomodar nas minhas rotinas.",
+        "nl": "Ik voel friendship zich nestelen in mijn routines.",
+        "es": "Siento que friendship se asienta en mis rutinas.",
+        "de": "Ich spüre, wie friendship sich in meinen Routinen einlebt.",
+        "it": "Sento friendship assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как friendship укореняется в моих привычках.",
+        "id": "Aku merasakan friendship menetap dalam rutinitasku.",
+        "ja": "日々の習慣にfriendshipがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าfriendshipค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan friendship mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow friendship to be simple, not perfect.",
+        "tr": "arkadaşlık için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise friendship à être simple, pas parfait.",
+        "pt": "Permito que friendship seja simples, não perfeito.",
+        "nl": "Ik laat friendship simpel zijn, niet perfect.",
+        "es": "Permito que friendship sea simple, no perfecto.",
+        "de": "Ich erlaube friendship, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a friendship di essere semplice, non perfetto.",
+        "ru": "Я позволяю friendship быть простым, а не идеальным.",
+        "id": "Aku membiarkan friendship tetap sederhana, bukan sempurna.",
+        "ja": "friendshipがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้friendshipเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan friendship menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice friendship showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde arkadaşlık ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque friendship dans la façon dont je me parle.",
+        "pt": "Percebo friendship na forma como falo comigo.",
+        "nl": "Ik merk friendship op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto friendship en la manera en que me hablo.",
+        "de": "Ich bemerke friendship in der Art, wie ich mit mir spreche.",
+        "it": "Noto friendship nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю friendship в том, как я говорю с собой.",
+        "id": "Aku menyadari friendship dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にfriendshipが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นfriendshipในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari friendship dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve friendship without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan arkadaşlık hak ediyorum.",
+        "fr": "Je mérite friendship sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço friendship sem precisar provar nada.",
+        "nl": "Ik verdien friendship zonder iets te hoeven bewijzen.",
+        "es": "Merezco friendship sin necesidad de demostrar nada.",
+        "de": "Ich verdiene friendship, ohne etwas beweisen zu müssen.",
+        "it": "Merito friendship senza dover dimostrare nulla.",
+        "ru": "Я достоин friendship, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan friendship tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、friendshipに値します。",
+        "th": "ฉันคู่ควรกับfriendshipโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh friendship tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let friendship grow from patience, not pressure.",
+        "tr": "arkadaşlık sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse friendship grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo friendship crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat friendship groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que friendship crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse friendship aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che friendship cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю friendship расти из терпения, а не из давления.",
+        "id": "Aku membiarkan friendship tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はfriendshipを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้friendshipเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan friendship tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to friendship when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde arkadaşlık ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à friendship quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a friendship quando preciso me firmar.",
+        "nl": "Ik keer terug naar friendship wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a friendship cuando necesito estabilizarme.",
+        "de": "Ich kehre zu friendship zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a friendship quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к friendship, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke friendship saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、friendshipに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาfriendship",
+        "ms": "Saya kembali kepada friendship apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let friendship soften my inner pressure.",
+        "tr": "İçimdeki baskıyı arkadaşlık ile yumuşatıyorum.",
+        "fr": "Je laisse friendship adoucir ma pression intérieure.",
+        "pt": "Deixo friendship suavizar minha pressão interna.",
+        "nl": "Ik laat friendship mijn innerlijke druk verzachten.",
+        "es": "Dejo que friendship suavice mi presión interna.",
+        "de": "Ich lasse friendship meinen inneren Druck weicher machen.",
+        "it": "Lascio che friendship ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю friendship смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan friendship melembutkan tekanan batinku.",
+        "ja": "friendshipが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้friendshipช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan friendship melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that friendship can be gentle and real.",
+        "tr": "arkadaşlık konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que friendship peut être doux et vrai.",
+        "pt": "Confio que friendship pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat friendship zacht en echt kan zijn.",
+        "es": "Confío en que friendship puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass friendship sanft und echt sein kann.",
+        "it": "Mi fido del fatto che friendship possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что friendship может быть мягким и настоящим.",
+        "id": "Aku percaya friendship bisa lembut dan nyata.",
+        "ja": "friendshipはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าfriendshipสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya friendship boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give friendship a little more room each day.",
+        "tr": "Her gün arkadaşlık için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à friendship chaque jour.",
+        "pt": "Dou um pouco mais de espaço para friendship a cada dia.",
+        "nl": "Ik geef friendship elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a friendship cada día.",
+        "de": "Ich gebe friendship jeden Tag ein wenig mehr Raum.",
+        "it": "Do a friendship un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю friendship чуть больше места.",
+        "id": "Setiap hari aku memberi friendship sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、friendshipのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับfriendshipมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi friendship sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold friendship without forcing it.",
+        "tr": "arkadaşlık ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir friendship sans forcer.",
+        "pt": "Estou aprendendo a sustentar friendship sem forçar.",
+        "nl": "Ik leer friendship te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener friendship sin forzar.",
+        "de": "Ich lerne, friendship zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere friendship senza forzare.",
+        "ru": "Я учусь удерживать friendship без принуждения.",
+        "id": "Aku belajar memegang friendship tanpa memaksa.",
+        "ja": "friendshipを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองfriendshipโดยไม่บังคับ",
+        "ms": "Saya belajar memegang friendship tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by friendship where I am today.",
+        "tr": "Bugün olduğum yerde arkadaşlık beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, friendship me rejoint.",
+        "pt": "Onde estou hoje, friendship me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet friendship mij.",
+        "es": "Donde estoy hoy, friendship me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir friendship.",
+        "it": "Dove sono oggi, friendship mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает friendship.",
+        "id": "Di tempatku hari ini, friendship menemuiku.",
+        "ja": "今日の私がいる場所で、friendshipが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ friendshipอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, friendship menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice friendship in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte arkadaşlık fark ediyorum.",
+        "fr": "Je remarque friendship dans le calme entre les moments.",
+        "pt": "Percebo friendship na calma entre os momentos.",
+        "nl": "Ik merk friendship op in de rust tussen momenten.",
+        "es": "Noto friendship en la calma entre momentos.",
+        "de": "Ich bemerke friendship in der Ruhe zwischen den Momenten.",
+        "it": "Noto friendship nella calma tra i momenti.",
+        "ru": "Я замечаю friendship в тишине между моментами.",
+        "id": "Aku menyadari friendship dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにfriendshipを感じます。",
+        "th": "ฉันสังเกตfriendshipในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari friendship dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow friendship to grow quietly in the background.",
+        "tr": "arkadaşlık sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse friendship grandir doucement en arrière-plan.",
+        "pt": "Deixo friendship crescer em silêncio ao fundo.",
+        "nl": "Ik laat friendship stil op de achtergrond groeien.",
+        "es": "Dejo que friendship crezca en silencio de fondo.",
+        "de": "Ich lasse friendship leise im Hintergrund wachsen.",
+        "it": "Lascio che friendship cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю friendship тихо расти на заднем плане.",
+        "id": "Aku membiarkan friendship tumbuh perlahan di latar belakang.",
+        "ja": "friendshipが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้friendshipเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan friendship berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose friendship with care, not hurry.",
+        "tr": "Acele etmeden, özenle arkadaşlık seçiyorum.",
+        "fr": "Je choisis friendship avec soin, sans hâte.",
+        "pt": "Escolho friendship com cuidado, sem pressa.",
+        "nl": "Ik kies friendship met zorg, niet met haast.",
+        "es": "Elijo friendship con cuidado, no con prisa.",
+        "de": "Ich wähle friendship mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo friendship con cura, non con fretta.",
+        "ru": "Я выбираю friendship с заботой, а не в спешке.",
+        "id": "Aku memilih friendship dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にfriendshipを選びます。",
+        "th": "ฉันเลือกfriendshipอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih friendship dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep friendship close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken arkadaşlık ile yakın kalıyorum.",
+        "fr": "Je garde friendship près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho friendship por perto quando minha mente fica agitada.",
+        "nl": "Ik houd friendship dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo friendship cerca cuando mi mente está inquieta.",
+        "de": "Ich halte friendship nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo friendship vicino quando la mia mente è agitata.",
+        "ru": "Я держу friendship рядом, когда ум занят.",
+        "id": "Aku menjaga friendship tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもfriendshipをそばに置きます。",
+        "th": "ฉันเก็บfriendshipไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan friendship dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "readTime": "0"
     }
   ]
-} 
+}

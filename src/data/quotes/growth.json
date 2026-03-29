@@ -1,6 +1,6 @@
 {
   "quotes": [
-        {
+    {
       "id": "growth_001",
       "category": "growth",
       "texts": {
@@ -34,19 +34,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "change", "growth"],
-        "tr": ["cesaret", "değişim", "büyüme"],
-        "fr": ["courage", "changement", "croissance"],
-        "pt": ["coragem", "mudança", "crescimento"],
-        "nl": ["moed", "verandering", "groei"],
-        "es": ["coraje", "cambio", "crecimiento"],
-        "de": ["mut", "veränderung", "wachstum"],
-        "it": ["coraggio", "cambiamento", "crescita"],
-        "ru": ["смелость", "изменение", "рост"],
-        "id": ["keberanian", "perubahan", "pertumbuhan"],
-        "ja": ["勇気", "変化", "成長"],
-        "th": ["ความกล้า", "การเปลี่ยนแปลง", "การเติบโต"],
-        "ms": ["keberanian", "perubahan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "change",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "değişim",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "changement",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "mudança",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "verandering",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "cambio",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "veränderung",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "cambiamento",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "изменение",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "perubahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "変化",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "การเปลี่ยนแปลง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "perubahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "persistence", "growth"],
-        "tr": ["sabır", "azim", "büyüme"],
-        "fr": ["patience", "persévérance", "croissance"],
-        "pt": ["paciência", "persistência", "crescimento"],
-        "nl": ["geduld", "volharding", "groei"],
-        "es": ["paciencia", "persistencia", "crecimiento"],
-        "de": ["geduld", "ausdauer", "wachstum"],
-        "it": ["pazienza", "perseveranza", "crescita"],
-        "ru": ["терпение", "настойчивость", "рост"],
-        "id": ["kesabaran", "ketekunan", "pertumbuhan"],
-        "ja": ["忍耐", "持続性", "成長"],
-        "th": ["ความอดทน", "ความพากเพียร", "การเติบโต"],
-        "ms": ["kesabaran", "ketabahan", "pertumbuhan"]
+        "en": [
+          "patience",
+          "persistence",
+          "growth"
+        ],
+        "tr": [
+          "sabır",
+          "azim",
+          "büyüme"
+        ],
+        "fr": [
+          "patience",
+          "persévérance",
+          "croissance"
+        ],
+        "pt": [
+          "paciência",
+          "persistência",
+          "crescimento"
+        ],
+        "nl": [
+          "geduld",
+          "volharding",
+          "groei"
+        ],
+        "es": [
+          "paciencia",
+          "persistencia",
+          "crecimiento"
+        ],
+        "de": [
+          "geduld",
+          "ausdauer",
+          "wachstum"
+        ],
+        "it": [
+          "pazienza",
+          "perseveranza",
+          "crescita"
+        ],
+        "ru": [
+          "терпение",
+          "настойчивость",
+          "рост"
+        ],
+        "id": [
+          "kesabaran",
+          "ketekunan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "忍耐",
+          "持続性",
+          "成長"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความพากเพียร",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kesabaran",
+          "ketabahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["experience", "wisdom", "growth"],
-        "tr": ["deneyim", "bilgelik", "büyüme"],
-        "fr": ["expérience", "sagesse", "croissance"],
-        "pt": ["experiência", "sabedoria", "crescimento"],
-        "nl": ["ervaring", "wijsheid", "groei"],
-        "es": ["experiencia", "sabiduría", "crecimiento"],
-        "de": ["erfahrung", "weisheit", "wachstum"],
-        "it": ["esperienza", "saggezza", "crescita"],
-        "ru": ["опыт", "мудрость", "рост"],
-        "id": ["pengalaman", "kebijaksanaan", "pertumbuhan"],
-        "ja": ["経験", "知恵", "成長"],
-        "th": ["ประสบการณ์", "ปัญญา", "การเติบโต"],
-        "ms": ["pengalaman", "kebijaksanaan", "pertumbuhan"]
+        "en": [
+          "experience",
+          "wisdom",
+          "growth"
+        ],
+        "tr": [
+          "deneyim",
+          "bilgelik",
+          "büyüme"
+        ],
+        "fr": [
+          "expérience",
+          "sagesse",
+          "croissance"
+        ],
+        "pt": [
+          "experiência",
+          "sabedoria",
+          "crescimento"
+        ],
+        "nl": [
+          "ervaring",
+          "wijsheid",
+          "groei"
+        ],
+        "es": [
+          "experiencia",
+          "sabiduría",
+          "crecimiento"
+        ],
+        "de": [
+          "erfahrung",
+          "weisheit",
+          "wachstum"
+        ],
+        "it": [
+          "esperienza",
+          "saggezza",
+          "crescita"
+        ],
+        "ru": [
+          "опыт",
+          "мудрость",
+          "рост"
+        ],
+        "id": [
+          "pengalaman",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "経験",
+          "知恵",
+          "成長"
+        ],
+        "th": [
+          "ประสบการณ์",
+          "ปัญญา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pengalaman",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["learning", "reflection", "growth"],
-        "tr": ["öğrenme", "yansıma", "büyüme"],
-        "fr": ["apprentissage", "réflexion", "croissance"],
-        "pt": ["aprendizado", "reflexão", "crescimento"],
-        "nl": ["leren", "reflectie", "groei"],
-        "es": ["aprendizaje", "reflexión", "crecimiento"],
-        "de": ["lernen", "reflexion", "wachstum"],
-        "it": ["apprendimento", "riflessione", "crescita"],
-        "ru": ["обучение", "рефлексия", "рост"],
-        "id": ["pembelajaran", "refleksi", "pertumbuhan"],
-        "ja": ["学習", "振り返り", "成長"],
-        "th": ["การเรียนรู้", "การสะท้อน", "การเติบโต"],
-        "ms": ["pembelajaran", "refleksi", "pertumbuhan"]
+        "en": [
+          "learning",
+          "reflection",
+          "growth"
+        ],
+        "tr": [
+          "öğrenme",
+          "yansıma",
+          "büyüme"
+        ],
+        "fr": [
+          "apprentissage",
+          "réflexion",
+          "croissance"
+        ],
+        "pt": [
+          "aprendizado",
+          "reflexão",
+          "crescimento"
+        ],
+        "nl": [
+          "leren",
+          "reflectie",
+          "groei"
+        ],
+        "es": [
+          "aprendizaje",
+          "reflexión",
+          "crecimiento"
+        ],
+        "de": [
+          "lernen",
+          "reflexion",
+          "wachstum"
+        ],
+        "it": [
+          "apprendimento",
+          "riflessione",
+          "crescita"
+        ],
+        "ru": [
+          "обучение",
+          "рефлексия",
+          "рост"
+        ],
+        "id": [
+          "pembelajaran",
+          "refleksi",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "学習",
+          "振り返り",
+          "成長"
+        ],
+        "th": [
+          "การเรียนรู้",
+          "การสะท้อน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pembelajaran",
+          "refleksi",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["balance", "effort", "growth"],
-        "tr": ["denge", "çaba", "büyüme"],
-        "fr": ["équilibre", "effort", "croissance"],
-        "pt": ["equilíbrio", "esforço", "crescimento"],
-        "nl": ["balans", "inspanning", "groei"],
-        "es": ["equilibrio", "esfuerzo", "crecimiento"],
-        "de": ["balance", "anstrengung", "wachstum"],
-        "it": ["equilibrio", "sforzo", "crescita"],
-        "ru": ["баланс", "усилие", "рост"],
-        "id": ["keseimbangan", "usaha", "pertumbuhan"],
-        "ja": ["バランス", "努力", "成長"],
-        "th": ["ความสมดุล", "ความพยายาม", "การเติบโต"],
-        "ms": ["keseimbangan", "usaha", "pertumbuhan"]
+        "en": [
+          "balance",
+          "effort",
+          "growth"
+        ],
+        "tr": [
+          "denge",
+          "çaba",
+          "büyüme"
+        ],
+        "fr": [
+          "équilibre",
+          "effort",
+          "croissance"
+        ],
+        "pt": [
+          "equilíbrio",
+          "esforço",
+          "crescimento"
+        ],
+        "nl": [
+          "balans",
+          "inspanning",
+          "groei"
+        ],
+        "es": [
+          "equilibrio",
+          "esfuerzo",
+          "crecimiento"
+        ],
+        "de": [
+          "balance",
+          "anstrengung",
+          "wachstum"
+        ],
+        "it": [
+          "equilibrio",
+          "sforzo",
+          "crescita"
+        ],
+        "ru": [
+          "баланс",
+          "усилие",
+          "рост"
+        ],
+        "id": [
+          "keseimbangan",
+          "usaha",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "バランス",
+          "努力",
+          "成長"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความพยายาม",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keseimbangan",
+          "usaha",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -585,7 +845,7 @@
         }
       }
     },
-        {
+    {
       "id": "growth_007",
       "category": "growth",
       "texts": {
@@ -619,19 +879,71 @@
         "ms": "Satya Nadella"
       },
       "tags": {
-        "en": ["professional", "journey", "success"],
-        "tr": ["profesyonel", "yolculuk", "başarı"],
-        "fr": ["professionnel", "voyage", "succès"],
-        "pt": ["profissional", "jornada", "sucesso"],
-        "nl": ["professioneel", "reis", "succes"],
-        "es": ["profesional", "viaje", "éxito"],
-        "de": ["beruflich", "reise", "erfolg"],
-        "it": ["professionale", "viaggio", "successo"],
-        "ru": ["профессиональный", "путешествие", "успех"],
-        "id": ["profesional", "perjalanan", "kesuksesan"],
-        "ja": ["職業的", "旅", "成功"],
-        "th": ["มืออาชีพ", "การเดินทาง", "ความสำเร็จ"],
-        "ms": ["profesional", "perjalanan", "kejayaan"]
+        "en": [
+          "professional",
+          "journey",
+          "success"
+        ],
+        "tr": [
+          "profesyonel",
+          "yolculuk",
+          "başarı"
+        ],
+        "fr": [
+          "professionnel",
+          "voyage",
+          "succès"
+        ],
+        "pt": [
+          "profissional",
+          "jornada",
+          "sucesso"
+        ],
+        "nl": [
+          "professioneel",
+          "reis",
+          "succes"
+        ],
+        "es": [
+          "profesional",
+          "viaje",
+          "éxito"
+        ],
+        "de": [
+          "beruflich",
+          "reise",
+          "erfolg"
+        ],
+        "it": [
+          "professionale",
+          "viaggio",
+          "successo"
+        ],
+        "ru": [
+          "профессиональный",
+          "путешествие",
+          "успех"
+        ],
+        "id": [
+          "profesional",
+          "perjalanan",
+          "kesuksesan"
+        ],
+        "ja": [
+          "職業的",
+          "旅",
+          "成功"
+        ],
+        "th": [
+          "มืออาชีพ",
+          "การเดินทาง",
+          "ความสำเร็จ"
+        ],
+        "ms": [
+          "profesional",
+          "perjalanan",
+          "kejayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -736,19 +1048,71 @@
         "ms": "Jane Goodall"
       },
       "tags": {
-        "en": ["environmental", "responsibility", "impact"],
-        "tr": ["çevresel", "sorumluluk", "etki"],
-        "fr": ["environnemental", "responsabilité", "impact"],
-        "pt": ["ambiental", "responsabilidade", "impacto"],
-        "nl": ["milieu", "verantwoordelijkheid", "impact"],
-        "es": ["ambiental", "responsabilidad", "impacto"],
-        "de": ["umwelt", "verantwortung", "wirkung"],
-        "it": ["ambientale", "responsabilità", "impatto"],
-        "ru": ["экологический", "ответственность", "влияние"],
-        "id": ["lingkungan", "tanggung jawab", "dampak"],
-        "ja": ["環境", "責任", "影響"],
-        "th": ["สิ่งแวดล้อม", "ความรับผิดชอบ", "ผลกระทบ"],
-        "ms": ["alam sekitar", "tanggungjawab", "kesan"]
+        "en": [
+          "environmental",
+          "responsibility",
+          "impact"
+        ],
+        "tr": [
+          "çevresel",
+          "sorumluluk",
+          "etki"
+        ],
+        "fr": [
+          "environnemental",
+          "responsabilité",
+          "impact"
+        ],
+        "pt": [
+          "ambiental",
+          "responsabilidade",
+          "impacto"
+        ],
+        "nl": [
+          "milieu",
+          "verantwoordelijkheid",
+          "impact"
+        ],
+        "es": [
+          "ambiental",
+          "responsabilidad",
+          "impacto"
+        ],
+        "de": [
+          "umwelt",
+          "verantwortung",
+          "wirkung"
+        ],
+        "it": [
+          "ambientale",
+          "responsabilità",
+          "impatto"
+        ],
+        "ru": [
+          "экологический",
+          "ответственность",
+          "влияние"
+        ],
+        "id": [
+          "lingkungan",
+          "tanggung jawab",
+          "dampak"
+        ],
+        "ja": [
+          "環境",
+          "責任",
+          "影響"
+        ],
+        "th": [
+          "สิ่งแวดล้อม",
+          "ความรับผิดชอบ",
+          "ผลกระทบ"
+        ],
+        "ms": [
+          "alam sekitar",
+          "tanggungjawab",
+          "kesan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Peter Drucker"
       },
       "tags": {
-        "en": ["innovation", "adaptability", "change"],
-        "tr": ["inovasyon", "uyumluluk", "değişim"],
-        "fr": ["innovation", "adaptabilité", "changement"],
-        "pt": ["inovação", "adaptabilidade", "mudança"],
-        "nl": ["innovatie", "aanpasbaarheid", "verandering"],
-        "es": ["innovación", "adaptabilidad", "cambio"],
-        "de": ["innovation", "anpassungsfähigkeit", "wandel"],
-        "it": ["innovazione", "adattabilità", "cambiamento"],
-        "ru": ["инновации", "адаптивность", "изменения"],
-        "id": ["inovasi", "adaptabilitas", "perubahan"],
-        "ja": ["革新", "適応性", "変化"],
-        "th": ["นวัตกรรม", "การปรับตัว", "การเปลี่ยนแปลง"],
-        "ms": ["inovasi", "kebolehsuaian", "perubahan"]
+        "en": [
+          "innovation",
+          "adaptability",
+          "change"
+        ],
+        "tr": [
+          "inovasyon",
+          "uyumluluk",
+          "değişim"
+        ],
+        "fr": [
+          "innovation",
+          "adaptabilité",
+          "changement"
+        ],
+        "pt": [
+          "inovação",
+          "adaptabilidade",
+          "mudança"
+        ],
+        "nl": [
+          "innovatie",
+          "aanpasbaarheid",
+          "verandering"
+        ],
+        "es": [
+          "innovación",
+          "adaptabilidad",
+          "cambio"
+        ],
+        "de": [
+          "innovation",
+          "anpassungsfähigkeit",
+          "wandel"
+        ],
+        "it": [
+          "innovazione",
+          "adattabilità",
+          "cambiamento"
+        ],
+        "ru": [
+          "инновации",
+          "адаптивность",
+          "изменения"
+        ],
+        "id": [
+          "inovasi",
+          "adaptabilitas",
+          "perubahan"
+        ],
+        "ja": [
+          "革新",
+          "適応性",
+          "変化"
+        ],
+        "th": [
+          "นวัตกรรม",
+          "การปรับตัว",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "inovasi",
+          "kebolehsuaian",
+          "perubahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Carol S. Dweck"
       },
       "tags": {
-        "en": ["mindset", "comfort-zone", "psychology"],
-        "tr": ["zihin yapısı", "konfor alanı", "psikoloji"],
-        "fr": ["état d'esprit", "zone de confort", "psychologie"],
-        "pt": ["mentalidade", "zona de conforto", "psicologia"],
-        "nl": ["mindset", "comfortzone", "psychologie"],
-        "es": ["mentalidad", "zona de confort", "psicología"],
-        "de": ["denkweise", "komfortzone", "psychologie"],
-        "it": ["mentalità", "zona di comfort", "psicologia"],
-        "ru": ["мышление", "зона комфорта", "психология"],
-        "id": ["pola pikir", "zona nyaman", "psikologi"],
-        "ja": ["マインドセット", "コンフォートゾーン", "心理学"],
-        "th": ["แนวคิด", "เขตความสะดวกสบาย", "จิตวิทยา"],
-        "ms": ["pemikiran", "zon selesa", "psikologi"]
+        "en": [
+          "mindset",
+          "comfort-zone",
+          "psychology"
+        ],
+        "tr": [
+          "zihin yapısı",
+          "konfor alanı",
+          "psikoloji"
+        ],
+        "fr": [
+          "état d'esprit",
+          "zone de confort",
+          "psychologie"
+        ],
+        "pt": [
+          "mentalidade",
+          "zona de conforto",
+          "psicologia"
+        ],
+        "nl": [
+          "mindset",
+          "comfortzone",
+          "psychologie"
+        ],
+        "es": [
+          "mentalidad",
+          "zona de confort",
+          "psicología"
+        ],
+        "de": [
+          "denkweise",
+          "komfortzone",
+          "psychologie"
+        ],
+        "it": [
+          "mentalità",
+          "zona di comfort",
+          "psicologia"
+        ],
+        "ru": [
+          "мышление",
+          "зона комфорта",
+          "психология"
+        ],
+        "id": [
+          "pola pikir",
+          "zona nyaman",
+          "psikologi"
+        ],
+        "ja": [
+          "マインドセット",
+          "コンフォートゾーン",
+          "心理学"
+        ],
+        "th": [
+          "แนวคิด",
+          "เขตความสะดวกสบาย",
+          "จิตวิทยา"
+        ],
+        "ms": [
+          "pemikiran",
+          "zon selesa",
+          "psikologi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1053,7 +1521,7 @@
         }
       }
     },
-        {
+    {
       "id": "growth_012",
       "category": "growth",
       "texts": {
@@ -1087,19 +1555,71 @@
         "ms": "Yayoi Kusama"
       },
       "tags": {
-        "en": ["artistic", "creativity", "acceptance"],
-        "tr": ["sanatsal", "yaratıcılık", "kabul"],
-        "fr": ["artistique", "créativité", "acceptation"],
-        "pt": ["artístico", "criatividade", "aceitação"],
-        "nl": ["artistiek", "creativiteit", "acceptatie"],
-        "es": ["artístico", "creatividad", "aceptación"],
-        "de": ["künstlerisch", "kreativität", "akzeptanz"],
-        "it": ["artistico", "creatività", "accettazione"],
-        "ru": ["художественный", "творчество", "принятие"],
-        "id": ["artistik", "kreativitas", "penerimaan"],
-        "ja": ["芸術的", "創造性", "受容"],
-        "th": ["ศิลปะ", "ความคิดสร้างสรรค์", "การยอมรับ"],
-        "ms": ["artistik", "kreativiti", "penerimaan"]
+        "en": [
+          "artistic",
+          "creativity",
+          "acceptance"
+        ],
+        "tr": [
+          "sanatsal",
+          "yaratıcılık",
+          "kabul"
+        ],
+        "fr": [
+          "artistique",
+          "créativité",
+          "acceptation"
+        ],
+        "pt": [
+          "artístico",
+          "criatividade",
+          "aceitação"
+        ],
+        "nl": [
+          "artistiek",
+          "creativiteit",
+          "acceptatie"
+        ],
+        "es": [
+          "artístico",
+          "creatividad",
+          "aceptación"
+        ],
+        "de": [
+          "künstlerisch",
+          "kreativität",
+          "akzeptanz"
+        ],
+        "it": [
+          "artistico",
+          "creatività",
+          "accettazione"
+        ],
+        "ru": [
+          "художественный",
+          "творчество",
+          "принятие"
+        ],
+        "id": [
+          "artistik",
+          "kreativitas",
+          "penerimaan"
+        ],
+        "ja": [
+          "芸術的",
+          "創造性",
+          "受容"
+        ],
+        "th": [
+          "ศิลปะ",
+          "ความคิดสร้างสรรค์",
+          "การยอมรับ"
+        ],
+        "ms": [
+          "artistik",
+          "kreativiti",
+          "penerimaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1204,19 +1724,71 @@
         "ms": "Isaac Asimov"
       },
       "tags": {
-        "en": ["science", "discovery", "curiosity"],
-        "tr": ["bilim", "keşif", "merak"],
-        "fr": ["science", "découverte", "curiosité"],
-        "pt": ["ciência", "descoberta", "curiosidade"],
-        "nl": ["wetenschap", "ontdekking", "nieuwsgierigheid"],
-        "es": ["ciencia", "descubrimiento", "curiosidad"],
-        "de": ["wissenschaft", "entdeckung", "neugier"],
-        "it": ["scienza", "scoperta", "curiosità"],
-        "ru": ["наука", "открытие", "любопытство"],
-        "id": ["sains", "penemuan", "keingintahuan"],
-        "ja": ["科学", "発見", "好奇心"],
-        "th": ["วิทยาศาสตร์", "การค้นพบ", "ความอยากรู้"],
-        "ms": ["sains", "penemuan", "rasa ingin tahu"]
+        "en": [
+          "science",
+          "discovery",
+          "curiosity"
+        ],
+        "tr": [
+          "bilim",
+          "keşif",
+          "merak"
+        ],
+        "fr": [
+          "science",
+          "découverte",
+          "curiosité"
+        ],
+        "pt": [
+          "ciência",
+          "descoberta",
+          "curiosidade"
+        ],
+        "nl": [
+          "wetenschap",
+          "ontdekking",
+          "nieuwsgierigheid"
+        ],
+        "es": [
+          "ciencia",
+          "descubrimiento",
+          "curiosidad"
+        ],
+        "de": [
+          "wissenschaft",
+          "entdeckung",
+          "neugier"
+        ],
+        "it": [
+          "scienza",
+          "scoperta",
+          "curiosità"
+        ],
+        "ru": [
+          "наука",
+          "открытие",
+          "любопытство"
+        ],
+        "id": [
+          "sains",
+          "penemuan",
+          "keingintahuan"
+        ],
+        "ja": [
+          "科学",
+          "発見",
+          "好奇心"
+        ],
+        "th": [
+          "วิทยาศาสตร์",
+          "การค้นพบ",
+          "ความอยากรู้"
+        ],
+        "ms": [
+          "sains",
+          "penemuan",
+          "rasa ingin tahu"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Chimamanda Ngozi Adichie"
       },
       "tags": {
-        "en": ["cultural", "empathy", "diversity"],
-        "tr": ["kültürel", "empati", "çeşitlilik"],
-        "fr": ["culturel", "empathie", "diversité"],
-        "pt": ["cultural", "empatia", "diversidade"],
-        "nl": ["cultureel", "empathie", "diversiteit"],
-        "es": ["cultural", "empatía", "diversidad"],
-        "de": ["kulturell", "empathie", "vielfalt"],
-        "it": ["culturale", "empatia", "diversità"],
-        "ru": ["культурный", "эмпатия", "разнообразие"],
-        "id": ["budaya", "empati", "keberagaman"],
-        "ja": ["文化的", "共感", "多様性"],
-        "th": ["วัฒนธรรม", "ความเห็นอกเห็นใจ", "ความหลากหลาย"],
-        "ms": ["budaya", "empati", "kepelbagaian"]
+        "en": [
+          "cultural",
+          "empathy",
+          "diversity"
+        ],
+        "tr": [
+          "kültürel",
+          "empati",
+          "çeşitlilik"
+        ],
+        "fr": [
+          "culturel",
+          "empathie",
+          "diversité"
+        ],
+        "pt": [
+          "cultural",
+          "empatia",
+          "diversidade"
+        ],
+        "nl": [
+          "cultureel",
+          "empathie",
+          "diversiteit"
+        ],
+        "es": [
+          "cultural",
+          "empatía",
+          "diversidad"
+        ],
+        "de": [
+          "kulturell",
+          "empathie",
+          "vielfalt"
+        ],
+        "it": [
+          "culturale",
+          "empatia",
+          "diversità"
+        ],
+        "ru": [
+          "культурный",
+          "эмпатия",
+          "разнообразие"
+        ],
+        "id": [
+          "budaya",
+          "empati",
+          "keberagaman"
+        ],
+        "ja": [
+          "文化的",
+          "共感",
+          "多様性"
+        ],
+        "th": [
+          "วัฒนธรรม",
+          "ความเห็นอกเห็นใจ",
+          "ความหลากหลาย"
+        ],
+        "ms": [
+          "budaya",
+          "empati",
+          "kepelbagaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Wangari Maathai"
       },
       "tags": {
-        "en": ["environmental", "sustainability", "responsibility"],
-        "tr": ["çevresel", "sürdürülebilirlik", "sorumluluk"],
-        "fr": ["environnemental", "durabilité", "responsabilité"],
-        "pt": ["ambiental", "sustentabilidade", "responsabilidade"],
-        "nl": ["milieu", "duurzaamheid", "verantwoordelijkheid"],
-        "es": ["ambiental", "sostenibilidad", "responsabilidad"],
-        "de": ["umwelt", "nachhaltigkeit", "verantwortung"],
-        "it": ["ambientale", "sostenibilità", "responsabilità"],
-        "ru": ["экологический", "устойчивость", "ответственность"],
-        "id": ["lingkungan", "keberlanjutan", "tanggung jawab"],
-        "ja": ["環境", "持続可能性", "責任"],
-        "th": ["สิ่งแวดล้อม", "ความยั่งยืน", "ความรับผิดชอบ"],
-        "ms": ["alam sekitar", "kelestarian", "tanggungjawab"]
+        "en": [
+          "environmental",
+          "sustainability",
+          "responsibility"
+        ],
+        "tr": [
+          "çevresel",
+          "sürdürülebilirlik",
+          "sorumluluk"
+        ],
+        "fr": [
+          "environnemental",
+          "durabilité",
+          "responsabilité"
+        ],
+        "pt": [
+          "ambiental",
+          "sustentabilidade",
+          "responsabilidade"
+        ],
+        "nl": [
+          "milieu",
+          "duurzaamheid",
+          "verantwoordelijkheid"
+        ],
+        "es": [
+          "ambiental",
+          "sostenibilidad",
+          "responsabilidad"
+        ],
+        "de": [
+          "umwelt",
+          "nachhaltigkeit",
+          "verantwortung"
+        ],
+        "it": [
+          "ambientale",
+          "sostenibilità",
+          "responsabilità"
+        ],
+        "ru": [
+          "экологический",
+          "устойчивость",
+          "ответственность"
+        ],
+        "id": [
+          "lingkungan",
+          "keberlanjutan",
+          "tanggung jawab"
+        ],
+        "ja": [
+          "環境",
+          "持続可能性",
+          "責任"
+        ],
+        "th": [
+          "สิ่งแวดล้อม",
+          "ความยั่งยืน",
+          "ความรับผิดชอบ"
+        ],
+        "ms": [
+          "alam sekitar",
+          "kelestarian",
+          "tanggungjawab"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1521,7 +2197,7 @@
         }
       }
     },
-   {
+    {
       "id": "growth_016",
       "category": "growth",
       "texts": {
@@ -1555,19 +2231,71 @@
         "ms": "Martha Nussbaum"
       },
       "tags": {
-        "en": ["technology", "ethics", "responsibility"],
-        "tr": ["teknoloji", "etik", "sorumluluk"],
-        "fr": ["technologie", "éthique", "responsabilité"],
-        "pt": ["tecnologia", "ética", "responsabilidade"],
-        "nl": ["technologie", "ethiek", "verantwoordelijkheid"],
-        "es": ["tecnología", "ética", "responsabilidad"],
-        "de": ["technologie", "ethik", "verantwortung"],
-        "it": ["tecnologia", "etica", "responsabilità"],
-        "ru": ["технология", "этика", "ответственность"],
-        "id": ["teknologi", "etika", "tanggung jawab"],
-        "ja": ["技術", "倫理", "責任"],
-        "th": ["เทคโนโลยี", "จริยธรรม", "ความรับผิดชอบ"],
-        "ms": ["teknologi", "etika", "tanggungjawab"]
+        "en": [
+          "technology",
+          "ethics",
+          "responsibility"
+        ],
+        "tr": [
+          "teknoloji",
+          "etik",
+          "sorumluluk"
+        ],
+        "fr": [
+          "technologie",
+          "éthique",
+          "responsabilité"
+        ],
+        "pt": [
+          "tecnologia",
+          "ética",
+          "responsabilidade"
+        ],
+        "nl": [
+          "technologie",
+          "ethiek",
+          "verantwoordelijkheid"
+        ],
+        "es": [
+          "tecnología",
+          "ética",
+          "responsabilidad"
+        ],
+        "de": [
+          "technologie",
+          "ethik",
+          "verantwortung"
+        ],
+        "it": [
+          "tecnologia",
+          "etica",
+          "responsabilità"
+        ],
+        "ru": [
+          "технология",
+          "этика",
+          "ответственность"
+        ],
+        "id": [
+          "teknologi",
+          "etika",
+          "tanggung jawab"
+        ],
+        "ja": [
+          "技術",
+          "倫理",
+          "責任"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "จริยธรรม",
+          "ความรับผิดชอบ"
+        ],
+        "ms": [
+          "teknologi",
+          "etika",
+          "tanggungjawab"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1672,19 +2400,71 @@
         "ms": "Daniel Goleman"
       },
       "tags": {
-        "en": ["emotional", "awareness", "balance"],
-        "tr": ["duygusal", "farkındalık", "denge"],
-        "fr": ["émotionnel", "conscience", "équilibre"],
-        "pt": ["emocional", "consciência", "equilíbrio"],
-        "nl": ["emotioneel", "bewustzijn", "balans"],
-        "es": ["emocional", "conciencia", "equilibrio"],
-        "de": ["emotional", "bewusstsein", "balance"],
-        "it": ["emotivo", "consapevolezza", "equilibrio"],
-        "ru": ["эмоциональный", "осознанность", "баланс"],
-        "id": ["emosional", "kesadaran", "keseimbangan"],
-        "ja": ["感情的", "意識", "バランス"],
-        "th": ["อารมณ์", "การตระหนักรู้", "ความสมดุล"],
-        "ms": ["emosi", "kesedaran", "keseimbangan"]
+        "en": [
+          "emotional",
+          "awareness",
+          "balance"
+        ],
+        "tr": [
+          "duygusal",
+          "farkındalık",
+          "denge"
+        ],
+        "fr": [
+          "émotionnel",
+          "conscience",
+          "équilibre"
+        ],
+        "pt": [
+          "emocional",
+          "consciência",
+          "equilíbrio"
+        ],
+        "nl": [
+          "emotioneel",
+          "bewustzijn",
+          "balans"
+        ],
+        "es": [
+          "emocional",
+          "conciencia",
+          "equilibrio"
+        ],
+        "de": [
+          "emotional",
+          "bewusstsein",
+          "balance"
+        ],
+        "it": [
+          "emotivo",
+          "consapevolezza",
+          "equilibrio"
+        ],
+        "ru": [
+          "эмоциональный",
+          "осознанность",
+          "баланс"
+        ],
+        "id": [
+          "emosional",
+          "kesadaran",
+          "keseimbangan"
+        ],
+        "ja": [
+          "感情的",
+          "意識",
+          "バランス"
+        ],
+        "th": [
+          "อารมณ์",
+          "การตระหนักรู้",
+          "ความสมดุล"
+        ],
+        "ms": [
+          "emosi",
+          "kesedaran",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "bell hooks"
       },
       "tags": {
-        "en": ["community", "solidarity", "collective"],
-        "tr": ["topluluk", "dayanışma", "kolektif"],
-        "fr": ["communauté", "solidarité", "collectif"],
-        "pt": ["comunidade", "solidariedade", "coletivo"],
-        "nl": ["gemeenschap", "solidariteit", "collectief"],
-        "es": ["comunidad", "solidaridad", "colectivo"],
-        "de": ["gemeinschaft", "solidarität", "kollektiv"],
-        "it": ["comunità", "solidarietà", "collettivo"],
-        "ru": ["сообщество", "солидарность", "коллектив"],
-        "id": ["komunitas", "solidaritas", "kolektif"],
-        "ja": ["コミュニティ", "連帯", "集団"],
-        "th": ["ชุมชน", "ความสามัคคี", "กลุ่ม"],
-        "ms": ["komuniti", "solidariti", "kolektif"]
+        "en": [
+          "community",
+          "solidarity",
+          "collective"
+        ],
+        "tr": [
+          "topluluk",
+          "dayanışma",
+          "kolektif"
+        ],
+        "fr": [
+          "communauté",
+          "solidarité",
+          "collectif"
+        ],
+        "pt": [
+          "comunidade",
+          "solidariedade",
+          "coletivo"
+        ],
+        "nl": [
+          "gemeenschap",
+          "solidariteit",
+          "collectief"
+        ],
+        "es": [
+          "comunidad",
+          "solidaridad",
+          "colectivo"
+        ],
+        "de": [
+          "gemeinschaft",
+          "solidarität",
+          "kollektiv"
+        ],
+        "it": [
+          "comunità",
+          "solidarietà",
+          "collettivo"
+        ],
+        "ru": [
+          "сообщество",
+          "солидарность",
+          "коллектив"
+        ],
+        "id": [
+          "komunitas",
+          "solidaritas",
+          "kolektif"
+        ],
+        "ja": [
+          "コミュニティ",
+          "連帯",
+          "集団"
+        ],
+        "th": [
+          "ชุมชน",
+          "ความสามัคคี",
+          "กลุ่ม"
+        ],
+        "ms": [
+          "komuniti",
+          "solidariti",
+          "kolektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "John Dewey"
       },
       "tags": {
-        "en": ["education", "lifelong-learning", "development"],
-        "tr": ["eğitim", "yaşam-boyu-öğrenme", "gelişim"],
-        "fr": ["éducation", "apprentissage-continu", "développement"],
-        "pt": ["educação", "aprendizagem-contínua", "desenvolvimento"],
-        "nl": ["onderwijs", "levenslang-leren", "ontwikkeling"],
-        "es": ["educación", "aprendizaje-permanente", "desarrollo"],
-        "de": ["bildung", "lebenslanges-lernen", "entwicklung"],
-        "it": ["istruzione", "apprendimento-continuo", "sviluppo"],
-        "ru": ["образование", "непрерывное-обучение", "развитие"],
-        "id": ["pendidikan", "pembelajaran-seumur-hidup", "perkembangan"],
-        "ja": ["教育", "生涯学習", "発展"],
-        "th": ["การศึกษา", "การเรียนรู้ตลอดชีวิต", "การพัฒนา"],
-        "ms": ["pendidikan", "pembelajaran-seumur-hidup", "pembangunan"]
+        "en": [
+          "education",
+          "lifelong-learning",
+          "development"
+        ],
+        "tr": [
+          "eğitim",
+          "yaşam-boyu-öğrenme",
+          "gelişim"
+        ],
+        "fr": [
+          "éducation",
+          "apprentissage-continu",
+          "développement"
+        ],
+        "pt": [
+          "educação",
+          "aprendizagem-contínua",
+          "desenvolvimento"
+        ],
+        "nl": [
+          "onderwijs",
+          "levenslang-leren",
+          "ontwikkeling"
+        ],
+        "es": [
+          "educación",
+          "aprendizaje-permanente",
+          "desarrollo"
+        ],
+        "de": [
+          "bildung",
+          "lebenslanges-lernen",
+          "entwicklung"
+        ],
+        "it": [
+          "istruzione",
+          "apprendimento-continuo",
+          "sviluppo"
+        ],
+        "ru": [
+          "образование",
+          "непрерывное-обучение",
+          "развитие"
+        ],
+        "id": [
+          "pendidikan",
+          "pembelajaran-seumur-hidup",
+          "perkembangan"
+        ],
+        "ja": [
+          "教育",
+          "生涯学習",
+          "発展"
+        ],
+        "th": [
+          "การศึกษา",
+          "การเรียนรู้ตลอดชีวิต",
+          "การพัฒนา"
+        ],
+        "ms": [
+          "pendidikan",
+          "pembelajaran-seumur-hidup",
+          "pembangunan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1989,7 +2873,7 @@
         }
       }
     },
-        {
+    {
       "id": "growth_021",
       "category": "growth",
       "texts": {
@@ -2023,19 +2907,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["self-acceptance", "wisdom", "growth"],
-        "tr": ["kendi-kabullenme", "bilgelik", "büyüme"],
-        "fr": ["acceptation-de-soi", "sagesse", "croissance"],
-        "pt": ["autoaceitação", "sabedoria", "crescimento"],
-        "nl": ["zelfacceptatie", "wijsheid", "groei"],
-        "es": ["autoaceptación", "sabiduría", "crecimiento"],
-        "de": ["selbstakzeptanz", "weisheit", "wachstum"],
-        "it": ["autoaccettazione", "saggezza", "crescita"],
-        "ru": ["самопринятие", "мудрость", "рост"],
-        "id": ["penerimaan-diri", "kebijaksanaan", "pertumbuhan"],
-        "ja": ["自己受容", "知恵", "成長"],
-        "th": ["การยอมรับตนเอง", "ปัญญา", "การเติบโต"],
-        "ms": ["penerimaan-diri", "kebijaksanaan", "pertumbuhan"]
+        "en": [
+          "self-acceptance",
+          "wisdom",
+          "growth"
+        ],
+        "tr": [
+          "kendi-kabullenme",
+          "bilgelik",
+          "büyüme"
+        ],
+        "fr": [
+          "acceptation-de-soi",
+          "sagesse",
+          "croissance"
+        ],
+        "pt": [
+          "autoaceitação",
+          "sabedoria",
+          "crescimento"
+        ],
+        "nl": [
+          "zelfacceptatie",
+          "wijsheid",
+          "groei"
+        ],
+        "es": [
+          "autoaceptación",
+          "sabiduría",
+          "crecimiento"
+        ],
+        "de": [
+          "selbstakzeptanz",
+          "weisheit",
+          "wachstum"
+        ],
+        "it": [
+          "autoaccettazione",
+          "saggezza",
+          "crescita"
+        ],
+        "ru": [
+          "самопринятие",
+          "мудрость",
+          "рост"
+        ],
+        "id": [
+          "penerimaan-diri",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "自己受容",
+          "知恵",
+          "成長"
+        ],
+        "th": [
+          "การยอมรับตนเอง",
+          "ปัญญา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "penerimaan-diri",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "trust", "growth"],
-        "tr": ["cesaret", "güven", "büyüme"],
-        "fr": ["courage", "confiance", "croissance"],
-        "pt": ["coragem", "confiança", "crescimento"],
-        "nl": ["moed", "vertrouwen", "groei"],
-        "es": ["coraje", "confianza", "crecimiento"],
-        "de": ["mut", "vertrauen", "wachstum"],
-        "it": ["coraggio", "fiducia", "crescita"],
-        "ru": ["смелость", "доверие", "рост"],
-        "id": ["keberanian", "kepercayaan", "pertumbuhan"],
-        "ja": ["勇気", "信頼", "成長"],
-        "th": ["ความกล้า", "ความไว้วางใจ", "การเติบโต"],
-        "ms": ["keberanian", "kepercayaan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "trust",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "güven",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "confiance",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "confiança",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "vertrouwen",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "confianza",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "vertrauen",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "fiducia",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "доверие",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "kepercayaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "信頼",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ความไว้วางใจ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "kepercayaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2257,19 +3245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "persistence", "growth"],
-        "tr": ["sabır", "sebat", "büyüme"],
-        "fr": ["patience", "persévérance", "croissance"],
-        "pt": ["paciência", "persistência", "crescimento"],
-        "nl": ["geduld", "volharding", "groei"],
-        "es": ["paciencia", "persistencia", "crecimiento"],
-        "de": ["geduld", "ausdauer", "wachstum"],
-        "it": ["pazienza", "perseveranza", "crescita"],
-        "ru": ["терпение", "настойчивость", "рост"],
-        "id": ["kesabaran", "ketekunan", "pertumbuhan"],
-        "ja": ["忍耐", "持続性", "成長"],
-        "th": ["ความอดทน", "ความพากเพียร", "การเติบโต"],
-        "ms": ["kesabaran", "ketabahan", "pertumbuhan"]
+        "en": [
+          "patience",
+          "persistence",
+          "growth"
+        ],
+        "tr": [
+          "sabır",
+          "sebat",
+          "büyüme"
+        ],
+        "fr": [
+          "patience",
+          "persévérance",
+          "croissance"
+        ],
+        "pt": [
+          "paciência",
+          "persistência",
+          "crescimento"
+        ],
+        "nl": [
+          "geduld",
+          "volharding",
+          "groei"
+        ],
+        "es": [
+          "paciencia",
+          "persistencia",
+          "crecimiento"
+        ],
+        "de": [
+          "geduld",
+          "ausdauer",
+          "wachstum"
+        ],
+        "it": [
+          "pazienza",
+          "perseveranza",
+          "crescita"
+        ],
+        "ru": [
+          "терпение",
+          "настойчивость",
+          "рост"
+        ],
+        "id": [
+          "kesabaran",
+          "ketekunan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "忍耐",
+          "持続性",
+          "成長"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความพากเพียร",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kesabaran",
+          "ketabahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "mindfulness", "growth"],
-        "tr": ["hayaller", "farkındalık", "büyüme"],
-        "fr": ["rêves", "pleine-conscience", "croissance"],
-        "pt": ["sonhos", "atenção-plena", "crescimento"],
-        "nl": ["dromen", "mindfulness", "groei"],
-        "es": ["sueños", "atención-plena", "crecimiento"],
-        "de": ["träume", "achtsamkeit", "wachstum"],
-        "it": ["sogni", "consapevolezza", "crescita"],
-        "ru": ["мечты", "осознанность", "рост"],
-        "id": ["mimpi", "kesadaran penuh", "pertumbuhan"],
-        "ja": ["夢", "マインドフルネス", "成長"],
-        "th": ["ความฝัน", "สติ", "การเติบโต"],
-        "ms": ["impian", "kesedaran penuh", "pertumbuhan"]
+        "en": [
+          "dreams",
+          "mindfulness",
+          "growth"
+        ],
+        "tr": [
+          "hayaller",
+          "farkındalık",
+          "büyüme"
+        ],
+        "fr": [
+          "rêves",
+          "pleine-conscience",
+          "croissance"
+        ],
+        "pt": [
+          "sonhos",
+          "atenção-plena",
+          "crescimento"
+        ],
+        "nl": [
+          "dromen",
+          "mindfulness",
+          "groei"
+        ],
+        "es": [
+          "sueños",
+          "atención-plena",
+          "crecimiento"
+        ],
+        "de": [
+          "träume",
+          "achtsamkeit",
+          "wachstum"
+        ],
+        "it": [
+          "sogni",
+          "consapevolezza",
+          "crescita"
+        ],
+        "ru": [
+          "мечты",
+          "осознанность",
+          "рост"
+        ],
+        "id": [
+          "mimpi",
+          "kesadaran penuh",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "夢",
+          "マインドフルネス",
+          "成長"
+        ],
+        "th": [
+          "ความฝัน",
+          "สติ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "impian",
+          "kesedaran penuh",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2491,19 +3583,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "hope", "growth"],
-        "tr": ["cesaret", "umut", "büyüme"],
-        "fr": ["courage", "espoir", "croissance"],
-        "pt": ["coragem", "esperança", "crescimento"],
-        "nl": ["moed", "hoop", "groei"],
-        "es": ["coraje", "esperanza", "crecimiento"],
-        "de": ["mut", "hoffnung", "wachstum"],
-        "it": ["coraggio", "speranza", "crescita"],
-        "ru": ["смелость", "надежда", "рост"],
-        "id": ["keberanian", "harapan", "pertumbuhan"],
-        "ja": ["勇気", "希望", "成長"],
-        "th": ["ความกล้า", "ความหวัง", "การเติบโต"],
-        "ms": ["keberanian", "harapan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "hope",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "umut",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "espoir",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "esperança",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "hoop",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "esperanza",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "hoffnung",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "speranza",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "надежда",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "harapan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "希望",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ความหวัง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "harapan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3752,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["kindness", "self-care", "growth"],
-        "tr": ["nezaket", "öz-bakım", "büyüme"],
-        "fr": ["bienveillance", "soin-de-soi", "croissance"],
-        "pt": ["bondade", "autocuidado", "crescimento"],
-        "nl": ["vriendelijkheid", "zelfzorg", "groei"],
-        "es": ["bondad", "autocuidado", "crecimiento"],
-        "de": ["freundlichkeit", "selbstfürsorge", "wachstum"],
-        "it": ["gentilezza", "cura-di-sé", "crescita"],
-        "ru": ["доброта", "забота-о-себе", "рост"],
-        "id": ["kebaikan", "perawatan-diri", "pertumbuhan"],
-        "ja": ["優しさ", "自己ケア", "成長"],
-        "th": ["ความเมตตา", "การดูแลตนเอง", "การเติบโต"],
-        "ms": ["kebaikan", "penjagaan-diri", "pertumbuhan"]
+        "en": [
+          "kindness",
+          "self-care",
+          "growth"
+        ],
+        "tr": [
+          "nezaket",
+          "öz-bakım",
+          "büyüme"
+        ],
+        "fr": [
+          "bienveillance",
+          "soin-de-soi",
+          "croissance"
+        ],
+        "pt": [
+          "bondade",
+          "autocuidado",
+          "crescimento"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "zelfzorg",
+          "groei"
+        ],
+        "es": [
+          "bondad",
+          "autocuidado",
+          "crecimiento"
+        ],
+        "de": [
+          "freundlichkeit",
+          "selbstfürsorge",
+          "wachstum"
+        ],
+        "it": [
+          "gentilezza",
+          "cura-di-sé",
+          "crescita"
+        ],
+        "ru": [
+          "доброта",
+          "забота-о-себе",
+          "рост"
+        ],
+        "id": [
+          "kebaikan",
+          "perawatan-diri",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "優しさ",
+          "自己ケア",
+          "成長"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การดูแลตนเอง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kebaikan",
+          "penjagaan-diri",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2725,19 +3921,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["introspection", "inner-strength", "growth"],
-        "tr": ["içgözlem", "iç-güç", "büyüme"],
-        "fr": ["introspection", "force-intérieure", "croissance"],
-        "pt": ["introspecção", "força-interior", "crescimento"],
-        "nl": ["introspectie", "innerlijke-kracht", "groei"],
-        "es": ["introspección", "fuerza-interior", "crecimiento"],
-        "de": ["introspektion", "innere-stärke", "wachstum"],
-        "it": ["introspezione", "forza-interiore", "crescita"],
-        "ru": ["самоанализ", "внутренняя-сила", "рост"],
-        "id": ["introspeksi", "kekuatan-dalam", "pertumbuhan"],
-        "ja": ["内省", "内なる力", "成長"],
-        "th": ["การทบทวนตัวเอง", "พลังภายใน", "การเติบโต"],
-        "ms": ["introspeksi", "kekuatan-dalaman", "pertumbuhan"]
+        "en": [
+          "introspection",
+          "inner-strength",
+          "growth"
+        ],
+        "tr": [
+          "içgözlem",
+          "iç-güç",
+          "büyüme"
+        ],
+        "fr": [
+          "introspection",
+          "force-intérieure",
+          "croissance"
+        ],
+        "pt": [
+          "introspecção",
+          "força-interior",
+          "crescimento"
+        ],
+        "nl": [
+          "introspectie",
+          "innerlijke-kracht",
+          "groei"
+        ],
+        "es": [
+          "introspección",
+          "fuerza-interior",
+          "crecimiento"
+        ],
+        "de": [
+          "introspektion",
+          "innere-stärke",
+          "wachstum"
+        ],
+        "it": [
+          "introspezione",
+          "forza-interiore",
+          "crescita"
+        ],
+        "ru": [
+          "самоанализ",
+          "внутренняя-сила",
+          "рост"
+        ],
+        "id": [
+          "introspeksi",
+          "kekuatan-dalam",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "内省",
+          "内なる力",
+          "成長"
+        ],
+        "th": [
+          "การทบทวนตัวเอง",
+          "พลังภายใน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "introspeksi",
+          "kekuatan-dalaman",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2842,19 +4090,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["balance", "surrender", "growth"],
-        "tr": ["denge", "teslimiyet", "büyüme"],
-        "fr": ["équilibre", "abandon", "croissance"],
-        "pt": ["equilíbrio", "rendição", "crescimento"],
-        "nl": ["balans", "overgave", "groei"],
-        "es": ["equilibrio", "rendición", "crecimiento"],
-        "de": ["gleichgewicht", "hingabe", "wachstum"],
-        "it": ["equilibrio", "abbandono", "crescita"],
-        "ru": ["баланс", "сдача", "рост"],
-        "id": ["keseimbangan", "penyerahan", "pertumbuhan"],
-        "ja": ["バランス", "降伏", "成長"],
-        "th": ["ความสมดุล", "การยอมจำนน", "การเติบโต"],
-        "ms": ["keseimbangan", "penyerahan", "pertumbuhan"]
+        "en": [
+          "balance",
+          "surrender",
+          "growth"
+        ],
+        "tr": [
+          "denge",
+          "teslimiyet",
+          "büyüme"
+        ],
+        "fr": [
+          "équilibre",
+          "abandon",
+          "croissance"
+        ],
+        "pt": [
+          "equilíbrio",
+          "rendição",
+          "crescimento"
+        ],
+        "nl": [
+          "balans",
+          "overgave",
+          "groei"
+        ],
+        "es": [
+          "equilibrio",
+          "rendición",
+          "crecimiento"
+        ],
+        "de": [
+          "gleichgewicht",
+          "hingabe",
+          "wachstum"
+        ],
+        "it": [
+          "equilibrio",
+          "abbandono",
+          "crescita"
+        ],
+        "ru": [
+          "баланс",
+          "сдача",
+          "рост"
+        ],
+        "id": [
+          "keseimbangan",
+          "penyerahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "バランス",
+          "降伏",
+          "成長"
+        ],
+        "th": [
+          "ความสมดุล",
+          "การยอมจำนน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keseimbangan",
+          "penyerahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2925,7 +4225,7 @@
         }
       }
     },
-       {
+    {
       "id": "growth_030",
       "category": "growth",
       "texts": {
@@ -2959,19 +4259,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "faith", "growth"],
-        "tr": ["cesaret", "inanç", "büyüme"],
-        "fr": ["courage", "foi", "croissance"],
-        "pt": ["coragem", "fé", "crescimento"],
-        "nl": ["moed", "geloof", "groei"],
-        "es": ["coraje", "fe", "crecimiento"],
-        "de": ["mut", "glaube", "wachstum"],
-        "it": ["coraggio", "fede", "crescita"],
-        "ru": ["смелость", "вера", "рост"],
-        "id": ["keberanian", "keimanan", "pertumbuhan"],
-        "ja": ["勇気", "信仰", "成長"],
-        "th": ["ความกล้า", "ศรัทธา", "การเติบโต"],
-        "ms": ["keberanian", "keimanan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "faith",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "inanç",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "foi",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "fé",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "geloof",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "fe",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "glaube",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "fede",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "вера",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "keimanan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "信仰",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ศรัทธา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "keimanan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3076,19 +4428,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "perseverance", "growth"],
-        "tr": ["hayaller", "sebat", "büyüme"],
-        "fr": ["rêves", "persévérance", "croissance"],
-        "pt": ["sonhos", "perseverança", "crescimento"],
-        "nl": ["dromen", "volharding", "groei"],
-        "es": ["sueños", "perseverancia", "crecimiento"],
-        "de": ["träume", "ausdauer", "wachstum"],
-        "it": ["sogni", "perseveranza", "crescita"],
-        "ru": ["мечты", "настойчивость", "рост"],
-        "id": ["mimpi", "ketekunan", "pertumbuhan"],
-        "ja": ["夢", "持続", "成長"],
-        "th": ["ความฝัน", "ความพากเพียร", "การเติบโต"],
-        "ms": ["mimpi", "ketabahan", "pertumbuhan"]
+        "en": [
+          "dreams",
+          "perseverance",
+          "growth"
+        ],
+        "tr": [
+          "hayaller",
+          "sebat",
+          "büyüme"
+        ],
+        "fr": [
+          "rêves",
+          "persévérance",
+          "croissance"
+        ],
+        "pt": [
+          "sonhos",
+          "perseverança",
+          "crescimento"
+        ],
+        "nl": [
+          "dromen",
+          "volharding",
+          "groei"
+        ],
+        "es": [
+          "sueños",
+          "perseverancia",
+          "crecimiento"
+        ],
+        "de": [
+          "träume",
+          "ausdauer",
+          "wachstum"
+        ],
+        "it": [
+          "sogni",
+          "perseveranza",
+          "crescita"
+        ],
+        "ru": [
+          "мечты",
+          "настойчивость",
+          "рост"
+        ],
+        "id": [
+          "mimpi",
+          "ketekunan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "夢",
+          "持続",
+          "成長"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความพากเพียร",
+          "การเติบโต"
+        ],
+        "ms": [
+          "mimpi",
+          "ketabahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3193,19 +4597,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "awareness", "growth"],
-        "tr": ["uyum", "farkındalık", "büyüme"],
-        "fr": ["harmonie", "conscience", "croissance"],
-        "pt": ["harmonia", "consciência", "crescimento"],
-        "nl": ["harmonie", "bewustzijn", "groei"],
-        "es": ["armonía", "conciencia", "crecimiento"],
-        "de": ["harmonie", "bewusstsein", "wachstum"],
-        "it": ["armonia", "consapevolezza", "crescita"],
-        "ru": ["гармония", "осознание", "рост"],
-        "id": ["harmoni", "kesadaran", "pertumbuhan"],
-        "ja": ["調和", "意識", "成長"],
-        "th": ["ความกลมกลืน", "การตระหนักรู้", "การเติบโต"],
-        "ms": ["harmoni", "kesedaran", "pertumbuhan"]
+        "en": [
+          "harmony",
+          "awareness",
+          "growth"
+        ],
+        "tr": [
+          "uyum",
+          "farkındalık",
+          "büyüme"
+        ],
+        "fr": [
+          "harmonie",
+          "conscience",
+          "croissance"
+        ],
+        "pt": [
+          "harmonia",
+          "consciência",
+          "crescimento"
+        ],
+        "nl": [
+          "harmonie",
+          "bewustzijn",
+          "groei"
+        ],
+        "es": [
+          "armonía",
+          "conciencia",
+          "crecimiento"
+        ],
+        "de": [
+          "harmonie",
+          "bewusstsein",
+          "wachstum"
+        ],
+        "it": [
+          "armonia",
+          "consapevolezza",
+          "crescita"
+        ],
+        "ru": [
+          "гармония",
+          "осознание",
+          "рост"
+        ],
+        "id": [
+          "harmoni",
+          "kesadaran",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "調和",
+          "意識",
+          "成長"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "การตระหนักรู้",
+          "การเติบโต"
+        ],
+        "ms": [
+          "harmoni",
+          "kesedaran",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3310,19 +4766,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["change", "resilience", "growth"],
-        "tr": ["değişim", "direnç", "büyüme"],
-        "fr": ["changement", "résilience", "croissance"],
-        "pt": ["mudança", "resiliência", "crescimento"],
-        "nl": ["verandering", "veerkracht", "groei"],
-        "es": ["cambio", "resiliencia", "crecimiento"],
-        "de": ["veränderung", "widerstandsfähigkeit", "wachstum"],
-        "it": ["cambiamento", "resilienza", "crescita"],
-        "ru": ["перемена", "устойчивость", "рост"],
-        "id": ["perubahan", "ketahanan", "pertumbuhan"],
-        "ja": ["変化", "回復力", "成長"],
-        "th": ["การเปลี่ยนแปลง", "ความยืดหยุ่น", "การเติบโต"],
-        "ms": ["perubahan", "ketahanan", "pertumbuhan"]
+        "en": [
+          "change",
+          "resilience",
+          "growth"
+        ],
+        "tr": [
+          "değişim",
+          "direnç",
+          "büyüme"
+        ],
+        "fr": [
+          "changement",
+          "résilience",
+          "croissance"
+        ],
+        "pt": [
+          "mudança",
+          "resiliência",
+          "crescimento"
+        ],
+        "nl": [
+          "verandering",
+          "veerkracht",
+          "groei"
+        ],
+        "es": [
+          "cambio",
+          "resiliencia",
+          "crecimiento"
+        ],
+        "de": [
+          "veränderung",
+          "widerstandsfähigkeit",
+          "wachstum"
+        ],
+        "it": [
+          "cambiamento",
+          "resilienza",
+          "crescita"
+        ],
+        "ru": [
+          "перемена",
+          "устойчивость",
+          "рост"
+        ],
+        "id": [
+          "perubahan",
+          "ketahanan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "変化",
+          "回復力",
+          "成長"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความยืดหยุ่น",
+          "การเติบโต"
+        ],
+        "ms": [
+          "perubahan",
+          "ketahanan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3427,19 +4935,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "fear", "growth"],
-        "tr": ["cesaret", "korku", "büyüme"],
-        "fr": ["courage", "peur", "croissance"],
-        "pt": ["coragem", "medo", "crescimento"],
-        "nl": ["moed", "angst", "groei"],
-        "es": ["coraje", "miedo", "crecimiento"],
-        "de": ["mut", "angst", "wachstum"],
-        "it": ["coraggio", "paura", "crescita"],
-        "ru": ["смелость", "страх", "рост"],
-        "id": ["keberanian", "ketakutan", "pertumbuhan"],
-        "ja": ["勇気", "恐怖", "成長"],
-        "th": ["ความกล้า", "ความกลัว", "การเติบโต"],
-        "ms": ["keberanian", "ketakutan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "fear",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "korku",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "peur",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "medo",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "angst",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "miedo",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "angst",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "paura",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "страх",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "ketakutan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "恐怖",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ความกลัว",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "ketakutan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3544,19 +5104,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "wisdom", "growth"],
-        "tr": ["sabır", "bilgelik", "büyüme"],
-        "fr": ["patience", "sagesse", "croissance"],
-        "pt": ["paciência", "sabedoria", "crescimento"],
-        "nl": ["geduld", "wijsheid", "groei"],
-        "es": ["paciencia", "sabiduría", "crecimiento"],
-        "de": ["geduld", "weisheit", "wachstum"],
-        "it": ["pazienza", "saggezza", "crescita"],
-        "ru": ["терпение", "мудрость", "рост"],
-        "id": ["kesabaran", "kebijaksanaan", "pertumbuhan"],
-        "ja": ["忍耐", "知恵", "成長"],
-        "th": ["ความอดทน", "ปัญญา", "การเติบโต"],
-        "ms": ["kesabaran", "kebijaksanaan", "pertumbuhan"]
+        "en": [
+          "patience",
+          "wisdom",
+          "growth"
+        ],
+        "tr": [
+          "sabır",
+          "bilgelik",
+          "büyüme"
+        ],
+        "fr": [
+          "patience",
+          "sagesse",
+          "croissance"
+        ],
+        "pt": [
+          "paciência",
+          "sabedoria",
+          "crescimento"
+        ],
+        "nl": [
+          "geduld",
+          "wijsheid",
+          "groei"
+        ],
+        "es": [
+          "paciencia",
+          "sabiduría",
+          "crecimiento"
+        ],
+        "de": [
+          "geduld",
+          "weisheit",
+          "wachstum"
+        ],
+        "it": [
+          "pazienza",
+          "saggezza",
+          "crescita"
+        ],
+        "ru": [
+          "терпение",
+          "мудрость",
+          "рост"
+        ],
+        "id": [
+          "kesabaran",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "忍耐",
+          "知恵",
+          "成長"
+        ],
+        "th": [
+          "ความอดทน",
+          "ปัญญา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kesabaran",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3661,19 +5273,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["balance", "heritage", "growth"],
-        "tr": ["denge", "miras", "büyüme"],
-        "fr": ["équilibre", "héritage", "croissance"],
-        "pt": ["equilíbrio", "herança", "crescimento"],
-        "nl": ["balans", "erfgoed", "groei"],
-        "es": ["equilibrio", "herencia", "crecimiento"],
-        "de": ["balance", "erbe", "wachstum"],
-        "it": ["equilibrio", "eredità", "crescita"],
-        "ru": ["баланс", "наследие", "рост"],
-        "id": ["keseimbangan", "warisan", "pertumbuhan"],
-        "ja": ["バランス", "遺産", "成長"],
-        "th": ["ความสมดุล", "มรดก", "การเติบโต"],
-        "ms": ["keseimbangan", "warisan", "pertumbuhan"]
+        "en": [
+          "balance",
+          "heritage",
+          "growth"
+        ],
+        "tr": [
+          "denge",
+          "miras",
+          "büyüme"
+        ],
+        "fr": [
+          "équilibre",
+          "héritage",
+          "croissance"
+        ],
+        "pt": [
+          "equilíbrio",
+          "herança",
+          "crescimento"
+        ],
+        "nl": [
+          "balans",
+          "erfgoed",
+          "groei"
+        ],
+        "es": [
+          "equilibrio",
+          "herencia",
+          "crecimiento"
+        ],
+        "de": [
+          "balance",
+          "erbe",
+          "wachstum"
+        ],
+        "it": [
+          "equilibrio",
+          "eredità",
+          "crescita"
+        ],
+        "ru": [
+          "баланс",
+          "наследие",
+          "рост"
+        ],
+        "id": [
+          "keseimbangan",
+          "warisan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "バランス",
+          "遺産",
+          "成長"
+        ],
+        "th": [
+          "ความสมดุล",
+          "มรดก",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keseimbangan",
+          "warisan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3778,19 +5442,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "self-doubt", "growth"],
-        "tr": ["cesaret", "öz-şüphe", "büyüme"],
-        "fr": ["courage", "doute de soi", "croissance"],
-        "pt": ["coragem", "autodúvida", "crescimento"],
-        "nl": ["moed", "zelf-twijfel", "groei"],
-        "es": ["coraje", "autoduda", "crecimiento"],
-        "de": ["mut", "selbstzweifel", "wachstum"],
-        "it": ["coraggio", "dubbio su se stessi", "crescita"],
-        "ru": ["смелость", "самосомнение", "рост"],
-        "id": ["keberanian", "keraguan diri", "pertumbuhan"],
-        "ja": ["勇気", "自己疑念", "成長"],
-        "th": ["ความกล้า", "ความสงสัยในตนเอง", "การเติบโต"],
-        "ms": ["keberanian", "keraguan diri", "pertumbuhan"]
+        "en": [
+          "courage",
+          "self-doubt",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "öz-şüphe",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "doute de soi",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "autodúvida",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "zelf-twijfel",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "autoduda",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "selbstzweifel",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "dubbio su se stessi",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "самосомнение",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "keraguan diri",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "自己疑念",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ความสงสัยในตนเอง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "keraguan diri",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3895,19 +5611,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "strength", "growth"],
-        "tr": ["direnç", "güç", "büyüme"],
-        "fr": ["résilience", "force", "croissance"],
-        "pt": ["resiliência", "força", "crescimento"],
-        "nl": ["veerkracht", "kracht", "groei"],
-        "es": ["resiliencia", "fuerza", "crecimiento"],
-        "de": ["widerstandsfähigkeit", "kraft", "wachstum"],
-        "it": ["resilienza", "forza", "crescita"],
-        "ru": ["устойчивость", "сила", "рост"],
-        "id": ["ketahanan", "kekuatan", "pertumbuhan"],
-        "ja": ["回復力", "力", "成長"],
-        "th": ["ความยืดหยุ่น", "พลัง", "การเติบโต"],
-        "ms": ["ketahanan", "kekuatan", "pertumbuhan"]
+        "en": [
+          "resilience",
+          "strength",
+          "growth"
+        ],
+        "tr": [
+          "direnç",
+          "güç",
+          "büyüme"
+        ],
+        "fr": [
+          "résilience",
+          "force",
+          "croissance"
+        ],
+        "pt": [
+          "resiliência",
+          "força",
+          "crescimento"
+        ],
+        "nl": [
+          "veerkracht",
+          "kracht",
+          "groei"
+        ],
+        "es": [
+          "resiliencia",
+          "fuerza",
+          "crecimiento"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "kraft",
+          "wachstum"
+        ],
+        "it": [
+          "resilienza",
+          "forza",
+          "crescita"
+        ],
+        "ru": [
+          "устойчивость",
+          "сила",
+          "рост"
+        ],
+        "id": [
+          "ketahanan",
+          "kekuatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "回復力",
+          "力",
+          "成長"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "พลัง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketahanan",
+          "kekuatan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4012,19 +5780,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["grace", "purpose", "growth"],
-        "tr": ["zarafet", "amaç", "büyüme"],
-        "fr": ["grâce", "but", "croissance"],
-        "pt": ["graça", "propósito", "crescimento"],
-        "nl": ["gratie", "doel", "groei"],
-        "es": ["gracia", "propósito", "crecimiento"],
-        "de": ["anmut", "ziel", "wachstum"],
-        "it": ["grazia", "scopo", "crescita"],
-        "ru": ["грация", "цель", "рост"],
-        "id": ["keanggunan", "tujuan", "pertumbuhan"],
-        "ja": ["優雅さ", "目的", "成長"],
-        "th": ["ความสง่างาม", "จุดมุ่งหมาย", "การเติบโต"],
-        "ms": ["keanggunan", "tujuan", "pertumbuhan"]
+        "en": [
+          "grace",
+          "purpose",
+          "growth"
+        ],
+        "tr": [
+          "zarafet",
+          "amaç",
+          "büyüme"
+        ],
+        "fr": [
+          "grâce",
+          "but",
+          "croissance"
+        ],
+        "pt": [
+          "graça",
+          "propósito",
+          "crescimento"
+        ],
+        "nl": [
+          "gratie",
+          "doel",
+          "groei"
+        ],
+        "es": [
+          "gracia",
+          "propósito",
+          "crecimiento"
+        ],
+        "de": [
+          "anmut",
+          "ziel",
+          "wachstum"
+        ],
+        "it": [
+          "grazia",
+          "scopo",
+          "crescita"
+        ],
+        "ru": [
+          "грация",
+          "цель",
+          "рост"
+        ],
+        "id": [
+          "keanggunan",
+          "tujuan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "優雅さ",
+          "目的",
+          "成長"
+        ],
+        "th": [
+          "ความสง่างาม",
+          "จุดมุ่งหมาย",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keanggunan",
+          "tujuan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4095,7 +5915,7 @@
         }
       }
     },
-     {
+    {
       "id": "growth_040",
       "category": "growth",
       "texts": {
@@ -4129,19 +5949,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["curiosity", "effort", "growth"],
-        "tr": ["merak", "çaba", "büyüme"],
-        "fr": ["curiosité", "effort", "croissance"],
-        "pt": ["curiosidade", "esforço", "crescimento"],
-        "nl": ["nieuwsgierigheid", "inspanning", "groei"],
-        "es": ["curiosidad", "esfuerzo", "crecimiento"],
-        "de": ["neugier", "anstrengung", "wachstum"],
-        "it": ["curiosità", "sforzo", "crescita"],
-        "ru": ["любопытство", "усилие", "рост"],
-        "id": ["rasa ingin tahu", "usaha", "pertumbuhan"],
-        "ja": ["好奇心", "努力", "成長"],
-        "th": ["ความอยากรู้", "ความพยายาม", "การเติบโต"],
-        "ms": ["keingintahuan", "usaha", "pertumbuhan"]
+        "en": [
+          "curiosity",
+          "effort",
+          "growth"
+        ],
+        "tr": [
+          "merak",
+          "çaba",
+          "büyüme"
+        ],
+        "fr": [
+          "curiosité",
+          "effort",
+          "croissance"
+        ],
+        "pt": [
+          "curiosidade",
+          "esforço",
+          "crescimento"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "inspanning",
+          "groei"
+        ],
+        "es": [
+          "curiosidad",
+          "esfuerzo",
+          "crecimiento"
+        ],
+        "de": [
+          "neugier",
+          "anstrengung",
+          "wachstum"
+        ],
+        "it": [
+          "curiosità",
+          "sforzo",
+          "crescita"
+        ],
+        "ru": [
+          "любопытство",
+          "усилие",
+          "рост"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "usaha",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "好奇心",
+          "努力",
+          "成長"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "ความพยายาม",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keingintahuan",
+          "usaha",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4246,19 +6118,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "renewal", "growth"],
-        "tr": ["cesaret", "yenilenme", "büyüme"],
-        "fr": ["courage", "renouveau", "croissance"],
-        "pt": ["coragem", "renovação", "crescimento"],
-        "nl": ["moed", "vernieuwing", "groei"],
-        "es": ["coraje", "renovación", "crecimiento"],
-        "de": ["mut", "erneuerung", "wachstum"],
-        "it": ["coraggio", "rinnovamento", "crescita"],
-        "ru": ["смелость", "обновление", "рост"],
-        "id": ["keberanian", "pembaruan", "pertumbuhan"],
-        "ja": ["勇気", "再生", "成長"],
-        "th": ["ความกล้า", "การฟื้นฟู", "การเติบโต"],
-        "ms": ["keberanian", "pembaharuan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "renewal",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "yenilenme",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "renouveau",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "renovação",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "vernieuwing",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "renovación",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "erneuerung",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "rinnovamento",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "обновление",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "pembaruan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "再生",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "การฟื้นฟู",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "pembaharuan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4363,19 +6287,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "faith", "growth"],
-        "tr": ["cesaret", "inanç", "büyüme"],
-        "fr": ["courage", "foi", "croissance"],
-        "pt": ["coragem", "fé", "crescimento"],
-        "nl": ["moed", "geloof", "groei"],
-        "es": ["coraje", "fe", "crecimiento"],
-        "de": ["mut", "glaube", "wachstum"],
-        "it": ["coraggio", "fede", "crescita"],
-        "ru": ["смелость", "вера", "рост"],
-        "id": ["keberanian", "keimanan", "pertumbuhan"],
-        "ja": ["勇気", "信仰", "成長"],
-        "th": ["ความกล้า", "ศรัทธา", "การเติบโต"],
-        "ms": ["keberanian", "keimanan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "faith",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "inanç",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "foi",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "fé",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "geloof",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "fe",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "glaube",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "fede",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "вера",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "keimanan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "信仰",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "ศรัทธา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "keimanan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4480,19 +6456,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "reality", "growth"],
-        "tr": ["hayaller", "gerçeklik", "büyüme"],
-        "fr": ["rêves", "réalité", "croissance"],
-        "pt": ["sonhos", "realidade", "crescimento"],
-        "nl": ["dromen", "realiteit", "groei"],
-        "es": ["sueños", "realidad", "crecimiento"],
-        "de": ["träume", "realität", "wachstum"],
-        "it": ["sogni", "realtà", "crescita"],
-        "ru": ["мечты", "реальность", "рост"],
-        "id": ["mimpi", "realiti", "pertumbuhan"],
-        "ja": ["夢", "現実", "成長"],
-        "th": ["ความฝัน", "ความเป็นจริง", "การเติบโต"],
-        "ms": ["mimpi", "realiti", "pertumbuhan"]
+        "en": [
+          "dreams",
+          "reality",
+          "growth"
+        ],
+        "tr": [
+          "hayaller",
+          "gerçeklik",
+          "büyüme"
+        ],
+        "fr": [
+          "rêves",
+          "réalité",
+          "croissance"
+        ],
+        "pt": [
+          "sonhos",
+          "realidade",
+          "crescimento"
+        ],
+        "nl": [
+          "dromen",
+          "realiteit",
+          "groei"
+        ],
+        "es": [
+          "sueños",
+          "realidad",
+          "crecimiento"
+        ],
+        "de": [
+          "träume",
+          "realität",
+          "wachstum"
+        ],
+        "it": [
+          "sogni",
+          "realtà",
+          "crescita"
+        ],
+        "ru": [
+          "мечты",
+          "реальность",
+          "рост"
+        ],
+        "id": [
+          "mimpi",
+          "realiti",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "夢",
+          "現実",
+          "成長"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความเป็นจริง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "mimpi",
+          "realiti",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4597,19 +6625,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["change", "authenticity", "growth"],
-        "tr": ["değişim", "otantiklik", "büyüme"],
-        "fr": ["changement", "authenticité", "croissance"],
-        "pt": ["mudança", "autenticidade", "crescimento"],
-        "nl": ["verandering", "authenticiteit", "groei"],
-        "es": ["cambio", "autenticidad", "crecimiento"],
-        "de": ["veränderung", "authentizität", "wachstum"],
-        "it": ["cambiamento", "autenticità", "crescita"],
-        "ru": ["изменение", "аутентичность", "рост"],
-        "id": ["perubahan", "keaslian", "pertumbuhan"],
-        "ja": ["変化", "本物", "成長"],
-        "th": ["การเปลี่ยนแปลง", "ความแท้จริง", "การเติบโต"],
-        "ms": ["perubahan", "keaslian", "pertumbuhan"]
+        "en": [
+          "change",
+          "authenticity",
+          "growth"
+        ],
+        "tr": [
+          "değişim",
+          "otantiklik",
+          "büyüme"
+        ],
+        "fr": [
+          "changement",
+          "authenticité",
+          "croissance"
+        ],
+        "pt": [
+          "mudança",
+          "autenticidade",
+          "crescimento"
+        ],
+        "nl": [
+          "verandering",
+          "authenticiteit",
+          "groei"
+        ],
+        "es": [
+          "cambio",
+          "autenticidad",
+          "crecimiento"
+        ],
+        "de": [
+          "veränderung",
+          "authentizität",
+          "wachstum"
+        ],
+        "it": [
+          "cambiamento",
+          "autenticità",
+          "crescita"
+        ],
+        "ru": [
+          "изменение",
+          "аутентичность",
+          "рост"
+        ],
+        "id": [
+          "perubahan",
+          "keaslian",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "変化",
+          "本物",
+          "成長"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความแท้จริง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "perubahan",
+          "keaslian",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4714,19 +6794,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "purpose", "growth"],
-        "tr": ["direnç", "amaç", "büyüme"],
-        "fr": ["résilience", "but", "croissance"],
-        "pt": ["resiliência", "propósito", "crescimento"],
-        "nl": ["veerkracht", "doel", "groei"],
-        "es": ["resiliencia", "propósito", "crecimiento"],
-        "de": ["widerstandsfähigkeit", "ziel", "wachstum"],
-        "it": ["resilienza", "scopo", "crescita"],
-        "ru": ["устойчивость", "цель", "рост"],
-        "id": ["ketahanan", "tujuan", "pertumbuhan"],
-        "ja": ["回復力", "目的", "成長"],
-        "th": ["ความยืดหยุ่น", "จุดมุ่งหมาย", "การเติบโต"],
-        "ms": ["ketahanan", "tujuan", "pertumbuhan"]
+        "en": [
+          "resilience",
+          "purpose",
+          "growth"
+        ],
+        "tr": [
+          "direnç",
+          "amaç",
+          "büyüme"
+        ],
+        "fr": [
+          "résilience",
+          "but",
+          "croissance"
+        ],
+        "pt": [
+          "resiliência",
+          "propósito",
+          "crescimento"
+        ],
+        "nl": [
+          "veerkracht",
+          "doel",
+          "groei"
+        ],
+        "es": [
+          "resiliencia",
+          "propósito",
+          "crecimiento"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "ziel",
+          "wachstum"
+        ],
+        "it": [
+          "resilienza",
+          "scopo",
+          "crescita"
+        ],
+        "ru": [
+          "устойчивость",
+          "цель",
+          "рост"
+        ],
+        "id": [
+          "ketahanan",
+          "tujuan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "回復力",
+          "目的",
+          "成長"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "จุดมุ่งหมาย",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketahanan",
+          "tujuan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4797,7 +6929,7 @@
         }
       }
     },
-        {
+    {
       "id": "growth_047",
       "category": "growth",
       "texts": {
@@ -4831,19 +6963,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "strength", "growth"],
-        "tr": ["direnç", "güç", "büyüme"],
-        "fr": ["résilience", "force", "croissance"],
-        "pt": ["resiliência", "força", "crescimento"],
-        "nl": ["veerkracht", "kracht", "groei"],
-        "es": ["resiliencia", "fuerza", "crecimiento"],
-        "de": ["widerstandsfähigkeit", "kraft", "wachstum"],
-        "it": ["resilienza", "forza", "crescita"],
-        "ru": ["устойчивость", "сила", "рост"],
-        "id": ["ketahanan", "kekuatan", "pertumbuhan"],
-        "ja": ["回復力", "力", "成長"],
-        "th": ["ความยืดหยุ่น", "พลัง", "การเติบโต"],
-        "ms": ["ketahanan", "kekuatan", "pertumbuhan"]
+        "en": [
+          "resilience",
+          "strength",
+          "growth"
+        ],
+        "tr": [
+          "direnç",
+          "güç",
+          "büyüme"
+        ],
+        "fr": [
+          "résilience",
+          "force",
+          "croissance"
+        ],
+        "pt": [
+          "resiliência",
+          "força",
+          "crescimento"
+        ],
+        "nl": [
+          "veerkracht",
+          "kracht",
+          "groei"
+        ],
+        "es": [
+          "resiliencia",
+          "fuerza",
+          "crecimiento"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "kraft",
+          "wachstum"
+        ],
+        "it": [
+          "resilienza",
+          "forza",
+          "crescita"
+        ],
+        "ru": [
+          "устойчивость",
+          "сила",
+          "рост"
+        ],
+        "id": [
+          "ketahanan",
+          "kekuatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "回復力",
+          "力",
+          "成長"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "พลัง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketahanan",
+          "kekuatan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4948,19 +7132,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["progress", "heritage", "growth"],
-        "tr": ["ilerleme", "miras", "büyüme"],
-        "fr": ["progrès", "héritage", "croissance"],
-        "pt": ["progresso", "herança", "crescimento"],
-        "nl": ["vooruitgang", "erfgoed", "groei"],
-        "es": ["progreso", "herencia", "crecimiento"],
-        "de": ["fortschritt", "erbe", "wachstum"],
-        "it": ["progresso", "eredità", "crescita"],
-        "ru": ["прогресс", "наследие", "рост"],
-        "id": ["kemajuan", "warisan", "pertumbuhan"],
-        "ja": ["進歩", "遺産", "成長"],
-        "th": ["ความก้าวหน้า", "มรดก", "การเติบโต"],
-        "ms": ["kemajuan", "warisan", "pertumbuhan"]
+        "en": [
+          "progress",
+          "heritage",
+          "growth"
+        ],
+        "tr": [
+          "ilerleme",
+          "miras",
+          "büyüme"
+        ],
+        "fr": [
+          "progrès",
+          "héritage",
+          "croissance"
+        ],
+        "pt": [
+          "progresso",
+          "herança",
+          "crescimento"
+        ],
+        "nl": [
+          "vooruitgang",
+          "erfgoed",
+          "groei"
+        ],
+        "es": [
+          "progreso",
+          "herencia",
+          "crecimiento"
+        ],
+        "de": [
+          "fortschritt",
+          "erbe",
+          "wachstum"
+        ],
+        "it": [
+          "progresso",
+          "eredità",
+          "crescita"
+        ],
+        "ru": [
+          "прогресс",
+          "наследие",
+          "рост"
+        ],
+        "id": [
+          "kemajuan",
+          "warisan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "進歩",
+          "遺産",
+          "成長"
+        ],
+        "th": [
+          "ความก้าวหน้า",
+          "มรดก",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kemajuan",
+          "warisan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5065,19 +7301,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "self-discovery", "growth"],
-        "tr": ["cesaret", "öz-keşif", "büyüme"],
-        "fr": ["courage", "découverte de soi", "croissance"],
-        "pt": ["coragem", "autodescoberta", "crescimento"],
-        "nl": ["moed", "zelfontdekking", "groei"],
-        "es": ["coraje", "autodescubrimiento", "crecimiento"],
-        "de": ["mut", "selbstentdeckung", "wachstum"],
-        "it": ["coraggio", "scoperta di sé", "crescita"],
-        "ru": ["смелость", "самопознание", "рост"],
-        "id": ["keberanian", "penemuan diri", "pertumbuhan"],
-        "ja": ["勇気", "自己発見", "成長"],
-        "th": ["ความกล้า", "การค้นพบตนเอง", "การเติบโต"],
-        "ms": ["keberanian", "penemuan diri", "pertumbuhan"]
+        "en": [
+          "courage",
+          "self-discovery",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "öz-keşif",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "découverte de soi",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "autodescoberta",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "zelfontdekking",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "autodescubrimiento",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "selbstentdeckung",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "scoperta di sé",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "самопознание",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "penemuan diri",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "自己発見",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "การค้นพบตนเอง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "penemuan diri",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5182,19 +7470,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["learning", "future", "growth"],
-        "tr": ["öğrenme", "gelecek", "büyüme"],
-        "fr": ["apprentissage", "avenir", "croissance"],
-        "pt": ["aprendizado", "futuro", "crescimento"],
-        "nl": ["leren", "toekomst", "groei"],
-        "es": ["aprendizaje", "futuro", "crecimiento"],
-        "de": ["lernen", "zukunft", "wachstum"],
-        "it": ["apprendimento", "futuro", "crescita"],
-        "ru": ["обучение", "будущее", "рост"],
-        "id": ["pembelajaran", "masa depan", "pertumbuhan"],
-        "ja": ["学習", "未来", "成長"],
-        "th": ["การเรียนรู้", "อนาคต", "การเติบโต"],
-        "ms": ["pembelajaran", "masa depan", "pertumbuhan"]
+        "en": [
+          "learning",
+          "future",
+          "growth"
+        ],
+        "tr": [
+          "öğrenme",
+          "gelecek",
+          "büyüme"
+        ],
+        "fr": [
+          "apprentissage",
+          "avenir",
+          "croissance"
+        ],
+        "pt": [
+          "aprendizado",
+          "futuro",
+          "crescimento"
+        ],
+        "nl": [
+          "leren",
+          "toekomst",
+          "groei"
+        ],
+        "es": [
+          "aprendizaje",
+          "futuro",
+          "crecimiento"
+        ],
+        "de": [
+          "lernen",
+          "zukunft",
+          "wachstum"
+        ],
+        "it": [
+          "apprendimento",
+          "futuro",
+          "crescita"
+        ],
+        "ru": [
+          "обучение",
+          "будущее",
+          "рост"
+        ],
+        "id": [
+          "pembelajaran",
+          "masa depan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "学習",
+          "未来",
+          "成長"
+        ],
+        "th": [
+          "การเรียนรู้",
+          "อนาคต",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pembelajaran",
+          "masa depan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5299,19 +7639,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["failure", "wisdom", "growth"],
-        "tr": ["başarısızlık", "bilgelik", "büyüme"],
-        "fr": ["échec", "sagesse", "croissance"],
-        "pt": ["fracasso", "sabedoria", "crescimento"],
-        "nl": ["mislukking", "wijsheid", "groei"],
-        "es": ["fracaso", "sabiduría", "crecimiento"],
-        "de": ["scheitern", "weisheit", "wachstum"],
-        "it": ["fallimento", "saggezza", "crescita"],
-        "ru": ["неудача", "мудрость", "рост"],
-        "id": ["kegagalan", "kebijaksanaan", "pertumbuhan"],
-        "ja": ["失敗", "智慧", "成長"],
-        "th": ["ความล้มเหลว", "ปัญญา", "การเติบโต"],
-        "ms": ["kegagalan", "kebijaksanaan", "pertumbuhan"]
+        "en": [
+          "failure",
+          "wisdom",
+          "growth"
+        ],
+        "tr": [
+          "başarısızlık",
+          "bilgelik",
+          "büyüme"
+        ],
+        "fr": [
+          "échec",
+          "sagesse",
+          "croissance"
+        ],
+        "pt": [
+          "fracasso",
+          "sabedoria",
+          "crescimento"
+        ],
+        "nl": [
+          "mislukking",
+          "wijsheid",
+          "groei"
+        ],
+        "es": [
+          "fracaso",
+          "sabiduría",
+          "crecimiento"
+        ],
+        "de": [
+          "scheitern",
+          "weisheit",
+          "wachstum"
+        ],
+        "it": [
+          "fallimento",
+          "saggezza",
+          "crescita"
+        ],
+        "ru": [
+          "неудача",
+          "мудрость",
+          "рост"
+        ],
+        "id": [
+          "kegagalan",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "失敗",
+          "智慧",
+          "成長"
+        ],
+        "th": [
+          "ความล้มเหลว",
+          "ปัญญา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kegagalan",
+          "kebijaksanaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5382,7 +7774,7 @@
         }
       }
     },
-     {
+    {
       "id": "growth_052",
       "category": "growth",
       "texts": {
@@ -5416,19 +7808,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["intuition", "guidance", "growth"],
-        "tr": ["sezgi", "rehberlik", "büyüme"],
-        "fr": ["intuition", "guidance", "croissance"],
-        "pt": ["intuição", "orientação", "crescimento"],
-        "nl": ["intuïtie", "begeleiding", "groei"],
-        "es": ["intuición", "guía", "crecimiento"],
-        "de": ["intuition", "führung", "wachstum"],
-        "it": ["intuizione", "guida", "crescita"],
-        "ru": ["интуиция", "руководство", "рост"],
-        "id": ["intuisi", "bimbingan", "pertumbuhan"],
-        "ja": ["直感", "指導", "成長"],
-        "th": ["สัญชาตญาณ", "การนำทาง", "การเติบโต"],
-        "ms": ["intuisi", "bimbingan", "pertumbuhan"]
+        "en": [
+          "intuition",
+          "guidance",
+          "growth"
+        ],
+        "tr": [
+          "sezgi",
+          "rehberlik",
+          "büyüme"
+        ],
+        "fr": [
+          "intuition",
+          "guidance",
+          "croissance"
+        ],
+        "pt": [
+          "intuição",
+          "orientação",
+          "crescimento"
+        ],
+        "nl": [
+          "intuïtie",
+          "begeleiding",
+          "groei"
+        ],
+        "es": [
+          "intuición",
+          "guía",
+          "crecimiento"
+        ],
+        "de": [
+          "intuition",
+          "führung",
+          "wachstum"
+        ],
+        "it": [
+          "intuizione",
+          "guida",
+          "crescita"
+        ],
+        "ru": [
+          "интуиция",
+          "руководство",
+          "рост"
+        ],
+        "id": [
+          "intuisi",
+          "bimbingan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "直感",
+          "指導",
+          "成長"
+        ],
+        "th": [
+          "สัญชาตญาณ",
+          "การนำทาง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "intuisi",
+          "bimbingan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5533,19 +7977,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["hope", "struggle", "growth"],
-        "tr": ["umut", "mücadele", "büyüme"],
-        "fr": ["espoir", "lutte", "croissance"],
-        "pt": ["esperança", "luta", "crescimento"],
-        "nl": ["hoop", "strijd", "groei"],
-        "es": ["esperanza", "lucha", "crecimiento"],
-        "de": ["hoffnung", "kampf", "wachstum"],
-        "it": ["speranza", "lotta", "crescita"],
-        "ru": ["надежда", "борьба", "рост"],
-        "id": ["harapan", "perjuangan", "pertumbuhan"],
-        "ja": ["希望", "闘争", "成長"],
-        "th": ["ความหวัง", "การต่อสู้", "การเติบโต"],
-        "ms": ["harapan", "perjuangan", "pertumbuhan"]
+        "en": [
+          "hope",
+          "struggle",
+          "growth"
+        ],
+        "tr": [
+          "umut",
+          "mücadele",
+          "büyüme"
+        ],
+        "fr": [
+          "espoir",
+          "lutte",
+          "croissance"
+        ],
+        "pt": [
+          "esperança",
+          "luta",
+          "crescimento"
+        ],
+        "nl": [
+          "hoop",
+          "strijd",
+          "groei"
+        ],
+        "es": [
+          "esperanza",
+          "lucha",
+          "crecimiento"
+        ],
+        "de": [
+          "hoffnung",
+          "kampf",
+          "wachstum"
+        ],
+        "it": [
+          "speranza",
+          "lotta",
+          "crescita"
+        ],
+        "ru": [
+          "надежда",
+          "борьба",
+          "рост"
+        ],
+        "id": [
+          "harapan",
+          "perjuangan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "希望",
+          "闘争",
+          "成長"
+        ],
+        "th": [
+          "ความหวัง",
+          "การต่อสู้",
+          "การเติบโต"
+        ],
+        "ms": [
+          "harapan",
+          "perjuangan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5650,19 +8146,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["persistence", "resilience", "growth"],
-        "tr": ["sebat", "dir Anastasia", "büyüme"],
-        "fr": ["persévérance", "résilience", "croissance"],
-        "pt": ["perseverança", "resiliência", "crescimento"],
-        "nl": ["volharding", "veerkracht", "groei"],
-        "es": ["persistencia", "resiliencia", "crecimiento"],
-        "de": ["ausdauer", "widerstandsfähigkeit", "wachstum"],
-        "it": ["perseveranza", "resilienza", "crescita"],
-        "ru": ["упорство", "устойчивость", "рост"],
-        "id": ["ketekunan", "ketahanan", "pertumbuhan"],
-        "ja": ["持続性", "レジリエンス", "成長"],
-        "th": ["ความพากเพียร", "ความยืดหยุ่น", "การเติบโต"],
-        "ms": ["ketabahan", "ketahanan", "pertumbuhan"]
+        "en": [
+          "persistence",
+          "resilience",
+          "growth"
+        ],
+        "tr": [
+          "sebat",
+          "dir Anastasia",
+          "büyüme"
+        ],
+        "fr": [
+          "persévérance",
+          "résilience",
+          "croissance"
+        ],
+        "pt": [
+          "perseverança",
+          "resiliência",
+          "crescimento"
+        ],
+        "nl": [
+          "volharding",
+          "veerkracht",
+          "groei"
+        ],
+        "es": [
+          "persistencia",
+          "resiliencia",
+          "crecimiento"
+        ],
+        "de": [
+          "ausdauer",
+          "widerstandsfähigkeit",
+          "wachstum"
+        ],
+        "it": [
+          "perseveranza",
+          "resilienza",
+          "crescita"
+        ],
+        "ru": [
+          "упорство",
+          "устойчивость",
+          "рост"
+        ],
+        "id": [
+          "ketekunan",
+          "ketahanan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "持続性",
+          "レジリエンス",
+          "成長"
+        ],
+        "th": [
+          "ความพากเพียร",
+          "ความยืดหยุ่น",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketabahan",
+          "ketahanan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5767,19 +8315,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "renewal", "growth"],
-        "tr": ["cesaret", "yenilenme", "büyüme"],
-        "fr": ["courage", "renouveau", "croissance"],
-        "pt": ["coragem", "renovação", "crescimento"],
-        "nl": ["moed", "vernieuwing", "groei"],
-        "es": ["coraje", "renovación", "crecimiento"],
-        "de": ["mut", "erneuerung", "wachstum"],
-        "it": ["coraggio", "rinnovamento", "crescita"],
-        "ru": ["смелость", "обновление", "рост"],
-        "id": ["keberanian", "pembaruan", "pertumbuhan"],
-        "ja": ["勇気", "再生", "成長"],
-        "th": ["ความกล้า", "การเริ่มใหม่", "การเติบโต"],
-        "ms": ["keberanian", "pembaharuan", "pertumbuhan"]
+        "en": [
+          "courage",
+          "renewal",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "yenilenme",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "renouveau",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "renovação",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "vernieuwing",
+          "groei"
+        ],
+        "es": [
+          "coraje",
+          "renovación",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "erneuerung",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "rinnovamento",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "обновление",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "pembaruan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "再生",
+          "成長"
+        ],
+        "th": [
+          "ความกล้า",
+          "การเริ่มใหม่",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "pembaharuan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5884,19 +8484,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["effort", "time", "growth"],
-        "tr": ["çaba", "zaman", "büyüme"],
-        "fr": ["effort", "temps", "croissance"],
-        "pt": ["esforço", "tempo", "crescimento"],
-        "nl": ["inspanning", "tijd", "groei"],
-        "es": ["esfuerzo", "tiempo", "crecimiento"],
-        "de": ["anstrengung", "zeit", "wachstum"],
-        "it": ["sforzo", "tempo", "crescita"],
-        "ru": ["усилие", "время", "рост"],
-        "id": ["usaha", "waktu", "pertumbuhan"],
-        "ja": ["努力", "時間", "成長"],
-        "th": ["ความพยายาม", "เวลา", "การเติบโต"],
-        "ms": ["usaha", "masa", "pertumbuhan"]
+        "en": [
+          "effort",
+          "time",
+          "growth"
+        ],
+        "tr": [
+          "çaba",
+          "zaman",
+          "büyüme"
+        ],
+        "fr": [
+          "effort",
+          "temps",
+          "croissance"
+        ],
+        "pt": [
+          "esforço",
+          "tempo",
+          "crescimento"
+        ],
+        "nl": [
+          "inspanning",
+          "tijd",
+          "groei"
+        ],
+        "es": [
+          "esfuerzo",
+          "tiempo",
+          "crecimiento"
+        ],
+        "de": [
+          "anstrengung",
+          "zeit",
+          "wachstum"
+        ],
+        "it": [
+          "sforzo",
+          "tempo",
+          "crescita"
+        ],
+        "ru": [
+          "усилие",
+          "время",
+          "рост"
+        ],
+        "id": [
+          "usaha",
+          "waktu",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "努力",
+          "時間",
+          "成長"
+        ],
+        "th": [
+          "ความพยายาม",
+          "เวลา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "usaha",
+          "masa",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6001,19 +8653,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "foundation", "growth"],
-        "tr": ["direnç", "temel", "büyüme"],
-        "fr": ["résilience", "fondation", "croissance"],
-        "pt": ["resiliência", "fundação", "crescimento"],
-        "nl": ["veerkracht", "fundament", "groei"],
-        "es": ["resiliencia", "fundación", "crecimiento"],
-        "de": ["widerstandsfähigkeit", "grundlage", "wachstum"],
-        "it": ["resilienza", "fondazione", "crescita"],
-        "ru": ["устойчивость", "основа", "рост"],
-        "id": ["ketahanan", "dasar", "pertumbuhan"],
-        "ja": ["レジリエンス", "基盤", "成長"],
-        "th": ["ความยืดหยุ่น", "รากฐาน", "การเติบโต"],
-        "ms": ["ketahanan", "asas", "pertumbuhan"]
+        "en": [
+          "resilience",
+          "foundation",
+          "growth"
+        ],
+        "tr": [
+          "direnç",
+          "temel",
+          "büyüme"
+        ],
+        "fr": [
+          "résilience",
+          "fondation",
+          "croissance"
+        ],
+        "pt": [
+          "resiliência",
+          "fundação",
+          "crescimento"
+        ],
+        "nl": [
+          "veerkracht",
+          "fundament",
+          "groei"
+        ],
+        "es": [
+          "resiliencia",
+          "fundación",
+          "crecimiento"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "grundlage",
+          "wachstum"
+        ],
+        "it": [
+          "resilienza",
+          "fondazione",
+          "crescita"
+        ],
+        "ru": [
+          "устойчивость",
+          "основа",
+          "рост"
+        ],
+        "id": [
+          "ketahanan",
+          "dasar",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "レジリエンス",
+          "基盤",
+          "成長"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "รากฐาน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketahanan",
+          "asas",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6118,19 +8822,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["curiosity", "doubt", "growth"],
-        "tr": ["merak", "şüphe", "büyüme"],
-        "fr": ["curiosité", "doute", "croissance"],
-        "pt": ["curiosidade", "dúvida", "crescimento"],
-        "nl": ["nieuwsgierigheid", "twijfel", "groei"],
-        "es": ["curiosidad", "duda", "crecimiento"],
-        "de": ["neugier", "zweifel", "wachstum"],
-        "it": ["curiosità", "dubbio", "crescita"],
-        "ru": ["любопытство", "сомнение", "рост"],
-        "id": ["rasa ingin tahu", "keraguan", "pertumbuhan"],
-        "ja": ["好奇心", "疑念", "成長"],
-        "th": ["ความอยากรู้", "ความสงสัย", "การเติบโต"],
-        "ms": ["rasa ingin tahu", "keraguan", "pertumbuhan"]
+        "en": [
+          "curiosity",
+          "doubt",
+          "growth"
+        ],
+        "tr": [
+          "merak",
+          "şüphe",
+          "büyüme"
+        ],
+        "fr": [
+          "curiosité",
+          "doute",
+          "croissance"
+        ],
+        "pt": [
+          "curiosidade",
+          "dúvida",
+          "crescimento"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "twijfel",
+          "groei"
+        ],
+        "es": [
+          "curiosidad",
+          "duda",
+          "crecimiento"
+        ],
+        "de": [
+          "neugier",
+          "zweifel",
+          "wachstum"
+        ],
+        "it": [
+          "curiosità",
+          "dubbio",
+          "crescita"
+        ],
+        "ru": [
+          "любопытство",
+          "сомнение",
+          "рост"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "keraguan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "好奇心",
+          "疑念",
+          "成長"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "ความสงสัย",
+          "การเติบโต"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "keraguan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6235,19 +8991,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["opportunity", "change", "growth"],
-        "tr": ["fırsat", "değişim", "büyüme"],
-        "fr": ["opportunité", "changement", "croissance"],
-        "pt": ["oportunidade", "mudança", "crescimento"],
-        "nl": ["kans", "verandering", "groei"],
-        "es": ["oportunidad", "cambio", "crecimiento"],
-        "de": ["gelegenheit", "veränderung", "wachstum"],
-        "it": ["opportunità", "cambiamento", "crescita"],
-        "ru": ["возможность", "изменение", "рост"],
-        "id": ["peluang", "perubahan", "pertumbuhan"],
-        "ja": ["機会", "変化", "成長"],
-        "th": ["โอกาส", "การเปลี่ยนแปลง", "การเติบโต"],
-        "ms": ["peluang", "perubahan", "pertumbuhan"]
+        "en": [
+          "opportunity",
+          "change",
+          "growth"
+        ],
+        "tr": [
+          "fırsat",
+          "değişim",
+          "büyüme"
+        ],
+        "fr": [
+          "opportunité",
+          "changement",
+          "croissance"
+        ],
+        "pt": [
+          "oportunidade",
+          "mudança",
+          "crescimento"
+        ],
+        "nl": [
+          "kans",
+          "verandering",
+          "groei"
+        ],
+        "es": [
+          "oportunidad",
+          "cambio",
+          "crecimiento"
+        ],
+        "de": [
+          "gelegenheit",
+          "veränderung",
+          "wachstum"
+        ],
+        "it": [
+          "opportunità",
+          "cambiamento",
+          "crescita"
+        ],
+        "ru": [
+          "возможность",
+          "изменение",
+          "рост"
+        ],
+        "id": [
+          "peluang",
+          "perubahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "機会",
+          "変化",
+          "成長"
+        ],
+        "th": [
+          "โอกาส",
+          "การเปลี่ยนแปลง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "peluang",
+          "perubahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6352,19 +9160,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "time", "growth"],
-        "tr": ["sabır", "zaman", "büyüme"],
-        "fr": ["patience", "temps", "croissance"],
-        "pt": ["paciência", "tempo", "crescimento"],
-        "nl": ["geduld", "tijd", "groei"],
-        "es": ["paciencia", "tiempo", "crecimiento"],
-        "de": ["geduld", "zeit", "wachstum"],
-        "it": ["pazienza", "tempo", "crescita"],
-        "ru": ["терпение", "время", "рост"],
-        "id": ["kesabaran", "waktu", "pertumbuhan"],
-        "ja": ["忍耐", "時間", "成長"],
-        "th": ["ความอดทน", "เวลา", "การเติบโต"],
-        "ms": ["kesabaran", "masa", "pertumbuhan"]
+        "en": [
+          "patience",
+          "time",
+          "growth"
+        ],
+        "tr": [
+          "sabır",
+          "zaman",
+          "büyüme"
+        ],
+        "fr": [
+          "patience",
+          "temps",
+          "croissance"
+        ],
+        "pt": [
+          "paciência",
+          "tempo",
+          "crescimento"
+        ],
+        "nl": [
+          "geduld",
+          "tijd",
+          "groei"
+        ],
+        "es": [
+          "paciencia",
+          "tiempo",
+          "crecimiento"
+        ],
+        "de": [
+          "geduld",
+          "zeit",
+          "wachstum"
+        ],
+        "it": [
+          "pazienza",
+          "tempo",
+          "crescita"
+        ],
+        "ru": [
+          "терпение",
+          "время",
+          "рост"
+        ],
+        "id": [
+          "kesabaran",
+          "waktu",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "忍耐",
+          "時間",
+          "成長"
+        ],
+        "th": [
+          "ความอดทน",
+          "เวลา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kesabaran",
+          "masa",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6469,19 +9329,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["experience", "learning", "growth"],
-        "tr": ["deneyim", "öğrenme", "büyüme"],
-        "fr": ["expérience", "apprentissage", "croissance"],
-        "pt": ["experiência", "aprendizado", "crescimento"],
-        "nl": ["ervaring", "leren", "groei"],
-        "es": ["experiencia", "aprendizaje", "crecimiento"],
-        "de": ["erfahrung", "lernen", "wachstum"],
-        "it": ["esperienza", "apprendimento", "crescita"],
-        "ru": ["опыт", "обучение", "рост"],
-        "id": ["pengalaman", "pembelajaran", "pertumbuhan"],
-        "ja": ["経験", "学習", "成長"],
-        "th": ["ประสบการณ์", "การเรียนรู้", "การเติบโต"],
-        "ms": ["pengalaman", "pembelajaran", "pertumbuhan"]
+        "en": [
+          "experience",
+          "learning",
+          "growth"
+        ],
+        "tr": [
+          "deneyim",
+          "öğrenme",
+          "büyüme"
+        ],
+        "fr": [
+          "expérience",
+          "apprentissage",
+          "croissance"
+        ],
+        "pt": [
+          "experiência",
+          "aprendizado",
+          "crescimento"
+        ],
+        "nl": [
+          "ervaring",
+          "leren",
+          "groei"
+        ],
+        "es": [
+          "experiencia",
+          "aprendizaje",
+          "crecimiento"
+        ],
+        "de": [
+          "erfahrung",
+          "lernen",
+          "wachstum"
+        ],
+        "it": [
+          "esperienza",
+          "apprendimento",
+          "crescita"
+        ],
+        "ru": [
+          "опыт",
+          "обучение",
+          "рост"
+        ],
+        "id": [
+          "pengalaman",
+          "pembelajaran",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "経験",
+          "学習",
+          "成長"
+        ],
+        "th": [
+          "ประสบการณ์",
+          "การเรียนรู้",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pengalaman",
+          "pembelajaran",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6586,19 +9498,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["perseverance", "obstacles", "growth"],
-        "tr": ["azim", "engeller", "büyüme"],
-        "fr": ["persévérance", "obstacles", "croissance"],
-        "pt": ["perseverança", "obstáculos", "crescimento"],
-        "nl": ["volharding", "obstakels", "groei"],
-        "es": ["perseverancia", "obstáculos", "crecimiento"],
-        "de": ["ausdauer", "hindernisse", "wachstum"],
-        "it": ["perseveranza", "ostacoli", "crescita"],
-        "ru": ["упорство", "препятствия", "рост"],
-        "id": ["ketekunan", "rintangan", "pertumbuhan"],
-        "ja": ["忍耐", "障害", "成長"],
-        "th": ["ความพากเพียร", "อุปสรรค", "การเติบโต"],
-        "ms": ["ketabahan", "halangan", "pertumbuhan"]
+        "en": [
+          "perseverance",
+          "obstacles",
+          "growth"
+        ],
+        "tr": [
+          "azim",
+          "engeller",
+          "büyüme"
+        ],
+        "fr": [
+          "persévérance",
+          "obstacles",
+          "croissance"
+        ],
+        "pt": [
+          "perseverança",
+          "obstáculos",
+          "crescimento"
+        ],
+        "nl": [
+          "volharding",
+          "obstakels",
+          "groei"
+        ],
+        "es": [
+          "perseverancia",
+          "obstáculos",
+          "crecimiento"
+        ],
+        "de": [
+          "ausdauer",
+          "hindernisse",
+          "wachstum"
+        ],
+        "it": [
+          "perseveranza",
+          "ostacoli",
+          "crescita"
+        ],
+        "ru": [
+          "упорство",
+          "препятствия",
+          "рост"
+        ],
+        "id": [
+          "ketekunan",
+          "rintangan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "忍耐",
+          "障害",
+          "成長"
+        ],
+        "th": [
+          "ความพากเพียร",
+          "อุปสรรค",
+          "การเติบโต"
+        ],
+        "ms": [
+          "ketabahan",
+          "halangan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6703,19 +9667,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["courage", "potential", "growth"],
-        "tr": ["cesaret", "potansiyel", "büyüme"],
-        "fr": ["courage", "potentiel", "croissance"],
-        "pt": ["coragem", "potencial", "crescimento"],
-        "nl": ["moed", "potentieel", "groei"],
-        "es": ["valentía", "potencial", "crecimiento"],
-        "de": ["mut", "potenzial", "wachstum"],
-        "it": ["coraggio", "potenziale", "crescita"],
-        "ru": ["смелость", "потенциал", "рост"],
-        "id": ["keberanian", "potensi", "pertumbuhan"],
-        "ja": ["勇気", "可能性", "成長"],
-        "th": ["ความกล้าหาญ", "ศักยภาพ", "การเติบโต"],
-        "ms": ["keberanian", "potensi", "pertumbuhan"]
+        "en": [
+          "courage",
+          "potential",
+          "growth"
+        ],
+        "tr": [
+          "cesaret",
+          "potansiyel",
+          "büyüme"
+        ],
+        "fr": [
+          "courage",
+          "potentiel",
+          "croissance"
+        ],
+        "pt": [
+          "coragem",
+          "potencial",
+          "crescimento"
+        ],
+        "nl": [
+          "moed",
+          "potentieel",
+          "groei"
+        ],
+        "es": [
+          "valentía",
+          "potencial",
+          "crecimiento"
+        ],
+        "de": [
+          "mut",
+          "potenzial",
+          "wachstum"
+        ],
+        "it": [
+          "coraggio",
+          "potenziale",
+          "crescita"
+        ],
+        "ru": [
+          "смелость",
+          "потенциал",
+          "рост"
+        ],
+        "id": [
+          "keberanian",
+          "potensi",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "勇気",
+          "可能性",
+          "成長"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ศักยภาพ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keberanian",
+          "potensi",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6820,19 +9836,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["failure", "resilience", "growth"],
-        "tr": ["başarısızlık", "direnç", "büyüme"],
-        "fr": ["échec", "résilience", "croissance"],
-        "pt": ["fracasso", "resiliência", "crescimento"],
-        "nl": ["mislukking", "veerkracht", "groei"],
-        "es": ["fracaso", "resiliencia", "crecimiento"],
-        "de": ["scheitern", "widerstandsfähigkeit", "wachstum"],
-        "it": ["fallimento", "resilienza", "crescita"],
-        "ru": ["неудача", "устойчивость", "рост"],
-        "id": ["kegagalan", "ketahanan", "pertumbuhan"],
-        "ja": ["失敗", "レジリエンス", "成長"],
-        "th": ["ความล้มเหลว", "ความยืดหยุ่น", "การเติบโต"],
-        "ms": ["kegagalan", "ketahanan", "pertumbuhan"]
+        "en": [
+          "failure",
+          "resilience",
+          "growth"
+        ],
+        "tr": [
+          "başarısızlık",
+          "direnç",
+          "büyüme"
+        ],
+        "fr": [
+          "échec",
+          "résilience",
+          "croissance"
+        ],
+        "pt": [
+          "fracasso",
+          "resiliência",
+          "crescimento"
+        ],
+        "nl": [
+          "mislukking",
+          "veerkracht",
+          "groei"
+        ],
+        "es": [
+          "fracaso",
+          "resiliencia",
+          "crecimiento"
+        ],
+        "de": [
+          "scheitern",
+          "widerstandsfähigkeit",
+          "wachstum"
+        ],
+        "it": [
+          "fallimento",
+          "resilienza",
+          "crescita"
+        ],
+        "ru": [
+          "неудача",
+          "устойчивость",
+          "рост"
+        ],
+        "id": [
+          "kegagalan",
+          "ketahanan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "失敗",
+          "レジリエンス",
+          "成長"
+        ],
+        "th": [
+          "ความล้มเหลว",
+          "ความยืดหยุ่น",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kegagalan",
+          "ketahanan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6937,19 +10005,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["effort", "harmony", "growth"],
-        "tr": ["çaba", "uyum", "büyüme"],
-        "fr": ["effort", "harmonie", "croissance"],
-        "pt": ["esforço", "harmonia", "crescimento"],
-        "nl": ["inspanning", "harmonie", "groei"],
-        "es": ["esfuerzo", "armonía", "crecimiento"],
-        "de": ["anstrengung", "harmonie", "wachstum"],
-        "it": ["sforzo", "armonia", "crescita"],
-        "ru": ["усилие", "гармония", "рост"],
-        "id": ["usaha", "harmoni", "pertumbuhan"],
-        "ja": ["努力", "調和", "成長"],
-        "th": ["ความพยายาม", "ความกลมกลืน", "การเติบโต"],
-        "ms": ["usaha", "harmoni", "pertumbuhan"]
+        "en": [
+          "effort",
+          "harmony",
+          "growth"
+        ],
+        "tr": [
+          "çaba",
+          "uyum",
+          "büyüme"
+        ],
+        "fr": [
+          "effort",
+          "harmonie",
+          "croissance"
+        ],
+        "pt": [
+          "esforço",
+          "harmonia",
+          "crescimento"
+        ],
+        "nl": [
+          "inspanning",
+          "harmonie",
+          "groei"
+        ],
+        "es": [
+          "esfuerzo",
+          "armonía",
+          "crecimiento"
+        ],
+        "de": [
+          "anstrengung",
+          "harmonie",
+          "wachstum"
+        ],
+        "it": [
+          "sforzo",
+          "armonia",
+          "crescita"
+        ],
+        "ru": [
+          "усилие",
+          "гармония",
+          "рост"
+        ],
+        "id": [
+          "usaha",
+          "harmoni",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "努力",
+          "調和",
+          "成長"
+        ],
+        "th": [
+          "ความพยายาม",
+          "ความกลมกลืน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "usaha",
+          "harmoni",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7054,19 +10174,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["vulnerability", "strength", "growth"],
-        "tr": ["kırılganlık", "güç", "büyüme"],
-        "fr": ["vulnérabilité", "force", "croissance"],
-        "pt": ["vulnerabilidade", "força", "crescimento"],
-        "nl": ["kwetsbaarheid", "kracht", "groei"],
-        "es": ["vulnerabilidad", "fuerza", "crecimiento"],
-        "de": ["verletzlichkeit", "stärke", "wachstum"],
-        "it": ["vulnerabilità", "forza", "crescita"],
-        "ru": ["уязвимость", "сила", "рост"],
-        "id": ["kerentanan", "kekuatan", "pertumbuhan"],
-        "ja": ["脆弱性", "強さ", "成長"],
-        "th": ["ความเปราะบาง", "ความแข็งแกร่ง", "การเติบโต"],
-        "ms": ["kerentanan", "kekuatan", "pertumbuhan"]
+        "en": [
+          "vulnerability",
+          "strength",
+          "growth"
+        ],
+        "tr": [
+          "kırılganlık",
+          "güç",
+          "büyüme"
+        ],
+        "fr": [
+          "vulnérabilité",
+          "force",
+          "croissance"
+        ],
+        "pt": [
+          "vulnerabilidade",
+          "força",
+          "crescimento"
+        ],
+        "nl": [
+          "kwetsbaarheid",
+          "kracht",
+          "groei"
+        ],
+        "es": [
+          "vulnerabilidad",
+          "fuerza",
+          "crecimiento"
+        ],
+        "de": [
+          "verletzlichkeit",
+          "stärke",
+          "wachstum"
+        ],
+        "it": [
+          "vulnerabilità",
+          "forza",
+          "crescita"
+        ],
+        "ru": [
+          "уязвимость",
+          "сила",
+          "рост"
+        ],
+        "id": [
+          "kerentanan",
+          "kekuatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "脆弱性",
+          "強さ",
+          "成長"
+        ],
+        "th": [
+          "ความเปราะบาง",
+          "ความแข็งแกร่ง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kerentanan",
+          "kekuatan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7171,19 +10343,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["learning", "growth", "lifelong"],
-        "tr": ["öğrenme", "büyüme", "ömür boyu"],
-        "fr": ["apprentissage", "croissance", "tout au long de la vie"],
-        "pt": ["aprendizado", "crescimento", "ao longo da vida"],
-        "nl": ["leren", "groei", "levenslang"],
-        "es": ["aprendizaje", "crecimiento", "toda la vida"],
-        "de": ["lernen", "wachstum", "lebenslang"],
-        "it": ["apprendimento", "crescita", "per tutta la vita"],
-        "ru": ["обучение", "рост", "пожизненный"],
-        "id": ["pembelajaran", "pertumbuhan", "seumur hidup"],
-        "ja": ["学習", "成長", "生涯"],
-        "th": ["การเรียนรู้", "การเติบโต", "ตลอดชีวิต"],
-        "ms": ["pembelajaran", "pertumbuhan", "sepanjang hayat"]
+        "en": [
+          "learning",
+          "growth",
+          "lifelong"
+        ],
+        "tr": [
+          "öğrenme",
+          "büyüme",
+          "ömür boyu"
+        ],
+        "fr": [
+          "apprentissage",
+          "croissance",
+          "tout au long de la vie"
+        ],
+        "pt": [
+          "aprendizado",
+          "crescimento",
+          "ao longo da vida"
+        ],
+        "nl": [
+          "leren",
+          "groei",
+          "levenslang"
+        ],
+        "es": [
+          "aprendizaje",
+          "crecimiento",
+          "toda la vida"
+        ],
+        "de": [
+          "lernen",
+          "wachstum",
+          "lebenslang"
+        ],
+        "it": [
+          "apprendimento",
+          "crescita",
+          "per tutta la vita"
+        ],
+        "ru": [
+          "обучение",
+          "рост",
+          "пожизненный"
+        ],
+        "id": [
+          "pembelajaran",
+          "pertumbuhan",
+          "seumur hidup"
+        ],
+        "ja": [
+          "学習",
+          "成長",
+          "生涯"
+        ],
+        "th": [
+          "การเรียนรู้",
+          "การเติบโต",
+          "ตลอดชีวิต"
+        ],
+        "ms": [
+          "pembelajaran",
+          "pertumbuhan",
+          "sepanjang hayat"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7288,19 +10512,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["change", "evolution", "opportunity"],
-        "tr": ["değişim", "evrim", "fırsat"],
-        "fr": ["changement", "évolution", "opportunité"],
-        "pt": ["mudança", "evolução", "oportunidade"],
-        "nl": ["verandering", "evolutie", "kans"],
-        "es": ["cambio", "evolución", "oportunidad"],
-        "de": ["veränderung", "evolution", "gelegenheit"],
-        "it": ["cambiamento", "evoluzione", "opportunità"],
-        "ru": ["изменение", "эволюция", "возможность"],
-        "id": ["perubahan", "evolusi", "kesempatan"],
-        "ja": ["変化", "進化", "機会"],
-        "th": ["การเปลี่ยนแปลง", "วิวัฒนาการ", "โอกาส"],
-        "ms": ["perubahan", "evolusi", "peluang"]
+        "en": [
+          "change",
+          "evolution",
+          "opportunity"
+        ],
+        "tr": [
+          "değişim",
+          "evrim",
+          "fırsat"
+        ],
+        "fr": [
+          "changement",
+          "évolution",
+          "opportunité"
+        ],
+        "pt": [
+          "mudança",
+          "evolução",
+          "oportunidade"
+        ],
+        "nl": [
+          "verandering",
+          "evolutie",
+          "kans"
+        ],
+        "es": [
+          "cambio",
+          "evolución",
+          "oportunidad"
+        ],
+        "de": [
+          "veränderung",
+          "evolution",
+          "gelegenheit"
+        ],
+        "it": [
+          "cambiamento",
+          "evoluzione",
+          "opportunità"
+        ],
+        "ru": [
+          "изменение",
+          "эволюция",
+          "возможность"
+        ],
+        "id": [
+          "perubahan",
+          "evolusi",
+          "kesempatan"
+        ],
+        "ja": [
+          "変化",
+          "進化",
+          "機会"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "วิวัฒนาการ",
+          "โอกาส"
+        ],
+        "ms": [
+          "perubahan",
+          "evolusi",
+          "peluang"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7414,19 +10690,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["patience", "development", "cultivation"],
-        "tr": ["sabır", "gelişim", "yetiştirme"],
-        "fr": ["patience", "développement", "culture"],
-        "pt": ["paciência", "desenvolvimento", "cultivo"],
-        "nl": ["geduld", "ontwikkeling", "cultivering"],
-        "es": ["paciencia", "desarrollo", "cultivo"],
-        "de": ["geduld", "entwicklung", "kultivierung"],
-        "it": ["pazienza", "sviluppo", "coltivazione"],
-        "ru": ["терпение", "развитие", "культивирование"],
-        "id": ["kesabaran", "pengembangan", "penanaman"],
-        "ja": ["忍耐", "発展", "育成"],
-        "th": ["ความอดทน", "การพัฒนา", "การปลูกฝัง"],
-        "ms": ["kesabaran", "pembangunan", "penanaman"]
+        "en": [
+          "patience",
+          "development",
+          "cultivation"
+        ],
+        "tr": [
+          "sabır",
+          "gelişim",
+          "yetiştirme"
+        ],
+        "fr": [
+          "patience",
+          "développement",
+          "culture"
+        ],
+        "pt": [
+          "paciência",
+          "desenvolvimento",
+          "cultivo"
+        ],
+        "nl": [
+          "geduld",
+          "ontwikkeling",
+          "cultivering"
+        ],
+        "es": [
+          "paciencia",
+          "desarrollo",
+          "cultivo"
+        ],
+        "de": [
+          "geduld",
+          "entwicklung",
+          "kultivierung"
+        ],
+        "it": [
+          "pazienza",
+          "sviluppo",
+          "coltivazione"
+        ],
+        "ru": [
+          "терпение",
+          "развитие",
+          "культивирование"
+        ],
+        "id": [
+          "kesabaran",
+          "pengembangan",
+          "penanaman"
+        ],
+        "ja": [
+          "忍耐",
+          "発展",
+          "育成"
+        ],
+        "th": [
+          "ความอดทน",
+          "การพัฒนา",
+          "การปลูกฝัง"
+        ],
+        "ms": [
+          "kesabaran",
+          "pembangunan",
+          "penanaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7544,19 +10872,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["challenges", "strength", "perspective"],
-        "tr": ["zorluklar", "güç", "bakış açısı"],
-        "fr": ["défis", "force", "perspective"],
-        "pt": ["desafios", "força", "perspectiva"],
-        "nl": ["uitdagingen", "kracht", "perspectief"],
-        "es": ["desafíos", "fuerza", "perspectiva"],
-        "de": ["herausforderungen", "stärke", "perspektive"],
-        "it": ["sfide", "forza", "prospettiva"],
-        "ru": ["вызовы", "сила", "перспектива"],
-        "id": ["tantangan", "kekuatan", "perspektif"],
-        "ja": ["挑戦", "強さ", "視点"],
-        "th": ["ความท้าทาย", "ความแข็งแรง", "มุมมอง"],
-        "ms": ["cabaran", "kekuatan", "perspektif"]
+        "en": [
+          "challenges",
+          "strength",
+          "perspective"
+        ],
+        "tr": [
+          "zorluklar",
+          "güç",
+          "bakış açısı"
+        ],
+        "fr": [
+          "défis",
+          "force",
+          "perspective"
+        ],
+        "pt": [
+          "desafios",
+          "força",
+          "perspectiva"
+        ],
+        "nl": [
+          "uitdagingen",
+          "kracht",
+          "perspectief"
+        ],
+        "es": [
+          "desafíos",
+          "fuerza",
+          "perspectiva"
+        ],
+        "de": [
+          "herausforderungen",
+          "stärke",
+          "perspektive"
+        ],
+        "it": [
+          "sfide",
+          "forza",
+          "prospettiva"
+        ],
+        "ru": [
+          "вызовы",
+          "сила",
+          "перспектива"
+        ],
+        "id": [
+          "tantangan",
+          "kekuatan",
+          "perspektif"
+        ],
+        "ja": [
+          "挑戦",
+          "強さ",
+          "視点"
+        ],
+        "th": [
+          "ความท้าทาย",
+          "ความแข็งแรง",
+          "มุมมอง"
+        ],
+        "ms": [
+          "cabaran",
+          "kekuatan",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7674,19 +11054,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["celebration", "victories", "progress"],
-        "tr": ["kutlama", "zaferler", "ilerleme"],
-        "fr": ["célébration", "victoires", "progrès"],
-        "pt": ["celebração", "vitórias", "progresso"],
-        "nl": ["viering", "overwinningen", "vooruitgang"],
-        "es": ["celebración", "victorias", "progreso"],
-        "de": ["feier", "siege", "fortschritt"],
-        "it": ["celebrazione", "vittorie", "progresso"],
-        "ru": ["празднование", "победы", "прогресс"],
-        "id": ["perayaan", "kemenangan", "kemajuan"],
-        "ja": ["祝賀", "勝利", "進歩"],
-        "th": ["การเฉลิมฉลอง", "ชัยชนะ", "ความก้าวหน้า"],
-        "ms": ["perayaan", "kemenangan", "kemajuan"]
+        "en": [
+          "celebration",
+          "victories",
+          "progress"
+        ],
+        "tr": [
+          "kutlama",
+          "zaferler",
+          "ilerleme"
+        ],
+        "fr": [
+          "célébration",
+          "victoires",
+          "progrès"
+        ],
+        "pt": [
+          "celebração",
+          "vitórias",
+          "progresso"
+        ],
+        "nl": [
+          "viering",
+          "overwinningen",
+          "vooruitgang"
+        ],
+        "es": [
+          "celebración",
+          "victorias",
+          "progreso"
+        ],
+        "de": [
+          "feier",
+          "siege",
+          "fortschritt"
+        ],
+        "it": [
+          "celebrazione",
+          "vittorie",
+          "progresso"
+        ],
+        "ru": [
+          "празднование",
+          "победы",
+          "прогресс"
+        ],
+        "id": [
+          "perayaan",
+          "kemenangan",
+          "kemajuan"
+        ],
+        "ja": [
+          "祝賀",
+          "勝利",
+          "進歩"
+        ],
+        "th": [
+          "การเฉลิมฉลอง",
+          "ชัยชนะ",
+          "ความก้าวหน้า"
+        ],
+        "ms": [
+          "perayaan",
+          "kemenangan",
+          "kemajuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7804,19 +11236,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["trust", "transformation", "process"],
-        "tr": ["güven", "dönüşüm", "süreç"],
-        "fr": ["confiance", "transformation", "processus"],
-        "pt": ["confiança", "transformação", "processo"],
-        "nl": ["vertrouwen", "transformatie", "proces"],
-        "es": ["confianza", "transformación", "proceso"],
-        "de": ["vertrauen", "transformation", "prozess"],
-        "it": ["fiducia", "trasformazione", "processo"],
-        "ru": ["доверие", "трансформация", "процесс"],
-        "id": ["kepercayaan", "transformasi", "proses"],
-        "ja": ["信頼", "変革", "プロセス"],
-        "th": ["ความไว้วางใจ", "การเปลี่ยนแปลง", "กระบวนการ"],
-        "ms": ["kepercayaan", "transformasi", "proses"]
+        "en": [
+          "trust",
+          "transformation",
+          "process"
+        ],
+        "tr": [
+          "güven",
+          "dönüşüm",
+          "süreç"
+        ],
+        "fr": [
+          "confiance",
+          "transformation",
+          "processus"
+        ],
+        "pt": [
+          "confiança",
+          "transformação",
+          "processo"
+        ],
+        "nl": [
+          "vertrouwen",
+          "transformatie",
+          "proces"
+        ],
+        "es": [
+          "confianza",
+          "transformación",
+          "proceso"
+        ],
+        "de": [
+          "vertrauen",
+          "transformation",
+          "prozess"
+        ],
+        "it": [
+          "fiducia",
+          "trasformazione",
+          "processo"
+        ],
+        "ru": [
+          "доверие",
+          "трансформация",
+          "процесс"
+        ],
+        "id": [
+          "kepercayaan",
+          "transformasi",
+          "proses"
+        ],
+        "ja": [
+          "信頼",
+          "変革",
+          "プロセス"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "การเปลี่ยนแปลง",
+          "กระบวนการ"
+        ],
+        "ms": [
+          "kepercayaan",
+          "transformasi",
+          "proses"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7934,19 +11418,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["commitment", "self-discovery", "journey"],
-        "tr": ["bağlılık", "kendi keşfi", "yolculuk"],
-        "fr": ["engagement", "découverte de soi", "voyage"],
-        "pt": ["comprometimento", "autodescoberta", "jornada"],
-        "nl": ["toewijding", "zelfontdekking", "reis"],
-        "es": ["compromiso", "autodescubrimiento", "viaje"],
-        "de": ["verpflichtung", "selbstentdeckung", "reise"],
-        "it": ["impegno", "auto-scoperta", "viaggio"],
-        "ru": ["приверженность", "самопознание", "путешествие"],
-        "id": ["komitmen", "penemuan diri", "perjalanan"],
-        "ja": ["コミットメント", "自己発見", "旅"],
-        "th": ["ความมุ่งมั่น", "การค้นพบตนเอง", "การเดินทาง"],
-        "ms": ["komitmen", "penemuan diri", "perjalanan"]
+        "en": [
+          "commitment",
+          "self-discovery",
+          "journey"
+        ],
+        "tr": [
+          "bağlılık",
+          "kendi keşfi",
+          "yolculuk"
+        ],
+        "fr": [
+          "engagement",
+          "découverte de soi",
+          "voyage"
+        ],
+        "pt": [
+          "comprometimento",
+          "autodescoberta",
+          "jornada"
+        ],
+        "nl": [
+          "toewijding",
+          "zelfontdekking",
+          "reis"
+        ],
+        "es": [
+          "compromiso",
+          "autodescubrimiento",
+          "viaje"
+        ],
+        "de": [
+          "verpflichtung",
+          "selbstentdeckung",
+          "reise"
+        ],
+        "it": [
+          "impegno",
+          "auto-scoperta",
+          "viaggio"
+        ],
+        "ru": [
+          "приверженность",
+          "самопознание",
+          "путешествие"
+        ],
+        "id": [
+          "komitmen",
+          "penemuan diri",
+          "perjalanan"
+        ],
+        "ja": [
+          "コミットメント",
+          "自己発見",
+          "旅"
+        ],
+        "th": [
+          "ความมุ่งมั่น",
+          "การค้นพบตนเอง",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "komitmen",
+          "penemuan diri",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8064,19 +11600,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["feedback", "development", "growth"],
-        "tr": ["geri bildirim", "gelişim", "büyüme"],
-        "fr": ["retours", "développement", "croissance"],
-        "pt": ["feedback", "desenvolvimento", "crescimento"],
-        "nl": ["feedback", "ontwikkeling", "groei"],
-        "es": ["retroalimentación", "desarrollo", "crecimiento"],
-        "de": ["feedback", "entwicklung", "wachstum"],
-        "it": ["feedback", "sviluppo", "crescita"],
-        "ru": ["обратная связь", "развитие", "рост"],
-        "id": ["umpan balik", "pengembangan", "pertumbuhan"],
-        "ja": ["フィードバック", "発展", "成長"],
-        "th": ["คำติชม", "การพัฒนา", "การเติบโต"],
-        "ms": ["maklum balas", "pembangunan", "pertumbuhan"]
+        "en": [
+          "feedback",
+          "development",
+          "growth"
+        ],
+        "tr": [
+          "geri bildirim",
+          "gelişim",
+          "büyüme"
+        ],
+        "fr": [
+          "retours",
+          "développement",
+          "croissance"
+        ],
+        "pt": [
+          "feedback",
+          "desenvolvimento",
+          "crescimento"
+        ],
+        "nl": [
+          "feedback",
+          "ontwikkeling",
+          "groei"
+        ],
+        "es": [
+          "retroalimentación",
+          "desarrollo",
+          "crecimiento"
+        ],
+        "de": [
+          "feedback",
+          "entwicklung",
+          "wachstum"
+        ],
+        "it": [
+          "feedback",
+          "sviluppo",
+          "crescita"
+        ],
+        "ru": [
+          "обратная связь",
+          "развитие",
+          "рост"
+        ],
+        "id": [
+          "umpan balik",
+          "pengembangan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "フィードバック",
+          "発展",
+          "成長"
+        ],
+        "th": [
+          "คำติชม",
+          "การพัฒนา",
+          "การเติบโต"
+        ],
+        "ms": [
+          "maklum balas",
+          "pembangunan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8194,19 +11782,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["choice", "experience", "growth"],
-        "tr": ["seçim", "deneyim", "büyüme"],
-        "fr": ["choix", "expérience", "croissance"],
-        "pt": ["escolha", "experiência", "crescimento"],
-        "nl": ["keuze", "ervaring", "groei"],
-        "es": ["elección", "experiencia", "crecimiento"],
-        "de": ["wahl", "erfahrung", "wachstum"],
-        "it": ["scelta", "esperienza", "crescita"],
-        "ru": ["выбор", "опыт", "рост"],
-        "id": ["pilihan", "pengalaman", "pertumbuhan"],
-        "ja": ["選択", "経験", "成長"],
-        "th": ["การเลือก", "ประสบการณ์", "การเติบโต"],
-        "ms": ["pilihan", "pengalaman", "pertumbuhan"]
+        "en": [
+          "choice",
+          "experience",
+          "growth"
+        ],
+        "tr": [
+          "seçim",
+          "deneyim",
+          "büyüme"
+        ],
+        "fr": [
+          "choix",
+          "expérience",
+          "croissance"
+        ],
+        "pt": [
+          "escolha",
+          "experiência",
+          "crescimento"
+        ],
+        "nl": [
+          "keuze",
+          "ervaring",
+          "groei"
+        ],
+        "es": [
+          "elección",
+          "experiencia",
+          "crecimiento"
+        ],
+        "de": [
+          "wahl",
+          "erfahrung",
+          "wachstum"
+        ],
+        "it": [
+          "scelta",
+          "esperienza",
+          "crescita"
+        ],
+        "ru": [
+          "выбор",
+          "опыт",
+          "рост"
+        ],
+        "id": [
+          "pilihan",
+          "pengalaman",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "選択",
+          "経験",
+          "成長"
+        ],
+        "th": [
+          "การเลือก",
+          "ประสบการณ์",
+          "การเติบโต"
+        ],
+        "ms": [
+          "pilihan",
+          "pengalaman",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8324,19 +11964,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["investment", "self-care", "learning"],
-        "tr": ["yatırım", "öz bakım", "öğrenme"],
-        "fr": ["investissement", "soins personnels", "apprentissage"],
-        "pt": ["investimento", "autocuidado", "aprendizado"],
-        "nl": ["investering", "zelfzorg", "leren"],
-        "es": ["inversión", "autocuidado", "aprendizaje"],
-        "de": ["investition", "selbstfürsorge", "lernen"],
-        "it": ["investimento", "autocura", "apprendimento"],
-        "ru": ["инвестиция", "забота о себе", "обучение"],
-        "id": ["investasi", "perawatan diri", "pembelajaran"],
-        "ja": ["投資", "セルフケア", "学習"],
-        "th": ["การลงทุน", "การดูแลตนเอง", "การเรียนรู้"],
-        "ms": ["pelaburan", "penjagaan diri", "pembelajaran"]
+        "en": [
+          "investment",
+          "self-care",
+          "learning"
+        ],
+        "tr": [
+          "yatırım",
+          "öz bakım",
+          "öğrenme"
+        ],
+        "fr": [
+          "investissement",
+          "soins personnels",
+          "apprentissage"
+        ],
+        "pt": [
+          "investimento",
+          "autocuidado",
+          "aprendizado"
+        ],
+        "nl": [
+          "investering",
+          "zelfzorg",
+          "leren"
+        ],
+        "es": [
+          "inversión",
+          "autocuidado",
+          "aprendizaje"
+        ],
+        "de": [
+          "investition",
+          "selbstfürsorge",
+          "lernen"
+        ],
+        "it": [
+          "investimento",
+          "autocura",
+          "apprendimento"
+        ],
+        "ru": [
+          "инвестиция",
+          "забота о себе",
+          "обучение"
+        ],
+        "id": [
+          "investasi",
+          "perawatan diri",
+          "pembelajaran"
+        ],
+        "ja": [
+          "投資",
+          "セルフケア",
+          "学習"
+        ],
+        "th": [
+          "การลงทุน",
+          "การดูแลตนเอง",
+          "การเรียนรู้"
+        ],
+        "ms": [
+          "pelaburan",
+          "penjagaan diri",
+          "pembelajaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8420,7 +12112,7 @@
         }
       }
     },
-        {
+    {
       "id": "growth_072",
       "type": "affirmation",
       "texts": {
@@ -8467,8 +12159,8 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_073",
       "type": "affirmation",
       "texts": {
@@ -8515,24 +12207,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_074",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Growth into my life.",
-        "tr": "Hayatıma Gelişim enerjisini alıyorum.",
-        "fr": "J'accueille Growth dans ma vie.",
-        "pt": "Eu acolho Growth na minha vida.",
-        "nl": "Ik verwelkom Growth in mijn leven.",
-        "es": "Doy la bienvenida a Growth en mi vida.",
-        "de": "Ich heiße Growth in meinem Leben willkommen.",
-        "it": "Accolgo Growth nella mia vita.",
-        "ru": "Я принимаю Growth в свою жизнь.",
-        "id": "Saya menyambut Growth dalam hidup saya.",
-        "ja": "私はGrowthを人生に迎え入れます。",
-        "th": "ฉันต้อนรับGrowthเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Growth dalam hidup saya."
+        "en": "I make room for growth without rushing.",
+        "tr": "gelişim için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à growth sans me presser.",
+        "pt": "Abro espaço para growth sem pressa.",
+        "nl": "Ik maak ruimte voor growth zonder te haasten.",
+        "es": "Hago espacio para growth sin prisa.",
+        "de": "Ich mache Platz für growth, ohne zu hetzen.",
+        "it": "Faccio spazio a growth senza fretta.",
+        "ru": "Я даю место growth без спешки.",
+        "id": "Aku memberi ruang bagi growth tanpa terburu-buru.",
+        "ja": "焦らずにgrowthのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้growthโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk growth tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -8559,24 +12251,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_075",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Growth.",
-        "tr": "Kalbim Gelişim için açık.",
-        "fr": "Mon cœur est ouvert à Growth.",
-        "pt": "Meu coração está aberto para Growth.",
-        "nl": "Mijn hart staat open voor Growth.",
-        "es": "Mi corazón está abierto a Growth.",
-        "de": "Mein Herz ist offen für Growth.",
-        "it": "Il mio cuore è aperto a Growth.",
-        "ru": "Моё сердце открыто для Growth.",
-        "id": "Hati saya terbuka untuk Growth.",
-        "ja": "私の心はGrowthに開かれています。",
-        "th": "หัวใจของฉันเปิดรับGrowth",
-        "ms": "Hati saya terbuka untuk Growth."
+        "en": "I stay open to growth in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde gelişim için açık kalıyorum.",
+        "fr": "Je reste ouvert à growth d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a growth de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor growth op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a growth de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für growth auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a growth in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к growth так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada growth dengan cara yang terasa aman.",
+        "ja": "安心できる形でgrowthに心を開き続けます。",
+        "th": "ฉันเปิดใจให้growthในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap growth dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8603,24 +12295,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_076",
       "type": "affirmation",
       "texts": {
-        "en": "Growth grows within me each day.",
-        "tr": "Gelişim her gün içimde büyüyor.",
-        "fr": "Growth grandit en moi chaque jour.",
-        "pt": "Growth cresce dentro de mim todos os dias.",
-        "nl": "Growth groeit elke dag in mij.",
-        "es": "Growth crece dentro de mí cada día.",
-        "de": "Growth wächst jeden Tag in mir.",
-        "it": "Growth cresce in me ogni giorno.",
-        "ru": "Growth растёт во мне каждый день.",
-        "id": "Growth tumbuh di dalam diri saya setiap hari.",
-        "ja": "Growthは毎日私の中で育ちます。",
-        "th": "Growthเติบโตในตัวฉันทุกวัน",
-        "ms": "Growth berkembang dalam diri saya setiap hari."
+        "en": "Each day, growth grows within me.",
+        "tr": "Her gün içimde gelişim büyüyor.",
+        "fr": "Chaque jour, growth grandit en moi.",
+        "pt": "A cada dia, growth cresce dentro de mim.",
+        "nl": "Elke dag groeit growth in mij.",
+        "es": "Cada día, growth crece dentro de mí.",
+        "de": "Jeden Tag wächst growth in mir.",
+        "it": "Ogni giorno, growth cresce dentro di me.",
+        "ru": "Каждый день growth растёт во мне.",
+        "id": "Setiap hari, growth tumbuh di dalam diriku.",
+        "ja": "毎日、growthが私の中で育っています。",
+        "th": "ทุกวัน growth เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, growth berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8647,24 +12339,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_077",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Growth now.",
-        "tr": "Şimdi Gelişim için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Growth maintenant.",
-        "pt": "Eu crio espaço para Growth agora.",
-        "nl": "Ik maak nu ruimte voor Growth.",
-        "es": "Creo espacio para Growth ahora.",
-        "de": "Ich schaffe jetzt Raum für Growth.",
-        "it": "Creo spazio per Growth ora.",
-        "ru": "Я создаю пространство для Growth сейчас.",
-        "id": "Saya menciptakan ruang untuk Growth sekarang.",
-        "ja": "今、Growthのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับGrowthในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Growth sekarang."
+        "en": "I give growth a quiet place in my day.",
+        "tr": "Günümde gelişim için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à growth une place calme dans ma journée.",
+        "pt": "Dou a growth um lugar tranquilo no meu dia.",
+        "nl": "Ik geef growth een rustige plek in mijn dag.",
+        "es": "Le doy a growth un lugar tranquilo en mi día.",
+        "de": "Ich gebe growth einen ruhigen Platz in meinem Tag.",
+        "it": "Do a growth un posto tranquillo nella mia giornata.",
+        "ru": "Я даю growth тихое место в своём дне.",
+        "id": "Aku memberi growth tempat yang tenang dalam hariku.",
+        "ja": "一日の中にgrowthのための静かな場所をつくります。",
+        "th": "ฉันให้growthมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi growth tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8691,24 +12383,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "growth_078",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Growth.",
-        "tr": "Gelişim yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Growth.",
-        "pt": "Eu confio no caminho de Growth.",
-        "nl": "Ik vertrouw op het pad van Growth.",
-        "es": "Confío en el camino de Growth.",
-        "de": "Ich vertraue dem Weg von Growth.",
-        "it": "Mi fido del percorso di Growth.",
-        "ru": "Я доверяю пути Growth.",
-        "id": "Saya percaya pada jalan Growth.",
-        "ja": "私はGrowthの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของGrowth",
-        "ms": "Saya percaya pada jalan Growth."
+        "en": "I trust my own way of growing in growth.",
+        "tr": "gelişim konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec growth.",
+        "pt": "Confio no meu próprio jeito de crescer com growth.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in growth.",
+        "es": "Confío en mi propia manera de crecer con growth.",
+        "de": "Ich vertraue meinem eigenen Weg, in growth zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con growth.",
+        "ru": "Я доверяю своему собственному пути роста в growth.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam growth.",
+        "ja": "自分なりのgrowthの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับgrowth",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam growth."
       },
       "authors": {
         "en": "",
@@ -8735,6 +12427,946 @@
         ]
       },
       "readTime": "0"
-        }
+    },
+    {
+      "id": "growth_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice growth with gentle consistency.",
+        "tr": "gelişim konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique growth avec une douce constance.",
+        "pt": "Eu pratico growth com constância gentil.",
+        "nl": "Ik beoefen growth met zachte regelmaat.",
+        "es": "Practico growth con constancia suave.",
+        "de": "Ich übe growth mit sanfter Beständigkeit.",
+        "it": "Pratico growth con dolce costanza.",
+        "ru": "Я практикую growth с мягкой постоянностью.",
+        "id": "Saya mempraktikkan growth dengan konsistensi yang lembut.",
+        "ja": "私はgrowthを穏やかな継続で実践します。",
+        "th": "ฉันฝึกgrowthอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan growth dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "growth_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, growth supports me.",
+        "tr": "Bu dönemde gelişim beni destekliyor.",
+        "fr": "En cette période, growth me soutient.",
+        "pt": "Nesta fase, growth me apoia.",
+        "nl": "In deze periode ondersteunt growth mij.",
+        "es": "En esta etapa, growth me sostiene.",
+        "de": "In dieser Zeit unterstützt growth mich.",
+        "it": "In questo periodo, growth mi sostiene.",
+        "ru": "В этот период growth поддерживает меня.",
+        "id": "Di masa ini, growth mendukungku.",
+        "ja": "この時期、growthが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ growthคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, growth menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "growth_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose growth in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla gelişim seçiyorum.",
+        "fr": "Je choisis growth par de petits pas sincères.",
+        "pt": "Escolho growth em passos pequenos e honestos.",
+        "nl": "Ik kies growth in kleine, eerlijke stappen.",
+        "es": "Elijo growth con pasos pequeños y honestos.",
+        "de": "Ich wähle growth in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo growth con passi piccoli e sinceri.",
+        "ru": "Я выбираю growth маленькими, честными шагами.",
+        "id": "Aku memilih growth dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でgrowthを選びます。",
+        "th": "ฉันเลือกgrowthด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih growth dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "growth_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let growth shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri gelişim şekillendiriyor.",
+        "fr": "Je laisse growth façonner les choix qui comptent pour moi.",
+        "pt": "Deixo growth moldar as escolhas que importam para mim.",
+        "nl": "Ik laat growth de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que growth moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse growth die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che growth plasmi le scelte che contano per me.",
+        "ru": "Я позволяю growth формировать важные для меня решения.",
+        "id": "Aku membiarkan growth membentuk pilihan yang penting bagiku.",
+        "ja": "growthが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้growthหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan growth membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "growth_083",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, growth feels natural to me.",
+        "tr": "Bugün gelişim bana doğal geliyor.",
+        "fr": "Aujourd'hui, growth me semble naturel.",
+        "pt": "Hoje, growth parece natural para mim.",
+        "nl": "Vandaag voelt growth natuurlijk voor mij.",
+        "es": "Hoy, growth se siente natural para mí.",
+        "de": "Heute fühlt sich growth natürlich für mich an.",
+        "it": "Oggi growth mi sembra naturale.",
+        "ru": "Сегодня growth кажется мне естественным.",
+        "id": "Hari ini, growth terasa alami bagi saya.",
+        "ja": "今日はgrowthが自然に感じられます。",
+        "th": "วันนี้growthให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, growth terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "growth_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose growth in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda gelişim seçiyorum.",
+        "fr": "Je choisis growth dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho growth nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies growth in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo growth en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle growth in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo growth nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю growth в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih growth dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でgrowthを選びます。",
+        "th": "ฉันเลือกgrowthในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih growth dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build growth.",
+        "tr": "İç sesim gelişim inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis growth.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo growth.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik growth opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo growth.",
+        "de": "Meine innere Stimme wird sanfter, während ich growth aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco growth.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю growth.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun growth.",
+        "ja": "growthを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างgrowth",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina growth."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet growth at my own pace.",
+        "tr": "gelişim ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer growth à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar growth no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om growth in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar growth a mi propio ritmo.",
+        "de": "Ich erlaube mir, growth in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare growth al mio ritmo.",
+        "ru": "Я позволяю себе встречать growth в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu growth dengan ritmeku.",
+        "ja": "自分のペースでgrowthに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบgrowthในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui growth mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let growth steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde gelişim beni dengeliyor.",
+        "fr": "Je laisse growth m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo growth me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat growth me aarden als het leven luid voelt.",
+        "es": "Dejo que growth me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse growth mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che growth mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю growth удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan growth menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、growthが私を落ち着かせます。",
+        "th": "ฉันยอมให้growthทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan growth menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, growth is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde gelişim büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, growth grandit.",
+        "pt": "Por meio das escolhas que faço hoje, growth cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit growth.",
+        "es": "A través de las decisiones que tomo hoy, growth crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst growth.",
+        "it": "Attraverso le scelte che faccio oggi, growth cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, growth растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, growth tumbuh.",
+        "ja": "今日の選択を通してgrowthが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ growthกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, growth berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel growth settling into my routines.",
+        "tr": "Rutinlerimde gelişim için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens growth s’installer dans mes routines.",
+        "pt": "Sinto growth se acomodar nas minhas rotinas.",
+        "nl": "Ik voel growth zich nestelen in mijn routines.",
+        "es": "Siento que growth se asienta en mis rutinas.",
+        "de": "Ich spüre, wie growth sich in meinen Routinen einlebt.",
+        "it": "Sento growth assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как growth укореняется в моих привычках.",
+        "id": "Aku merasakan growth menetap dalam rutinitasku.",
+        "ja": "日々の習慣にgrowthがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าgrowthค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan growth mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow growth to be simple, not perfect.",
+        "tr": "gelişim için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise growth à être simple, pas parfait.",
+        "pt": "Permito que growth seja simples, não perfeito.",
+        "nl": "Ik laat growth simpel zijn, niet perfect.",
+        "es": "Permito que growth sea simple, no perfecto.",
+        "de": "Ich erlaube growth, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a growth di essere semplice, non perfetto.",
+        "ru": "Я позволяю growth быть простым, а не идеальным.",
+        "id": "Aku membiarkan growth tetap sederhana, bukan sempurna.",
+        "ja": "growthがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้growthเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan growth menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice growth showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde gelişim ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque growth dans la façon dont je me parle.",
+        "pt": "Percebo growth na forma como falo comigo.",
+        "nl": "Ik merk growth op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto growth en la manera en que me hablo.",
+        "de": "Ich bemerke growth in der Art, wie ich mit mir spreche.",
+        "it": "Noto growth nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю growth в том, как я говорю с собой.",
+        "id": "Aku menyadari growth dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にgrowthが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นgrowthในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari growth dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve growth without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan gelişim hak ediyorum.",
+        "fr": "Je mérite growth sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço growth sem precisar provar nada.",
+        "nl": "Ik verdien growth zonder iets te hoeven bewijzen.",
+        "es": "Merezco growth sin necesidad de demostrar nada.",
+        "de": "Ich verdiene growth, ohne etwas beweisen zu müssen.",
+        "it": "Merito growth senza dover dimostrare nulla.",
+        "ru": "Я достоин growth, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan growth tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、growthに値します。",
+        "th": "ฉันคู่ควรกับgrowthโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh growth tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let growth grow from patience, not pressure.",
+        "tr": "gelişim sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse growth grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo growth crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat growth groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que growth crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse growth aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che growth cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю growth расти из терпения, а не из давления.",
+        "id": "Aku membiarkan growth tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はgrowthを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้growthเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan growth tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to growth when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde gelişim ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à growth quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a growth quando preciso me firmar.",
+        "nl": "Ik keer terug naar growth wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a growth cuando necesito estabilizarme.",
+        "de": "Ich kehre zu growth zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a growth quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к growth, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke growth saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、growthに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาgrowth",
+        "ms": "Saya kembali kepada growth apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let growth soften my inner pressure.",
+        "tr": "İçimdeki baskıyı gelişim ile yumuşatıyorum.",
+        "fr": "Je laisse growth adoucir ma pression intérieure.",
+        "pt": "Deixo growth suavizar minha pressão interna.",
+        "nl": "Ik laat growth mijn innerlijke druk verzachten.",
+        "es": "Dejo que growth suavice mi presión interna.",
+        "de": "Ich lasse growth meinen inneren Druck weicher machen.",
+        "it": "Lascio che growth ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю growth смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan growth melembutkan tekanan batinku.",
+        "ja": "growthが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้growthช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan growth melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that growth can be gentle and real.",
+        "tr": "gelişim konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que growth peut être doux et vrai.",
+        "pt": "Confio que growth pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat growth zacht en echt kan zijn.",
+        "es": "Confío en que growth puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass growth sanft und echt sein kann.",
+        "it": "Mi fido del fatto che growth possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что growth может быть мягким и настоящим.",
+        "id": "Aku percaya growth bisa lembut dan nyata.",
+        "ja": "growthはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าgrowthสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya growth boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give growth a little more room each day.",
+        "tr": "Her gün gelişim için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à growth chaque jour.",
+        "pt": "Dou um pouco mais de espaço para growth a cada dia.",
+        "nl": "Ik geef growth elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a growth cada día.",
+        "de": "Ich gebe growth jeden Tag ein wenig mehr Raum.",
+        "it": "Do a growth un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю growth чуть больше места.",
+        "id": "Setiap hari aku memberi growth sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、growthのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับgrowthมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi growth sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold growth without forcing it.",
+        "tr": "gelişim ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir growth sans forcer.",
+        "pt": "Estou aprendendo a sustentar growth sem forçar.",
+        "nl": "Ik leer growth te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener growth sin forzar.",
+        "de": "Ich lerne, growth zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere growth senza forzare.",
+        "ru": "Я учусь удерживать growth без принуждения.",
+        "id": "Aku belajar memegang growth tanpa memaksa.",
+        "ja": "growthを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองgrowthโดยไม่บังคับ",
+        "ms": "Saya belajar memegang growth tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_99",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by growth where I am today.",
+        "tr": "Bugün olduğum yerde gelişim beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, growth me rejoint.",
+        "pt": "Onde estou hoje, growth me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet growth mij.",
+        "es": "Donde estoy hoy, growth me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir growth.",
+        "it": "Dove sono oggi, growth mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает growth.",
+        "id": "Di tempatku hari ini, growth menemuiku.",
+        "ja": "今日の私がいる場所で、growthが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ growthอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, growth menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_100",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice growth in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte gelişim fark ediyorum.",
+        "fr": "Je remarque growth dans le calme entre les moments.",
+        "pt": "Percebo growth na calma entre os momentos.",
+        "nl": "Ik merk growth op in de rust tussen momenten.",
+        "es": "Noto growth en la calma entre momentos.",
+        "de": "Ich bemerke growth in der Ruhe zwischen den Momenten.",
+        "it": "Noto growth nella calma tra i momenti.",
+        "ru": "Я замечаю growth в тишине между моментами.",
+        "id": "Aku menyadari growth dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにgrowthを感じます。",
+        "th": "ฉันสังเกตgrowthในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari growth dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_101",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow growth to grow quietly in the background.",
+        "tr": "gelişim sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse growth grandir doucement en arrière-plan.",
+        "pt": "Deixo growth crescer em silêncio ao fundo.",
+        "nl": "Ik laat growth stil op de achtergrond groeien.",
+        "es": "Dejo que growth crezca en silencio de fondo.",
+        "de": "Ich lasse growth leise im Hintergrund wachsen.",
+        "it": "Lascio che growth cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю growth тихо расти на заднем плане.",
+        "id": "Aku membiarkan growth tumbuh perlahan di latar belakang.",
+        "ja": "growthが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้growthเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan growth berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_102",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose growth with care, not hurry.",
+        "tr": "Acele etmeden, özenle gelişim seçiyorum.",
+        "fr": "Je choisis growth avec soin, sans hâte.",
+        "pt": "Escolho growth com cuidado, sem pressa.",
+        "nl": "Ik kies growth met zorg, niet met haast.",
+        "es": "Elijo growth con cuidado, no con prisa.",
+        "de": "Ich wähle growth mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo growth con cura, non con fretta.",
+        "ru": "Я выбираю growth с заботой, а не в спешке.",
+        "id": "Aku memilih growth dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にgrowthを選びます。",
+        "th": "ฉันเลือกgrowthอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih growth dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    },
+    {
+      "id": "growth_103",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep growth close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken gelişim ile yakın kalıyorum.",
+        "fr": "Je garde growth près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho growth por perto quando minha mente fica agitada.",
+        "nl": "Ik houd growth dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo growth cerca cuando mi mente está inquieta.",
+        "de": "Ich halte growth nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo growth vicino quando la mia mente è agitata.",
+        "ru": "Я держу growth рядом, когда ум занят.",
+        "id": "Aku menjaga growth tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもgrowthをそばに置きます。",
+        "th": "ฉันเก็บgrowthไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan growth dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "growth",
+      "readTime": "0"
+    }
   ]
 }

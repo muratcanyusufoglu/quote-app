@@ -34,19 +34,71 @@
         "ms": "Sokrates"
       },
       "tags": {
-        "en": ["humility", "learning", "philosophy"],
-        "tr": ["alçakgönüllülük", "öğrenme", "felsefe"],
-        "fr": ["humilité", "apprentissage", "philosophie"],
-        "pt": ["humildade", "aprendizado", "filosofia"],
-        "nl": ["nederigheid", "leren", "filosofie"],
-        "es": ["humildad", "aprendizaje", "filosofía"],
-        "de": ["Demut", "Lernen", "Philosophie"],
-        "it": ["umiltà", "apprendimento", "filosofia"],
-        "ru": ["скромность", "обучение", "философия"],
-        "id": ["kerendahan hati", "pembelajaran", "filsafat"],
-        "ja": ["謙虚", "学習", "哲学"],
-        "th": ["ความถ่อมตัว", "การเรียนรู้", "ปรัชญา"],
-        "ms": ["kerendahan hati", "pembelajaran", "falsafah"]
+        "en": [
+          "humility",
+          "learning",
+          "philosophy"
+        ],
+        "tr": [
+          "alçakgönüllülük",
+          "öğrenme",
+          "felsefe"
+        ],
+        "fr": [
+          "humilité",
+          "apprentissage",
+          "philosophie"
+        ],
+        "pt": [
+          "humildade",
+          "aprendizado",
+          "filosofia"
+        ],
+        "nl": [
+          "nederigheid",
+          "leren",
+          "filosofie"
+        ],
+        "es": [
+          "humildad",
+          "aprendizaje",
+          "filosofía"
+        ],
+        "de": [
+          "Demut",
+          "Lernen",
+          "Philosophie"
+        ],
+        "it": [
+          "umiltà",
+          "apprendimento",
+          "filosofia"
+        ],
+        "ru": [
+          "скромность",
+          "обучение",
+          "философия"
+        ],
+        "id": [
+          "kerendahan hati",
+          "pembelajaran",
+          "filsafat"
+        ],
+        "ja": [
+          "謙虚",
+          "学習",
+          "哲学"
+        ],
+        "th": [
+          "ความถ่อมตัว",
+          "การเรียนรู้",
+          "ปรัชญา"
+        ],
+        "ms": [
+          "kerendahan hati",
+          "pembelajaran",
+          "falsafah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["action", "multiplication", "legacy"],
-        "tr": ["eylem", "çoğaltma", "miras"],
-        "fr": ["action", "multiplication", "héritage"],
-        "pt": ["ação", "multiplicação", "legado"],
-        "nl": ["actie", "vermenigvuldiging", "erfenis"],
-        "es": ["acción", "multiplicación", "legado"],
-        "de": ["Handlung", "Vervielfachung", "Vermächtnis"],
-        "it": ["azione", "moltiplicazione", "eredità"],
-        "ru": ["действие", "умножение", "наследие"],
-        "id": ["tindakan", "perbanyakan", "warisan"],
-        "ja": ["行動", "増殖", "遺産"],
-        "th": ["การกระทำ", "การทวีคูณ", "มรดก"],
-        "ms": ["tindakan", "pembiakan", "warisan"]
+        "en": [
+          "action",
+          "multiplication",
+          "legacy"
+        ],
+        "tr": [
+          "eylem",
+          "çoğaltma",
+          "miras"
+        ],
+        "fr": [
+          "action",
+          "multiplication",
+          "héritage"
+        ],
+        "pt": [
+          "ação",
+          "multiplicação",
+          "legado"
+        ],
+        "nl": [
+          "actie",
+          "vermenigvuldiging",
+          "erfenis"
+        ],
+        "es": [
+          "acción",
+          "multiplicación",
+          "legado"
+        ],
+        "de": [
+          "Handlung",
+          "Vervielfachung",
+          "Vermächtnis"
+        ],
+        "it": [
+          "azione",
+          "moltiplicazione",
+          "eredità"
+        ],
+        "ru": [
+          "действие",
+          "умножение",
+          "наследие"
+        ],
+        "id": [
+          "tindakan",
+          "perbanyakan",
+          "warisan"
+        ],
+        "ja": [
+          "行動",
+          "増殖",
+          "遺産"
+        ],
+        "th": [
+          "การกระทำ",
+          "การทวีคูณ",
+          "มรดก"
+        ],
+        "ms": [
+          "tindakan",
+          "pembiakan",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -281,19 +385,71 @@
         "ms": "Viktor Frankl"
       },
       "tags": {
-        "en": ["choice", "freedom", "resilience"],
-        "tr": ["seçim", "özgürlük", "dayanıklılık"],
-        "fr": ["choix", "liberté", "résilience"],
-        "pt": ["escolha", "liberdade", "resiliência"],
-        "nl": ["keuze", "vrijheid", "veerkracht"],
-        "es": ["elección", "libertad", "resiliencia"],
-        "de": ["Wahl", "Freiheit", "Widerstandsfähigkeit"],
-        "it": ["scelta", "libertà", "resilienza"],
-        "ru": ["выбор", "свобода", "устойчивость"],
-        "id": ["pilihan", "kebebasan", "ketahanan"],
-        "ja": ["選択", "自由", "回復力"],
-        "th": ["การเลือก", "อิสรภาพ", "ความยืดหยุ่น"],
-        "ms": ["pilihan", "kebebasan", "ketahanan"]
+        "en": [
+          "choice",
+          "freedom",
+          "resilience"
+        ],
+        "tr": [
+          "seçim",
+          "özgürlük",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "choix",
+          "liberté",
+          "résilience"
+        ],
+        "pt": [
+          "escolha",
+          "liberdade",
+          "resiliência"
+        ],
+        "nl": [
+          "keuze",
+          "vrijheid",
+          "veerkracht"
+        ],
+        "es": [
+          "elección",
+          "libertad",
+          "resiliencia"
+        ],
+        "de": [
+          "Wahl",
+          "Freiheit",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "scelta",
+          "libertà",
+          "resilienza"
+        ],
+        "ru": [
+          "выбор",
+          "свобода",
+          "устойчивость"
+        ],
+        "id": [
+          "pilihan",
+          "kebebasan",
+          "ketahanan"
+        ],
+        "ja": [
+          "選択",
+          "自由",
+          "回復力"
+        ],
+        "th": [
+          "การเลือก",
+          "อิสรภาพ",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "pilihan",
+          "kebebasan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -411,19 +567,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["resilience", "adaptability", "strength"],
-        "tr": ["dayanıklılık", "uyum", "güç"],
-        "fr": ["résilience", "adaptabilité", "force"],
-        "pt": ["resiliência", "adaptabilidade", "força"],
-        "nl": ["veerkracht", "aanpassingsvermogen", "kracht"],
-        "es": ["resiliencia", "adaptabilidad", "fuerza"],
-        "de": ["Widerstandsfähigkeit", "Anpassungsfähigkeit", "Stärke"],
-        "it": ["resilienza", "adattabilità", "forza"],
-        "ru": ["устойчивость", "адаптивность", "сила"],
-        "id": ["ketahanan", "kemampuan beradaptasi", "kekuatan"],
-        "ja": ["回復力", "適応力", "強さ"],
-        "th": ["ความยืดหยุ่น", "การปรับตัว", "พลัง"],
-        "ms": ["ketahanan", "kebolehsuaian", "kekuatan"]
+        "en": [
+          "resilience",
+          "adaptability",
+          "strength"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "uyum",
+          "güç"
+        ],
+        "fr": [
+          "résilience",
+          "adaptabilité",
+          "force"
+        ],
+        "pt": [
+          "resiliência",
+          "adaptabilidade",
+          "força"
+        ],
+        "nl": [
+          "veerkracht",
+          "aanpassingsvermogen",
+          "kracht"
+        ],
+        "es": [
+          "resiliencia",
+          "adaptabilidad",
+          "fuerza"
+        ],
+        "de": [
+          "Widerstandsfähigkeit",
+          "Anpassungsfähigkeit",
+          "Stärke"
+        ],
+        "it": [
+          "resilienza",
+          "adattabilità",
+          "forza"
+        ],
+        "ru": [
+          "устойчивость",
+          "адаптивность",
+          "сила"
+        ],
+        "id": [
+          "ketahanan",
+          "kemampuan beradaptasi",
+          "kekuatan"
+        ],
+        "ja": [
+          "回復力",
+          "適応力",
+          "強さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "การปรับตัว",
+          "พลัง"
+        ],
+        "ms": [
+          "ketahanan",
+          "kebolehsuaian",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -494,7 +702,6 @@
         }
       }
     },
-        
     {
       "id": "wisdom_006",
       "category": "wisdom",
@@ -529,19 +736,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["stillness", "clarity", "calm"],
-        "tr": ["sükunet", "berraklık", "sakinlik"],
-        "fr": ["calme", "clarté", "tranquillité"],
-        "pt": ["quietude", "clareza", "calma"],
-        "nl": ["stilte", "helderheid", "rust"],
-        "es": ["quietud", "claridad", "calma"],
-        "de": ["Stille", "Klarheit", "Ruhe"],
-        "it": ["quiete", "chiarezza", "calma"],
-        "ru": ["тишина", "ясность", "спокойствие"],
-        "id": ["keheningan", "kejernihan", "ketenangan"],
-        "ja": ["静けさ", "明晰", "穏やかさ"],
-        "th": ["ความเงียบ", "ความชัดเจน", "ความสงบ"],
-        "ms": ["ketenangan", "kejelasan", "ketenangan"]
+        "en": [
+          "stillness",
+          "clarity",
+          "calm"
+        ],
+        "tr": [
+          "sükunet",
+          "berraklık",
+          "sakinlik"
+        ],
+        "fr": [
+          "calme",
+          "clarté",
+          "tranquillité"
+        ],
+        "pt": [
+          "quietude",
+          "clareza",
+          "calma"
+        ],
+        "nl": [
+          "stilte",
+          "helderheid",
+          "rust"
+        ],
+        "es": [
+          "quietud",
+          "claridad",
+          "calma"
+        ],
+        "de": [
+          "Stille",
+          "Klarheit",
+          "Ruhe"
+        ],
+        "it": [
+          "quiete",
+          "chiarezza",
+          "calma"
+        ],
+        "ru": [
+          "тишина",
+          "ясность",
+          "спокойствие"
+        ],
+        "id": [
+          "keheningan",
+          "kejernihan",
+          "ketenangan"
+        ],
+        "ja": [
+          "静けさ",
+          "明晰",
+          "穏やかさ"
+        ],
+        "th": [
+          "ความเงียบ",
+          "ความชัดเจน",
+          "ความสงบ"
+        ],
+        "ms": [
+          "ketenangan",
+          "kejelasan",
+          "ketenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -659,19 +918,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["kindness", "resilience", "soul"],
-        "tr": ["iyilik", "dayanıklılık", "ruh"],
-        "fr": ["bonté", "résilience", "âme"],
-        "pt": ["bondade", "resiliência", "alma"],
-        "nl": ["vriendelijkheid", "veerkracht", "ziel"],
-        "es": ["bondad", "resiliencia", "alma"],
-        "de": ["Güte", "Widerstandsfähigkeit", "Seele"],
-        "it": ["gentilezza", "resilienza", "anima"],
-        "ru": ["доброта", "устойчивость", "душа"],
-        "id": ["kebaikan", "ketahanan", "jiwa"],
-        "ja": ["優しさ", "回復力", "魂"],
-        "th": ["ความเมตตา", "ความยืดหยุ่น", "จิตวิญญาณ"],
-        "ms": ["kebaikan", "ketahanan", "jiwa"]
+        "en": [
+          "kindness",
+          "resilience",
+          "soul"
+        ],
+        "tr": [
+          "iyilik",
+          "dayanıklılık",
+          "ruh"
+        ],
+        "fr": [
+          "bonté",
+          "résilience",
+          "âme"
+        ],
+        "pt": [
+          "bondade",
+          "resiliência",
+          "alma"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "veerkracht",
+          "ziel"
+        ],
+        "es": [
+          "bondad",
+          "resiliencia",
+          "alma"
+        ],
+        "de": [
+          "Güte",
+          "Widerstandsfähigkeit",
+          "Seele"
+        ],
+        "it": [
+          "gentilezza",
+          "resilienza",
+          "anima"
+        ],
+        "ru": [
+          "доброта",
+          "устойчивость",
+          "душа"
+        ],
+        "id": [
+          "kebaikan",
+          "ketahanan",
+          "jiwa"
+        ],
+        "ja": [
+          "優しさ",
+          "回復力",
+          "魂"
+        ],
+        "th": [
+          "ความเมตตา",
+          "ความยืดหยุ่น",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "kebaikan",
+          "ketahanan",
+          "jiwa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -789,19 +1100,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["courage", "truth", "revelation"],
-        "tr": ["cesaret", "gerçek", "açıklama"],
-        "fr": ["courage", "vérité", "révélation"],
-        "pt": ["coragem", "verdade", "revelação"],
-        "nl": ["moed", "waarheid", "openbaring"],
-        "es": ["valor", "verdad", "revelación"],
-        "de": ["Mut", "Wahrheit", "Offenbarung"],
-        "it": ["coraggio", "verità", "rivelazione"],
-        "ru": ["смелость", "правда", "откровение"],
-        "id": ["keberanian", "kebenaran", "pengungkapan"],
-        "ja": ["勇気", "真実", "啓示"],
-        "th": ["ความกล้าหาญ", "ความจริง", "การเปิดเผย"],
-        "ms": ["keberanian", "kebenaran", "pendedahan"]
+        "en": [
+          "courage",
+          "truth",
+          "revelation"
+        ],
+        "tr": [
+          "cesaret",
+          "gerçek",
+          "açıklama"
+        ],
+        "fr": [
+          "courage",
+          "vérité",
+          "révélation"
+        ],
+        "pt": [
+          "coragem",
+          "verdade",
+          "revelação"
+        ],
+        "nl": [
+          "moed",
+          "waarheid",
+          "openbaring"
+        ],
+        "es": [
+          "valor",
+          "verdad",
+          "revelación"
+        ],
+        "de": [
+          "Mut",
+          "Wahrheit",
+          "Offenbarung"
+        ],
+        "it": [
+          "coraggio",
+          "verità",
+          "rivelazione"
+        ],
+        "ru": [
+          "смелость",
+          "правда",
+          "откровение"
+        ],
+        "id": [
+          "keberanian",
+          "kebenaran",
+          "pengungkapan"
+        ],
+        "ja": [
+          "勇気",
+          "真実",
+          "啓示"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ความจริง",
+          "การเปิดเผย"
+        ],
+        "ms": [
+          "keberanian",
+          "kebenaran",
+          "pendedahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -877,14 +1240,14 @@
           "content": "ในนิทานพื้นบ้านไทย เรื่องราวของวีรบุรุษท้องถิ่นยกย่องความกล้าหาญว่าเป็นพลังที่เผยความจริงที่ซ่อนอยู่ คำพูดนี้สะท้อนถึงความเชื่อว่า ความกล้าคังเผยสิ่งที่ความกลัวบดบัง เช่น นักรบที่ต่อสู้กับการกดขี่เพื่อความยุติธรรม มันเน้นถึงพลังของความกล้าที่ในการเปิดเผยความจริง ซึ่งเป็นค่านิยมหลักในมรดกไทย"
         },
         "ms": {
-            "id": "story_wisdom_008_ms",
-            "title": "Bayang Keberanian",
-            "content": "Dalam cerita rakyat Melayu, seperti kisah Hang Tuah, keberanian dianggap sebagai kuasa yang mendedahkan kebenaran yang tersembunyi. Petikan ini mencerminkan kepercayaan bahawa keberanian mendedahkan apa yang ditutup oleh ketakutan, seperti pahlawan yang menentang penindasan demi keadilan. Ia menegaskan kekuatan keberanian untuk mendedahkan kebenaran, nilai teras dalam warisan Melayu.",
-            "readTime": 0
-          }
+          "id": "story_wisdom_008_ms",
+          "title": "Bayang Keberanian",
+          "content": "Dalam cerita rakyat Melayu, seperti kisah Hang Tuah, keberanian dianggap sebagai kuasa yang mendedahkan kebenaran yang tersembunyi. Petikan ini mencerminkan kepercayaan bahawa keberanian mendedahkan apa yang ditutup oleh ketakutan, seperti pahlawan yang menentang penindasan demi keadilan. Ia menegaskan kekuatan keberanian untuk mendedahkan kebenaran, nilai teras dalam warisan Melayu.",
+          "readTime": 0
         }
-      },
-      {
+      }
+    },
+    {
       "id": "wisdom_009",
       "category": "wisdom",
       "texts": {
@@ -918,19 +1281,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["listening", "empathy", "wisdom"],
-        "tr": ["dinleme", "empati", "bilgelik"],
-        "fr": ["écoute", "empathie", "sagesse"],
-        "pt": ["escuta", "empatia", "sabedoria"],
-        "nl": ["luisteren", "empathie", "wijsheid"],
-        "es": ["escucha", "empatía", "sabiduría"],
-        "de": ["Zuhören", "Empathie", "Weisheit"],
-        "it": ["ascolto", "empatia", "saggezza"],
-        "ru": ["слушание", "эмпатия", "мудрость"],
-        "id": ["mendengarkan", "empati", "kebijaksanaan"],
-        "ja": ["傾聴", "共感", "知恵"],
-        "th": ["การรับฟัง", "ความเห็นอกเห็นใจ", "ปัญญา"],
-        "ms": ["mendengar", "empati", "kebijaksanaan"]
+        "en": [
+          "listening",
+          "empathy",
+          "wisdom"
+        ],
+        "tr": [
+          "dinleme",
+          "empati",
+          "bilgelik"
+        ],
+        "fr": [
+          "écoute",
+          "empathie",
+          "sagesse"
+        ],
+        "pt": [
+          "escuta",
+          "empatia",
+          "sabedoria"
+        ],
+        "nl": [
+          "luisteren",
+          "empathie",
+          "wijsheid"
+        ],
+        "es": [
+          "escucha",
+          "empatía",
+          "sabiduría"
+        ],
+        "de": [
+          "Zuhören",
+          "Empathie",
+          "Weisheit"
+        ],
+        "it": [
+          "ascolto",
+          "empatia",
+          "saggezza"
+        ],
+        "ru": [
+          "слушание",
+          "эмпатия",
+          "мудрость"
+        ],
+        "id": [
+          "mendengarkan",
+          "empati",
+          "kebijaksanaan"
+        ],
+        "ja": [
+          "傾聴",
+          "共感",
+          "知恵"
+        ],
+        "th": [
+          "การรับฟัง",
+          "ความเห็นอกเห็นใจ",
+          "ปัญญา"
+        ],
+        "ms": [
+          "mendengar",
+          "empati",
+          "kebijaksanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1048,19 +1463,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["patience", "wisdom", "time"],
-        "tr": ["sabır", "bilgelik", "zaman"],
-        "fr": ["patience", "sagesse", "temps"],
-        "pt": ["paciência", "sabedoria", "tempo"],
-        "nl": ["geduld", "wijsheid", "tijd"],
-        "es": ["paciencia", "sabiduría", "tiempo"],
-        "de": ["Geduld", "Weisheit", "Zeit"],
-        "it": ["pazienza", "saggezza", "tempo"],
-        "ru": ["терпение", "мудрость", "время"],
-        "id": ["kesabaran", "kebijaksanaan", "waktu"],
-        "ja": ["忍耐", "知恵", "時間"],
-        "th": ["ความอดทน", "ปัญญา", "เวลา"],
-        "ms": ["kesabaran", "kebijaksanaan", "masa"]
+        "en": [
+          "patience",
+          "wisdom",
+          "time"
+        ],
+        "tr": [
+          "sabır",
+          "bilgelik",
+          "zaman"
+        ],
+        "fr": [
+          "patience",
+          "sagesse",
+          "temps"
+        ],
+        "pt": [
+          "paciência",
+          "sabedoria",
+          "tempo"
+        ],
+        "nl": [
+          "geduld",
+          "wijsheid",
+          "tijd"
+        ],
+        "es": [
+          "paciencia",
+          "sabiduría",
+          "tiempo"
+        ],
+        "de": [
+          "Geduld",
+          "Weisheit",
+          "Zeit"
+        ],
+        "it": [
+          "pazienza",
+          "saggezza",
+          "tempo"
+        ],
+        "ru": [
+          "терпение",
+          "мудрость",
+          "время"
+        ],
+        "id": [
+          "kesabaran",
+          "kebijaksanaan",
+          "waktu"
+        ],
+        "ja": [
+          "忍耐",
+          "知恵",
+          "時間"
+        ],
+        "th": [
+          "ความอดทน",
+          "ปัญญา",
+          "เวลา"
+        ],
+        "ms": [
+          "kesabaran",
+          "kebijaksanaan",
+          "masa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1178,19 +1645,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["doubt", "understanding", "growth"],
-        "tr": ["şüphe", "anlayış", "büyüme"],
-        "fr": ["doute", "compréhension", "croissance"],
-        "pt": ["dúvida", "compreensão", "crescimento"],
-        "nl": ["twijfel", "begrip", "groei"],
-        "es": ["duda", "comprensión", "crecimiento"],
-        "de": ["Zweifel", "Verständnis", "Wachstum"],
-        "it": ["dubbio", "comprensione", "crescita"],
-        "ru": ["сомнение", "понимание", "рост"],
-        "id": ["keraguan", "pemahaman", "pertumbuhan"],
-        "ja": ["疑い", "理解", "成長"],
-        "th": ["ความสงสัย", "ความเข้าใจ", "การเติบโต"],
-        "ms": ["keraguan", "pemahaman", "pertumbuhan"]
+        "en": [
+          "doubt",
+          "understanding",
+          "growth"
+        ],
+        "tr": [
+          "şüphe",
+          "anlayış",
+          "büyüme"
+        ],
+        "fr": [
+          "doute",
+          "compréhension",
+          "croissance"
+        ],
+        "pt": [
+          "dúvida",
+          "compreensão",
+          "crescimento"
+        ],
+        "nl": [
+          "twijfel",
+          "begrip",
+          "groei"
+        ],
+        "es": [
+          "duda",
+          "comprensión",
+          "crecimiento"
+        ],
+        "de": [
+          "Zweifel",
+          "Verständnis",
+          "Wachstum"
+        ],
+        "it": [
+          "dubbio",
+          "comprensione",
+          "crescita"
+        ],
+        "ru": [
+          "сомнение",
+          "понимание",
+          "рост"
+        ],
+        "id": [
+          "keraguan",
+          "pemahaman",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "疑い",
+          "理解",
+          "成長"
+        ],
+        "th": [
+          "ความสงสัย",
+          "ความเข้าใจ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "keraguan",
+          "pemahaman",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1308,19 +1827,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["humility", "truth", "soul"],
-        "tr": ["alçakgönüllülük", "gerçek", "ruh"],
-        "fr": ["humilité", "vérité", "âme"],
-        "pt": ["humildade", "verdade", "alma"],
-        "nl": ["nederigheid", "waarheid", "ziel"],
-        "es": ["humildad", "verdad", "alma"],
-        "de": ["Demut", "Wahrheit", "Seele"],
-        "it": ["umiltà", "verità", "anima"],
-        "ru": ["смирение", "правда", "душа"],
-        "id": ["kerendahan hati", "kebenaran", "jiwa"],
-        "ja": ["謙虚", "真実", "魂"],
-        "th": ["ความถ่อมตัว", "ความจริง", "จิตวิญญาณ"],
-        "ms": ["kerendahan hati", "kebenaran", "jiwa"]
+        "en": [
+          "humility",
+          "truth",
+          "soul"
+        ],
+        "tr": [
+          "alçakgönüllülük",
+          "gerçek",
+          "ruh"
+        ],
+        "fr": [
+          "humilité",
+          "vérité",
+          "âme"
+        ],
+        "pt": [
+          "humildade",
+          "verdade",
+          "alma"
+        ],
+        "nl": [
+          "nederigheid",
+          "waarheid",
+          "ziel"
+        ],
+        "es": [
+          "humildad",
+          "verdad",
+          "alma"
+        ],
+        "de": [
+          "Demut",
+          "Wahrheit",
+          "Seele"
+        ],
+        "it": [
+          "umiltà",
+          "verità",
+          "anima"
+        ],
+        "ru": [
+          "смирение",
+          "правда",
+          "душа"
+        ],
+        "id": [
+          "kerendahan hati",
+          "kebenaran",
+          "jiwa"
+        ],
+        "ja": [
+          "謙虚",
+          "真実",
+          "魂"
+        ],
+        "th": [
+          "ความถ่อมตัว",
+          "ความจริง",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "kerendahan hati",
+          "kebenaran",
+          "jiwa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2009,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["change", "hope", "renewal"],
-        "tr": ["değişim", "umut", "yenilenme"],
-        "fr": ["changement", "espoir", "renouveau"],
-        "pt": ["mudança", "esperança", "renovação"],
-        "nl": ["verandering", "hoop", "vernieuwing"],
-        "es": ["cambio", "esperanza", "renovación"],
-        "de": ["Wandel", "Hoffnung", "Erneuerung"],
-        "it": ["cambiamento", "speranza", "rinnovamento"],
-        "ru": ["перемены", "надежда", "обновление"],
-        "id": ["perubahan", "harapan", "pembaruan"],
-        "ja": ["変化", "希望", "再生"],
-        "th": ["การเปลี่ยนแปลง", "ความหวัง", "การฟื้นฟู"],
-        "ms": ["perubahan", "harapan", "pembaharuan"]
+        "en": [
+          "change",
+          "hope",
+          "renewal"
+        ],
+        "tr": [
+          "değişim",
+          "umut",
+          "yenilenme"
+        ],
+        "fr": [
+          "changement",
+          "espoir",
+          "renouveau"
+        ],
+        "pt": [
+          "mudança",
+          "esperança",
+          "renovação"
+        ],
+        "nl": [
+          "verandering",
+          "hoop",
+          "vernieuwing"
+        ],
+        "es": [
+          "cambio",
+          "esperanza",
+          "renovación"
+        ],
+        "de": [
+          "Wandel",
+          "Hoffnung",
+          "Erneuerung"
+        ],
+        "it": [
+          "cambiamento",
+          "speranza",
+          "rinnovamento"
+        ],
+        "ru": [
+          "перемены",
+          "надежда",
+          "обновление"
+        ],
+        "id": [
+          "perubahan",
+          "harapan",
+          "pembaruan"
+        ],
+        "ja": [
+          "変化",
+          "希望",
+          "再生"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความหวัง",
+          "การฟื้นฟู"
+        ],
+        "ms": [
+          "perubahan",
+          "harapan",
+          "pembaharuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1568,19 +2191,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["compassion", "guidance", "hope"],
-        "tr": ["şefkat", "rehberlik", "umut"],
-        "fr": ["compassion", "guidance", "espoir"],
-        "pt": ["compaixão", "orientação", "esperança"],
-        "nl": ["mededogen", "begeleiding", "hoop"],
-        "es": ["compasión", "guía", "esperanza"],
-        "de": ["Mitgefühl", "Führung", "Hoffnung"],
-        "it": ["compassione", "guida", "speranza"],
-        "ru": ["сострадание", "руководство", "надежда"],
-        "id": ["welas asih", "bimbingan", "harapan"],
-        "ja": ["慈悲", "指導", "希望"],
-        "th": ["ความเมตตา", "การนำทาง", "ความหวัง"],
-        "ms": ["belas kasihan", "bimbingan", "harapan"]
+        "en": [
+          "compassion",
+          "guidance",
+          "hope"
+        ],
+        "tr": [
+          "şefkat",
+          "rehberlik",
+          "umut"
+        ],
+        "fr": [
+          "compassion",
+          "guidance",
+          "espoir"
+        ],
+        "pt": [
+          "compaixão",
+          "orientação",
+          "esperança"
+        ],
+        "nl": [
+          "mededogen",
+          "begeleiding",
+          "hoop"
+        ],
+        "es": [
+          "compasión",
+          "guía",
+          "esperanza"
+        ],
+        "de": [
+          "Mitgefühl",
+          "Führung",
+          "Hoffnung"
+        ],
+        "it": [
+          "compassione",
+          "guida",
+          "speranza"
+        ],
+        "ru": [
+          "сострадание",
+          "руководство",
+          "надежда"
+        ],
+        "id": [
+          "welas asih",
+          "bimbingan",
+          "harapan"
+        ],
+        "ja": [
+          "慈悲",
+          "指導",
+          "希望"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การนำทาง",
+          "ความหวัง"
+        ],
+        "ms": [
+          "belas kasihan",
+          "bimbingan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1698,19 +2373,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["trust", "fear", "connection"],
-        "tr": ["güven", "korku", "bağlantı"],
-        "fr": ["confiance", "peur", "connexion"],
-        "pt": ["confiança", "medo", "conexão"],
-        "nl": ["vertrouwen", "angst", "verbinding"],
-        "es": ["confianza", "miedo", "conexión"],
-        "de": ["Vertrauen", "Angst", "Verbindung"],
-        "it": ["fiducia", "paura", "connessione"],
-        "ru": ["доверие", "страх", "связь"],
-        "id": ["kepercayaan", "ketakutan", "hubungan"],
-        "ja": ["信頼", "恐怖", "つながり"],
-        "th": ["ความไว้วางใจ", "ความกลัว", "การเชื่อมโยง"],
-        "ms": ["kepercayaan", "ketakutan", "hubungan"]
+        "en": [
+          "trust",
+          "fear",
+          "connection"
+        ],
+        "tr": [
+          "güven",
+          "korku",
+          "bağlantı"
+        ],
+        "fr": [
+          "confiance",
+          "peur",
+          "connexion"
+        ],
+        "pt": [
+          "confiança",
+          "medo",
+          "conexão"
+        ],
+        "nl": [
+          "vertrouwen",
+          "angst",
+          "verbinding"
+        ],
+        "es": [
+          "confianza",
+          "miedo",
+          "conexión"
+        ],
+        "de": [
+          "Vertrauen",
+          "Angst",
+          "Verbindung"
+        ],
+        "it": [
+          "fiducia",
+          "paura",
+          "connessione"
+        ],
+        "ru": [
+          "доверие",
+          "страх",
+          "связь"
+        ],
+        "id": [
+          "kepercayaan",
+          "ketakutan",
+          "hubungan"
+        ],
+        "ja": [
+          "信頼",
+          "恐怖",
+          "つながり"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "ความกลัว",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kepercayaan",
+          "ketakutan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1828,19 +2555,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["patience", "wisdom", "time"],
-        "tr": ["sabır", "bilgelik", "zaman"],
-        "fr": ["patience", "sagesse", "temps"],
-        "pt": ["paciência", "sabedoria", "tempo"],
-        "nl": ["geduld", "wijsheid", "tijd"],
-        "es": ["paciencia", "sabiduría", "tiempo"],
-        "de": ["Geduld", "Weisheit", "Zeit"],
-        "it": ["pazienza", "saggezza", "tempo"],
-        "ru": ["терпение", "мудрость", "время"],
-        "id": ["kesabaran", "kebijaksanaan", "waktu"],
-        "ja": ["忍耐", "知恵", "時間"],
-        "th": ["ความอดทน", "ปัญญา", "เวลา"],
-        "ms": ["kesabaran", "kebijaksanaan", "masa"]
+        "en": [
+          "patience",
+          "wisdom",
+          "time"
+        ],
+        "tr": [
+          "sabır",
+          "bilgelik",
+          "zaman"
+        ],
+        "fr": [
+          "patience",
+          "sagesse",
+          "temps"
+        ],
+        "pt": [
+          "paciência",
+          "sabedoria",
+          "tempo"
+        ],
+        "nl": [
+          "geduld",
+          "wijsheid",
+          "tijd"
+        ],
+        "es": [
+          "paciencia",
+          "sabiduría",
+          "tiempo"
+        ],
+        "de": [
+          "Geduld",
+          "Weisheit",
+          "Zeit"
+        ],
+        "it": [
+          "pazienza",
+          "saggezza",
+          "tempo"
+        ],
+        "ru": [
+          "терпение",
+          "мудрость",
+          "время"
+        ],
+        "id": [
+          "kesabaran",
+          "kebijaksanaan",
+          "waktu"
+        ],
+        "ja": [
+          "忍耐",
+          "知恵",
+          "時間"
+        ],
+        "th": [
+          "ความอดทน",
+          "ปัญญา",
+          "เวลา"
+        ],
+        "ms": [
+          "kesabaran",
+          "kebijaksanaan",
+          "masa"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1958,19 +2737,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["gratitude", "joy", "heart"],
-        "tr": ["minnettarlık", "neşe", "kalp"],
-        "fr": ["gratitude", "joie", "cœur"],
-        "pt": ["gratidão", "alegria", "coração"],
-        "nl": ["dankbaarheid", "vreugde", "hart"],
-        "es": ["gratitud", "alegría", "corazón"],
-        "de": ["Dankbarkeit", "Freude", "Herz"],
-        "it": ["gratitudine", "gioia", "cuore"],
-        "ru": ["благодарность", "радость", "сердце"],
-        "id": ["rasa syukur", "kebahagiaan", "hati"],
-        "ja": ["感謝", "喜び", "心"],
-        "th": ["ความกตัญญู", "ความสุข", "หัวใจ"],
-        "ms": ["kesyukuran", "kebahagiaan", "hati"]
+        "en": [
+          "gratitude",
+          "joy",
+          "heart"
+        ],
+        "tr": [
+          "minnettarlık",
+          "neşe",
+          "kalp"
+        ],
+        "fr": [
+          "gratitude",
+          "joie",
+          "cœur"
+        ],
+        "pt": [
+          "gratidão",
+          "alegria",
+          "coração"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "vreugde",
+          "hart"
+        ],
+        "es": [
+          "gratitud",
+          "alegría",
+          "corazón"
+        ],
+        "de": [
+          "Dankbarkeit",
+          "Freude",
+          "Herz"
+        ],
+        "it": [
+          "gratitudine",
+          "gioia",
+          "cuore"
+        ],
+        "ru": [
+          "благодарность",
+          "радость",
+          "сердце"
+        ],
+        "id": [
+          "rasa syukur",
+          "kebahagiaan",
+          "hati"
+        ],
+        "ja": [
+          "感謝",
+          "喜び",
+          "心"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "ความสุข",
+          "หัวใจ"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kebahagiaan",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2088,19 +2919,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["hope", "guidance", "resilience"],
-        "tr": ["umut", "rehberlik", "dayanıklılık"],
-        "fr": ["espoir", "guidance", "résilience"],
-        "pt": ["esperança", "orientação", "resiliência"],
-        "nl": ["hoop", "begeleiding", "veerkracht"],
-        "es": ["esperanza", "guía", "resiliencia"],
-        "de": ["Hoffnung", "Führung", "Widerstandsfähigkeit"],
-        "it": ["speranza", "guida", "resilienza"],
-        "ru": ["надежда", "руководство", "устойчивость"],
-        "id": ["harapan", "bimbingan", "ketahanan"],
-        "ja": ["希望", "指導", "回復力"],
-        "th": ["ความหวัง", "การนำทาง", "ความยืดหยุ่น"],
-        "ms": ["harapan", "bimbingan", "ketahanan"]
+        "en": [
+          "hope",
+          "guidance",
+          "resilience"
+        ],
+        "tr": [
+          "umut",
+          "rehberlik",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "espoir",
+          "guidance",
+          "résilience"
+        ],
+        "pt": [
+          "esperança",
+          "orientação",
+          "resiliência"
+        ],
+        "nl": [
+          "hoop",
+          "begeleiding",
+          "veerkracht"
+        ],
+        "es": [
+          "esperanza",
+          "guía",
+          "resiliencia"
+        ],
+        "de": [
+          "Hoffnung",
+          "Führung",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "speranza",
+          "guida",
+          "resilienza"
+        ],
+        "ru": [
+          "надежда",
+          "руководство",
+          "устойчивость"
+        ],
+        "id": [
+          "harapan",
+          "bimbingan",
+          "ketahanan"
+        ],
+        "ja": [
+          "希望",
+          "指導",
+          "回復力"
+        ],
+        "th": [
+          "ความหวัง",
+          "การนำทาง",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "harapan",
+          "bimbingan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2218,19 +3101,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["forgiveness", "life", "healing"],
-        "tr": ["bağışlama", "hayat", "iyileşme"],
-        "fr": ["pardon", "vie", "guérison"],
-        "pt": ["perdão", "vida", "cura"],
-        "nl": ["vergeving", "leven", "genezing"],
-        "es": ["perdón", "vida", "curación"],
-        "de": ["Vergebung", "Leben", "Heilung"],
-        "it": ["perdono", "vita", "guarigione"],
-        "ru": ["прощение", "жизнь", "исцеление"],
-        "id": ["pengampunan", "kehidupan", "penyembuhan"],
-        "ja": ["許し", "人生", "癒し"],
-        "th": ["การให้อภัย", "ชีวิต", "การเยียวยา"],
-        "ms": ["keampunan", "kehidupan", "penyembuhan"]
+        "en": [
+          "forgiveness",
+          "life",
+          "healing"
+        ],
+        "tr": [
+          "bağışlama",
+          "hayat",
+          "iyileşme"
+        ],
+        "fr": [
+          "pardon",
+          "vie",
+          "guérison"
+        ],
+        "pt": [
+          "perdão",
+          "vida",
+          "cura"
+        ],
+        "nl": [
+          "vergeving",
+          "leven",
+          "genezing"
+        ],
+        "es": [
+          "perdón",
+          "vida",
+          "curación"
+        ],
+        "de": [
+          "Vergebung",
+          "Leben",
+          "Heilung"
+        ],
+        "it": [
+          "perdono",
+          "vita",
+          "guarigione"
+        ],
+        "ru": [
+          "прощение",
+          "жизнь",
+          "исцеление"
+        ],
+        "id": [
+          "pengampunan",
+          "kehidupan",
+          "penyembuhan"
+        ],
+        "ja": [
+          "許し",
+          "人生",
+          "癒し"
+        ],
+        "th": [
+          "การให้อภัย",
+          "ชีวิต",
+          "การเยียวยา"
+        ],
+        "ms": [
+          "keampunan",
+          "kehidupan",
+          "penyembuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2348,19 +3283,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["curiosity", "ignorance", "knowledge"],
-        "tr": ["merak", "cehalet", "bilgi"],
-        "fr": ["curiosité", "ignorance", "connaissance"],
-        "pt": ["curiosidade", "ignorância", "conhecimento"],
-        "nl": ["nieuwsgierigheid", "onwetendheid", "kennis"],
-        "es": ["curiosidad", "ignorancia", "conocimiento"],
-        "de": ["Neugier", "Unwissenheit", "Wissen"],
-        "it": ["curiosità", "ignoranza", "conoscenza"],
-        "ru": ["любопытство", "невежество", "знание"],
-        "id": ["rasa ingin tahu", "kebodohan", "pengetahuan"],
-        "ja": ["好奇心", "無知", "知識"],
-        "th": ["ความอยากรู้", "ความไม่รู้", "ความรู้"],
-        "ms": ["rasa ingin tahu", "kejahilan", "pengetahuan"]
+        "en": [
+          "curiosity",
+          "ignorance",
+          "knowledge"
+        ],
+        "tr": [
+          "merak",
+          "cehalet",
+          "bilgi"
+        ],
+        "fr": [
+          "curiosité",
+          "ignorance",
+          "connaissance"
+        ],
+        "pt": [
+          "curiosidade",
+          "ignorância",
+          "conhecimento"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "onwetendheid",
+          "kennis"
+        ],
+        "es": [
+          "curiosidad",
+          "ignorancia",
+          "conocimiento"
+        ],
+        "de": [
+          "Neugier",
+          "Unwissenheit",
+          "Wissen"
+        ],
+        "it": [
+          "curiosità",
+          "ignoranza",
+          "conoscenza"
+        ],
+        "ru": [
+          "любопытство",
+          "невежество",
+          "знание"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "kebodohan",
+          "pengetahuan"
+        ],
+        "ja": [
+          "好奇心",
+          "無知",
+          "知識"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "ความไม่รู้",
+          "ความรู้"
+        ],
+        "ms": [
+          "rasa ingin tahu",
+          "kejahilan",
+          "pengetahuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2478,19 +3465,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["dreams", "possibilities", "aspiration"],
-        "tr": ["hayaller", "olasılıklar", "hedef"],
-        "fr": ["rêves", "possibilités", "aspiration"],
-        "pt": ["sonhos", "possibilidades", "aspiração"],
-        "nl": ["dromen", "mogelijkheden", "aspiratie"],
-        "es": ["sueños", "posibilidades", "aspiración"],
-        "de": ["Träume", "Möglichkeiten", "Streben"],
-        "it": ["sogni", "possibilità", "aspirazione"],
-        "ru": ["мечты", "возможности", "стремление"],
-        "id": ["mimpi", "kemungkinan", "aspirasi"],
-        "ja": ["夢", "可能性", "志"],
-        "th": ["ความฝัน", "ความเป็นไปได้", "ความทะเยอทะยาน"],
-        "ms": ["mimpi", "kemungkinan", "aspirasi"]
+        "en": [
+          "dreams",
+          "possibilities",
+          "aspiration"
+        ],
+        "tr": [
+          "hayaller",
+          "olasılıklar",
+          "hedef"
+        ],
+        "fr": [
+          "rêves",
+          "possibilités",
+          "aspiration"
+        ],
+        "pt": [
+          "sonhos",
+          "possibilidades",
+          "aspiração"
+        ],
+        "nl": [
+          "dromen",
+          "mogelijkheden",
+          "aspiratie"
+        ],
+        "es": [
+          "sueños",
+          "posibilidades",
+          "aspiración"
+        ],
+        "de": [
+          "Träume",
+          "Möglichkeiten",
+          "Streben"
+        ],
+        "it": [
+          "sogni",
+          "possibilità",
+          "aspirazione"
+        ],
+        "ru": [
+          "мечты",
+          "возможности",
+          "стремление"
+        ],
+        "id": [
+          "mimpi",
+          "kemungkinan",
+          "aspirasi"
+        ],
+        "ja": [
+          "夢",
+          "可能性",
+          "志"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความเป็นไปได้",
+          "ความทะเยอทะยาน"
+        ],
+        "ms": [
+          "mimpi",
+          "kemungkinan",
+          "aspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3647,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["kindness", "heart", "connection"],
-        "tr": ["iyilik", "kalp", "bağlantı"],
-        "fr": ["bonté", "cœur", "connexion"],
-        "pt": ["bondade", "coração", "conexão"],
-        "nl": ["vriendelijkheid", "hart", "verbinding"],
-        "es": ["bondad", "corazón", "conexión"],
-        "de": ["Güte", "Herz", "Verbindung"],
-        "it": ["gentilezza", "cuore", "connessione"],
-        "ru": ["доброта", "сердце", "связь"],
-        "id": ["kebaikan", "hati", "hubungan"],
-        "ja": ["親切", "心", "つながり"],
-        "th": ["ความเมตตา", "หัวใจ", "การเชื่อมโยง"],
-        "ms": ["kebaikan", "hati", "hubungan"]
+        "en": [
+          "kindness",
+          "heart",
+          "connection"
+        ],
+        "tr": [
+          "iyilik",
+          "kalp",
+          "bağlantı"
+        ],
+        "fr": [
+          "bonté",
+          "cœur",
+          "connexion"
+        ],
+        "pt": [
+          "bondade",
+          "coração",
+          "conexão"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "hart",
+          "verbinding"
+        ],
+        "es": [
+          "bondad",
+          "corazón",
+          "conexión"
+        ],
+        "de": [
+          "Güte",
+          "Herz",
+          "Verbindung"
+        ],
+        "it": [
+          "gentilezza",
+          "cuore",
+          "connessione"
+        ],
+        "ru": [
+          "доброта",
+          "сердце",
+          "связь"
+        ],
+        "id": [
+          "kebaikan",
+          "hati",
+          "hubungan"
+        ],
+        "ja": [
+          "親切",
+          "心",
+          "つながり"
+        ],
+        "th": [
+          "ความเมตตา",
+          "หัวใจ",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kebaikan",
+          "hati",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2738,19 +3829,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["peace", "patience", "growth"],
-        "tr": ["barış", "sabır", "büyüme"],
-        "fr": ["paix", "patience", "croissance"],
-        "pt": ["paz", "paciência", "crescimento"],
-        "nl": ["vrede", "geduld", "groei"],
-        "es": ["paz", "paciencia", "crecimiento"],
-        "de": ["Frieden", "Geduld", "Wachstum"],
-        "it": ["pace", "pazienza", "crescita"],
-        "ru": ["мир", "терпение", "рост"],
-        "id": ["kedamaian", "kesabaran", "pertumbuhan"],
-        "ja": ["平和", "忍耐", "成長"],
-        "th": ["สันติภาพ", "ความอดทน", "การเติบโต"],
-        "ms": ["kedamaian", "kesabaran", "pertumbuhan"]
+        "en": [
+          "peace",
+          "patience",
+          "growth"
+        ],
+        "tr": [
+          "barış",
+          "sabır",
+          "büyüme"
+        ],
+        "fr": [
+          "paix",
+          "patience",
+          "croissance"
+        ],
+        "pt": [
+          "paz",
+          "paciência",
+          "crescimento"
+        ],
+        "nl": [
+          "vrede",
+          "geduld",
+          "groei"
+        ],
+        "es": [
+          "paz",
+          "paciencia",
+          "crecimiento"
+        ],
+        "de": [
+          "Frieden",
+          "Geduld",
+          "Wachstum"
+        ],
+        "it": [
+          "pace",
+          "pazienza",
+          "crescita"
+        ],
+        "ru": [
+          "мир",
+          "терпение",
+          "рост"
+        ],
+        "id": [
+          "kedamaian",
+          "kesabaran",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "平和",
+          "忍耐",
+          "成長"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความอดทน",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kedamaian",
+          "kesabaran",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2868,19 +4011,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["integrity", "honor", "guidance"],
-        "tr": ["dürüstlük", "onur", "rehberlik"],
-        "fr": ["intégrité", "honneur", "guidance"],
-        "pt": ["integridade", "honra", "orientação"],
-        "nl": ["integriteit", "eer", "begeleiding"],
-        "es": ["integridad", "honor", "guía"],
-        "de": ["Integrität", "Ehre", "Führung"],
-        "it": ["integrità", "onore", "guida"],
-        "ru": ["честность", "честь", "руководство"],
-        "id": ["integritas", "kehormatan", "bimbingan"],
-        "ja": ["誠実", "名誉", "指導"],
-        "th": ["ความซื่อสัตย์", "เกียรติยศ", "การนำทาง"],
-        "ms": ["integriti", "kehormatan", "bimbingan"]
+        "en": [
+          "integrity",
+          "honor",
+          "guidance"
+        ],
+        "tr": [
+          "dürüstlük",
+          "onur",
+          "rehberlik"
+        ],
+        "fr": [
+          "intégrité",
+          "honneur",
+          "guidance"
+        ],
+        "pt": [
+          "integridade",
+          "honra",
+          "orientação"
+        ],
+        "nl": [
+          "integriteit",
+          "eer",
+          "begeleiding"
+        ],
+        "es": [
+          "integridad",
+          "honor",
+          "guía"
+        ],
+        "de": [
+          "Integrität",
+          "Ehre",
+          "Führung"
+        ],
+        "it": [
+          "integrità",
+          "onore",
+          "guida"
+        ],
+        "ru": [
+          "честность",
+          "честь",
+          "руководство"
+        ],
+        "id": [
+          "integritas",
+          "kehormatan",
+          "bimbingan"
+        ],
+        "ja": [
+          "誠実",
+          "名誉",
+          "指導"
+        ],
+        "th": [
+          "ความซื่อสัตย์",
+          "เกียรติยศ",
+          "การนำทาง"
+        ],
+        "ms": [
+          "integriti",
+          "kehormatan",
+          "bimbingan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2998,19 +4193,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["courage", "doubt", "spirit"],
-        "tr": ["cesaret", "şüphe", "ruh"],
-        "fr": ["courage", "doute", "esprit"],
-        "pt": ["coragem", "dúvida", "espírito"],
-        "nl": ["moed", "twijfel", "geest"],
-        "es": ["coraje", "duda", "espíritu"],
-        "de": ["Mut", "Zweifel", "Geist"],
-        "it": ["coraggio", "dubbio", "spirito"],
-        "ru": ["смелость", "сомнение", "дух"],
-        "id": ["keberanian", "keraguan", "semangat"],
-        "ja": ["勇気", "疑い", "精神"],
-        "th": ["ความกล้าหาญ", "ความสงสัย", "จิตวิญญาณ"],
-        "ms": ["keberanian", "keraguan", "semangat"]
+        "en": [
+          "courage",
+          "doubt",
+          "spirit"
+        ],
+        "tr": [
+          "cesaret",
+          "şüphe",
+          "ruh"
+        ],
+        "fr": [
+          "courage",
+          "doute",
+          "esprit"
+        ],
+        "pt": [
+          "coragem",
+          "dúvida",
+          "espírito"
+        ],
+        "nl": [
+          "moed",
+          "twijfel",
+          "geest"
+        ],
+        "es": [
+          "coraje",
+          "duda",
+          "espíritu"
+        ],
+        "de": [
+          "Mut",
+          "Zweifel",
+          "Geist"
+        ],
+        "it": [
+          "coraggio",
+          "dubbio",
+          "spirito"
+        ],
+        "ru": [
+          "смелость",
+          "сомнение",
+          "дух"
+        ],
+        "id": [
+          "keberanian",
+          "keraguan",
+          "semangat"
+        ],
+        "ja": [
+          "勇気",
+          "疑い",
+          "精神"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ความสงสัย",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "keberanian",
+          "keraguan",
+          "semangat"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3128,19 +4375,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["hope", "despair", "resilience"],
-        "tr": ["umut", "umutsuzluk", "dayanıklılık"],
-        "fr": ["espoir", "désespoir", "résilience"],
-        "pt": ["esperança", "desespero", "resiliência"],
-        "nl": ["hoop", "wanhoop", "veerkracht"],
-        "es": ["esperanza", "desesperación", "resiliencia"],
-        "de": ["Hoffnung", "Verzweiflung", "Widerstandsfähigkeit"],
-        "it": ["speranza", "disperazione", "resilienza"],
-        "ru": ["надежда", "отчаяние", "устойчивость"],
-        "id": ["harapan", "keputusasaan", "ketahanan"],
-        "ja": ["希望", "絶望", "回復力"],
-        "th": ["ความหวัง", "ความสิ้นหวัง", "ความยืดหยุ่น"],
-        "ms": ["harapan", "keputusasaan", "ketahanan"]
+        "en": [
+          "hope",
+          "despair",
+          "resilience"
+        ],
+        "tr": [
+          "umut",
+          "umutsuzluk",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "espoir",
+          "désespoir",
+          "résilience"
+        ],
+        "pt": [
+          "esperança",
+          "desespero",
+          "resiliência"
+        ],
+        "nl": [
+          "hoop",
+          "wanhoop",
+          "veerkracht"
+        ],
+        "es": [
+          "esperanza",
+          "desesperación",
+          "resiliencia"
+        ],
+        "de": [
+          "Hoffnung",
+          "Verzweiflung",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "speranza",
+          "disperazione",
+          "resilienza"
+        ],
+        "ru": [
+          "надежда",
+          "отчаяние",
+          "устойчивость"
+        ],
+        "id": [
+          "harapan",
+          "keputusasaan",
+          "ketahanan"
+        ],
+        "ja": [
+          "希望",
+          "絶望",
+          "回復力"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความสิ้นหวัง",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "harapan",
+          "keputusasaan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3258,19 +4557,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["trust", "betrayal", "guidance"],
-        "tr": ["güven", "ihanet", "rehberlik"],
-        "fr": ["confiance", "trahison", "guidance"],
-        "pt": ["confiança", "traição", "orientação"],
-        "nl": ["vertrouwen", "verraad", "begeleiding"],
-        "es": ["confianza", "traición", "guía"],
-        "de": ["Vertrauen", "Verrat", "Führung"],
-        "it": ["fiducia", "tradimento", "guida"],
-        "ru": ["доверие", "предательство", "руководство"],
-        "id": ["kepercayaan", "pengkhianatan", "bimbingan"],
-        "ja": ["信頼", "裏切り", "指導"],
-        "th": ["ความไว้วางใจ", "การทรยศ", "การนำทาง"],
-        "ms": ["kepercayaan", "pengkhianatan", "bimbingan"]
+        "en": [
+          "trust",
+          "betrayal",
+          "guidance"
+        ],
+        "tr": [
+          "güven",
+          "ihanet",
+          "rehberlik"
+        ],
+        "fr": [
+          "confiance",
+          "trahison",
+          "guidance"
+        ],
+        "pt": [
+          "confiança",
+          "traição",
+          "orientação"
+        ],
+        "nl": [
+          "vertrouwen",
+          "verraad",
+          "begeleiding"
+        ],
+        "es": [
+          "confianza",
+          "traición",
+          "guía"
+        ],
+        "de": [
+          "Vertrauen",
+          "Verrat",
+          "Führung"
+        ],
+        "it": [
+          "fiducia",
+          "tradimento",
+          "guida"
+        ],
+        "ru": [
+          "доверие",
+          "предательство",
+          "руководство"
+        ],
+        "id": [
+          "kepercayaan",
+          "pengkhianatan",
+          "bimbingan"
+        ],
+        "ja": [
+          "信頼",
+          "裏切り",
+          "指導"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "การทรยศ",
+          "การนำทาง"
+        ],
+        "ms": [
+          "kepercayaan",
+          "pengkhianatan",
+          "bimbingan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3388,19 +4739,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["understanding", "discord", "unity"],
-        "tr": ["anlayış", "anlaşmazlık", "birlik"],
-        "fr": ["compréhension", "discorde", "unité"],
-        "pt": ["compreensão", "discórdia", "unidade"],
-        "nl": ["begrip", "onenigheid", "eenheid"],
-        "es": ["entendimiento", "discordia", "unidad"],
-        "de": ["Verständnis", "Zwietracht", "Einheit"],
-        "it": ["comprensione", "discordia", "unità"],
-        "ru": ["понимание", "раздор", "единство"],
-        "id": ["pengertian", "perselisihan", "persatuan"],
-        "ja": ["理解", "不和", "団結"],
-        "th": ["ความเข้าใจ", "ความขัดแย้ง", "ความสามัคคี"],
-        "ms": ["kefahaman", "perselisihan", "perpaduan"]
+        "en": [
+          "understanding",
+          "discord",
+          "unity"
+        ],
+        "tr": [
+          "anlayış",
+          "anlaşmazlık",
+          "birlik"
+        ],
+        "fr": [
+          "compréhension",
+          "discorde",
+          "unité"
+        ],
+        "pt": [
+          "compreensão",
+          "discórdia",
+          "unidade"
+        ],
+        "nl": [
+          "begrip",
+          "onenigheid",
+          "eenheid"
+        ],
+        "es": [
+          "entendimiento",
+          "discordia",
+          "unidad"
+        ],
+        "de": [
+          "Verständnis",
+          "Zwietracht",
+          "Einheit"
+        ],
+        "it": [
+          "comprensione",
+          "discordia",
+          "unità"
+        ],
+        "ru": [
+          "понимание",
+          "раздор",
+          "единство"
+        ],
+        "id": [
+          "pengertian",
+          "perselisihan",
+          "persatuan"
+        ],
+        "ja": [
+          "理解",
+          "不和",
+          "団結"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "ความขัดแย้ง",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "kefahaman",
+          "perselisihan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3518,19 +4921,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["generosity", "abundance", "growth"],
-        "tr": ["cömertlik", "bolluk", "büyüme"],
-        "fr": ["générosité", "abondance", "croissance"],
-        "pt": ["generosidade", "abundância", "crescimento"],
-        "nl": ["vrijgevigheid", "overvloed", "groei"],
-        "es": ["generosidad", "abundancia", "crecimiento"],
-        "de": ["Großzügigkeit", "Überfluss", "Wachstum"],
-        "it": ["generosità", "abbondanza", "crescita"],
-        "ru": ["щедрость", "изобилие", "рост"],
-        "id": ["kedermawanan", "kelimpahan", "pertumbuhan"],
-        "ja": ["寛大さ", "豊かさ", "成長"],
-        "th": ["ความเอื้ออาทร", "ความอุดมสมบูรณ์", "การเติบโต"],
-        "ms": ["kemurahan hati", "kelimpahan", "pertumbuhan"]
+        "en": [
+          "generosity",
+          "abundance",
+          "growth"
+        ],
+        "tr": [
+          "cömertlik",
+          "bolluk",
+          "büyüme"
+        ],
+        "fr": [
+          "générosité",
+          "abondance",
+          "croissance"
+        ],
+        "pt": [
+          "generosidade",
+          "abundância",
+          "crescimento"
+        ],
+        "nl": [
+          "vrijgevigheid",
+          "overvloed",
+          "groei"
+        ],
+        "es": [
+          "generosidad",
+          "abundancia",
+          "crecimiento"
+        ],
+        "de": [
+          "Großzügigkeit",
+          "Überfluss",
+          "Wachstum"
+        ],
+        "it": [
+          "generosità",
+          "abbondanza",
+          "crescita"
+        ],
+        "ru": [
+          "щедрость",
+          "изобилие",
+          "рост"
+        ],
+        "id": [
+          "kedermawanan",
+          "kelimpahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "寛大さ",
+          "豊かさ",
+          "成長"
+        ],
+        "th": [
+          "ความเอื้ออาทร",
+          "ความอุดมสมบูรณ์",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kemurahan hati",
+          "kelimpahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3648,19 +5103,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["truth", "authenticity", "reflection"],
-        "tr": ["hakikat", "özgünlük", "yansıma"],
-        "fr": ["vérité", "authenticité", "réflexion"],
-        "pt": ["verdade", "autenticidade", "reflexão"],
-        "nl": ["waarheid", "authenticiteit", "weerspiegeling"],
-        "es": ["verdad", "autenticidad", "reflexión"],
-        "de": ["Wahrheit", "Authentizität", "Reflexion"],
-        "it": ["verità", "autenticità", "riflessione"],
-        "ru": ["истина", "подлинность", "отражение"],
-        "id": ["kebenaran", "keaslian", "pantulan"],
-        "ja": ["真実", "本物", "反映"],
-        "th": ["ความจริง", "ความแท้จริง", "การสะท้อน"],
-        "ms": ["kebenaran", "keaslian", "pantulan"]
+        "en": [
+          "truth",
+          "authenticity",
+          "reflection"
+        ],
+        "tr": [
+          "hakikat",
+          "özgünlük",
+          "yansıma"
+        ],
+        "fr": [
+          "vérité",
+          "authenticité",
+          "réflexion"
+        ],
+        "pt": [
+          "verdade",
+          "autenticidade",
+          "reflexão"
+        ],
+        "nl": [
+          "waarheid",
+          "authenticiteit",
+          "weerspiegeling"
+        ],
+        "es": [
+          "verdad",
+          "autenticidad",
+          "reflexión"
+        ],
+        "de": [
+          "Wahrheit",
+          "Authentizität",
+          "Reflexion"
+        ],
+        "it": [
+          "verità",
+          "autenticità",
+          "riflessione"
+        ],
+        "ru": [
+          "истина",
+          "подлинность",
+          "отражение"
+        ],
+        "id": [
+          "kebenaran",
+          "keaslian",
+          "pantulan"
+        ],
+        "ja": [
+          "真実",
+          "本物",
+          "反映"
+        ],
+        "th": [
+          "ความจริง",
+          "ความแท้จริง",
+          "การสะท้อน"
+        ],
+        "ms": [
+          "kebenaran",
+          "keaslian",
+          "pantulan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3778,19 +5285,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["resilience", "life", "strength"],
-        "tr": ["direnç", "hayat", "güç"],
-        "fr": ["résilience", "vie", "force"],
-        "pt": ["resiliência", "vida", "força"],
-        "nl": ["veerkracht", "leven", "kracht"],
-        "es": ["resiliencia", "vida", "fuerza"],
-        "de": ["Widerstandsfähigkeit", "Leben", "Stärke"],
-        "it": ["resilienza", "vita", "forza"],
-        "ru": ["устойчивость", "жизнь", "сила"],
-        "id": ["ketahanan", "kehidupan", "kekuatan"],
-        "ja": ["回復力", "人生", "力"],
-        "th": ["ความยืดหยุ่น", "ชีวิต", "พลัง"],
-        "ms": ["ketahanan", "kehidupan", "kekuatan"]
+        "en": [
+          "resilience",
+          "life",
+          "strength"
+        ],
+        "tr": [
+          "direnç",
+          "hayat",
+          "güç"
+        ],
+        "fr": [
+          "résilience",
+          "vie",
+          "force"
+        ],
+        "pt": [
+          "resiliência",
+          "vida",
+          "força"
+        ],
+        "nl": [
+          "veerkracht",
+          "leven",
+          "kracht"
+        ],
+        "es": [
+          "resiliencia",
+          "vida",
+          "fuerza"
+        ],
+        "de": [
+          "Widerstandsfähigkeit",
+          "Leben",
+          "Stärke"
+        ],
+        "it": [
+          "resilienza",
+          "vita",
+          "forza"
+        ],
+        "ru": [
+          "устойчивость",
+          "жизнь",
+          "сила"
+        ],
+        "id": [
+          "ketahanan",
+          "kehidupan",
+          "kekuatan"
+        ],
+        "ja": [
+          "回復力",
+          "人生",
+          "力"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ชีวิต",
+          "พลัง"
+        ],
+        "ms": [
+          "ketahanan",
+          "kehidupan",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3908,19 +5467,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["forgiveness", "healing", "peace"],
-        "tr": ["bağışlama", "iyileşme", "huzur"],
-        "fr": ["pardon", "guérison", "paix"],
-        "pt": ["perdão", "cura", "paz"],
-        "nl": ["vergeving", "genezing", "vrede"],
-        "es": ["perdón", "sanación", "paz"],
-        "de": ["Vergebung", "Heilung", "Frieden"],
-        "it": ["perdono", "guarigione", "pace"],
-        "ru": ["прощение", "исцеление", "мир"],
-        "id": ["pengampunan", "penyembuhan", "kedamaian"],
-        "ja": ["許し", "癒し", "平和"],
-        "th": ["การให้อภัย", "การเยียวยา", "สันติภาพ"],
-        "ms": ["keampunan", "penyembuhan", "kedamaian"]
+        "en": [
+          "forgiveness",
+          "healing",
+          "peace"
+        ],
+        "tr": [
+          "bağışlama",
+          "iyileşme",
+          "huzur"
+        ],
+        "fr": [
+          "pardon",
+          "guérison",
+          "paix"
+        ],
+        "pt": [
+          "perdão",
+          "cura",
+          "paz"
+        ],
+        "nl": [
+          "vergeving",
+          "genezing",
+          "vrede"
+        ],
+        "es": [
+          "perdón",
+          "sanación",
+          "paz"
+        ],
+        "de": [
+          "Vergebung",
+          "Heilung",
+          "Frieden"
+        ],
+        "it": [
+          "perdono",
+          "guarigione",
+          "pace"
+        ],
+        "ru": [
+          "прощение",
+          "исцеление",
+          "мир"
+        ],
+        "id": [
+          "pengampunan",
+          "penyembuhan",
+          "kedamaian"
+        ],
+        "ja": [
+          "許し",
+          "癒し",
+          "平和"
+        ],
+        "th": [
+          "การให้อภัย",
+          "การเยียวยา",
+          "สันติภาพ"
+        ],
+        "ms": [
+          "keampunan",
+          "penyembuhan",
+          "kedamaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4038,19 +5649,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["wisdom", "heart", "comfort"],
-        "tr": ["bilgelik", "kalp", "rahatlık"],
-        "fr": ["sagesse", "cœur", "réconfort"],
-        "pt": ["sabedoria", "coração", "conforto"],
-        "nl": ["wijsheid", "hart", "troost"],
-        "es": ["sabiduría", "corazón", "consuelo"],
-        "de": ["Weisheit", "Herz", "Trost"],
-        "it": ["saggezza", "cuore", "conforto"],
-        "ru": ["мудрость", "сердце", "утешение"],
-        "id": ["kebijaksanaan", "hati", "kenyamanan"],
-        "ja": ["知恵", "心", "慰め"],
-        "th": ["ปัญญา", "หัวใจ", "ความปลอบโยน"],
-        "ms": ["kebijaksanaan", "hati", "keselesaan"]
+        "en": [
+          "wisdom",
+          "heart",
+          "comfort"
+        ],
+        "tr": [
+          "bilgelik",
+          "kalp",
+          "rahatlık"
+        ],
+        "fr": [
+          "sagesse",
+          "cœur",
+          "réconfort"
+        ],
+        "pt": [
+          "sabedoria",
+          "coração",
+          "conforto"
+        ],
+        "nl": [
+          "wijsheid",
+          "hart",
+          "troost"
+        ],
+        "es": [
+          "sabiduría",
+          "corazón",
+          "consuelo"
+        ],
+        "de": [
+          "Weisheit",
+          "Herz",
+          "Trost"
+        ],
+        "it": [
+          "saggezza",
+          "cuore",
+          "conforto"
+        ],
+        "ru": [
+          "мудрость",
+          "сердце",
+          "утешение"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "hati",
+          "kenyamanan"
+        ],
+        "ja": [
+          "知恵",
+          "心",
+          "慰め"
+        ],
+        "th": [
+          "ปัญญา",
+          "หัวใจ",
+          "ความปลอบโยน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "hati",
+          "keselesaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4168,19 +5831,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["unity", "compassion", "connection"],
-        "tr": ["birlik", "şefkat", "bağlantı"],
-        "fr": ["unité", "compassion", "connexion"],
-        "pt": ["unidade", "compaixão", "conexão"],
-        "nl": ["eenheid", "mededogen", "verbinding"],
-        "es": ["unidad", "compasión", "conexión"],
-        "de": ["Einheit", "Mitgefühl", "Verbindung"],
-        "it": ["unità", "compassione", "connessione"],
-        "ru": ["единство", "сострадание", "связь"],
-        "id": ["kebersamaan", "kasih sayang", "hubungan"],
-        "ja": ["団結", "慈悲", "つながり"],
-        "th": ["ความสามัคคี", "ความเมตตา", "การเชื่อมโยง"],
-        "ms": ["perpaduan", "kasih sayang", "hubungan"]
+        "en": [
+          "unity",
+          "compassion",
+          "connection"
+        ],
+        "tr": [
+          "birlik",
+          "şefkat",
+          "bağlantı"
+        ],
+        "fr": [
+          "unité",
+          "compassion",
+          "connexion"
+        ],
+        "pt": [
+          "unidade",
+          "compaixão",
+          "conexão"
+        ],
+        "nl": [
+          "eenheid",
+          "mededogen",
+          "verbinding"
+        ],
+        "es": [
+          "unidad",
+          "compasión",
+          "conexión"
+        ],
+        "de": [
+          "Einheit",
+          "Mitgefühl",
+          "Verbindung"
+        ],
+        "it": [
+          "unità",
+          "compassione",
+          "connessione"
+        ],
+        "ru": [
+          "единство",
+          "сострадание",
+          "связь"
+        ],
+        "id": [
+          "kebersamaan",
+          "kasih sayang",
+          "hubungan"
+        ],
+        "ja": [
+          "団結",
+          "慈悲",
+          "つながり"
+        ],
+        "th": [
+          "ความสามัคคี",
+          "ความเมตตา",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "perpaduan",
+          "kasih sayang",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4298,19 +6013,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["faith", "uncertainty", "stability"],
-        "tr": ["inanç", "belirsizlik", "sabitlik"],
-        "fr": ["foi", "incertitude", "stabilité"],
-        "pt": ["fé", "incerteza", "estabilidade"],
-        "nl": ["geloof", "onzekerheid", "stabiliteit"],
-        "es": ["fe", "incertidumbre", "estabilidad"],
-        "de": ["Glaube", "Unsicherheit", "Stabilität"],
-        "it": ["fede", "incertezza", "stabilità"],
-        "ru": ["вера", "неопределенность", "стабильность"],
-        "id": ["iman", "ketidakpastian", "stabilitas"],
-        "ja": ["信仰", "不確実性", "安定"],
-        "th": ["ศรัทธา", "ความไม่แน่นอน", "ความมั่นคง"],
-        "ms": ["iman", "ketidakpastian", "kestabilan"]
+        "en": [
+          "faith",
+          "uncertainty",
+          "stability"
+        ],
+        "tr": [
+          "inanç",
+          "belirsizlik",
+          "sabitlik"
+        ],
+        "fr": [
+          "foi",
+          "incertitude",
+          "stabilité"
+        ],
+        "pt": [
+          "fé",
+          "incerteza",
+          "estabilidade"
+        ],
+        "nl": [
+          "geloof",
+          "onzekerheid",
+          "stabiliteit"
+        ],
+        "es": [
+          "fe",
+          "incertidumbre",
+          "estabilidad"
+        ],
+        "de": [
+          "Glaube",
+          "Unsicherheit",
+          "Stabilität"
+        ],
+        "it": [
+          "fede",
+          "incertezza",
+          "stabilità"
+        ],
+        "ru": [
+          "вера",
+          "неопределенность",
+          "стабильность"
+        ],
+        "id": [
+          "iman",
+          "ketidakpastian",
+          "stabilitas"
+        ],
+        "ja": [
+          "信仰",
+          "不確実性",
+          "安定"
+        ],
+        "th": [
+          "ศรัทธา",
+          "ความไม่แน่นอน",
+          "ความมั่นคง"
+        ],
+        "ms": [
+          "iman",
+          "ketidakpastian",
+          "kestabilan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4428,19 +6195,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["gratitude", "contentment", "abundance"],
-        "tr": ["minnettarlık", "memnuniyet", "bolluk"],
-        "fr": ["gratitude", "contentement", "abondance"],
-        "pt": ["gratidão", "contentamento", "abundância"],
-        "nl": ["dankbaarheid", "tevredenheid", "overvloed"],
-        "es": ["gratitud", "satisfacción", "abundancia"],
-        "de": ["Dankbarkeit", "Zufriedenheit", "Überfluss"],
-        "it": ["gratitudine", "contentezza", "abbondanza"],
-        "ru": ["благодарность", "удовлетворенность", "изобилие"],
-        "id": ["rasa syukur", "kepuasan", "kelimpahan"],
-        "ja": ["感謝", "満足", "豊かさ"],
-        "th": ["ความกตัญญู", "ความพึงพอใจ", "ความอุดมสมบูรณ์"],
-        "ms": ["kesyukuran", "kepuasan", "kelimpahan"]
+        "en": [
+          "gratitude",
+          "contentment",
+          "abundance"
+        ],
+        "tr": [
+          "minnettarlık",
+          "memnuniyet",
+          "bolluk"
+        ],
+        "fr": [
+          "gratitude",
+          "contentement",
+          "abondance"
+        ],
+        "pt": [
+          "gratidão",
+          "contentamento",
+          "abundância"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "tevredenheid",
+          "overvloed"
+        ],
+        "es": [
+          "gratitud",
+          "satisfacción",
+          "abundancia"
+        ],
+        "de": [
+          "Dankbarkeit",
+          "Zufriedenheit",
+          "Überfluss"
+        ],
+        "it": [
+          "gratitudine",
+          "contentezza",
+          "abbondanza"
+        ],
+        "ru": [
+          "благодарность",
+          "удовлетворенность",
+          "изобилие"
+        ],
+        "id": [
+          "rasa syukur",
+          "kepuasan",
+          "kelimpahan"
+        ],
+        "ja": [
+          "感謝",
+          "満足",
+          "豊かさ"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "ความพึงพอใจ",
+          "ความอุดมสมบูรณ์"
+        ],
+        "ms": [
+          "kesyukuran",
+          "kepuasan",
+          "kelimpahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4558,19 +6377,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["humility", "pride", "balance"],
-        "tr": ["tevazu", "kibir", "denge"],
-        "fr": ["humilité", "orgueil", "équilibre"],
-        "pt": ["humildade", "orgulho", "equilíbrio"],
-        "nl": ["nederigheid", "trots", "balans"],
-        "es": ["humildad", "orgullo", "equilibrio"],
-        "de": ["Demut", "Stolz", "Gleichgewicht"],
-        "it": ["umiltà", "orgoglio", "equilibrio"],
-        "ru": ["смирение", "гордыня", "баланс"],
-        "id": ["kerendahan hati", "kesombongan", "keseimbangan"],
-        "ja": ["謙虚さ", "誇り", "バランス"],
-        "th": ["ความถ่อมตน", "ความหยิ่ง", "ความสมดุล"],
-        "ms": ["kerendahan hati", "kesombongan", "keseimbangan"]
+        "en": [
+          "humility",
+          "pride",
+          "balance"
+        ],
+        "tr": [
+          "tevazu",
+          "kibir",
+          "denge"
+        ],
+        "fr": [
+          "humilité",
+          "orgueil",
+          "équilibre"
+        ],
+        "pt": [
+          "humildade",
+          "orgulho",
+          "equilíbrio"
+        ],
+        "nl": [
+          "nederigheid",
+          "trots",
+          "balans"
+        ],
+        "es": [
+          "humildad",
+          "orgullo",
+          "equilibrio"
+        ],
+        "de": [
+          "Demut",
+          "Stolz",
+          "Gleichgewicht"
+        ],
+        "it": [
+          "umiltà",
+          "orgoglio",
+          "equilibrio"
+        ],
+        "ru": [
+          "смирение",
+          "гордыня",
+          "баланс"
+        ],
+        "id": [
+          "kerendahan hati",
+          "kesombongan",
+          "keseimbangan"
+        ],
+        "ja": [
+          "謙虚さ",
+          "誇り",
+          "バランス"
+        ],
+        "th": [
+          "ความถ่อมตน",
+          "ความหยิ่ง",
+          "ความสมดุล"
+        ],
+        "ms": [
+          "kerendahan hati",
+          "kesombongan",
+          "keseimbangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4688,19 +6559,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["hope", "darkness", "resilience"],
-        "tr": ["umut", "karanlık", "dayanıklılık"],
-        "fr": ["espoir", "obscurité", "résilience"],
-        "pt": ["esperança", "escuridão", "resiliência"],
-        "nl": ["hoop", "duisternis", "veerkracht"],
-        "es": ["esperanza", "oscuridad", "resiliencia"],
-        "de": ["Hoffnung", "Dunkelheit", "Widerstandsfähigkeit"],
-        "it": ["speranza", "oscurità", "resilienza"],
-        "ru": ["надежда", "тьма", "устойчивость"],
-        "id": ["harapan", "kegelapan", "ketahanan"],
-        "ja": ["希望", "闇", "回復力"],
-        "th": ["ความหวัง", "ความมืด", "ความยืดหยุ่น"],
-        "ms": ["harapan", "kegelapan", "ketahanan"]
+        "en": [
+          "hope",
+          "darkness",
+          "resilience"
+        ],
+        "tr": [
+          "umut",
+          "karanlık",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "espoir",
+          "obscurité",
+          "résilience"
+        ],
+        "pt": [
+          "esperança",
+          "escuridão",
+          "resiliência"
+        ],
+        "nl": [
+          "hoop",
+          "duisternis",
+          "veerkracht"
+        ],
+        "es": [
+          "esperanza",
+          "oscuridad",
+          "resiliencia"
+        ],
+        "de": [
+          "Hoffnung",
+          "Dunkelheit",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "speranza",
+          "oscurità",
+          "resilienza"
+        ],
+        "ru": [
+          "надежда",
+          "тьма",
+          "устойчивость"
+        ],
+        "id": [
+          "harapan",
+          "kegelapan",
+          "ketahanan"
+        ],
+        "ja": [
+          "希望",
+          "闇",
+          "回復力"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความมืด",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "harapan",
+          "kegelapan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4818,19 +6741,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["kindness", "harmony", "heart"],
-        "tr": ["nezaket", "uyum", "kalp"],
-        "fr": ["bonté", "harmonie", "cœur"],
-        "pt": ["bondade", "harmonia", "coração"],
-        "nl": ["vriendelijkheid", "harmonie", "hart"],
-        "es": ["bondad", "armonía", "corazón"],
-        "de": ["Güte", "Harmonie", "Herz"],
-        "it": ["gentilezza", "armonia", "cuore"],
-        "ru": ["доброта", "гармония", "сердце"],
-        "id": ["kebaikan", "harmoni", "hati"],
-        "ja": ["優しさ", "調和", "心"],
-        "th": ["ความเมตตา", "ความกลมกลืน", "หัวใจ"],
-        "ms": ["kebaikan", "harmoni", "hati"]
+        "en": [
+          "kindness",
+          "harmony",
+          "heart"
+        ],
+        "tr": [
+          "nezaket",
+          "uyum",
+          "kalp"
+        ],
+        "fr": [
+          "bonté",
+          "harmonie",
+          "cœur"
+        ],
+        "pt": [
+          "bondade",
+          "harmonia",
+          "coração"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "harmonie",
+          "hart"
+        ],
+        "es": [
+          "bondad",
+          "armonía",
+          "corazón"
+        ],
+        "de": [
+          "Güte",
+          "Harmonie",
+          "Herz"
+        ],
+        "it": [
+          "gentilezza",
+          "armonia",
+          "cuore"
+        ],
+        "ru": [
+          "доброта",
+          "гармония",
+          "сердце"
+        ],
+        "id": [
+          "kebaikan",
+          "harmoni",
+          "hati"
+        ],
+        "ja": [
+          "優しさ",
+          "調和",
+          "心"
+        ],
+        "th": [
+          "ความเมตตา",
+          "ความกลมกลืน",
+          "หัวใจ"
+        ],
+        "ms": [
+          "kebaikan",
+          "harmoni",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4948,19 +6923,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["integrity", "doubt", "guidance"],
-        "tr": ["dürüstlük", "şüphe", "rehberlik"],
-        "fr": ["intégrité", "doute", "guidance"],
-        "pt": ["integridade", "dúvida", "orientação"],
-        "nl": ["integriteit", "twijfel", "begeleiding"],
-        "es": ["integridad", "duda", "guía"],
-        "de": ["Integrität", "Zweifel", "Führung"],
-        "it": ["integrità", "dubbio", "guida"],
-        "ru": ["честность", "сомнение", "руководство"],
-        "id": ["integritas", "keraguan", "bimbingan"],
-        "ja": ["誠実さ", "疑い", "指導"],
-        "th": ["ความซื่อสัตย์", "ความสงสัย", "การนำทาง"],
-        "ms": ["integriti", "keraguan", "bimbingan"]
+        "en": [
+          "integrity",
+          "doubt",
+          "guidance"
+        ],
+        "tr": [
+          "dürüstlük",
+          "şüphe",
+          "rehberlik"
+        ],
+        "fr": [
+          "intégrité",
+          "doute",
+          "guidance"
+        ],
+        "pt": [
+          "integridade",
+          "dúvida",
+          "orientação"
+        ],
+        "nl": [
+          "integriteit",
+          "twijfel",
+          "begeleiding"
+        ],
+        "es": [
+          "integridad",
+          "duda",
+          "guía"
+        ],
+        "de": [
+          "Integrität",
+          "Zweifel",
+          "Führung"
+        ],
+        "it": [
+          "integrità",
+          "dubbio",
+          "guida"
+        ],
+        "ru": [
+          "честность",
+          "сомнение",
+          "руководство"
+        ],
+        "id": [
+          "integritas",
+          "keraguan",
+          "bimbingan"
+        ],
+        "ja": [
+          "誠実さ",
+          "疑い",
+          "指導"
+        ],
+        "th": [
+          "ความซื่อสัตย์",
+          "ความสงสัย",
+          "การนำทาง"
+        ],
+        "ms": [
+          "integriti",
+          "keraguan",
+          "bimbingan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5078,19 +7105,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["courage", "fear", "hope"],
-        "tr": ["cesaret", "korku", "umut"],
-        "fr": ["courage", "peur", "espoir"],
-        "pt": ["coragem", "medo", "esperança"],
-        "nl": ["moed", "angst", "hoop"],
-        "es": ["coraje", "miedo", "esperanza"],
-        "de": ["Mut", "Angst", "Hoffnung"],
-        "it": ["coraggio", "paura", "speranza"],
-        "ru": ["отвага", "страх", "надежда"],
-        "id": ["keberanian", "ketakutan", "harapan"],
-        "ja": ["勇気", "恐怖", "希望"],
-        "th": ["ความกล้าหาญ", "ความกลัว", "ความหวัง"],
-        "ms": ["keberanian", "ketakutan", "harapan"]
+        "en": [
+          "courage",
+          "fear",
+          "hope"
+        ],
+        "tr": [
+          "cesaret",
+          "korku",
+          "umut"
+        ],
+        "fr": [
+          "courage",
+          "peur",
+          "espoir"
+        ],
+        "pt": [
+          "coragem",
+          "medo",
+          "esperança"
+        ],
+        "nl": [
+          "moed",
+          "angst",
+          "hoop"
+        ],
+        "es": [
+          "coraje",
+          "miedo",
+          "esperanza"
+        ],
+        "de": [
+          "Mut",
+          "Angst",
+          "Hoffnung"
+        ],
+        "it": [
+          "coraggio",
+          "paura",
+          "speranza"
+        ],
+        "ru": [
+          "отвага",
+          "страх",
+          "надежда"
+        ],
+        "id": [
+          "keberanian",
+          "ketakutan",
+          "harapan"
+        ],
+        "ja": [
+          "勇気",
+          "恐怖",
+          "希望"
+        ],
+        "th": [
+          "ความกล้าหาญ",
+          "ความกลัว",
+          "ความหวัง"
+        ],
+        "ms": [
+          "keberanian",
+          "ketakutan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5208,19 +7287,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["understanding", "empathy", "connection"],
-        "tr": ["anlayış", "empati", "bağlantı"],
-        "fr": ["compréhension", "empathie", "connexion"],
-        "pt": ["compreensão", "empatia", "conexão"],
-        "nl": ["begrip", "empathie", "verbinding"],
-        "es": ["entendimiento", "empatía", "conexión"],
-        "de": ["Verständnis", "Empathie", "Verbindung"],
-        "it": ["comprensione", "empatia", "connessione"],
-        "ru": ["понимание", "эмпатия", "связь"],
-        "id": ["pengertian", "empati", "hubungan"],
-        "ja": ["理解", "共感", "つながり"],
-        "th": ["ความเข้าใจ", "ความเห็นอกเห็นใจ", "การเชื่อมโยง"],
-        "ms": ["kefahaman", "empati", "hubungan"]
+        "en": [
+          "understanding",
+          "empathy",
+          "connection"
+        ],
+        "tr": [
+          "anlayış",
+          "empati",
+          "bağlantı"
+        ],
+        "fr": [
+          "compréhension",
+          "empathie",
+          "connexion"
+        ],
+        "pt": [
+          "compreensão",
+          "empatia",
+          "conexão"
+        ],
+        "nl": [
+          "begrip",
+          "empathie",
+          "verbinding"
+        ],
+        "es": [
+          "entendimiento",
+          "empatía",
+          "conexión"
+        ],
+        "de": [
+          "Verständnis",
+          "Empathie",
+          "Verbindung"
+        ],
+        "it": [
+          "comprensione",
+          "empatia",
+          "connessione"
+        ],
+        "ru": [
+          "понимание",
+          "эмпатия",
+          "связь"
+        ],
+        "id": [
+          "pengertian",
+          "empati",
+          "hubungan"
+        ],
+        "ja": [
+          "理解",
+          "共感",
+          "つながり"
+        ],
+        "th": [
+          "ความเข้าใจ",
+          "ความเห็นอกเห็นใจ",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kefahaman",
+          "empati",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5338,19 +7469,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["perseverance", "dreams", "journey"],
-        "tr": ["azim", "hayaller", "yolculuk"],
-        "fr": ["persévérance", "rêves", "voyage"],
-        "pt": ["perseverança", "sonhos", "jornada"],
-        "nl": ["volharding", "dromen", "reis"],
-        "es": ["perseverancia", "sueños", "viaje"],
-        "de": ["Ausdauer", "Träume", "Reise"],
-        "it": ["perseveranza", "sogni", "viaggio"],
-        "ru": ["упорство", "мечты", "путешествие"],
-        "id": ["ketekunan", "mimpi", "perjalanan"],
-        "ja": ["忍耐", "夢", "旅"],
-        "th": ["ความพากเพียร", "ความฝัน", "การเดินทาง"],
-        "ms": ["ketabahan", "impian", "perjalanan"]
+        "en": [
+          "perseverance",
+          "dreams",
+          "journey"
+        ],
+        "tr": [
+          "azim",
+          "hayaller",
+          "yolculuk"
+        ],
+        "fr": [
+          "persévérance",
+          "rêves",
+          "voyage"
+        ],
+        "pt": [
+          "perseverança",
+          "sonhos",
+          "jornada"
+        ],
+        "nl": [
+          "volharding",
+          "dromen",
+          "reis"
+        ],
+        "es": [
+          "perseverancia",
+          "sueños",
+          "viaje"
+        ],
+        "de": [
+          "Ausdauer",
+          "Träume",
+          "Reise"
+        ],
+        "it": [
+          "perseveranza",
+          "sogni",
+          "viaggio"
+        ],
+        "ru": [
+          "упорство",
+          "мечты",
+          "путешествие"
+        ],
+        "id": [
+          "ketekunan",
+          "mimpi",
+          "perjalanan"
+        ],
+        "ja": [
+          "忍耐",
+          "夢",
+          "旅"
+        ],
+        "th": [
+          "ความพากเพียร",
+          "ความฝัน",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "ketabahan",
+          "impian",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5468,19 +7651,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["curiosity", "discovery", "knowledge"],
-        "tr": ["merak", "keşif", "bilgi"],
-        "fr": ["curiosité", "découverte", "connaissance"],
-        "pt": ["curiosidade", "descoberta", "conhecimento"],
-        "nl": ["nieuwsgierigheid", "ontdekking", "kennis"],
-        "es": ["curiosidad", "descubrimiento", "conocimiento"],
-        "de": ["Neugier", "Entdeckung", "Wissen"],
-        "it": ["curiosità", "scoperta", "conoscenza"],
-        "ru": ["любопытство", "открытие", "знание"],
-        "id": ["rasa ingin tahu", "penemuan", "pengetahuan"],
-        "ja": ["好奇心", "発見", "知識"],
-        "th": ["ความอยากรู้", "การค้นพบ", "ความรู้"],
-        "ms": ["keingintahuan", "penemuan", "pengetahuan"]
+        "en": [
+          "curiosity",
+          "discovery",
+          "knowledge"
+        ],
+        "tr": [
+          "merak",
+          "keşif",
+          "bilgi"
+        ],
+        "fr": [
+          "curiosité",
+          "découverte",
+          "connaissance"
+        ],
+        "pt": [
+          "curiosidade",
+          "descoberta",
+          "conhecimento"
+        ],
+        "nl": [
+          "nieuwsgierigheid",
+          "ontdekking",
+          "kennis"
+        ],
+        "es": [
+          "curiosidad",
+          "descubrimiento",
+          "conocimiento"
+        ],
+        "de": [
+          "Neugier",
+          "Entdeckung",
+          "Wissen"
+        ],
+        "it": [
+          "curiosità",
+          "scoperta",
+          "conoscenza"
+        ],
+        "ru": [
+          "любопытство",
+          "открытие",
+          "знание"
+        ],
+        "id": [
+          "rasa ingin tahu",
+          "penemuan",
+          "pengetahuan"
+        ],
+        "ja": [
+          "好奇心",
+          "発見",
+          "知識"
+        ],
+        "th": [
+          "ความอยากรู้",
+          "การค้นพบ",
+          "ความรู้"
+        ],
+        "ms": [
+          "keingintahuan",
+          "penemuan",
+          "pengetahuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5598,19 +7833,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["trust", "deceit", "protection"],
-        "tr": ["güven", "hile", "koruma"],
-        "fr": ["confiance", "tromperie", "protection"],
-        "pt": ["confiança", "engano", "proteção"],
-        "nl": ["vertrouwen", "bedrog", "bescherming"],
-        "es": ["confianza", "engaño", "protección"],
-        "de": ["Vertrauen", "Betrug", "Schutz"],
-        "it": ["fiducia", "inganno", "protezione"],
-        "ru": ["доверие", "обман", "защита"],
-        "id": ["kepercayaan", "penipuan", "perlindungan"],
-        "ja": ["信頼", "欺瞞", "保護"],
-        "th": ["ความไว้วางใจ", "การหลอกลวง", "การปกป้อง"],
-        "ms": ["kepercayaan", "penipuan", "perlindungan"]
+        "en": [
+          "trust",
+          "deceit",
+          "protection"
+        ],
+        "tr": [
+          "güven",
+          "hile",
+          "koruma"
+        ],
+        "fr": [
+          "confiance",
+          "tromperie",
+          "protection"
+        ],
+        "pt": [
+          "confiança",
+          "engano",
+          "proteção"
+        ],
+        "nl": [
+          "vertrouwen",
+          "bedrog",
+          "bescherming"
+        ],
+        "es": [
+          "confianza",
+          "engaño",
+          "protección"
+        ],
+        "de": [
+          "Vertrauen",
+          "Betrug",
+          "Schutz"
+        ],
+        "it": [
+          "fiducia",
+          "inganno",
+          "protezione"
+        ],
+        "ru": [
+          "доверие",
+          "обман",
+          "защита"
+        ],
+        "id": [
+          "kepercayaan",
+          "penipuan",
+          "perlindungan"
+        ],
+        "ja": [
+          "信頼",
+          "欺瞞",
+          "保護"
+        ],
+        "th": [
+          "ความไว้วางใจ",
+          "การหลอกลวง",
+          "การปกป้อง"
+        ],
+        "ms": [
+          "kepercayaan",
+          "penipuan",
+          "perlindungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5728,19 +8015,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["patience", "wisdom", "time"],
-        "tr": ["sabır", "bilgelik", "zaman"],
-        "fr": ["patience", "sagesse", "temps"],
-        "pt": ["paciência", "sabedoria", "tempo"],
-        "nl": ["geduld", "wijsheid", "tijd"],
-        "es": ["paciencia", "sabiduría", "tiempo"],
-        "de": ["Geduld", "Weisheit", "Zeit"],
-        "it": ["pazienza", "saggezza", "tempo"],
-        "ru": ["терпение", "мудрость", "время"],
-        "id": ["kesabaran", "kebijaksanaan", "waktu"],
-        "ja": ["忍耐", "知恵", "時間"],
-        "th": ["ความอดทน", "ปัญญา", "กาลเวลา"],
-        "ms": ["kesabaran", "kebijaksanaan", "masa"]
+        "en": [
+          "patience",
+          "wisdom",
+          "time"
+        ],
+        "tr": [
+          "sabır",
+          "bilgelik",
+          "zaman"
+        ],
+        "fr": [
+          "patience",
+          "sagesse",
+          "temps"
+        ],
+        "pt": [
+          "paciência",
+          "sabedoria",
+          "tempo"
+        ],
+        "nl": [
+          "geduld",
+          "wijsheid",
+          "tijd"
+        ],
+        "es": [
+          "paciencia",
+          "sabiduría",
+          "tiempo"
+        ],
+        "de": [
+          "Geduld",
+          "Weisheit",
+          "Zeit"
+        ],
+        "it": [
+          "pazienza",
+          "saggezza",
+          "tempo"
+        ],
+        "ru": [
+          "терпение",
+          "мудрость",
+          "время"
+        ],
+        "id": [
+          "kesabaran",
+          "kebijaksanaan",
+          "waktu"
+        ],
+        "ja": [
+          "忍耐",
+          "知恵",
+          "時間"
+        ],
+        "th": [
+          "ความอดทน",
+          "ปัญญา",
+          "กาลเวลา"
+        ],
+        "ms": [
+          "kesabaran",
+          "kebijaksanaan",
+          "masa"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -5858,19 +8197,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["reflection", "truth", "soul"],
-        "tr": ["yansıma", "gerçek", "ruh"],
-        "fr": ["réflexion", "vérité", "âme"],
-        "pt": ["reflexão", "verdade", "alma"],
-        "nl": ["reflectie", "waarheid", "ziel"],
-        "es": ["reflexión", "verdad", "alma"],
-        "de": ["Reflexion", "Wahrheit", "Seele"],
-        "it": ["riflessione", "verità", "anima"],
-        "ru": ["размышление", "истина", "душа"],
-        "id": ["refleksi", "kebenaran", "jiwa"],
-        "ja": ["内省", "真実", "魂"],
-        "th": ["การไตร่ตรอง", "ความจริง", "จิตวิญญาณ"],
-        "ms": ["refleksi", "kebenaran", "jiwa"]
+        "en": [
+          "reflection",
+          "truth",
+          "soul"
+        ],
+        "tr": [
+          "yansıma",
+          "gerçek",
+          "ruh"
+        ],
+        "fr": [
+          "réflexion",
+          "vérité",
+          "âme"
+        ],
+        "pt": [
+          "reflexão",
+          "verdade",
+          "alma"
+        ],
+        "nl": [
+          "reflectie",
+          "waarheid",
+          "ziel"
+        ],
+        "es": [
+          "reflexión",
+          "verdad",
+          "alma"
+        ],
+        "de": [
+          "Reflexion",
+          "Wahrheit",
+          "Seele"
+        ],
+        "it": [
+          "riflessione",
+          "verità",
+          "anima"
+        ],
+        "ru": [
+          "размышление",
+          "истина",
+          "душа"
+        ],
+        "id": [
+          "refleksi",
+          "kebenaran",
+          "jiwa"
+        ],
+        "ja": [
+          "内省",
+          "真実",
+          "魂"
+        ],
+        "th": [
+          "การไตร่ตรอง",
+          "ความจริง",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "refleksi",
+          "kebenaran",
+          "jiwa"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -5988,19 +8379,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["hope", "resilience", "adversity"],
-        "tr": ["umut", "dayanıklılık", "zorluk"],
-        "fr": ["espoir", "résilience", "adversité"],
-        "pt": ["esperança", "resiliência", "adversidade"],
-        "nl": ["hoop", "veerkracht", "tegenspoed"],
-        "es": ["esperanza", "resiliencia", "adversidad"],
-        "de": ["Hoffnung", "Widerstandsfähigkeit", "Widrigkeiten"],
-        "it": ["speranza", "resilienza", "avversità"],
-        "ru": ["надежда", "устойчивость", "невзгоды"],
-        "id": ["harapan", "ketahanan", "kesulitan"],
-        "ja": ["希望", "回復力", "逆境"],
-        "th": ["ความหวัง", "ความยืดหยุ่น", "ความทุกข์ยาก"],
-        "ms": ["harapan", "ketahanan", "kesukaran"]
+        "en": [
+          "hope",
+          "resilience",
+          "adversity"
+        ],
+        "tr": [
+          "umut",
+          "dayanıklılık",
+          "zorluk"
+        ],
+        "fr": [
+          "espoir",
+          "résilience",
+          "adversité"
+        ],
+        "pt": [
+          "esperança",
+          "resiliência",
+          "adversidade"
+        ],
+        "nl": [
+          "hoop",
+          "veerkracht",
+          "tegenspoed"
+        ],
+        "es": [
+          "esperanza",
+          "resiliencia",
+          "adversidad"
+        ],
+        "de": [
+          "Hoffnung",
+          "Widerstandsfähigkeit",
+          "Widrigkeiten"
+        ],
+        "it": [
+          "speranza",
+          "resilienza",
+          "avversità"
+        ],
+        "ru": [
+          "надежда",
+          "устойчивость",
+          "невзгоды"
+        ],
+        "id": [
+          "harapan",
+          "ketahanan",
+          "kesulitan"
+        ],
+        "ja": [
+          "希望",
+          "回復力",
+          "逆境"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความยืดหยุ่น",
+          "ความทุกข์ยาก"
+        ],
+        "ms": [
+          "harapan",
+          "ketahanan",
+          "kesukaran"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6118,19 +8561,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["forgiveness", "resentment", "reconciliation"],
-        "tr": ["affetme", "kin", "uzlaşma"],
-        "fr": ["pardon", "ressentiment", "réconciliation"],
-        "pt": ["perdão", "ressentimento", "reconciliação"],
-        "nl": ["vergeving", "wrok", "verzoening"],
-        "es": ["perdón", "resentimiento", "reconciliación"],
-        "de": ["Vergebung", "Groll", "Versöhnung"],
-        "it": ["perdono", "risentimento", "riconciliazione"],
-        "ru": ["прощение", "обида", "примирение"],
-        "id": ["pengampunan", "kebencian", "rekonsiliasi"],
-        "ja": ["許し", "怨み", "和解"],
-        "th": ["การให้อภัย", "ความขุ่นเคือง", "การปรองดอง"],
-        "ms": ["keampunan", "kebencian", "pendamaian"]
+        "en": [
+          "forgiveness",
+          "resentment",
+          "reconciliation"
+        ],
+        "tr": [
+          "affetme",
+          "kin",
+          "uzlaşma"
+        ],
+        "fr": [
+          "pardon",
+          "ressentiment",
+          "réconciliation"
+        ],
+        "pt": [
+          "perdão",
+          "ressentimento",
+          "reconciliação"
+        ],
+        "nl": [
+          "vergeving",
+          "wrok",
+          "verzoening"
+        ],
+        "es": [
+          "perdón",
+          "resentimiento",
+          "reconciliación"
+        ],
+        "de": [
+          "Vergebung",
+          "Groll",
+          "Versöhnung"
+        ],
+        "it": [
+          "perdono",
+          "risentimento",
+          "riconciliazione"
+        ],
+        "ru": [
+          "прощение",
+          "обида",
+          "примирение"
+        ],
+        "id": [
+          "pengampunan",
+          "kebencian",
+          "rekonsiliasi"
+        ],
+        "ja": [
+          "許し",
+          "怨み",
+          "和解"
+        ],
+        "th": [
+          "การให้อภัย",
+          "ความขุ่นเคือง",
+          "การปรองดอง"
+        ],
+        "ms": [
+          "keampunan",
+          "kebencian",
+          "pendamaian"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6248,19 +8743,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["generosity", "abundance", "growth"],
-        "tr": ["cömertlik", "bolluk", "büyüme"],
-        "fr": ["générosité", "abondance", "croissance"],
-        "pt": ["generosidade", "abundância", "crescimento"],
-        "nl": ["vrijgevigheid", "overvloed", "groei"],
-        "es": ["generosidad", "abundancia", "crecimiento"],
-        "de": ["Großzügigkeit", "Überfluss", "Wachstum"],
-        "it": ["generosità", "abbondanza", "crescita"],
-        "ru": ["щедрость", "изобилие", "рост"],
-        "id": ["kedermawanan", "kelimpahan", "pertumbuhan"],
-        "ja": ["寛大さ", "豊かさ", "成長"],
-        "th": ["ความเอื้ออาทร", "ความอุดมสมบูรณ์", "การเติบโต"],
-        "ms": ["kedermawanan", "kelimpahan", "pertumbuhan"]
+        "en": [
+          "generosity",
+          "abundance",
+          "growth"
+        ],
+        "tr": [
+          "cömertlik",
+          "bolluk",
+          "büyüme"
+        ],
+        "fr": [
+          "générosité",
+          "abondance",
+          "croissance"
+        ],
+        "pt": [
+          "generosidade",
+          "abundância",
+          "crescimento"
+        ],
+        "nl": [
+          "vrijgevigheid",
+          "overvloed",
+          "groei"
+        ],
+        "es": [
+          "generosidad",
+          "abundancia",
+          "crecimiento"
+        ],
+        "de": [
+          "Großzügigkeit",
+          "Überfluss",
+          "Wachstum"
+        ],
+        "it": [
+          "generosità",
+          "abbondanza",
+          "crescita"
+        ],
+        "ru": [
+          "щедрость",
+          "изобилие",
+          "рост"
+        ],
+        "id": [
+          "kedermawanan",
+          "kelimpahan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "寛大さ",
+          "豊かさ",
+          "成長"
+        ],
+        "th": [
+          "ความเอื้ออาทร",
+          "ความอุดมสมบูรณ์",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kedermawanan",
+          "kelimpahan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6378,19 +8925,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["change", "learning", "awareness"],
-        "tr": ["değişim", "öğrenme", "farkındalık"],
-        "fr": ["changement", "apprentissage", "conscience"],
-        "pt": ["mudança", "aprendizado", "consciência"],
-        "nl": ["verandering", "leren", "bewustzijn"],
-        "es": ["cambio", "aprendizaje", "conciencia"],
-        "de": ["Wandel", "Lernen", "Bewusstsein"],
-        "it": ["cambiamento", "apprendimento", "consapevolezza"],
-        "ru": ["перемены", "обучение", "осознанность"],
-        "id": ["perubahan", "pembelajaran", "kesadaran"],
-        "ja": ["変化", "学習", "意識"],
-        "th": ["การเปลี่ยนแปลง", "การเรียนรู้", "ความตระหนัก"],
-        "ms": ["perubahan", "pembelajaran", "kesedaran"]
+        "en": [
+          "change",
+          "learning",
+          "awareness"
+        ],
+        "tr": [
+          "değişim",
+          "öğrenme",
+          "farkındalık"
+        ],
+        "fr": [
+          "changement",
+          "apprentissage",
+          "conscience"
+        ],
+        "pt": [
+          "mudança",
+          "aprendizado",
+          "consciência"
+        ],
+        "nl": [
+          "verandering",
+          "leren",
+          "bewustzijn"
+        ],
+        "es": [
+          "cambio",
+          "aprendizaje",
+          "conciencia"
+        ],
+        "de": [
+          "Wandel",
+          "Lernen",
+          "Bewusstsein"
+        ],
+        "it": [
+          "cambiamento",
+          "apprendimento",
+          "consapevolezza"
+        ],
+        "ru": [
+          "перемены",
+          "обучение",
+          "осознанность"
+        ],
+        "id": [
+          "perubahan",
+          "pembelajaran",
+          "kesadaran"
+        ],
+        "ja": [
+          "変化",
+          "学習",
+          "意識"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "การเรียนรู้",
+          "ความตระหนัก"
+        ],
+        "ms": [
+          "perubahan",
+          "pembelajaran",
+          "kesedaran"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6508,19 +9107,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["unity", "compassion", "connection"],
-        "tr": ["birlik", "şefkat", "bağlantı"],
-        "fr": ["unité", "compassion", "connexion"],
-        "pt": ["unidade", "compaixão", "conexão"],
-        "nl": ["eenheid", "mededogen", "verbinding"],
-        "es": ["unidad", "compasión", "conexión"],
-        "de": ["Einheit", "Mitgefühl", "Verbindung"],
-        "it": ["unità", "compassione", "connessione"],
-        "ru": ["единство", "сострадание", "связь"],
-        "id": ["kesatuan", "kasih sayang", "hubungan"],
-        "ja": ["団結", "慈悲", "つながり"],
-        "th": ["ความสามัคคี", "ความเมตตา", "การเชื่อมโยง"],
-        "ms": ["kesatuan", "kasih sayang", "hubungan"]
+        "en": [
+          "unity",
+          "compassion",
+          "connection"
+        ],
+        "tr": [
+          "birlik",
+          "şefkat",
+          "bağlantı"
+        ],
+        "fr": [
+          "unité",
+          "compassion",
+          "connexion"
+        ],
+        "pt": [
+          "unidade",
+          "compaixão",
+          "conexão"
+        ],
+        "nl": [
+          "eenheid",
+          "mededogen",
+          "verbinding"
+        ],
+        "es": [
+          "unidad",
+          "compasión",
+          "conexión"
+        ],
+        "de": [
+          "Einheit",
+          "Mitgefühl",
+          "Verbindung"
+        ],
+        "it": [
+          "unità",
+          "compassione",
+          "connessione"
+        ],
+        "ru": [
+          "единство",
+          "сострадание",
+          "связь"
+        ],
+        "id": [
+          "kesatuan",
+          "kasih sayang",
+          "hubungan"
+        ],
+        "ja": [
+          "団結",
+          "慈悲",
+          "つながり"
+        ],
+        "th": [
+          "ความสามัคคี",
+          "ความเมตตา",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kesatuan",
+          "kasih sayang",
+          "hubungan"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6638,19 +9289,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["dreams", "guidance", "uncertainty"],
-        "tr": ["hayaller", "rehberlik", "belirsizlik"],
-        "fr": ["rêves", "guidance", "incertitude"],
-        "pt": ["sonhos", "orientação", "incerteza"],
-        "nl": ["dromen", "begeleiding", "onzekerheid"],
-        "es": ["sueños", "guía", "incertidumbre"],
-        "de": ["Träume", "Führung", "Unsicherheit"],
-        "it": ["sogni", "guida", "incertezza"],
-        "ru": ["мечты", "руководство", "неопределенность"],
-        "id": ["mimpi", "bimbingan", "ketidakpastian"],
-        "ja": ["夢", "指導", "不確実性"],
-        "th": ["ความฝัน", "การนำทาง", "ความไม่แน่นอน"],
-        "ms": ["impian", "bimbingan", "ketidakpastian"]
+        "en": [
+          "dreams",
+          "guidance",
+          "uncertainty"
+        ],
+        "tr": [
+          "hayaller",
+          "rehberlik",
+          "belirsizlik"
+        ],
+        "fr": [
+          "rêves",
+          "guidance",
+          "incertitude"
+        ],
+        "pt": [
+          "sonhos",
+          "orientação",
+          "incerteza"
+        ],
+        "nl": [
+          "dromen",
+          "begeleiding",
+          "onzekerheid"
+        ],
+        "es": [
+          "sueños",
+          "guía",
+          "incertidumbre"
+        ],
+        "de": [
+          "Träume",
+          "Führung",
+          "Unsicherheit"
+        ],
+        "it": [
+          "sogni",
+          "guida",
+          "incertezza"
+        ],
+        "ru": [
+          "мечты",
+          "руководство",
+          "неопределенность"
+        ],
+        "id": [
+          "mimpi",
+          "bimbingan",
+          "ketidakpastian"
+        ],
+        "ja": [
+          "夢",
+          "指導",
+          "不確実性"
+        ],
+        "th": [
+          "ความฝัน",
+          "การนำทาง",
+          "ความไม่แน่นอน"
+        ],
+        "ms": [
+          "impian",
+          "bimbingan",
+          "ketidakpastian"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6768,19 +9471,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["humility", "grace", "soul"],
-        "tr": ["tevazu", "lütuf", "ruh"],
-        "fr": ["humilité", "grâce", "âme"],
-        "pt": ["humildade", "graça", "alma"],
-        "nl": ["nederigheid", "genade", "ziel"],
-        "es": ["humildad", "gracia", "alma"],
-        "de": ["Demut", "Gnade", "Seele"],
-        "it": ["umiltà", "grazia", "anima"],
-        "ru": ["смирение", "благодать", "душа"],
-        "id": ["kerendahan hati", "anugerah", "jiwa"],
-        "ja": ["謙虚さ", "恩寵", "魂"],
-        "th": ["ความถ่อมตน", "ความเมตตา", "จิตวิญญาณ"],
-        "ms": ["kerendahan hati", "kurnia", "jiwa"]
+        "en": [
+          "humility",
+          "grace",
+          "soul"
+        ],
+        "tr": [
+          "tevazu",
+          "lütuf",
+          "ruh"
+        ],
+        "fr": [
+          "humilité",
+          "grâce",
+          "âme"
+        ],
+        "pt": [
+          "humildade",
+          "graça",
+          "alma"
+        ],
+        "nl": [
+          "nederigheid",
+          "genade",
+          "ziel"
+        ],
+        "es": [
+          "humildad",
+          "gracia",
+          "alma"
+        ],
+        "de": [
+          "Demut",
+          "Gnade",
+          "Seele"
+        ],
+        "it": [
+          "umiltà",
+          "grazia",
+          "anima"
+        ],
+        "ru": [
+          "смирение",
+          "благодать",
+          "душа"
+        ],
+        "id": [
+          "kerendahan hati",
+          "anugerah",
+          "jiwa"
+        ],
+        "ja": [
+          "謙虚さ",
+          "恩寵",
+          "魂"
+        ],
+        "th": [
+          "ความถ่อมตน",
+          "ความเมตตา",
+          "จิตวิญญาณ"
+        ],
+        "ms": [
+          "kerendahan hati",
+          "kurnia",
+          "jiwa"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -6898,19 +9653,71 @@
         "ms": ""
       },
       "tags": {
-        "en": ["gratitude", "heart", "resonance"],
-        "tr": ["minnettarlık", "kalp", "yankı"],
-        "fr": ["gratitude", "cœur", "résonance"],
-        "pt": ["gratidão", "coração", "ressonância"],
-        "nl": ["dankbaarheid", "hart", "weerklank"],
-        "es": ["gratitud", "corazón", "resonancia"],
-        "de": ["Dankbarkeit", "Herz", "Resonanz"],
-        "it": ["gratitudine", "cuore", "risonanza"],
-        "ru": ["благодарность", "сердце", "эхо"],
-        "id": ["syukur", "hati", "gema"],
-        "ja": ["感謝", "心", "こだま"],
-        "th": ["ความกตัญญู", "หัวใจ", "การก้องกังวาน"],
-        "ms": ["kesyukuran", "hati", "gema"]
+        "en": [
+          "gratitude",
+          "heart",
+          "resonance"
+        ],
+        "tr": [
+          "minnettarlık",
+          "kalp",
+          "yankı"
+        ],
+        "fr": [
+          "gratitude",
+          "cœur",
+          "résonance"
+        ],
+        "pt": [
+          "gratidão",
+          "coração",
+          "ressonância"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "hart",
+          "weerklank"
+        ],
+        "es": [
+          "gratitud",
+          "corazón",
+          "resonancia"
+        ],
+        "de": [
+          "Dankbarkeit",
+          "Herz",
+          "Resonanz"
+        ],
+        "it": [
+          "gratitudine",
+          "cuore",
+          "risonanza"
+        ],
+        "ru": [
+          "благодарность",
+          "сердце",
+          "эхо"
+        ],
+        "id": [
+          "syukur",
+          "hati",
+          "gema"
+        ],
+        "ja": [
+          "感謝",
+          "心",
+          "こだま"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "หัวใจ",
+          "การก้องกังวาน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "hati",
+          "gema"
+        ]
       },
       "readTime": 2,
       "stories": {
@@ -7028,19 +9835,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["silence", "contemplation", "clarity"],
-        "tr": ["sessizlik", "tefekkür", "netlik"],
-        "fr": ["silence", "contemplation", "clarté"],
-        "pt": ["silêncio", "contemplação", "clareza"],
-        "nl": ["stilte", "overpeinzing", "helderheid"],
-        "es": ["silencio", "contemplación", "claridad"],
-        "de": ["Stille", "Betrachtung", "Klarheit"],
-        "it": ["silenzio", "contemplazione", "chiarezza"],
-        "ru": ["тишина", "размышление", "ясность"],
-        "id": ["kesunyian", "kontemplasi", "kejelasan"],
-        "ja": ["沈黙", "瞑想", "明瞭さ"],
-        "th": ["ความเงียบ", "การไตร่ตรอง", "ความชัดเจน"],
-        "ms": ["kesunyian", "perenungan", "kejelasan"]
+        "en": [
+          "silence",
+          "contemplation",
+          "clarity"
+        ],
+        "tr": [
+          "sessizlik",
+          "tefekkür",
+          "netlik"
+        ],
+        "fr": [
+          "silence",
+          "contemplation",
+          "clarté"
+        ],
+        "pt": [
+          "silêncio",
+          "contemplação",
+          "clareza"
+        ],
+        "nl": [
+          "stilte",
+          "overpeinzing",
+          "helderheid"
+        ],
+        "es": [
+          "silencio",
+          "contemplación",
+          "claridad"
+        ],
+        "de": [
+          "Stille",
+          "Betrachtung",
+          "Klarheit"
+        ],
+        "it": [
+          "silenzio",
+          "contemplazione",
+          "chiarezza"
+        ],
+        "ru": [
+          "тишина",
+          "размышление",
+          "ясность"
+        ],
+        "id": [
+          "kesunyian",
+          "kontemplasi",
+          "kejelasan"
+        ],
+        "ja": [
+          "沈黙",
+          "瞑想",
+          "明瞭さ"
+        ],
+        "th": [
+          "ความเงียบ",
+          "การไตร่ตรอง",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesunyian",
+          "perenungan",
+          "kejelasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7158,19 +10017,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["uncertainty", "freedom", "unknown"],
-        "tr": ["belirsizlik", "özgürlük", "bilinmeyen"],
-        "fr": ["incertitude", "liberté", "inconnu"],
-        "pt": ["incerteza", "liberdade", "desconhecido"],
-        "nl": ["onzekerheid", "vrijheid", "onbekende"],
-        "es": ["incertidumbre", "libertad", "desconocido"],
-        "de": ["Unsicherheit", "Freiheit", "Unbekannt"],
-        "it": ["incertezza", "libertà", "ignoto"],
-        "ru": ["неопределенность", "свобода", "неизвестное"],
-        "id": ["ketidakpastian", "kebebasan", "tidak diketahui"],
-        "ja": ["不確実性", "自由", "未知"],
-        "th": ["ความไม่แน่นอน", "เสรีภาพ", "สิ่งที่ไม่รู้"],
-        "ms": ["ketidakpastian", "kebebasan", "tidak diketahui"]
+        "en": [
+          "uncertainty",
+          "freedom",
+          "unknown"
+        ],
+        "tr": [
+          "belirsizlik",
+          "özgürlük",
+          "bilinmeyen"
+        ],
+        "fr": [
+          "incertitude",
+          "liberté",
+          "inconnu"
+        ],
+        "pt": [
+          "incerteza",
+          "liberdade",
+          "desconhecido"
+        ],
+        "nl": [
+          "onzekerheid",
+          "vrijheid",
+          "onbekende"
+        ],
+        "es": [
+          "incertidumbre",
+          "libertad",
+          "desconocido"
+        ],
+        "de": [
+          "Unsicherheit",
+          "Freiheit",
+          "Unbekannt"
+        ],
+        "it": [
+          "incertezza",
+          "libertà",
+          "ignoto"
+        ],
+        "ru": [
+          "неопределенность",
+          "свобода",
+          "неизвестное"
+        ],
+        "id": [
+          "ketidakpastian",
+          "kebebasan",
+          "tidak diketahui"
+        ],
+        "ja": [
+          "不確実性",
+          "自由",
+          "未知"
+        ],
+        "th": [
+          "ความไม่แน่นอน",
+          "เสรีภาพ",
+          "สิ่งที่ไม่รู้"
+        ],
+        "ms": [
+          "ketidakpastian",
+          "kebebasan",
+          "tidak diketahui"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7288,19 +10199,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["compassion", "listening", "understanding"],
-        "tr": ["şefkat", "dinleme", "anlama"],
-        "fr": ["compassion", "écoute", "compréhension"],
-        "pt": ["compaixão", "escuta", "compreensão"],
-        "nl": ["compassie", "luisteren", "begrip"],
-        "es": ["compasión", "escucha", "comprensión"],
-        "de": ["Mitgefühl", "Zuhören", "Verständnis"],
-        "it": ["compassione", "ascolto", "comprensione"],
-        "ru": ["сострадание", "слушание", "понимание"],
-        "id": ["kasih sayang", "mendengarkan", "pemahaman"],
-        "ja": ["思いやり", "傾聴", "理解"],
-        "th": ["ความเห็นอกเห็นใจ", "การฟัง", "ความเข้าใจ"],
-        "ms": ["kasih sayang", "mendengar", "pemahaman"]
+        "en": [
+          "compassion",
+          "listening",
+          "understanding"
+        ],
+        "tr": [
+          "şefkat",
+          "dinleme",
+          "anlama"
+        ],
+        "fr": [
+          "compassion",
+          "écoute",
+          "compréhension"
+        ],
+        "pt": [
+          "compaixão",
+          "escuta",
+          "compreensão"
+        ],
+        "nl": [
+          "compassie",
+          "luisteren",
+          "begrip"
+        ],
+        "es": [
+          "compasión",
+          "escucha",
+          "comprensión"
+        ],
+        "de": [
+          "Mitgefühl",
+          "Zuhören",
+          "Verständnis"
+        ],
+        "it": [
+          "compassione",
+          "ascolto",
+          "comprensione"
+        ],
+        "ru": [
+          "сострадание",
+          "слушание",
+          "понимание"
+        ],
+        "id": [
+          "kasih sayang",
+          "mendengarkan",
+          "pemahaman"
+        ],
+        "ja": [
+          "思いやり",
+          "傾聴",
+          "理解"
+        ],
+        "th": [
+          "ความเห็นอกเห็นใจ",
+          "การฟัง",
+          "ความเข้าใจ"
+        ],
+        "ms": [
+          "kasih sayang",
+          "mendengar",
+          "pemahaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7418,19 +10381,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["balance", "action", "reflection"],
-        "tr": ["denge", "eylem", "tefekkür"],
-        "fr": ["équilibre", "action", "réflexion"],
-        "pt": ["equilíbrio", "ação", "reflexão"],
-        "nl": ["balans", "actie", "reflectie"],
-        "es": ["equilibrio", "acción", "reflexión"],
-        "de": ["Balance", "Handlung", "Reflexion"],
-        "it": ["equilibrio", "azione", "riflessione"],
-        "ru": ["баланс", "действие", "размышление"],
-        "id": ["keseimbangan", "tindakan", "refleksi"],
-        "ja": ["バランス", "行動", "省察"],
-        "th": ["สมดุล", "การกระทำ", "การไตร่ตรอง"],
-        "ms": ["keseimbangan", "tindakan", "refleksi"]
+        "en": [
+          "balance",
+          "action",
+          "reflection"
+        ],
+        "tr": [
+          "denge",
+          "eylem",
+          "tefekkür"
+        ],
+        "fr": [
+          "équilibre",
+          "action",
+          "réflexion"
+        ],
+        "pt": [
+          "equilíbrio",
+          "ação",
+          "reflexão"
+        ],
+        "nl": [
+          "balans",
+          "actie",
+          "reflectie"
+        ],
+        "es": [
+          "equilibrio",
+          "acción",
+          "reflexión"
+        ],
+        "de": [
+          "Balance",
+          "Handlung",
+          "Reflexion"
+        ],
+        "it": [
+          "equilibrio",
+          "azione",
+          "riflessione"
+        ],
+        "ru": [
+          "баланс",
+          "действие",
+          "размышление"
+        ],
+        "id": [
+          "keseimbangan",
+          "tindakan",
+          "refleksi"
+        ],
+        "ja": [
+          "バランス",
+          "行動",
+          "省察"
+        ],
+        "th": [
+          "สมดุล",
+          "การกระทำ",
+          "การไตร่ตรอง"
+        ],
+        "ms": [
+          "keseimbangan",
+          "tindakan",
+          "refleksi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7548,19 +10563,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["simplicity", "everyday wisdom", "presence"],
-        "tr": ["basitlik", "günlük bilgelik", "mevcudiyet"],
-        "fr": ["simplicité", "sagesse quotidienne", "présence"],
-        "pt": ["simplicidade", "sabedoria cotidiana", "presença"],
-        "nl": ["eenvoud", "dagelijkse wijsheid", "aanwezigheid"],
-        "es": ["simplicidad", "sabiduría cotidiana", "presencia"],
-        "de": ["Einfachheit", "alltägliche Weisheit", "Gegenwart"],
-        "it": ["semplicità", "saggezza quotidiana", "presenza"],
-        "ru": ["простота", "повседневная мудрость", "присутствие"],
-        "id": ["kesederhanaan", "kebijaksanaan sehari-hari", "kehadiran"],
-        "ja": ["シンプルさ", "日常の知恵", "存在"],
-        "th": ["ความเรียบง่าย", "ความปรีชาญาณประจำวัน", "การมีอยู่"],
-        "ms": ["kesederhanaan", "kebijaksanaan sehari-hari", "kehadiran"]
+        "en": [
+          "simplicity",
+          "everyday wisdom",
+          "presence"
+        ],
+        "tr": [
+          "basitlik",
+          "günlük bilgelik",
+          "mevcudiyet"
+        ],
+        "fr": [
+          "simplicité",
+          "sagesse quotidienne",
+          "présence"
+        ],
+        "pt": [
+          "simplicidade",
+          "sabedoria cotidiana",
+          "presença"
+        ],
+        "nl": [
+          "eenvoud",
+          "dagelijkse wijsheid",
+          "aanwezigheid"
+        ],
+        "es": [
+          "simplicidad",
+          "sabiduría cotidiana",
+          "presencia"
+        ],
+        "de": [
+          "Einfachheit",
+          "alltägliche Weisheit",
+          "Gegenwart"
+        ],
+        "it": [
+          "semplicità",
+          "saggezza quotidiana",
+          "presenza"
+        ],
+        "ru": [
+          "простота",
+          "повседневная мудрость",
+          "присутствие"
+        ],
+        "id": [
+          "kesederhanaan",
+          "kebijaksanaan sehari-hari",
+          "kehadiran"
+        ],
+        "ja": [
+          "シンプルさ",
+          "日常の知恵",
+          "存在"
+        ],
+        "th": [
+          "ความเรียบง่าย",
+          "ความปรีชาญาณประจำวัน",
+          "การมีอยู่"
+        ],
+        "ms": [
+          "kesederhanaan",
+          "kebijaksanaan sehari-hari",
+          "kehadiran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7678,19 +10745,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["nature", "observation", "patterns"],
-        "tr": ["doğa", "gözlem", "modeller"],
-        "fr": ["nature", "observation", "schémas"],
-        "pt": ["natureza", "observação", "padrões"],
-        "nl": ["natuur", "observatie", "patronen"],
-        "es": ["naturaleza", "observación", "patrones"],
-        "de": ["Natur", "Beobachtung", "Muster"],
-        "it": ["natura", "osservazione", "modelli"],
-        "ru": ["природа", "наблюдение", "паттерны"],
-        "id": ["alam", "pengamatan", "pola"],
-        "ja": ["自然", "観察", "パターン"],
-        "th": ["ธรรมชาติ", "การสังเกต", "รูปแบบ"],
-        "ms": ["alam", "pemerhatian", "corak"]
+        "en": [
+          "nature",
+          "observation",
+          "patterns"
+        ],
+        "tr": [
+          "doğa",
+          "gözlem",
+          "modeller"
+        ],
+        "fr": [
+          "nature",
+          "observation",
+          "schémas"
+        ],
+        "pt": [
+          "natureza",
+          "observação",
+          "padrões"
+        ],
+        "nl": [
+          "natuur",
+          "observatie",
+          "patronen"
+        ],
+        "es": [
+          "naturaleza",
+          "observación",
+          "patrones"
+        ],
+        "de": [
+          "Natur",
+          "Beobachtung",
+          "Muster"
+        ],
+        "it": [
+          "natura",
+          "osservazione",
+          "modelli"
+        ],
+        "ru": [
+          "природа",
+          "наблюдение",
+          "паттерны"
+        ],
+        "id": [
+          "alam",
+          "pengamatan",
+          "pola"
+        ],
+        "ja": [
+          "自然",
+          "観察",
+          "パターン"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "การสังเกต",
+          "รูปแบบ"
+        ],
+        "ms": [
+          "alam",
+          "pemerhatian",
+          "corak"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7808,19 +10927,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["cultural wisdom", "diversity", "traditions"],
-        "tr": ["kültürel bilgelik", "çeşitlilik", "gelenekler"],
-        "fr": ["sagesse culturelle", "diversité", "traditions"],
-        "pt": ["sabedoria cultural", "diversidade", "tradições"],
-        "nl": ["culturele wijsheid", "diversiteit", "tradities"],
-        "es": ["sabiduría cultural", "diversidad", "tradiciones"],
-        "de": ["kulturelle Weisheit", "Vielfalt", "Traditionen"],
-        "it": ["saggezza culturale", "diversità", "tradizioni"],
-        "ru": ["культурная мудрость", "разнообразие", "традиции"],
-        "id": ["kebijaksanaan budaya", "keragaman", "tradisi"],
-        "ja": ["文化的知恵", "多様性", "伝統"],
-        "th": ["ความปรีชาญาณทางวัฒนธรรม", "ความหลากหลาย", "ประเพณี"],
-        "ms": ["kebijaksanaan budaya", "kepelbagaian", "tradisi"]
+        "en": [
+          "cultural wisdom",
+          "diversity",
+          "traditions"
+        ],
+        "tr": [
+          "kültürel bilgelik",
+          "çeşitlilik",
+          "gelenekler"
+        ],
+        "fr": [
+          "sagesse culturelle",
+          "diversité",
+          "traditions"
+        ],
+        "pt": [
+          "sabedoria cultural",
+          "diversidade",
+          "tradições"
+        ],
+        "nl": [
+          "culturele wijsheid",
+          "diversiteit",
+          "tradities"
+        ],
+        "es": [
+          "sabiduría cultural",
+          "diversidad",
+          "tradiciones"
+        ],
+        "de": [
+          "kulturelle Weisheit",
+          "Vielfalt",
+          "Traditionen"
+        ],
+        "it": [
+          "saggezza culturale",
+          "diversità",
+          "tradizioni"
+        ],
+        "ru": [
+          "культурная мудрость",
+          "разнообразие",
+          "традиции"
+        ],
+        "id": [
+          "kebijaksanaan budaya",
+          "keragaman",
+          "tradisi"
+        ],
+        "ja": [
+          "文化的知恵",
+          "多様性",
+          "伝統"
+        ],
+        "th": [
+          "ความปรีชาญาณทางวัฒนธรรม",
+          "ความหลากหลาย",
+          "ประเพณี"
+        ],
+        "ms": [
+          "kebijaksanaan budaya",
+          "kepelbagaian",
+          "tradisi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7938,19 +11109,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["questions", "assumptions", "critical thinking"],
-        "tr": ["sorular", "varsayımlar", "eleştirel düşünme"],
-        "fr": ["questions", "suppositions", "pensée critique"],
-        "pt": ["perguntas", "suposições", "pensamento crítico"],
-        "nl": ["vragen", "aannames", "kritisch denken"],
-        "es": ["preguntas", "suposiciones", "pensamiento crítico"],
-        "de": ["Fragen", "Annahmen", "kritisches Denken"],
-        "it": ["domande", "supposizioni", "pensiero critico"],
-        "ru": ["вопросы", "предположения", "критическое мышление"],
-        "id": ["pertanyaan", "asumsi", "pemikiran kritis"],
-        "ja": ["質問", "仮定", "批判的思考"],
-        "th": ["คำถาม", "สมมติฐาน", "การคิดเชิงวิพากษ์"],
-        "ms": ["soalan", "andaian", "pemikiran kritikal"]
+        "en": [
+          "questions",
+          "assumptions",
+          "critical thinking"
+        ],
+        "tr": [
+          "sorular",
+          "varsayımlar",
+          "eleştirel düşünme"
+        ],
+        "fr": [
+          "questions",
+          "suppositions",
+          "pensée critique"
+        ],
+        "pt": [
+          "perguntas",
+          "suposições",
+          "pensamento crítico"
+        ],
+        "nl": [
+          "vragen",
+          "aannames",
+          "kritisch denken"
+        ],
+        "es": [
+          "preguntas",
+          "suposiciones",
+          "pensamiento crítico"
+        ],
+        "de": [
+          "Fragen",
+          "Annahmen",
+          "kritisches Denken"
+        ],
+        "it": [
+          "domande",
+          "supposizioni",
+          "pensiero critico"
+        ],
+        "ru": [
+          "вопросы",
+          "предположения",
+          "критическое мышление"
+        ],
+        "id": [
+          "pertanyaan",
+          "asumsi",
+          "pemikiran kritis"
+        ],
+        "ja": [
+          "質問",
+          "仮定",
+          "批判的思考"
+        ],
+        "th": [
+          "คำถาม",
+          "สมมติฐาน",
+          "การคิดเชิงวิพากษ์"
+        ],
+        "ms": [
+          "soalan",
+          "andaian",
+          "pemikiran kritikal"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8068,19 +11291,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["practice", "perseverance", "patience"],
-        "tr": ["uygulama", "sebat", "sabır"],
-        "fr": ["pratique", "persévérance", "patience"],
-        "pt": ["prática", "perseverança", "paciência"],
-        "nl": ["praktijk", "volharding", "geduld"],
-        "es": ["práctica", "perseverancia", "paciencia"],
-        "de": ["Praxis", "Ausdauer", "Geduld"],
-        "it": ["pratica", "perseveranza", "pazienza"],
-        "ru": ["практика", "настойчивость", "терпение"],
-        "id": ["praktik", "ketekunan", "kesabaran"],
-        "ja": ["実践", "忍耐", "忍耐"],
-        "th": ["การฝึกฝน", "ความเพียร", "ความอดทน"],
-        "ms": ["amalan", "ketekunan", "kesabaran"]
+        "en": [
+          "practice",
+          "perseverance",
+          "patience"
+        ],
+        "tr": [
+          "uygulama",
+          "sebat",
+          "sabır"
+        ],
+        "fr": [
+          "pratique",
+          "persévérance",
+          "patience"
+        ],
+        "pt": [
+          "prática",
+          "perseverança",
+          "paciência"
+        ],
+        "nl": [
+          "praktijk",
+          "volharding",
+          "geduld"
+        ],
+        "es": [
+          "práctica",
+          "perseverancia",
+          "paciencia"
+        ],
+        "de": [
+          "Praxis",
+          "Ausdauer",
+          "Geduld"
+        ],
+        "it": [
+          "pratica",
+          "perseveranza",
+          "pazienza"
+        ],
+        "ru": [
+          "практика",
+          "настойчивость",
+          "терпение"
+        ],
+        "id": [
+          "praktik",
+          "ketekunan",
+          "kesabaran"
+        ],
+        "ja": [
+          "実践",
+          "忍耐",
+          "忍耐"
+        ],
+        "th": [
+          "การฝึกฝน",
+          "ความเพียร",
+          "ความอดทน"
+        ],
+        "ms": [
+          "amalan",
+          "ketekunan",
+          "kesabaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8198,19 +11473,71 @@
         "ms": "Anonim"
       },
       "tags": {
-        "en": ["sharing", "generosity", "multiplication"],
-        "tr": ["paylaşım", "cömertlik", "çoğalma"],
-        "fr": ["partage", "générosité", "multiplication"],
-        "pt": ["compartilhamento", "generosidade", "multiplicação"],
-        "nl": ["delen", "vrijgevigheid", "vermenigvuldiging"],
-        "es": ["compartir", "generosidad", "multiplicación"],
-        "de": ["Teilen", "Großzügigkeit", "Vervielfältigung"],
-        "it": ["condivisione", "generosità", "moltiplicazione"],
-        "ru": ["деление", "щедрость", "умножение"],
-        "id": ["berbagi", "kedermawanan", "perkalian"],
-        "ja": ["共有", "寛大さ", "増殖"],
-        "th": ["การแบ่งปัน", "ความเอื้อเฟื้อเผื่อแผ่", "การเพิ่มพูน"],
-        "ms": ["kongsi", "kedermawanan", "pergandaan"]
+        "en": [
+          "sharing",
+          "generosity",
+          "multiplication"
+        ],
+        "tr": [
+          "paylaşım",
+          "cömertlik",
+          "çoğalma"
+        ],
+        "fr": [
+          "partage",
+          "générosité",
+          "multiplication"
+        ],
+        "pt": [
+          "compartilhamento",
+          "generosidade",
+          "multiplicação"
+        ],
+        "nl": [
+          "delen",
+          "vrijgevigheid",
+          "vermenigvuldiging"
+        ],
+        "es": [
+          "compartir",
+          "generosidad",
+          "multiplicación"
+        ],
+        "de": [
+          "Teilen",
+          "Großzügigkeit",
+          "Vervielfältigung"
+        ],
+        "it": [
+          "condivisione",
+          "generosità",
+          "moltiplicazione"
+        ],
+        "ru": [
+          "деление",
+          "щедрость",
+          "умножение"
+        ],
+        "id": [
+          "berbagi",
+          "kedermawanan",
+          "perkalian"
+        ],
+        "ja": [
+          "共有",
+          "寛大さ",
+          "増殖"
+        ],
+        "th": [
+          "การแบ่งปัน",
+          "ความเอื้อเฟื้อเผื่อแผ่",
+          "การเพิ่มพูน"
+        ],
+        "ms": [
+          "kongsi",
+          "kedermawanan",
+          "pergandaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -8394,19 +11721,19 @@
       "id": "wisdom_057",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Wisdom into my life.",
-        "tr": "Hayatıma Bilgelik enerjisini alıyorum.",
-        "fr": "J'accueille Wisdom dans ma vie.",
-        "pt": "Eu acolho Wisdom na minha vida.",
-        "nl": "Ik verwelkom Wisdom in mijn leven.",
-        "es": "Doy la bienvenida a Wisdom en mi vida.",
-        "de": "Ich heiße Wisdom in meinem Leben willkommen.",
-        "it": "Accolgo Wisdom nella mia vita.",
-        "ru": "Я принимаю Wisdom в свою жизнь.",
-        "id": "Saya menyambut Wisdom dalam hidup saya.",
-        "ja": "私はWisdomを人生に迎え入れます。",
-        "th": "ฉันต้อนรับWisdomเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Wisdom dalam hidup saya."
+        "en": "I make room for wisdom without rushing.",
+        "tr": "bilgelik için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à wisdom sans me presser.",
+        "pt": "Abro espaço para wisdom sem pressa.",
+        "nl": "Ik maak ruimte voor wisdom zonder te haasten.",
+        "es": "Hago espacio para wisdom sin prisa.",
+        "de": "Ich mache Platz für wisdom, ohne zu hetzen.",
+        "it": "Faccio spazio a wisdom senza fretta.",
+        "ru": "Я даю место wisdom без спешки.",
+        "id": "Aku memberi ruang bagi wisdom tanpa terburu-buru.",
+        "ja": "焦らずにwisdomのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้wisdomโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk wisdom tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -8438,19 +11765,19 @@
       "id": "wisdom_058",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Wisdom.",
-        "tr": "Kalbim Bilgelik için açık.",
-        "fr": "Mon cœur est ouvert à Wisdom.",
-        "pt": "Meu coração está aberto para Wisdom.",
-        "nl": "Mijn hart staat open voor Wisdom.",
-        "es": "Mi corazón está abierto a Wisdom.",
-        "de": "Mein Herz ist offen für Wisdom.",
-        "it": "Il mio cuore è aperto a Wisdom.",
-        "ru": "Моё сердце открыто для Wisdom.",
-        "id": "Hati saya terbuka untuk Wisdom.",
-        "ja": "私の心はWisdomに開かれています。",
-        "th": "หัวใจของฉันเปิดรับWisdom",
-        "ms": "Hati saya terbuka untuk Wisdom."
+        "en": "I stay open to wisdom in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde bilgelik için açık kalıyorum.",
+        "fr": "Je reste ouvert à wisdom d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a wisdom de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor wisdom op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a wisdom de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für wisdom auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a wisdom in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к wisdom так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada wisdom dengan cara yang terasa aman.",
+        "ja": "安心できる形でwisdomに心を開き続けます。",
+        "th": "ฉันเปิดใจให้wisdomในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap wisdom dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8482,19 +11809,19 @@
       "id": "wisdom_059",
       "type": "affirmation",
       "texts": {
-        "en": "Wisdom grows within me each day.",
-        "tr": "Bilgelik her gün içimde büyüyor.",
-        "fr": "Wisdom grandit en moi chaque jour.",
-        "pt": "Wisdom cresce dentro de mim todos os dias.",
-        "nl": "Wisdom groeit elke dag in mij.",
-        "es": "Wisdom crece dentro de mí cada día.",
-        "de": "Wisdom wächst jeden Tag in mir.",
-        "it": "Wisdom cresce in me ogni giorno.",
-        "ru": "Wisdom растёт во мне каждый день.",
-        "id": "Wisdom tumbuh di dalam diri saya setiap hari.",
-        "ja": "Wisdomは毎日私の中で育ちます。",
-        "th": "Wisdomเติบโตในตัวฉันทุกวัน",
-        "ms": "Wisdom berkembang dalam diri saya setiap hari."
+        "en": "Each day, wisdom grows within me.",
+        "tr": "Her gün içimde bilgelik büyüyor.",
+        "fr": "Chaque jour, wisdom grandit en moi.",
+        "pt": "A cada dia, wisdom cresce dentro de mim.",
+        "nl": "Elke dag groeit wisdom in mij.",
+        "es": "Cada día, wisdom crece dentro de mí.",
+        "de": "Jeden Tag wächst wisdom in mir.",
+        "it": "Ogni giorno, wisdom cresce dentro di me.",
+        "ru": "Каждый день wisdom растёт во мне.",
+        "id": "Setiap hari, wisdom tumbuh di dalam diriku.",
+        "ja": "毎日、wisdomが私の中で育っています。",
+        "th": "ทุกวัน wisdom เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, wisdom berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8526,19 +11853,19 @@
       "id": "wisdom_060",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Wisdom now.",
-        "tr": "Şimdi Bilgelik için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Wisdom maintenant.",
-        "pt": "Eu crio espaço para Wisdom agora.",
-        "nl": "Ik maak nu ruimte voor Wisdom.",
-        "es": "Creo espacio para Wisdom ahora.",
-        "de": "Ich schaffe jetzt Raum für Wisdom.",
-        "it": "Creo spazio per Wisdom ora.",
-        "ru": "Я создаю пространство для Wisdom сейчас.",
-        "id": "Saya menciptakan ruang untuk Wisdom sekarang.",
-        "ja": "今、Wisdomのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับWisdomในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Wisdom sekarang."
+        "en": "I give wisdom a quiet place in my day.",
+        "tr": "Günümde bilgelik için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à wisdom une place calme dans ma journée.",
+        "pt": "Dou a wisdom um lugar tranquilo no meu dia.",
+        "nl": "Ik geef wisdom een rustige plek in mijn dag.",
+        "es": "Le doy a wisdom un lugar tranquilo en mi día.",
+        "de": "Ich gebe wisdom einen ruhigen Platz in meinem Tag.",
+        "it": "Do a wisdom un posto tranquillo nella mia giornata.",
+        "ru": "Я даю wisdom тихое место в своём дне.",
+        "id": "Aku memberi wisdom tempat yang tenang dalam hariku.",
+        "ja": "一日の中にwisdomのための静かな場所をつくります。",
+        "th": "ฉันให้wisdomมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi wisdom tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8570,19 +11897,19 @@
       "id": "wisdom_061",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Wisdom.",
-        "tr": "Bilgelik yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Wisdom.",
-        "pt": "Eu confio no caminho de Wisdom.",
-        "nl": "Ik vertrouw op het pad van Wisdom.",
-        "es": "Confío en el camino de Wisdom.",
-        "de": "Ich vertraue dem Weg von Wisdom.",
-        "it": "Mi fido del percorso di Wisdom.",
-        "ru": "Я доверяю пути Wisdom.",
-        "id": "Saya percaya pada jalan Wisdom.",
-        "ja": "私はWisdomの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของWisdom",
-        "ms": "Saya percaya pada jalan Wisdom."
+        "en": "I trust my own way of growing in wisdom.",
+        "tr": "bilgelik konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec wisdom.",
+        "pt": "Confio no meu próprio jeito de crescer com wisdom.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in wisdom.",
+        "es": "Confío en mi propia manera de crecer con wisdom.",
+        "de": "Ich vertraue meinem eigenen Weg, in wisdom zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con wisdom.",
+        "ru": "Я доверяю своему собственному пути роста в wisdom.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam wisdom.",
+        "ja": "自分なりのwisdomの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับwisdom",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam wisdom."
       },
       "authors": {
         "en": "",
@@ -8609,6 +11936,946 @@
         ]
       },
       "readTime": "0"
+    },
+    {
+      "id": "wisdom_062",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice wisdom with gentle consistency.",
+        "tr": "bilgelik konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique wisdom avec une douce constance.",
+        "pt": "Eu pratico wisdom com constância gentil.",
+        "nl": "Ik beoefen wisdom met zachte regelmaat.",
+        "es": "Practico wisdom con constancia suave.",
+        "de": "Ich übe wisdom mit sanfter Beständigkeit.",
+        "it": "Pratico wisdom con dolce costanza.",
+        "ru": "Я практикую wisdom с мягкой постоянностью.",
+        "id": "Saya mempraktikkan wisdom dengan konsistensi yang lembut.",
+        "ja": "私はwisdomを穏やかな継続で実践します。",
+        "th": "ฉันฝึกwisdomอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan wisdom dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_063",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, wisdom supports me.",
+        "tr": "Bu dönemde bilgelik beni destekliyor.",
+        "fr": "En cette période, wisdom me soutient.",
+        "pt": "Nesta fase, wisdom me apoia.",
+        "nl": "In deze periode ondersteunt wisdom mij.",
+        "es": "En esta etapa, wisdom me sostiene.",
+        "de": "In dieser Zeit unterstützt wisdom mich.",
+        "it": "In questo periodo, wisdom mi sostiene.",
+        "ru": "В этот период wisdom поддерживает меня.",
+        "id": "Di masa ini, wisdom mendukungku.",
+        "ja": "この時期、wisdomが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ wisdomคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, wisdom menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_064",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose wisdom in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla bilgelik seçiyorum.",
+        "fr": "Je choisis wisdom par de petits pas sincères.",
+        "pt": "Escolho wisdom em passos pequenos e honestos.",
+        "nl": "Ik kies wisdom in kleine, eerlijke stappen.",
+        "es": "Elijo wisdom con pasos pequeños y honestos.",
+        "de": "Ich wähle wisdom in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo wisdom con passi piccoli e sinceri.",
+        "ru": "Я выбираю wisdom маленькими, честными шагами.",
+        "id": "Aku memilih wisdom dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でwisdomを選びます。",
+        "th": "ฉันเลือกwisdomด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih wisdom dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_065",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let wisdom shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri bilgelik şekillendiriyor.",
+        "fr": "Je laisse wisdom façonner les choix qui comptent pour moi.",
+        "pt": "Deixo wisdom moldar as escolhas que importam para mim.",
+        "nl": "Ik laat wisdom de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que wisdom moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse wisdom die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che wisdom plasmi le scelte che contano per me.",
+        "ru": "Я позволяю wisdom формировать важные для меня решения.",
+        "id": "Aku membiarkan wisdom membentuk pilihan yang penting bagiku.",
+        "ja": "wisdomが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้wisdomหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan wisdom membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_066",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, wisdom feels natural to me.",
+        "tr": "Bugün bilgelik bana doğal geliyor.",
+        "fr": "Aujourd'hui, wisdom me semble naturel.",
+        "pt": "Hoje, wisdom parece natural para mim.",
+        "nl": "Vandaag voelt wisdom natuurlijk voor mij.",
+        "es": "Hoy, wisdom se siente natural para mí.",
+        "de": "Heute fühlt sich wisdom natürlich für mich an.",
+        "it": "Oggi wisdom mi sembra naturale.",
+        "ru": "Сегодня wisdom кажется мне естественным.",
+        "id": "Hari ini, wisdom terasa alami bagi saya.",
+        "ja": "今日はwisdomが自然に感じられます。",
+        "th": "วันนี้wisdomให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, wisdom terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_67",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose wisdom in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda bilgelik seçiyorum.",
+        "fr": "Je choisis wisdom dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho wisdom nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies wisdom in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo wisdom en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle wisdom in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo wisdom nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю wisdom в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih wisdom dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でwisdomを選びます。",
+        "th": "ฉันเลือกwisdomในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih wisdom dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_68",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build wisdom.",
+        "tr": "İç sesim bilgelik inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis wisdom.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo wisdom.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik wisdom opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo wisdom.",
+        "de": "Meine innere Stimme wird sanfter, während ich wisdom aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco wisdom.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю wisdom.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun wisdom.",
+        "ja": "wisdomを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างwisdom",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina wisdom."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_69",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet wisdom at my own pace.",
+        "tr": "bilgelik ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer wisdom à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar wisdom no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om wisdom in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar wisdom a mi propio ritmo.",
+        "de": "Ich erlaube mir, wisdom in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare wisdom al mio ritmo.",
+        "ru": "Я позволяю себе встречать wisdom в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu wisdom dengan ritmeku.",
+        "ja": "自分のペースでwisdomに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบwisdomในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui wisdom mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_70",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let wisdom steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde bilgelik beni dengeliyor.",
+        "fr": "Je laisse wisdom m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo wisdom me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat wisdom me aarden als het leven luid voelt.",
+        "es": "Dejo que wisdom me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse wisdom mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che wisdom mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю wisdom удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan wisdom menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、wisdomが私を落ち着かせます。",
+        "th": "ฉันยอมให้wisdomทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan wisdom menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_71",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, wisdom is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde bilgelik büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, wisdom grandit.",
+        "pt": "Por meio das escolhas que faço hoje, wisdom cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit wisdom.",
+        "es": "A través de las decisiones que tomo hoy, wisdom crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst wisdom.",
+        "it": "Attraverso le scelte che faccio oggi, wisdom cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, wisdom растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, wisdom tumbuh.",
+        "ja": "今日の選択を通してwisdomが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ wisdomกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, wisdom berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_72",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel wisdom settling into my routines.",
+        "tr": "Rutinlerimde bilgelik için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens wisdom s’installer dans mes routines.",
+        "pt": "Sinto wisdom se acomodar nas minhas rotinas.",
+        "nl": "Ik voel wisdom zich nestelen in mijn routines.",
+        "es": "Siento que wisdom se asienta en mis rutinas.",
+        "de": "Ich spüre, wie wisdom sich in meinen Routinen einlebt.",
+        "it": "Sento wisdom assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как wisdom укореняется в моих привычках.",
+        "id": "Aku merasakan wisdom menetap dalam rutinitasku.",
+        "ja": "日々の習慣にwisdomがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าwisdomค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan wisdom mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_73",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow wisdom to be simple, not perfect.",
+        "tr": "bilgelik için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise wisdom à être simple, pas parfait.",
+        "pt": "Permito que wisdom seja simples, não perfeito.",
+        "nl": "Ik laat wisdom simpel zijn, niet perfect.",
+        "es": "Permito que wisdom sea simple, no perfecto.",
+        "de": "Ich erlaube wisdom, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a wisdom di essere semplice, non perfetto.",
+        "ru": "Я позволяю wisdom быть простым, а не идеальным.",
+        "id": "Aku membiarkan wisdom tetap sederhana, bukan sempurna.",
+        "ja": "wisdomがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้wisdomเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan wisdom menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_74",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice wisdom showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde bilgelik ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque wisdom dans la façon dont je me parle.",
+        "pt": "Percebo wisdom na forma como falo comigo.",
+        "nl": "Ik merk wisdom op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto wisdom en la manera en que me hablo.",
+        "de": "Ich bemerke wisdom in der Art, wie ich mit mir spreche.",
+        "it": "Noto wisdom nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю wisdom в том, как я говорю с собой.",
+        "id": "Aku menyadari wisdom dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にwisdomが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นwisdomในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari wisdom dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_75",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve wisdom without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan bilgelik hak ediyorum.",
+        "fr": "Je mérite wisdom sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço wisdom sem precisar provar nada.",
+        "nl": "Ik verdien wisdom zonder iets te hoeven bewijzen.",
+        "es": "Merezco wisdom sin necesidad de demostrar nada.",
+        "de": "Ich verdiene wisdom, ohne etwas beweisen zu müssen.",
+        "it": "Merito wisdom senza dover dimostrare nulla.",
+        "ru": "Я достоин wisdom, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan wisdom tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、wisdomに値します。",
+        "th": "ฉันคู่ควรกับwisdomโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh wisdom tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_76",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let wisdom grow from patience, not pressure.",
+        "tr": "bilgelik sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse wisdom grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo wisdom crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat wisdom groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que wisdom crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse wisdom aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che wisdom cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю wisdom расти из терпения, а не из давления.",
+        "id": "Aku membiarkan wisdom tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はwisdomを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้wisdomเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan wisdom tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_77",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to wisdom when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde bilgelik ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à wisdom quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a wisdom quando preciso me firmar.",
+        "nl": "Ik keer terug naar wisdom wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a wisdom cuando necesito estabilizarme.",
+        "de": "Ich kehre zu wisdom zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a wisdom quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к wisdom, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke wisdom saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、wisdomに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาwisdom",
+        "ms": "Saya kembali kepada wisdom apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_78",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let wisdom soften my inner pressure.",
+        "tr": "İçimdeki baskıyı bilgelik ile yumuşatıyorum.",
+        "fr": "Je laisse wisdom adoucir ma pression intérieure.",
+        "pt": "Deixo wisdom suavizar minha pressão interna.",
+        "nl": "Ik laat wisdom mijn innerlijke druk verzachten.",
+        "es": "Dejo que wisdom suavice mi presión interna.",
+        "de": "Ich lasse wisdom meinen inneren Druck weicher machen.",
+        "it": "Lascio che wisdom ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю wisdom смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan wisdom melembutkan tekanan batinku.",
+        "ja": "wisdomが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้wisdomช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan wisdom melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_79",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that wisdom can be gentle and real.",
+        "tr": "bilgelik konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que wisdom peut être doux et vrai.",
+        "pt": "Confio que wisdom pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat wisdom zacht en echt kan zijn.",
+        "es": "Confío en que wisdom puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass wisdom sanft und echt sein kann.",
+        "it": "Mi fido del fatto che wisdom possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что wisdom может быть мягким и настоящим.",
+        "id": "Aku percaya wisdom bisa lembut dan nyata.",
+        "ja": "wisdomはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าwisdomสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya wisdom boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_80",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give wisdom a little more room each day.",
+        "tr": "Her gün bilgelik için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à wisdom chaque jour.",
+        "pt": "Dou um pouco mais de espaço para wisdom a cada dia.",
+        "nl": "Ik geef wisdom elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a wisdom cada día.",
+        "de": "Ich gebe wisdom jeden Tag ein wenig mehr Raum.",
+        "it": "Do a wisdom un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю wisdom чуть больше места.",
+        "id": "Setiap hari aku memberi wisdom sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、wisdomのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับwisdomมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi wisdom sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_81",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold wisdom without forcing it.",
+        "tr": "bilgelik ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir wisdom sans forcer.",
+        "pt": "Estou aprendendo a sustentar wisdom sem forçar.",
+        "nl": "Ik leer wisdom te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener wisdom sin forzar.",
+        "de": "Ich lerne, wisdom zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere wisdom senza forzare.",
+        "ru": "Я учусь удерживать wisdom без принуждения.",
+        "id": "Aku belajar memegang wisdom tanpa memaksa.",
+        "ja": "wisdomを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองwisdomโดยไม่บังคับ",
+        "ms": "Saya belajar memegang wisdom tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by wisdom where I am today.",
+        "tr": "Bugün olduğum yerde bilgelik beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, wisdom me rejoint.",
+        "pt": "Onde estou hoje, wisdom me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet wisdom mij.",
+        "es": "Donde estoy hoy, wisdom me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir wisdom.",
+        "it": "Dove sono oggi, wisdom mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает wisdom.",
+        "id": "Di tempatku hari ini, wisdom menemuiku.",
+        "ja": "今日の私がいる場所で、wisdomが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ wisdomอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, wisdom menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice wisdom in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte bilgelik fark ediyorum.",
+        "fr": "Je remarque wisdom dans le calme entre les moments.",
+        "pt": "Percebo wisdom na calma entre os momentos.",
+        "nl": "Ik merk wisdom op in de rust tussen momenten.",
+        "es": "Noto wisdom en la calma entre momentos.",
+        "de": "Ich bemerke wisdom in der Ruhe zwischen den Momenten.",
+        "it": "Noto wisdom nella calma tra i momenti.",
+        "ru": "Я замечаю wisdom в тишине между моментами.",
+        "id": "Aku menyadari wisdom dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにwisdomを感じます。",
+        "th": "ฉันสังเกตwisdomในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari wisdom dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow wisdom to grow quietly in the background.",
+        "tr": "bilgelik sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse wisdom grandir doucement en arrière-plan.",
+        "pt": "Deixo wisdom crescer em silêncio ao fundo.",
+        "nl": "Ik laat wisdom stil op de achtergrond groeien.",
+        "es": "Dejo que wisdom crezca en silencio de fondo.",
+        "de": "Ich lasse wisdom leise im Hintergrund wachsen.",
+        "it": "Lascio che wisdom cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю wisdom тихо расти на заднем плане.",
+        "id": "Aku membiarkan wisdom tumbuh perlahan di latar belakang.",
+        "ja": "wisdomが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้wisdomเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan wisdom berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose wisdom with care, not hurry.",
+        "tr": "Acele etmeden, özenle bilgelik seçiyorum.",
+        "fr": "Je choisis wisdom avec soin, sans hâte.",
+        "pt": "Escolho wisdom com cuidado, sem pressa.",
+        "nl": "Ik kies wisdom met zorg, niet met haast.",
+        "es": "Elijo wisdom con cuidado, no con prisa.",
+        "de": "Ich wähle wisdom mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo wisdom con cura, non con fretta.",
+        "ru": "Я выбираю wisdom с заботой, а не в спешке.",
+        "id": "Aku memilih wisdom dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にwisdomを選びます。",
+        "th": "ฉันเลือกwisdomอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih wisdom dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep wisdom close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken bilgelik ile yakın kalıyorum.",
+        "fr": "Je garde wisdom près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho wisdom por perto quando minha mente fica agitada.",
+        "nl": "Ik houd wisdom dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo wisdom cerca cuando mi mente está inquieta.",
+        "de": "Ich halte wisdom nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo wisdom vicino quando la mia mente è agitata.",
+        "ru": "Я держу wisdom рядом, когда ум занят.",
+        "id": "Aku menjaga wisdom tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもwisdomをそばに置きます。",
+        "th": "ฉันเก็บwisdomไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan wisdom dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "readTime": "0"
     }
   ]
-} 
+}

@@ -1,6 +1,6 @@
 {
   "quotes": [
-     {
+    {
       "id": "family_001",
       "category": "family",
       "texts": {
@@ -34,19 +34,71 @@
         "ms": "Michael J. Fox"
       },
       "tags": {
-        "en": ["love", "support", "bond"],
-        "tr": ["sevgi", "destek", "bağ"],
-        "fr": ["amour", "soutien", "lien"],
-        "pt": ["amor", "apoio", "vínculo"],
-        "nl": ["liefde", "steun", "band"],
-        "es": ["amor", "apoyo", "vínculo"],
-        "de": ["liebe", "unterstützung", "bindung"],
-        "it": ["amore", "sostegno", "legame"],
-        "ru": ["любовь", "поддержка", "связь"],
-        "id": ["cinta", "dukungan", "ikatan"],
-        "ja": ["愛", "サポート", "絆"],
-        "th": ["ความรัก", "การสนับสนุน", "ความผูกพัน"],
-        "ms": ["cinta", "sokongan", "ikatan"]
+        "en": [
+          "love",
+          "support",
+          "bond"
+        ],
+        "tr": [
+          "sevgi",
+          "destek",
+          "bağ"
+        ],
+        "fr": [
+          "amour",
+          "soutien",
+          "lien"
+        ],
+        "pt": [
+          "amor",
+          "apoio",
+          "vínculo"
+        ],
+        "nl": [
+          "liefde",
+          "steun",
+          "band"
+        ],
+        "es": [
+          "amor",
+          "apoyo",
+          "vínculo"
+        ],
+        "de": [
+          "liebe",
+          "unterstützung",
+          "bindung"
+        ],
+        "it": [
+          "amore",
+          "sostegno",
+          "legame"
+        ],
+        "ru": [
+          "любовь",
+          "поддержка",
+          "связь"
+        ],
+        "id": [
+          "cinta",
+          "dukungan",
+          "ikatan"
+        ],
+        "ja": [
+          "愛",
+          "サポート",
+          "絆"
+        ],
+        "th": [
+          "ความรัก",
+          "การสนับสนุน",
+          "ความผูกพัน"
+        ],
+        "ms": [
+          "cinta",
+          "sokongan",
+          "ikatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -151,19 +203,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "memories", "treasure"],
-        "tr": ["sevgi", "anılar", "hazine"],
-        "fr": ["amour", "souvenirs", "trésor"],
-        "pt": ["amor", "memórias", "tesouro"],
-        "nl": ["liefde", "herinneringen", "schat"],
-        "es": ["amor", "recuerdos", "tesoro"],
-        "de": ["liebe", "erinnerungen", "schatz"],
-        "it": ["amore", "ricordi", "tesoro"],
-        "ru": ["любовь", "воспоминания", "сокровище"],
-        "id": ["cinta", "kenangan", "harta"],
-        "ja": ["愛", "思い出", "宝"],
-        "th": ["ความรัก", "ความทรงจำ", "สมบัติ"],
-        "ms": ["cinta", "kenangan", "harta"]
+        "en": [
+          "love",
+          "memories",
+          "treasure"
+        ],
+        "tr": [
+          "sevgi",
+          "anılar",
+          "hazine"
+        ],
+        "fr": [
+          "amour",
+          "souvenirs",
+          "trésor"
+        ],
+        "pt": [
+          "amor",
+          "memórias",
+          "tesouro"
+        ],
+        "nl": [
+          "liefde",
+          "herinneringen",
+          "schat"
+        ],
+        "es": [
+          "amor",
+          "recuerdos",
+          "tesoro"
+        ],
+        "de": [
+          "liebe",
+          "erinnerungen",
+          "schatz"
+        ],
+        "it": [
+          "amore",
+          "ricordi",
+          "tesoro"
+        ],
+        "ru": [
+          "любовь",
+          "воспоминания",
+          "сокровище"
+        ],
+        "id": [
+          "cinta",
+          "kenangan",
+          "harta"
+        ],
+        "ja": [
+          "愛",
+          "思い出",
+          "宝"
+        ],
+        "th": [
+          "ความรัก",
+          "ความทรงจำ",
+          "สมบัติ"
+        ],
+        "ms": [
+          "cinta",
+          "kenangan",
+          "harta"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -268,19 +372,71 @@
         "ms": "George Bernard Shaw"
       },
       "tags": {
-        "en": ["happiness", "paradise", "blessing"],
-        "tr": ["mutluluk", "cennet", "nimet"],
-        "fr": ["bonheur", "paradis", "bénédiction"],
-        "pt": ["felicidade", "paraíso", "bênção"],
-        "nl": ["geluk", "paradijs", "zegen"],
-        "es": ["felicidad", "paraíso", "bendición"],
-        "de": ["glück", "paradies", "segen"],
-        "it": ["felicità", "paradiso", "benedizione"],
-        "ru": ["счастье", "рай", "благословение"],
-        "id": ["kebahagiaan", "surga", "berkat"],
-        "ja": ["幸福", "楽園", "祝福"],
-        "th": ["ความสุข", "สวรรค์", "พร"],
-        "ms": ["kebahagiaan", "syurga", "berkat"]
+        "en": [
+          "happiness",
+          "paradise",
+          "blessing"
+        ],
+        "tr": [
+          "mutluluk",
+          "cennet",
+          "nimet"
+        ],
+        "fr": [
+          "bonheur",
+          "paradis",
+          "bénédiction"
+        ],
+        "pt": [
+          "felicidade",
+          "paraíso",
+          "bênção"
+        ],
+        "nl": [
+          "geluk",
+          "paradijs",
+          "zegen"
+        ],
+        "es": [
+          "felicidad",
+          "paraíso",
+          "bendición"
+        ],
+        "de": [
+          "glück",
+          "paradies",
+          "segen"
+        ],
+        "it": [
+          "felicità",
+          "paradiso",
+          "benedizione"
+        ],
+        "ru": [
+          "счастье",
+          "рай",
+          "благословение"
+        ],
+        "id": [
+          "kebahagiaan",
+          "surga",
+          "berkat"
+        ],
+        "ja": [
+          "幸福",
+          "楽園",
+          "祝福"
+        ],
+        "th": [
+          "ความสุข",
+          "สวรรค์",
+          "พร"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "syurga",
+          "berkat"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -385,19 +541,71 @@
         "ms": "David Ogden Stiers"
       },
       "tags": {
-        "en": ["loyalty", "belonging", "support"],
-        "tr": ["sadakat", "aidiyet", "destek"],
-        "fr": ["loyauté", "appartenance", "soutien"],
-        "pt": ["lealdade", "pertencimento", "apoio"],
-        "nl": ["loyaliteit", "verbondenheid", "steun"],
-        "es": ["lealtad", "pertenencia", "apoyo"],
-        "de": ["loyalität", "zugehörigkeit", "unterstützung"],
-        "it": ["lealtà", "appartenenza", "sostegno"],
-        "ru": ["верность", "принадлежность", "поддержка"],
-        "id": ["kesetiaan", "kebersamaan", "dukungan"],
-        "ja": ["忠誠", "帰属", "サポート"],
-        "th": ["ความภักดี", "ความรู้สึกเป็นส่วนหนึ่ง", "การสนับสนุน"],
-        "ms": ["kesetiaan", "kebersamaan", "sokongan"]
+        "en": [
+          "loyalty",
+          "belonging",
+          "support"
+        ],
+        "tr": [
+          "sadakat",
+          "aidiyet",
+          "destek"
+        ],
+        "fr": [
+          "loyauté",
+          "appartenance",
+          "soutien"
+        ],
+        "pt": [
+          "lealdade",
+          "pertencimento",
+          "apoio"
+        ],
+        "nl": [
+          "loyaliteit",
+          "verbondenheid",
+          "steun"
+        ],
+        "es": [
+          "lealtad",
+          "pertenencia",
+          "apoyo"
+        ],
+        "de": [
+          "loyalität",
+          "zugehörigkeit",
+          "unterstützung"
+        ],
+        "it": [
+          "lealtà",
+          "appartenenza",
+          "sostegno"
+        ],
+        "ru": [
+          "верность",
+          "принадлежность",
+          "поддержка"
+        ],
+        "id": [
+          "kesetiaan",
+          "kebersamaan",
+          "dukungan"
+        ],
+        "ja": [
+          "忠誠",
+          "帰属",
+          "サポート"
+        ],
+        "th": [
+          "ความภักดี",
+          "ความรู้สึกเป็นส่วนหนึ่ง",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "kesetiaan",
+          "kebersamaan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -502,19 +710,71 @@
         "ms": "Candace Cameron Bure"
       },
       "tags": {
-        "en": ["memories", "moments", "legacy"],
-        "tr": ["anılar", "anlar", "miras"],
-        "fr": ["souvenirs", "moments", "héritage"],
-        "pt": ["memórias", "momentos", "legado"],
-        "nl": ["herinneringen", "momenten", "erfenis"],
-        "es": ["recuerdos", "momentos", "legado"],
-        "de": ["erinnerungen", "momente", "erbe"],
-        "it": ["ricordi", "momenti", "eredità"],
-        "ru": ["воспоминания", "моменты", "наследие"],
-        "id": ["kenangan", "momen", "warisan"],
-        "ja": ["思い出", "瞬間", "遺産"],
-        "th": ["ความทรงจำ", "ช่วงเวลา", "มรดก"],
-        "ms": ["kenangan", "momen", "warisan"]
+        "en": [
+          "memories",
+          "moments",
+          "legacy"
+        ],
+        "tr": [
+          "anılar",
+          "anlar",
+          "miras"
+        ],
+        "fr": [
+          "souvenirs",
+          "moments",
+          "héritage"
+        ],
+        "pt": [
+          "memórias",
+          "momentos",
+          "legado"
+        ],
+        "nl": [
+          "herinneringen",
+          "momenten",
+          "erfenis"
+        ],
+        "es": [
+          "recuerdos",
+          "momentos",
+          "legado"
+        ],
+        "de": [
+          "erinnerungen",
+          "momente",
+          "erbe"
+        ],
+        "it": [
+          "ricordi",
+          "momenti",
+          "eredità"
+        ],
+        "ru": [
+          "воспоминания",
+          "моменты",
+          "наследие"
+        ],
+        "id": [
+          "kenangan",
+          "momen",
+          "warisan"
+        ],
+        "ja": [
+          "思い出",
+          "瞬間",
+          "遺産"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ช่วงเวลา",
+          "มรดก"
+        ],
+        "ms": [
+          "kenangan",
+          "momen",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -585,7 +845,7 @@
         }
       }
     },
-        {
+    {
       "id": "family_006",
       "category": "family",
       "texts": {
@@ -619,19 +879,71 @@
         "ms": "Friedrich Nietzsche"
       },
       "tags": {
-        "en": ["harmony", "unity", "understanding"],
-        "tr": ["uyum", "birlik", "anlayış"],
-        "fr": ["harmonie", "unité", "compréhension"],
-        "pt": ["harmonia", "unidade", "compreensão"],
-        "nl": ["harmonie", "eenheid", "begrip"],
-        "es": ["armonía", "unidad", "comprensión"],
-        "de": ["harmonie", "einheit", "verständnis"],
-        "it": ["armonia", "unità", "comprensione"],
-        "ru": ["гармония", "единство", "понимание"],
-        "id": ["harmoni", "kesatuan", "pengertian"],
-        "ja": ["調和", "団結", "理解"],
-        "th": ["ความสามัคคี", "ความเป็นหนึ่ง", "ความเข้าใจ"],
-        "ms": ["harmoni", "perpaduan", "pemahaman"]
+        "en": [
+          "harmony",
+          "unity",
+          "understanding"
+        ],
+        "tr": [
+          "uyum",
+          "birlik",
+          "anlayış"
+        ],
+        "fr": [
+          "harmonie",
+          "unité",
+          "compréhension"
+        ],
+        "pt": [
+          "harmonia",
+          "unidade",
+          "compreensão"
+        ],
+        "nl": [
+          "harmonie",
+          "eenheid",
+          "begrip"
+        ],
+        "es": [
+          "armonía",
+          "unidad",
+          "comprensión"
+        ],
+        "de": [
+          "harmonie",
+          "einheit",
+          "verständnis"
+        ],
+        "it": [
+          "armonia",
+          "unità",
+          "comprensione"
+        ],
+        "ru": [
+          "гармония",
+          "единство",
+          "понимание"
+        ],
+        "id": [
+          "harmoni",
+          "kesatuan",
+          "pengertian"
+        ],
+        "ja": [
+          "調和",
+          "団結",
+          "理解"
+        ],
+        "th": [
+          "ความสามัคคี",
+          "ความเป็นหนึ่ง",
+          "ความเข้าใจ"
+        ],
+        "ms": [
+          "harmoni",
+          "perpaduan",
+          "pemahaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -702,7 +1014,7 @@
         }
       }
     },
-       {
+    {
       "id": "family_007",
       "category": "family",
       "texts": {
@@ -736,19 +1048,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["home", "love", "belonging"],
-        "tr": ["ev", "sevgi", "aidiyet"],
-        "fr": ["maison", "amour", "appartenance"],
-        "pt": ["lar", "amor", "pertencimento"],
-        "nl": ["thuis", "liefde", "verbondenheid"],
-        "es": ["hogar", "amor", "pertenencia"],
-        "de": ["zuhause", "liebe", "zugehörigkeit"],
-        "it": ["casa", "amore", "appartenenza"],
-        "ru": ["дом", "любовь", "принадлежность"],
-        "id": ["rumah", "cinta", "kebersamaan"],
-        "ja": ["家", "愛", "帰属"],
-        "th": ["บ้าน", "ความรัก", "ความรู้สึกเป็นส่วนหนึ่ง"],
-        "ms": ["rumah", "cinta", "kebersamaan"]
+        "en": [
+          "home",
+          "love",
+          "belonging"
+        ],
+        "tr": [
+          "ev",
+          "sevgi",
+          "aidiyet"
+        ],
+        "fr": [
+          "maison",
+          "amour",
+          "appartenance"
+        ],
+        "pt": [
+          "lar",
+          "amor",
+          "pertencimento"
+        ],
+        "nl": [
+          "thuis",
+          "liefde",
+          "verbondenheid"
+        ],
+        "es": [
+          "hogar",
+          "amor",
+          "pertenencia"
+        ],
+        "de": [
+          "zuhause",
+          "liebe",
+          "zugehörigkeit"
+        ],
+        "it": [
+          "casa",
+          "amore",
+          "appartenenza"
+        ],
+        "ru": [
+          "дом",
+          "любовь",
+          "принадлежность"
+        ],
+        "id": [
+          "rumah",
+          "cinta",
+          "kebersamaan"
+        ],
+        "ja": [
+          "家",
+          "愛",
+          "帰属"
+        ],
+        "th": [
+          "บ้าน",
+          "ความรัก",
+          "ความรู้สึกเป็นส่วนหนึ่ง"
+        ],
+        "ms": [
+          "rumah",
+          "cinta",
+          "kebersamaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -853,19 +1217,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["beginnings", "love", "eternity"],
-        "tr": ["başlangıçlar", "sevgi", "sonsuzluk"],
-        "fr": ["commencements", "amour", "éternité"],
-        "pt": ["começos", "amor", "eternidade"],
-        "nl": ["begin", "liefde", "eeuwigheid"],
-        "es": ["comienzos", "amor", "eternidad"],
-        "de": ["anfänge", "liebe", "ewigkeit"],
-        "it": ["inizi", "amore", "eternità"],
-        "ru": ["начала", "любовь", "вечность"],
-        "id": ["permulaan", "cinta", "keabadian"],
-        "ja": ["始まり", "愛", "永遠"],
-        "th": ["จุดเริ่มต้น", "ความรัก", "นิรันดร์"],
-        "ms": ["permulaan", "cinta", "kekekalan"]
+        "en": [
+          "beginnings",
+          "love",
+          "eternity"
+        ],
+        "tr": [
+          "başlangıçlar",
+          "sevgi",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "commencements",
+          "amour",
+          "éternité"
+        ],
+        "pt": [
+          "começos",
+          "amor",
+          "eternidade"
+        ],
+        "nl": [
+          "begin",
+          "liefde",
+          "eeuwigheid"
+        ],
+        "es": [
+          "comienzos",
+          "amor",
+          "eternidad"
+        ],
+        "de": [
+          "anfänge",
+          "liebe",
+          "ewigkeit"
+        ],
+        "it": [
+          "inizi",
+          "amore",
+          "eternità"
+        ],
+        "ru": [
+          "начала",
+          "любовь",
+          "вечность"
+        ],
+        "id": [
+          "permulaan",
+          "cinta",
+          "keabadian"
+        ],
+        "ja": [
+          "始まり",
+          "愛",
+          "永遠"
+        ],
+        "th": [
+          "จุดเริ่มต้น",
+          "ความรัก",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "permulaan",
+          "cinta",
+          "kekekalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -970,19 +1386,71 @@
         "ms": "Mario Puzo"
       },
       "tags": {
-        "en": ["loyalty", "strength", "unity"],
-        "tr": ["sadakat", "güç", "birlik"],
-        "fr": ["loyauté", "force", "unité"],
-        "pt": ["lealdade", "força", "unidade"],
-        "nl": ["loyaliteit", "kracht", "eenheid"],
-        "es": ["lealtad", "fuerza", "unidad"],
-        "de": ["loyalität", "stärke", "einheit"],
-        "it": ["lealtà", "forza", "unità"],
-        "ru": ["верность", "сила", "единство"],
-        "id": ["kesetiaan", "kekuatan", "kesatuan"],
-        "ja": ["忠誠", "強さ", "団結"],
-        "th": ["ความภักดี", "ความแข็งแกร่ง", "ความเป็นหนึ่ง"],
-        "ms": ["kesetiaan", "kekuatan", "perpaduan"]
+        "en": [
+          "loyalty",
+          "strength",
+          "unity"
+        ],
+        "tr": [
+          "sadakat",
+          "güç",
+          "birlik"
+        ],
+        "fr": [
+          "loyauté",
+          "force",
+          "unité"
+        ],
+        "pt": [
+          "lealdade",
+          "força",
+          "unidade"
+        ],
+        "nl": [
+          "loyaliteit",
+          "kracht",
+          "eenheid"
+        ],
+        "es": [
+          "lealtad",
+          "fuerza",
+          "unidad"
+        ],
+        "de": [
+          "loyalität",
+          "stärke",
+          "einheit"
+        ],
+        "it": [
+          "lealtà",
+          "forza",
+          "unità"
+        ],
+        "ru": [
+          "верность",
+          "сила",
+          "единство"
+        ],
+        "id": [
+          "kesetiaan",
+          "kekuatan",
+          "kesatuan"
+        ],
+        "ja": [
+          "忠誠",
+          "強さ",
+          "団結"
+        ],
+        "th": [
+          "ความภักดี",
+          "ความแข็งแกร่ง",
+          "ความเป็นหนึ่ง"
+        ],
+        "ms": [
+          "kesetiaan",
+          "kekuatan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1087,19 +1555,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "love", "legacy"],
-        "tr": ["anılar", "sevgi", "miras"],
-        "fr": ["souvenirs", "amour", "héritage"],
-        "pt": ["memórias", "amor", "legado"],
-        "nl": ["herinneringen", "liefde", "erfenis"],
-        "es": ["recuerdos", "amor", "legado"],
-        "de": ["erinnerungen", "liebe", "erbe"],
-        "it": ["ricordi", "amore", "eredità"],
-        "ru": ["воспоминания", "любовь", "наследие"],
-        "id": ["kenangan", "cinta", "warisan"],
-        "ja": ["思い出", "愛", "遺産"],
-        "th": ["ความทรงจำ", "ความรัก", "มรดก"],
-        "ms": ["kenangan", "cinta", "warisan"]
+        "en": [
+          "memories",
+          "love",
+          "legacy"
+        ],
+        "tr": [
+          "anılar",
+          "sevgi",
+          "miras"
+        ],
+        "fr": [
+          "souvenirs",
+          "amour",
+          "héritage"
+        ],
+        "pt": [
+          "memórias",
+          "amor",
+          "legado"
+        ],
+        "nl": [
+          "herinneringen",
+          "liefde",
+          "erfenis"
+        ],
+        "es": [
+          "recuerdos",
+          "amor",
+          "legado"
+        ],
+        "de": [
+          "erinnerungen",
+          "liebe",
+          "erbe"
+        ],
+        "it": [
+          "ricordi",
+          "amore",
+          "eredità"
+        ],
+        "ru": [
+          "воспоминания",
+          "любовь",
+          "наследие"
+        ],
+        "id": [
+          "kenangan",
+          "cinta",
+          "warisan"
+        ],
+        "ja": [
+          "思い出",
+          "愛",
+          "遺産"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ความรัก",
+          "มรดก"
+        ],
+        "ms": [
+          "kenangan",
+          "cinta",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1204,19 +1724,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["comfort", "support", "resilience"],
-        "tr": ["teselli", "destek", "dayanıklılık"],
-        "fr": ["réconfort", "soutien", "résilience"],
-        "pt": ["conforto", "apoio", "resiliência"],
-        "nl": ["troost", "steun", "veerkracht"],
-        "es": ["consuelo", "apoyo", "resiliencia"],
-        "de": ["tröstung", "unterstützung", "widerstandsfähigkeit"],
-        "it": ["conforto", "sostegno", "resilienza"],
-        "ru": ["утешение", "поддержка", "стойкость"],
-        "id": ["kenyamanan", "dukungan", "ketahanan"],
-        "ja": ["慰め", "サポート", "回復力"],
-        "th": ["ความปลอบโยน", "การสนับสนุน", "ความยืดหยุ่น"],
-        "ms": ["keselesaan", "sokongan", "ketabahan"]
+        "en": [
+          "comfort",
+          "support",
+          "resilience"
+        ],
+        "tr": [
+          "teselli",
+          "destek",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "réconfort",
+          "soutien",
+          "résilience"
+        ],
+        "pt": [
+          "conforto",
+          "apoio",
+          "resiliência"
+        ],
+        "nl": [
+          "troost",
+          "steun",
+          "veerkracht"
+        ],
+        "es": [
+          "consuelo",
+          "apoyo",
+          "resiliencia"
+        ],
+        "de": [
+          "tröstung",
+          "unterstützung",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "conforto",
+          "sostegno",
+          "resilienza"
+        ],
+        "ru": [
+          "утешение",
+          "поддержка",
+          "стойкость"
+        ],
+        "id": [
+          "kenyamanan",
+          "dukungan",
+          "ketahanan"
+        ],
+        "ja": [
+          "慰め",
+          "サポート",
+          "回復力"
+        ],
+        "th": [
+          "ความปลอบโยน",
+          "การสนับสนุน",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "keselesaan",
+          "sokongan",
+          "ketabahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1321,19 +1893,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "support", "direction"],
-        "tr": ["rehberlik", "destek", "yön"],
-        "fr": ["guidance", "soutien", "direction"],
-        "pt": ["orientação", "apoio", "direção"],
-        "nl": ["begeleiding", "steun", "richting"],
-        "es": ["guía", "apoyo", "dirección"],
-        "de": ["führung", "unterstützung", "richtung"],
-        "it": ["guida", "sostegno", "direzione"],
-        "ru": ["руководство", "поддержка", "направление"],
-        "id": ["bimbingan", "dukungan", "arah"],
-        "ja": ["指導", "サポート", "方向"],
-        "th": ["การนำทาง", "การสนับสนุน", "ทิศทาง"],
-        "ms": ["panduan", "sokongan", "arah"]
+        "en": [
+          "guidance",
+          "support",
+          "direction"
+        ],
+        "tr": [
+          "rehberlik",
+          "destek",
+          "yön"
+        ],
+        "fr": [
+          "guidance",
+          "soutien",
+          "direction"
+        ],
+        "pt": [
+          "orientação",
+          "apoio",
+          "direção"
+        ],
+        "nl": [
+          "begeleiding",
+          "steun",
+          "richting"
+        ],
+        "es": [
+          "guía",
+          "apoyo",
+          "dirección"
+        ],
+        "de": [
+          "führung",
+          "unterstützung",
+          "richtung"
+        ],
+        "it": [
+          "guida",
+          "sostegno",
+          "direzione"
+        ],
+        "ru": [
+          "руководство",
+          "поддержка",
+          "направление"
+        ],
+        "id": [
+          "bimbingan",
+          "dukungan",
+          "arah"
+        ],
+        "ja": [
+          "指導",
+          "サポート",
+          "方向"
+        ],
+        "th": [
+          "การนำทาง",
+          "การสนับสนุน",
+          "ทิศทาง"
+        ],
+        "ms": [
+          "panduan",
+          "sokongan",
+          "arah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1438,19 +2062,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["heritage", "growth", "connection"],
-        "tr": ["miras", "büyüme", "bağlantı"],
-        "fr": ["héritage", "croissance", "connexion"],
-        "pt": ["herança", "crescimento", "conexão"],
-        "nl": ["erfenis", "groei", "verbinding"],
-        "es": ["herencia", "crecimiento", "conexión"],
-        "de": ["erbe", "wachstum", "verbindung"],
-        "it": ["eredità", "crescita", "connessione"],
-        "ru": ["наследие", "рост", "связь"],
-        "id": ["warisan", "pertumbuhan", "hubungan"],
-        "ja": ["遺産", "成長", "つながり"],
-        "th": ["มรดก", "การเติบโต", "การเชื่อมต่อ"],
-        "ms": ["warisan", "pertumbuhan", "hubungan"]
+        "en": [
+          "heritage",
+          "growth",
+          "connection"
+        ],
+        "tr": [
+          "miras",
+          "büyüme",
+          "bağlantı"
+        ],
+        "fr": [
+          "héritage",
+          "croissance",
+          "connexion"
+        ],
+        "pt": [
+          "herança",
+          "crescimento",
+          "conexão"
+        ],
+        "nl": [
+          "erfenis",
+          "groei",
+          "verbinding"
+        ],
+        "es": [
+          "herencia",
+          "crecimiento",
+          "conexión"
+        ],
+        "de": [
+          "erbe",
+          "wachstum",
+          "verbindung"
+        ],
+        "it": [
+          "eredità",
+          "crescita",
+          "connessione"
+        ],
+        "ru": [
+          "наследие",
+          "рост",
+          "связь"
+        ],
+        "id": [
+          "warisan",
+          "pertumbuhan",
+          "hubungan"
+        ],
+        "ja": [
+          "遺産",
+          "成長",
+          "つながり"
+        ],
+        "th": [
+          "มรดก",
+          "การเติบโต",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "warisan",
+          "pertumbuhan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1555,19 +2231,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["tradition", "dreams", "connection"],
-        "tr": ["gelenek", "hayaller", "bağlantı"],
-        "fr": ["tradition", "rêves", "connexion"],
-        "pt": ["tradição", "sonhos", "conexão"],
-        "nl": ["traditie", "dromen", "verbinding"],
-        "es": ["tradición", "sueños", "conexión"],
-        "de": ["tradition", "träume", "verbindung"],
-        "it": ["tradizione", "sogni", "connessione"],
-        "ru": ["традиция", "мечты", "связь"],
-        "id": ["tradisi", "impian", "hubungan"],
-        "ja": ["伝統", "夢", "つながり"],
-        "th": ["ประเพณี", "ความฝัน", "การเชื่อมต่อ"],
-        "ms": ["tradisi", "impian", "hubungan"]
+        "en": [
+          "tradition",
+          "dreams",
+          "connection"
+        ],
+        "tr": [
+          "gelenek",
+          "hayaller",
+          "bağlantı"
+        ],
+        "fr": [
+          "tradition",
+          "rêves",
+          "connexion"
+        ],
+        "pt": [
+          "tradição",
+          "sonhos",
+          "conexão"
+        ],
+        "nl": [
+          "traditie",
+          "dromen",
+          "verbinding"
+        ],
+        "es": [
+          "tradición",
+          "sueños",
+          "conexión"
+        ],
+        "de": [
+          "tradition",
+          "träume",
+          "verbindung"
+        ],
+        "it": [
+          "tradizione",
+          "sogni",
+          "connessione"
+        ],
+        "ru": [
+          "традиция",
+          "мечты",
+          "связь"
+        ],
+        "id": [
+          "tradisi",
+          "impian",
+          "hubungan"
+        ],
+        "ja": [
+          "伝統",
+          "夢",
+          "つながり"
+        ],
+        "th": [
+          "ประเพณี",
+          "ความฝัน",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "tradisi",
+          "impian",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1638,7 +2366,7 @@
         }
       }
     },
-     {
+    {
       "id": "family_015",
       "category": "family",
       "texts": {
@@ -1672,19 +2400,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["joy", "memories", "togetherness"],
-        "tr": ["neşe", "anılar", "birliktelik"],
-        "fr": ["joie", "souvenirs", "unité"],
-        "pt": ["alegria", "memórias", "união"],
-        "nl": ["vreugde", "herinneringen", "samenhorigheid"],
-        "es": ["alegría", "recuerdos", "unidad"],
-        "de": ["freude", "erinnerungen", "zusammenhalt"],
-        "it": ["gioia", "ricordi", "unione"],
-        "ru": ["радость", "воспоминания", "сплоченность"],
-        "id": ["kegembiraan", "kenangan", "kebersamaan"],
-        "ja": ["喜び", "思い出", "団結"],
-        "th": ["ความสุข", "ความทรงจำ", "ความเป็นหนึ่ง"],
-        "ms": ["kegembiraan", "kenangan", "kebersamaan"]
+        "en": [
+          "joy",
+          "memories",
+          "togetherness"
+        ],
+        "tr": [
+          "neşe",
+          "anılar",
+          "birliktelik"
+        ],
+        "fr": [
+          "joie",
+          "souvenirs",
+          "unité"
+        ],
+        "pt": [
+          "alegria",
+          "memórias",
+          "união"
+        ],
+        "nl": [
+          "vreugde",
+          "herinneringen",
+          "samenhorigheid"
+        ],
+        "es": [
+          "alegría",
+          "recuerdos",
+          "unidad"
+        ],
+        "de": [
+          "freude",
+          "erinnerungen",
+          "zusammenhalt"
+        ],
+        "it": [
+          "gioia",
+          "ricordi",
+          "unione"
+        ],
+        "ru": [
+          "радость",
+          "воспоминания",
+          "сплоченность"
+        ],
+        "id": [
+          "kegembiraan",
+          "kenangan",
+          "kebersamaan"
+        ],
+        "ja": [
+          "喜び",
+          "思い出",
+          "団結"
+        ],
+        "th": [
+          "ความสุข",
+          "ความทรงจำ",
+          "ความเป็นหนึ่ง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "kenangan",
+          "kebersamaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1789,19 +2569,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "warmth", "eternity"],
-        "tr": ["sevgi", "sıcaklık", "sonsuzluk"],
-        "fr": ["amour", "chaleur", "éternité"],
-        "pt": ["amor", "calor", "eternidade"],
-        "nl": ["liefde", "warmte", "eeuwigheid"],
-        "es": ["amor", "calor", "eternidad"],
-        "de": ["liebe", "wärme", "ewigkeit"],
-        "it": ["amore", "calore", "eternità"],
-        "ru": ["любовь", "тепло", "вечность"],
-        "id": ["cinta", "kehangatan", "keabadian"],
-        "ja": ["愛", "温もり", "永遠"],
-        "th": ["ความรัก", "ความอบอุ่น", "นิรันดร์"],
-        "ms": ["cinta", "kehangatan", "kekekalan"]
+        "en": [
+          "love",
+          "warmth",
+          "eternity"
+        ],
+        "tr": [
+          "sevgi",
+          "sıcaklık",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "amour",
+          "chaleur",
+          "éternité"
+        ],
+        "pt": [
+          "amor",
+          "calor",
+          "eternidade"
+        ],
+        "nl": [
+          "liefde",
+          "warmte",
+          "eeuwigheid"
+        ],
+        "es": [
+          "amor",
+          "calor",
+          "eternidad"
+        ],
+        "de": [
+          "liebe",
+          "wärme",
+          "ewigkeit"
+        ],
+        "it": [
+          "amore",
+          "calore",
+          "eternità"
+        ],
+        "ru": [
+          "любовь",
+          "тепло",
+          "вечность"
+        ],
+        "id": [
+          "cinta",
+          "kehangatan",
+          "keabadian"
+        ],
+        "ja": [
+          "愛",
+          "温もり",
+          "永遠"
+        ],
+        "th": [
+          "ความรัก",
+          "ความอบอุ่น",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "cinta",
+          "kehangatan",
+          "kekekalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1906,19 +2738,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["kindness", "bonds", "growth"],
-        "tr": ["nezaket", "bağlar", "büyüme"],
-        "fr": ["gentillesse", "liens", "croissance"],
-        "pt": ["bondade", "laços", "crescimento"],
-        "nl": ["vriendelijkheid", "banden", "groei"],
-        "es": ["bondad", "lazos", "crecimiento"],
-        "de": ["freundlichkeit", "bindungen", "wachstum"],
-        "it": ["gentilezza", "legami", "crescita"],
-        "ru": ["доброта", "узы", "рост"],
-        "id": ["kebaikan", "ikatan", "pertumbuhan"],
-        "ja": ["優しさ", "絆", "成長"],
-        "th": ["ความเมตตา", "สายสัมพันธ์", "การเติบโต"],
-        "ms": ["kebaikan", "ikatan", "pertumbuhan"]
+        "en": [
+          "kindness",
+          "bonds",
+          "growth"
+        ],
+        "tr": [
+          "nezaket",
+          "bağlar",
+          "büyüme"
+        ],
+        "fr": [
+          "gentillesse",
+          "liens",
+          "croissance"
+        ],
+        "pt": [
+          "bondade",
+          "laços",
+          "crescimento"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "banden",
+          "groei"
+        ],
+        "es": [
+          "bondad",
+          "lazos",
+          "crecimiento"
+        ],
+        "de": [
+          "freundlichkeit",
+          "bindungen",
+          "wachstum"
+        ],
+        "it": [
+          "gentilezza",
+          "legami",
+          "crescita"
+        ],
+        "ru": [
+          "доброта",
+          "узы",
+          "рост"
+        ],
+        "id": [
+          "kebaikan",
+          "ikatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "優しさ",
+          "絆",
+          "成長"
+        ],
+        "th": [
+          "ความเมตตา",
+          "สายสัมพันธ์",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kebaikan",
+          "ikatan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2023,19 +2907,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stability", "support", "strength"],
-        "tr": ["istikrar", "destek", "güç"],
-        "fr": ["stabilité", "soutien", "force"],
-        "pt": ["estabilidade", "apoio", "força"],
-        "nl": ["stabiliteit", "steun", "kracht"],
-        "es": ["estabilidad", "apoyo", "fuerza"],
-        "de": ["stabilität", "unterstützung", "stärke"],
-        "it": ["stabilità", "sostegno", "forza"],
-        "ru": ["стабильность", "поддержка", "сила"],
-        "id": ["stabilitas", "dukungan", "kekuatan"],
-        "ja": ["安定", "サポート", "強さ"],
-        "th": ["ความมั่นคง", "การสนับสนุน", "ความแข็งแกร่ง"],
-        "ms": ["kestabilan", "sokongan", "kekuatan"]
+        "en": [
+          "stability",
+          "support",
+          "strength"
+        ],
+        "tr": [
+          "istikrar",
+          "destek",
+          "güç"
+        ],
+        "fr": [
+          "stabilité",
+          "soutien",
+          "force"
+        ],
+        "pt": [
+          "estabilidade",
+          "apoio",
+          "força"
+        ],
+        "nl": [
+          "stabiliteit",
+          "steun",
+          "kracht"
+        ],
+        "es": [
+          "estabilidad",
+          "apoyo",
+          "fuerza"
+        ],
+        "de": [
+          "stabilität",
+          "unterstützung",
+          "stärke"
+        ],
+        "it": [
+          "stabilità",
+          "sostegno",
+          "forza"
+        ],
+        "ru": [
+          "стабильность",
+          "поддержка",
+          "сила"
+        ],
+        "id": [
+          "stabilitas",
+          "dukungan",
+          "kekuatan"
+        ],
+        "ja": [
+          "安定",
+          "サポート",
+          "強さ"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "การสนับสนุน",
+          "ความแข็งแกร่ง"
+        ],
+        "ms": [
+          "kestabilan",
+          "sokongan",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2140,19 +3076,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "safety", "hope"],
-        "tr": ["rehberlik", "güvenlik", "umut"],
-        "fr": ["guidance", "sécurité", "espoir"],
-        "pt": ["orientação", "segurança", "esperança"],
-        "nl": ["begeleiding", "veiligheid", "hoop"],
-        "es": ["guía", "seguridad", "esperanza"],
-        "de": ["führung", "sicherheit", "hoffnung"],
-        "it": ["guida", "sicurezza", "speranza"],
-        "ru": ["руководство", "безопасность", "надежда"],
-        "id": ["bimbingan", "keamanan", "harapan"],
-        "ja": ["指導", "安全", "希望"],
-        "th": ["การนำทาง", "ความปลอดภัย", "ความหวัง"],
-        "ms": ["panduan", "keselamatan", "harapan"]
+        "en": [
+          "guidance",
+          "safety",
+          "hope"
+        ],
+        "tr": [
+          "rehberlik",
+          "güvenlik",
+          "umut"
+        ],
+        "fr": [
+          "guidance",
+          "sécurité",
+          "espoir"
+        ],
+        "pt": [
+          "orientação",
+          "segurança",
+          "esperança"
+        ],
+        "nl": [
+          "begeleiding",
+          "veiligheid",
+          "hoop"
+        ],
+        "es": [
+          "guía",
+          "seguridad",
+          "esperanza"
+        ],
+        "de": [
+          "führung",
+          "sicherheit",
+          "hoffnung"
+        ],
+        "it": [
+          "guida",
+          "sicurezza",
+          "speranza"
+        ],
+        "ru": [
+          "руководство",
+          "безопасность",
+          "надежда"
+        ],
+        "id": [
+          "bimbingan",
+          "keamanan",
+          "harapan"
+        ],
+        "ja": [
+          "指導",
+          "安全",
+          "希望"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความปลอดภัย",
+          "ความหวัง"
+        ],
+        "ms": [
+          "panduan",
+          "keselamatan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2223,7 +3211,7 @@
         }
       }
     },
-        {
+    {
       "id": "family_020",
       "category": "family",
       "texts": {
@@ -2257,19 +3245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "sacrifice", "unity"],
-        "tr": ["hayaller", "fedakârlık", "birlik"],
-        "fr": ["rêves", "sacrifice", "unité"],
-        "pt": ["sonhos", "sacrifício", "união"],
-        "nl": ["dromen", "opoffering", "eenheid"],
-        "es": ["sueños", "sacrificio", "unidad"],
-        "de": ["träume", "opfer", "einheit"],
-        "it": ["sogni", "sacrificio", "unità"],
-        "ru": ["мечты", "жертва", "единство"],
-        "id": ["mimpi", "pengorbanan", "persatuan"],
-        "ja": ["夢", "犠牲", "団結"],
-        "th": ["ความฝัน", "การเสียสละ", "ความเป็นหนึ่ง"],
-        "ms": ["impian", "pengorbanan", "perpaduan"]
+        "en": [
+          "dreams",
+          "sacrifice",
+          "unity"
+        ],
+        "tr": [
+          "hayaller",
+          "fedakârlık",
+          "birlik"
+        ],
+        "fr": [
+          "rêves",
+          "sacrifice",
+          "unité"
+        ],
+        "pt": [
+          "sonhos",
+          "sacrifício",
+          "união"
+        ],
+        "nl": [
+          "dromen",
+          "opoffering",
+          "eenheid"
+        ],
+        "es": [
+          "sueños",
+          "sacrificio",
+          "unidad"
+        ],
+        "de": [
+          "träume",
+          "opfer",
+          "einheit"
+        ],
+        "it": [
+          "sogni",
+          "sacrificio",
+          "unità"
+        ],
+        "ru": [
+          "мечты",
+          "жертва",
+          "единство"
+        ],
+        "id": [
+          "mimpi",
+          "pengorbanan",
+          "persatuan"
+        ],
+        "ja": [
+          "夢",
+          "犠牲",
+          "団結"
+        ],
+        "th": [
+          "ความฝัน",
+          "การเสียสละ",
+          "ความเป็นหนึ่ง"
+        ],
+        "ms": [
+          "impian",
+          "pengorbanan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2374,19 +3414,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["legacy", "connection", "continuity"],
-        "tr": ["miras", "bağlantı", "süreklilik"],
-        "fr": ["héritage", "connexion", "continuité"],
-        "pt": ["legado", "conexão", "continuidade"],
-        "nl": ["erfenis", "verbinding", "continuïteit"],
-        "es": ["legado", "conexión", "continuidad"],
-        "de": ["erbe", "verbindung", "kontinuität"],
-        "it": ["eredità", "connessione", "continuità"],
-        "ru": ["наследие", "связь", "непрерывность"],
-        "id": ["warisan", "hubungan", "kelangsungan"],
-        "ja": ["遺産", "つながり", "継続性"],
-        "th": ["มรดก", "การเชื่อมโยง", "ความต่อเนื่อง"],
-        "ms": ["warisan", "hubungan", "kesinambungan"]
+        "en": [
+          "legacy",
+          "connection",
+          "continuity"
+        ],
+        "tr": [
+          "miras",
+          "bağlantı",
+          "süreklilik"
+        ],
+        "fr": [
+          "héritage",
+          "connexion",
+          "continuité"
+        ],
+        "pt": [
+          "legado",
+          "conexão",
+          "continuidade"
+        ],
+        "nl": [
+          "erfenis",
+          "verbinding",
+          "continuïteit"
+        ],
+        "es": [
+          "legado",
+          "conexión",
+          "continuidad"
+        ],
+        "de": [
+          "erbe",
+          "verbindung",
+          "kontinuität"
+        ],
+        "it": [
+          "eredità",
+          "connessione",
+          "continuità"
+        ],
+        "ru": [
+          "наследие",
+          "связь",
+          "непрерывность"
+        ],
+        "id": [
+          "warisan",
+          "hubungan",
+          "kelangsungan"
+        ],
+        "ja": [
+          "遺産",
+          "つながり",
+          "継続性"
+        ],
+        "th": [
+          "มรดก",
+          "การเชื่อมโยง",
+          "ความต่อเนื่อง"
+        ],
+        "ms": [
+          "warisan",
+          "hubungan",
+          "kesinambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2491,19 +3583,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "love", "resilience"],
-        "tr": ["rehberlik", "sevgi", "dayanıklılık"],
-        "fr": ["guidance", "amour", "résilience"],
-        "pt": ["orientação", "amor", "resiliência"],
-        "nl": ["begeleiding", "liefde", "veerkracht"],
-        "es": ["guía", "amor", "resiliencia"],
-        "de": ["führung", "liebe", "widerstandsfähigkeit"],
-        "it": ["guida", "amore", "resilienza"],
-        "ru": ["руководство", "любовь", "устойчивость"],
-        "id": ["bimbingan", "cinta", "ketahanan"],
-        "ja": ["指導", "愛", "回復力"],
-        "th": ["การนำทาง", "ความรัก", "ความยืดหยุ่น"],
-        "ms": ["panduan", "cinta", "ketabahan"]
+        "en": [
+          "guidance",
+          "love",
+          "resilience"
+        ],
+        "tr": [
+          "rehberlik",
+          "sevgi",
+          "dayanıklılık"
+        ],
+        "fr": [
+          "guidance",
+          "amour",
+          "résilience"
+        ],
+        "pt": [
+          "orientação",
+          "amor",
+          "resiliência"
+        ],
+        "nl": [
+          "begeleiding",
+          "liefde",
+          "veerkracht"
+        ],
+        "es": [
+          "guía",
+          "amor",
+          "resiliencia"
+        ],
+        "de": [
+          "führung",
+          "liebe",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "guida",
+          "amore",
+          "resilienza"
+        ],
+        "ru": [
+          "руководство",
+          "любовь",
+          "устойчивость"
+        ],
+        "id": [
+          "bimbingan",
+          "cinta",
+          "ketahanan"
+        ],
+        "ja": [
+          "指導",
+          "愛",
+          "回復力"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความรัก",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "panduan",
+          "cinta",
+          "ketabahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2608,19 +3752,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stories", "heritage", "flow"],
-        "tr": ["hikayeler", "miras", "akış"],
-        "fr": ["histoires", "héritage", "flux"],
-        "pt": ["histórias", "herança", "fluxo"],
-        "nl": ["verhalen", "erfgoed", "stroom"],
-        "es": ["historias", "herencia", "flujo"],
-        "de": ["geschichten", "erbe", "fluss"],
-        "it": ["storie", "eredità", "flusso"],
-        "ru": ["истории", "наследие", "поток"],
-        "id": ["cerita", "warisan", "aliran"],
-        "ja": ["物語", "遺産", "流れ"],
-        "th": ["เรื่องราว", "มรดก", "การไหล"],
-        "ms": ["cerita", "warisan", "aliran"]
+        "en": [
+          "stories",
+          "heritage",
+          "flow"
+        ],
+        "tr": [
+          "hikayeler",
+          "miras",
+          "akış"
+        ],
+        "fr": [
+          "histoires",
+          "héritage",
+          "flux"
+        ],
+        "pt": [
+          "histórias",
+          "herança",
+          "fluxo"
+        ],
+        "nl": [
+          "verhalen",
+          "erfgoed",
+          "stroom"
+        ],
+        "es": [
+          "historias",
+          "herencia",
+          "flujo"
+        ],
+        "de": [
+          "geschichten",
+          "erbe",
+          "fluss"
+        ],
+        "it": [
+          "storie",
+          "eredità",
+          "flusso"
+        ],
+        "ru": [
+          "истории",
+          "наследие",
+          "поток"
+        ],
+        "id": [
+          "cerita",
+          "warisan",
+          "aliran"
+        ],
+        "ja": [
+          "物語",
+          "遺産",
+          "流れ"
+        ],
+        "th": [
+          "เรื่องราว",
+          "มรดก",
+          "การไหล"
+        ],
+        "ms": [
+          "cerita",
+          "warisan",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2725,19 +3921,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["peace", "sanctuary", "comfort"],
-        "tr": ["huzur", "sığınak", "rahatlık"],
-        "fr": ["paix", "sanctuaire", "réconfort"],
-        "pt": ["paz", "santuário", "conforto"],
-        "nl": ["vrede", "heiligdom", "troost"],
-        "es": ["paz", "santuario", "consuelo"],
-        "de": ["frieden", "heiligtum", "trost"],
-        "it": ["pace", "santuario", "conforto"],
-        "ru": ["покой", "святилище", "утешение"],
-        "id": ["kedamaian", "tempat suci", "kenyamanan"],
-        "ja": ["平和", "聖域", "慰め"],
-        "th": ["ความสงบ", "สถานที่ศักดิ์สิทธิ์", "ความสะดวกสบาย"],
-        "ms": ["kedamaian", "tempat suci", "keselesaan"]
+        "en": [
+          "peace",
+          "sanctuary",
+          "comfort"
+        ],
+        "tr": [
+          "huzur",
+          "sığınak",
+          "rahatlık"
+        ],
+        "fr": [
+          "paix",
+          "sanctuaire",
+          "réconfort"
+        ],
+        "pt": [
+          "paz",
+          "santuário",
+          "conforto"
+        ],
+        "nl": [
+          "vrede",
+          "heiligdom",
+          "troost"
+        ],
+        "es": [
+          "paz",
+          "santuario",
+          "consuelo"
+        ],
+        "de": [
+          "frieden",
+          "heiligtum",
+          "trost"
+        ],
+        "it": [
+          "pace",
+          "santuario",
+          "conforto"
+        ],
+        "ru": [
+          "покой",
+          "святилище",
+          "утешение"
+        ],
+        "id": [
+          "kedamaian",
+          "tempat suci",
+          "kenyamanan"
+        ],
+        "ja": [
+          "平和",
+          "聖域",
+          "慰め"
+        ],
+        "th": [
+          "ความสงบ",
+          "สถานที่ศักดิ์สิทธิ์",
+          "ความสะดวกสบาย"
+        ],
+        "ms": [
+          "kedamaian",
+          "tempat suci",
+          "keselesaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2834,15 +4082,51 @@
         "ru": "Гейл Люмет Бакли"
       },
       "tags": {
-        "en": ["heritage", "reflection", "generations"],
-        "tr": ["miras", "yansıma", "nesiller"],
-        "fr": ["héritage", "réflexion", "générations"],
-        "pt": ["herança", "reflexão", "gerações"],
-        "nl": ["erfgoed", "reflectie", "generaties"],
-        "es": ["herencia", "reflexión", "generaciones"],
-        "de": ["erbe", "reflexion", "generationen"],
-        "it": ["eredità", "riflessione", "generazioni"],
-        "ru": ["наследие", "отражение", "поколения"]
+        "en": [
+          "heritage",
+          "reflection",
+          "generations"
+        ],
+        "tr": [
+          "miras",
+          "yansıma",
+          "nesiller"
+        ],
+        "fr": [
+          "héritage",
+          "réflexion",
+          "générations"
+        ],
+        "pt": [
+          "herança",
+          "reflexão",
+          "gerações"
+        ],
+        "nl": [
+          "erfgoed",
+          "reflectie",
+          "generaties"
+        ],
+        "es": [
+          "herencia",
+          "reflexión",
+          "generaciones"
+        ],
+        "de": [
+          "erbe",
+          "reflexion",
+          "generationen"
+        ],
+        "it": [
+          "eredità",
+          "riflessione",
+          "generazioni"
+        ],
+        "ru": [
+          "наследие",
+          "отражение",
+          "поколения"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2919,15 +4203,51 @@
         "ru": "Исабель Альенде"
       },
       "tags": {
-        "en": ["traditions", "heritage", "continuity"],
-        "tr": ["gelenekler", "miras", "süreklilik"],
-        "fr": ["traditions", "héritage", "continuité"],
-        "pt": ["tradições", "herança", "continuidade"],
-        "nl": ["tradities", "erfgoed", "continuïteit"],
-        "es": ["tradiciones", "herencia", "continuidad"],
-        "de": ["traditionen", "erbe", "kontinuität"],
-        "it": ["tradizioni", "eredità", "continuità"],
-        "ru": ["традиции", "наследие", "преемственность"]
+        "en": [
+          "traditions",
+          "heritage",
+          "continuity"
+        ],
+        "tr": [
+          "gelenekler",
+          "miras",
+          "süreklilik"
+        ],
+        "fr": [
+          "traditions",
+          "héritage",
+          "continuité"
+        ],
+        "pt": [
+          "tradições",
+          "herança",
+          "continuidade"
+        ],
+        "nl": [
+          "tradities",
+          "erfgoed",
+          "continuïteit"
+        ],
+        "es": [
+          "tradiciones",
+          "herencia",
+          "continuidad"
+        ],
+        "de": [
+          "traditionen",
+          "erbe",
+          "kontinuität"
+        ],
+        "it": [
+          "tradizioni",
+          "eredità",
+          "continuità"
+        ],
+        "ru": [
+          "традиции",
+          "наследие",
+          "преемственность"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3012,19 +4332,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "memory", "love"],
-        "tr": ["uyum", "anı", "sevgi"],
-        "fr": ["harmonie", "mémoire", "amour"],
-        "pt": ["harmonia", "memória", "amor"],
-        "nl": ["harmonie", "herinnering", "liefde"],
-        "es": ["armonía", "memoria", "amor"],
-        "de": ["harmonie", "erinnerung", "liebe"],
-        "it": ["armonia", "memoria", "amore"],
-        "ru": ["гармония", "память", "любовь"],
-        "id": ["harmoni", "kenangan", "cinta"],
-        "ja": ["調和", "記憶", "愛"],
-        "th": ["ความกลมกลืน", "ความทรงจำ", "ความรัก"],
-        "ms": ["harmoni", "kenangan", "cinta"]
+        "en": [
+          "harmony",
+          "memory",
+          "love"
+        ],
+        "tr": [
+          "uyum",
+          "anı",
+          "sevgi"
+        ],
+        "fr": [
+          "harmonie",
+          "mémoire",
+          "amour"
+        ],
+        "pt": [
+          "harmonia",
+          "memória",
+          "amor"
+        ],
+        "nl": [
+          "harmonie",
+          "herinnering",
+          "liefde"
+        ],
+        "es": [
+          "armonía",
+          "memoria",
+          "amor"
+        ],
+        "de": [
+          "harmonie",
+          "erinnerung",
+          "liebe"
+        ],
+        "it": [
+          "armonia",
+          "memoria",
+          "amore"
+        ],
+        "ru": [
+          "гармония",
+          "память",
+          "любовь"
+        ],
+        "id": [
+          "harmoni",
+          "kenangan",
+          "cinta"
+        ],
+        "ja": [
+          "調和",
+          "記憶",
+          "愛"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "ความทรงจำ",
+          "ความรัก"
+        ],
+        "ms": [
+          "harmoni",
+          "kenangan",
+          "cinta"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3129,19 +4501,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["warmth", "love", "home"],
-        "tr": ["sıcaklık", "sevgi", "ev"],
-        "fr": ["chaleur", "amour", "foyer"],
-        "pt": ["calor", "amor", "lar"],
-        "nl": ["warmte", "liefde", "thuis"],
-        "es": ["calor", "amor", "hogar"],
-        "de": ["wärme", "liebe", "heim"],
-        "it": ["calore", "amore", "casa"],
-        "ru": ["тепло", "любовь", "дом"],
-        "id": ["kehangatan", "cinta", "rumah"],
-        "ja": ["温もり", "愛", "家"],
-        "th": ["ความอบอุ่น", "ความรัก", "บ้าน"],
-        "ms": ["kehangatan", "cinta", "rumah"]
+        "en": [
+          "warmth",
+          "love",
+          "home"
+        ],
+        "tr": [
+          "sıcaklık",
+          "sevgi",
+          "ev"
+        ],
+        "fr": [
+          "chaleur",
+          "amour",
+          "foyer"
+        ],
+        "pt": [
+          "calor",
+          "amor",
+          "lar"
+        ],
+        "nl": [
+          "warmte",
+          "liefde",
+          "thuis"
+        ],
+        "es": [
+          "calor",
+          "amor",
+          "hogar"
+        ],
+        "de": [
+          "wärme",
+          "liebe",
+          "heim"
+        ],
+        "it": [
+          "calore",
+          "amore",
+          "casa"
+        ],
+        "ru": [
+          "тепло",
+          "любовь",
+          "дом"
+        ],
+        "id": [
+          "kehangatan",
+          "cinta",
+          "rumah"
+        ],
+        "ja": [
+          "温もり",
+          "愛",
+          "家"
+        ],
+        "th": [
+          "ความอบอุ่น",
+          "ความรัก",
+          "บ้าน"
+        ],
+        "ms": [
+          "kehangatan",
+          "cinta",
+          "rumah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3246,19 +4670,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "light", "connection"],
-        "tr": ["rehberlik", "ışık", "bağlantı"],
-        "fr": ["guidance", "lumière", "connexion"],
-        "pt": ["orientação", "luz", "conexão"],
-        "nl": ["begeleiding", "licht", "verbinding"],
-        "es": ["guía", "luz", "conexión"],
-        "de": ["führung", "licht", "verbindung"],
-        "it": ["guida", "luce", "connessione"],
-        "ru": ["руководство", "свет", "связь"],
-        "id": ["bimbingan", "cahaya", "hubungan"],
-        "ja": ["指導", "光", "つながり"],
-        "th": ["การนำทาง", "แสงสว่าง", "ความเชื่อมโยง"],
-        "ms": ["panduan", "cahaya", "hubungan"]
+        "en": [
+          "guidance",
+          "light",
+          "connection"
+        ],
+        "tr": [
+          "rehberlik",
+          "ışık",
+          "bağlantı"
+        ],
+        "fr": [
+          "guidance",
+          "lumière",
+          "connexion"
+        ],
+        "pt": [
+          "orientação",
+          "luz",
+          "conexão"
+        ],
+        "nl": [
+          "begeleiding",
+          "licht",
+          "verbinding"
+        ],
+        "es": [
+          "guía",
+          "luz",
+          "conexión"
+        ],
+        "de": [
+          "führung",
+          "licht",
+          "verbindung"
+        ],
+        "it": [
+          "guida",
+          "luce",
+          "connessione"
+        ],
+        "ru": [
+          "руководство",
+          "свет",
+          "связь"
+        ],
+        "id": [
+          "bimbingan",
+          "cahaya",
+          "hubungan"
+        ],
+        "ja": [
+          "指導",
+          "光",
+          "つながり"
+        ],
+        "th": [
+          "การนำทาง",
+          "แสงสว่าง",
+          "ความเชื่อมโยง"
+        ],
+        "ms": [
+          "panduan",
+          "cahaya",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3329,7 +4805,7 @@
         }
       }
     },
-     {
+    {
       "id": "family_030",
       "category": "family",
       "texts": {
@@ -3363,19 +4839,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["roots", "memories", "growth"],
-        "tr": ["kökler", "anılar", "büyüme"],
-        "fr": ["racines", "souvenirs", "croissance"],
-        "pt": ["raízes", "memórias", "crescimento"],
-        "nl": ["wortels", "herinneringen", "groei"],
-        "es": ["raíces", "recuerdos", "crecimiento"],
-        "de": ["wurzeln", "erinnerungen", "wachstum"],
-        "it": ["radici", "ricordi", "crescita"],
-        "ru": ["корни", "воспоминания", "рост"],
-        "id": ["akar", "kenangan", "pertumbuhan"],
-        "ja": ["根", "思い出", "成長"],
-        "th": ["ราก", "ความทรงจำ", "การเติบโต"],
-        "ms": ["akar", "kenangan", "pertumbuhan"]
+        "en": [
+          "roots",
+          "memories",
+          "growth"
+        ],
+        "tr": [
+          "kökler",
+          "anılar",
+          "büyüme"
+        ],
+        "fr": [
+          "racines",
+          "souvenirs",
+          "croissance"
+        ],
+        "pt": [
+          "raízes",
+          "memórias",
+          "crescimento"
+        ],
+        "nl": [
+          "wortels",
+          "herinneringen",
+          "groei"
+        ],
+        "es": [
+          "raíces",
+          "recuerdos",
+          "crecimiento"
+        ],
+        "de": [
+          "wurzeln",
+          "erinnerungen",
+          "wachstum"
+        ],
+        "it": [
+          "radici",
+          "ricordi",
+          "crescita"
+        ],
+        "ru": [
+          "корни",
+          "воспоминания",
+          "рост"
+        ],
+        "id": [
+          "akar",
+          "kenangan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "根",
+          "思い出",
+          "成長"
+        ],
+        "th": [
+          "ราก",
+          "ความทรงจำ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "akar",
+          "kenangan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3445,7 +4973,6 @@
           "readTime": 0
         }
       }
-
     },
     {
       "id": "family_031",
@@ -3481,19 +5008,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["light", "guidance", "hope"],
-        "tr": ["ışık", "rehberlik", "umut"],
-        "fr": ["lumière", "guidance", "espoir"],
-        "pt": ["luz", "orientação", "esperança"],
-        "nl": ["licht", "begeleiding", "hoop"],
-        "es": ["luz", "guía", "esperanza"],
-        "de": ["licht", "führung", "hoffnung"],
-        "it": ["luce", "guida", "speranza"],
-        "ru": ["свет", "руководство", "надежда"],
-        "id": ["cahaya", "bimbingan", "harapan"],
-        "ja": ["光", "指導", "希望"],
-        "th": ["แสงสว่าง", "การนำทาง", "ความหวัง"],
-        "ms": ["cahaya", "panduan", "harapan"]
+        "en": [
+          "light",
+          "guidance",
+          "hope"
+        ],
+        "tr": [
+          "ışık",
+          "rehberlik",
+          "umut"
+        ],
+        "fr": [
+          "lumière",
+          "guidance",
+          "espoir"
+        ],
+        "pt": [
+          "luz",
+          "orientação",
+          "esperança"
+        ],
+        "nl": [
+          "licht",
+          "begeleiding",
+          "hoop"
+        ],
+        "es": [
+          "luz",
+          "guía",
+          "esperanza"
+        ],
+        "de": [
+          "licht",
+          "führung",
+          "hoffnung"
+        ],
+        "it": [
+          "luce",
+          "guida",
+          "speranza"
+        ],
+        "ru": [
+          "свет",
+          "руководство",
+          "надежда"
+        ],
+        "id": [
+          "cahaya",
+          "bimbingan",
+          "harapan"
+        ],
+        "ja": [
+          "光",
+          "指導",
+          "希望"
+        ],
+        "th": [
+          "แสงสว่าง",
+          "การนำทาง",
+          "ความหวัง"
+        ],
+        "ms": [
+          "cahaya",
+          "panduan",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3598,19 +5177,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["shelter", "safety", "support"],
-        "tr": ["sığınak", "güvenlik", "destek"],
-        "fr": ["abri", "sécurité", "soutien"],
-        "pt": ["abrigo", "segurança", "apoio"],
-        "nl": ["schuilplaats", "veiligheid", "steun"],
-        "es": ["refugio", "seguridad", "apoyo"],
-        "de": ["schutz", "sicherheit", "unterstützung"],
-        "it": ["riparo", "sicurezza", "sostegno"],
-        "ru": ["убежище", "безопасность", "поддержка"],
-        "id": ["perlindungan", "keamanan", "dukungan"],
-        "ja": ["避難所", "安全", "支え"],
-        "th": ["ที่พักพิง", "ความปลอดภัย", "การสนับสนุน"],
-        "ms": ["perlindungan", "keselamatan", "sokongan"]
+        "en": [
+          "shelter",
+          "safety",
+          "support"
+        ],
+        "tr": [
+          "sığınak",
+          "güvenlik",
+          "destek"
+        ],
+        "fr": [
+          "abri",
+          "sécurité",
+          "soutien"
+        ],
+        "pt": [
+          "abrigo",
+          "segurança",
+          "apoio"
+        ],
+        "nl": [
+          "schuilplaats",
+          "veiligheid",
+          "steun"
+        ],
+        "es": [
+          "refugio",
+          "seguridad",
+          "apoyo"
+        ],
+        "de": [
+          "schutz",
+          "sicherheit",
+          "unterstützung"
+        ],
+        "it": [
+          "riparo",
+          "sicurezza",
+          "sostegno"
+        ],
+        "ru": [
+          "убежище",
+          "безопасность",
+          "поддержка"
+        ],
+        "id": [
+          "perlindungan",
+          "keamanan",
+          "dukungan"
+        ],
+        "ja": [
+          "避難所",
+          "安全",
+          "支え"
+        ],
+        "th": [
+          "ที่พักพิง",
+          "ความปลอดภัย",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "perlindungan",
+          "keselamatan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3715,19 +5346,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stories", "love", "creation"],
-        "tr": ["hikayeler", "sevgi", "yaratma"],
-        "fr": ["histoires", "amour", "création"],
-        "pt": ["histórias", "amor", "criação"],
-        "nl": ["verhalen", "liefde", "creatie"],
-        "es": ["historias", "amor", "creación"],
-        "de": ["geschichten", "liebe", "schöpfung"],
-        "it": ["storie", "amore", "creazione"],
-        "ru": ["истории", "любовь", "созидание"],
-        "id": ["cerita", "cinta", "penciptaan"],
-        "ja": ["物語", "愛", "創造"],
-        "th": ["เรื่องราว", "ความรัก", "การสร้าง"],
-        "ms": ["cerita", "cinta", "penciptaan"]
+        "en": [
+          "stories",
+          "love",
+          "creation"
+        ],
+        "tr": [
+          "hikayeler",
+          "sevgi",
+          "yaratma"
+        ],
+        "fr": [
+          "histoires",
+          "amour",
+          "création"
+        ],
+        "pt": [
+          "histórias",
+          "amor",
+          "criação"
+        ],
+        "nl": [
+          "verhalen",
+          "liefde",
+          "creatie"
+        ],
+        "es": [
+          "historias",
+          "amor",
+          "creación"
+        ],
+        "de": [
+          "geschichten",
+          "liebe",
+          "schöpfung"
+        ],
+        "it": [
+          "storie",
+          "amore",
+          "creazione"
+        ],
+        "ru": [
+          "истории",
+          "любовь",
+          "созидание"
+        ],
+        "id": [
+          "cerita",
+          "cinta",
+          "penciptaan"
+        ],
+        "ja": [
+          "物語",
+          "愛",
+          "創造"
+        ],
+        "th": [
+          "เรื่องราว",
+          "ความรัก",
+          "การสร้าง"
+        ],
+        "ms": [
+          "cerita",
+          "cinta",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3832,19 +5515,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["laughter", "joy", "memory"],
-        "tr": ["kahkaha", "neşe", "anı"],
-        "fr": ["rire", "joie", "souvenir"],
-        "pt": ["riso", "alegria", "memória"],
-        "nl": ["gelach", "vreugde", "herinnering"],
-        "es": ["risa", "alegría", "recuerdo"],
-        "de": ["lachen", "freude", "erinnerung"],
-        "it": ["risata", "gioia", "ricordo"],
-        "ru": ["смех", "радость", "воспоминание"],
-        "id": ["tawa", "kegembiraan", "kenangan"],
-        "ja": ["笑い", "喜び", "思い出"],
-        "th": ["เสียงหัวเราะ", "ความสุข", "ความทรงจำ"],
-        "ms": ["ketawa", "kegembiraan", "kenangan"]
+        "en": [
+          "laughter",
+          "joy",
+          "memory"
+        ],
+        "tr": [
+          "kahkaha",
+          "neşe",
+          "anı"
+        ],
+        "fr": [
+          "rire",
+          "joie",
+          "souvenir"
+        ],
+        "pt": [
+          "riso",
+          "alegria",
+          "memória"
+        ],
+        "nl": [
+          "gelach",
+          "vreugde",
+          "herinnering"
+        ],
+        "es": [
+          "risa",
+          "alegría",
+          "recuerdo"
+        ],
+        "de": [
+          "lachen",
+          "freude",
+          "erinnerung"
+        ],
+        "it": [
+          "risata",
+          "gioia",
+          "ricordo"
+        ],
+        "ru": [
+          "смех",
+          "радость",
+          "воспоминание"
+        ],
+        "id": [
+          "tawa",
+          "kegembiraan",
+          "kenangan"
+        ],
+        "ja": [
+          "笑い",
+          "喜び",
+          "思い出"
+        ],
+        "th": [
+          "เสียงหัวเราะ",
+          "ความสุข",
+          "ความทรงจำ"
+        ],
+        "ms": [
+          "ketawa",
+          "kegembiraan",
+          "kenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3949,19 +5684,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "legacy", "continuity"],
-        "tr": ["bağlantı", "miras", "devamlılık"],
-        "fr": ["connexion", "héritage", "continuité"],
-        "pt": ["conexão", "legado", "continuidade"],
-        "nl": ["verbinding", "erfenis", "continuïteit"],
-        "es": ["conexión", "legado", "continuidad"],
-        "de": ["verbindung", "erbe", "kontinuität"],
-        "it": ["connessione", "eredità", "continuità"],
-        "ru": ["связь", "наследие", "непрерывность"],
-        "id": ["hubungan", "warisan", "kelanjutan"],
-        "ja": ["つながり", "遺産", "継続"],
-        "th": ["ความเชื่อมโยง", "มรดก", "ความต่อเนื่อง"],
-        "ms": ["hubungan", "warisan", "kesinambungan"]
+        "en": [
+          "connection",
+          "legacy",
+          "continuity"
+        ],
+        "tr": [
+          "bağlantı",
+          "miras",
+          "devamlılık"
+        ],
+        "fr": [
+          "connexion",
+          "héritage",
+          "continuité"
+        ],
+        "pt": [
+          "conexão",
+          "legado",
+          "continuidade"
+        ],
+        "nl": [
+          "verbinding",
+          "erfenis",
+          "continuïteit"
+        ],
+        "es": [
+          "conexión",
+          "legado",
+          "continuidad"
+        ],
+        "de": [
+          "verbindung",
+          "erbe",
+          "kontinuität"
+        ],
+        "it": [
+          "connessione",
+          "eredità",
+          "continuità"
+        ],
+        "ru": [
+          "связь",
+          "наследие",
+          "непрерывность"
+        ],
+        "id": [
+          "hubungan",
+          "warisan",
+          "kelanjutan"
+        ],
+        "ja": [
+          "つながり",
+          "遺産",
+          "継続"
+        ],
+        "th": [
+          "ความเชื่อมโยง",
+          "มรดก",
+          "ความต่อเนื่อง"
+        ],
+        "ms": [
+          "hubungan",
+          "warisan",
+          "kesinambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4066,19 +5853,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["dreams", "unity", "creation"],
-        "tr": ["hayaller", "birlik", "yaratma"],
-        "fr": ["rêves", "unité", "création"],
-        "pt": ["sonhos", "unidade", "criação"],
-        "nl": ["dromen", "eenheid", "creatie"],
-        "es": ["sueños", "unidad", "creación"],
-        "de": ["träume", "einheit", "schöpfung"],
-        "it": ["sogni", "unità", "creazione"],
-        "ru": ["мечты", "единство", "созидание"],
-        "id": ["mimpi", "persatuan", "penciptaan"],
-        "ja": ["夢", "団結", "創造"],
-        "th": ["ความฝัน", "ความสามัคคี", "การสร้าง"],
-        "ms": ["impian", "perpaduan", "penciptaan"]
+        "en": [
+          "dreams",
+          "unity",
+          "creation"
+        ],
+        "tr": [
+          "hayaller",
+          "birlik",
+          "yaratma"
+        ],
+        "fr": [
+          "rêves",
+          "unité",
+          "création"
+        ],
+        "pt": [
+          "sonhos",
+          "unidade",
+          "criação"
+        ],
+        "nl": [
+          "dromen",
+          "eenheid",
+          "creatie"
+        ],
+        "es": [
+          "sueños",
+          "unidad",
+          "creación"
+        ],
+        "de": [
+          "träume",
+          "einheit",
+          "schöpfung"
+        ],
+        "it": [
+          "sogni",
+          "unità",
+          "creazione"
+        ],
+        "ru": [
+          "мечты",
+          "единство",
+          "созидание"
+        ],
+        "id": [
+          "mimpi",
+          "persatuan",
+          "penciptaan"
+        ],
+        "ja": [
+          "夢",
+          "団結",
+          "創造"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสามัคคี",
+          "การสร้าง"
+        ],
+        "ms": [
+          "impian",
+          "perpaduan",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4183,19 +6022,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "direction", "purpose"],
-        "tr": ["rehberlik", "yön", "amaç"],
-        "fr": ["guidance", "direction", "but"],
-        "pt": ["orientação", "direção", "propósito"],
-        "nl": ["begeleiding", "richting", "doel"],
-        "es": ["guía", "dirección", "propósito"],
-        "de": ["führung", "richtung", "zweck"],
-        "it": ["guida", "direzione", "scopo"],
-        "ru": ["руководство", "направление", "цель"],
-        "id": ["bimbingan", "arah", "tujuan"],
-        "ja": ["指導", "方向", "目的"],
-        "th": ["การนำทาง", "ทิศทาง", "จุดมุ่งหมาย"],
-        "ms": ["panduan", "arah", "tujuan"]
+        "en": [
+          "guidance",
+          "direction",
+          "purpose"
+        ],
+        "tr": [
+          "rehberlik",
+          "yön",
+          "amaç"
+        ],
+        "fr": [
+          "guidance",
+          "direction",
+          "but"
+        ],
+        "pt": [
+          "orientação",
+          "direção",
+          "propósito"
+        ],
+        "nl": [
+          "begeleiding",
+          "richting",
+          "doel"
+        ],
+        "es": [
+          "guía",
+          "dirección",
+          "propósito"
+        ],
+        "de": [
+          "führung",
+          "richtung",
+          "zweck"
+        ],
+        "it": [
+          "guida",
+          "direzione",
+          "scopo"
+        ],
+        "ru": [
+          "руководство",
+          "направление",
+          "цель"
+        ],
+        "id": [
+          "bimbingan",
+          "arah",
+          "tujuan"
+        ],
+        "ja": [
+          "指導",
+          "方向",
+          "目的"
+        ],
+        "th": [
+          "การนำทาง",
+          "ทิศทาง",
+          "จุดมุ่งหมาย"
+        ],
+        "ms": [
+          "panduan",
+          "arah",
+          "tujuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4300,19 +6191,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "flow", "eternity"],
-        "tr": ["sevgi", "akış", "sonsuzluk"],
-        "fr": ["amour", "flux", "éternité"],
-        "pt": ["amor", "fluxo", "eternidade"],
-        "nl": ["liefde", "stroom", "eeuwigheid"],
-        "es": ["amor", "flujo", "eternidad"],
-        "de": ["liebe", "fluss", "ewigkeit"],
-        "it": ["amore", "flusso", "eternità"],
-        "ru": ["любовь", "поток", "вечность"],
-        "id": ["cinta", "aliran", "keabadian"],
-        "ja": ["愛", "流れ", "永遠"],
-        "th": ["ความรัก", "การไหล", "นิรันดร์"],
-        "ms": ["cinta", "aliran", "kekekalan"]
+        "en": [
+          "love",
+          "flow",
+          "eternity"
+        ],
+        "tr": [
+          "sevgi",
+          "akış",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "amour",
+          "flux",
+          "éternité"
+        ],
+        "pt": [
+          "amor",
+          "fluxo",
+          "eternidade"
+        ],
+        "nl": [
+          "liefde",
+          "stroom",
+          "eeuwigheid"
+        ],
+        "es": [
+          "amor",
+          "flujo",
+          "eternidad"
+        ],
+        "de": [
+          "liebe",
+          "fluss",
+          "ewigkeit"
+        ],
+        "it": [
+          "amore",
+          "flusso",
+          "eternità"
+        ],
+        "ru": [
+          "любовь",
+          "поток",
+          "вечность"
+        ],
+        "id": [
+          "cinta",
+          "aliran",
+          "keabadian"
+        ],
+        "ja": [
+          "愛",
+          "流れ",
+          "永遠"
+        ],
+        "th": [
+          "ความรัก",
+          "การไหล",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "cinta",
+          "aliran",
+          "kekekalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4417,19 +6360,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stories", "love", "warmth"],
-        "tr": ["hikayeler", "sevgi", "sıcaklık"],
-        "fr": ["histoires", "amour", "chaleur"],
-        "pt": ["histórias", "amor", "calor"],
-        "nl": ["verhalen", "liefde", "warmte"],
-        "es": ["historias", "amor", "calor"],
-        "de": ["geschichten", "liebe", "wärme"],
-        "it": ["storie", "amore", "calore"],
-        "ru": ["истории", "любовь", "тепло"],
-        "id": ["cerita", "cinta", "kehangatan"],
-        "ja": ["物語", "愛", "温もり"],
-        "th": ["เรื่องราว", "ความรัก", "ความอบอุ่น"],
-        "ms": ["cerita", "cinta", "kehangatan"]
+        "en": [
+          "stories",
+          "love",
+          "warmth"
+        ],
+        "tr": [
+          "hikayeler",
+          "sevgi",
+          "sıcaklık"
+        ],
+        "fr": [
+          "histoires",
+          "amour",
+          "chaleur"
+        ],
+        "pt": [
+          "histórias",
+          "amor",
+          "calor"
+        ],
+        "nl": [
+          "verhalen",
+          "liefde",
+          "warmte"
+        ],
+        "es": [
+          "historias",
+          "amor",
+          "calor"
+        ],
+        "de": [
+          "geschichten",
+          "liebe",
+          "wärme"
+        ],
+        "it": [
+          "storie",
+          "amore",
+          "calore"
+        ],
+        "ru": [
+          "истории",
+          "любовь",
+          "тепло"
+        ],
+        "id": [
+          "cerita",
+          "cinta",
+          "kehangatan"
+        ],
+        "ja": [
+          "物語",
+          "愛",
+          "温もり"
+        ],
+        "th": [
+          "เรื่องราว",
+          "ความรัก",
+          "ความอบอุ่น"
+        ],
+        "ms": [
+          "cerita",
+          "cinta",
+          "kehangatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4500,7 +6495,7 @@
         }
       }
     },
-        {
+    {
       "id": "family_040",
       "category": "family",
       "texts": {
@@ -4534,19 +6529,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "growth", "harmony"],
-        "tr": ["sevgi", "büyüme", "uyum"],
-        "fr": ["amour", "croissance", "harmonie"],
-        "pt": ["amor", "crescimento", "harmonia"],
-        "nl": ["liefde", "groei", "harmonie"],
-        "es": ["amor", "crecimiento", "armonía"],
-        "de": ["liebe", "wachstum", "harmonie"],
-        "it": ["amore", "crescita", "armonia"],
-        "ru": ["любовь", "рост", "гармония"],
-        "id": ["cinta", "pertumbuhan", "harmoni"],
-        "ja": ["愛", "成長", "調和"],
-        "th": ["ความรัก", "การเติบโต", "ความกลมกลืน"],
-        "ms": ["cinta", "pertumbuhan", "keharmonian"]
+        "en": [
+          "love",
+          "growth",
+          "harmony"
+        ],
+        "tr": [
+          "sevgi",
+          "büyüme",
+          "uyum"
+        ],
+        "fr": [
+          "amour",
+          "croissance",
+          "harmonie"
+        ],
+        "pt": [
+          "amor",
+          "crescimento",
+          "harmonia"
+        ],
+        "nl": [
+          "liefde",
+          "groei",
+          "harmonie"
+        ],
+        "es": [
+          "amor",
+          "crecimiento",
+          "armonía"
+        ],
+        "de": [
+          "liebe",
+          "wachstum",
+          "harmonie"
+        ],
+        "it": [
+          "amore",
+          "crescita",
+          "armonia"
+        ],
+        "ru": [
+          "любовь",
+          "рост",
+          "гармония"
+        ],
+        "id": [
+          "cinta",
+          "pertumbuhan",
+          "harmoni"
+        ],
+        "ja": [
+          "愛",
+          "成長",
+          "調和"
+        ],
+        "th": [
+          "ความรัก",
+          "การเติบโต",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "cinta",
+          "pertumbuhan",
+          "keharmonian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4651,19 +6698,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stability", "support", "strength"],
-        "tr": ["istikrar", "destek", "güç"],
-        "fr": ["stabilité", "soutien", "force"],
-        "pt": ["estabilidade", "apoio", "força"],
-        "nl": ["stabiliteit", "steun", "kracht"],
-        "es": ["estabilidad", "apoyo", "fortaleza"],
-        "de": ["stabilität", "unterstützung", "stärke"],
-        "it": ["stabilità", "sostegno", "forza"],
-        "ru": ["стабильность", "поддержка", "сила"],
-        "id": ["stabilitas", "dukungan", "kekuatan"],
-        "ja": ["安定", "支援", "強さ"],
-        "th": ["ความมั่นคง", "การสนับสนุน", "ความแข็งแกร่ง"],
-        "ms": ["kestabilan", "sokongan", "kekuatan"]
+        "en": [
+          "stability",
+          "support",
+          "strength"
+        ],
+        "tr": [
+          "istikrar",
+          "destek",
+          "güç"
+        ],
+        "fr": [
+          "stabilité",
+          "soutien",
+          "force"
+        ],
+        "pt": [
+          "estabilidade",
+          "apoio",
+          "força"
+        ],
+        "nl": [
+          "stabiliteit",
+          "steun",
+          "kracht"
+        ],
+        "es": [
+          "estabilidad",
+          "apoyo",
+          "fortaleza"
+        ],
+        "de": [
+          "stabilität",
+          "unterstützung",
+          "stärke"
+        ],
+        "it": [
+          "stabilità",
+          "sostegno",
+          "forza"
+        ],
+        "ru": [
+          "стабильность",
+          "поддержка",
+          "сила"
+        ],
+        "id": [
+          "stabilitas",
+          "dukungan",
+          "kekuatan"
+        ],
+        "ja": [
+          "安定",
+          "支援",
+          "強さ"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "การสนับสนุน",
+          "ความแข็งแกร่ง"
+        ],
+        "ms": [
+          "kestabilan",
+          "sokongan",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4768,19 +6867,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["harmony", "emotion", "eternity"],
-        "tr": ["uyum", "duygu", "sonsuzluk"],
-        "fr": ["harmonie", "émotion", "éternité"],
-        "pt": ["harmonia", "emoção", "eternidade"],
-        "nl": ["harmonie", "emotie", "eeuwigheid"],
-        "es": ["armonía", "emoción", "eternidad"],
-        "de": ["harmonie", "emotion", "ewigkeit"],
-        "it": ["armonia", "emozione", "eternità"],
-        "ru": ["гармония", "эмоция", "вечность"],
-        "id": ["harmoni", "emosi", "keabadian"],
-        "ja": ["調和", "感情", "永遠"],
-        "th": ["ความกลมกลืน", "อารมณ์", "นิรันดร์"],
-        "ms": ["keharmonian", "emosi", "kekekalan"]
+        "en": [
+          "harmony",
+          "emotion",
+          "eternity"
+        ],
+        "tr": [
+          "uyum",
+          "duygu",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "harmonie",
+          "émotion",
+          "éternité"
+        ],
+        "pt": [
+          "harmonia",
+          "emoção",
+          "eternidade"
+        ],
+        "nl": [
+          "harmonie",
+          "emotie",
+          "eeuwigheid"
+        ],
+        "es": [
+          "armonía",
+          "emoción",
+          "eternidad"
+        ],
+        "de": [
+          "harmonie",
+          "emotion",
+          "ewigkeit"
+        ],
+        "it": [
+          "armonia",
+          "emozione",
+          "eternità"
+        ],
+        "ru": [
+          "гармония",
+          "эмоция",
+          "вечность"
+        ],
+        "id": [
+          "harmoni",
+          "emosi",
+          "keabadian"
+        ],
+        "ja": [
+          "調和",
+          "感情",
+          "永遠"
+        ],
+        "th": [
+          "ความกลมกลืน",
+          "อารมณ์",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "keharmonian",
+          "emosi",
+          "kekekalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4885,19 +7036,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "hope", "light"],
-        "tr": ["rehberlik", "umut", "ışık"],
-        "fr": ["guidance", "espoir", "lumière"],
-        "pt": ["orientação", "esperança", "luz"],
-        "nl": ["begeleiding", "hoop", "licht"],
-        "es": ["guía", "esperanza", "luz"],
-        "de": ["führung", "hoffnung", "licht"],
-        "it": ["guida", "speranza", "luce"],
-        "ru": ["руководство", "надежда", "свет"],
-        "id": ["bimbingan", "harapan", "cahaya"],
-        "ja": ["指導", "希望", "光"],
-        "th": ["การนำทาง", "ความหวัง", "แสงสว่าง"],
-        "ms": ["panduan", "harapan", "cahaya"]
+        "en": [
+          "guidance",
+          "hope",
+          "light"
+        ],
+        "tr": [
+          "rehberlik",
+          "umut",
+          "ışık"
+        ],
+        "fr": [
+          "guidance",
+          "espoir",
+          "lumière"
+        ],
+        "pt": [
+          "orientação",
+          "esperança",
+          "luz"
+        ],
+        "nl": [
+          "begeleiding",
+          "hoop",
+          "licht"
+        ],
+        "es": [
+          "guía",
+          "esperanza",
+          "luz"
+        ],
+        "de": [
+          "führung",
+          "hoffnung",
+          "licht"
+        ],
+        "it": [
+          "guida",
+          "speranza",
+          "luce"
+        ],
+        "ru": [
+          "руководство",
+          "надежда",
+          "свет"
+        ],
+        "id": [
+          "bimbingan",
+          "harapan",
+          "cahaya"
+        ],
+        "ja": [
+          "指導",
+          "希望",
+          "光"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความหวัง",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "panduan",
+          "harapan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5002,19 +7205,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["warmth", "memories", "comfort"],
-        "tr": ["sıcaklık", "anılar", "rahatlık"],
-        "fr": ["chaleur", "souvenirs", "confort"],
-        "pt": ["calor", "memórias", "conforto"],
-        "nl": ["warmte", "herinneringen", "troost"],
-        "es": ["calor", "recuerdos", "comodidad"],
-        "de": ["wärme", "erinnerungen", "geborgenheit"],
-        "it": ["calore", "ricordi", "comfort"],
-        "ru": ["тепло", "воспоминания", "уют"],
-        "id": ["kehangatan", "kenangan", "kenyamanan"],
-        "ja": ["温かさ", "思い出", "快適"],
-        "th": ["ความอบอุ่น", "ความทรงจำ", "ความสะดวกสบาย"],
-        "ms": ["kehangatan", "kenangan", "keselesaan"]
+        "en": [
+          "warmth",
+          "memories",
+          "comfort"
+        ],
+        "tr": [
+          "sıcaklık",
+          "anılar",
+          "rahatlık"
+        ],
+        "fr": [
+          "chaleur",
+          "souvenirs",
+          "confort"
+        ],
+        "pt": [
+          "calor",
+          "memórias",
+          "conforto"
+        ],
+        "nl": [
+          "warmte",
+          "herinneringen",
+          "troost"
+        ],
+        "es": [
+          "calor",
+          "recuerdos",
+          "comodidad"
+        ],
+        "de": [
+          "wärme",
+          "erinnerungen",
+          "geborgenheit"
+        ],
+        "it": [
+          "calore",
+          "ricordi",
+          "comfort"
+        ],
+        "ru": [
+          "тепло",
+          "воспоминания",
+          "уют"
+        ],
+        "id": [
+          "kehangatan",
+          "kenangan",
+          "kenyamanan"
+        ],
+        "ja": [
+          "温かさ",
+          "思い出",
+          "快適"
+        ],
+        "th": [
+          "ความอบอุ่น",
+          "ความทรงจำ",
+          "ความสะดวกสบาย"
+        ],
+        "ms": [
+          "kehangatan",
+          "kenangan",
+          "keselesaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5119,19 +7374,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "legacy", "continuity"],
-        "tr": ["bağlantı", "miras", "devamlılık"],
-        "fr": ["connexion", "héritage", "continuité"],
-        "pt": ["conexão", "legado", "continuidade"],
-        "nl": ["verbinding", "erfenis", "continuïteit"],
-        "es": ["conexión", "legado", "continuidad"],
-        "de": ["verbindung", "erbe", "kontinuität"],
-        "it": ["connessione", "eredità", "continuità"],
-        "ru": ["связь", "наследие", "непрерывность"],
-        "id": ["hubungan", "warisan", "kontinuitas"],
-        "ja": ["つながり", "遺産", "継続性"],
-        "th": ["การเชื่อมโยง", "มรดก", "ความต่อเนื่อง"],
-        "ms": ["hubungan", "warisan", "kesinambungan"]
+        "en": [
+          "connection",
+          "legacy",
+          "continuity"
+        ],
+        "tr": [
+          "bağlantı",
+          "miras",
+          "devamlılık"
+        ],
+        "fr": [
+          "connexion",
+          "héritage",
+          "continuité"
+        ],
+        "pt": [
+          "conexão",
+          "legado",
+          "continuidade"
+        ],
+        "nl": [
+          "verbinding",
+          "erfenis",
+          "continuïteit"
+        ],
+        "es": [
+          "conexión",
+          "legado",
+          "continuidad"
+        ],
+        "de": [
+          "verbindung",
+          "erbe",
+          "kontinuität"
+        ],
+        "it": [
+          "connessione",
+          "eredità",
+          "continuità"
+        ],
+        "ru": [
+          "связь",
+          "наследие",
+          "непрерывность"
+        ],
+        "id": [
+          "hubungan",
+          "warisan",
+          "kontinuitas"
+        ],
+        "ja": [
+          "つながり",
+          "遺産",
+          "継続性"
+        ],
+        "th": [
+          "การเชื่อมโยง",
+          "มรดก",
+          "ความต่อเนื่อง"
+        ],
+        "ms": [
+          "hubungan",
+          "warisan",
+          "kesinambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5236,19 +7543,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stories", "heritage", "unity"],
-        "tr": ["hikayeler", "miras", "birlik"],
-        "fr": ["histoires", "héritage", "unité"],
-        "pt": ["histórias", "herança", "unidade"],
-        "nl": ["verhalen", "erfgoed", "eenheid"],
-        "es": ["historias", "herencia", "unidad"],
-        "de": ["geschichten", "erbe", "einheit"],
-        "it": ["storie", "eredità", "unità"],
-        "ru": ["истории", "наследие", "единство"],
-        "id": ["cerita", "warisan", "persatuan"],
-        "ja": ["物語", "遺産", "団結"],
-        "th": ["เรื่องราว", "มรดก", "ความสามัคคี"],
-        "ms": ["cerita", "warisan", "perpaduan"]
+        "en": [
+          "stories",
+          "heritage",
+          "unity"
+        ],
+        "tr": [
+          "hikayeler",
+          "miras",
+          "birlik"
+        ],
+        "fr": [
+          "histoires",
+          "héritage",
+          "unité"
+        ],
+        "pt": [
+          "histórias",
+          "herança",
+          "unidade"
+        ],
+        "nl": [
+          "verhalen",
+          "erfgoed",
+          "eenheid"
+        ],
+        "es": [
+          "historias",
+          "herencia",
+          "unidad"
+        ],
+        "de": [
+          "geschichten",
+          "erbe",
+          "einheit"
+        ],
+        "it": [
+          "storie",
+          "eredità",
+          "unità"
+        ],
+        "ru": [
+          "истории",
+          "наследие",
+          "единство"
+        ],
+        "id": [
+          "cerita",
+          "warisan",
+          "persatuan"
+        ],
+        "ja": [
+          "物語",
+          "遺産",
+          "団結"
+        ],
+        "th": [
+          "เรื่องราว",
+          "มรดก",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "cerita",
+          "warisan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5353,19 +7712,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["direction", "belonging", "home"],
-        "tr": ["yön", "aidiyet", "ev"],
-        "fr": ["direction", "appartenance", "maison"],
-        "pt": ["direção", "pertencimento", "lar"],
-        "nl": ["richting", "verbondenheid", "thuis"],
-        "es": ["dirección", "pertenencia", "hogar"],
-        "de": ["richtung", "zugehörigkeit", "zuhause"],
-        "it": ["direzione", "appartenenza", "casa"],
-        "ru": ["направление", "принадлежность", "дом"],
-        "id": ["arah", "kebersamaan", "rumah"],
-        "ja": ["方向", "帰属", "家"],
-        "th": ["ทิศทาง", "ความรู้สึกเป็นส่วนหนึ่ง", "บ้าน"],
-        "ms": ["arah", "kebersamaan", "rumah"]
+        "en": [
+          "direction",
+          "belonging",
+          "home"
+        ],
+        "tr": [
+          "yön",
+          "aidiyet",
+          "ev"
+        ],
+        "fr": [
+          "direction",
+          "appartenance",
+          "maison"
+        ],
+        "pt": [
+          "direção",
+          "pertencimento",
+          "lar"
+        ],
+        "nl": [
+          "richting",
+          "verbondenheid",
+          "thuis"
+        ],
+        "es": [
+          "dirección",
+          "pertenencia",
+          "hogar"
+        ],
+        "de": [
+          "richtung",
+          "zugehörigkeit",
+          "zuhause"
+        ],
+        "it": [
+          "direzione",
+          "appartenenza",
+          "casa"
+        ],
+        "ru": [
+          "направление",
+          "принадлежность",
+          "дом"
+        ],
+        "id": [
+          "arah",
+          "kebersamaan",
+          "rumah"
+        ],
+        "ja": [
+          "方向",
+          "帰属",
+          "家"
+        ],
+        "th": [
+          "ทิศทาง",
+          "ความรู้สึกเป็นส่วนหนึ่ง",
+          "บ้าน"
+        ],
+        "ms": [
+          "arah",
+          "kebersamaan",
+          "rumah"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5470,19 +7881,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["resilience", "foundation", "strength"],
-        "tr": ["direnç", "temel", "güç"],
-        "fr": ["résilience", "fondation", "force"],
-        "pt": ["resiliência", "fundação", "força"],
-        "nl": ["veerkracht", "fundament", "kracht"],
-        "es": ["resiliencia", "fundación", "fortaleza"],
-        "de": ["widerstandsfähigkeit", "grundlage", "stärke"],
-        "it": ["resilienza", "fondazione", "forza"],
-        "ru": ["устойчивость", "основа", "сила"],
-        "id": ["ketahanan", "dasar", "kekuatan"],
-        "ja": ["回復力", "基盤", "強さ"],
-        "th": ["ความยืดหยุ่น", "รากฐาน", "ความแข็งแกร่ง"],
-        "ms": ["ketahanan", "asas", "kekuatan"]
+        "en": [
+          "resilience",
+          "foundation",
+          "strength"
+        ],
+        "tr": [
+          "direnç",
+          "temel",
+          "güç"
+        ],
+        "fr": [
+          "résilience",
+          "fondation",
+          "force"
+        ],
+        "pt": [
+          "resiliência",
+          "fundação",
+          "força"
+        ],
+        "nl": [
+          "veerkracht",
+          "fundament",
+          "kracht"
+        ],
+        "es": [
+          "resiliencia",
+          "fundación",
+          "fortaleza"
+        ],
+        "de": [
+          "widerstandsfähigkeit",
+          "grundlage",
+          "stärke"
+        ],
+        "it": [
+          "resilienza",
+          "fondazione",
+          "forza"
+        ],
+        "ru": [
+          "устойчивость",
+          "основа",
+          "сила"
+        ],
+        "id": [
+          "ketahanan",
+          "dasar",
+          "kekuatan"
+        ],
+        "ja": [
+          "回復力",
+          "基盤",
+          "強さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "รากฐาน",
+          "ความแข็งแกร่ง"
+        ],
+        "ms": [
+          "ketahanan",
+          "asas",
+          "kekuatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5553,7 +8016,7 @@
         }
       }
     },
-     {
+    {
       "id": "family_049",
       "category": "family",
       "texts": {
@@ -5587,19 +8050,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["refuge", "safety", "support"],
-        "tr": ["sığınak", "güvenlik", "destek"],
-        "fr": ["refuge", "sécurité", "soutien"],
-        "pt": ["refúgio", "segurança", "apoio"],
-        "nl": ["toevlucht", "veiligheid", "steun"],
-        "es": ["refugio", "seguridad", "apoyo"],
-        "de": ["zuflucht", "sicherheit", "unterstützung"],
-        "it": ["rifugio", "sicurezza", "sostegno"],
-        "ru": ["убежище", "безопасность", "поддержка"],
-        "id": ["perlindungan", "keamanan", "dukungan"],
-        "ja": ["避難所", "安全", "支援"],
-        "th": ["ที่หลบภัย", "ความปลอดภัย", "การสนับสนุน"],
-        "ms": ["perlindungan", "keselamatan", "sokongan"]
+        "en": [
+          "refuge",
+          "safety",
+          "support"
+        ],
+        "tr": [
+          "sığınak",
+          "güvenlik",
+          "destek"
+        ],
+        "fr": [
+          "refuge",
+          "sécurité",
+          "soutien"
+        ],
+        "pt": [
+          "refúgio",
+          "segurança",
+          "apoio"
+        ],
+        "nl": [
+          "toevlucht",
+          "veiligheid",
+          "steun"
+        ],
+        "es": [
+          "refugio",
+          "seguridad",
+          "apoyo"
+        ],
+        "de": [
+          "zuflucht",
+          "sicherheit",
+          "unterstützung"
+        ],
+        "it": [
+          "rifugio",
+          "sicurezza",
+          "sostegno"
+        ],
+        "ru": [
+          "убежище",
+          "безопасность",
+          "поддержка"
+        ],
+        "id": [
+          "perlindungan",
+          "keamanan",
+          "dukungan"
+        ],
+        "ja": [
+          "避難所",
+          "安全",
+          "支援"
+        ],
+        "th": [
+          "ที่หลบภัย",
+          "ความปลอดภัย",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "perlindungan",
+          "keselamatan",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5704,19 +8219,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "memory", "harmony"],
-        "tr": ["sevgi", "anı", "uyum"],
-        "fr": ["amour", "souvenir", "harmonie"],
-        "pt": ["amor", "memória", "harmonia"],
-        "nl": ["liefde", "herinnering", "harmonie"],
-        "es": ["amor", "memoria", "armonía"],
-        "de": ["liebe", "erinnerung", "harmonie"],
-        "it": ["amore", "ricordo", "armonia"],
-        "ru": ["любовь", "память", "гармония"],
-        "id": ["cinta", "kenangan", "harmoni"],
-        "ja": ["愛", "記憶", "調和"],
-        "th": ["ความรัก", "ความทรงจำ", "ความกลมกลืน"],
-        "ms": ["cinta", "kenangan", "keharmonian"]
+        "en": [
+          "love",
+          "memory",
+          "harmony"
+        ],
+        "tr": [
+          "sevgi",
+          "anı",
+          "uyum"
+        ],
+        "fr": [
+          "amour",
+          "souvenir",
+          "harmonie"
+        ],
+        "pt": [
+          "amor",
+          "memória",
+          "harmonia"
+        ],
+        "nl": [
+          "liefde",
+          "herinnering",
+          "harmonie"
+        ],
+        "es": [
+          "amor",
+          "memoria",
+          "armonía"
+        ],
+        "de": [
+          "liebe",
+          "erinnerung",
+          "harmonie"
+        ],
+        "it": [
+          "amore",
+          "ricordo",
+          "armonia"
+        ],
+        "ru": [
+          "любовь",
+          "память",
+          "гармония"
+        ],
+        "id": [
+          "cinta",
+          "kenangan",
+          "harmoni"
+        ],
+        "ja": [
+          "愛",
+          "記憶",
+          "調和"
+        ],
+        "th": [
+          "ความรัก",
+          "ความทรงจำ",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "cinta",
+          "kenangan",
+          "keharmonian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5821,19 +8388,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["stability", "strength", "resilience"],
-        "tr": ["istikrar", "güç", "direnç"],
-        "fr": ["stabilité", "force", "résilience"],
-        "pt": ["estabilidade", "força", "resiliência"],
-        "nl": ["stabiliteit", "kracht", "veerkracht"],
-        "es": ["estabilidad", "fortaleza", "resiliencia"],
-        "de": ["stabilität", "stärke", "widerstandsfähigkeit"],
-        "it": ["stabilità", "forza", "resilienza"],
-        "ru": ["стабильность", "сила", "устойчивость"],
-        "id": ["stabilitas", "kekuatan", "ketahanan"],
-        "ja": ["安定", "強さ", "回復力"],
-        "th": ["ความมั่นคง", "ความแข็งแกร่ง", "ความยืดหยุ่น"],
-        "ms": ["kestabilan", "kekuatan", "ketahanan"]
+        "en": [
+          "stability",
+          "strength",
+          "resilience"
+        ],
+        "tr": [
+          "istikrar",
+          "güç",
+          "direnç"
+        ],
+        "fr": [
+          "stabilité",
+          "force",
+          "résilience"
+        ],
+        "pt": [
+          "estabilidade",
+          "força",
+          "resiliência"
+        ],
+        "nl": [
+          "stabiliteit",
+          "kracht",
+          "veerkracht"
+        ],
+        "es": [
+          "estabilidad",
+          "fortaleza",
+          "resiliencia"
+        ],
+        "de": [
+          "stabilität",
+          "stärke",
+          "widerstandsfähigkeit"
+        ],
+        "it": [
+          "stabilità",
+          "forza",
+          "resilienza"
+        ],
+        "ru": [
+          "стабильность",
+          "сила",
+          "устойчивость"
+        ],
+        "id": [
+          "stabilitas",
+          "kekuatan",
+          "ketahanan"
+        ],
+        "ja": [
+          "安定",
+          "強さ",
+          "回復力"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "ความแข็งแกร่ง",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "kestabilan",
+          "kekuatan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5938,19 +8557,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "care", "growth"],
-        "tr": ["sevgi", "özen", "büyüme"],
-        "fr": ["amour", "soin", "croissance"],
-        "pt": ["amor", "cuidado", "crescimento"],
-        "nl": ["liefde", "zorg", "groei"],
-        "es": ["amor", "cuidado", "crecimiento"],
-        "de": ["liebe", "fürsorge", "wachstum"],
-        "it": ["amore", "cura", "crescita"],
-        "ru": ["любовь", "забота", "рост"],
-        "id": ["cinta", "perawatan", "pertumbuhan"],
-        "ja": ["愛", "ケア", "成長"],
-        "th": ["ความรัก", "การดูแล", "การเติบโต"],
-        "ms": ["cinta", "penjagaan", "pertumbuhan"]
+        "en": [
+          "love",
+          "care",
+          "growth"
+        ],
+        "tr": [
+          "sevgi",
+          "özen",
+          "büyüme"
+        ],
+        "fr": [
+          "amour",
+          "soin",
+          "croissance"
+        ],
+        "pt": [
+          "amor",
+          "cuidado",
+          "crescimento"
+        ],
+        "nl": [
+          "liefde",
+          "zorg",
+          "groei"
+        ],
+        "es": [
+          "amor",
+          "cuidado",
+          "crecimiento"
+        ],
+        "de": [
+          "liebe",
+          "fürsorge",
+          "wachstum"
+        ],
+        "it": [
+          "amore",
+          "cura",
+          "crescita"
+        ],
+        "ru": [
+          "любовь",
+          "забота",
+          "рост"
+        ],
+        "id": [
+          "cinta",
+          "perawatan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "愛",
+          "ケア",
+          "成長"
+        ],
+        "th": [
+          "ความรัก",
+          "การดูแล",
+          "การเติบโต"
+        ],
+        "ms": [
+          "cinta",
+          "penjagaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6055,19 +8726,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "light", "legacy"],
-        "tr": ["rehberlik", "ışık", "miras"],
-        "fr": ["guidance", "lumière", "héritage"],
-        "pt": ["orientação", "luz", "legado"],
-        "nl": ["begeleiding", "licht", "erfenis"],
-        "es": ["guía", "luz", "legado"],
-        "de": ["führung", "licht", "erbe"],
-        "it": ["guida", "luce", "eredità"],
-        "ru": ["руководство", "свет", "наследие"],
-        "id": ["bimbingan", "cahaya", "warisan"],
-        "ja": ["指導", "光", "遺産"],
-        "th": ["การนำทาง", "แสงสว่าง", "มรดก"],
-        "ms": ["panduan", "cahaya", "warisan"]
+        "en": [
+          "guidance",
+          "light",
+          "legacy"
+        ],
+        "tr": [
+          "rehberlik",
+          "ışık",
+          "miras"
+        ],
+        "fr": [
+          "guidance",
+          "lumière",
+          "héritage"
+        ],
+        "pt": [
+          "orientação",
+          "luz",
+          "legado"
+        ],
+        "nl": [
+          "begeleiding",
+          "licht",
+          "erfenis"
+        ],
+        "es": [
+          "guía",
+          "luz",
+          "legado"
+        ],
+        "de": [
+          "führung",
+          "licht",
+          "erbe"
+        ],
+        "it": [
+          "guida",
+          "luce",
+          "eredità"
+        ],
+        "ru": [
+          "руководство",
+          "свет",
+          "наследие"
+        ],
+        "id": [
+          "bimbingan",
+          "cahaya",
+          "warisan"
+        ],
+        "ja": [
+          "指導",
+          "光",
+          "遺産"
+        ],
+        "th": [
+          "การนำทาง",
+          "แสงสว่าง",
+          "มรดก"
+        ],
+        "ms": [
+          "panduan",
+          "cahaya",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6172,19 +8895,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["protection", "strength", "unity"],
-        "tr": ["koruma", "güç", "birlik"],
-        "fr": ["protection", "force", "unité"],
-        "pt": ["proteção", "força", "unidade"],
-        "nl": ["bescherming", "kracht", "eenheid"],
-        "es": ["protección", "fortaleza", "unidad"],
-        "de": ["schutz", "stärke", "einheit"],
-        "it": ["protezione", "forza", "unità"],
-        "ru": ["защита", "сила", "единство"],
-        "id": ["perlindungan", "kekuatan", "persatuan"],
-        "ja": ["保護", "強さ", "団結"],
-        "th": ["การปกป้อง", "ความแข็งแกร่ง", "ความสามัคคี"],
-        "ms": ["perlindungan", "kekuatan", "perpaduan"]
+        "en": [
+          "protection",
+          "strength",
+          "unity"
+        ],
+        "tr": [
+          "koruma",
+          "güç",
+          "birlik"
+        ],
+        "fr": [
+          "protection",
+          "force",
+          "unité"
+        ],
+        "pt": [
+          "proteção",
+          "força",
+          "unidade"
+        ],
+        "nl": [
+          "bescherming",
+          "kracht",
+          "eenheid"
+        ],
+        "es": [
+          "protección",
+          "fortaleza",
+          "unidad"
+        ],
+        "de": [
+          "schutz",
+          "stärke",
+          "einheit"
+        ],
+        "it": [
+          "protezione",
+          "forza",
+          "unità"
+        ],
+        "ru": [
+          "защита",
+          "сила",
+          "единство"
+        ],
+        "id": [
+          "perlindungan",
+          "kekuatan",
+          "persatuan"
+        ],
+        "ja": [
+          "保護",
+          "強さ",
+          "団結"
+        ],
+        "th": [
+          "การปกป้อง",
+          "ความแข็งแกร่ง",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "perlindungan",
+          "kekuatan",
+          "perpaduan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6289,19 +9064,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["guidance", "direction", "support"],
-        "tr": ["rehberlik", "yön", "destek"],
-        "fr": ["guidance", "direction", "soutien"],
-        "pt": ["orientação", "direção", "apoio"],
-        "nl": ["begeleiding", "richting", "steun"],
-        "es": ["guía", "dirección", "apoyo"],
-        "de": ["führung", "richtung", "unterstützung"],
-        "it": ["guida", "direzione", "sostegno"],
-        "ru": ["руководство", "направление", "поддержка"],
-        "id": ["bimbingan", "arah", "dukungan"],
-        "ja": ["指導", "方向", "支援"],
-        "th": ["การนำทาง", "ทิศทาง", "การสนับสนุน"],
-        "ms": ["panduan", "arah", "sokongan"]
+        "en": [
+          "guidance",
+          "direction",
+          "support"
+        ],
+        "tr": [
+          "rehberlik",
+          "yön",
+          "destek"
+        ],
+        "fr": [
+          "guidance",
+          "direction",
+          "soutien"
+        ],
+        "pt": [
+          "orientação",
+          "direção",
+          "apoio"
+        ],
+        "nl": [
+          "begeleiding",
+          "richting",
+          "steun"
+        ],
+        "es": [
+          "guía",
+          "dirección",
+          "apoyo"
+        ],
+        "de": [
+          "führung",
+          "richtung",
+          "unterstützung"
+        ],
+        "it": [
+          "guida",
+          "direzione",
+          "sostegno"
+        ],
+        "ru": [
+          "руководство",
+          "направление",
+          "поддержка"
+        ],
+        "id": [
+          "bimbingan",
+          "arah",
+          "dukungan"
+        ],
+        "ja": [
+          "指導",
+          "方向",
+          "支援"
+        ],
+        "th": [
+          "การนำทาง",
+          "ทิศทาง",
+          "การสนับสนุน"
+        ],
+        "ms": [
+          "panduan",
+          "arah",
+          "sokongan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6406,19 +9233,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "connection", "heritage"],
-        "tr": ["anılar", "bağlantı", "miras"],
-        "fr": ["souvenirs", "connexion", "héritage"],
-        "pt": ["memórias", "conexão", "herança"],
-        "nl": ["herinneringen", "verbinding", "erfenis"],
-        "es": ["recuerdos", "conexión", "herencia"],
-        "de": ["erinnerungen", "verbindung", "erbe"],
-        "it": ["ricordi", "connessione", "eredità"],
-        "ru": ["воспоминания", "связь", "наследие"],
-        "id": ["kenangan", "hubungan", "warisan"],
-        "ja": ["記憶", "つながり", "遺産"],
-        "th": ["ความทรงจำ", "ความเชื่อมโยง", "มรดก"],
-        "ms": ["kenangan", "hubungan", "warisan"]
+        "en": [
+          "memories",
+          "connection",
+          "heritage"
+        ],
+        "tr": [
+          "anılar",
+          "bağlantı",
+          "miras"
+        ],
+        "fr": [
+          "souvenirs",
+          "connexion",
+          "héritage"
+        ],
+        "pt": [
+          "memórias",
+          "conexão",
+          "herança"
+        ],
+        "nl": [
+          "herinneringen",
+          "verbinding",
+          "erfenis"
+        ],
+        "es": [
+          "recuerdos",
+          "conexión",
+          "herencia"
+        ],
+        "de": [
+          "erinnerungen",
+          "verbindung",
+          "erbe"
+        ],
+        "it": [
+          "ricordi",
+          "connessione",
+          "eredità"
+        ],
+        "ru": [
+          "воспоминания",
+          "связь",
+          "наследие"
+        ],
+        "id": [
+          "kenangan",
+          "hubungan",
+          "warisan"
+        ],
+        "ja": [
+          "記憶",
+          "つながり",
+          "遺産"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ความเชื่อมโยง",
+          "มรดก"
+        ],
+        "ms": [
+          "kenangan",
+          "hubungan",
+          "warisan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6523,19 +9402,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["connection", "legacy", "continuity"],
-        "tr": ["bağlantı", "miras", "süreklilik"],
-        "fr": ["connexion", "héritage", "continuité"],
-        "pt": ["conexão", "legado", "continuidade"],
-        "nl": ["verbinding", "erfenis", "continuïteit"],
-        "es": ["conexión", "legado", "continuidad"],
-        "de": ["verbindung", "erbe", "kontinuität"],
-        "it": ["connessione", "eredità", "continuità"],
-        "ru": ["связь", "наследие", "непрерывность"],
-        "id": ["hubungan", "warisan", "kelangsungan"],
-        "ja": ["つながり", "遺産", "継続"],
-        "th": ["ความเชื่อมโยง", "มรดก", "ความต่อเนื่อง"],
-        "ms": ["hubungan", "warisan", "kesinambungan"]
+        "en": [
+          "connection",
+          "legacy",
+          "continuity"
+        ],
+        "tr": [
+          "bağlantı",
+          "miras",
+          "süreklilik"
+        ],
+        "fr": [
+          "connexion",
+          "héritage",
+          "continuité"
+        ],
+        "pt": [
+          "conexão",
+          "legado",
+          "continuidade"
+        ],
+        "nl": [
+          "verbinding",
+          "erfenis",
+          "continuïteit"
+        ],
+        "es": [
+          "conexión",
+          "legado",
+          "continuidad"
+        ],
+        "de": [
+          "verbindung",
+          "erbe",
+          "kontinuität"
+        ],
+        "it": [
+          "connessione",
+          "eredità",
+          "continuità"
+        ],
+        "ru": [
+          "связь",
+          "наследие",
+          "непрерывность"
+        ],
+        "id": [
+          "hubungan",
+          "warisan",
+          "kelangsungan"
+        ],
+        "ja": [
+          "つながり",
+          "遺産",
+          "継続"
+        ],
+        "th": [
+          "ความเชื่อมโยง",
+          "มรดก",
+          "ความต่อเนื่อง"
+        ],
+        "ms": [
+          "hubungan",
+          "warisan",
+          "kesinambungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6640,19 +9571,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["warmth", "love", "comfort"],
-        "tr": ["sıcaklık", "sevgi", "rahatlık"],
-        "fr": ["chaleur", "amour", "confort"],
-        "pt": ["calor", "amor", "conforto"],
-        "nl": ["warmte", "liefde", "troost"],
-        "es": ["calor", "amor", "comodidad"],
-        "de": ["wärme", "liebe", "geborgenheit"],
-        "it": ["calore", "amore", "conforto"],
-        "ru": ["тепло", "любовь", "уют"],
-        "id": ["kehangatan", "cinta", "kenyamanan"],
-        "ja": ["温かさ", "愛", "快適"],
-        "th": ["ความอบอุ่น", "ความรัก", "ความสะดวกสบาย"],
-        "ms": ["kehangatan", "cinta", "keselesaan"]
+        "en": [
+          "warmth",
+          "love",
+          "comfort"
+        ],
+        "tr": [
+          "sıcaklık",
+          "sevgi",
+          "rahatlık"
+        ],
+        "fr": [
+          "chaleur",
+          "amour",
+          "confort"
+        ],
+        "pt": [
+          "calor",
+          "amor",
+          "conforto"
+        ],
+        "nl": [
+          "warmte",
+          "liefde",
+          "troost"
+        ],
+        "es": [
+          "calor",
+          "amor",
+          "comodidad"
+        ],
+        "de": [
+          "wärme",
+          "liebe",
+          "geborgenheit"
+        ],
+        "it": [
+          "calore",
+          "amore",
+          "conforto"
+        ],
+        "ru": [
+          "тепло",
+          "любовь",
+          "уют"
+        ],
+        "id": [
+          "kehangatan",
+          "cinta",
+          "kenyamanan"
+        ],
+        "ja": [
+          "温かさ",
+          "愛",
+          "快適"
+        ],
+        "th": [
+          "ความอบอุ่น",
+          "ความรัก",
+          "ความสะดวกสบาย"
+        ],
+        "ms": [
+          "kehangatan",
+          "cinta",
+          "keselesaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6757,19 +9740,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["roots", "heritage", "identity"],
-        "tr": ["kökler", "miras", "kimlik"],
-        "fr": ["racines", "héritage", "identité"],
-        "pt": ["raízes", "herança", "identidade"],
-        "nl": ["wortels", "erfenis", "identiteit"],
-        "es": ["raíces", "herencia", "identidad"],
-        "de": ["wurzeln", "erbe", "identität"],
-        "it": ["radici", "eredità", "identità"],
-        "ru": ["корни", "наследие", "идентичность"],
-        "id": ["akar", "warisan", "identitas"],
-        "ja": ["根", "遺産", "アイデンティティ"],
-        "th": ["ราก", "มรดก", "อัตลักษณ์"],
-        "ms": ["akar", "warisan", "identiti"]
+        "en": [
+          "roots",
+          "heritage",
+          "identity"
+        ],
+        "tr": [
+          "kökler",
+          "miras",
+          "kimlik"
+        ],
+        "fr": [
+          "racines",
+          "héritage",
+          "identité"
+        ],
+        "pt": [
+          "raízes",
+          "herança",
+          "identidade"
+        ],
+        "nl": [
+          "wortels",
+          "erfenis",
+          "identiteit"
+        ],
+        "es": [
+          "raíces",
+          "herencia",
+          "identidad"
+        ],
+        "de": [
+          "wurzeln",
+          "erbe",
+          "identität"
+        ],
+        "it": [
+          "radici",
+          "eredità",
+          "identità"
+        ],
+        "ru": [
+          "корни",
+          "наследие",
+          "идентичность"
+        ],
+        "id": [
+          "akar",
+          "warisan",
+          "identitas"
+        ],
+        "ja": [
+          "根",
+          "遺産",
+          "アイデンティティ"
+        ],
+        "th": [
+          "ราก",
+          "มรดก",
+          "อัตลักษณ์"
+        ],
+        "ms": [
+          "akar",
+          "warisan",
+          "identiti"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6874,19 +9909,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "support", "appreciation"],
-        "tr": ["sevgi", "destek", "takdir"],
-        "fr": ["amour", "soutien", "appréciation"],
-        "pt": ["amor", "apoio", "apreciação"],
-        "nl": ["liefde", "steun", "waardering"],
-        "es": ["amor", "apoyo", "apreciación"],
-        "de": ["liebe", "unterstützung", "wertschätzung"],
-        "it": ["amore", "sostegno", "apprezzamento"],
-        "ru": ["любовь", "поддержка", "признательность"],
-        "id": ["cinta", "dukungan", "penghargaan"],
-        "ja": ["愛", "サポート", "感謝"],
-        "th": ["ความรัก", "การสนับสนุน", "การขอบคุณ"],
-        "ms": ["cinta", "sokongan", "penghargaan"]
+        "en": [
+          "love",
+          "support",
+          "appreciation"
+        ],
+        "tr": [
+          "sevgi",
+          "destek",
+          "takdir"
+        ],
+        "fr": [
+          "amour",
+          "soutien",
+          "appréciation"
+        ],
+        "pt": [
+          "amor",
+          "apoio",
+          "apreciação"
+        ],
+        "nl": [
+          "liefde",
+          "steun",
+          "waardering"
+        ],
+        "es": [
+          "amor",
+          "apoyo",
+          "apreciación"
+        ],
+        "de": [
+          "liebe",
+          "unterstützung",
+          "wertschätzung"
+        ],
+        "it": [
+          "amore",
+          "sostegno",
+          "apprezzamento"
+        ],
+        "ru": [
+          "любовь",
+          "поддержка",
+          "признательность"
+        ],
+        "id": [
+          "cinta",
+          "dukungan",
+          "penghargaan"
+        ],
+        "ja": [
+          "愛",
+          "サポート",
+          "感謝"
+        ],
+        "th": [
+          "ความรัก",
+          "การสนับสนุน",
+          "การขอบคุณ"
+        ],
+        "ms": [
+          "cinta",
+          "sokongan",
+          "penghargaan"
+        ]
       },
       "stories": {
         "en": {
@@ -6990,19 +10077,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["tradition", "values", "heritage"],
-        "tr": ["gelenek", "değerler", "miras"],
-        "fr": ["tradition", "valeurs", "patrimoine"],
-        "pt": ["tradição", "valores", "herança"],
-        "nl": ["traditie", "waarden", "erfgoed"],
-        "es": ["tradición", "valores", "patrimonio"],
-        "de": ["tradition", "werte", "erbe"],
-        "it": ["tradizione", "valori", "patrimonio"],
-        "ru": ["традиция", "ценности", "наследие"],
-        "id": ["tradisi", "nilai", "warisan"],
-        "ja": ["伝統", "価値", "遺産"],
-        "th": ["ประเพณี", "คุณค่า", "มรดก"],
-        "ms": ["tradisi", "nilai", "warisan"]
+        "en": [
+          "tradition",
+          "values",
+          "heritage"
+        ],
+        "tr": [
+          "gelenek",
+          "değerler",
+          "miras"
+        ],
+        "fr": [
+          "tradition",
+          "valeurs",
+          "patrimoine"
+        ],
+        "pt": [
+          "tradição",
+          "valores",
+          "herança"
+        ],
+        "nl": [
+          "traditie",
+          "waarden",
+          "erfgoed"
+        ],
+        "es": [
+          "tradición",
+          "valores",
+          "patrimonio"
+        ],
+        "de": [
+          "tradition",
+          "werte",
+          "erbe"
+        ],
+        "it": [
+          "tradizione",
+          "valori",
+          "patrimonio"
+        ],
+        "ru": [
+          "традиция",
+          "ценности",
+          "наследие"
+        ],
+        "id": [
+          "tradisi",
+          "nilai",
+          "warisan"
+        ],
+        "ja": [
+          "伝統",
+          "価値",
+          "遺産"
+        ],
+        "th": [
+          "ประเพณี",
+          "คุณค่า",
+          "มรดก"
+        ],
+        "ms": [
+          "tradisi",
+          "nilai",
+          "warisan"
+        ]
       },
       "stories": {
         "en": {
@@ -7106,19 +10245,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["relationships", "nurturing", "love"],
-        "tr": ["ilişkiler", "besleme", "sevgi"],
-        "fr": ["relations", "nourrissage", "amour"],
-        "pt": ["relacionamentos", "nutrição", "amor"],
-        "nl": ["relaties", "voeding", "liefde"],
-        "es": ["relaciones", "nutrición", "amor"],
-        "de": ["beziehungen", "ernährung", "liebe"],
-        "it": ["relazioni", "nutrimento", "amore"],
-        "ru": ["отношения", "питание", "любовь"],
-        "id": ["hubungan", "pemeliharaan", "cinta"],
-        "ja": ["関係", "育成", "愛"],
-        "th": ["ความสัมพันธ์", "การบำรุง", "ความรัก"],
-        "ms": ["hubungan", "pemeliharaan", "cinta"]
+        "en": [
+          "relationships",
+          "nurturing",
+          "love"
+        ],
+        "tr": [
+          "ilişkiler",
+          "besleme",
+          "sevgi"
+        ],
+        "fr": [
+          "relations",
+          "nourrissage",
+          "amour"
+        ],
+        "pt": [
+          "relacionamentos",
+          "nutrição",
+          "amor"
+        ],
+        "nl": [
+          "relaties",
+          "voeding",
+          "liefde"
+        ],
+        "es": [
+          "relaciones",
+          "nutrición",
+          "amor"
+        ],
+        "de": [
+          "beziehungen",
+          "ernährung",
+          "liebe"
+        ],
+        "it": [
+          "relazioni",
+          "nutrimento",
+          "amore"
+        ],
+        "ru": [
+          "отношения",
+          "питание",
+          "любовь"
+        ],
+        "id": [
+          "hubungan",
+          "pemeliharaan",
+          "cinta"
+        ],
+        "ja": [
+          "関係",
+          "育成",
+          "愛"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "การบำรุง",
+          "ความรัก"
+        ],
+        "ms": [
+          "hubungan",
+          "pemeliharaan",
+          "cinta"
+        ]
       },
       "stories": {
         "en": {
@@ -7222,19 +10413,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["gratitude", "lessons", "learning"],
-        "tr": ["şükran", "dersler", "öğrenme"],
-        "fr": ["gratitude", "leçons", "apprentissage"],
-        "pt": ["gratidão", "lições", "aprendizado"],
-        "nl": ["dankbaarheid", "lessen", "leren"],
-        "es": ["gratitud", "lecciones", "aprendizaje"],
-        "de": ["dankbarkeit", "lektionen", "lernen"],
-        "it": ["gratitudine", "lezioni", "apprendimento"],
-        "ru": ["благодарность", "уроки", "обучение"],
-        "id": ["rasa syukur", "pelajaran", "pembelajaran"],
-        "ja": ["感謝", "教訓", "学習"],
-        "th": ["ความกตัญญู", "บทเรียน", "การเรียนรู้"],
-        "ms": ["kesyukuran", "pengajaran", "pembelajaran"]
+        "en": [
+          "gratitude",
+          "lessons",
+          "learning"
+        ],
+        "tr": [
+          "şükran",
+          "dersler",
+          "öğrenme"
+        ],
+        "fr": [
+          "gratitude",
+          "leçons",
+          "apprentissage"
+        ],
+        "pt": [
+          "gratidão",
+          "lições",
+          "aprendizado"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "lessen",
+          "leren"
+        ],
+        "es": [
+          "gratitud",
+          "lecciones",
+          "aprendizaje"
+        ],
+        "de": [
+          "dankbarkeit",
+          "lektionen",
+          "lernen"
+        ],
+        "it": [
+          "gratitudine",
+          "lezioni",
+          "apprendimento"
+        ],
+        "ru": [
+          "благодарность",
+          "уроки",
+          "обучение"
+        ],
+        "id": [
+          "rasa syukur",
+          "pelajaran",
+          "pembelajaran"
+        ],
+        "ja": [
+          "感謝",
+          "教訓",
+          "学習"
+        ],
+        "th": [
+          "ความกตัญญู",
+          "บทเรียน",
+          "การเรียนรู้"
+        ],
+        "ms": [
+          "kesyukuran",
+          "pengajaran",
+          "pembelajaran"
+        ]
       },
       "stories": {
         "en": {
@@ -7338,19 +10581,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["memories", "joy", "togetherness"],
-        "tr": ["anılar", "neşe", "birliktelik"],
-        "fr": ["souvenirs", "joie", "ensemble"],
-        "pt": ["memórias", "alegria", "união"],
-        "nl": ["herinneringen", "vreugde", "samenheid"],
-        "es": ["recuerdos", "alegría", "juntos"],
-        "de": ["erinnerungen", "freude", "zusammenhalt"],
-        "it": ["ricordi", "gioia", "unione"],
-        "ru": ["воспоминания", "радость", "единство"],
-        "id": ["kenangan", "kegembiraan", "bersama"],
-        "ja": ["思い出", "喜び", "一体感"],
-        "th": ["ความทรงจำ", "ความสุข", "ความสามัคคี"],
-        "ms": ["kenangan", "kegembiraan", "bersama"]
+        "en": [
+          "memories",
+          "joy",
+          "togetherness"
+        ],
+        "tr": [
+          "anılar",
+          "neşe",
+          "birliktelik"
+        ],
+        "fr": [
+          "souvenirs",
+          "joie",
+          "ensemble"
+        ],
+        "pt": [
+          "memórias",
+          "alegria",
+          "união"
+        ],
+        "nl": [
+          "herinneringen",
+          "vreugde",
+          "samenheid"
+        ],
+        "es": [
+          "recuerdos",
+          "alegría",
+          "juntos"
+        ],
+        "de": [
+          "erinnerungen",
+          "freude",
+          "zusammenhalt"
+        ],
+        "it": [
+          "ricordi",
+          "gioia",
+          "unione"
+        ],
+        "ru": [
+          "воспоминания",
+          "радость",
+          "единство"
+        ],
+        "id": [
+          "kenangan",
+          "kegembiraan",
+          "bersama"
+        ],
+        "ja": [
+          "思い出",
+          "喜び",
+          "一体感"
+        ],
+        "th": [
+          "ความทรงจำ",
+          "ความสุข",
+          "ความสามัคคี"
+        ],
+        "ms": [
+          "kenangan",
+          "kegembiraan",
+          "bersama"
+        ]
       },
       "stories": {
         "en": {
@@ -7454,19 +10749,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["forgiveness", "healing", "family"],
-        "tr": ["bağışlama", "iyileşme", "aile"],
-        "fr": ["pardon", "guérison", "famille"],
-        "pt": ["perdão", "cura", "família"],
-        "nl": ["vergeving", "genezing", "familie"],
-        "es": ["perdón", "sanación", "familia"],
-        "de": ["vergebung", "heilung", "familie"],
-        "it": ["perdono", "guarigione", "famiglia"],
-        "ru": ["прощение", "исцеление", "семья"],
-        "id": ["pengampunan", "penyembuhan", "keluarga"],
-        "ja": ["許し", "癒し", "家族"],
-        "th": ["การให้อภัย", "การรักษา", "ครอบครัว"],
-        "ms": ["pengampunan", "penyembuhan", "keluarga"]
+        "en": [
+          "forgiveness",
+          "healing",
+          "family"
+        ],
+        "tr": [
+          "bağışlama",
+          "iyileşme",
+          "aile"
+        ],
+        "fr": [
+          "pardon",
+          "guérison",
+          "famille"
+        ],
+        "pt": [
+          "perdão",
+          "cura",
+          "família"
+        ],
+        "nl": [
+          "vergeving",
+          "genezing",
+          "familie"
+        ],
+        "es": [
+          "perdón",
+          "sanación",
+          "familia"
+        ],
+        "de": [
+          "vergebung",
+          "heilung",
+          "familie"
+        ],
+        "it": [
+          "perdono",
+          "guarigione",
+          "famiglia"
+        ],
+        "ru": [
+          "прощение",
+          "исцеление",
+          "семья"
+        ],
+        "id": [
+          "pengampunan",
+          "penyembuhan",
+          "keluarga"
+        ],
+        "ja": [
+          "許し",
+          "癒し",
+          "家族"
+        ],
+        "th": [
+          "การให้อภัย",
+          "การรักษา",
+          "ครอบครัว"
+        ],
+        "ms": [
+          "pengampunan",
+          "penyembuhan",
+          "keluarga"
+        ]
       },
       "stories": {
         "en": {
@@ -7572,19 +10919,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["celebration", "uniqueness", "appreciation"],
-        "tr": ["kutlama", "benzersizlik", "takdir"],
-        "fr": ["célébration", "unicité", "appréciation"],
-        "pt": ["celebração", "unicidade", "apreciação"],
-        "nl": ["viering", "uniciteit", "waardering"],
-        "es": ["celebración", "unicidad", "apreciación"],
-        "de": ["feier", "einzigartigkeit", "wertschätzung"],
-        "it": ["celebrazione", "unicità", "apprezzamento"],
-        "ru": ["празднование", "уникальность", "признательность"],
-        "id": ["perayaan", "keunikan", "penghargaan"],
-        "ja": ["祝賀", "独自性", "感謝"],
-        "th": ["การเฉลิมฉลอง", "เอกลักษณ์", "การขอบคุณ"],
-        "ms": ["perayaan", "keunikan", "penghargaan"]
+        "en": [
+          "celebration",
+          "uniqueness",
+          "appreciation"
+        ],
+        "tr": [
+          "kutlama",
+          "benzersizlik",
+          "takdir"
+        ],
+        "fr": [
+          "célébration",
+          "unicité",
+          "appréciation"
+        ],
+        "pt": [
+          "celebração",
+          "unicidade",
+          "apreciação"
+        ],
+        "nl": [
+          "viering",
+          "uniciteit",
+          "waardering"
+        ],
+        "es": [
+          "celebración",
+          "unicidad",
+          "apreciación"
+        ],
+        "de": [
+          "feier",
+          "einzigartigkeit",
+          "wertschätzung"
+        ],
+        "it": [
+          "celebrazione",
+          "unicità",
+          "apprezzamento"
+        ],
+        "ru": [
+          "празднование",
+          "уникальность",
+          "признательность"
+        ],
+        "id": [
+          "perayaan",
+          "keunikan",
+          "penghargaan"
+        ],
+        "ja": [
+          "祝賀",
+          "独自性",
+          "感謝"
+        ],
+        "th": [
+          "การเฉลิมฉลอง",
+          "เอกลักษณ์",
+          "การขอบคุณ"
+        ],
+        "ms": [
+          "perayaan",
+          "keunikan",
+          "penghargaan"
+        ]
       },
       "stories": {
         "en": {
@@ -7701,19 +11100,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["communication", "honesty", "connection"],
-        "tr": ["iletişim", "dürüstlük", "bağlantı"],
-        "fr": ["communication", "honnêteté", "connexion"],
-        "pt": ["comunicação", "honestidade", "conexão"],
-        "nl": ["communicatie", "eerlijkheid", "verbinding"],
-        "es": ["comunicación", "honestidad", "conexión"],
-        "de": ["kommunikation", "ehrichkeit", "verbindung"],
-        "it": ["comunicazione", "onestà", "connessione"],
-        "ru": ["общение", "честность", "связь"],
-        "id": ["komunikasi", "kejujuran", "koneksi"],
-        "ja": ["コミュニケーション", "誠実さ", "つながり"],
-        "th": ["การสื่อสาร", "ความซื่อสัตย์", "การเชื่อมต่อ"],
-        "ms": ["komunikasi", "kejujuran", "sambungan"]
+        "en": [
+          "communication",
+          "honesty",
+          "connection"
+        ],
+        "tr": [
+          "iletişim",
+          "dürüstlük",
+          "bağlantı"
+        ],
+        "fr": [
+          "communication",
+          "honnêteté",
+          "connexion"
+        ],
+        "pt": [
+          "comunicação",
+          "honestidade",
+          "conexão"
+        ],
+        "nl": [
+          "communicatie",
+          "eerlijkheid",
+          "verbinding"
+        ],
+        "es": [
+          "comunicación",
+          "honestidad",
+          "conexión"
+        ],
+        "de": [
+          "kommunikation",
+          "ehrichkeit",
+          "verbindung"
+        ],
+        "it": [
+          "comunicazione",
+          "onestà",
+          "connessione"
+        ],
+        "ru": [
+          "общение",
+          "честность",
+          "связь"
+        ],
+        "id": [
+          "komunikasi",
+          "kejujuran",
+          "koneksi"
+        ],
+        "ja": [
+          "コミュニケーション",
+          "誠実さ",
+          "つながり"
+        ],
+        "th": [
+          "การสื่อสาร",
+          "ความซื่อสัตย์",
+          "การเชื่อมต่อ"
+        ],
+        "ms": [
+          "komunikasi",
+          "kejujuran",
+          "sambungan"
+        ]
       },
       "stories": {
         "en": {
@@ -7830,19 +11281,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["love", "gratitude", "unconditional"],
-        "tr": ["sevgi", "şükran", "koşulsuz"],
-        "fr": ["amour", "gratitude", "inconditionnel"],
-        "pt": ["amor", "gratidão", "incondicional"],
-        "nl": ["liefde", "dankbaarheid", "onvoorwaardelijk"],
-        "es": ["amor", "gratitud", "incondicional"],
-        "de": ["liebe", "dankbarkeit", "bedingungslos"],
-        "it": ["amore", "gratitudine", "incondizionato"],
-        "ru": ["любовь", "благодарность", "безусловный"],
-        "id": ["cinta", "rasa syukur", "tanpa syarat"],
-        "ja": ["愛", "感謝", "無条件"],
-        "th": ["ความรัก", "ความกตัญญู", "ไม่มีเงื่อนไข"],
-        "ms": ["cinta", "kesyukuran", "tanpa syarat"]
+        "en": [
+          "love",
+          "gratitude",
+          "unconditional"
+        ],
+        "tr": [
+          "sevgi",
+          "şükran",
+          "koşulsuz"
+        ],
+        "fr": [
+          "amour",
+          "gratitude",
+          "inconditionnel"
+        ],
+        "pt": [
+          "amor",
+          "gratidão",
+          "incondicional"
+        ],
+        "nl": [
+          "liefde",
+          "dankbaarheid",
+          "onvoorwaardelijk"
+        ],
+        "es": [
+          "amor",
+          "gratitud",
+          "incondicional"
+        ],
+        "de": [
+          "liebe",
+          "dankbarkeit",
+          "bedingungslos"
+        ],
+        "it": [
+          "amore",
+          "gratitudine",
+          "incondizionato"
+        ],
+        "ru": [
+          "любовь",
+          "благодарность",
+          "безусловный"
+        ],
+        "id": [
+          "cinta",
+          "rasa syukur",
+          "tanpa syarat"
+        ],
+        "ja": [
+          "愛",
+          "感謝",
+          "無条件"
+        ],
+        "th": [
+          "ความรัก",
+          "ความกตัญญู",
+          "ไม่มีเงื่อนไข"
+        ],
+        "ms": [
+          "cinta",
+          "kesyukuran",
+          "tanpa syarat"
+        ]
       },
       "stories": {
         "en": {
@@ -7959,19 +11462,71 @@
         "ms": "Tanpa Nama"
       },
       "tags": {
-        "en": ["support", "dreams", "aspirations"],
-        "tr": ["destek", "hayaller", "özlemler"],
-        "fr": ["soutien", "rêves", "aspirations"],
-        "pt": ["apoio", "sonhos", "aspirações"],
-        "nl": ["steun", "dromen", "aspiraties"],
-        "es": ["apoyo", "sueños", "aspiraciones"],
-        "de": ["unterstützung", "träume", "bestrebungen"],
-        "it": ["sostegno", "sogni", "aspirazioni"],
-        "ru": ["поддержка", "мечты", "стремления"],
-        "id": ["dukungan", "impian", "aspirasi"],
-        "ja": ["支援", "夢", "志望"],
-        "th": ["การสนับสนุน", "ความฝัน", "ความปรารถนา"],
-        "ms": ["sokongan", "impian", "aspirasi"]
+        "en": [
+          "support",
+          "dreams",
+          "aspirations"
+        ],
+        "tr": [
+          "destek",
+          "hayaller",
+          "özlemler"
+        ],
+        "fr": [
+          "soutien",
+          "rêves",
+          "aspirations"
+        ],
+        "pt": [
+          "apoio",
+          "sonhos",
+          "aspirações"
+        ],
+        "nl": [
+          "steun",
+          "dromen",
+          "aspiraties"
+        ],
+        "es": [
+          "apoyo",
+          "sueños",
+          "aspiraciones"
+        ],
+        "de": [
+          "unterstützung",
+          "träume",
+          "bestrebungen"
+        ],
+        "it": [
+          "sostegno",
+          "sogni",
+          "aspirazioni"
+        ],
+        "ru": [
+          "поддержка",
+          "мечты",
+          "стремления"
+        ],
+        "id": [
+          "dukungan",
+          "impian",
+          "aspirasi"
+        ],
+        "ja": [
+          "支援",
+          "夢",
+          "志望"
+        ],
+        "th": [
+          "การสนับสนุน",
+          "ความฝัน",
+          "ความปรารถนา"
+        ],
+        "ms": [
+          "sokongan",
+          "impian",
+          "aspirasi"
+        ]
       },
       "stories": {
         "en": {
@@ -8054,7 +11609,7 @@
         }
       }
     },
-     {
+    {
       "id": "family_070",
       "type": "affirmation",
       "texts": {
@@ -8101,8 +11656,8 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_071",
       "type": "affirmation",
       "texts": {
@@ -8149,24 +11704,24 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_072",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Family into my life.",
-        "tr": "Hayatıma Aile enerjisini alıyorum.",
-        "fr": "J'accueille Family dans ma vie.",
-        "pt": "Eu acolho Family na minha vida.",
-        "nl": "Ik verwelkom Family in mijn leven.",
-        "es": "Doy la bienvenida a Family en mi vida.",
-        "de": "Ich heiße Family in meinem Leben willkommen.",
-        "it": "Accolgo Family nella mia vita.",
-        "ru": "Я принимаю Family в свою жизнь.",
-        "id": "Saya menyambut Family dalam hidup saya.",
-        "ja": "私はFamilyを人生に迎え入れます。",
-        "th": "ฉันต้อนรับFamilyเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Family dalam hidup saya."
+        "en": "I make room for family without rushing.",
+        "tr": "aile için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à family sans me presser.",
+        "pt": "Abro espaço para family sem pressa.",
+        "nl": "Ik maak ruimte voor family zonder te haasten.",
+        "es": "Hago espacio para family sin prisa.",
+        "de": "Ich mache Platz für family, ohne zu hetzen.",
+        "it": "Faccio spazio a family senza fretta.",
+        "ru": "Я даю место family без спешки.",
+        "id": "Aku memberi ruang bagi family tanpa terburu-buru.",
+        "ja": "焦らずにfamilyのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้familyโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk family tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -8193,24 +11748,24 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_073",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Family.",
-        "tr": "Kalbim Aile için açık.",
-        "fr": "Mon cœur est ouvert à Family.",
-        "pt": "Meu coração está aberto para Family.",
-        "nl": "Mijn hart staat open voor Family.",
-        "es": "Mi corazón está abierto a Family.",
-        "de": "Mein Herz ist offen für Family.",
-        "it": "Il mio cuore è aperto a Family.",
-        "ru": "Моё сердце открыто для Family.",
-        "id": "Hati saya terbuka untuk Family.",
-        "ja": "私の心はFamilyに開かれています。",
-        "th": "หัวใจของฉันเปิดรับFamily",
-        "ms": "Hati saya terbuka untuk Family."
+        "en": "I stay open to family in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde aile için açık kalıyorum.",
+        "fr": "Je reste ouvert à family d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a family de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor family op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a family de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für family auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a family in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к family так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada family dengan cara yang terasa aman.",
+        "ja": "安心できる形でfamilyに心を開き続けます。",
+        "th": "ฉันเปิดใจให้familyในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap family dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -8237,24 +11792,24 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_074",
       "type": "affirmation",
       "texts": {
-        "en": "Family grows within me each day.",
-        "tr": "Aile her gün içimde büyüyor.",
-        "fr": "Family grandit en moi chaque jour.",
-        "pt": "Family cresce dentro de mim todos os dias.",
-        "nl": "Family groeit elke dag in mij.",
-        "es": "Family crece dentro de mí cada día.",
-        "de": "Family wächst jeden Tag in mir.",
-        "it": "Family cresce in me ogni giorno.",
-        "ru": "Family растёт во мне каждый день.",
-        "id": "Family tumbuh di dalam diri saya setiap hari.",
-        "ja": "Familyは毎日私の中で育ちます。",
-        "th": "Familyเติบโตในตัวฉันทุกวัน",
-        "ms": "Family berkembang dalam diri saya setiap hari."
+        "en": "Each day, family grows within me.",
+        "tr": "Her gün içimde aile büyüyor.",
+        "fr": "Chaque jour, family grandit en moi.",
+        "pt": "A cada dia, family cresce dentro de mim.",
+        "nl": "Elke dag groeit family in mij.",
+        "es": "Cada día, family crece dentro de mí.",
+        "de": "Jeden Tag wächst family in mir.",
+        "it": "Ogni giorno, family cresce dentro di me.",
+        "ru": "Каждый день family растёт во мне.",
+        "id": "Setiap hari, family tumbuh di dalam diriku.",
+        "ja": "毎日、familyが私の中で育っています。",
+        "th": "ทุกวัน family เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, family berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -8281,24 +11836,24 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_075",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Family now.",
-        "tr": "Şimdi Aile için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Family maintenant.",
-        "pt": "Eu crio espaço para Family agora.",
-        "nl": "Ik maak nu ruimte voor Family.",
-        "es": "Creo espacio para Family ahora.",
-        "de": "Ich schaffe jetzt Raum für Family.",
-        "it": "Creo spazio per Family ora.",
-        "ru": "Я создаю пространство для Family сейчас.",
-        "id": "Saya menciptakan ruang untuk Family sekarang.",
-        "ja": "今、Familyのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับFamilyในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Family sekarang."
+        "en": "I give family a quiet place in my day.",
+        "tr": "Günümde aile için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à family une place calme dans ma journée.",
+        "pt": "Dou a family um lugar tranquilo no meu dia.",
+        "nl": "Ik geef family een rustige plek in mijn dag.",
+        "es": "Le doy a family un lugar tranquilo en mi día.",
+        "de": "Ich gebe family einen ruhigen Platz in meinem Tag.",
+        "it": "Do a family un posto tranquillo nella mia giornata.",
+        "ru": "Я даю family тихое место в своём дне.",
+        "id": "Aku memberi family tempat yang tenang dalam hariku.",
+        "ja": "一日の中にfamilyのための静かな場所をつくります。",
+        "th": "ฉันให้familyมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi family tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -8325,24 +11880,24 @@
         ]
       },
       "readTime": "0"
-     },
-     {
+    },
+    {
       "id": "family_076",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Family.",
-        "tr": "Aile yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Family.",
-        "pt": "Eu confio no caminho de Family.",
-        "nl": "Ik vertrouw op het pad van Family.",
-        "es": "Confío en el camino de Family.",
-        "de": "Ich vertraue dem Weg von Family.",
-        "it": "Mi fido del percorso di Family.",
-        "ru": "Я доверяю пути Family.",
-        "id": "Saya percaya pada jalan Family.",
-        "ja": "私はFamilyの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของFamily",
-        "ms": "Saya percaya pada jalan Family."
+        "en": "I trust my own way of growing in family.",
+        "tr": "aile konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec family.",
+        "pt": "Confio no meu próprio jeito de crescer com family.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in family.",
+        "es": "Confío en mi propia manera de crecer con family.",
+        "de": "Ich vertraue meinem eigenen Weg, in family zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con family.",
+        "ru": "Я доверяю своему собственному пути роста в family.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam family.",
+        "ja": "自分なりのfamilyの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับfamily",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam family."
       },
       "authors": {
         "en": "",
@@ -8369,6 +11924,946 @@
         ]
       },
       "readTime": "0"
-     }
+    },
+    {
+      "id": "family_077",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice family with gentle consistency.",
+        "tr": "aile konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique family avec une douce constance.",
+        "pt": "Eu pratico family com constância gentil.",
+        "nl": "Ik beoefen family met zachte regelmaat.",
+        "es": "Practico family con constancia suave.",
+        "de": "Ich übe family mit sanfter Beständigkeit.",
+        "it": "Pratico family con dolce costanza.",
+        "ru": "Я практикую family с мягкой постоянностью.",
+        "id": "Saya mempraktikkan family dengan konsistensi yang lembut.",
+        "ja": "私はfamilyを穏やかな継続で実践します。",
+        "th": "ฉันฝึกfamilyอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan family dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, family supports me.",
+        "tr": "Bu dönemde aile beni destekliyor.",
+        "fr": "En cette période, family me soutient.",
+        "pt": "Nesta fase, family me apoia.",
+        "nl": "In deze periode ondersteunt family mij.",
+        "es": "En esta etapa, family me sostiene.",
+        "de": "In dieser Zeit unterstützt family mich.",
+        "it": "In questo periodo, family mi sostiene.",
+        "ru": "В этот период family поддерживает меня.",
+        "id": "Di masa ini, family mendukungku.",
+        "ja": "この時期、familyが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ familyคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, family menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose family in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla aile seçiyorum.",
+        "fr": "Je choisis family par de petits pas sincères.",
+        "pt": "Escolho family em passos pequenos e honestos.",
+        "nl": "Ik kies family in kleine, eerlijke stappen.",
+        "es": "Elijo family con pasos pequeños y honestos.",
+        "de": "Ich wähle family in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo family con passi piccoli e sinceri.",
+        "ru": "Я выбираю family маленькими, честными шагами.",
+        "id": "Aku memilih family dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でfamilyを選びます。",
+        "th": "ฉันเลือกfamilyด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih family dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let family shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri aile şekillendiriyor.",
+        "fr": "Je laisse family façonner les choix qui comptent pour moi.",
+        "pt": "Deixo family moldar as escolhas que importam para mim.",
+        "nl": "Ik laat family de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que family moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse family die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che family plasmi le scelte che contano per me.",
+        "ru": "Я позволяю family формировать важные для меня решения.",
+        "id": "Aku membiarkan family membentuk pilihan yang penting bagiku.",
+        "ja": "familyが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้familyหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan family membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, family feels natural to me.",
+        "tr": "Bugün aile bana doğal geliyor.",
+        "fr": "Aujourd'hui, family me semble naturel.",
+        "pt": "Hoje, family parece natural para mim.",
+        "nl": "Vandaag voelt family natuurlijk voor mij.",
+        "es": "Hoy, family se siente natural para mí.",
+        "de": "Heute fühlt sich family natürlich für mich an.",
+        "it": "Oggi family mi sembra naturale.",
+        "ru": "Сегодня family кажется мне естественным.",
+        "id": "Hari ini, family terasa alami bagi saya.",
+        "ja": "今日はfamilyが自然に感じられます。",
+        "th": "วันนี้familyให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, family terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_82",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose family in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda aile seçiyorum.",
+        "fr": "Je choisis family dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho family nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies family in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo family en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle family in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo family nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю family в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih family dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でfamilyを選びます。",
+        "th": "ฉันเลือกfamilyในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih family dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build family.",
+        "tr": "İç sesim aile inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis family.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo family.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik family opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo family.",
+        "de": "Meine innere Stimme wird sanfter, während ich family aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco family.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю family.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun family.",
+        "ja": "familyを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างfamily",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina family."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet family at my own pace.",
+        "tr": "aile ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer family à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar family no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om family in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar family a mi propio ritmo.",
+        "de": "Ich erlaube mir, family in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare family al mio ritmo.",
+        "ru": "Я позволяю себе встречать family в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu family dengan ritmeku.",
+        "ja": "自分のペースでfamilyに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบfamilyในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui family mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let family steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde aile beni dengeliyor.",
+        "fr": "Je laisse family m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo family me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat family me aarden als het leven luid voelt.",
+        "es": "Dejo que family me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse family mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che family mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю family удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan family menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、familyが私を落ち着かせます。",
+        "th": "ฉันยอมให้familyทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan family menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, family is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde aile büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, family grandit.",
+        "pt": "Por meio das escolhas que faço hoje, family cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit family.",
+        "es": "A través de las decisiones que tomo hoy, family crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst family.",
+        "it": "Attraverso le scelte che faccio oggi, family cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, family растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, family tumbuh.",
+        "ja": "今日の選択を通してfamilyが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ familyกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, family berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel family settling into my routines.",
+        "tr": "Rutinlerimde aile için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens family s’installer dans mes routines.",
+        "pt": "Sinto family se acomodar nas minhas rotinas.",
+        "nl": "Ik voel family zich nestelen in mijn routines.",
+        "es": "Siento que family se asienta en mis rutinas.",
+        "de": "Ich spüre, wie family sich in meinen Routinen einlebt.",
+        "it": "Sento family assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как family укореняется в моих привычках.",
+        "id": "Aku merasakan family menetap dalam rutinitasku.",
+        "ja": "日々の習慣にfamilyがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าfamilyค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan family mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow family to be simple, not perfect.",
+        "tr": "aile için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise family à être simple, pas parfait.",
+        "pt": "Permito que family seja simples, não perfeito.",
+        "nl": "Ik laat family simpel zijn, niet perfect.",
+        "es": "Permito que family sea simple, no perfecto.",
+        "de": "Ich erlaube family, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a family di essere semplice, non perfetto.",
+        "ru": "Я позволяю family быть простым, а не идеальным.",
+        "id": "Aku membiarkan family tetap sederhana, bukan sempurna.",
+        "ja": "familyがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้familyเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan family menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice family showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde aile ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque family dans la façon dont je me parle.",
+        "pt": "Percebo family na forma como falo comigo.",
+        "nl": "Ik merk family op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto family en la manera en que me hablo.",
+        "de": "Ich bemerke family in der Art, wie ich mit mir spreche.",
+        "it": "Noto family nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю family в том, как я говорю с собой.",
+        "id": "Aku menyadari family dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にfamilyが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นfamilyในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari family dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve family without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan aile hak ediyorum.",
+        "fr": "Je mérite family sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço family sem precisar provar nada.",
+        "nl": "Ik verdien family zonder iets te hoeven bewijzen.",
+        "es": "Merezco family sin necesidad de demostrar nada.",
+        "de": "Ich verdiene family, ohne etwas beweisen zu müssen.",
+        "it": "Merito family senza dover dimostrare nulla.",
+        "ru": "Я достоин family, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan family tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、familyに値します。",
+        "th": "ฉันคู่ควรกับfamilyโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh family tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let family grow from patience, not pressure.",
+        "tr": "aile sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse family grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo family crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat family groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que family crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse family aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che family cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю family расти из терпения, а не из давления.",
+        "id": "Aku membiarkan family tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はfamilyを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้familyเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan family tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to family when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde aile ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à family quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a family quando preciso me firmar.",
+        "nl": "Ik keer terug naar family wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a family cuando necesito estabilizarme.",
+        "de": "Ich kehre zu family zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a family quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к family, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke family saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、familyに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาfamily",
+        "ms": "Saya kembali kepada family apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let family soften my inner pressure.",
+        "tr": "İçimdeki baskıyı aile ile yumuşatıyorum.",
+        "fr": "Je laisse family adoucir ma pression intérieure.",
+        "pt": "Deixo family suavizar minha pressão interna.",
+        "nl": "Ik laat family mijn innerlijke druk verzachten.",
+        "es": "Dejo que family suavice mi presión interna.",
+        "de": "Ich lasse family meinen inneren Druck weicher machen.",
+        "it": "Lascio che family ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю family смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan family melembutkan tekanan batinku.",
+        "ja": "familyが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้familyช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan family melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that family can be gentle and real.",
+        "tr": "aile konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que family peut être doux et vrai.",
+        "pt": "Confio que family pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat family zacht en echt kan zijn.",
+        "es": "Confío en que family puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass family sanft und echt sein kann.",
+        "it": "Mi fido del fatto che family possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что family может быть мягким и настоящим.",
+        "id": "Aku percaya family bisa lembut dan nyata.",
+        "ja": "familyはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าfamilyสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya family boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give family a little more room each day.",
+        "tr": "Her gün aile için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à family chaque jour.",
+        "pt": "Dou um pouco mais de espaço para family a cada dia.",
+        "nl": "Ik geef family elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a family cada día.",
+        "de": "Ich gebe family jeden Tag ein wenig mehr Raum.",
+        "it": "Do a family un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю family чуть больше места.",
+        "id": "Setiap hari aku memberi family sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、familyのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับfamilyมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi family sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold family without forcing it.",
+        "tr": "aile ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir family sans forcer.",
+        "pt": "Estou aprendendo a sustentar family sem forçar.",
+        "nl": "Ik leer family te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener family sin forzar.",
+        "de": "Ich lerne, family zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere family senza forzare.",
+        "ru": "Я учусь удерживать family без принуждения.",
+        "id": "Aku belajar memegang family tanpa memaksa.",
+        "ja": "familyを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองfamilyโดยไม่บังคับ",
+        "ms": "Saya belajar memegang family tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by family where I am today.",
+        "tr": "Bugün olduğum yerde aile beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, family me rejoint.",
+        "pt": "Onde estou hoje, family me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet family mij.",
+        "es": "Donde estoy hoy, family me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir family.",
+        "it": "Dove sono oggi, family mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает family.",
+        "id": "Di tempatku hari ini, family menemuiku.",
+        "ja": "今日の私がいる場所で、familyが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ familyอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, family menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice family in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte aile fark ediyorum.",
+        "fr": "Je remarque family dans le calme entre les moments.",
+        "pt": "Percebo family na calma entre os momentos.",
+        "nl": "Ik merk family op in de rust tussen momenten.",
+        "es": "Noto family en la calma entre momentos.",
+        "de": "Ich bemerke family in der Ruhe zwischen den Momenten.",
+        "it": "Noto family nella calma tra i momenti.",
+        "ru": "Я замечаю family в тишине между моментами.",
+        "id": "Aku menyadari family dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにfamilyを感じます。",
+        "th": "ฉันสังเกตfamilyในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari family dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_99",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow family to grow quietly in the background.",
+        "tr": "aile sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse family grandir doucement en arrière-plan.",
+        "pt": "Deixo family crescer em silêncio ao fundo.",
+        "nl": "Ik laat family stil op de achtergrond groeien.",
+        "es": "Dejo que family crezca en silencio de fondo.",
+        "de": "Ich lasse family leise im Hintergrund wachsen.",
+        "it": "Lascio che family cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю family тихо расти на заднем плане.",
+        "id": "Aku membiarkan family tumbuh perlahan di latar belakang.",
+        "ja": "familyが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้familyเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan family berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_100",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose family with care, not hurry.",
+        "tr": "Acele etmeden, özenle aile seçiyorum.",
+        "fr": "Je choisis family avec soin, sans hâte.",
+        "pt": "Escolho family com cuidado, sem pressa.",
+        "nl": "Ik kies family met zorg, niet met haast.",
+        "es": "Elijo family con cuidado, no con prisa.",
+        "de": "Ich wähle family mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo family con cura, non con fretta.",
+        "ru": "Я выбираю family с заботой, а не в спешке.",
+        "id": "Aku memilih family dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にfamilyを選びます。",
+        "th": "ฉันเลือกfamilyอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih family dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    },
+    {
+      "id": "family_101",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep family close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken aile ile yakın kalıyorum.",
+        "fr": "Je garde family près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho family por perto quando minha mente fica agitada.",
+        "nl": "Ik houd family dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo family cerca cuando mi mente está inquieta.",
+        "de": "Ich halte family nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo family vicino quando la mia mente è agitata.",
+        "ru": "Я держу family рядом, когда ум занят.",
+        "id": "Aku menjaga family tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもfamilyをそばに置きます。",
+        "th": "ฉันเก็บfamilyไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan family dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "readTime": "0"
+    }
   ]
-} 
+}

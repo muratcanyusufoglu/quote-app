@@ -1,7 +1,7 @@
 {
   "categoryId": "gratitude",
   "quotes": [
-        {
+    {
       "id": "gra_001",
       "texts": {
         "en": "Gratitude turns what we have into enough.",
@@ -35,19 +35,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["appreciation", "contentment", "abundance"],
-        "tr": ["takdir", "memnuniyet", "bolluk"],
-        "fr": ["appréciation", "contentement", "abondance"],
-        "pt": ["apreciação", "contentamento", "abundância"],
-        "nl": ["waardering", "tevredenheid", "overvloed"],
-        "es": ["apreciación", "contento", "abundancia"],
-        "de": ["Wertschätzung", "Zufriedenheit", "Fülle"],
-        "it": ["apprezzamento", "contentezza", "abbondanza"],
-        "ru": ["признательность", "удовлетворенность", "изобилие"],
-        "id": ["penghargaan", "kepuasan", "kelimpahan"],
-        "ja": ["感謝", "満足", "豊かさ"],
-        "th": ["การขอบคุณ", "ความพึงพอใจ", "ความอุดมสมบูรณ์"],
-        "ms": ["penghargaan", "kepuasan", "kelimpahan"]
+        "en": [
+          "appreciation",
+          "contentment",
+          "abundance"
+        ],
+        "tr": [
+          "takdir",
+          "memnuniyet",
+          "bolluk"
+        ],
+        "fr": [
+          "appréciation",
+          "contentement",
+          "abondance"
+        ],
+        "pt": [
+          "apreciação",
+          "contentamento",
+          "abundância"
+        ],
+        "nl": [
+          "waardering",
+          "tevredenheid",
+          "overvloed"
+        ],
+        "es": [
+          "apreciación",
+          "contento",
+          "abundancia"
+        ],
+        "de": [
+          "Wertschätzung",
+          "Zufriedenheit",
+          "Fülle"
+        ],
+        "it": [
+          "apprezzamento",
+          "contentezza",
+          "abbondanza"
+        ],
+        "ru": [
+          "признательность",
+          "удовлетворенность",
+          "изобилие"
+        ],
+        "id": [
+          "penghargaan",
+          "kepuasan",
+          "kelimpahan"
+        ],
+        "ja": [
+          "感謝",
+          "満足",
+          "豊かさ"
+        ],
+        "th": [
+          "การขอบคุณ",
+          "ความพึงพอใจ",
+          "ความอุดมสมบูรณ์"
+        ],
+        "ms": [
+          "penghargaan",
+          "kepuasan",
+          "kelimpahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -165,19 +217,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["appreciation", "body", "capability"],
-        "tr": ["takdir", "beden", "yetenek"],
-        "fr": ["appréciation", "corps", "capacité"],
-        "pt": ["apreciação", "corpo", "capacidade"],
-        "nl": ["waardering", "lichaam", "vermogen"],
-        "es": ["apreciación", "cuerpo", "capacidad"],
-        "de": ["Wertschätzung", "Körper", "Fähigkeit"],
-        "it": ["apprezzamento", "corpo", "capacità"],
-        "ru": ["признательность", "тело", "способность"],
-        "id": ["penghargaan", "tubuh", "kemampuan"],
-        "ja": ["感謝", "身体", "能力"],
-        "th": ["การขอบคุณ", "ร่างกาย", "ความสามารถ"],
-        "ms": ["penghargaan", "badan", "keupayaan"]
+        "en": [
+          "appreciation",
+          "body",
+          "capability"
+        ],
+        "tr": [
+          "takdir",
+          "beden",
+          "yetenek"
+        ],
+        "fr": [
+          "appréciation",
+          "corps",
+          "capacité"
+        ],
+        "pt": [
+          "apreciação",
+          "corpo",
+          "capacidade"
+        ],
+        "nl": [
+          "waardering",
+          "lichaam",
+          "vermogen"
+        ],
+        "es": [
+          "apreciación",
+          "cuerpo",
+          "capacidad"
+        ],
+        "de": [
+          "Wertschätzung",
+          "Körper",
+          "Fähigkeit"
+        ],
+        "it": [
+          "apprezzamento",
+          "corpo",
+          "capacità"
+        ],
+        "ru": [
+          "признательность",
+          "тело",
+          "способность"
+        ],
+        "id": [
+          "penghargaan",
+          "tubuh",
+          "kemampuan"
+        ],
+        "ja": [
+          "感謝",
+          "身体",
+          "能力"
+        ],
+        "th": [
+          "การขอบคุณ",
+          "ร่างกาย",
+          "ความสามารถ"
+        ],
+        "ms": [
+          "penghargaan",
+          "badan",
+          "keupayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -295,19 +399,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["reflection", "appreciation", "perspective"],
-        "tr": ["düşünce", "takdir", "bakış açısı"],
-        "fr": ["réflexion", "appréciation", "perspective"],
-        "pt": ["reflexão", "apreciação", "perspectiva"],
-        "nl": ["reflectie", "waardering", "perspectief"],
-        "es": ["reflexión", "apreciación", "perspectiva"],
-        "de": ["Reflexion", "Wertschätzung", "Perspektive"],
-        "it": ["riflessione", "apprezzamento", "prospettiva"],
-        "ru": ["размышление", "признательность", "перспектива"],
-        "id": ["refleksi", "penghargaan", "perspektif"],
-        "ja": ["反省", "感謝", "視点"],
-        "th": ["การไตร่ตรอง", "การขอบคุณ", "มุมมอง"],
-        "ms": ["refleksi", "penghargaan", "perspektif"]
+        "en": [
+          "reflection",
+          "appreciation",
+          "perspective"
+        ],
+        "tr": [
+          "düşünce",
+          "takdir",
+          "bakış açısı"
+        ],
+        "fr": [
+          "réflexion",
+          "appréciation",
+          "perspective"
+        ],
+        "pt": [
+          "reflexão",
+          "apreciação",
+          "perspectiva"
+        ],
+        "nl": [
+          "reflectie",
+          "waardering",
+          "perspectief"
+        ],
+        "es": [
+          "reflexión",
+          "apreciación",
+          "perspectiva"
+        ],
+        "de": [
+          "Reflexion",
+          "Wertschätzung",
+          "Perspektive"
+        ],
+        "it": [
+          "riflessione",
+          "apprezzamento",
+          "prospettiva"
+        ],
+        "ru": [
+          "размышление",
+          "признательность",
+          "перспектива"
+        ],
+        "id": [
+          "refleksi",
+          "penghargaan",
+          "perspektif"
+        ],
+        "ja": [
+          "反省",
+          "感謝",
+          "視点"
+        ],
+        "th": [
+          "การไตร่ตรอง",
+          "การขอบคุณ",
+          "มุมมอง"
+        ],
+        "ms": [
+          "refleksi",
+          "penghargaan",
+          "perspektif"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -425,19 +581,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["practice", "habits", "research"],
-        "tr": ["pratik", "alışkanlıklar", "araştırma"],
-        "fr": ["pratique", "habitudes", "recherche"],
-        "pt": ["prática", "hábitos", "pesquisa"],
-        "nl": ["oefening", "gewoonten", "onderzoek"],
-        "es": ["práctica", "hábitos", "investigación"],
-        "de": ["Praxis", "Gewohnheiten", "Forschung"],
-        "it": ["pratica", "abitudini", "ricerca"],
-        "ru": ["практика", "привычки", "исследование"],
-        "id": ["latihan", "kebiasaan", "penelitian"],
-        "ja": ["実践", "習慣", "研究"],
-        "th": ["การปฏิบัติ", "นิสัย", "การวิจัย"],
-        "ms": ["amalan", "tabiat", "penyelidikan"]
+        "en": [
+          "practice",
+          "habits",
+          "research"
+        ],
+        "tr": [
+          "pratik",
+          "alışkanlıklar",
+          "araştırma"
+        ],
+        "fr": [
+          "pratique",
+          "habitudes",
+          "recherche"
+        ],
+        "pt": [
+          "prática",
+          "hábitos",
+          "pesquisa"
+        ],
+        "nl": [
+          "oefening",
+          "gewoonten",
+          "onderzoek"
+        ],
+        "es": [
+          "práctica",
+          "hábitos",
+          "investigación"
+        ],
+        "de": [
+          "Praxis",
+          "Gewohnheiten",
+          "Forschung"
+        ],
+        "it": [
+          "pratica",
+          "abitudini",
+          "ricerca"
+        ],
+        "ru": [
+          "практика",
+          "привычки",
+          "исследование"
+        ],
+        "id": [
+          "latihan",
+          "kebiasaan",
+          "penelitian"
+        ],
+        "ja": [
+          "実践",
+          "習慣",
+          "研究"
+        ],
+        "th": [
+          "การปฏิบัติ",
+          "นิสัย",
+          "การวิจัย"
+        ],
+        "ms": [
+          "amalan",
+          "tabiat",
+          "penyelidikan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -555,19 +763,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["mindfulness", "abundance", "foundation"],
-        "tr": ["farkındalık", "bolluk", "temel"],
-        "fr": ["pleine conscience", "abondance", "fondation"],
-        "pt": ["atenção plena", "abundância", "fundação"],
-        "nl": ["mindfulness", "overvloed", "fundament"],
-        "es": ["atención plena", "abundancia", "fundamento"],
-        "de": ["Achtsamkeit", "Fülle", "Grundlage"],
-        "it": ["consapevolezza", "abbondanza", "fondamento"],
-        "ru": ["осознанность", "изобилие", "основа"],
-        "id": ["kesadaran", "kelimpahan", "dasar"],
-        "ja": ["マインドフルネス", "豊かさ", "基盤"],
-        "th": ["สติ", "ความอุดมสมบูรณ์", "รากฐาน"],
-        "ms": ["kesedaran", "kelimpahan", "asas"]
+        "en": [
+          "mindfulness",
+          "abundance",
+          "foundation"
+        ],
+        "tr": [
+          "farkındalık",
+          "bolluk",
+          "temel"
+        ],
+        "fr": [
+          "pleine conscience",
+          "abondance",
+          "fondation"
+        ],
+        "pt": [
+          "atenção plena",
+          "abundância",
+          "fundação"
+        ],
+        "nl": [
+          "mindfulness",
+          "overvloed",
+          "fundament"
+        ],
+        "es": [
+          "atención plena",
+          "abundancia",
+          "fundamento"
+        ],
+        "de": [
+          "Achtsamkeit",
+          "Fülle",
+          "Grundlage"
+        ],
+        "it": [
+          "consapevolezza",
+          "abbondanza",
+          "fondamento"
+        ],
+        "ru": [
+          "осознанность",
+          "изобилие",
+          "основа"
+        ],
+        "id": [
+          "kesadaran",
+          "kelimpahan",
+          "dasar"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "豊かさ",
+          "基盤"
+        ],
+        "th": [
+          "สติ",
+          "ความอุดมสมบูรณ์",
+          "รากฐาน"
+        ],
+        "ms": [
+          "kesedaran",
+          "kelimpahan",
+          "asas"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -651,7 +911,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_006",
       "texts": {
         "en": "Gratitude is a powerful catalyst for happiness. It's the spark that lights a fire of joy in your soul.",
@@ -685,19 +945,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["happiness", "joy", "catalyst"],
-        "tr": ["mutluluk", "neşe", "katalizör"],
-        "fr": ["bonheur", "joie", "catalyseur"],
-        "pt": ["felicidade", "alegria", "catalisador"],
-        "nl": ["geluk", "vreugde", "katalysator"],
-        "es": ["felicidad", "alegría", "catalizador"],
-        "de": ["Glück", "Freude", "Katalysator"],
-        "it": ["felicità", "gioia", "catalizzatore"],
-        "ru": ["счастье", "радость", "катализатор"],
-        "id": ["kebahagiaan", "kegembiraan", "katalis"],
-        "ja": ["幸福", "喜び", "触媒"],
-        "th": ["ความสุข", "ความยินดี", "ตัวเร่งปฏิกิริยา"],
-        "ms": ["kebahagiaan", "kegembiraan", "pemangkin"]
+        "en": [
+          "happiness",
+          "joy",
+          "catalyst"
+        ],
+        "tr": [
+          "mutluluk",
+          "neşe",
+          "katalizör"
+        ],
+        "fr": [
+          "bonheur",
+          "joie",
+          "catalyseur"
+        ],
+        "pt": [
+          "felicidade",
+          "alegria",
+          "catalisador"
+        ],
+        "nl": [
+          "geluk",
+          "vreugde",
+          "katalysator"
+        ],
+        "es": [
+          "felicidad",
+          "alegría",
+          "catalizador"
+        ],
+        "de": [
+          "Glück",
+          "Freude",
+          "Katalysator"
+        ],
+        "it": [
+          "felicità",
+          "gioia",
+          "catalizzatore"
+        ],
+        "ru": [
+          "счастье",
+          "радость",
+          "катализатор"
+        ],
+        "id": [
+          "kebahagiaan",
+          "kegembiraan",
+          "katalis"
+        ],
+        "ja": [
+          "幸福",
+          "喜び",
+          "触媒"
+        ],
+        "th": [
+          "ความสุข",
+          "ความยินดี",
+          "ตัวเร่งปฏิกิริยา"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "kegembiraan",
+          "pemangkin"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -815,19 +1127,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["poetry", "spirituality", "life"],
-        "tr": ["şiir", "maneviyat", "hayat"],
-        "fr": ["poésie", "spiritualité", "vie"],
-        "pt": ["poesia", "espiritualidade", "vida"],
-        "nl": ["poëzie", "spiritualiteit", "leven"],
-        "es": ["poesía", "espiritualidad", "vida"],
-        "de": ["Poesie", "Spiritualität", "Leben"],
-        "it": ["poesia", "spiritualità", "vita"],
-        "ru": ["поэзия", "духовность", "жизнь"],
-        "id": ["puisi", "spiritualitas", "kehidupan"],
-        "ja": ["詩", "スピリチュアリティ", "人生"],
-        "th": ["กวีนิพนธ์", "จิตวิญญาณ", "ชีวิต"],
-        "ms": ["puisi", "kerohanian", "kehidupan"]
+        "en": [
+          "poetry",
+          "spirituality",
+          "life"
+        ],
+        "tr": [
+          "şiir",
+          "maneviyat",
+          "hayat"
+        ],
+        "fr": [
+          "poésie",
+          "spiritualité",
+          "vie"
+        ],
+        "pt": [
+          "poesia",
+          "espiritualidade",
+          "vida"
+        ],
+        "nl": [
+          "poëzie",
+          "spiritualiteit",
+          "leven"
+        ],
+        "es": [
+          "poesía",
+          "espiritualidad",
+          "vida"
+        ],
+        "de": [
+          "Poesie",
+          "Spiritualität",
+          "Leben"
+        ],
+        "it": [
+          "poesia",
+          "spiritualità",
+          "vita"
+        ],
+        "ru": [
+          "поэзия",
+          "духовность",
+          "жизнь"
+        ],
+        "id": [
+          "puisi",
+          "spiritualitas",
+          "kehidupan"
+        ],
+        "ja": [
+          "詩",
+          "スピリチュアリティ",
+          "人生"
+        ],
+        "th": [
+          "กวีนิพนธ์",
+          "จิตวิญญาณ",
+          "ชีวิต"
+        ],
+        "ms": [
+          "puisi",
+          "kerohanian",
+          "kehidupan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -945,19 +1309,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["love", "disappointment", "focus"],
-        "tr": ["sevgi", "hayal kırıklığı", "odak"],
-        "fr": ["amour", "déception", "concentration"],
-        "pt": ["amor", "decepção", "foco"],
-        "nl": ["liefde", "teleurstelling", "focus"],
-        "es": ["amor", "decepción", "enfoque"],
-        "de": ["Liebe", "Enttäuschung", "Fokus"],
-        "it": ["amore", "delusione", "concentrazione"],
-        "ru": ["любовь", "разочарование", "фокус"],
-        "id": ["cinta", "kekecewaan", "fokus"],
-        "ja": ["愛", "失望", "焦点"],
-        "th": ["ความรัก", "ความผิดหวัง", "โฟกัส"],
-        "ms": ["cinta", "kekecewaan", "fokus"]
+        "en": [
+          "love",
+          "disappointment",
+          "focus"
+        ],
+        "tr": [
+          "sevgi",
+          "hayal kırıklığı",
+          "odak"
+        ],
+        "fr": [
+          "amour",
+          "déception",
+          "concentration"
+        ],
+        "pt": [
+          "amor",
+          "decepção",
+          "foco"
+        ],
+        "nl": [
+          "liefde",
+          "teleurstelling",
+          "focus"
+        ],
+        "es": [
+          "amor",
+          "decepción",
+          "enfoque"
+        ],
+        "de": [
+          "Liebe",
+          "Enttäuschung",
+          "Fokus"
+        ],
+        "it": [
+          "amore",
+          "delusione",
+          "concentrazione"
+        ],
+        "ru": [
+          "любовь",
+          "разочарование",
+          "фокус"
+        ],
+        "id": [
+          "cinta",
+          "kekecewaan",
+          "fokus"
+        ],
+        "ja": [
+          "愛",
+          "失望",
+          "焦点"
+        ],
+        "th": [
+          "ความรัก",
+          "ความผิดหวัง",
+          "โฟกัส"
+        ],
+        "ms": [
+          "cinta",
+          "kekecewaan",
+          "fokus"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1075,19 +1491,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["emotion", "abundance", "expression"],
-        "tr": ["duygu", "bolluk", "ifade"],
-        "fr": ["émotion", "abondance", "expression"],
-        "pt": ["emoção", "abundância", "expressão"],
-        "nl": ["emotie", "overvloed", "uitdrukking"],
-        "es": ["emoción", "abundancia", "expresión"],
-        "de": ["Emotion", "Fülle", "Ausdruck"],
-        "it": ["emozione", "abbondanza", "espressione"],
-        "ru": ["эмоция", "изобилие", "выражение"],
-        "id": ["emosi", "kelimpahan", "ekspresi"],
-        "ja": ["感情", "豊かさ", "表現"],
-        "th": ["อารมณ์", "ความอุดมสมบูรณ์", "การแสดงออก"],
-        "ms": ["emosi", "kelimpahan", "ekspresi"]
+        "en": [
+          "emotion",
+          "abundance",
+          "expression"
+        ],
+        "tr": [
+          "duygu",
+          "bolluk",
+          "ifade"
+        ],
+        "fr": [
+          "émotion",
+          "abondance",
+          "expression"
+        ],
+        "pt": [
+          "emoção",
+          "abundância",
+          "expressão"
+        ],
+        "nl": [
+          "emotie",
+          "overvloed",
+          "uitdrukking"
+        ],
+        "es": [
+          "emoción",
+          "abundancia",
+          "expresión"
+        ],
+        "de": [
+          "Emotion",
+          "Fülle",
+          "Ausdruck"
+        ],
+        "it": [
+          "emozione",
+          "abbondanza",
+          "espressione"
+        ],
+        "ru": [
+          "эмоция",
+          "изобилие",
+          "выражение"
+        ],
+        "id": [
+          "emosi",
+          "kelimpahan",
+          "ekspresi"
+        ],
+        "ja": [
+          "感情",
+          "豊かさ",
+          "表現"
+        ],
+        "th": [
+          "อารมณ์",
+          "ความอุดมสมบูรณ์",
+          "การแสดงออก"
+        ],
+        "ms": [
+          "emosi",
+          "kelimpahan",
+          "ekspresi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1205,19 +1673,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["relationships", "happiness", "metaphor"],
-        "tr": ["ilişkiler", "mutluluk", "metafor"],
-        "fr": ["relations", "bonheur", "métaphore"],
-        "pt": ["relacionamentos", "felicidade", "metáfora"],
-        "nl": ["relaties", "geluk", "metafoor"],
-        "es": ["relaciones", "felicidad", "metáfora"],
-        "de": ["Beziehungen", "Glück", "Metapher"],
-        "it": ["relazioni", "felicità", "metafora"],
-        "ru": ["отношения", "счастье", "метафора"],
-        "id": ["hubungan", "kebahagiaan", "metafora"],
-        "ja": ["関係", "幸福", "メタファー"],
-        "th": ["ความสัมพันธ์", "ความสุข", "อุปมา"],
-        "ms": ["hubungan", "kebahagiaan", "metafora"]
+        "en": [
+          "relationships",
+          "happiness",
+          "metaphor"
+        ],
+        "tr": [
+          "ilişkiler",
+          "mutluluk",
+          "metafor"
+        ],
+        "fr": [
+          "relations",
+          "bonheur",
+          "métaphore"
+        ],
+        "pt": [
+          "relacionamentos",
+          "felicidade",
+          "metáfora"
+        ],
+        "nl": [
+          "relaties",
+          "geluk",
+          "metafoor"
+        ],
+        "es": [
+          "relaciones",
+          "felicidad",
+          "metáfora"
+        ],
+        "de": [
+          "Beziehungen",
+          "Glück",
+          "Metapher"
+        ],
+        "it": [
+          "relazioni",
+          "felicità",
+          "metafora"
+        ],
+        "ru": [
+          "отношения",
+          "счастье",
+          "метафора"
+        ],
+        "id": [
+          "hubungan",
+          "kebahagiaan",
+          "metafora"
+        ],
+        "ja": [
+          "関係",
+          "幸福",
+          "メタファー"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "ความสุข",
+          "อุปมา"
+        ],
+        "ms": [
+          "hubungan",
+          "kebahagiaan",
+          "metafora"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1301,7 +1821,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_011",
       "texts": {
         "en": "Gratitude turns the ordinary into moments of eternal renewal.",
@@ -1335,19 +1855,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["renewal", "perspective", "transformation"],
-        "tr": ["yenilenme", "bakış açısı", "dönüşüm"],
-        "fr": ["renouveau", "perspective", "transformation"],
-        "pt": ["renovação", "perspectiva", "transformação"],
-        "nl": ["vernieuwing", "perspectief", "transformatie"],
-        "es": ["renovación", "perspectiva", "transformación"],
-        "de": ["Erneuerung", "Perspektive", "Transformation"],
-        "it": ["rinnovamento", "prospettiva", "trasformazione"],
-        "ru": ["обновление", "перспектива", "трансформация"],
-        "id": ["pembaruan", "perspektif", "transformasi"],
-        "ja": ["再生", "視点", "変革"],
-        "th": ["การฟื้นฟู", "มุมมอง", "การเปลี่ยนแปลง"],
-        "ms": ["pembaharuan", "perspektif", "transformasi"]
+        "en": [
+          "renewal",
+          "perspective",
+          "transformation"
+        ],
+        "tr": [
+          "yenilenme",
+          "bakış açısı",
+          "dönüşüm"
+        ],
+        "fr": [
+          "renouveau",
+          "perspective",
+          "transformation"
+        ],
+        "pt": [
+          "renovação",
+          "perspectiva",
+          "transformação"
+        ],
+        "nl": [
+          "vernieuwing",
+          "perspectief",
+          "transformatie"
+        ],
+        "es": [
+          "renovación",
+          "perspectiva",
+          "transformación"
+        ],
+        "de": [
+          "Erneuerung",
+          "Perspektive",
+          "Transformation"
+        ],
+        "it": [
+          "rinnovamento",
+          "prospettiva",
+          "trasformazione"
+        ],
+        "ru": [
+          "обновление",
+          "перспектива",
+          "трансформация"
+        ],
+        "id": [
+          "pembaruan",
+          "perspektif",
+          "transformasi"
+        ],
+        "ja": [
+          "再生",
+          "視点",
+          "変革"
+        ],
+        "th": [
+          "การฟื้นฟู",
+          "มุมมอง",
+          "การเปลี่ยนแปลง"
+        ],
+        "ms": [
+          "pembaharuan",
+          "perspektif",
+          "transformasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1465,19 +2037,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["strength", "beauty", "simplicity"],
-        "tr": ["güç", "güzellik", "sadelik"],
-        "fr": ["force", "beauté", "simplicité"],
-        "pt": ["força", "beleza", "simplicidade"],
-        "nl": ["kracht", "schoonheid", "eenvoud"],
-        "es": ["fuerza", "belleza", "simplicidad"],
-        "de": ["Kraft", "Schönheit", "Einfachheit"],
-        "it": ["forza", "bellezza", "semplicità"],
-        "ru": ["сила", "красота", "простота"],
-        "id": ["kekuatan", "keindahan", "kesederhanaan"],
-        "ja": ["力", "美", "シンプルさ"],
-        "th": ["พลัง", "ความงาม", "ความเรียบง่าย"],
-        "ms": ["kekuatan", "keindahan", "kesederhanaan"]
+        "en": [
+          "strength",
+          "beauty",
+          "simplicity"
+        ],
+        "tr": [
+          "güç",
+          "güzellik",
+          "sadelik"
+        ],
+        "fr": [
+          "force",
+          "beauté",
+          "simplicité"
+        ],
+        "pt": [
+          "força",
+          "beleza",
+          "simplicidade"
+        ],
+        "nl": [
+          "kracht",
+          "schoonheid",
+          "eenvoud"
+        ],
+        "es": [
+          "fuerza",
+          "belleza",
+          "simplicidad"
+        ],
+        "de": [
+          "Kraft",
+          "Schönheit",
+          "Einfachheit"
+        ],
+        "it": [
+          "forza",
+          "bellezza",
+          "semplicità"
+        ],
+        "ru": [
+          "сила",
+          "красота",
+          "простота"
+        ],
+        "id": [
+          "kekuatan",
+          "keindahan",
+          "kesederhanaan"
+        ],
+        "ja": [
+          "力",
+          "美",
+          "シンプルさ"
+        ],
+        "th": [
+          "พลัง",
+          "ความงาม",
+          "ความเรียบง่าย"
+        ],
+        "ms": [
+          "kekuatan",
+          "keindahan",
+          "kesederhanaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1595,19 +2219,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["heart", "harmony", "existence"],
-        "tr": ["kalp", "uyum", "varoluş"],
-        "fr": ["cœur", "harmonie", "existence"],
-        "pt": ["coração", "harmonia", "existência"],
-        "nl": ["hart", "harmonie", "bestaan"],
-        "es": ["corazón", "armonía", "existencia"],
-        "de": ["Herz", "Harmonie", "Dasein"],
-        "it": ["cuore", "armonia", "esistenza"],
-        "ru": ["сердце", "гармония", "бытие"],
-        "id": ["hati", "harmoni", "keberadaan"],
-        "ja": ["心", "調和", "存在"],
-        "th": ["หัวใจ", "ความกลมกลืน", "การดำรงอยู่"],
-        "ms": ["hati", "harmoni", "kewujudan"]
+        "en": [
+          "heart",
+          "harmony",
+          "existence"
+        ],
+        "tr": [
+          "kalp",
+          "uyum",
+          "varoluş"
+        ],
+        "fr": [
+          "cœur",
+          "harmonie",
+          "existence"
+        ],
+        "pt": [
+          "coração",
+          "harmonia",
+          "existência"
+        ],
+        "nl": [
+          "hart",
+          "harmonie",
+          "bestaan"
+        ],
+        "es": [
+          "corazón",
+          "armonía",
+          "existencia"
+        ],
+        "de": [
+          "Herz",
+          "Harmonie",
+          "Dasein"
+        ],
+        "it": [
+          "cuore",
+          "armonia",
+          "esistenza"
+        ],
+        "ru": [
+          "сердце",
+          "гармония",
+          "бытие"
+        ],
+        "id": [
+          "hati",
+          "harmoni",
+          "keberadaan"
+        ],
+        "ja": [
+          "心",
+          "調和",
+          "存在"
+        ],
+        "th": [
+          "หัวใจ",
+          "ความกลมกลืน",
+          "การดำรงอยู่"
+        ],
+        "ms": [
+          "hati",
+          "harmoni",
+          "kewujudan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1725,19 +2401,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["hope", "resilience", "light"],
-        "tr": ["umut", "direnç", "ışık"],
-        "fr": ["espoir", "résilience", "lumière"],
-        "pt": ["esperança", "resiliência", "luz"],
-        "nl": ["hoop", "veerkracht", "licht"],
-        "es": ["esperanza", "resiliencia", "luz"],
-        "de": ["Hoffnung", "Widerstandsfähigkeit", "Licht"],
-        "it": ["speranza", "resilienza", "luce"],
-        "ru": ["надежда", "устойчивость", "свет"],
-        "id": ["harapan", "ketahanan", "cahaya"],
-        "ja": ["希望", "回復力", "光"],
-        "th": ["ความหวัง", "ความยืดหยุ่น", "แสงสว่าง"],
-        "ms": ["harapan", "ketahanan", "cahaya"]
+        "en": [
+          "hope",
+          "resilience",
+          "light"
+        ],
+        "tr": [
+          "umut",
+          "direnç",
+          "ışık"
+        ],
+        "fr": [
+          "espoir",
+          "résilience",
+          "lumière"
+        ],
+        "pt": [
+          "esperança",
+          "resiliência",
+          "luz"
+        ],
+        "nl": [
+          "hoop",
+          "veerkracht",
+          "licht"
+        ],
+        "es": [
+          "esperanza",
+          "resiliencia",
+          "luz"
+        ],
+        "de": [
+          "Hoffnung",
+          "Widerstandsfähigkeit",
+          "Licht"
+        ],
+        "it": [
+          "speranza",
+          "resilienza",
+          "luce"
+        ],
+        "ru": [
+          "надежда",
+          "устойчивость",
+          "свет"
+        ],
+        "id": [
+          "harapan",
+          "ketahanan",
+          "cahaya"
+        ],
+        "ja": [
+          "希望",
+          "回復力",
+          "光"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความยืดหยุ่น",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "harapan",
+          "ketahanan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1855,19 +2583,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["abundance", "perspective", "color"],
-        "tr": ["bolluk", "bakış açısı", "renk"],
-        "fr": ["abondance", "perspective", "couleur"],
-        "pt": ["abundância", "perspectiva", "cor"],
-        "nl": ["overvloed", "perspectief", "kleur"],
-        "es": ["abundancia", "perspectiva", "color"],
-        "de": ["Überfluss", "Perspektive", "Farbe"],
-        "it": ["abbondanza", "prospettiva", "colore"],
-        "ru": ["изобилие", "перспектива", "цвет"],
-        "id": ["kelimpahan", "perspektif", "warna"],
-        "ja": ["豊かさ", "視点", "色"],
-        "th": ["ความอุดมสมบูรณ์", "มุมมอง", "สีสัน"],
-        "ms": ["kelimpahan", "perspektif", "warna"]
+        "en": [
+          "abundance",
+          "perspective",
+          "color"
+        ],
+        "tr": [
+          "bolluk",
+          "bakış açısı",
+          "renk"
+        ],
+        "fr": [
+          "abondance",
+          "perspective",
+          "couleur"
+        ],
+        "pt": [
+          "abundância",
+          "perspectiva",
+          "cor"
+        ],
+        "nl": [
+          "overvloed",
+          "perspectief",
+          "kleur"
+        ],
+        "es": [
+          "abundancia",
+          "perspectiva",
+          "color"
+        ],
+        "de": [
+          "Überfluss",
+          "Perspektive",
+          "Farbe"
+        ],
+        "it": [
+          "abbondanza",
+          "prospettiva",
+          "colore"
+        ],
+        "ru": [
+          "изобилие",
+          "перспектива",
+          "цвет"
+        ],
+        "id": [
+          "kelimpahan",
+          "perspektif",
+          "warna"
+        ],
+        "ja": [
+          "豊かさ",
+          "視点",
+          "色"
+        ],
+        "th": [
+          "ความอุดมสมบูรณ์",
+          "มุมมอง",
+          "สีสัน"
+        ],
+        "ms": [
+          "kelimpahan",
+          "perspektif",
+          "warna"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -1951,7 +2731,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_016",
       "texts": {
         "en": "Gratitude is the gentle breeze that carries the soul to peace.",
@@ -1985,19 +2765,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["peace", "soul", "tranquility"],
-        "tr": ["huzur", "ruh", "sakinlik"],
-        "fr": ["paix", "âme", "tranquillité"],
-        "pt": ["paz", "alma", "tranquilidade"],
-        "nl": ["vrede", "ziel", "rust"],
-        "es": ["paz", "alma", "tranquilidad"],
-        "de": ["Frieden", "Seele", "Ruhe"],
-        "it": ["pace", "anima", "tranquillità"],
-        "ru": ["покой", "душа", "спокойствие"],
-        "id": ["kedamaian", "jiwa", "ketenangan"],
-        "ja": ["平和", "魂", "静けさ"],
-        "th": ["ความสงบ", "ดวงวิญญาณ", "ความเงียบสงบ"],
-        "ms": ["kedamaian", "jiwa", "ketenangan"]
+        "en": [
+          "peace",
+          "soul",
+          "tranquility"
+        ],
+        "tr": [
+          "huzur",
+          "ruh",
+          "sakinlik"
+        ],
+        "fr": [
+          "paix",
+          "âme",
+          "tranquillité"
+        ],
+        "pt": [
+          "paz",
+          "alma",
+          "tranquilidade"
+        ],
+        "nl": [
+          "vrede",
+          "ziel",
+          "rust"
+        ],
+        "es": [
+          "paz",
+          "alma",
+          "tranquilidad"
+        ],
+        "de": [
+          "Frieden",
+          "Seele",
+          "Ruhe"
+        ],
+        "it": [
+          "pace",
+          "anima",
+          "tranquillità"
+        ],
+        "ru": [
+          "покой",
+          "душа",
+          "спокойствие"
+        ],
+        "id": [
+          "kedamaian",
+          "jiwa",
+          "ketenangan"
+        ],
+        "ja": [
+          "平和",
+          "魂",
+          "静けさ"
+        ],
+        "th": [
+          "ความสงบ",
+          "ดวงวิญญาณ",
+          "ความเงียบสงบ"
+        ],
+        "ms": [
+          "kedamaian",
+          "jiwa",
+          "ketenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2115,19 +2947,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "movement", "celebration"],
-        "tr": ["neşe", "hareket", "kutlama"],
-        "fr": ["joie", "mouvement", "célébration"],
-        "pt": ["alegria", "movimento", "celebração"],
-        "nl": ["vreugde", "beweging", "viering"],
-        "es": ["alegría", "movimiento", "celebración"],
-        "de": ["Freude", "Bewegung", "Feier"],
-        "it": ["gioia", "movimento", "celebrazione"],
-        "ru": ["радость", "движение", "празднование"],
-        "id": ["kegembiraan", "gerakan", "perayaan"],
-        "ja": ["喜び", "動き", "祝賀"],
-        "th": ["ความสุข", "การเคลื่อนไหว", "การเฉลิมฉลอง"],
-        "ms": ["kegembiraan", "pergerakan", "perayaan"]
+        "en": [
+          "joy",
+          "movement",
+          "celebration"
+        ],
+        "tr": [
+          "neşe",
+          "hareket",
+          "kutlama"
+        ],
+        "fr": [
+          "joie",
+          "mouvement",
+          "célébration"
+        ],
+        "pt": [
+          "alegria",
+          "movimento",
+          "celebração"
+        ],
+        "nl": [
+          "vreugde",
+          "beweging",
+          "viering"
+        ],
+        "es": [
+          "alegría",
+          "movimiento",
+          "celebración"
+        ],
+        "de": [
+          "Freude",
+          "Bewegung",
+          "Feier"
+        ],
+        "it": [
+          "gioia",
+          "movimento",
+          "celebrazione"
+        ],
+        "ru": [
+          "радость",
+          "движение",
+          "празднование"
+        ],
+        "id": [
+          "kegembiraan",
+          "gerakan",
+          "perayaan"
+        ],
+        "ja": [
+          "喜び",
+          "動き",
+          "祝賀"
+        ],
+        "th": [
+          "ความสุข",
+          "การเคลื่อนไหว",
+          "การเฉลิมฉลอง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "pergerakan",
+          "perayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2245,19 +3129,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["contentment", "growth", "nurture"],
-        "tr": ["memnuniyet", "büyüme", "besleme"],
-        "fr": ["contentement", "croissance", "nourriture"],
-        "pt": ["contentamento", "crescimento", "nutrição"],
-        "nl": ["tevredenheid", "groei", "voeding"],
-        "es": ["satisfacción", "crecimiento", "nutrición"],
-        "de": ["Zufriedenheit", "Wachstum", "Pflege"],
-        "it": ["contentezza", "crescita", "nutrimento"],
-        "ru": ["удовлетворенность", "рост", "питание"],
-        "id": ["kepuasan", "pertumbuhan", "pemeliharaan"],
-        "ja": ["満足", "成長", "育成"],
-        "th": ["ความพึงพอใจ", "การเติบโต", "การบำรุง"],
-        "ms": ["kepuasan", "pertumbuhan", "pemeliharaan"]
+        "en": [
+          "contentment",
+          "growth",
+          "nurture"
+        ],
+        "tr": [
+          "memnuniyet",
+          "büyüme",
+          "besleme"
+        ],
+        "fr": [
+          "contentement",
+          "croissance",
+          "nourriture"
+        ],
+        "pt": [
+          "contentamento",
+          "crescimento",
+          "nutrição"
+        ],
+        "nl": [
+          "tevredenheid",
+          "groei",
+          "voeding"
+        ],
+        "es": [
+          "satisfacción",
+          "crecimiento",
+          "nutrición"
+        ],
+        "de": [
+          "Zufriedenheit",
+          "Wachstum",
+          "Pflege"
+        ],
+        "it": [
+          "contentezza",
+          "crescita",
+          "nutrimento"
+        ],
+        "ru": [
+          "удовлетворенность",
+          "рост",
+          "питание"
+        ],
+        "id": [
+          "kepuasan",
+          "pertumbuhan",
+          "pemeliharaan"
+        ],
+        "ja": [
+          "満足",
+          "成長",
+          "育成"
+        ],
+        "th": [
+          "ความพึงพอใจ",
+          "การเติบโต",
+          "การบำรุง"
+        ],
+        "ms": [
+          "kepuasan",
+          "pertumbuhan",
+          "pemeliharaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2375,19 +3311,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["hope", "resilience", "connection"],
-        "tr": ["umut", "direnç", "bağlantı"],
-        "fr": ["espoir", "résilience", "connexion"],
-        "pt": ["esperança", "resiliência", "conexão"],
-        "nl": ["hoop", "veerkracht", "verbinding"],
-        "es": ["esperanza", "resiliencia", "conexión"],
-        "de": ["Hoffnung", "Widerstandsfähigkeit", "Verbindung"],
-        "it": ["speranza", "resilienza", "connessione"],
-        "ru": ["надежда", "устойчивость", "связь"],
-        "id": ["harapan", "ketahanan", "koneksi"],
-        "ja": ["希望", "回復力", "つながり"],
-        "th": ["ความหวัง", "ความยืดหยุ่น", "การเชื่อมโยง"],
-        "ms": ["harapan", "ketahanan", "hubungan"]
+        "en": [
+          "hope",
+          "resilience",
+          "connection"
+        ],
+        "tr": [
+          "umut",
+          "direnç",
+          "bağlantı"
+        ],
+        "fr": [
+          "espoir",
+          "résilience",
+          "connexion"
+        ],
+        "pt": [
+          "esperança",
+          "resiliência",
+          "conexão"
+        ],
+        "nl": [
+          "hoop",
+          "veerkracht",
+          "verbinding"
+        ],
+        "es": [
+          "esperanza",
+          "resiliencia",
+          "conexión"
+        ],
+        "de": [
+          "Hoffnung",
+          "Widerstandsfähigkeit",
+          "Verbindung"
+        ],
+        "it": [
+          "speranza",
+          "resilienza",
+          "connessione"
+        ],
+        "ru": [
+          "надежда",
+          "устойчивость",
+          "связь"
+        ],
+        "id": [
+          "harapan",
+          "ketahanan",
+          "koneksi"
+        ],
+        "ja": [
+          "希望",
+          "回復力",
+          "つながり"
+        ],
+        "th": [
+          "ความหวัง",
+          "ความยืดหยุ่น",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "harapan",
+          "ketahanan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2505,19 +3493,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["guidance", "journey", "clarity"],
-        "tr": ["rehberlik", "yolculuk", "berraklık"],
-        "fr": ["guidance", "voyage", "clarté"],
-        "pt": ["orientação", "jornada", "clareza"],
-        "nl": ["begeleiding", "reis", "helderheid"],
-        "es": ["guía", "viaje", "claridad"],
-        "de": ["Führung", "Reise", "Klarheit"],
-        "it": ["guida", "viaggio", "chiarezza"],
-        "ru": ["руководство", "путешествие", "ясность"],
-        "id": ["panduan", "perjalanan", "kejelasan"],
-        "ja": ["指導", "旅", "明瞭さ"],
-        "th": ["การนำทาง", "การเดินทาง", "ความชัดเจน"],
-        "ms": ["panduan", "perjalanan", "kejelasan"]
+        "en": [
+          "guidance",
+          "journey",
+          "clarity"
+        ],
+        "tr": [
+          "rehberlik",
+          "yolculuk",
+          "berraklık"
+        ],
+        "fr": [
+          "guidance",
+          "voyage",
+          "clarté"
+        ],
+        "pt": [
+          "orientação",
+          "jornada",
+          "clareza"
+        ],
+        "nl": [
+          "begeleiding",
+          "reis",
+          "helderheid"
+        ],
+        "es": [
+          "guía",
+          "viaje",
+          "claridad"
+        ],
+        "de": [
+          "Führung",
+          "Reise",
+          "Klarheit"
+        ],
+        "it": [
+          "guida",
+          "viaggio",
+          "chiarezza"
+        ],
+        "ru": [
+          "руководство",
+          "путешествие",
+          "ясность"
+        ],
+        "id": [
+          "panduan",
+          "perjalanan",
+          "kejelasan"
+        ],
+        "ja": [
+          "指導",
+          "旅",
+          "明瞭さ"
+        ],
+        "th": [
+          "การนำทาง",
+          "การเดินทาง",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "panduan",
+          "perjalanan",
+          "kejelasan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2635,19 +3675,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "nourishment", "growth"],
-        "tr": ["sevinç", "beslenme", "büyüme"],
-        "fr": ["joie", "nourriture", "croissance"],
-        "pt": ["alegria", "nutrição", "crescimento"],
-        "nl": ["vreugde", "voeding", "groei"],
-        "es": ["alegría", "nutrición", "crecimiento"],
-        "de": ["Freude", "Nahrung", "Wachstum"],
-        "it": ["gioia", "nutrimento", "crescita"],
-        "ru": ["радость", "питание", "рост"],
-        "id": ["kebahagiaan", "pemeliharaan", "pertumbuhan"],
-        "ja": ["喜び", "栄養", "成長"],
-        "th": ["ความสุข", "การบำรุง", "การเติบโต"],
-        "ms": ["kegembiraan", "pemeliharaan", "pertumbuhan"]
+        "en": [
+          "joy",
+          "nourishment",
+          "growth"
+        ],
+        "tr": [
+          "sevinç",
+          "beslenme",
+          "büyüme"
+        ],
+        "fr": [
+          "joie",
+          "nourriture",
+          "croissance"
+        ],
+        "pt": [
+          "alegria",
+          "nutrição",
+          "crescimento"
+        ],
+        "nl": [
+          "vreugde",
+          "voeding",
+          "groei"
+        ],
+        "es": [
+          "alegría",
+          "nutrición",
+          "crecimiento"
+        ],
+        "de": [
+          "Freude",
+          "Nahrung",
+          "Wachstum"
+        ],
+        "it": [
+          "gioia",
+          "nutrimento",
+          "crescita"
+        ],
+        "ru": [
+          "радость",
+          "питание",
+          "рост"
+        ],
+        "id": [
+          "kebahagiaan",
+          "pemeliharaan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "喜び",
+          "栄養",
+          "成長"
+        ],
+        "th": [
+          "ความสุข",
+          "การบำรุง",
+          "การเติบโต"
+        ],
+        "ms": [
+          "kegembiraan",
+          "pemeliharaan",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2765,19 +3857,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["hope", "transformation", "sorrow"],
-        "tr": ["umut", "dönüşüm", "keder"],
-        "fr": ["espoir", "transformation", "chagrin"],
-        "pt": ["esperança", "transformação", "tristeza"],
-        "nl": ["hoop", "transformatie", "verdriet"],
-        "es": ["esperanza", "transformación", "tristeza"],
-        "de": ["Hoffnung", "Transformation", "Kummer"],
-        "it": ["speranza", "trasformazione", "dolore"],
-        "ru": ["надежда", "трансформация", "печаль"],
-        "id": ["harapan", "transformasi", "kesedihan"],
-        "ja": ["希望", "変革", "悲しみ"],
-        "th": ["ความหวัง", "การเปลี่ยนแปลง", "ความโศกเศร้า"],
-        "ms": ["harapan", "transformasi", "kesedihan"]
+        "en": [
+          "hope",
+          "transformation",
+          "sorrow"
+        ],
+        "tr": [
+          "umut",
+          "dönüşüm",
+          "keder"
+        ],
+        "fr": [
+          "espoir",
+          "transformation",
+          "chagrin"
+        ],
+        "pt": [
+          "esperança",
+          "transformação",
+          "tristeza"
+        ],
+        "nl": [
+          "hoop",
+          "transformatie",
+          "verdriet"
+        ],
+        "es": [
+          "esperanza",
+          "transformación",
+          "tristeza"
+        ],
+        "de": [
+          "Hoffnung",
+          "Transformation",
+          "Kummer"
+        ],
+        "it": [
+          "speranza",
+          "trasformazione",
+          "dolore"
+        ],
+        "ru": [
+          "надежда",
+          "трансформация",
+          "печаль"
+        ],
+        "id": [
+          "harapan",
+          "transformasi",
+          "kesedihan"
+        ],
+        "ja": [
+          "希望",
+          "変革",
+          "悲しみ"
+        ],
+        "th": [
+          "ความหวัง",
+          "การเปลี่ยนแปลง",
+          "ความโศกเศร้า"
+        ],
+        "ms": [
+          "harapan",
+          "transformasi",
+          "kesedihan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -2895,19 +4039,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["warmth", "comfort", "resilience"],
-        "tr": ["sıcaklık", "rahatlık", "direnç"],
-        "fr": ["chaleur", "réconfort", "résilience"],
-        "pt": ["calor", "conforto", "resiliência"],
-        "nl": ["warmte", "troost", "veerkracht"],
-        "es": ["calor", "consuelo", "resiliencia"],
-        "de": ["Wärme", "Trost", "Widerstandsfähigkeit"],
-        "it": ["calore", "conforto", "resilienza"],
-        "ru": ["тепло", "утешение", "устойчивость"],
-        "id": ["kehangatan", "kenyamanan", "ketahanan"],
-        "ja": ["温かさ", "慰め", "回復力"],
-        "th": ["ความอบอุ่น", "ความปลอบใจ", "ความยืดหยุ่น"],
-        "ms": ["kehangatan", "keselesaan", "ketahanan"]
+        "en": [
+          "warmth",
+          "comfort",
+          "resilience"
+        ],
+        "tr": [
+          "sıcaklık",
+          "rahatlık",
+          "direnç"
+        ],
+        "fr": [
+          "chaleur",
+          "réconfort",
+          "résilience"
+        ],
+        "pt": [
+          "calor",
+          "conforto",
+          "resiliência"
+        ],
+        "nl": [
+          "warmte",
+          "troost",
+          "veerkracht"
+        ],
+        "es": [
+          "calor",
+          "consuelo",
+          "resiliencia"
+        ],
+        "de": [
+          "Wärme",
+          "Trost",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "calore",
+          "conforto",
+          "resilienza"
+        ],
+        "ru": [
+          "тепло",
+          "утешение",
+          "устойчивость"
+        ],
+        "id": [
+          "kehangatan",
+          "kenyamanan",
+          "ketahanan"
+        ],
+        "ja": [
+          "温かさ",
+          "慰め",
+          "回復力"
+        ],
+        "th": [
+          "ความอบอุ่น",
+          "ความปลอบใจ",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "kehangatan",
+          "keselesaan",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3025,19 +4221,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["blessings", "discovery", "abundance"],
-        "tr": ["nimetler", "keşif", "bolluk"],
-        "fr": ["bénédictions", "découverte", "abondance"],
-        "pt": ["bênçãos", "descoberta", "abundância"],
-        "nl": ["zegeningen", "ontdekking", "overvloed"],
-        "es": ["bendiciones", "descubrimiento", "abundancia"],
-        "de": ["Segnungen", "Entdeckung", "Überfluss"],
-        "it": ["benedizioni", "scoperta", "abbondanza"],
-        "ru": ["блага", "открытие", "изобилие"],
-        "id": ["berkah", "penemuan", "kelimpahan"],
-        "ja": ["祝福", "発見", "豊かさ"],
-        "th": ["พร", "การค้นพบ", "ความอุดมสมบูรณ์"],
-        "ms": ["rahmat", "penemuan", "kelimpahan"]
+        "en": [
+          "blessings",
+          "discovery",
+          "abundance"
+        ],
+        "tr": [
+          "nimetler",
+          "keşif",
+          "bolluk"
+        ],
+        "fr": [
+          "bénédictions",
+          "découverte",
+          "abondance"
+        ],
+        "pt": [
+          "bênçãos",
+          "descoberta",
+          "abundância"
+        ],
+        "nl": [
+          "zegeningen",
+          "ontdekking",
+          "overvloed"
+        ],
+        "es": [
+          "bendiciones",
+          "descubrimiento",
+          "abundancia"
+        ],
+        "de": [
+          "Segnungen",
+          "Entdeckung",
+          "Überfluss"
+        ],
+        "it": [
+          "benedizioni",
+          "scoperta",
+          "abbondanza"
+        ],
+        "ru": [
+          "блага",
+          "открытие",
+          "изобилие"
+        ],
+        "id": [
+          "berkah",
+          "penemuan",
+          "kelimpahan"
+        ],
+        "ja": [
+          "祝福",
+          "発見",
+          "豊かさ"
+        ],
+        "th": [
+          "พร",
+          "การค้นพบ",
+          "ความอุดมสมบูรณ์"
+        ],
+        "ms": [
+          "rahmat",
+          "penemuan",
+          "kelimpahan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3155,19 +4403,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["beauty", "reflection", "ephemeral"],
-        "tr": ["güzellik", "yansıma", "geçici"],
-        "fr": ["beauté", "réflexion", "éphémère"],
-        "pt": ["beleza", "reflexão", "efêmero"],
-        "nl": ["schoonheid", "reflectie", "vluchtig"],
-        "es": ["belleza", "reflexión", "efímero"],
-        "de": ["Schönheit", "Spiegelung", "flüchtig"],
-        "it": ["bellezza", "riflessione", "effimero"],
-        "ru": ["красота", "отражение", "мимолетный"],
-        "id": ["keindahan", "pantulan", "sementara"],
-        "ja": ["美", "反映", "刹那的"],
-        "th": ["ความงาม", "การสะท้อน", "ชั่วครู่"],
-        "ms": ["keindahan", "pantulan", "sementara"]
+        "en": [
+          "beauty",
+          "reflection",
+          "ephemeral"
+        ],
+        "tr": [
+          "güzellik",
+          "yansıma",
+          "geçici"
+        ],
+        "fr": [
+          "beauté",
+          "réflexion",
+          "éphémère"
+        ],
+        "pt": [
+          "beleza",
+          "reflexão",
+          "efêmero"
+        ],
+        "nl": [
+          "schoonheid",
+          "reflectie",
+          "vluchtig"
+        ],
+        "es": [
+          "belleza",
+          "reflexión",
+          "efímero"
+        ],
+        "de": [
+          "Schönheit",
+          "Spiegelung",
+          "flüchtig"
+        ],
+        "it": [
+          "bellezza",
+          "riflessione",
+          "effimero"
+        ],
+        "ru": [
+          "красота",
+          "отражение",
+          "мимолетный"
+        ],
+        "id": [
+          "keindahan",
+          "pantulan",
+          "sementara"
+        ],
+        "ja": [
+          "美",
+          "反映",
+          "刹那的"
+        ],
+        "th": [
+          "ความงาม",
+          "การสะท้อน",
+          "ชั่วครู่"
+        ],
+        "ms": [
+          "keindahan",
+          "pantulan",
+          "sementara"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3285,19 +4585,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["contentment", "heart", "harmony"],
-        "tr": ["memnuniyet", "kalp", "uyum"],
-        "fr": ["contentement", "cœur", "harmonie"],
-        "pt": ["contentamento", "coração", "harmonia"],
-        "nl": ["tevredenheid", "hart", "harmonie"],
-        "es": ["satisfacción", "corazón", "armonía"],
-        "de": ["Zufriedenheit", "Herz", "Harmonie"],
-        "it": ["contentezza", "cuore", "armonia"],
-        "ru": ["удовлетворённость", "сердце", "гармония"],
-        "id": ["kepuasan", "hati", "harmoni"],
-        "ja": ["満足", "心", "調和"],
-        "th": ["ความพึงพอใจ", "หัวใจ", "ความกลมกลืน"],
-        "ms": ["kepuasan", "hati", "keharmonian"]
+        "en": [
+          "contentment",
+          "heart",
+          "harmony"
+        ],
+        "tr": [
+          "memnuniyet",
+          "kalp",
+          "uyum"
+        ],
+        "fr": [
+          "contentement",
+          "cœur",
+          "harmonie"
+        ],
+        "pt": [
+          "contentamento",
+          "coração",
+          "harmonia"
+        ],
+        "nl": [
+          "tevredenheid",
+          "hart",
+          "harmonie"
+        ],
+        "es": [
+          "satisfacción",
+          "corazón",
+          "armonía"
+        ],
+        "de": [
+          "Zufriedenheit",
+          "Herz",
+          "Harmonie"
+        ],
+        "it": [
+          "contentezza",
+          "cuore",
+          "armonia"
+        ],
+        "ru": [
+          "удовлетворённость",
+          "сердце",
+          "гармония"
+        ],
+        "id": [
+          "kepuasan",
+          "hati",
+          "harmoni"
+        ],
+        "ja": [
+          "満足",
+          "心",
+          "調和"
+        ],
+        "th": [
+          "ความพึงพอใจ",
+          "หัวใจ",
+          "ความกลมกลืน"
+        ],
+        "ms": [
+          "kepuasan",
+          "hati",
+          "keharmonian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3415,19 +4767,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["peace", "connection", "craft"],
-        "tr": ["huzur", "bağlantı", "zanaat"],
-        "fr": ["paix", "connexion", "artisanat"],
-        "pt": ["paz", "conexão", "artesanato"],
-        "nl": ["vrede", "verbinding", "ambacht"],
-        "es": ["paz", "conexión", "artesanía"],
-        "de": ["Frieden", "Verbindung", "Handwerk"],
-        "it": ["pace", "connessione", "artigianato"],
-        "ru": ["мир", "связь", "ремесло"],
-        "id": ["kedamaian", "koneksi", "kerajinan"],
-        "ja": ["平和", "つながり", "工芸"],
-        "th": ["สันติภาพ", "การเชื่อมโยง", "งานฝีมือ"],
-        "ms": ["kedamaian", "hubungan", "kraf"]
+        "en": [
+          "peace",
+          "connection",
+          "craft"
+        ],
+        "tr": [
+          "huzur",
+          "bağlantı",
+          "zanaat"
+        ],
+        "fr": [
+          "paix",
+          "connexion",
+          "artisanat"
+        ],
+        "pt": [
+          "paz",
+          "conexão",
+          "artesanato"
+        ],
+        "nl": [
+          "vrede",
+          "verbinding",
+          "ambacht"
+        ],
+        "es": [
+          "paz",
+          "conexión",
+          "artesanía"
+        ],
+        "de": [
+          "Frieden",
+          "Verbindung",
+          "Handwerk"
+        ],
+        "it": [
+          "pace",
+          "connessione",
+          "artigianato"
+        ],
+        "ru": [
+          "мир",
+          "связь",
+          "ремесло"
+        ],
+        "id": [
+          "kedamaian",
+          "koneksi",
+          "kerajinan"
+        ],
+        "ja": [
+          "平和",
+          "つながり",
+          "工芸"
+        ],
+        "th": [
+          "สันติภาพ",
+          "การเชื่อมโยง",
+          "งานฝีมือ"
+        ],
+        "ms": [
+          "kedamaian",
+          "hubungan",
+          "kraf"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3545,19 +4949,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "resilience", "illumination"],
-        "tr": ["sevinç", "direnç", "aydınlatma"],
-        "fr": ["joie", "résilience", "illumination"],
-        "pt": ["alegria", "resiliência", "iluminação"],
-        "nl": ["vreugde", "veerkracht", "verlichting"],
-        "es": ["alegría", "resiliencia", "iluminación"],
-        "de": ["Freude", "Widerstandsfähigkeit", "Erleuchtung"],
-        "it": ["gioia", "resilienza", "illuminazione"],
-        "ru": ["радость", "устойчивость", "освещение"],
-        "id": ["kebahagiaan", "ketahanan", "penerangan"],
-        "ja": ["喜び", "回復力", "照明"],
-        "th": ["ความสุข", "ความยืดหยุ่น", "การส่องสว่าง"],
-        "ms": ["kegembiraan", "ketahanan", "pencahayaan"]
+        "en": [
+          "joy",
+          "resilience",
+          "illumination"
+        ],
+        "tr": [
+          "sevinç",
+          "direnç",
+          "aydınlatma"
+        ],
+        "fr": [
+          "joie",
+          "résilience",
+          "illumination"
+        ],
+        "pt": [
+          "alegria",
+          "resiliência",
+          "iluminação"
+        ],
+        "nl": [
+          "vreugde",
+          "veerkracht",
+          "verlichting"
+        ],
+        "es": [
+          "alegría",
+          "resiliencia",
+          "iluminación"
+        ],
+        "de": [
+          "Freude",
+          "Widerstandsfähigkeit",
+          "Erleuchtung"
+        ],
+        "it": [
+          "gioia",
+          "resilienza",
+          "illuminazione"
+        ],
+        "ru": [
+          "радость",
+          "устойчивость",
+          "освещение"
+        ],
+        "id": [
+          "kebahagiaan",
+          "ketahanan",
+          "penerangan"
+        ],
+        "ja": [
+          "喜び",
+          "回復力",
+          "照明"
+        ],
+        "th": [
+          "ความสุข",
+          "ความยืดหยุ่น",
+          "การส่องสว่าง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "ketahanan",
+          "pencahayaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3675,19 +5131,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["abundance", "stability", "connection"],
-        "tr": ["bolluk", "istikrar", "bağlantı"],
-        "fr": ["abondance", "stabilité", "connexion"],
-        "pt": ["abundância", "estabilidade", "conexão"],
-        "nl": ["overvloed", "stabiliteit", "verbinding"],
-        "es": ["abundancia", "estabilidad", "conexión"],
-        "de": ["Überfluss", "Stabilität", "Verbindung"],
-        "it": ["abbondanza", "stabilità", "connessione"],
-        "ru": ["изобилие", "стабильность", "связь"],
-        "id": ["kelimpahan", "stabilitas", "koneksi"],
-        "ja": ["豊かさ", "安定", "つながり"],
-        "th": ["ความอุดมสมบูรณ์", "ความมั่นคง", "การเชื่อมโยง"],
-        "ms": ["kelimpahan", "kestabilan", "hubungan"]
+        "en": [
+          "abundance",
+          "stability",
+          "connection"
+        ],
+        "tr": [
+          "bolluk",
+          "istikrar",
+          "bağlantı"
+        ],
+        "fr": [
+          "abondance",
+          "stabilité",
+          "connexion"
+        ],
+        "pt": [
+          "abundância",
+          "estabilidade",
+          "conexão"
+        ],
+        "nl": [
+          "overvloed",
+          "stabiliteit",
+          "verbinding"
+        ],
+        "es": [
+          "abundancia",
+          "estabilidad",
+          "conexión"
+        ],
+        "de": [
+          "Überfluss",
+          "Stabilität",
+          "Verbindung"
+        ],
+        "it": [
+          "abbondanza",
+          "stabilità",
+          "connessione"
+        ],
+        "ru": [
+          "изобилие",
+          "стабильность",
+          "связь"
+        ],
+        "id": [
+          "kelimpahan",
+          "stabilitas",
+          "koneksi"
+        ],
+        "ja": [
+          "豊かさ",
+          "安定",
+          "つながり"
+        ],
+        "th": [
+          "ความอุดมสมบูรณ์",
+          "ความมั่นคง",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kelimpahan",
+          "kestabilan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3805,19 +5313,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["stability", "resilience", "calm"],
-        "tr": ["istikrar", "direnç", "sakinlik"],
-        "fr": ["stabilité", "résilience", "calme"],
-        "pt": ["estabilidade", "resiliência", "calma"],
-        "nl": ["stabiliteit", "veerkracht", "rust"],
-        "es": ["estabilidad", "resiliencia", "calma"],
-        "de": ["Stabilität", "Widerstandsfähigkeit", "Ruhe"],
-        "it": ["stabilità", "resilienza", "calma"],
-        "ru": ["стабильность", "устойчивость", "спокойствие"],
-        "id": ["stabilitas", "ketahanan", "ketenangan"],
-        "ja": ["安定", "回復力", "穏やかさ"],
-        "th": ["ความมั่นคง", "ความยืดหยุ่น", "ความสงบ"],
-        "ms": ["kestabilan", "ketahanan", "ketenangan"]
+        "en": [
+          "stability",
+          "resilience",
+          "calm"
+        ],
+        "tr": [
+          "istikrar",
+          "direnç",
+          "sakinlik"
+        ],
+        "fr": [
+          "stabilité",
+          "résilience",
+          "calme"
+        ],
+        "pt": [
+          "estabilidade",
+          "resiliência",
+          "calma"
+        ],
+        "nl": [
+          "stabiliteit",
+          "veerkracht",
+          "rust"
+        ],
+        "es": [
+          "estabilidad",
+          "resiliencia",
+          "calma"
+        ],
+        "de": [
+          "Stabilität",
+          "Widerstandsfähigkeit",
+          "Ruhe"
+        ],
+        "it": [
+          "stabilità",
+          "resilienza",
+          "calma"
+        ],
+        "ru": [
+          "стабильность",
+          "устойчивость",
+          "спокойствие"
+        ],
+        "id": [
+          "stabilitas",
+          "ketahanan",
+          "ketenangan"
+        ],
+        "ja": [
+          "安定",
+          "回復力",
+          "穏やかさ"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "ความยืดหยุ่น",
+          "ความสงบ"
+        ],
+        "ms": [
+          "kestabilan",
+          "ketahanan",
+          "ketenangan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -3935,19 +5495,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["hope", "renewal", "journey"],
-        "tr": ["umut", "yenilenme", "yolculuk"],
-        "fr": ["espoir", "renouveau", "voyage"],
-        "pt": ["esperança", "renovação", "jornada"],
-        "nl": ["hoop", "vernieuwing", "reis"],
-        "es": ["esperanza", "renovación", "viaje"],
-        "de": ["Hoffnung", "Erneuerung", "Reise"],
-        "it": ["speranza", "rinnovamento", "viaggio"],
-        "ru": ["надежда", "обновление", "путешествие"],
-        "id": ["harapan", "pembaruan", "perjalanan"],
-        "ja": ["希望", "再生", "旅"],
-        "th": ["ความหวัง", "การเริ่มใหม่", "การเดินทาง"],
-        "ms": ["harapan", "pembaharuan", "perjalanan"]
+        "en": [
+          "hope",
+          "renewal",
+          "journey"
+        ],
+        "tr": [
+          "umut",
+          "yenilenme",
+          "yolculuk"
+        ],
+        "fr": [
+          "espoir",
+          "renouveau",
+          "voyage"
+        ],
+        "pt": [
+          "esperança",
+          "renovação",
+          "jornada"
+        ],
+        "nl": [
+          "hoop",
+          "vernieuwing",
+          "reis"
+        ],
+        "es": [
+          "esperanza",
+          "renovación",
+          "viaje"
+        ],
+        "de": [
+          "Hoffnung",
+          "Erneuerung",
+          "Reise"
+        ],
+        "it": [
+          "speranza",
+          "rinnovamento",
+          "viaggio"
+        ],
+        "ru": [
+          "надежда",
+          "обновление",
+          "путешествие"
+        ],
+        "id": [
+          "harapan",
+          "pembaruan",
+          "perjalanan"
+        ],
+        "ja": [
+          "希望",
+          "再生",
+          "旅"
+        ],
+        "th": [
+          "ความหวัง",
+          "การเริ่มใหม่",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "harapan",
+          "pembaharuan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4065,19 +5677,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["peace", "perseverance", "connection"],
-        "tr": ["huzur", "sebat", "bağlantı"],
-        "fr": ["paix", "persévérance", "connexion"],
-        "pt": ["paz", "perseverança", "conexão"],
-        "nl": ["vrede", "volharding", "verbinding"],
-        "es": ["paz", "perseverancia", "conexión"],
-        "de": ["Frieden", "Ausdauer", "Verbindung"],
-        "it": ["pace", "perseveranza", "connessione"],
-        "ru": ["мир", "настойчивость", "связь"],
-        "id": ["kedamaian", "ketekunan", "koneksi"],
-        "ja": ["平和", "忍耐", "つながり"],
-        "th": ["สันติภาพ", "ความเพียร", "การเชื่อมโยง"],
-        "ms": ["kedamaian", "ketabahan", "hubungan"]
+        "en": [
+          "peace",
+          "perseverance",
+          "connection"
+        ],
+        "tr": [
+          "huzur",
+          "sebat",
+          "bağlantı"
+        ],
+        "fr": [
+          "paix",
+          "persévérance",
+          "connexion"
+        ],
+        "pt": [
+          "paz",
+          "perseverança",
+          "conexão"
+        ],
+        "nl": [
+          "vrede",
+          "volharding",
+          "verbinding"
+        ],
+        "es": [
+          "paz",
+          "perseverancia",
+          "conexión"
+        ],
+        "de": [
+          "Frieden",
+          "Ausdauer",
+          "Verbindung"
+        ],
+        "it": [
+          "pace",
+          "perseveranza",
+          "connessione"
+        ],
+        "ru": [
+          "мир",
+          "настойчивость",
+          "связь"
+        ],
+        "id": [
+          "kedamaian",
+          "ketekunan",
+          "koneksi"
+        ],
+        "ja": [
+          "平和",
+          "忍耐",
+          "つながり"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความเพียร",
+          "การเชื่อมโยง"
+        ],
+        "ms": [
+          "kedamaian",
+          "ketabahan",
+          "hubungan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4195,19 +5859,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["humility", "warmth", "inner light"],
-        "tr": ["alçakgönüllülük", "sıcaklık", "iç ışık"],
-        "fr": ["humilité", "chaleur", "lumière intérieure"],
-        "pt": ["humildade", "calor", "luz interior"],
-        "nl": ["nederigheid", "warmte", "innerlijk licht"],
-        "es": ["humildad", "calor", "luz interior"],
-        "de": ["Demut", "Wärme", "inneres Licht"],
-        "it": ["umiltà", "calore", "luce interiore"],
-        "ru": ["смирение", "тепло", "внутренний свет"],
-        "id": ["kerendahan hati", "kehangatan", "cahaya batin"],
-        "ja": ["謙虚さ", "温かさ", "内なる光"],
-        "th": ["ความถ่อมตน", "ความอบอุ่น", "แสงภายใน"],
-        "ms": ["kerendahan hati", "kehangatan", "cahaya dalaman"]
+        "en": [
+          "humility",
+          "warmth",
+          "inner light"
+        ],
+        "tr": [
+          "alçakgönüllülük",
+          "sıcaklık",
+          "iç ışık"
+        ],
+        "fr": [
+          "humilité",
+          "chaleur",
+          "lumière intérieure"
+        ],
+        "pt": [
+          "humildade",
+          "calor",
+          "luz interior"
+        ],
+        "nl": [
+          "nederigheid",
+          "warmte",
+          "innerlijk licht"
+        ],
+        "es": [
+          "humildad",
+          "calor",
+          "luz interior"
+        ],
+        "de": [
+          "Demut",
+          "Wärme",
+          "inneres Licht"
+        ],
+        "it": [
+          "umiltà",
+          "calore",
+          "luce interiore"
+        ],
+        "ru": [
+          "смирение",
+          "тепло",
+          "внутренний свет"
+        ],
+        "id": [
+          "kerendahan hati",
+          "kehangatan",
+          "cahaya batin"
+        ],
+        "ja": [
+          "謙虚さ",
+          "温かさ",
+          "内なる光"
+        ],
+        "th": [
+          "ความถ่อมตน",
+          "ความอบอุ่น",
+          "แสงภายใน"
+        ],
+        "ms": [
+          "kerendahan hati",
+          "kehangatan",
+          "cahaya dalaman"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4325,19 +6041,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "growth", "eternity"],
-        "tr": ["sevinç", "büyüme", "sonsuzluk"],
-        "fr": ["joie", "croissance", "éternité"],
-        "pt": ["alegria", "crescimento", "eternidade"],
-        "nl": ["vreugde", "groei", "eeuwigheid"],
-        "es": ["alegría", "crecimiento", "eternidad"],
-        "de": ["Freude", "Wachstum", "Ewigkeit"],
-        "it": ["gioia", "crescita", "eternità"],
-        "ru": ["радость", "рост", "вечность"],
-        "id": ["kebahagiaan", "pertumbuhan", "keabadian"],
-        "ja": ["喜び", "成長", "永遠"],
-        "th": ["ความสุข", "การเติบโต", "นิรันดร์"],
-        "ms": ["kegembiraan", "pertumbuhan", "kekekalan"]
+        "en": [
+          "joy",
+          "growth",
+          "eternity"
+        ],
+        "tr": [
+          "sevinç",
+          "büyüme",
+          "sonsuzluk"
+        ],
+        "fr": [
+          "joie",
+          "croissance",
+          "éternité"
+        ],
+        "pt": [
+          "alegria",
+          "crescimento",
+          "eternidade"
+        ],
+        "nl": [
+          "vreugde",
+          "groei",
+          "eeuwigheid"
+        ],
+        "es": [
+          "alegría",
+          "crecimiento",
+          "eternidad"
+        ],
+        "de": [
+          "Freude",
+          "Wachstum",
+          "Ewigkeit"
+        ],
+        "it": [
+          "gioia",
+          "crescita",
+          "eternità"
+        ],
+        "ru": [
+          "радость",
+          "рост",
+          "вечность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "pertumbuhan",
+          "keabadian"
+        ],
+        "ja": [
+          "喜び",
+          "成長",
+          "永遠"
+        ],
+        "th": [
+          "ความสุข",
+          "การเติบโต",
+          "นิรันดร์"
+        ],
+        "ms": [
+          "kegembiraan",
+          "pertumbuhan",
+          "kekekalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4455,19 +6223,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["guidance", "direction", "resilience"],
-        "tr": ["rehberlik", "yön", "direnç"],
-        "fr": ["guidance", "direction", "résilience"],
-        "pt": ["orientação", "direção", "resiliência"],
-        "nl": ["begeleiding", "richting", "veerkracht"],
-        "es": ["guía", "dirección", "resiliencia"],
-        "de": ["Führung", "Richtung", "Widerstandsfähigkeit"],
-        "it": ["guida", "direzione", "resilienza"],
-        "ru": ["руководство", "направление", "устойчивость"],
-        "id": ["panduan", "arah", "ketahanan"],
-        "ja": ["指導", "方向", "回復力"],
-        "th": ["การนำทาง", "ทิศทาง", "ความยืดหยุ่น"],
-        "ms": ["panduan", "arah", "ketahanan"]
+        "en": [
+          "guidance",
+          "direction",
+          "resilience"
+        ],
+        "tr": [
+          "rehberlik",
+          "yön",
+          "direnç"
+        ],
+        "fr": [
+          "guidance",
+          "direction",
+          "résilience"
+        ],
+        "pt": [
+          "orientação",
+          "direção",
+          "resiliência"
+        ],
+        "nl": [
+          "begeleiding",
+          "richting",
+          "veerkracht"
+        ],
+        "es": [
+          "guía",
+          "dirección",
+          "resiliencia"
+        ],
+        "de": [
+          "Führung",
+          "Richtung",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "guida",
+          "direzione",
+          "resilienza"
+        ],
+        "ru": [
+          "руководство",
+          "направление",
+          "устойчивость"
+        ],
+        "id": [
+          "panduan",
+          "arah",
+          "ketahanan"
+        ],
+        "ja": [
+          "指導",
+          "方向",
+          "回復力"
+        ],
+        "th": [
+          "การนำทาง",
+          "ทิศทาง",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "panduan",
+          "arah",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4585,19 +6405,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["kindness", "nurture", "flow"],
-        "tr": ["nezaket", "besleme", "akış"],
-        "fr": ["bonté", "nourriture", "flux"],
-        "pt": ["bondade", "nutrição", "fluxo"],
-        "nl": ["vriendelijkheid", "voeding", "stroming"],
-        "es": ["bondad", "nutrición", "flujo"],
-        "de": ["Freundlichkeit", "Nährung", "Fluss"],
-        "it": ["gentilezza", "nutrimento", "flusso"],
-        "ru": ["доброта", "питание", "поток"],
-        "id": ["kebaikan", "pemupukan", "aliran"],
-        "ja": ["親切", "育成", "流れ"],
-        "th": ["ความเมตตา", "การบำรุง", "การไหล"],
-        "ms": ["kebaikan", "pemupukan", "aliran"]
+        "en": [
+          "kindness",
+          "nurture",
+          "flow"
+        ],
+        "tr": [
+          "nezaket",
+          "besleme",
+          "akış"
+        ],
+        "fr": [
+          "bonté",
+          "nourriture",
+          "flux"
+        ],
+        "pt": [
+          "bondade",
+          "nutrição",
+          "fluxo"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "voeding",
+          "stroming"
+        ],
+        "es": [
+          "bondad",
+          "nutrición",
+          "flujo"
+        ],
+        "de": [
+          "Freundlichkeit",
+          "Nährung",
+          "Fluss"
+        ],
+        "it": [
+          "gentilezza",
+          "nutrimento",
+          "flusso"
+        ],
+        "ru": [
+          "доброта",
+          "питание",
+          "поток"
+        ],
+        "id": [
+          "kebaikan",
+          "pemupukan",
+          "aliran"
+        ],
+        "ja": [
+          "親切",
+          "育成",
+          "流れ"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การบำรุง",
+          "การไหล"
+        ],
+        "ms": [
+          "kebaikan",
+          "pemupukan",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4715,19 +6587,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["contentment", "access", "peace"],
-        "tr": ["memnuniyet", "erişim", "huzur"],
-        "fr": ["contentement", "accès", "paix"],
-        "pt": ["contentamento", "acesso", "paz"],
-        "nl": ["tevredenheid", "toegang", "vrede"],
-        "es": ["satisfacción", "acceso", "paz"],
-        "de": ["Zufriedenheit", "Zugang", "Frieden"],
-        "it": ["contentezza", "accesso", "pace"],
-        "ru": ["удовлетворение", "доступ", "мир"],
-        "id": ["kepuasan", "akses", "kedamaian"],
-        "ja": ["満足", "アクセス", "平和"],
-        "th": ["ความพึงพอใจ", "การเข้าถึง", "สันติภาพ"],
-        "ms": ["kepuasan", "akses", "kedamaian"]
+        "en": [
+          "contentment",
+          "access",
+          "peace"
+        ],
+        "tr": [
+          "memnuniyet",
+          "erişim",
+          "huzur"
+        ],
+        "fr": [
+          "contentement",
+          "accès",
+          "paix"
+        ],
+        "pt": [
+          "contentamento",
+          "acesso",
+          "paz"
+        ],
+        "nl": [
+          "tevredenheid",
+          "toegang",
+          "vrede"
+        ],
+        "es": [
+          "satisfacción",
+          "acceso",
+          "paz"
+        ],
+        "de": [
+          "Zufriedenheit",
+          "Zugang",
+          "Frieden"
+        ],
+        "it": [
+          "contentezza",
+          "accesso",
+          "pace"
+        ],
+        "ru": [
+          "удовлетворение",
+          "доступ",
+          "мир"
+        ],
+        "id": [
+          "kepuasan",
+          "akses",
+          "kedamaian"
+        ],
+        "ja": [
+          "満足",
+          "アクセス",
+          "平和"
+        ],
+        "th": [
+          "ความพึงพอใจ",
+          "การเข้าถึง",
+          "สันติภาพ"
+        ],
+        "ms": [
+          "kepuasan",
+          "akses",
+          "kedamaian"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4845,19 +6769,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["beauty", "moments", "creation"],
-        "tr": ["güzellik", "anlar", "yaratma"],
-        "fr": ["beauté", "moments", "création"],
-        "pt": ["beleza", "momentos", "criação"],
-        "nl": ["schoonheid", "momenten", "creatie"],
-        "es": ["belleza", "momentos", "creación"],
-        "de": ["Schönheit", "Momente", "Schöpfung"],
-        "it": ["bellezza", "momenti", "creazione"],
-        "ru": ["красота", "моменты", "создание"],
-        "id": ["keindahan", "momen", "penciptaan"],
-        "ja": ["美しさ", "瞬間", "創造"],
-        "th": ["ความงาม", "ช่วงเวลา", "การสร้าง"],
-        "ms": ["keindahan", "detik", "penciptaan"]
+        "en": [
+          "beauty",
+          "moments",
+          "creation"
+        ],
+        "tr": [
+          "güzellik",
+          "anlar",
+          "yaratma"
+        ],
+        "fr": [
+          "beauté",
+          "moments",
+          "création"
+        ],
+        "pt": [
+          "beleza",
+          "momentos",
+          "criação"
+        ],
+        "nl": [
+          "schoonheid",
+          "momenten",
+          "creatie"
+        ],
+        "es": [
+          "belleza",
+          "momentos",
+          "creación"
+        ],
+        "de": [
+          "Schönheit",
+          "Momente",
+          "Schöpfung"
+        ],
+        "it": [
+          "bellezza",
+          "momenti",
+          "creazione"
+        ],
+        "ru": [
+          "красота",
+          "моменты",
+          "создание"
+        ],
+        "id": [
+          "keindahan",
+          "momen",
+          "penciptaan"
+        ],
+        "ja": [
+          "美しさ",
+          "瞬間",
+          "創造"
+        ],
+        "th": [
+          "ความงาม",
+          "ช่วงเวลา",
+          "การสร้าง"
+        ],
+        "ms": [
+          "keindahan",
+          "detik",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -4975,19 +6951,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["peace", "guidance", "light"],
-        "tr": ["huzur", "rehberlik", "ışık"],
-        "fr": ["paix", "guidance", "lumière"],
-        "pt": ["paz", "orientação", "luz"],
-        "nl": ["vrede", "begeleiding", "licht"],
-        "es": ["paz", "guía", "luz"],
-        "de": ["Frieden", "Führung", "Licht"],
-        "it": ["pace", "guida", "luce"],
-        "ru": ["покой", "руководство", "свет"],
-        "id": ["kedamaian", "panduan", "cahaya"],
-        "ja": ["平和", "指導", "光"],
-        "th": ["สันติภาพ", "การนำทาง", "แสงสว่าง"],
-        "ms": ["kedamaian", "panduan", "cahaya"]
+        "en": [
+          "peace",
+          "guidance",
+          "light"
+        ],
+        "tr": [
+          "huzur",
+          "rehberlik",
+          "ışık"
+        ],
+        "fr": [
+          "paix",
+          "guidance",
+          "lumière"
+        ],
+        "pt": [
+          "paz",
+          "orientação",
+          "luz"
+        ],
+        "nl": [
+          "vrede",
+          "begeleiding",
+          "licht"
+        ],
+        "es": [
+          "paz",
+          "guía",
+          "luz"
+        ],
+        "de": [
+          "Frieden",
+          "Führung",
+          "Licht"
+        ],
+        "it": [
+          "pace",
+          "guida",
+          "luce"
+        ],
+        "ru": [
+          "покой",
+          "руководство",
+          "свет"
+        ],
+        "id": [
+          "kedamaian",
+          "panduan",
+          "cahaya"
+        ],
+        "ja": [
+          "平和",
+          "指導",
+          "光"
+        ],
+        "th": [
+          "สันติภาพ",
+          "การนำทาง",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "kedamaian",
+          "panduan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5105,19 +7133,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["calm", "soul", "melody"],
-        "tr": ["sakinlik", "ruh", "melodi"],
-        "fr": ["calme", "âme", "mélodie"],
-        "pt": ["calma", "alma", "melodia"],
-        "nl": ["rust", "ziel", "melodie"],
-        "es": ["calma", "alma", "melodía"],
-        "de": ["Ruhe", "Seele", "Melodie"],
-        "it": ["calma", "anima", "melodia"],
-        "ru": ["спокойствие", "душа", "мелодия"],
-        "id": ["ketenangan", "jiwa", "melodi"],
-        "ja": ["穏やかさ", "魂", "メロディー"],
-        "th": ["ความสงบ", "จิตวิญญาณ", "ทำนอง"],
-        "ms": ["ketenangan", "jiwa", "melodi"]
+        "en": [
+          "calm",
+          "soul",
+          "melody"
+        ],
+        "tr": [
+          "sakinlik",
+          "ruh",
+          "melodi"
+        ],
+        "fr": [
+          "calme",
+          "âme",
+          "mélodie"
+        ],
+        "pt": [
+          "calma",
+          "alma",
+          "melodia"
+        ],
+        "nl": [
+          "rust",
+          "ziel",
+          "melodie"
+        ],
+        "es": [
+          "calma",
+          "alma",
+          "melodía"
+        ],
+        "de": [
+          "Ruhe",
+          "Seele",
+          "Melodie"
+        ],
+        "it": [
+          "calma",
+          "anima",
+          "melodia"
+        ],
+        "ru": [
+          "спокойствие",
+          "душа",
+          "мелодия"
+        ],
+        "id": [
+          "ketenangan",
+          "jiwa",
+          "melodi"
+        ],
+        "ja": [
+          "穏やかさ",
+          "魂",
+          "メロディー"
+        ],
+        "th": [
+          "ความสงบ",
+          "จิตวิญญาณ",
+          "ทำนอง"
+        ],
+        "ms": [
+          "ketenangan",
+          "jiwa",
+          "melodi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5201,7 +7281,7 @@
         }
       }
     },
-     {
+    {
       "id": "gratitude_041",
       "texts": {
         "en": "Gratitude is the anchor that steadies the heart in life’s storms.",
@@ -5235,19 +7315,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["stability", "resilience", "heart"],
-        "tr": ["sabitlik", "direnç", "kalp"],
-        "fr": ["stabilité", "résilience", "cœur"],
-        "pt": ["estabilidade", "resiliência", "coração"],
-        "nl": ["stabiliteit", "veerkracht", "hart"],
-        "es": ["estabilidad", "resiliencia", "corazón"],
-        "de": ["Stabilität", "Widerstandsfähigkeit", "Herz"],
-        "it": ["stabilità", "resilienza", "cuore"],
-        "ru": ["стабильность", "устойчивость", "сердце"],
-        "id": ["stabilitas", "ketahanan", "hati"],
-        "ja": ["安定", "回復力", "心"],
-        "th": ["ความมั่นคง", "ความยืดหยุ่น", "หัวใจ"],
-        "ms": ["kestabilan", "ketahanan", "hati"]
+        "en": [
+          "stability",
+          "resilience",
+          "heart"
+        ],
+        "tr": [
+          "sabitlik",
+          "direnç",
+          "kalp"
+        ],
+        "fr": [
+          "stabilité",
+          "résilience",
+          "cœur"
+        ],
+        "pt": [
+          "estabilidade",
+          "resiliência",
+          "coração"
+        ],
+        "nl": [
+          "stabiliteit",
+          "veerkracht",
+          "hart"
+        ],
+        "es": [
+          "estabilidad",
+          "resiliencia",
+          "corazón"
+        ],
+        "de": [
+          "Stabilität",
+          "Widerstandsfähigkeit",
+          "Herz"
+        ],
+        "it": [
+          "stabilità",
+          "resilienza",
+          "cuore"
+        ],
+        "ru": [
+          "стабильность",
+          "устойчивость",
+          "сердце"
+        ],
+        "id": [
+          "stabilitas",
+          "ketahanan",
+          "hati"
+        ],
+        "ja": [
+          "安定",
+          "回復力",
+          "心"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "ความยืดหยุ่น",
+          "หัวใจ"
+        ],
+        "ms": [
+          "kestabilan",
+          "ketahanan",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5365,19 +7497,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["beauty", "perspective", "awareness"],
-        "tr": ["güzellik", "bakış açısı", "farkındalık"],
-        "fr": ["beauté", "perspective", "conscience"],
-        "pt": ["beleza", "perspectiva", "consciência"],
-        "nl": ["schoonheid", "perspectief", "bewustzijn"],
-        "es": ["belleza", "perspectiva", "conciencia"],
-        "de": ["Schönheit", "Perspektive", "Bewusstsein"],
-        "it": ["bellezza", "prospettiva", "consapevolezza"],
-        "ru": ["красота", "перспектива", "осознание"],
-        "id": ["keindahan", "perspektif", "kesadaran"],
-        "ja": ["美しさ", "視点", "意識"],
-        "th": ["ความงาม", "มุมมอง", "การตระหนักรู้"],
-        "ms": ["keindahan", "perspektif", "kesedaran"]
+        "en": [
+          "beauty",
+          "perspective",
+          "awareness"
+        ],
+        "tr": [
+          "güzellik",
+          "bakış açısı",
+          "farkındalık"
+        ],
+        "fr": [
+          "beauté",
+          "perspective",
+          "conscience"
+        ],
+        "pt": [
+          "beleza",
+          "perspectiva",
+          "consciência"
+        ],
+        "nl": [
+          "schoonheid",
+          "perspectief",
+          "bewustzijn"
+        ],
+        "es": [
+          "belleza",
+          "perspectiva",
+          "conciencia"
+        ],
+        "de": [
+          "Schönheit",
+          "Perspektive",
+          "Bewusstsein"
+        ],
+        "it": [
+          "bellezza",
+          "prospettiva",
+          "consapevolezza"
+        ],
+        "ru": [
+          "красота",
+          "перспектива",
+          "осознание"
+        ],
+        "id": [
+          "keindahan",
+          "perspektif",
+          "kesadaran"
+        ],
+        "ja": [
+          "美しさ",
+          "視点",
+          "意識"
+        ],
+        "th": [
+          "ความงาม",
+          "มุมมอง",
+          "การตระหนักรู้"
+        ],
+        "ms": [
+          "keindahan",
+          "perspektif",
+          "kesedaran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5495,19 +7679,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["connection", "nature", "roots"],
-        "tr": ["bağlantı", "doğa", "kökler"],
-        "fr": ["connexion", "nature", "racines"],
-        "pt": ["conexão", "natureza", "raízes"],
-        "nl": ["verbinding", "natuur", "wortels"],
-        "es": ["conexión", "naturaleza", "raíces"],
-        "de": ["Verbindung", "Natur", "Wurzeln"],
-        "it": ["connessione", "natura", "radici"],
-        "ru": ["связь", "природа", "корни"],
-        "id": ["hubungan", "alam", "akar"],
-        "ja": ["つながり", "自然", "根"],
-        "th": ["ความสัมพันธ์", "ธรรมชาติ", "ราก"],
-        "ms": ["hubungan", "alam semula jadi", "akar"]
+        "en": [
+          "connection",
+          "nature",
+          "roots"
+        ],
+        "tr": [
+          "bağlantı",
+          "doğa",
+          "kökler"
+        ],
+        "fr": [
+          "connexion",
+          "nature",
+          "racines"
+        ],
+        "pt": [
+          "conexão",
+          "natureza",
+          "raízes"
+        ],
+        "nl": [
+          "verbinding",
+          "natuur",
+          "wortels"
+        ],
+        "es": [
+          "conexión",
+          "naturaleza",
+          "raíces"
+        ],
+        "de": [
+          "Verbindung",
+          "Natur",
+          "Wurzeln"
+        ],
+        "it": [
+          "connessione",
+          "natura",
+          "radici"
+        ],
+        "ru": [
+          "связь",
+          "природа",
+          "корни"
+        ],
+        "id": [
+          "hubungan",
+          "alam",
+          "akar"
+        ],
+        "ja": [
+          "つながり",
+          "自然",
+          "根"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "ธรรมชาติ",
+          "ราก"
+        ],
+        "ms": [
+          "hubungan",
+          "alam semula jadi",
+          "akar"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5625,19 +7861,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "heart", "resonance"],
-        "tr": ["sevinç", "kalp", "yankı"],
-        "fr": ["joie", "cœur", "résonance"],
-        "pt": ["alegria", "coração", "ressonância"],
-        "nl": ["vreugde", "hart", "resonantie"],
-        "es": ["alegría", "corazón", "resonancia"],
-        "de": ["Freude", "Herz", "Resonanz"],
-        "it": ["gioia", "cuore", "risonanza"],
-        "ru": ["радость", "сердце", "резонанс"],
-        "id": ["kebahagiaan", "hati", "gema"],
-        "ja": ["喜び", "心", "共鳴"],
-        "th": ["ความสุข", "หัวใจ", "การสะท้อน"],
-        "ms": ["kegembiraan", "hati", "gema"]
+        "en": [
+          "joy",
+          "heart",
+          "resonance"
+        ],
+        "tr": [
+          "sevinç",
+          "kalp",
+          "yankı"
+        ],
+        "fr": [
+          "joie",
+          "cœur",
+          "résonance"
+        ],
+        "pt": [
+          "alegria",
+          "coração",
+          "ressonância"
+        ],
+        "nl": [
+          "vreugde",
+          "hart",
+          "resonantie"
+        ],
+        "es": [
+          "alegría",
+          "corazón",
+          "resonancia"
+        ],
+        "de": [
+          "Freude",
+          "Herz",
+          "Resonanz"
+        ],
+        "it": [
+          "gioia",
+          "cuore",
+          "risonanza"
+        ],
+        "ru": [
+          "радость",
+          "сердце",
+          "резонанс"
+        ],
+        "id": [
+          "kebahagiaan",
+          "hati",
+          "gema"
+        ],
+        "ja": [
+          "喜び",
+          "心",
+          "共鳴"
+        ],
+        "th": [
+          "ความสุข",
+          "หัวใจ",
+          "การสะท้อน"
+        ],
+        "ms": [
+          "kegembiraan",
+          "hati",
+          "gema"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5755,19 +8043,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["abundance", "growth", "blessing"],
-        "tr": ["bolluk", "büyüme", "nimet"],
-        "fr": ["abondance", "croissance", "bénédiction"],
-        "pt": ["abundância", "crescimento", "bênção"],
-        "nl": ["overvloed", "groei", "zegen"],
-        "es": ["abundancia", "crecimiento", "bendición"],
-        "de": ["Fülle", "Wachstum", "Segen"],
-        "it": ["abbondanza", "crescita", "benedizione"],
-        "ru": ["изобилие", "рост", "благословение"],
-        "id": ["kelimpahan", "pertumbuhan", "berkah"],
-        "ja": ["豊かさ", "成長", "祝福"],
-        "th": ["ความอุดมสมบูรณ์", "การเติบโต", "พร"],
-        "ms": ["kelimpahan", "pertumbuhan", "keberkatan"]
+        "en": [
+          "abundance",
+          "growth",
+          "blessing"
+        ],
+        "tr": [
+          "bolluk",
+          "büyüme",
+          "nimet"
+        ],
+        "fr": [
+          "abondance",
+          "croissance",
+          "bénédiction"
+        ],
+        "pt": [
+          "abundância",
+          "crescimento",
+          "bênção"
+        ],
+        "nl": [
+          "overvloed",
+          "groei",
+          "zegen"
+        ],
+        "es": [
+          "abundancia",
+          "crecimiento",
+          "bendición"
+        ],
+        "de": [
+          "Fülle",
+          "Wachstum",
+          "Segen"
+        ],
+        "it": [
+          "abbondanza",
+          "crescita",
+          "benedizione"
+        ],
+        "ru": [
+          "изобилие",
+          "рост",
+          "благословение"
+        ],
+        "id": [
+          "kelimpahan",
+          "pertumbuhan",
+          "berkah"
+        ],
+        "ja": [
+          "豊かさ",
+          "成長",
+          "祝福"
+        ],
+        "th": [
+          "ความอุดมสมบูรณ์",
+          "การเติบโต",
+          "พร"
+        ],
+        "ms": [
+          "kelimpahan",
+          "pertumbuhan",
+          "keberkatan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -5851,7 +8191,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_046",
       "texts": {
         "en": "Gratitude is the bridge that connects hearts across time.",
@@ -5885,19 +8225,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["connection", "time", "heart"],
-        "tr": ["bağlantı", "zaman", "kalp"],
-        "fr": ["connexion", "temps", "cœur"],
-        "pt": ["conexão", "tempo", "coração"],
-        "nl": ["verbinding", "tijd", "hart"],
-        "es": ["conexión", "tiempo", "corazón"],
-        "de": ["Verbindung", "Zeit", "Herz"],
-        "it": ["connessione", "tempo", "cuore"],
-        "ru": ["связь", "время", "сердце"],
-        "id": ["hubungan", "waktu", "hati"],
-        "ja": ["つながり", "時間", "心"],
-        "th": ["ความสัมพันธ์", "เวลา", "หัวใจ"],
-        "ms": ["hubungan", "masa", "hati"]
+        "en": [
+          "connection",
+          "time",
+          "heart"
+        ],
+        "tr": [
+          "bağlantı",
+          "zaman",
+          "kalp"
+        ],
+        "fr": [
+          "connexion",
+          "temps",
+          "cœur"
+        ],
+        "pt": [
+          "conexão",
+          "tempo",
+          "coração"
+        ],
+        "nl": [
+          "verbinding",
+          "tijd",
+          "hart"
+        ],
+        "es": [
+          "conexión",
+          "tiempo",
+          "corazón"
+        ],
+        "de": [
+          "Verbindung",
+          "Zeit",
+          "Herz"
+        ],
+        "it": [
+          "connessione",
+          "tempo",
+          "cuore"
+        ],
+        "ru": [
+          "связь",
+          "время",
+          "сердце"
+        ],
+        "id": [
+          "hubungan",
+          "waktu",
+          "hati"
+        ],
+        "ja": [
+          "つながり",
+          "時間",
+          "心"
+        ],
+        "th": [
+          "ความสัมพันธ์",
+          "เวลา",
+          "หัวใจ"
+        ],
+        "ms": [
+          "hubungan",
+          "masa",
+          "hati"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6015,19 +8407,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["warmth", "soul", "hope"],
-        "tr": ["sıcaklık", "ruh", "umut"],
-        "fr": ["chaleur", "âme", "espoir"],
-        "pt": ["calor", "alma", "esperança"],
-        "nl": ["warmte", "ziel", "hoop"],
-        "es": ["calor", "alma", "esperanza"],
-        "de": ["Wärme", "Seele", "Hoffnung"],
-        "it": ["calore", "anima", "speranza"],
-        "ru": ["тепло", "душа", "надежда"],
-        "id": ["kehangatan", "jiwa", "harapan"],
-        "ja": ["温かさ", "魂", "希望"],
-        "th": ["ความอบอุ่น", "จิตวิญญาณ", "ความหวัง"],
-        "ms": ["kehangatan", "jiwa", "harapan"]
+        "en": [
+          "warmth",
+          "soul",
+          "hope"
+        ],
+        "tr": [
+          "sıcaklık",
+          "ruh",
+          "umut"
+        ],
+        "fr": [
+          "chaleur",
+          "âme",
+          "espoir"
+        ],
+        "pt": [
+          "calor",
+          "alma",
+          "esperança"
+        ],
+        "nl": [
+          "warmte",
+          "ziel",
+          "hoop"
+        ],
+        "es": [
+          "calor",
+          "alma",
+          "esperanza"
+        ],
+        "de": [
+          "Wärme",
+          "Seele",
+          "Hoffnung"
+        ],
+        "it": [
+          "calore",
+          "anima",
+          "speranza"
+        ],
+        "ru": [
+          "тепло",
+          "душа",
+          "надежда"
+        ],
+        "id": [
+          "kehangatan",
+          "jiwa",
+          "harapan"
+        ],
+        "ja": [
+          "温かさ",
+          "魂",
+          "希望"
+        ],
+        "th": [
+          "ความอบอุ่น",
+          "จิตวิญญาณ",
+          "ความหวัง"
+        ],
+        "ms": [
+          "kehangatan",
+          "jiwa",
+          "harapan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6145,19 +8589,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["dreams", "motion", "aspiration"],
-        "tr": ["hayaller", "hareket", "hedef"],
-        "fr": ["rêves", "mouvement", "aspiration"],
-        "pt": ["sonhos", "movimento", "aspiração"],
-        "nl": ["dromen", "beweging", "aspiratie"],
-        "es": ["sueños", "movimiento", "aspiración"],
-        "de": ["Träume", "Bewegung", "Streben"],
-        "it": ["sogni", "movimento", "aspirazione"],
-        "ru": ["мечты", "движение", "стремление"],
-        "id": ["mimpi", "gerakan", "aspirasi"],
-        "ja": ["夢", "動き", "志"],
-        "th": ["ความฝัน", "การเคลื่อนไหว", "แรงบันดาลใจ"],
-        "ms": ["impian", "pergerakan", "aspirasi"]
+        "en": [
+          "dreams",
+          "motion",
+          "aspiration"
+        ],
+        "tr": [
+          "hayaller",
+          "hareket",
+          "hedef"
+        ],
+        "fr": [
+          "rêves",
+          "mouvement",
+          "aspiration"
+        ],
+        "pt": [
+          "sonhos",
+          "movimento",
+          "aspiração"
+        ],
+        "nl": [
+          "dromen",
+          "beweging",
+          "aspiratie"
+        ],
+        "es": [
+          "sueños",
+          "movimiento",
+          "aspiración"
+        ],
+        "de": [
+          "Träume",
+          "Bewegung",
+          "Streben"
+        ],
+        "it": [
+          "sogni",
+          "movimento",
+          "aspirazione"
+        ],
+        "ru": [
+          "мечты",
+          "движение",
+          "стремление"
+        ],
+        "id": [
+          "mimpi",
+          "gerakan",
+          "aspirasi"
+        ],
+        "ja": [
+          "夢",
+          "動き",
+          "志"
+        ],
+        "th": [
+          "ความฝัน",
+          "การเคลื่อนไหว",
+          "แรงบันดาลใจ"
+        ],
+        "ms": [
+          "impian",
+          "pergerakan",
+          "aspirasi"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6275,19 +8771,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["kindness", "reflection", "light"],
-        "tr": ["nezaket", "yansıma", "ışık"],
-        "fr": ["bonté", "réflexion", "lumière"],
-        "pt": ["bondade", "reflexão", "luz"],
-        "nl": ["vriendelijkheid", "weerspiegeling", "licht"],
-        "es": ["bondad", "reflexión", "luz"],
-        "de": ["Freundlichkeit", "Reflexion", "Licht"],
-        "it": ["gentilezza", "riflessione", "luce"],
-        "ru": ["доброта", "отражение", "свет"],
-        "id": ["kebaikan", "pantulan", "cahaya"],
-        "ja": ["優しさ", "反射", "光"],
-        "th": ["ความเมตตา", "การสะท้อน", "แสงสว่าง"],
-        "ms": ["kebaikan", "pantulan", "cahaya"]
+        "en": [
+          "kindness",
+          "reflection",
+          "light"
+        ],
+        "tr": [
+          "nezaket",
+          "yansıma",
+          "ışık"
+        ],
+        "fr": [
+          "bonté",
+          "réflexion",
+          "lumière"
+        ],
+        "pt": [
+          "bondade",
+          "reflexão",
+          "luz"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "weerspiegeling",
+          "licht"
+        ],
+        "es": [
+          "bondad",
+          "reflexión",
+          "luz"
+        ],
+        "de": [
+          "Freundlichkeit",
+          "Reflexion",
+          "Licht"
+        ],
+        "it": [
+          "gentilezza",
+          "riflessione",
+          "luce"
+        ],
+        "ru": [
+          "доброта",
+          "отражение",
+          "свет"
+        ],
+        "id": [
+          "kebaikan",
+          "pantulan",
+          "cahaya"
+        ],
+        "ja": [
+          "優しさ",
+          "反射",
+          "光"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การสะท้อน",
+          "แสงสว่าง"
+        ],
+        "ms": [
+          "kebaikan",
+          "pantulan",
+          "cahaya"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6405,19 +8953,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["love", "peace", "growth"],
-        "tr": ["sevgi", "huzur", "büyüme"],
-        "fr": ["amour", "paix", "croissance"],
-        "pt": ["amor", "paz", "crescimento"],
-        "nl": ["liefde", "vrede", "groei"],
-        "es": ["amor", "paz", "crecimiento"],
-        "de": ["Liebe", "Frieden", "Wachstum"],
-        "it": ["amore", "pace", "crescita"],
-        "ru": ["любовь", "покой", "рост"],
-        "id": ["cinta", "kedamaian", "pertumbuhan"],
-        "ja": ["愛", "平和", "成長"],
-        "th": ["ความรัก", "สันติภาพ", "การเติบโต"],
-        "ms": ["cinta", "kedamaian", "pertumbuhan"]
+        "en": [
+          "love",
+          "peace",
+          "growth"
+        ],
+        "tr": [
+          "sevgi",
+          "huzur",
+          "büyüme"
+        ],
+        "fr": [
+          "amour",
+          "paix",
+          "croissance"
+        ],
+        "pt": [
+          "amor",
+          "paz",
+          "crescimento"
+        ],
+        "nl": [
+          "liefde",
+          "vrede",
+          "groei"
+        ],
+        "es": [
+          "amor",
+          "paz",
+          "crecimiento"
+        ],
+        "de": [
+          "Liebe",
+          "Frieden",
+          "Wachstum"
+        ],
+        "it": [
+          "amore",
+          "pace",
+          "crescita"
+        ],
+        "ru": [
+          "любовь",
+          "покой",
+          "рост"
+        ],
+        "id": [
+          "cinta",
+          "kedamaian",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "愛",
+          "平和",
+          "成長"
+        ],
+        "th": [
+          "ความรัก",
+          "สันติภาพ",
+          "การเติบโต"
+        ],
+        "ms": [
+          "cinta",
+          "kedamaian",
+          "pertumbuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6501,7 +9101,7 @@
         }
       }
     },
-       {
+    {
       "id": "gratitude_051",
       "texts": {
         "en": "Gratitude is the melody that soothes the restless spirit.",
@@ -6535,19 +9135,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["calm", "spirit", "music"],
-        "tr": ["sakinlik", "ruh", "müzik"],
-        "fr": ["calme", "esprit", "musique"],
-        "pt": ["calma", "espírito", "música"],
-        "nl": ["rust", "geest", "muziek"],
-        "es": ["calma", "espíritu", "música"],
-        "de": ["Ruhe", "Geist", "Musik"],
-        "it": ["calma", "spirito", "musica"],
-        "ru": ["спокойствие", "дух", "музыка"],
-        "id": ["ketenangan", "jiwa", "musik"],
-        "ja": ["平静", "魂", "音楽"],
-        "th": ["ความสงบ", "จิตวิญญาณ", "ดนตรี"],
-        "ms": ["ketenangan", "jiwa", "muzik"]
+        "en": [
+          "calm",
+          "spirit",
+          "music"
+        ],
+        "tr": [
+          "sakinlik",
+          "ruh",
+          "müzik"
+        ],
+        "fr": [
+          "calme",
+          "esprit",
+          "musique"
+        ],
+        "pt": [
+          "calma",
+          "espírito",
+          "música"
+        ],
+        "nl": [
+          "rust",
+          "geest",
+          "muziek"
+        ],
+        "es": [
+          "calma",
+          "espíritu",
+          "música"
+        ],
+        "de": [
+          "Ruhe",
+          "Geist",
+          "Musik"
+        ],
+        "it": [
+          "calma",
+          "spirito",
+          "musica"
+        ],
+        "ru": [
+          "спокойствие",
+          "дух",
+          "музыка"
+        ],
+        "id": [
+          "ketenangan",
+          "jiwa",
+          "musik"
+        ],
+        "ja": [
+          "平静",
+          "魂",
+          "音楽"
+        ],
+        "th": [
+          "ความสงบ",
+          "จิตวิญญาณ",
+          "ดนตรี"
+        ],
+        "ms": [
+          "ketenangan",
+          "jiwa",
+          "muzik"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6665,19 +9317,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["guidance", "clarity", "journey"],
-        "tr": ["rehberlik", "berraklık", "yolculuk"],
-        "fr": ["guidance", "clarté", "voyage"],
-        "pt": ["orientação", "clareza", "jornada"],
-        "nl": ["begeleiding", "duidelijkheid", "reis"],
-        "es": ["guía", "claridad", "viaje"],
-        "de": ["Führung", "Klarheit", "Reise"],
-        "it": ["guida", "chiarezza", "viaggio"],
-        "ru": ["руководство", "ясность", "путешествие"],
-        "id": ["panduan", "kejelasan", "perjalanan"],
-        "ja": ["指導", "明快さ", "旅"],
-        "th": ["การนำทาง", "ความชัดเจน", "การเดินทาง"],
-        "ms": ["panduan", "kejelasan", "perjalanan"]
+        "en": [
+          "guidance",
+          "clarity",
+          "journey"
+        ],
+        "tr": [
+          "rehberlik",
+          "berraklık",
+          "yolculuk"
+        ],
+        "fr": [
+          "guidance",
+          "clarté",
+          "voyage"
+        ],
+        "pt": [
+          "orientação",
+          "clareza",
+          "jornada"
+        ],
+        "nl": [
+          "begeleiding",
+          "duidelijkheid",
+          "reis"
+        ],
+        "es": [
+          "guía",
+          "claridad",
+          "viaje"
+        ],
+        "de": [
+          "Führung",
+          "Klarheit",
+          "Reise"
+        ],
+        "it": [
+          "guida",
+          "chiarezza",
+          "viaggio"
+        ],
+        "ru": [
+          "руководство",
+          "ясность",
+          "путешествие"
+        ],
+        "id": [
+          "panduan",
+          "kejelasan",
+          "perjalanan"
+        ],
+        "ja": [
+          "指導",
+          "明快さ",
+          "旅"
+        ],
+        "th": [
+          "การนำทาง",
+          "ความชัดเจน",
+          "การเดินทาง"
+        ],
+        "ms": [
+          "panduan",
+          "kejelasan",
+          "perjalanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6795,19 +9499,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["contentment", "access", "fulfillment"],
-        "tr": ["memnuniyet", "erişim", "tatmin"],
-        "fr": ["contentement", "accès", "épanouissement"],
-        "pt": ["contentamento", "acesso", "realização"],
-        "nl": ["tevredenheid", "toegang", "vervulling"],
-        "es": ["contento", "acceso", "realización"],
-        "de": ["Zufriedenheit", "Zugang", "Erfüllung"],
-        "it": ["contentezza", "accesso", "realizzazione"],
-        "ru": ["удовлетворение", "доступ", "исполнение"],
-        "id": ["kepuasan", "akses", "pemenuhan"],
-        "ja": ["満足", "アクセス", "達成"],
-        "th": ["ความพึงพอใจ", "การเข้าถึง", "การเติมเต็ม"],
-        "ms": ["kepuasan", "akses", "pemenuhan"]
+        "en": [
+          "contentment",
+          "access",
+          "fulfillment"
+        ],
+        "tr": [
+          "memnuniyet",
+          "erişim",
+          "tatmin"
+        ],
+        "fr": [
+          "contentement",
+          "accès",
+          "épanouissement"
+        ],
+        "pt": [
+          "contentamento",
+          "acesso",
+          "realização"
+        ],
+        "nl": [
+          "tevredenheid",
+          "toegang",
+          "vervulling"
+        ],
+        "es": [
+          "contento",
+          "acceso",
+          "realización"
+        ],
+        "de": [
+          "Zufriedenheit",
+          "Zugang",
+          "Erfüllung"
+        ],
+        "it": [
+          "contentezza",
+          "accesso",
+          "realizzazione"
+        ],
+        "ru": [
+          "удовлетворение",
+          "доступ",
+          "исполнение"
+        ],
+        "id": [
+          "kepuasan",
+          "akses",
+          "pemenuhan"
+        ],
+        "ja": [
+          "満足",
+          "アクセス",
+          "達成"
+        ],
+        "th": [
+          "ความพึงพอใจ",
+          "การเข้าถึง",
+          "การเติมเต็ม"
+        ],
+        "ms": [
+          "kepuasan",
+          "akses",
+          "pemenuhan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -6925,19 +9681,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "grace", "creation"],
-        "tr": ["neşe", "lütuf", "yaratım"],
-        "fr": ["joie", "grâce", "création"],
-        "pt": ["alegria", "graça", "criação"],
-        "nl": ["vreugde", "gratie", "creatie"],
-        "es": ["alegría", "gracia", "creación"],
-        "de": ["Freude", "Gnade", "Schöpfung"],
-        "it": ["gioia", "grazia", "creazione"],
-        "ru": ["радость", "благодать", "создание"],
-        "id": ["kegembiraan", "rahmat", "penciptaan"],
-        "ja": ["喜び", "恩恵", "創造"],
-        "th": ["ความสุข", "พระคุณ", "การสร้าง"],
-        "ms": ["kegembiraan", "rahmat", "penciptaan"]
+        "en": [
+          "joy",
+          "grace",
+          "creation"
+        ],
+        "tr": [
+          "neşe",
+          "lütuf",
+          "yaratım"
+        ],
+        "fr": [
+          "joie",
+          "grâce",
+          "création"
+        ],
+        "pt": [
+          "alegria",
+          "graça",
+          "criação"
+        ],
+        "nl": [
+          "vreugde",
+          "gratie",
+          "creatie"
+        ],
+        "es": [
+          "alegría",
+          "gracia",
+          "creación"
+        ],
+        "de": [
+          "Freude",
+          "Gnade",
+          "Schöpfung"
+        ],
+        "it": [
+          "gioia",
+          "grazia",
+          "creazione"
+        ],
+        "ru": [
+          "радость",
+          "благодать",
+          "создание"
+        ],
+        "id": [
+          "kegembiraan",
+          "rahmat",
+          "penciptaan"
+        ],
+        "ja": [
+          "喜び",
+          "恩恵",
+          "創造"
+        ],
+        "th": [
+          "ความสุข",
+          "พระคุณ",
+          "การสร้าง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "rahmat",
+          "penciptaan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7055,19 +9863,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["hope", "dawn", "renewal"],
-        "tr": ["umut", "şafak", "yenilenme"],
-        "fr": ["espoir", "aube", "renouveau"],
-        "pt": ["esperança", "amanhecer", "renovação"],
-        "nl": ["hoop", "dageraad", "vernieuwing"],
-        "es": ["esperanza", "amanecer", "renovación"],
-        "de": ["Hoffnung", "Morgenröte", "Erneuerung"],
-        "it": ["speranza", "alba", "rinnovamento"],
-        "ru": ["надежда", "рассвет", "обновление"],
-        "id": ["harapan", "fajar", "pembaruan"],
-        "ja": ["希望", "夜明け", "再生"],
-        "th": ["ความหวัง", "รุ่งอรุณ", "การฟื้นฟู"],
-        "ms": ["harapan", "fajar", "pembaharuan"]
+        "en": [
+          "hope",
+          "dawn",
+          "renewal"
+        ],
+        "tr": [
+          "umut",
+          "şafak",
+          "yenilenme"
+        ],
+        "fr": [
+          "espoir",
+          "aube",
+          "renouveau"
+        ],
+        "pt": [
+          "esperança",
+          "amanhecer",
+          "renovação"
+        ],
+        "nl": [
+          "hoop",
+          "dageraad",
+          "vernieuwing"
+        ],
+        "es": [
+          "esperanza",
+          "amanecer",
+          "renovación"
+        ],
+        "de": [
+          "Hoffnung",
+          "Morgenröte",
+          "Erneuerung"
+        ],
+        "it": [
+          "speranza",
+          "alba",
+          "rinnovamento"
+        ],
+        "ru": [
+          "надежда",
+          "рассвет",
+          "обновление"
+        ],
+        "id": [
+          "harapan",
+          "fajar",
+          "pembaruan"
+        ],
+        "ja": [
+          "希望",
+          "夜明け",
+          "再生"
+        ],
+        "th": [
+          "ความหวัง",
+          "รุ่งอรุณ",
+          "การฟื้นฟู"
+        ],
+        "ms": [
+          "harapan",
+          "fajar",
+          "pembaharuan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7151,7 +10011,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_056",
       "texts": {
         "en": "Gratitude is the river that carries blessings to the heart.",
@@ -7185,19 +10045,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["blessings", "heart", "flow"],
-        "tr": ["nimetler", "kalp", "akış"],
-        "fr": ["bénédictions", "cœur", "flux"],
-        "pt": ["bênçãos", "coração", "fluxo"],
-        "nl": ["zegeningen", "hart", "stroming"],
-        "es": ["bendiciones", "corazón", "flujo"],
-        "de": ["Segnungen", "Herz", "Fluss"],
-        "it": ["benedizioni", "cuore", "flusso"],
-        "ru": ["благословения", "сердце", "поток"],
-        "id": ["berkah", "hati", "aliran"],
-        "ja": ["祝福", "心", "流れ"],
-        "th": ["พร", "หัวใจ", "การไหล"],
-        "ms": ["keberkatan", "hati", "aliran"]
+        "en": [
+          "blessings",
+          "heart",
+          "flow"
+        ],
+        "tr": [
+          "nimetler",
+          "kalp",
+          "akış"
+        ],
+        "fr": [
+          "bénédictions",
+          "cœur",
+          "flux"
+        ],
+        "pt": [
+          "bênçãos",
+          "coração",
+          "fluxo"
+        ],
+        "nl": [
+          "zegeningen",
+          "hart",
+          "stroming"
+        ],
+        "es": [
+          "bendiciones",
+          "corazón",
+          "flujo"
+        ],
+        "de": [
+          "Segnungen",
+          "Herz",
+          "Fluss"
+        ],
+        "it": [
+          "benedizioni",
+          "cuore",
+          "flusso"
+        ],
+        "ru": [
+          "благословения",
+          "сердце",
+          "поток"
+        ],
+        "id": [
+          "berkah",
+          "hati",
+          "aliran"
+        ],
+        "ja": [
+          "祝福",
+          "心",
+          "流れ"
+        ],
+        "th": [
+          "พร",
+          "หัวใจ",
+          "การไหล"
+        ],
+        "ms": [
+          "keberkatan",
+          "hati",
+          "aliran"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7315,19 +10227,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["stability", "soul", "resilience"],
-        "tr": ["istikrar", "ruh", "direnç"],
-        "fr": ["stabilité", "âme", "résilience"],
-        "pt": ["estabilidade", "alma", "resiliência"],
-        "nl": ["stabiliteit", "ziel", "veerkracht"],
-        "es": ["estabilidad", "alma", "resiliencia"],
-        "de": ["Stabilität", "Seele", "Widerstandsfähigkeit"],
-        "it": ["stabilità", "anima", "resilienza"],
-        "ru": ["стабильность", "душа", "устойчивость"],
-        "id": ["stabilitas", "jiwa", "ketahanan"],
-        "ja": ["安定", "魂", "回復力"],
-        "th": ["ความมั่นคง", "จิตวิญญาณ", "ความยืดหยุ่น"],
-        "ms": ["kestabilan", "jiwa", "ketahanan"]
+        "en": [
+          "stability",
+          "soul",
+          "resilience"
+        ],
+        "tr": [
+          "istikrar",
+          "ruh",
+          "direnç"
+        ],
+        "fr": [
+          "stabilité",
+          "âme",
+          "résilience"
+        ],
+        "pt": [
+          "estabilidade",
+          "alma",
+          "resiliência"
+        ],
+        "nl": [
+          "stabiliteit",
+          "ziel",
+          "veerkracht"
+        ],
+        "es": [
+          "estabilidad",
+          "alma",
+          "resiliencia"
+        ],
+        "de": [
+          "Stabilität",
+          "Seele",
+          "Widerstandsfähigkeit"
+        ],
+        "it": [
+          "stabilità",
+          "anima",
+          "resilienza"
+        ],
+        "ru": [
+          "стабильность",
+          "душа",
+          "устойчивость"
+        ],
+        "id": [
+          "stabilitas",
+          "jiwa",
+          "ketahanan"
+        ],
+        "ja": [
+          "安定",
+          "魂",
+          "回復力"
+        ],
+        "th": [
+          "ความมั่นคง",
+          "จิตวิญญาณ",
+          "ความยืดหยุ่น"
+        ],
+        "ms": [
+          "kestabilan",
+          "jiwa",
+          "ketahanan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7445,19 +10409,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["kindness", "growth", "nurture"],
-        "tr": ["nezaket", "büyüme", "besleme"],
-        "fr": ["bonté", "croissance", "nurture"],
-        "pt": ["bondade", "crescimento", "nutrição"],
-        "nl": ["vriendelijkheid", "groei", "koestering"],
-        "es": ["bondad", "crecimiento", "cuidado"],
-        "de": ["Freundlichkeit", "Wachstum", "Pflege"],
-        "it": ["gentilezza", "crescita", "cura"],
-        "ru": ["доброта", "рост", "уход"],
-        "id": ["kebaikan", "pertumbuhan", "pemeliharaan"],
-        "ja": ["優しさ", "成長", "育む"],
-        "th": ["ความเมตตา", "การเติบโต", "การบำรุง"],
-        "ms": ["kebaikan", "pertumbuhan", "pemupukan"]
+        "en": [
+          "kindness",
+          "growth",
+          "nurture"
+        ],
+        "tr": [
+          "nezaket",
+          "büyüme",
+          "besleme"
+        ],
+        "fr": [
+          "bonté",
+          "croissance",
+          "nurture"
+        ],
+        "pt": [
+          "bondade",
+          "crescimento",
+          "nutrição"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "groei",
+          "koestering"
+        ],
+        "es": [
+          "bondad",
+          "crecimiento",
+          "cuidado"
+        ],
+        "de": [
+          "Freundlichkeit",
+          "Wachstum",
+          "Pflege"
+        ],
+        "it": [
+          "gentilezza",
+          "crescita",
+          "cura"
+        ],
+        "ru": [
+          "доброта",
+          "рост",
+          "уход"
+        ],
+        "id": [
+          "kebaikan",
+          "pertumbuhan",
+          "pemeliharaan"
+        ],
+        "ja": [
+          "優しさ",
+          "成長",
+          "育む"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การเติบโต",
+          "การบำรุง"
+        ],
+        "ms": [
+          "kebaikan",
+          "pertumbuhan",
+          "pemupukan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7575,19 +10591,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["joy", "light", "path"],
-        "tr": ["neşe", "ışık", "yol"],
-        "fr": ["joie", "lumière", "chemin"],
-        "pt": ["alegria", "luz", "caminho"],
-        "nl": ["vreugde", "licht", "pad"],
-        "es": ["alegría", "luz", "camino"],
-        "de": ["Freude", "Licht", "Weg"],
-        "it": ["gioia", "luce", "cammino"],
-        "ru": ["радость", "свет", "путь"],
-        "id": ["kegembiraan", "cahaya", "jalan"],
-        "ja": ["喜び", "光", "道"],
-        "th": ["ความสุข", "แสงสว่าง", "เส้นทาง"],
-        "ms": ["kegembiraan", "cahaya", "jalan"]
+        "en": [
+          "joy",
+          "light",
+          "path"
+        ],
+        "tr": [
+          "neşe",
+          "ışık",
+          "yol"
+        ],
+        "fr": [
+          "joie",
+          "lumière",
+          "chemin"
+        ],
+        "pt": [
+          "alegria",
+          "luz",
+          "caminho"
+        ],
+        "nl": [
+          "vreugde",
+          "licht",
+          "pad"
+        ],
+        "es": [
+          "alegría",
+          "luz",
+          "camino"
+        ],
+        "de": [
+          "Freude",
+          "Licht",
+          "Weg"
+        ],
+        "it": [
+          "gioia",
+          "luce",
+          "cammino"
+        ],
+        "ru": [
+          "радость",
+          "свет",
+          "путь"
+        ],
+        "id": [
+          "kegembiraan",
+          "cahaya",
+          "jalan"
+        ],
+        "ja": [
+          "喜び",
+          "光",
+          "道"
+        ],
+        "th": [
+          "ความสุข",
+          "แสงสว่าง",
+          "เส้นทาง"
+        ],
+        "ms": [
+          "kegembiraan",
+          "cahaya",
+          "jalan"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7705,19 +10773,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["uplift", "heart", "horizons"],
-        "tr": ["yükseliş", "kalp", "ufuklar"],
-        "fr": ["élévation", "cœur", "horizons"],
-        "pt": ["elevação", "coração", "horizontes"],
-        "nl": ["verheffing", "hart", "horizonnen"],
-        "es": ["elevación", "corazón", "horizontes"],
-        "de": ["Erhebung", "Herz", "Horizonte"],
-        "it": ["elevazione", "cuore", "orizzonti"],
-        "ru": ["подъём", "сердце", "горизонты"],
-        "id": ["pengangkatan", "hati", "cakrawala"],
-        "ja": ["高揚", "心", "地平"],
-        "th": ["การยกระดับ", "หัวใจ", "ขอบฟ้า"],
-        "ms": ["pengangkatan", "hati", "ufuk"]
+        "en": [
+          "uplift",
+          "heart",
+          "horizons"
+        ],
+        "tr": [
+          "yükseliş",
+          "kalp",
+          "ufuklar"
+        ],
+        "fr": [
+          "élévation",
+          "cœur",
+          "horizons"
+        ],
+        "pt": [
+          "elevação",
+          "coração",
+          "horizontes"
+        ],
+        "nl": [
+          "verheffing",
+          "hart",
+          "horizonnen"
+        ],
+        "es": [
+          "elevación",
+          "corazón",
+          "horizontes"
+        ],
+        "de": [
+          "Erhebung",
+          "Herz",
+          "Horizonte"
+        ],
+        "it": [
+          "elevazione",
+          "cuore",
+          "orizzonti"
+        ],
+        "ru": [
+          "подъём",
+          "сердце",
+          "горизонты"
+        ],
+        "id": [
+          "pengangkatan",
+          "hati",
+          "cakrawala"
+        ],
+        "ja": [
+          "高揚",
+          "心",
+          "地平"
+        ],
+        "th": [
+          "การยกระดับ",
+          "หัวใจ",
+          "ขอบฟ้า"
+        ],
+        "ms": [
+          "pengangkatan",
+          "hati",
+          "ufuk"
+        ]
       },
       "readTime": 0,
       "stories": {
@@ -7835,19 +10955,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["appreciation", "daily life", "blessings"],
-        "tr": ["takdir", "günlük hayat", "nimetler"],
-        "fr": ["appréciation", "vie quotidienne", "bénédictions"],
-        "pt": ["apreciação", "vida diária", "bênçãos"],
-        "nl": ["waardering", "dagelijks leven", "zegeningen"],
-        "es": ["apreciación", "vida diaria", "bendiciones"],
-        "de": ["Wertschätzung", "tägliches Leben", "Segnungen"],
-        "it": ["apprezzamento", "vita quotidiana", "benedizioni"],
-        "ru": ["признательность", "повседневная жизнь", "благословения"],
-        "id": ["penghargaan", "kehidupan sehari-hari", "berkah"],
-        "ja": ["感謝", "日常生活", "祝福"],
-        "th": ["การขอบคุณ", "ชีวิตประจำวัน", "พร"],
-        "ms": ["penghargaan", "kehidupan harian", "berkah"]
+        "en": [
+          "appreciation",
+          "daily life",
+          "blessings"
+        ],
+        "tr": [
+          "takdir",
+          "günlük hayat",
+          "nimetler"
+        ],
+        "fr": [
+          "appréciation",
+          "vie quotidienne",
+          "bénédictions"
+        ],
+        "pt": [
+          "apreciação",
+          "vida diária",
+          "bênçãos"
+        ],
+        "nl": [
+          "waardering",
+          "dagelijks leven",
+          "zegeningen"
+        ],
+        "es": [
+          "apreciación",
+          "vida diaria",
+          "bendiciones"
+        ],
+        "de": [
+          "Wertschätzung",
+          "tägliches Leben",
+          "Segnungen"
+        ],
+        "it": [
+          "apprezzamento",
+          "vita quotidiana",
+          "benedizioni"
+        ],
+        "ru": [
+          "признательность",
+          "повседневная жизнь",
+          "благословения"
+        ],
+        "id": [
+          "penghargaan",
+          "kehidupan sehari-hari",
+          "berkah"
+        ],
+        "ja": [
+          "感謝",
+          "日常生活",
+          "祝福"
+        ],
+        "th": [
+          "การขอบคุณ",
+          "ชีวิตประจำวัน",
+          "พร"
+        ],
+        "ms": [
+          "penghargaan",
+          "kehidupan harian",
+          "berkah"
+        ]
       },
       "stories": {
         "en": {
@@ -7964,19 +11136,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["kindness", "reciprocity", "relationships"],
-        "tr": ["nezaret", "karşılıklılık", "ilişkiler"],
-        "fr": ["gentillesse", "réciprocité", "relations"],
-        "pt": ["bondade", "reciprocidade", "relacionamentos"],
-        "nl": ["vriendelijkheid", "wederkerigheid", "relaties"],
-        "es": ["amabilidad", "reciprocidad", "relaciones"],
-        "de": ["Freundlichkeit", "Gegenseitigkeit", "Beziehungen"],
-        "it": ["gentilezza", "reciprocità", "relazioni"],
-        "ru": ["доброта", "взаимность", "отношения"],
-        "id": ["kebaikan", "resiprositas", "hubungan"],
-        "ja": ["親切", "相互性", "人間関係"],
-        "th": ["ความเมตตา", "การตอบแทน", "ความสัมพันธ์"],
-        "ms": ["kebaikan", "timbal balik", "hubungan"]
+        "en": [
+          "kindness",
+          "reciprocity",
+          "relationships"
+        ],
+        "tr": [
+          "nezaret",
+          "karşılıklılık",
+          "ilişkiler"
+        ],
+        "fr": [
+          "gentillesse",
+          "réciprocité",
+          "relations"
+        ],
+        "pt": [
+          "bondade",
+          "reciprocidade",
+          "relacionamentos"
+        ],
+        "nl": [
+          "vriendelijkheid",
+          "wederkerigheid",
+          "relaties"
+        ],
+        "es": [
+          "amabilidad",
+          "reciprocidad",
+          "relaciones"
+        ],
+        "de": [
+          "Freundlichkeit",
+          "Gegenseitigkeit",
+          "Beziehungen"
+        ],
+        "it": [
+          "gentilezza",
+          "reciprocità",
+          "relazioni"
+        ],
+        "ru": [
+          "доброта",
+          "взаимность",
+          "отношения"
+        ],
+        "id": [
+          "kebaikan",
+          "resiprositas",
+          "hubungan"
+        ],
+        "ja": [
+          "親切",
+          "相互性",
+          "人間関係"
+        ],
+        "th": [
+          "ความเมตตา",
+          "การตอบแทน",
+          "ความสัมพันธ์"
+        ],
+        "ms": [
+          "kebaikan",
+          "timbal balik",
+          "hubungan"
+        ]
       },
       "stories": {
         "en": {
@@ -8093,19 +11317,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["learning", "growth", "challenges"],
-        "tr": ["öğrenme", "büyüme", "zorluklar"],
-        "fr": ["apprentissage", "croissance", "défis"],
-        "pt": ["aprendizado", "crescimento", "desafios"],
-        "nl": ["leren", "groei", "uitdagingen"],
-        "es": ["aprendizaje", "crecimiento", "desafíos"],
-        "de": ["Lernen", "Wachstum", "Herausforderungen"],
-        "it": ["apprendimento", "crescita", "sfide"],
-        "ru": ["обучение", "рост", "вызовы"],
-        "id": ["pembelajaran", "pertumbuhan", "tantangan"],
-        "ja": ["学習", "成長", "挑戦"],
-        "th": ["การเรียนรู้", "การเติบโต", "ความท้าทาย"],
-        "ms": ["pembelajaran", "pertumbuhan", "cabaran"]
+        "en": [
+          "learning",
+          "growth",
+          "challenges"
+        ],
+        "tr": [
+          "öğrenme",
+          "büyüme",
+          "zorluklar"
+        ],
+        "fr": [
+          "apprentissage",
+          "croissance",
+          "défis"
+        ],
+        "pt": [
+          "aprendizado",
+          "crescimento",
+          "desafios"
+        ],
+        "nl": [
+          "leren",
+          "groei",
+          "uitdagingen"
+        ],
+        "es": [
+          "aprendizaje",
+          "crecimiento",
+          "desafíos"
+        ],
+        "de": [
+          "Lernen",
+          "Wachstum",
+          "Herausforderungen"
+        ],
+        "it": [
+          "apprendimento",
+          "crescita",
+          "sfide"
+        ],
+        "ru": [
+          "обучение",
+          "рост",
+          "вызовы"
+        ],
+        "id": [
+          "pembelajaran",
+          "pertumbuhan",
+          "tantangan"
+        ],
+        "ja": [
+          "学習",
+          "成長",
+          "挑戦"
+        ],
+        "th": [
+          "การเรียนรู้",
+          "การเติบโต",
+          "ความท้าทาย"
+        ],
+        "ms": [
+          "pembelajaran",
+          "pertumbuhan",
+          "cabaran"
+        ]
       },
       "stories": {
         "en": {
@@ -8222,19 +11498,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["health", "wellness", "healing"],
-        "tr": ["sağlık", "iyilik hali", "iyileşme"],
-        "fr": ["santé", "bien-être", "guérison"],
-        "pt": ["saúde", "bem-estar", "cura"],
-        "nl": ["gezondheid", "welzijn", "genezing"],
-        "es": ["salud", "bienestar", "sanación"],
-        "de": ["Gesundheit", "Wohlbefinden", "Heilung"],
-        "it": ["salute", "benessere", "guarigione"],
-        "ru": ["здоровье", "благополучие", "исцеление"],
-        "id": ["kesehatan", "kesejahteraan", "penyembuhan"],
-        "ja": ["健康", "ウェルネス", "癒し"],
-        "th": ["สุขภาพ", "ความเป็นอยู่ที่ดี", "การรักษา"],
-        "ms": ["kesihatan", "kesejahteraan", "penyembuhan"]
+        "en": [
+          "health",
+          "wellness",
+          "healing"
+        ],
+        "tr": [
+          "sağlık",
+          "iyilik hali",
+          "iyileşme"
+        ],
+        "fr": [
+          "santé",
+          "bien-être",
+          "guérison"
+        ],
+        "pt": [
+          "saúde",
+          "bem-estar",
+          "cura"
+        ],
+        "nl": [
+          "gezondheid",
+          "welzijn",
+          "genezing"
+        ],
+        "es": [
+          "salud",
+          "bienestar",
+          "sanación"
+        ],
+        "de": [
+          "Gesundheit",
+          "Wohlbefinden",
+          "Heilung"
+        ],
+        "it": [
+          "salute",
+          "benessere",
+          "guarigione"
+        ],
+        "ru": [
+          "здоровье",
+          "благополучие",
+          "исцеление"
+        ],
+        "id": [
+          "kesehatan",
+          "kesejahteraan",
+          "penyembuhan"
+        ],
+        "ja": [
+          "健康",
+          "ウェルネス",
+          "癒し"
+        ],
+        "th": [
+          "สุขภาพ",
+          "ความเป็นอยู่ที่ดี",
+          "การรักษา"
+        ],
+        "ms": [
+          "kesihatan",
+          "kesejahteraan",
+          "penyembuhan"
+        ]
       },
       "stories": {
         "en": {
@@ -8351,19 +11679,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["family", "friends", "love"],
-        "tr": ["aile", "arkadaşlar", "aşk"],
-        "fr": ["famille", "amis", "amour"],
-        "pt": ["família", "amigos", "amor"],
-        "nl": ["familie", "vrienden", "liefde"],
-        "es": ["familia", "amigos", "amor"],
-        "de": ["Familie", "Freunde", "Liebe"],
-        "it": ["famiglia", "amici", "amore"],
-        "ru": ["семья", "друзья", "любовь"],
-        "id": ["keluarga", "teman", "cinta"],
-        "ja": ["家族", "友人", "愛"],
-        "th": ["ครอบครัว", "เพื่อน", "ความรัก"],
-        "ms": ["keluarga", "rakan", "cinta"]
+        "en": [
+          "family",
+          "friends",
+          "love"
+        ],
+        "tr": [
+          "aile",
+          "arkadaşlar",
+          "aşk"
+        ],
+        "fr": [
+          "famille",
+          "amis",
+          "amour"
+        ],
+        "pt": [
+          "família",
+          "amigos",
+          "amor"
+        ],
+        "nl": [
+          "familie",
+          "vrienden",
+          "liefde"
+        ],
+        "es": [
+          "familia",
+          "amigos",
+          "amor"
+        ],
+        "de": [
+          "Familie",
+          "Freunde",
+          "Liebe"
+        ],
+        "it": [
+          "famiglia",
+          "amici",
+          "amore"
+        ],
+        "ru": [
+          "семья",
+          "друзья",
+          "любовь"
+        ],
+        "id": [
+          "keluarga",
+          "teman",
+          "cinta"
+        ],
+        "ja": [
+          "家族",
+          "友人",
+          "愛"
+        ],
+        "th": [
+          "ครอบครัว",
+          "เพื่อน",
+          "ความรัก"
+        ],
+        "ms": [
+          "keluarga",
+          "rakan",
+          "cinta"
+        ]
       },
       "stories": {
         "en": {
@@ -8480,19 +11860,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["opportunities", "possibilities", "growth"],
-        "tr": ["fırsatlar", "olanaklar", "büyüme"],
-        "fr": ["opportunités", "possibilités", "croissance"],
-        "pt": ["oportunidades", "possibilidades", "crescimento"],
-        "nl": ["kansen", "mogelijkheden", "groei"],
-        "es": ["oportunidades", "posibilidades", "crecimiento"],
-        "de": ["Möglichkeiten", "Potenziale", "Wachstum"],
-        "it": ["opportunità", "possibilità", "crescita"],
-        "ru": ["возможности", "потенциал", "рост"],
-        "id": ["peluang", "kemungkinan", "pertumbuhan"],
-        "ja": ["機会", "可能性", "成長"],
-        "th": ["โอกาส", "ความเป็นไปได้", "การเติบโต"],
-        "ms": ["peluang", "kemungkinan", "pertumbuhan"]
+        "en": [
+          "opportunities",
+          "possibilities",
+          "growth"
+        ],
+        "tr": [
+          "fırsatlar",
+          "olanaklar",
+          "büyüme"
+        ],
+        "fr": [
+          "opportunités",
+          "possibilités",
+          "croissance"
+        ],
+        "pt": [
+          "oportunidades",
+          "possibilidades",
+          "crescimento"
+        ],
+        "nl": [
+          "kansen",
+          "mogelijkheden",
+          "groei"
+        ],
+        "es": [
+          "oportunidades",
+          "posibilidades",
+          "crecimiento"
+        ],
+        "de": [
+          "Möglichkeiten",
+          "Potenziale",
+          "Wachstum"
+        ],
+        "it": [
+          "opportunità",
+          "possibilità",
+          "crescita"
+        ],
+        "ru": [
+          "возможности",
+          "потенциал",
+          "рост"
+        ],
+        "id": [
+          "peluang",
+          "kemungkinan",
+          "pertumbuhan"
+        ],
+        "ja": [
+          "機会",
+          "可能性",
+          "成長"
+        ],
+        "th": [
+          "โอกาส",
+          "ความเป็นไปได้",
+          "การเติบโต"
+        ],
+        "ms": [
+          "peluang",
+          "kemungkinan",
+          "pertumbuhan"
+        ]
       },
       "stories": {
         "en": {
@@ -8609,19 +12041,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["strength", "resilience", "inner power"],
-        "tr": ["güç", "dirençlilik", "iç güç"],
-        "fr": ["force", "résilience", "puissance intérieure"],
-        "pt": ["força", "resiliência", "poder interior"],
-        "nl": ["kracht", "veerkracht", "innerlijke macht"],
-        "es": ["fuerza", "resiliencia", "poder interior"],
-        "de": ["Stärke", "Belastbarkeit", "innere Kraft"],
-        "it": ["forza", "resilienza", "potere interiore"],
-        "ru": ["сила", "устойчивость", "внутренняя сила"],
-        "id": ["kekuatan", "ketahanan", "kekuatan batin"],
-        "ja": ["強さ", "回復力", "内なる力"],
-        "th": ["ความแข็งแรง", "ความยืดหยุ่น", "พลังภายใน"],
-        "ms": ["kekuatan", "ketahanan", "kuasa dalaman"]
+        "en": [
+          "strength",
+          "resilience",
+          "inner power"
+        ],
+        "tr": [
+          "güç",
+          "dirençlilik",
+          "iç güç"
+        ],
+        "fr": [
+          "force",
+          "résilience",
+          "puissance intérieure"
+        ],
+        "pt": [
+          "força",
+          "resiliência",
+          "poder interior"
+        ],
+        "nl": [
+          "kracht",
+          "veerkracht",
+          "innerlijke macht"
+        ],
+        "es": [
+          "fuerza",
+          "resiliencia",
+          "poder interior"
+        ],
+        "de": [
+          "Stärke",
+          "Belastbarkeit",
+          "innere Kraft"
+        ],
+        "it": [
+          "forza",
+          "resilienza",
+          "potere interiore"
+        ],
+        "ru": [
+          "сила",
+          "устойчивость",
+          "внутренняя сила"
+        ],
+        "id": [
+          "kekuatan",
+          "ketahanan",
+          "kekuatan batin"
+        ],
+        "ja": [
+          "強さ",
+          "回復力",
+          "内なる力"
+        ],
+        "th": [
+          "ความแข็งแรง",
+          "ความยืดหยุ่น",
+          "พลังภายใน"
+        ],
+        "ms": [
+          "kekuatan",
+          "ketahanan",
+          "kuasa dalaman"
+        ]
       },
       "stories": {
         "en": {
@@ -8738,19 +12222,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["life", "love", "presence"],
-        "tr": ["hayat", "aşk", "mevcudiyet"],
-        "fr": ["vie", "amour", "présence"],
-        "pt": ["vida", "amor", "presença"],
-        "nl": ["leven", "liefde", "aanwezigheid"],
-        "es": ["vida", "amor", "presencia"],
-        "de": ["Leben", "Liebe", "Gegenwart"],
-        "it": ["vita", "amore", "presenza"],
-        "ru": ["жизнь", "любовь", "присутствие"],
-        "id": ["kehidupan", "cinta", "kehadiran"],
-        "ja": ["人生", "愛", "存在"],
-        "th": ["ชีวิต", "ความรัก", "การอยู่ปัจจุบัน"],
-        "ms": ["kehidupan", "cinta", "kehadiran"]
+        "en": [
+          "life",
+          "love",
+          "presence"
+        ],
+        "tr": [
+          "hayat",
+          "aşk",
+          "mevcudiyet"
+        ],
+        "fr": [
+          "vie",
+          "amour",
+          "présence"
+        ],
+        "pt": [
+          "vida",
+          "amor",
+          "presença"
+        ],
+        "nl": [
+          "leven",
+          "liefde",
+          "aanwezigheid"
+        ],
+        "es": [
+          "vida",
+          "amor",
+          "presencia"
+        ],
+        "de": [
+          "Leben",
+          "Liebe",
+          "Gegenwart"
+        ],
+        "it": [
+          "vita",
+          "amore",
+          "presenza"
+        ],
+        "ru": [
+          "жизнь",
+          "любовь",
+          "присутствие"
+        ],
+        "id": [
+          "kehidupan",
+          "cinta",
+          "kehadiran"
+        ],
+        "ja": [
+          "人生",
+          "愛",
+          "存在"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความรัก",
+          "การอยู่ปัจจุบัน"
+        ],
+        "ms": [
+          "kehidupan",
+          "cinta",
+          "kehadiran"
+        ]
       },
       "stories": {
         "en": {
@@ -8867,19 +12403,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["nature", "beauty", "wonder"],
-        "tr": ["doğa", "güzellik", "harika"],
-        "fr": ["nature", "beauté", "merveille"],
-        "pt": ["natureza", "beleza", "maravilha"],
-        "nl": ["natuur", "schoonheid", "wonder"],
-        "es": ["naturaleza", "belleza", "maravilla"],
-        "de": ["Natur", "Schönheit", "Wunder"],
-        "it": ["natura", "bellezza", "meraviglia"],
-        "ru": ["природа", "красота", "чудо"],
-        "id": ["alam", "keindahan", "keajaiban"],
-        "ja": ["自然", "美しさ", "驚異"],
-        "th": ["ธรรมชาติ", "ความงาม", "ความมหัศจรรย์"],
-        "ms": ["alam semula jadi", "keindahan", "keajaiban"]
+        "en": [
+          "nature",
+          "beauty",
+          "wonder"
+        ],
+        "tr": [
+          "doğa",
+          "güzellik",
+          "harika"
+        ],
+        "fr": [
+          "nature",
+          "beauté",
+          "merveille"
+        ],
+        "pt": [
+          "natureza",
+          "beleza",
+          "maravilha"
+        ],
+        "nl": [
+          "natuur",
+          "schoonheid",
+          "wonder"
+        ],
+        "es": [
+          "naturaleza",
+          "belleza",
+          "maravilla"
+        ],
+        "de": [
+          "Natur",
+          "Schönheit",
+          "Wunder"
+        ],
+        "it": [
+          "natura",
+          "bellezza",
+          "meraviglia"
+        ],
+        "ru": [
+          "природа",
+          "красота",
+          "чудо"
+        ],
+        "id": [
+          "alam",
+          "keindahan",
+          "keajaiban"
+        ],
+        "ja": [
+          "自然",
+          "美しさ",
+          "驚異"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความงาม",
+          "ความมหัศจรรย์"
+        ],
+        "ms": [
+          "alam semula jadi",
+          "keindahan",
+          "keajaiban"
+        ]
       },
       "stories": {
         "en": {
@@ -8996,19 +12584,71 @@
       },
       "category": "gratitude",
       "tags": {
-        "en": ["wisdom", "experience", "aging"],
-        "tr": ["bilgelik", "deneyim", "yaşlanma"],
-        "fr": ["sagesse", "expérience", "vieillissement"],
-        "pt": ["sabedoria", "experiência", "envelhecimento"],
-        "nl": ["wijsheid", "ervaring", "veroudering"],
-        "es": ["sabiduría", "experiencia", "envejecimiento"],
-        "de": ["Weisheit", "Erfahrung", "Altern"],
-        "it": ["saggezza", "esperienza", "invecchiamento"],
-        "ru": ["мудрость", "опыт", "старение"],
-        "id": ["kebijaksanaan", "pengalaman", "penuaan"],
-        "ja": ["知恵", "経験", "老化"],
-        "th": ["ปัญญา", "ประสบการณ์", "การแก่"],
-        "ms": ["kebijaksanaan", "pengalaman", "penuaan"]
+        "en": [
+          "wisdom",
+          "experience",
+          "aging"
+        ],
+        "tr": [
+          "bilgelik",
+          "deneyim",
+          "yaşlanma"
+        ],
+        "fr": [
+          "sagesse",
+          "expérience",
+          "vieillissement"
+        ],
+        "pt": [
+          "sabedoria",
+          "experiência",
+          "envelhecimento"
+        ],
+        "nl": [
+          "wijsheid",
+          "ervaring",
+          "veroudering"
+        ],
+        "es": [
+          "sabiduría",
+          "experiencia",
+          "envejecimiento"
+        ],
+        "de": [
+          "Weisheit",
+          "Erfahrung",
+          "Altern"
+        ],
+        "it": [
+          "saggezza",
+          "esperienza",
+          "invecchiamento"
+        ],
+        "ru": [
+          "мудрость",
+          "опыт",
+          "старение"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "pengalaman",
+          "penuaan"
+        ],
+        "ja": [
+          "知恵",
+          "経験",
+          "老化"
+        ],
+        "th": [
+          "ปัญญา",
+          "ประสบการณ์",
+          "การแก่"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "pengalaman",
+          "penuaan"
+        ]
       },
       "stories": {
         "en": {
@@ -9091,7 +12731,7 @@
         }
       }
     },
-        {
+    {
       "id": "gratitude_071",
       "type": "affirmation",
       "texts": {
@@ -9138,8 +12778,8 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_072",
       "type": "affirmation",
       "texts": {
@@ -9186,24 +12826,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_073",
       "type": "affirmation",
       "texts": {
-        "en": "I welcome Gratitude into my life.",
-        "tr": "Hayatıma Şükür enerjisini alıyorum.",
-        "fr": "J'accueille Gratitude dans ma vie.",
-        "pt": "Eu acolho Gratitude na minha vida.",
-        "nl": "Ik verwelkom Gratitude in mijn leven.",
-        "es": "Doy la bienvenida a Gratitude en mi vida.",
-        "de": "Ich heiße Gratitude in meinem Leben willkommen.",
-        "it": "Accolgo Gratitude nella mia vita.",
-        "ru": "Я принимаю Gratitude в свою жизнь.",
-        "id": "Saya menyambut Gratitude dalam hidup saya.",
-        "ja": "私はGratitudeを人生に迎え入れます。",
-        "th": "ฉันต้อนรับGratitudeเข้ามาในชีวิตของฉัน",
-        "ms": "Saya menyambut Gratitude dalam hidup saya."
+        "en": "I make room for gratitude without rushing.",
+        "tr": "şükür için acele etmeden yer açıyorum.",
+        "fr": "Je fais de la place à gratitude sans me presser.",
+        "pt": "Abro espaço para gratitude sem pressa.",
+        "nl": "Ik maak ruimte voor gratitude zonder te haasten.",
+        "es": "Hago espacio para gratitude sin prisa.",
+        "de": "Ich mache Platz für gratitude, ohne zu hetzen.",
+        "it": "Faccio spazio a gratitude senza fretta.",
+        "ru": "Я даю место gratitude без спешки.",
+        "id": "Aku memberi ruang bagi gratitude tanpa terburu-buru.",
+        "ja": "焦らずにgratitudeのための余白をつくります。",
+        "th": "ฉันเปิดพื้นที่ให้gratitudeโดยไม่เร่งรีบ",
+        "ms": "Saya memberi ruang untuk gratitude tanpa tergesa-gesa."
       },
       "authors": {
         "en": "",
@@ -9230,24 +12870,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_074",
       "type": "affirmation",
       "texts": {
-        "en": "My heart is open to Gratitude.",
-        "tr": "Kalbim Şükür için açık.",
-        "fr": "Mon cœur est ouvert à Gratitude.",
-        "pt": "Meu coração está aberto para Gratitude.",
-        "nl": "Mijn hart staat open voor Gratitude.",
-        "es": "Mi corazón está abierto a Gratitude.",
-        "de": "Mein Herz ist offen für Gratitude.",
-        "it": "Il mio cuore è aperto a Gratitude.",
-        "ru": "Моё сердце открыто для Gratitude.",
-        "id": "Hati saya terbuka untuk Gratitude.",
-        "ja": "私の心はGratitudeに開かれています。",
-        "th": "หัวใจของฉันเปิดรับGratitude",
-        "ms": "Hati saya terbuka untuk Gratitude."
+        "en": "I stay open to gratitude in ways that feel safe.",
+        "tr": "Kendimi güvende hissettiren biçimlerde şükür için açık kalıyorum.",
+        "fr": "Je reste ouvert à gratitude d’une manière qui me fait me sentir en sécurité.",
+        "pt": "Permaneço aberto a gratitude de um jeito que me faz sentir seguro.",
+        "nl": "Ik blijf open voor gratitude op manieren die veilig voelen.",
+        "es": "Me mantengo abierto a gratitude de formas que se sienten seguras.",
+        "de": "Ich bleibe offen für gratitude auf eine Weise, die sich sicher anfühlt.",
+        "it": "Resto aperto a gratitude in modi che mi fanno sentire al sicuro.",
+        "ru": "Я остаюсь открытым к gratitude так, чтобы мне было спокойно.",
+        "id": "Aku tetap terbuka pada gratitude dengan cara yang terasa aman.",
+        "ja": "安心できる形でgratitudeに心を開き続けます。",
+        "th": "ฉันเปิดใจให้gratitudeในแบบที่ทำให้ฉันรู้สึกปลอดภัย",
+        "ms": "Saya kekal terbuka terhadap gratitude dengan cara yang terasa selamat."
       },
       "authors": {
         "en": "",
@@ -9274,24 +12914,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_075",
       "type": "affirmation",
       "texts": {
-        "en": "Gratitude grows within me each day.",
-        "tr": "Şükür her gün içimde büyüyor.",
-        "fr": "Gratitude grandit en moi chaque jour.",
-        "pt": "Gratitude cresce dentro de mim todos os dias.",
-        "nl": "Gratitude groeit elke dag in mij.",
-        "es": "Gratitude crece dentro de mí cada día.",
-        "de": "Gratitude wächst jeden Tag in mir.",
-        "it": "Gratitude cresce in me ogni giorno.",
-        "ru": "Gratitude растёт во мне каждый день.",
-        "id": "Gratitude tumbuh di dalam diri saya setiap hari.",
-        "ja": "Gratitudeは毎日私の中で育ちます。",
-        "th": "Gratitudeเติบโตในตัวฉันทุกวัน",
-        "ms": "Gratitude berkembang dalam diri saya setiap hari."
+        "en": "Each day, gratitude grows within me.",
+        "tr": "Her gün içimde şükür büyüyor.",
+        "fr": "Chaque jour, gratitude grandit en moi.",
+        "pt": "A cada dia, gratitude cresce dentro de mim.",
+        "nl": "Elke dag groeit gratitude in mij.",
+        "es": "Cada día, gratitude crece dentro de mí.",
+        "de": "Jeden Tag wächst gratitude in mir.",
+        "it": "Ogni giorno, gratitude cresce dentro di me.",
+        "ru": "Каждый день gratitude растёт во мне.",
+        "id": "Setiap hari, gratitude tumbuh di dalam diriku.",
+        "ja": "毎日、gratitudeが私の中で育っています。",
+        "th": "ทุกวัน gratitude เติบโตอยู่ในตัวฉัน",
+        "ms": "Setiap hari, gratitude berkembang dalam diri saya."
       },
       "authors": {
         "en": "",
@@ -9318,24 +12958,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_076",
       "type": "affirmation",
       "texts": {
-        "en": "I create space for Gratitude now.",
-        "tr": "Şimdi Şükür için alan yaratıyorum.",
-        "fr": "Je crée de l'espace pour Gratitude maintenant.",
-        "pt": "Eu crio espaço para Gratitude agora.",
-        "nl": "Ik maak nu ruimte voor Gratitude.",
-        "es": "Creo espacio para Gratitude ahora.",
-        "de": "Ich schaffe jetzt Raum für Gratitude.",
-        "it": "Creo spazio per Gratitude ora.",
-        "ru": "Я создаю пространство для Gratitude сейчас.",
-        "id": "Saya menciptakan ruang untuk Gratitude sekarang.",
-        "ja": "今、Gratitudeのための余白をつくります。",
-        "th": "ฉันสร้างพื้นที่สำหรับGratitudeในตอนนี้",
-        "ms": "Saya mewujudkan ruang untuk Gratitude sekarang."
+        "en": "I give gratitude a quiet place in my day.",
+        "tr": "Günümde şükür için sakin bir yer ayırıyorum.",
+        "fr": "J’accorde à gratitude une place calme dans ma journée.",
+        "pt": "Dou a gratitude um lugar tranquilo no meu dia.",
+        "nl": "Ik geef gratitude een rustige plek in mijn dag.",
+        "es": "Le doy a gratitude un lugar tranquilo en mi día.",
+        "de": "Ich gebe gratitude einen ruhigen Platz in meinem Tag.",
+        "it": "Do a gratitude un posto tranquillo nella mia giornata.",
+        "ru": "Я даю gratitude тихое место в своём дне.",
+        "id": "Aku memberi gratitude tempat yang tenang dalam hariku.",
+        "ja": "一日の中にgratitudeのための静かな場所をつくります。",
+        "th": "ฉันให้gratitudeมีที่เงียบสงบในวันของฉัน",
+        "ms": "Saya memberi gratitude tempat yang tenang dalam hari saya."
       },
       "authors": {
         "en": "",
@@ -9362,24 +13002,24 @@
         ]
       },
       "readTime": "0"
-        },
-        {
+    },
+    {
       "id": "gratitude_077",
       "type": "affirmation",
       "texts": {
-        "en": "I trust the path of Gratitude.",
-        "tr": "Şükür yoluna güveniyorum.",
-        "fr": "Je fais confiance au chemin de Gratitude.",
-        "pt": "Eu confio no caminho de Gratitude.",
-        "nl": "Ik vertrouw op het pad van Gratitude.",
-        "es": "Confío en el camino de Gratitude.",
-        "de": "Ich vertraue dem Weg von Gratitude.",
-        "it": "Mi fido del percorso di Gratitude.",
-        "ru": "Я доверяю пути Gratitude.",
-        "id": "Saya percaya pada jalan Gratitude.",
-        "ja": "私はGratitudeの道を信じます。",
-        "th": "ฉันเชื่อมั่นในเส้นทางของGratitude",
-        "ms": "Saya percaya pada jalan Gratitude."
+        "en": "I trust my own way of growing in gratitude.",
+        "tr": "şükür konusunda kendi yoluma güveniyorum.",
+        "fr": "Je fais confiance à ma propre façon de grandir avec gratitude.",
+        "pt": "Confio no meu próprio jeito de crescer com gratitude.",
+        "nl": "Ik vertrouw op mijn eigen manier om te groeien in gratitude.",
+        "es": "Confío en mi propia manera de crecer con gratitude.",
+        "de": "Ich vertraue meinem eigenen Weg, in gratitude zu wachsen.",
+        "it": "Mi fido del mio modo di crescere con gratitude.",
+        "ru": "Я доверяю своему собственному пути роста в gratitude.",
+        "id": "Aku percaya pada caraku sendiri untuk bertumbuh dalam gratitude.",
+        "ja": "自分なりのgratitudeの育て方を信じます。",
+        "th": "ฉันเชื่อในวิธีของตัวเองที่จะเติบโตกับgratitude",
+        "ms": "Saya percaya pada cara saya sendiri untuk berkembang dalam gratitude."
       },
       "authors": {
         "en": "",
@@ -9406,6 +13046,946 @@
         ]
       },
       "readTime": "0"
-        }
+    },
+    {
+      "id": "gratitude_078",
+      "type": "affirmation",
+      "texts": {
+        "en": "I practice gratitude with gentle consistency.",
+        "tr": "şükür konusunda nazik bir süreklilikle pratik yapıyorum.",
+        "fr": "Je pratique gratitude avec une douce constance.",
+        "pt": "Eu pratico gratitude com constância gentil.",
+        "nl": "Ik beoefen gratitude met zachte regelmaat.",
+        "es": "Practico gratitude con constancia suave.",
+        "de": "Ich übe gratitude mit sanfter Beständigkeit.",
+        "it": "Pratico gratitude con dolce costanza.",
+        "ru": "Я практикую gratitude с мягкой постоянностью.",
+        "id": "Saya mempraktikkan gratitude dengan konsistensi yang lembut.",
+        "ja": "私はgratitudeを穏やかな継続で実践します。",
+        "th": "ฉันฝึกgratitudeอย่างสม่ำเสมอและอ่อนโยน",
+        "ms": "Saya mempraktikkan gratitude dengan konsistensi yang lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gratitude_079",
+      "type": "affirmation",
+      "texts": {
+        "en": "In this season, gratitude supports me.",
+        "tr": "Bu dönemde şükür beni destekliyor.",
+        "fr": "En cette période, gratitude me soutient.",
+        "pt": "Nesta fase, gratitude me apoia.",
+        "nl": "In deze periode ondersteunt gratitude mij.",
+        "es": "En esta etapa, gratitude me sostiene.",
+        "de": "In dieser Zeit unterstützt gratitude mich.",
+        "it": "In questo periodo, gratitude mi sostiene.",
+        "ru": "В этот период gratitude поддерживает меня.",
+        "id": "Di masa ini, gratitude mendukungku.",
+        "ja": "この時期、gratitudeが私を支えてくれます。",
+        "th": "ในช่วงเวลานี้ gratitudeคอยสนับสนุนฉัน",
+        "ms": "Dalam fasa ini, gratitude menyokong saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gratitude_080",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose gratitude in small, honest steps.",
+        "tr": "Küçük ve dürüst adımlarla şükür seçiyorum.",
+        "fr": "Je choisis gratitude par de petits pas sincères.",
+        "pt": "Escolho gratitude em passos pequenos e honestos.",
+        "nl": "Ik kies gratitude in kleine, eerlijke stappen.",
+        "es": "Elijo gratitude con pasos pequeños y honestos.",
+        "de": "Ich wähle gratitude in kleinen, ehrlichen Schritten.",
+        "it": "Scelgo gratitude con passi piccoli e sinceri.",
+        "ru": "Я выбираю gratitude маленькими, честными шагами.",
+        "id": "Aku memilih gratitude dengan langkah-langkah kecil yang jujur.",
+        "ja": "小さく正直な一歩でgratitudeを選びます。",
+        "th": "ฉันเลือกgratitudeด้วยก้าวเล็ก ๆ ที่ซื่อสัตย์",
+        "ms": "Saya memilih gratitude dengan langkah kecil yang jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gratitude_081",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let gratitude shape the choices that matter to me.",
+        "tr": "Benim için önemli seçimleri şükür şekillendiriyor.",
+        "fr": "Je laisse gratitude façonner les choix qui comptent pour moi.",
+        "pt": "Deixo gratitude moldar as escolhas que importam para mim.",
+        "nl": "Ik laat gratitude de keuzes vormen die voor mij belangrijk zijn.",
+        "es": "Dejo que gratitude moldee las decisiones que son importantes para mí.",
+        "de": "Ich lasse gratitude die Entscheidungen formen, die mir wichtig sind.",
+        "it": "Lascio che gratitude plasmi le scelte che contano per me.",
+        "ru": "Я позволяю gratitude формировать важные для меня решения.",
+        "id": "Aku membiarkan gratitude membentuk pilihan yang penting bagiku.",
+        "ja": "gratitudeが私にとって大切な選択を形づくります。",
+        "th": "ฉันยอมให้gratitudeหล่อหลอมการตัดสินใจที่สำคัญสำหรับฉัน",
+        "ms": "Saya membenarkan gratitude membentuk pilihan yang penting bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gratitude_082",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, gratitude feels natural to me.",
+        "tr": "Bugün şükür bana doğal geliyor.",
+        "fr": "Aujourd'hui, gratitude me semble naturel.",
+        "pt": "Hoje, gratitude parece natural para mim.",
+        "nl": "Vandaag voelt gratitude natuurlijk voor mij.",
+        "es": "Hoy, gratitude se siente natural para mí.",
+        "de": "Heute fühlt sich gratitude natürlich für mich an.",
+        "it": "Oggi gratitude mi sembra naturale.",
+        "ru": "Сегодня gratitude кажется мне естественным.",
+        "id": "Hari ini, gratitude terasa alami bagi saya.",
+        "ja": "今日はgratitudeが自然に感じられます。",
+        "th": "วันนี้gratitudeให้ความรู้สึกเป็นธรรมชาติสำหรับฉัน",
+        "ms": "Hari ini, gratitude terasa semula jadi bagi saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "affirmation"
+        ],
+        "tr": [
+          "olumlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_83",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose gratitude in the small moments that shape my day.",
+        "tr": "Günümü şekillendiren küçük anlarda şükür seçiyorum.",
+        "fr": "Je choisis gratitude dans les petits moments qui façonnent ma journée.",
+        "pt": "Eu escolho gratitude nos pequenos momentos que moldam meu dia.",
+        "nl": "Ik kies gratitude in de kleine momenten die mijn dag vormen.",
+        "es": "Elijo gratitude en los pequeños momentos que dan forma a mi día.",
+        "de": "Ich wähle gratitude in den kleinen Momenten, die meinen Tag formen.",
+        "it": "Scelgo gratitude nei piccoli momenti che danno forma alla mia giornata.",
+        "ru": "Я выбираю gratitude в малых моментах, которые формируют мой день.",
+        "id": "Aku memilih gratitude dalam momen-momen kecil yang membentuk hariku.",
+        "ja": "一日の小さな瞬間でgratitudeを選びます。",
+        "th": "ฉันเลือกgratitudeในช่วงเวลาเล็ก ๆ ที่หล่อหลอมวันของฉัน",
+        "ms": "Saya memilih gratitude dalam detik-detik kecil yang membentuk hari saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_84",
+      "type": "affirmation",
+      "texts": {
+        "en": "My inner voice grows kinder as I build gratitude.",
+        "tr": "İç sesim şükür inşa ederken daha nazikleşiyor.",
+        "fr": "Ma voix intérieure devient plus douce à mesure que je construis gratitude.",
+        "pt": "Minha voz interior fica mais gentil enquanto cultivo gratitude.",
+        "nl": "Mijn innerlijke stem wordt zachter terwijl ik gratitude opbouw.",
+        "es": "Mi voz interior se vuelve más amable mientras construyo gratitude.",
+        "de": "Meine innere Stimme wird sanfter, während ich gratitude aufbaue.",
+        "it": "La mia voce interiore diventa più gentile mentre costruisco gratitude.",
+        "ru": "Мой внутренний голос становится мягче, пока я развиваю gratitude.",
+        "id": "Suara batinku menjadi lebih lembut saat aku membangun gratitude.",
+        "ja": "gratitudeを育てるほど、内なる声がやさしくなります。",
+        "th": "เสียงข้างในของฉันอ่อนโยนขึ้นเมื่อฉันสร้างgratitude",
+        "ms": "Suara dalaman saya menjadi lebih lembut ketika saya membina gratitude."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_85",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to meet gratitude at my own pace.",
+        "tr": "şükür ile kendi tempomda buluşmama kendime izin veriyorum.",
+        "fr": "Je me permets de rencontrer gratitude à mon propre rythme.",
+        "pt": "Dou a mim permissão para encontrar gratitude no meu ritmo.",
+        "nl": "Ik geef mezelf toestemming om gratitude in mijn eigen tempo te ontmoeten.",
+        "es": "Me doy permiso para encontrar gratitude a mi propio ritmo.",
+        "de": "Ich erlaube mir, gratitude in meinem eigenen Tempo zu begegnen.",
+        "it": "Mi do il permesso di incontrare gratitude al mio ritmo.",
+        "ru": "Я позволяю себе встречать gratitude в своём темпе.",
+        "id": "Aku memberi diriku izin untuk bertemu gratitude dengan ritmeku.",
+        "ja": "自分のペースでgratitudeに出会うことを許します。",
+        "th": "ฉันให้ตัวเองได้พบgratitudeในจังหวะของตัวเอง",
+        "ms": "Saya memberi diri saya izin untuk menemui gratitude mengikut rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_86",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let gratitude steady me when life feels loud.",
+        "tr": "Hayat gürültülü hissettirdiğinde şükür beni dengeliyor.",
+        "fr": "Je laisse gratitude m'ancrer quand la vie devient bruyante.",
+        "pt": "Deixo gratitude me trazer estabilidade quando a vida fica barulhenta.",
+        "nl": "Ik laat gratitude me aarden als het leven luid voelt.",
+        "es": "Dejo que gratitude me sostenga cuando la vida se siente ruidosa.",
+        "de": "Ich lasse gratitude mich erden, wenn das Leben laut wirkt.",
+        "it": "Lascio che gratitude mi stabilizzi quando la vita è rumorosa.",
+        "ru": "Я позволяю gratitude удерживать меня, когда жизнь шумит.",
+        "id": "Aku membiarkan gratitude menenangkan diriku ketika hidup terasa bising.",
+        "ja": "人生が騒がしいとき、gratitudeが私を落ち着かせます。",
+        "th": "ฉันยอมให้gratitudeทำให้ฉันมั่นคงเมื่อชีวิตดังวุ่นวาย",
+        "ms": "Saya membenarkan gratitude menenangkan saya ketika hidup terasa bising."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_87",
+      "type": "affirmation",
+      "texts": {
+        "en": "Through the choices I make today, gratitude is growing.",
+        "tr": "Bugün yaptığım seçimler sayesinde şükür büyüyor.",
+        "fr": "À travers les choix que je fais aujourd'hui, gratitude grandit.",
+        "pt": "Por meio das escolhas que faço hoje, gratitude cresce.",
+        "nl": "Door de keuzes die ik vandaag maak, groeit gratitude.",
+        "es": "A través de las decisiones que tomo hoy, gratitude crece.",
+        "de": "Durch die Entscheidungen, die ich heute treffe, wächst gratitude.",
+        "it": "Attraverso le scelte che faccio oggi, gratitude cresce.",
+        "ru": "Через решения, которые я принимаю сегодня, gratitude растёт.",
+        "id": "Melalui pilihan yang kubuat hari ini, gratitude tumbuh.",
+        "ja": "今日の選択を通してgratitudeが育っています。",
+        "th": "ผ่านการตัดสินใจที่ฉันทำวันนี้ gratitudeกำลังเติบโต",
+        "ms": "Melalui pilihan yang saya buat hari ini, gratitude berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_88",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can feel gratitude settling into my routines.",
+        "tr": "Rutinlerimde şükür için bir yer oluştuğunu hissediyorum.",
+        "fr": "Je sens gratitude s’installer dans mes routines.",
+        "pt": "Sinto gratitude se acomodar nas minhas rotinas.",
+        "nl": "Ik voel gratitude zich nestelen in mijn routines.",
+        "es": "Siento que gratitude se asienta en mis rutinas.",
+        "de": "Ich spüre, wie gratitude sich in meinen Routinen einlebt.",
+        "it": "Sento gratitude assestarsi nelle mie routine.",
+        "ru": "Я чувствую, как gratitude укореняется в моих привычках.",
+        "id": "Aku merasakan gratitude menetap dalam rutinitasku.",
+        "ja": "日々の習慣にgratitudeがなじんでいくのを感じます。",
+        "th": "ฉันรู้สึกว่าgratitudeค่อย ๆ กลมกลืนเข้ากับกิจวัตรของฉัน",
+        "ms": "Saya dapat merasakan gratitude mula sebati dalam rutin saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_89",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow gratitude to be simple, not perfect.",
+        "tr": "şükür için sadeliğe, mükemmel olmamaya izin veriyorum.",
+        "fr": "J’autorise gratitude à être simple, pas parfait.",
+        "pt": "Permito que gratitude seja simples, não perfeito.",
+        "nl": "Ik laat gratitude simpel zijn, niet perfect.",
+        "es": "Permito que gratitude sea simple, no perfecto.",
+        "de": "Ich erlaube gratitude, schlicht zu sein, nicht perfekt.",
+        "it": "Permetto a gratitude di essere semplice, non perfetto.",
+        "ru": "Я позволяю gratitude быть простым, а не идеальным.",
+        "id": "Aku membiarkan gratitude tetap sederhana, bukan sempurna.",
+        "ja": "gratitudeがシンプルであることを許し、完璧さは求めません。",
+        "th": "ฉันยอมให้gratitudeเรียบง่าย ไม่ต้องสมบูรณ์แบบ",
+        "ms": "Saya membenarkan gratitude menjadi sederhana, bukan sempurna."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_90",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice gratitude showing up in the way I speak to myself.",
+        "tr": "Kendimle konuşma biçimimde şükür ortaya çıkıyor, bunu fark ediyorum.",
+        "fr": "Je remarque gratitude dans la façon dont je me parle.",
+        "pt": "Percebo gratitude na forma como falo comigo.",
+        "nl": "Ik merk gratitude op in de manier waarop ik tegen mezelf praat.",
+        "es": "Noto gratitude en la manera en que me hablo.",
+        "de": "Ich bemerke gratitude in der Art, wie ich mit mir spreche.",
+        "it": "Noto gratitude nel modo in cui parlo con me stesso.",
+        "ru": "Я замечаю gratitude в том, как я говорю с собой.",
+        "id": "Aku menyadari gratitude dalam cara aku berbicara pada diriku.",
+        "ja": "自分への語りかけの中にgratitudeが現れるのに気づきます。",
+        "th": "ฉันสังเกตเห็นgratitudeในวิธีที่ฉันพูดกับตัวเอง",
+        "ms": "Saya menyedari gratitude dalam cara saya bercakap dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_91",
+      "type": "affirmation",
+      "texts": {
+        "en": "I deserve gratitude without needing to prove anything.",
+        "tr": "Hiçbir şeyi kanıtlamak zorunda kalmadan şükür hak ediyorum.",
+        "fr": "Je mérite gratitude sans avoir à prouver quoi que ce soit.",
+        "pt": "Eu mereço gratitude sem precisar provar nada.",
+        "nl": "Ik verdien gratitude zonder iets te hoeven bewijzen.",
+        "es": "Merezco gratitude sin necesidad de demostrar nada.",
+        "de": "Ich verdiene gratitude, ohne etwas beweisen zu müssen.",
+        "it": "Merito gratitude senza dover dimostrare nulla.",
+        "ru": "Я достоин gratitude, не доказывая ничего.",
+        "id": "Aku pantas mendapatkan gratitude tanpa harus membuktikan apa pun.",
+        "ja": "何かを証明しなくても、gratitudeに値します。",
+        "th": "ฉันคู่ควรกับgratitudeโดยไม่ต้องพิสูจน์อะไร",
+        "ms": "Saya layak memperoleh gratitude tanpa perlu membuktikan apa-apa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_92",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let gratitude grow from patience, not pressure.",
+        "tr": "şükür sabırdan büyüyor, baskıdan değil.",
+        "fr": "Je laisse gratitude grandir à partir de la patience, pas de la pression.",
+        "pt": "Deixo gratitude crescer a partir da paciência, não da pressão.",
+        "nl": "Ik laat gratitude groeien vanuit geduld, niet vanuit druk.",
+        "es": "Dejo que gratitude crezca desde la paciencia, no desde la presión.",
+        "de": "Ich lasse gratitude aus Geduld wachsen, nicht aus Druck.",
+        "it": "Lascio che gratitude cresca dalla pazienza, non dalla pressione.",
+        "ru": "Я позволяю gratitude расти из терпения, а не из давления.",
+        "id": "Aku membiarkan gratitude tumbuh dari kesabaran, bukan tekanan.",
+        "ja": "私はgratitudeを、圧力ではなく忍耐から育てます。",
+        "th": "ฉันปล่อยให้gratitudeเติบโตจากความอดทน ไม่ใช่แรงกดดัน",
+        "ms": "Saya membiarkan gratitude tumbuh daripada kesabaran, bukan tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_93",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to gratitude when I need to steady myself.",
+        "tr": "Kendimi dengelemek gerektiğinde şükür ile yeniden bağ kuruyorum.",
+        "fr": "Je reviens à gratitude quand j'ai besoin de me stabiliser.",
+        "pt": "Volto a gratitude quando preciso me firmar.",
+        "nl": "Ik keer terug naar gratitude wanneer ik me moet stabiliseren.",
+        "es": "Vuelvo a gratitude cuando necesito estabilizarme.",
+        "de": "Ich kehre zu gratitude zurück, wenn ich mich stabilisieren möchte.",
+        "it": "Torno a gratitude quando ho bisogno di ritrovarmi.",
+        "ru": "Я возвращаюсь к gratitude, когда мне нужно обрести устойчивость.",
+        "id": "Aku kembali ke gratitude saat aku perlu merasa stabil.",
+        "ja": "落ち着きたいとき、gratitudeに戻ります。",
+        "th": "เมื่อฉันต้องการความมั่นคง ฉันกลับมาหาgratitude",
+        "ms": "Saya kembali kepada gratitude apabila saya perlu merasa stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_94",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let gratitude soften my inner pressure.",
+        "tr": "İçimdeki baskıyı şükür ile yumuşatıyorum.",
+        "fr": "Je laisse gratitude adoucir ma pression intérieure.",
+        "pt": "Deixo gratitude suavizar minha pressão interna.",
+        "nl": "Ik laat gratitude mijn innerlijke druk verzachten.",
+        "es": "Dejo que gratitude suavice mi presión interna.",
+        "de": "Ich lasse gratitude meinen inneren Druck weicher machen.",
+        "it": "Lascio che gratitude ammorbidisca la mia pressione interiore.",
+        "ru": "Я позволяю gratitude смягчать моё внутреннее давление.",
+        "id": "Aku membiarkan gratitude melembutkan tekanan batinku.",
+        "ja": "gratitudeが内側の圧をやわらげてくれるのを許します。",
+        "th": "ฉันยอมให้gratitudeช่วยทำให้แรงกดดันภายในอ่อนลง",
+        "ms": "Saya membenarkan gratitude melembutkan tekanan dalaman saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_95",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that gratitude can be gentle and real.",
+        "tr": "şükür konusunda nazik ve gerçek olana güveniyorum.",
+        "fr": "Je fais confiance au fait que gratitude peut être doux et vrai.",
+        "pt": "Confio que gratitude pode ser gentil e real.",
+        "nl": "Ik vertrouw erop dat gratitude zacht en echt kan zijn.",
+        "es": "Confío en que gratitude puede ser suave y real.",
+        "de": "Ich vertraue darauf, dass gratitude sanft und echt sein kann.",
+        "it": "Mi fido del fatto che gratitude possa essere gentile e reale.",
+        "ru": "Я доверяю тому, что gratitude может быть мягким и настоящим.",
+        "id": "Aku percaya gratitude bisa lembut dan nyata.",
+        "ja": "gratitudeはやさしく、真実であれると信じます。",
+        "th": "ฉันเชื่อว่าgratitudeสามารถอ่อนโยนและจริงแท้ได้",
+        "ms": "Saya percaya gratitude boleh menjadi lembut dan nyata."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_96",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give gratitude a little more room each day.",
+        "tr": "Her gün şükür için biraz daha yer açıyorum.",
+        "fr": "Je donne un peu plus de place à gratitude chaque jour.",
+        "pt": "Dou um pouco mais de espaço para gratitude a cada dia.",
+        "nl": "Ik geef gratitude elke dag een beetje meer ruimte.",
+        "es": "Le doy un poco más de espacio a gratitude cada día.",
+        "de": "Ich gebe gratitude jeden Tag ein wenig mehr Raum.",
+        "it": "Do a gratitude un po' più di spazio ogni giorno.",
+        "ru": "Каждый день я даю gratitude чуть больше места.",
+        "id": "Setiap hari aku memberi gratitude sedikit lebih banyak ruang.",
+        "ja": "毎日少しずつ、gratitudeのための余白を広げます。",
+        "th": "ทุกวันฉันให้พื้นที่กับgratitudeมากขึ้นเล็กน้อย",
+        "ms": "Setiap hari saya memberi gratitude sedikit lebih ruang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_97",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am learning to hold gratitude without forcing it.",
+        "tr": "şükür ile zorlamadan birlikte olmayı öğreniyorum.",
+        "fr": "J'apprends à tenir gratitude sans forcer.",
+        "pt": "Estou aprendendo a sustentar gratitude sem forçar.",
+        "nl": "Ik leer gratitude te dragen zonder te forceren.",
+        "es": "Estoy aprendiendo a sostener gratitude sin forzar.",
+        "de": "Ich lerne, gratitude zu halten, ohne zu drängen.",
+        "it": "Sto imparando a tenere gratitude senza forzare.",
+        "ru": "Я учусь удерживать gratitude без принуждения.",
+        "id": "Aku belajar memegang gratitude tanpa memaksa.",
+        "ja": "gratitudeを無理なく抱えることを学んでいます。",
+        "th": "ฉันกำลังเรียนรู้ที่จะประคองgratitudeโดยไม่บังคับ",
+        "ms": "Saya belajar memegang gratitude tanpa memaksa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_98",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am met by gratitude where I am today.",
+        "tr": "Bugün olduğum yerde şükür beni buluyor.",
+        "fr": "Là où je suis aujourd'hui, gratitude me rejoint.",
+        "pt": "Onde estou hoje, gratitude me encontra.",
+        "nl": "Waar ik vandaag ben, ontmoet gratitude mij.",
+        "es": "Donde estoy hoy, gratitude me encuentra.",
+        "de": "Wo ich heute bin, begegnet mir gratitude.",
+        "it": "Dove sono oggi, gratitude mi incontra.",
+        "ru": "Там, где я сегодня, меня встречает gratitude.",
+        "id": "Di tempatku hari ini, gratitude menemuiku.",
+        "ja": "今日の私がいる場所で、gratitudeが私に寄り添います。",
+        "th": "ตรงจุดที่ฉันเป็นในวันนี้ gratitudeอยู่กับฉัน",
+        "ms": "Di tempat saya hari ini, gratitude menemui saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_99",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice gratitude in the calm between moments.",
+        "tr": "Anların arasındaki sakinlikte şükür fark ediyorum.",
+        "fr": "Je remarque gratitude dans le calme entre les moments.",
+        "pt": "Percebo gratitude na calma entre os momentos.",
+        "nl": "Ik merk gratitude op in de rust tussen momenten.",
+        "es": "Noto gratitude en la calma entre momentos.",
+        "de": "Ich bemerke gratitude in der Ruhe zwischen den Momenten.",
+        "it": "Noto gratitude nella calma tra i momenti.",
+        "ru": "Я замечаю gratitude в тишине между моментами.",
+        "id": "Aku menyadari gratitude dalam tenang di antara momen.",
+        "ja": "瞬間の合間の静けさにgratitudeを感じます。",
+        "th": "ฉันสังเกตgratitudeในความสงบระหว่างช่วงเวลา",
+        "ms": "Saya menyedari gratitude dalam ketenangan di antara detik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_100",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow gratitude to grow quietly in the background.",
+        "tr": "şükür sessizce arka planda büyüsün diye izin veriyorum.",
+        "fr": "Je laisse gratitude grandir doucement en arrière-plan.",
+        "pt": "Deixo gratitude crescer em silêncio ao fundo.",
+        "nl": "Ik laat gratitude stil op de achtergrond groeien.",
+        "es": "Dejo que gratitude crezca en silencio de fondo.",
+        "de": "Ich lasse gratitude leise im Hintergrund wachsen.",
+        "it": "Lascio che gratitude cresca in silenzio sullo sfondo.",
+        "ru": "Я позволяю gratitude тихо расти на заднем плане.",
+        "id": "Aku membiarkan gratitude tumbuh perlahan di latar belakang.",
+        "ja": "gratitudeが静かに背景で育つのを許します。",
+        "th": "ฉันยอมให้gratitudeเติบโตอย่างเงียบ ๆ อยู่เบื้องหลัง",
+        "ms": "Saya membenarkan gratitude berkembang perlahan di latar belakang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_101",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose gratitude with care, not hurry.",
+        "tr": "Acele etmeden, özenle şükür seçiyorum.",
+        "fr": "Je choisis gratitude avec soin, sans hâte.",
+        "pt": "Escolho gratitude com cuidado, sem pressa.",
+        "nl": "Ik kies gratitude met zorg, niet met haast.",
+        "es": "Elijo gratitude con cuidado, no con prisa.",
+        "de": "Ich wähle gratitude mit Sorgfalt, nicht mit Eile.",
+        "it": "Scelgo gratitude con cura, non con fretta.",
+        "ru": "Я выбираю gratitude с заботой, а не в спешке.",
+        "id": "Aku memilih gratitude dengan penuh perhatian, bukan terburu-buru.",
+        "ja": "急がず、丁寧にgratitudeを選びます。",
+        "th": "ฉันเลือกgratitudeอย่างใส่ใจ ไม่เร่งรีบ",
+        "ms": "Saya memilih gratitude dengan teliti, bukan tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    },
+    {
+      "id": "gra_102",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep gratitude close when my mind feels busy.",
+        "tr": "Zihnim kalabalıkken şükür ile yakın kalıyorum.",
+        "fr": "Je garde gratitude près de moi quand mon esprit s'agite.",
+        "pt": "Mantenho gratitude por perto quando minha mente fica agitada.",
+        "nl": "Ik houd gratitude dicht bij me wanneer mijn hoofd druk is.",
+        "es": "Mantengo gratitude cerca cuando mi mente está inquieta.",
+        "de": "Ich halte gratitude nah, wenn mein Kopf unruhig ist.",
+        "it": "Tengo gratitude vicino quando la mia mente è agitata.",
+        "ru": "Я держу gratitude рядом, когда ум занят.",
+        "id": "Aku menjaga gratitude tetap dekat ketika pikiranku sibuk.",
+        "ja": "心が忙しいときもgratitudeをそばに置きます。",
+        "th": "ฉันเก็บgratitudeไว้ใกล้ตัวเมื่อใจฉันวุ่นวาย",
+        "ms": "Saya mengekalkan gratitude dekat apabila fikiran saya sibuk."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "readTime": "0"
+    }
   ]
-}   
+}
