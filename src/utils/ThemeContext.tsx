@@ -7,9 +7,9 @@ import React, {
   useMemo,
   useState,
 } from "react";
-import { useColorScheme } from "react-native";
-import { Theme } from "../types";
-import { getThemeByOption } from "./theme";
+import {useColorScheme} from "react-native";
+import {Theme} from "../types";
+import {getThemeByOption} from "./theme";
 
 // Define types locally to avoid circular dependencies
 type ThemeOption =
@@ -50,7 +50,7 @@ interface ThemeProviderProps {
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   children,
-  defaultTheme = "system",
+  defaultTheme = "light",
 }) => {
   const systemColorScheme = useColorScheme();
 
@@ -58,14 +58,14 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   const [selectedTheme, setSelectedThemeState] =
     useState<ThemeOption>("uprising");
   const [colorScheme, setColorSchemeState] = useState<ColorScheme>("system");
-  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "dark");
+  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "system");
 
   // Update isDark when system preference or color scheme changes
   useEffect(() => {
     if (colorScheme === "system") {
-      setIsDark(systemColorScheme === "dark");
+      //setIsDark(systemColorScheme === "dark");
     } else {
-      setIsDark(colorScheme === "dark");
+      //setIsDark(colorScheme === "dark");
     }
   }, [systemColorScheme, colorScheme]);
 
@@ -74,7 +74,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     const loadFromStore = async () => {
       try {
         // Import dynamically to avoid circular dependency
-        const { useThemeStore } = await import("../store/useThemeStore");
+        const {useThemeStore} = await import("../store/useThemeStore");
         const state = useThemeStore.getState();
 
         if (state._hasHydrated) {
@@ -109,7 +109,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   useEffect(() => {
     const loadCustomColors = async () => {
       try {
-        const { useThemeStore } = await import("../store/useThemeStore");
+        const {useThemeStore} = await import("../store/useThemeStore");
         const state = useThemeStore.getState();
         setCustomColorsState(state.customColors);
       } catch (error) {
@@ -137,7 +137,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
     // Save to store
     import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
+      .then(({useThemeStore}) => {
         useThemeStore.getState().setColorScheme(newScheme);
       })
       .catch(() => {});
@@ -149,7 +149,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
     // Save to store
     import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
+      .then(({useThemeStore}) => {
         useThemeStore.getState().setColorScheme(newScheme);
       })
       .catch(() => {});
@@ -160,7 +160,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
     // Save to store
     import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
+      .then(({useThemeStore}) => {
         useThemeStore.getState().setTheme(themeOption);
       })
       .catch(() => {});
@@ -171,29 +171,32 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
     // Save to store
     import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
+      .then(({useThemeStore}) => {
         useThemeStore.getState().setColorScheme(scheme);
       })
       .catch(() => {});
   }, []);
 
-  const setCustomColors = useCallback((colors: ThemeContextType["customColors"]) => {
-    setCustomColorsState(colors);
+  const setCustomColors = useCallback(
+    (colors: ThemeContextType["customColors"]) => {
+      setCustomColorsState(colors);
 
-    // Save to store
-    import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
-        useThemeStore.getState().setCustomColors(colors);
-      })
-      .catch(() => {});
-  }, []);
+      // Save to store
+      import("../store/useThemeStore")
+        .then(({useThemeStore}) => {
+          useThemeStore.getState().setCustomColors(colors);
+        })
+        .catch(() => {});
+    },
+    []
+  );
 
   const resetCustomColors = useCallback(() => {
     setCustomColorsState(undefined);
 
     // Save to store
     import("../store/useThemeStore")
-      .then(({ useThemeStore }) => {
+      .then(({useThemeStore}) => {
         useThemeStore.getState().resetCustomColors();
       })
       .catch(() => {});
@@ -374,21 +377,21 @@ export const useTheme = (): ThemeContextType => {
 
 // Convenience hooks for specific theme properties
 export const useThemeColors = () => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
   return theme.colors;
 };
 
 export const useThemeSpacing = () => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
   return theme.spacing;
 };
 
 export const useThemeTypography = () => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
   return theme.typography;
 };
 
 export const useThemeBorderRadius = () => {
-  const { theme } = useTheme();
+  const {theme} = useTheme();
   return theme.borderRadius;
 };

@@ -5,7 +5,6 @@ import {
   Animated,
   Dimensions,
   Easing,
-  Image,
   Linking,
   Modal,
   Platform,
@@ -13,7 +12,7 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
-  View,
+  View
 } from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
@@ -23,11 +22,14 @@ import {
   useCommonTranslations,
   usePaywallTranslations,
 } from "../../hooks/useTranslation";
+import {NotificationService} from "../../services/NotificationService";
 import {
   getPaywallService,
   SubscriptionPackage,
 } from "../../services/PaywallService";
+import {useOnboardingSelectors} from "../../store/useOnboardingStore";
 import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {getPreferredLanguage} from "../../utils/language";
 import {useTheme} from "../../utils/ThemeContext";
 
 const {width: screenWidth, height: screenHeight} = Dimensions.get("window");
@@ -275,6 +277,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   // Translations
   const paywall = usePaywallTranslations();
   const common = useCommonTranslations();
+  
+  // Get user preferences for language
+  const userPreferences = useOnboardingSelectors.userPreferences();
 
   console.log("💰 Modern PaywallModal render:", {
     isVisible,
@@ -681,12 +686,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     // 🔍 DEBUG: Kapatma mantığını logla
     console.log("🔍 CLOSE DEBUG:", {
       isDiscountedPaywall,
+      isFirstTimePaywall,
       triggerSource,
       currentPackage: subscriptionPackage?.id,
     });
 
-    // If first offer is dismissed, just close and mark as rejected
-    // DO NOT immediately reopen discounted modal
+    // Check if this is the first-time paywall
+    const isFirstTime = triggerSource === "first_time" || isFirstTimePaywall;
+
+    // If first offer is dismissed, mark as rejected
     if (!isDiscountedPaywall && !shouldShowDiscounted) {
       console.log(
         "🔄 İndirimsiz modal kapatılıyor, ilk teklif reddedildi olarak işaretleniyor..."
@@ -695,14 +703,6 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         const paywallService = getPaywallService();
         await paywallService.markFirstOfferRejected();
         console.log("✅ İlk teklif reddedildi olarak işaretlendi");
-
-        // Reset user interaction count for delayed discount paywall tracking
-        const {resetInteractionCountForDiscount} =
-          usePaywallSelectors.actions();
-        resetInteractionCountForDiscount();
-        console.log(
-          "🎯 Kullanıcı etkileşim sayacı sıfırlandı, indirimli paywall tracking başlatıldı"
-        );
       } catch (error) {
         console.warn("⚠️ İlk teklif işaretlenirken hata:", error);
       }
@@ -723,6 +723,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     ]).start(() => {
       hidePaywall();
       onClose?.();
+
+      // If first-time paywall was closed, immediately show discounted paywall
+      if (isFirstTime && !isDiscountedPaywall) {
+        console.log("💸 İlk paywall kapatıldı, hemen indirimli paywall gösteriliyor...");
+        setTimeout(() => {
+          showPaywall("discounted");
+        }, 300); // Small delay to ensure smooth transition
+      }
     });
   };
 
@@ -758,7 +766,29 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             // ✅ STEP 3: Trigger onPurchase callback immediately for app-wide updates
             onPurchase?.();
 
-            // ✅ STEP 3.5: Check if we should request store review (Premium users only)
+            // ✅ STEP 3.5: Schedule trial reminder notification if free trial exists
+            if (subscriptionPackage?.freeTrialDays && subscriptionPackage.freeTrialDays > 0) {
+              try {
+                const language = getPreferredLanguage(
+                  userPreferences?.language as any
+                );
+                const trialStartDate = new Date();
+                const notificationServiceInstance = NotificationService.getInstance();
+                await notificationServiceInstance.scheduleTrialReminder(
+                  trialStartDate,
+                  subscriptionPackage.freeTrialDays,
+                  language
+                );
+                console.log(
+                  `📅 Trial reminder scheduled for ${subscriptionPackage.freeTrialDays} days trial`
+                );
+              } catch (error) {
+                console.error("❌ Failed to schedule trial reminder:", error);
+                // Don't block purchase flow if reminder scheduling fails
+              }
+            }
+
+            // ✅ STEP 3.6: Check if we should request store review (Premium users only)
             setTimeout(async () => {
               try {
                 if (await storeReview.shouldRequestReview()) {
@@ -934,231 +964,347 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   if (!isVisible) return null;
 
-  // Render modal paywall with top spacing
+  // Calculate trial dates
+  const getTrialDates = () => {
+    const today = new Date();
+    const reminderDate = new Date(today);
+    reminderDate.setDate(today.getDate() + 2); // 2 days from today (day before trial ends)
+    const membershipDate = new Date(today);
+    membershipDate.setDate(today.getDate() + 3); // 3 days from today (trial ends)
+
+    const formatDate = (date: Date) => {
+      // Use translated month abbreviations so all languages can customize labels
+      const monthsShort = [
+        paywall.modern.month_short_jan || "Jan",
+        paywall.modern.month_short_feb || "Feb",
+        paywall.modern.month_short_mar || "Mar",
+        paywall.modern.month_short_apr || "Apr",
+        paywall.modern.month_short_may || "May",
+        paywall.modern.month_short_jun || "Jun",
+        paywall.modern.month_short_jul || "Jul",
+        paywall.modern.month_short_aug || "Aug",
+        paywall.modern.month_short_sep || "Sep",
+        paywall.modern.month_short_oct || "Oct",
+        paywall.modern.month_short_nov || "Nov",
+        paywall.modern.month_short_dec || "Dec",
+      ];
+
+      const monthIndex = date.getMonth();
+      const monthLabel = monthsShort[monthIndex] || "";
+      const day = date.getDate();
+
+      return `${monthLabel} ${day}`;
+    };
+
+    return {
+      today: formatDate(today),
+      reminderDate: formatDate(reminderDate),
+      membershipDate: formatDate(membershipDate),
+    };
+  };
+
+  const trialDates = getTrialDates();
+
+  // Calculate weekly and daily prices
+  const calculatePricing = () => {
+    if (!subscriptionPackage) return { weekly: "0", daily: "0" };
+
+    const priceNum = subscriptionPackage.priceNumber || 0;
+    const period = subscriptionPackage.period || "year";
+
+    let weeklyPrice = 0;
+    let dailyPrice = 0;
+
+    if (period === "year") {
+      weeklyPrice = priceNum / 52;
+      dailyPrice = priceNum / 365;
+    } else if (period === "month") {
+      weeklyPrice = priceNum / 4.33;
+      dailyPrice = priceNum / 30;
+    } else if (period === "week") {
+      weeklyPrice = priceNum;
+      dailyPrice = priceNum / 7;
+    }
+
+    const currency = subscriptionPackage.currencyCode || "USD";
+    const currencySymbol =
+      currency === "USD"
+        ? "$"
+        : currency === "EUR"
+        ? "€"
+        : currency === "GBP"
+        ? "£"
+        : currency === "TRY"
+        ? "₺"
+        : "$";
+
+    return {
+      weekly: `${currencySymbol}${weeklyPrice.toFixed(2)}`,
+      daily: `${currencySymbol}${dailyPrice.toFixed(2)}`,
+      period: subscriptionPackage.currentPrice,
+    };
+  };
+
+  const pricing = calculatePricing();
+
+  // Render modal paywall with new design
   return (
     <Modal
       visible={isVisible}
-      transparent={true}
-      animationType="none"
+      transparent={false}
+      animationType="slide"
       statusBarTranslucent
     >
-      <View style={styles.modalBackdrop}>
-        <View style={styles.modalContainer}>
-          {/* Background Image */}
-          <Image
-            source={require("../../../assets/images/paywall.png")}
-            style={styles.backgroundImage}
-            resizeMode="cover"
+      <View style={styles.modalContainer}>
+        {/* Close Button */}
+        <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
+          <IconSymbol
+            name="xmark"
+            size={20}
+            color={theme.colors.border}
+            strokeWidth={2.5}
           />
+        </TouchableOpacity>
 
-          {/* Dark overlay for better text readability */}
-          <View style={styles.overlay} />
-
-          {/* Close Button */}
-          <TouchableOpacity style={styles.closeButton} onPress={handleClose}>
-            <IconSymbol
-              name="xmark"
-              size={20}
-              color="#FFFFFF"
-              strokeWidth={2}
-            />
-          </TouchableOpacity>
-
-          {/* Content */}
-          <View style={styles.contentContainer}>
-            {/* Top Section */}
-            <View style={styles.topSection}>
-              {/* Header Section */}
-              <View style={styles.headerSection}>
-                {/* Discount Badge for Discounted Paywall */}
-                {(isDiscountedPaywall || shouldShowDiscounted) &&
-                  discountPercentage > 0 && (
-                    <View style={styles.discountBadge}>
-                      <Text style={styles.discountBadgeText}>
-                        🔥{" "}
-                        {paywall.modern.discount_percentage.replace(
-                          "{percentage}",
-                          discountPercentage.toString()
-                        )}
+        {/* Content */}
+        <ScrollView
+          style={styles.scrollView}
+          contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Header Section */}
+          <View style={styles.headerSection}>
+            {/* Discount Badge for Discounted Paywall - Enhanced */}
+            {(isDiscountedPaywall || shouldShowDiscounted) &&
+              discountPercentage > 0 && (
+                <View style={styles.discountBadgeContainer}>
+                  <LinearGradient
+                    colors={[theme.colors.error, theme.colors.premium]}
+                    start={{x: 0, y: 0}}
+                    end={{x: 1, y: 0}}
+                    style={styles.discountBadge}
+                  >
+                    <Text style={styles.discountBadgeText}>
+                      🔥{" "}
+                      {paywall.modern.discount_percentage.replace(
+                        "{percentage}",
+                        discountPercentage.toString()
+                      )}
+                    </Text>
+                  </LinearGradient>
+                  {allPackages.length >= 2 && (
+                    <View style={styles.priceComparisonContainer}>
+                      <Text style={styles.oldPriceText}>
+                        {allPackages[0].currentPrice}
+                      </Text>
+                      <Text style={styles.newPriceText}>
+                        {subscriptionPackage?.currentPrice}{" "}
+                        {paywall.modern.per_year_suffix || "/ yearly"}
                       </Text>
                     </View>
                   )}
+                </View>
+              )}
 
-                {/* Title */}
-                <Text style={styles.mainTitle}>
-                  {isDiscountedPaywall || shouldShowDiscounted
-                    ? paywall.modern.discount_offer_title
-                    : paywall.modern.title}
-                </Text>
+            {/* Title */}
+            <Text style={[styles.mainTitle, {color: theme.colors.text}]}>
+              {isDiscountedPaywall || shouldShowDiscounted
+                ? paywall.modern.discount_offer_title || "Don't Miss Out!"
+                : paywall.modern.trial_title || "Worried? Try Quote"}
+            </Text>
 
-                {/* Subtitle */}
-                <Text style={styles.mainSubtitle}>
-                  {isDiscountedPaywall || shouldShowDiscounted
-                    ? paywall.modern.discount_offer_subtitle
-                    : paywall.modern.subtitle}
-                </Text>
+            {/* Free Trial Badge */}
+          </View>
+
+          {/* Timeline Section */}
+          <View style={styles.timelineSection}>
+            <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+              {paywall.modern.timeline_title || "How your free trial works:"}
+            </Text>
+
+            {/* Timeline Step 1 - Today */}
+            <View style={styles.timelineStep}>
+              <View style={styles.timelineIconContainer}>
+                <View style={[styles.timelineIconCheck, {backgroundColor: theme.colors.success}]}>
+                  <Text style={styles.timelineIconText}>✓</Text>
+                </View>
               </View>
-
-              {/* Pricing Section */}
-              <View style={styles.pricingContainer}>
-                {/* Price comparison for discounted paywall */}
-                {(isDiscountedPaywall || shouldShowDiscounted) &&
-                  allPackages.length >= 2 && (
-                    <View style={styles.priceComparison}>
-                      <Text style={styles.wasPrice}>
-                        {paywall.modern.was_price.replace(
-                          "{price}",
-                          allPackages[0].currentPrice
-                        )}
-                      </Text>
-                      <Text style={styles.nowPrice}>
-                        {paywall.modern.now_price.replace(
-                          "{price}",
-                          allPackages[1].currentPrice
-                        )}
-                      </Text>
-                    </View>
-                  )}
-
-                {/* Current Price */}
-                <View style={styles.currentPriceSection}>
-                  <Text style={styles.currentPrice}>
-                    {(() => {
-                      // Always show the selected subscription package price for consistency
-                      console.log(
-                        "🔍 Paywall ana fiyat (subscriptionPackage):",
-                        subscriptionPackage?.currentPrice || "...",
-                        "Currency:",
-                        subscriptionPackage?.currencyCode || "N/A"
-                      );
-                      return subscriptionPackage?.currentPrice || "...";
-                    })()}
-                  </Text>
-                  <Text style={styles.periodText}>
-                    {(() => {
-                      // Always use subscriptionPackage for consistency
-                      const period = subscriptionPackage?.period || "year";
-                      return `/${paywall.modern.year}`;
-                    })()}
-                  </Text>
-                </View>
-
-                {/* Free Trial Highlight */}
-                <View style={styles.trialHighlight}>
-                  <Text style={styles.trialText}>
-                    {paywall.modern.free_trial_highlight}
-                  </Text>
-                </View>
+              <View style={styles.timelineContent}>
+                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  {paywall.modern.timeline_today || "Today"} -{" "}
+                  {paywall.modern.timeline_trial_starts || "Free trial Starts"}
+                </Text>
+                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  {paywall.modern.timeline_trial_description ||
+                    "Create perfect quotes free for 3 days"}
+                </Text>
               </View>
             </View>
 
-            {/* Testimonials Section */}
-            <View style={styles.testimonialsContainer}>
-              <Text style={styles.testimonialsTitle}>
-                {paywall.modern.features_title}
-              </Text>
-              <ScrollView
-                horizontal
-                showsHorizontalScrollIndicator={false}
-                style={styles.testimonialsScroll}
-                contentContainerStyle={styles.testimonialsScrollContent}
-                pagingEnabled={false}
-                decelerationRate="fast"
-                snapToInterval={
-                  isSmallScreen
-                    ? screenWidth * 0.75 + 16
-                    : screenWidth * 0.7 + 20
-                }
-                snapToAlignment="start"
-              >
-                {(paywall.modern.testimonials as unknown as any[])?.map(
-                  (testimonial: any, index: number) => (
-                    <View key={index} style={styles.testimonialCard}>
-                      <View style={styles.starsContainer}>
-                        {[...Array(testimonial.rating)].map((_, i) => (
-                          <Text key={i} style={styles.star}>
-                            ★
-                          </Text>
-                        ))}
-                      </View>
-                      <Text style={styles.testimonialText}>
-                        "{testimonial.text}"
-                      </Text>
-                      <Text style={styles.testimonialAuthor}>
-                        - {testimonial.author}
-                      </Text>
-                    </View>
-                  )
-                )}
-              </ScrollView>
+            {/* Timeline Connector */}
+            <View style={styles.timelineConnector} />
+
+            {/* Timeline Step 2 - Reminder */}
+            <View style={styles.timelineStep}>
+              <View style={styles.timelineIconContainer}>
+                <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                  <Text style={styles.timelineIconText}>✉</Text>
+                </View>
+              </View>
+              <View style={styles.timelineContent}>
+                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  {trialDates.reminderDate} -{" "}
+                  {paywall.modern.timeline_reminder || "Get a reminder"}
+                </Text>
+                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  {paywall.modern.timeline_reminder_description ||
+                    "We'll let you know when your trial is ending"}
+                </Text>
+              </View>
+            </View>
+
+            {/* Timeline Connector */}
+            <View style={styles.timelineConnector} />
+
+            {/* Timeline Step 3 - Membership */}
+            <View style={styles.timelineStep}>
+              <View style={styles.timelineIconContainer}>
+                <View style={[styles.timelineIconHeart, {backgroundColor: theme.colors.premium}]}>
+                  <Text style={styles.timelineIconText}>♥</Text>
+                </View>
+              </View>
+              <View style={styles.timelineContent}>
+                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  {trialDates.membershipDate} -{" "}
+                  {paywall.modern.timeline_membership ||
+                    "Become a member"}
+                </Text>
+                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  {paywall.modern.timeline_membership_description ||
+                    "Your trial ends unless canceled. Enjoy!"}
+                </Text>
+              </View>
             </View>
           </View>
 
-          {/* Bottom CTA Section */}
-          <View
-            style={[
-              styles.bottomSection,
-              {paddingBottom: (isSmallScreen ? 30 : 40) + insets.bottom},
-            ]}
-          >
-            <TouchableOpacity
-              style={[styles.ctaButton, isLoading && styles.disabledButton]}
-              onPress={handlePurchase}
-              disabled={isLoading || !subscriptionPackage}
-              activeOpacity={0.85}
-            >
-              <LinearGradient
-                colors={[
-                  "#D97706", // Daha koyu amber - okunabilirlik için
-                  "#B45309", // Orta koyu amber
-                  "#92400E", // En koyu amber
-                ]}
-                locations={[0, 0.5, 1]}
-                start={{x: 0, y: 0}}
-                end={{x: 1, y: 0}}
-                style={styles.ctaGradient}
-              >
-                <Text style={styles.ctaButtonText}>
-                  {isLoading
-                    ? paywall.processing
-                    : paywall.modern.start_trial_button}
+          {/* Pricing Section */}
+          <View style={styles.pricingSection}>
+            {(isDiscountedPaywall || shouldShowDiscounted) &&
+            allPackages.length >= 2 ? (
+              <View style={styles.discountedPricingContainer}>
+                <View style={styles.priceRow}>
+                  <Text style={styles.oldPriceLarge}>
+                    {allPackages[0].currentPrice}
+                  </Text>
+                  <View style={styles.discountHighlight}>
+                    <Text style={styles.discountHighlightText}>
+                      {discountPercentage}% OFF
+                    </Text>
+                  </View>
+                </View>
+                <View style={styles.priceWithPeriod}>
+                  <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
+                    {subscriptionPackage?.currentPrice || "$6.99"}
+                  </Text>
+                  <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
+                    / {paywall.modern.year || "Year"}
+                  </Text>
+                </View>
+                <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
+                  {paywall.modern.pricing_trial_text ||
+                    "3 days free, then"}
                 </Text>
-              </LinearGradient>
-            </TouchableOpacity>
+              </View>
+            ) : (
+              <>
+                <View style={styles.priceWithPeriod}>
+                  <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
+                    {subscriptionPackage?.currentPrice || "$6.99"}
+                  </Text>
+                  <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
+                    / {paywall.modern.year || "Year"}
+                  </Text>
+                </View>
+                <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
+                  {paywall.modern.pricing_trial_text ||
+                    "3 days free, then"}
+                </Text>
+                <Text style={[styles.dailyPriceText, {color: theme.colors.success}]}>
+                  {paywall.modern.only || "Only"} {pricing.daily} /{" "}
+                  {paywall.modern.day || "Day"}
+                </Text>
+              </>
+            )}
+          </View>
+        </ScrollView>
 
-            {/* Trust indicators */}
+        {/* Bottom CTA Section */}
+        <View
+          style={[
+            styles.bottomSection,
+            {paddingBottom: 20 + insets.bottom},
+          ]}
+        >
+          {/* Secured by iTunes */}
+          <View style={styles.securedSection}>
+            <Text style={styles.securedIcon}>🔒</Text>
+            <Text style={[styles.securedText, {color: theme.colors.textSecondary}]}>
+              {paywall.modern.secured_by || "Secured by iTunes"}
+            </Text>
+          </View>
 
-            {/* Restore Purchase Link */}
+          {/* CTA Button */}
+          <TouchableOpacity
+            style={[styles.ctaButton, isLoading && styles.disabledButton]}
+            onPress={handlePurchase}
+            disabled={isLoading || !subscriptionPackage}
+            activeOpacity={0.85}
+          >
+            <LinearGradient
+              colors={[theme.colors.premium, theme.colors.accent]}
+              locations={[0, 1]}
+              start={{x: 0, y: 0}}
+              end={{x: 1, y: 0}}
+              style={styles.ctaGradient}
+            >
+              <Text style={styles.ctaButtonText}>
+                {isLoading
+                  ? paywall.processing
+                  : paywall.modern.start_trial_button_full ||
+                    "Start your free 3-day trial"}
+              </Text>
+              <Text style={styles.ctaArrow}>→</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+
+          {/* Legal Links */}
+          <View style={styles.legalLinks}>
             <TouchableOpacity
-              style={styles.restoreButton}
+              onPress={() =>
+                Linking.openURL(
+                  "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+                )
+              }
+            >
+              <Text style={[styles.legalText, {color: theme.colors.text}]}>{paywall.termsOfUse}</Text>
+            </TouchableOpacity>
+            <Text style={[styles.legalSeparator, {color: theme.colors.textSecondary}]}>•</Text>
+            <TouchableOpacity
+              onPress={() =>
+                Linking.openURL("https://quotesparkapp.netlify.app/privacy")
+              }
+            >
+              <Text style={[styles.legalText, {color: theme.colors.text}]}>{paywall.privacyPolicy}</Text>
+            </TouchableOpacity>
+            <Text style={[styles.legalSeparator, {color: theme.colors.textSecondary}]}>•</Text>
+            <TouchableOpacity
               onPress={handleRestorePurchases}
               disabled={isLoading}
             >
-              <Text style={styles.restoreText}>
-                {paywall.modern.restore_purchase}
+              <Text style={[styles.legalText, {color: theme.colors.text}]}>
+                {paywall.modern.restore_purchase || "Restore Purchases"}
               </Text>
             </TouchableOpacity>
-
-            {/* Legal Links */}
-            <View style={styles.legalLinks}>
-              <TouchableOpacity
-                onPress={() =>
-                  Linking.openURL("https://quotesparkapp.netlify.app/privacy")
-                }
-              >
-                <Text style={styles.legalText}>{paywall.privacyPolicy}</Text>
-              </TouchableOpacity>
-              <Text style={styles.legalSeparator}>•</Text>
-              <TouchableOpacity
-                onPress={() =>
-                  Linking.openURL(
-                    "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-                  )
-                }
-              >
-                <Text style={styles.legalText}>{paywall.termsOfUse}</Text>
-              </TouchableOpacity>
-            </View>
           </View>
         </View>
       </View>
@@ -1172,330 +1318,285 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
   const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
 
   return StyleSheet.create({
-    modalBackdrop: {
-      flex: 1,
-      backgroundColor: "rgba(0, 0, 0, 0.5)",
-      justifyContent: "flex-end",
-      paddingTop: isSmallScreen ? 40 : 60,
-    },
     modalContainer: {
       flex: 1,
-      backgroundColor: "#000000",
-      borderTopLeftRadius: 20,
-      borderTopRightRadius: 20,
-      overflow: "hidden",
-    },
-    backgroundImage: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      width: "100%",
-      height: "100%",
-    },
-    overlay: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundColor: "rgba(0, 0, 0, 0.5)",
+      backgroundColor: theme.colors.background,
     },
     closeButton: {
       position: "absolute",
-      top: isSmallScreen ? 40 : 50,
-      right: 20,
-      width: 40,
-      height: 40,
-      borderRadius: 20,
-      backgroundColor: "rgba(0, 0, 0, 0.3)",
+      top: isSmallScreen ? 50 : 60,
+      left: 20,
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      backgroundColor: "transparent",
       justifyContent: "center",
       alignItems: "center",
       zIndex: 10,
-      borderWidth: 1,
-      borderColor: "rgba(255, 255, 255, 0.2)",
     },
-    contentContainer: {
+    scrollView: {
       flex: 1,
-      paddingTop: isVerySmallScreen
-        ? 50
-        : isSmallScreen
-        ? 60
-        : isMediumScreen
-        ? 70
-        : 80,
-      paddingHorizontal: isSmallScreen ? 16 : 24,
-      justifyContent: "space-between",
     },
-    topSection: {
-      flex: 0,
-      justifyContent: "flex-start",
+    scrollContent: {
+      paddingTop: isSmallScreen ? 100 : 120,
+      paddingHorizontal: 24,
+      paddingBottom: 20,
     },
     headerSection: {
-      alignItems: "center",
-      marginBottom: isVerySmallScreen ? 10 : isSmallScreen ? 14 : 18,
+      alignItems: "flex-start",
+      marginBottom: 10,
+    },
+    discountBadgeContainer: {
+      width: "100%",
+      marginBottom: 16,
     },
     discountBadge: {
-      backgroundColor: "#FF4444",
-      paddingHorizontal: isSmallScreen ? 16 : 20,
-      paddingVertical: isSmallScreen ? 6 : 8,
-      borderRadius: 20,
-      marginBottom: isSmallScreen ? 10 : 12,
-    },
-    discountBadgeText: {
-      color: "#FFFFFF",
-      fontSize: isSmallScreen ? 12 : 14,
-      fontWeight: "700",
-      textAlign: "center",
-    },
-    mainTitle: {
-      fontSize: isVerySmallScreen
-        ? 20
-        : isSmallScreen
-        ? 22
-        : isMediumScreen
-        ? 25
-        : 28,
-      fontWeight: "800",
-      color: "#FFFFFF",
-      textAlign: "center",
-      marginBottom: isVerySmallScreen ? 4 : isSmallScreen ? 6 : 8,
-      lineHeight: isVerySmallScreen
-        ? 24
-        : isSmallScreen
-        ? 26
-        : isMediumScreen
-        ? 29
-        : 32,
-      textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: {width: 0, height: 2},
-      textShadowRadius: 4,
-    },
-    mainSubtitle: {
-      fontSize: isVerySmallScreen
-        ? 12
-        : isSmallScreen
-        ? 14
-        : isMediumScreen
-        ? 16
-        : 18,
-      fontWeight: "500",
-      color: "#FFFFFF",
-      textAlign: "center",
-      lineHeight: isVerySmallScreen
-        ? 16
-        : isSmallScreen
-        ? 18
-        : isMediumScreen
-        ? 20
-        : 24,
-      opacity: 0.9,
-      textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: {width: 0, height: 1},
-      textShadowRadius: 2,
-      marginBottom: isVerySmallScreen ? 2 : isSmallScreen ? 2 : 4,
-    },
-    pricingContainer: {
-      alignItems: "center",
-      marginTop: isVerySmallScreen ? 2 : isSmallScreen ? 4 : 6,
-      marginBottom: isVerySmallScreen ? 10 : isSmallScreen ? 14 : 18,
-    },
-    priceComparison: {
-      alignItems: "center",
-      marginBottom: isSmallScreen ? 10 : 12,
-    },
-    wasPrice: {
-      fontSize: isSmallScreen ? 14 : 16,
-      color: "#FFFFFF",
-      opacity: 0.7,
-      textDecorationLine: "line-through",
-      marginBottom: 4,
-    },
-    nowPrice: {
-      fontSize: isSmallScreen ? 16 : 18,
-      color: "#00FF88",
-      fontWeight: "600",
-    },
-    currentPriceSection: {
-      flexDirection: "row",
-      alignItems: "baseline",
-      marginBottom: isSmallScreen ? 12 : 14,
-    },
-    currentPrice: {
-      fontSize: isVerySmallScreen
-        ? 32
-        : isSmallScreen
-        ? 36
-        : isMediumScreen
-        ? 42
-        : 48,
-      fontWeight: "800",
-      color: "#FFFFFF",
-      textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: {width: 0, height: 2},
-      textShadowRadius: 4,
-    },
-    periodText: {
-      fontSize: isSmallScreen ? 16 : isMediumScreen ? 18 : 20,
-      fontWeight: "600",
-      color: "#FFFFFF",
-      marginLeft: 8,
-      opacity: 0.8,
-    },
-    trialHighlight: {
-      backgroundColor: "rgba(255, 255, 255, 0.2)",
-      paddingHorizontal: isSmallScreen ? 12 : 16,
-      paddingVertical: isSmallScreen ? 6 : 8,
-      borderRadius: 16,
-      borderWidth: 1,
-      borderColor: "rgba(255, 255, 255, 0.3)",
-    },
-    trialText: {
-      color: "#FFFFFF",
-      fontSize: isSmallScreen ? 14 : 16,
-      fontWeight: "600",
-      textAlign: "center",
-    },
-    testimonialsContainer: {
-      alignItems: "center",
-      flex: 0,
-      marginTop: isVerySmallScreen ? 4 : isSmallScreen ? 6 : 8,
-      marginBottom: isVerySmallScreen ? 2 : isSmallScreen ? 4 : 6,
-    },
-    testimonialsTitle: {
-      fontSize: isVerySmallScreen ? 14 : isSmallScreen ? 15 : 17,
-      fontWeight: "700",
-      color: "#FFFFFF",
-      textAlign: "center",
-      marginBottom: isVerySmallScreen ? 8 : isSmallScreen ? 10 : 12,
-      textShadowColor: "rgba(0, 0, 0, 0.8)",
-      textShadowOffset: {width: 0, height: 1},
-      textShadowRadius: 2,
-    },
-    testimonialsScroll: {
-      maxHeight: isVerySmallScreen
-        ? 80
-        : isSmallScreen
-        ? 90
-        : isMediumScreen
-        ? 100
-        : 110,
-    },
-    testimonialsScrollContent: {
-      paddingHorizontal: isSmallScreen ? 16 : 20,
-      paddingRight: isSmallScreen ? 40 : 50,
-    },
-    testimonialCard: {
-      width: isSmallScreen ? screenWidth * 0.75 : screenWidth * 0.7,
-      backgroundColor: "rgba(255, 255, 255, 0.15)",
-      borderRadius: 16,
-      padding: isSmallScreen ? 10 : 12,
-      marginHorizontal: isSmallScreen ? 8 : 10,
-      borderWidth: 1,
-      borderColor: "rgba(255, 255, 255, 0.2)",
-      shadowColor: "rgba(0, 0, 0, 0.3)",
-      shadowOffset: {width: 0, height: 4},
-      shadowOpacity: 1,
-      shadowRadius: 8,
-      elevation: 8,
-    },
-    starsContainer: {
-      flexDirection: "row",
-      marginBottom: isSmallScreen ? 6 : 8,
-      justifyContent: "center",
-    },
-    star: {
-      color: "#FFD700",
-      fontSize: isSmallScreen ? 14 : 16,
-      marginHorizontal: 1,
-    },
-    testimonialText: {
-      fontSize: isSmallScreen ? 10 : 12,
-      color: "#FFFFFF",
-      fontWeight: "500",
-      lineHeight: isSmallScreen ? 14 : 16,
-      textAlign: "center",
-      marginBottom: isSmallScreen ? 6 : 8,
-      fontStyle: "italic",
-    },
-    testimonialAuthor: {
-      fontSize: isSmallScreen ? 12 : 14,
-      color: "#FFFFFF",
-      fontWeight: "600",
-      textAlign: "center",
-      opacity: 0.8,
-    },
-    bottomSection: {
-      paddingHorizontal: isSmallScreen ? 16 : 24,
-      paddingBottom: isVerySmallScreen ? 30 : isSmallScreen ? 40 : 50,
-      paddingTop: isVerySmallScreen ? 8 : isSmallScreen ? 12 : 16,
-    },
-    ctaButton: {
-      borderRadius: 16,
-      marginBottom: isSmallScreen ? 12 : 16,
-      shadowColor: "#000000",
+      paddingHorizontal: 20,
+      paddingVertical: 10,
+      borderRadius: 24,
+      alignSelf: "flex-start",
+      shadowColor: theme.colors.premium,
       shadowOffset: {width: 0, height: 4},
       shadowOpacity: 0.3,
       shadowRadius: 8,
-      elevation: 8,
+      elevation: 6,
+    },
+    discountBadgeText: {
+      color: "#FFFFFF",
+      fontSize: 18,
+      fontWeight: "800",
+      letterSpacing: 0.5,
+    },
+    priceComparisonContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginTop: 12,
+      gap: 12,
+    },
+    oldPriceText: {
+      fontSize: 16,
+      fontWeight: "600",
+      color: theme.colors.textSecondary,
+      textDecorationLine: "line-through",
+    },
+    newPriceText: {
+      fontSize: 20,
+      fontWeight: "700",
+      color: theme.colors.premium,
+    },
+    mainTitle: {
+      fontSize: isSmallScreen ? 24 : 28,
+      fontWeight: "700",
+      marginBottom: 12,
+      lineHeight: isSmallScreen ? 30 : 34,
+    },
+    freeTrialBadge: {
+      backgroundColor: theme.colors.primaryLight,
+      paddingHorizontal: 20,
+      paddingVertical: 8,
+      borderRadius: 20,
+      alignSelf: "flex-start",
+      borderWidth: 2,
+      borderColor: theme.colors.primary,
+      shadowColor: theme.colors.primary,
+      shadowOffset: {width: 0, height: 2},
+      shadowOpacity: 0.15,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    freeTrialText: {
+      color: theme.colors.primaryDark,
+      fontSize: isSmallScreen ? 20 : 24,
+      fontWeight: "700",
+    },
+    timelineSection: {
+      marginBottom: 32,
+    },
+    timelineTitle: {
+      fontSize: isSmallScreen ? 16 : 18,
+      fontWeight: "600",
+      marginBottom: 20,
+    },
+    timelineStep: {
+      flexDirection: "row",
+      marginBottom: 16,
+    },
+    timelineIconContainer: {
+      width: 40,
+      alignItems: "center",
+      marginRight: 16,
+    },
+    timelineIconCheck: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    timelineIconEnvelope: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    timelineIconHeart: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    timelineIconText: {
+      color: "#FFFFFF",
+      fontSize: 18,
+      fontWeight: "700",
+    },
+    timelineContent: {
+      flex: 1,
+      paddingTop: 4,
+    },
+    timelineStepTitle: {
+      fontSize: isSmallScreen ? 15 : 17,
+      fontWeight: "600",
+      marginBottom: 4,
+    },
+    timelineStepDescription: {
+      fontSize: isSmallScreen ? 13 : 15,
+      fontWeight: "400",
+      lineHeight: 20,
+    },
+    timelineConnector: {
+      width: 2,
+      height: 20,
+      backgroundColor: theme.colors.border,
+      marginLeft: 15,
+      marginBottom: 4,
+      marginTop: 4,
+    },
+    pricingSection: {
+      alignItems: "center",
+      marginBottom: 24,
+    },
+    pricingText: {
+      fontSize: isSmallScreen ? 14 : 16,
+      fontWeight: "400",
+      marginBottom: 8,
+      textAlign: "center",
+    },
+    dailyPriceText: {
+      fontSize: isSmallScreen ? 28 : 32,
+      fontWeight: "700",
+      textAlign: "center",
+    },
+    discountedPricingContainer: {
+      alignItems: "center",
+      width: "100%",
+    },
+    priceWithPeriod: {
+      flexDirection: "row",
+      alignItems: "baseline",
+      justifyContent: "center",
+      marginBottom: 8,
+    },
+    periodText: {
+      fontSize: isSmallScreen ? 18 : 22,
+      fontWeight: "600",
+      marginLeft: 4,
+    },
+    priceRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 12,
+      marginBottom: 8,
+    },
+    oldPriceLarge: {
+      fontSize: isSmallScreen ? 20 : 24,
+      fontWeight: "600",
+      color: theme.colors.textSecondary,
+      textDecorationLine: "line-through",
+    },
+    discountHighlight: {
+      backgroundColor: theme.colors.premium,
+      paddingHorizontal: 12,
+      paddingVertical: 4,
+      borderRadius: 12,
+    },
+    discountHighlightText: {
+      color: "#FFFFFF",
+      fontSize: 14,
+      fontWeight: "800",
+    },
+    newPriceLarge: {
+      fontSize: isSmallScreen ? 32 : 40,
+      fontWeight: "800",
+      marginBottom: 8,
+    },
+    bottomSection: {
+      paddingHorizontal: 24,
+      paddingTop: 16,
+      backgroundColor: theme.colors.background,
+    },
+    securedSection: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      marginBottom: 16,
+    },
+    securedIcon: {
+      fontSize: 14,
+      marginRight: 6,
+    },
+    securedText: {
+      fontSize: 12,
+      fontWeight: "400",
+    },
+    ctaButton: {
+      borderRadius: 12,
+      marginBottom: 20,
+      shadowColor: theme.colors.premium,
+      shadowOffset: {width: 0, height: 4},
+      shadowOpacity: 0.3,
+      shadowRadius: 8,
+      elevation: 6,
     },
     ctaGradient: {
-      paddingVertical: isSmallScreen ? 14 : 16,
-      paddingHorizontal: isSmallScreen ? 20 : 24,
-      borderRadius: 16,
+      paddingVertical: 16,
+      paddingHorizontal: 24,
+      borderRadius: 12,
+      flexDirection: "row",
       alignItems: "center",
+      justifyContent: "center",
+      gap: 8,
     },
     ctaButtonText: {
       fontSize: isSmallScreen ? 16 : 18,
-      fontWeight: "800",
+      fontWeight: "700",
       color: "#FFFFFF",
-      textShadowColor: "rgba(0, 0, 0, 0.3)",
-      textShadowOffset: {width: 0, height: 1},
-      textShadowRadius: 2,
     },
-    trustSection: {
-      alignItems: "center",
-      marginBottom: 16,
-    },
-    trustText: {
-      fontSize: 14,
+    ctaArrow: {
+      fontSize: 20,
       color: "#FFFFFF",
-      textAlign: "center",
-      opacity: 0.8,
-    },
-    restoreButton: {
-      alignItems: "center",
-      paddingVertical: isSmallScreen ? 6 : 8,
-      marginBottom: isSmallScreen ? 12 : 16,
-    },
-    restoreText: {
-      fontSize: isSmallScreen ? 14 : 16,
-      color: "#FFFFFF",
-      fontWeight: "500",
-      textDecorationLine: "underline",
-      opacity: 0.8,
+      fontWeight: "700",
     },
     legalLinks: {
       flexDirection: "row",
       justifyContent: "center",
       alignItems: "center",
-      gap: isSmallScreen ? 8 : 12,
+      gap: 12,
+      flexWrap: "wrap",
     },
     legalText: {
-      fontSize: isSmallScreen ? 10 : 12,
-      color: "#FFFFFF",
-      opacity: 0.6,
+      fontSize: 12,
+      fontWeight: "400",
       textDecorationLine: "underline",
     },
     legalSeparator: {
-      fontSize: isSmallScreen ? 10 : 12,
-      color: "#FFFFFF",
-      opacity: 0.6,
+      fontSize: 12,
     },
     disabledButton: {
       opacity: 0.6,
     },
-    // Legacy styles removed to avoid duplicates - using new full-screen design
   });
 };

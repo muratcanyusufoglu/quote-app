@@ -32,7 +32,7 @@ import {
   usePurchaseActions,
   usePurchaseHydrated,
 } from "../../store/usePurchaseStore";
-import {useQuoteSelectors} from "../../store/useQuoteStore";
+import {useActions, useQuoteSelectors} from "../../store/useQuoteStore";
 import {LocalizedQuote} from "../../types";
 import {useTheme} from "../../utils/ThemeContext";
 
@@ -152,6 +152,9 @@ export function HomeScreen() {
 
   // Onboarding actions for debug
   const {resetOnboarding} = useOnboardingActions();
+
+  // Quote store actions
+  const {addToSeen} = useActions();
 
   // Paywall tracking
   const {trackAction} = usePaywallSelectors.actions();
@@ -290,6 +293,9 @@ export function HomeScreen() {
 
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
+
+    // Mark quote as seen in feed (no streak/daily side effects)
+    addToSeen(quote.id);
 
     // Track quote view
     trackQuoteView({

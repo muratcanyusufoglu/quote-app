@@ -1,5 +1,5 @@
-import {LinearGradient} from "expo-linear-gradient";
-import React, {useCallback, useEffect, useRef} from "react";
+import { LinearGradient } from "expo-linear-gradient";
+import React, { useEffect, useRef } from "react";
 import {
   Animated,
   Dimensions,
@@ -10,12 +10,12 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import {IconSymbol} from "../../../components/ui/IconSymbol";
-import {useTranslation} from "../../hooks/useTranslation";
-import {useUserName} from "../../store/useOnboardingStore";
-import {useTheme} from "../../utils/ThemeContext";
+import { IconSymbol } from "../../../components/ui/IconSymbol";
+import { useTranslation } from "../../hooks/useTranslation";
+import { useUserName } from "../../store/useOnboardingStore";
+import { useTheme } from "../../utils/ThemeContext";
 
-const {width, height} = Dimensions.get("window");
+const { width, height } = Dimensions.get("window");
 const isIOS = Platform.OS === "ios";
 
 interface StreakModalProps {
@@ -33,8 +33,8 @@ export default function StreakModal({
   isStreakContinued,
   onClose,
 }: StreakModalProps) {
-  const {t} = useTranslation();
-  const {theme} = useTheme();
+  const { t } = useTranslation();
+  const { theme } = useTheme();
   const userName = useUserName();
 
   // Animation values for notification slide
@@ -44,12 +44,6 @@ export default function StreakModal({
 
   useEffect(() => {
     if (visible) {
-      console.log("🔥 StreakModal: Modal becoming visible", {
-        streakCount,
-        displayStreakCount,
-        isStreakContinued,
-      });
-
       // Reset all animations
       translateY.setValue(-200);
       opacity.setValue(0);
@@ -81,13 +75,10 @@ export default function StreakModal({
       }, 4000);
 
       return () => clearTimeout(timer);
-    } else {
-      console.log("🔥 StreakModal: Modal hidden");
     }
-  }, [visible, streakCount, isStreakContinued]);
+  }, [visible]);
 
-  const handleClose = useCallback(() => {
-    console.log("🔥 StreakModal: Closing modal");
+  const handleClose = () => {
     Animated.parallel([
       Animated.timing(translateY, {
         toValue: -200,
@@ -102,7 +93,7 @@ export default function StreakModal({
     ]).start(() => {
       onClose();
     });
-  }, [onClose]);
+  };
 
   // Ensure streak count is always at least 1 for display
   const displayStreakCount = Math.max(1, streakCount);
@@ -154,19 +145,7 @@ export default function StreakModal({
     ];
   };
 
-  // Debug: Log modal visibility state
-  useEffect(() => {
-    console.log("🔥 StreakModal render state:", {
-      visible,
-      streakCount,
-      displayStreakCount,
-      isStreakContinued,
-    });
-  }, [visible, streakCount, displayStreakCount, isStreakContinued]);
-
-  if (!visible) {
-    return null;
-  }
+  if (!visible) return null;
 
   return (
     <Modal
@@ -174,24 +153,22 @@ export default function StreakModal({
       visible={visible}
       animationType="none"
       onRequestClose={handleClose}
-      statusBarTranslucent
     >
-      <View style={styles.notificationContainer} pointerEvents="box-none">
+      <View style={styles.notificationContainer}>
         <Animated.View
           style={[
             styles.notification,
             {
               opacity: opacity,
-              transform: [{translateY: translateY}, {scale: scaleAnim}],
+              transform: [{ translateY: translateY }, { scale: scaleAnim }],
             },
           ]}
-          pointerEvents="box-none"
         >
           <LinearGradient
             colors={getNotificationGradient()}
             style={styles.notificationGradient}
-            start={{x: 0, y: 0}}
-            end={{x: 1, y: 1}}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
           >
             <TouchableOpacity
               style={styles.notificationContent}
@@ -258,9 +235,7 @@ export default function StreakModal({
                     },
                   ]}
                 >
-                  {displayStreakCount === 1
-                    ? t("streak.day")
-                    : t("streak.days")}
+                  {displayStreakCount === 1 ? t("streak.day") : t("streak.days")}
                 </Text>
               </View>
 
@@ -268,7 +243,7 @@ export default function StreakModal({
               <TouchableOpacity
                 style={styles.closeButton}
                 onPress={handleClose}
-                hitSlop={{top: 10, bottom: 10, left: 10, right: 10}}
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
               >
                 <IconSymbol
                   name="xmark"

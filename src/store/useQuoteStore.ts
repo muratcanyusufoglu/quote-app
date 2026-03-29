@@ -59,14 +59,9 @@ const useQuoteStore = create<QuoteStore>()(
       markAsRead: (quote: LocalizedQuote) => {
         const state = get();
         const today = new Date().toISOString().split("T")[0]; // ISO format kullan
-        const previousLastReadDate = state.lastReadDate; // Save previous date for streak calculation
 
         // Check if we need to reset daily reads
         if (shouldResetDailyReads(state.lastReadDate)) {
-          // Streak'i lastReadDate güncellenmeden ÖNCE hesapla
-          // Çünkü updateStreak eski lastReadDate'e göre çalışıyor
-          get().updateStreak();
-
           set({
             dailyReads: 1,
             lastReadDate: today,
@@ -74,6 +69,9 @@ const useQuoteStore = create<QuoteStore>()(
             lastReadQuotes: [quote],
           });
           console.log("Daily reads reset. Quote marked as read:", quote.id);
+
+          // Streak'i sadece yeni gün başladığında güncelle
+          get().updateStreak();
         } else {
           // Add to seen quotes if not already seen
           const newSeenQuotes = state.seenQuotes.includes(quote.id)
@@ -98,6 +96,17 @@ const useQuoteStore = create<QuoteStore>()(
             }`
           );
         }
+      },
+
+      addToSeen: (quoteId: string) => {
+        const state = get();
+        if (state.seenQuotes.includes(quoteId)) return;
+        set({ seenQuotes: [...state.seenQuotes, quoteId] });
+      },
+
+      resetSeenQuotes: () => {
+        set({ seenQuotes: [] });
+        console.log("🔄 Seen quotes reset - starting fresh cycle");
       },
 
       resetDailyReads: () => {
@@ -298,6 +307,8 @@ export const useQuoteActions = () =>
       addToFavorites: state.addToFavorites,
       removeFromFavorites: state.removeFromFavorites,
       markAsRead: state.markAsRead,
+      addToSeen: state.addToSeen,
+      resetSeenQuotes: state.resetSeenQuotes,
       resetDailyReads: state.resetDailyReads,
       updateStreak: state.updateStreak,
       setLoading: state.setLoading,
@@ -314,6 +325,8 @@ export const useActions = () =>
       addToFavorites: state.addToFavorites,
       removeFromFavorites: state.removeFromFavorites,
       markAsRead: state.markAsRead,
+      addToSeen: state.addToSeen,
+      resetSeenQuotes: state.resetSeenQuotes,
       resetDailyReads: state.resetDailyReads,
       updateStreak: state.updateStreak,
       setLoading: state.setLoading,

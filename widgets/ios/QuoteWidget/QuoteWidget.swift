@@ -21,13 +21,27 @@ struct Provider: TimelineProvider {
             "Loading quote..."
         ]
         
-        let randomText = placeholderTexts.randomElement() ?? "Loading..."
+        let randomText = placeholderTexts.randomElement() ?? "Stay inspired."
         print("📱 Widget: Placeholder gösteriliyor - \(randomText)")
+        
+        // Lock screen widget'ları için daha kısa placeholder
+        let displayText: String
+        if #available(iOSApplicationExtension 16.0, *) {
+            if context.family == .accessoryInline || context.family == .accessoryCircular {
+                displayText = "Stay inspired"
+            } else if context.family == .accessoryRectangular {
+                displayText = "Loading inspiration..."
+            } else {
+                displayText = randomText
+            }
+        } else {
+            displayText = randomText
+        }
         
         return QuoteEntry(
             date: Date(), 
             id: nil, 
-            text: randomText, 
+            text: displayText, 
             author: nil, 
             background: Color(UIColor.systemBackground), 
             foreground: Color(UIColor.label), 
@@ -119,7 +133,30 @@ struct QuoteWidgetEntryView : View {
     var entry: Provider.Entry
     @Environment(\.widgetFamily) var family
 
+    @ViewBuilder
     var body: some View {
+        // Lock screen widget'ları için özel görünümler
+        if #available(iOSApplicationExtension 16.0, *) {
+            switch family {
+            case .accessoryRectangular:
+                LockScreenRectangularView(entry: entry)
+            case .accessoryCircular:
+                LockScreenCircularView(entry: entry)
+            case .accessoryInline:
+                LockScreenInlineView(entry: entry)
+            case .systemSmall, .systemMedium, .systemLarge:
+                HomeScreenView(entry: entry)
+            @unknown default:
+                HomeScreenView(entry: entry)
+            }
+        } else {
+            HomeScreenView(entry: entry)
+        }
+    }
+    
+    // Home screen widget görünümü (mevcut kod)
+    @ViewBuilder
+    private func HomeScreenView(entry: Provider.Entry) -> some View {
         let content = ZStack(alignment: .topLeading) {
             entry.background
                 .ignoresSafeArea()
@@ -226,12 +263,97 @@ struct QuoteWidget: Widget {
     let kind: String = "QuoteWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        let config = StaticConfiguration(kind: kind, provider: Provider()) { entry in
             QuoteWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("QuoteSpark")
         .description("Shows your favorite quotes or random inspiration. Updates automatically and with theme changes.")
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        
+        if #available(iOSApplicationExtension 16.0, *) {
+            return config.supportedFamilies([
+                .systemSmall, 
+                .systemMedium, 
+                .systemLarge,
+                .accessoryRectangular,
+                .accessoryCircular,
+                .accessoryInline
+            ])
+        } else {
+            return config.supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        }
+    }
+}
+
+// MARK: - Lock Screen Widget Views
+@available(iOSApplicationExtension 16.0, *)
+struct LockScreenRectangularView: View {
+    var entry: Provider.Entry
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 3) {
+            Text(entry.text)
+                .font(.system(size: 13, weight: .medium, design: .rounded))
+                .foregroundColor(.primary)
+                .lineLimit(2)
+                .minimumScaleFactor(0.75)
+            
+            if let author = entry.author, !author.isEmpty {
+                Text("— \(author)")
+                    .font(.system(size: 10, weight: .regular, design: .rounded))
+                    .foregroundColor(.secondary)
+                    .lineLimit(1)
+            }
+        }
+        .widgetURL(entry.deepLinkURL)
+    }
+}
+
+@available(iOSApplicationExtension 16.0, *)
+struct LockScreenCircularView: View {
+    var entry: Provider.Entry
+    
+    var body: some View {
+        ZStack {
+            // Dairesel widget için arka plan
+            if #available(iOSApplicationExtension 16.0, *) {
+                AccessoryWidgetBackground()
+            }
+            
+            VStack(spacing: 1) {
+                // İlk harf veya kısa metin
+                Text(String(entry.text.prefix(1)).uppercased())
+                    .font(.system(size: 22, weight: .bold, design: .rounded))
+                    .foregroundColor(.primary)
+                
+                // Kısa metin varsa göster
+                if entry.text.count > 1 {
+                    Text(String(entry.text.prefix(2)).uppercased())
+                        .font(.system(size: 9, weight: .semibold, design: .rounded))
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
+        .widgetURL(entry.deepLinkURL)
+    }
+}
+
+@available(iOSApplicationExtension 16.0, *)
+struct LockScreenInlineView: View {
+    var entry: Provider.Entry
+    
+    var body: some View {
+        Label {
+            Text(entry.text)
+                .font(.system(size: 13, weight: .medium, design: .rounded))
+                .foregroundColor(.primary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.75)
+        } icon: {
+            Image(systemName: "quote.bubble.fill")
+                .font(.system(size: 11, weight: .medium))
+                .foregroundColor(.primary)
+        }
+        .widgetURL(entry.deepLinkURL)
     }
 }
 

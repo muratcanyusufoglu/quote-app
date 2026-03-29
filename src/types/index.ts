@@ -249,6 +249,8 @@ export interface QuoteStoreActions {
   addToFavorites: (quoteId: string) => void;
   removeFromFavorites: (quoteId: string) => void;
   markAsRead: (quote: LocalizedQuote) => void;
+  addToSeen: (quoteId: string) => void;
+  resetSeenQuotes: () => void;
   resetDailyReads: () => void;
   updateStreak: () => void;
   setLoading: (loading: boolean) => void;

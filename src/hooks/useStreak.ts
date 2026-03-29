@@ -44,22 +44,9 @@ export function useStreak() {
 
       // Show modal if needed (especially for break situations)
       if (streakStatus.shouldShowModal) {
-        // Ensure streak count is always at least 1 for display
-        const displayStreakCount = Math.max(
-          1,
-          streakStatus.currentStreak || currentStreak || 1
-        );
-        
-        console.log("🔥 Setting modal state:", {
-          displayStreakCount,
-          originalStreak: streakStatus.currentStreak,
-          currentStreak,
-          isStreakContinued: streakStatus.isStreakContinued,
-        });
-
         setModalState({
           visible: true,
-          streakCount: displayStreakCount,
+          streakCount: streakStatus.currentStreak || currentStreak,
           isStreakContinued: streakStatus.isStreakContinued,
         });
 
@@ -193,14 +180,13 @@ export function useStreak() {
 
   // Manual trigger functions for debugging/testing
   const showStreakContinue = useCallback((count: number = 3) => {
-    const displayCount = Math.max(1, count);
     console.log(
       "🔥 useStreak: Showing streak continue modal with count:",
-      displayCount
+      count
     );
     setModalState({
       visible: true,
-      streakCount: displayCount,
+      streakCount: count,
       isStreakContinued: true,
     });
 
@@ -209,12 +195,10 @@ export function useStreak() {
   }, []);
 
   const showStreakBreak = useCallback((count: number = 0) => {
-    // Always show at least 1 even for break
-    const displayCount = Math.max(1, count);
-    console.log("💔 useStreak: Showing streak break modal with count:", displayCount);
+    console.log("💔 useStreak: Showing streak break modal with count:", count);
     setModalState({
       visible: true,
-      streakCount: displayCount,
+      streakCount: count,
       isStreakContinued: false,
     });
 

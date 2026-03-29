@@ -971,6 +971,102 @@ export class NotificationService {
     await this.cancelAllNotifications();
     console.log("🔕 All notifications disabled");
   }
+
+  /**
+   * Schedule trial reminder notification
+   * Schedules a reminder 1 day before trial ends (on day 2 of 3-day trial)
+   */
+  async scheduleTrialReminder(
+    trialStartDate: Date,
+    freeTrialDays: number,
+    language: Language = "en"
+  ): Promise<void> {
+    try {
+      // Check permissions
+      const hasPermission = await this.requestPermissions();
+      if (!hasPermission) {
+        console.log("❌ Cannot schedule trial reminder without permission");
+        return;
+      }
+
+      // Calculate reminder date (1 day before trial ends)
+      const reminderDate = new Date(trialStartDate);
+      reminderDate.setDate(reminderDate.getDate() + (freeTrialDays - 1));
+
+      // Set reminder time to 10:00 AM
+      reminderDate.setHours(10, 0, 0, 0);
+
+      // Only schedule if the date hasn't passed
+      const now = new Date();
+      if (reminderDate <= now) {
+        console.log("⚠️ Trial reminder date has already passed, skipping");
+        return;
+      }
+
+      // Get translation texts
+      const translations = await this.getTrialReminderTexts(language);
+      
+      const notificationData: NotificationData = {
+        type: "trial_reminder",
+        date: reminderDate.toISOString(),
+        language: language,
+      };
+
+      const notificationContent: Notifications.NotificationContentInput = {
+        title: translations.title,
+        body: translations.body,
+        data: notificationData,
+        sound: true,
+      };
+
+      const trigger: Notifications.DateTriggerInput = {
+        date: reminderDate,
+        type: Notifications.SchedulableTriggerInputTypes.DATE,
+      };
+
+      const identifier = `trial_reminder_${reminderDate.toISOString().split("T")[0]}_${language}`;
+      
+      // Cancel any existing trial reminder first
+      await Notifications.cancelScheduledNotificationAsync(identifier).catch(() => {
+        // Ignore if notification doesn't exist
+      });
+
+      await Notifications.scheduleNotificationAsync({
+        identifier,
+        content: notificationContent,
+        trigger,
+      });
+
+      console.log(
+        `📅 Scheduled trial reminder for ${reminderDate.toLocaleString()} in ${language}`
+      );
+    } catch (error) {
+      console.error("❌ Error scheduling trial reminder:", error);
+    }
+  }
+
+  /**
+   * Get trial reminder texts based on language
+   */
+  private async getTrialReminderTexts(
+    language: Language
+  ): Promise<{ title: string; body: string }> {
+    // Import translations dynamically
+    const enTranslations = require("../data/translations/en.json");
+    const trTranslations = require("../data/translations/tr.json");
+
+    const translations =
+      language === "tr" ? trTranslations : enTranslations;
+
+    return {
+      title:
+        translations.notifications?.streak_warning?.title_second ||
+        "Your Trial Awaits! ⚡",
+      body:
+        translations.paywall?.modern?.timeline_reminder_description ||
+        "We'll let you know when your trial is ending",
+    };
+  }
 }
 
 // Export singleton instance

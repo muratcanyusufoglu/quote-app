@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { legacyQuoteService } from "../services/LegacyQuoteService";
 import { useOnboardingSelectors } from "../store/useOnboardingStore";
 import { usePurchaseSelectors } from "../store/usePurchaseStore";
@@ -26,6 +26,7 @@ export function useQuoteService() {
   const onboardingStoreHydrated = useOnboardingSelectors.hasHydrated();
 
   const actions = useQuoteSelectors.actions();
+  const { resetSeenQuotes } = actions;
 
   // Check if all stores are hydrated
   const isReady =
@@ -37,6 +38,16 @@ export function useQuoteService() {
       userPreferences?.language as SupportedLanguage
     );
   }, [userPreferences?.language]);
+
+  // Auto-reset seenQuotes when the user has seen every accessible quote in the current pool
+  useEffect(() => {
+    if (!isReady) return;
+    const accessiblePool = legacyQuoteService.getFilteredQuotes(isPremium, getPreferredLanguage(userPreferences?.language as SupportedLanguage));
+    if (accessiblePool.length > 0 && seenQuotes.length >= accessiblePool.length) {
+      console.log(`🔄 All ${accessiblePool.length} accessible quotes seen — resetting for a fresh cycle`);
+      resetSeenQuotes();
+    }
+  }, [seenQuotes.length, isReady, isPremium]);
 
   // Stable references to avoid infinite loops
   const stableQuotes = useMemo(() => quotes, [quotes.length]);

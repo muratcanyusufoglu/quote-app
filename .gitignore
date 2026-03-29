@@ -141,20 +141,20 @@ expo-env.d.ts
 # @end expo-cli
 
 #Quotes Data - Exclude all quote content files
-#/src/data/quotes/*.json
-#/src/data/quotes/index.ts
-#/src/data/quotes.json.backup
-#/src/services/AIService.ts
-#/src/services/firebase.ts
+/src/data/quotes/*.json
+/src/data/quotes/index.ts
+/src/data/quotes.json.backup
+/src/services/AIService.ts
+/src/services/firebase.ts
 #Translations and localization data
-#/src/data/translations/*.json
+/src/data/translations/*.json
 #Firebase Configuration Files (contain sensitive API keys)
-#GoogleService-Info.plist
-#google-services.json
+GoogleService-Info.plist
+google-services.json
 
-#/src/constants/config.ts
+/src/constants/config.ts
 
-#functions/
+functions/
 
 # Widgets build output (generated during native build)
-#widgets/ios/QuoteWidget/build/
+widgets/ios/QuoteWidget/build/

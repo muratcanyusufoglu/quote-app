@@ -39,22 +39,21 @@ export class QuoteFilterService {
   getQuotesWithFallback(
     quotes: LocalizedQuote[],
     seenQuoteIds: string[],
-    minUnseenThreshold: number = 3
-  ): {quotes: LocalizedQuote[]; fallbackUsed: boolean} {
+    minUnseenThreshold: number = 0
+  ): {quotes: LocalizedQuote[]; fallbackUsed: boolean; allExhausted: boolean} {
     const unseenQuotes = this.filterOutSeen(quotes, seenQuoteIds);
 
-    // If we have enough unseen quotes (>= threshold), return only unseen quotes
-    // This ensures each quote is shown once before showing seen quotes again
-    if (unseenQuotes.length >= minUnseenThreshold) {
-      return {quotes: unseenQuotes, fallbackUsed: false};
+    // Return only unseen quotes as long as any exist
+    if (unseenQuotes.length > 0) {
+      return {quotes: unseenQuotes, fallbackUsed: false, allExhausted: false};
     }
 
-    // If not enough unseen quotes, include seen quotes as well (fallback)
-    // This only happens when user has seen all or most quotes
+    // All quotes in this pool have been seen — fallback to full pool
+    // Caller should reset seenQuotes to begin a fresh cycle
     console.log(
-      `⚠️ Only ${unseenQuotes.length} unseen quotes available (threshold: ${minUnseenThreshold}), including seen quotes as fallback`
+      `🔄 All ${quotes.length} quotes seen — falling back to full pool`
     );
-    return {quotes: quotes, fallbackUsed: true};
+    return {quotes: quotes, fallbackUsed: true, allExhausted: true};
   }
 
   // Search quotes by text, author, or tags
