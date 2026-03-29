@@ -62,6 +62,7 @@ export function QuoteReelCard({
     quote.category,
     quote.language
   );
+  const canReadStory = quote.type !== "affirmation" && !!quote.story;
 
   // Responsive calculation for header position below "ÜCRETSİZ" badge
   // Badge is positioned at: top: insets.top, left: 16
@@ -172,10 +173,16 @@ export function QuoteReelCard({
         <TouchableOpacity
           style={[
             styles.readStoryButton,
-            {backgroundColor: theme.colors.primary},
+            {
+              backgroundColor: canReadStory
+                ? theme.colors.primary
+                : theme.colors.whiteOverlay25,
+              opacity: canReadStory ? 1 : 0.5,
+            },
           ]}
-          onPress={handlePress}
-          activeOpacity={0.9}
+          onPress={canReadStory ? handlePress : undefined}
+          activeOpacity={canReadStory ? 0.9 : 1}
+          disabled={!canReadStory}
         >
           <IconSymbol
             name="book"

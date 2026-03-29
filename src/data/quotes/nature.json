@@ -9460,6 +9460,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+      {
+      "id": "nature_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "Nature restores me and I feel connected.",
+        "tr": "Doğa beni yeniler ve onunla bağlı hissederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "calm",
+          "connection"
+        ],
+        "tr": [
+          "doğa",
+          "sakinlik",
+          "bağlantı"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "nature_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I feel grounded when I connect with nature.",
+        "tr": "Doğayla bağ kurduğumda kendimi dengede hissederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "grounded",
+          "connection",
+          "calm"
+        ],
+        "tr": [
+          "denge",
+          "bağlantı",
+          "sakinlik"
+        ]
+      },
+      "readTime": "0"
+      }
   ]
 }

@@ -124,22 +124,33 @@ export class DataService {
   ): Promise<LocalizedQuote[]> {
     try {
       const quotes = await this.loadQuotesForCategory(categoryId);
-      return quotes.map((quote) => ({
-        id: quote.id,
-        text: quote.texts[language] || quote.texts.en,
-        author: quote.authors[language] || quote.authors.en,
-        category: quote.category,
-        tags: quote.tags[language] || quote.tags.en || [],
-        language: language,
-        readTime: quote.readTime || 1,
-        story: quote.stories?.[language]
-          ? {
-              title: quote.stories[language]!.title,
-              content: quote.stories[language]!.content,
-              readTime: quote.stories[language]!.readTime || 3,
-            }
-          : undefined,
-      }));
+      return quotes.map((quote) => {
+        const parsedReadTime =
+          typeof quote.readTime === "number"
+            ? quote.readTime
+            : Number(quote.readTime);
+        const normalizedReadTime = Number.isFinite(parsedReadTime)
+          ? parsedReadTime
+          : 1;
+
+        return {
+          id: quote.id,
+          type: quote.type || "quote",
+          text: quote.texts[language] || quote.texts.en,
+          author: quote.authors[language] || quote.authors.en,
+          category: quote.category,
+          tags: quote.tags[language] || quote.tags.en || [],
+          language: language,
+          readTime: normalizedReadTime,
+          story: quote.stories?.[language]
+            ? {
+                title: quote.stories[language]!.title,
+                content: quote.stories[language]!.content,
+                readTime: quote.stories[language]!.readTime || 3,
+              }
+            : undefined,
+        };
+      });
     } catch (error) {
       console.error(
         `❌ Failed to get quotes for category ${categoryId}:`,

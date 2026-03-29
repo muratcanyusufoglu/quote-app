@@ -8787,6 +8787,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "education_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I learn quickly and apply what I learn.",
+        "tr": "Hızla öğrenir ve öğrendiklerimi uygularım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "learning",
+          "curiosity",
+          "growth"
+        ],
+        "tr": [
+          "öğrenme",
+          "merak",
+          "gelişim"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I stay curious and keep improving.",
+        "tr": "Merakımı canlı tutar ve gelişmeye devam ederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "curiosity",
+          "improvement",
+          "learning"
+        ],
+        "tr": [
+          "merak",
+          "gelişim",
+          "öğrenme"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

@@ -9090,6 +9090,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+        {
+      "id": "gratitude_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice and appreciate the good in my life.",
+        "tr": "Hayatımdaki iyilikleri fark eder ve takdir ederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "appreciation",
+          "abundance",
+          "thanks"
+        ],
+        "tr": [
+          "takdir",
+          "bolluk",
+          "şükür"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "gratitude_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am grateful for small wins.",
+        "tr": "Küçük kazanımlar için minnettarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "wins",
+          "appreciation"
+        ],
+        "tr": [
+          "minnettarlık",
+          "kazanım",
+          "takdir"
+        ]
+      },
+      "readTime": "0"
+        }
   ]
 }   

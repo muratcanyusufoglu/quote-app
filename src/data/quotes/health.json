@@ -8297,6 +8297,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+       {
+      "id": "health_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my body with healthy choices.",
+        "tr": "Bedenimi sağlıklı seçimlerle onurlandırırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "wellness",
+          "body",
+          "energy"
+        ],
+        "tr": [
+          "sağlık",
+          "beden",
+          "enerji"
+        ]
+      },
+      "readTime": "0"
+       },
+       {
+      "id": "health_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to my body's signals.",
+        "tr": "Bedenimin sinyallerini dinlerim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "health",
+      "tags": {
+        "en": [
+          "body",
+          "awareness",
+          "care"
+        ],
+        "tr": [
+          "beden",
+          "farkındalık",
+          "özen"
+        ]
+      },
+      "readTime": "0"
+       }
   ]
 }

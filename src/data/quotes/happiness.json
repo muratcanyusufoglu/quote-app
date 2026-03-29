@@ -12066,6 +12066,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "happiness_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow myself to feel joy in simple moments.",
+        "tr": "Basit anlarda neşe hissetmeme izin veriyorum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "joy",
+          "gratitude",
+          "moment"
+        ],
+        "tr": [
+          "neşe",
+          "şükür",
+          "an"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I create reasons to smile today.",
+        "tr": "Bugün gülümsemek için nedenler yaratırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "joy",
+          "smile",
+          "today"
+        ],
+        "tr": [
+          "neşe",
+          "gülümseme",
+          "bugün"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

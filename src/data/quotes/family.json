@@ -8053,6 +8053,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+     {
+      "id": "family_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I contribute to a loving and respectful family.",
+        "tr": "Sevgi ve saygı dolu bir aile bağını güçlendiririm."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "love",
+          "respect",
+          "belonging"
+        ],
+        "tr": [
+          "sevgi",
+          "saygı",
+          "aidiyet"
+        ]
+      },
+      "readTime": "0"
+     },
+     {
+      "id": "family_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I communicate with patience and love.",
+        "tr": "Sabır ve sevgiyle iletişim kurarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "communication",
+          "love",
+          "patience"
+        ],
+        "tr": [
+          "iletişim",
+          "sevgi",
+          "sabır"
+        ]
+      },
+      "readTime": "0"
+     }
   ]
 } 

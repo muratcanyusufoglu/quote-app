@@ -10182,6 +10182,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+   {
+      "id": "balance_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I balance my work and rest with care.",
+        "tr": "İş ve dinlenme arasında özenli bir denge kurarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "rest",
+          "work"
+        ],
+        "tr": [
+          "denge",
+          "dinlenme",
+          "iş"
+        ]
+      },
+      "readTime": "0"
+   },
+   {
+      "id": "balance_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give myself permission to rest.",
+        "tr": "Dinlenmek için kendime izin veririm."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "rest",
+          "permission",
+          "care"
+        ],
+        "tr": [
+          "dinlenme",
+          "izin",
+          "özen"
+        ]
+      },
+      "readTime": "0"
+   }
   ]
 } 

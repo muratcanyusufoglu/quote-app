@@ -4484,6 +4484,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "peace_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I breathe in calm and release tension.",
+        "tr": "Sakinliği içime alır, gerginliği bırakırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "calm",
+          "release",
+          "breath"
+        ],
+        "tr": [
+          "sakinlik",
+          "bırakma",
+          "nefes"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose peace over worry.",
+        "tr": "Endişe yerine huzuru seçerim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "calm",
+          "release"
+        ],
+        "tr": [
+          "huzur",
+          "sakinlik",
+          "bırakma"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

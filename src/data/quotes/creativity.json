@@ -7851,6 +7851,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "creativity_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "My ideas flow easily and I trust my creative voice.",
+        "tr": "Fikirlerim kolayca akar ve yaratıcı sesime güvenirim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "ideas",
+          "expression",
+          "flow"
+        ],
+        "tr": [
+          "fikirler",
+          "ifade",
+          "akış"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I turn curiosity into creation.",
+        "tr": "Merakımı yaratıcılığa dönüştürürüm."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "curiosity",
+          "creation",
+          "ideas"
+        ],
+        "tr": [
+          "merak",
+          "yaratıcılık",
+          "fikirler"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

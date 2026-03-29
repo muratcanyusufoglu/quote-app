@@ -3917,6 +3917,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "love_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give and receive love freely and safely.",
+        "tr": "Sevgiyi güvenle verir ve alırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "connection",
+          "trust"
+        ],
+        "tr": [
+          "sevgi",
+          "bağ",
+          "güven"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am worthy of healthy love.",
+        "tr": "Sağlıklı sevgiye layığım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "worth",
+          "safety",
+          "care"
+        ],
+        "tr": [
+          "değer",
+          "güven",
+          "şefkat"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

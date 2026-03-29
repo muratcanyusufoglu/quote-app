@@ -13864,6 +13864,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+        {
+      "id": "motivation_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I feel energized to take one bold step forward.",
+        "tr": "Bugün cesur bir adım atmak için enerjik hissediyorum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "energy",
+          "action",
+          "drive"
+        ],
+        "tr": [
+          "enerji",
+          "eylem",
+          "motivasyon"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "motivation_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "My motivation grows as I move.",
+        "tr": "Hareket ettikçe motivasyonum artar."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "momentum",
+          "action",
+          "energy"
+        ],
+        "tr": [
+          "ivme",
+          "eylem",
+          "enerji"
+        ]
+      },
+      "readTime": "0"
+        }
   ]
 }

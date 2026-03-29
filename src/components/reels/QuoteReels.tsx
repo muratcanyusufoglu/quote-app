@@ -414,6 +414,7 @@ export function QuoteReels({
         <QuoteReelCard
           quote={{
             id: "empty",
+            type: "quote",
             text: t("common.loading"),
             author: "",
             category: "motivation",

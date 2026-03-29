@@ -11180,6 +11180,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+      {
+      "id": "leadership_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I lead with integrity and empathy.",
+        "tr": "Dürüstlük ve empatiyle liderlik ederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "integrity",
+          "empathy",
+          "influence"
+        ],
+        "tr": [
+          "dürüstlük",
+          "empati",
+          "etki"
+        ]
+      },
+      "readTime": "0"
+      },
+      {
+      "id": "leadership_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I set a calm and clear example.",
+        "tr": "Sakin ve net bir örnek olurum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "leadership",
+      "tags": {
+        "en": [
+          "example",
+          "clarity",
+          "calm"
+        ],
+        "tr": [
+          "örnek",
+          "netlik",
+          "sakinlik"
+        ]
+      },
+      "readTime": "0"
+      }
   ]
 } 

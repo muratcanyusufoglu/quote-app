@@ -8670,6 +8670,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "patience_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the timing of my life.",
+        "tr": "Hayatımın zamanlamasına güvenirim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "trust",
+          "timing"
+        ],
+        "tr": [
+          "sabır",
+          "güven",
+          "zamanlama"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow things to unfold in their time.",
+        "tr": "Her şeyin zamanında gelmesine izin veririm."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "timing",
+          "trust",
+          "calm"
+        ],
+        "tr": [
+          "zamanlama",
+          "güven",
+          "sakinlik"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

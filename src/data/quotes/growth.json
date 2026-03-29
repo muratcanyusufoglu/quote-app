@@ -8419,6 +8419,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+        {
+      "id": "growth_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I grow stronger with every experience.",
+        "tr": "Her deneyimle daha da güçleniyorum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "growth",
+          "learning",
+          "strength"
+        ],
+        "tr": [
+          "gelişim",
+          "öğrenme",
+          "güç"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "growth_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome growth even when it feels uncomfortable.",
+        "tr": "Rahatsız hissettirse bile gelişimi kucaklarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "growth",
+      "tags": {
+        "en": [
+          "growth",
+          "courage",
+          "learning"
+        ],
+        "tr": [
+          "gelişim",
+          "cesaret",
+          "öğrenme"
+        ]
+      },
+      "readTime": "0"
+        }
   ]
 }

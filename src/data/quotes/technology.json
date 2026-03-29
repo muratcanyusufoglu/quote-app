@@ -6199,6 +6199,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "technology_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I use technology wisely to improve my life.",
+        "tr": "Teknolojiyi hayatımı iyileştirmek için bilinçle kullanırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "innovation",
+          "purpose",
+          "balance"
+        ],
+        "tr": [
+          "yenilik",
+          "amaç",
+          "denge"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I set healthy boundaries with technology.",
+        "tr": "Teknolojiyle sağlıklı sınırlar koyarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "boundaries",
+          "balance",
+          "intention"
+        ],
+        "tr": [
+          "sınırlar",
+          "denge",
+          "niyet"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

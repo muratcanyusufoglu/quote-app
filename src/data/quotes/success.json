@@ -8566,6 +8566,58 @@
           "readTime": 0
         }
       }
-  }
+  },
+    {
+      "id": "success_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am capable of achieving the goals I set.",
+        "tr": "Koyduğum hedeflere ulaşacak güce sahibim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "goals",
+          "confidence",
+          "achievement"
+        ],
+        "tr": [
+          "hedefler",
+          "özgüven",
+          "başarı"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I celebrate progress and keep aiming higher.",
+        "tr": "İlerlemeyi kutlar ve daha yükseğe hedef koyarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "progress",
+          "goals",
+          "confidence"
+        ],
+        "tr": [
+          "ilerleme",
+          "hedefler",
+          "özgüven"
+        ]
+      },
+      "readTime": "0"
+    }
   ]
 }

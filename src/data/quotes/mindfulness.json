@@ -9490,6 +9490,58 @@
         "readTime": 0
       }
     }
-  }
+  },
+        {
+      "id": "mindfulness_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am fully present in this moment.",
+        "tr": "Şu anda bu anın içindeyim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "presence",
+          "awareness",
+          "now"
+        ],
+        "tr": [
+          "farkındalık",
+          "şimdi",
+          "an"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "mindfulness_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice my breath and slow down.",
+        "tr": "Nefesimi fark eder ve yavaşlarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "breath",
+          "awareness",
+          "slow"
+        ],
+        "tr": [
+          "nefes",
+          "farkındalık",
+          "yavaş"
+        ]
+      },
+      "readTime": "0"
+        }
   ]
 }

@@ -43,14 +43,22 @@ export class LocalizationService {
       story = undefined;
     }
 
+    const rawReadTime = quote.readTime;
+    const parsedReadTime =
+      typeof rawReadTime === "number" ? rawReadTime : Number(rawReadTime);
+    const normalizedReadTime = Number.isFinite(parsedReadTime)
+      ? parsedReadTime
+      : 1;
+
     return {
       id: quote.id,
+      type: quote.type || "quote",
       text,
       author,
       category: quote.category,
       tags,
       language,
-      readTime: quote.readTime || 1,
+      readTime: normalizedReadTime,
       story,
     };
   }

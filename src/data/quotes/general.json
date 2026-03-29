@@ -37600,6 +37600,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "general_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose progress over perfection today.",
+        "tr": "Bugün mükemmeliyet yerine ilerlemeyi seçiyorum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "progress",
+          "focus",
+          "choice"
+        ],
+        "tr": [
+          "ilerleme",
+          "odak",
+          "seçim"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "general_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I can start fresh at any moment.",
+        "tr": "Her an taze bir başlangıç yapabilirim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "fresh",
+          "beginning",
+          "choice"
+        ],
+        "tr": [
+          "tazelik",
+          "başlangıç",
+          "seçim"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

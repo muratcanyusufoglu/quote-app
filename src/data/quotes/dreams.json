@@ -9989,6 +9989,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "dreams_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "My dreams are valid and I take steps toward them.",
+        "tr": "Hayallerim değerlidir ve onlara doğru adımlar atarım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "vision",
+          "hope",
+          "steps"
+        ],
+        "tr": [
+          "vizyon",
+          "umut",
+          "adımlar"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dreams_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my dreams and take action.",
+        "tr": "Hayallerime güvenir ve harekete geçerim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "action",
+          "trust"
+        ],
+        "tr": [
+          "hayaller",
+          "eylem",
+          "güven"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

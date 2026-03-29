@@ -7773,6 +7773,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "spirituality_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am connected to something greater than myself.",
+        "tr": "Benden daha büyük bir şeyle bağlantıdayım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "faith",
+          "connection",
+          "peace"
+        ],
+        "tr": [
+          "inanç",
+          "bağlantı",
+          "huzur"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "spirituality_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust the guidance within me.",
+        "tr": "İçerimdeki rehberliğe güvenirim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "spirituality",
+      "tags": {
+        "en": [
+          "guidance",
+          "faith",
+          "inner"
+        ],
+        "tr": [
+          "rehberlik",
+          "inanç",
+          "içsel"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

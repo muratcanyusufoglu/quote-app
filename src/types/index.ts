@@ -17,6 +17,7 @@ export type Language =
 // Base interfaces for the motivational quotes app
 export interface Quote {
   id: string;
+  type?: "quote" | "affirmation";
   texts: {
     en: string;
     tr: string;
@@ -63,7 +64,7 @@ export interface Quote {
     th?: string[];
     ms?: string[];
   };
-  readTime: number; // in minutes
+  readTime: number | string; // in minutes (string allowed for legacy/json inputs)
   stories?: {
     en?: Story;
     tr?: Story;
@@ -128,6 +129,7 @@ export interface Category {
 // Helper interface for working with localized content
 export interface LocalizedQuote {
   id: string;
+  type: "quote" | "affirmation";
   text: string;
   author: string;
   category: string;

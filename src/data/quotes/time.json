@@ -6123,6 +6123,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "time_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I manage my time with purpose and ease.",
+        "tr": "Zamanımı amaçla ve kolaylıkla yönetirim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "focus",
+          "priorities",
+          "balance"
+        ],
+        "tr": [
+          "odak",
+          "öncelikler",
+          "denge"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "time_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I protect time for what matters most.",
+        "tr": "Benim için en önemli olanlara zaman ayırırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "priorities",
+          "focus",
+          "boundaries"
+        ],
+        "tr": [
+          "öncelikler",
+          "odak",
+          "sınırlar"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

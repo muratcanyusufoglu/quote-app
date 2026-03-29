@@ -6902,6 +6902,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "friendship_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I attract and nurture supportive friendships.",
+        "tr": "Destekleyici dostluklar kurar ve beslerim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "support",
+          "trust",
+          "bond"
+        ],
+        "tr": [
+          "destek",
+          "güven",
+          "bağ"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I show up with loyalty and care.",
+        "tr": "Sadakat ve özenle yanında olurum."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "loyalty",
+          "care",
+          "support"
+        ],
+        "tr": [
+          "sadakat",
+          "özen",
+          "destek"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

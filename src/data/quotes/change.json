@@ -8187,6 +8187,58 @@
           "readTime": 0
         }
       }
-    }
+    },
+        {
+      "id": "change_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I adapt to change and find opportunity in it.",
+        "tr": "Değişime uyum sağlar ve içinde fırsat görürüm."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "adaptation",
+          "opportunity",
+          "new"
+        ],
+        "tr": [
+          "uyum",
+          "fırsat",
+          "yenilik"
+        ]
+      },
+      "readTime": "0"
+        },
+        {
+      "id": "change_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let go of what no longer fits.",
+        "tr": "Artık bana uymayanı bırakırım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "release",
+          "adaptation",
+          "trust"
+        ],
+        "tr": [
+          "bırakma",
+          "uyum",
+          "güven"
+        ]
+      },
+      "readTime": "0"
+        }
   ]
 } 

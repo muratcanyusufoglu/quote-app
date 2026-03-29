@@ -4093,6 +4093,58 @@
           "readTime": 6
         }
       }
-    }
+    },
+{
+      "id": "travel_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am open to new experiences and cultures.",
+        "tr": "Yeni deneyimlere ve kültürlere açığım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "exploration",
+          "openness",
+          "adventure"
+        ],
+        "tr": [
+          "keşif",
+          "açıklık",
+          "macera"
+        ]
+      },
+      "readTime": "0"
+},
+{
+      "id": "travel_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I feel safe exploring new places.",
+        "tr": "Yeni yerleri keşfederken güvende hissederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "travel",
+      "tags": {
+        "en": [
+          "exploration",
+          "safety",
+          "curiosity"
+        ],
+        "tr": [
+          "keşif",
+          "güvenlik",
+          "merak"
+        ]
+      },
+      "readTime": "0"
+}
   ]
 } 

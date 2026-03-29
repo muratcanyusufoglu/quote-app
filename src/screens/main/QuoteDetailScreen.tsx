@@ -116,7 +116,11 @@ const QuoteDetailScreen: React.FC = () => {
         markAsRead(quoteDetailData.quote);
 
         // Story varsa onu da otomatik olarak oku
-        if (quoteDetailData.quote.story && storyReading.requestRead()) {
+        if (
+          quoteDetailData.quote.type !== "affirmation" &&
+          quoteDetailData.quote.story &&
+          storyReading.requestRead()
+        ) {
           console.log(
             "✅ Automatically reading story:",
             quoteDetailData.quote.story.title
@@ -370,7 +374,7 @@ const QuoteDetailScreen: React.FC = () => {
         </View>
 
         {/* Story Section */}
-        {quote.story && (
+        {quote.type !== "affirmation" && quote.story && (
           <View style={styles.storySection}>
             <View style={styles.storyHeader}>
               <Text style={[styles.storyTitle, {color: theme.colors.text}]}>

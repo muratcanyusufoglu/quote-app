@@ -8293,6 +8293,58 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "wisdom_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to my inner wisdom and act with clarity.",
+        "tr": "İçsel bilgeliğimi dinler ve netlikle hareket ederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "clarity",
+          "insight",
+          "guidance"
+        ],
+        "tr": [
+          "netlik",
+          "içgörü",
+          "rehberlik"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I learn from today and choose wisely.",
+        "tr": "Bugünden öğrenir ve bilgece seçim yaparım."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "learning",
+          "clarity",
+          "choice"
+        ],
+        "tr": [
+          "öğrenme",
+          "netlik",
+          "seçim"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 } 

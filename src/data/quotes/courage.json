@@ -1820,6 +1820,58 @@
       "ms": ["ketakutan", "keberanian", "kebebasan"]
     },
     "readTime": 1
-  }
+  },
+    {
+      "id": "courage_aff_001",
+      "type": "affirmation",
+      "texts": {
+        "en": "I have the courage to be myself.",
+        "tr": "Kendim olmak için cesarete sahibim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "bravery",
+          "self",
+          "confidence"
+        ],
+        "tr": [
+          "cesaret",
+          "kendim",
+          "özgüven"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "courage_aff_002",
+      "type": "affirmation",
+      "texts": {
+        "en": "I speak my truth with kindness.",
+        "tr": "Gerçeğimi nezaketle ifade ederim."
+      },
+      "authors": {
+        "en": "",
+        "tr": ""
+      },
+      "category": "courage",
+      "tags": {
+        "en": [
+          "truth",
+          "kindness",
+          "bravery"
+        ],
+        "tr": [
+          "gerçek",
+          "nezaket",
+          "cesaret"
+        ]
+      },
+      "readTime": "0"
+    }
   ]
 }
