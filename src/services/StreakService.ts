@@ -1,5 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { getTodayString, getYesterdayString } from "../utils/dailyReset";
+import {getTodayString, getYesterdayString} from "../utils/dailyReset";
 
 // Storage keys
 const LAST_STREAK_CHECK_KEY = "last_streak_check";
@@ -70,20 +70,28 @@ export class StreakService {
 
       if (lastReadDate === today) {
         // User read today - streak continues
-        console.log("✅ User read today - streak continues");
+        // If streak is 0 or undefined, it means first read today, so streak = 1
+        // If streak > 0, it means consecutive days, so keep the current streak
+        // The streak should already be updated in the store when user reads
+        newStreak = Math.max(1, currentStreak);
         isStreakContinued = true;
+        console.log("✅ User read today - streak continues:", newStreak);
         // Bugün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
         shouldShowModal = !hasModalShownToday;
       } else if (lastReadDate === yesterday) {
-        // User read yesterday - could continue streak
-        console.log("⏰ User read yesterday - can continue streak");
+        // User read yesterday but not today yet
+        // Streak should be 1 (yesterday was first day or continuation)
+        // When they read today, it will become 2
+        newStreak = Math.max(1, currentStreak);
         isStreakContinued = true;
+        console.log("⏰ User read yesterday - can continue streak:", newStreak);
         // Dün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
         shouldShowModal = !hasModalShownToday;
       } else {
         // User missed a day - streak is broken
         console.log("💔 User missed a day - streak is broken");
-        newStreak = 0;
+        // For display purposes, show 1 even when broken
+        newStreak = 1;
         isStreakContinued = false;
         // Break durumu - modal göster
         shouldShowModal = !hasModalShownToday;
@@ -169,7 +177,7 @@ export class StreakService {
   async updateStreakOnRead(
     lastReadDate: string,
     currentStreak: number
-  ): Promise<{ newStreak: number; shouldShowModal: boolean; isBreak: boolean }> {
+  ): Promise<{newStreak: number; shouldShowModal: boolean; isBreak: boolean}> {
     try {
       const today = getTodayString();
       const yesterday = getYesterdayString();
@@ -229,10 +237,10 @@ export class StreakService {
         isBreak,
       });
 
-      return { newStreak, shouldShowModal, isBreak };
+      return {newStreak, shouldShowModal, isBreak};
     } catch (error) {
       console.error("Error updating streak on read:", error);
-      return { newStreak: currentStreak, shouldShowModal: false, isBreak: false };
+      return {newStreak: currentStreak, shouldShowModal: false, isBreak: false};
     }
   }
 

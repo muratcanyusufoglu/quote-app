@@ -214,24 +214,28 @@ export function HomeScreen() {
   ]);
 
   // Debug logging - only log when values actually change (moved to useEffect to prevent render-time execution)
-  const prevValuesRef = useRef({ 
-    isPremium: undefined as boolean | undefined, 
+  const prevValuesRef = useRef({
+    isPremium: undefined as boolean | undefined,
     categoryFilter: undefined as string | null | undefined,
-    displayQuotesLength: 0 
+    displayQuotesLength: 0,
   });
-  
+
   useEffect(() => {
-    const hasChanged = 
+    const hasChanged =
       prevValuesRef.current.isPremium !== isPremium ||
       prevValuesRef.current.categoryFilter !== categoryFilter ||
       prevValuesRef.current.displayQuotesLength !== displayQuotes.length;
-    
+
     if (hasChanged) {
       console.log(`🏠 HomeScreen DEBUG:`);
       console.log(`📊 isPremium: ${isPremium}`);
       console.log(`🎯 categoryFilter: ${categoryFilter || "none"}`);
       console.log(`📱 displayQuotes length: ${displayQuotes.length}`);
-      prevValuesRef.current = { isPremium, categoryFilter, displayQuotesLength: displayQuotes.length };
+      prevValuesRef.current = {
+        isPremium,
+        categoryFilter,
+        displayQuotesLength: displayQuotes.length,
+      };
     }
   }, [isPremium, categoryFilter, displayQuotes.length]);
 

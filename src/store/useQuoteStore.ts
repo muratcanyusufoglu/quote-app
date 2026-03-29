@@ -59,9 +59,14 @@ const useQuoteStore = create<QuoteStore>()(
       markAsRead: (quote: LocalizedQuote) => {
         const state = get();
         const today = new Date().toISOString().split("T")[0]; // ISO format kullan
+        const previousLastReadDate = state.lastReadDate; // Save previous date for streak calculation
 
         // Check if we need to reset daily reads
         if (shouldResetDailyReads(state.lastReadDate)) {
+          // Streak'i lastReadDate güncellenmeden ÖNCE hesapla
+          // Çünkü updateStreak eski lastReadDate'e göre çalışıyor
+          get().updateStreak();
+
           set({
             dailyReads: 1,
             lastReadDate: today,
@@ -69,9 +74,6 @@ const useQuoteStore = create<QuoteStore>()(
             lastReadQuotes: [quote],
           });
           console.log("Daily reads reset. Quote marked as read:", quote.id);
-
-          // Streak'i sadece yeni gün başladığında güncelle
-          get().updateStreak();
         } else {
           // Add to seen quotes if not already seen
           const newSeenQuotes = state.seenQuotes.includes(quote.id)

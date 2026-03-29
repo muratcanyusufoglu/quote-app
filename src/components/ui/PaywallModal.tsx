@@ -455,40 +455,66 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         packages.length > 1;
 
       if (shouldSelectDiscountedPackage) {
-        setSubscriptionPackage(packages[1]);
+        // İndirimli paketi bul - discount özelliğine veya fiyat karşılaştırmasına göre
+        // İndirimli paket genellikle daha düşük fiyata sahip veya discount özelliği var
+        const discountedPackage =
+          packages.find(
+            (pkg) =>
+              pkg.discount &&
+              pkg.discount.length > 0 &&
+              parseFloat(pkg.discount.replace("%", "")) > 0
+          ) ||
+          packages.find((pkg, index) => {
+            // Eğer discount özelliği yoksa, fiyat karşılaştırması yap
+            const priceNum = pkg.priceNumber || 0;
+            const otherPrices = packages
+              .filter((_, i) => i !== index)
+              .map((p) => p.priceNumber || 0);
+            // En düşük fiyatlı paket indirimli olabilir
+            return (
+              otherPrices.length > 0 && priceNum < Math.max(...otherPrices)
+            );
+          }) ||
+          packages[1]; // Fallback: ikinci paket
+
+        setSubscriptionPackage(discountedPackage);
         console.log(
           "🔍 İNDİRİMLİ PAYWALL - Seçilen paket:",
-          packages[1].currentPrice
+          discountedPackage.currentPrice
         );
-        console.log("✅ İndirimli paket seçildi:", packages[1].id);
+        console.log("✅ İndirimli paket seçildi:", discountedPackage.id);
         console.log("🔍 Seçilen paket detayları:", {
-          id: packages[1].id,
-          title: packages[1].title,
-          period: packages[1].period,
-          currentPrice: packages[1].currentPrice,
-          pricePerMonth: packages[1].pricePerMonth,
-          packageType: packages[1].packageType,
-          currencyCode: packages[1].currencyCode,
-          priceNumber: packages[1].priceNumber,
-          discount: packages[1].discount,
+          id: discountedPackage.id,
+          title: discountedPackage.title,
+          period: discountedPackage.period,
+          currentPrice: discountedPackage.currentPrice,
+          pricePerMonth: discountedPackage.pricePerMonth,
+          packageType: discountedPackage.packageType,
+          currencyCode: discountedPackage.currencyCode,
+          priceNumber: discountedPackage.priceNumber,
+          discount: discountedPackage.discount,
         });
       } else {
-        setSubscriptionPackage(packages[0]);
+        // Normal paywall için stratejiye göre paket seç
+        const selectedPackages = await paywallService.getSubscriptionPackages();
+        const normalPackage =
+          selectedPackages.length > 0 ? selectedPackages[0] : packages[0];
+        setSubscriptionPackage(normalPackage);
         console.log(
           "🔍 NORMAL PAYWALL - Seçilen paket:",
-          packages[0].currentPrice
+          normalPackage.currentPrice
         );
-        console.log("✅ İndirimsiz paket seçildi:", packages[0].id);
+        console.log("✅ İndirimsiz paket seçildi:", normalPackage.id);
         console.log("🔍 Seçilen paket detayları:", {
-          id: packages[0].id,
-          title: packages[0].title,
-          period: packages[0].period,
-          currentPrice: packages[0].currentPrice,
-          pricePerMonth: packages[0].pricePerMonth,
-          packageType: packages[0].packageType,
-          currencyCode: packages[0].currencyCode,
-          priceNumber: packages[0].priceNumber,
-          discount: packages[0].discount,
+          id: normalPackage.id,
+          title: normalPackage.title,
+          period: normalPackage.period,
+          currentPrice: normalPackage.currentPrice,
+          pricePerMonth: normalPackage.pricePerMonth,
+          packageType: normalPackage.packageType,
+          currencyCode: normalPackage.currencyCode,
+          priceNumber: normalPackage.priceNumber,
+          discount: normalPackage.discount,
         });
       }
 

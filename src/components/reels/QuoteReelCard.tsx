@@ -64,13 +64,11 @@ export function QuoteReelCard({
   );
 
   // Responsive calculation for header position below "ÜCRETSİZ" badge
-  // Badge height: ~26px (paddingVertical 4*2 + fontSize 11 with lineHeight ~14px + border)
-  // Add responsive margin based on screen size to ensure header is clearly below badge
-  const isSmallScreen = screenHeight < 700;
-  const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
-  const badgeHeight = 26; // Badge approximate height (including border)
-  const margin = isSmallScreen ? 28 : isMediumScreen ? 32 : 36; // Increased margin for clear separation
-  const headerTop = insets.top + badgeHeight + margin;
+  // Badge is positioned at: top: insets.top, left: 16
+  // Badge actual rendered height: paddingVertical 4*2=8px + fontSize 11 with lineHeight ~14px + borderWidth 1.5*2=3px = ~25px
+  // Position header directly at badge bottom with zero gap - header top edge touches badge bottom edge
+  const badgeActualHeight = 25; // Actual rendered badge height
+  const headerTop = badgeActualHeight + 2; // Header top edge = badge bottom edge (no gap)
 
   const navigateToExplore = () => {
     router.push("/(tabs)/explore");
@@ -106,10 +104,12 @@ export function QuoteReelCard({
         style={[
           styles.header,
           {
-            // Position header below the "ÜCRETSİZ" badge
-            // Responsive positioning to ensure no overlap on all screen sizes
+            // Position header directly at badge bottom with zero gap
+            // Badge bottom = insets.top + badge height, header starts exactly there
             top: headerTop,
             backgroundColor: "transparent",
+            marginTop: 0, // Ensure no margin
+            paddingTop: 0, // Ensure no padding
           },
         ]}
       >
