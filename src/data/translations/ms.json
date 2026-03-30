@@ -142,7 +142,7 @@
       "section_title": "Apa yang disertakan:",
       "rating_text": "4.9 • 50,000+ pengguna",
       "restore_purchase": "Pulihkan Pembelian",
-      "trust_text": "Batalkan bila-bila masa • Pembayaran selamat • Jaminan 15 hari",
+      "trust_text": "⭐ Rating 4.9 • 50,000+ pengguna mempercayai kami",
       "title": "Sumber Inspirasi Tanpa Had Anda",
       "subtitle": "Dapatkan akses tanpa had kepada lebih daripada 10,000 petikan inspiratif",
       "free_trial_highlight": "🎉 3 Hari PERCUMA",
@@ -159,7 +159,6 @@
       "feature_stories": "📚 Cerita & Pelajaran Eksklusif",
       "feature_ai": "🧠 Personalisasi AI",
       "feature_adfree": "💎 Pengalaman Tanpa Iklan",
-      "trust_text": "⭐ Rating 4.9 • 50,000+ pengguna mempercayai kami",
       "legal_benefits": "Langganan memberi anda petikan tanpa had, kategori premium, bacaan tanpa iklan, akses luar talian, dan cadangan yang diperibadikan.",
       "legal_renew_note": "Langganan yang diperbaharui secara automatik. Batal pada bila-bila masa dalam Tetapan Akaun. Pembayaran akan dikenakan pada Apple ID anda.",
       "discount_offer_title": "Jangan Terlepas!",
@@ -325,36 +324,31 @@
     "daily_limit_fallback_highlight": "Jangan pernah terlepas inspirasi harian anda"
   },
   "mood_motivation": {
-    "title": "Motivasi Berdasarkan Mood",
-    "subtitle": "Dapatkan motivasi dipersonalisasi berdasarkan perasaan anda",
-    "question_feeling": "Bagaimana perasaan anda secara umum?",
-    "question_feeling_personalized": "Bagaimana perasaan anda {userName}?",
-    "question_energy": "Bagaimana tahap tenaga anda?",
-    "question_energy_personalized": "Bagaimana tahap tenaga anda {userName}?",
-    "question_affecting": "Apa yang paling mempengaruhi anda hari ini?",
-    "question_affecting_personalized": "Apa yang paling mempengaruhi {userName} hari ini?",
-    "generating": "Menjana mesej dipersonalisasi untuk anda...",
-    "share": "Kongsi",
-    "try_different": "Cuba Mesej Berbeza",
-    "error_generating": "Ralat menjana mesej",
-    "error_message": "Sila cuba lagi kemudian",
-    "close": "Tutup",
-    "emojis": {
-      "😄": "Gembira",
-      "🙂": "Tenang",
-      "😐": "Neutral",
-      "😟": "Sedih",
-      "😔": "Sangat Sedih",
-      "⚡": "Sangat Bertenaga",
-      "💪": "Bertenaga",
-      "😴": "Penat",
-      "🔋": "Dicas",
-      "😊": "Motivasi",
-      "😥": "Tekanan",
-      "😠": "Marah",
-      "💡": "Pemikiran",
-      "🌧️": "Kebimbangan",
-      "✨": "Matlamat"
+    "title": "🧠 Motivasi Berdasarkan Mood",
+    "feeling_question": "Bagaimana perasaan anda?",
+    "energy_question": "Tahap Tenaga?",
+    "affecting_question": "Apa yang mempengaruhi anda paling banyak?",
+    "generate_button": "Jana Motivasi ✨",
+    "close_button": "Tutup",
+    "moods": {
+      "happy": "Gembira",
+      "sad": "Sedih",
+      "anxious": "Bimbang",
+      "excited": "Teruja",
+      "tired": "Penat",
+      "motivated": "Termotivasi"
+    },
+    "energy_levels": {
+      "low": "Rendah",
+      "medium": "Sederhana",
+      "high": "Tinggi"
+    },
+    "affecting_factors": {
+      "work": "Kerja",
+      "relationships": "Hubungan",
+      "health": "Kesihatan",
+      "goals": "Matlamat",
+      "family": "Keluarga"
     }
   },
   "onboarding": {
@@ -395,7 +389,8 @@
       "reading_length": "Berapa panjang petikan yang anda suka baca?",
       "notification_count": "Berapa banyak pemberitahuan yang anda mahu sehari?",
       "notification_time_range": "Dalam jam mana anda mahu menerima pemberitahuan?",
-      "user_name": "Apa yang perlu kami panggil anda?"
+      "user_name": "Apa yang perlu kami panggil anda?",
+      "content_type": "Jenis kandungan apakah yang anda suka?"
     },
     "placeholders": {
       "user_name": "Masukkan nama anda..."
@@ -428,7 +423,9 @@
       "long": "Panjang dan terperinci",
       "daily": "Harian",
       "weekly": "Beberapa kali seminggu",
-      "occasional": "Sekali-sekala"
+      "occasional": "Sekali-sekala",
+      "quotes": "Petikan",
+      "affirmations": "Afirmasi"
     }
   },
   "quote_detail": {
@@ -558,33 +555,5 @@
     "privacy_policy_subtitle": "Lihat dasar privasi kami",
     "terms_of_use": "Syarat Penggunaan",
     "terms_of_use_subtitle": "Apple Standard EULA"
-  },
-  "mood_motivation": {
-    "title": "🧠 Motivasi Berdasarkan Mood",
-    "feeling_question": "Bagaimana perasaan anda?",
-    "energy_question": "Tahap Tenaga?",
-    "affecting_question": "Apa yang mempengaruhi anda paling banyak?",
-    "generate_button": "Jana Motivasi ✨",
-    "close_button": "Tutup",
-    "moods": {
-      "happy": "Gembira",
-      "sad": "Sedih",
-      "anxious": "Bimbang",
-      "excited": "Teruja",
-      "tired": "Penat",
-      "motivated": "Termotivasi"
-    },
-    "energy_levels": {
-      "low": "Rendah",
-      "medium": "Sederhana",
-      "high": "Tinggi"
-    },
-    "affecting_factors": {
-      "work": "Kerja",
-      "relationships": "Hubungan",
-      "health": "Kesihatan",
-      "goals": "Matlamat",
-      "family": "Keluarga"
-    }
   }
 }

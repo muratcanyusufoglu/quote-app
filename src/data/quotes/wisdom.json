@@ -17019,6 +17019,1836 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "wisdom_198",
+      "type": "quote",
+      "texts": {
+        "en": "In wisdom, quiet progress beats dramatic starts.",
+        "tr": "bilgelik alanında sessiz ilerleme, gösterişli başlangıçlardan daha iyidir.",
+        "fr": "En wisdom, le progrès discret vaut mieux que les débuts spectaculaires.",
+        "pt": "Em wisdom, o progresso silencioso supera começos dramáticos.",
+        "nl": "In wisdom overtreft stille vooruitgang dramatische starts.",
+        "es": "En wisdom, el progreso silencioso supera los comienzos dramáticos.",
+        "de": "In wisdom schlägt ruhiger Fortschritt dramatische Anfänge.",
+        "it": "In wisdom, il progresso silenzioso supera gli inizi drammatici.",
+        "ru": "В wisdom тихий прогресс лучше громких стартов.",
+        "id": "Dalam wisdom, kemajuan yang tenang mengalahkan awal yang dramatis.",
+        "ja": "wisdomでは、静かな前進が劇的な始まりに勝る。",
+        "th": "ใน wisdom ความก้าวหน้าที่เงียบสงบดีกว่าการเริ่มต้นที่หวือหวา",
+        "ms": "Dalam wisdom, kemajuan yang tenang mengatasi permulaan yang dramatik."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_198_en",
+          "title": "Quiet Progress",
+          "content": "Big beginnings fade quickly, but steady movement lasts. Keep wisdom quiet and consistent, and it will carry you further.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_198_tr",
+          "title": "Sessiz İlerleme",
+          "content": "Büyük başlangıçlar çabuk söner, ama istikrarlı hareket kalır. bilgelik alanını sakin ve tutarlı tut; seni daha ileri taşır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_198_fr",
+          "title": "Progrès Discret",
+          "content": "Les grands débuts s'estompent vite, mais le mouvement régulier dure. Garde wisdom calme et constant, et il te portera plus loin.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_198_pt",
+          "title": "Progresso Silencioso",
+          "content": "Grandes começos se apagam rápido, mas o movimento constante dura. Mantenha wisdom calmo e consistente, e isso o levará mais longe.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_198_nl",
+          "title": "Stille Vooruitgang",
+          "content": "Grote beginnen vervagen snel, maar gestage beweging blijft. Houd wisdom rustig en consistent, dan brengt het je verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_198_es",
+          "title": "Progreso Silencioso",
+          "content": "Los grandes comienzos se desvanecen rápido, pero el movimiento constante dura. Mantén wisdom tranquilo y constante, y te llevará más lejos.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_198_de",
+          "title": "Stiller Fortschritt",
+          "content": "Große Anfänge verblassen schnell, aber stetige Bewegung bleibt. Halte wisdom ruhig und konsequent, dann trägt es dich weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_198_it",
+          "title": "Progresso Silenzioso",
+          "content": "I grandi inizi svaniscono in fretta, ma il movimento costante dura. Tieni wisdom calmo e costante, e ti porterà più lontano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_198_ru",
+          "title": "Тихий прогресс",
+          "content": "Большие начала быстро угасают, а устойчивое движение остаётся. Держи wisdom спокойным и последовательным — это поведёт тебя дальше.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_198_id",
+          "title": "Kemajuan Tenang",
+          "content": "Awal yang besar cepat memudar, tetapi gerak yang stabil bertahan. Jaga wisdom tetap tenang dan konsisten, dan itu akan membawamu lebih jauh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_198_ja",
+          "title": "静かな前進",
+          "content": "大きな始まりはすぐに薄れるが、着実な動きは続く。wisdomを静かで一貫したものに保てば、もっと先へ運んでくれる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_198_th",
+          "title": "ความก้าวหน้าเงียบๆ",
+          "content": "การเริ่มต้นใหญ่โตจางหายเร็ว แต่การเคลื่อนไหวที่สม่ำเสมอคงอยู่ จัด wisdom ให้สงบและสม่ำเสมอ แล้วมันจะพาคุณไปไกลกว่าเดิม",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_198_ms",
+          "title": "Kemajuan Tenang",
+          "content": "Permulaan yang besar cepat pudar, tetapi pergerakan yang stabil kekal. Kekalkan wisdom tenang dan konsisten, dan ia akan membawa anda lebih jauh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_199",
+      "type": "quote",
+      "texts": {
+        "en": "wisdom thrives when attention is steady and kind.",
+        "tr": "bilgelik alanı, dikkat istikrarlı ve nazik olduğunda gelişir.",
+        "fr": "wisdom prospère quand l'attention est stable et bienveillante.",
+        "pt": "wisdom floresce quando a atenção é estável e gentil.",
+        "nl": "wisdom groeit wanneer aandacht stabiel en vriendelijk is.",
+        "es": "wisdom prospera cuando la atención es estable y amable.",
+        "de": "wisdom gedeiht, wenn die Aufmerksamkeit beständig und freundlich ist.",
+        "it": "wisdom prospera quando l'attenzione è stabile e gentile.",
+        "ru": "wisdom расцветает, когда внимание устойчиво и доброжелательно.",
+        "id": "wisdom berkembang ketika perhatian stabil dan ramah.",
+        "ja": "wisdomは、注意が安定して優しいときに育つ。",
+        "th": "wisdom เติบโตเมื่อความใส่ใจมั่นคงและอ่อนโยน",
+        "ms": "wisdom berkembang apabila perhatian stabil dan baik."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_199_en",
+          "title": "Steady Attention",
+          "content": "Gentle attention creates space for growth without pressure. A steady gaze keeps wisdom healthy.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_199_tr",
+          "title": "İstikrarlı Dikkat",
+          "content": "Nazik dikkat, baskısız bir büyüme alanı açar. İstikrarlı bir bakış bilgelik alanını sağlıklı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_199_fr",
+          "title": "Attention Stable",
+          "content": "Une attention douce crée un espace de croissance sans pression. Un regard stable garde wisdom en bonne santé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_199_pt",
+          "title": "Atenção Estável",
+          "content": "A atenção gentil cria espaço para crescer sem pressão. Um olhar estável mantém wisdom saudável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_199_nl",
+          "title": "Gestage Aandacht",
+          "content": "Zachte aandacht creëert ruimte voor groei zonder druk. Een stabiele blik houdt wisdom gezond.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_199_es",
+          "title": "Atención Estable",
+          "content": "La atención amable crea espacio para crecer sin presión. Una mirada estable mantiene wisdom sano.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_199_de",
+          "title": "Beständige Aufmerksamkeit",
+          "content": "Sanfte Aufmerksamkeit schafft Raum für Wachstum ohne Druck. Ein stetiger Blick hält wisdom gesund.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_199_it",
+          "title": "Attenzione Stabile",
+          "content": "Un'attenzione gentile crea spazio per crescere senza pressione. Uno sguardo stabile mantiene wisdom sano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_199_ru",
+          "title": "Устойчивое внимание",
+          "content": "Мягкое внимание создаёт пространство для роста без давления. Устойчивый взгляд сохраняет wisdom здоровым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_199_id",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian lembut memberi ruang untuk tumbuh tanpa tekanan. Pandangan yang stabil menjaga wisdom tetap sehat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_199_ja",
+          "title": "安定した注意",
+          "content": "優しい注意は、圧力のない成長の余白をつくる。安定した眼差しがwisdomを健やかに保つ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_199_th",
+          "title": "ความใส่ใจที่มั่นคง",
+          "content": "ความใส่ใจอย่างอ่อนโยนสร้างพื้นที่ให้เติบโตโดยไม่กดดัน สายตาที่มั่นคงช่วยให้ wisdom แข็งแรง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_199_ms",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian yang lembut membuka ruang untuk berkembang tanpa tekanan. Pandangan yang stabil menjaga wisdom sihat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_200",
+      "type": "quote",
+      "texts": {
+        "en": "Choose one clear action; wisdom follows.",
+        "tr": "Tek bir net eylem seç; bilgelik onun peşinden gelir.",
+        "fr": "Choisis une action claire ; wisdom suit.",
+        "pt": "Escolha uma ação clara; wisdom acompanha.",
+        "nl": "Kies één duidelijke actie; wisdom volgt.",
+        "es": "Elige una acción clara; wisdom sigue.",
+        "de": "Wähle eine klare Handlung; wisdom folgt.",
+        "it": "Scegli un'azione chiara; wisdom segue.",
+        "ru": "Выбери одно ясное действие — wisdom последует.",
+        "id": "Pilih satu tindakan yang jelas; wisdom akan mengikuti.",
+        "ja": "一つの明確な行動を選べば、wisdomはついてくる。",
+        "th": "เลือกการกระทำที่ชัดเจนหนึ่งอย่าง แล้ว wisdom จะตามมา",
+        "ms": "Pilih satu tindakan yang jelas; wisdom akan mengikut."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_200_en",
+          "title": "One Clear Action",
+          "content": "Clarity turns intention into motion. One clear step gives wisdom direction.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_200_tr",
+          "title": "Tek Net Eylem",
+          "content": "Netlik, niyeti harekete çevirir. Tek bir net adım bilgelike yön verir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_200_fr",
+          "title": "Une Action Claire",
+          "content": "La clarté transforme l'intention en mouvement. Un pas clair donne une direction à wisdom.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_200_pt",
+          "title": "Uma Ação Clara",
+          "content": "A clareza transforma intenção em movimento. Um passo claro dá direção a wisdom.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_200_nl",
+          "title": "Eén Duidelijke Actie",
+          "content": "Helderheid zet intentie om in beweging. Eén duidelijke stap geeft wisdom richting.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_200_es",
+          "title": "Una Acción Clara",
+          "content": "La claridad convierte la intención en movimiento. Un paso claro da dirección a wisdom.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_200_de",
+          "title": "Eine Klare Handlung",
+          "content": "Klarheit verwandelt Absicht in Bewegung. Ein klarer Schritt gibt wisdom Richtung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_200_it",
+          "title": "Un'Azione Chiara",
+          "content": "La chiarezza trasforma l'intenzione in movimento. Un passo chiaro dà direzione a wisdom.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_200_ru",
+          "title": "Одно ясное действие",
+          "content": "Ясность превращает намерение в движение. Один ясный шаг задаёт направление wisdom.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_200_id",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan mengubah niat menjadi gerak. Satu langkah jelas memberi arah pada wisdom.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_200_ja",
+          "title": "一つの明確な行動",
+          "content": "明確さは意図を動きに変える。明確な一歩がwisdomに方向を与える。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_200_th",
+          "title": "การกระทำที่ชัดเจนหนึ่งอย่าง",
+          "content": "ความชัดเจนเปลี่ยนเจตนาให้เป็นการเคลื่อนไหว ก้าวที่ชัดเจนหนึ่งก้าวให้ทิศทางกับ wisdom",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_200_ms",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan menukar niat menjadi gerak. Satu langkah yang jelas memberi arah kepada wisdom.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_201",
+      "type": "quote",
+      "texts": {
+        "en": "When wisdom feels heavy, return to the next small step.",
+        "tr": "bilgelik ağır geldiğinde bir sonraki küçük adıma dön.",
+        "fr": "Quand wisdom semble lourd, reviens au prochain petit pas.",
+        "pt": "Quando wisdom parecer pesado, volte ao próximo pequeno passo.",
+        "nl": "Als wisdom zwaar voelt, keer terug naar de volgende kleine stap.",
+        "es": "Cuando wisdom se sienta pesado, vuelve al siguiente pequeño paso.",
+        "de": "Wenn wisdom schwer wirkt, kehre zum nächsten kleinen Schritt zurück.",
+        "it": "Quando wisdom sembra pesante, torna al prossimo piccolo passo.",
+        "ru": "Когда wisdom кажется тяжёлым, вернись к следующему маленькому шагу.",
+        "id": "Saat wisdom terasa berat, kembali ke langkah kecil berikutnya.",
+        "ja": "wisdomが重く感じたら、次の小さな一歩に戻る。",
+        "th": "เมื่อ wisdom รู้สึกหนัก ให้กลับไปที่ก้าวเล็กๆ ต่อไป",
+        "ms": "Apabila wisdom terasa berat, kembali kepada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Contemporary reflection",
+        "tr": "Çağdaş bir düşünce",
+        "fr": "Réflexion contemporaine",
+        "pt": "Reflexão contemporânea",
+        "nl": "Hedendaagse reflectie",
+        "es": "Reflexión contemporánea",
+        "de": "Zeitgenössische Reflexion",
+        "it": "Riflessione contemporanea",
+        "ru": "Современная рефлексия",
+        "id": "Refleksi kontemporer",
+        "ja": "現代の内省",
+        "th": "การสะท้อนร่วมสมัย",
+        "ms": "Refleksi kontemporari"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_201_en",
+          "title": "Next Small Step",
+          "content": "Small steps reduce the weight of a big goal. They make wisdom feel possible again.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_201_tr",
+          "title": "Sonraki Küçük Adım",
+          "content": "Küçük adımlar büyük bir hedefin ağırlığını azaltır. bilgeliki yeniden mümkün hissettirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_201_fr",
+          "title": "Le Prochain Petit Pas",
+          "content": "Les petits pas réduisent le poids d'un grand objectif. Ils rendent wisdom à nouveau possible.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_201_pt",
+          "title": "O Próximo Pequeno Passo",
+          "content": "Pequenos passos reduzem o peso de um grande objetivo. Eles fazem wisdom parecer possível novamente.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_201_nl",
+          "title": "De Volgende Kleine Stap",
+          "content": "Kleine stappen verminderen het gewicht van een groot doel. Ze maken wisdom weer mogelijk.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_201_es",
+          "title": "El Siguiente Pequeño Paso",
+          "content": "Los pequeños pasos reducen el peso de un gran objetivo. Hacen que wisdom vuelva a sentirse posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_201_de",
+          "title": "Der Nächste Kleine Schritt",
+          "content": "Kleine Schritte verringern das Gewicht eines großen Ziels. Sie machen wisdom wieder möglich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_201_it",
+          "title": "Il Prossimo Piccolo Passo",
+          "content": "I piccoli passi riducono il peso di un grande obiettivo. Rendono wisdom possibile di nuovo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_201_ru",
+          "title": "Следующий маленький шаг",
+          "content": "Маленькие шаги уменьшают тяжесть большой цели. Они снова делают wisdom возможным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_201_id",
+          "title": "Langkah Kecil Berikutnya",
+          "content": "Langkah kecil mengurangi beban tujuan besar. Mereka membuat wisdom terasa mungkin kembali.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_201_ja",
+          "title": "次の小さな一歩",
+          "content": "小さな一歩は大きな目標の重さを減らす。wisdomを再び可能に感じさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_201_th",
+          "title": "ก้าวเล็กๆ ถัดไป",
+          "content": "ก้าวเล็กๆ ลดน้ำหนักของเป้าหมายใหญ่ ทำให้ wisdom รู้สึกเป็นไปได้อีกครั้ง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_201_ms",
+          "title": "Langkah Kecil Seterusnya",
+          "content": "Langkah kecil mengurangkan beban matlamat besar. Ia membuat wisdom terasa mungkin semula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_202",
+      "type": "quote",
+      "texts": {
+        "en": "wisdom becomes reliable when you keep gentle promises to yourself.",
+        "tr": "bilgelik, kendine verdiğin nazik sözleri tuttuğunda güvenilir olur.",
+        "fr": "wisdom devient fiable quand tu tiens de douces promesses envers toi-même.",
+        "pt": "wisdom torna-se confiável quando você cumpre promessas gentis a si mesmo.",
+        "nl": "wisdom wordt betrouwbaar wanneer je zachte beloften aan jezelf nakomt.",
+        "es": "wisdom se vuelve confiable cuando cumples promesas amables contigo.",
+        "de": "wisdom wird verlässlich, wenn du sanfte Versprechen dir selbst gegenüber einhältst.",
+        "it": "wisdom diventa affidabile quando mantieni promesse gentili a te stesso.",
+        "ru": "wisdom становится надёжным, когда ты сдерживаешь мягкие обещания самому себе.",
+        "id": "wisdom menjadi dapat diandalkan ketika kamu menepati janji lembut pada diri sendiri.",
+        "ja": "wisdomは、自分への優しい約束を守ると信頼できるものになる。",
+        "th": "wisdom จะมั่นคงเมื่อคุณรักษาสัญญาอ่อนโยนกับตัวเอง",
+        "ms": "wisdom menjadi boleh dipercayai apabila anda menunaikan janji lembut kepada diri sendiri."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_202_en",
+          "title": "Gentle Promises",
+          "content": "Consistent self-trust builds results. Each kept promise strengthens wisdom.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_202_tr",
+          "title": "Nazik Sözler",
+          "content": "Tutarlı öz güven sonuç üretir. Tutulan her söz bilgeliki güçlendirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_202_fr",
+          "title": "Promesses Douces",
+          "content": "La confiance en soi constante construit des résultats. Chaque promesse tenue renforce wisdom.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_202_pt",
+          "title": "Promessas Gentis",
+          "content": "A autoconfiança consistente constrói resultados. Cada promessa cumprida fortalece wisdom.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_202_nl",
+          "title": "Zachte Beloftes",
+          "content": "Consistent zelfvertrouwen bouwt resultaten op. Elke nagekomen belofte versterkt wisdom.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_202_es",
+          "title": "Promesas Amables",
+          "content": "La confianza constante en uno mismo construye resultados. Cada promesa cumplida fortalece wisdom.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_202_de",
+          "title": "Sanfte Versprechen",
+          "content": "Konsequentes Selbstvertrauen baut Ergebnisse auf. Jedes gehaltene Versprechen stärkt wisdom.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_202_it",
+          "title": "Promesse Gentili",
+          "content": "La fiducia in sé costante costruisce risultati. Ogni promessa mantenuta rafforza wisdom.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_202_ru",
+          "title": "Мягкие обещания",
+          "content": "Последовательное доверие к себе приносит результаты. Каждое выполненное обещание укрепляет wisdom.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_202_id",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membangun hasil. Setiap janji yang ditepati memperkuat wisdom.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_202_ja",
+          "title": "優しい約束",
+          "content": "一貫した自己信頼が結果を築く。守れた約束がwisdomを強くする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_202_th",
+          "title": "สัญญาอ่อนโยน",
+          "content": "ความเชื่อมั่นในตัวเองอย่างสม่ำเสมอสร้างผลลัพธ์ ทุกสัญญาที่รักษาไว้เสริมให้ wisdom แข็งแรงขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_202_ms",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membina hasil. Setiap janji yang ditepati menguatkan wisdom.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_203",
+      "type": "quote",
+      "texts": {
+        "en": "Let wisdom be shaped by values, not pressure.",
+        "tr": "bilgelikin, baskıyla değil değerlerle şekillensin.",
+        "fr": "Que wisdom soit façonné par les valeurs, pas par la pression.",
+        "pt": "Deixe wisdom ser moldado por valores, não por pressão.",
+        "nl": "Laat wisdom gevormd worden door waarden, niet door druk.",
+        "es": "Que wisdom se moldee por valores, no por presión.",
+        "de": "Lass wisdom von Werten geformt werden, nicht von Druck.",
+        "it": "Lascia che wisdom sia plasmato dai valori, non dalla pressione.",
+        "ru": "Пусть wisdom формируют ценности, а не давление.",
+        "id": "Biarkan wisdom dibentuk oleh nilai, bukan tekanan.",
+        "ja": "wisdomは圧力ではなく価値観によって形づくられる。",
+        "th": "ให้ wisdom ถูกหล่อหลอมด้วยคุณค่า ไม่ใช่แรงกดดัน",
+        "ms": "Biarkan wisdom dibentuk oleh nilai, bukan tekanan."
+      },
+      "authors": {
+        "en": "Modern proverb",
+        "tr": "Modern atasözü",
+        "fr": "Proverbe moderne",
+        "pt": "Provérbio moderno",
+        "nl": "Moderne spreuk",
+        "es": "Proverbio moderno",
+        "de": "Modernes Sprichwort",
+        "it": "Proverbio moderno",
+        "ru": "Современная пословица",
+        "id": "Peribahasa modern",
+        "ja": "現代のことわざ",
+        "th": "สุภาษิตสมัยใหม่",
+        "ms": "Peribahasa moden"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_203_en",
+          "title": "Values First",
+          "content": "Pressure is loud; values are clear. When values lead, wisdom stays aligned.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_203_tr",
+          "title": "Önce Değerler",
+          "content": "Baskı gürültülüdür; değerler nettir. Değerler önde olduğunda bilgelik uyumlu kalır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_203_fr",
+          "title": "Les Valeurs D'Abord",
+          "content": "La pression est bruyante ; les valeurs sont claires. Quand les valeurs guident, wisdom reste aligné.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_203_pt",
+          "title": "Valores Primeiro",
+          "content": "A pressão é barulhenta; os valores são claros. Quando os valores lideram, wisdom permanece alinhado.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_203_nl",
+          "title": "Waarden Eerst",
+          "content": "Druk is luid; waarden zijn helder. Wanneer waarden leiden, blijft wisdom in lijn.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_203_es",
+          "title": "Valores Primero",
+          "content": "La presión es ruidosa; los valores son claros. Cuando los valores guían, wisdom se mantiene alineado.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_203_de",
+          "title": "Werte Zuerst",
+          "content": "Druck ist laut; Werte sind klar. Wenn Werte führen, bleibt wisdom ausgerichtet.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_203_it",
+          "title": "Valori Prima",
+          "content": "La pressione è rumorosa; i valori sono chiari. Quando i valori guidano, wisdom resta allineato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_203_ru",
+          "title": "Сначала ценности",
+          "content": "Давление шумно; ценности ясны. Когда ценности ведут, wisdom остаётся в согласии.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_203_id",
+          "title": "Nilai Utama",
+          "content": "Tekanan itu bising; nilai itu jelas. Saat nilai memimpin, wisdom tetap selaras.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_203_ja",
+          "title": "価値観を先に",
+          "content": "圧力は騒がしく、価値観は明確だ。価値観が導くとwisdomは整ったままになる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_203_th",
+          "title": "คุณค่ามาก่อน",
+          "content": "แรงกดดันเสียงดัง แต่คุณค่าชัดเจน เมื่อคุณค่านำทาง wisdom จะอยู่ในแนวเดียวกัน",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_203_ms",
+          "title": "Nilai Diutamakan",
+          "content": "Tekanan bising; nilai jelas. Apabila nilai memimpin, wisdom kekal selaras.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_204",
+      "type": "quote",
+      "texts": {
+        "en": "A calm rhythm keeps wisdom moving.",
+        "tr": "Sakin bir ritim bilgeliki ilerletir.",
+        "fr": "Un rythme calme fait avancer wisdom.",
+        "pt": "Um ritmo calmo mantém wisdom em movimento.",
+        "nl": "Een rustig ritme houdt wisdom in beweging.",
+        "es": "Un ritmo calmado mantiene wisdom en movimiento.",
+        "de": "Ein ruhiger Rhythmus hält wisdom in Bewegung.",
+        "it": "Un ritmo calmo mantiene wisdom in movimento.",
+        "ru": "Спокойный ритм поддерживает движение в wisdom.",
+        "id": "Ritme yang tenang menjaga wisdom tetap bergerak.",
+        "ja": "穏やかなリズムがwisdomを動かし続ける。",
+        "th": "จังหวะที่สงบทำให้ wisdom เดินหน้าต่อ",
+        "ms": "Rentak yang tenang mengekalkan wisdom bergerak."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_204_en",
+          "title": "Calm Rhythm",
+          "content": "Rhythm beats intensity over time. Calm repetition keeps wisdom alive.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_204_tr",
+          "title": "Sakin Ritim",
+          "content": "Zamanla ritim, yoğunluğu yener. Sakin tekrar bilgeliki canlı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_204_fr",
+          "title": "Rythme Calme",
+          "content": "Avec le temps, le rythme l'emporte sur l'intensité. La répétition calme garde wisdom vivant.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_204_pt",
+          "title": "Ritmo Calmo",
+          "content": "Com o tempo, o ritmo vence a intensidade. A repetição calma mantém wisdom vivo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_204_nl",
+          "title": "Rustig Ritme",
+          "content": "Op termijn wint ritme van intensiteit. Kalme herhaling houdt wisdom levend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_204_es",
+          "title": "Ritmo Calmado",
+          "content": "Con el tiempo, el ritmo supera la intensidad. La repetición calmada mantiene wisdom vivo.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_204_de",
+          "title": "Ruhiger Rhythmus",
+          "content": "Mit der Zeit schlägt Rhythmus die Intensität. Ruhige Wiederholung hält wisdom lebendig.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_204_it",
+          "title": "Ritmo Calmo",
+          "content": "Con il tempo, il ritmo supera l'intensità. La ripetizione calma mantiene wisdom vivo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_204_ru",
+          "title": "Спокойный ритм",
+          "content": "Со временем ритм побеждает интенсивность. Спокойное повторение поддерживает wisdom живым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_204_id",
+          "title": "Ritme Tenang",
+          "content": "Seiring waktu, ritme mengalahkan intensitas. Pengulangan yang tenang menjaga wisdom tetap hidup.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_204_ja",
+          "title": "穏やかなリズム",
+          "content": "時間が経つほど、強度よりリズムが勝る。穏やかな反復がwisdomを生かす。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_204_th",
+          "title": "จังหวะที่สงบ",
+          "content": "เมื่อเวลาผ่านไป จังหวะชนะความเข้มข้น การทำซ้ำอย่างสงบทำให้ wisdom มีชีวิต",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_204_ms",
+          "title": "Rentak Tenang",
+          "content": "Dari masa ke masa, rentak mengatasi intensiti. Ulangan yang tenang mengekalkan wisdom hidup.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_205",
+      "type": "quote",
+      "texts": {
+        "en": "In wisdom, patience turns effort into skill.",
+        "tr": "bilgelik alanında sabır, çabayı beceriye dönüştürür.",
+        "fr": "En wisdom, la patience transforme l'effort en compétence.",
+        "pt": "Em wisdom, a paciência transforma esforço em habilidade.",
+        "nl": "In wisdom verandert geduld inspanning in vaardigheid.",
+        "es": "En wisdom, la paciencia convierte el esfuerzo en habilidad.",
+        "de": "In wisdom verwandelt Geduld Mühe in Können.",
+        "it": "In wisdom, la pazienza trasforma lo sforzo in abilità.",
+        "ru": "В wisdom терпение превращает усилия в мастерство.",
+        "id": "Dalam wisdom, kesabaran mengubah usaha menjadi keterampilan.",
+        "ja": "wisdomでは、忍耐が努力を技に変える。",
+        "th": "ใน wisdom ความอดทนเปลี่ยนความพยายามให้เป็นทักษะ",
+        "ms": "Dalam wisdom, kesabaran menukar usaha menjadi kemahiran."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_205_en",
+          "title": "Patience Becomes Skill",
+          "content": "Skill grows slowly and surely. Give wisdom time, and it will become natural.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_205_tr",
+          "title": "Sabır Beceridir",
+          "content": "Beceri yavaş ama sağlam büyür. bilgelike zaman ver, doğal hale gelir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_205_fr",
+          "title": "La Patience Devient Compétence",
+          "content": "La compétence grandit lentement et sûrement. Donne du temps à wisdom, et cela deviendra naturel.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_205_pt",
+          "title": "Paciência Vira Habilidade",
+          "content": "A habilidade cresce lenta e seguramente. Dê tempo a wisdom, e ela se tornará natural.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_205_nl",
+          "title": "Geduld Wordt Vaardigheid",
+          "content": "Vaardigheid groeit langzaam en zeker. Geef wisdom tijd, en het wordt vanzelfsprekend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_205_es",
+          "title": "La Paciencia se Vuelve Habilidad",
+          "content": "La habilidad crece lenta y seguramente. Dale tiempo a wisdom, y se volverá natural.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_205_de",
+          "title": "Geduld Wird Können",
+          "content": "Können wächst langsam und sicher. Gib wisdom Zeit, dann wird es natürlich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_205_it",
+          "title": "La Pazienza Diventa Abilità",
+          "content": "L'abilità cresce lentamente e con sicurezza. Dai tempo a wisdom, e diventerà naturale.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_205_ru",
+          "title": "Терпение превращается в навык",
+          "content": "Навык растёт медленно и уверенно. Дай wisdom время, и оно станет естественным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_205_id",
+          "title": "Kesabaran Menjadi Keterampilan",
+          "content": "Keterampilan tumbuh perlahan namun pasti. Beri wisdom waktu, dan itu akan terasa alami.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_205_ja",
+          "title": "忍耐が技になる",
+          "content": "スキルはゆっくり確実に育つ。wisdomに時間を与えれば自然になる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_205_th",
+          "title": "ความอดทนกลายเป็นทักษะ",
+          "content": "ทักษะเติบโตอย่างช้าๆ แต่มั่นคง ให้เวลา wisdom แล้วมันจะเป็นธรรมชาติ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_205_ms",
+          "title": "Kesabaran Menjadi Kemahiran",
+          "content": "Kemahiran berkembang perlahan tetapi pasti. Beri wisdom masa, dan ia akan menjadi semula jadi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_206",
+      "type": "quote",
+      "texts": {
+        "en": "Simplicity makes wisdom sustainable.",
+        "tr": "Sadelik bilgeliki sürdürülebilir kılar.",
+        "fr": "La simplicité rend wisdom durable.",
+        "pt": "A simplicidade torna wisdom sustentável.",
+        "nl": "Eenvoud maakt wisdom duurzaam.",
+        "es": "La simplicidad hace que wisdom sea sostenible.",
+        "de": "Einfachheit macht wisdom nachhaltig.",
+        "it": "La semplicità rende wisdom sostenibile.",
+        "ru": "Простота делает wisdom устойчивым.",
+        "id": "Kesederhanaan membuat wisdom berkelanjutan.",
+        "ja": "シンプルさがwisdomを持続可能にする。",
+        "th": "ความเรียบง่ายทำให้ wisdom ยั่งยืน",
+        "ms": "Kesederhanaan menjadikan wisdom mampan."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_206_en",
+          "title": "Sustainable Simplicity",
+          "content": "When the plan is simple, it can be repeated. That repetition keeps wisdom going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_206_tr",
+          "title": "Sürdürülebilir Sadelik",
+          "content": "Plan sade olduğunda tekrar edilebilir. Bu tekrar bilgeliki sürdürür.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_206_fr",
+          "title": "Simplicité Durable",
+          "content": "Quand le plan est simple, il peut être répété. Cette répétition fait avancer wisdom.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_206_pt",
+          "title": "Simplicidade Sustentável",
+          "content": "Quando o plano é simples, ele pode ser repetido. Essa repetição mantém wisdom em andamento.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_206_nl",
+          "title": "Duurzame Eenvoud",
+          "content": "Als het plan eenvoudig is, kan het worden herhaald. Die herhaling houdt wisdom gaande.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_206_es",
+          "title": "Simplicidad Sostenible",
+          "content": "Cuando el plan es simple, se puede repetir. Esa repetición mantiene wisdom en marcha.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_206_de",
+          "title": "Nachhaltige Einfachheit",
+          "content": "Wenn der Plan einfach ist, kann er wiederholt werden. Diese Wiederholung hält wisdom am Laufen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_206_it",
+          "title": "Semplicità Sostenibile",
+          "content": "Quando il piano è semplice, può essere ripetuto. Questa ripetizione mantiene wisdom in movimento.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_206_ru",
+          "title": "Устойчивая простота",
+          "content": "Когда план прост, его можно повторять. Это повторение поддерживает wisdom.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_206_id",
+          "title": "Kesederhanaan Berkelanjutan",
+          "content": "Ketika rencana sederhana, ia bisa diulang. Pengulangan itu menjaga wisdom tetap berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_206_ja",
+          "title": "続くシンプルさ",
+          "content": "計画がシンプルなら繰り返せる。その反復がwisdomを続けさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_206_th",
+          "title": "ความเรียบง่ายที่ยั่งยืน",
+          "content": "เมื่อแผนเรียบง่าย ก็ทำซ้ำได้ การทำซ้ำนี้ทำให้ wisdom เดินต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_206_ms",
+          "title": "Kesederhanaan Mampan",
+          "content": "Apabila pelan ringkas, ia boleh diulang. Ulangan itu mengekalkan wisdom berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "wisdom_207",
+      "type": "quote",
+      "texts": {
+        "en": "End the day knowing wisdom moved forward, even a little.",
+        "tr": "Günü bilgelikin biraz da olsa ilerlediğini bilerek bitir.",
+        "fr": "Termine la journée en sachant que wisdom a avancé, même un peu.",
+        "pt": "Termine o dia sabendo que wisdom avançou, ainda que um pouco.",
+        "nl": "Sluit de dag af wetend dat wisdom vooruitging, al was het maar een beetje.",
+        "es": "Termina el día sabiendo que wisdom avanzó, aunque sea un poco.",
+        "de": "Beende den Tag in dem Wissen, dass wisdom vorangekommen ist, auch wenn es nur ein wenig war.",
+        "it": "Concludi la giornata sapendo che wisdom è avanzato, anche solo un poco.",
+        "ru": "Заверши день, зная, что wisdom продвинулся, пусть даже немного.",
+        "id": "Akhiri hari dengan tahu wisdom maju, meski sedikit.",
+        "ja": "一日を、wisdomが少しでも前に進んだと感じて終える。",
+        "th": "จบวันด้วยการรู้ว่า wisdom เดินหน้าไปแล้ว แม้เพียงเล็กน้อย",
+        "ms": "Akhiri hari dengan mengetahui wisdom bergerak maju, walaupun sedikit."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "wisdom",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "wisdom",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wisdom",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "wisdom",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wisdom",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "wisdom",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "wisdom",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "wisdom",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "wisdom",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "wisdom",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_wisdom_207_en",
+          "title": "Forward, Even a Little",
+          "content": "Small progress still counts. Acknowledging wisdom today makes tomorrow easier to begin.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_wisdom_207_tr",
+          "title": "Biraz da Olsa İleri",
+          "content": "Küçük ilerleme de önemlidir. bilgeliki bugün fark etmek yarına başlamayı kolaylaştırır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_wisdom_207_fr",
+          "title": "En Avant, Même Un Peu",
+          "content": "Le petit progrès compte aussi. Reconnaître wisdom aujourd'hui rend demain plus facile à commencer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_wisdom_207_pt",
+          "title": "Avançar, Mesmo que Pouco",
+          "content": "O pequeno progresso também conta. Reconhecer wisdom hoje torna amanhã mais fácil de começar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_wisdom_207_nl",
+          "title": "Vooruit, Al is het een beetje",
+          "content": "Kleine vooruitgang telt ook. wisdom vandaag erkennen maakt morgen makkelijker om te beginnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_wisdom_207_es",
+          "title": "Avanzar, aunque sea un poco",
+          "content": "El pequeño progreso también cuenta. Reconocer wisdom hoy hace que mañana sea más fácil de empezar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_wisdom_207_de",
+          "title": "Vorwärts, auch ein wenig",
+          "content": "Kleiner Fortschritt zählt auch. wisdom heute anzuerkennen macht es morgen leichter anzufangen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_wisdom_207_it",
+          "title": "Avanti, anche solo un po'",
+          "content": "Anche il piccolo progresso conta. Riconoscere wisdom oggi rende domani più facile iniziare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_wisdom_207_ru",
+          "title": "Вперёд, хоть немного",
+          "content": "Небольшой прогресс тоже важен. Признание wisdom сегодня облегчает начало завтра.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_wisdom_207_id",
+          "title": "Maju, Walau Sedikit",
+          "content": "Kemajuan kecil tetap berarti. Mengakui wisdom hari ini membuat besok lebih mudah dimulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_wisdom_207_ja",
+          "title": "少しでも前へ",
+          "content": "小さな進歩でも十分価値がある。今日wisdomを認めることが、明日始めやすくする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_wisdom_207_th",
+          "title": "ก้าวไปข้างหน้า แม้เพียงเล็กน้อย",
+          "content": "ความก้าวหน้าเล็กๆ ก็มีความหมาย การยอมรับ wisdom ในวันนี้ทำให้เริ่มพรุ่งนี้ได้ง่ายขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_wisdom_207_ms",
+          "title": "Maju, Walaupun Sedikit",
+          "content": "Kemajuan kecil tetap bermakna. Mengakui wisdom hari ini menjadikan esok lebih mudah dimulakan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

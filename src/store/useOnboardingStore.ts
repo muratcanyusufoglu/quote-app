@@ -102,6 +102,7 @@ const useOnboardingStore = create<OnboardingStore>()(
             end: "18:00",
           },
           userName: "", // Default empty, will be filled from answers
+          contentType: "both", // Default: show both quotes and affirmations
         };
 
         // Process each answer to build preferences
@@ -167,6 +168,21 @@ const useOnboardingStore = create<OnboardingStore>()(
                   answer.value as SupportedLanguage[];
                 preferences.language =
                   (answer.value[0] as SupportedLanguage) || systemLanguage;
+              }
+              break;
+
+            case "content_type":
+              if (Array.isArray(answer.value)) {
+                const selected = answer.value as string[];
+                const hasQuotes = selected.includes("quotes");
+                const hasAffirmations = selected.includes("affirmations");
+                if (hasQuotes && hasAffirmations) {
+                  preferences.contentType = "both";
+                } else if (hasAffirmations) {
+                  preferences.contentType = "affirmations";
+                } else {
+                  preferences.contentType = "quotes";
+                }
               }
               break;
 

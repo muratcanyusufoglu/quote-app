@@ -20052,6 +20052,1836 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "balance_232",
+      "type": "quote",
+      "texts": {
+        "en": "In balance, quiet progress beats dramatic starts.",
+        "tr": "denge alanında sessiz ilerleme, gösterişli başlangıçlardan daha iyidir.",
+        "fr": "En balance, le progrès discret vaut mieux que les débuts spectaculaires.",
+        "pt": "Em balance, o progresso silencioso supera começos dramáticos.",
+        "nl": "In balance overtreft stille vooruitgang dramatische starts.",
+        "es": "En balance, el progreso silencioso supera los comienzos dramáticos.",
+        "de": "In balance schlägt ruhiger Fortschritt dramatische Anfänge.",
+        "it": "In balance, il progresso silenzioso supera gli inizi drammatici.",
+        "ru": "В balance тихий прогресс лучше громких стартов.",
+        "id": "Dalam balance, kemajuan yang tenang mengalahkan awal yang dramatis.",
+        "ja": "balanceでは、静かな前進が劇的な始まりに勝る。",
+        "th": "ใน balance ความก้าวหน้าที่เงียบสงบดีกว่าการเริ่มต้นที่หวือหวา",
+        "ms": "Dalam balance, kemajuan yang tenang mengatasi permulaan yang dramatik."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_232_en",
+          "title": "Quiet Progress",
+          "content": "Big beginnings fade quickly, but steady movement lasts. Keep balance quiet and consistent, and it will carry you further.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_232_tr",
+          "title": "Sessiz İlerleme",
+          "content": "Büyük başlangıçlar çabuk söner, ama istikrarlı hareket kalır. denge alanını sakin ve tutarlı tut; seni daha ileri taşır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_232_fr",
+          "title": "Progrès Discret",
+          "content": "Les grands débuts s'estompent vite, mais le mouvement régulier dure. Garde balance calme et constant, et il te portera plus loin.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_232_pt",
+          "title": "Progresso Silencioso",
+          "content": "Grandes começos se apagam rápido, mas o movimento constante dura. Mantenha balance calmo e consistente, e isso o levará mais longe.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_232_nl",
+          "title": "Stille Vooruitgang",
+          "content": "Grote beginnen vervagen snel, maar gestage beweging blijft. Houd balance rustig en consistent, dan brengt het je verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_232_es",
+          "title": "Progreso Silencioso",
+          "content": "Los grandes comienzos se desvanecen rápido, pero el movimiento constante dura. Mantén balance tranquilo y constante, y te llevará más lejos.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_232_de",
+          "title": "Stiller Fortschritt",
+          "content": "Große Anfänge verblassen schnell, aber stetige Bewegung bleibt. Halte balance ruhig und konsequent, dann trägt es dich weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_232_it",
+          "title": "Progresso Silenzioso",
+          "content": "I grandi inizi svaniscono in fretta, ma il movimento costante dura. Tieni balance calmo e costante, e ti porterà più lontano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_232_ru",
+          "title": "Тихий прогресс",
+          "content": "Большие начала быстро угасают, а устойчивое движение остаётся. Держи balance спокойным и последовательным — это поведёт тебя дальше.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_232_id",
+          "title": "Kemajuan Tenang",
+          "content": "Awal yang besar cepat memudar, tetapi gerak yang stabil bertahan. Jaga balance tetap tenang dan konsisten, dan itu akan membawamu lebih jauh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_232_ja",
+          "title": "静かな前進",
+          "content": "大きな始まりはすぐに薄れるが、着実な動きは続く。balanceを静かで一貫したものに保てば、もっと先へ運んでくれる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_232_th",
+          "title": "ความก้าวหน้าเงียบๆ",
+          "content": "การเริ่มต้นใหญ่โตจางหายเร็ว แต่การเคลื่อนไหวที่สม่ำเสมอคงอยู่ จัด balance ให้สงบและสม่ำเสมอ แล้วมันจะพาคุณไปไกลกว่าเดิม",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_232_ms",
+          "title": "Kemajuan Tenang",
+          "content": "Permulaan yang besar cepat pudar, tetapi pergerakan yang stabil kekal. Kekalkan balance tenang dan konsisten, dan ia akan membawa anda lebih jauh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_233",
+      "type": "quote",
+      "texts": {
+        "en": "balance thrives when attention is steady and kind.",
+        "tr": "denge alanı, dikkat istikrarlı ve nazik olduğunda gelişir.",
+        "fr": "balance prospère quand l'attention est stable et bienveillante.",
+        "pt": "balance floresce quando a atenção é estável e gentil.",
+        "nl": "balance groeit wanneer aandacht stabiel en vriendelijk is.",
+        "es": "balance prospera cuando la atención es estable y amable.",
+        "de": "balance gedeiht, wenn die Aufmerksamkeit beständig und freundlich ist.",
+        "it": "balance prospera quando l'attenzione è stabile e gentile.",
+        "ru": "balance расцветает, когда внимание устойчиво и доброжелательно.",
+        "id": "balance berkembang ketika perhatian stabil dan ramah.",
+        "ja": "balanceは、注意が安定して優しいときに育つ。",
+        "th": "balance เติบโตเมื่อความใส่ใจมั่นคงและอ่อนโยน",
+        "ms": "balance berkembang apabila perhatian stabil dan baik."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_233_en",
+          "title": "Steady Attention",
+          "content": "Gentle attention creates space for growth without pressure. A steady gaze keeps balance healthy.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_233_tr",
+          "title": "İstikrarlı Dikkat",
+          "content": "Nazik dikkat, baskısız bir büyüme alanı açar. İstikrarlı bir bakış denge alanını sağlıklı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_233_fr",
+          "title": "Attention Stable",
+          "content": "Une attention douce crée un espace de croissance sans pression. Un regard stable garde balance en bonne santé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_233_pt",
+          "title": "Atenção Estável",
+          "content": "A atenção gentil cria espaço para crescer sem pressão. Um olhar estável mantém balance saudável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_233_nl",
+          "title": "Gestage Aandacht",
+          "content": "Zachte aandacht creëert ruimte voor groei zonder druk. Een stabiele blik houdt balance gezond.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_233_es",
+          "title": "Atención Estable",
+          "content": "La atención amable crea espacio para crecer sin presión. Una mirada estable mantiene balance sano.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_233_de",
+          "title": "Beständige Aufmerksamkeit",
+          "content": "Sanfte Aufmerksamkeit schafft Raum für Wachstum ohne Druck. Ein stetiger Blick hält balance gesund.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_233_it",
+          "title": "Attenzione Stabile",
+          "content": "Un'attenzione gentile crea spazio per crescere senza pressione. Uno sguardo stabile mantiene balance sano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_233_ru",
+          "title": "Устойчивое внимание",
+          "content": "Мягкое внимание создаёт пространство для роста без давления. Устойчивый взгляд сохраняет balance здоровым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_233_id",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian lembut memberi ruang untuk tumbuh tanpa tekanan. Pandangan yang stabil menjaga balance tetap sehat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_233_ja",
+          "title": "安定した注意",
+          "content": "優しい注意は、圧力のない成長の余白をつくる。安定した眼差しがbalanceを健やかに保つ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_233_th",
+          "title": "ความใส่ใจที่มั่นคง",
+          "content": "ความใส่ใจอย่างอ่อนโยนสร้างพื้นที่ให้เติบโตโดยไม่กดดัน สายตาที่มั่นคงช่วยให้ balance แข็งแรง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_233_ms",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian yang lembut membuka ruang untuk berkembang tanpa tekanan. Pandangan yang stabil menjaga balance sihat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_234",
+      "type": "quote",
+      "texts": {
+        "en": "Choose one clear action; balance follows.",
+        "tr": "Tek bir net eylem seç; denge onun peşinden gelir.",
+        "fr": "Choisis une action claire ; balance suit.",
+        "pt": "Escolha uma ação clara; balance acompanha.",
+        "nl": "Kies één duidelijke actie; balance volgt.",
+        "es": "Elige una acción clara; balance sigue.",
+        "de": "Wähle eine klare Handlung; balance folgt.",
+        "it": "Scegli un'azione chiara; balance segue.",
+        "ru": "Выбери одно ясное действие — balance последует.",
+        "id": "Pilih satu tindakan yang jelas; balance akan mengikuti.",
+        "ja": "一つの明確な行動を選べば、balanceはついてくる。",
+        "th": "เลือกการกระทำที่ชัดเจนหนึ่งอย่าง แล้ว balance จะตามมา",
+        "ms": "Pilih satu tindakan yang jelas; balance akan mengikut."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_234_en",
+          "title": "One Clear Action",
+          "content": "Clarity turns intention into motion. One clear step gives balance direction.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_234_tr",
+          "title": "Tek Net Eylem",
+          "content": "Netlik, niyeti harekete çevirir. Tek bir net adım dengee yön verir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_234_fr",
+          "title": "Une Action Claire",
+          "content": "La clarté transforme l'intention en mouvement. Un pas clair donne une direction à balance.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_234_pt",
+          "title": "Uma Ação Clara",
+          "content": "A clareza transforma intenção em movimento. Um passo claro dá direção a balance.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_234_nl",
+          "title": "Eén Duidelijke Actie",
+          "content": "Helderheid zet intentie om in beweging. Eén duidelijke stap geeft balance richting.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_234_es",
+          "title": "Una Acción Clara",
+          "content": "La claridad convierte la intención en movimiento. Un paso claro da dirección a balance.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_234_de",
+          "title": "Eine Klare Handlung",
+          "content": "Klarheit verwandelt Absicht in Bewegung. Ein klarer Schritt gibt balance Richtung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_234_it",
+          "title": "Un'Azione Chiara",
+          "content": "La chiarezza trasforma l'intenzione in movimento. Un passo chiaro dà direzione a balance.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_234_ru",
+          "title": "Одно ясное действие",
+          "content": "Ясность превращает намерение в движение. Один ясный шаг задаёт направление balance.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_234_id",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan mengubah niat menjadi gerak. Satu langkah jelas memberi arah pada balance.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_234_ja",
+          "title": "一つの明確な行動",
+          "content": "明確さは意図を動きに変える。明確な一歩がbalanceに方向を与える。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_234_th",
+          "title": "การกระทำที่ชัดเจนหนึ่งอย่าง",
+          "content": "ความชัดเจนเปลี่ยนเจตนาให้เป็นการเคลื่อนไหว ก้าวที่ชัดเจนหนึ่งก้าวให้ทิศทางกับ balance",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_234_ms",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan menukar niat menjadi gerak. Satu langkah yang jelas memberi arah kepada balance.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_235",
+      "type": "quote",
+      "texts": {
+        "en": "When balance feels heavy, return to the next small step.",
+        "tr": "denge ağır geldiğinde bir sonraki küçük adıma dön.",
+        "fr": "Quand balance semble lourd, reviens au prochain petit pas.",
+        "pt": "Quando balance parecer pesado, volte ao próximo pequeno passo.",
+        "nl": "Als balance zwaar voelt, keer terug naar de volgende kleine stap.",
+        "es": "Cuando balance se sienta pesado, vuelve al siguiente pequeño paso.",
+        "de": "Wenn balance schwer wirkt, kehre zum nächsten kleinen Schritt zurück.",
+        "it": "Quando balance sembra pesante, torna al prossimo piccolo passo.",
+        "ru": "Когда balance кажется тяжёлым, вернись к следующему маленькому шагу.",
+        "id": "Saat balance terasa berat, kembali ke langkah kecil berikutnya.",
+        "ja": "balanceが重く感じたら、次の小さな一歩に戻る。",
+        "th": "เมื่อ balance รู้สึกหนัก ให้กลับไปที่ก้าวเล็กๆ ต่อไป",
+        "ms": "Apabila balance terasa berat, kembali kepada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Contemporary reflection",
+        "tr": "Çağdaş bir düşünce",
+        "fr": "Réflexion contemporaine",
+        "pt": "Reflexão contemporânea",
+        "nl": "Hedendaagse reflectie",
+        "es": "Reflexión contemporánea",
+        "de": "Zeitgenössische Reflexion",
+        "it": "Riflessione contemporanea",
+        "ru": "Современная рефлексия",
+        "id": "Refleksi kontemporer",
+        "ja": "現代の内省",
+        "th": "การสะท้อนร่วมสมัย",
+        "ms": "Refleksi kontemporari"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_235_en",
+          "title": "Next Small Step",
+          "content": "Small steps reduce the weight of a big goal. They make balance feel possible again.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_235_tr",
+          "title": "Sonraki Küçük Adım",
+          "content": "Küçük adımlar büyük bir hedefin ağırlığını azaltır. dengei yeniden mümkün hissettirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_235_fr",
+          "title": "Le Prochain Petit Pas",
+          "content": "Les petits pas réduisent le poids d'un grand objectif. Ils rendent balance à nouveau possible.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_235_pt",
+          "title": "O Próximo Pequeno Passo",
+          "content": "Pequenos passos reduzem o peso de um grande objetivo. Eles fazem balance parecer possível novamente.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_235_nl",
+          "title": "De Volgende Kleine Stap",
+          "content": "Kleine stappen verminderen het gewicht van een groot doel. Ze maken balance weer mogelijk.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_235_es",
+          "title": "El Siguiente Pequeño Paso",
+          "content": "Los pequeños pasos reducen el peso de un gran objetivo. Hacen que balance vuelva a sentirse posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_235_de",
+          "title": "Der Nächste Kleine Schritt",
+          "content": "Kleine Schritte verringern das Gewicht eines großen Ziels. Sie machen balance wieder möglich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_235_it",
+          "title": "Il Prossimo Piccolo Passo",
+          "content": "I piccoli passi riducono il peso di un grande obiettivo. Rendono balance possibile di nuovo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_235_ru",
+          "title": "Следующий маленький шаг",
+          "content": "Маленькие шаги уменьшают тяжесть большой цели. Они снова делают balance возможным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_235_id",
+          "title": "Langkah Kecil Berikutnya",
+          "content": "Langkah kecil mengurangi beban tujuan besar. Mereka membuat balance terasa mungkin kembali.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_235_ja",
+          "title": "次の小さな一歩",
+          "content": "小さな一歩は大きな目標の重さを減らす。balanceを再び可能に感じさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_235_th",
+          "title": "ก้าวเล็กๆ ถัดไป",
+          "content": "ก้าวเล็กๆ ลดน้ำหนักของเป้าหมายใหญ่ ทำให้ balance รู้สึกเป็นไปได้อีกครั้ง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_235_ms",
+          "title": "Langkah Kecil Seterusnya",
+          "content": "Langkah kecil mengurangkan beban matlamat besar. Ia membuat balance terasa mungkin semula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_236",
+      "type": "quote",
+      "texts": {
+        "en": "balance becomes reliable when you keep gentle promises to yourself.",
+        "tr": "denge, kendine verdiğin nazik sözleri tuttuğunda güvenilir olur.",
+        "fr": "balance devient fiable quand tu tiens de douces promesses envers toi-même.",
+        "pt": "balance torna-se confiável quando você cumpre promessas gentis a si mesmo.",
+        "nl": "balance wordt betrouwbaar wanneer je zachte beloften aan jezelf nakomt.",
+        "es": "balance se vuelve confiable cuando cumples promesas amables contigo.",
+        "de": "balance wird verlässlich, wenn du sanfte Versprechen dir selbst gegenüber einhältst.",
+        "it": "balance diventa affidabile quando mantieni promesse gentili a te stesso.",
+        "ru": "balance становится надёжным, когда ты сдерживаешь мягкие обещания самому себе.",
+        "id": "balance menjadi dapat diandalkan ketika kamu menepati janji lembut pada diri sendiri.",
+        "ja": "balanceは、自分への優しい約束を守ると信頼できるものになる。",
+        "th": "balance จะมั่นคงเมื่อคุณรักษาสัญญาอ่อนโยนกับตัวเอง",
+        "ms": "balance menjadi boleh dipercayai apabila anda menunaikan janji lembut kepada diri sendiri."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_236_en",
+          "title": "Gentle Promises",
+          "content": "Consistent self-trust builds results. Each kept promise strengthens balance.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_236_tr",
+          "title": "Nazik Sözler",
+          "content": "Tutarlı öz güven sonuç üretir. Tutulan her söz dengei güçlendirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_236_fr",
+          "title": "Promesses Douces",
+          "content": "La confiance en soi constante construit des résultats. Chaque promesse tenue renforce balance.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_236_pt",
+          "title": "Promessas Gentis",
+          "content": "A autoconfiança consistente constrói resultados. Cada promessa cumprida fortalece balance.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_236_nl",
+          "title": "Zachte Beloftes",
+          "content": "Consistent zelfvertrouwen bouwt resultaten op. Elke nagekomen belofte versterkt balance.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_236_es",
+          "title": "Promesas Amables",
+          "content": "La confianza constante en uno mismo construye resultados. Cada promesa cumplida fortalece balance.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_236_de",
+          "title": "Sanfte Versprechen",
+          "content": "Konsequentes Selbstvertrauen baut Ergebnisse auf. Jedes gehaltene Versprechen stärkt balance.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_236_it",
+          "title": "Promesse Gentili",
+          "content": "La fiducia in sé costante costruisce risultati. Ogni promessa mantenuta rafforza balance.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_236_ru",
+          "title": "Мягкие обещания",
+          "content": "Последовательное доверие к себе приносит результаты. Каждое выполненное обещание укрепляет balance.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_236_id",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membangun hasil. Setiap janji yang ditepati memperkuat balance.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_236_ja",
+          "title": "優しい約束",
+          "content": "一貫した自己信頼が結果を築く。守れた約束がbalanceを強くする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_236_th",
+          "title": "สัญญาอ่อนโยน",
+          "content": "ความเชื่อมั่นในตัวเองอย่างสม่ำเสมอสร้างผลลัพธ์ ทุกสัญญาที่รักษาไว้เสริมให้ balance แข็งแรงขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_236_ms",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membina hasil. Setiap janji yang ditepati menguatkan balance.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_237",
+      "type": "quote",
+      "texts": {
+        "en": "Let balance be shaped by values, not pressure.",
+        "tr": "dengein, baskıyla değil değerlerle şekillensin.",
+        "fr": "Que balance soit façonné par les valeurs, pas par la pression.",
+        "pt": "Deixe balance ser moldado por valores, não por pressão.",
+        "nl": "Laat balance gevormd worden door waarden, niet door druk.",
+        "es": "Que balance se moldee por valores, no por presión.",
+        "de": "Lass balance von Werten geformt werden, nicht von Druck.",
+        "it": "Lascia che balance sia plasmato dai valori, non dalla pressione.",
+        "ru": "Пусть balance формируют ценности, а не давление.",
+        "id": "Biarkan balance dibentuk oleh nilai, bukan tekanan.",
+        "ja": "balanceは圧力ではなく価値観によって形づくられる。",
+        "th": "ให้ balance ถูกหล่อหลอมด้วยคุณค่า ไม่ใช่แรงกดดัน",
+        "ms": "Biarkan balance dibentuk oleh nilai, bukan tekanan."
+      },
+      "authors": {
+        "en": "Modern proverb",
+        "tr": "Modern atasözü",
+        "fr": "Proverbe moderne",
+        "pt": "Provérbio moderno",
+        "nl": "Moderne spreuk",
+        "es": "Proverbio moderno",
+        "de": "Modernes Sprichwort",
+        "it": "Proverbio moderno",
+        "ru": "Современная пословица",
+        "id": "Peribahasa modern",
+        "ja": "現代のことわざ",
+        "th": "สุภาษิตสมัยใหม่",
+        "ms": "Peribahasa moden"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_237_en",
+          "title": "Values First",
+          "content": "Pressure is loud; values are clear. When values lead, balance stays aligned.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_237_tr",
+          "title": "Önce Değerler",
+          "content": "Baskı gürültülüdür; değerler nettir. Değerler önde olduğunda denge uyumlu kalır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_237_fr",
+          "title": "Les Valeurs D'Abord",
+          "content": "La pression est bruyante ; les valeurs sont claires. Quand les valeurs guident, balance reste aligné.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_237_pt",
+          "title": "Valores Primeiro",
+          "content": "A pressão é barulhenta; os valores são claros. Quando os valores lideram, balance permanece alinhado.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_237_nl",
+          "title": "Waarden Eerst",
+          "content": "Druk is luid; waarden zijn helder. Wanneer waarden leiden, blijft balance in lijn.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_237_es",
+          "title": "Valores Primero",
+          "content": "La presión es ruidosa; los valores son claros. Cuando los valores guían, balance se mantiene alineado.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_237_de",
+          "title": "Werte Zuerst",
+          "content": "Druck ist laut; Werte sind klar. Wenn Werte führen, bleibt balance ausgerichtet.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_237_it",
+          "title": "Valori Prima",
+          "content": "La pressione è rumorosa; i valori sono chiari. Quando i valori guidano, balance resta allineato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_237_ru",
+          "title": "Сначала ценности",
+          "content": "Давление шумно; ценности ясны. Когда ценности ведут, balance остаётся в согласии.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_237_id",
+          "title": "Nilai Utama",
+          "content": "Tekanan itu bising; nilai itu jelas. Saat nilai memimpin, balance tetap selaras.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_237_ja",
+          "title": "価値観を先に",
+          "content": "圧力は騒がしく、価値観は明確だ。価値観が導くとbalanceは整ったままになる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_237_th",
+          "title": "คุณค่ามาก่อน",
+          "content": "แรงกดดันเสียงดัง แต่คุณค่าชัดเจน เมื่อคุณค่านำทาง balance จะอยู่ในแนวเดียวกัน",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_237_ms",
+          "title": "Nilai Diutamakan",
+          "content": "Tekanan bising; nilai jelas. Apabila nilai memimpin, balance kekal selaras.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_238",
+      "type": "quote",
+      "texts": {
+        "en": "A calm rhythm keeps balance moving.",
+        "tr": "Sakin bir ritim dengei ilerletir.",
+        "fr": "Un rythme calme fait avancer balance.",
+        "pt": "Um ritmo calmo mantém balance em movimento.",
+        "nl": "Een rustig ritme houdt balance in beweging.",
+        "es": "Un ritmo calmado mantiene balance en movimiento.",
+        "de": "Ein ruhiger Rhythmus hält balance in Bewegung.",
+        "it": "Un ritmo calmo mantiene balance in movimento.",
+        "ru": "Спокойный ритм поддерживает движение в balance.",
+        "id": "Ritme yang tenang menjaga balance tetap bergerak.",
+        "ja": "穏やかなリズムがbalanceを動かし続ける。",
+        "th": "จังหวะที่สงบทำให้ balance เดินหน้าต่อ",
+        "ms": "Rentak yang tenang mengekalkan balance bergerak."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_238_en",
+          "title": "Calm Rhythm",
+          "content": "Rhythm beats intensity over time. Calm repetition keeps balance alive.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_238_tr",
+          "title": "Sakin Ritim",
+          "content": "Zamanla ritim, yoğunluğu yener. Sakin tekrar dengei canlı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_238_fr",
+          "title": "Rythme Calme",
+          "content": "Avec le temps, le rythme l'emporte sur l'intensité. La répétition calme garde balance vivant.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_238_pt",
+          "title": "Ritmo Calmo",
+          "content": "Com o tempo, o ritmo vence a intensidade. A repetição calma mantém balance vivo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_238_nl",
+          "title": "Rustig Ritme",
+          "content": "Op termijn wint ritme van intensiteit. Kalme herhaling houdt balance levend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_238_es",
+          "title": "Ritmo Calmado",
+          "content": "Con el tiempo, el ritmo supera la intensidad. La repetición calmada mantiene balance vivo.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_238_de",
+          "title": "Ruhiger Rhythmus",
+          "content": "Mit der Zeit schlägt Rhythmus die Intensität. Ruhige Wiederholung hält balance lebendig.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_238_it",
+          "title": "Ritmo Calmo",
+          "content": "Con il tempo, il ritmo supera l'intensità. La ripetizione calma mantiene balance vivo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_238_ru",
+          "title": "Спокойный ритм",
+          "content": "Со временем ритм побеждает интенсивность. Спокойное повторение поддерживает balance живым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_238_id",
+          "title": "Ritme Tenang",
+          "content": "Seiring waktu, ritme mengalahkan intensitas. Pengulangan yang tenang menjaga balance tetap hidup.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_238_ja",
+          "title": "穏やかなリズム",
+          "content": "時間が経つほど、強度よりリズムが勝る。穏やかな反復がbalanceを生かす。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_238_th",
+          "title": "จังหวะที่สงบ",
+          "content": "เมื่อเวลาผ่านไป จังหวะชนะความเข้มข้น การทำซ้ำอย่างสงบทำให้ balance มีชีวิต",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_238_ms",
+          "title": "Rentak Tenang",
+          "content": "Dari masa ke masa, rentak mengatasi intensiti. Ulangan yang tenang mengekalkan balance hidup.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_239",
+      "type": "quote",
+      "texts": {
+        "en": "In balance, patience turns effort into skill.",
+        "tr": "denge alanında sabır, çabayı beceriye dönüştürür.",
+        "fr": "En balance, la patience transforme l'effort en compétence.",
+        "pt": "Em balance, a paciência transforma esforço em habilidade.",
+        "nl": "In balance verandert geduld inspanning in vaardigheid.",
+        "es": "En balance, la paciencia convierte el esfuerzo en habilidad.",
+        "de": "In balance verwandelt Geduld Mühe in Können.",
+        "it": "In balance, la pazienza trasforma lo sforzo in abilità.",
+        "ru": "В balance терпение превращает усилия в мастерство.",
+        "id": "Dalam balance, kesabaran mengubah usaha menjadi keterampilan.",
+        "ja": "balanceでは、忍耐が努力を技に変える。",
+        "th": "ใน balance ความอดทนเปลี่ยนความพยายามให้เป็นทักษะ",
+        "ms": "Dalam balance, kesabaran menukar usaha menjadi kemahiran."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_239_en",
+          "title": "Patience Becomes Skill",
+          "content": "Skill grows slowly and surely. Give balance time, and it will become natural.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_239_tr",
+          "title": "Sabır Beceridir",
+          "content": "Beceri yavaş ama sağlam büyür. dengee zaman ver, doğal hale gelir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_239_fr",
+          "title": "La Patience Devient Compétence",
+          "content": "La compétence grandit lentement et sûrement. Donne du temps à balance, et cela deviendra naturel.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_239_pt",
+          "title": "Paciência Vira Habilidade",
+          "content": "A habilidade cresce lenta e seguramente. Dê tempo a balance, e ela se tornará natural.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_239_nl",
+          "title": "Geduld Wordt Vaardigheid",
+          "content": "Vaardigheid groeit langzaam en zeker. Geef balance tijd, en het wordt vanzelfsprekend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_239_es",
+          "title": "La Paciencia se Vuelve Habilidad",
+          "content": "La habilidad crece lenta y seguramente. Dale tiempo a balance, y se volverá natural.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_239_de",
+          "title": "Geduld Wird Können",
+          "content": "Können wächst langsam und sicher. Gib balance Zeit, dann wird es natürlich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_239_it",
+          "title": "La Pazienza Diventa Abilità",
+          "content": "L'abilità cresce lentamente e con sicurezza. Dai tempo a balance, e diventerà naturale.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_239_ru",
+          "title": "Терпение превращается в навык",
+          "content": "Навык растёт медленно и уверенно. Дай balance время, и оно станет естественным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_239_id",
+          "title": "Kesabaran Menjadi Keterampilan",
+          "content": "Keterampilan tumbuh perlahan namun pasti. Beri balance waktu, dan itu akan terasa alami.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_239_ja",
+          "title": "忍耐が技になる",
+          "content": "スキルはゆっくり確実に育つ。balanceに時間を与えれば自然になる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_239_th",
+          "title": "ความอดทนกลายเป็นทักษะ",
+          "content": "ทักษะเติบโตอย่างช้าๆ แต่มั่นคง ให้เวลา balance แล้วมันจะเป็นธรรมชาติ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_239_ms",
+          "title": "Kesabaran Menjadi Kemahiran",
+          "content": "Kemahiran berkembang perlahan tetapi pasti. Beri balance masa, dan ia akan menjadi semula jadi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_240",
+      "type": "quote",
+      "texts": {
+        "en": "Simplicity makes balance sustainable.",
+        "tr": "Sadelik dengei sürdürülebilir kılar.",
+        "fr": "La simplicité rend balance durable.",
+        "pt": "A simplicidade torna balance sustentável.",
+        "nl": "Eenvoud maakt balance duurzaam.",
+        "es": "La simplicidad hace que balance sea sostenible.",
+        "de": "Einfachheit macht balance nachhaltig.",
+        "it": "La semplicità rende balance sostenibile.",
+        "ru": "Простота делает balance устойчивым.",
+        "id": "Kesederhanaan membuat balance berkelanjutan.",
+        "ja": "シンプルさがbalanceを持続可能にする。",
+        "th": "ความเรียบง่ายทำให้ balance ยั่งยืน",
+        "ms": "Kesederhanaan menjadikan balance mampan."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_240_en",
+          "title": "Sustainable Simplicity",
+          "content": "When the plan is simple, it can be repeated. That repetition keeps balance going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_240_tr",
+          "title": "Sürdürülebilir Sadelik",
+          "content": "Plan sade olduğunda tekrar edilebilir. Bu tekrar dengei sürdürür.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_240_fr",
+          "title": "Simplicité Durable",
+          "content": "Quand le plan est simple, il peut être répété. Cette répétition fait avancer balance.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_240_pt",
+          "title": "Simplicidade Sustentável",
+          "content": "Quando o plano é simples, ele pode ser repetido. Essa repetição mantém balance em andamento.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_240_nl",
+          "title": "Duurzame Eenvoud",
+          "content": "Als het plan eenvoudig is, kan het worden herhaald. Die herhaling houdt balance gaande.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_240_es",
+          "title": "Simplicidad Sostenible",
+          "content": "Cuando el plan es simple, se puede repetir. Esa repetición mantiene balance en marcha.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_240_de",
+          "title": "Nachhaltige Einfachheit",
+          "content": "Wenn der Plan einfach ist, kann er wiederholt werden. Diese Wiederholung hält balance am Laufen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_240_it",
+          "title": "Semplicità Sostenibile",
+          "content": "Quando il piano è semplice, può essere ripetuto. Questa ripetizione mantiene balance in movimento.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_240_ru",
+          "title": "Устойчивая простота",
+          "content": "Когда план прост, его можно повторять. Это повторение поддерживает balance.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_240_id",
+          "title": "Kesederhanaan Berkelanjutan",
+          "content": "Ketika rencana sederhana, ia bisa diulang. Pengulangan itu menjaga balance tetap berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_240_ja",
+          "title": "続くシンプルさ",
+          "content": "計画がシンプルなら繰り返せる。その反復がbalanceを続けさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_240_th",
+          "title": "ความเรียบง่ายที่ยั่งยืน",
+          "content": "เมื่อแผนเรียบง่าย ก็ทำซ้ำได้ การทำซ้ำนี้ทำให้ balance เดินต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_240_ms",
+          "title": "Kesederhanaan Mampan",
+          "content": "Apabila pelan ringkas, ia boleh diulang. Ulangan itu mengekalkan balance berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "balance_241",
+      "type": "quote",
+      "texts": {
+        "en": "End the day knowing balance moved forward, even a little.",
+        "tr": "Günü dengein biraz da olsa ilerlediğini bilerek bitir.",
+        "fr": "Termine la journée en sachant que balance a avancé, même un peu.",
+        "pt": "Termine o dia sabendo que balance avançou, ainda que um pouco.",
+        "nl": "Sluit de dag af wetend dat balance vooruitging, al was het maar een beetje.",
+        "es": "Termina el día sabiendo que balance avanzó, aunque sea un poco.",
+        "de": "Beende den Tag in dem Wissen, dass balance vorangekommen ist, auch wenn es nur ein wenig war.",
+        "it": "Concludi la giornata sapendo che balance è avanzato, anche solo un poco.",
+        "ru": "Заверши день, зная, что balance продвинулся, пусть даже немного.",
+        "id": "Akhiri hari dengan tahu balance maju, meski sedikit.",
+        "ja": "一日を、balanceが少しでも前に進んだと感じて終える。",
+        "th": "จบวันด้วยการรู้ว่า balance เดินหน้าไปแล้ว แม้เพียงเล็กน้อย",
+        "ms": "Akhiri hari dengan mengetahui balance bergerak maju, walaupun sedikit."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "balance",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "balance",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balance",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "balance",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "balance",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "balance",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "balance",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "balance",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "balance",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "balance",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_balance_241_en",
+          "title": "Forward, Even a Little",
+          "content": "Small progress still counts. Acknowledging balance today makes tomorrow easier to begin.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_balance_241_tr",
+          "title": "Biraz da Olsa İleri",
+          "content": "Küçük ilerleme de önemlidir. dengei bugün fark etmek yarına başlamayı kolaylaştırır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_balance_241_fr",
+          "title": "En Avant, Même Un Peu",
+          "content": "Le petit progrès compte aussi. Reconnaître balance aujourd'hui rend demain plus facile à commencer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_balance_241_pt",
+          "title": "Avançar, Mesmo que Pouco",
+          "content": "O pequeno progresso também conta. Reconhecer balance hoje torna amanhã mais fácil de começar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_balance_241_nl",
+          "title": "Vooruit, Al is het een beetje",
+          "content": "Kleine vooruitgang telt ook. balance vandaag erkennen maakt morgen makkelijker om te beginnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_balance_241_es",
+          "title": "Avanzar, aunque sea un poco",
+          "content": "El pequeño progreso también cuenta. Reconocer balance hoy hace que mañana sea más fácil de empezar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_balance_241_de",
+          "title": "Vorwärts, auch ein wenig",
+          "content": "Kleiner Fortschritt zählt auch. balance heute anzuerkennen macht es morgen leichter anzufangen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_balance_241_it",
+          "title": "Avanti, anche solo un po'",
+          "content": "Anche il piccolo progresso conta. Riconoscere balance oggi rende domani più facile iniziare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_balance_241_ru",
+          "title": "Вперёд, хоть немного",
+          "content": "Небольшой прогресс тоже важен. Признание balance сегодня облегчает начало завтра.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_balance_241_id",
+          "title": "Maju, Walau Sedikit",
+          "content": "Kemajuan kecil tetap berarti. Mengakui balance hari ini membuat besok lebih mudah dimulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_balance_241_ja",
+          "title": "少しでも前へ",
+          "content": "小さな進歩でも十分価値がある。今日balanceを認めることが、明日始めやすくする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_balance_241_th",
+          "title": "ก้าวไปข้างหน้า แม้เพียงเล็กน้อย",
+          "content": "ความก้าวหน้าเล็กๆ ก็มีความหมาย การยอมรับ balance ในวันนี้ทำให้เริ่มพรุ่งนี้ได้ง่ายขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_balance_241_ms",
+          "title": "Maju, Walaupun Sedikit",
+          "content": "Kemajuan kecil tetap bermakna. Mengakui balance hari ini menjadikan esok lebih mudah dimulakan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

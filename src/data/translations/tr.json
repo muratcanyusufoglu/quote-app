@@ -385,7 +385,8 @@
       "reading_length": "Ne kadar uzun quote'ları okumayı seviyorsunuz?",
       "notification_count": "Günde kaç bildirim almak istersiniz?",
       "notification_time_range": "Hangi saatler arasında bildirim almak istersiniz?",
-      "user_name": "Size nasıl hitap edelim?"
+      "user_name": "Size nasıl hitap edelim?",
+      "content_type": "Hangi tür içerikleri görmek istersiniz?"
     },
     "placeholders": {
       "user_name": "Adınızı yazın..."
@@ -418,7 +419,9 @@
       "long": "Uzun ve detaylı",
       "daily": "Her gün",
       "weekly": "Haftada birkaç kez",
-      "occasional": "Arada Sırada"
+      "occasional": "Arada Sırada",
+      "quotes": "Alıntılar",
+      "affirmations": "Olumlamalar"
     }
   },
   "quote_detail": {
@@ -491,30 +494,30 @@
     "system": "Sistem",
     "color_themes": "Renk Temaları",
     "color_themes_description": "Favori renk paletinizi seçin",
-      "uprising": {
-        "name": "Klasik",
-        "description": "Zamansız altın zarafet"
-      },
-      "ocean": {
-        "name": "Okyanus",
-        "description": "Sakinleştirici derin mavi"
-      },
-      "forest": {
-        "name": "Orman",
-        "description": "Sıcak minimalist konfor"
-      },
-      "sunset": {
-        "name": "Dünya",
-        "description": "Sıcak toprak tonları"
-      },
-      "purple": {
-        "name": "Mor",
-        "description": "Cesur cam efekti stili"
-      },
-      "minimalist": {
-        "name": "Minimalist",
-        "description": "Rafine koyu zarafet"
-      }
+    "uprising": {
+      "name": "Klasik",
+      "description": "Zamansız altın zarafet"
+    },
+    "ocean": {
+      "name": "Okyanus",
+      "description": "Sakinleştirici derin mavi"
+    },
+    "forest": {
+      "name": "Orman",
+      "description": "Sıcak minimalist konfor"
+    },
+    "sunset": {
+      "name": "Dünya",
+      "description": "Sıcak toprak tonları"
+    },
+    "purple": {
+      "name": "Mor",
+      "description": "Cesur cam efekti stili"
+    },
+    "minimalist": {
+      "name": "Minimalist",
+      "description": "Rafine koyu zarafet"
+    }
   },
   "store_review": {
     "request_title": "Quote'u Beğeniyor musunuz?",
@@ -607,4 +610,4 @@
       "family": "Aile"
     }
   }
-} 
+}

@@ -324,36 +324,31 @@
     "daily_limit_fallback_highlight": "Ne manquez jamais votre inspiration quotidienne"
   },
   "mood_motivation": {
-    "title": "Motivation Basée sur l'Humeur",
-    "subtitle": "Obtenez une motivation personnalisée basée sur ce que vous ressentez",
-    "question_feeling": "Comment vous sentez-vous en général ?",
-    "question_feeling_personalized": "Comment vous sentez-vous {userName} ?",
-    "question_energy": "Quel est votre niveau d'énergie ?",
-    "question_energy_personalized": "Quel est votre niveau d'énergie {userName} ?",
-    "question_affecting": "Qu'est-ce qui vous affecte le plus aujourd'hui ?",
-    "question_affecting_personalized": "Qu'est-ce qui affecte le plus {userName} aujourd'hui ?",
-    "generating": "Génération de votre message personnalisé...",
-    "share": "Partager",
-    "try_different": "Essayer un Message Différent",
-    "error_generating": "Erreur lors de la génération du message",
-    "error_message": "Veuillez réessayer plus tard",
-    "close": "Fermer",
-    "emojis": {
-      "😄": "Heureux",
-      "🙂": "Calme",
-      "😐": "Neutre",
-      "😟": "Triste",
-      "😔": "Très Triste",
-      "⚡": "Très Énergique",
-      "💪": "Énergique",
-      "😴": "Fatigué",
-      "🔋": "Chargé",
-      "😊": "Motivation",
-      "😥": "Stress",
-      "😠": "Colère",
-      "💡": "Pensées",
-      "🌧️": "Anxiété",
-      "✨": "Objectifs"
+    "title": "🧠 Motivation Basée sur l'Humeur",
+    "feeling_question": "Comment vous sentez-vous ?",
+    "energy_question": "Niveau d'Énergie ?",
+    "affecting_question": "Qu'est-ce qui vous affecte le plus ?",
+    "generate_button": "Générer la Motivation ✨",
+    "close_button": "Fermer",
+    "moods": {
+      "happy": "Heureux",
+      "sad": "Triste",
+      "anxious": "Anxieux",
+      "excited": "Excité",
+      "tired": "Fatigué",
+      "motivated": "Motivé"
+    },
+    "energy_levels": {
+      "low": "Faible",
+      "medium": "Moyen",
+      "high": "Élevé"
+    },
+    "affecting_factors": {
+      "work": "Travail",
+      "relationships": "Relations",
+      "health": "Santé",
+      "goals": "Objectifs",
+      "family": "Famille"
     }
   },
   "onboarding": {
@@ -400,7 +395,8 @@
       "reading_length": "Quelle longueur de citations aimez-vous lire ?",
       "notification_count": "Combien de notifications voulez-vous par jour ?",
       "notification_time_range": "Pendant quelles heures voulez-vous recevoir des notifications ?",
-      "user_name": "Comment devons-nous vous appeler ?"
+      "user_name": "Comment devons-nous vous appeler ?",
+      "content_type": "Quel type de contenu préférez-vous?"
     },
     "placeholders": {
       "user_name": "Entrez votre nom..."
@@ -433,7 +429,9 @@
       "long": "Long et détaillé",
       "daily": "Quotidien",
       "weekly": "Plusieurs fois par semaine",
-      "occasional": "Occasionnellement"
+      "occasional": "Occasionnellement",
+      "quotes": "Citations",
+      "affirmations": "Affirmations"
     }
   },
   "quote_detail": {
@@ -563,33 +561,5 @@
     "privacy_policy_subtitle": "Voir notre politique de confidentialité",
     "terms_of_use": "Conditions d'Utilisation",
     "terms_of_use_subtitle": "EULA Standard Apple"
-  },
-  "mood_motivation": {
-    "title": "🧠 Motivation Basée sur l'Humeur",
-    "feeling_question": "Comment vous sentez-vous ?",
-    "energy_question": "Niveau d'Énergie ?",
-    "affecting_question": "Qu'est-ce qui vous affecte le plus ?",
-    "generate_button": "Générer la Motivation ✨",
-    "close_button": "Fermer",
-    "moods": {
-      "happy": "Heureux",
-      "sad": "Triste",
-      "anxious": "Anxieux",
-      "excited": "Excité",
-      "tired": "Fatigué",
-      "motivated": "Motivé"
-    },
-    "energy_levels": {
-      "low": "Faible",
-      "medium": "Moyen",
-      "high": "Élevé"
-    },
-    "affecting_factors": {
-      "work": "Travail",
-      "relationships": "Relations",
-      "health": "Santé",
-      "goals": "Objectifs",
-      "family": "Famille"
-    }
   }
 }

@@ -142,7 +142,7 @@
       "section_title": "Cosa è incluso:",
       "rating_text": "4.9 • 50.000+ utenti",
       "restore_purchase": "Ripristina Acquisto",
-      "trust_text": "Cancella in qualsiasi momento • Pagamento sicuro • Garanzia 15 giorni",
+      "trust_text": "⭐ Valutazione 4.9 • 50.000+ utenti si fidano di noi",
       "title": "La Tua Fonte Illimitata di Ispirazione",
       "subtitle": "Ottieni accesso illimitato a oltre 10.000 citazioni ispiranti",
       "free_trial_highlight": "🎉 3 Giorni GRATIS",
@@ -159,7 +159,6 @@
       "feature_stories": "📚 Storie e Lezioni Esclusive",
       "feature_ai": "🧠 Personalizzazione IA",
       "feature_adfree": "💎 Esperienza Senza Pubblicità",
-      "trust_text": "⭐ Valutazione 4.9 • 50.000+ utenti si fidano di noi",
       "legal_benefits": "L'abbonamento ti dà citazioni illimitate, categorie premium, lettura senza pubblicità, accesso offline e raccomandazioni personalizzate.",
       "legal_renew_note": "Abbonamento rinnovabile automaticamente. Annulla in qualsiasi momento nelle Impostazioni Account. Il pagamento viene addebitato al tuo Apple ID.",
       "discount_offer_title": "Non Perdertelo!",
@@ -325,36 +324,31 @@
     "daily_limit_fallback_highlight": "Non perdere mai la tua ispirazione quotidiana"
   },
   "mood_motivation": {
-    "title": "Motivazione Basata sull'Umore",
-    "subtitle": "Ottieni motivazione personalizzata basata su come ti senti",
-    "question_feeling": "Come ti senti in generale?",
-    "question_feeling_personalized": "Come ti senti {userName}?",
-    "question_energy": "Qual è il tuo livello di energia?",
-    "question_energy_personalized": "Qual è il tuo livello di energia {userName}?",
-    "question_affecting": "Cosa ti sta influenzando di più oggi?",
-    "question_affecting_personalized": "Cosa sta influenzando di più {userName} oggi?",
-    "generating": "Generando il tuo messaggio personalizzato...",
-    "share": "Condividi",
-    "try_different": "Prova Messaggio Diverso",
-    "error_generating": "Errore nella generazione del messaggio",
-    "error_message": "Riprova più tardi",
-    "close": "Chiudi",
-    "emojis": {
-      "😄": "Felice",
-      "🙂": "Calmo",
-      "😐": "Neutro",
-      "😟": "Triste",
-      "😔": "Molto Triste",
-      "⚡": "Molto Energico",
-      "💪": "Energico",
-      "😴": "Stanco",
-      "🔋": "Caricato",
-      "😊": "Motivazione",
-      "😥": "Stress",
-      "😠": "Rabbia",
-      "💡": "Pensieri",
-      "🌧️": "Ansia",
-      "✨": "Obiettivi"
+    "title": "🧠 Motivazione Basata sull'Umore",
+    "feeling_question": "Come ti senti?",
+    "energy_question": "Livello di Energia?",
+    "affecting_question": "Cosa ti influenza di più?",
+    "generate_button": "Genera Motivazione ✨",
+    "close_button": "Chiudi",
+    "moods": {
+      "happy": "Felice",
+      "sad": "Triste",
+      "anxious": "Ansioso",
+      "excited": "Eccitato",
+      "tired": "Stanco",
+      "motivated": "Motivato"
+    },
+    "energy_levels": {
+      "low": "Basso",
+      "medium": "Medio",
+      "high": "Alto"
+    },
+    "affecting_factors": {
+      "work": "Lavoro",
+      "relationships": "Relazioni",
+      "health": "Salute",
+      "goals": "Obiettivi",
+      "family": "Famiglia"
     }
   },
   "onboarding": {
@@ -395,7 +389,8 @@
       "reading_length": "Che lunghezza di citazioni ti piace leggere?",
       "notification_count": "Quante notifiche vuoi al giorno?",
       "notification_time_range": "Durante quali ore vuoi ricevere notifiche?",
-      "user_name": "Come dovremmo chiamarti?"
+      "user_name": "Come dovremmo chiamarti?",
+      "content_type": "Che tipo di contenuto preferisci?"
     },
     "placeholders": {
       "user_name": "Inserisci il tuo nome..."
@@ -428,7 +423,9 @@
       "long": "Lungo e dettagliato",
       "daily": "Quotidianamente",
       "weekly": "Più volte a settimana",
-      "occasional": "Occasionalmente"
+      "occasional": "Occasionalmente",
+      "quotes": "Citazioni",
+      "affirmations": "Affermazioni"
     }
   },
   "quote_detail": {
@@ -558,33 +555,5 @@
     "privacy_policy_subtitle": "Vedi la nostra informativa sulla privacy",
     "terms_of_use": "Termini di Utilizzo",
     "terms_of_use_subtitle": "EULA Standard Apple"
-  },
-  "mood_motivation": {
-    "title": "🧠 Motivazione Basata sull'Umore",
-    "feeling_question": "Come ti senti?",
-    "energy_question": "Livello di Energia?",
-    "affecting_question": "Cosa ti influenza di più?",
-    "generate_button": "Genera Motivazione ✨",
-    "close_button": "Chiudi",
-    "moods": {
-      "happy": "Felice",
-      "sad": "Triste",
-      "anxious": "Ansioso",
-      "excited": "Eccitato",
-      "tired": "Stanco",
-      "motivated": "Motivato"
-    },
-    "energy_levels": {
-      "low": "Basso",
-      "medium": "Medio",
-      "high": "Alto"
-    },
-    "affecting_factors": {
-      "work": "Lavoro",
-      "relationships": "Relazioni",
-      "health": "Salute",
-      "goals": "Obiettivi",
-      "family": "Famiglia"
-    }
   }
 }

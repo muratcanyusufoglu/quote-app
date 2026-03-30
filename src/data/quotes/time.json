@@ -14069,6 +14069,1836 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "time_193",
+      "type": "quote",
+      "texts": {
+        "en": "In time, quiet progress beats dramatic starts.",
+        "tr": "zaman alanında sessiz ilerleme, gösterişli başlangıçlardan daha iyidir.",
+        "fr": "En time, le progrès discret vaut mieux que les débuts spectaculaires.",
+        "pt": "Em time, o progresso silencioso supera começos dramáticos.",
+        "nl": "In time overtreft stille vooruitgang dramatische starts.",
+        "es": "En time, el progreso silencioso supera los comienzos dramáticos.",
+        "de": "In time schlägt ruhiger Fortschritt dramatische Anfänge.",
+        "it": "In time, il progresso silenzioso supera gli inizi drammatici.",
+        "ru": "В time тихий прогресс лучше громких стартов.",
+        "id": "Dalam time, kemajuan yang tenang mengalahkan awal yang dramatis.",
+        "ja": "timeでは、静かな前進が劇的な始まりに勝る。",
+        "th": "ใน time ความก้าวหน้าที่เงียบสงบดีกว่าการเริ่มต้นที่หวือหวา",
+        "ms": "Dalam time, kemajuan yang tenang mengatasi permulaan yang dramatik."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_193_en",
+          "title": "Quiet Progress",
+          "content": "Big beginnings fade quickly, but steady movement lasts. Keep time quiet and consistent, and it will carry you further.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_193_tr",
+          "title": "Sessiz İlerleme",
+          "content": "Büyük başlangıçlar çabuk söner, ama istikrarlı hareket kalır. zaman alanını sakin ve tutarlı tut; seni daha ileri taşır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_193_fr",
+          "title": "Progrès Discret",
+          "content": "Les grands débuts s'estompent vite, mais le mouvement régulier dure. Garde time calme et constant, et il te portera plus loin.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_193_pt",
+          "title": "Progresso Silencioso",
+          "content": "Grandes começos se apagam rápido, mas o movimento constante dura. Mantenha time calmo e consistente, e isso o levará mais longe.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_193_nl",
+          "title": "Stille Vooruitgang",
+          "content": "Grote beginnen vervagen snel, maar gestage beweging blijft. Houd time rustig en consistent, dan brengt het je verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_193_es",
+          "title": "Progreso Silencioso",
+          "content": "Los grandes comienzos se desvanecen rápido, pero el movimiento constante dura. Mantén time tranquilo y constante, y te llevará más lejos.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_193_de",
+          "title": "Stiller Fortschritt",
+          "content": "Große Anfänge verblassen schnell, aber stetige Bewegung bleibt. Halte time ruhig und konsequent, dann trägt es dich weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_193_it",
+          "title": "Progresso Silenzioso",
+          "content": "I grandi inizi svaniscono in fretta, ma il movimento costante dura. Tieni time calmo e costante, e ti porterà più lontano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_193_ru",
+          "title": "Тихий прогресс",
+          "content": "Большие начала быстро угасают, а устойчивое движение остаётся. Держи time спокойным и последовательным — это поведёт тебя дальше.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_193_id",
+          "title": "Kemajuan Tenang",
+          "content": "Awal yang besar cepat memudar, tetapi gerak yang stabil bertahan. Jaga time tetap tenang dan konsisten, dan itu akan membawamu lebih jauh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_193_ja",
+          "title": "静かな前進",
+          "content": "大きな始まりはすぐに薄れるが、着実な動きは続く。timeを静かで一貫したものに保てば、もっと先へ運んでくれる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_193_th",
+          "title": "ความก้าวหน้าเงียบๆ",
+          "content": "การเริ่มต้นใหญ่โตจางหายเร็ว แต่การเคลื่อนไหวที่สม่ำเสมอคงอยู่ จัด time ให้สงบและสม่ำเสมอ แล้วมันจะพาคุณไปไกลกว่าเดิม",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_193_ms",
+          "title": "Kemajuan Tenang",
+          "content": "Permulaan yang besar cepat pudar, tetapi pergerakan yang stabil kekal. Kekalkan time tenang dan konsisten, dan ia akan membawa anda lebih jauh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_194",
+      "type": "quote",
+      "texts": {
+        "en": "time thrives when attention is steady and kind.",
+        "tr": "zaman alanı, dikkat istikrarlı ve nazik olduğunda gelişir.",
+        "fr": "time prospère quand l'attention est stable et bienveillante.",
+        "pt": "time floresce quando a atenção é estável e gentil.",
+        "nl": "time groeit wanneer aandacht stabiel en vriendelijk is.",
+        "es": "time prospera cuando la atención es estable y amable.",
+        "de": "time gedeiht, wenn die Aufmerksamkeit beständig und freundlich ist.",
+        "it": "time prospera quando l'attenzione è stabile e gentile.",
+        "ru": "time расцветает, когда внимание устойчиво и доброжелательно.",
+        "id": "time berkembang ketika perhatian stabil dan ramah.",
+        "ja": "timeは、注意が安定して優しいときに育つ。",
+        "th": "time เติบโตเมื่อความใส่ใจมั่นคงและอ่อนโยน",
+        "ms": "time berkembang apabila perhatian stabil dan baik."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_194_en",
+          "title": "Steady Attention",
+          "content": "Gentle attention creates space for growth without pressure. A steady gaze keeps time healthy.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_194_tr",
+          "title": "İstikrarlı Dikkat",
+          "content": "Nazik dikkat, baskısız bir büyüme alanı açar. İstikrarlı bir bakış zaman alanını sağlıklı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_194_fr",
+          "title": "Attention Stable",
+          "content": "Une attention douce crée un espace de croissance sans pression. Un regard stable garde time en bonne santé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_194_pt",
+          "title": "Atenção Estável",
+          "content": "A atenção gentil cria espaço para crescer sem pressão. Um olhar estável mantém time saudável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_194_nl",
+          "title": "Gestage Aandacht",
+          "content": "Zachte aandacht creëert ruimte voor groei zonder druk. Een stabiele blik houdt time gezond.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_194_es",
+          "title": "Atención Estable",
+          "content": "La atención amable crea espacio para crecer sin presión. Una mirada estable mantiene time sano.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_194_de",
+          "title": "Beständige Aufmerksamkeit",
+          "content": "Sanfte Aufmerksamkeit schafft Raum für Wachstum ohne Druck. Ein stetiger Blick hält time gesund.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_194_it",
+          "title": "Attenzione Stabile",
+          "content": "Un'attenzione gentile crea spazio per crescere senza pressione. Uno sguardo stabile mantiene time sano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_194_ru",
+          "title": "Устойчивое внимание",
+          "content": "Мягкое внимание создаёт пространство для роста без давления. Устойчивый взгляд сохраняет time здоровым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_194_id",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian lembut memberi ruang untuk tumbuh tanpa tekanan. Pandangan yang stabil menjaga time tetap sehat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_194_ja",
+          "title": "安定した注意",
+          "content": "優しい注意は、圧力のない成長の余白をつくる。安定した眼差しがtimeを健やかに保つ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_194_th",
+          "title": "ความใส่ใจที่มั่นคง",
+          "content": "ความใส่ใจอย่างอ่อนโยนสร้างพื้นที่ให้เติบโตโดยไม่กดดัน สายตาที่มั่นคงช่วยให้ time แข็งแรง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_194_ms",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian yang lembut membuka ruang untuk berkembang tanpa tekanan. Pandangan yang stabil menjaga time sihat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_195",
+      "type": "quote",
+      "texts": {
+        "en": "Choose one clear action; time follows.",
+        "tr": "Tek bir net eylem seç; zaman onun peşinden gelir.",
+        "fr": "Choisis une action claire ; time suit.",
+        "pt": "Escolha uma ação clara; time acompanha.",
+        "nl": "Kies één duidelijke actie; time volgt.",
+        "es": "Elige una acción clara; time sigue.",
+        "de": "Wähle eine klare Handlung; time folgt.",
+        "it": "Scegli un'azione chiara; time segue.",
+        "ru": "Выбери одно ясное действие — time последует.",
+        "id": "Pilih satu tindakan yang jelas; time akan mengikuti.",
+        "ja": "一つの明確な行動を選べば、timeはついてくる。",
+        "th": "เลือกการกระทำที่ชัดเจนหนึ่งอย่าง แล้ว time จะตามมา",
+        "ms": "Pilih satu tindakan yang jelas; time akan mengikut."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_195_en",
+          "title": "One Clear Action",
+          "content": "Clarity turns intention into motion. One clear step gives time direction.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_195_tr",
+          "title": "Tek Net Eylem",
+          "content": "Netlik, niyeti harekete çevirir. Tek bir net adım zamane yön verir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_195_fr",
+          "title": "Une Action Claire",
+          "content": "La clarté transforme l'intention en mouvement. Un pas clair donne une direction à time.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_195_pt",
+          "title": "Uma Ação Clara",
+          "content": "A clareza transforma intenção em movimento. Um passo claro dá direção a time.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_195_nl",
+          "title": "Eén Duidelijke Actie",
+          "content": "Helderheid zet intentie om in beweging. Eén duidelijke stap geeft time richting.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_195_es",
+          "title": "Una Acción Clara",
+          "content": "La claridad convierte la intención en movimiento. Un paso claro da dirección a time.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_195_de",
+          "title": "Eine Klare Handlung",
+          "content": "Klarheit verwandelt Absicht in Bewegung. Ein klarer Schritt gibt time Richtung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_195_it",
+          "title": "Un'Azione Chiara",
+          "content": "La chiarezza trasforma l'intenzione in movimento. Un passo chiaro dà direzione a time.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_195_ru",
+          "title": "Одно ясное действие",
+          "content": "Ясность превращает намерение в движение. Один ясный шаг задаёт направление time.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_195_id",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan mengubah niat menjadi gerak. Satu langkah jelas memberi arah pada time.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_195_ja",
+          "title": "一つの明確な行動",
+          "content": "明確さは意図を動きに変える。明確な一歩がtimeに方向を与える。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_195_th",
+          "title": "การกระทำที่ชัดเจนหนึ่งอย่าง",
+          "content": "ความชัดเจนเปลี่ยนเจตนาให้เป็นการเคลื่อนไหว ก้าวที่ชัดเจนหนึ่งก้าวให้ทิศทางกับ time",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_195_ms",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan menukar niat menjadi gerak. Satu langkah yang jelas memberi arah kepada time.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_196",
+      "type": "quote",
+      "texts": {
+        "en": "When time feels heavy, return to the next small step.",
+        "tr": "zaman ağır geldiğinde bir sonraki küçük adıma dön.",
+        "fr": "Quand time semble lourd, reviens au prochain petit pas.",
+        "pt": "Quando time parecer pesado, volte ao próximo pequeno passo.",
+        "nl": "Als time zwaar voelt, keer terug naar de volgende kleine stap.",
+        "es": "Cuando time se sienta pesado, vuelve al siguiente pequeño paso.",
+        "de": "Wenn time schwer wirkt, kehre zum nächsten kleinen Schritt zurück.",
+        "it": "Quando time sembra pesante, torna al prossimo piccolo passo.",
+        "ru": "Когда time кажется тяжёлым, вернись к следующему маленькому шагу.",
+        "id": "Saat time terasa berat, kembali ke langkah kecil berikutnya.",
+        "ja": "timeが重く感じたら、次の小さな一歩に戻る。",
+        "th": "เมื่อ time รู้สึกหนัก ให้กลับไปที่ก้าวเล็กๆ ต่อไป",
+        "ms": "Apabila time terasa berat, kembali kepada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Contemporary reflection",
+        "tr": "Çağdaş bir düşünce",
+        "fr": "Réflexion contemporaine",
+        "pt": "Reflexão contemporânea",
+        "nl": "Hedendaagse reflectie",
+        "es": "Reflexión contemporánea",
+        "de": "Zeitgenössische Reflexion",
+        "it": "Riflessione contemporanea",
+        "ru": "Современная рефлексия",
+        "id": "Refleksi kontemporer",
+        "ja": "現代の内省",
+        "th": "การสะท้อนร่วมสมัย",
+        "ms": "Refleksi kontemporari"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_196_en",
+          "title": "Next Small Step",
+          "content": "Small steps reduce the weight of a big goal. They make time feel possible again.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_196_tr",
+          "title": "Sonraki Küçük Adım",
+          "content": "Küçük adımlar büyük bir hedefin ağırlığını azaltır. zamani yeniden mümkün hissettirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_196_fr",
+          "title": "Le Prochain Petit Pas",
+          "content": "Les petits pas réduisent le poids d'un grand objectif. Ils rendent time à nouveau possible.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_196_pt",
+          "title": "O Próximo Pequeno Passo",
+          "content": "Pequenos passos reduzem o peso de um grande objetivo. Eles fazem time parecer possível novamente.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_196_nl",
+          "title": "De Volgende Kleine Stap",
+          "content": "Kleine stappen verminderen het gewicht van een groot doel. Ze maken time weer mogelijk.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_196_es",
+          "title": "El Siguiente Pequeño Paso",
+          "content": "Los pequeños pasos reducen el peso de un gran objetivo. Hacen que time vuelva a sentirse posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_196_de",
+          "title": "Der Nächste Kleine Schritt",
+          "content": "Kleine Schritte verringern das Gewicht eines großen Ziels. Sie machen time wieder möglich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_196_it",
+          "title": "Il Prossimo Piccolo Passo",
+          "content": "I piccoli passi riducono il peso di un grande obiettivo. Rendono time possibile di nuovo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_196_ru",
+          "title": "Следующий маленький шаг",
+          "content": "Маленькие шаги уменьшают тяжесть большой цели. Они снова делают time возможным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_196_id",
+          "title": "Langkah Kecil Berikutnya",
+          "content": "Langkah kecil mengurangi beban tujuan besar. Mereka membuat time terasa mungkin kembali.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_196_ja",
+          "title": "次の小さな一歩",
+          "content": "小さな一歩は大きな目標の重さを減らす。timeを再び可能に感じさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_196_th",
+          "title": "ก้าวเล็กๆ ถัดไป",
+          "content": "ก้าวเล็กๆ ลดน้ำหนักของเป้าหมายใหญ่ ทำให้ time รู้สึกเป็นไปได้อีกครั้ง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_196_ms",
+          "title": "Langkah Kecil Seterusnya",
+          "content": "Langkah kecil mengurangkan beban matlamat besar. Ia membuat time terasa mungkin semula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_197",
+      "type": "quote",
+      "texts": {
+        "en": "time becomes reliable when you keep gentle promises to yourself.",
+        "tr": "zaman, kendine verdiğin nazik sözleri tuttuğunda güvenilir olur.",
+        "fr": "time devient fiable quand tu tiens de douces promesses envers toi-même.",
+        "pt": "time torna-se confiável quando você cumpre promessas gentis a si mesmo.",
+        "nl": "time wordt betrouwbaar wanneer je zachte beloften aan jezelf nakomt.",
+        "es": "time se vuelve confiable cuando cumples promesas amables contigo.",
+        "de": "time wird verlässlich, wenn du sanfte Versprechen dir selbst gegenüber einhältst.",
+        "it": "time diventa affidabile quando mantieni promesse gentili a te stesso.",
+        "ru": "time становится надёжным, когда ты сдерживаешь мягкие обещания самому себе.",
+        "id": "time menjadi dapat diandalkan ketika kamu menepati janji lembut pada diri sendiri.",
+        "ja": "timeは、自分への優しい約束を守ると信頼できるものになる。",
+        "th": "time จะมั่นคงเมื่อคุณรักษาสัญญาอ่อนโยนกับตัวเอง",
+        "ms": "time menjadi boleh dipercayai apabila anda menunaikan janji lembut kepada diri sendiri."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_197_en",
+          "title": "Gentle Promises",
+          "content": "Consistent self-trust builds results. Each kept promise strengthens time.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_197_tr",
+          "title": "Nazik Sözler",
+          "content": "Tutarlı öz güven sonuç üretir. Tutulan her söz zamani güçlendirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_197_fr",
+          "title": "Promesses Douces",
+          "content": "La confiance en soi constante construit des résultats. Chaque promesse tenue renforce time.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_197_pt",
+          "title": "Promessas Gentis",
+          "content": "A autoconfiança consistente constrói resultados. Cada promessa cumprida fortalece time.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_197_nl",
+          "title": "Zachte Beloftes",
+          "content": "Consistent zelfvertrouwen bouwt resultaten op. Elke nagekomen belofte versterkt time.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_197_es",
+          "title": "Promesas Amables",
+          "content": "La confianza constante en uno mismo construye resultados. Cada promesa cumplida fortalece time.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_197_de",
+          "title": "Sanfte Versprechen",
+          "content": "Konsequentes Selbstvertrauen baut Ergebnisse auf. Jedes gehaltene Versprechen stärkt time.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_197_it",
+          "title": "Promesse Gentili",
+          "content": "La fiducia in sé costante costruisce risultati. Ogni promessa mantenuta rafforza time.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_197_ru",
+          "title": "Мягкие обещания",
+          "content": "Последовательное доверие к себе приносит результаты. Каждое выполненное обещание укрепляет time.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_197_id",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membangun hasil. Setiap janji yang ditepati memperkuat time.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_197_ja",
+          "title": "優しい約束",
+          "content": "一貫した自己信頼が結果を築く。守れた約束がtimeを強くする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_197_th",
+          "title": "สัญญาอ่อนโยน",
+          "content": "ความเชื่อมั่นในตัวเองอย่างสม่ำเสมอสร้างผลลัพธ์ ทุกสัญญาที่รักษาไว้เสริมให้ time แข็งแรงขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_197_ms",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membina hasil. Setiap janji yang ditepati menguatkan time.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_198",
+      "type": "quote",
+      "texts": {
+        "en": "Let time be shaped by values, not pressure.",
+        "tr": "zamanin, baskıyla değil değerlerle şekillensin.",
+        "fr": "Que time soit façonné par les valeurs, pas par la pression.",
+        "pt": "Deixe time ser moldado por valores, não por pressão.",
+        "nl": "Laat time gevormd worden door waarden, niet door druk.",
+        "es": "Que time se moldee por valores, no por presión.",
+        "de": "Lass time von Werten geformt werden, nicht von Druck.",
+        "it": "Lascia che time sia plasmato dai valori, non dalla pressione.",
+        "ru": "Пусть time формируют ценности, а не давление.",
+        "id": "Biarkan time dibentuk oleh nilai, bukan tekanan.",
+        "ja": "timeは圧力ではなく価値観によって形づくられる。",
+        "th": "ให้ time ถูกหล่อหลอมด้วยคุณค่า ไม่ใช่แรงกดดัน",
+        "ms": "Biarkan time dibentuk oleh nilai, bukan tekanan."
+      },
+      "authors": {
+        "en": "Modern proverb",
+        "tr": "Modern atasözü",
+        "fr": "Proverbe moderne",
+        "pt": "Provérbio moderno",
+        "nl": "Moderne spreuk",
+        "es": "Proverbio moderno",
+        "de": "Modernes Sprichwort",
+        "it": "Proverbio moderno",
+        "ru": "Современная пословица",
+        "id": "Peribahasa modern",
+        "ja": "現代のことわざ",
+        "th": "สุภาษิตสมัยใหม่",
+        "ms": "Peribahasa moden"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_198_en",
+          "title": "Values First",
+          "content": "Pressure is loud; values are clear. When values lead, time stays aligned.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_198_tr",
+          "title": "Önce Değerler",
+          "content": "Baskı gürültülüdür; değerler nettir. Değerler önde olduğunda zaman uyumlu kalır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_198_fr",
+          "title": "Les Valeurs D'Abord",
+          "content": "La pression est bruyante ; les valeurs sont claires. Quand les valeurs guident, time reste aligné.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_198_pt",
+          "title": "Valores Primeiro",
+          "content": "A pressão é barulhenta; os valores são claros. Quando os valores lideram, time permanece alinhado.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_198_nl",
+          "title": "Waarden Eerst",
+          "content": "Druk is luid; waarden zijn helder. Wanneer waarden leiden, blijft time in lijn.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_198_es",
+          "title": "Valores Primero",
+          "content": "La presión es ruidosa; los valores son claros. Cuando los valores guían, time se mantiene alineado.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_198_de",
+          "title": "Werte Zuerst",
+          "content": "Druck ist laut; Werte sind klar. Wenn Werte führen, bleibt time ausgerichtet.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_198_it",
+          "title": "Valori Prima",
+          "content": "La pressione è rumorosa; i valori sono chiari. Quando i valori guidano, time resta allineato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_198_ru",
+          "title": "Сначала ценности",
+          "content": "Давление шумно; ценности ясны. Когда ценности ведут, time остаётся в согласии.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_198_id",
+          "title": "Nilai Utama",
+          "content": "Tekanan itu bising; nilai itu jelas. Saat nilai memimpin, time tetap selaras.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_198_ja",
+          "title": "価値観を先に",
+          "content": "圧力は騒がしく、価値観は明確だ。価値観が導くとtimeは整ったままになる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_198_th",
+          "title": "คุณค่ามาก่อน",
+          "content": "แรงกดดันเสียงดัง แต่คุณค่าชัดเจน เมื่อคุณค่านำทาง time จะอยู่ในแนวเดียวกัน",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_198_ms",
+          "title": "Nilai Diutamakan",
+          "content": "Tekanan bising; nilai jelas. Apabila nilai memimpin, time kekal selaras.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_199",
+      "type": "quote",
+      "texts": {
+        "en": "A calm rhythm keeps time moving.",
+        "tr": "Sakin bir ritim zamani ilerletir.",
+        "fr": "Un rythme calme fait avancer time.",
+        "pt": "Um ritmo calmo mantém time em movimento.",
+        "nl": "Een rustig ritme houdt time in beweging.",
+        "es": "Un ritmo calmado mantiene time en movimiento.",
+        "de": "Ein ruhiger Rhythmus hält time in Bewegung.",
+        "it": "Un ritmo calmo mantiene time in movimento.",
+        "ru": "Спокойный ритм поддерживает движение в time.",
+        "id": "Ritme yang tenang menjaga time tetap bergerak.",
+        "ja": "穏やかなリズムがtimeを動かし続ける。",
+        "th": "จังหวะที่สงบทำให้ time เดินหน้าต่อ",
+        "ms": "Rentak yang tenang mengekalkan time bergerak."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_199_en",
+          "title": "Calm Rhythm",
+          "content": "Rhythm beats intensity over time. Calm repetition keeps time alive.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_199_tr",
+          "title": "Sakin Ritim",
+          "content": "Zamanla ritim, yoğunluğu yener. Sakin tekrar zamani canlı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_199_fr",
+          "title": "Rythme Calme",
+          "content": "Avec le temps, le rythme l'emporte sur l'intensité. La répétition calme garde time vivant.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_199_pt",
+          "title": "Ritmo Calmo",
+          "content": "Com o tempo, o ritmo vence a intensidade. A repetição calma mantém time vivo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_199_nl",
+          "title": "Rustig Ritme",
+          "content": "Op termijn wint ritme van intensiteit. Kalme herhaling houdt time levend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_199_es",
+          "title": "Ritmo Calmado",
+          "content": "Con el tiempo, el ritmo supera la intensidad. La repetición calmada mantiene time vivo.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_199_de",
+          "title": "Ruhiger Rhythmus",
+          "content": "Mit der Zeit schlägt Rhythmus die Intensität. Ruhige Wiederholung hält time lebendig.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_199_it",
+          "title": "Ritmo Calmo",
+          "content": "Con il tempo, il ritmo supera l'intensità. La ripetizione calma mantiene time vivo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_199_ru",
+          "title": "Спокойный ритм",
+          "content": "Со временем ритм побеждает интенсивность. Спокойное повторение поддерживает time живым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_199_id",
+          "title": "Ritme Tenang",
+          "content": "Seiring waktu, ritme mengalahkan intensitas. Pengulangan yang tenang menjaga time tetap hidup.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_199_ja",
+          "title": "穏やかなリズム",
+          "content": "時間が経つほど、強度よりリズムが勝る。穏やかな反復がtimeを生かす。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_199_th",
+          "title": "จังหวะที่สงบ",
+          "content": "เมื่อเวลาผ่านไป จังหวะชนะความเข้มข้น การทำซ้ำอย่างสงบทำให้ time มีชีวิต",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_199_ms",
+          "title": "Rentak Tenang",
+          "content": "Dari masa ke masa, rentak mengatasi intensiti. Ulangan yang tenang mengekalkan time hidup.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_200",
+      "type": "quote",
+      "texts": {
+        "en": "In time, patience turns effort into skill.",
+        "tr": "zaman alanında sabır, çabayı beceriye dönüştürür.",
+        "fr": "En time, la patience transforme l'effort en compétence.",
+        "pt": "Em time, a paciência transforma esforço em habilidade.",
+        "nl": "In time verandert geduld inspanning in vaardigheid.",
+        "es": "En time, la paciencia convierte el esfuerzo en habilidad.",
+        "de": "In time verwandelt Geduld Mühe in Können.",
+        "it": "In time, la pazienza trasforma lo sforzo in abilità.",
+        "ru": "В time терпение превращает усилия в мастерство.",
+        "id": "Dalam time, kesabaran mengubah usaha menjadi keterampilan.",
+        "ja": "timeでは、忍耐が努力を技に変える。",
+        "th": "ใน time ความอดทนเปลี่ยนความพยายามให้เป็นทักษะ",
+        "ms": "Dalam time, kesabaran menukar usaha menjadi kemahiran."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_200_en",
+          "title": "Patience Becomes Skill",
+          "content": "Skill grows slowly and surely. Give time time, and it will become natural.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_200_tr",
+          "title": "Sabır Beceridir",
+          "content": "Beceri yavaş ama sağlam büyür. zamane zaman ver, doğal hale gelir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_200_fr",
+          "title": "La Patience Devient Compétence",
+          "content": "La compétence grandit lentement et sûrement. Donne du temps à time, et cela deviendra naturel.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_200_pt",
+          "title": "Paciência Vira Habilidade",
+          "content": "A habilidade cresce lenta e seguramente. Dê tempo a time, e ela se tornará natural.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_200_nl",
+          "title": "Geduld Wordt Vaardigheid",
+          "content": "Vaardigheid groeit langzaam en zeker. Geef time tijd, en het wordt vanzelfsprekend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_200_es",
+          "title": "La Paciencia se Vuelve Habilidad",
+          "content": "La habilidad crece lenta y seguramente. Dale tiempo a time, y se volverá natural.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_200_de",
+          "title": "Geduld Wird Können",
+          "content": "Können wächst langsam und sicher. Gib time Zeit, dann wird es natürlich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_200_it",
+          "title": "La Pazienza Diventa Abilità",
+          "content": "L'abilità cresce lentamente e con sicurezza. Dai tempo a time, e diventerà naturale.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_200_ru",
+          "title": "Терпение превращается в навык",
+          "content": "Навык растёт медленно и уверенно. Дай time время, и оно станет естественным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_200_id",
+          "title": "Kesabaran Menjadi Keterampilan",
+          "content": "Keterampilan tumbuh perlahan namun pasti. Beri time waktu, dan itu akan terasa alami.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_200_ja",
+          "title": "忍耐が技になる",
+          "content": "スキルはゆっくり確実に育つ。timeに時間を与えれば自然になる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_200_th",
+          "title": "ความอดทนกลายเป็นทักษะ",
+          "content": "ทักษะเติบโตอย่างช้าๆ แต่มั่นคง ให้เวลา time แล้วมันจะเป็นธรรมชาติ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_200_ms",
+          "title": "Kesabaran Menjadi Kemahiran",
+          "content": "Kemahiran berkembang perlahan tetapi pasti. Beri time masa, dan ia akan menjadi semula jadi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_201",
+      "type": "quote",
+      "texts": {
+        "en": "Simplicity makes time sustainable.",
+        "tr": "Sadelik zamani sürdürülebilir kılar.",
+        "fr": "La simplicité rend time durable.",
+        "pt": "A simplicidade torna time sustentável.",
+        "nl": "Eenvoud maakt time duurzaam.",
+        "es": "La simplicidad hace que time sea sostenible.",
+        "de": "Einfachheit macht time nachhaltig.",
+        "it": "La semplicità rende time sostenibile.",
+        "ru": "Простота делает time устойчивым.",
+        "id": "Kesederhanaan membuat time berkelanjutan.",
+        "ja": "シンプルさがtimeを持続可能にする。",
+        "th": "ความเรียบง่ายทำให้ time ยั่งยืน",
+        "ms": "Kesederhanaan menjadikan time mampan."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_201_en",
+          "title": "Sustainable Simplicity",
+          "content": "When the plan is simple, it can be repeated. That repetition keeps time going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_201_tr",
+          "title": "Sürdürülebilir Sadelik",
+          "content": "Plan sade olduğunda tekrar edilebilir. Bu tekrar zamani sürdürür.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_201_fr",
+          "title": "Simplicité Durable",
+          "content": "Quand le plan est simple, il peut être répété. Cette répétition fait avancer time.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_201_pt",
+          "title": "Simplicidade Sustentável",
+          "content": "Quando o plano é simples, ele pode ser repetido. Essa repetição mantém time em andamento.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_201_nl",
+          "title": "Duurzame Eenvoud",
+          "content": "Als het plan eenvoudig is, kan het worden herhaald. Die herhaling houdt time gaande.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_201_es",
+          "title": "Simplicidad Sostenible",
+          "content": "Cuando el plan es simple, se puede repetir. Esa repetición mantiene time en marcha.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_201_de",
+          "title": "Nachhaltige Einfachheit",
+          "content": "Wenn der Plan einfach ist, kann er wiederholt werden. Diese Wiederholung hält time am Laufen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_201_it",
+          "title": "Semplicità Sostenibile",
+          "content": "Quando il piano è semplice, può essere ripetuto. Questa ripetizione mantiene time in movimento.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_201_ru",
+          "title": "Устойчивая простота",
+          "content": "Когда план прост, его можно повторять. Это повторение поддерживает time.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_201_id",
+          "title": "Kesederhanaan Berkelanjutan",
+          "content": "Ketika rencana sederhana, ia bisa diulang. Pengulangan itu menjaga time tetap berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_201_ja",
+          "title": "続くシンプルさ",
+          "content": "計画がシンプルなら繰り返せる。その反復がtimeを続けさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_201_th",
+          "title": "ความเรียบง่ายที่ยั่งยืน",
+          "content": "เมื่อแผนเรียบง่าย ก็ทำซ้ำได้ การทำซ้ำนี้ทำให้ time เดินต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_201_ms",
+          "title": "Kesederhanaan Mampan",
+          "content": "Apabila pelan ringkas, ia boleh diulang. Ulangan itu mengekalkan time berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "time_202",
+      "type": "quote",
+      "texts": {
+        "en": "End the day knowing time moved forward, even a little.",
+        "tr": "Günü zamanin biraz da olsa ilerlediğini bilerek bitir.",
+        "fr": "Termine la journée en sachant que time a avancé, même un peu.",
+        "pt": "Termine o dia sabendo que time avançou, ainda que um pouco.",
+        "nl": "Sluit de dag af wetend dat time vooruitging, al was het maar een beetje.",
+        "es": "Termina el día sabiendo que time avanzó, aunque sea un poco.",
+        "de": "Beende den Tag in dem Wissen, dass time vorangekommen ist, auch wenn es nur ein wenig war.",
+        "it": "Concludi la giornata sapendo che time è avanzato, anche solo un poco.",
+        "ru": "Заверши день, зная, что time продвинулся, пусть даже немного.",
+        "id": "Akhiri hari dengan tahu time maju, meski sedikit.",
+        "ja": "一日を、timeが少しでも前に進んだと感じて終える。",
+        "th": "จบวันด้วยการรู้ว่า time เดินหน้าไปแล้ว แม้เพียงเล็กน้อย",
+        "ms": "Akhiri hari dengan mengetahui time bergerak maju, walaupun sedikit."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "time",
+      "tags": {
+        "en": [
+          "time",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "zaman",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "time",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "time",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "time",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "time",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "time",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "time",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "time",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "time",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "time",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "time",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_time_202_en",
+          "title": "Forward, Even a Little",
+          "content": "Small progress still counts. Acknowledging time today makes tomorrow easier to begin.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_time_202_tr",
+          "title": "Biraz da Olsa İleri",
+          "content": "Küçük ilerleme de önemlidir. zamani bugün fark etmek yarına başlamayı kolaylaştırır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_time_202_fr",
+          "title": "En Avant, Même Un Peu",
+          "content": "Le petit progrès compte aussi. Reconnaître time aujourd'hui rend demain plus facile à commencer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_time_202_pt",
+          "title": "Avançar, Mesmo que Pouco",
+          "content": "O pequeno progresso também conta. Reconhecer time hoje torna amanhã mais fácil de começar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_time_202_nl",
+          "title": "Vooruit, Al is het een beetje",
+          "content": "Kleine vooruitgang telt ook. time vandaag erkennen maakt morgen makkelijker om te beginnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_time_202_es",
+          "title": "Avanzar, aunque sea un poco",
+          "content": "El pequeño progreso también cuenta. Reconocer time hoy hace que mañana sea más fácil de empezar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_time_202_de",
+          "title": "Vorwärts, auch ein wenig",
+          "content": "Kleiner Fortschritt zählt auch. time heute anzuerkennen macht es morgen leichter anzufangen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_time_202_it",
+          "title": "Avanti, anche solo un po'",
+          "content": "Anche il piccolo progresso conta. Riconoscere time oggi rende domani più facile iniziare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_time_202_ru",
+          "title": "Вперёд, хоть немного",
+          "content": "Небольшой прогресс тоже важен. Признание time сегодня облегчает начало завтра.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_time_202_id",
+          "title": "Maju, Walau Sedikit",
+          "content": "Kemajuan kecil tetap berarti. Mengakui time hari ini membuat besok lebih mudah dimulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_time_202_ja",
+          "title": "少しでも前へ",
+          "content": "小さな進歩でも十分価値がある。今日timeを認めることが、明日始めやすくする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_time_202_th",
+          "title": "ก้าวไปข้างหน้า แม้เพียงเล็กน้อย",
+          "content": "ความก้าวหน้าเล็กๆ ก็มีความหมาย การยอมรับ time ในวันนี้ทำให้เริ่มพรุ่งนี้ได้ง่ายขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_time_202_ms",
+          "title": "Maju, Walaupun Sedikit",
+          "content": "Kemajuan kecil tetap bermakna. Mengakui time hari ini menjadikan esok lebih mudah dimulakan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

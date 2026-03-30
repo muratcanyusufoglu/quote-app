@@ -324,36 +324,31 @@
     "daily_limit_fallback_highlight": "Nunca pierdas tu inspiración diaria"
   },
   "mood_motivation": {
-    "title": "Motivación Basada en el Estado de Ánimo",
-    "subtitle": "Obtén motivación personalizada basada en cómo te sientes",
-    "question_feeling": "¿Cómo te sientes en general?",
-    "question_feeling_personalized": "¿Cómo te sientes {userName}?",
-    "question_energy": "¿Cuál es tu nivel de energía?",
-    "question_energy_personalized": "¿Cuál es tu nivel de energía {userName}?",
-    "question_affecting": "¿Qué te está afectando más hoy?",
-    "question_affecting_personalized": "¿Qué está afectando más a {userName} hoy?",
-    "generating": "Generando tu mensaje personalizado...",
-    "share": "Compartir",
-    "try_different": "Probar Mensaje Diferente",
-    "error_generating": "Error al generar mensaje",
-    "error_message": "Inténtalo de nuevo más tarde",
-    "close": "Cerrar",
-    "emojis": {
-      "😄": "Feliz",
-      "🙂": "Tranquilo",
-      "😐": "Neutral",
-      "😟": "Triste",
-      "😔": "Muy Triste",
-      "⚡": "Muy Energético",
-      "💪": "Energético",
-      "😴": "Cansado",
-      "🔋": "Cargado",
-      "😊": "Motivación",
-      "😥": "Estrés",
-      "😠": "Ira",
-      "💡": "Pensamientos",
-      "🌧️": "Ansiedad",
-      "✨": "Objetivos"
+    "title": "🧠 Motivación Basada en el Estado de Ánimo",
+    "feeling_question": "¿Cómo te sientes?",
+    "energy_question": "¿Nivel de Energía?",
+    "affecting_question": "¿Qué te afecta más?",
+    "generate_button": "Generar Motivación ✨",
+    "close_button": "Cerrar",
+    "moods": {
+      "happy": "Feliz",
+      "sad": "Triste",
+      "anxious": "Ansioso",
+      "excited": "Emocionado",
+      "tired": "Cansado",
+      "motivated": "Motivado"
+    },
+    "energy_levels": {
+      "low": "Bajo",
+      "medium": "Medio",
+      "high": "Alto"
+    },
+    "affecting_factors": {
+      "work": "Trabajo",
+      "relationships": "Relaciones",
+      "health": "Salud",
+      "goals": "Metas",
+      "family": "Familia"
     }
   },
   "onboarding": {
@@ -394,7 +389,8 @@
       "reading_length": "¿Qué longitud de citas te gusta leer?",
       "notification_count": "¿Cuántas notificaciones quieres por día?",
       "notification_time_range": "¿Durante qué horas quieres recibir notificaciones?",
-      "user_name": "¿Cómo deberíamos llamarte?"
+      "user_name": "¿Cómo deberíamos llamarte?",
+      "content_type": "¿Qué tipo de contenido prefieres?"
     },
     "placeholders": {
       "user_name": "Ingresa tu nombre..."
@@ -427,7 +423,9 @@
       "long": "Largo y detallado",
       "daily": "Diariamente",
       "weekly": "Varias veces a la semana",
-      "occasional": "Ocasionalmente"
+      "occasional": "Ocasionalmente",
+      "quotes": "Citas",
+      "affirmations": "Afirmaciones"
     }
   },
   "quote_detail": {
@@ -557,33 +555,5 @@
     "privacy_policy_subtitle": "Ver nuestra política de privacidad",
     "terms_of_use": "Términos de Uso",
     "terms_of_use_subtitle": "Apple Standard EULA"
-  },
-  "mood_motivation": {
-    "title": "🧠 Motivación Basada en el Estado de Ánimo",
-    "feeling_question": "¿Cómo te sientes?",
-    "energy_question": "¿Nivel de Energía?",
-    "affecting_question": "¿Qué te afecta más?",
-    "generate_button": "Generar Motivación ✨",
-    "close_button": "Cerrar",
-    "moods": {
-      "happy": "Feliz",
-      "sad": "Triste",
-      "anxious": "Ansioso",
-      "excited": "Emocionado",
-      "tired": "Cansado",
-      "motivated": "Motivado"
-    },
-    "energy_levels": {
-      "low": "Bajo",
-      "medium": "Medio",
-      "high": "Alto"
-    },
-    "affecting_factors": {
-      "work": "Trabajo",
-      "relationships": "Relaciones",
-      "health": "Salud",
-      "goals": "Metas",
-      "family": "Familia"
-    }
   }
 }

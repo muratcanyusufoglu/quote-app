@@ -367,7 +367,8 @@
       "reading_length": "Wie lange Zitate liest du gerne?",
       "notification_count": "Wie viele Benachrichtigungen möchtest du pro Tag?",
       "notification_time_range": "Während welcher Stunden möchtest du Benachrichtigungen erhalten?",
-      "user_name": "Wie sollen wir dich nennen?"
+      "user_name": "Wie sollen wir dich nennen?",
+      "content_type": "Welche Art von Inhalten magst du lieber?"
     },
     "placeholders": {
       "user_name": "Gib deinen Namen ein..."
@@ -400,7 +401,9 @@
       "long": "Lang und detailliert",
       "daily": "Täglich",
       "weekly": "Mehrmals pro Woche",
-      "occasional": "Gelegentlich"
+      "occasional": "Gelegentlich",
+      "quotes": "Zitate",
+      "affirmations": "Affirmationen"
     }
   },
   "quote_detail": {
@@ -472,30 +475,30 @@
     "system": "System",
     "color_themes": "Farb-Themen",
     "color_themes_description": "Wähle deine Lieblings-Farbpalette",
-      "uprising": {
-        "name": "Uprising",
-        "description": "Warmes und inspirierendes Uprising-Thema"
-      },
-      "ocean": {
-        "name": "Ozean",
-        "description": "Beruhigende Blau- und Türkistöne"
-      },
-      "forest": {
-        "name": "Wald",
-        "description": "Natürliche Grüntöne und Erdfarben"
-      },
-      "sunset": {
-        "name": "Erde",
-        "description": "Warme Erdtöne"
-      },
-      "purple": {
-        "name": "Lila",
-        "description": "Königliche Lila- und Lavendeltöne"
-      },
-      "minimalist": {
-        "name": "Minimalistisch",
-        "description": "Saubere Grautöne und raffinierte Farben"
-      }
+    "uprising": {
+      "name": "Uprising",
+      "description": "Warmes und inspirierendes Uprising-Thema"
+    },
+    "ocean": {
+      "name": "Ozean",
+      "description": "Beruhigende Blau- und Türkistöne"
+    },
+    "forest": {
+      "name": "Wald",
+      "description": "Natürliche Grüntöne und Erdfarben"
+    },
+    "sunset": {
+      "name": "Erde",
+      "description": "Warme Erdtöne"
+    },
+    "purple": {
+      "name": "Lila",
+      "description": "Königliche Lila- und Lavendeltöne"
+    },
+    "minimalist": {
+      "name": "Minimalistisch",
+      "description": "Saubere Grautöne und raffinierte Farben"
+    }
   },
   "store_review": {
     "request_title": "Gefällt dir Quote?",

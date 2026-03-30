@@ -142,7 +142,7 @@
       "section_title": "含まれるもの：",
       "rating_text": "4.9 • 50,000+ユーザー",
       "restore_purchase": "購入を復元",
-      "trust_text": "いつでもキャンセル • 安全な支払い • 15日間保証",
+      "trust_text": "⭐ 4.9評価 • 50,000+ユーザーが信頼",
       "title": "あなたの無制限のインスピレーション源",
       "subtitle": "10,000以上のインスピレーション引用への無制限アクセスを取得",
       "free_trial_highlight": "🎉 3日間無料",
@@ -159,7 +159,6 @@
       "feature_stories": "📚 独占ストーリーとレッスン",
       "feature_ai": "🧠 AIパーソナライゼーション",
       "feature_adfree": "💎 広告なし体験",
-      "trust_text": "⭐ 4.9評価 • 50,000+ユーザーが信頼",
       "legal_benefits": "サブスクリプションで無制限の引用、プレミアムカテゴリ、広告なし読み取り、オフラインアクセス、パーソナライズされた推奨事項を提供します。",
       "legal_renew_note": "自動更新サブスクリプション。アカウント設定でいつでもキャンセル可能。支払いはApple IDに請求されます。",
       "discount_offer_title": "見逃さないで！",
@@ -325,36 +324,31 @@
     "daily_limit_fallback_highlight": "毎日のインスピレーションを見逃さないでください"
   },
   "mood_motivation": {
-    "title": "気分ベースのモチベーション",
-    "subtitle": "あなたの気分に基づいてパーソナライズされたモチベーションを取得",
-    "question_feeling": "一般的にどのように感じていますか？",
-    "question_feeling_personalized": "{userName}、どのように感じていますか？",
-    "question_energy": "あなたのエネルギーレベルはどうですか？",
-    "question_energy_personalized": "{userName}、あなたのエネルギーレベルはどうですか？",
-    "question_affecting": "今日あなたに最も影響を与えているものは何ですか？",
-    "question_affecting_personalized": "今日{userName}に最も影響を与えているものは何ですか？",
-    "generating": "あなたのパーソナライズされたメッセージを生成中...",
-    "share": "シェア",
-    "try_different": "別のメッセージを試す",
-    "error_generating": "メッセージ生成エラー",
-    "error_message": "後でもう一度お試しください",
-    "close": "閉じる",
-    "emojis": {
-      "😄": "幸せ",
-      "🙂": "穏やか",
-      "😐": "中立",
-      "😟": "悲しい",
-      "😔": "とても悲しい",
-      "⚡": "とてもエネルギッシュ",
-      "💪": "エネルギッシュ",
-      "😴": "疲れた",
-      "🔋": "充電済み",
-      "😊": "モチベーション",
-      "😥": "ストレス",
-      "😠": "怒り",
-      "💡": "思考",
-      "🌧️": "不安",
-      "✨": "目標"
+    "title": "🧠 ムードベースのモチベーション",
+    "feeling_question": "気分はどうですか？",
+    "energy_question": "エネルギーレベルは？",
+    "affecting_question": "何が一番影響していますか？",
+    "generate_button": "モチベーションを生成 ✨",
+    "close_button": "閉じる",
+    "moods": {
+      "happy": "幸せ",
+      "sad": "悲しい",
+      "anxious": "不安",
+      "excited": "興奮",
+      "tired": "疲れた",
+      "motivated": "やる気がある"
+    },
+    "energy_levels": {
+      "low": "低い",
+      "medium": "中程度",
+      "high": "高い"
+    },
+    "affecting_factors": {
+      "work": "仕事",
+      "relationships": "人間関係",
+      "health": "健康",
+      "goals": "目標",
+      "family": "家族"
     }
   },
   "onboarding": {
@@ -395,7 +389,8 @@
       "reading_length": "どのくらいの長さの名言を読むのが好きですか？",
       "notification_count": "1日に何個の通知が欲しいですか？",
       "notification_time_range": "何時間の間に通知を受け取りたいですか？",
-      "user_name": "何とお呼びすればよろしいですか？"
+      "user_name": "何とお呼びすればよろしいですか？",
+      "content_type": "どんなコンテンツが好みですか？"
     },
     "placeholders": {
       "user_name": "お名前を入力してください..."
@@ -428,7 +423,9 @@
       "long": "長く詳細",
       "daily": "毎日",
       "weekly": "週に数回",
-      "occasional": "時々"
+      "occasional": "時々",
+      "quotes": "名言",
+      "affirmations": "アファメーション"
     }
   },
   "quote_detail": {
@@ -558,33 +555,5 @@
     "privacy_policy_subtitle": "プライバシーポリシーを表示",
     "terms_of_use": "利用規約",
     "terms_of_use_subtitle": "Apple標準EULA"
-  },
-  "mood_motivation": {
-    "title": "🧠 ムードベースのモチベーション",
-    "feeling_question": "気分はどうですか？",
-    "energy_question": "エネルギーレベルは？",
-    "affecting_question": "何が一番影響していますか？",
-    "generate_button": "モチベーションを生成 ✨",
-    "close_button": "閉じる",
-    "moods": {
-      "happy": "幸せ",
-      "sad": "悲しい",
-      "anxious": "不安",
-      "excited": "興奮",
-      "tired": "疲れた",
-      "motivated": "やる気がある"
-    },
-    "energy_levels": {
-      "low": "低い",
-      "medium": "中程度",
-      "high": "高い"
-    },
-    "affecting_factors": {
-      "work": "仕事",
-      "relationships": "人間関係",
-      "health": "健康",
-      "goals": "目標",
-      "family": "家族"
-    }
   }
 }

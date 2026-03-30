@@ -169,6 +169,7 @@ export interface UserPreferences {
     end: string; // Format: "HH:mm" (e.g., "18:00")
   };
   userName: string; // User's preferred name for personalization
+  contentType: "quotes" | "affirmations" | "both"; // Preferred content type
 }
 
 export interface OnboardingQuestion {

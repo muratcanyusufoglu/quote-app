@@ -42,6 +42,26 @@ export const getOnboardingQuestions = (
     ],
   },
   {
+    id: "content_type",
+    type: "multiple",
+    question: t("onboarding.questions.content_type"),
+    required: true,
+    options: [
+      {
+        id: "quotes",
+        label: t("onboarding.options.quotes"),
+        value: "quotes",
+        icon: "book",
+      },
+      {
+        id: "affirmations",
+        label: t("onboarding.options.affirmations"),
+        value: "affirmations",
+        icon: "heart",
+      },
+    ],
+  },
+  {
     id: "topics",
     type: "multiple",
     question: t("onboarding.questions.topics"),

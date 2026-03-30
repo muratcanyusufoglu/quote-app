@@ -55065,6 +55065,1836 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "gen_416",
+      "type": "quote",
+      "texts": {
+        "en": "Quiet progress beats dramatic starts.",
+        "tr": "Sessiz ilerleme, gösterişli başlangıçlardan daha iyidir.",
+        "fr": "Le progrès discret vaut mieux que les débuts spectaculaires.",
+        "pt": "O progresso silencioso supera começos dramáticos.",
+        "nl": "Stille vooruitgang overtreft dramatische starts.",
+        "es": "El progreso silencioso supera los comienzos dramáticos.",
+        "de": "Ruhiger Fortschritt schlägt dramatische Anfänge.",
+        "it": "Il progresso silenzioso supera gli inizi drammatici.",
+        "ru": "Тихий прогресс лучше громких стартов.",
+        "id": "Kemajuan yang tenang mengalahkan awal yang dramatis.",
+        "ja": "静かな前進が劇的な始まりに勝る。",
+        "th": "ความก้าวหน้าที่เงียบสงบดีกว่าการเริ่มต้นที่หวือหวา",
+        "ms": "Kemajuan yang tenang mengatasi permulaan yang dramatik."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_416_en",
+          "title": "Quiet Progress",
+          "content": "Big beginnings fade quickly, but steady movement lasts. Keep it quiet and consistent, and it will carry you further.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_416_tr",
+          "title": "Sessiz İlerleme",
+          "content": "Büyük başlangıçlar çabuk söner, ama istikrarlı hareket kalır. Sakin ve tutarlı kal; seni daha ileri taşır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_416_fr",
+          "title": "Progrès Discret",
+          "content": "Les grands débuts s'estompent vite, mais le mouvement régulier dure. Reste calme et constant, et cela te portera plus loin.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_416_pt",
+          "title": "Progresso Silencioso",
+          "content": "Grandes começos se apagam rápido, mas o movimento constante dura. Mantenha-se calmo e consistente, e isso o levará mais longe.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_416_nl",
+          "title": "Stille Vooruitgang",
+          "content": "Grote beginnen vervagen snel, maar gestage beweging blijft. Blijf rustig en consistent, dan brengt het je verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_416_es",
+          "title": "Progreso Silencioso",
+          "content": "Los grandes comienzos se desvanecen rápido, pero el movimiento constante dura. Mantente tranquilo y constante, y te llevará más lejos.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_416_de",
+          "title": "Stiller Fortschritt",
+          "content": "Große Anfänge verblassen schnell, aber stetige Bewegung bleibt. Bleib ruhig und konsequent, dann trägt es dich weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_416_it",
+          "title": "Progresso Silenzioso",
+          "content": "I grandi inizi svaniscono in fretta, ma il movimento costante dura. Rimani calmo e costante, e ti porterà più lontano.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_416_ru",
+          "title": "Тихий прогресс",
+          "content": "Большие начала быстро угасают, а устойчивое движение остаётся. Оставайся спокойным и последовательным — это поведёт тебя дальше.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_416_id",
+          "title": "Kemajuan Tenang",
+          "content": "Awal yang besar cepat memudar, tetapi gerak yang stabil bertahan. Tetap tenang dan konsisten, dan itu akan membawamu lebih jauh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_416_ja",
+          "title": "静かな前進",
+          "content": "大きな始まりはすぐに薄れるが、着実な動きは続く。静かで一貫していれば、もっと先へ進める。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_416_th",
+          "title": "ความก้าวหน้าเงียบๆ",
+          "content": "การเริ่มต้นใหญ่โตจางหายเร็ว แต่การเคลื่อนไหวที่สม่ำเสมอคงอยู่ รักษาความสงบและความสม่ำเสมอ แล้วมันจะพาคุณไปไกลกว่าเดิม",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_416_ms",
+          "title": "Kemajuan Tenang",
+          "content": "Permulaan yang besar cepat pudar, tetapi pergerakan yang stabil kekal. Kekal tenang dan konsisten, dan ia akan membawa anda lebih jauh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_417",
+      "type": "quote",
+      "texts": {
+        "en": "What you care for thrives when attention is steady and kind.",
+        "tr": "Özen gösterdiğin şey, dikkat istikrarlı ve nazik olduğunda gelişir.",
+        "fr": "Ce que tu soignes prospère quand l'attention est stable et bienveillante.",
+        "pt": "O que você cuida floresce quando a atenção é estável e gentil.",
+        "nl": "Waar je om geeft groeit wanneer aandacht stabiel en vriendelijk is.",
+        "es": "Lo que cuidas prospera cuando la atención es estable y amable.",
+        "de": "Wofür du sorgst, gedeiht, wenn die Aufmerksamkeit beständig und freundlich ist.",
+        "it": "Ciò di cui ti prendi cura prospera quando l'attenzione è stabile e gentile.",
+        "ru": "То, о чём ты заботишься, расцветает, когда внимание устойчиво и доброжелательно.",
+        "id": "Apa yang kamu rawat berkembang ketika perhatian stabil dan ramah.",
+        "ja": "大切にするものは、注意が安定して優しいときに育つ。",
+        "th": "สิ่งที่คุณดูแลจะเติบโตเมื่อความใส่ใจมั่นคงและอ่อนโยน",
+        "ms": "Apa yang anda jaga berkembang apabila perhatian stabil dan baik."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_417_en",
+          "title": "Steady Attention",
+          "content": "Gentle attention creates space for growth without pressure. A steady gaze keeps what matters healthy.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_417_tr",
+          "title": "İstikrarlı Dikkat",
+          "content": "Nazik dikkat, baskısız bir büyüme alanı açar. İstikrarlı bir bakış, önemli olanı sağlıklı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_417_fr",
+          "title": "Attention Stable",
+          "content": "Une attention douce crée un espace de croissance sans pression. Un regard stable garde ce qui compte en bonne santé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_417_pt",
+          "title": "Atenção Estável",
+          "content": "A atenção gentil cria espaço para crescer sem pressão. Um olhar estável mantém o que importa saudável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_417_nl",
+          "title": "Gestage Aandacht",
+          "content": "Zachte aandacht creëert ruimte voor groei zonder druk. Een stabiele blik houdt wat telt gezond.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_417_es",
+          "title": "Atención Estable",
+          "content": "La atención amable crea espacio para crecer sin presión. Una mirada estable mantiene sano lo que importa.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_417_de",
+          "title": "Beständige Aufmerksamkeit",
+          "content": "Sanfte Aufmerksamkeit schafft Raum für Wachstum ohne Druck. Ein stetiger Blick hält das Wichtige gesund.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_417_it",
+          "title": "Attenzione Stabile",
+          "content": "Un'attenzione gentile crea spazio per crescere senza pressione. Uno sguardo stabile mantiene sano ciò che conta.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_417_ru",
+          "title": "Устойчивое внимание",
+          "content": "Мягкое внимание создаёт пространство для роста без давления. Устойчивый взгляд сохраняет здоровым то, что важно.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_417_id",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian lembut memberi ruang untuk tumbuh tanpa tekanan. Pandangan yang stabil menjaga yang penting tetap sehat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_417_ja",
+          "title": "安定した注意",
+          "content": "優しい注意は、圧力のない成長の余白をつくる。安定した眼差しが大切なものを健やかに保つ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_417_th",
+          "title": "ความใส่ใจที่มั่นคง",
+          "content": "ความใส่ใจอย่างอ่อนโยนสร้างพื้นที่ให้เติบโตโดยไม่กดดัน สายตาที่มั่นคงช่วยให้สิ่งสำคัญแข็งแรง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_417_ms",
+          "title": "Perhatian Stabil",
+          "content": "Perhatian yang lembut membuka ruang untuk berkembang tanpa tekanan. Pandangan yang stabil menjaga perkara penting sihat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_418",
+      "type": "quote",
+      "texts": {
+        "en": "Choose one clear action; the rest follows.",
+        "tr": "Tek bir net eylem seç; gerisi gelir.",
+        "fr": "Choisis une action claire ; le reste suit.",
+        "pt": "Escolha uma ação clara; o resto acompanha.",
+        "nl": "Kies één duidelijke actie; de rest volgt.",
+        "es": "Elige una acción clara; el resto sigue.",
+        "de": "Wähle eine klare Handlung; der Rest folgt.",
+        "it": "Scegli un'azione chiara; il resto segue.",
+        "ru": "Выбери одно ясное действие — остальное последует.",
+        "id": "Pilih satu tindakan yang jelas; sisanya akan mengikuti.",
+        "ja": "一つの明確な行動を選べば、あとはついてくる。",
+        "th": "เลือกการกระทำที่ชัดเจนหนึ่งอย่าง แล้วอย่างอื่นจะตามมา",
+        "ms": "Pilih satu tindakan yang jelas; selebihnya akan mengikut."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_418_en",
+          "title": "One Clear Action",
+          "content": "Clarity turns intention into motion. One clear step gives the day direction.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_418_tr",
+          "title": "Tek Net Eylem",
+          "content": "Netlik, niyeti harekete çevirir. Tek bir net adım güne yön verir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_418_fr",
+          "title": "Une Action Claire",
+          "content": "La clarté transforme l'intention en mouvement. Un pas clair donne une direction à la journée.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_418_pt",
+          "title": "Uma Ação Clara",
+          "content": "A clareza transforma intenção em movimento. Um passo claro dá direção ao dia.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_418_nl",
+          "title": "Eén Duidelijke Actie",
+          "content": "Helderheid zet intentie om in beweging. Eén duidelijke stap geeft de dag richting.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_418_es",
+          "title": "Una Acción Clara",
+          "content": "La claridad convierte la intención en movimiento. Un paso claro da dirección al día.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_418_de",
+          "title": "Eine Klare Handlung",
+          "content": "Klarheit verwandelt Absicht in Bewegung. Ein klarer Schritt gibt dem Tag Richtung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_418_it",
+          "title": "Un'Azione Chiara",
+          "content": "La chiarezza trasforma l'intenzione in movimento. Un passo chiaro dà direzione alla giornata.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_418_ru",
+          "title": "Одно ясное действие",
+          "content": "Ясность превращает намерение в движение. Один ясный шаг задаёт направление дню.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_418_id",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan mengubah niat menjadi gerak. Satu langkah jelas memberi arah pada hari.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_418_ja",
+          "title": "一つの明確な行動",
+          "content": "明確さは意図を動きに変える。明確な一歩が一日に方向を与える。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_418_th",
+          "title": "การกระทำที่ชัดเจนหนึ่งอย่าง",
+          "content": "ความชัดเจนเปลี่ยนเจตนาให้เป็นการเคลื่อนไหว ก้าวที่ชัดเจนหนึ่งก้าวให้ทิศทางกับวัน",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_418_ms",
+          "title": "Satu Tindakan Jelas",
+          "content": "Kejelasan menukar niat menjadi gerak. Satu langkah yang jelas memberi arah kepada hari.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_419",
+      "type": "quote",
+      "texts": {
+        "en": "When things feel heavy, return to the next small step.",
+        "tr": "Her şey ağır geldiğinde bir sonraki küçük adıma dön.",
+        "fr": "Quand tout semble lourd, reviens au prochain petit pas.",
+        "pt": "Quando as coisas parecerem pesadas, volte ao próximo pequeno passo.",
+        "nl": "Als alles zwaar voelt, keer terug naar de volgende kleine stap.",
+        "es": "Cuando las cosas se sientan pesadas, vuelve al siguiente pequeño paso.",
+        "de": "Wenn sich alles schwer anfühlt, kehre zum nächsten kleinen Schritt zurück.",
+        "it": "Quando tutto sembra pesante, torna al prossimo piccolo passo.",
+        "ru": "Когда всё кажется тяжёлым, вернись к следующему маленькому шагу.",
+        "id": "Saat segala sesuatu terasa berat, kembali ke langkah kecil berikutnya.",
+        "ja": "物事が重く感じたら、次の小さな一歩に戻る。",
+        "th": "เมื่อทุกอย่างรู้สึกหนัก ให้กลับไปที่ก้าวเล็กๆ ต่อไป",
+        "ms": "Apabila semuanya terasa berat, kembali kepada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Contemporary reflection",
+        "tr": "Çağdaş bir düşünce",
+        "fr": "Réflexion contemporaine",
+        "pt": "Reflexão contemporânea",
+        "nl": "Hedendaagse reflectie",
+        "es": "Reflexión contemporánea",
+        "de": "Zeitgenössische Reflexion",
+        "it": "Riflessione contemporanea",
+        "ru": "Современная рефлексия",
+        "id": "Refleksi kontemporer",
+        "ja": "現代の内省",
+        "th": "การสะท้อนร่วมสมัย",
+        "ms": "Refleksi kontemporari"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_419_en",
+          "title": "Next Small Step",
+          "content": "Small steps reduce the weight of a big goal. They make progress feel possible again.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_419_tr",
+          "title": "Sonraki Küçük Adım",
+          "content": "Küçük adımlar büyük bir hedefin ağırlığını azaltır. İlerlemeyi yeniden mümkün hissettirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_419_fr",
+          "title": "Le Prochain Petit Pas",
+          "content": "Les petits pas réduisent le poids d'un grand objectif. Ils rendent les progrès à nouveau possibles.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_419_pt",
+          "title": "O Próximo Pequeno Passo",
+          "content": "Pequenos passos reduzem o peso de um grande objetivo. Eles fazem o progresso parecer possível novamente.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_419_nl",
+          "title": "De Volgende Kleine Stap",
+          "content": "Kleine stappen verminderen het gewicht van een groot doel. Ze maken vooruitgang weer mogelijk.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_419_es",
+          "title": "El Siguiente Pequeño Paso",
+          "content": "Los pequeños pasos reducen el peso de un gran objetivo. Hacen que el progreso vuelva a sentirse posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_419_de",
+          "title": "Der Nächste Kleine Schritt",
+          "content": "Kleine Schritte verringern das Gewicht eines großen Ziels. Sie machen Fortschritt wieder möglich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_419_it",
+          "title": "Il Prossimo Piccolo Passo",
+          "content": "I piccoli passi riducono il peso di un grande obiettivo. Rendono il progresso possibile di nuovo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_419_ru",
+          "title": "Следующий маленький шаг",
+          "content": "Маленькие шаги уменьшают тяжесть большой цели. Они снова делают прогресс возможным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_419_id",
+          "title": "Langkah Kecil Berikutnya",
+          "content": "Langkah kecil mengurangi beban tujuan besar. Mereka membuat kemajuan terasa mungkin kembali.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_419_ja",
+          "title": "次の小さな一歩",
+          "content": "小さな一歩は大きな目標の重さを減らす。進歩を再び可能に感じさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_419_th",
+          "title": "ก้าวเล็กๆ ถัดไป",
+          "content": "ก้าวเล็กๆ ลดน้ำหนักของเป้าหมายใหญ่ ทำให้ความก้าวหน้ารู้สึกเป็นไปได้อีกครั้ง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_419_ms",
+          "title": "Langkah Kecil Seterusnya",
+          "content": "Langkah kecil mengurangkan beban matlamat besar. Ia membuat kemajuan terasa mungkin semula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_420",
+      "type": "quote",
+      "texts": {
+        "en": "Progress becomes reliable when you keep gentle promises to yourself.",
+        "tr": "İlerleme, kendine verdiğin nazik sözleri tuttuğunda güvenilir olur.",
+        "fr": "Le progrès devient fiable quand tu tiens de douces promesses envers toi-même.",
+        "pt": "O progresso torna-se confiável quando você cumpre promessas gentis a si mesmo.",
+        "nl": "Vooruitgang wordt betrouwbaar wanneer je zachte beloften aan jezelf nakomt.",
+        "es": "El progreso se vuelve confiable cuando cumples promesas amables contigo.",
+        "de": "Fortschritt wird verlässlich, wenn du sanfte Versprechen dir selbst gegenüber einhältst.",
+        "it": "Il progresso diventa affidabile quando mantieni promesse gentili a te stesso.",
+        "ru": "Прогресс становится надёжным, когда ты сдерживаешь мягкие обещания самому себе.",
+        "id": "Kemajuan menjadi dapat diandalkan ketika kamu menepati janji lembut pada diri sendiri.",
+        "ja": "進歩は、自分への優しい約束を守ると信頼できるものになる。",
+        "th": "ความก้าวหน้าจะมั่นคงเมื่อคุณรักษาสัญญาอ่อนโยนกับตัวเอง",
+        "ms": "Kemajuan menjadi boleh dipercayai apabila anda menunaikan janji lembut kepada diri sendiri."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_420_en",
+          "title": "Gentle Promises",
+          "content": "Consistent self-trust builds results. Each kept promise strengthens your progress.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_420_tr",
+          "title": "Nazik Sözler",
+          "content": "Tutarlı öz güven sonuç üretir. Tutulan her söz ilerlemeyi güçlendirir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_420_fr",
+          "title": "Promesses Douces",
+          "content": "La confiance en soi constante construit des résultats. Chaque promesse tenue renforce ton progrès.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_420_pt",
+          "title": "Promessas Gentis",
+          "content": "A autoconfiança consistente constrói resultados. Cada promessa cumprida fortalece seu progresso.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_420_nl",
+          "title": "Zachte Beloftes",
+          "content": "Consistent zelfvertrouwen bouwt resultaten op. Elke nagekomen belofte versterkt je vooruitgang.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_420_es",
+          "title": "Promesas Amables",
+          "content": "La confianza constante en uno mismo construye resultados. Cada promesa cumplida fortalece tu progreso.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_420_de",
+          "title": "Sanfte Versprechen",
+          "content": "Konsequentes Selbstvertrauen baut Ergebnisse auf. Jedes gehaltene Versprechen stärkt deinen Fortschritt.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_420_it",
+          "title": "Promesse Gentili",
+          "content": "La fiducia in sé costante costruisce risultati. Ogni promessa mantenuta rafforza il tuo progresso.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_420_ru",
+          "title": "Мягкие обещания",
+          "content": "Последовательное доверие к себе приносит результаты. Каждое выполненное обещание укрепляет твой прогресс.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_420_id",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membangun hasil. Setiap janji yang ditepati memperkuat kemajuanmu.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_420_ja",
+          "title": "優しい約束",
+          "content": "一貫した自己信頼が結果を築く。守れた約束が進歩を強くする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_420_th",
+          "title": "สัญญาอ่อนโยน",
+          "content": "ความเชื่อมั่นในตัวเองอย่างสม่ำเสมอสร้างผลลัพธ์ ทุกสัญญาที่รักษาไว้เสริมให้ความก้าวหน้าแข็งแรงขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_420_ms",
+          "title": "Janji Lembut",
+          "content": "Kepercayaan diri yang konsisten membina hasil. Setiap janji yang ditepati menguatkan kemajuan anda.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_421",
+      "type": "quote",
+      "texts": {
+        "en": "Let your choices be shaped by values, not pressure.",
+        "tr": "Seçimlerin baskıyla değil değerlerle şekillensin.",
+        "fr": "Que tes choix soient façonnés par les valeurs, pas par la pression.",
+        "pt": "Deixe suas escolhas serem moldadas por valores, não por pressão.",
+        "nl": "Laat je keuzes gevormd worden door waarden, niet door druk.",
+        "es": "Que tus elecciones se moldeen por valores, no por presión.",
+        "de": "Lass deine Entscheidungen von Werten geformt werden, nicht von Druck.",
+        "it": "Lascia che le tue scelte siano plasmate dai valori, non dalla pressione.",
+        "ru": "Пусть твои решения формируют ценности, а не давление.",
+        "id": "Biarkan pilihanmu dibentuk oleh nilai, bukan tekanan.",
+        "ja": "選択は圧力ではなく価値観によって形づくられる。",
+        "th": "ให้การตัดสินใจของคุณถูกหล่อหลอมด้วยคุณค่า ไม่ใช่แรงกดดัน",
+        "ms": "Biarkan pilihan anda dibentuk oleh nilai, bukan tekanan."
+      },
+      "authors": {
+        "en": "Modern proverb",
+        "tr": "Modern atasözü",
+        "fr": "Proverbe moderne",
+        "pt": "Provérbio moderno",
+        "nl": "Moderne spreuk",
+        "es": "Proverbio moderno",
+        "de": "Modernes Sprichwort",
+        "it": "Proverbio moderno",
+        "ru": "Современная пословица",
+        "id": "Peribahasa modern",
+        "ja": "現代のことわざ",
+        "th": "สุภาษิตสมัยใหม่",
+        "ms": "Peribahasa moden"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_421_en",
+          "title": "Values First",
+          "content": "Pressure is loud; values are clear. When values lead, your path stays aligned.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_421_tr",
+          "title": "Önce Değerler",
+          "content": "Baskı gürültülüdür; değerler nettir. Değerler önde olduğunda yolun uyumlu kalır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_421_fr",
+          "title": "Les Valeurs D'Abord",
+          "content": "La pression est bruyante ; les valeurs sont claires. Quand les valeurs guident, ton chemin reste aligné.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_421_pt",
+          "title": "Valores Primeiro",
+          "content": "A pressão é barulhenta; os valores são claros. Quando os valores lideram, seu caminho permanece alinhado.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_421_nl",
+          "title": "Waarden Eerst",
+          "content": "Druk is luid; waarden zijn helder. Wanneer waarden leiden, blijft je pad in lijn.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_421_es",
+          "title": "Valores Primero",
+          "content": "La presión es ruidosa; los valores son claros. Cuando los valores guían, tu camino se mantiene alineado.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_421_de",
+          "title": "Werte Zuerst",
+          "content": "Druck ist laut; Werte sind klar. Wenn Werte führen, bleibt dein Weg ausgerichtet.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_421_it",
+          "title": "Valori Prima",
+          "content": "La pressione è rumorosa; i valori sono chiari. Quando i valori guidano, il tuo percorso resta allineato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_421_ru",
+          "title": "Сначала ценности",
+          "content": "Давление шумно; ценности ясны. Когда ценности ведут, твой путь остаётся в согласии.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_421_id",
+          "title": "Nilai Utama",
+          "content": "Tekanan itu bising; nilai itu jelas. Saat nilai memimpin, jalanmu tetap selaras.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_421_ja",
+          "title": "価値観を先に",
+          "content": "圧力は騒がしく、価値観は明確だ。価値観が導くと道は整ったままになる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_421_th",
+          "title": "คุณค่ามาก่อน",
+          "content": "แรงกดดันเสียงดัง แต่คุณค่าชัดเจน เมื่อคุณค่านำทาง เส้นทางของคุณจะอยู่ในแนวเดียวกัน",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_421_ms",
+          "title": "Nilai Diutamakan",
+          "content": "Tekanan bising; nilai jelas. Apabila nilai memimpin, laluan anda kekal selaras.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_422",
+      "type": "quote",
+      "texts": {
+        "en": "A calm rhythm keeps things moving.",
+        "tr": "Sakin bir ritim işleri ilerletir.",
+        "fr": "Un rythme calme fait avancer les choses.",
+        "pt": "Um ritmo calmo mantém as coisas em movimento.",
+        "nl": "Een rustig ritme houdt dingen in beweging.",
+        "es": "Un ritmo calmado mantiene las cosas en movimiento.",
+        "de": "Ein ruhiger Rhythmus hält die Dinge in Bewegung.",
+        "it": "Un ritmo calmo mantiene le cose in movimento.",
+        "ru": "Спокойный ритм поддерживает движение.",
+        "id": "Ritme yang tenang menjaga segala sesuatu tetap bergerak.",
+        "ja": "穏やかなリズムが物事を動かし続ける。",
+        "th": "จังหวะที่สงบทำให้สิ่งต่างๆ เดินหน้าต่อ",
+        "ms": "Rentak yang tenang mengekalkan perkara bergerak."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_422_en",
+          "title": "Calm Rhythm",
+          "content": "Rhythm beats intensity over time. Calm repetition keeps momentum alive.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_422_tr",
+          "title": "Sakin Ritim",
+          "content": "Zamanla ritim, yoğunluğu yener. Sakin tekrar ivmeyi canlı tutar.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_422_fr",
+          "title": "Rythme Calme",
+          "content": "Avec le temps, le rythme l'emporte sur l'intensité. La répétition calme maintient l'élan.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_422_pt",
+          "title": "Ritmo Calmo",
+          "content": "Com o tempo, o ritmo vence a intensidade. A repetição calma mantém o impulso vivo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_422_nl",
+          "title": "Rustig Ritme",
+          "content": "Op termijn wint ritme van intensiteit. Kalme herhaling houdt het momentum levend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_422_es",
+          "title": "Ritmo Calmado",
+          "content": "Con el tiempo, el ritmo supera la intensidad. La repetición calmada mantiene el impulso vivo.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_422_de",
+          "title": "Ruhiger Rhythmus",
+          "content": "Mit der Zeit schlägt Rhythmus die Intensität. Ruhige Wiederholung hält den Schwung lebendig.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_422_it",
+          "title": "Ritmo Calmo",
+          "content": "Con il tempo, il ritmo supera l'intensità. La ripetizione calma mantiene lo slancio vivo.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_422_ru",
+          "title": "Спокойный ритм",
+          "content": "Со временем ритм побеждает интенсивность. Спокойное повторение поддерживает импульс.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_422_id",
+          "title": "Ritme Tenang",
+          "content": "Seiring waktu, ritme mengalahkan intensitas. Pengulangan yang tenang menjaga momentum tetap hidup.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_422_ja",
+          "title": "穏やかなリズム",
+          "content": "時間が経つほど、強度よりリズムが勝る。穏やかな反復が勢いを保つ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_422_th",
+          "title": "จังหวะที่สงบ",
+          "content": "เมื่อเวลาผ่านไป จังหวะชนะความเข้มข้น การทำซ้ำอย่างสงบทำให้แรงส่งยังมีชีวิต",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_422_ms",
+          "title": "Rentak Tenang",
+          "content": "Dari masa ke masa, rentak mengatasi intensiti. Ulangan yang tenang mengekalkan momentum hidup.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_423",
+      "type": "quote",
+      "texts": {
+        "en": "Patience turns effort into skill.",
+        "tr": "Sabır, çabayı beceriye dönüştürür.",
+        "fr": "La patience transforme l'effort en compétence.",
+        "pt": "A paciência transforma esforço em habilidade.",
+        "nl": "Geduld verandert inspanning in vaardigheid.",
+        "es": "La paciencia convierte el esfuerzo en habilidad.",
+        "de": "Geduld verwandelt Mühe in Können.",
+        "it": "La pazienza trasforma lo sforzo in abilità.",
+        "ru": "Терпение превращает усилия в мастерство.",
+        "id": "Kesabaran mengubah usaha menjadi keterampilan.",
+        "ja": "忍耐が努力を技に変える。",
+        "th": "ความอดทนเปลี่ยนความพยายามให้เป็นทักษะ",
+        "ms": "Kesabaran menukar usaha menjadi kemahiran."
+      },
+      "authors": {
+        "en": "Traditional saying",
+        "tr": "Geleneksel deyiş",
+        "fr": "Dicton traditionnel",
+        "pt": "Ditado tradicional",
+        "nl": "Traditioneel gezegde",
+        "es": "Dicho tradicional",
+        "de": "Traditionelles Sprichwort",
+        "it": "Detto tradizionale",
+        "ru": "Традиционная поговорка",
+        "id": "Ungkapan tradisional",
+        "ja": "伝統的な言い回し",
+        "th": "คำกล่าวแบบดั้งเดิม",
+        "ms": "Ungkapan tradisional"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_423_en",
+          "title": "Patience Becomes Skill",
+          "content": "Skill grows slowly and surely. Give yourself time, and it will become natural.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_423_tr",
+          "title": "Sabır Beceridir",
+          "content": "Beceri yavaş ama sağlam büyür. Kendine zaman ver, doğal hale gelir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_423_fr",
+          "title": "La Patience Devient Compétence",
+          "content": "La compétence grandit lentement et sûrement. Donne-toi du temps, et cela deviendra naturel.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_423_pt",
+          "title": "Paciência Vira Habilidade",
+          "content": "A habilidade cresce lenta e seguramente. Dê tempo a si mesmo, e ela se tornará natural.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_423_nl",
+          "title": "Geduld Wordt Vaardigheid",
+          "content": "Vaardigheid groeit langzaam en zeker. Geef jezelf tijd, en het wordt vanzelfsprekend.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_423_es",
+          "title": "La Paciencia se Vuelve Habilidad",
+          "content": "La habilidad crece lenta y seguramente. Date tiempo, y se volverá natural.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_423_de",
+          "title": "Geduld Wird Können",
+          "content": "Können wächst langsam und sicher. Gib dir Zeit, dann wird es natürlich.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_423_it",
+          "title": "La Pazienza Diventa Abilità",
+          "content": "L'abilità cresce lentamente e con sicurezza. Dai tempo a te stesso, e diventerà naturale.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_423_ru",
+          "title": "Терпение превращается в навык",
+          "content": "Навык растёт медленно и уверенно. Дай себе время, и он станет естественным.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_423_id",
+          "title": "Kesabaran Menjadi Keterampilan",
+          "content": "Keterampilan tumbuh perlahan namun pasti. Beri dirimu waktu, dan itu akan terasa alami.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_423_ja",
+          "title": "忍耐が技になる",
+          "content": "スキルはゆっくり確実に育つ。自分に時間を与えれば自然になる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_423_th",
+          "title": "ความอดทนกลายเป็นทักษะ",
+          "content": "ทักษะเติบโตอย่างช้าๆ แต่มั่นคง ให้เวลากับตัวเอง แล้วมันจะเป็นธรรมชาติ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_423_ms",
+          "title": "Kesabaran Menjadi Kemahiran",
+          "content": "Kemahiran berkembang perlahan tetapi pasti. Beri diri anda masa, dan ia akan menjadi semula jadi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_424",
+      "type": "quote",
+      "texts": {
+        "en": "Simplicity makes progress sustainable.",
+        "tr": "Sadelik, ilerlemeyi sürdürülebilir kılar.",
+        "fr": "La simplicité rend le progrès durable.",
+        "pt": "A simplicidade torna o progresso sustentável.",
+        "nl": "Eenvoud maakt vooruitgang duurzaam.",
+        "es": "La simplicidad hace que el progreso sea sostenible.",
+        "de": "Einfachheit macht Fortschritt nachhaltig.",
+        "it": "La semplicità rende il progresso sostenibile.",
+        "ru": "Простота делает прогресс устойчивым.",
+        "id": "Kesederhanaan membuat kemajuan berkelanjutan.",
+        "ja": "シンプルさが進歩を持続可能にする。",
+        "th": "ความเรียบง่ายทำให้ความก้าวหน้ายั่งยืน",
+        "ms": "Kesederhanaan menjadikan kemajuan mampan."
+      },
+      "authors": {
+        "en": "Unknown",
+        "tr": "Bilinmeyen",
+        "fr": "Inconnu",
+        "pt": "Desconhecido",
+        "nl": "Onbekend",
+        "es": "Desconocido",
+        "de": "Unbekannt",
+        "it": "Sconosciuto",
+        "ru": "Неизвестный",
+        "id": "Tidak diketahui",
+        "ja": "不明",
+        "th": "ไม่ทราบ",
+        "ms": "Tidak diketahui"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_424_en",
+          "title": "Sustainable Simplicity",
+          "content": "When the plan is simple, it can be repeated. That repetition keeps progress going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_424_tr",
+          "title": "Sürdürülebilir Sadelik",
+          "content": "Plan sade olduğunda tekrar edilebilir. Bu tekrar ilerlemeyi sürdürür.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_424_fr",
+          "title": "Simplicité Durable",
+          "content": "Quand le plan est simple, il peut être répété. Cette répétition maintient le progrès.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_424_pt",
+          "title": "Simplicidade Sustentável",
+          "content": "Quando o plano é simples, ele pode ser repetido. Essa repetição mantém o progresso.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_424_nl",
+          "title": "Duurzame Eenvoud",
+          "content": "Als het plan eenvoudig is, kan het worden herhaald. Die herhaling houdt vooruitgang gaande.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_424_es",
+          "title": "Simplicidad Sostenible",
+          "content": "Cuando el plan es simple, se puede repetir. Esa repetición mantiene el progreso en marcha.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_424_de",
+          "title": "Nachhaltige Einfachheit",
+          "content": "Wenn der Plan einfach ist, kann er wiederholt werden. Diese Wiederholung hält den Fortschritt am Laufen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_424_it",
+          "title": "Semplicità Sostenibile",
+          "content": "Quando il piano è semplice, può essere ripetuto. Questa ripetizione mantiene il progresso in movimento.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_424_ru",
+          "title": "Устойчивая простота",
+          "content": "Когда план прост, его можно повторять. Это повторение поддерживает прогресс.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_424_id",
+          "title": "Kesederhanaan Berkelanjutan",
+          "content": "Ketika rencana sederhana, ia bisa diulang. Pengulangan itu menjaga kemajuan tetap berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_424_ja",
+          "title": "続くシンプルさ",
+          "content": "計画がシンプルなら繰り返せる。その反復が進歩を続けさせる。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_424_th",
+          "title": "ความเรียบง่ายที่ยั่งยืน",
+          "content": "เมื่อแผนเรียบง่าย ก็ทำซ้ำได้ การทำซ้ำนี้ทำให้ความก้าวหน้าเดินต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_424_ms",
+          "title": "Kesederhanaan Mampan",
+          "content": "Apabila pelan ringkas, ia boleh diulang. Ulangan itu mengekalkan kemajuan berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gen_425",
+      "type": "quote",
+      "texts": {
+        "en": "End the day knowing you moved forward, even a little.",
+        "tr": "Günü biraz da olsa ilerlediğini bilerek bitir.",
+        "fr": "Termine la journée en sachant que tu as avancé, même un peu.",
+        "pt": "Termine o dia sabendo que você avançou, ainda que um pouco.",
+        "nl": "Sluit de dag af wetend dat je vooruitging, al was het maar een beetje.",
+        "es": "Termina el día sabiendo que avanzaste, aunque sea un poco.",
+        "de": "Beende den Tag in dem Wissen, dass du vorangekommen bist, auch wenn es nur ein wenig war.",
+        "it": "Concludi la giornata sapendo che sei avanzato, anche solo un poco.",
+        "ru": "Заверши день, зная, что ты продвинулся, пусть даже немного.",
+        "id": "Akhiri hari dengan tahu kamu maju, meski sedikit.",
+        "ja": "一日を、少しでも前に進めたと感じて終える。",
+        "th": "จบวันด้วยการรู้ว่าคุณเดินหน้าไปแล้ว แม้เพียงเล็กน้อย",
+        "ms": "Akhiri hari dengan mengetahui anda bergerak maju, walaupun sedikit."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kehidupan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gen_425_en",
+          "title": "Forward, Even a Little",
+          "content": "Small progress still counts. Acknowledging it today makes tomorrow easier to begin.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gen_425_tr",
+          "title": "Biraz da Olsa İleri",
+          "content": "Küçük ilerleme de önemlidir. Bugün fark etmek yarına başlamayı kolaylaştırır.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gen_425_fr",
+          "title": "En Avant, Même Un Peu",
+          "content": "Le petit progrès compte aussi. Le reconnaître aujourd'hui rend demain plus facile à commencer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gen_425_pt",
+          "title": "Avançar, Mesmo que Pouco",
+          "content": "O pequeno progresso também conta. Reconhecê-lo hoje torna amanhã mais fácil de começar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gen_425_nl",
+          "title": "Vooruit, Al is het een beetje",
+          "content": "Kleine vooruitgang telt ook. Het vandaag erkennen maakt morgen makkelijker om te beginnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gen_425_es",
+          "title": "Avanzar, aunque sea un poco",
+          "content": "El pequeño progreso también cuenta. Reconocerlo hoy hace que mañana sea más fácil de empezar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gen_425_de",
+          "title": "Vorwärts, auch ein wenig",
+          "content": "Kleiner Fortschritt zählt auch. Ihn heute anzuerkennen macht es morgen leichter anzufangen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gen_425_it",
+          "title": "Avanti, anche solo un po'",
+          "content": "Anche il piccolo progresso conta. Riconoscerlo oggi rende domani più facile iniziare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gen_425_ru",
+          "title": "Вперёд, хоть немного",
+          "content": "Небольшой прогресс тоже важен. Признать его сегодня — значит упростить начало завтра.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gen_425_id",
+          "title": "Maju, Walau Sedikit",
+          "content": "Kemajuan kecil tetap berarti. Mengakuinya hari ini membuat besok lebih mudah dimulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gen_425_ja",
+          "title": "少しでも前へ",
+          "content": "小さな進歩でも十分価値がある。今日それを認めることが、明日始めやすくする。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gen_425_th",
+          "title": "ก้าวไปข้างหน้า แม้เพียงเล็กน้อย",
+          "content": "ความก้าวหน้าเล็กๆ ก็มีความหมาย การยอมรับมันในวันนี้ทำให้เริ่มพรุ่งนี้ได้ง่ายขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gen_425_ms",
+          "title": "Maju, Walaupun Sedikit",
+          "content": "Kemajuan kecil tetap bermakna. Mengakuinya hari ini menjadikan esok lebih mudah dimulakan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }
