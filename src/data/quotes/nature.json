@@ -2995,7 +2995,7 @@
       }
     },
     {
-      "id": "nature_019",
+      "id": "nature_185",
       "texts": {
         "en": "The redwood forest teaches us about time: standing for millennia through fire and storm, each ring in its trunk tells a story of survival, showing us that greatness comes not from avoiding life's challenges, but from growing through them.",
         "tr": "Sekoya ormanı bize zaman hakkında ders verir: yangın ve fırtına boyunca bin yıllar boyunca ayakta durarak, gövdesindeki her halka bir hayatta kalma hikayesi anlatır, bize büyüklüğün hayatın zorluklarından kaçınmakla değil, onlar sayesinde büyümekle geldiğini gösterir.",
@@ -11726,7 +11726,7 @@
       }
     },
     {
-      "id": "nature_063",
+      "id": "nature_186",
       "category": "nature",
       "texts": {
         "en": "I find peace and renewal in nature's embrace.",
@@ -11908,7 +11908,7 @@
       }
     },
     {
-      "id": "nature_064",
+      "id": "nature_187",
       "category": "nature",
       "texts": {
         "en": "I honor the cycles and rhythms of nature in my life.",
@@ -12090,7 +12090,7 @@
       }
     },
     {
-      "id": "nature_065",
+      "id": "nature_188",
       "category": "nature",
       "texts": {
         "en": "I draw strength and inspiration from nature's resilience.",
@@ -12272,7 +12272,7 @@
       }
     },
     {
-      "id": "nature_066",
+      "id": "nature_189",
       "category": "nature",
       "texts": {
         "en": "I am grateful for nature's endless beauty and wisdom.",
@@ -12454,7 +12454,7 @@
       }
     },
     {
-      "id": "nature_067",
+      "id": "nature_190",
       "category": "nature",
       "texts": {
         "en": "I connect with nature to restore my inner balance and clarity.",
@@ -12636,7 +12636,7 @@
       }
     },
     {
-      "id": "nature_068",
+      "id": "nature_191",
       "category": "nature",
       "texts": {
         "en": "I learn from nature's patience and gentle persistence.",
@@ -12818,7 +12818,7 @@
       }
     },
     {
-      "id": "nature_069",
+      "id": "nature_192",
       "category": "nature",
       "texts": {
         "en": "I embrace nature's diversity and find unity in its interconnectedness.",
@@ -13000,7 +13000,7 @@
       }
     },
     {
-      "id": "nature_070",
+      "id": "nature_193",
       "category": "nature",
       "texts": {
         "en": "I find strength in nature's ability to adapt and thrive.",
@@ -13182,7 +13182,7 @@
       }
     },
     {
-      "id": "nature_071",
+      "id": "nature_194",
       "category": "nature",
       "texts": {
         "en": "I draw inspiration from nature's perfect balance and harmony.",
@@ -13364,7 +13364,7 @@
       }
     },
     {
-      "id": "nature_072",
+      "id": "nature_195",
       "category": "nature",
       "texts": {
         "en": "I find renewal in nature's ever-changing seasons and cycles.",
@@ -17680,6 +17680,1269 @@
       },
       "category": "nature",
       "readTime": "0"
+    },
+    {
+      "id": "nature_196",
+      "type": "affirmation",
+      "texts": {
+        "en": "I set a small target for nature.",
+        "tr": "doğa için küçük bir hedef koyuyorum.",
+        "fr": "Je fixe un petit objectif pour nature.",
+        "pt": "Defino um pequeno alvo para nature.",
+        "nl": "Ik stel een klein doel voor nature.",
+        "es": "Me fijo una meta pequeña para nature.",
+        "de": "Ich setze mir ein kleines Ziel für nature.",
+        "it": "Mi pongo un piccolo obiettivo per nature.",
+        "ru": "Я ставлю небольшую цель для nature.",
+        "id": "Saya menetapkan target kecil untuk nature.",
+        "ja": "今日はnatureの小さな目標を決めます。",
+        "th": "วันนี้ฉันตั้งเป้าหมายเล็กๆ สำหรับ nature",
+        "ms": "Saya menetapkan sasaran kecil untuk nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_197",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature organized and calm.",
+        "tr": "doğai düzenli ve sakin tutuyorum.",
+        "fr": "Je garde nature organisé et calme.",
+        "pt": "Mantenho nature organizado e calmo.",
+        "nl": "Ik houd nature georganiseerd en rustig.",
+        "es": "Mantengo nature organizado y calmado.",
+        "de": "Ich halte nature organisiert und ruhig.",
+        "it": "Mantengo nature organizzato e calmo.",
+        "ru": "Я держу nature организованным и спокойным.",
+        "id": "Saya menjaga nature tetap teratur dan tenang.",
+        "ja": "natureを整然と落ち着かせて保ちます。",
+        "th": "ฉันทำให้ nature เป็นระเบียบและสงบ",
+        "ms": "Saya mengekalkan nature teratur dan tenang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_198",
+      "type": "affirmation",
+      "texts": {
+        "en": "I check nature once and proceed.",
+        "tr": "doğai bir kez kontrol edip devam ediyorum.",
+        "fr": "Je vérifie nature une fois et j'avance.",
+        "pt": "Verifico nature uma vez e sigo em frente.",
+        "nl": "Ik check nature één keer en ga verder.",
+        "es": "Reviso nature una vez y sigo adelante.",
+        "de": "Ich überprüfe nature einmal und gehe weiter.",
+        "it": "Controllo nature una volta e vado avanti.",
+        "ru": "Я проверяю nature один раз и двигаюсь дальше.",
+        "id": "Saya memeriksa nature sekali lalu lanjut.",
+        "ja": "natureを一度確認して先へ進みます。",
+        "th": "ฉันตรวจ nature ครั้งเดียวแล้วไปต่อ",
+        "ms": "Saya menyemak nature sekali lalu teruskan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_199",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over speed in nature.",
+        "tr": "doğate hız yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que la vitesse en nature.",
+        "pt": "Escolho clareza em vez de velocidade em nature.",
+        "nl": "Ik kies duidelijkheid boven snelheid in nature.",
+        "es": "Elijo claridad en lugar de velocidad en nature.",
+        "de": "Ich wähle Klarheit statt Geschwindigkeit in nature.",
+        "it": "Scelgo la chiarezza invece della velocità in nature.",
+        "ru": "Я выбираю ясность вместо скорости в nature.",
+        "id": "Saya memilih kejelasan daripada kecepatan dalam nature.",
+        "ja": "natureではスピードより明確さを選びます。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร็วใน nature",
+        "ms": "Saya memilih kejelasan berbanding kelajuan dalam nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_200",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature aligned with my capacity.",
+        "tr": "doğai kapasitemle uyumlu tutuyorum.",
+        "fr": "Je garde nature aligné avec ma capacité.",
+        "pt": "Mantenho nature alinhado com minha capacidade.",
+        "nl": "Ik houd nature in lijn met mijn capaciteit.",
+        "es": "Mantengo nature alineado con mi capacidad.",
+        "de": "Ich halte nature im Einklang mit meiner Kapazität.",
+        "it": "Mantengo nature allineato con la mia capacità.",
+        "ru": "Я держу nature в соответствии со своими возможностями.",
+        "id": "Saya menjaga nature selaras dengan kapasitas saya.",
+        "ja": "natureを自分のキャパシティに合わせます。",
+        "th": "ฉันทำให้ nature สอดคล้องกับขีดความสามารถของฉัน",
+        "ms": "Saya mengekalkan nature selaras dengan kapasiti saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_201",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make nature lighter by simplifying the next step.",
+        "tr": "Bir sonraki adımı sadeleştirerek doğai hafifletiyorum.",
+        "fr": "J'allège nature en simplifiant la prochaine étape.",
+        "pt": "Deixo nature mais leve simplificando o próximo passo.",
+        "nl": "Ik maak nature lichter door de volgende stap te vereenvoudigen.",
+        "es": "Hago nature más ligero al simplificar el siguiente paso.",
+        "de": "Ich mache nature leichter, indem ich den nächsten Schritt vereinfache.",
+        "it": "Rendo nature più leggero semplificando il prossimo passo.",
+        "ru": "Я делаю nature легче, упрощая следующий шаг.",
+        "id": "Saya meringankan nature dengan menyederhanakan langkah berikutnya.",
+        "ja": "次の一歩を簡素化してnatureを軽くします。",
+        "th": "ฉันทำให้ nature เบาลงด้วยการทำขั้นตอนถัดไปให้เรียบง่าย",
+        "ms": "Saya meringankan nature dengan memudahkan langkah seterusnya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_202",
+      "type": "affirmation",
+      "texts": {
+        "en": "I confirm nature with one clear action.",
+        "tr": "doğai tek bir net eylemle doğruluyorum.",
+        "fr": "Je confirme nature par une action claire.",
+        "pt": "Confirmo nature com uma ação clara.",
+        "nl": "Ik bevestig nature met één duidelijke actie.",
+        "es": "Confirmo nature con una acción clara.",
+        "de": "Ich bestätige nature mit einer klaren Handlung.",
+        "it": "Confermo nature con un'azione chiara.",
+        "ru": "Я подтверждаю nature одним ясным действием.",
+        "id": "Saya menegaskan nature dengan satu tindakan yang jelas.",
+        "ja": "natureを一つの明確な行動で確かめます。",
+        "th": "ฉันยืนยัน nature ด้วยการกระทำที่ชัดเจนหนึ่งอย่าง",
+        "ms": "Saya mengesahkan nature dengan satu tindakan yang jelas."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_203",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature consistent in small doses.",
+        "tr": "doğai küçük dozlarda tutarlı sürdürüyorum.",
+        "fr": "Je maintiens nature avec constance par petites doses.",
+        "pt": "Mantenho nature consistente em pequenas doses.",
+        "nl": "Ik houd nature consistent in kleine doses.",
+        "es": "Mantengo nature constante en pequeñas dosis.",
+        "de": "Ich halte nature in kleinen Dosen konsistent.",
+        "it": "Mantengo nature costante in piccole dosi.",
+        "ru": "Я поддерживаю nature последовательно небольшими дозами.",
+        "id": "Saya menjaga nature konsisten dalam dosis kecil.",
+        "ja": "natureを小さな量で一貫して続けます。",
+        "th": "ฉันทำให้ nature สม่ำเสมอในปริมาณเล็กๆ",
+        "ms": "Saya mengekalkan nature konsisten dalam dos kecil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_204",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let nature settle into a steady rhythm.",
+        "tr": "doğain yerleşik bir ritme oturmasına izin veriyorum.",
+        "fr": "Je laisse nature s'installer dans un rythme stable.",
+        "pt": "Deixo nature se firmar em um ritmo estável.",
+        "nl": "Ik laat nature in een stabiel ritme komen.",
+        "es": "Dejo que nature se asiente en un ritmo estable.",
+        "de": "Ich lasse nature in einen stabilen Rhythmus kommen.",
+        "it": "Lascio che nature si assesti in un ritmo stabile.",
+        "ru": "Я позволяю nature войти в устойчивый ритм.",
+        "id": "Saya membiarkan nature masuk ke ritme yang stabil.",
+        "ja": "natureが安定したリズムに乗るのを許します。",
+        "th": "ฉันปล่อยให้ nature เข้าสู่จังหวะที่มั่นคง",
+        "ms": "Saya membiarkan nature masuk ke rentak yang stabil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_205",
+      "type": "affirmation",
+      "texts": {
+        "en": "I end the day with nature accounted for.",
+        "tr": "Günü doğai tamamlanmış şekilde bitiriyorum.",
+        "fr": "Je termine la journée avec nature pris en compte.",
+        "pt": "Termino o dia com nature considerado.",
+        "nl": "Ik sluit de dag af met nature meegeteld.",
+        "es": "Termino el día con nature tenido en cuenta.",
+        "de": "Ich beende den Tag, nachdem nature berücksichtigt ist.",
+        "it": "Concludo la giornata con nature considerato.",
+        "ru": "Я завершаю день, когда nature учтён.",
+        "id": "Saya menutup hari dengan nature diperhitungkan.",
+        "ja": "natureを考慮した状態で一日を終えます。",
+        "th": "ฉันจบวันโดยให้ nature ถูกนำมาพิจารณา",
+        "ms": "Saya menutup hari dengan nature diambil kira."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_206",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature clear and manageable.",
+        "tr": "doğai net ve yönetilebilir tutuyorum.",
+        "fr": "Je garde nature clair et gérable.",
+        "pt": "Mantenho nature claro e manejável.",
+        "nl": "Ik houd nature helder en beheersbaar.",
+        "es": "Mantengo nature claro y manejable.",
+        "de": "Ich halte nature klar und handhabbar.",
+        "it": "Tengo nature chiaro e gestibile.",
+        "ru": "Я держу nature ясным и управляемым.",
+        "id": "Saya menjaga nature tetap jelas dan mudah dikelola.",
+        "ja": "natureを明確で管理しやすい状態に保ちます。",
+        "th": "ฉันทำให้ nature ชัดเจนและจัดการได้",
+        "ms": "Saya memastikan nature jelas dan mudah diurus."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_207",
+      "type": "affirmation",
+      "texts": {
+        "en": "I name the next step for nature and do it.",
+        "tr": "doğa için sonraki adımı netleştirip yapıyorum.",
+        "fr": "Je nomme la prochaine étape pour nature et je la fais.",
+        "pt": "Defino o próximo passo para nature e o faço.",
+        "nl": "Ik benoem de volgende stap voor nature en doe die.",
+        "es": "Nombró el siguiente paso para nature y lo hago.",
+        "de": "Ich benenne den nächsten Schritt für nature und tue ihn.",
+        "it": "Definisco il prossimo passo per nature e lo faccio.",
+        "ru": "Я называю следующий шаг для nature и делаю его.",
+        "id": "Saya menamai langkah berikutnya untuk nature dan melakukannya.",
+        "ja": "natureの次の一歩を決めて実行します。",
+        "th": "ฉันระบุขั้นตอนถัดไปของ nature แล้วทำเลย",
+        "ms": "Saya menamakan langkah seterusnya untuk nature dan melakukannya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_208",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature calm and consistent.",
+        "tr": "doğai sakin ve tutarlı tutuyorum.",
+        "fr": "Je garde nature calme et constant.",
+        "pt": "Mantenho nature calmo e consistente.",
+        "nl": "Ik houd nature rustig en consistent.",
+        "es": "Mantengo nature calmado y constante.",
+        "de": "Ich halte nature ruhig und konsistent.",
+        "it": "Mantengo nature calmo e costante.",
+        "ru": "Я держу nature спокойным и последовательным.",
+        "id": "Saya menjaga nature tetap tenang dan konsisten.",
+        "ja": "natureを落ち着いて一貫させます。",
+        "th": "ฉันทำให้ nature สงบและสม่ำเสมอ",
+        "ms": "Saya mengekalkan nature tenang dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_209",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose a steady pace for nature.",
+        "tr": "doğa için dengeli bir tempo seçiyorum.",
+        "fr": "Je choisis un rythme stable pour nature.",
+        "pt": "Escolho um ritmo estável para nature.",
+        "nl": "Ik kies een stabiel tempo voor nature.",
+        "es": "Elijo un ritmo estable para nature.",
+        "de": "Ich wähle ein stabiles Tempo für nature.",
+        "it": "Scelgo un ritmo stabile per nature.",
+        "ru": "Я выбираю стабильный темп для nature.",
+        "id": "Saya memilih tempo yang stabil untuk nature.",
+        "ja": "natureに安定したペースを選びます。",
+        "th": "ฉันเลือกจังหวะที่มั่นคงสำหรับ nature",
+        "ms": "Saya memilih rentak yang stabil untuk nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_210",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature aligned with what matters.",
+        "tr": "doğai önemli olanla uyumlu tutuyorum.",
+        "fr": "Je garde nature aligné sur ce qui compte.",
+        "pt": "Mantenho nature alinhado com o que importa.",
+        "nl": "Ik houd nature in lijn met wat telt.",
+        "es": "Mantengo nature alineado con lo que importa.",
+        "de": "Ich halte nature im Einklang mit dem, was zählt.",
+        "it": "Mantengo nature allineato con ciò che conta.",
+        "ru": "Я держу nature в соответствии с тем, что важно.",
+        "id": "Saya menjaga nature selaras dengan yang penting.",
+        "ja": "natureを大切なことに沿わせます。",
+        "th": "ฉันทำให้ nature สอดคล้องกับสิ่งที่สำคัญ",
+        "ms": "Saya mengekalkan nature selaras dengan perkara penting."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_211",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give nature a simple structure today.",
+        "tr": "Bugün doğae basit bir yapı veriyorum.",
+        "fr": "Je donne à nature une structure simple aujourd'hui.",
+        "pt": "Dou a nature uma estrutura simples hoje.",
+        "nl": "Ik geef nature vandaag een eenvoudige structuur.",
+        "es": "Le doy a nature una estructura simple hoy.",
+        "de": "Ich gebe nature heute eine einfache Struktur.",
+        "it": "Do a nature una struttura semplice oggi.",
+        "ru": "Сегодня я даю nature простую структуру.",
+        "id": "Hari ini saya memberi nature struktur yang sederhana.",
+        "ja": "今日はnatureにシンプルな構造を与えます。",
+        "th": "วันนี้ฉันให้โครงสร้างที่เรียบง่ายกับ nature",
+        "ms": "Hari ini saya memberi nature struktur yang ringkas."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_212",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature moving with small wins.",
+        "tr": "doğai küçük kazanımlarla ilerletiyorum.",
+        "fr": "Je fais avancer nature avec de petites victoires.",
+        "pt": "Faço nature avançar com pequenas vitórias.",
+        "nl": "Ik houd nature in beweging met kleine overwinningen.",
+        "es": "Hago avanzar nature con pequeñas victorias.",
+        "de": "Ich halte nature mit kleinen Erfolgen in Bewegung.",
+        "it": "Faccio avanzare nature con piccole vittorie.",
+        "ru": "Я продвигаю nature маленькими победами.",
+        "id": "Saya mendorong nature maju dengan kemenangan kecil.",
+        "ja": "natureを小さな勝利で前に進めます。",
+        "th": "ฉันขยับ nature ไปข้างหน้าด้วยชัยชนะเล็กๆ",
+        "ms": "Saya menggerakkan nature dengan kemenangan kecil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_213",
+      "type": "affirmation",
+      "texts": {
+        "en": "I return to nature with fresh focus.",
+        "tr": "doğae taze bir odakla geri dönüyorum.",
+        "fr": "Je reviens à nature avec un nouvel élan.",
+        "pt": "Volto a nature com foco renovado.",
+        "nl": "Ik keer terug naar nature met frisse focus.",
+        "es": "Vuelvo a nature con un enfoque renovado.",
+        "de": "Ich kehre mit frischem Fokus zu nature zurück.",
+        "it": "Torno a nature con un nuovo focus.",
+        "ru": "Я возвращаюсь к nature с новым фокусом.",
+        "id": "Saya kembali ke nature dengan fokus baru.",
+        "ja": "natureに新しい集中で戻ります。",
+        "th": "ฉันกลับมาที่ nature ด้วยโฟกัสใหม่",
+        "ms": "Saya kembali kepada nature dengan fokus baru."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_214",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature grounded and realistic.",
+        "tr": "doğai sağlam ve gerçekçi tutuyorum.",
+        "fr": "Je garde nature ancré et réaliste.",
+        "pt": "Mantenho nature sólido e realista.",
+        "nl": "Ik houd nature gegrond en realistisch.",
+        "es": "Mantengo nature sólido y realista.",
+        "de": "Ich halte nature geerdet und realistisch.",
+        "it": "Mantengo nature solido e realistico.",
+        "ru": "Я держу nature приземлённым и реалистичным.",
+        "id": "Saya menjaga nature tetap membumi dan realistis.",
+        "ja": "natureを地に足のついた現実的なものに保ちます。",
+        "th": "ฉันทำให้ nature มีพื้นฐานและสมจริง",
+        "ms": "Saya mengekalkan nature berpijak di bumi dan realistik."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_215",
+      "type": "affirmation",
+      "texts": {
+        "en": "I finish the day knowing nature is on track.",
+        "tr": "Günü doğain yolunda olduğunu bilerek bitiriyorum.",
+        "fr": "Je termine la journée en sachant que nature est sur la bonne voie.",
+        "pt": "Termino o dia sabendo que nature está no caminho certo.",
+        "nl": "Ik sluit de dag af wetend dat nature op koers ligt.",
+        "es": "Termino el día sabiendo que nature va por buen camino.",
+        "de": "Ich beende den Tag in dem Wissen, dass nature auf Kurs ist.",
+        "it": "Concludo la giornata sapendo che nature è in carreggiata.",
+        "ru": "Я заканчиваю день, зная, что nature на верном пути.",
+        "id": "Saya mengakhiri hari dengan tahu nature berada di jalur yang benar.",
+        "ja": "natureが軌道にあると感じて一日を終えます。",
+        "th": "ฉันจบวันด้วยความมั่นใจว่า nature อยู่บนเส้นทางที่ถูกต้อง",
+        "ms": "Saya menutup hari dengan yakin bahawa nature berada di landasan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_216",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature simple and steady today.",
+        "tr": "doğai bugün sade ve istikrarlı tutuyorum.",
+        "fr": "Je garde nature simple et stable aujourd'hui.",
+        "pt": "Mantenho nature simples e estável hoje.",
+        "nl": "Ik houd nature vandaag eenvoudig en stabiel.",
+        "es": "Mantengo nature simple y estable hoy.",
+        "de": "Ich halte nature heute einfach und stabil.",
+        "it": "Mantengo nature semplice e stabile oggi.",
+        "ru": "Сегодня я держу nature простым и стабильным.",
+        "id": "Hari ini saya menjaga nature tetap sederhana dan stabil.",
+        "ja": "今日はnatureをシンプルで安定したものに保ちます。",
+        "th": "วันนี้ฉันทำให้ nature เรียบง่ายและมั่นคง",
+        "ms": "Saya mengekalkan nature ringkas dan stabil hari ini."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_217",
+      "type": "affirmation",
+      "texts": {
+        "en": "I start nature with one clear choice.",
+        "tr": "doğae bir net seçimle başlıyorum.",
+        "fr": "Je commence nature par un choix clair.",
+        "pt": "Inicio nature com uma escolha clara.",
+        "nl": "Ik start nature met één duidelijke keuze.",
+        "es": "Empiezo nature con una elección clara.",
+        "de": "Ich beginne nature mit einer klaren Entscheidung.",
+        "it": "Inizio nature con una scelta chiara.",
+        "ru": "Я начинаю nature с одного ясного выбора.",
+        "id": "Saya memulai nature dengan satu pilihan yang jelas.",
+        "ja": "一つの明確な選択でnatureを始めます。",
+        "th": "ฉันเริ่ม nature ด้วยการตัดสินใจที่ชัดเจนหนึ่งอย่าง",
+        "ms": "Saya memulakan nature dengan satu pilihan yang jelas."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_218",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let nature unfold without rush.",
+        "tr": "doğain acele etmeden akmasına izin veriyorum.",
+        "fr": "Je laisse nature se dérouler sans précipitation.",
+        "pt": "Deixo nature seguir sem pressa.",
+        "nl": "Ik laat nature zich ontvouwen zonder haast.",
+        "es": "Dejo que nature se despliegue sin prisa.",
+        "de": "Ich lasse nature sich ohne Eile entfalten.",
+        "it": "Lascio che nature si dispieghi senza fretta.",
+        "ru": "Я позволяю nature разворачиваться без спешки.",
+        "id": "Saya membiarkan nature berjalan tanpa tergesa-gesa.",
+        "ja": "natureが急がずに進むのを許します。",
+        "th": "ฉันปล่อยให้ nature ดำเนินไปโดยไม่เร่งรีบ",
+        "ms": "Saya membiarkan nature berjalan tanpa tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_219",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature grounded in small actions.",
+        "tr": "doğai küçük eylemlerle sağlam tutuyorum.",
+        "fr": "Je garde nature ancré dans de petites actions.",
+        "pt": "Mantenho nature ancorado em pequenas ações.",
+        "nl": "Ik houd nature gegrond in kleine acties.",
+        "es": "Mantengo nature anclado en acciones pequeñas.",
+        "de": "Ich halte nature mit kleinen Handlungen geerdet.",
+        "it": "Mantengo nature radicato in piccole azioni.",
+        "ru": "Я опираю nature на небольшие действия.",
+        "id": "Saya menjaga nature berpijak pada tindakan kecil.",
+        "ja": "小さな行動に根ざしてnatureを保ちます。",
+        "th": "ฉันยึด nature ไว้กับการกระทำเล็กๆ",
+        "ms": "Saya memastikan nature berpijak pada tindakan kecil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_220",
+      "type": "affirmation",
+      "texts": {
+        "en": "I check nature gently and adjust.",
+        "tr": "doğai nazikçe kontrol edip ayarlıyorum.",
+        "fr": "Je vérifie nature doucement et j'ajuste.",
+        "pt": "Verifico nature com cuidado e ajusto.",
+        "nl": "Ik check nature rustig en stel bij.",
+        "es": "Reviso nature con calma y ajusto.",
+        "de": "Ich prüfe nature ruhig und passe an.",
+        "it": "Controllo nature con calma e aggiusto.",
+        "ru": "Я мягко проверяю nature и корректирую.",
+        "id": "Saya mengecek nature dengan lembut dan menyesuaikan.",
+        "ja": "natureをやさしく確認して調整します。",
+        "th": "ฉันตรวจ nature อย่างอ่อนโยนและปรับให้เหมาะ",
+        "ms": "Saya menyemak nature dengan lembut dan melaras."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_221",
+      "type": "affirmation",
+      "texts": {
+        "en": "I respect my limits while growing nature.",
+        "tr": "doğai büyütürken sınırlarımı gözetiyorum.",
+        "fr": "Je respecte mes limites en développant nature.",
+        "pt": "Respeito meus limites ao desenvolver nature.",
+        "nl": "Ik respecteer mijn grenzen terwijl nature groeit.",
+        "es": "Respeto mis límites mientras hago crecer nature.",
+        "de": "Ich respektiere meine Grenzen, während nature wächst.",
+        "it": "Rispetto i miei limiti mentre faccio crescere nature.",
+        "ru": "Я уважаю свои границы, пока nature растёт.",
+        "id": "Saya menghormati batas saya saat nature tumbuh.",
+        "ja": "natureを育てながら自分の限界を尊重します。",
+        "th": "ฉันเคารพขีดจำกัดของฉันขณะ nature เติบโต",
+        "ms": "Saya menghormati batas saya ketika nature berkembang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_222",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose depth over noise in nature.",
+        "tr": "doğate gürültü yerine derinliği seçiyorum.",
+        "fr": "Je choisis la profondeur plutôt que le bruit en nature.",
+        "pt": "Escolho profundidade em vez de ruído em nature.",
+        "nl": "Ik kies diepgang boven ruis in nature.",
+        "es": "Elijo profundidad en lugar de ruido en nature.",
+        "de": "Ich wähle Tiefe statt Lärm in nature.",
+        "it": "Scelgo la profondità invece del rumore in nature.",
+        "ru": "Я выбираю глубину вместо шума в nature.",
+        "id": "Saya memilih kedalaman daripada kebisingan dalam nature.",
+        "ja": "natureではノイズより深さを選びます。",
+        "th": "ฉันเลือกความลึกมากกว่าความวุ่นวายใน nature",
+        "ms": "Saya memilih kedalaman berbanding bunyi dalam nature."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_223",
+      "type": "affirmation",
+      "texts": {
+        "en": "I carry nature forward with calm focus.",
+        "tr": "doğai sakin bir odakla ileri taşıyorum.",
+        "fr": "Je fais avancer nature avec une concentration calme.",
+        "pt": "Levo nature adiante com foco calmo.",
+        "nl": "Ik breng nature vooruit met kalme focus.",
+        "es": "Llevo nature adelante con un enfoque calmado.",
+        "de": "Ich bringe nature mit ruhigem Fokus voran.",
+        "it": "Porto nature avanti con un focus calmo.",
+        "ru": "Я двигаю nature вперёд со спокойным вниманием.",
+        "id": "Saya membawa nature maju dengan fokus yang tenang.",
+        "ja": "落ち着いた集中でnatureを前に進めます。",
+        "th": "ฉันพา nature ไปข้างหน้าด้วยโฟกัสที่สงบ",
+        "ms": "Saya membawa nature ke hadapan dengan fokus yang tenang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_224",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature practical and kind to myself.",
+        "tr": "doğai pratik tutuyor ve kendime nazik davranıyorum.",
+        "fr": "Je garde nature pratique et je suis bienveillant envers moi-même.",
+        "pt": "Mantenho nature prático e sou gentil comigo.",
+        "nl": "Ik houd nature praktisch en ben mild voor mezelf.",
+        "es": "Mantengo nature práctico y soy amable conmigo.",
+        "de": "Ich halte nature praktisch und bin freundlich zu mir.",
+        "it": "Mantengo nature pratico e sono gentile con me.",
+        "ru": "Я держу nature практичным и добрым к себе.",
+        "id": "Saya menjaga nature tetap praktis dan ramah pada diri sendiri.",
+        "ja": "natureを実用的に保ち、自分に優しくします。",
+        "th": "ฉันทำให้ nature ใช้งานได้และใจดีกับตัวเอง",
+        "ms": "Saya mengekalkan nature praktikal dan berbaik dengan diri sendiri."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_225",
+      "type": "affirmation",
+      "texts": {
+        "en": "I finish the day with nature clear in my mind.",
+        "tr": "Günü doğain zihnimde net olduğunu bilerek bitiriyorum.",
+        "fr": "Je termine la journée avec nature clair dans mon esprit.",
+        "pt": "Termino o dia com nature claro na mente.",
+        "nl": "Ik sluit de dag af met nature helder in mijn hoofd.",
+        "es": "Termino el día con nature claro en mi mente.",
+        "de": "Ich beende den Tag mit nature klar im Kopf.",
+        "it": "Concludo la giornata con nature chiaro nella mente.",
+        "ru": "Я заканчиваю день с ясностью по поводу nature.",
+        "id": "Saya menutup hari dengan nature yang jelas dalam pikiran.",
+        "ja": "natureが頭の中で明確なまま一日を終えます。",
+        "th": "ฉันจบวันโดยมี nature ที่ชัดเจนในใจ",
+        "ms": "Saya menutup hari dengan nature yang jelas dalam fikiran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "readTime": "0"
+    },
+    {
+      "id": "nature_226",
+      "type": "quote",
+      "texts": {
+        "en": "Let nature be guided by clarity, not urgency.",
+        "tr": "Bırak doğa aciliyetle değil netlikle yönlensin.",
+        "fr": "Que nature soit guidé par la clarté, pas par l'urgence.",
+        "pt": "Que nature seja guiado pela clareza, não pela urgência.",
+        "nl": "Laat nature leiden door helderheid, niet door haast.",
+        "es": "Que nature sea guiado por la claridad, no por la urgencia.",
+        "de": "Lass nature von Klarheit geleitet werden, nicht von Dringlichkeit.",
+        "it": "Lascia che nature sia guidato dalla chiarezza, non dall'urgenza.",
+        "ru": "Пусть nature ведет ясность, а не срочность.",
+        "id": "Biarkan nature dipandu oleh kejelasan, bukan urgensi.",
+        "ja": "natureは焦りではなく明確さに導かせる。",
+        "th": "ให้ nature ถูกนำด้วยความชัดเจน ไม่ใช่ความเร่งด่วน",
+        "ms": "Biarkan nature dipandu oleh kejelasan, bukan rasa mendesak."
+      },
+      "authors": {
+        "en": "Anonymous",
+        "tr": "Anonim",
+        "fr": "Anonyme",
+        "pt": "Anônimo",
+        "nl": "Anoniem",
+        "es": "Anónimo",
+        "de": "Anonym",
+        "it": "Anonimo",
+        "ru": "Аноним",
+        "id": "Anonim",
+        "ja": "匿名",
+        "th": "ไม่ระบุชื่อ",
+        "ms": "Tanpa nama"
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "nature",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "nature",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "nature",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "nature",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "nature",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "nature",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "nature",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "nature",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "nature",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "nature",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_nature_226_en",
+          "title": "Clarity Over Urgency",
+          "content": "When we slow down, nature becomes easier to choose well. The focus is on clear priorities instead of rushed reactions.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_nature_226_tr",
+          "title": "Aciliyet Değil Netlik",
+          "content": "Yavaşladığımızda doğa alanında doğru seçim yapmak kolaylaşır. Odak, acele tepkiler yerine net önceliklerdedir.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_nature_226_fr",
+          "title": "La Clarté Plutôt que l'Urgence",
+          "content": "Quand nous ralentissons, nature devient plus facile à bien choisir. L'attention se porte sur des priorités claires plutôt que sur des réactions précipitées.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_nature_226_pt",
+          "title": "Clareza em Vez de Urgência",
+          "content": "Quando desaceleramos, fica mais fácil escolher bem em nature. O foco está em prioridades claras, não em reações apressadas.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_nature_226_nl",
+          "title": "Helderheid boven Haast",
+          "content": "Wanneer we vertragen, wordt het gemakkelijker om in nature goed te kiezen. De focus ligt op heldere prioriteiten in plaats van gehaaste reacties.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_nature_226_es",
+          "title": "Claridad en lugar de Urgencia",
+          "content": "Cuando bajamos el ritmo, nature se vuelve más fácil de elegir bien. El foco está en prioridades claras, no en reacciones apresuradas.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_nature_226_de",
+          "title": "Klarheit statt Dringlichkeit",
+          "content": "Wenn wir langsamer werden, lässt sich in nature leichter gut wählen. Der Fokus liegt auf klaren Prioritäten statt auf hastigen Reaktionen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_nature_226_it",
+          "title": "Chiarezza invece di Urgenza",
+          "content": "Quando rallentiamo, in nature diventa più facile scegliere bene. L'attenzione è su priorità chiare, non su reazioni affrettate.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_nature_226_ru",
+          "title": "Ясность вместо срочности",
+          "content": "Когда мы замедляемся, в nature легче выбирать правильно. Фокус на ясных приоритетах, а не на поспешных реакциях.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_nature_226_id",
+          "title": "Kejelasan di Atas Urgensi",
+          "content": "Saat kita melambat, nature menjadi lebih mudah dipilih dengan baik. Fokusnya pada prioritas yang jelas, bukan reaksi tergesa.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_nature_226_ja",
+          "title": "焦りより明確さ",
+          "content": "ゆっくりすると、natureで良い選択をしやすくなります。焦った反応ではなく、明確な優先順位に焦点を当てます。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_nature_226_th",
+          "title": "ความชัดเจนเหนือความเร่งด่วน",
+          "content": "เมื่อเราช้าลง nature จะเลือกได้ดีขึ้น โฟกัสอยู่ที่ลำดับความสำคัญที่ชัดเจน แทนการตอบสนองที่รีบเร่ง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_nature_226_ms",
+          "title": "Kejelasan Mengatasi Kedesakan",
+          "content": "Apabila kita memperlahankan langkah, nature menjadi lebih mudah dipilih dengan baik. Fokusnya pada keutamaan yang jelas, bukan reaksi tergesa-gesa.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

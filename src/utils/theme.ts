@@ -1174,6 +1174,82 @@ export const minimalistDarkTheme: Theme = {
   },
 };
 
+// Aura Theme - Warm Cinematic (premium dark/cream palette)
+const auraPalette = {
+  // Dark version – deep warm charcoal
+  darkBg:       "#141210", // near-black, warm
+  darkBg2:      "#1C1916", // slightly lighter charcoal
+  darkBg3:      "#241E1A", // mid charcoal
+  darkSurface:  "#1C1916",
+  darkCard:     "#2A221D",
+
+  // Light version – warm cream paper
+  lightBg:      "#FBF8F3", // warm off-white
+  lightBg2:     "#F5EDE0", // soft cream
+  lightBg3:     "#EDE3D4", // deeper cream
+  lightSurface: "#FFFFFF",
+  lightCard:    "#F7F3ED",
+
+  // Text – dark version
+  textLight:    "#F0EBE2", // warm cream white
+  textLightSec: "#B8AD9E", // muted warm grey
+
+  // Text – light version
+  textDark:     "#1A1410", // very dark warm brown
+  textDarkSec:  "#7A6E63", // medium warm brown
+
+  // Accent – warm gold
+  gold:         "#C8965A", // rich gold
+  goldLight:    "#E8C97A", // lighter gold
+
+  // Brand color for radial overlay
+  brand:        "#C8965A",
+};
+
+export const auraLightTheme: Theme = {
+  ...lightTheme,
+  colors: {
+    ...lightTheme.colors,
+    ...createThemedColors(
+      auraPalette.gold,
+      auraPalette.goldLight,
+      auraPalette.gold,
+      [auraPalette.lightBg, auraPalette.lightBg2, auraPalette.lightBg3, auraPalette.lightBg2]
+    ),
+    background:    auraPalette.lightBg,
+    surface:       auraPalette.lightSurface,
+    text:          auraPalette.textDark,
+    textSecondary: auraPalette.textDarkSec,
+    brandYellow:   auraPalette.gold,
+    gradientColors: [auraPalette.lightBg, auraPalette.lightBg2, auraPalette.lightBg3, auraPalette.lightBg2],
+    gradientLocations: [0, 0.35, 0.7, 1],
+    radialOverlayColors: ["transparent", `rgba(200, 150, 90, 0.12)`, "transparent"],
+  },
+};
+
+export const auraDarkTheme: Theme = {
+  ...darkTheme,
+  colors: {
+    ...darkTheme.colors,
+    ...createThemedColors(
+      auraPalette.gold,
+      auraPalette.goldLight,
+      auraPalette.gold,
+      [auraPalette.darkBg, auraPalette.darkBg2, auraPalette.darkBg3, auraPalette.darkBg2]
+    ),
+    background:    auraPalette.darkBg,
+    surface:       auraPalette.darkSurface,
+    text:          auraPalette.textLight,
+    textSecondary: auraPalette.textLightSec,
+    brandYellow:   auraPalette.gold,
+    gradientColors: [auraPalette.darkBg, auraPalette.darkBg2, auraPalette.darkBg3, auraPalette.darkBg2],
+    gradientLocations: [0, 0.35, 0.7, 1],
+    radialOverlayColors: ["transparent", `rgba(200, 150, 90, 0.10)`, "transparent"],
+    whiteOverlay20: "rgba(255, 255, 255, 0.08)",
+    whiteOverlay25: "rgba(255, 255, 255, 0.10)",
+  },
+};
+
 // Theme switching utility - Updated to support all themes
 export const getTheme = (isDark: boolean = true): Theme => {
   return isDark ? darkTheme : lightTheme;
@@ -1187,6 +1263,8 @@ export const getThemeByOption = (
   isDark: boolean = true
 ): Theme => {
   switch (themeOption) {
+    case "aura":
+      return isDark ? auraDarkTheme : auraLightTheme;
     case "uprising":
       return isDark ? classicDarkTheme : classicLightTheme;
     case "ocean":
@@ -1206,6 +1284,11 @@ export const getThemeByOption = (
 
 // Theme metadata for UI (icons and preview colors only)
 export const themeMetadata = {
+  aura: {
+    icon: "moon.stars",
+    preview: auraPalette.gold,
+    name: "Aura", // Warm cinematic dark/cream — default premium theme
+  },
   uprising: {
     icon: "sun",
     preview: classicPalette.gradientEnd,

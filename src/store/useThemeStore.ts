@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 export type ThemeOption =
+  | "aura"
   | "uprising"
   | "ocean"
   | "forest"
@@ -29,7 +30,7 @@ export const useThemeStore = create<ThemeStore>()(
   persist(
     (set, get) => ({
       // State
-      selectedTheme: "uprising",
+      selectedTheme: "aura",
       colorScheme: "system",
       _hasHydrated: false,
 

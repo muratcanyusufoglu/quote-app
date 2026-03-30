@@ -13,6 +13,7 @@ import {getThemeByOption} from "./theme";
 
 // Define types locally to avoid circular dependencies
 type ThemeOption =
+  | "aura"
   | "uprising"
   | "ocean"
   | "forest"
@@ -56,7 +57,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
   // Local state without store integration for now
   const [selectedTheme, setSelectedThemeState] =
-    useState<ThemeOption>("uprising");
+    useState<ThemeOption>("aura");
   const [colorScheme, setColorSchemeState] = useState<ColorScheme>("system");
   const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "system");
 
@@ -127,7 +128,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     } catch (error) {
       console.error("Error getting theme by option:", error);
       // Fallback to default theme
-      return getThemeByOption("uprising", isDark);
+      return getThemeByOption("aura", isDark);
     }
   }, [selectedTheme, isDark]);
 
@@ -244,9 +245,9 @@ export const useTheme = (): ThemeContextType => {
     // Return a default theme to prevent crashes
     try {
       return {
-        theme: getThemeByOption("uprising", true),
+        theme: getThemeByOption("aura", true),
         isDark: true,
-        selectedTheme: "uprising",
+        selectedTheme: "aura",
         colorScheme: "system",
         toggleTheme: () => {},
         setTheme: () => {},
@@ -361,7 +362,7 @@ export const useTheme = (): ThemeContextType => {
           },
         },
         isDark: false,
-        selectedTheme: "uprising",
+        selectedTheme: "aura",
         colorScheme: "system",
         toggleTheme: () => {},
         setTheme: () => {},

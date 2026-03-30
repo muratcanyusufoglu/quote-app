@@ -20,6 +20,7 @@ import {useTheme} from "../../utils/ThemeContext";
 
 // Define types locally to match ThemeContext
 type ThemeOption =
+  | "aura"
   | "uprising"
   | "ocean"
   | "forest"
@@ -81,6 +82,8 @@ export function ThemeSelectionScreen() {
     previewTheme: any
   ): string[] => {
     const baseColors = {
+      // Aura - Warm Cinematic (dark charcoal to gold)
+      aura: ["#141210", "#1C1916", "#241E1A", "#C8965A", "#E8C97A"],
       // Uprising - Classic Gradient Yellow to Pink (from HTML Variant 2)
       uprising: ["#FCE38A", "#FBD55A", "#FAC73C", "#F38181", "#EF5757"],
       // Ocean - Deep Blue & Navy
@@ -166,9 +169,9 @@ export function ThemeSelectionScreen() {
                   themeKey: ThemeOption,
                   isMainText: boolean
                 ): string => {
-                  if (themeKey === "purple" || themeKey === "minimalist") {
+                  if (themeKey === "aura" || themeKey === "purple" || themeKey === "minimalist") {
                     // Use light colors for dark gradient backgrounds
-                    return isMainText ? "#FFFFFF" : "#E5E7EB"; // White for main, light gray for secondary
+                    return isMainText ? "#F0EBE2" : "#B8AD9E";
                   }
                   // For other themes, use the preview theme's text colors
                   return isMainText
