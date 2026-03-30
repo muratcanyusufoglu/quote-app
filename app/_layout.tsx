@@ -283,6 +283,12 @@ export default function RootLayout() {
             }}
           />
           <Stack.Screen
+            name="personalization"
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
             name="quote-detail"
             options={{
               headerShown: false,

@@ -1,4 +1,5 @@
 import Slider from "@react-native-community/slider";
+import * as StoreReview from "expo-store-review";
 import {LinearGradient} from "expo-linear-gradient";
 import {router} from "expo-router";
 import React, {useEffect, useRef, useState} from "react";
@@ -28,6 +29,7 @@ import {
 } from "../../hooks/useTranslation";
 import {useOnboardingActions} from "../../store/useOnboardingStore";
 import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {NotificationService} from "../../services/NotificationService";
 import {OnboardingAnswer, OnboardingOption} from "../../types";
 import {useTheme} from "../../utils/ThemeContext";
 
@@ -37,9 +39,6 @@ export function OnboardingScreen() {
   const {theme, isDark} = useTheme();
   const insets = useSafeAreaInsets();
   const {addAnswer, generatePreferences, setCompleted} = useOnboardingActions();
-
-  const {markOnboardingCompleted, showFirstTimePaywall} =
-    usePaywallSelectors.actions();
 
   const {
     trackScreen,
@@ -177,7 +176,19 @@ export function OnboardingScreen() {
   const handleNext = () => {
     if (currentStep === -1) {
       setCurrentStep(0);
-    } else if (currentStep < onboardingQuestions.length - 1) {
+      return;
+    }
+
+    // Request notification permission after the notification time-range step
+    if (currentQuestion?.id === "notification_time_range") {
+      setTimeout(() => {
+        NotificationService.getInstance()
+          .requestPermissions()
+          .catch(() => {/* silent — permission is optional */});
+      }, 300);
+    }
+
+    if (currentStep < onboardingQuestions.length - 1) {
       setCurrentStep(currentStep + 1);
     } else {
       completeOnboarding();
@@ -190,19 +201,29 @@ export function OnboardingScreen() {
     }
   };
 
-  const completeOnboarding = () => {
+  const completeOnboarding = async () => {
     const selectedPreferences = Object.keys(answers);
     trackOnboardingComplete(selectedPreferences);
     generatePreferences();
     setCompleted(true);
+    // Show brief completion screen while we trigger the review dialog
     setCurrentStep(onboardingQuestions.length);
-    markOnboardingCompleted();
-    setTimeout(() => {
-      router.replace("/(tabs)");
-      setTimeout(() => {
-        showFirstTimePaywall();
-      }, 1500);
-    }, 2000);
+
+    // Short delay so the completion screen renders first
+    await new Promise((r) => setTimeout(r, 600));
+
+    // Request native store review (bypasses conservative hook — onboarding is the right moment)
+    try {
+      const available = await StoreReview.isAvailableAsync();
+      if (available) {
+        await StoreReview.requestReview();
+      }
+    } catch {
+      // Non-critical — proceed regardless
+    }
+
+    // Navigate to personalisation loading screen
+    router.replace("/personalization");
   };
 
   // ─── Intro Screen ───────────────────────────────────────────────────────────
