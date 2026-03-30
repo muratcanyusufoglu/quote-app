@@ -425,7 +425,8 @@
       "weekly": "Несколько раз в неделю",
       "occasional": "Изредка",
       "quotes": "Цитаты",
-      "affirmations": "Аффирмации"
+      "affirmations": "Аффирмации",
+      "both": "Оба"
     }
   },
   "quote_detail": {

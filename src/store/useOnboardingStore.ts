@@ -172,7 +172,14 @@ const useOnboardingStore = create<OnboardingStore>()(
               break;
 
             case "content_type":
-              if (Array.isArray(answer.value)) {
+              if (typeof answer.value === "string") {
+                // Single-select: value is directly "quotes", "affirmations", or "both"
+                preferences.contentType = answer.value as
+                  | "quotes"
+                  | "affirmations"
+                  | "both";
+              } else if (Array.isArray(answer.value)) {
+                // Legacy multi-select handling
                 const selected = answer.value as string[];
                 const hasQuotes = selected.includes("quotes");
                 const hasAffirmations = selected.includes("affirmations");
@@ -382,6 +389,7 @@ const useOnboardingStore = create<OnboardingStore>()(
                 end: "18:00",
               },
               userName: "Kullanıcı", // Default fallback name
+              contentType: "both", // Default: show both quotes and affirmations
             };
             state.userPreferences = defaultPreferences;
             console.log(

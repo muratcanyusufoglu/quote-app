@@ -19959,6 +19959,1836 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "gra_224",
+      "type": "quote",
+      "texts": {
+        "en": "When it comes to gratitude, the hard part often points to the honest path.",
+        "tr": "minnettarlık konusunda zor olan kısım, çoğu zaman dürüst yolu gösterir.",
+        "fr": "En matière de gratitude, la partie difficile indique souvent le chemin honnête.",
+        "pt": "Quando se trata de gratidão, a parte difícil costuma indicar o caminho honesto.",
+        "nl": "Als het om dankbaarheid gaat, wijst het moeilijke deel vaak de eerlijke weg.",
+        "es": "Cuando se trata de gratitud, la parte difícil suele señalar el camino honesto.",
+        "de": "Wenn es um dankbarkeit geht, zeigt der schwierige Teil oft den ehrlichen Weg.",
+        "it": "Quando si parla di gratitudine, la parte difficile spesso indica la via onesta.",
+        "ru": "Когда речь о благодарность, трудная часть часто указывает честный путь.",
+        "id": "Dalam rasa syukur, bagian yang sulit sering menunjukkan jalan yang jujur.",
+        "ja": "感謝に向き合うとき、難しい部分は正直な道を指し示すことが多い。",
+        "th": "เมื่อพูดถึง ความขอบคุณ ส่วนที่ยากมักชี้ทางที่ซื่อตรง",
+        "ms": "Apabila bercakap tentang kesyukuran, bahagian yang sukar sering menunjukkan jalan yang jujur."
+      },
+      "authors": {
+        "en": "Adapted from Marcus Aurelius",
+        "tr": "Marcus Aurelius'dan uyarlanmıştır",
+        "fr": "Adapté de Marc Aurèle",
+        "pt": "Adaptado de Marco Aurélio",
+        "nl": "Aangepast van Marcus Aurelius",
+        "es": "Adaptado de Marco Aurelio",
+        "de": "Angelehnt an Mark Aurel",
+        "it": "Adattato da Marco Aurelio",
+        "ru": "Адаптировано: Марк Аврелий",
+        "id": "Diadaptasi dari Marcus Aurelius",
+        "ja": "マルクス・アウレリウスをもとに",
+        "th": "ดัดแปลงจาก มาร์คัส ออเรลิอุส",
+        "ms": "Diadaptasi daripada Marcus Aurelius"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_224_en",
+          "title": "The Honest Path",
+          "content": "She kept avoiding the toughest chapter. One evening she opened it and found the idea that unlocked the rest; the discomfort had been a signpost.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_224_tr",
+          "title": "Dürüst Yol",
+          "content": "En zor bölümü sürekli erteledi. Bir akşam açıp baktığında geri kalanını çözen fikri buldu; rahatsızlık aslında bir işaretti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_224_fr",
+          "title": "Le Chemin Honnête",
+          "content": "Elle évitait toujours le chapitre le plus difficile. Un soir, elle l’a ouvert et a trouvé l’idée qui déverrouillait le reste; l’inconfort était un panneau.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_224_pt",
+          "title": "O Caminho Honesto",
+          "content": "Ela evitava sempre o capítulo mais difícil. Numa noite, abriu e encontrou a ideia que destravava o resto; o desconforto era um sinal.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_224_nl",
+          "title": "Het Eerlijke Pad",
+          "content": "Ze vermeed steeds het lastigste hoofdstuk. Op een avond opende ze het en vond ze het idee dat de rest ontsloot; het ongemak was een wegwijzer.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_224_es",
+          "title": "El Camino Honesto",
+          "content": "Siempre evitaba el capítulo más difícil. Una noche lo abrió y encontró la idea que desbloqueaba lo demás; la incomodidad era una señal.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_224_de",
+          "title": "Der Ehrliche Weg",
+          "content": "Sie mied das schwerste Kapitel. Eines Abends schlug sie es auf und fand die Idee, die den Rest öffnete; das Unbehagen war ein Wegweiser.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_224_it",
+          "title": "La Via Onesta",
+          "content": "Evitava sempre il capitolo più difficile. Una sera lo aprì e trovò l’idea che sbloccava il resto; il disagio era un segnale.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_224_ru",
+          "title": "Честный путь",
+          "content": "Она всё откладывала самый трудный раздел. Однажды вечером открыла его и нашла идею, которая раскрыла остальное; дискомфорт был указателем.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_224_id",
+          "title": "Jalan yang Jujur",
+          "content": "Dia terus menghindari bab tersulit. Suatu malam ia membukanya dan menemukan ide yang membuka sisanya; rasa tidak nyaman itu ternyata penunjuk arah.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_224_ja",
+          "title": "正直な道",
+          "content": "いちばん難しい章を先延ばしにしていた。ある夜開いてみると、残りを解く鍵になる考えが見つかった。居心地の悪さは道しるべだった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_224_th",
+          "title": "ทางที่ซื่อตรง",
+          "content": "เธอเลี่ยงบทที่ยากที่สุดอยู่เสมอ จนคืนหนึ่งเปิดอ่านและพบไอเดียที่ไขส่วนที่เหลือ ความอึดอัดนั้นคือป้ายบอกทาง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_224_ms",
+          "title": "Jalan yang Jujur",
+          "content": "Dia sering mengelak bab yang paling sukar. Suatu malam dia membukanya dan menemui idea yang membuka selebihnya; rasa tidak selesa itu ialah penunjuk.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_225",
+      "type": "quote",
+      "texts": {
+        "en": "With gratitude, a late start is still a start.",
+        "tr": "minnettarlık için geç bir başlangıç bile başlangıçtır.",
+        "fr": "Avec gratitude, un départ tardif reste un départ.",
+        "pt": "Com gratidão, um começo tardio ainda é um começo.",
+        "nl": "Met dankbaarheid is een late start nog steeds een start.",
+        "es": "Con gratitud, un comienzo tardío sigue siendo un comienzo.",
+        "de": "Mit dankbarkeit ist ein später Start immer noch ein Start.",
+        "it": "Con gratitudine, un inizio tardivo è comunque un inizio.",
+        "ru": "С благодарность поздний старт всё равно остаётся стартом.",
+        "id": "Dengan rasa syukur, awal yang terlambat tetaplah sebuah awal.",
+        "ja": "感謝では、遅い開始でも開始は開始だ。",
+        "th": "กับ ความขอบคุณ การเริ่มช้าก็ยังเป็นการเริ่มต้น",
+        "ms": "Dengan kesyukuran, permulaan yang lewat tetap permulaan."
+      },
+      "authors": {
+        "en": "Adapted from Seneca",
+        "tr": "Seneca'dan uyarlanmıştır",
+        "fr": "Adapté de Sénèque",
+        "pt": "Adaptado de Sêneca",
+        "nl": "Aangepast van Seneca",
+        "es": "Adaptado de Séneca",
+        "de": "Angelehnt an Seneca",
+        "it": "Adattato da Seneca",
+        "ru": "Адаптировано: Сенека",
+        "id": "Diadaptasi dari Seneca",
+        "ja": "セネカをもとに",
+        "th": "ดัดแปลงจาก เซเนกา",
+        "ms": "Diadaptasi daripada Seneca"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_225_en",
+          "title": "A Late Start",
+          "content": "He waited for a perfect week that never came. On a rainy Tuesday he began with ten minutes, and the habit finally took root.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_225_tr",
+          "title": "Geç Başlangıç",
+          "content": "Mükemmel haftayı bekledi, ama o hafta hiç gelmedi. Yağmurlu bir salı günü on dakika ile başladı ve alışkanlık nihayet kök saldı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_225_fr",
+          "title": "Un Départ Tardif",
+          "content": "Il attendait une semaine parfaite qui n’est jamais venue. Un mardi pluvieux, il a commencé par dix minutes et l’habitude a enfin pris racine.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_225_pt",
+          "title": "Um Começo Tardio",
+          "content": "Ele esperou uma semana perfeita que nunca veio. Numa terça chuvosa, começou com dez minutos e o hábito finalmente criou raízes.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_225_nl",
+          "title": "Een Late Start",
+          "content": "Hij wachtte op een perfecte week die nooit kwam. Op een regenachtige dinsdag begon hij met tien minuten en de gewoonte schoot eindelijk wortel.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_225_es",
+          "title": "Un Comienzo Tardío",
+          "content": "Esperó una semana perfecta que nunca llegó. En un martes lluvioso empezó con diez minutos y el hábito finalmente echó raíces.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_225_de",
+          "title": "Ein Später Start",
+          "content": "Er wartete auf eine perfekte Woche, die nie kam. An einem regnerischen Dienstag begann er mit zehn Minuten, und die Gewohnheit schlug endlich Wurzeln.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_225_it",
+          "title": "Un Inizio Tardivo",
+          "content": "Aspettava una settimana perfetta che non arrivò mai. In un martedì piovoso iniziò con dieci minuti e l’abitudine finalmente mise radici.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_225_ru",
+          "title": "Поздний старт",
+          "content": "Он ждал идеальную неделю, но она так и не пришла. В дождливый вторник начал с десяти минут, и привычка наконец прижилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_225_id",
+          "title": "Awal yang Terlambat",
+          "content": "Ia menunggu minggu yang sempurna yang tak pernah datang. Pada Selasa yang hujan ia mulai dengan sepuluh menit, dan kebiasaan itu akhirnya berakar.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_225_ja",
+          "title": "遅いスタート",
+          "content": "完璧な週を待っていたが来なかった。雨の火曜日に10分から始め、習慣がようやく根づいた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_225_th",
+          "title": "การเริ่มช้า",
+          "content": "เขารอให้มีสัปดาห์ที่สมบูรณ์แบบซึ่งไม่เคยมาถึง วันอังคารที่ฝนตกเขาเริ่มแค่สิบ นาที แล้วนิสัยก็หยั่งรากในที่สุด",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_225_ms",
+          "title": "Permulaan Lewat",
+          "content": "Dia menunggu minggu yang sempurna yang tak pernah datang. Pada hari Selasa yang hujan dia mula dengan sepuluh minit, dan tabiat itu akhirnya berakar.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_226",
+      "type": "quote",
+      "texts": {
+        "en": "In gratitude, protect what you can steer; let the rest pass like weather.",
+        "tr": "minnettarlık konusunda yönlendirebildiklerini koru; gerisi hava gibi geçsin.",
+        "fr": "Dans gratitude, protège ce que tu peux diriger; laisse le reste passer comme la météo.",
+        "pt": "Em gratidão, proteja o que você pode dirigir; o resto passa como o clima.",
+        "nl": "Bij dankbaarheid bescherm je wat je kunt sturen; laat de rest voorbijgaan als weer.",
+        "es": "En gratitud, protege lo que puedes dirigir; lo demás pasa como el clima.",
+        "de": "Bei dankbarkeit schütze, was du steuern kannst; der Rest zieht vorbei wie Wetter.",
+        "it": "In gratitudine, proteggi ciò che puoi guidare; il resto passa come il meteo.",
+        "ru": "В благодарность береги то, чем можешь управлять; остальное пусть проходит, как погода.",
+        "id": "Dalam rasa syukur, jaga yang bisa kamu kendalikan; sisanya biarkan lewat seperti cuaca.",
+        "ja": "感謝では、自分で舵を取れることを守り、残りは天気のように流す。",
+        "th": "ใน ความขอบคุณ จงปกป้องสิ่งที่คุณควบคุมได้ ที่เหลือปล่อยให้ผ่านไปเหมือนสภาพอากาศ",
+        "ms": "Dalam kesyukuran, lindungi apa yang anda boleh kendalikan; selebihnya biarkan berlalu seperti cuaca."
+      },
+      "authors": {
+        "en": "Adapted from Epictetus",
+        "tr": "Epiktetos'dan uyarlanmıştır",
+        "fr": "Adapté de Épictète",
+        "pt": "Adaptado de Epicteto",
+        "nl": "Aangepast van Epictetus",
+        "es": "Adaptado de Epicteto",
+        "de": "Angelehnt an Epiktet",
+        "it": "Adattato da Epitteto",
+        "ru": "Адаптировано: Эпиктет",
+        "id": "Diadaptasi dari Epictetus",
+        "ja": "エピクテトスをもとに",
+        "th": "ดัดแปลงจาก เอพิคเตตัส",
+        "ms": "Diadaptasi daripada Epictetus"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_226_en",
+          "title": "What You Can Steer",
+          "content": "During a messy project she wrote two columns: “mine” and “not mine.” The list cleared her mind and the next step appeared.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_226_tr",
+          "title": "Yön Verebildiklerin",
+          "content": "Karmaşık bir işte iki sütun yazdı: “benim” ve “benim değil.” Liste zihnini açtı ve sıradaki adım belirdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_226_fr",
+          "title": "Ce Que Tu Peux Diriger",
+          "content": "Pendant un projet chaotique, elle a écrit deux colonnes : « à moi » et « pas à moi ». La liste a clarifié son esprit et l’étape suivante est apparue.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_226_pt",
+          "title": "O Que Você Pode Conduzir",
+          "content": "Durante um projeto confuso, ela escreveu duas colunas: “meu” e “não meu”. A lista clareou sua mente e o próximo passo apareceu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_226_nl",
+          "title": "Wat Je Kunt Sturen",
+          "content": "Tijdens een rommelig project schreef ze twee kolommen: “van mij” en “niet van mij”. De lijst maakte haar hoofd helder en de volgende stap verscheen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_226_es",
+          "title": "Lo Que Puedes Dirigir",
+          "content": "Durante un proyecto caótico escribió dos columnas: “mío” y “no mío”. La lista aclaró su mente y apareció el siguiente paso.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_226_de",
+          "title": "Was Du Steuern Kannst",
+          "content": "In einem chaotischen Projekt schrieb sie zwei Spalten: „meins“ und „nicht meins“. Die Liste klärte den Kopf und der nächste Schritt erschien.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_226_it",
+          "title": "Ciò che Puoi Guidare",
+          "content": "Durante un progetto caotico scrisse due colonne: “mio” e “non mio”. La lista le chiarì la mente e il passo successivo apparve.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_226_ru",
+          "title": "То, чем можно управлять",
+          "content": "Во время хаотичного проекта она написала две колонки: «моё» и «не моё». Список прояснил голову, и следующий шаг появился.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_226_id",
+          "title": "Yang Bisa Dikendalikan",
+          "content": "Saat proyek berantakan, ia menulis dua kolom: “milikku” dan “bukan milikku”. Daftar itu menjernihkan pikirannya dan langkah berikutnya muncul.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_226_ja",
+          "title": "舵を取れること",
+          "content": "混乱したプロジェクトで「自分のこと」「自分のことではない」の二列を書いた。リストが頭を澄ませ、次の一歩が現れた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_226_th",
+          "title": "สิ่งที่คุณควบคุมได้",
+          "content": "ระหว่างโปรเจกต์ที่วุ่นวายเธอเขียนสองคอลัมน์ว่า “ของฉัน” และ “ไม่ใช่ของฉัน” รายการนั้นทำให้ใจโปร่งและก้าวถัดไปก็ปรากฏ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_226_ms",
+          "title": "Apa yang Boleh Dikendalikan",
+          "content": "Semasa projek yang berserabut, dia menulis dua lajur: “milik saya” dan “bukan milik saya”. Senarai itu menjernihkan fikirannya dan langkah seterusnya muncul.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_227",
+      "type": "quote",
+      "texts": {
+        "en": "For gratitude, small and regular steps outwalk heroic bursts.",
+        "tr": "minnettarlık için küçük ve düzenli adımlar, kahramanca sıçrayışları geride bırakır.",
+        "fr": "Pour gratitude, de petits pas réguliers dépassent les élans héroïques.",
+        "pt": "Para gratidão, passos pequenos e regulares superam surtos heroicos.",
+        "nl": "Voor dankbaarheid lopen kleine, regelmatige stappen verder dan heroïsche uitbarstingen.",
+        "es": "Para gratitud, los pasos pequeños y regulares superan los arrebatos heroicos.",
+        "de": "Für dankbarkeit laufen kleine, regelmäßige Schritte weiter als heroische Schübe.",
+        "it": "Per gratitudine, piccoli passi regolari superano slanci eroici.",
+        "ru": "Для благодарность маленькие регулярные шаги обгоняют героические рывки.",
+        "id": "Untuk rasa syukur, langkah kecil dan teratur mengalahkan ledakan heroik.",
+        "ja": "感謝においては、小さく規則的な一歩が英雄的な突進に勝つ。",
+        "th": "สำหรับ ความขอบคุณ ก้าวเล็กๆ ที่สม่ำเสมอไปได้ไกลกว่าการพุ่งฮีโร่",
+        "ms": "Untuk kesyukuran, langkah kecil yang konsisten mengatasi lonjakan heroik."
+      },
+      "authors": {
+        "en": "Adapted from Confucius",
+        "tr": "Konfüçyüs'dan uyarlanmıştır",
+        "fr": "Adapté de Confucius",
+        "pt": "Adaptado de Confúcio",
+        "nl": "Aangepast van Confucius",
+        "es": "Adaptado de Confucio",
+        "de": "Angelehnt an Konfuzius",
+        "it": "Adattato da Confucio",
+        "ru": "Адаптировано: Конфуций",
+        "id": "Diadaptasi dari Konfusius",
+        "ja": "孔子をもとに",
+        "th": "ดัดแปลงจาก ขงจื๊อ",
+        "ms": "Diadaptasi daripada Confucius"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_227_en",
+          "title": "Small and Regular",
+          "content": "A runner stopped chasing big leaps and committed to daily jogs. Weeks later the distance grew without drama.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_227_tr",
+          "title": "Küçük ve Düzenli",
+          "content": "Büyük sıçramaların peşini bırakıp her gün kısa koşulara söz verdi. Haftalar sonra mesafe, gürültü olmadan büyüdü.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_227_fr",
+          "title": "Petit et Régulier",
+          "content": "Un coureur a cessé de chercher de grands bonds et s’est engagé à courir chaque jour. Quelques semaines plus tard, la distance a grandi sans drame.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_227_pt",
+          "title": "Pequeno e Regular",
+          "content": "Um corredor parou de buscar grandes saltos e se comprometeu com corridas diárias. Semanas depois, a distância cresceu sem drama.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_227_nl",
+          "title": "Klein en Regelmatig",
+          "content": "Een loper stopte met grote sprongen en koos voor dagelijkse rondjes. Weken later groeide de afstand zonder drama.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_227_es",
+          "title": "Pequeño y Regular",
+          "content": "Un corredor dejó de perseguir grandes saltos y se comprometió con trotes diarios. Semanas después, la distancia creció sin drama.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_227_de",
+          "title": "Klein und Regelmäßig",
+          "content": "Ein Läufer hörte auf, große Sprünge zu jagen, und verpflichtete sich zu täglichen Runden. Wochen später wuchs die Distanz ohne Drama.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_227_it",
+          "title": "Piccolo e Regolare",
+          "content": "Un corridore smise di inseguire grandi salti e si impegnò in corse quotidiane. Dopo qualche settimana la distanza crebbe senza drammi.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_227_ru",
+          "title": "Маленько и регулярно",
+          "content": "Бегун перестал гнаться за большими скачками и выбрал ежедневные пробежки. Через несколько недель дистанция выросла без драм.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_227_id",
+          "title": "Kecil dan Teratur",
+          "content": "Seorang pelari berhenti mengejar lompatan besar dan berkomitmen pada lari harian. Beberapa minggu kemudian jaraknya bertambah tanpa drama.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_227_ja",
+          "title": "小さく規則的",
+          "content": "ランナーは大きな跳躍を追うのをやめ、毎日のジョグにした。数週間後、距離は静かに伸びた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_227_th",
+          "title": "เล็กและสม่ำเสมอ",
+          "content": "นักวิ่งเลิกไล่การกระโดดครั้งใหญ่แล้วหันมาวิ่งทุกวัน ไม่กี่สัปดาห์ต่อมาระยะทางเพิ่มขึ้นโดยไม่ต้องดราม่า",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_227_ms",
+          "title": "Kecil dan Konsisten",
+          "content": "Seorang pelari berhenti mengejar lompatan besar dan berkomitmen kepada larian harian. Beberapa minggu kemudian jarak bertambah tanpa drama.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_228",
+      "type": "quote",
+      "texts": {
+        "en": "With gratitude, softness keeps you moving when force would stall you.",
+        "tr": "minnettarlık konusunda yumuşaklık, zorlamanın durduracağı yerde seni yürütür.",
+        "fr": "Avec gratitude, la douceur te fait avancer quand la force t’arrêterait.",
+        "pt": "Com gratidão, a suavidade faz você avançar quando a força te travaria.",
+        "nl": "Met dankbaarheid houdt zachtheid je in beweging waar kracht je zou laten vastlopen.",
+        "es": "Con gratitud, la suavidad te mueve cuando la fuerza te frenaría.",
+        "de": "Mit dankbarkeit hält dich Sanftheit in Bewegung, wo Kraft dich stoppen würde.",
+        "it": "Con gratitudine, la dolcezza ti muove dove la forza ti bloccherebbe.",
+        "ru": "С благодарность мягкость двигает там, где сила остановила бы.",
+        "id": "Dengan rasa syukur, kelembutan membuatmu bergerak ketika kekuatan justru menghentikan.",
+        "ja": "感謝では、やわらかさが力任せなら止まる場面でも動かしてくれる。",
+        "th": "กับ ความขอบคุณ ความอ่อนโยนพาคุณไปต่อในที่ที่แรงกดจะหยุดคุณ",
+        "ms": "Dengan kesyukuran, kelembutan membuat anda terus bergerak di saat kekuatan akan menghentikan."
+      },
+      "authors": {
+        "en": "Adapted from Lao Tzu",
+        "tr": "Lao Tzu'dan uyarlanmıştır",
+        "fr": "Adapté de Lao Tseu",
+        "pt": "Adaptado de Lao Tsé",
+        "nl": "Aangepast van Lao Tzu",
+        "es": "Adaptado de Lao Tse",
+        "de": "Angelehnt an Laozi",
+        "it": "Adattato da Laozi",
+        "ru": "Адаптировано: Лао-цзы",
+        "id": "Diadaptasi dari Lao Tzu",
+        "ja": "老子をもとに",
+        "th": "ดัดแปลงจาก เหลาจื๊อ",
+        "ms": "Diadaptasi daripada Lao Tzu"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_228_en",
+          "title": "Softness That Moves",
+          "content": "In a tense meeting he lowered his voice. The room followed and the work moved on.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_228_tr",
+          "title": "Hareket Ettiren Yumuşaklık",
+          "content": "Gergin bir toplantıda sesini alçalttı. Oda onu izledi ve iş ilerledi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_228_fr",
+          "title": "La Douceur Qui Fait Avancer",
+          "content": "Dans une réunion tendue, il a baissé la voix. La salle a suivi et le travail a avancé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_228_pt",
+          "title": "A Suavidade que Move",
+          "content": "Numa reunião tensa, ele abaixou a voz. A sala acompanhou e o trabalho seguiu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_228_nl",
+          "title": "Zachtheid Die Beweegt",
+          "content": "In een gespannen vergadering verlaagde hij zijn stem. De ruimte volgde en het werk ging verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_228_es",
+          "title": "La Suavidad Que Mueve",
+          "content": "En una reunión tensa bajó la voz. La sala lo siguió y el trabajo avanzó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_228_de",
+          "title": "Sanftheit, die Bewegt",
+          "content": "In einer angespannten Sitzung senkte er die Stimme. Der Raum folgte, und die Arbeit ging weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_228_it",
+          "title": "La Dolcezza che Muove",
+          "content": "In una riunione tesa abbassò la voce. La sala lo seguì e il lavoro andò avanti.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_228_ru",
+          "title": "Мягкость, которая двигает",
+          "content": "На напряжённой встрече он понизил голос. Комната последовала, и работа пошла дальше.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_228_id",
+          "title": "Kelembutan yang Menggerakkan",
+          "content": "Di rapat yang tegang ia menurunkan suaranya. Ruangan ikut tenang dan pekerjaan maju.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_228_ja",
+          "title": "動かすやわらかさ",
+          "content": "張り詰めた会議で声を落とした。場の空気がそれに合わせ、仕事が進んだ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_228_th",
+          "title": "ความอ่อนโยนที่พาไปต่อ",
+          "content": "ในการประชุมที่ตึงเครียดเขาลดเสียงลง ห้องทั้งห้องก็ผ่อนตาม งานจึงเดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_228_ms",
+          "title": "Kelembutan yang Menggerakkan",
+          "content": "Dalam mesyuarat tegang, dia merendahkan suaranya. Ruangan ikut tenang dan kerja bergerak.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_229",
+      "type": "quote",
+      "texts": {
+        "en": "In gratitude, the habit becomes the teacher.",
+        "tr": "minnettarlık içinde alışkanlık, öğretmene dönüşür.",
+        "fr": "Dans gratitude, l’habitude devient le professeur.",
+        "pt": "Em gratidão, o hábito vira professor.",
+        "nl": "Bij dankbaarheid wordt de gewoonte de leraar.",
+        "es": "En gratitud, el hábito se vuelve maestro.",
+        "de": "Bei dankbarkeit wird die Gewohnheit zum Lehrer.",
+        "it": "In gratitudine, l’abitudine diventa maestra.",
+        "ru": "В благодарность привычка становится учителем.",
+        "id": "Dalam rasa syukur, kebiasaan menjadi guru.",
+        "ja": "感謝では、習慣が先生になる。",
+        "th": "ใน ความขอบคุณ นิสัยกลายเป็นครู",
+        "ms": "Dalam kesyukuran, tabiat menjadi guru."
+      },
+      "authors": {
+        "en": "Adapted from Aristotle",
+        "tr": "Aristoteles'dan uyarlanmıştır",
+        "fr": "Adapté de Aristote",
+        "pt": "Adaptado de Aristóteles",
+        "nl": "Aangepast van Aristoteles",
+        "es": "Adaptado de Aristóteles",
+        "de": "Angelehnt an Aristoteles",
+        "it": "Adattato da Aristotele",
+        "ru": "Адаптировано: Аристотель",
+        "id": "Diadaptasi dari Aristoteles",
+        "ja": "アリストテレスをもとに",
+        "th": "ดัดแปลงจาก อริสโตเติล",
+        "ms": "Diadaptasi daripada Aristotle"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_229_en",
+          "title": "Habit as Teacher",
+          "content": "She set a simple routine and kept it even on busy days. Over time the routine shaped her confidence more than any lecture.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_229_tr",
+          "title": "Öğreten Alışkanlık",
+          "content": "Basit bir rutin kurdu ve yoğun günlerde de korudu. Zamanla o rutin, ona derslerden daha çok güven verdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_229_fr",
+          "title": "L’Habitude Comme Professeur",
+          "content": "Elle a mis en place une routine simple et l’a tenue même les jours chargés. Avec le temps, cette routine a façonné sa confiance plus que n’importe quel cours.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_229_pt",
+          "title": "Hábito como Professor",
+          "content": "Ela criou uma rotina simples e a manteve até nos dias corridos. Com o tempo, a rotina moldou sua confiança mais do que qualquer aula.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_229_nl",
+          "title": "Gewoonte als Leraar",
+          "content": "Ze maakte een eenvoudige routine en hield die vol, zelfs op drukke dagen. Na verloop van tijd vormde die routine haar vertrouwen meer dan welke les ook.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_229_es",
+          "title": "El Hábito como Maestro",
+          "content": "Creó una rutina simple y la mantuvo incluso en días ocupados. Con el tiempo, esa rutina moldeó su confianza más que cualquier clase.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_229_de",
+          "title": "Gewohnheit als Lehrer",
+          "content": "Sie richtete eine einfache Routine ein und hielt sie auch an vollen Tagen. Mit der Zeit formte diese Routine ihr Vertrauen mehr als jede Lektion.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_229_it",
+          "title": "L’Abitudine come Maestra",
+          "content": "Creò una routine semplice e la mantenne anche nei giorni pieni. Col tempo quella routine plasmò la sua fiducia più di qualsiasi lezione.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_229_ru",
+          "title": "Привычка как учитель",
+          "content": "Она выстроила простую рутину и держалась её даже в загруженные дни. Со временем эта рутина сформировала уверенность сильнее любой лекции.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_229_id",
+          "title": "Kebiasaan sebagai Guru",
+          "content": "Ia membuat rutinitas sederhana dan menjaganya bahkan di hari sibuk. Lama‑kelamaan rutinitas itu membentuk kepercayaan dirinya lebih dari pelajaran mana pun.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_229_ja",
+          "title": "先生になる習慣",
+          "content": "簡単なルーティンを作り、忙しい日でも守った。やがてその習慣が授業以上に自信を形づくった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_229_th",
+          "title": "นิสัยในฐานะครู",
+          "content": "เธอตั้งกิจวัตรง่ายๆ และทำต่อแม้ในวันที่ยุ่ง เมื่อเวลาผ่านไป กิจวัตรนั้นสร้างความมั่นใจให้เธอมากกว่าบทเรียนใดๆ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_229_ms",
+          "title": "Tabiat sebagai Guru",
+          "content": "Dia membina rutin sederhana dan mengekalkannya walaupun pada hari sibuk. Lama-kelamaan rutin itu membentuk keyakinannya lebih daripada mana-mana kuliah.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_230",
+      "type": "quote",
+      "texts": {
+        "en": "In gratitude, clarity grows when you ask better questions.",
+        "tr": "minnettarlık konusunda netlik, daha iyi sorularla büyür.",
+        "fr": "Dans gratitude, la clarté grandit quand on pose de meilleures questions.",
+        "pt": "Em gratidão, a clareza cresce quando você faz perguntas melhores.",
+        "nl": "Bij dankbaarheid groeit helderheid als je betere vragen stelt.",
+        "es": "En gratitud, la claridad crece cuando haces mejores preguntas.",
+        "de": "Bei dankbarkeit wächst Klarheit, wenn du bessere Fragen stellst.",
+        "it": "In gratitudine, la chiarezza cresce quando fai domande migliori.",
+        "ru": "В благодарность ясность растёт, когда задаёшь лучшие вопросы.",
+        "id": "Dalam rasa syukur, kejernihan tumbuh ketika kamu mengajukan pertanyaan yang lebih baik.",
+        "ja": "感謝では、より良い問いが明晰さを育てる。",
+        "th": "ใน ความขอบคุณ ความชัดเจนเติบโตจากคำถามที่ดีขึ้น",
+        "ms": "Dalam kesyukuran, kejelasan tumbuh apabila anda bertanya soalan yang lebih baik."
+      },
+      "authors": {
+        "en": "Adapted from Plato",
+        "tr": "Platon'dan uyarlanmıştır",
+        "fr": "Adapté de Platon",
+        "pt": "Adaptado de Platão",
+        "nl": "Aangepast van Plato",
+        "es": "Adaptado de Platón",
+        "de": "Angelehnt an Platon",
+        "it": "Adattato da Platone",
+        "ru": "Адаптировано: Платон",
+        "id": "Diadaptasi dari Plato",
+        "ja": "プラトンをもとに",
+        "th": "ดัดแปลงจาก เพลโต",
+        "ms": "Diadaptasi daripada Plato"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_230_en",
+          "title": "Better Questions",
+          "content": "In a study group he stopped collecting answers and started refining the question. The discussion suddenly lit up.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_230_tr",
+          "title": "Daha İyi Sorular",
+          "content": "Bir çalışma grubunda cevap toplamayı bıraktı ve soruyu keskinleştirdi. Sohbet birden aydınlandı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_230_fr",
+          "title": "De Meilleures Questions",
+          "content": "Dans un groupe d’étude, il a cessé d’accumuler des réponses et a affiné la question. La discussion s’est illuminée.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_230_pt",
+          "title": "Perguntas Melhores",
+          "content": "Num grupo de estudo, ele parou de juntar respostas e refinou a pergunta. A conversa se iluminou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_230_nl",
+          "title": "Betere Vragen",
+          "content": "In een studiegroep stopte hij met antwoorden verzamelen en scherpte hij de vraag aan. Het gesprek lichtte op.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_230_es",
+          "title": "Mejores Preguntas",
+          "content": "En un grupo de estudio dejó de acumular respuestas y afinó la pregunta. La conversación se iluminó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_230_de",
+          "title": "Bessere Fragen",
+          "content": "In einer Lerngruppe hörte er auf, Antworten zu sammeln, und schärfte die Frage. Das Gespräch leuchtete auf.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_230_it",
+          "title": "Domande Migliori",
+          "content": "In un gruppo di studio smise di accumulare risposte e affinò la domanda. La conversazione si accese.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_230_ru",
+          "title": "Лучшие вопросы",
+          "content": "В учебной группе он перестал собирать ответы и стал точнее формулировать вопрос. Разговор сразу ожил.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_230_id",
+          "title": "Pertanyaan yang Lebih Baik",
+          "content": "Di kelompok belajar ia berhenti mengumpulkan jawaban dan memperhalus pertanyaan. Diskusi pun menjadi terang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_230_ja",
+          "title": "より良い問い",
+          "content": "勉強会で答え集めをやめ、問いを磨いた。議論が一気に明るくなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_230_th",
+          "title": "คำถามที่ดีขึ้น",
+          "content": "ในกลุ่มเรียน เขาหยุดสะสมคำตอบแล้วขัดเกลาคำถาม การสนทนาจึงสว่างขึ้นทันที",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_230_ms",
+          "title": "Soalan Lebih Baik",
+          "content": "Dalam kumpulan belajar, dia berhenti mengumpul jawapan dan memperhalus soalan. Perbincangan pun menjadi terang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_231",
+      "type": "quote",
+      "texts": {
+        "en": "With gratitude, clean edges reveal the true design.",
+        "tr": "minnettarlık ile temiz çizgiler, gerçek tasarımı görünür kılar.",
+        "fr": "Avec gratitude, des lignes nettes révèlent le vrai dessin.",
+        "pt": "Com gratidão, bordas limpas revelam o verdadeiro desenho.",
+        "nl": "Met dankbaarheid laten strakke randen het echte ontwerp zien.",
+        "es": "Con gratitud, los bordes limpios revelan el verdadero diseño.",
+        "de": "Mit dankbarkeit zeigen klare Kanten das wahre Design.",
+        "it": "Con gratitudine, bordi puliti rivelano il vero disegno.",
+        "ru": "С благодарность чистые грани показывают настоящий замысел.",
+        "id": "Dengan rasa syukur, tepi yang bersih memperlihatkan desain yang sebenarnya.",
+        "ja": "感謝では、無駄のない輪郭が本当のデザインを見せる。",
+        "th": "กับ ความขอบคุณ ขอบที่สะอาดเผยให้เห็นแบบที่แท้จริง",
+        "ms": "Dengan kesyukuran, tepi yang kemas menampakkan reka bentuk sebenar."
+      },
+      "authors": {
+        "en": "Adapted from Leonardo da Vinci",
+        "tr": "Leonardo da Vinci'dan uyarlanmıştır",
+        "fr": "Adapté de Léonard de Vinci",
+        "pt": "Adaptado de Leonardo da Vinci",
+        "nl": "Aangepast van Leonardo da Vinci",
+        "es": "Adaptado de Leonardo da Vinci",
+        "de": "Angelehnt an Leonardo da Vinci",
+        "it": "Adattato da Leonardo da Vinci",
+        "ru": "Адаптировано: Леонардо да Винчи",
+        "id": "Diadaptasi dari Leonardo da Vinci",
+        "ja": "レオナルド・ダ・ヴィンチをもとに",
+        "th": "ดัดแปลงจาก เลโอนาร์โด ดา วินชี",
+        "ms": "Diadaptasi daripada Leonardo da Vinci"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_231_en",
+          "title": "Clean Edges",
+          "content": "She removed two extra steps from her process. The work became faster and felt truer to her intent.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_231_tr",
+          "title": "Temiz Çizgiler",
+          "content": "Sürecinden iki fazlalık adım çıkardı. İş hızlandı ve niyetine daha sadık göründü.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_231_fr",
+          "title": "Lignes Nettes",
+          "content": "Elle a retiré deux étapes en trop de son processus. Le travail est devenu plus rapide et plus fidèle à son intention.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_231_pt",
+          "title": "Bordas Limpas",
+          "content": "Ela retirou dois passos extras do processo. O trabalho ficou mais rápido e mais fiel à sua intenção.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_231_nl",
+          "title": "Strakke Randen",
+          "content": "Ze haalde twee overbodige stappen uit haar proces. Het werk werd sneller en trouw aan haar intentie.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_231_es",
+          "title": "Bordes Limpios",
+          "content": "Quitó dos pasos extra de su proceso. El trabajo fue más rápido y más fiel a su intención.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_231_de",
+          "title": "Klare Kanten",
+          "content": "Sie entfernte zwei überflüssige Schritte aus ihrem Prozess. Die Arbeit wurde schneller und treuer zu ihrer Absicht.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_231_it",
+          "title": "Bordi Puliti",
+          "content": "Tolse due passaggi extra dal processo. Il lavoro divenne più rapido e più fedele alla sua intenzione.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_231_ru",
+          "title": "Чистые грани",
+          "content": "Она убрала два лишних шага из процесса. Работа стала быстрее и точнее её намерению.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_231_id",
+          "title": "Tepi yang Bersih",
+          "content": "Ia menghapus dua langkah tambahan dari prosesnya. Pekerjaan menjadi lebih cepat dan lebih setia pada niatnya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_231_ja",
+          "title": "無駄のない輪郭",
+          "content": "工程から余計な二手順を外した。仕事は速くなり、意図に忠実になった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_231_th",
+          "title": "ขอบที่สะอาด",
+          "content": "เธอตัดสองขั้นตอนที่เกินออกไป งานเร็วขึ้นและซื่อตรงต่อเจตนา",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_231_ms",
+          "title": "Tepi yang Kemas",
+          "content": "Dia membuang dua langkah tambahan daripada prosesnya. Kerja menjadi lebih pantas dan lebih setia pada niatnya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_232",
+      "type": "quote",
+      "texts": {
+        "en": "In gratitude, curiosity shrinks what feels frightening.",
+        "tr": "minnettarlık içinde merak, korkutucu görüneni küçültür.",
+        "fr": "Dans gratitude, la curiosité rétrécit ce qui fait peur.",
+        "pt": "Em gratidão, a curiosidade diminui o que parece assustador.",
+        "nl": "Bij dankbaarheid maakt nieuwsgierigheid wat angstig voelt kleiner.",
+        "es": "En gratitud, la curiosidad reduce lo que asusta.",
+        "de": "Bei dankbarkeit macht Neugier das Beängstigende kleiner.",
+        "it": "In gratitudine, la curiosità rimpicciolisce ciò che spaventa.",
+        "ru": "В благодарность любопытство уменьшает то, что пугает.",
+        "id": "Dalam rasa syukur, rasa ingin tahu mengecilkan hal yang terasa menakutkan.",
+        "ja": "感謝では、好奇心が怖さを小さくする。",
+        "th": "ใน ความขอบคุณ ความใฝ่รู้ทำให้สิ่งที่น่ากลัวเล็กลง",
+        "ms": "Dalam kesyukuran, rasa ingin tahu mengecilkan perkara yang menakutkan."
+      },
+      "authors": {
+        "en": "Adapted from Marie Curie",
+        "tr": "Marie Curie'dan uyarlanmıştır",
+        "fr": "Adapté de Marie Curie",
+        "pt": "Adaptado de Marie Curie",
+        "nl": "Aangepast van Marie Curie",
+        "es": "Adaptado de Marie Curie",
+        "de": "Angelehnt an Marie Curie",
+        "it": "Adattato da Marie Curie",
+        "ru": "Адаптировано: Мария Кюри",
+        "id": "Diadaptasi dari Marie Curie",
+        "ja": "マリ・キュリーをもとに",
+        "th": "ดัดแปลงจาก มารี กูรี",
+        "ms": "Diadaptasi daripada Marie Curie"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_232_en",
+          "title": "Curiosity Shrinks Fear",
+          "content": "The lab noise used to intimidate her. Testing one small variable at a time, the fear faded into focus.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_232_tr",
+          "title": "Merak Korkuyu Küçültür",
+          "content": "Laboratuvarın sesi onu ürkütüyordu. Küçük bir değişkeni tek tek denerken korku odaklanmaya dönüştü.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_232_fr",
+          "title": "La Curiosité Réduit la Peur",
+          "content": "Le bruit du laboratoire l’intimidait. En testant une petite variable à la fois, la peur s’est dissipée dans la concentration.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_232_pt",
+          "title": "A Curiosidade Encolhe o Medo",
+          "content": "O barulho do laboratório a intimidava. Testando uma variável de cada vez, o medo virou foco.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_232_nl",
+          "title": "Nieuwsgierigheid Maakt Angst Klein",
+          "content": "Het lawaai van het lab intimideerde haar. Door één kleine variabele tegelijk te testen, verdween de angst in focus.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_232_es",
+          "title": "La Curiosidad Reduce el Miedo",
+          "content": "El ruido del laboratorio la intimidaba. Al probar una pequeña variable a la vez, el miedo se transformó en enfoque.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_232_de",
+          "title": "Neugier Verkleinert die Angst",
+          "content": "Das Laborgeräusch machte ihr Angst. Als sie eine kleine Variable nach der anderen testete, verblasste die Angst zu Fokus.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_232_it",
+          "title": "La Curiosità Riduce la Paura",
+          "content": "Il rumore del laboratorio la intimidiva. Provando una piccola variabile alla volta, la paura si trasformò in concentrazione.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_232_ru",
+          "title": "Любопытство уменьшает страх",
+          "content": "Её пугал шум лаборатории. Проверяя одну маленькую переменную за раз, страх растворился в фокусе.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_232_id",
+          "title": "Rasa Ingin Tahu Mengecilkan Takut",
+          "content": "Suara laboratorium dulu mengintimidasi. Dengan menguji satu variabel kecil tiap kali, rasa takut berubah menjadi fokus.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_232_ja",
+          "title": "好奇心は怖さを小さくする",
+          "content": "ラボの音が怖かった。小さな変数を一つずつ試すうちに、恐れは集中に変わった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_232_th",
+          "title": "ความใฝ่รู้ลดความกลัว",
+          "content": "เสียงในห้องแล็บเคยทำให้เธอกลัว เมื่อทดลองตัวแปรทีละน้อย ความกลัวก็ละลายเป็นสมาธิ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_232_ms",
+          "title": "Rasa Ingin Tahu Mengecilkan Takut",
+          "content": "Bunyi makmal dulu menakutkannya. Dengan menguji satu pemboleh ubah kecil pada satu masa, ketakutan berubah menjadi fokus.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "gra_233",
+      "type": "quote",
+      "texts": {
+        "en": "With gratitude, keep the wonder alive; it opens the next door.",
+        "tr": "minnettarlık ile merakı diri tut; sonraki kapıyı o açar.",
+        "fr": "Avec gratitude, garde l’émerveillement vivant; il ouvre la prochaine porte.",
+        "pt": "Com gratidão, mantenha o encanto vivo; ele abre a próxima porta.",
+        "nl": "Met dankbaarheid houd je verwondering levend; die opent de volgende deur.",
+        "es": "Con gratitud, mantén viva la maravilla; abre la próxima puerta.",
+        "de": "Mit dankbarkeit halte das Staunen lebendig; es öffnet die nächste Tür.",
+        "it": "Con gratitudine, tieni vivo lo stupore; apre la prossima porta.",
+        "ru": "С благодарность сохраняй удивление; оно открывает следующую дверь.",
+        "id": "Dengan rasa syukur, jaga rasa takjub tetap hidup; ia membuka pintu berikutnya.",
+        "ja": "感謝では、驚きを生かしておくと次の扉が開く。",
+        "th": "กับ ความขอบคุณ รักษาความพิศวงไว้ มันจะเปิดประตูถัดไป",
+        "ms": "Dengan kesyukuran, hidupkan rasa kagum; ia membuka pintu seterusnya."
+      },
+      "authors": {
+        "en": "Adapted from Albert Einstein",
+        "tr": "Albert Einstein'dan uyarlanmıştır",
+        "fr": "Adapté de Albert Einstein",
+        "pt": "Adaptado de Albert Einstein",
+        "nl": "Aangepast van Albert Einstein",
+        "es": "Adaptado de Albert Einstein",
+        "de": "Angelehnt an Albert Einstein",
+        "it": "Adattato da Albert Einstein",
+        "ru": "Адаптировано: Альберт Эйнштейн",
+        "id": "Diadaptasi dari Albert Einstein",
+        "ja": "アルベルト・アインシュタインをもとに",
+        "th": "ดัดแปลงจาก อัลเบิร์ต ไอน์สไตน์",
+        "ms": "Diadaptasi daripada Albert Einstein"
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_gra_233_en",
+          "title": "Keeping Wonder",
+          "content": "A mentor asked him to explain his work like a story. The wonder returned and he noticed a new path.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_gra_233_tr",
+          "title": "Merakı Canlı Tut",
+          "content": "Bir mentor ondan işini bir hikâye gibi anlatmasını istedi. Merak geri geldi ve yeni bir yol fark etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_gra_233_fr",
+          "title": "Garder l’Émerveillement",
+          "content": "Un mentor lui a demandé d’expliquer son travail comme une histoire. L’émerveillement est revenu et il a vu un nouveau chemin.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_gra_233_pt",
+          "title": "Manter o Encanto",
+          "content": "Um mentor pediu que ele explicasse o trabalho como uma história. O encanto voltou e ele percebeu um novo caminho.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_gra_233_nl",
+          "title": "Verwondering Bewaren",
+          "content": "Een mentor vroeg hem zijn werk als een verhaal uit te leggen. De verwondering keerde terug en hij zag een nieuw pad.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_gra_233_es",
+          "title": "Mantener la Maravilla",
+          "content": "Un mentor le pidió que explicara su trabajo como una historia. La maravilla volvió y vio un nuevo camino.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_gra_233_de",
+          "title": "Staunen Bewahren",
+          "content": "Ein Mentor bat ihn, seine Arbeit wie eine Geschichte zu erklären. Das Staunen kehrte zurück und er sah einen neuen Weg.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_gra_233_it",
+          "title": "Tenere Vivo lo Stupore",
+          "content": "Un mentore gli chiese di spiegare il lavoro come una storia. Lo stupore tornò e lui notò un nuovo sentiero.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_gra_233_ru",
+          "title": "Сохранять удивление",
+          "content": "Наставник попросил его объяснить работу как историю. Удивление вернулось, и он увидел новый путь.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_gra_233_id",
+          "title": "Menjaga Rasa Takjub",
+          "content": "Seorang mentor memintanya menjelaskan pekerjaannya seperti cerita. Rasa takjub kembali dan ia melihat jalan baru.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_gra_233_ja",
+          "title": "驚きを保つ",
+          "content": "メンターに仕事を物語のように説明してみてと言われた。驚きが戻り、新しい道が見えた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_gra_233_th",
+          "title": "เก็บความพิศวงไว้",
+          "content": "เมนเทอร์ขอให้เขาเล่างานของตัวเองเหมือนเล่าเรื่อง ความพิศวงกลับมาและเขาเห็นทางใหม่",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_gra_233_ms",
+          "title": "Memelihara Rasa Kagum",
+          "content": "Seorang mentor meminta dia menerangkan kerjanya seperti sebuah cerita. Rasa kagum kembali dan dia melihat jalan baharu.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

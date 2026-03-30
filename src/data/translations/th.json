@@ -425,7 +425,8 @@
       "weekly": "หลายครั้งต่อสัปดาห์",
       "occasional": "เป็นครั้งคราว",
       "quotes": "คำคม",
-      "affirmations": "คำยืนยัน"
+      "affirmations": "คำยืนยัน",
+      "both": "ทั้งคู่"
     }
   },
   "quote_detail": {

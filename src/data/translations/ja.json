@@ -425,7 +425,8 @@
       "weekly": "週に数回",
       "occasional": "時々",
       "quotes": "名言",
-      "affirmations": "アファメーション"
+      "affirmations": "アファメーション",
+      "both": "両方"
     }
   },
   "quote_detail": {

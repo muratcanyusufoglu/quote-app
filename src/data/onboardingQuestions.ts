@@ -43,7 +43,7 @@ export const getOnboardingQuestions = (
   },
   {
     id: "content_type",
-    type: "multiple",
+    type: "single",
     question: t("onboarding.questions.content_type"),
     required: true,
     options: [
@@ -58,6 +58,12 @@ export const getOnboardingQuestions = (
         label: t("onboarding.options.affirmations"),
         value: "affirmations",
         icon: "heart",
+      },
+      {
+        id: "both",
+        label: t("onboarding.options.both"),
+        value: "both",
+        icon: "star",
       },
     ],
   },

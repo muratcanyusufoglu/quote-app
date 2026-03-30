@@ -127,7 +127,8 @@ class LegacyQuoteService {
   getFilteredQuotes(
     isPremium: boolean,
     language: "en" | "tr",
-    selectedCategories?: string[]
+    selectedCategories?: string[],
+    contentType?: "quotes" | "affirmations" | "both"
   ): LocalizedQuote[] {
     let availableQuotes = this.quotes;
 
@@ -172,6 +173,22 @@ class LegacyQuoteService {
       );
     }
 
+    // Filter by content type if specified (missing type field treated as "quote")
+    if (contentType && contentType !== "both") {
+      if (contentType === "quotes") {
+        availableQuotes = availableQuotes.filter(
+          (quote) => !quote.type || quote.type === "quote"
+        );
+      } else if (contentType === "affirmations") {
+        availableQuotes = availableQuotes.filter(
+          (quote) => quote.type === "affirmation"
+        );
+      }
+      console.log(
+        `📝 After contentType "${contentType}" filtering: ${availableQuotes.length} quotes`
+      );
+    }
+
     // Group quotes by category and prioritize recent ones (reverse order)
     const quotesByCategoryMap: Map<string, Quote[]> = new Map();
     availableQuotes.forEach((quote) => {
@@ -212,12 +229,14 @@ class LegacyQuoteService {
     seenQuoteIds: string[],
     isPremium: boolean,
     language: "en" | "tr",
-    selectedCategories?: string[]
+    selectedCategories?: string[],
+    contentType?: "quotes" | "affirmations" | "both"
   ): LocalizedQuote[] {
     const availableQuotes = this.getFilteredQuotes(
       isPremium,
       language,
-      selectedCategories
+      selectedCategories,
+      contentType
     );
 
     // Use fallback logic if insufficient unseen quotes
@@ -262,7 +281,8 @@ class LegacyQuoteService {
     const availableQuotes = this.getFilteredQuotes(
       isPremium,
       userPreferences.language as "en" | "tr",
-      userPreferences.selectedCategories
+      userPreferences.selectedCategories,
+      userPreferences.contentType
     );
 
     // Map user's selected categories for weight calculation

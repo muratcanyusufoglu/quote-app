@@ -425,7 +425,8 @@
       "weekly": "Meerdere keren per week",
       "occasional": "Af en toe",
       "quotes": "Citaten",
-      "affirmations": "Affirmaties"
+      "affirmations": "Affirmaties",
+      "both": "Beide"
     }
   },
   "quote_detail": {

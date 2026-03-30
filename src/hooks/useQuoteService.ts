@@ -42,12 +42,17 @@ export function useQuoteService() {
   // Auto-reset seenQuotes when the user has seen every accessible quote in the current pool
   useEffect(() => {
     if (!isReady) return;
-    const accessiblePool = legacyQuoteService.getFilteredQuotes(isPremium, getPreferredLanguage(userPreferences?.language as SupportedLanguage));
+    const accessiblePool = legacyQuoteService.getFilteredQuotes(
+      isPremium,
+      getPreferredLanguage(userPreferences?.language as SupportedLanguage),
+      undefined,
+      userPreferences?.contentType
+    );
     if (accessiblePool.length > 0 && seenQuotes.length >= accessiblePool.length) {
       console.log(`🔄 All ${accessiblePool.length} accessible quotes seen — resetting for a fresh cycle`);
       resetSeenQuotes();
     }
-  }, [seenQuotes.length, isReady, isPremium]);
+  }, [seenQuotes.length, isReady, isPremium, userPreferences?.contentType]);
 
   // Stable references to avoid infinite loops
   const stableQuotes = useMemo(() => quotes, [quotes.length]);
@@ -83,8 +88,9 @@ export function useQuoteService() {
             count,
             stableSeenQuotes,
             isPremium,
-            language
-            // No selectedCategories - this will default to all accessible categories (only general)
+            language,
+            undefined,
+            userPreferences?.contentType
           );
           if (__DEV__)
             console.log(

@@ -1,14 +1,7 @@
-import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
-import {
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  ViewStyle,
-} from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { useTheme } from "../../utils/ThemeContext";
+import {StyleSheet, Text, TouchableOpacity, View, ViewStyle} from "react-native";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {useTheme} from "../../utils/ThemeContext";
 
 interface OnboardingMultiCardProps {
   icon?: string;
@@ -25,157 +18,105 @@ export function OnboardingMultiCard({
   onPress,
   style,
 }: OnboardingMultiCardProps) {
-  const { theme, selectedTheme, isDark } = useTheme();
+  const {theme, isDark} = useTheme();
 
-  // Helper function to get theme-appropriate text colors
-  const getTextColor = (overlay?: number) => {
-    // Light themes need dark text colors
-    const isLightTheme = ['forest', 'sunset', 'minimalist'].includes(selectedTheme) && !isDark;
-    const isClassicLight = selectedTheme === 'uprising' && !isDark;
+  const cardBg = isSelected
+    ? `${theme.colors.brandYellow}18`
+    : isDark
+    ? "rgba(255,255,255,0.06)"
+    : "rgba(0,0,0,0.04)";
 
-    if (isLightTheme || isClassicLight) {
-      // Use dark text colors for light themes
-      if (overlay === 90) return '#2c3e50'; // textSoft equivalent
-      if (overlay === 70) return 'rgba(44, 62, 80, 0.7)'; // textSoftTertiary equivalent
-      if (overlay === 80) return 'rgba(44, 62, 80, 0.8)'; // textSoftSecondary equivalent
-      return '#383127'; // textPrimary for light themes
-    } else {
-      // Use original white overlay colors for dark themes
-      if (overlay === 90) return theme.colors.whiteOverlay90;
-      if (overlay === 70) return theme.colors.whiteOverlay70;
-      if (overlay === 80) return theme.colors.whiteOverlay80;
-      return theme.colors.white;
-    }
-  };
+  const borderColor = isSelected
+    ? theme.colors.brandYellow
+    : isDark
+    ? "rgba(255,255,255,0.13)"
+    : "rgba(0,0,0,0.09)";
+
+  const iconColor = isSelected
+    ? theme.colors.brandYellow
+    : theme.colors.textSecondary;
 
   return (
     <TouchableOpacity
       style={[
         styles.container,
         {
-          backgroundColor: isSelected
-            ? `${theme.colors.brandYellow}20`
-            : `${theme.colors.surface}12`,
-          borderColor: isSelected
-            ? theme.colors.brandYellow
-            : `${theme.colors.border}30`,
-          borderWidth: isSelected ? 2 : 1,
+          backgroundColor: cardBg,
+          borderColor,
+          borderWidth: isSelected ? 1.5 : 1,
         },
         style,
       ]}
       onPress={onPress}
-      activeOpacity={0.8}
+      activeOpacity={0.7}
     >
+      {/* Selection indicator */}
       {isSelected && (
-        <LinearGradient
-          colors={[
-            `${theme.colors.brandYellow}10`,
-            `${theme.colors.premium}08`,
-          ]}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 0 }}
-          style={StyleSheet.absoluteFill}
-        />
-      )}
-
-      <View style={styles.content}>
-        {icon && (
-          <View
-            style={[
-              styles.iconContainer,
-              {
-                backgroundColor: isSelected
-                  ? `${theme.colors.brandYellow}25`
-                  : `${theme.colors.whiteOverlay20}`,
-              },
-            ]}
-          >
-            <IconSymbol
-              name={icon as any}
-              size={16}
-              color={
-                isSelected
-                  ? theme.colors.brandYellow
-                  : getTextColor(80)
-              }
-              strokeWidth={2}
-            />
-          </View>
-        )}
-
-        <Text
-          style={[
-            styles.title,
-            {
-              color: isSelected
-                ? getTextColor()
-                : getTextColor(90),
-              fontWeight: isSelected ? "700" : "600",
-            },
-          ]}
-        >
-          {title}
-        </Text>
-
         <View
           style={[
-            styles.checkbox,
-            {
-              borderColor: isSelected
-                ? theme.colors.brandYellow
-                : theme.colors.border,
-              backgroundColor: isSelected
-                ? theme.colors.brandYellow
-                : "transparent",
-            },
+            styles.checkBadge,
+            {backgroundColor: theme.colors.brandYellow},
           ]}
         >
-          {isSelected && (
-            <IconSymbol
-              name="checkmark"
-              size={12}
-              color={theme.colors.white}
-              strokeWidth={3}
-            />
-          )}
+          <IconSymbol
+            name="checkmark"
+            size={10}
+            color={isDark ? "#141210" : "#1a1a1a"}
+            strokeWidth={3}
+          />
         </View>
-      </View>
+      )}
+
+      {icon ? (
+        <IconSymbol
+          name={icon as any}
+          size={22}
+          color={iconColor}
+          strokeWidth={1.5}
+          style={styles.icon}
+        />
+      ) : null}
+
+      <Text
+        style={[
+          styles.title,
+          {
+            color: theme.colors.text,
+            fontWeight: isSelected ? "600" : "400",
+          },
+        ]}
+        numberOfLines={2}
+      >
+        {title}
+      </Text>
     </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 12,
-    marginBottom: 8,
+    borderRadius: 13,
+    paddingHorizontal: 13,
+    paddingVertical: 14,
+    alignItems: "flex-start",
+    position: "relative",
     overflow: "hidden",
   },
-  content: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-  },
-  iconContainer: {
-    width: 28,
-    height: 28,
-    borderRadius: 14,
+  checkBadge: {
+    position: "absolute",
+    top: 7,
+    right: 7,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 12,
+  },
+  icon: {
+    marginBottom: 8,
   },
   title: {
-    flex: 1,
-    fontSize: 14,
+    fontSize: 13,
     lineHeight: 18,
-  },
-  checkbox: {
-    width: 20,
-    height: 20,
-    borderRadius: 10,
-    borderWidth: 2,
-    alignItems: "center",
-    justifyContent: "center",
-    marginLeft: 8,
   },
 });

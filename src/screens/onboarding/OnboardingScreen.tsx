@@ -1,7 +1,7 @@
 import Slider from "@react-native-community/slider";
-import { LinearGradient } from "expo-linear-gradient";
-import { router } from "expo-router";
-import React, { useEffect, useRef, useState } from "react";
+import {LinearGradient} from "expo-linear-gradient";
+import {router} from "expo-router";
+import React, {useEffect, useRef, useState} from "react";
 import {
   Animated,
   Dimensions,
@@ -12,38 +12,35 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {
   OnboardingCard,
   OnboardingMultiCard,
   OnboardingTimeCard,
 } from "../../components/onboarding";
-import { getOnboardingQuestions } from "../../data/onboardingQuestions";
-import { useAnalytics } from "../../hooks/useAnalytics";
+import {getOnboardingQuestions} from "../../data/onboardingQuestions";
+import {useAnalytics} from "../../hooks/useAnalytics";
 import {
   useScreenTranslations,
   useTranslation,
 } from "../../hooks/useTranslation";
-import { useOnboardingActions } from "../../store/useOnboardingStore";
-import { usePaywallSelectors } from "../../store/usePaywallStore";
-import { OnboardingAnswer, OnboardingOption } from "../../types";
-import { useTheme } from "../../utils/ThemeContext";
+import {useOnboardingActions} from "../../store/useOnboardingStore";
+import {usePaywallSelectors} from "../../store/usePaywallStore";
+import {OnboardingAnswer, OnboardingOption} from "../../types";
+import {useTheme} from "../../utils/ThemeContext";
 
-const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
+const {height: screenHeight} = Dimensions.get("window");
 
 export function OnboardingScreen() {
-  const { theme, selectedTheme, isDark } = useTheme();
+  const {theme, isDark} = useTheme();
   const insets = useSafeAreaInsets();
-  const { addAnswer, generatePreferences, setCompleted } =
-    useOnboardingActions();
+  const {addAnswer, generatePreferences, setCompleted} = useOnboardingActions();
 
-  // Progressive paywall actions (move to top level)
-  const { markOnboardingCompleted, showFirstTimePaywall } =
+  const {markOnboardingCompleted, showFirstTimePaywall} =
     usePaywallSelectors.actions();
 
-  // Analytics
   const {
     trackScreen,
     trackOnboardingStart,
@@ -51,119 +48,75 @@ export function OnboardingScreen() {
     trackOnboardingComplete,
   } = useAnalytics();
 
-  // Translations
   const onboarding = useScreenTranslations("onboarding");
-  const { t } = useTranslation();
+  const {t} = useTranslation();
 
-  // Get localized questions
   const onboardingQuestions = getOnboardingQuestions((key: string) =>
     t(key as any)
   );
 
-  const [currentStep, setCurrentStep] = useState(-1); // Start with intro screen
+  const [currentStep, setCurrentStep] = useState(-1);
   const [answers, setAnswers] = useState<Record<string, any>>({});
-  const [slideAnim] = useState(new Animated.Value(0));
   const [fadeAnim] = useState(new Animated.Value(1));
 
-  // Enhanced animations for intro screen
+  // Intro animations
+  const markAnim = useRef(new Animated.Value(0)).current;
   const titleAnim = useRef(new Animated.Value(0)).current;
   const subtitleAnim = useRef(new Animated.Value(0)).current;
   const featuresAnim = useRef(new Animated.Value(0)).current;
-  const badgeAnim = useRef(new Animated.Value(0)).current;
-  const starAnim = useRef(new Animated.Value(0)).current;
-  const pulseAnim = useRef(new Animated.Value(1)).current;
 
-  const totalSteps = onboardingQuestions.length + 2; // +2 for intro and completion
+  const totalSteps = onboardingQuestions.length + 2;
   const currentQuestion =
     currentStep >= 0 && currentStep < onboardingQuestions.length
       ? onboardingQuestions[currentStep]
       : null;
 
-  // Track screen view and onboarding start
   useEffect(() => {
     trackScreen("OnboardingScreen", "OnboardingScreen");
     trackOnboardingStart();
   }, [trackScreen, trackOnboardingStart]);
 
-  // Enhanced intro animation sequence
+  // Intro animation sequence
   useEffect(() => {
     if (currentStep === -1) {
-      // Reset all animations
-      badgeAnim.setValue(0);
+      markAnim.setValue(0);
       titleAnim.setValue(0);
       subtitleAnim.setValue(0);
       featuresAnim.setValue(0);
-      starAnim.setValue(0);
 
-      // Start animation sequence
-      Animated.sequence([
-        // Free badge slides in from top
-        Animated.spring(badgeAnim, {
+      Animated.stagger(120, [
+        Animated.spring(markAnim, {
           toValue: 1,
           useNativeDriver: true,
-          tension: 100,
-          friction: 8,
-          delay: 300,
+          tension: 80,
+          friction: 9,
         }),
-        // Star appears with scale animation
-        Animated.spring(starAnim, {
-          toValue: 1,
-          useNativeDriver: true,
-          tension: 120,
-          friction: 6,
-        }),
-        // Title fades in
         Animated.spring(titleAnim, {
           toValue: 1,
           useNativeDriver: true,
           tension: 80,
-          friction: 8,
+          friction: 9,
         }),
-        // Subtitle follows
         Animated.spring(subtitleAnim, {
           toValue: 1,
           useNativeDriver: true,
           tension: 80,
-          friction: 8,
+          friction: 9,
         }),
-        // Features cascade in
-        Animated.stagger(150, [
-          Animated.spring(featuresAnim, {
-            toValue: 1,
-            useNativeDriver: true,
-            tension: 80,
-            friction: 8,
-          }),
-        ]),
+        Animated.spring(featuresAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 70,
+          friction: 10,
+        }),
       ]).start();
-
-      // Continuous pulse animation for star
-      const pulseLoop = Animated.loop(
-        Animated.sequence([
-          Animated.timing(pulseAnim, {
-            toValue: 1.1,
-            duration: 2000,
-            useNativeDriver: true,
-          }),
-          Animated.timing(pulseAnim, {
-            toValue: 1,
-            duration: 2000,
-            useNativeDriver: true,
-          }),
-        ])
-      );
-      pulseLoop.start();
-
-      return () => pulseLoop.stop();
     }
   }, [currentStep]);
 
-  // Track step completion
   useEffect(() => {
     if (currentStep >= 0 && currentStep < onboardingQuestions.length) {
       const completionRate =
         ((currentStep + 1) / onboardingQuestions.length) * 100;
-
       trackOnboardingStep({
         step: currentStep + 1,
         total_steps: onboardingQuestions.length,
@@ -174,44 +127,31 @@ export function OnboardingScreen() {
   }, [currentStep, onboardingQuestions.length, answers, trackOnboardingStep]);
 
   useEffect(() => {
-    animateTransition();
-  }, [currentStep]);
-
-  const animateTransition = () => {
-    Animated.parallel([
+    Animated.sequence([
       Animated.timing(fadeAnim, {
         toValue: 0,
-        duration: 150,
+        duration: 120,
         useNativeDriver: true,
       }),
-      Animated.timing(slideAnim, {
-        toValue: currentStep,
-        duration: 300,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
       Animated.timing(fadeAnim, {
         toValue: 1,
-        duration: 150,
+        duration: 180,
         useNativeDriver: true,
-      }).start();
-    });
-  };
+      }),
+    ]).start();
+  }, [currentStep]);
 
   const handleAnswer = (questionId: string, value: any) => {
-    const newAnswers = { ...answers, [questionId]: value };
+    const newAnswers = {...answers, [questionId]: value};
     setAnswers(newAnswers);
-
-    const answer: OnboardingAnswer = { questionId, value };
+    const answer: OnboardingAnswer = {questionId, value};
     addAnswer(answer);
   };
 
   const isStepComplete = () => {
     if (!currentQuestion) return true;
-
     const answer = answers[currentQuestion.id];
     if (!currentQuestion.required) return true;
-
     switch (currentQuestion.type) {
       case "single":
         return answer !== undefined;
@@ -236,13 +176,10 @@ export function OnboardingScreen() {
 
   const handleNext = () => {
     if (currentStep === -1) {
-      // From intro to first question
       setCurrentStep(0);
     } else if (currentStep < onboardingQuestions.length - 1) {
-      // Next question
       setCurrentStep(currentStep + 1);
     } else {
-      // Complete onboarding
       completeOnboarding();
     }
   };
@@ -254,265 +191,251 @@ export function OnboardingScreen() {
   };
 
   const completeOnboarding = () => {
-    // Track onboarding completion
     const selectedPreferences = Object.keys(answers);
     trackOnboardingComplete(selectedPreferences);
-
     generatePreferences();
     setCompleted(true);
-    setCurrentStep(onboardingQuestions.length); // Show completion screen
-
-    // Progressive paywall: Mark onboarding completed and trigger first paywall
+    setCurrentStep(onboardingQuestions.length);
     markOnboardingCompleted();
-
     setTimeout(() => {
       router.replace("/(tabs)");
-
-      // Show first-time paywall after navigation to home screen
       setTimeout(() => {
         showFirstTimePaywall();
-      }, 1500); // Delay to let home screen load
+      }, 1500);
     }, 2000);
   };
 
-  // Helper function to get theme-appropriate text colors
-  const getTextColor = (overlay?: number) => {
-    // Light themes need dark text colors
-    const isLightTheme = ['forest', 'sunset', 'minimalist'].includes(selectedTheme) && !isDark;
-    const isClassicLight = selectedTheme === 'uprising' && !isDark;
+  // ─── Intro Screen ───────────────────────────────────────────────────────────
 
-    if (isLightTheme || isClassicLight) {
-      // Use dark text colors for light themes
-      if (overlay === 90) return '#2c3e50'; // textSoft equivalent
-      if (overlay === 70) return 'rgba(44, 62, 80, 0.7)'; // textSoftTertiary equivalent
-      if (overlay === 80) return 'rgba(44, 62, 80, 0.8)'; // textSoftSecondary equivalent
-      return '#383127'; // textPrimary for light themes
-    } else {
-      // Use original white overlay colors for dark themes
-      if (overlay === 90) return theme.colors.whiteOverlay90;
-      if (overlay === 70) return theme.colors.whiteOverlay70;
-      if (overlay === 80) return theme.colors.whiteOverlay80;
-      return theme.colors.white;
-    }
-  };
+  const renderIntroScreen = () => {
+    const dividerColor = isDark
+      ? "rgba(255,255,255,0.10)"
+      : "rgba(0,0,0,0.08)";
 
-  const renderIntroScreen = () => (
-    <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
-      <ScrollView
-        style={styles.introScrollView}
-        contentContainerStyle={styles.introContainer}
-        showsVerticalScrollIndicator={false}
-      >
-        <View style={styles.welcomeSection}>
-          {/* Animated Star Icon */}
+    const features = [
+      {
+        icon: "star" as const,
+        title: onboarding.feature_personalized,
+        subtitle: onboarding.feature_personalized_subtitle,
+      },
+      {
+        icon: "target" as const,
+        title: onboarding.feature_notifications,
+        subtitle: onboarding.feature_notifications_subtitle,
+      },
+      {
+        icon: "book" as const,
+        title: onboarding.feature_fast,
+        subtitle: onboarding.feature_fast_subtitle,
+      },
+    ];
+
+    return (
+      <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
+        <ScrollView
+          style={styles.introScroll}
+          contentContainerStyle={styles.introContent}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Mark */}
           <Animated.View
             style={[
-              styles.welcomeIconContainer,
+              styles.introMarkWrap,
               {
+                opacity: markAnim,
                 transform: [
-                  { scale: Animated.multiply(starAnim, pulseAnim) },
                   {
-                    rotate: starAnim.interpolate({
+                    translateY: markAnim.interpolate({
                       inputRange: [0, 1],
-                      outputRange: ["180deg", "0deg"],
+                      outputRange: [16, 0],
                     }),
                   },
                 ],
-                opacity: starAnim,
               },
             ]}
           >
-            <LinearGradient
-              colors={[
-                theme.colors.brandYellow,
-                theme.colors.premium,
-                theme.colors.brandYellow,
+            <View
+              style={[
+                styles.introMark,
+                {
+                  borderColor: isDark
+                    ? "rgba(255,255,255,0.12)"
+                    : "rgba(0,0,0,0.08)",
+                },
               ]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={styles.starGradientContainer}
             >
-              <IconSymbol
-                name="star"
-                size={48}
-                color={theme.colors.white}
-                strokeWidth={2}
-              />
-            </LinearGradient>
+              <Text
+                style={[styles.quoteChar, {color: theme.colors.brandYellow}]}
+              >
+                {"\u201C"}
+              </Text>
+            </View>
           </Animated.View>
 
-          {/* Animated Title */}
+          {/* Title */}
           <Animated.View
             style={{
+              opacity: titleAnim,
               transform: [
                 {
                   translateY: titleAnim.interpolate({
                     inputRange: [0, 1],
-                    outputRange: [30, 0],
+                    outputRange: [16, 0],
                   }),
                 },
               ],
-              opacity: titleAnim,
             }}
           >
-            <Text style={[styles.welcomeTitle, { color: getTextColor() }]}>
+            <Text style={[styles.introTitle, {color: theme.colors.text}]}>
               {onboarding.welcome_title}
             </Text>
           </Animated.View>
 
-          {/* Animated Subtitle */}
+          {/* Subtitle */}
           <Animated.View
             style={{
+              opacity: subtitleAnim,
               transform: [
                 {
                   translateY: subtitleAnim.interpolate({
                     inputRange: [0, 1],
-                    outputRange: [30, 0],
+                    outputRange: [12, 0],
                   }),
                 },
               ],
-              opacity: subtitleAnim,
             }}
           >
             <Text
               style={[
-                styles.welcomeSubtitle,
-                { color: getTextColor(90) },
+                styles.introSubtitle,
+                {color: theme.colors.textSecondary},
               ]}
             >
               {onboarding.welcome_subtitle}
             </Text>
           </Animated.View>
-        </View>
 
-        {/* Enhanced Features Section */}
-        <Animated.View
+          {/* Features */}
+          <Animated.View
+            style={[
+              styles.featureBlock,
+              {
+                opacity: featuresAnim,
+                transform: [
+                  {
+                    translateY: featuresAnim.interpolate({
+                      inputRange: [0, 1],
+                      outputRange: [16, 0],
+                    }),
+                  },
+                ],
+              },
+            ]}
+          >
+            <View style={[styles.featureDivider, {backgroundColor: dividerColor}]} />
+
+            {features.map((f, idx) => (
+              <View key={idx} style={styles.featureRow}>
+                <View
+                  style={[
+                    styles.featureIconWrap,
+                    {
+                      backgroundColor: isDark
+                        ? "rgba(255,255,255,0.07)"
+                        : "rgba(0,0,0,0.05)",
+                    },
+                  ]}
+                >
+                  <IconSymbol
+                    name={f.icon}
+                    size={16}
+                    color={theme.colors.brandYellow}
+                    strokeWidth={1.5}
+                  />
+                </View>
+                <View style={styles.featureTextWrap}>
+                  <Text
+                    style={[
+                      styles.featureTitle,
+                      {color: theme.colors.text},
+                    ]}
+                  >
+                    {f.title}
+                  </Text>
+                  <Text
+                    style={[
+                      styles.featureSubtitle,
+                      {color: theme.colors.textSecondary},
+                    ]}
+                  >
+                    {f.subtitle}
+                  </Text>
+                </View>
+              </View>
+            ))}
+
+            <View style={[styles.featureDivider, {backgroundColor: dividerColor}]} />
+          </Animated.View>
+        </ScrollView>
+      </Animated.View>
+    );
+  };
+
+  // ─── Completion Screen ───────────────────────────────────────────────────────
+
+  const renderCompletionScreen = () => (
+    <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
+      <View style={styles.completionContainer}>
+        <View
           style={[
-            styles.featuresContainer,
+            styles.completionMark,
             {
-              transform: [
-                {
-                  translateY: featuresAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [50, 0],
-                  }),
-                },
-              ],
-              opacity: featuresAnim,
+              backgroundColor: `${theme.colors.brandYellow}20`,
+              borderColor: `${theme.colors.brandYellow}40`,
             },
           ]}
         >
-          {[
-            {
-              icon: "🎯",
-              title: onboarding.feature_personalized,
-              subtitle: onboarding.feature_personalized_subtitle,
-              color: theme.colors.primary,
-            },
-            {
-              icon: "📱",
-              title: onboarding.feature_notifications,
-              subtitle: onboarding.feature_notifications_subtitle,
-              color: theme.colors.secondary,
-            },
-            {
-              icon: "⚡",
-              title: onboarding.feature_fast,
-              subtitle: onboarding.feature_fast_subtitle,
-              color: theme.colors.brandYellow,
-            },
-          ].map((feature, index) => (
-            <TouchableOpacity
-              key={index}
-              style={[
-                styles.modernFeatureCard,
-                {
-                  backgroundColor: `${feature.color}15`,
-                  borderColor: `${feature.color}30`,
-                },
-              ]}
-              activeOpacity={0.8}
-            >
-              <LinearGradient
-                colors={[`${feature.color}20`, `${feature.color}10`]}
-                style={styles.featureCardGradient}
-              >
-                <View style={styles.featureIconContainer}>
-                  <Text style={styles.modernFeatureIcon}>{feature.icon}</Text>
-                </View>
-                <View style={styles.featureTextContainer}>
-                  <Text
-                    style={[
-                      styles.modernFeatureTitle,
-                      { color: getTextColor() },
-                    ]}
-                  >
-                    {feature.title}
-                  </Text>
-                  <Text
-                    style={[
-                      styles.modernFeatureSubtitle,
-                      { color: getTextColor(70) },
-                    ]}
-                  >
-                    {feature.subtitle}
-                  </Text>
-                </View>
-                <View style={styles.featureArrow}>
-                  <IconSymbol
-                    name="chevron.right"
-                    size={20}
-                    color={feature.color}
-                    strokeWidth={2}
-                  />
-                </View>
-              </LinearGradient>
-            </TouchableOpacity>
-          ))}
-        </Animated.View>
-      </ScrollView>
-    </Animated.View>
-  );
+          <IconSymbol
+            name="checkmark"
+            size={32}
+            color={theme.colors.brandYellow}
+            strokeWidth={2}
+          />
+        </View>
 
-  const renderCompletionScreen = () => (
-    <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
-      <View style={styles.completionContainer}>
-        <Text style={styles.completionEmoji}>🎉</Text>
-        <Text style={[styles.completionTitle, { color: getTextColor() }]}>
+        <Text style={[styles.completionTitle, {color: theme.colors.text}]}>
           {onboarding.completion_title}
         </Text>
         <Text
           style={[
             styles.completionSubtitle,
-            { color: getTextColor(90) },
+            {color: theme.colors.textSecondary},
           ]}
         >
           {onboarding.completion_subtitle}
         </Text>
 
-        <View style={styles.loadingContainer}>
-          <View
-            style={[
-              styles.loadingDot,
-              { backgroundColor: theme.colors.primary },
-            ]}
-          />
-          <View
-            style={[
-              styles.loadingDot,
-              { backgroundColor: theme.colors.primary },
-            ]}
-          />
-          <View
-            style={[
-              styles.loadingDot,
-              { backgroundColor: theme.colors.primary },
-            ]}
-          />
+        <View style={styles.loadingDots}>
+          {[0, 1, 2].map((i) => (
+            <View
+              key={i}
+              style={[
+                styles.loadingDot,
+                {
+                  backgroundColor:
+                    i === 0
+                      ? theme.colors.brandYellow
+                      : `${theme.colors.brandYellow}50`,
+                },
+              ]}
+            />
+          ))}
         </View>
       </View>
     </Animated.View>
   );
+
+  // ─── Option Renderers ────────────────────────────────────────────────────────
 
   const renderSingleChoice = (question: any) => (
     <View style={styles.optionsContainer}>
@@ -525,7 +448,6 @@ export function OnboardingScreen() {
             title={option.label}
             isSelected={isSelected}
             onPress={() => handleAnswer(question.id, option.value)}
-            variant="default"
           />
         );
       })}
@@ -533,11 +455,10 @@ export function OnboardingScreen() {
   );
 
   const renderMultipleChoice = (question: any) => (
-    <View style={styles.multiOptionsContainer}>
+    <View style={styles.gridContainer}>
       {question.options?.map((option: OnboardingOption) => {
         const selectedOptions = answers[question.id] || [];
         const isSelected = selectedOptions.includes(option.value);
-
         return (
           <OnboardingMultiCard
             key={option.id}
@@ -550,6 +471,7 @@ export function OnboardingScreen() {
                 : [...selectedOptions, option.value];
               handleAnswer(question.id, newSelected);
             }}
+            style={styles.gridCell}
           />
         );
       })}
@@ -557,52 +479,51 @@ export function OnboardingScreen() {
   );
 
   const renderSlider = (question: any) => {
-    const value = answers[question.id] || (question.id === 'notification_count' ? 7 : question.min || 1);
+    const value =
+      answers[question.id] ||
+      (question.id === "notification_count" ? 7 : question.min || 1);
     const min = question.min || 1;
     const max = question.max || 10;
 
     return (
       <View style={styles.sliderContainer}>
-        <View style={styles.sliderValueContainer}>
-          <Text
-            style={[styles.sliderValue, { color: getTextColor() }]}
-          >
+        <View style={styles.sliderValueWrap}>
+          <Text style={[styles.sliderValue, {color: theme.colors.text}]}>
             {value}
           </Text>
           <Text
-            style={[styles.sliderLabel, { color: getTextColor(80) }]}
+            style={[
+              styles.sliderValueLabel,
+              {color: theme.colors.textSecondary},
+            ]}
           >
             {onboarding.notifications_per_day}
           </Text>
         </View>
 
-        <View style={styles.sliderTrackContainer}>
-          <Slider
-            style={styles.slider}
-            minimumValue={min}
-            maximumValue={max}
-            value={value}
-            onValueChange={(newValue: number) =>
-              handleAnswer(question.id, Math.round(newValue))
-            }
-            minimumTrackTintColor={theme.colors.brandYellow}
-            maximumTrackTintColor={theme.colors.border}
-            thumbTintColor={theme.colors.brandYellow}
-            step={1}
-          />
+        <Slider
+          style={styles.slider}
+          minimumValue={min}
+          maximumValue={max}
+          value={value}
+          onValueChange={(v: number) =>
+            handleAnswer(question.id, Math.round(v))
+          }
+          minimumTrackTintColor={theme.colors.brandYellow}
+          maximumTrackTintColor={
+            isDark ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)"
+          }
+          thumbTintColor={theme.colors.brandYellow}
+          step={1}
+        />
 
-          <View style={styles.sliderRange}>
-            <Text
-              style={[styles.rangeText, { color: getTextColor(70) }]}
-            >
-              {min}
-            </Text>
-            <Text
-              style={[styles.rangeText, { color: getTextColor(70) }]}
-            >
-              {max}
-            </Text>
-          </View>
+        <View style={styles.sliderRange}>
+          <Text style={[styles.rangeText, {color: theme.colors.textTertiary}]}>
+            {min}
+          </Text>
+          <Text style={[styles.rangeText, {color: theme.colors.textTertiary}]}>
+            {max}
+          </Text>
         </View>
       </View>
     );
@@ -614,112 +535,103 @@ export function OnboardingScreen() {
       end: "18:00",
     };
 
-    // Import time format utilities
     const {
-      uses12HourFormat,
       formatTimeForUser,
       parseTimeToMilitary,
     } = require("../../utils/language");
-    const use12Hour = uses12HourFormat();
 
-    // Helper function to format time ranges for display
     const formatTimeRange = (start: string, end: string) => {
-      const startTime = parseTimeToMilitary(start);
-      const endTime = parseTimeToMilitary(end);
-      const startFormatted = formatTimeForUser(
-        startTime.hour,
-        startTime.minute
-      );
-      const endFormatted = formatTimeForUser(endTime.hour, endTime.minute);
-      return `${startFormatted} - ${endFormatted}`;
+      const s = parseTimeToMilitary(start);
+      const e = parseTimeToMilitary(end);
+      return `${formatTimeForUser(s.hour, s.minute)} – ${formatTimeForUser(e.hour, e.minute)}`;
     };
 
-    // Predefined time ranges for better UX with locale-aware formatting
     const timePresets = [
       {
         id: "early",
         icon: "🌅",
         label: onboarding.time_early,
         description: formatTimeRange("06:00", "12:00"),
-        value: { start: "06:00", end: "12:00" },
+        value: {start: "06:00", end: "12:00"},
       },
       {
         id: "morning",
         icon: "☀️",
         label: onboarding.time_morning_range,
         description: formatTimeRange("08:00", "14:00"),
-        value: { start: "08:00", end: "14:00" },
+        value: {start: "08:00", end: "14:00"},
       },
       {
         id: "regular",
         icon: "💼",
         label: onboarding.time_regular,
         description: formatTimeRange("09:00", "18:00"),
-        value: { start: "09:00", end: "18:00" },
+        value: {start: "09:00", end: "18:00"},
       },
       {
         id: "extended",
         icon: "🌙",
         label: onboarding.time_extended,
         description: formatTimeRange("07:00", "21:00"),
-        value: { start: "07:00", end: "21:00" },
+        value: {start: "07:00", end: "21:00"},
       },
       {
         id: "evening",
         icon: "🌆",
         label: onboarding.time_evening_range,
         description: formatTimeRange("15:00", "20:00"),
-        value: { start: "15:00", end: "20:00" },
+        value: {start: "15:00", end: "20:00"},
       },
     ];
 
     const currentPresetId = timePresets.find(
-      (preset) =>
-        preset.value.start === timeRange.start &&
-        preset.value.end === timeRange.end
+      (p) => p.value.start === timeRange.start && p.value.end === timeRange.end
     )?.id;
 
     return (
       <View style={styles.timePickerContainer}>
-        <View style={styles.timePresetsContainer}>
-          {timePresets.map((preset) => {
-            const isSelected = currentPresetId === preset.id;
-            return (
-              <OnboardingTimeCard
-                key={preset.id}
-                icon={preset.icon}
-                title={preset.label}
-                timeRange={preset.description}
-                isSelected={isSelected}
-                onPress={() => {
-                  handleAnswer("notification_time_range", preset.value);
-                }}
-              />
-            );
-          })}
+        <View style={styles.timePresetsGrid}>
+          {timePresets.map((preset) => (
+            <OnboardingTimeCard
+              key={preset.id}
+              icon={preset.icon}
+              title={preset.label}
+              timeRange={preset.description}
+              isSelected={currentPresetId === preset.id}
+              onPress={() =>
+                handleAnswer("notification_time_range", preset.value)
+              }
+            />
+          ))}
         </View>
 
-        {/* Current Selection Display */}
-        <View style={styles.currentTimeDisplay}>
+        {/* Current selection pill */}
+        <View style={styles.selectedTimeWrap}>
           <View
             style={[
-              styles.timeDisplayCard,
+              styles.selectedTimePill,
               {
-                backgroundColor: `${theme.colors.surface}25`,
-                borderColor: `${theme.colors.border}50`,
-                borderRadius: theme.borderRadius.md,
+                backgroundColor: isDark
+                  ? "rgba(255,255,255,0.07)"
+                  : "rgba(0,0,0,0.04)",
+                borderColor: isDark
+                  ? "rgba(255,255,255,0.12)"
+                  : "rgba(0,0,0,0.08)",
               },
             ]}
           >
             <Text
-              style={[styles.timeDisplayTitle, { color: getTextColor() }]}
+              style={[
+                styles.selectedTimeLabel,
+                {color: theme.colors.textSecondary},
+              ]}
             >
               {onboarding.selected_time_range}
             </Text>
             <Text
               style={[
-                styles.timeDisplayTime,
-                { color: theme.colors.brandYellow },
+                styles.selectedTimeValue,
+                {color: theme.colors.brandYellow},
               ]}
             >
               {formatTimeRange(timeRange.start, timeRange.end)}
@@ -732,35 +644,36 @@ export function OnboardingScreen() {
 
   const renderTextInput = (question: any) => {
     const value = answers[question.id] || "";
-
     return (
-      <View style={styles.textInputContainer}>
+      <View style={styles.textInputWrap}>
         <TextInput
           style={[
             styles.textInput,
             {
-              backgroundColor: theme.colors.whiteOverlay10,
-              borderColor: theme.colors.border,
-              color: getTextColor(),
+              backgroundColor: isDark
+                ? "rgba(255,255,255,0.07)"
+                : "rgba(0,0,0,0.04)",
+              borderColor: isDark
+                ? "rgba(255,255,255,0.14)"
+                : "rgba(0,0,0,0.10)",
+              color: theme.colors.text,
             },
           ]}
           value={value}
           onChangeText={(text) => handleAnswer(question.id, text)}
           placeholder={question.placeholder || ""}
-          placeholderTextColor={getTextColor(70)}
+          placeholderTextColor={theme.colors.textTertiary}
           maxLength={question.maxLength || 100}
           autoCapitalize="words"
           autoCorrect={false}
           returnKeyType="done"
           selectionColor={theme.colors.brandYellow}
         />
-
-        {/* Character count indicator */}
         {question.maxLength && (
           <Text
             style={[
-              styles.characterCount,
-              { color: getTextColor(70) },
+              styles.charCount,
+              {color: theme.colors.textTertiary},
             ]}
           >
             {value.length}/{question.maxLength}
@@ -770,64 +683,90 @@ export function OnboardingScreen() {
     );
   };
 
+  // ─── Question Screen ─────────────────────────────────────────────────────────
+
   const renderQuestion = () => {
     if (!currentQuestion) return null;
 
+    const stepLabel = `${currentStep + 1} / ${onboardingQuestions.length}`;
+    const isTimeQuestion =
+      currentQuestion.id === "notification_time_range";
+
     return (
-      <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
+      <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
         <ScrollView
           showsVerticalScrollIndicator={false}
-          style={styles.questionContainer}
+          style={styles.questionScroll}
           contentContainerStyle={styles.questionContent}
+          keyboardShouldPersistTaps="handled"
         >
-          <Text style={[styles.questionText, { color: getTextColor() }]}>
+          {/* Step counter */}
+          <Text style={[styles.stepCounter, {color: theme.colors.textTertiary}]}>
+            {stepLabel}
+          </Text>
+
+          {/* Question text */}
+          <Text style={[styles.questionText, {color: theme.colors.text}]}>
             {currentQuestion.question}
           </Text>
 
-          {currentQuestion.type === "single" &&
-            renderSingleChoice(currentQuestion)}
-          {currentQuestion.type === "multiple" &&
-            renderMultipleChoice(currentQuestion)}
-          {currentQuestion.type === "slider" && renderSlider(currentQuestion)}
-          {currentQuestion.id === "notification_time_range" &&
-            renderTimePicker()}
-          {currentQuestion.type === "text" && renderTextInput(currentQuestion)}
+          {/* Thin accent line under question */}
+          <View
+            style={[
+              styles.questionAccent,
+              {backgroundColor: theme.colors.brandYellow},
+            ]}
+          />
+
+          {/* Options */}
+          <View style={styles.optionsWrap}>
+            {currentQuestion.type === "single" &&
+              renderSingleChoice(currentQuestion)}
+            {currentQuestion.type === "multiple" &&
+              renderMultipleChoice(currentQuestion)}
+            {currentQuestion.type === "slider" &&
+              renderSlider(currentQuestion)}
+            {isTimeQuestion && renderTimePicker()}
+            {currentQuestion.type === "text" &&
+              !isTimeQuestion &&
+              renderTextInput(currentQuestion)}
+          </View>
         </ScrollView>
       </Animated.View>
     );
   };
 
+  // ─── Progress Bar ─────────────────────────────────────────────────────────────
+
   const progressPercentage = ((currentStep + 2) / totalSteps) * 100;
+  const trackColor = isDark
+    ? "rgba(255,255,255,0.10)"
+    : "rgba(0,0,0,0.08)";
+
+  // ─── Render ───────────────────────────────────────────────────────────────────
+
+  const isLastQuestion = currentStep === onboardingQuestions.length - 1;
+  const nextLabel = isLastQuestion ? onboarding.complete : onboarding.next_step;
+  const stepComplete = isStepComplete();
 
   return (
     <BaseScreen style={styles.container}>
-      {/* Enhanced Progress Bar */}
-      {currentStep >= -1 && currentStep < onboardingQuestions.length && (
-        <View style={[styles.progressContainer, { paddingTop: insets.top }]}>
-          <View
-            style={[
-              styles.progressBar,
-              { backgroundColor: theme.colors.border },
-            ]}
-          >
-            <Animated.View
-              style={[
-                styles.progressFill,
-                {
-                  backgroundColor: theme.colors.brandYellow,
-                  width: `${progressPercentage}%`,
-                },
-              ]}
+      {/* Progress bar */}
+      {currentStep < onboardingQuestions.length && (
+        <View
+          style={[
+            styles.progressWrap,
+            {paddingTop: insets.top > 0 ? insets.top + 8 : 16},
+          ]}
+        >
+          <View style={[styles.progressTrack, {backgroundColor: trackColor}]}>
+            <LinearGradient
+              colors={[theme.colors.brandYellow, `${theme.colors.brandYellow}BB`]}
+              start={{x: 0, y: 0}}
+              end={{x: 1, y: 0}}
+              style={[styles.progressFill, {width: `${progressPercentage}%`}]}
             />
           </View>
-          {/* <Text
-            style={[
-              styles.progressText,
-              { color: getTextColor(80) },
-            ]}
-          >
-            {currentStep + 2} / {totalSteps}
-          </Text> */}
         </View>
       )}
 
@@ -840,60 +779,78 @@ export function OnboardingScreen() {
         {currentStep === onboardingQuestions.length && renderCompletionScreen()}
       </View>
 
-      {/* Enhanced Navigation Buttons */}
+      {/* Navigation */}
       {currentStep < onboardingQuestions.length && (
-        <View style={[styles.navigationContainer, { paddingBottom: insets.bottom + 20 }]}>
-          {currentStep > -1 && (
+        <View
+          style={[
+            styles.navBar,
+            {paddingBottom: Math.max(insets.bottom, 16) + 8},
+          ]}
+        >
+          {/* Back button */}
+          {currentStep > -1 ? (
             <TouchableOpacity
               style={[
-                styles.navButton,
-                styles.prevButton,
+                styles.backBtn,
                 {
-                  backgroundColor: `${theme.colors.surface}20`,
-                  borderRadius: theme.borderRadius.md,
-                  borderColor: `${theme.colors.border}50`,
-                  borderWidth: 1,
+                  borderColor: isDark
+                    ? "rgba(255,255,255,0.14)"
+                    : "rgba(0,0,0,0.10)",
                 },
               ]}
               onPress={handlePrevious}
+              activeOpacity={0.7}
             >
               <Text
-                style={[styles.navButtonText, { color: getTextColor() }]}
+                style={[styles.backBtnText, {color: theme.colors.textSecondary}]}
               >
-                {onboarding.back}
+                ← {onboarding.back}
               </Text>
             </TouchableOpacity>
+          ) : (
+            <View style={styles.backBtnPlaceholder} />
           )}
 
+          {/* Next / Get Started button */}
           <TouchableOpacity
             style={[
-              styles.navButton,
-              styles.nextButton,
+              styles.nextBtn,
               {
-                backgroundColor: isStepComplete()
+                backgroundColor: stepComplete
                   ? theme.colors.brandYellow
-                  : `${theme.colors.border}60`,
-                borderRadius: theme.borderRadius.md,
-                opacity: isStepComplete() ? 1 : 0.6,
+                  : isDark
+                  ? "rgba(255,255,255,0.12)"
+                  : "rgba(0,0,0,0.07)",
+                opacity: stepComplete ? 1 : 0.55,
               },
             ]}
             onPress={handleNext}
-            disabled={!isStepComplete()}
+            disabled={!stepComplete}
+            activeOpacity={0.8}
           >
             <Text
               style={[
-                styles.navButtonText,
+                styles.nextBtnText,
                 {
-                  color: isStepComplete()
-                    ? theme.colors.blackOverlay70
-                    : getTextColor(),
+                  color: stepComplete
+                    ? isDark
+                      ? "#141210"
+                      : "#1a1a1a"
+                    : theme.colors.textSecondary,
                 },
               ]}
             >
-              {currentStep === onboardingQuestions.length - 1
-                ? onboarding.complete
-                : onboarding.next_step}
+              {currentStep === -1 ? onboarding.next_step : nextLabel}
             </Text>
+            {stepComplete && (
+              <IconSymbol
+                name="chevron.right"
+                size={16}
+                color={isDark ? "#141210" : "#1a1a1a"}
+                strokeWidth={2.5}
+                style={{marginLeft: 4}}
+              />
+            )}
           </TouchableOpacity>
         </View>
       )}
@@ -907,334 +864,327 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0,
     backgroundColor: "transparent",
   },
-  progressContainer: {
-    paddingHorizontal: 20,
-    paddingVertical: 16,
-    alignItems: "center",
+
+  // Progress
+  progressWrap: {
+    paddingHorizontal: 24,
+    paddingBottom: 8,
   },
-  progressBar: {
-    height: 6,
-    width: "100%",
-    borderRadius: 3,
-    marginBottom: 8,
+  progressTrack: {
+    height: 3,
+    borderRadius: 2,
+    overflow: "hidden",
   },
   progressFill: {
     height: "100%",
-    borderRadius: 3,
+    borderRadius: 2,
   },
-  progressText: {
-    fontSize: 14,
-    fontWeight: "600",
-  },
+
   content: {
     flex: 1,
   },
   stepContainer: {
     flex: 1,
-    paddingHorizontal: 0,
   },
-  // Enhanced Intro Screen
-  introScrollView: {
+
+  // ─── Intro ───────────────────────────────────────────────────────────────────
+  introScroll: {
     flex: 1,
   },
-  introContainer: {
+  introContent: {
     flexGrow: 1,
-    justifyContent: "space-between",
-    paddingVertical: 40,
-    paddingHorizontal: 24,
-    minHeight: screenHeight * 0.8,
-  },
-  freeBadgeContainer: {
-    alignItems: "flex-start",
-    marginBottom: 20,
-  },
-  freeBadge: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    borderRadius: 20,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 8,
-  },
-  freeBadgeText: {
-    fontSize: 14,
-    fontWeight: "800",
-    color: "#fff",
-    letterSpacing: 1,
-  },
-  welcomeSection: {
-    alignItems: "center",
-    marginBottom: 40,
-    flex: 1,
+    paddingHorizontal: 28,
+    paddingTop: 32,
+    paddingBottom: 24,
     justifyContent: "center",
+    minHeight: screenHeight * 0.72,
   },
-  welcomeIconContainer: {
-    marginBottom: 24,
+  introMarkWrap: {
+    marginBottom: 28,
   },
-  starGradientContainer: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
-    alignItems: "center",
-    justifyContent: "center",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.3,
-    shadowRadius: 16,
-    elevation: 12,
-  },
-  welcomeTitle: {
-    fontSize: 36,
-    fontWeight: "800",
-    textAlign: "center",
-    marginBottom: 16,
-    lineHeight: 44,
-  },
-  welcomeSubtitle: {
-    fontSize: 18,
-    fontWeight: "500",
-    textAlign: "center",
-    lineHeight: 26,
-    paddingHorizontal: 20,
-  },
-  featuresContainer: {
-    width: "100%",
-    alignItems: "stretch",
-    marginBottom: 30,
-  },
-  modernFeatureCard: {
-    borderRadius: 16,
-    marginBottom: 16,
+  introMark: {
+    width: 60,
+    height: 60,
+    borderRadius: 18,
     borderWidth: 1,
-    overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
   },
-  featureCardGradient: {
+  quoteChar: {
+    fontSize: 40,
+    lineHeight: 48,
+    fontWeight: "300",
+    marginTop: -4,
+  },
+  introTitle: {
+    fontSize: 34,
+    fontWeight: "700",
+    lineHeight: 41,
+    letterSpacing: -0.5,
+    marginBottom: 12,
+  },
+  introSubtitle: {
+    fontSize: 16,
+    lineHeight: 24,
+    fontWeight: "400",
+    marginBottom: 36,
+    maxWidth: 300,
+  },
+
+  // Features
+  featureBlock: {
+    width: "100%",
+  },
+  featureDivider: {
+    height: 1,
+    width: "100%",
+    marginVertical: 4,
+  },
+  featureRow: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 20,
-    paddingVertical: 20,
+    paddingVertical: 14,
   },
-  featureIconContainer: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
-    backgroundColor: "rgba(255,255,255,0.1)",
+  featureIconWrap: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 16,
+    marginRight: 14,
+    flexShrink: 0,
   },
-  modernFeatureIcon: {
-    fontSize: 24,
-  },
-  featureTextContainer: {
+  featureTextWrap: {
     flex: 1,
   },
-  modernFeatureTitle: {
-    fontSize: 18,
-    fontWeight: "700",
-    marginBottom: 4,
+  featureTitle: {
+    fontSize: 15,
+    fontWeight: "600",
+    lineHeight: 20,
+    marginBottom: 2,
   },
-  modernFeatureSubtitle: {
-    fontSize: 14,
-    fontWeight: "500",
-    opacity: 0.9,
+  featureSubtitle: {
+    fontSize: 13,
+    lineHeight: 18,
+    fontWeight: "400",
   },
-  featureArrow: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    backgroundColor: "rgba(255,255,255,0.1)",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  ctaSection: {
-    alignItems: "center",
-    paddingVertical: 20,
-  },
-  ctaText: {
-    fontSize: 16,
-    fontWeight: "500",
-    textAlign: "center",
-    lineHeight: 24,
-  },
-  // Completion Screen
+
+  // ─── Completion ──────────────────────────────────────────────────────────────
   completionContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    paddingVertical: 20,
-    paddingHorizontal: 20,
+    paddingHorizontal: 32,
   },
-  completionEmoji: {
-    fontSize: 56,
-    marginBottom: 20,
+  completionMark: {
+    width: 72,
+    height: 72,
+    borderRadius: 22,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 28,
   },
   completionTitle: {
     fontSize: 28,
     fontWeight: "700",
     textAlign: "center",
-    marginBottom: 16,
+    marginBottom: 12,
+    letterSpacing: -0.3,
   },
   completionSubtitle: {
     fontSize: 16,
-    fontWeight: "500",
     textAlign: "center",
     lineHeight: 24,
     marginBottom: 40,
-    paddingHorizontal: 10,
+    fontWeight: "400",
   },
-  loadingContainer: {
+  loadingDots: {
     flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
+    gap: 8,
   },
   loadingDot: {
     width: 8,
     height: 8,
     borderRadius: 4,
-    marginHorizontal: 4,
   },
-  // Question Container
-  questionContainer: {
+
+  // ─── Question ────────────────────────────────────────────────────────────────
+  questionScroll: {
     flex: 1,
   },
   questionContent: {
-    paddingVertical: 20,
-    paddingHorizontal: 20,
+    paddingHorizontal: 24,
+    paddingTop: 16,
+    paddingBottom: 24,
+  },
+  stepCounter: {
+    fontSize: 12,
+    fontWeight: "600",
+    letterSpacing: 0.8,
+    textTransform: "uppercase",
+    marginBottom: 14,
   },
   questionText: {
-    fontSize: 24,
+    fontSize: 26,
     fontWeight: "700",
-    textAlign: "center",
-    lineHeight: 32,
-    marginBottom: 32,
-    paddingHorizontal: 10,
+    lineHeight: 33,
+    letterSpacing: -0.3,
+    marginBottom: 16,
   },
-  // Options
-  optionsContainer: {
-    paddingVertical: 10,
+  questionAccent: {
+    width: 28,
+    height: 3,
+    borderRadius: 2,
+    marginBottom: 28,
   },
-  multiOptionsContainer: {
-    paddingVertical: 10,
+  optionsWrap: {
+    flex: 1,
   },
+
+  // Single choice
+  optionsContainer: {},
+
+  // Multi choice grid
+  gridContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    marginHorizontal: -5,
+  },
+  gridCell: {
+    width: "50%",
+    padding: 5,
+  },
+
   // Slider
   sliderContainer: {
-    paddingVertical: 30,
-    paddingHorizontal: 20,
+    paddingTop: 16,
   },
-  sliderValueContainer: {
+  sliderValueWrap: {
     alignItems: "center",
     marginBottom: 32,
   },
   sliderValue: {
-    fontSize: 56,
+    fontSize: 64,
     fontWeight: "700",
-    marginBottom: 8,
+    lineHeight: 72,
+    letterSpacing: -2,
   },
-  sliderLabel: {
-    fontSize: 18,
+  sliderValueLabel: {
+    fontSize: 16,
     fontWeight: "500",
     textAlign: "center",
-  },
-  sliderTrackContainer: {
-    alignItems: "center",
-    marginBottom: 24,
-    paddingHorizontal: 10,
+    marginTop: 4,
   },
   slider: {
     width: "100%",
-    height: 50,
+    height: 48,
   },
   sliderRange: {
     flexDirection: "row",
     justifyContent: "space-between",
-    paddingHorizontal: 8,
-    marginTop: 16,
-    width: "100%",
+    paddingHorizontal: 4,
+    marginTop: 4,
   },
   rangeText: {
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: "500",
   },
-  // Time Picker
+
+  // Time picker
   timePickerContainer: {
-    paddingVertical: 20,
+    paddingTop: 4,
   },
-  timePresetsContainer: {
+  timePresetsGrid: {
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-between",
-    marginBottom: 24,
+    marginBottom: 16,
   },
-  currentTimeDisplay: {
+  selectedTimeWrap: {
     alignItems: "center",
-    marginTop: 10,
   },
-  timeDisplayCard: {
-    paddingHorizontal: 24,
-    paddingVertical: 18,
-    borderWidth: 1.5,
-    alignItems: "center",
-    minWidth: 200,
-    borderRadius: 16,
-  },
-  timeDisplayTitle: {
-    fontSize: 14,
-    fontWeight: "500",
-    marginBottom: 8,
-    textAlign: "center",
-  },
-  timeDisplayTime: {
-    fontSize: 18,
-    fontWeight: "700",
-    textAlign: "center",
-  },
-  // Navigation
-  navigationContainer: {
+  selectedTimePill: {
     flexDirection: "row",
-    justifyContent: "space-between",
-    paddingHorizontal: 20,
-    paddingVertical: 20,
-    paddingBottom: 30,
-  },
-  navButton: {
-    paddingHorizontal: 24,
-    paddingVertical: 14,
-    minWidth: 100,
     alignItems: "center",
+    gap: 8,
+    paddingHorizontal: 18,
+    paddingVertical: 12,
+    borderRadius: 24,
+    borderWidth: 1,
   },
-  prevButton: {
-    // Styles applied inline
+  selectedTimeLabel: {
+    fontSize: 13,
+    fontWeight: "500",
   },
-  nextButton: {
-    marginLeft: "auto",
+  selectedTimeValue: {
+    fontSize: 14,
+    fontWeight: "700",
   },
-  navButtonText: {
-    fontSize: 16,
-    fontWeight: "600",
-  },
-  // Text Input
-  textInputContainer: {
-    marginTop: 20,
+
+  // Text input
+  textInputWrap: {
+    marginTop: 8,
   },
   textInput: {
-    paddingHorizontal: 20,
-    paddingVertical: 15,
-    borderRadius: 12,
+    paddingHorizontal: 18,
+    paddingVertical: 16,
+    borderRadius: 14,
     borderWidth: 1,
     fontSize: 18,
     fontWeight: "500",
-    lineHeight: 24,
     textAlign: "center",
-    minHeight: 50,
+    minHeight: 56,
     width: "100%",
   },
-  characterCount: {
-    fontSize: 14,
+  charCount: {
+    fontSize: 12,
     textAlign: "right",
-    marginTop: 8,
-    paddingHorizontal: 10,
+    marginTop: 6,
+    paddingHorizontal: 4,
+  },
+
+  // ─── Navigation ──────────────────────────────────────────────────────────────
+  navBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    paddingTop: 12,
+    gap: 12,
+  },
+  backBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    paddingHorizontal: 16,
+    paddingVertical: 13,
+    borderRadius: 12,
+    borderWidth: 1,
+    minWidth: 80,
+    justifyContent: "center",
+  },
+  backBtnText: {
+    fontSize: 15,
+    fontWeight: "500",
+  },
+  backBtnPlaceholder: {
+    minWidth: 80,
+  },
+  nextBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 28,
+    paddingVertical: 14,
+    borderRadius: 14,
+    flex: 1,
+    maxWidth: 240,
+    marginLeft: "auto",
+  },
+  nextBtnText: {
+    fontSize: 16,
+    fontWeight: "700",
+    letterSpacing: 0.2,
   },
 });

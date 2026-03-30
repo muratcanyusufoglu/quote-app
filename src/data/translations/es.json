@@ -425,7 +425,8 @@
       "weekly": "Varias veces a la semana",
       "occasional": "Ocasionalmente",
       "quotes": "Citas",
-      "affirmations": "Afirmaciones"
+      "affirmations": "Afirmaciones",
+      "both": "Ambos"
     }
   },
   "quote_detail": {

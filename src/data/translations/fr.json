@@ -431,7 +431,8 @@
       "weekly": "Plusieurs fois par semaine",
       "occasional": "Occasionnellement",
       "quotes": "Citations",
-      "affirmations": "Affirmations"
+      "affirmations": "Affirmations",
+      "both": "Les deux"
     }
   },
   "quote_detail": {
