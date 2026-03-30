@@ -18015,6 +18015,3666 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "technology_220",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, the first version can be rough; the second is where the truth appears.",
+        "tr": "teknoloji konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
+        "fr": "En technologie, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
+        "pt": "Em tecnologia, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Bij technologie kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
+        "es": "En tecnología, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
+        "de": "Bei technologie kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
+        "it": "In tecnologia, la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда есть технологии, первая версия может быть грубой; во второй появляется правда.",
+        "id": "Dalam teknologi, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テクノロジーでは、最初の版は荒くてもいい。二度目で真実が現れる。",
+        "th": "ใน เทคโนโลยี เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Dalam teknologi, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+      },
+      "authors": {
+        "en": "Adapted from Maya Angelou",
+        "tr": "Maya Angelou'dan uyarlanmıştır",
+        "fr": "Adapté de Maya Angelou",
+        "pt": "Adaptado de Maya Angelou",
+        "nl": "Aangepast van Maya Angelou",
+        "es": "Adaptado de Maya Angelou",
+        "de": "Angelehnt an Maya Angelou",
+        "it": "Adattato da Maya Angelou",
+        "ru": "Адаптировано: Майя Анджелоу",
+        "id": "Diadaptasi dari Maya Angelou",
+        "ja": "マヤ・アンジェロウをもとに",
+        "th": "ดัดแปลงจาก มายา แอนเจลู",
+        "ms": "Diadaptasi daripada Maya Angelou"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_220_en",
+          "title": "The Second Draft",
+          "content": "She sketched a messy plan for technology, slept on it, and returned to a single clear line. That line carried the rest.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_220_tr",
+          "title": "İkinci Taslak",
+          "content": "teknoloji için dağınık bir plan çizdi, üzerine bir gece uyudu ve tek bir net cümleye döndü. O cümle gerisini taşıdı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_220_fr",
+          "title": "Le Deuxième Jet",
+          "content": "Elle a esquissé un plan brouillon pour technologie, a dormi dessus, puis est revenue à une seule ligne claire. Cette ligne a porté le reste.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_220_pt",
+          "title": "O Segundo Rascunho",
+          "content": "Ela rascunhou um plano bagunçado para tecnologia, dormiu sobre ele e voltou a uma única linha clara. Essa linha sustentou o resto.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_220_nl",
+          "title": "De Tweede Versie",
+          "content": "Ze schetste een rommelig plan voor technologie, sliep er een nacht over en kwam terug met één heldere zin. Die zin droeg de rest.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_220_es",
+          "title": "El Segundo Borrador",
+          "content": "Trazó un plan desordenado para tecnología, durmió sobre él y volvió con una sola línea clara. Esa línea sostuvo lo demás.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_220_de",
+          "title": "Der Zweite Entwurf",
+          "content": "Sie skizzierte einen unordentlichen Plan für technologie, schlief darüber und kam mit einer klaren Zeile zurück. Diese Zeile trug den Rest.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_220_it",
+          "title": "La Seconda Bozza",
+          "content": "Schizzò un piano confuso per tecnologia, ci dormì sopra e tornò con una sola linea chiara. Quella linea portò il resto.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_220_ru",
+          "title": "Второй черновик",
+          "content": "Она набросала сумбурный план для технологии, переночевала с ним и вернулась к одной ясной строке. Эта строка потянула остальное.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_220_id",
+          "title": "Draf Kedua",
+          "content": "Ia membuat sketsa rencana berantakan untuk teknologi, tidur semalam, lalu kembali dengan satu kalimat yang jelas. Kalimat itu menuntun sisanya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_220_ja",
+          "title": "二度目の下書き",
+          "content": "テクノロジーのために雑な計画を書き、ひと晩置いてから戻ると、一本の明確な線が残った。その線が残りを支えた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_220_th",
+          "title": "ฉบับร่างครั้งที่สอง",
+          "content": "เธอร่างแผนที่ยุ่งเหยิงสำหรับ เทคโนโลยี แล้วพักค้างคืน ก่อนกลับมาพร้อมบรรทัดที่ชัดเจนหนึ่งบรรทัด บรรทัดนั้นพาเรื่องที่เหลือไปต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_220_ms",
+          "title": "Draf Kedua",
+          "content": "Dia melakar pelan yang berserabut untuk teknologi, tidur semalaman, lalu kembali dengan satu ayat yang jelas. Ayat itu membawa selebihnya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_221",
+      "type": "quote",
+      "texts": {
+        "en": "Measure technology with one honest metric, not a dozen loud ones.",
+        "tr": "teknoloji konusunda tek bir dürüst ölçü kullan; onlarca gürültülü ölçüyü değil.",
+        "fr": "Mesure technologie avec un seul indicateur honnête, pas avec une douzaine d’indicateurs bruyants.",
+        "pt": "Meça tecnologia com um único indicador honesto, não com uma dúzia barulhenta.",
+        "nl": "Meet technologie met één eerlijke maatstaf, niet met een dozijn luidruchtige.",
+        "es": "Mide tecnología con un solo indicador honesto, no con una docena ruidosa.",
+        "de": "Miss technologie mit einer ehrlichen Kennzahl, nicht mit einem Dutzend lauter.",
+        "it": "Misura tecnologia con un solo indicatore onesto, non con una dozzina rumorosa.",
+        "ru": "Измеряй технологии одной честной метрикой, а не дюжиной шумных.",
+        "id": "Ukur teknologi dengan satu metrik yang jujur, bukan selusin yang berisik.",
+        "ja": "テクノロジーは、騒がしい指標をたくさん集めるより、一つの正直な指標で測る。",
+        "th": "วัด เทคโนโลยี ด้วยตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง ไม่ใช่สิบสองตัวที่ดังโวยวาย",
+        "ms": "Ukur teknologi dengan satu metrik yang jujur, bukan sedozen yang bising."
+      },
+      "authors": {
+        "en": "Adapted from James Baldwin",
+        "tr": "James Baldwin'dan uyarlanmıştır",
+        "fr": "Adapté de James Baldwin",
+        "pt": "Adaptado de James Baldwin",
+        "nl": "Aangepast van James Baldwin",
+        "es": "Adaptado de James Baldwin",
+        "de": "Angelehnt an James Baldwin",
+        "it": "Adattato da James Baldwin",
+        "ru": "Адаптировано: Джеймс Болдуин",
+        "id": "Diadaptasi dari James Baldwin",
+        "ja": "ジェイムズ・ボールドウィンをもとに",
+        "th": "ดัดแปลงจาก เจมส์ บอลด์วิน",
+        "ms": "Diadaptasi daripada James Baldwin"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_221_en",
+          "title": "One Honest Metric",
+          "content": "He stopped chasing every signal and tracked a single number. The noise fell away and his decisions got cleaner.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_221_tr",
+          "title": "Tek Dürüst Ölçü",
+          "content": "Her sinyali kovalamayı bıraktı, tek bir sayıyı izledi. Gürültü çekildi, kararları netleşti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_221_fr",
+          "title": "Un Indicateur Honnête",
+          "content": "Il a cessé de courir après chaque signal et a suivi un seul chiffre. Le bruit est tombé et ses décisions se sont clarifiées.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_221_pt",
+          "title": "Um Indicador Honesto",
+          "content": "Ele parou de correr atrás de cada sinal e passou a acompanhar um único número. O ruído caiu e as decisões ficaram mais claras.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_221_nl",
+          "title": "Eén Eerlijke Maatstaf",
+          "content": "Hij stopte met jagen op elk signaal en volgde één getal. De ruis verdween en zijn keuzes werden helderder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_221_es",
+          "title": "Un Indicador Honesto",
+          "content": "Dejó de perseguir cada señal y siguió un solo número. El ruido bajó y sus decisiones se aclararon.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_221_de",
+          "title": "Eine Ehrliche Kennzahl",
+          "content": "Er hörte auf, jedem Signal nachzujagen, und verfolgte eine einzige Zahl. Das Rauschen fiel weg und seine Entscheidungen wurden klarer.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_221_it",
+          "title": "Un Indicatore Onesto",
+          "content": "Smise di inseguire ogni segnale e seguì un solo numero. Il rumore calò e le decisioni divennero più limpide.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_221_ru",
+          "title": "Одна честная метрика",
+          "content": "Он перестал гнаться за каждым сигналом и отслеживал одно число. Шум ушёл, решения стали чище.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_221_id",
+          "title": "Satu Metrik Jujur",
+          "content": "Ia berhenti mengejar tiap sinyal dan melacak satu angka. Kebisingan mereda dan keputusannya lebih jernih.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_221_ja",
+          "title": "正直な指標はひとつ",
+          "content": "あらゆるシグナルを追うのをやめ、ひとつの数字だけを追った。雑音が消え、判断が澄んだ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_221_th",
+          "title": "ตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง",
+          "content": "เขาหยุดไล่ทุกสัญญาณแล้วติดตามตัวเลขเดียว เสียงรบกวนลดลงและการตัดสินใจก็ชัดขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_221_ms",
+          "title": "Satu Metrik Jujur",
+          "content": "Dia berhenti mengejar setiap isyarat dan menjejak satu angka. Bunyi bising reda dan keputusannya lebih jelas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_222",
+      "type": "quote",
+      "texts": {
+        "en": "When technology feels heavy, borrow calm from the next small action.",
+        "tr": "teknoloji ağır geldiğinde, bir sonraki küçük adımdan sükûnet ödünç al.",
+        "fr": "Quand technologie paraît lourd, emprunte du calme à la prochaine petite action.",
+        "pt": "Quando tecnologia parecer pesado, empreste calma da próxima pequena ação.",
+        "nl": "Als technologie zwaar voelt, leen rust van de volgende kleine actie.",
+        "es": "Cuando tecnología se sienta pesado, toma calma del siguiente pequeño paso.",
+        "de": "Wenn technologie schwer wirkt, leihe dir Ruhe vom nächsten kleinen Schritt.",
+        "it": "Quando tecnologia sembra pesante, prendi calma dal prossimo piccolo gesto.",
+        "ru": "Когда технологии кажется тяжёлым, позаимствуй спокойствие у следующего маленького действия.",
+        "id": "Saat teknologi terasa berat, pinjam ketenangan dari tindakan kecil berikutnya.",
+        "ja": "テクノロジーが重く感じるときは、次の小さな行動から落ち着きを借りる。",
+        "th": "เมื่อ เทคโนโลยี รู้สึกหนัก ให้ยืมความสงบจากก้าวเล็กๆ ถัดไป",
+        "ms": "Apabila teknologi terasa berat, pinjam ketenangan daripada tindakan kecil seterusnya."
+      },
+      "authors": {
+        "en": "Adapted from Virginia Woolf",
+        "tr": "Virginia Woolf'dan uyarlanmıştır",
+        "fr": "Adapté de Virginia Woolf",
+        "pt": "Adaptado de Virginia Woolf",
+        "nl": "Aangepast van Virginia Woolf",
+        "es": "Adaptado de Virginia Woolf",
+        "de": "Angelehnt an Virginia Woolf",
+        "it": "Adattato da Virginia Woolf",
+        "ru": "Адаптировано: Вирджиния Вулф",
+        "id": "Diadaptasi dari Virginia Woolf",
+        "ja": "ヴァージニア・ウルフをもとに",
+        "th": "ดัดแปลงจาก เวอร์จิเนีย วูล์ฟ",
+        "ms": "Diadaptasi daripada Virginia Woolf"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_222_en",
+          "title": "Borrowed Calm",
+          "content": "She chose one small action in technology—a single message, a single page. The weight eased enough to keep going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_222_tr",
+          "title": "Ödünç Sükûnet",
+          "content": "teknoloji içinde tek bir küçük eylem seçti—tek bir mesaj, tek bir sayfa. Yük hafifledi ve devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_222_fr",
+          "title": "Calme Emprunté",
+          "content": "Elle a choisi une petite action en technologie — un seul message, une seule page. Le poids s’est allégé juste assez pour continuer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_222_pt",
+          "title": "Calma Emprestada",
+          "content": "Ela escolheu uma pequena ação em tecnologia — uma única mensagem, uma única página. O peso diminuiu o suficiente para continuar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_222_nl",
+          "title": "Geleende Rust",
+          "content": "Ze koos één kleine actie in technologie — één bericht, één pagina. Het gewicht werd licht genoeg om door te gaan.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_222_es",
+          "title": "Calma Prestada",
+          "content": "Eligió una pequeña acción en tecnología: un solo mensaje, una sola página. El peso aflojó lo suficiente para seguir.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_222_de",
+          "title": "Geliehene Ruhe",
+          "content": "Sie wählte eine kleine Aktion in technologie — eine einzige Nachricht, eine einzige Seite. Das Gewicht wurde leicht genug, um weiterzumachen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_222_it",
+          "title": "Calma in Prestito",
+          "content": "Scelse una piccola azione in tecnologia: un solo messaggio, una sola pagina. Il peso si alleggerì abbastanza per andare avanti.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_222_ru",
+          "title": "Заёмное спокойствие",
+          "content": "Она выбрала одно маленькое действие в технологии — одно сообщение, одну страницу. Тяжесть ослабла настолько, чтобы продолжить.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_222_id",
+          "title": "Tenang yang Dipinjam",
+          "content": "Ia memilih satu tindakan kecil dalam teknologi—satu pesan, satu halaman. Beban cukup ringan untuk terus bergerak.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_222_ja",
+          "title": "借りた落ち着き",
+          "content": "テクノロジーでの小さな行動を一つだけ選んだ。たった一通のメッセージ、たった一ページ。重さが和らぎ、続けられた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_222_th",
+          "title": "ความสงบที่ยืมมา",
+          "content": "เธอเลือกการกระทำเล็กๆ เพียงหนึ่งใน เทคโนโลยี—ข้อความหนึ่งบรรทัดหรือหน้าหนึ่งหน้า น้ำหนักเบาลงพอจะเดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_222_ms",
+          "title": "Tenang yang Dipinjam",
+          "content": "Dia memilih satu tindakan kecil dalam teknologi—satu mesej, satu halaman. Beban menjadi cukup ringan untuk meneruskan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_223",
+      "type": "quote",
+      "texts": {
+        "en": "technology moves faster when your grip is open.",
+        "tr": "teknoloji, elini sıkı tutmadığında daha hızlı ilerler.",
+        "fr": "technologie avance plus vite quand ta prise est ouverte.",
+        "pt": "tecnologia anda mais rápido quando sua pegada está aberta.",
+        "nl": "technologie beweegt sneller als je greep open is.",
+        "es": "tecnología avanza más rápido cuando tu agarre está abierto.",
+        "de": "technologie bewegt sich schneller, wenn dein Griff offen ist.",
+        "it": "tecnologia si muove più veloce quando la tua presa è aperta.",
+        "ru": "технологии движется быстрее, когда хватка открыта.",
+        "id": "teknologi bergerak lebih cepat saat genggamanmu terbuka.",
+        "ja": "テクノロジーは、握りしめないときに速く進む。",
+        "th": "เทคโนโลยี ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
+        "ms": "teknologi bergerak lebih cepat apabila genggaman anda terbuka."
+      },
+      "authors": {
+        "en": "Adapted from Rumi",
+        "tr": "Rumi'dan uyarlanmıştır",
+        "fr": "Adapté de Rumi",
+        "pt": "Adaptado de Rumi",
+        "nl": "Aangepast van Rumi",
+        "es": "Adaptado de Rumi",
+        "de": "Angelehnt an Rumi",
+        "it": "Adattato da Rumi",
+        "ru": "Адаптировано: Руми",
+        "id": "Diadaptasi dari Rumi",
+        "ja": "ルーミーをもとに",
+        "th": "ดัดแปลงจาก รูมี",
+        "ms": "Diadaptasi daripada Rumi"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_223_en",
+          "title": "Open Hand",
+          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_223_tr",
+          "title": "Açık El",
+          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_223_fr",
+          "title": "Main Ouverte",
+          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_223_pt",
+          "title": "Mão Aberta",
+          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_223_nl",
+          "title": "Open Hand",
+          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_223_es",
+          "title": "Mano Abierta",
+          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_223_de",
+          "title": "Offene Hand",
+          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_223_it",
+          "title": "Mano Aperta",
+          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_223_ru",
+          "title": "Открытая ладонь",
+          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_223_id",
+          "title": "Tangan Terbuka",
+          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_223_ja",
+          "title": "開いた手",
+          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_223_th",
+          "title": "มือที่เปิดไว้",
+          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_223_ms",
+          "title": "Tangan Terbuka",
+          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_224",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, the quiet signal is often the true one.",
+        "tr": "teknoloji konusunda sessiz işaret çoğu zaman gerçeğidir.",
+        "fr": "En technologie, le signal discret est souvent le vrai.",
+        "pt": "Em tecnologia, o sinal silencioso costuma ser o verdadeiro.",
+        "nl": "Bij technologie is het stille signaal vaak het echte.",
+        "es": "En tecnología, la señal silenciosa suele ser la verdadera.",
+        "de": "Bei technologie ist das leise Signal oft das wahre.",
+        "it": "In tecnologia, il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда есть технологии, тихий сигнал часто самый верный.",
+        "id": "Dalam teknologi, sinyal yang tenang sering kali yang benar.",
+        "ja": "テクノロジーでは、静かな合図が本当であることが多い。",
+        "th": "ใน เทคโนโลยี สัญญาณที่เงียบมักเป็นของจริง",
+        "ms": "Dalam teknologi, isyarat senyap selalunya yang benar."
+      },
+      "authors": {
+        "en": "Adapted from Khalil Gibran",
+        "tr": "Khalil Gibran'dan uyarlanmıştır",
+        "fr": "Adapté de Khalil Gibran",
+        "pt": "Adaptado de Khalil Gibran",
+        "nl": "Aangepast van Khalil Gibran",
+        "es": "Adaptado de Khalil Gibran",
+        "de": "Angelehnt an Khalil Gibran",
+        "it": "Adattato da Khalil Gibran",
+        "ru": "Адаптировано: Халиль Джебран",
+        "id": "Diadaptasi dari Khalil Gibran",
+        "ja": "ハリール・ジブラーンをもとに",
+        "th": "ดัดแปลงจาก คาลิล ยิบราน",
+        "ms": "Diadaptasi daripada Khalil Gibran"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_224_en",
+          "title": "The Quiet Signal",
+          "content": "During a loud discussion about technology, one short note in the margin revealed the real issue.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_224_tr",
+          "title": "Sessiz İşaret",
+          "content": "teknoloji hakkında gürültülü bir tartışma sırasında kenara yazılmış kısa bir not asıl meseleyi gösterdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_224_fr",
+          "title": "Le Signal Discret",
+          "content": "Pendant une discussion bruyante sur technologie, une courte note en marge a révélé le vrai problème.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_224_pt",
+          "title": "O Sinal Silencioso",
+          "content": "Durante uma discussão barulhenta sobre tecnologia, uma breve nota à margem revelou o problema real.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_224_nl",
+          "title": "Het Stille Signaal",
+          "content": "Tijdens een luid debat over technologie onthulde een korte notitie in de marge het echte probleem.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_224_es",
+          "title": "La Señal Silenciosa",
+          "content": "Durante una discusión ruidosa sobre tecnología, una nota breve al margen reveló el problema real.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_224_de",
+          "title": "Das Leise Signal",
+          "content": "Während einer lauten Diskussion über technologie enthüllte eine kurze Randnotiz das eigentliche Problem.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_224_it",
+          "title": "Il Segnale Silenzioso",
+          "content": "Durante una discussione rumorosa su tecnologia, una breve nota a margine rivelò il problema vero.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_224_ru",
+          "title": "Тихий сигнал",
+          "content": "Во время громкого обсуждения технологии короткая пометка на полях показала настоящую проблему.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_224_id",
+          "title": "Sinyal yang Tenang",
+          "content": "Saat diskusi ramai tentang teknologi, catatan singkat di pinggir mengungkap masalah sebenarnya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_224_ja",
+          "title": "静かな合図",
+          "content": "テクノロジーについての騒がしい議論の中で、欄外の短いメモが本当の問題を示した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_224_th",
+          "title": "สัญญาณที่เงียบ",
+          "content": "ระหว่างการถกเถียงที่ดังเกี่ยวกับ เทคโนโลยี โน้ตสั้นๆ ข้างขอบเผยปัญหาที่แท้จริง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_224_ms",
+          "title": "Isyarat Senyap",
+          "content": "Semasa perbincangan bising tentang teknologi, nota ringkas di tepi mendedahkan isu sebenar.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_225",
+      "type": "quote",
+      "texts": {
+        "en": "Choose the version of technology that still makes sense in a year.",
+        "tr": "teknoloji için bir yıl sonra da anlamlı olacak olanı seç.",
+        "fr": "Choisis la version de technologie qui aura encore du sens dans un an.",
+        "pt": "Escolha a versão de tecnologia que ainda fará sentido daqui a um ano.",
+        "nl": "Kies de versie van technologie die over een jaar nog logisch is.",
+        "es": "Elige la versión de tecnología que siga teniendo sentido dentro de un año.",
+        "de": "Wähle die Version von technologie, die in einem Jahr noch Sinn ergibt.",
+        "it": "Scegli la versione di tecnologia che avrà ancora senso tra un anno.",
+        "ru": "Выбирай версию технологии, которая будет иметь смысл и через год.",
+        "id": "Pilih versi teknologi yang masih masuk akal setahun lagi.",
+        "ja": "テクノロジーは、一年後も意味がある方を選ぶ。",
+        "th": "เลือกเวอร์ชันของ เทคโนโลยี ที่อีกหนึ่งปียังมีความหมาย",
+        "ms": "Pilih versi teknologi yang masih masuk akal setahun lagi."
+      },
+      "authors": {
+        "en": "Adapted from Audre Lorde",
+        "tr": "Audre Lorde'dan uyarlanmıştır",
+        "fr": "Adapté de Audre Lorde",
+        "pt": "Adaptado de Audre Lorde",
+        "nl": "Aangepast van Audre Lorde",
+        "es": "Adaptado de Audre Lorde",
+        "de": "Angelehnt an Audre Lorde",
+        "it": "Adattato da Audre Lorde",
+        "ru": "Адаптировано: Одри Лорд",
+        "id": "Diadaptasi dari Audre Lorde",
+        "ja": "オードリー・ロードをもとに",
+        "th": "ดัดแปลงจาก ออดรี ลอร์ด",
+        "ms": "Diadaptasi daripada Audre Lorde"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_225_en",
+          "title": "Long View",
+          "content": "She skipped the flashy shortcut and built a simple base; months later it held.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_225_tr",
+          "title": "Uzun Ufuk",
+          "content": "Göz alıcı kestirmeyi pas geçip basit bir temel kurdu; aylar sonra hâlâ ayaktaydı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_225_fr",
+          "title": "La Longue Vue",
+          "content": "Elle a évité le raccourci brillant et a bâti une base simple; des mois plus tard, elle tenait.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_225_pt",
+          "title": "Visão Longa",
+          "content": "Ela pulou o atalho chamativo e construiu uma base simples; meses depois, ela sustentava tudo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_225_nl",
+          "title": "Lange Blik",
+          "content": "Ze sloeg de flitsende shortcut over en bouwde een eenvoudige basis; maanden later hield die stand.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_225_es",
+          "title": "Visión Larga",
+          "content": "Saltó el atajo llamativo y construyó una base simple; meses después, seguía firme.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_225_de",
+          "title": "Langer Blick",
+          "content": "Sie ließ die glänzende Abkürzung aus und baute ein einfaches Fundament; Monate später hielt es.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_225_it",
+          "title": "Sguardo Lungo",
+          "content": "Saltò la scorciatoia brillante e costruì una base semplice; mesi dopo, reggeva.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_225_ru",
+          "title": "Долгий взгляд",
+          "content": "Она пропустила эффектную короткую дорогу и построила простую основу; через месяцы она держалась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_225_id",
+          "title": "Pandangan Jauh",
+          "content": "Ia melewatkan jalan pintas yang mencolok dan membangun dasar yang sederhana; beberapa bulan kemudian dasar itu kokoh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_225_ja",
+          "title": "長い視点",
+          "content": "派手な近道を避け、シンプルな土台を作った。数か月後もそれは持ちこたえた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_225_th",
+          "title": "มุมมองระยะยาว",
+          "content": "เธอข้ามทางลัดที่ดูหวือหวาแล้วสร้างฐานที่เรียบง่าย หลายเดือนต่อมาก็ยังยืนอยู่ได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_225_ms",
+          "title": "Pandangan Jauh",
+          "content": "Dia melangkau jalan pintas yang menarik dan membina asas yang sederhana; beberapa bulan kemudian ia masih kukuh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_226",
+      "type": "quote",
+      "texts": {
+        "en": "technology grows at the edge where comfort meets curiosity.",
+        "tr": "teknoloji, konforla merakın buluştuğu eşikte büyür.",
+        "fr": "technologie grandit au bord où le confort rencontre la curiosité.",
+        "pt": "tecnologia cresce na borda onde o conforto encontra a curiosidade.",
+        "nl": "technologie groeit aan de rand waar comfort en nieuwsgierigheid elkaar ontmoeten.",
+        "es": "tecnología crece en el borde donde la comodidad se encuentra con la curiosidad.",
+        "de": "technologie wächst am Rand, wo Komfort auf Neugier trifft.",
+        "it": "tecnologia cresce sul bordo dove il comfort incontra la curiosità.",
+        "ru": "технологии растёт на границе, где комфорт встречает любопытство.",
+        "id": "teknologi tumbuh di tepi tempat kenyamanan bertemu rasa ingin tahu.",
+        "ja": "テクノロジーは、快適さと好奇心が出会う縁で育つ。",
+        "th": "เทคโนโลยี เติบโตที่ขอบซึ่งความสบายพบกับความใฝ่รู้",
+        "ms": "teknologi berkembang di tepi tempat keselesaan bertemu rasa ingin tahu."
+      },
+      "authors": {
+        "en": "Adapted from Toni Morrison",
+        "tr": "Toni Morrison'dan uyarlanmıştır",
+        "fr": "Adapté de Toni Morrison",
+        "pt": "Adaptado de Toni Morrison",
+        "nl": "Aangepast van Toni Morrison",
+        "es": "Adaptado de Toni Morrison",
+        "de": "Angelehnt an Toni Morrison",
+        "it": "Adattato da Toni Morrison",
+        "ru": "Адаптировано: Тони Моррисон",
+        "id": "Diadaptasi dari Toni Morrison",
+        "ja": "トニ・モリスンをもとに",
+        "th": "ดัดแปลงจาก โทนี มอร์ริสัน",
+        "ms": "Diadaptasi daripada Toni Morrison"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_226_en",
+          "title": "Edge of Comfort",
+          "content": "He tried the smaller scary step and felt room to breathe.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_226_tr",
+          "title": "Konforun Eşiği",
+          "content": "Daha küçük ama ürküten adımı denedi ve nefes alacak alan buldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_226_fr",
+          "title": "Le Bord du Confort",
+          "content": "Il a tenté le plus petit pas effrayant et a senti de l’espace pour respirer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_226_pt",
+          "title": "A Borda do Conforto",
+          "content": "Ele tentou o passo menor e assustador e sentiu espaço para respirar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_226_nl",
+          "title": "De Rand van Comfort",
+          "content": "Hij probeerde de kleinere, enge stap en voelde ruimte om te ademen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_226_es",
+          "title": "El Borde de la Comodidad",
+          "content": "Probó el paso más pequeño y temible y sintió espacio para respirar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_226_de",
+          "title": "Der Rand der Bequemlichkeit",
+          "content": "Er versuchte den kleineren, beängstigenden Schritt und spürte wieder Raum zum Atmen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_226_it",
+          "title": "Il Bordo del Comfort",
+          "content": "Provò il passo più piccolo e spaventoso e sentì spazio per respirare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_226_ru",
+          "title": "Край комфорта",
+          "content": "Он попробовал меньший пугающий шаг и почувствовал место для дыхания.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_226_id",
+          "title": "Tepi Kenyamanan",
+          "content": "Ia mencoba langkah kecil yang menakutkan dan merasa punya ruang untuk bernapas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_226_ja",
+          "title": "快適さの縁",
+          "content": "小さくて怖い一歩を試し、息ができる余白を感じた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_226_th",
+          "title": "ขอบของความสบาย",
+          "content": "เขาลองก้าวเล็กๆ ที่น่ากลัว แล้วรู้สึกว่ามีที่ให้หายใจ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_226_ms",
+          "title": "Tepi Keselesaan",
+          "content": "Dia mencuba langkah kecil yang menakutkan dan terasa ada ruang untuk bernafas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_227",
+      "type": "quote",
+      "texts": {
+        "en": "technology brightens when you pass it on.",
+        "tr": "teknoloji, paylaştıkça aydınlanır.",
+        "fr": "technologie s’éclaire quand tu le transmets.",
+        "pt": "tecnologia ilumina quando você passa adiante.",
+        "nl": "technologie wordt helderder als je het doorgeeft.",
+        "es": "tecnología se ilumina cuando lo compartes.",
+        "de": "technologie wird heller, wenn du es weitergibst.",
+        "it": "tecnologia si illumina quando lo trasmetti.",
+        "ru": "технологии светлеет, когда ты передаёшь его дальше.",
+        "id": "teknologi menjadi lebih terang ketika kamu membagikannya.",
+        "ja": "テクノロジーは、渡すときに明るくなる。",
+        "th": "เทคโนโลยี สว่างขึ้นเมื่อคุณส่งต่อ",
+        "ms": "teknologi menjadi lebih terang apabila anda berkongsi."
+      },
+      "authors": {
+        "en": "Adapted from Jane Austen",
+        "tr": "Jane Austen'dan uyarlanmıştır",
+        "fr": "Adapté de Jane Austen",
+        "pt": "Adaptado de Jane Austen",
+        "nl": "Aangepast van Jane Austen",
+        "es": "Adaptado de Jane Austen",
+        "de": "Angelehnt an Jane Austen",
+        "it": "Adattato da Jane Austen",
+        "ru": "Адаптировано: Джейн Остин",
+        "id": "Diadaptasi dari Jane Austen",
+        "ja": "ジェーン・オースティンをもとに",
+        "th": "ดัดแปลงจาก เจน ออสเตน",
+        "ms": "Diadaptasi daripada Jane Austen"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_227_en",
+          "title": "Shared Light",
+          "content": "She taught a teammate a small trick; their progress doubled and hers did too.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_227_tr",
+          "title": "Paylaşılan Işık",
+          "content": "Bir ekip arkadaşına küçük bir püf öğretti; ilerlemeleri ikiye katlandı, onunkisi de öyle.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_227_fr",
+          "title": "Lumière Partagée",
+          "content": "Elle a montré un petit truc à une coéquipière ; leur progression a doublé, la sienne aussi.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_227_pt",
+          "title": "Luz Compartilhada",
+          "content": "Ela ensinou um pequeno truque a uma colega; o progresso delas dobrou, o dela também.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_227_nl",
+          "title": "Gedeeld Licht",
+          "content": "Ze leerde een teamgenoot een kleine truc; hun vooruitgang verdubbelde en die van haar ook.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_227_es",
+          "title": "Luz Compartida",
+          "content": "Le enseñó a una compañera un pequeño truco; su progreso se duplicó y el de ella también.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_227_de",
+          "title": "Geteiltes Licht",
+          "content": "Sie zeigte einem Teammitglied einen kleinen Trick; ihr Fortschritt verdoppelte sich und ihrer auch.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_227_it",
+          "title": "Luce Condivisa",
+          "content": "Insegnò a una collega un piccolo trucco; i loro progressi raddoppiarono, anche i suoi.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_227_ru",
+          "title": "Общий свет",
+          "content": "Она показала коллеге маленький приём; их прогресс удвоился, и её тоже.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_227_id",
+          "title": "Cahaya yang Dibagikan",
+          "content": "Ia mengajarkan trik kecil kepada rekan; kemajuan mereka berlipat dua, begitu juga miliknya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_227_ja",
+          "title": "分け合う光",
+          "content": "同僚に小さなコツを教えたら、相手の進歩が二倍になり、自分もそうなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_227_th",
+          "title": "แสงที่แบ่งปัน",
+          "content": "เธอสอนทริกเล็กๆ ให้เพื่อนร่วมทีม ความก้าวหน้าของทั้งคู่เพิ่มเป็นสองเท่า รวมถึงของเธอด้วย",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_227_ms",
+          "title": "Cahaya Berkongsi",
+          "content": "Dia mengajar rakan sepasukan satu helah kecil; kemajuan mereka berganda, begitu juga miliknya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_228",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, returning is part of the path, not a failure.",
+        "tr": "teknoloji içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
+        "fr": "En technologie, revenir fait partie du chemin, pas d’un échec.",
+        "pt": "Em tecnologia, voltar faz parte do caminho, não é fracasso.",
+        "nl": "Bij technologie is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "En tecnología, volver es parte del camino, no un fracaso.",
+        "de": "Bei technologie ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "In tecnologia, tornare fa parte del percorso, non è un fallimento.",
+        "ru": "Когда есть технологии, возвращение — часть пути, а не провал.",
+        "id": "Dalam teknologi, kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テクノロジーでは、戻ることも道の一部で、失敗ではない。",
+        "th": "ใน เทคโนโลยี การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Dalam teknologi, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+      },
+      "authors": {
+        "en": "Adapted from Nelson Mandela",
+        "tr": "Nelson Mandela'dan uyarlanmıştır",
+        "fr": "Adapté de Nelson Mandela",
+        "pt": "Adaptado de Nelson Mandela",
+        "nl": "Aangepast van Nelson Mandela",
+        "es": "Adaptado de Nelson Mandela",
+        "de": "Angelehnt an Nelson Mandela",
+        "it": "Adattato da Nelson Mandela",
+        "ru": "Адаптировано: Нельсон Мандела",
+        "id": "Diadaptasi dari Nelson Mandela",
+        "ja": "ネルソン・マンデラをもとに",
+        "th": "ดัดแปลงจาก เนลสัน แมนเดลา",
+        "ms": "Diadaptasi daripada Nelson Mandela"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_228_en",
+          "title": "The Return",
+          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_228_tr",
+          "title": "Dönüş",
+          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_228_fr",
+          "title": "Le Retour",
+          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_228_pt",
+          "title": "O Retorno",
+          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_228_nl",
+          "title": "De Terugkeer",
+          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_228_es",
+          "title": "El Regreso",
+          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_228_de",
+          "title": "Die Rückkehr",
+          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_228_it",
+          "title": "Il Ritorno",
+          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_228_ru",
+          "title": "Возвращение",
+          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_228_id",
+          "title": "Kembali",
+          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_228_ja",
+          "title": "戻ること",
+          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_228_th",
+          "title": "การกลับมา",
+          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_228_ms",
+          "title": "Kembali",
+          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_229",
+      "type": "quote",
+      "texts": {
+        "en": "Name what technology really is, and it becomes workable.",
+        "tr": "teknoloji aslında neyse onu adlandır; o zaman uygulanabilir olur.",
+        "fr": "Nomme ce qu’est vraiment technologie, et cela devient praticable.",
+        "pt": "Nomeie o que tecnologia realmente é, e isso se torna viável.",
+        "nl": "Noem wat technologie echt is, en het wordt werkbaar.",
+        "es": "Nombra lo que tecnología realmente es, y se vuelve viable.",
+        "de": "Benenne, was technologie wirklich ist, dann wird es machbar.",
+        "it": "Dai un nome chiaro a ciò che tecnologia è davvero, e diventa praticabile.",
+        "ru": "Назови, чем на самом деле является технологии, и это станет выполнимым.",
+        "id": "Namai apa itu teknologi sebenarnya, dan itu menjadi bisa dikerjakan.",
+        "ja": "テクノロジーが本当は何なのかを名づけると、扱えるようになる。",
+        "th": "ตั้งชื่อให้ชัดว่า เทคโนโลยี คืออะไร แล้วมันจะจัดการได้",
+        "ms": "Namakan apa itu teknologi sebenarnya, dan ia menjadi boleh diusahakan."
+      },
+      "authors": {
+        "en": "Adapted from Rabindranath Tagore",
+        "tr": "Rabindranath Tagore'dan uyarlanmıştır",
+        "fr": "Adapté de Rabindranath Tagore",
+        "pt": "Adaptado de Rabindranath Tagore",
+        "nl": "Aangepast van Rabindranath Tagore",
+        "es": "Adaptado de Rabindranath Tagore",
+        "de": "Angelehnt an Rabindranath Tagore",
+        "it": "Adattato da Rabindranath Tagore",
+        "ru": "Адаптировано: Рабиндранат Тагор",
+        "id": "Diadaptasi dari Rabindranath Tagore",
+        "ja": "ラビンドラナート・タゴールをもとに",
+        "th": "ดัดแปลงจาก รพินทรนาถ ฐากูร",
+        "ms": "Diadaptasi daripada Rabindranath Tagore"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_229_en",
+          "title": "Name It Clearly",
+          "content": "She replaced “overwhelmed” with “three tasks,” and started.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_229_tr",
+          "title": "Netçe Adlandır",
+          "content": "“Bunaldım”ı “üç görev”e çevirdi ve başladı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_229_fr",
+          "title": "Nomme-le Clairement",
+          "content": "Elle a remplacé « débordée » par « trois tâches » et a commencé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_229_pt",
+          "title": "Nomeie com Clareza",
+          "content": "Ela trocou “sobrecarregada” por “três tarefas” e começou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_229_nl",
+          "title": "Noem het Helder",
+          "content": "Ze verving “overweldigd” door “drie taken” en begon.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_229_es",
+          "title": "Nómbralo Claro",
+          "content": "Reemplazó “abrumada” por “tres tareas” y empezó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_229_de",
+          "title": "Nenne es Klar",
+          "content": "Sie ersetzte „überfordert“ durch „drei Aufgaben“ und begann.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_229_it",
+          "title": "Dagli un Nome Chiaro",
+          "content": "Sostituì “sopraffatta” con “tre compiti” e iniziò.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_229_ru",
+          "title": "Назови ясно",
+          "content": "Она заменила «перегружена» на «три задачи» и начала.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_229_id",
+          "title": "Beri Nama dengan Jelas",
+          "content": "Ia mengganti “kewalahan” dengan “tiga tugas” dan mulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_229_ja",
+          "title": "はっきり名づける",
+          "content": "「圧倒されている」を「3つのタスク」に置き換えて、動き出した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_229_th",
+          "title": "ตั้งชื่อให้ชัด",
+          "content": "เธอแทนคำว่า “ล้นมือ” ด้วย “สามงาน” แล้วเริ่มลงมือ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_229_ms",
+          "title": "Namakan dengan Jelas",
+          "content": "Dia menggantikan “terbeban” dengan “tiga tugasan” dan mula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_230",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, the first version can be rough; the second is where the truth appears.",
+        "tr": "teknoloji konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Dans technologie, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
+        "pt": "Em tecnologia, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "In technologie kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "En tecnología, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "In technologie kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
+        "it": "In tecnologia, la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "технологии иногда начинается сыро; во второй версии проявляется истина.",
+        "id": "Dalam teknologi, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テクノロジーでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "ในเทคโนโลยี เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Dalam teknologi, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+      },
+      "authors": {
+        "en": "Adapted from Simone de Beauvoir",
+        "tr": "Simone de Beauvoir'dan uyarlanmıştır",
+        "fr": "Adapté de Simone de Beauvoir",
+        "pt": "Adaptado de Simone de Beauvoir",
+        "nl": "Aangepast van Simone de Beauvoir",
+        "es": "Adaptado de Simone de Beauvoir",
+        "de": "Angelehnt an Simone de Beauvoir",
+        "it": "Adattato da Simone de Beauvoir",
+        "ru": "Адаптировано: Симона де Бовуар",
+        "id": "Diadaptasi dari Simone de Beauvoir",
+        "ja": "シモーヌ・ド・ボーヴォワールをもとに",
+        "th": "ดัดแปลงจาก ซิโมน เดอ โบวัวร์",
+        "ms": "Diadaptasi daripada Simone de Beauvoir"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_230_en",
+          "title": "The Second Draft",
+          "content": "She sketched a messy plan for technology, slept on it, and woke to one clean line that finally fit.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_230_tr",
+          "title": "İkinci Taslak",
+          "content": "teknoloji için dağınık bir plan çizdi, üstüne uyudu ve sabah tek bir net satırla uyandı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_230_fr",
+          "title": "Le Deuxième Brouillon",
+          "content": "Elle a griffonné un plan brouillon pour technologie, a dormi dessus, puis s'est réveillée avec une ligne claire qui tombait juste.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_230_pt",
+          "title": "O Segundo Rascunho",
+          "content": "Ela rabiscou um plano confuso para tecnologia, dormiu sobre isso e acordou com uma linha clara que enfim encaixou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_230_nl",
+          "title": "De Tweede Versie",
+          "content": "Ze schetste een rommelig plan voor technologie, sliep er een nacht over en werd wakker met één heldere regel die eindelijk klopte.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_230_es",
+          "title": "El Segundo Borrador",
+          "content": "Bosquejó un plan desordenado para tecnología, durmió sobre ello y despertó con una sola línea clara que por fin encajaba.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_230_de",
+          "title": "Die Zweite Fassung",
+          "content": "Sie skizzierte einen wirren Plan für technologie, schlief eine Nacht darüber und wachte mit einer klaren Zeile auf, die endlich passte.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_230_it",
+          "title": "La Seconda Bozza",
+          "content": "Ha abbozzato un piano confuso per tecnologia, ci ha dormito sopra e si è svegliata con una linea chiara che finalmente funzionava.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_230_ru",
+          "title": "Второй Черновик",
+          "content": "Она набросала сумбурный план для технологии, переночевала с ним и проснулась с одной ясной строкой, которая наконец совпала.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_230_id",
+          "title": "Draf Kedua",
+          "content": "Dia membuat sketsa rencana berantakan untuk teknologi, tidur dulu, lalu bangun dengan satu baris jelas yang akhirnya pas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_230_ja",
+          "title": "二つ目の草案",
+          "content": "テクノロジーのために雑な計画を描いて寝かせ、朝にはようやく合う一本の線が浮かんだ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_230_th",
+          "title": "ร่างที่สอง",
+          "content": "เธอร่างแผนที่ยุ่งเหยิงสำหรับเทคโนโลยี นอนทับมันหนึ่งคืน แล้วตื่นมาพร้อมบรรทัดที่ชัดเจนเส้นเดียวซึ่งลงตัวพอดี",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_230_ms",
+          "title": "Draf Kedua",
+          "content": "Dia melakar pelan yang berserabut untuk teknologi, tidur sejenak, lalu bangun dengan satu baris yang jelas dan akhirnya tepat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_231",
+      "type": "quote",
+      "texts": {
+        "en": "Measure technology with one honest metric, not a dozen loud ones.",
+        "tr": "teknoloji için tek bir dürüst ölçüt kullan; bir düzine gürültülü ölçüt değil.",
+        "fr": "Mesure technologie avec une seule mesure honnête, pas avec une douzaine de mesures bruyantes.",
+        "pt": "Meça tecnologia com uma métrica honesta, não com uma dúzia barulhenta.",
+        "nl": "Meet technologie met één eerlijke maatstaf, niet met een dozijn luidruchtige.",
+        "es": "Mide tecnología con una métrica honesta, no con una docena ruidosa.",
+        "de": "Miss technologie mit einer ehrlichen Kennzahl, nicht mit einem Dutzend lauter.",
+        "it": "Misura tecnologia con una metrica onesta, non con una dozzina rumorosa.",
+        "ru": "Измеряй технологии одним честным показателем, а не десятком шумных.",
+        "id": "Ukur teknologi dengan satu ukuran yang jujur, bukan selusin yang bising.",
+        "ja": "テクノロジーは、にぎやかな指標を十も並べず、正直な一つで測る。",
+        "th": "วัดเทคโนโลยีด้วยตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง ไม่ใช่ตัวชี้วัดที่ดังเป็นโหล",
+        "ms": "Ukur teknologi dengan satu ukuran yang jujur, bukan berderet ukuran yang bising."
+      },
+      "authors": {
+        "en": "Adapted from Albert Camus",
+        "tr": "Albert Camus'dan uyarlanmıştır",
+        "fr": "Adapté de Albert Camus",
+        "pt": "Adaptado de Albert Camus",
+        "nl": "Aangepast van Albert Camus",
+        "es": "Adaptado de Albert Camus",
+        "de": "Angelehnt an Albert Camus",
+        "it": "Adattato da Albert Camus",
+        "ru": "Адаптировано: Альбер Камю",
+        "id": "Diadaptasi dari Albert Camus",
+        "ja": "アルベール・カミュをもとに",
+        "th": "ดัดแปลงจาก อัลแบร์ กามู",
+        "ms": "Diadaptasi daripada Albert Camus"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_231_en",
+          "title": "One Honest Metric",
+          "content": "He stopped tracking ten dashboards in technology and watched a single number; the noise fell away.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_231_tr",
+          "title": "Tek Bir Dürüst Ölçüt",
+          "content": "teknoloji içinde on göstergeyi takip etmeyi bırakıp tek bir sayıya baktı; gürültü kayboldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_231_fr",
+          "title": "Une Seule Mesure Honnête",
+          "content": "Il a cessé de suivre dix tableaux pour technologie et a regardé un seul chiffre; le bruit a disparu.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_231_pt",
+          "title": "Uma Métrica Honesta",
+          "content": "Ele parou de acompanhar dez painéis em tecnologia e observou um único número; o ruído sumiu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_231_nl",
+          "title": "Eén Eerlijke Maatstaf",
+          "content": "Hij stopte met tien dashboards in technologie en keek naar één cijfer; de ruis viel weg.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_231_es",
+          "title": "Una Métrica Honesta",
+          "content": "Dejó de seguir diez paneles en tecnología y miró un solo número; el ruido se fue.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_231_de",
+          "title": "Eine Ehrliche Kennzahl",
+          "content": "Er hörte auf, zehn Dashboards in technologie zu verfolgen, und schaute auf eine einzige Zahl; der Lärm verschwand.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_231_it",
+          "title": "Un'Unica Metrica Onesta",
+          "content": "Ha smesso di seguire dieci dashboard in tecnologia e ha guardato un solo numero; il rumore è svanito.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_231_ru",
+          "title": "Один Честный Показатель",
+          "content": "Он перестал следить за десятком панелей в технологии и смотрел на одну цифру; шум исчез.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_231_id",
+          "title": "Satu Ukuran Jujur",
+          "content": "Ia berhenti melacak sepuluh dasbor di teknologi dan memperhatikan satu angka; kebisingan menghilang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_231_ja",
+          "title": "正直な一つの指標",
+          "content": "テクノロジーのダッシュボードを十個追うのをやめ、たった一つの数字を見ると、雑音が消えた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_231_th",
+          "title": "ตัวชี้วัดที่ซื่อสัตย์หนึ่งเดียว",
+          "content": "เขาเลิกไล่ดูแดชบอร์ดสิบอันในเทคโนโลยี แล้วมองแค่ตัวเลขเดียว; ความวุ่นวายก็หายไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_231_ms",
+          "title": "Satu Ukuran Jujur",
+          "content": "Dia berhenti menjejak sepuluh papan pemuka dalam teknologi dan menumpu pada satu nombor; bisingnya hilang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_232",
+      "type": "quote",
+      "texts": {
+        "en": "When technology feels heavy, borrow calm from the next small action.",
+        "tr": "teknoloji ağır geldiğinde, sakinliği bir sonraki küçük adımdan ödünç al.",
+        "fr": "Quand technologie pèse lourd, emprunte du calme au prochain petit geste.",
+        "pt": "Quando tecnologia pesa, pegue calma emprestada da próxima pequena ação.",
+        "nl": "Als technologie zwaar voelt, leen rust van de volgende kleine stap.",
+        "es": "Cuando tecnología pesa, toma prestada calma del siguiente pequeño paso.",
+        "de": "Wenn technologie schwer wirkt, leihe dir Ruhe vom nächsten kleinen Schritt.",
+        "it": "Quando tecnologia pesa, prendi in prestito calma dal prossimo piccolo gesto.",
+        "ru": "Когда технологии кажется тяжёлым, одолжи спокойствие у следующего малого шага.",
+        "id": "Saat teknologi terasa berat, pinjam ketenangan dari langkah kecil berikutnya.",
+        "ja": "テクノロジーが重く感じるときは、次の小さな行動から落ち着きを借りる。",
+        "th": "เมื่อเทคโนโลยีรู้สึกหนัก ให้ยืมความสงบจากก้าวเล็กถัดไป",
+        "ms": "Apabila teknologi terasa berat, pinjam ketenangan daripada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Adapted from Mary Oliver",
+        "tr": "Mary Oliver'dan uyarlanmıştır",
+        "fr": "Adapté de Mary Oliver",
+        "pt": "Adaptado de Mary Oliver",
+        "nl": "Aangepast van Mary Oliver",
+        "es": "Adaptado de Mary Oliver",
+        "de": "Angelehnt an Mary Oliver",
+        "it": "Adattato da Mary Oliver",
+        "ru": "Адаптировано: Мэри Оливер",
+        "id": "Diadaptasi dari Mary Oliver",
+        "ja": "メアリー・オリヴァーをもとに",
+        "th": "ดัดแปลงจาก แมรี โอลิเวอร์",
+        "ms": "Diadaptasi daripada Mary Oliver"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_232_en",
+          "title": "Borrowed Calm",
+          "content": "The technology list felt heavy, so she chose one small action and felt the weight lift.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_232_tr",
+          "title": "Ödünç Sakinlik",
+          "content": "teknoloji listesi ağır gelince, tek bir küçük adım seçti ve yükün hafiflediğini hissetti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_232_fr",
+          "title": "Un Calme Emprunté",
+          "content": "La liste de technologie lui pesait, alors elle a choisi un petit geste et le poids s'est allégé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_232_pt",
+          "title": "Calma Emprestada",
+          "content": "A lista de tecnologia pesou, então ela escolheu uma pequena ação e sentiu o peso aliviar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_232_nl",
+          "title": "Geleende Rust",
+          "content": "De technologie-lijst voelde zwaar, dus koos ze één kleine stap en voelde het gewicht lichter worden.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_232_es",
+          "title": "Calma Prestada",
+          "content": "La lista de tecnología pesaba, así que eligió una pequeña acción y sintió que el peso bajaba.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_232_de",
+          "title": "Geliehene Ruhe",
+          "content": "Die technologie-Liste fühlte sich schwer an, also wählte sie einen kleinen Schritt und spürte, wie das Gewicht nachließ.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_232_it",
+          "title": "Calma Presa in Prestito",
+          "content": "La lista di tecnologia le pesava, così ha scelto un piccolo gesto e ha sentito il peso alleggerirsi.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_232_ru",
+          "title": "Заимствованное Спокойствие",
+          "content": "Список технологии давил, и она выбрала один маленький шаг — тяжесть отпустила.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_232_id",
+          "title": "Tenang yang Dipinjam",
+          "content": "Daftar teknologi terasa berat, jadi ia memilih satu tindakan kecil dan merasakan bebannya berkurang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_232_ja",
+          "title": "借りた落ち着き",
+          "content": "テクノロジーのリストが重く感じたので、小さな一歩を選ぶと重さがすっと軽くなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_232_th",
+          "title": "ความสงบที่ยืมมา",
+          "content": "รายการเทคโนโลยีหนักจนรู้สึกอึดอัด เธอจึงเลือกก้าวเล็ก ๆ หนึ่งก้าว แล้วความหนักก็เบาลง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_232_ms",
+          "title": "Ketenangan Dipinjam",
+          "content": "Senarai teknologi terasa berat, jadi dia memilih satu tindakan kecil dan merasakan bebannya berkurang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_233",
+      "type": "quote",
+      "texts": {
+        "en": "technology moves faster when your grip is open.",
+        "tr": "teknoloji, elin gevşekken daha hızlı ilerler.",
+        "fr": "technologie avance plus vite quand la prise est ouverte.",
+        "pt": "tecnologia anda mais rápido quando o aperto é aberto.",
+        "nl": "technologie gaat sneller als je grip open is.",
+        "es": "tecnología avanza más rápido cuando el agarre está abierto.",
+        "de": "technologie kommt schneller voran, wenn dein Griff offen ist.",
+        "it": "tecnologia procede più veloce quando la presa è aperta.",
+        "ru": "технологии движется быстрее, когда хватка открыта.",
+        "id": "teknologi melaju lebih cepat saat genggamanmu terbuka.",
+        "ja": "テクノロジーは、握りが開いているときに進みが速い。",
+        "th": "เทคโนโลยีเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
+        "ms": "teknologi bergerak lebih laju apabila genggamanmu terbuka."
+      },
+      "authors": {
+        "en": "Adapted from Hermann Hesse",
+        "tr": "Hermann Hesse'dan uyarlanmıştır",
+        "fr": "Adapté de Hermann Hesse",
+        "pt": "Adaptado de Hermann Hesse",
+        "nl": "Aangepast van Hermann Hesse",
+        "es": "Adaptado de Hermann Hesse",
+        "de": "Angelehnt an Hermann Hesse",
+        "it": "Adattato da Hermann Hesse",
+        "ru": "Адаптировано: Герман Гессе",
+        "id": "Diadaptasi dari Hermann Hesse",
+        "ja": "ヘルマン・ヘッセをもとに",
+        "th": "ดัดแปลงจาก แฮร์มันน์ เฮสเส",
+        "ms": "Diadaptasi daripada Hermann Hesse"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_233_en",
+          "title": "Open Hand",
+          "content": "When he loosened his grip on the technology schedule, a better solution walked in.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_233_tr",
+          "title": "Açık El",
+          "content": "teknoloji takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_233_fr",
+          "title": "La Main Ouverte",
+          "content": "Quand il a relâché sa prise sur le calendrier de technologie, une meilleure solution est entrée.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_233_pt",
+          "title": "Mão Aberta",
+          "content": "Quando ele afrouxou o aperto no cronograma de tecnologia, uma solução melhor apareceu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_233_nl",
+          "title": "Open Hand",
+          "content": "Toen hij zijn greep op het technologie-schema losliet, kwam een betere oplossing binnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_233_es",
+          "title": "Mano Abierta",
+          "content": "Cuando aflojó su agarre al horario de tecnología, entró una solución mejor.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_233_de",
+          "title": "Offene Hand",
+          "content": "Als er seinen Griff am technologie-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_233_it",
+          "title": "Mano Aperta",
+          "content": "Quando ha allentato la presa sul programma di tecnologia, è arrivata una soluzione migliore.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_233_ru",
+          "title": "Открытая Ладонь",
+          "content": "Когда он ослабил хватку на расписании технологии, вошло лучшее решение.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_233_id",
+          "title": "Tangan Terbuka",
+          "content": "Saat ia melonggarkan genggaman pada jadwal teknologi, solusi yang lebih baik pun datang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_233_ja",
+          "title": "開いた手",
+          "content": "テクノロジーの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_233_th",
+          "title": "มือที่เปิดออก",
+          "content": "เมื่อเขาคลายการยึดตารางเทคโนโลยี ทางออกที่ดีกว่าก็เข้ามา",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_233_ms",
+          "title": "Tangan Terbuka",
+          "content": "Apabila dia melonggarkan genggaman pada jadual teknologi, penyelesaian yang lebih baik pun muncul.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_234",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, the quiet signal is often the true one.",
+        "tr": "teknoloji içinde sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Dans technologie, le signal discret est souvent le vrai.",
+        "pt": "Em tecnologia, o sinal quieto costuma ser o verdadeiro.",
+        "nl": "In technologie is het stille signaal vaak het echte.",
+        "es": "En tecnología, la señal silenciosa suele ser la verdadera.",
+        "de": "In technologie ist das leise Signal oft das wahre.",
+        "it": "In tecnologia, il segnale silenzioso è spesso quello vero.",
+        "ru": "В технологии тихий сигнал часто оказывается настоящим.",
+        "id": "Dalam teknologi, sinyal yang sunyi sering kali yang benar.",
+        "ja": "テクノロジーでは、静かな合図が本当であることが多い。",
+        "th": "ในเทคโนโลยี สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Dalam teknologi, isyarat yang sunyi selalunya yang benar."
+      },
+      "authors": {
+        "en": "Adapted from Ursula K. Le Guin",
+        "tr": "Ursula K. Le Guin'dan uyarlanmıştır",
+        "fr": "Adapté de Ursula K. Le Guin",
+        "pt": "Adaptado de Ursula K. Le Guin",
+        "nl": "Aangepast van Ursula K. Le Guin",
+        "es": "Adaptado de Ursula K. Le Guin",
+        "de": "Angelehnt an Ursula K. Le Guin",
+        "it": "Adattato da Ursula K. Le Guin",
+        "ru": "Адаптировано: Урсула К. Ле Гуин",
+        "id": "Diadaptasi dari Ursula K. Le Guin",
+        "ja": "アーシュラ・K・ル＝グウィンをもとに",
+        "th": "ดัดแปลงจาก เออร์ซูลา เค. เลอ กวิน",
+        "ms": "Diadaptasi daripada Ursula K. Le Guin"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_234_en",
+          "title": "The Quiet Signal",
+          "content": "Everyone argued about technology, but the margin note solved it.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_234_tr",
+          "title": "Sessiz İşaret",
+          "content": "teknoloji üzerine herkes tartıştı, ama kenar notu işi çözdü.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_234_fr",
+          "title": "Le Signal Silencieux",
+          "content": "Tout le monde discutait de technologie, mais une note en marge a tout réglé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_234_pt",
+          "title": "O Sinal Silencioso",
+          "content": "Todos discutiam tecnologia, mas uma nota na margem resolveu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_234_nl",
+          "title": "Het Stille Signaal",
+          "content": "Iedereen discussieerde over technologie, maar een kantlijnnotitie loste het op.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_234_es",
+          "title": "La Señal Silenciosa",
+          "content": "Todos discutían tecnología, pero una nota al margen lo resolvió.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_234_de",
+          "title": "Das Leise Signal",
+          "content": "Alle stritten über technologie, doch eine Randnotiz löste es.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_234_it",
+          "title": "Il Segnale Silenzioso",
+          "content": "Tutti discutevano di tecnologia, ma una nota a margine ha risolto.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_234_ru",
+          "title": "Тихий Сигнал",
+          "content": "Все спорили о технологии, но решение было в заметке на полях.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_234_id",
+          "title": "Sinyal yang Sunyi",
+          "content": "Semua orang berdebat tentang teknologi, tetapi catatan di pinggir menyelesaikannya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_234_ja",
+          "title": "静かな合図",
+          "content": "テクノロジーについて皆が議論していたが、余白のメモが解決した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_234_th",
+          "title": "สัญญาณที่เงียบ",
+          "content": "ทุกคนถกเถียงเรื่องเทคโนโลยี แต่โน้ตเล็ก ๆ ที่ขอบหน้ากระดาษแก้ปัญหาได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_234_ms",
+          "title": "Isyarat Sunyi",
+          "content": "Semua orang berdebat tentang teknologi, tetapi nota di tepi halaman menyelesaikannya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_235",
+      "type": "quote",
+      "texts": {
+        "en": "Choose the version of technology that still makes sense in a year.",
+        "tr": "teknoloji için bir yıl sonra hâlâ anlamlı olacak versiyonu seç.",
+        "fr": "Choisis la version de technologie qui aura encore du sens dans un an.",
+        "pt": "Escolha a versão de tecnologia que ainda faça sentido daqui a um ano.",
+        "nl": "Kies de versie van technologie die over een jaar nog steeds klopt.",
+        "es": "Elige la versión de tecnología que aún tenga sentido dentro de un año.",
+        "de": "Wähle die Version von technologie, die in einem Jahr noch Sinn ergibt.",
+        "it": "Scegli la versione di tecnologia che avrà ancora senso tra un anno.",
+        "ru": "Выбирай версию технологии, которая будет иметь смысл через год.",
+        "id": "Pilih versi teknologi yang masih masuk akal setahun lagi.",
+        "ja": "テクノロジーは、1年後でも筋が通る版を選ぶ。",
+        "th": "เลือกเทคโนโลยีแบบที่อีกหนึ่งปียังสมเหตุสมผล",
+        "ms": "Pilih versi teknologi yang masih masuk akal setahun lagi."
+      },
+      "authors": {
+        "en": "Adapted from Gabriel García Márquez",
+        "tr": "Gabriel García Márquez'dan uyarlanmıştır",
+        "fr": "Adapté de Gabriel García Márquez",
+        "pt": "Adaptado de Gabriel García Márquez",
+        "nl": "Aangepast van Gabriel García Márquez",
+        "es": "Adaptado de Gabriel García Márquez",
+        "de": "Angelehnt an Gabriel García Márquez",
+        "it": "Adattato da Gabriel García Márquez",
+        "ru": "Адаптировано: Габриэль Гарсиа Маркес",
+        "id": "Diadaptasi dari Gabriel García Márquez",
+        "ja": "ガブリエル・ガルシア＝マルケスをもとに",
+        "th": "ดัดแปลงจาก กาเบรียล การ์เซีย มาร์เกซ",
+        "ms": "Diadaptasi daripada Gabriel García Márquez"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_235_en",
+          "title": "Long View",
+          "content": "She skipped the flashy technology shortcut and built the simple base that kept working.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_235_tr",
+          "title": "Uzun Bakış",
+          "content": "Gösterişli teknoloji kestirmesini es geçti ve çalışmaya devam eden sade temeli kurdu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_235_fr",
+          "title": "La Vue Longue",
+          "content": "Elle a évité le raccourci tape-a-l'oeil en technologie et a construit une base simple qui tenait.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_235_pt",
+          "title": "Visão Longa",
+          "content": "Ela evitou o atalho chamativo em tecnologia e construiu a base simples que continuou funcionando.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_235_nl",
+          "title": "De Lange Kijk",
+          "content": "Ze sloeg de flitsende technologie-shortcut over en bouwde de eenvoudige basis die bleef werken.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_235_es",
+          "title": "La Mirada Larga",
+          "content": "Se saltó el atajo vistoso en tecnología y construyó la base simple que siguió funcionando.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_235_de",
+          "title": "Der Lange Blick",
+          "content": "Sie ließ die auffällige technologie-Abkürzung aus und baute die einfache Basis, die weiter funktionierte.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_235_it",
+          "title": "La Visione Lunga",
+          "content": "Ha evitato la scorciatoia appariscente in tecnologia e ha costruito la base semplice che continuava a funzionare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_235_ru",
+          "title": "Дальний Взгляд",
+          "content": "Она пропустила эффектный технологии-шорткат и построила простую основу, которая продолжала работать.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_235_id",
+          "title": "Pandangan Jauh",
+          "content": "Ia melewatkan jalan pintas teknologi yang mencolok dan membangun dasar sederhana yang tetap berfungsi.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_235_ja",
+          "title": "長い視点",
+          "content": "派手なテクノロジーの近道を避け、長く働くシンプルな土台を作った。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_235_th",
+          "title": "มุมมองระยะยาว",
+          "content": "เธอไม่เลือกทางลัดเทคโนโลยีที่ฉูดฉาด แล้วสร้างฐานเรียบง่ายที่ยังใช้ได้ต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_235_ms",
+          "title": "Pandangan Jauh",
+          "content": "Dia mengelak jalan pintas teknologi yang mencolok dan membina asas ringkas yang terus berfungsi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_236",
+      "type": "quote",
+      "texts": {
+        "en": "technology grows at the edge where comfort meets curiosity.",
+        "tr": "teknoloji, konforun merakla buluştuğu sınırda büyür.",
+        "fr": "technologie grandit au bord où le confort rencontre la curiosité.",
+        "pt": "tecnologia cresce na borda onde o conforto encontra a curiosidade.",
+        "nl": "technologie groeit aan de rand waar comfort nieuwsgierigheid ontmoet.",
+        "es": "tecnología crece en el borde donde el confort se encuentra con la curiosidad.",
+        "de": "technologie wächst am Rand, wo Komfort auf Neugier trifft.",
+        "it": "tecnologia cresce al bordo dove il comfort incontra la curiosità.",
+        "ru": "технологии растёт на краю, где комфорт встречается с любопытством.",
+        "id": "teknologi tumbuh di tepi tempat kenyamanan bertemu rasa ingin tahu.",
+        "ja": "テクノロジーは、安心と好奇心が触れる縁で育つ。",
+        "th": "เทคโนโลยีเติบโตที่ขอบซึ่งความสบายพบความอยากรู้",
+        "ms": "teknologi berkembang di tepi tempat selesa bertemu rasa ingin tahu."
+      },
+      "authors": {
+        "en": "Adapted from Zora Neale Hurston",
+        "tr": "Zora Neale Hurston'dan uyarlanmıştır",
+        "fr": "Adapté de Zora Neale Hurston",
+        "pt": "Adaptado de Zora Neale Hurston",
+        "nl": "Aangepast van Zora Neale Hurston",
+        "es": "Adaptado de Zora Neale Hurston",
+        "de": "Angelehnt an Zora Neale Hurston",
+        "it": "Adattato da Zora Neale Hurston",
+        "ru": "Адаптировано: Зора Нил Хёрстон",
+        "id": "Diadaptasi dari Zora Neale Hurston",
+        "ja": "ゾラ・ニール・ハーストンをもとに",
+        "th": "ดัดแปลงจาก โซรา นีล เฮอร์สตัน",
+        "ms": "Diadaptasi daripada Zora Neale Hurston"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_236_en",
+          "title": "Edge of Comfort",
+          "content": "He tried the smaller, scarier step in technology and found room to breathe.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_236_tr",
+          "title": "Konforun Kenarı",
+          "content": "teknoloji içinde daha küçük ama daha ürkütücü adımı denedi ve nefes alacak alan buldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_236_fr",
+          "title": "Le Bord du Confort",
+          "content": "Il a tenté le petit pas plus effrayant en technologie et a trouvé de l'air.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_236_pt",
+          "title": "A Borda do Conforto",
+          "content": "Ele tentou o passo menor e mais assustador em tecnologia e encontrou espaço para respirar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_236_nl",
+          "title": "De Rand van Comfort",
+          "content": "Hij probeerde de kleinere, spannendere stap in technologie en vond weer ruimte om te ademen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_236_es",
+          "title": "El Borde del Confort",
+          "content": "Probó el paso más pequeño y más temible en tecnología y encontró espacio para respirar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_236_de",
+          "title": "Der Rand des Komforts",
+          "content": "Er versuchte den kleineren, angsteinflößenderen Schritt in technologie und fand Raum zum Atmen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_236_it",
+          "title": "Il Bordo del Comfort",
+          "content": "Ha provato il passo più piccolo e più spaventoso in tecnologia e ha trovato spazio per respirare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_236_ru",
+          "title": "Край Комфорта",
+          "content": "Он сделал в технологии меньший, но более страшный шаг и нашёл место, чтобы дышать.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_236_id",
+          "title": "Tepi Kenyamanan",
+          "content": "Ia mencoba langkah yang lebih kecil namun lebih menakutkan dalam teknologi dan menemukan ruang untuk bernapas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_236_ja",
+          "title": "快適さの縁",
+          "content": "テクノロジーで小さくて少し怖い一歩を試したら、呼吸できる余白が生まれた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_236_th",
+          "title": "ขอบของความสบาย",
+          "content": "เขาลองก้าวที่เล็กกว่าแต่ก็น่ากลัวกว่าในเทคโนโลยี แล้วพบพื้นที่ให้หายใจ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_236_ms",
+          "title": "Tepi Selesa",
+          "content": "Dia cuba langkah yang lebih kecil tetapi lebih menakutkan dalam teknologi dan menemukan ruang untuk bernafas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_237",
+      "type": "quote",
+      "texts": {
+        "en": "technology brightens when you pass it on.",
+        "tr": "teknoloji, paylaştıkça aydınlanır.",
+        "fr": "technologie s'éclaire quand tu le transmets.",
+        "pt": "tecnologia ilumina quando você repassa.",
+        "nl": "technologie wordt helderder als je het doorgeeft.",
+        "es": "tecnología se ilumina cuando lo compartes.",
+        "de": "technologie leuchtet heller, wenn du es weitergibst.",
+        "it": "tecnologia si illumina quando lo passi avanti.",
+        "ru": "технологии светлеет, когда ты передаёшь его дальше.",
+        "id": "teknologi menjadi lebih terang saat kamu meneruskannya.",
+        "ja": "テクノロジーは、渡すと明るくなる。",
+        "th": "เทคโนโลยีสว่างขึ้นเมื่อคุณส่งต่อ",
+        "ms": "teknologi menjadi lebih cerah apabila kamu menyampaikannya."
+      },
+      "authors": {
+        "en": "Adapted from Fyodor Dostoevsky",
+        "tr": "Fyodor Dostoevsky'dan uyarlanmıştır",
+        "fr": "Adapté de Fyodor Dostoevsky",
+        "pt": "Adaptado de Fyodor Dostoevsky",
+        "nl": "Aangepast van Fyodor Dostoevsky",
+        "es": "Adaptado de Fyodor Dostoevsky",
+        "de": "Angelehnt an Fyodor Dostoevsky",
+        "it": "Adattato da Fyodor Dostoevsky",
+        "ru": "Адаптировано: Фёдор Достоевский",
+        "id": "Diadaptasi dari Fyodor Dostoevsky",
+        "ja": "フョードル・ドストエフスキーをもとに",
+        "th": "ดัดแปลงจาก ฟีโอดอร์ ดอสโตเยฟสกี",
+        "ms": "Diadaptasi daripada Fyodor Dostoevsky"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_237_en",
+          "title": "Shared Light",
+          "content": "He taught a teammate the technology trick, and the whole group sped up.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_237_tr",
+          "title": "Paylaşılan Işık",
+          "content": "Bir takım arkadaşına teknoloji hilesini öğretti ve tüm grup hızlandı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_237_fr",
+          "title": "La Lumière Partagée",
+          "content": "Il a montré à un coéquipier l'astuce de technologie, et tout le groupe a accéléré.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_237_pt",
+          "title": "Luz Compartilhada",
+          "content": "Ele ensinou a um colega o truque de tecnologia, e o grupo todo acelerou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_237_nl",
+          "title": "Gedeeld Licht",
+          "content": "Hij leerde een teamgenoot de technologie-truc, en de hele groep ging sneller.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_237_es",
+          "title": "Luz Compartida",
+          "content": "Le enseñó a un compañero el truco de tecnología, y todo el grupo avanzó más rápido.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_237_de",
+          "title": "Geteiltes Licht",
+          "content": "Er zeigte einem Teamkollegen den technologie-Trick, und die ganze Gruppe wurde schneller.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_237_it",
+          "title": "Luce Condivisa",
+          "content": "Ha insegnato a un compagno il trucco di tecnologia, e tutto il gruppo ha accelerato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_237_ru",
+          "title": "Разделённый Свет",
+          "content": "Он показал товарищу технологии-приём, и вся группа ускорилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_237_id",
+          "title": "Cahaya yang Dibagikan",
+          "content": "Ia mengajari rekan setim trik teknologi, dan seluruh tim melaju lebih cepat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_237_ja",
+          "title": "分け合う光",
+          "content": "仲間にテクノロジーのコツを教えたら、みんなの進みが速くなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_237_th",
+          "title": "แสงที่แบ่งปัน",
+          "content": "เขาสอนทริกเทคโนโลยีให้เพื่อนร่วมทีม แล้วทั้งกลุ่มก็เร็วขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_237_ms",
+          "title": "Cahaya Dikongsi",
+          "content": "Dia mengajar rakan sepasukan helah teknologi, dan seluruh kumpulan bergerak lebih laju.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_238",
+      "type": "quote",
+      "texts": {
+        "en": "In technology, returning is part of the path, not a failure.",
+        "tr": "teknoloji içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Dans technologie, revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Em tecnologia, retornar faz parte do caminho, não é fracasso.",
+        "nl": "In technologie is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "En tecnología, volver es parte del camino, no un fracaso.",
+        "de": "In technologie ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "In tecnologia, tornare è parte del percorso, non un fallimento.",
+        "ru": "В технологии возвращение — часть пути, а не провал.",
+        "id": "Dalam teknologi, kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テクノロジーでは、戻ることは道の一部であって失敗ではない。",
+        "th": "ในเทคโนโลยี การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Dalam teknologi, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+      },
+      "authors": {
+        "en": "Adapted from Lao Tzu",
+        "tr": "Lao Tzu'dan uyarlanmıştır",
+        "fr": "Adapté de Lao Tzu",
+        "pt": "Adaptado de Lao Tzu",
+        "nl": "Aangepast van Lao Tzu",
+        "es": "Adaptado de Lao Tzu",
+        "de": "Angelehnt an Lao Tzu",
+        "it": "Adattato da Lao Tzu",
+        "ru": "Адаптировано: Лао-цзы",
+        "id": "Diadaptasi dari Lao Tzu",
+        "ja": "老子をもとに",
+        "th": "ดัดแปลงจาก เล่าจื๊อ",
+        "ms": "Diadaptasi daripada Lao Tzu"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_238_en",
+          "title": "The Return",
+          "content": "After a missed week in technology, she came back and the line continued.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_238_tr",
+          "title": "Dönüş",
+          "content": "teknoloji içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_238_fr",
+          "title": "Le Retour",
+          "content": "Après une semaine manquée en technologie, elle est revenue et la ligne a continué.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_238_pt",
+          "title": "O Retorno",
+          "content": "Depois de uma semana perdida em tecnologia, ela voltou e a linha continuou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_238_nl",
+          "title": "De Terugkeer",
+          "content": "Na een gemiste week in technologie kwam ze terug en de lijn ging verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_238_es",
+          "title": "El Regreso",
+          "content": "Después de una semana perdida en tecnología, volvió y la línea continuó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_238_de",
+          "title": "Die Rückkehr",
+          "content": "Nach einer verpassten Woche in technologie kam sie zurück und die Linie lief weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_238_it",
+          "title": "Il Ritorno",
+          "content": "Dopo una settimana persa in tecnologia, è tornata e la linea è continuata.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_238_ru",
+          "title": "Возвращение",
+          "content": "После пропущенной недели в технологии она вернулась, и линия продолжилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_238_id",
+          "title": "Kepulangan",
+          "content": "Setelah melewatkan seminggu di teknologi, ia kembali dan garisnya berlanjut.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_238_ja",
+          "title": "帰り道",
+          "content": "テクノロジーを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_238_th",
+          "title": "การกลับมา",
+          "content": "หลังพลาดไปหนึ่งสัปดาห์ในเทคโนโลยี เธอกลับมาและเส้นทางก็เดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_238_ms",
+          "title": "Kembali",
+          "content": "Selepas terlepas seminggu dalam teknologi, dia kembali dan garis itu terus berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "technology_239",
+      "type": "quote",
+      "texts": {
+        "en": "Name what technology really is, and it becomes workable.",
+        "tr": "teknoloji aslında neyse onu adlandır; o zaman uygulanabilir olur.",
+        "fr": "Nomme ce qu'est vraiment technologie, et cela devient praticable.",
+        "pt": "Nomeie o que tecnologia realmente é, e isso se torna viável.",
+        "nl": "Noem wat technologie werkelijk is, dan wordt het werkbaar.",
+        "es": "Nombra lo que tecnología realmente es, y se vuelve viable.",
+        "de": "Benenne, was technologie wirklich ist, dann wird es machbar.",
+        "it": "Chiama ciò che tecnologia è davvero, e diventa praticabile.",
+        "ru": "Назови, чем на самом деле является технологии, и это станет выполнимым.",
+        "id": "Sebutkan apa sebenarnya teknologi, maka itu menjadi dapat dikerjakan.",
+        "ja": "テクノロジーが本当は何かを名づけると、扱える形になる。",
+        "th": "ตั้งชื่อให้ชัดว่าเทคโนโลยีจริง ๆ คืออะไร แล้วมันจะจัดการได้",
+        "ms": "Namakan apa sebenarnya teknologi, maka ia menjadi boleh diusahakan."
+      },
+      "authors": {
+        "en": "Adapted from Viktor E. Frankl",
+        "tr": "Viktor E. Frankl'dan uyarlanmıştır",
+        "fr": "Adapté de Viktor E. Frankl",
+        "pt": "Adaptado de Viktor E. Frankl",
+        "nl": "Aangepast van Viktor E. Frankl",
+        "es": "Adaptado de Viktor E. Frankl",
+        "de": "Angelehnt an Viktor E. Frankl",
+        "it": "Adattato da Viktor E. Frankl",
+        "ru": "Адаптировано: Виктор Э. Франкл",
+        "id": "Diadaptasi dari Viktor E. Frankl",
+        "ja": "ヴィクトール・E・フランクルをもとに",
+        "th": "ดัดแปลงจาก วิคเตอร์ อี. แฟรงเคิล",
+        "ms": "Diadaptasi daripada Viktor E. Frankl"
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_technology_239_en",
+          "title": "Name It Clearly",
+          "content": "He replaced \"overwhelmed\" with \"three tasks,\" and technology became doable.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_technology_239_tr",
+          "title": "Netçe Adlandır",
+          "content": "\"bunaldım\" yerine \"üç görev\" dedi ve teknoloji yapılabilir oldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_technology_239_fr",
+          "title": "Nomme-le Clairement",
+          "content": "Il a remplacé « débordé » par « trois tâches », et technologie est devenu faisable.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_technology_239_pt",
+          "title": "Nomeie com Clareza",
+          "content": "Ele trocou \"sobrecarregado\" por \"três tarefas\", e tecnologia ficou viável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_technology_239_nl",
+          "title": "Noem Het Helder",
+          "content": "Hij verving \"overweldigd\" door \"drie taken\", en technologie werd doenbaar.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_technology_239_es",
+          "title": "Nómbralo con Claridad",
+          "content": "Reemplazó \"abrumado\" por \"tres tareas\", y tecnología se volvió posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_technology_239_de",
+          "title": "Benenne Es Klar",
+          "content": "Er ersetzte \"überfordert\" durch \"drei Aufgaben\", und technologie wurde machbar.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_technology_239_it",
+          "title": "Chiamalo con Chiarezza",
+          "content": "Ha sostituito \"sopraffatto\" con \"tre compiti\", e tecnologia è diventato fattibile.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_technology_239_ru",
+          "title": "Назови Ясно",
+          "content": "Он заменил «перегружен» на «три задачи», и технологии стало выполнимым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_technology_239_id",
+          "title": "Sebutkan dengan Jelas",
+          "content": "Ia mengganti \"kewalahan\" dengan \"tiga tugas\", dan teknologi menjadi bisa dijalankan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_technology_239_ja",
+          "title": "はっきり名づける",
+          "content": "「圧倒されている」を「三つのタスク」に言い換えたら、テクノロジーがこなせる形になった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_technology_239_th",
+          "title": "ตั้งชื่อให้ชัด",
+          "content": "เขาเปลี่ยนคำว่า \"ท่วมท้น\" เป็น \"สามงาน\" แล้วเทคโนโลยีก็ทำได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_technology_239_ms",
+          "title": "Namakan dengan Jelas",
+          "content": "Dia mengganti \"terbeban\" dengan \"tiga tugas\", dan teknologi menjadi boleh dilakukan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

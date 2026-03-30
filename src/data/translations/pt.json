@@ -556,5 +556,14 @@
     "privacy_policy_subtitle": "Veja nossa política de privacidade",
     "terms_of_use": "Termos de Uso",
     "terms_of_use_subtitle": "Apple Standard EULA"
+  },
+  "personalization": {
+    "title": "Preparando sua experiência",
+    "title_with_name": "Preparando a experiência de {{name}}",
+    "subtitle": "Um momento...",
+    "step1": "Analisando suas preferências...",
+    "step2": "Selecionando citações para você...",
+    "step3": "Personalizando sua experiência...",
+    "step4": "Quase pronto..."
   }
 }

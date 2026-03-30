@@ -556,5 +556,14 @@
     "privacy_policy_subtitle": "Bekijk ons privacybeleid",
     "terms_of_use": "Gebruiksvoorwaarden",
     "terms_of_use_subtitle": "Apple Standaard EULA"
+  },
+  "personalization": {
+    "title": "Jouw ervaring wordt voorbereid",
+    "title_with_name": "Ervaring van {{name}} wordt voorbereid",
+    "subtitle": "Even geduld...",
+    "step1": "Jouw voorkeuren worden geanalyseerd...",
+    "step2": "Citaten worden voor jou geselecteerd...",
+    "step3": "Jouw ervaring wordt gepersonaliseerd...",
+    "step4": "Bijna klaar..."
   }
 }

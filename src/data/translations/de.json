@@ -591,5 +591,14 @@
       "goals": "Ziele",
       "family": "Familie"
     }
+  },
+  "personalization": {
+    "title": "Dein Erlebnis wird vorbereitet",
+    "title_with_name": "{{name}}s Erlebnis wird vorbereitet",
+    "subtitle": "Einen Moment...",
+    "step1": "Deine Einstellungen werden analysiert...",
+    "step2": "Zitate werden für dich ausgewählt...",
+    "step3": "Dein Erlebnis wird personalisiert...",
+    "step4": "Fast fertig..."
   }
 }

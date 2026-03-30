@@ -617,5 +617,14 @@
       "goals": "Goals",
       "family": "Family"
     }
+  },
+  "personalization": {
+    "title": "Setting up your experience",
+    "title_with_name": "Setting up {{name}}'s experience",
+    "subtitle": "Just a moment...",
+    "step1": "Analyzing your preferences...",
+    "step2": "Selecting quotes just for you...",
+    "step3": "Personalizing your experience...",
+    "step4": "Almost ready..."
   }
 }

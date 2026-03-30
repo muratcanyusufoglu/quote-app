@@ -22345,6 +22345,3666 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "min_238",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, the first version can be rough; the second is where the truth appears.",
+        "tr": "farkındalık konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
+        "fr": "En pleine conscience, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
+        "pt": "Em atenção plena, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Bij mindfulness kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
+        "es": "En atención plena, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
+        "de": "Bei achtsamkeit kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
+        "it": "In consapevolezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда есть осознанность, первая версия может быть грубой; во второй появляется правда.",
+        "id": "Dalam kesadaran, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "マインドフルネスでは、最初の版は荒くてもいい。二度目で真実が現れる。",
+        "th": "ใน สติ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Dalam kesedaran, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+      },
+      "authors": {
+        "en": "Adapted from Maya Angelou",
+        "tr": "Maya Angelou'dan uyarlanmıştır",
+        "fr": "Adapté de Maya Angelou",
+        "pt": "Adaptado de Maya Angelou",
+        "nl": "Aangepast van Maya Angelou",
+        "es": "Adaptado de Maya Angelou",
+        "de": "Angelehnt an Maya Angelou",
+        "it": "Adattato da Maya Angelou",
+        "ru": "Адаптировано: Майя Анджелоу",
+        "id": "Diadaptasi dari Maya Angelou",
+        "ja": "マヤ・アンジェロウをもとに",
+        "th": "ดัดแปลงจาก มายา แอนเจลู",
+        "ms": "Diadaptasi daripada Maya Angelou"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_238_en",
+          "title": "The Second Draft",
+          "content": "She sketched a messy plan for mindfulness, slept on it, and returned to a single clear line. That line carried the rest.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_238_tr",
+          "title": "İkinci Taslak",
+          "content": "farkındalık için dağınık bir plan çizdi, üzerine bir gece uyudu ve tek bir net cümleye döndü. O cümle gerisini taşıdı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_238_fr",
+          "title": "Le Deuxième Jet",
+          "content": "Elle a esquissé un plan brouillon pour pleine conscience, a dormi dessus, puis est revenue à une seule ligne claire. Cette ligne a porté le reste.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_238_pt",
+          "title": "O Segundo Rascunho",
+          "content": "Ela rascunhou um plano bagunçado para atenção plena, dormiu sobre ele e voltou a uma única linha clara. Essa linha sustentou o resto.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_238_nl",
+          "title": "De Tweede Versie",
+          "content": "Ze schetste een rommelig plan voor mindfulness, sliep er een nacht over en kwam terug met één heldere zin. Die zin droeg de rest.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_238_es",
+          "title": "El Segundo Borrador",
+          "content": "Trazó un plan desordenado para atención plena, durmió sobre él y volvió con una sola línea clara. Esa línea sostuvo lo demás.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_238_de",
+          "title": "Der Zweite Entwurf",
+          "content": "Sie skizzierte einen unordentlichen Plan für achtsamkeit, schlief darüber und kam mit einer klaren Zeile zurück. Diese Zeile trug den Rest.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_238_it",
+          "title": "La Seconda Bozza",
+          "content": "Schizzò un piano confuso per consapevolezza, ci dormì sopra e tornò con una sola linea chiara. Quella linea portò il resto.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_238_ru",
+          "title": "Второй черновик",
+          "content": "Она набросала сумбурный план для осознанность, переночевала с ним и вернулась к одной ясной строке. Эта строка потянула остальное.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_238_id",
+          "title": "Draf Kedua",
+          "content": "Ia membuat sketsa rencana berantakan untuk kesadaran, tidur semalam, lalu kembali dengan satu kalimat yang jelas. Kalimat itu menuntun sisanya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_238_ja",
+          "title": "二度目の下書き",
+          "content": "マインドフルネスのために雑な計画を書き、ひと晩置いてから戻ると、一本の明確な線が残った。その線が残りを支えた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_238_th",
+          "title": "ฉบับร่างครั้งที่สอง",
+          "content": "เธอร่างแผนที่ยุ่งเหยิงสำหรับ สติ แล้วพักค้างคืน ก่อนกลับมาพร้อมบรรทัดที่ชัดเจนหนึ่งบรรทัด บรรทัดนั้นพาเรื่องที่เหลือไปต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_238_ms",
+          "title": "Draf Kedua",
+          "content": "Dia melakar pelan yang berserabut untuk kesedaran, tidur semalaman, lalu kembali dengan satu ayat yang jelas. Ayat itu membawa selebihnya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_239",
+      "type": "quote",
+      "texts": {
+        "en": "Measure mindfulness with one honest metric, not a dozen loud ones.",
+        "tr": "farkındalık konusunda tek bir dürüst ölçü kullan; onlarca gürültülü ölçüyü değil.",
+        "fr": "Mesure pleine conscience avec un seul indicateur honnête, pas avec une douzaine d’indicateurs bruyants.",
+        "pt": "Meça atenção plena com um único indicador honesto, não com uma dúzia barulhenta.",
+        "nl": "Meet mindfulness met één eerlijke maatstaf, niet met een dozijn luidruchtige.",
+        "es": "Mide atención plena con un solo indicador honesto, no con una docena ruidosa.",
+        "de": "Miss achtsamkeit mit einer ehrlichen Kennzahl, nicht mit einem Dutzend lauter.",
+        "it": "Misura consapevolezza con un solo indicatore onesto, non con una dozzina rumorosa.",
+        "ru": "Измеряй осознанность одной честной метрикой, а не дюжиной шумных.",
+        "id": "Ukur kesadaran dengan satu metrik yang jujur, bukan selusin yang berisik.",
+        "ja": "マインドフルネスは、騒がしい指標をたくさん集めるより、一つの正直な指標で測る。",
+        "th": "วัด สติ ด้วยตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง ไม่ใช่สิบสองตัวที่ดังโวยวาย",
+        "ms": "Ukur kesedaran dengan satu metrik yang jujur, bukan sedozen yang bising."
+      },
+      "authors": {
+        "en": "Adapted from James Baldwin",
+        "tr": "James Baldwin'dan uyarlanmıştır",
+        "fr": "Adapté de James Baldwin",
+        "pt": "Adaptado de James Baldwin",
+        "nl": "Aangepast van James Baldwin",
+        "es": "Adaptado de James Baldwin",
+        "de": "Angelehnt an James Baldwin",
+        "it": "Adattato da James Baldwin",
+        "ru": "Адаптировано: Джеймс Болдуин",
+        "id": "Diadaptasi dari James Baldwin",
+        "ja": "ジェイムズ・ボールドウィンをもとに",
+        "th": "ดัดแปลงจาก เจมส์ บอลด์วิน",
+        "ms": "Diadaptasi daripada James Baldwin"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_239_en",
+          "title": "One Honest Metric",
+          "content": "He stopped chasing every signal and tracked a single number. The noise fell away and his decisions got cleaner.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_239_tr",
+          "title": "Tek Dürüst Ölçü",
+          "content": "Her sinyali kovalamayı bıraktı, tek bir sayıyı izledi. Gürültü çekildi, kararları netleşti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_239_fr",
+          "title": "Un Indicateur Honnête",
+          "content": "Il a cessé de courir après chaque signal et a suivi un seul chiffre. Le bruit est tombé et ses décisions se sont clarifiées.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_239_pt",
+          "title": "Um Indicador Honesto",
+          "content": "Ele parou de correr atrás de cada sinal e passou a acompanhar um único número. O ruído caiu e as decisões ficaram mais claras.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_239_nl",
+          "title": "Eén Eerlijke Maatstaf",
+          "content": "Hij stopte met jagen op elk signaal en volgde één getal. De ruis verdween en zijn keuzes werden helderder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_239_es",
+          "title": "Un Indicador Honesto",
+          "content": "Dejó de perseguir cada señal y siguió un solo número. El ruido bajó y sus decisiones se aclararon.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_239_de",
+          "title": "Eine Ehrliche Kennzahl",
+          "content": "Er hörte auf, jedem Signal nachzujagen, und verfolgte eine einzige Zahl. Das Rauschen fiel weg und seine Entscheidungen wurden klarer.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_239_it",
+          "title": "Un Indicatore Onesto",
+          "content": "Smise di inseguire ogni segnale e seguì un solo numero. Il rumore calò e le decisioni divennero più limpide.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_239_ru",
+          "title": "Одна честная метрика",
+          "content": "Он перестал гнаться за каждым сигналом и отслеживал одно число. Шум ушёл, решения стали чище.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_239_id",
+          "title": "Satu Metrik Jujur",
+          "content": "Ia berhenti mengejar tiap sinyal dan melacak satu angka. Kebisingan mereda dan keputusannya lebih jernih.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_239_ja",
+          "title": "正直な指標はひとつ",
+          "content": "あらゆるシグナルを追うのをやめ、ひとつの数字だけを追った。雑音が消え、判断が澄んだ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_239_th",
+          "title": "ตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง",
+          "content": "เขาหยุดไล่ทุกสัญญาณแล้วติดตามตัวเลขเดียว เสียงรบกวนลดลงและการตัดสินใจก็ชัดขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_239_ms",
+          "title": "Satu Metrik Jujur",
+          "content": "Dia berhenti mengejar setiap isyarat dan menjejak satu angka. Bunyi bising reda dan keputusannya lebih jelas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_240",
+      "type": "quote",
+      "texts": {
+        "en": "When mindfulness feels heavy, borrow calm from the next small action.",
+        "tr": "farkındalık ağır geldiğinde, bir sonraki küçük adımdan sükûnet ödünç al.",
+        "fr": "Quand pleine conscience paraît lourd, emprunte du calme à la prochaine petite action.",
+        "pt": "Quando atenção plena parecer pesado, empreste calma da próxima pequena ação.",
+        "nl": "Als mindfulness zwaar voelt, leen rust van de volgende kleine actie.",
+        "es": "Cuando atención plena se sienta pesado, toma calma del siguiente pequeño paso.",
+        "de": "Wenn achtsamkeit schwer wirkt, leihe dir Ruhe vom nächsten kleinen Schritt.",
+        "it": "Quando consapevolezza sembra pesante, prendi calma dal prossimo piccolo gesto.",
+        "ru": "Когда осознанность кажется тяжёлым, позаимствуй спокойствие у следующего маленького действия.",
+        "id": "Saat kesadaran terasa berat, pinjam ketenangan dari tindakan kecil berikutnya.",
+        "ja": "マインドフルネスが重く感じるときは、次の小さな行動から落ち着きを借りる。",
+        "th": "เมื่อ สติ รู้สึกหนัก ให้ยืมความสงบจากก้าวเล็กๆ ถัดไป",
+        "ms": "Apabila kesedaran terasa berat, pinjam ketenangan daripada tindakan kecil seterusnya."
+      },
+      "authors": {
+        "en": "Adapted from Virginia Woolf",
+        "tr": "Virginia Woolf'dan uyarlanmıştır",
+        "fr": "Adapté de Virginia Woolf",
+        "pt": "Adaptado de Virginia Woolf",
+        "nl": "Aangepast van Virginia Woolf",
+        "es": "Adaptado de Virginia Woolf",
+        "de": "Angelehnt an Virginia Woolf",
+        "it": "Adattato da Virginia Woolf",
+        "ru": "Адаптировано: Вирджиния Вулф",
+        "id": "Diadaptasi dari Virginia Woolf",
+        "ja": "ヴァージニア・ウルフをもとに",
+        "th": "ดัดแปลงจาก เวอร์จิเนีย วูล์ฟ",
+        "ms": "Diadaptasi daripada Virginia Woolf"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_240_en",
+          "title": "Borrowed Calm",
+          "content": "She chose one small action in mindfulness—a single message, a single page. The weight eased enough to keep going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_240_tr",
+          "title": "Ödünç Sükûnet",
+          "content": "farkındalık içinde tek bir küçük eylem seçti—tek bir mesaj, tek bir sayfa. Yük hafifledi ve devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_240_fr",
+          "title": "Calme Emprunté",
+          "content": "Elle a choisi une petite action en pleine conscience — un seul message, une seule page. Le poids s’est allégé juste assez pour continuer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_240_pt",
+          "title": "Calma Emprestada",
+          "content": "Ela escolheu uma pequena ação em atenção plena — uma única mensagem, uma única página. O peso diminuiu o suficiente para continuar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_240_nl",
+          "title": "Geleende Rust",
+          "content": "Ze koos één kleine actie in mindfulness — één bericht, één pagina. Het gewicht werd licht genoeg om door te gaan.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_240_es",
+          "title": "Calma Prestada",
+          "content": "Eligió una pequeña acción en atención plena: un solo mensaje, una sola página. El peso aflojó lo suficiente para seguir.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_240_de",
+          "title": "Geliehene Ruhe",
+          "content": "Sie wählte eine kleine Aktion in achtsamkeit — eine einzige Nachricht, eine einzige Seite. Das Gewicht wurde leicht genug, um weiterzumachen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_240_it",
+          "title": "Calma in Prestito",
+          "content": "Scelse una piccola azione in consapevolezza: un solo messaggio, una sola pagina. Il peso si alleggerì abbastanza per andare avanti.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_240_ru",
+          "title": "Заёмное спокойствие",
+          "content": "Она выбрала одно маленькое действие в осознанность — одно сообщение, одну страницу. Тяжесть ослабла настолько, чтобы продолжить.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_240_id",
+          "title": "Tenang yang Dipinjam",
+          "content": "Ia memilih satu tindakan kecil dalam kesadaran—satu pesan, satu halaman. Beban cukup ringan untuk terus bergerak.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_240_ja",
+          "title": "借りた落ち着き",
+          "content": "マインドフルネスでの小さな行動を一つだけ選んだ。たった一通のメッセージ、たった一ページ。重さが和らぎ、続けられた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_240_th",
+          "title": "ความสงบที่ยืมมา",
+          "content": "เธอเลือกการกระทำเล็กๆ เพียงหนึ่งใน สติ—ข้อความหนึ่งบรรทัดหรือหน้าหนึ่งหน้า น้ำหนักเบาลงพอจะเดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_240_ms",
+          "title": "Tenang yang Dipinjam",
+          "content": "Dia memilih satu tindakan kecil dalam kesedaran—satu mesej, satu halaman. Beban menjadi cukup ringan untuk meneruskan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_241",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness moves faster when your grip is open.",
+        "tr": "farkındalık, elini sıkı tutmadığında daha hızlı ilerler.",
+        "fr": "pleine conscience avance plus vite quand ta prise est ouverte.",
+        "pt": "atenção plena anda mais rápido quando sua pegada está aberta.",
+        "nl": "mindfulness beweegt sneller als je greep open is.",
+        "es": "atención plena avanza más rápido cuando tu agarre está abierto.",
+        "de": "achtsamkeit bewegt sich schneller, wenn dein Griff offen ist.",
+        "it": "consapevolezza si muove più veloce quando la tua presa è aperta.",
+        "ru": "осознанность движется быстрее, когда хватка открыта.",
+        "id": "kesadaran bergerak lebih cepat saat genggamanmu terbuka.",
+        "ja": "マインドフルネスは、握りしめないときに速く進む。",
+        "th": "สติ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
+        "ms": "kesedaran bergerak lebih cepat apabila genggaman anda terbuka."
+      },
+      "authors": {
+        "en": "Adapted from Rumi",
+        "tr": "Rumi'dan uyarlanmıştır",
+        "fr": "Adapté de Rumi",
+        "pt": "Adaptado de Rumi",
+        "nl": "Aangepast van Rumi",
+        "es": "Adaptado de Rumi",
+        "de": "Angelehnt an Rumi",
+        "it": "Adattato da Rumi",
+        "ru": "Адаптировано: Руми",
+        "id": "Diadaptasi dari Rumi",
+        "ja": "ルーミーをもとに",
+        "th": "ดัดแปลงจาก รูมี",
+        "ms": "Diadaptasi daripada Rumi"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_241_en",
+          "title": "Open Hand",
+          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_241_tr",
+          "title": "Açık El",
+          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_241_fr",
+          "title": "Main Ouverte",
+          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_241_pt",
+          "title": "Mão Aberta",
+          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_241_nl",
+          "title": "Open Hand",
+          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_241_es",
+          "title": "Mano Abierta",
+          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_241_de",
+          "title": "Offene Hand",
+          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_241_it",
+          "title": "Mano Aperta",
+          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_241_ru",
+          "title": "Открытая ладонь",
+          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_241_id",
+          "title": "Tangan Terbuka",
+          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_241_ja",
+          "title": "開いた手",
+          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_241_th",
+          "title": "มือที่เปิดไว้",
+          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_241_ms",
+          "title": "Tangan Terbuka",
+          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_242",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, the quiet signal is often the true one.",
+        "tr": "farkındalık konusunda sessiz işaret çoğu zaman gerçeğidir.",
+        "fr": "En pleine conscience, le signal discret est souvent le vrai.",
+        "pt": "Em atenção plena, o sinal silencioso costuma ser o verdadeiro.",
+        "nl": "Bij mindfulness is het stille signaal vaak het echte.",
+        "es": "En atención plena, la señal silenciosa suele ser la verdadera.",
+        "de": "Bei achtsamkeit ist das leise Signal oft das wahre.",
+        "it": "In consapevolezza, il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда есть осознанность, тихий сигнал часто самый верный.",
+        "id": "Dalam kesadaran, sinyal yang tenang sering kali yang benar.",
+        "ja": "マインドフルネスでは、静かな合図が本当であることが多い。",
+        "th": "ใน สติ สัญญาณที่เงียบมักเป็นของจริง",
+        "ms": "Dalam kesedaran, isyarat senyap selalunya yang benar."
+      },
+      "authors": {
+        "en": "Adapted from Khalil Gibran",
+        "tr": "Khalil Gibran'dan uyarlanmıştır",
+        "fr": "Adapté de Khalil Gibran",
+        "pt": "Adaptado de Khalil Gibran",
+        "nl": "Aangepast van Khalil Gibran",
+        "es": "Adaptado de Khalil Gibran",
+        "de": "Angelehnt an Khalil Gibran",
+        "it": "Adattato da Khalil Gibran",
+        "ru": "Адаптировано: Халиль Джебран",
+        "id": "Diadaptasi dari Khalil Gibran",
+        "ja": "ハリール・ジブラーンをもとに",
+        "th": "ดัดแปลงจาก คาลิล ยิบราน",
+        "ms": "Diadaptasi daripada Khalil Gibran"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_242_en",
+          "title": "The Quiet Signal",
+          "content": "During a loud discussion about mindfulness, one short note in the margin revealed the real issue.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_242_tr",
+          "title": "Sessiz İşaret",
+          "content": "farkındalık hakkında gürültülü bir tartışma sırasında kenara yazılmış kısa bir not asıl meseleyi gösterdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_242_fr",
+          "title": "Le Signal Discret",
+          "content": "Pendant une discussion bruyante sur pleine conscience, une courte note en marge a révélé le vrai problème.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_242_pt",
+          "title": "O Sinal Silencioso",
+          "content": "Durante uma discussão barulhenta sobre atenção plena, uma breve nota à margem revelou o problema real.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_242_nl",
+          "title": "Het Stille Signaal",
+          "content": "Tijdens een luid debat over mindfulness onthulde een korte notitie in de marge het echte probleem.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_242_es",
+          "title": "La Señal Silenciosa",
+          "content": "Durante una discusión ruidosa sobre atención plena, una nota breve al margen reveló el problema real.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_242_de",
+          "title": "Das Leise Signal",
+          "content": "Während einer lauten Diskussion über achtsamkeit enthüllte eine kurze Randnotiz das eigentliche Problem.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_242_it",
+          "title": "Il Segnale Silenzioso",
+          "content": "Durante una discussione rumorosa su consapevolezza, una breve nota a margine rivelò il problema vero.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_242_ru",
+          "title": "Тихий сигнал",
+          "content": "Во время громкого обсуждения осознанность короткая пометка на полях показала настоящую проблему.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_242_id",
+          "title": "Sinyal yang Tenang",
+          "content": "Saat diskusi ramai tentang kesadaran, catatan singkat di pinggir mengungkap masalah sebenarnya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_242_ja",
+          "title": "静かな合図",
+          "content": "マインドフルネスについての騒がしい議論の中で、欄外の短いメモが本当の問題を示した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_242_th",
+          "title": "สัญญาณที่เงียบ",
+          "content": "ระหว่างการถกเถียงที่ดังเกี่ยวกับ สติ โน้ตสั้นๆ ข้างขอบเผยปัญหาที่แท้จริง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_242_ms",
+          "title": "Isyarat Senyap",
+          "content": "Semasa perbincangan bising tentang kesedaran, nota ringkas di tepi mendedahkan isu sebenar.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_243",
+      "type": "quote",
+      "texts": {
+        "en": "Choose the version of mindfulness that still makes sense in a year.",
+        "tr": "farkındalık için bir yıl sonra da anlamlı olacak olanı seç.",
+        "fr": "Choisis la version de pleine conscience qui aura encore du sens dans un an.",
+        "pt": "Escolha a versão de atenção plena que ainda fará sentido daqui a um ano.",
+        "nl": "Kies de versie van mindfulness die over een jaar nog logisch is.",
+        "es": "Elige la versión de atención plena que siga teniendo sentido dentro de un año.",
+        "de": "Wähle die Version von achtsamkeit, die in einem Jahr noch Sinn ergibt.",
+        "it": "Scegli la versione di consapevolezza che avrà ancora senso tra un anno.",
+        "ru": "Выбирай версию осознанность, которая будет иметь смысл и через год.",
+        "id": "Pilih versi kesadaran yang masih masuk akal setahun lagi.",
+        "ja": "マインドフルネスは、一年後も意味がある方を選ぶ。",
+        "th": "เลือกเวอร์ชันของ สติ ที่อีกหนึ่งปียังมีความหมาย",
+        "ms": "Pilih versi kesedaran yang masih masuk akal setahun lagi."
+      },
+      "authors": {
+        "en": "Adapted from Audre Lorde",
+        "tr": "Audre Lorde'dan uyarlanmıştır",
+        "fr": "Adapté de Audre Lorde",
+        "pt": "Adaptado de Audre Lorde",
+        "nl": "Aangepast van Audre Lorde",
+        "es": "Adaptado de Audre Lorde",
+        "de": "Angelehnt an Audre Lorde",
+        "it": "Adattato da Audre Lorde",
+        "ru": "Адаптировано: Одри Лорд",
+        "id": "Diadaptasi dari Audre Lorde",
+        "ja": "オードリー・ロードをもとに",
+        "th": "ดัดแปลงจาก ออดรี ลอร์ด",
+        "ms": "Diadaptasi daripada Audre Lorde"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_243_en",
+          "title": "Long View",
+          "content": "She skipped the flashy shortcut and built a simple base; months later it held.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_243_tr",
+          "title": "Uzun Ufuk",
+          "content": "Göz alıcı kestirmeyi pas geçip basit bir temel kurdu; aylar sonra hâlâ ayaktaydı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_243_fr",
+          "title": "La Longue Vue",
+          "content": "Elle a évité le raccourci brillant et a bâti une base simple; des mois plus tard, elle tenait.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_243_pt",
+          "title": "Visão Longa",
+          "content": "Ela pulou o atalho chamativo e construiu uma base simples; meses depois, ela sustentava tudo.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_243_nl",
+          "title": "Lange Blik",
+          "content": "Ze sloeg de flitsende shortcut over en bouwde een eenvoudige basis; maanden later hield die stand.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_243_es",
+          "title": "Visión Larga",
+          "content": "Saltó el atajo llamativo y construyó una base simple; meses después, seguía firme.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_243_de",
+          "title": "Langer Blick",
+          "content": "Sie ließ die glänzende Abkürzung aus und baute ein einfaches Fundament; Monate später hielt es.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_243_it",
+          "title": "Sguardo Lungo",
+          "content": "Saltò la scorciatoia brillante e costruì una base semplice; mesi dopo, reggeva.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_243_ru",
+          "title": "Долгий взгляд",
+          "content": "Она пропустила эффектную короткую дорогу и построила простую основу; через месяцы она держалась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_243_id",
+          "title": "Pandangan Jauh",
+          "content": "Ia melewatkan jalan pintas yang mencolok dan membangun dasar yang sederhana; beberapa bulan kemudian dasar itu kokoh.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_243_ja",
+          "title": "長い視点",
+          "content": "派手な近道を避け、シンプルな土台を作った。数か月後もそれは持ちこたえた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_243_th",
+          "title": "มุมมองระยะยาว",
+          "content": "เธอข้ามทางลัดที่ดูหวือหวาแล้วสร้างฐานที่เรียบง่าย หลายเดือนต่อมาก็ยังยืนอยู่ได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_243_ms",
+          "title": "Pandangan Jauh",
+          "content": "Dia melangkau jalan pintas yang menarik dan membina asas yang sederhana; beberapa bulan kemudian ia masih kukuh.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_244",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness grows at the edge where comfort meets curiosity.",
+        "tr": "farkındalık, konforla merakın buluştuğu eşikte büyür.",
+        "fr": "pleine conscience grandit au bord où le confort rencontre la curiosité.",
+        "pt": "atenção plena cresce na borda onde o conforto encontra a curiosidade.",
+        "nl": "mindfulness groeit aan de rand waar comfort en nieuwsgierigheid elkaar ontmoeten.",
+        "es": "atención plena crece en el borde donde la comodidad se encuentra con la curiosidad.",
+        "de": "achtsamkeit wächst am Rand, wo Komfort auf Neugier trifft.",
+        "it": "consapevolezza cresce sul bordo dove il comfort incontra la curiosità.",
+        "ru": "осознанность растёт на границе, где комфорт встречает любопытство.",
+        "id": "kesadaran tumbuh di tepi tempat kenyamanan bertemu rasa ingin tahu.",
+        "ja": "マインドフルネスは、快適さと好奇心が出会う縁で育つ。",
+        "th": "สติ เติบโตที่ขอบซึ่งความสบายพบกับความใฝ่รู้",
+        "ms": "kesedaran berkembang di tepi tempat keselesaan bertemu rasa ingin tahu."
+      },
+      "authors": {
+        "en": "Adapted from Toni Morrison",
+        "tr": "Toni Morrison'dan uyarlanmıştır",
+        "fr": "Adapté de Toni Morrison",
+        "pt": "Adaptado de Toni Morrison",
+        "nl": "Aangepast van Toni Morrison",
+        "es": "Adaptado de Toni Morrison",
+        "de": "Angelehnt an Toni Morrison",
+        "it": "Adattato da Toni Morrison",
+        "ru": "Адаптировано: Тони Моррисон",
+        "id": "Diadaptasi dari Toni Morrison",
+        "ja": "トニ・モリスンをもとに",
+        "th": "ดัดแปลงจาก โทนี มอร์ริสัน",
+        "ms": "Diadaptasi daripada Toni Morrison"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_244_en",
+          "title": "Edge of Comfort",
+          "content": "He tried the smaller scary step and felt room to breathe.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_244_tr",
+          "title": "Konforun Eşiği",
+          "content": "Daha küçük ama ürküten adımı denedi ve nefes alacak alan buldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_244_fr",
+          "title": "Le Bord du Confort",
+          "content": "Il a tenté le plus petit pas effrayant et a senti de l’espace pour respirer.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_244_pt",
+          "title": "A Borda do Conforto",
+          "content": "Ele tentou o passo menor e assustador e sentiu espaço para respirar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_244_nl",
+          "title": "De Rand van Comfort",
+          "content": "Hij probeerde de kleinere, enge stap en voelde ruimte om te ademen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_244_es",
+          "title": "El Borde de la Comodidad",
+          "content": "Probó el paso más pequeño y temible y sintió espacio para respirar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_244_de",
+          "title": "Der Rand der Bequemlichkeit",
+          "content": "Er versuchte den kleineren, beängstigenden Schritt und spürte wieder Raum zum Atmen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_244_it",
+          "title": "Il Bordo del Comfort",
+          "content": "Provò il passo più piccolo e spaventoso e sentì spazio per respirare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_244_ru",
+          "title": "Край комфорта",
+          "content": "Он попробовал меньший пугающий шаг и почувствовал место для дыхания.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_244_id",
+          "title": "Tepi Kenyamanan",
+          "content": "Ia mencoba langkah kecil yang menakutkan dan merasa punya ruang untuk bernapas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_244_ja",
+          "title": "快適さの縁",
+          "content": "小さくて怖い一歩を試し、息ができる余白を感じた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_244_th",
+          "title": "ขอบของความสบาย",
+          "content": "เขาลองก้าวเล็กๆ ที่น่ากลัว แล้วรู้สึกว่ามีที่ให้หายใจ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_244_ms",
+          "title": "Tepi Keselesaan",
+          "content": "Dia mencuba langkah kecil yang menakutkan dan terasa ada ruang untuk bernafas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_245",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness brightens when you pass it on.",
+        "tr": "farkındalık, paylaştıkça aydınlanır.",
+        "fr": "pleine conscience s’éclaire quand tu le transmets.",
+        "pt": "atenção plena ilumina quando você passa adiante.",
+        "nl": "mindfulness wordt helderder als je het doorgeeft.",
+        "es": "atención plena se ilumina cuando lo compartes.",
+        "de": "achtsamkeit wird heller, wenn du es weitergibst.",
+        "it": "consapevolezza si illumina quando lo trasmetti.",
+        "ru": "осознанность светлеет, когда ты передаёшь его дальше.",
+        "id": "kesadaran menjadi lebih terang ketika kamu membagikannya.",
+        "ja": "マインドフルネスは、渡すときに明るくなる。",
+        "th": "สติ สว่างขึ้นเมื่อคุณส่งต่อ",
+        "ms": "kesedaran menjadi lebih terang apabila anda berkongsi."
+      },
+      "authors": {
+        "en": "Adapted from Jane Austen",
+        "tr": "Jane Austen'dan uyarlanmıştır",
+        "fr": "Adapté de Jane Austen",
+        "pt": "Adaptado de Jane Austen",
+        "nl": "Aangepast van Jane Austen",
+        "es": "Adaptado de Jane Austen",
+        "de": "Angelehnt an Jane Austen",
+        "it": "Adattato da Jane Austen",
+        "ru": "Адаптировано: Джейн Остин",
+        "id": "Diadaptasi dari Jane Austen",
+        "ja": "ジェーン・オースティンをもとに",
+        "th": "ดัดแปลงจาก เจน ออสเตน",
+        "ms": "Diadaptasi daripada Jane Austen"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_245_en",
+          "title": "Shared Light",
+          "content": "She taught a teammate a small trick; their progress doubled and hers did too.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_245_tr",
+          "title": "Paylaşılan Işık",
+          "content": "Bir ekip arkadaşına küçük bir püf öğretti; ilerlemeleri ikiye katlandı, onunkisi de öyle.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_245_fr",
+          "title": "Lumière Partagée",
+          "content": "Elle a montré un petit truc à une coéquipière ; leur progression a doublé, la sienne aussi.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_245_pt",
+          "title": "Luz Compartilhada",
+          "content": "Ela ensinou um pequeno truque a uma colega; o progresso delas dobrou, o dela também.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_245_nl",
+          "title": "Gedeeld Licht",
+          "content": "Ze leerde een teamgenoot een kleine truc; hun vooruitgang verdubbelde en die van haar ook.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_245_es",
+          "title": "Luz Compartida",
+          "content": "Le enseñó a una compañera un pequeño truco; su progreso se duplicó y el de ella también.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_245_de",
+          "title": "Geteiltes Licht",
+          "content": "Sie zeigte einem Teammitglied einen kleinen Trick; ihr Fortschritt verdoppelte sich und ihrer auch.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_245_it",
+          "title": "Luce Condivisa",
+          "content": "Insegnò a una collega un piccolo trucco; i loro progressi raddoppiarono, anche i suoi.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_245_ru",
+          "title": "Общий свет",
+          "content": "Она показала коллеге маленький приём; их прогресс удвоился, и её тоже.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_245_id",
+          "title": "Cahaya yang Dibagikan",
+          "content": "Ia mengajarkan trik kecil kepada rekan; kemajuan mereka berlipat dua, begitu juga miliknya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_245_ja",
+          "title": "分け合う光",
+          "content": "同僚に小さなコツを教えたら、相手の進歩が二倍になり、自分もそうなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_245_th",
+          "title": "แสงที่แบ่งปัน",
+          "content": "เธอสอนทริกเล็กๆ ให้เพื่อนร่วมทีม ความก้าวหน้าของทั้งคู่เพิ่มเป็นสองเท่า รวมถึงของเธอด้วย",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_245_ms",
+          "title": "Cahaya Berkongsi",
+          "content": "Dia mengajar rakan sepasukan satu helah kecil; kemajuan mereka berganda, begitu juga miliknya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_246",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, returning is part of the path, not a failure.",
+        "tr": "farkındalık içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
+        "fr": "En pleine conscience, revenir fait partie du chemin, pas d’un échec.",
+        "pt": "Em atenção plena, voltar faz parte do caminho, não é fracasso.",
+        "nl": "Bij mindfulness is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "En atención plena, volver es parte del camino, no un fracaso.",
+        "de": "Bei achtsamkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "In consapevolezza, tornare fa parte del percorso, non è un fallimento.",
+        "ru": "Когда есть осознанность, возвращение — часть пути, а не провал.",
+        "id": "Dalam kesadaran, kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "マインドフルネスでは、戻ることも道の一部で、失敗ではない。",
+        "th": "ใน สติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Dalam kesedaran, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+      },
+      "authors": {
+        "en": "Adapted from Nelson Mandela",
+        "tr": "Nelson Mandela'dan uyarlanmıştır",
+        "fr": "Adapté de Nelson Mandela",
+        "pt": "Adaptado de Nelson Mandela",
+        "nl": "Aangepast van Nelson Mandela",
+        "es": "Adaptado de Nelson Mandela",
+        "de": "Angelehnt an Nelson Mandela",
+        "it": "Adattato da Nelson Mandela",
+        "ru": "Адаптировано: Нельсон Мандела",
+        "id": "Diadaptasi dari Nelson Mandela",
+        "ja": "ネルソン・マンデラをもとに",
+        "th": "ดัดแปลงจาก เนลสัน แมนเดลา",
+        "ms": "Diadaptasi daripada Nelson Mandela"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_246_en",
+          "title": "The Return",
+          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_246_tr",
+          "title": "Dönüş",
+          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_246_fr",
+          "title": "Le Retour",
+          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_246_pt",
+          "title": "O Retorno",
+          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_246_nl",
+          "title": "De Terugkeer",
+          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_246_es",
+          "title": "El Regreso",
+          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_246_de",
+          "title": "Die Rückkehr",
+          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_246_it",
+          "title": "Il Ritorno",
+          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_246_ru",
+          "title": "Возвращение",
+          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_246_id",
+          "title": "Kembali",
+          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_246_ja",
+          "title": "戻ること",
+          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_246_th",
+          "title": "การกลับมา",
+          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_246_ms",
+          "title": "Kembali",
+          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_247",
+      "type": "quote",
+      "texts": {
+        "en": "Name what mindfulness really is, and it becomes workable.",
+        "tr": "farkındalık aslında neyse onu adlandır; o zaman uygulanabilir olur.",
+        "fr": "Nomme ce qu’est vraiment pleine conscience, et cela devient praticable.",
+        "pt": "Nomeie o que atenção plena realmente é, e isso se torna viável.",
+        "nl": "Noem wat mindfulness echt is, en het wordt werkbaar.",
+        "es": "Nombra lo que atención plena realmente es, y se vuelve viable.",
+        "de": "Benenne, was achtsamkeit wirklich ist, dann wird es machbar.",
+        "it": "Dai un nome chiaro a ciò che consapevolezza è davvero, e diventa praticabile.",
+        "ru": "Назови, чем на самом деле является осознанность, и это станет выполнимым.",
+        "id": "Namai apa itu kesadaran sebenarnya, dan itu menjadi bisa dikerjakan.",
+        "ja": "マインドフルネスが本当は何なのかを名づけると、扱えるようになる。",
+        "th": "ตั้งชื่อให้ชัดว่า สติ คืออะไร แล้วมันจะจัดการได้",
+        "ms": "Namakan apa itu kesedaran sebenarnya, dan ia menjadi boleh diusahakan."
+      },
+      "authors": {
+        "en": "Adapted from Rabindranath Tagore",
+        "tr": "Rabindranath Tagore'dan uyarlanmıştır",
+        "fr": "Adapté de Rabindranath Tagore",
+        "pt": "Adaptado de Rabindranath Tagore",
+        "nl": "Aangepast van Rabindranath Tagore",
+        "es": "Adaptado de Rabindranath Tagore",
+        "de": "Angelehnt an Rabindranath Tagore",
+        "it": "Adattato da Rabindranath Tagore",
+        "ru": "Адаптировано: Рабиндранат Тагор",
+        "id": "Diadaptasi dari Rabindranath Tagore",
+        "ja": "ラビンドラナート・タゴールをもとに",
+        "th": "ดัดแปลงจาก รพินทรนาถ ฐากูร",
+        "ms": "Diadaptasi daripada Rabindranath Tagore"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_247_en",
+          "title": "Name It Clearly",
+          "content": "She replaced “overwhelmed” with “three tasks,” and started.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_247_tr",
+          "title": "Netçe Adlandır",
+          "content": "“Bunaldım”ı “üç görev”e çevirdi ve başladı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_247_fr",
+          "title": "Nomme-le Clairement",
+          "content": "Elle a remplacé « débordée » par « trois tâches » et a commencé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_247_pt",
+          "title": "Nomeie com Clareza",
+          "content": "Ela trocou “sobrecarregada” por “três tarefas” e começou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_247_nl",
+          "title": "Noem het Helder",
+          "content": "Ze verving “overweldigd” door “drie taken” en begon.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_247_es",
+          "title": "Nómbralo Claro",
+          "content": "Reemplazó “abrumada” por “tres tareas” y empezó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_247_de",
+          "title": "Nenne es Klar",
+          "content": "Sie ersetzte „überfordert“ durch „drei Aufgaben“ und begann.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_247_it",
+          "title": "Dagli un Nome Chiaro",
+          "content": "Sostituì “sopraffatta” con “tre compiti” e iniziò.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_247_ru",
+          "title": "Назови ясно",
+          "content": "Она заменила «перегружена» на «три задачи» и начала.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_247_id",
+          "title": "Beri Nama dengan Jelas",
+          "content": "Ia mengganti “kewalahan” dengan “tiga tugas” dan mulai.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_247_ja",
+          "title": "はっきり名づける",
+          "content": "「圧倒されている」を「3つのタスク」に置き換えて、動き出した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_247_th",
+          "title": "ตั้งชื่อให้ชัด",
+          "content": "เธอแทนคำว่า “ล้นมือ” ด้วย “สามงาน” แล้วเริ่มลงมือ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_247_ms",
+          "title": "Namakan dengan Jelas",
+          "content": "Dia menggantikan “terbeban” dengan “tiga tugasan” dan mula.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_248",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, the first version can be rough; the second is where the truth appears.",
+        "tr": "farkındalık konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Dans pleine conscience, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
+        "pt": "Em atenção plena, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "In mindfulness kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "En atención plena, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "In achtsamkeit kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
+        "it": "In consapevolezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "осознанность иногда начинается сыро; во второй версии проявляется истина.",
+        "id": "Dalam kesadaran, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "マインドフルネスでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "ในสติ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Dalam kesedaran, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+      },
+      "authors": {
+        "en": "Adapted from Simone de Beauvoir",
+        "tr": "Simone de Beauvoir'dan uyarlanmıştır",
+        "fr": "Adapté de Simone de Beauvoir",
+        "pt": "Adaptado de Simone de Beauvoir",
+        "nl": "Aangepast van Simone de Beauvoir",
+        "es": "Adaptado de Simone de Beauvoir",
+        "de": "Angelehnt an Simone de Beauvoir",
+        "it": "Adattato da Simone de Beauvoir",
+        "ru": "Адаптировано: Симона де Бовуар",
+        "id": "Diadaptasi dari Simone de Beauvoir",
+        "ja": "シモーヌ・ド・ボーヴォワールをもとに",
+        "th": "ดัดแปลงจาก ซิโมน เดอ โบวัวร์",
+        "ms": "Diadaptasi daripada Simone de Beauvoir"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_248_en",
+          "title": "The Second Draft",
+          "content": "She sketched a messy plan for mindfulness, slept on it, and woke to one clean line that finally fit.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_248_tr",
+          "title": "İkinci Taslak",
+          "content": "farkındalık için dağınık bir plan çizdi, üstüne uyudu ve sabah tek bir net satırla uyandı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_248_fr",
+          "title": "Le Deuxième Brouillon",
+          "content": "Elle a griffonné un plan brouillon pour pleine conscience, a dormi dessus, puis s'est réveillée avec une ligne claire qui tombait juste.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_248_pt",
+          "title": "O Segundo Rascunho",
+          "content": "Ela rabiscou um plano confuso para atenção plena, dormiu sobre isso e acordou com uma linha clara que enfim encaixou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_248_nl",
+          "title": "De Tweede Versie",
+          "content": "Ze schetste een rommelig plan voor mindfulness, sliep er een nacht over en werd wakker met één heldere regel die eindelijk klopte.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_248_es",
+          "title": "El Segundo Borrador",
+          "content": "Bosquejó un plan desordenado para atención plena, durmió sobre ello y despertó con una sola línea clara que por fin encajaba.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_248_de",
+          "title": "Die Zweite Fassung",
+          "content": "Sie skizzierte einen wirren Plan für achtsamkeit, schlief eine Nacht darüber und wachte mit einer klaren Zeile auf, die endlich passte.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_248_it",
+          "title": "La Seconda Bozza",
+          "content": "Ha abbozzato un piano confuso per consapevolezza, ci ha dormito sopra e si è svegliata con una linea chiara che finalmente funzionava.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_248_ru",
+          "title": "Второй Черновик",
+          "content": "Она набросала сумбурный план для осознанность, переночевала с ним и проснулась с одной ясной строкой, которая наконец совпала.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_248_id",
+          "title": "Draf Kedua",
+          "content": "Dia membuat sketsa rencana berantakan untuk kesadaran, tidur dulu, lalu bangun dengan satu baris jelas yang akhirnya pas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_248_ja",
+          "title": "二つ目の草案",
+          "content": "マインドフルネスのために雑な計画を描いて寝かせ、朝にはようやく合う一本の線が浮かんだ。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_248_th",
+          "title": "ร่างที่สอง",
+          "content": "เธอร่างแผนที่ยุ่งเหยิงสำหรับสติ นอนทับมันหนึ่งคืน แล้วตื่นมาพร้อมบรรทัดที่ชัดเจนเส้นเดียวซึ่งลงตัวพอดี",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_248_ms",
+          "title": "Draf Kedua",
+          "content": "Dia melakar pelan yang berserabut untuk kesedaran, tidur sejenak, lalu bangun dengan satu baris yang jelas dan akhirnya tepat.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_249",
+      "type": "quote",
+      "texts": {
+        "en": "Measure mindfulness with one honest metric, not a dozen loud ones.",
+        "tr": "farkındalık için tek bir dürüst ölçüt kullan; bir düzine gürültülü ölçüt değil.",
+        "fr": "Mesure pleine conscience avec une seule mesure honnête, pas avec une douzaine de mesures bruyantes.",
+        "pt": "Meça atenção plena com uma métrica honesta, não com uma dúzia barulhenta.",
+        "nl": "Meet mindfulness met één eerlijke maatstaf, niet met een dozijn luidruchtige.",
+        "es": "Mide atención plena con una métrica honesta, no con una docena ruidosa.",
+        "de": "Miss achtsamkeit mit einer ehrlichen Kennzahl, nicht mit einem Dutzend lauter.",
+        "it": "Misura consapevolezza con una metrica onesta, non con una dozzina rumorosa.",
+        "ru": "Измеряй осознанность одним честным показателем, а не десятком шумных.",
+        "id": "Ukur kesadaran dengan satu ukuran yang jujur, bukan selusin yang bising.",
+        "ja": "マインドフルネスは、にぎやかな指標を十も並べず、正直な一つで測る。",
+        "th": "วัดสติด้วยตัวชี้วัดที่ซื่อสัตย์เพียงหนึ่ง ไม่ใช่ตัวชี้วัดที่ดังเป็นโหล",
+        "ms": "Ukur kesedaran dengan satu ukuran yang jujur, bukan berderet ukuran yang bising."
+      },
+      "authors": {
+        "en": "Adapted from Albert Camus",
+        "tr": "Albert Camus'dan uyarlanmıştır",
+        "fr": "Adapté de Albert Camus",
+        "pt": "Adaptado de Albert Camus",
+        "nl": "Aangepast van Albert Camus",
+        "es": "Adaptado de Albert Camus",
+        "de": "Angelehnt an Albert Camus",
+        "it": "Adattato da Albert Camus",
+        "ru": "Адаптировано: Альбер Камю",
+        "id": "Diadaptasi dari Albert Camus",
+        "ja": "アルベール・カミュをもとに",
+        "th": "ดัดแปลงจาก อัลแบร์ กามู",
+        "ms": "Diadaptasi daripada Albert Camus"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_249_en",
+          "title": "One Honest Metric",
+          "content": "He stopped tracking ten dashboards in mindfulness and watched a single number; the noise fell away.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_249_tr",
+          "title": "Tek Bir Dürüst Ölçüt",
+          "content": "farkındalık içinde on göstergeyi takip etmeyi bırakıp tek bir sayıya baktı; gürültü kayboldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_249_fr",
+          "title": "Une Seule Mesure Honnête",
+          "content": "Il a cessé de suivre dix tableaux pour pleine conscience et a regardé un seul chiffre; le bruit a disparu.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_249_pt",
+          "title": "Uma Métrica Honesta",
+          "content": "Ele parou de acompanhar dez painéis em atenção plena e observou um único número; o ruído sumiu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_249_nl",
+          "title": "Eén Eerlijke Maatstaf",
+          "content": "Hij stopte met tien dashboards in mindfulness en keek naar één cijfer; de ruis viel weg.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_249_es",
+          "title": "Una Métrica Honesta",
+          "content": "Dejó de seguir diez paneles en atención plena y miró un solo número; el ruido se fue.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_249_de",
+          "title": "Eine Ehrliche Kennzahl",
+          "content": "Er hörte auf, zehn Dashboards in achtsamkeit zu verfolgen, und schaute auf eine einzige Zahl; der Lärm verschwand.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_249_it",
+          "title": "Un'Unica Metrica Onesta",
+          "content": "Ha smesso di seguire dieci dashboard in consapevolezza e ha guardato un solo numero; il rumore è svanito.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_249_ru",
+          "title": "Один Честный Показатель",
+          "content": "Он перестал следить за десятком панелей в осознанность и смотрел на одну цифру; шум исчез.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_249_id",
+          "title": "Satu Ukuran Jujur",
+          "content": "Ia berhenti melacak sepuluh dasbor di kesadaran dan memperhatikan satu angka; kebisingan menghilang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_249_ja",
+          "title": "正直な一つの指標",
+          "content": "マインドフルネスのダッシュボードを十個追うのをやめ、たった一つの数字を見ると、雑音が消えた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_249_th",
+          "title": "ตัวชี้วัดที่ซื่อสัตย์หนึ่งเดียว",
+          "content": "เขาเลิกไล่ดูแดชบอร์ดสิบอันในสติ แล้วมองแค่ตัวเลขเดียว; ความวุ่นวายก็หายไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_249_ms",
+          "title": "Satu Ukuran Jujur",
+          "content": "Dia berhenti menjejak sepuluh papan pemuka dalam kesedaran dan menumpu pada satu nombor; bisingnya hilang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_250",
+      "type": "quote",
+      "texts": {
+        "en": "When mindfulness feels heavy, borrow calm from the next small action.",
+        "tr": "farkındalık ağır geldiğinde, sakinliği bir sonraki küçük adımdan ödünç al.",
+        "fr": "Quand pleine conscience pèse lourd, emprunte du calme au prochain petit geste.",
+        "pt": "Quando atenção plena pesa, pegue calma emprestada da próxima pequena ação.",
+        "nl": "Als mindfulness zwaar voelt, leen rust van de volgende kleine stap.",
+        "es": "Cuando atención plena pesa, toma prestada calma del siguiente pequeño paso.",
+        "de": "Wenn achtsamkeit schwer wirkt, leihe dir Ruhe vom nächsten kleinen Schritt.",
+        "it": "Quando consapevolezza pesa, prendi in prestito calma dal prossimo piccolo gesto.",
+        "ru": "Когда осознанность кажется тяжёлым, одолжи спокойствие у следующего малого шага.",
+        "id": "Saat kesadaran terasa berat, pinjam ketenangan dari langkah kecil berikutnya.",
+        "ja": "マインドフルネスが重く感じるときは、次の小さな行動から落ち着きを借りる。",
+        "th": "เมื่อสติรู้สึกหนัก ให้ยืมความสงบจากก้าวเล็กถัดไป",
+        "ms": "Apabila kesedaran terasa berat, pinjam ketenangan daripada langkah kecil seterusnya."
+      },
+      "authors": {
+        "en": "Adapted from Mary Oliver",
+        "tr": "Mary Oliver'dan uyarlanmıştır",
+        "fr": "Adapté de Mary Oliver",
+        "pt": "Adaptado de Mary Oliver",
+        "nl": "Aangepast van Mary Oliver",
+        "es": "Adaptado de Mary Oliver",
+        "de": "Angelehnt an Mary Oliver",
+        "it": "Adattato da Mary Oliver",
+        "ru": "Адаптировано: Мэри Оливер",
+        "id": "Diadaptasi dari Mary Oliver",
+        "ja": "メアリー・オリヴァーをもとに",
+        "th": "ดัดแปลงจาก แมรี โอลิเวอร์",
+        "ms": "Diadaptasi daripada Mary Oliver"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_250_en",
+          "title": "Borrowed Calm",
+          "content": "The mindfulness list felt heavy, so she chose one small action and felt the weight lift.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_250_tr",
+          "title": "Ödünç Sakinlik",
+          "content": "farkındalık listesi ağır gelince, tek bir küçük adım seçti ve yükün hafiflediğini hissetti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_250_fr",
+          "title": "Un Calme Emprunté",
+          "content": "La liste de pleine conscience lui pesait, alors elle a choisi un petit geste et le poids s'est allégé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_250_pt",
+          "title": "Calma Emprestada",
+          "content": "A lista de atenção plena pesou, então ela escolheu uma pequena ação e sentiu o peso aliviar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_250_nl",
+          "title": "Geleende Rust",
+          "content": "De mindfulness-lijst voelde zwaar, dus koos ze één kleine stap en voelde het gewicht lichter worden.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_250_es",
+          "title": "Calma Prestada",
+          "content": "La lista de atención plena pesaba, así que eligió una pequeña acción y sintió que el peso bajaba.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_250_de",
+          "title": "Geliehene Ruhe",
+          "content": "Die achtsamkeit-Liste fühlte sich schwer an, also wählte sie einen kleinen Schritt und spürte, wie das Gewicht nachließ.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_250_it",
+          "title": "Calma Presa in Prestito",
+          "content": "La lista di consapevolezza le pesava, così ha scelto un piccolo gesto e ha sentito il peso alleggerirsi.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_250_ru",
+          "title": "Заимствованное Спокойствие",
+          "content": "Список осознанность давил, и она выбрала один маленький шаг — тяжесть отпустила.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_250_id",
+          "title": "Tenang yang Dipinjam",
+          "content": "Daftar kesadaran terasa berat, jadi ia memilih satu tindakan kecil dan merasakan bebannya berkurang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_250_ja",
+          "title": "借りた落ち着き",
+          "content": "マインドフルネスのリストが重く感じたので、小さな一歩を選ぶと重さがすっと軽くなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_250_th",
+          "title": "ความสงบที่ยืมมา",
+          "content": "รายการสติหนักจนรู้สึกอึดอัด เธอจึงเลือกก้าวเล็ก ๆ หนึ่งก้าว แล้วความหนักก็เบาลง",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_250_ms",
+          "title": "Ketenangan Dipinjam",
+          "content": "Senarai kesedaran terasa berat, jadi dia memilih satu tindakan kecil dan merasakan bebannya berkurang.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_251",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness moves faster when your grip is open.",
+        "tr": "farkındalık, elin gevşekken daha hızlı ilerler.",
+        "fr": "pleine conscience avance plus vite quand la prise est ouverte.",
+        "pt": "atenção plena anda mais rápido quando o aperto é aberto.",
+        "nl": "mindfulness gaat sneller als je grip open is.",
+        "es": "atención plena avanza más rápido cuando el agarre está abierto.",
+        "de": "achtsamkeit kommt schneller voran, wenn dein Griff offen ist.",
+        "it": "consapevolezza procede più veloce quando la presa è aperta.",
+        "ru": "осознанность движется быстрее, когда хватка открыта.",
+        "id": "kesadaran melaju lebih cepat saat genggamanmu terbuka.",
+        "ja": "マインドフルネスは、握りが開いているときに進みが速い。",
+        "th": "สติเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
+        "ms": "kesedaran bergerak lebih laju apabila genggamanmu terbuka."
+      },
+      "authors": {
+        "en": "Adapted from Hermann Hesse",
+        "tr": "Hermann Hesse'dan uyarlanmıştır",
+        "fr": "Adapté de Hermann Hesse",
+        "pt": "Adaptado de Hermann Hesse",
+        "nl": "Aangepast van Hermann Hesse",
+        "es": "Adaptado de Hermann Hesse",
+        "de": "Angelehnt an Hermann Hesse",
+        "it": "Adattato da Hermann Hesse",
+        "ru": "Адаптировано: Герман Гессе",
+        "id": "Diadaptasi dari Hermann Hesse",
+        "ja": "ヘルマン・ヘッセをもとに",
+        "th": "ดัดแปลงจาก แฮร์มันน์ เฮสเส",
+        "ms": "Diadaptasi daripada Hermann Hesse"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_251_en",
+          "title": "Open Hand",
+          "content": "When he loosened his grip on the mindfulness schedule, a better solution walked in.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_251_tr",
+          "title": "Açık El",
+          "content": "farkındalık takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_251_fr",
+          "title": "La Main Ouverte",
+          "content": "Quand il a relâché sa prise sur le calendrier de pleine conscience, une meilleure solution est entrée.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_251_pt",
+          "title": "Mão Aberta",
+          "content": "Quando ele afrouxou o aperto no cronograma de atenção plena, uma solução melhor apareceu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_251_nl",
+          "title": "Open Hand",
+          "content": "Toen hij zijn greep op het mindfulness-schema losliet, kwam een betere oplossing binnen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_251_es",
+          "title": "Mano Abierta",
+          "content": "Cuando aflojó su agarre al horario de atención plena, entró una solución mejor.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_251_de",
+          "title": "Offene Hand",
+          "content": "Als er seinen Griff am achtsamkeit-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_251_it",
+          "title": "Mano Aperta",
+          "content": "Quando ha allentato la presa sul programma di consapevolezza, è arrivata una soluzione migliore.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_251_ru",
+          "title": "Открытая Ладонь",
+          "content": "Когда он ослабил хватку на расписании осознанность, вошло лучшее решение.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_251_id",
+          "title": "Tangan Terbuka",
+          "content": "Saat ia melonggarkan genggaman pada jadwal kesadaran, solusi yang lebih baik pun datang.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_251_ja",
+          "title": "開いた手",
+          "content": "マインドフルネスの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_251_th",
+          "title": "มือที่เปิดออก",
+          "content": "เมื่อเขาคลายการยึดตารางสติ ทางออกที่ดีกว่าก็เข้ามา",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_251_ms",
+          "title": "Tangan Terbuka",
+          "content": "Apabila dia melonggarkan genggaman pada jadual kesedaran, penyelesaian yang lebih baik pun muncul.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_252",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, the quiet signal is often the true one.",
+        "tr": "farkındalık içinde sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Dans pleine conscience, le signal discret est souvent le vrai.",
+        "pt": "Em atenção plena, o sinal quieto costuma ser o verdadeiro.",
+        "nl": "In mindfulness is het stille signaal vaak het echte.",
+        "es": "En atención plena, la señal silenciosa suele ser la verdadera.",
+        "de": "In achtsamkeit ist das leise Signal oft das wahre.",
+        "it": "In consapevolezza, il segnale silenzioso è spesso quello vero.",
+        "ru": "В осознанность тихий сигнал часто оказывается настоящим.",
+        "id": "Dalam kesadaran, sinyal yang sunyi sering kali yang benar.",
+        "ja": "マインドフルネスでは、静かな合図が本当であることが多い。",
+        "th": "ในสติ สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Dalam kesedaran, isyarat yang sunyi selalunya yang benar."
+      },
+      "authors": {
+        "en": "Adapted from Ursula K. Le Guin",
+        "tr": "Ursula K. Le Guin'dan uyarlanmıştır",
+        "fr": "Adapté de Ursula K. Le Guin",
+        "pt": "Adaptado de Ursula K. Le Guin",
+        "nl": "Aangepast van Ursula K. Le Guin",
+        "es": "Adaptado de Ursula K. Le Guin",
+        "de": "Angelehnt an Ursula K. Le Guin",
+        "it": "Adattato da Ursula K. Le Guin",
+        "ru": "Адаптировано: Урсула К. Ле Гуин",
+        "id": "Diadaptasi dari Ursula K. Le Guin",
+        "ja": "アーシュラ・K・ル＝グウィンをもとに",
+        "th": "ดัดแปลงจาก เออร์ซูลา เค. เลอ กวิน",
+        "ms": "Diadaptasi daripada Ursula K. Le Guin"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_252_en",
+          "title": "The Quiet Signal",
+          "content": "Everyone argued about mindfulness, but the margin note solved it.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_252_tr",
+          "title": "Sessiz İşaret",
+          "content": "farkındalık üzerine herkes tartıştı, ama kenar notu işi çözdü.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_252_fr",
+          "title": "Le Signal Silencieux",
+          "content": "Tout le monde discutait de pleine conscience, mais une note en marge a tout réglé.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_252_pt",
+          "title": "O Sinal Silencioso",
+          "content": "Todos discutiam atenção plena, mas uma nota na margem resolveu.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_252_nl",
+          "title": "Het Stille Signaal",
+          "content": "Iedereen discussieerde over mindfulness, maar een kantlijnnotitie loste het op.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_252_es",
+          "title": "La Señal Silenciosa",
+          "content": "Todos discutían atención plena, pero una nota al margen lo resolvió.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_252_de",
+          "title": "Das Leise Signal",
+          "content": "Alle stritten über achtsamkeit, doch eine Randnotiz löste es.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_252_it",
+          "title": "Il Segnale Silenzioso",
+          "content": "Tutti discutevano di consapevolezza, ma una nota a margine ha risolto.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_252_ru",
+          "title": "Тихий Сигнал",
+          "content": "Все спорили о осознанность, но решение было в заметке на полях.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_252_id",
+          "title": "Sinyal yang Sunyi",
+          "content": "Semua orang berdebat tentang kesadaran, tetapi catatan di pinggir menyelesaikannya.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_252_ja",
+          "title": "静かな合図",
+          "content": "マインドフルネスについて皆が議論していたが、余白のメモが解決した。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_252_th",
+          "title": "สัญญาณที่เงียบ",
+          "content": "ทุกคนถกเถียงเรื่องสติ แต่โน้ตเล็ก ๆ ที่ขอบหน้ากระดาษแก้ปัญหาได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_252_ms",
+          "title": "Isyarat Sunyi",
+          "content": "Semua orang berdebat tentang kesedaran, tetapi nota di tepi halaman menyelesaikannya.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_253",
+      "type": "quote",
+      "texts": {
+        "en": "Choose the version of mindfulness that still makes sense in a year.",
+        "tr": "farkındalık için bir yıl sonra hâlâ anlamlı olacak versiyonu seç.",
+        "fr": "Choisis la version de pleine conscience qui aura encore du sens dans un an.",
+        "pt": "Escolha a versão de atenção plena que ainda faça sentido daqui a um ano.",
+        "nl": "Kies de versie van mindfulness die over een jaar nog steeds klopt.",
+        "es": "Elige la versión de atención plena que aún tenga sentido dentro de un año.",
+        "de": "Wähle die Version von achtsamkeit, die in einem Jahr noch Sinn ergibt.",
+        "it": "Scegli la versione di consapevolezza che avrà ancora senso tra un anno.",
+        "ru": "Выбирай версию осознанность, которая будет иметь смысл через год.",
+        "id": "Pilih versi kesadaran yang masih masuk akal setahun lagi.",
+        "ja": "マインドフルネスは、1年後でも筋が通る版を選ぶ。",
+        "th": "เลือกสติแบบที่อีกหนึ่งปียังสมเหตุสมผล",
+        "ms": "Pilih versi kesedaran yang masih masuk akal setahun lagi."
+      },
+      "authors": {
+        "en": "Adapted from Gabriel García Márquez",
+        "tr": "Gabriel García Márquez'dan uyarlanmıştır",
+        "fr": "Adapté de Gabriel García Márquez",
+        "pt": "Adaptado de Gabriel García Márquez",
+        "nl": "Aangepast van Gabriel García Márquez",
+        "es": "Adaptado de Gabriel García Márquez",
+        "de": "Angelehnt an Gabriel García Márquez",
+        "it": "Adattato da Gabriel García Márquez",
+        "ru": "Адаптировано: Габриэль Гарсиа Маркес",
+        "id": "Diadaptasi dari Gabriel García Márquez",
+        "ja": "ガブリエル・ガルシア＝マルケスをもとに",
+        "th": "ดัดแปลงจาก กาเบรียล การ์เซีย มาร์เกซ",
+        "ms": "Diadaptasi daripada Gabriel García Márquez"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_253_en",
+          "title": "Long View",
+          "content": "She skipped the flashy mindfulness shortcut and built the simple base that kept working.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_253_tr",
+          "title": "Uzun Bakış",
+          "content": "Gösterişli farkındalık kestirmesini es geçti ve çalışmaya devam eden sade temeli kurdu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_253_fr",
+          "title": "La Vue Longue",
+          "content": "Elle a évité le raccourci tape-a-l'oeil en pleine conscience et a construit une base simple qui tenait.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_253_pt",
+          "title": "Visão Longa",
+          "content": "Ela evitou o atalho chamativo em atenção plena e construiu a base simples que continuou funcionando.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_253_nl",
+          "title": "De Lange Kijk",
+          "content": "Ze sloeg de flitsende mindfulness-shortcut over en bouwde de eenvoudige basis die bleef werken.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_253_es",
+          "title": "La Mirada Larga",
+          "content": "Se saltó el atajo vistoso en atención plena y construyó la base simple que siguió funcionando.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_253_de",
+          "title": "Der Lange Blick",
+          "content": "Sie ließ die auffällige achtsamkeit-Abkürzung aus und baute die einfache Basis, die weiter funktionierte.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_253_it",
+          "title": "La Visione Lunga",
+          "content": "Ha evitato la scorciatoia appariscente in consapevolezza e ha costruito la base semplice che continuava a funzionare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_253_ru",
+          "title": "Дальний Взгляд",
+          "content": "Она пропустила эффектный осознанность-шорткат и построила простую основу, которая продолжала работать.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_253_id",
+          "title": "Pandangan Jauh",
+          "content": "Ia melewatkan jalan pintas kesadaran yang mencolok dan membangun dasar sederhana yang tetap berfungsi.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_253_ja",
+          "title": "長い視点",
+          "content": "派手なマインドフルネスの近道を避け、長く働くシンプルな土台を作った。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_253_th",
+          "title": "มุมมองระยะยาว",
+          "content": "เธอไม่เลือกทางลัดสติที่ฉูดฉาด แล้วสร้างฐานเรียบง่ายที่ยังใช้ได้ต่อไป",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_253_ms",
+          "title": "Pandangan Jauh",
+          "content": "Dia mengelak jalan pintas kesedaran yang mencolok dan membina asas ringkas yang terus berfungsi.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_254",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness grows at the edge where comfort meets curiosity.",
+        "tr": "farkındalık, konforun merakla buluştuğu sınırda büyür.",
+        "fr": "pleine conscience grandit au bord où le confort rencontre la curiosité.",
+        "pt": "atenção plena cresce na borda onde o conforto encontra a curiosidade.",
+        "nl": "mindfulness groeit aan de rand waar comfort nieuwsgierigheid ontmoet.",
+        "es": "atención plena crece en el borde donde el confort se encuentra con la curiosidad.",
+        "de": "achtsamkeit wächst am Rand, wo Komfort auf Neugier trifft.",
+        "it": "consapevolezza cresce al bordo dove il comfort incontra la curiosità.",
+        "ru": "осознанность растёт на краю, где комфорт встречается с любопытством.",
+        "id": "kesadaran tumbuh di tepi tempat kenyamanan bertemu rasa ingin tahu.",
+        "ja": "マインドフルネスは、安心と好奇心が触れる縁で育つ。",
+        "th": "สติเติบโตที่ขอบซึ่งความสบายพบความอยากรู้",
+        "ms": "kesedaran berkembang di tepi tempat selesa bertemu rasa ingin tahu."
+      },
+      "authors": {
+        "en": "Adapted from Zora Neale Hurston",
+        "tr": "Zora Neale Hurston'dan uyarlanmıştır",
+        "fr": "Adapté de Zora Neale Hurston",
+        "pt": "Adaptado de Zora Neale Hurston",
+        "nl": "Aangepast van Zora Neale Hurston",
+        "es": "Adaptado de Zora Neale Hurston",
+        "de": "Angelehnt an Zora Neale Hurston",
+        "it": "Adattato da Zora Neale Hurston",
+        "ru": "Адаптировано: Зора Нил Хёрстон",
+        "id": "Diadaptasi dari Zora Neale Hurston",
+        "ja": "ゾラ・ニール・ハーストンをもとに",
+        "th": "ดัดแปลงจาก โซรา นีล เฮอร์สตัน",
+        "ms": "Diadaptasi daripada Zora Neale Hurston"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_254_en",
+          "title": "Edge of Comfort",
+          "content": "He tried the smaller, scarier step in mindfulness and found room to breathe.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_254_tr",
+          "title": "Konforun Kenarı",
+          "content": "farkındalık içinde daha küçük ama daha ürkütücü adımı denedi ve nefes alacak alan buldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_254_fr",
+          "title": "Le Bord du Confort",
+          "content": "Il a tenté le petit pas plus effrayant en pleine conscience et a trouvé de l'air.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_254_pt",
+          "title": "A Borda do Conforto",
+          "content": "Ele tentou o passo menor e mais assustador em atenção plena e encontrou espaço para respirar.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_254_nl",
+          "title": "De Rand van Comfort",
+          "content": "Hij probeerde de kleinere, spannendere stap in mindfulness en vond weer ruimte om te ademen.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_254_es",
+          "title": "El Borde del Confort",
+          "content": "Probó el paso más pequeño y más temible en atención plena y encontró espacio para respirar.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_254_de",
+          "title": "Der Rand des Komforts",
+          "content": "Er versuchte den kleineren, angsteinflößenderen Schritt in achtsamkeit und fand Raum zum Atmen.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_254_it",
+          "title": "Il Bordo del Comfort",
+          "content": "Ha provato il passo più piccolo e più spaventoso in consapevolezza e ha trovato spazio per respirare.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_254_ru",
+          "title": "Край Комфорта",
+          "content": "Он сделал в осознанность меньший, но более страшный шаг и нашёл место, чтобы дышать.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_254_id",
+          "title": "Tepi Kenyamanan",
+          "content": "Ia mencoba langkah yang lebih kecil namun lebih menakutkan dalam kesadaran dan menemukan ruang untuk bernapas.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_254_ja",
+          "title": "快適さの縁",
+          "content": "マインドフルネスで小さくて少し怖い一歩を試したら、呼吸できる余白が生まれた。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_254_th",
+          "title": "ขอบของความสบาย",
+          "content": "เขาลองก้าวที่เล็กกว่าแต่ก็น่ากลัวกว่าในสติ แล้วพบพื้นที่ให้หายใจ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_254_ms",
+          "title": "Tepi Selesa",
+          "content": "Dia cuba langkah yang lebih kecil tetapi lebih menakutkan dalam kesedaran dan menemukan ruang untuk bernafas.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_255",
+      "type": "quote",
+      "texts": {
+        "en": "mindfulness brightens when you pass it on.",
+        "tr": "farkındalık, paylaştıkça aydınlanır.",
+        "fr": "pleine conscience s'éclaire quand tu le transmets.",
+        "pt": "atenção plena ilumina quando você repassa.",
+        "nl": "mindfulness wordt helderder als je het doorgeeft.",
+        "es": "atención plena se ilumina cuando lo compartes.",
+        "de": "achtsamkeit leuchtet heller, wenn du es weitergibst.",
+        "it": "consapevolezza si illumina quando lo passi avanti.",
+        "ru": "осознанность светлеет, когда ты передаёшь его дальше.",
+        "id": "kesadaran menjadi lebih terang saat kamu meneruskannya.",
+        "ja": "マインドフルネスは、渡すと明るくなる。",
+        "th": "สติสว่างขึ้นเมื่อคุณส่งต่อ",
+        "ms": "kesedaran menjadi lebih cerah apabila kamu menyampaikannya."
+      },
+      "authors": {
+        "en": "Adapted from Fyodor Dostoevsky",
+        "tr": "Fyodor Dostoevsky'dan uyarlanmıştır",
+        "fr": "Adapté de Fyodor Dostoevsky",
+        "pt": "Adaptado de Fyodor Dostoevsky",
+        "nl": "Aangepast van Fyodor Dostoevsky",
+        "es": "Adaptado de Fyodor Dostoevsky",
+        "de": "Angelehnt an Fyodor Dostoevsky",
+        "it": "Adattato da Fyodor Dostoevsky",
+        "ru": "Адаптировано: Фёдор Достоевский",
+        "id": "Diadaptasi dari Fyodor Dostoevsky",
+        "ja": "フョードル・ドストエフスキーをもとに",
+        "th": "ดัดแปลงจาก ฟีโอดอร์ ดอสโตเยฟสกี",
+        "ms": "Diadaptasi daripada Fyodor Dostoevsky"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_255_en",
+          "title": "Shared Light",
+          "content": "He taught a teammate the mindfulness trick, and the whole group sped up.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_255_tr",
+          "title": "Paylaşılan Işık",
+          "content": "Bir takım arkadaşına farkındalık hilesini öğretti ve tüm grup hızlandı.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_255_fr",
+          "title": "La Lumière Partagée",
+          "content": "Il a montré à un coéquipier l'astuce de pleine conscience, et tout le groupe a accéléré.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_255_pt",
+          "title": "Luz Compartilhada",
+          "content": "Ele ensinou a um colega o truque de atenção plena, e o grupo todo acelerou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_255_nl",
+          "title": "Gedeeld Licht",
+          "content": "Hij leerde een teamgenoot de mindfulness-truc, en de hele groep ging sneller.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_255_es",
+          "title": "Luz Compartida",
+          "content": "Le enseñó a un compañero el truco de atención plena, y todo el grupo avanzó más rápido.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_255_de",
+          "title": "Geteiltes Licht",
+          "content": "Er zeigte einem Teamkollegen den achtsamkeit-Trick, und die ganze Gruppe wurde schneller.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_255_it",
+          "title": "Luce Condivisa",
+          "content": "Ha insegnato a un compagno il trucco di consapevolezza, e tutto il gruppo ha accelerato.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_255_ru",
+          "title": "Разделённый Свет",
+          "content": "Он показал товарищу осознанность-приём, и вся группа ускорилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_255_id",
+          "title": "Cahaya yang Dibagikan",
+          "content": "Ia mengajari rekan setim trik kesadaran, dan seluruh tim melaju lebih cepat.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_255_ja",
+          "title": "分け合う光",
+          "content": "仲間にマインドフルネスのコツを教えたら、みんなの進みが速くなった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_255_th",
+          "title": "แสงที่แบ่งปัน",
+          "content": "เขาสอนทริกสติให้เพื่อนร่วมทีม แล้วทั้งกลุ่มก็เร็วขึ้น",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_255_ms",
+          "title": "Cahaya Dikongsi",
+          "content": "Dia mengajar rakan sepasukan helah kesedaran, dan seluruh kumpulan bergerak lebih laju.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_256",
+      "type": "quote",
+      "texts": {
+        "en": "In mindfulness, returning is part of the path, not a failure.",
+        "tr": "farkındalık içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Dans pleine conscience, revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Em atenção plena, retornar faz parte do caminho, não é fracasso.",
+        "nl": "In mindfulness is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "En atención plena, volver es parte del camino, no un fracaso.",
+        "de": "In achtsamkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "In consapevolezza, tornare è parte del percorso, non un fallimento.",
+        "ru": "В осознанность возвращение — часть пути, а не провал.",
+        "id": "Dalam kesadaran, kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "マインドフルネスでは、戻ることは道の一部であって失敗ではない。",
+        "th": "ในสติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Dalam kesedaran, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+      },
+      "authors": {
+        "en": "Adapted from Lao Tzu",
+        "tr": "Lao Tzu'dan uyarlanmıştır",
+        "fr": "Adapté de Lao Tzu",
+        "pt": "Adaptado de Lao Tzu",
+        "nl": "Aangepast van Lao Tzu",
+        "es": "Adaptado de Lao Tzu",
+        "de": "Angelehnt an Lao Tzu",
+        "it": "Adattato da Lao Tzu",
+        "ru": "Адаптировано: Лао-цзы",
+        "id": "Diadaptasi dari Lao Tzu",
+        "ja": "老子をもとに",
+        "th": "ดัดแปลงจาก เล่าจื๊อ",
+        "ms": "Diadaptasi daripada Lao Tzu"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_256_en",
+          "title": "The Return",
+          "content": "After a missed week in mindfulness, she came back and the line continued.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_256_tr",
+          "title": "Dönüş",
+          "content": "farkındalık içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_256_fr",
+          "title": "Le Retour",
+          "content": "Après une semaine manquée en pleine conscience, elle est revenue et la ligne a continué.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_256_pt",
+          "title": "O Retorno",
+          "content": "Depois de uma semana perdida em atenção plena, ela voltou e a linha continuou.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_256_nl",
+          "title": "De Terugkeer",
+          "content": "Na een gemiste week in mindfulness kwam ze terug en de lijn ging verder.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_256_es",
+          "title": "El Regreso",
+          "content": "Después de una semana perdida en atención plena, volvió y la línea continuó.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_256_de",
+          "title": "Die Rückkehr",
+          "content": "Nach einer verpassten Woche in achtsamkeit kam sie zurück und die Linie lief weiter.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_256_it",
+          "title": "Il Ritorno",
+          "content": "Dopo una settimana persa in consapevolezza, è tornata e la linea è continuata.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_256_ru",
+          "title": "Возвращение",
+          "content": "После пропущенной недели в осознанность она вернулась, и линия продолжилась.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_256_id",
+          "title": "Kepulangan",
+          "content": "Setelah melewatkan seminggu di kesadaran, ia kembali dan garisnya berlanjut.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_256_ja",
+          "title": "帰り道",
+          "content": "マインドフルネスを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_256_th",
+          "title": "การกลับมา",
+          "content": "หลังพลาดไปหนึ่งสัปดาห์ในสติ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_256_ms",
+          "title": "Kembali",
+          "content": "Selepas terlepas seminggu dalam kesedaran, dia kembali dan garis itu terus berjalan.",
+          "readTime": 0
+        }
+      }
+    },
+    {
+      "id": "min_257",
+      "type": "quote",
+      "texts": {
+        "en": "Name what mindfulness really is, and it becomes workable.",
+        "tr": "farkındalık aslında neyse onu adlandır; o zaman uygulanabilir olur.",
+        "fr": "Nomme ce qu'est vraiment pleine conscience, et cela devient praticable.",
+        "pt": "Nomeie o que atenção plena realmente é, e isso se torna viável.",
+        "nl": "Noem wat mindfulness werkelijk is, dan wordt het werkbaar.",
+        "es": "Nombra lo que atención plena realmente es, y se vuelve viable.",
+        "de": "Benenne, was achtsamkeit wirklich ist, dann wird es machbar.",
+        "it": "Chiama ciò che consapevolezza è davvero, e diventa praticabile.",
+        "ru": "Назови, чем на самом деле является осознанность, и это станет выполнимым.",
+        "id": "Sebutkan apa sebenarnya kesadaran, maka itu menjadi dapat dikerjakan.",
+        "ja": "マインドフルネスが本当は何かを名づけると、扱える形になる。",
+        "th": "ตั้งชื่อให้ชัดว่าสติจริง ๆ คืออะไร แล้วมันจะจัดการได้",
+        "ms": "Namakan apa sebenarnya kesedaran, maka ia menjadi boleh diusahakan."
+      },
+      "authors": {
+        "en": "Adapted from Viktor E. Frankl",
+        "tr": "Viktor E. Frankl'dan uyarlanmıştır",
+        "fr": "Adapté de Viktor E. Frankl",
+        "pt": "Adaptado de Viktor E. Frankl",
+        "nl": "Aangepast van Viktor E. Frankl",
+        "es": "Adaptado de Viktor E. Frankl",
+        "de": "Angelehnt an Viktor E. Frankl",
+        "it": "Adattato da Viktor E. Frankl",
+        "ru": "Адаптировано: Виктор Э. Франкл",
+        "id": "Diadaptasi dari Viktor E. Frankl",
+        "ja": "ヴィクトール・E・フランクルをもとに",
+        "th": "ดัดแปลงจาก วิคเตอร์ อี. แฟรงเคิล",
+        "ms": "Diadaptasi daripada Viktor E. Frankl"
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": 0,
+      "stories": {
+        "en": {
+          "id": "story_min_257_en",
+          "title": "Name It Clearly",
+          "content": "He replaced \"overwhelmed\" with \"three tasks,\" and mindfulness became doable.",
+          "readTime": 0
+        },
+        "tr": {
+          "id": "story_min_257_tr",
+          "title": "Netçe Adlandır",
+          "content": "\"bunaldım\" yerine \"üç görev\" dedi ve farkındalık yapılabilir oldu.",
+          "readTime": 0
+        },
+        "fr": {
+          "id": "story_min_257_fr",
+          "title": "Nomme-le Clairement",
+          "content": "Il a remplacé « débordé » par « trois tâches », et pleine conscience est devenu faisable.",
+          "readTime": 0
+        },
+        "pt": {
+          "id": "story_min_257_pt",
+          "title": "Nomeie com Clareza",
+          "content": "Ele trocou \"sobrecarregado\" por \"três tarefas\", e atenção plena ficou viável.",
+          "readTime": 0
+        },
+        "nl": {
+          "id": "story_min_257_nl",
+          "title": "Noem Het Helder",
+          "content": "Hij verving \"overweldigd\" door \"drie taken\", en mindfulness werd doenbaar.",
+          "readTime": 0
+        },
+        "es": {
+          "id": "story_min_257_es",
+          "title": "Nómbralo con Claridad",
+          "content": "Reemplazó \"abrumado\" por \"tres tareas\", y atención plena se volvió posible.",
+          "readTime": 0
+        },
+        "de": {
+          "id": "story_min_257_de",
+          "title": "Benenne Es Klar",
+          "content": "Er ersetzte \"überfordert\" durch \"drei Aufgaben\", und achtsamkeit wurde machbar.",
+          "readTime": 0
+        },
+        "it": {
+          "id": "story_min_257_it",
+          "title": "Chiamalo con Chiarezza",
+          "content": "Ha sostituito \"sopraffatto\" con \"tre compiti\", e consapevolezza è diventato fattibile.",
+          "readTime": 0
+        },
+        "ru": {
+          "id": "story_min_257_ru",
+          "title": "Назови Ясно",
+          "content": "Он заменил «перегружен» на «три задачи», и осознанность стало выполнимым.",
+          "readTime": 0
+        },
+        "id": {
+          "id": "story_min_257_id",
+          "title": "Sebutkan dengan Jelas",
+          "content": "Ia mengganti \"kewalahan\" dengan \"tiga tugas\", dan kesadaran menjadi bisa dijalankan.",
+          "readTime": 0
+        },
+        "ja": {
+          "id": "story_min_257_ja",
+          "title": "はっきり名づける",
+          "content": "「圧倒されている」を「三つのタスク」に言い換えたら、マインドフルネスがこなせる形になった。",
+          "readTime": 0
+        },
+        "th": {
+          "id": "story_min_257_th",
+          "title": "ตั้งชื่อให้ชัด",
+          "content": "เขาเปลี่ยนคำว่า \"ท่วมท้น\" เป็น \"สามงาน\" แล้วสติก็ทำได้",
+          "readTime": 0
+        },
+        "ms": {
+          "id": "story_min_257_ms",
+          "title": "Namakan dengan Jelas",
+          "content": "Dia mengganti \"terbeban\" dengan \"tiga tugas\", dan kesedaran menjadi boleh dilakukan.",
+          "readTime": 0
+        }
+      }
     }
   ]
 }

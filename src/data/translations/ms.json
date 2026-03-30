@@ -556,5 +556,14 @@
     "privacy_policy_subtitle": "Lihat dasar privasi kami",
     "terms_of_use": "Syarat Penggunaan",
     "terms_of_use_subtitle": "Apple Standard EULA"
+  },
+  "personalization": {
+    "title": "Menyediakan pengalaman anda",
+    "title_with_name": "Menyediakan pengalaman {{name}}",
+    "subtitle": "Sebentar...",
+    "step1": "Menganalisis pilihan anda...",
+    "step2": "Memilih petikan untuk anda...",
+    "step3": "Mempersonalisasikan pengalaman anda...",
+    "step4": "Hampir siap..."
   }
 }

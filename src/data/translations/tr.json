@@ -610,5 +610,14 @@
       "goals": "Hedefler",
       "family": "Aile"
     }
+  },
+  "personalization": {
+    "title": "Deneyiminiz hazırlanıyor",
+    "title_with_name": "{{name}} için deneyim hazırlanıyor",
+    "subtitle": "Bir dakika...",
+    "step1": "Tercihleriniz analiz ediliyor...",
+    "step2": "Sizin için alıntılar seçiliyor...",
+    "step3": "Deneyiminiz kişiselleştiriliyor...",
+    "step4": "Neredeyse hazır..."
   }
 }

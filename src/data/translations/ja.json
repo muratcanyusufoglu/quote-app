@@ -556,5 +556,14 @@
     "privacy_policy_subtitle": "プライバシーポリシーを表示",
     "terms_of_use": "利用規約",
     "terms_of_use_subtitle": "Apple標準EULA"
+  },
+  "personalization": {
+    "title": "エクスペリエンスを準備しています",
+    "title_with_name": "{{name}}のエクスペリエンスを準備しています",
+    "subtitle": "少しお待ちください...",
+    "step1": "設定を分析しています...",
+    "step2": "あなたのための名言を選んでいます...",
+    "step3": "エクスペリエンスをカスタマイズしています...",
+    "step4": "もうすぐ完了..."
   }
 }
