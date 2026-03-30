@@ -182,6 +182,7 @@ export function ThemeSelectionScreen() {
                 // Map theme icons to available icons
                 const getValidIcon = (iconName: string) => {
                   const iconMap: Record<string, any> = {
+                    "moon.stars": "moon",
                     sun: "sunrise",
                     waves: "heart",
                     "tree-pine": "tree-pine",
