@@ -547,7 +547,9 @@ export interface UserActionEvent {
     | "favorite_remove"
     | "theme_change"
     | "language_change"
-    | "category_filter";
+    | "category_filter"
+    | "streak_continued"
+    | "streak_broken";
   item_id?: string;
   old_value?: string;
   new_value?: string;

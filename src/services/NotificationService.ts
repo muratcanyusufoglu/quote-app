@@ -26,10 +26,11 @@ Notifications.setNotificationHandler({
 export interface NotificationData {
   quoteId?: string;
   category?: string;
-  type?: "daily_quote" | "streak_warning";
+  type?: "daily_quote" | "streak_warning" | "trial_reminder";
+  contentType?: "quote" | "affirmation"; // içerik tipi — bildirime tap'lenince doğru içerik açılır
   date?: string;
-  language?: Language; // Add language to notification data
-  [key: string]: unknown; // Add index signature for Expo compatibility
+  language?: Language;
+  [key: string]: unknown; // Expo uyumluluğu için index signature
 }
 
 interface StoredQuoteSchedule {
@@ -167,8 +168,8 @@ export class NotificationService {
     isPremium: boolean
   ): Promise<void> {
     try {
-      // Cancel existing notifications first
-      await this.cancelAllNotifications();
+      // Quote ve streak warning'leri iptal et — trial_reminder korunur
+      await this.cancelQuoteAndStreakNotifications();
 
       // Check permissions
       const hasPermission = await this.requestPermissions();
@@ -363,18 +364,29 @@ export class NotificationService {
     };
 
     const localizedContent = getLocalizedNotificationContent(quote.language);
+    const isAffirmation = quote.type === "affirmation";
+
+    const notificationTitle = localizedContent.title; // App adı — "Aurora"
+
+    // Affirmation'da yazar atıfı gösterme (birinci şahıs olduğu için "— I" garip durur)
+    const notificationBody = isAffirmation
+      ? this.truncateText(quote.text, 120)
+      : quote.author && quote.author.trim()
+      ? `${this.truncateText(quote.text, 90)}\n— ${quote.author}`
+      : this.truncateText(quote.text, 100);
 
     const notificationData: NotificationData = {
       quoteId: quote.id,
       category: quote.category,
       type: "daily_quote",
       date: scheduledFor,
-      language: quote.language, // Include language in notification data
+      language: quote.language,
+      contentType: quote.type || "quote",
     };
 
     const notificationContent: Notifications.NotificationContentInput = {
-      title: localizedContent.title,
-      body: this.truncateText(quote.text, 100),
+      title: notificationTitle,
+      body: notificationBody,
       data: notificationData,
       sound: true,
     };
@@ -472,17 +484,16 @@ export class NotificationService {
   }
 
   /**
-   * Schedule streak warning notifications (2 per day until user returns)
+   * Schedule streak warning notifications (2 per day, 3 gün sonradan başlar)
+   * Her app açılışında mevcut streak warning'ler iptal edilip 3 gün sonraya
+   * yeniden schedule edilir. Kullanıcı geri gelirse updateLastVisit() hepsini siler.
    */
   private async scheduleStreakWarning(
     userPreferences: UserPreferences
   ): Promise<void> {
     try {
-      const shouldWarn = await this.shouldSendStreakWarning();
-      if (!shouldWarn) {
-        console.log("📅 No streak warning needed - user is active");
-        return;
-      }
+      // Önceki streak warning'leri temizle — yeniden schedule edilecek
+      await this.cancelStreakWarnings();
 
       // Get localized streak warning content
       const getStreakWarningContent = (
@@ -623,13 +634,15 @@ export class NotificationService {
         ).padStart(2, "0")}`
       );
 
-      // Schedule streak warnings for the next 7 days (user will come back eventually)
+      // Streak warning'leri 3 gün sonradan başlatarak 7 gün boyunca schedule et
+      // (kullanıcı geri gelirse updateLastVisit() hepsini iptal eder)
+      const STREAK_WARNING_START_DAY = 3; // 3. günden itibaren başla
       const daysToSchedule = 7;
       const now = new Date();
 
       for (let day = 0; day < daysToSchedule; day++) {
         const date = new Date(now);
-        date.setDate(date.getDate() + day);
+        date.setDate(date.getDate() + STREAK_WARNING_START_DAY + day);
 
         // Schedule first notification of the day
         await this.scheduleSingleStreakWarning(
@@ -651,9 +664,7 @@ export class NotificationService {
       }
 
       console.log(
-        `⚠️ Scheduled ${
-          daysToSchedule * 2
-        } streak warning notifications over ${daysToSchedule} days`
+        `⚠️ Scheduled ${daysToSchedule * 2} streak warning notifications — starting in ${STREAK_WARNING_START_DAY} days, spanning ${daysToSchedule} days`
       );
     } catch (error) {
       console.error("Error scheduling streak warning:", error);
@@ -765,7 +776,7 @@ export class NotificationService {
   }
 
   /**
-   * Cancel only quote notifications (keep streak warnings)
+   * Cancel only quote notifications — streak warnings and trial reminders korunur
    */
   private async cancelOnlyQuoteNotifications(): Promise<void> {
     try {
@@ -778,10 +789,33 @@ export class NotificationService {
         await Notifications.cancelScheduledNotificationAsync(n.identifier);
       }
       console.log(
-        `🗑️ Cancelled ${quoteNotifications.length} quote notifications (streak warnings preserved)`
+        `🗑️ Cancelled ${quoteNotifications.length} quote notifications (streak warnings + trial reminders preserved)`
       );
     } catch (error) {
       console.error("Error cancelling only quote notifications:", error);
+    }
+  }
+
+  /**
+   * Cancel quote + streak warning notifications — sadece trial_reminder korunur
+   */
+  private async cancelQuoteAndStreakNotifications(): Promise<void> {
+    try {
+      const scheduledNotifications =
+        await Notifications.getAllScheduledNotificationsAsync();
+      const toCancel = scheduledNotifications.filter(
+        (n) =>
+          n.identifier.startsWith("quote_") ||
+          n.identifier.startsWith("streak_warning_")
+      );
+      for (const n of toCancel) {
+        await Notifications.cancelScheduledNotificationAsync(n.identifier);
+      }
+      console.log(
+        `🗑️ Cancelled ${toCancel.length} quote+streak notifications (trial_reminder preserved)`
+      );
+    } catch (error) {
+      console.error("Error cancelling quote/streak notifications:", error);
     }
   }
 
@@ -870,8 +904,34 @@ export class NotificationService {
       return [];
     }
 
+    // Kullanıcının contentType tercihine göre filtrele
+    const contentType = userPreferences.contentType || "both";
+    let filteredQuotes = allQuotes;
+
+    if (contentType === "quotes") {
+      // type alanı olmayan eski kayıtlar da quote sayılır
+      filteredQuotes = allQuotes.filter(
+        (q) => q.type === "quote" || !q.type
+      );
+    } else if (contentType === "affirmations") {
+      filteredQuotes = allQuotes.filter((q) => q.type === "affirmation");
+    }
+    // "both" → filtre yok
+
+    // Filtre sonuç verdiyse kullan, aksi halde tümünü kullan (güvenli fallback)
+    if (filteredQuotes.length === 0) {
+      console.warn(
+        `⚠️ No content found for contentType="${contentType}", falling back to all content`
+      );
+      filteredQuotes = allQuotes;
+    }
+
+    console.log(
+      `📊 Content filter: contentType="${contentType}", total=${allQuotes.length}, filtered=${filteredQuotes.length}`
+    );
+
     // Shuffle and return requested count
-    const shuffled = allQuotes.sort(() => Math.random() - 0.5);
+    const shuffled = filteredQuotes.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
   }
 

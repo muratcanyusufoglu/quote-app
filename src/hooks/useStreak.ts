@@ -54,15 +54,14 @@ export function useStreak() {
         if (streakStatus.isStreakContinued) {
           trackDailyStreak(streakStatus.currentStreak || currentStreak);
           trackUserAction({
-            action_type: "favorite_add",
-            item_id: "streak_continued",
+            action_type: "streak_continued",
             new_value: (streakStatus.currentStreak || currentStreak).toString(),
           });
         } else {
           trackUserAction({
-            action_type: "favorite_remove",
-            item_id: "streak_broken",
+            action_type: "streak_broken",
             old_value: currentStreak.toString(),
+            new_value: "0",
           });
         }
 
@@ -134,15 +133,14 @@ export function useStreak() {
       if (!result.isBreak) {
         trackDailyStreak(result.newStreak);
         trackUserAction({
-          action_type: "favorite_add",
-          item_id: "streak_continued",
+          action_type: "streak_continued",
           new_value: result.newStreak.toString(),
         });
       } else {
         trackUserAction({
-          action_type: "favorite_remove",
-          item_id: "streak_broken",
+          action_type: "streak_broken",
           old_value: previousStreak.toString(),
+          new_value: "0",
         });
       }
 
@@ -158,7 +156,7 @@ export function useStreak() {
     setModalState((prev) => ({ ...prev, visible: false }));
 
     trackUserAction({
-      action_type: "favorite_remove", // Using existing action type as placeholder
+      action_type: "streak_continued", // modal kapatıldı — streak devam ediyor
       item_id: "streak_modal_closed",
     });
   }, [trackUserAction]);
