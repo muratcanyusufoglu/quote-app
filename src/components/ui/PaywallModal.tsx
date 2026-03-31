@@ -16,6 +16,7 @@ import {
 } from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {useAnalytics} from "../../hooks/useAnalytics";
 import {usePremium} from "../../hooks/usePremium";
 import {useStoreReview} from "../../hooks/useStoreReview";
 import {
@@ -264,6 +265,24 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     forceRefreshPremiumStatus,
   } = usePremium();
 
+  // Analytics
+  const {
+    trackPaywallView,
+    trackPaywallAction,
+    trackPurchaseStart,
+    trackPurchaseComplete,
+    trackTrialStart,
+    trackPurchaseFailed,
+    trackPurchaseCancelled,
+  } = useAnalytics();
+
+  // 3-adımlı paywall hunisindeki sıra
+  const getPaywallNumber = (): 1 | 2 | 3 => {
+    if (triggerSource === "second_discount") return 3;
+    if (triggerSource === "discounted") return 2;
+    return 1;
+  };
+
   // Store review for post-purchase requests
   const storeReview = useStoreReview();
 
@@ -303,6 +322,25 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       return;
     }
   }, [isVisible, isPremium, hidePaywall]);
+
+  // Paywall açıldığında Firebase'e paywall_view eventi gönder
+  useEffect(() => {
+    if (!isVisible || !triggerSource) return;
+
+    const paywallNum = getPaywallNumber();
+    // Paket henüz yüklenmediyse sadece kaynak + numara ile gönder, fiyat sonra gelir
+    const displayPackage = subscriptionPackage;
+
+    trackPaywallView({
+      trigger_source: triggerSource,
+      user_action: "viewed",
+      paywall_number: paywallNum,
+      product_id: displayPackage?.id,
+      price: displayPackage?.currentPrice,
+      has_trial: (displayPackage?.freeTrialDays ?? 0) > 0,
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isVisible, triggerSource]);
 
   // Enhanced entrance animation
   useEffect(() => {
@@ -666,6 +704,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       currentPackage: subscriptionPackage?.id,
     });
 
+    // Analytics: paywall kapatıldı
+    trackPaywallAction({
+      trigger_source: triggerSource || "manual",
+      user_action: "dismissed",
+      paywall_number: getPaywallNumber(),
+      product_id: subscriptionPackage?.id,
+      price: subscriptionPackage?.currentPrice,
+    });
+
     const isFirstTime = triggerSource === "first_time" || isFirstTimePaywall;
     const isAnyDiscount = isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted;
 
@@ -722,6 +769,21 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
     setIsLoading(true);
 
+    const paywallNum = getPaywallNumber();
+    const hasTrial = (packageToPurchase.freeTrialDays ?? 0) > 0;
+
+    // Analytics: satın alma başladı
+    trackPurchaseStart({
+      product_id: packageToPurchase.id,
+      price: packageToPurchase.currentPrice,
+      price_value: packageToPurchase.priceNumber,
+      currency: packageToPurchase.currencyCode,
+      paywall_number: paywallNum,
+      trigger_source: triggerSource || "manual",
+      has_trial: hasTrial,
+      trial_days: packageToPurchase.freeTrialDays,
+    });
+
     try {
       // ✅ STEP 1: Perform actual purchase via PaywallService
       console.log("💰 Starting purchase process...", packageToPurchase.id);
@@ -743,6 +805,28 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
           // Only hide paywall if user is actually premium
           if (actualIsPremium) {
+            // Analytics: satın alma tamamlandı
+            trackPurchaseComplete({
+              product_id: packageToPurchase.id,
+              price: packageToPurchase.currentPrice,
+              price_value: packageToPurchase.priceNumber,
+              currency: packageToPurchase.currencyCode,
+              paywall_number: paywallNum,
+              trigger_source: triggerSource || "manual",
+              has_trial: hasTrial,
+              trial_days: packageToPurchase.freeTrialDays,
+            });
+
+            // Analytics: trial başladıysa ayrıca trial_start eventi
+            if (hasTrial) {
+              trackTrialStart({
+                product_id: packageToPurchase.id,
+                trial_days: packageToPurchase.freeTrialDays,
+                paywall_number: paywallNum,
+                trigger_source: triggerSource || "manual",
+              });
+            }
+
             // ✅ STEP 3: Trigger onPurchase callback immediately for app-wide updates
             onPurchase?.();
 
@@ -832,17 +916,30 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         }
       } else if (purchaseResult.userCancelled) {
         console.log("❌ Purchase cancelled by user");
-        // User cancelled, no need to show error
+        // Analytics: kullanıcı iptal etti
+        trackPurchaseCancelled(packageToPurchase.id, paywallNum);
       } else {
         console.error("❌ Purchase failed:", purchaseResult.error);
+        // Analytics: satın alma başarısız
+        trackPurchaseFailed(
+          packageToPurchase.id,
+          purchaseResult.error || "unknown_error",
+          paywallNum
+        );
         Alert.alert(
           paywall.alerts.purchase_error,
           purchaseResult.error || paywall.alerts.unexpected_error,
           [{text: common.ok}]
         );
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Purchase error:", error);
+      // Analytics: beklenmedik hata
+      trackPurchaseFailed(
+        packageToPurchase.id,
+        error?.message || "unexpected_error",
+        paywallNum
+      );
       Alert.alert(
         paywall.alerts.purchase_error,
         paywall.alerts.unexpected_error,

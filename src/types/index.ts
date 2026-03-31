@@ -562,8 +562,33 @@ export interface OnboardingEvent {
 
 export interface PaywallEvent {
   trigger_source: PaywallTriggerSource;
-  user_action: "viewed" | "dismissed" | "purchased";
-  step?: string;
+  user_action:
+    | "viewed"
+    | "dismissed"
+    | "purchase_started"
+    | "purchase_complete"
+    | "purchase_cancelled"
+    | "purchase_failed"
+    | "trial_started"
+    | "restore_complete";
+  paywall_number?: 1 | 2 | 3;  // 3-adımlı hunideki sıra
+  product_id?: string;          // satın alınan / gösterilen paket ID
+  price?: string;               // gösterilen fiyat string ("$39.99")
+  price_value?: number;         // sayısal fiyat (Revenue raporları için)
+  currency?: string;            // "USD", "TRY" vb.
+  has_trial?: boolean;          // deneme süresi var mı
+  step?: string;                // eski field — geriye dönük uyumluluk
+}
+
+export interface PurchaseAnalyticsEvent {
+  product_id: string;
+  price?: string;
+  price_value?: number;
+  currency?: string;
+  paywall_number?: 1 | 2 | 3;
+  trigger_source?: PaywallTriggerSource;
+  has_trial?: boolean;
+  trial_days?: number;
 }
 
 export interface PerformanceEvent {

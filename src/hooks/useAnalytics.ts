@@ -5,6 +5,7 @@ import {
   OnboardingEvent,
   PaywallEvent,
   PerformanceEvent,
+  PurchaseAnalyticsEvent,
   QuoteEvent,
   ShareEvent,
   UserActionEvent,
@@ -97,20 +98,28 @@ export const useAnalytics = () => {
   }, []);
 
   // Purchase
-  const trackPurchaseStart = useCallback((productId: string) => {
-    analyticsService.trackPurchaseStart(productId);
+  const trackPurchaseStart = useCallback((event: PurchaseAnalyticsEvent) => {
+    analyticsService.trackPurchaseStart(event);
   }, []);
 
-  const trackPurchaseComplete = useCallback(
-    (productId: string, price: string) => {
-      analyticsService.trackPurchaseComplete(productId, price);
+  const trackPurchaseComplete = useCallback((event: PurchaseAnalyticsEvent) => {
+    analyticsService.trackPurchaseComplete(event);
+  }, []);
+
+  const trackTrialStart = useCallback((event: PurchaseAnalyticsEvent) => {
+    analyticsService.trackTrialStart(event);
+  }, []);
+
+  const trackPurchaseFailed = useCallback(
+    (productId: string, error: string, paywallNumber?: 1 | 2 | 3) => {
+      analyticsService.trackPurchaseFailed(productId, error, paywallNumber);
     },
     []
   );
 
-  const trackPurchaseFailed = useCallback(
-    (productId: string, error: string) => {
-      analyticsService.trackPurchaseFailed(productId, error);
+  const trackPurchaseCancelled = useCallback(
+    (productId: string, paywallNumber?: 1 | 2 | 3) => {
+      analyticsService.trackPurchaseCancelled(productId, paywallNumber);
     },
     []
   );
@@ -196,7 +205,9 @@ export const useAnalytics = () => {
     // Purchase
     trackPurchaseStart,
     trackPurchaseComplete,
+    trackTrialStart,
     trackPurchaseFailed,
+    trackPurchaseCancelled,
 
     // Performance
     trackPerformance,

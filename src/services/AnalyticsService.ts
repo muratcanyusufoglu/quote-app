@@ -7,6 +7,7 @@ import {
   OnboardingEvent,
   PaywallEvent,
   PerformanceEvent,
+  PurchaseAnalyticsEvent,
   QuoteEvent,
   ScreenViewEvent,
   ShareEvent,
@@ -220,7 +221,10 @@ class AnalyticsService {
       name: "paywall_view",
       parameters: {
         trigger_source: event.trigger_source,
-        step: event.step,
+        paywall_number: event.paywall_number ?? 1,
+        product_id: event.product_id,
+        price: event.price,
+        has_trial: event.has_trial,
       },
     });
   }
@@ -231,40 +235,99 @@ class AnalyticsService {
       parameters: {
         trigger_source: event.trigger_source,
         user_action: event.user_action,
-        step: event.step,
+        paywall_number: event.paywall_number ?? 1,
+        product_id: event.product_id,
+        price: event.price,
       },
     });
   }
 
   // Purchase events
-  async trackPurchaseStart(productId: string): Promise<void> {
+  async trackPurchaseStart(event: PurchaseAnalyticsEvent): Promise<void> {
     await this.trackEvent({
       name: "purchase_start",
       parameters: {
-        product_id: productId,
-        timestamp: Date.now(),
+        product_id: event.product_id,
+        price: event.price,
+        paywall_number: event.paywall_number ?? 1,
+        trigger_source: event.trigger_source,
+        has_trial: event.has_trial,
+        trial_days: event.trial_days,
       },
     });
   }
 
-  async trackPurchaseComplete(productId: string, price: string): Promise<void> {
+  async trackPurchaseComplete(event: PurchaseAnalyticsEvent): Promise<void> {
+    // 1. Custom event — funnel analizi için
     await this.trackEvent({
       name: "purchase_complete",
       parameters: {
-        product_id: productId,
-        price: price,
-        timestamp: Date.now(),
+        product_id: event.product_id,
+        price: event.price,
+        paywall_number: event.paywall_number ?? 1,
+        trigger_source: event.trigger_source,
+        has_trial: event.has_trial,
+        trial_days: event.trial_days,
+      },
+    });
+
+    // 2. Firebase'in native logPurchase eventi — Revenue dashboard için zorunlu
+    if (this.isEnabled && this.initialized && event.price_value && event.currency) {
+      try {
+        await analytics().logPurchase({
+          value: event.price_value,
+          currency: event.currency,
+          items: [
+            {
+              item_id: event.product_id,
+              item_name: event.product_id,
+              price: event.price_value,
+            },
+          ],
+        });
+        console.log(`💰 Firebase logPurchase: ${event.price_value} ${event.currency}`);
+      } catch (error) {
+        console.error("❌ Firebase logPurchase failed:", error);
+      }
+    }
+  }
+
+  async trackTrialStart(event: PurchaseAnalyticsEvent): Promise<void> {
+    await this.trackEvent({
+      name: "trial_start",
+      parameters: {
+        product_id: event.product_id,
+        trial_days: event.trial_days,
+        paywall_number: event.paywall_number ?? 1,
+        trigger_source: event.trigger_source,
       },
     });
   }
 
-  async trackPurchaseFailed(productId: string, error: string): Promise<void> {
+  async trackPurchaseFailed(
+    productId: string,
+    error: string,
+    paywallNumber?: 1 | 2 | 3
+  ): Promise<void> {
     await this.trackEvent({
       name: "purchase_failed",
       parameters: {
         product_id: productId,
         error_message: error,
-        timestamp: Date.now(),
+        paywall_number: paywallNumber ?? 1,
+      },
+    });
+  }
+
+  async trackPurchaseCancelled(
+    productId: string,
+    paywallNumber?: 1 | 2 | 3
+  ): Promise<void> {
+    await this.trackEvent({
+      name: "purchase_cancelled",
+      parameters: {
+        product_id: productId,
+        paywall_number: paywallNumber ?? 1,
       },
     });
   }
