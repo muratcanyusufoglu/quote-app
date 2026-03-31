@@ -59279,19 +59279,19 @@
       "id": "gen_439",
       "type": "quote",
       "texts": {
-        "en": "Things move faster when your grip is open.",
-        "tr": "Elini sıkı tutmadığında işler daha hızlı ilerler.",
-        "fr": "Les choses avancent plus vite quand ta prise est ouverte.",
-        "pt": "As coisas andam mais rápido quando sua pegada está aberta.",
-        "nl": "Dingen bewegen sneller als je greep open is.",
-        "es": "Las cosas avanzan más rápido cuando tu agarre está abierto.",
-        "de": "Dinge bewegen sich schneller, wenn dein Griff offen ist.",
-        "it": "Le cose si muovono più velocemente quando la tua presa è aperta.",
-        "ru": "Дела идут быстрее, когда хватка открыта.",
-        "id": "Segalanya bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "握りしめないとき、物事は速く進む。",
-        "th": "สิ่งต่างๆ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "Segalanya bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, life moves faster.",
+        "tr": "Tutuşunu gevşettiğinde hayat daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, la vie avance plus vite.",
+        "pt": "Quando você solta o aperto, a vida anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat het leven sneller.",
+        "es": "Cuando sueltas el agarre, la vida avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt das Leben schneller voran.",
+        "it": "Quando allenti la presa, la vita procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, жизнь движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, hidup melaju lebih cepat.",
+        "ja": "握りを緩めると、人生は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ชีวิตเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, hidup bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -59381,79 +59381,79 @@
         "en": {
           "id": "story_gen_439_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gen_439_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "Planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gen_439_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gen_439_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gen_439_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_gen_439_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_gen_439_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_gen_439_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gen_439_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_gen_439_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gen_439_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_gen_439_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนของตน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_gen_439_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -61109,19 +61109,19 @@
       "id": "gen_449",
       "type": "quote",
       "texts": {
-        "en": "Life moves faster when your grip is open.",
-        "tr": "Hayat, elin gevşekken daha hızlı ilerler.",
-        "fr": "La vie avance plus vite quand la prise est ouverte.",
-        "pt": "A vida anda mais rápido quando o aperto é aberto.",
-        "nl": "Het leven gaat sneller als je grip open is.",
-        "es": "La vida avanza más rápido cuando el agarre está abierto.",
-        "de": "Das Leben kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "La vita procede più veloce quando la presa è aperta.",
-        "ru": "Жизнь движется быстрее, когда хватка открыта.",
-        "id": "Hidup melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "人生は、握りが開いているときに進みが速い。",
-        "th": "ชีวิตเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "Hidup bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, life moves faster.",
+        "tr": "Tutuşunu gevşettiğinde hayat daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, la vie avance plus vite.",
+        "pt": "Quando você solta o aperto, a vida anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat het leven sneller.",
+        "es": "Cuando sueltas el agarre, la vida avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt das Leben schneller voran.",
+        "it": "Quando allenti la presa, la vita procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, жизнь движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, hidup melaju lebih cepat.",
+        "ja": "握りを緩めると、人生は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ชีวิตเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, hidup bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -61211,79 +61211,79 @@
         "en": {
           "id": "story_gen_449_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gen_449_tr",
           "title": "Açık El",
-          "content": "Takvimdeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "Planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gen_449_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gen_449_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gen_449_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_gen_449_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_gen_449_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_gen_449_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gen_449_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_gen_449_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gen_449_ja",
           "title": "開いた手",
-          "content": "予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_gen_449_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตาราง ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนของตน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_gen_449_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -62385,6 +62385,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "gen_456",
+      "type": "affirmation",
+      "texts": {
+        "en": "I take small, steady steps.",
+        "tr": "Küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Je fais de petits pas réguliers.",
+        "pt": "Dou passos pequenos e constantes.",
+        "nl": "Ik zet kleine, gestage stappen.",
+        "es": "Doy pasos pequeños y constantes.",
+        "de": "Ich gehe kleine, stetige Schritte.",
+        "it": "Faccio passi piccoli e costanti.",
+        "ru": "Я делаю маленькие, устойчивые шаги.",
+        "id": "Saya melangkah kecil dan konsisten.",
+        "ja": "小さく着実な一歩を重ねる。",
+        "th": "ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_457",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to today.",
+        "tr": "Bugüne sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à aujourd'hui.",
+        "pt": "Hoje trago calma e clareza.",
+        "nl": "Vandaag breng ik kalmte en helderheid.",
+        "es": "Hoy llevo calma y claridad.",
+        "de": "Heute bringe ich Ruhe und Klarheit.",
+        "it": "Oggi porto calma e chiarezza.",
+        "ru": "Сегодня я привношу спокойствие и ясность в этот день.",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan.",
+        "ja": "今日は落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมา",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_458",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give this moment my full attention without pressure.",
+        "tr": "Bu ana baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à ce moment sans pression.",
+        "pt": "Dou a este momento minha atenção total sem pressão.",
+        "nl": "Ik geef dit moment mijn volle aandacht zonder druk.",
+        "es": "Doy a este momento toda mi atención sin presión.",
+        "de": "Ich schenke diesem Moment meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a questo momento tutta la mia attenzione senza pressione.",
+        "ru": "Я даю этому моменту всё своё внимание без давления.",
+        "id": "Saya memberi momen ini perhatian penuh tanpa tekanan.",
+        "ja": "この瞬間にプレッシャーなく全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับขณะนี้โดยไม่กดดัน",
+        "ms": "Saya memberi saat ini perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_459",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose progress over perfection.",
+        "tr": "Mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Je choisis le progrès plutôt que la perfection.",
+        "pt": "Escolho progresso em vez de perfeição.",
+        "nl": "Ik kies voor vooruitgang boven perfectie.",
+        "es": "Elijo el progreso por encima de la perfección.",
+        "de": "Ich wähle Fortschritt statt Perfektion.",
+        "it": "Scelgo il progresso al posto della perfezione.",
+        "ru": "Я выбираю прогресс вместо совершенства.",
+        "id": "Saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "完璧より前進を選ぶ。",
+        "th": "ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_460",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return gently.",
+        "tr": "Dağılırsam nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens avec douceur.",
+        "pt": "Se eu me dispersar, volto com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug.",
+        "es": "Si me disperso, vuelvo con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zurück.",
+        "it": "Se mi disperdo, torno con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь.",
+        "id": "Jika saya teralihkan, saya kembali dengan lembut.",
+        "ja": "迷ったら、やさしく戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_461",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices align with my values.",
+        "tr": "Seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones están alineadas con mis valores.",
+        "de": "Meine Entscheidungen passen zu meinen Werten.",
+        "it": "Le mie scelte sono allineate ai miei valori.",
+        "ru": "Мои решения согласуются с моими ценностями.",
+        "id": "Pilihan saya selaras dengan nilai-nilai saya.",
+        "ja": "私の選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_462",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace.",
+        "tr": "Kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme.",
+        "pt": "Confio no meu ritmo.",
+        "nl": "Ik vertrouw op mijn tempo.",
+        "es": "Confío en mi ritmo.",
+        "de": "Ich vertraue meinem Tempo.",
+        "it": "Mi fido del mio ritmo.",
+        "ru": "Я доверяю своему темпу.",
+        "id": "Saya percaya pada ritme saya.",
+        "ja": "自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเอง",
+        "ms": "Saya percaya pada rentak saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_463",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for growth to happen naturally.",
+        "tr": "Doğal büyümenin olmasına alan açıyorum.",
+        "fr": "Je fais de la place pour que la croissance se fasse naturellement.",
+        "pt": "Abro espaço para que o crescimento aconteça naturalmente.",
+        "nl": "Ik maak ruimte zodat groei natuurlijk kan gebeuren.",
+        "es": "Hago espacio para que el crecimiento ocurra de forma natural.",
+        "de": "Ich schaffe Raum, damit Wachstum natürlich geschehen kann.",
+        "it": "Creo spazio perché la crescita avvenga in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост происходил естественно.",
+        "id": "Saya memberi ruang agar pertumbuhan terjadi secara alami.",
+        "ja": "成長が自然に起きるための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้การเติบโตเกิดขึ้นอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar pertumbuhan berlaku secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_464",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action.",
+        "tr": "Bugün net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire.",
+        "pt": "Hoje, dou um passo claro.",
+        "nl": "Vandaag zet ik één duidelijke stap.",
+        "es": "Hoy doy un paso claro.",
+        "de": "Heute mache ich einen klaren Schritt.",
+        "it": "Oggi faccio un passo chiaro.",
+        "ru": "Сегодня я делаю один ясный шаг.",
+        "id": "Hari ini saya mengambil satu langkah jelas.",
+        "ja": "今日は一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่าง",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_465",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present.",
+        "tr": "Sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e).",
+        "pt": "Sou paciente e presente.",
+        "nl": "Ik ben geduldig en aanwezig.",
+        "es": "Soy paciente y presente.",
+        "de": "Ich bin geduldig und präsent.",
+        "it": "Sono paziente e presente.",
+        "ru": "Я терпелив(а) и присутствую.",
+        "id": "Saya sabar dan hadir.",
+        "ja": "穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับปัจจุบันอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_466",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control.",
+        "tr": "Kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Je me recentre sur ce que je peux contrôler.",
+        "pt": "Eu me concentro no que posso controlar.",
+        "nl": "Ik richt me op wat ik kan controleren.",
+        "es": "Me enfoco en lo que puedo controlar.",
+        "de": "Ich konzentriere mich auf das, was ich kontrollieren kann.",
+        "it": "Mi concentro su ciò che posso controllare.",
+        "ru": "Я опираюсь на то, что могу контролировать.",
+        "id": "Aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "コントロールできることに意識を向ける。",
+        "th": "ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_467",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow things to be simple and sincere.",
+        "tr": "İşleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets que ce soit simple et sincère.",
+        "pt": "Eu permito que as coisas sejam simples e verdadeiras.",
+        "nl": "Ik laat het eenvoudig en oprecht zijn.",
+        "es": "Permito que sea simple y auténtico.",
+        "de": "Ich erlaube, dass es einfach und aufrichtig ist.",
+        "it": "Permetto che sia semplice e autentico.",
+        "ru": "Я позволяю всему быть простым и искренним.",
+        "id": "Aku membiarkan semuanya tetap sederhana dan tulus.",
+        "ja": "シンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ทุกอย่างเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan semuanya menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_468",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win today.",
+        "tr": "Bugün küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire.",
+        "pt": "Hoje, noto uma pequena vitória.",
+        "nl": "Vandaag zie ik een kleine overwinning.",
+        "es": "Hoy noto una pequeña victoria.",
+        "de": "Heute bemerke ich einen kleinen Erfolg.",
+        "it": "Oggi noto una piccola vittoria.",
+        "ru": "Сегодня я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil.",
+        "ja": "今日、小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_469",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward.",
+        "tr": "İlerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant.",
+        "pt": "Eu respeito meus limites enquanto avanço.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga.",
+        "es": "Honro mis límites mientras avanzo.",
+        "de": "Ich achte auf meine Grenzen, während ich vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo.",
+        "ru": "Я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju.",
+        "ja": "前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้า",
+        "ms": "Saya menghormati batas saya sambil bergerak maju."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_470",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps.",
+        "tr": "Adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas.",
+        "pt": "Deixo a curiosidade guiar meus passos.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen.",
+        "es": "Dejo que la curiosidad guíe mis pasos.",
+        "de": "Ich lasse Neugier meine Schritte lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi.",
+        "ru": "Я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku.",
+        "ja": "好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวต่อไป",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_471",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency.",
+        "tr": "Acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence.",
+        "pt": "Eu escolho clareza em vez de urgência.",
+        "nl": "Ik kies helderheid boven haast.",
+        "es": "Elijo claridad en lugar de urgencia.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit.",
+        "it": "Scelgo chiarezza invece di urgenza.",
+        "ru": "Я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa.",
+        "ja": "緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_472",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep my pace gentle and consistent.",
+        "tr": "Yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde de la douceur et de la constance.",
+        "pt": "Mantenho suavidade e constância.",
+        "nl": "Ik houd mijn tempo zacht en consistent.",
+        "es": "Mantengo un ritmo suave y constante.",
+        "de": "Ich halte mein Tempo sanft und beständig.",
+        "it": "Mantengo un ritmo dolce e costante.",
+        "ru": "Я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kelembutan dan konsistensi.",
+        "ja": "穏やかさと一貫性を保つ。",
+        "th": "ฉันรักษาความอ่อนโยนและความสม่ำเสมอ",
+        "ms": "Saya mengekalkan kelembutan dan konsistensi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_473",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what I need right now.",
+        "tr": "Şu anda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce dont j'ai besoin maintenant.",
+        "pt": "Eu escuto o que preciso agora.",
+        "nl": "Ik luister naar wat ik nu nodig heb.",
+        "es": "Escucho lo que necesito ahora.",
+        "de": "Ich höre darauf, was ich jetzt brauche.",
+        "it": "Ascolto ciò di cui ho bisogno adesso.",
+        "ru": "Сейчас я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kubutuhkan sekarang.",
+        "ja": "今、自分が必要としていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าฉันต้องการอะไร",
+        "ms": "Saya mendengar apa yang saya perlukan sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_474",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort compounds.",
+        "tr": "Düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier.",
+        "pt": "Confio que o esforço constante se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil berakumulasi.",
+        "ja": "着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอจะสะสม",
+        "ms": "Saya percaya usaha yang stabil terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gen_475",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus.",
+        "tr": "Huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration.",
+        "pt": "Eu acolho leveza e foco.",
+        "nl": "Ik verwelkom gemak en focus.",
+        "es": "Doy la bienvenida a la calma y el enfoque.",
+        "de": "Ich heiße Leichtigkeit und Fokus willkommen.",
+        "it": "Accolgo leggerezza e concentrazione.",
+        "ru": "Я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus.",
+        "ja": "軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "general",
+      "tags": {
+        "en": [
+          "life",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaşam",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "vie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "vida",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "leven",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "vida",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "leben",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "vita",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "жизнь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "人生",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ชีวิต",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "hidup",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

@@ -20347,19 +20347,19 @@
       "id": "creativity_230",
       "type": "quote",
       "texts": {
-        "en": "In creativity, the first version can be rough; the second is where the truth appears.",
-        "tr": "yaratıcılık konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En créativité, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em criatividade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij creativiteit kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En creatividad, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei kreativität kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In creatività, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть творчество, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kreativitas, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "創造性では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความคิดสร้างสรรค์ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kreativiti, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"creativity\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"yaratıcılık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"créativité\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"criatividade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"creativiteit\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"creatividad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"kreativität\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"creatività\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «творчество», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kreativitas\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「創造性」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kreativiti\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -20896,19 +20896,19 @@
       "id": "creativity_233",
       "type": "quote",
       "texts": {
-        "en": "creativity moves faster when your grip is open.",
-        "tr": "yaratıcılık, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "créativité avance plus vite quand ta prise est ouverte.",
-        "pt": "criatividade anda mais rápido quando sua pegada está aberta.",
-        "nl": "creativiteit beweegt sneller als je greep open is.",
-        "es": "creatividad avanza más rápido cuando tu agarre está abierto.",
-        "de": "kreativität bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "creatività si muove più veloce quando la tua presa è aperta.",
-        "ru": "творчество движется быстрее, когда хватка открыта.",
-        "id": "kreativitas bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "創造性は、握りしめないときに速く進む。",
-        "th": "ความคิดสร้างสรรค์ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kreativiti bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, creativity moves faster.",
+        "tr": "Tutuşunu gevşettiğinde yaratıcılık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, créativité avance plus vite.",
+        "pt": "Quando você solta o aperto, criatividade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat creativiteit sneller.",
+        "es": "Cuando sueltas el agarre, creatividad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt kreativität schneller voran.",
+        "it": "Quando allenti la presa, creatività procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, творчество движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kreativitas melaju lebih cepat.",
+        "ja": "握りを緩めると、創造性は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความคิดสร้างสรรค์เดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kreativiti bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -20998,79 +20998,79 @@
         "en": {
           "id": "story_creativity_233_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for creativity, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_creativity_233_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "yaratıcılık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_creativity_233_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour créativité, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_creativity_233_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para criatividade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_creativity_233_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor creativiteit losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_creativity_233_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para creatividad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_creativity_233_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für kreativität lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_creativity_233_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per creatività, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_creativity_233_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для творчество, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_creativity_233_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kreativitas, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_creativity_233_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "創造性の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_creativity_233_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความคิดสร้างสรรค์ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_creativity_233_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kreativiti, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -21079,19 +21079,19 @@
       "id": "creativity_234",
       "type": "quote",
       "texts": {
-        "en": "In creativity, the quiet signal is often the true one.",
-        "tr": "yaratıcılık konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En créativité, le signal discret est souvent le vrai.",
-        "pt": "Em criatividade, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij creativiteit is het stille signaal vaak het echte.",
-        "es": "En creatividad, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei kreativität ist das leise Signal oft das wahre.",
-        "it": "In creatività, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть творчество, тихий сигнал часто самый верный.",
-        "id": "Dalam kreativitas, sinyal yang tenang sering kali yang benar.",
-        "ja": "創造性では、静かな合図が本当であることが多い。",
-        "th": "ใน ความคิดสร้างสรรค์ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kreativiti, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"creativity\", the quiet signal is often the true one.",
+        "tr": "Konu \"yaratıcılık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"créativité\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"criatividade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"creativiteit\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"creatividad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"kreativität\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"creatività\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «творчество», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kreativitas\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「創造性」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kreativiti\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -21811,19 +21811,19 @@
       "id": "creativity_238",
       "type": "quote",
       "texts": {
-        "en": "In creativity, returning is part of the path, not a failure.",
-        "tr": "yaratıcılık içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En créativité, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em criatividade, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij creativiteit is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En creatividad, volver es parte del camino, no un fracaso.",
-        "de": "Bei kreativität ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In creatività, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть творчество, возвращение — часть пути, а не провал.",
-        "id": "Dalam kreativitas, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "創造性では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความคิดสร้างสรรค์ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kreativiti, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"creativity\", returning is part of the path, not a failure.",
+        "tr": "Konu \"yaratıcılık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"créativité\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"criatividade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"creativiteit\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"creatividad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"kreativität\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"creatività\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «творчество», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kreativitas\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「創造性」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kreativiti\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -21913,79 +21913,79 @@
         "en": {
           "id": "story_creativity_238_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"creativity\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_creativity_238_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"yaratıcılık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_creativity_238_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"créativité\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_creativity_238_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"criatividade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_creativity_238_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"creativiteit\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_creativity_238_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"creatividad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_creativity_238_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"kreativität\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_creativity_238_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"creatività\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_creativity_238_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «творчество» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_creativity_238_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kreativitas\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_creativity_238_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「創造性」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_creativity_238_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความคิดสร้างสรรค์\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_creativity_238_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kreativiti\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -22177,19 +22177,19 @@
       "id": "creativity_240",
       "type": "quote",
       "texts": {
-        "en": "In creativity, the first version can be rough; the second is where the truth appears.",
-        "tr": "yaratıcılık konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans créativité, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em criatividade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In creativiteit kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En creatividad, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In kreativität kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In creatività, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "творчество иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kreativitas, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "創造性では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความคิดสร้างสรรค์ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kreativiti, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"creativity\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"yaratıcılık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"créativité\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"criatividade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"creativiteit\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"creatividad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"kreativität\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"creatività\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «творчество», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kreativitas\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「創造性」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kreativiti\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -22726,19 +22726,19 @@
       "id": "creativity_243",
       "type": "quote",
       "texts": {
-        "en": "creativity moves faster when your grip is open.",
-        "tr": "yaratıcılık, elin gevşekken daha hızlı ilerler.",
-        "fr": "créativité avance plus vite quand la prise est ouverte.",
-        "pt": "criatividade anda mais rápido quando o aperto é aberto.",
-        "nl": "creativiteit gaat sneller als je grip open is.",
-        "es": "creatividad avanza más rápido cuando el agarre está abierto.",
-        "de": "kreativität kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "creatività procede più veloce quando la presa è aperta.",
-        "ru": "творчество движется быстрее, когда хватка открыта.",
-        "id": "kreativitas melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "創造性は、握りが開いているときに進みが速い。",
-        "th": "ความคิดสร้างสรรค์เดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kreativiti bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, creativity moves faster.",
+        "tr": "Tutuşunu gevşettiğinde yaratıcılık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, créativité avance plus vite.",
+        "pt": "Quando você solta o aperto, criatividade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat creativiteit sneller.",
+        "es": "Cuando sueltas el agarre, creatividad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt kreativität schneller voran.",
+        "it": "Quando allenti la presa, creatività procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, творчество движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kreativitas melaju lebih cepat.",
+        "ja": "握りを緩めると、創造性は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความคิดสร้างสรรค์เดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kreativiti bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -22828,79 +22828,79 @@
         "en": {
           "id": "story_creativity_243_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the creativity schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for creativity, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_creativity_243_tr",
           "title": "Açık El",
-          "content": "yaratıcılık takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "yaratıcılık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_creativity_243_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de créativité, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour créativité, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_creativity_243_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de criatividade, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para criatividade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_creativity_243_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het creativiteit-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor creativiteit losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_creativity_243_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de creatividad, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para creatividad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_creativity_243_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am kreativität-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für kreativität lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_creativity_243_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di creatività, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per creatività, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_creativity_243_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании творчество, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для творчество, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_creativity_243_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kreativitas, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kreativitas, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_creativity_243_ja",
           "title": "開いた手",
-          "content": "創造性の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "創造性の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_creativity_243_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความคิดสร้างสรรค์ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความคิดสร้างสรรค์ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_creativity_243_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kreativiti, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kreativiti, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -22909,19 +22909,19 @@
       "id": "creativity_244",
       "type": "quote",
       "texts": {
-        "en": "In creativity, the quiet signal is often the true one.",
-        "tr": "yaratıcılık içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans créativité, le signal discret est souvent le vrai.",
-        "pt": "Em criatividade, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In creativiteit is het stille signaal vaak het echte.",
-        "es": "En creatividad, la señal silenciosa suele ser la verdadera.",
-        "de": "In kreativität ist das leise Signal oft das wahre.",
-        "it": "In creatività, il segnale silenzioso è spesso quello vero.",
-        "ru": "В творчество тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kreativitas, sinyal yang sunyi sering kali yang benar.",
-        "ja": "創造性では、静かな合図が本当であることが多い。",
-        "th": "ในความคิดสร้างสรรค์ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kreativiti, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"creativity\", the quiet signal is often the true one.",
+        "tr": "Konu \"yaratıcılık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"créativité\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"criatividade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"creativiteit\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"creatividad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"kreativität\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"creatività\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «творчество», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kreativitas\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「創造性」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kreativiti\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -23641,19 +23641,19 @@
       "id": "creativity_248",
       "type": "quote",
       "texts": {
-        "en": "In creativity, returning is part of the path, not a failure.",
-        "tr": "yaratıcılık içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans créativité, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em criatividade, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In creativiteit is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En creatividad, volver es parte del camino, no un fracaso.",
-        "de": "In kreativität ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In creatività, tornare è parte del percorso, non un fallimento.",
-        "ru": "В творчество возвращение — часть пути, а не провал.",
-        "id": "Dalam kreativitas, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "創造性では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความคิดสร้างสรรค์ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kreativiti, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"creativity\", returning is part of the path, not a failure.",
+        "tr": "Konu \"yaratıcılık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"créativité\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"criatividade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"creativiteit\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"creatividad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"kreativität\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"creatività\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «творчество», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kreativitas\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「創造性」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความคิดสร้างสรรค์\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kreativiti\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -23743,79 +23743,79 @@
         "en": {
           "id": "story_creativity_248_en",
           "title": "The Return",
-          "content": "After a missed week in creativity, she came back and the line continued.",
+          "content": "After a week without \"creativity\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_creativity_248_tr",
           "title": "Dönüş",
-          "content": "yaratıcılık içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"yaratıcılık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_creativity_248_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en créativité, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"créativité\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_creativity_248_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em criatividade, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"criatividade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_creativity_248_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in creativiteit kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"creativiteit\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_creativity_248_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en creatividad, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"creatividad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_creativity_248_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in kreativität kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"kreativität\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_creativity_248_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in creatività, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"creatività\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_creativity_248_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в творчество она вернулась, и линия продолжилась.",
+          "content": "В теме «творчество» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_creativity_248_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kreativitas, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kreativitas\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_creativity_248_ja",
           "title": "帰り道",
-          "content": "創造性を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「創造性」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_creativity_248_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความคิดสร้างสรรค์ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความคิดสร้างสรรค์\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_creativity_248_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kreativiti, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kreativiti\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24002,6 +24002,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "creativity_250",
+      "type": "affirmation",
+      "texts": {
+        "en": "In creativity, I take small, steady steps.",
+        "tr": "yaratıcılık konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans créativité, je fais de petits pas réguliers.",
+        "pt": "Em criatividade, dou passos pequenos e constantes.",
+        "nl": "In creativiteit zet ik kleine, gestage stappen.",
+        "es": "En creatividad, doy pasos pequeños y constantes.",
+        "de": "In kreativität gehe ich kleine, stetige Schritte.",
+        "it": "In creatività, faccio passi piccoli e costanti.",
+        "ru": "В теме «творчество» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kreativitas, saya melangkah kecil dan konsisten.",
+        "ja": "創造性では、小さく着実な一歩を重ねる。",
+        "th": "ในความคิดสร้างสรรค์ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kreativiti, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_251",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to creativity today.",
+        "tr": "Bugün yaratıcılık için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à créativité aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para criatividade.",
+        "nl": "Vandaag breng ik kalmte en helderheid in creativiteit.",
+        "es": "Hoy llevo calma y claridad a creatividad.",
+        "de": "Heute bringe ich Ruhe und Klarheit in kreativität.",
+        "it": "Oggi porto calma e chiarezza a creatività.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «творчество».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kreativitas.",
+        "ja": "今日は創造性に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความคิดสร้างสรรค์",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_252",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give creativity my full attention without pressure.",
+        "tr": "yaratıcılık için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à créativité sans pression.",
+        "pt": "Dou a criatividade minha atenção total sem pressão.",
+        "nl": "Ik geef creativiteit mijn volle aandacht zonder druk.",
+        "es": "Doy a creatividad toda mi atención sin presión.",
+        "de": "Ich schenke kreativität meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a creatività tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «творчество» всё своё внимание без давления.",
+        "id": "Saya memberi kreativitas perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく創造性に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความคิดสร้างสรรค์โดยไม่กดดัน",
+        "ms": "Saya memberi kreativiti perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "In creativity, I choose progress over perfection.",
+        "tr": "yaratıcılık konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans créativité, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em criatividade, escolho progresso em vez de perfeição.",
+        "nl": "In creativiteit kies ik voor vooruitgang boven perfectie.",
+        "es": "En creatividad, elijo el progreso por encima de la perfección.",
+        "de": "In kreativität wähle ich Fortschritt statt Perfektion.",
+        "it": "In creatività, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «творчество» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kreativitas, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "創造性では、完璧より前進を選ぶ。",
+        "th": "ในความคิดสร้างสรรค์ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kreativiti, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to creativity gently.",
+        "tr": "Dağılırsam yaratıcılıke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à créativité avec douceur.",
+        "pt": "Se eu me dispersar, volto a criatividade com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar creativiteit.",
+        "es": "Si me disperso, vuelvo a creatividad con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu kreativität zurück.",
+        "it": "Se mi disperdo, torno a creatività con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «творчество».",
+        "id": "Jika saya teralihkan, saya kembali ke kreativitas dengan lembut.",
+        "ja": "迷ったら、やさしく創造性に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความคิดสร้างสรรค์อย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kreativiti dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in creativity align with my values.",
+        "tr": "yaratıcılık konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en créativité sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em criatividade estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in creativiteit sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en creatividad están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in kreativität passen zu meinen Werten.",
+        "it": "Le mie scelte in creatività sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «творчество» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kreativitas selaras dengan nilai-nilai saya.",
+        "ja": "創造性での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความคิดสร้างสรรค์สอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kreativiti selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in creativity.",
+        "tr": "yaratıcılık konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en créativité.",
+        "pt": "Confio no meu ritmo em criatividade.",
+        "nl": "Ik vertrouw op mijn tempo in creativiteit.",
+        "es": "Confío en mi ritmo en creatividad.",
+        "de": "Ich vertraue meinem Tempo in kreativität.",
+        "it": "Mi fido del mio ritmo in creatività.",
+        "ru": "Я доверяю своему темпу в теме «творчество».",
+        "id": "Saya percaya pada ritme saya dalam kreativitas.",
+        "ja": "創造性での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความคิดสร้างสรรค์",
+        "ms": "Saya percaya pada rentak saya dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for creativity to grow naturally.",
+        "tr": "yaratıcılık için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que créativité grandisse naturellement.",
+        "pt": "Abro espaço para criatividade crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat creativiteit natuurlijk kan groeien.",
+        "es": "Hago espacio para que creatividad crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit kreativität natürlich wachsen kann.",
+        "it": "Creo spazio perché creatività cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «творчество» происходил естественно.",
+        "id": "Saya memberi ruang agar kreativitas tumbuh secara alami.",
+        "ja": "創造性が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความคิดสร้างสรรค์เติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kreativiti berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in creativity.",
+        "tr": "Bugün yaratıcılık konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en créativité.",
+        "pt": "Hoje, dou um passo claro em criatividade.",
+        "nl": "Vandaag zet ik één duidelijke stap in creativiteit.",
+        "es": "Hoy doy un paso claro en creatividad.",
+        "de": "Heute mache ich einen klaren Schritt in kreativität.",
+        "it": "Oggi faccio un passo chiaro in creatività.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «творчество».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kreativitas.",
+        "ja": "今日は創造性で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความคิดสร้างสรรค์",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with creativity.",
+        "tr": "yaratıcılık konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec créativité.",
+        "pt": "Sou paciente e presente com criatividade.",
+        "nl": "Ik ben geduldig en aanwezig met creativiteit.",
+        "es": "Soy paciente y presente con creatividad.",
+        "de": "Ich bin geduldig und präsent mit kreativität.",
+        "it": "Sono paziente e presente con creatività.",
+        "ru": "Я терпелив(а) и присутствую в теме «творчество».",
+        "id": "Saya sabar dan hadir bersama kreativitas.",
+        "ja": "創造性に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความคิดสร้างสรรค์อย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in creativity.",
+        "tr": "yaratıcılık konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans créativité, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em criatividade, eu me concentro no que posso controlar.",
+        "nl": "In creativiteit richt ik me op wat ik kan controleren.",
+        "es": "En creatividad, me enfoco en lo que puedo controlar.",
+        "de": "In kreativität konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In creatività, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «творчество» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kreativitas, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "創造性では、コントロールできることに意識を向ける。",
+        "th": "ในความคิดสร้างสรรค์ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kreativiti, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow creativity to be simple and sincere.",
+        "tr": "yaratıcılık konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à créativité d'être simple et sincère.",
+        "pt": "Eu permito que criatividade seja simples e verdadeiro.",
+        "nl": "Ik laat creativiteit eenvoudig en oprecht zijn.",
+        "es": "Permito que creatividad sea simple y auténtico.",
+        "de": "Ich erlaube kreativität, einfach und aufrichtig zu sein.",
+        "it": "Permetto a creatività di essere semplice e autentico.",
+        "ru": "Я позволяю теме «творчество» быть простой и искренней.",
+        "id": "Aku membiarkan kreativitas tetap sederhana dan tulus.",
+        "ja": "創造性はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความคิดสร้างสรรค์เรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kreativiti menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in creativity today.",
+        "tr": "Bugün yaratıcılık konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en créativité.",
+        "pt": "Hoje, noto uma pequena vitória em criatividade.",
+        "nl": "Vandaag zie ik een kleine overwinning in creativiteit.",
+        "es": "Hoy noto una pequeña victoria en creatividad.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in kreativität.",
+        "it": "Oggi noto una piccola vittoria in creatività.",
+        "ru": "Сегодня в теме «творчество» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kreativitas.",
+        "ja": "今日、創造性で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความคิดสร้างสรรค์",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in creativity.",
+        "tr": "yaratıcılık konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans créativité.",
+        "pt": "Eu respeito meus limites enquanto avanço em criatividade.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in creativiteit.",
+        "es": "Honro mis límites mientras avanzo en creatividad.",
+        "de": "Ich achte auf meine Grenzen, während ich in kreativität vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in creatività.",
+        "ru": "В теме «творчество» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kreativitas.",
+        "ja": "創造性で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความคิดสร้างสรรค์",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in creativity.",
+        "tr": "yaratıcılık konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en créativité.",
+        "pt": "Deixo a curiosidade guiar meus passos em criatividade.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in creativiteit.",
+        "es": "Dejo que la curiosidad guíe mis pasos en creatividad.",
+        "de": "Ich lasse Neugier meine Schritte in kreativität lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in creatività.",
+        "ru": "В теме «творчество» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kreativitas.",
+        "ja": "創造性では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความคิดสร้างสรรค์",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in creativity.",
+        "tr": "yaratıcılık konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en créativité.",
+        "pt": "Eu escolho clareza em vez de urgência em criatividade.",
+        "nl": "Ik kies helderheid boven haast in creativiteit.",
+        "es": "Elijo claridad en lugar de urgencia en creatividad.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in kreativität.",
+        "it": "Scelgo chiarezza invece di urgenza in creatività.",
+        "ru": "В теме «творчество» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kreativitas.",
+        "ja": "創造性では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความคิดสร้างสรรค์",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep creativity gentle and consistent.",
+        "tr": "yaratıcılık konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde créativité avec douceur et constance.",
+        "pt": "Mantenho criatividade com suavidade e constância.",
+        "nl": "Ik houd creativiteit zacht en consistent.",
+        "es": "Mantengo creatividad suave y constante.",
+        "de": "Ich halte kreativität sanft und beständig.",
+        "it": "Mantengo creatività con dolcezza e costanza.",
+        "ru": "В теме «творчество» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kreativitas tetap lembut dan konsisten.",
+        "ja": "創造性を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความคิดสร้างสรรค์อ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kreativiti dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what creativity needs from me right now.",
+        "tr": "Şu anda yaratıcılık konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que créativité a besoin de moi maintenant.",
+        "pt": "Eu escuto o que criatividade precisa de mim agora.",
+        "nl": "Ik luister naar wat creativiteit nu van mij nodig heeft.",
+        "es": "Escucho lo que creatividad necesita de mí ahora.",
+        "de": "Ich höre darauf, was kreativität jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui creatività ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «творчество» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kreativitas butuhkan dariku sekarang.",
+        "ja": "今、創造性が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความคิดสร้างสรรค์ต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kreativiti perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in creativity compounds.",
+        "tr": "yaratıcılık konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en créativité.",
+        "pt": "Confio que o esforço constante em criatividade se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in creativiteit zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en creatividad se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in kreativität sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in creatività si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «творчество» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kreativitas berakumulasi.",
+        "ja": "創造性での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความคิดสร้างสรรค์จะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kreativiti terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "creativity_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into creativity.",
+        "tr": "yaratıcılık konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans créativité.",
+        "pt": "Eu acolho leveza e foco em criatividade.",
+        "nl": "Ik verwelkom gemak en focus in creativiteit.",
+        "es": "Doy la bienvenida a la calma y el enfoque en creatividad.",
+        "de": "Ich heiße Leichtigkeit und Fokus in kreativität willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in creatività.",
+        "ru": "В теме «творчество» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kreativitas.",
+        "ja": "創造性に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความคิดสร้างสรรค์",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kreativiti."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "creativity",
+      "tags": {
+        "en": [
+          "creativity",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "yaratıcılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "créativité",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "criatividade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "creativiteit",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "creatividad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "kreativität",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "creatività",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "творчество",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kreativitas",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "創造性",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความคิดสร้างสรรค์",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kreativiti",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

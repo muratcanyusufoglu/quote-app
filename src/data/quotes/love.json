@@ -14589,19 +14589,19 @@
       "id": "love_216",
       "type": "quote",
       "texts": {
-        "en": "In love, the first version can be rough; the second is where the truth appears.",
-        "tr": "sevgi konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En amour, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em amor, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij liefde kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En amor, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei liebe kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In amore, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть любовь, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam cinta, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "愛では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความรัก เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam cinta, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"love\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"sevgi\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"amour\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"amor\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"liefde\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"amor\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"liebe\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"amore\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «любовь», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"cinta\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「愛」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"cinta\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -15138,19 +15138,19 @@
       "id": "love_219",
       "type": "quote",
       "texts": {
-        "en": "love moves faster when your grip is open.",
-        "tr": "sevgi, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "amour avance plus vite quand ta prise est ouverte.",
-        "pt": "amor anda mais rápido quando sua pegada está aberta.",
-        "nl": "liefde beweegt sneller als je greep open is.",
-        "es": "amor avanza más rápido cuando tu agarre está abierto.",
-        "de": "liebe bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "amore si muove più veloce quando la tua presa è aperta.",
-        "ru": "любовь движется быстрее, когда хватка открыта.",
-        "id": "cinta bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "愛は、握りしめないときに速く進む。",
-        "th": "ความรัก ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "cinta bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, love moves faster.",
+        "tr": "Tutuşunu gevşettiğinde sevgi daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, amour avance plus vite.",
+        "pt": "Quando você solta o aperto, amor anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat liefde sneller.",
+        "es": "Cuando sueltas el agarre, amor avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt liebe schneller voran.",
+        "it": "Quando allenti la presa, amore procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, любовь движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, cinta melaju lebih cepat.",
+        "ja": "握りを緩めると、愛は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความรักเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, cinta bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -15240,79 +15240,79 @@
         "en": {
           "id": "story_love_219_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for love, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_love_219_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "sevgi planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_love_219_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour amour, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_love_219_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para amor, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_love_219_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor liefde losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_love_219_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para amor, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_love_219_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für liebe lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_love_219_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per amore, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_love_219_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для любовь, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_love_219_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk cinta, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_love_219_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "愛の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_love_219_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความรัก ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_love_219_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk cinta, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -15321,19 +15321,19 @@
       "id": "love_220",
       "type": "quote",
       "texts": {
-        "en": "In love, the quiet signal is often the true one.",
-        "tr": "sevgi konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En amour, le signal discret est souvent le vrai.",
-        "pt": "Em amor, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij liefde is het stille signaal vaak het echte.",
-        "es": "En amor, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei liebe ist das leise Signal oft das wahre.",
-        "it": "In amore, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть любовь, тихий сигнал часто самый верный.",
-        "id": "Dalam cinta, sinyal yang tenang sering kali yang benar.",
-        "ja": "愛では、静かな合図が本当であることが多い。",
-        "th": "ใน ความรัก สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam cinta, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"love\", the quiet signal is often the true one.",
+        "tr": "Konu \"sevgi\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"amour\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"amor\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"liefde\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"amor\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"liebe\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"amore\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «любовь», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"cinta\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「愛」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"cinta\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -16053,19 +16053,19 @@
       "id": "love_224",
       "type": "quote",
       "texts": {
-        "en": "In love, returning is part of the path, not a failure.",
-        "tr": "sevgi içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En amour, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em amor, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij liefde is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En amor, volver es parte del camino, no un fracaso.",
-        "de": "Bei liebe ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In amore, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть любовь, возвращение — часть пути, а не провал.",
-        "id": "Dalam cinta, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "愛では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความรัก การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam cinta, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"love\", returning is part of the path, not a failure.",
+        "tr": "Konu \"sevgi\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"amour\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"amor\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"liefde\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"amor\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"liebe\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"amore\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «любовь», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"cinta\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「愛」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"cinta\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -16155,79 +16155,79 @@
         "en": {
           "id": "story_love_224_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"love\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_love_224_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"sevgi\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_love_224_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"amour\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_love_224_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"amor\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_love_224_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"liefde\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_love_224_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"amor\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_love_224_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"liebe\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_love_224_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"amore\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_love_224_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «любовь» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_love_224_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"cinta\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_love_224_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「愛」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_love_224_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความรัก\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_love_224_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"cinta\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -16419,19 +16419,19 @@
       "id": "love_226",
       "type": "quote",
       "texts": {
-        "en": "In love, the first version can be rough; the second is where the truth appears.",
-        "tr": "sevgi konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans amour, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em amor, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In liefde kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En amor, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In liebe kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In amore, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "любовь иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam cinta, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "愛では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความรัก เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam cinta, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"love\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"sevgi\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"amour\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"amor\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"liefde\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"amor\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"liebe\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"amore\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «любовь», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"cinta\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「愛」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"cinta\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -16968,19 +16968,19 @@
       "id": "love_229",
       "type": "quote",
       "texts": {
-        "en": "love moves faster when your grip is open.",
-        "tr": "sevgi, elin gevşekken daha hızlı ilerler.",
-        "fr": "amour avance plus vite quand la prise est ouverte.",
-        "pt": "amor anda mais rápido quando o aperto é aberto.",
-        "nl": "liefde gaat sneller als je grip open is.",
-        "es": "amor avanza más rápido cuando el agarre está abierto.",
-        "de": "liebe kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "amore procede più veloce quando la presa è aperta.",
-        "ru": "любовь движется быстрее, когда хватка открыта.",
-        "id": "cinta melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "愛は、握りが開いているときに進みが速い。",
-        "th": "ความรักเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "cinta bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, love moves faster.",
+        "tr": "Tutuşunu gevşettiğinde sevgi daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, amour avance plus vite.",
+        "pt": "Quando você solta o aperto, amor anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat liefde sneller.",
+        "es": "Cuando sueltas el agarre, amor avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt liebe schneller voran.",
+        "it": "Quando allenti la presa, amore procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, любовь движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, cinta melaju lebih cepat.",
+        "ja": "握りを緩めると、愛は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความรักเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, cinta bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -17070,79 +17070,79 @@
         "en": {
           "id": "story_love_229_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the love schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for love, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_love_229_tr",
           "title": "Açık El",
-          "content": "sevgi takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "sevgi planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_love_229_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de amour, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour amour, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_love_229_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de amor, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para amor, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_love_229_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het liefde-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor liefde losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_love_229_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de amor, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para amor, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_love_229_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am liebe-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für liebe lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_love_229_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di amore, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per amore, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_love_229_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании любовь, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для любовь, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_love_229_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal cinta, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk cinta, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_love_229_ja",
           "title": "開いた手",
-          "content": "愛の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "愛の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_love_229_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความรัก ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความรัก ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_love_229_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual cinta, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk cinta, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -17151,19 +17151,19 @@
       "id": "love_230",
       "type": "quote",
       "texts": {
-        "en": "In love, the quiet signal is often the true one.",
-        "tr": "sevgi içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans amour, le signal discret est souvent le vrai.",
-        "pt": "Em amor, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In liefde is het stille signaal vaak het echte.",
-        "es": "En amor, la señal silenciosa suele ser la verdadera.",
-        "de": "In liebe ist das leise Signal oft das wahre.",
-        "it": "In amore, il segnale silenzioso è spesso quello vero.",
-        "ru": "В любовь тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam cinta, sinyal yang sunyi sering kali yang benar.",
-        "ja": "愛では、静かな合図が本当であることが多い。",
-        "th": "ในความรัก สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam cinta, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"love\", the quiet signal is often the true one.",
+        "tr": "Konu \"sevgi\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"amour\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"amor\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"liefde\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"amor\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"liebe\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"amore\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «любовь», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"cinta\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「愛」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"cinta\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -17883,19 +17883,19 @@
       "id": "love_234",
       "type": "quote",
       "texts": {
-        "en": "In love, returning is part of the path, not a failure.",
-        "tr": "sevgi içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans amour, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em amor, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In liefde is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En amor, volver es parte del camino, no un fracaso.",
-        "de": "In liebe ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In amore, tornare è parte del percorso, non un fallimento.",
-        "ru": "В любовь возвращение — часть пути, а не провал.",
-        "id": "Dalam cinta, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "愛では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความรัก การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam cinta, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"love\", returning is part of the path, not a failure.",
+        "tr": "Konu \"sevgi\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"amour\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"amor\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"liefde\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"amor\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"liebe\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"amore\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «любовь», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"cinta\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「愛」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความรัก\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"cinta\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -17985,79 +17985,79 @@
         "en": {
           "id": "story_love_234_en",
           "title": "The Return",
-          "content": "After a missed week in love, she came back and the line continued.",
+          "content": "After a week without \"love\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_love_234_tr",
           "title": "Dönüş",
-          "content": "sevgi içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"sevgi\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_love_234_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en amour, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"amour\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_love_234_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em amor, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"amor\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_love_234_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in liefde kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"liefde\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_love_234_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en amor, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"amor\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_love_234_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in liebe kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"liebe\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_love_234_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in amore, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"amore\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_love_234_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в любовь она вернулась, и линия продолжилась.",
+          "content": "В теме «любовь» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_love_234_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di cinta, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"cinta\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_love_234_ja",
           "title": "帰り道",
-          "content": "愛を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「愛」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_love_234_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความรัก เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความรัก\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_love_234_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam cinta, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"cinta\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -18244,6 +18244,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "love_236",
+      "type": "affirmation",
+      "texts": {
+        "en": "In love, I take small, steady steps.",
+        "tr": "sevgi konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans amour, je fais de petits pas réguliers.",
+        "pt": "Em amor, dou passos pequenos e constantes.",
+        "nl": "In liefde zet ik kleine, gestage stappen.",
+        "es": "En amor, doy pasos pequeños y constantes.",
+        "de": "In liebe gehe ich kleine, stetige Schritte.",
+        "it": "In amore, faccio passi piccoli e costanti.",
+        "ru": "В теме «любовь» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam cinta, saya melangkah kecil dan konsisten.",
+        "ja": "愛では、小さく着実な一歩を重ねる。",
+        "th": "ในความรัก ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam cinta, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_237",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to love today.",
+        "tr": "Bugün sevgi için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à amour aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para amor.",
+        "nl": "Vandaag breng ik kalmte en helderheid in liefde.",
+        "es": "Hoy llevo calma y claridad a amor.",
+        "de": "Heute bringe ich Ruhe und Klarheit in liebe.",
+        "it": "Oggi porto calma e chiarezza a amore.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «любовь».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke cinta.",
+        "ja": "今日は愛に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความรัก",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_238",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give love my full attention without pressure.",
+        "tr": "sevgi için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à amour sans pression.",
+        "pt": "Dou a amor minha atenção total sem pressão.",
+        "nl": "Ik geef liefde mijn volle aandacht zonder druk.",
+        "es": "Doy a amor toda mi atención sin presión.",
+        "de": "Ich schenke liebe meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a amore tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «любовь» всё своё внимание без давления.",
+        "id": "Saya memberi cinta perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく愛に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความรักโดยไม่กดดัน",
+        "ms": "Saya memberi cinta perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_239",
+      "type": "affirmation",
+      "texts": {
+        "en": "In love, I choose progress over perfection.",
+        "tr": "sevgi konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans amour, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em amor, escolho progresso em vez de perfeição.",
+        "nl": "In liefde kies ik voor vooruitgang boven perfectie.",
+        "es": "En amor, elijo el progreso por encima de la perfección.",
+        "de": "In liebe wähle ich Fortschritt statt Perfektion.",
+        "it": "In amore, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «любовь» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam cinta, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "愛では、完璧より前進を選ぶ。",
+        "th": "ในความรัก ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam cinta, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_240",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to love gently.",
+        "tr": "Dağılırsam sevgie nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à amour avec douceur.",
+        "pt": "Se eu me dispersar, volto a amor com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar liefde.",
+        "es": "Si me disperso, vuelvo a amor con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu liebe zurück.",
+        "it": "Se mi disperdo, torno a amore con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «любовь».",
+        "id": "Jika saya teralihkan, saya kembali ke cinta dengan lembut.",
+        "ja": "迷ったら、やさしく愛に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความรักอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada cinta dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_241",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in love align with my values.",
+        "tr": "sevgi konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en amour sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em amor estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in liefde sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en amor están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in liebe passen zu meinen Werten.",
+        "it": "Le mie scelte in amore sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «любовь» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam cinta selaras dengan nilai-nilai saya.",
+        "ja": "愛での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความรักสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam cinta selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_242",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in love.",
+        "tr": "sevgi konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en amour.",
+        "pt": "Confio no meu ritmo em amor.",
+        "nl": "Ik vertrouw op mijn tempo in liefde.",
+        "es": "Confío en mi ritmo en amor.",
+        "de": "Ich vertraue meinem Tempo in liebe.",
+        "it": "Mi fido del mio ritmo in amore.",
+        "ru": "Я доверяю своему темпу в теме «любовь».",
+        "id": "Saya percaya pada ritme saya dalam cinta.",
+        "ja": "愛での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความรัก",
+        "ms": "Saya percaya pada rentak saya dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_243",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for love to grow naturally.",
+        "tr": "sevgi için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que amour grandisse naturellement.",
+        "pt": "Abro espaço para amor crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat liefde natuurlijk kan groeien.",
+        "es": "Hago espacio para que amor crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit liebe natürlich wachsen kann.",
+        "it": "Creo spazio perché amore cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «любовь» происходил естественно.",
+        "id": "Saya memberi ruang agar cinta tumbuh secara alami.",
+        "ja": "愛が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความรักเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar cinta berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_244",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in love.",
+        "tr": "Bugün sevgi konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en amour.",
+        "pt": "Hoje, dou um passo claro em amor.",
+        "nl": "Vandaag zet ik één duidelijke stap in liefde.",
+        "es": "Hoy doy un paso claro en amor.",
+        "de": "Heute mache ich einen klaren Schritt in liebe.",
+        "it": "Oggi faccio un passo chiaro in amore.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «любовь».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam cinta.",
+        "ja": "今日は愛で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความรัก",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_245",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with love.",
+        "tr": "sevgi konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec amour.",
+        "pt": "Sou paciente e presente com amor.",
+        "nl": "Ik ben geduldig en aanwezig met liefde.",
+        "es": "Soy paciente y presente con amor.",
+        "de": "Ich bin geduldig und präsent mit liebe.",
+        "it": "Sono paziente e presente con amore.",
+        "ru": "Я терпелив(а) и присутствую в теме «любовь».",
+        "id": "Saya sabar dan hadir bersama cinta.",
+        "ja": "愛に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความรักอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_246",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in love.",
+        "tr": "sevgi konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans amour, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em amor, eu me concentro no que posso controlar.",
+        "nl": "In liefde richt ik me op wat ik kan controleren.",
+        "es": "En amor, me enfoco en lo que puedo controlar.",
+        "de": "In liebe konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In amore, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «любовь» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam cinta, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "愛では、コントロールできることに意識を向ける。",
+        "th": "ในความรัก ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam cinta, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_247",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow love to be simple and sincere.",
+        "tr": "sevgi konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à amour d'être simple et sincère.",
+        "pt": "Eu permito que amor seja simples e verdadeiro.",
+        "nl": "Ik laat liefde eenvoudig en oprecht zijn.",
+        "es": "Permito que amor sea simple y auténtico.",
+        "de": "Ich erlaube liebe, einfach und aufrichtig zu sein.",
+        "it": "Permetto a amore di essere semplice e autentico.",
+        "ru": "Я позволяю теме «любовь» быть простой и искренней.",
+        "id": "Aku membiarkan cinta tetap sederhana dan tulus.",
+        "ja": "愛はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความรักเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan cinta menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_248",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in love today.",
+        "tr": "Bugün sevgi konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en amour.",
+        "pt": "Hoje, noto uma pequena vitória em amor.",
+        "nl": "Vandaag zie ik een kleine overwinning in liefde.",
+        "es": "Hoy noto una pequeña victoria en amor.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in liebe.",
+        "it": "Oggi noto una piccola vittoria in amore.",
+        "ru": "Сегодня в теме «любовь» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam cinta.",
+        "ja": "今日、愛で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความรัก",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_249",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in love.",
+        "tr": "sevgi konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans amour.",
+        "pt": "Eu respeito meus limites enquanto avanço em amor.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in liefde.",
+        "es": "Honro mis límites mientras avanzo en amor.",
+        "de": "Ich achte auf meine Grenzen, während ich in liebe vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in amore.",
+        "ru": "В теме «любовь» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam cinta.",
+        "ja": "愛で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความรัก",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_250",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in love.",
+        "tr": "sevgi konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en amour.",
+        "pt": "Deixo a curiosidade guiar meus passos em amor.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in liefde.",
+        "es": "Dejo que la curiosidad guíe mis pasos en amor.",
+        "de": "Ich lasse Neugier meine Schritte in liebe lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in amore.",
+        "ru": "В теме «любовь» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam cinta.",
+        "ja": "愛では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความรัก",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_251",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in love.",
+        "tr": "sevgi konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en amour.",
+        "pt": "Eu escolho clareza em vez de urgência em amor.",
+        "nl": "Ik kies helderheid boven haast in liefde.",
+        "es": "Elijo claridad en lugar de urgencia en amor.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in liebe.",
+        "it": "Scelgo chiarezza invece di urgenza in amore.",
+        "ru": "В теме «любовь» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam cinta.",
+        "ja": "愛では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความรัก",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_252",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep love gentle and consistent.",
+        "tr": "sevgi konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde amour avec douceur et constance.",
+        "pt": "Mantenho amor com suavidade e constância.",
+        "nl": "Ik houd liefde zacht en consistent.",
+        "es": "Mantengo amor suave y constante.",
+        "de": "Ich halte liebe sanft und beständig.",
+        "it": "Mantengo amore con dolcezza e costanza.",
+        "ru": "В теме «любовь» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga cinta tetap lembut dan konsisten.",
+        "ja": "愛を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความรักอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan cinta dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what love needs from me right now.",
+        "tr": "Şu anda sevgi konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que amour a besoin de moi maintenant.",
+        "pt": "Eu escuto o que amor precisa de mim agora.",
+        "nl": "Ik luister naar wat liefde nu van mij nodig heeft.",
+        "es": "Escucho lo que amor necesita de mí ahora.",
+        "de": "Ich höre darauf, was liebe jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui amore ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «любовь» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang cinta butuhkan dariku sekarang.",
+        "ja": "今、愛が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความรักต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang cinta perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in love compounds.",
+        "tr": "sevgi konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en amour.",
+        "pt": "Confio que o esforço constante em amor se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in liefde zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en amor se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in liebe sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in amore si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «любовь» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam cinta berakumulasi.",
+        "ja": "愛での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความรักจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam cinta terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "love_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into love.",
+        "tr": "sevgi konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans amour.",
+        "pt": "Eu acolho leveza e foco em amor.",
+        "nl": "Ik verwelkom gemak en focus in liefde.",
+        "es": "Doy la bienvenida a la calma y el enfoque en amor.",
+        "de": "Ich heiße Leichtigkeit und Fokus in liebe willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in amore.",
+        "ru": "В теме «любовь» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam cinta.",
+        "ja": "愛に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความรัก",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam cinta."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "love",
+      "tags": {
+        "en": [
+          "love",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sevgi",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amour",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amor",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "liefde",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amor",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "liebe",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amore",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "любовь",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "愛",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความรัก",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "cinta",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

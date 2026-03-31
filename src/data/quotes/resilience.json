@@ -22896,19 +22896,19 @@
       "id": "res_241",
       "type": "quote",
       "texts": {
-        "en": "In resilience, the first version can be rough; the second is where the truth appears.",
-        "tr": "dayanıklılık konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En résilience, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em resiliência, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij veerkracht kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En resiliencia, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei resilienz kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In resilienza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть устойчивость, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam ketangguhan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "回復力では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความยืดหยุ่น เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam ketahanan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"resilience\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"dayanıklılık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"résilience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"resiliência\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"veerkracht\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"resiliencia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"resilienz\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"resilienza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «устойчивость», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"ketangguhan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「回復力」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"ketahanan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -23445,19 +23445,19 @@
       "id": "res_244",
       "type": "quote",
       "texts": {
-        "en": "resilience moves faster when your grip is open.",
-        "tr": "dayanıklılık, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "résilience avance plus vite quand ta prise est ouverte.",
-        "pt": "resiliência anda mais rápido quando sua pegada está aberta.",
-        "nl": "veerkracht beweegt sneller als je greep open is.",
-        "es": "resiliencia avanza más rápido cuando tu agarre está abierto.",
-        "de": "resilienz bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "resilienza si muove più veloce quando la tua presa è aperta.",
-        "ru": "устойчивость движется быстрее, когда хватка открыта.",
-        "id": "ketangguhan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "回復力は、握りしめないときに速く進む。",
-        "th": "ความยืดหยุ่น ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "ketahanan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, resilience moves faster.",
+        "tr": "Tutuşunu gevşettiğinde dayanıklılık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, résilience avance plus vite.",
+        "pt": "Quando você solta o aperto, resiliência anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat veerkracht sneller.",
+        "es": "Cuando sueltas el agarre, resiliencia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt resilienz schneller voran.",
+        "it": "Quando allenti la presa, resilienza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, устойчивость движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, ketangguhan melaju lebih cepat.",
+        "ja": "握りを緩めると、回復力は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความยืดหยุ่นเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, ketahanan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -23547,79 +23547,79 @@
         "en": {
           "id": "story_res_244_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for resilience, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_res_244_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "dayanıklılık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_res_244_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour résilience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_res_244_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para resiliência, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_res_244_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor veerkracht losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_res_244_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para resiliencia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_res_244_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für resilienz lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_res_244_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per resilienza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_res_244_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для устойчивость, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_res_244_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk ketangguhan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_res_244_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "回復力の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_res_244_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความยืดหยุ่น ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_res_244_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk ketahanan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23628,19 +23628,19 @@
       "id": "res_245",
       "type": "quote",
       "texts": {
-        "en": "In resilience, the quiet signal is often the true one.",
-        "tr": "dayanıklılık konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En résilience, le signal discret est souvent le vrai.",
-        "pt": "Em resiliência, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij veerkracht is het stille signaal vaak het echte.",
-        "es": "En resiliencia, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei resilienz ist das leise Signal oft das wahre.",
-        "it": "In resilienza, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть устойчивость, тихий сигнал часто самый верный.",
-        "id": "Dalam ketangguhan, sinyal yang tenang sering kali yang benar.",
-        "ja": "回復力では、静かな合図が本当であることが多い。",
-        "th": "ใน ความยืดหยุ่น สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam ketahanan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"resilience\", the quiet signal is often the true one.",
+        "tr": "Konu \"dayanıklılık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"résilience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"resiliência\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"veerkracht\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"resiliencia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"resilienz\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"resilienza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «устойчивость», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"ketangguhan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「回復力」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"ketahanan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -24360,19 +24360,19 @@
       "id": "res_249",
       "type": "quote",
       "texts": {
-        "en": "In resilience, returning is part of the path, not a failure.",
-        "tr": "dayanıklılık içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En résilience, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em resiliência, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij veerkracht is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En resiliencia, volver es parte del camino, no un fracaso.",
-        "de": "Bei resilienz ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In resilienza, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть устойчивость, возвращение — часть пути, а не провал.",
-        "id": "Dalam ketangguhan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "回復力では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความยืดหยุ่น การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam ketahanan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"resilience\", returning is part of the path, not a failure.",
+        "tr": "Konu \"dayanıklılık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"résilience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"resiliência\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"veerkracht\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"resiliencia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"resilienz\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"resilienza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «устойчивость», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"ketangguhan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「回復力」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"ketahanan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -24462,79 +24462,79 @@
         "en": {
           "id": "story_res_249_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"resilience\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_res_249_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"dayanıklılık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_res_249_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"résilience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_res_249_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"resiliência\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_res_249_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"veerkracht\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_res_249_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"resiliencia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_res_249_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"resilienz\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_res_249_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"resilienza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_res_249_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «устойчивость» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_res_249_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"ketangguhan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_res_249_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「回復力」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_res_249_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความยืดหยุ่น\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_res_249_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"ketahanan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24726,19 +24726,19 @@
       "id": "res_251",
       "type": "quote",
       "texts": {
-        "en": "In resilience, the first version can be rough; the second is where the truth appears.",
-        "tr": "dayanıklılık konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans résilience, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em resiliência, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In veerkracht kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En resiliencia, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In resilienz kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In resilienza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "устойчивость иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam ketangguhan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "回復力では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความยืดหยุ่น เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam ketahanan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"resilience\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"dayanıklılık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"résilience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"resiliência\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"veerkracht\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"resiliencia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"resilienz\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"resilienza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «устойчивость», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"ketangguhan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「回復力」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"ketahanan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -25275,19 +25275,19 @@
       "id": "res_254",
       "type": "quote",
       "texts": {
-        "en": "resilience moves faster when your grip is open.",
-        "tr": "dayanıklılık, elin gevşekken daha hızlı ilerler.",
-        "fr": "résilience avance plus vite quand la prise est ouverte.",
-        "pt": "resiliência anda mais rápido quando o aperto é aberto.",
-        "nl": "veerkracht gaat sneller als je grip open is.",
-        "es": "resiliencia avanza más rápido cuando el agarre está abierto.",
-        "de": "resilienz kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "resilienza procede più veloce quando la presa è aperta.",
-        "ru": "устойчивость движется быстрее, когда хватка открыта.",
-        "id": "ketangguhan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "回復力は、握りが開いているときに進みが速い。",
-        "th": "ความยืดหยุ่นเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "ketahanan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, resilience moves faster.",
+        "tr": "Tutuşunu gevşettiğinde dayanıklılık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, résilience avance plus vite.",
+        "pt": "Quando você solta o aperto, resiliência anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat veerkracht sneller.",
+        "es": "Cuando sueltas el agarre, resiliencia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt resilienz schneller voran.",
+        "it": "Quando allenti la presa, resilienza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, устойчивость движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, ketangguhan melaju lebih cepat.",
+        "ja": "握りを緩めると、回復力は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความยืดหยุ่นเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, ketahanan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -25377,79 +25377,79 @@
         "en": {
           "id": "story_res_254_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the resilience schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for resilience, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_res_254_tr",
           "title": "Açık El",
-          "content": "dayanıklılık takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "dayanıklılık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_res_254_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de résilience, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour résilience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_res_254_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de resiliência, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para resiliência, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_res_254_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het veerkracht-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor veerkracht losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_res_254_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de resiliencia, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para resiliencia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_res_254_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am resilienz-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für resilienz lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_res_254_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di resilienza, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per resilienza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_res_254_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании устойчивость, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для устойчивость, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_res_254_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal ketangguhan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk ketangguhan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_res_254_ja",
           "title": "開いた手",
-          "content": "回復力の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "回復力の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_res_254_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความยืดหยุ่น ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความยืดหยุ่น ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_res_254_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual ketahanan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk ketahanan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -25458,19 +25458,19 @@
       "id": "res_255",
       "type": "quote",
       "texts": {
-        "en": "In resilience, the quiet signal is often the true one.",
-        "tr": "dayanıklılık içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans résilience, le signal discret est souvent le vrai.",
-        "pt": "Em resiliência, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In veerkracht is het stille signaal vaak het echte.",
-        "es": "En resiliencia, la señal silenciosa suele ser la verdadera.",
-        "de": "In resilienz ist das leise Signal oft das wahre.",
-        "it": "In resilienza, il segnale silenzioso è spesso quello vero.",
-        "ru": "В устойчивость тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam ketangguhan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "回復力では、静かな合図が本当であることが多い。",
-        "th": "ในความยืดหยุ่น สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam ketahanan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"resilience\", the quiet signal is often the true one.",
+        "tr": "Konu \"dayanıklılık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"résilience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"resiliência\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"veerkracht\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"resiliencia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"resilienz\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"resilienza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «устойчивость», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"ketangguhan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「回復力」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"ketahanan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -26190,19 +26190,19 @@
       "id": "res_259",
       "type": "quote",
       "texts": {
-        "en": "In resilience, returning is part of the path, not a failure.",
-        "tr": "dayanıklılık içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans résilience, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em resiliência, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In veerkracht is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En resiliencia, volver es parte del camino, no un fracaso.",
-        "de": "In resilienz ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In resilienza, tornare è parte del percorso, non un fallimento.",
-        "ru": "В устойчивость возвращение — часть пути, а не провал.",
-        "id": "Dalam ketangguhan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "回復力では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความยืดหยุ่น การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam ketahanan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"resilience\", returning is part of the path, not a failure.",
+        "tr": "Konu \"dayanıklılık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"résilience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"resiliência\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"veerkracht\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"resiliencia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"resilienz\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"resilienza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «устойчивость», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"ketangguhan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「回復力」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความยืดหยุ่น\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"ketahanan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -26292,79 +26292,79 @@
         "en": {
           "id": "story_res_259_en",
           "title": "The Return",
-          "content": "After a missed week in resilience, she came back and the line continued.",
+          "content": "After a week without \"resilience\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_res_259_tr",
           "title": "Dönüş",
-          "content": "dayanıklılık içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"dayanıklılık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_res_259_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en résilience, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"résilience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_res_259_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em resiliência, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"resiliência\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_res_259_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in veerkracht kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"veerkracht\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_res_259_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en resiliencia, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"resiliencia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_res_259_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in resilienz kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"resilienz\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_res_259_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in resilienza, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"resilienza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_res_259_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в устойчивость она вернулась, и линия продолжилась.",
+          "content": "В теме «устойчивость» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_res_259_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di ketangguhan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"ketangguhan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_res_259_ja",
           "title": "帰り道",
-          "content": "回復力を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「回復力」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_res_259_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความยืดหยุ่น เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความยืดหยุ่น\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_res_259_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam ketahanan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"ketahanan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -26551,6 +26551,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "res_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "In resilience, I take small, steady steps.",
+        "tr": "dayanıklılık konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans résilience, je fais de petits pas réguliers.",
+        "pt": "Em resiliência, dou passos pequenos e constantes.",
+        "nl": "In veerkracht zet ik kleine, gestage stappen.",
+        "es": "En resiliencia, doy pasos pequeños y constantes.",
+        "de": "In resilienz gehe ich kleine, stetige Schritte.",
+        "it": "In resilienza, faccio passi piccoli e costanti.",
+        "ru": "В теме «устойчивость» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam ketangguhan, saya melangkah kecil dan konsisten.",
+        "ja": "回復力では、小さく着実な一歩を重ねる。",
+        "th": "ในความยืดหยุ่น ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam ketahanan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to resilience today.",
+        "tr": "Bugün dayanıklılık için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à résilience aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para resiliência.",
+        "nl": "Vandaag breng ik kalmte en helderheid in veerkracht.",
+        "es": "Hoy llevo calma y claridad a resiliencia.",
+        "de": "Heute bringe ich Ruhe und Klarheit in resilienz.",
+        "it": "Oggi porto calma e chiarezza a resilienza.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «устойчивость».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke ketangguhan.",
+        "ja": "今日は回復力に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความยืดหยุ่น",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give resilience my full attention without pressure.",
+        "tr": "dayanıklılık için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à résilience sans pression.",
+        "pt": "Dou a resiliência minha atenção total sem pressão.",
+        "nl": "Ik geef veerkracht mijn volle aandacht zonder druk.",
+        "es": "Doy a resiliencia toda mi atención sin presión.",
+        "de": "Ich schenke resilienz meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a resilienza tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «устойчивость» всё своё внимание без давления.",
+        "id": "Saya memberi ketangguhan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく回復力に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความยืดหยุ่นโดยไม่กดดัน",
+        "ms": "Saya memberi ketahanan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "In resilience, I choose progress over perfection.",
+        "tr": "dayanıklılık konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans résilience, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em resiliência, escolho progresso em vez de perfeição.",
+        "nl": "In veerkracht kies ik voor vooruitgang boven perfectie.",
+        "es": "En resiliencia, elijo el progreso por encima de la perfección.",
+        "de": "In resilienz wähle ich Fortschritt statt Perfektion.",
+        "it": "In resilienza, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «устойчивость» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam ketangguhan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "回復力では、完璧より前進を選ぶ。",
+        "th": "ในความยืดหยุ่น ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam ketahanan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to resilience gently.",
+        "tr": "Dağılırsam dayanıklılıke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à résilience avec douceur.",
+        "pt": "Se eu me dispersar, volto a resiliência com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar veerkracht.",
+        "es": "Si me disperso, vuelvo a resiliencia con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu resilienz zurück.",
+        "it": "Se mi disperdo, torno a resilienza con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «устойчивость».",
+        "id": "Jika saya teralihkan, saya kembali ke ketangguhan dengan lembut.",
+        "ja": "迷ったら、やさしく回復力に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความยืดหยุ่นอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada ketahanan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in resilience align with my values.",
+        "tr": "dayanıklılık konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en résilience sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em resiliência estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in veerkracht sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en resiliencia están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in resilienz passen zu meinen Werten.",
+        "it": "Le mie scelte in resilienza sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «устойчивость» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam ketangguhan selaras dengan nilai-nilai saya.",
+        "ja": "回復力での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความยืดหยุ่นสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam ketahanan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in resilience.",
+        "tr": "dayanıklılık konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en résilience.",
+        "pt": "Confio no meu ritmo em resiliência.",
+        "nl": "Ik vertrouw op mijn tempo in veerkracht.",
+        "es": "Confío en mi ritmo en resiliencia.",
+        "de": "Ich vertraue meinem Tempo in resilienz.",
+        "it": "Mi fido del mio ritmo in resilienza.",
+        "ru": "Я доверяю своему темпу в теме «устойчивость».",
+        "id": "Saya percaya pada ritme saya dalam ketangguhan.",
+        "ja": "回復力での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความยืดหยุ่น",
+        "ms": "Saya percaya pada rentak saya dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for resilience to grow naturally.",
+        "tr": "dayanıklılık için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que résilience grandisse naturellement.",
+        "pt": "Abro espaço para resiliência crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat veerkracht natuurlijk kan groeien.",
+        "es": "Hago espacio para que resiliencia crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit resilienz natürlich wachsen kann.",
+        "it": "Creo spazio perché resilienza cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «устойчивость» происходил естественно.",
+        "id": "Saya memberi ruang agar ketangguhan tumbuh secara alami.",
+        "ja": "回復力が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความยืดหยุ่นเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar ketahanan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in resilience.",
+        "tr": "Bugün dayanıklılık konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en résilience.",
+        "pt": "Hoje, dou um passo claro em resiliência.",
+        "nl": "Vandaag zet ik één duidelijke stap in veerkracht.",
+        "es": "Hoy doy un paso claro en resiliencia.",
+        "de": "Heute mache ich einen klaren Schritt in resilienz.",
+        "it": "Oggi faccio un passo chiaro in resilienza.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «устойчивость».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam ketangguhan.",
+        "ja": "今日は回復力で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความยืดหยุ่น",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with resilience.",
+        "tr": "dayanıklılık konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec résilience.",
+        "pt": "Sou paciente e presente com resiliência.",
+        "nl": "Ik ben geduldig en aanwezig met veerkracht.",
+        "es": "Soy paciente y presente con resiliencia.",
+        "de": "Ich bin geduldig und präsent mit resilienz.",
+        "it": "Sono paziente e presente con resilienza.",
+        "ru": "Я терпелив(а) и присутствую в теме «устойчивость».",
+        "id": "Saya sabar dan hadir bersama ketangguhan.",
+        "ja": "回復力に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความยืดหยุ่นอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in resilience.",
+        "tr": "dayanıklılık konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans résilience, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em resiliência, eu me concentro no que posso controlar.",
+        "nl": "In veerkracht richt ik me op wat ik kan controleren.",
+        "es": "En resiliencia, me enfoco en lo que puedo controlar.",
+        "de": "In resilienz konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In resilienza, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «устойчивость» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam ketangguhan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "回復力では、コントロールできることに意識を向ける。",
+        "th": "ในความยืดหยุ่น ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam ketahanan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow resilience to be simple and sincere.",
+        "tr": "dayanıklılık konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à résilience d'être simple et sincère.",
+        "pt": "Eu permito que resiliência seja simples e verdadeiro.",
+        "nl": "Ik laat veerkracht eenvoudig en oprecht zijn.",
+        "es": "Permito que resiliencia sea simple y auténtico.",
+        "de": "Ich erlaube resilienz, einfach und aufrichtig zu sein.",
+        "it": "Permetto a resilienza di essere semplice e autentico.",
+        "ru": "Я позволяю теме «устойчивость» быть простой и искренней.",
+        "id": "Aku membiarkan ketangguhan tetap sederhana dan tulus.",
+        "ja": "回復力はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความยืดหยุ่นเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan ketahanan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in resilience today.",
+        "tr": "Bugün dayanıklılık konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en résilience.",
+        "pt": "Hoje, noto uma pequena vitória em resiliência.",
+        "nl": "Vandaag zie ik een kleine overwinning in veerkracht.",
+        "es": "Hoy noto una pequeña victoria en resiliencia.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in resilienz.",
+        "it": "Oggi noto una piccola vittoria in resilienza.",
+        "ru": "Сегодня в теме «устойчивость» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam ketangguhan.",
+        "ja": "今日、回復力で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความยืดหยุ่น",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in resilience.",
+        "tr": "dayanıklılık konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans résilience.",
+        "pt": "Eu respeito meus limites enquanto avanço em resiliência.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in veerkracht.",
+        "es": "Honro mis límites mientras avanzo en resiliencia.",
+        "de": "Ich achte auf meine Grenzen, während ich in resilienz vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in resilienza.",
+        "ru": "В теме «устойчивость» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam ketangguhan.",
+        "ja": "回復力で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความยืดหยุ่น",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in resilience.",
+        "tr": "dayanıklılık konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en résilience.",
+        "pt": "Deixo a curiosidade guiar meus passos em resiliência.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in veerkracht.",
+        "es": "Dejo que la curiosidad guíe mis pasos en resiliencia.",
+        "de": "Ich lasse Neugier meine Schritte in resilienz lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in resilienza.",
+        "ru": "В теме «устойчивость» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam ketangguhan.",
+        "ja": "回復力では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความยืดหยุ่น",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in resilience.",
+        "tr": "dayanıklılık konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en résilience.",
+        "pt": "Eu escolho clareza em vez de urgência em resiliência.",
+        "nl": "Ik kies helderheid boven haast in veerkracht.",
+        "es": "Elijo claridad en lugar de urgencia en resiliencia.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in resilienz.",
+        "it": "Scelgo chiarezza invece di urgenza in resilienza.",
+        "ru": "В теме «устойчивость» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam ketangguhan.",
+        "ja": "回復力では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความยืดหยุ่น",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep resilience gentle and consistent.",
+        "tr": "dayanıklılık konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde résilience avec douceur et constance.",
+        "pt": "Mantenho resiliência com suavidade e constância.",
+        "nl": "Ik houd veerkracht zacht en consistent.",
+        "es": "Mantengo resiliencia suave y constante.",
+        "de": "Ich halte resilienz sanft und beständig.",
+        "it": "Mantengo resilienza con dolcezza e costanza.",
+        "ru": "В теме «устойчивость» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga ketangguhan tetap lembut dan konsisten.",
+        "ja": "回復力を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความยืดหยุ่นอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan ketahanan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_278",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what resilience needs from me right now.",
+        "tr": "Şu anda dayanıklılık konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que résilience a besoin de moi maintenant.",
+        "pt": "Eu escuto o que resiliência precisa de mim agora.",
+        "nl": "Ik luister naar wat veerkracht nu van mij nodig heeft.",
+        "es": "Escucho lo que resiliencia necesita de mí ahora.",
+        "de": "Ich höre darauf, was resilienz jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui resilienza ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «устойчивость» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang ketangguhan butuhkan dariku sekarang.",
+        "ja": "今、回復力が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความยืดหยุ่นต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang ketahanan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_279",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in resilience compounds.",
+        "tr": "dayanıklılık konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en résilience.",
+        "pt": "Confio que o esforço constante em resiliência se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in veerkracht zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en resiliencia se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in resilienz sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in resilienza si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «устойчивость» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam ketangguhan berakumulasi.",
+        "ja": "回復力での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความยืดหยุ่นจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam ketahanan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "res_280",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into resilience.",
+        "tr": "dayanıklılık konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans résilience.",
+        "pt": "Eu acolho leveza e foco em resiliência.",
+        "nl": "Ik verwelkom gemak en focus in veerkracht.",
+        "es": "Doy la bienvenida a la calma y el enfoque en resiliencia.",
+        "de": "Ich heiße Leichtigkeit und Fokus in resilienz willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in resilienza.",
+        "ru": "В теме «устойчивость» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam ketangguhan.",
+        "ja": "回復力に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความยืดหยุ่น",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam ketahanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "resilience",
+      "tags": {
+        "en": [
+          "resilience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dayanıklılık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "résilience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "resiliência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "veerkracht",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "resiliencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "resilienz",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "resilienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "устойчивость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "ketangguhan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "回復力",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความยืดหยุ่น",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "ketahanan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

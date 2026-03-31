@@ -23420,19 +23420,19 @@
       "id": "dre_239",
       "type": "quote",
       "texts": {
-        "en": "In dreams, the first version can be rough; the second is where the truth appears.",
-        "tr": "hayaller konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En rêves, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em sonhos, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij dromen kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En sueños, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei träume kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In sogni, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть мечты, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam mimpi, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "夢では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความฝัน เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam impian, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"dreams\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"hayaller\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"rêves\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sonhos\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"dromen\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"sueños\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"träume\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"sogni\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мечты», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"mimpi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「夢」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"impian\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -23969,19 +23969,19 @@
       "id": "dre_242",
       "type": "quote",
       "texts": {
-        "en": "dreams moves faster when your grip is open.",
-        "tr": "hayaller, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "rêves avance plus vite quand ta prise est ouverte.",
-        "pt": "sonhos anda mais rápido quando sua pegada está aberta.",
-        "nl": "dromen beweegt sneller als je greep open is.",
-        "es": "sueños avanza más rápido cuando tu agarre está abierto.",
-        "de": "träume bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "sogni si muove più veloce quando la tua presa è aperta.",
-        "ru": "мечты движется быстрее, когда хватка открыта.",
-        "id": "mimpi bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "夢は、握りしめないときに速く進む。",
-        "th": "ความฝัน ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "impian bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, dreams moves faster.",
+        "tr": "Tutuşunu gevşettiğinde hayaller daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, rêves avance plus vite.",
+        "pt": "Quando você solta o aperto, sonhos anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat dromen sneller.",
+        "es": "Cuando sueltas el agarre, sueños avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt träume schneller voran.",
+        "it": "Quando allenti la presa, sogni procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мечты движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, mimpi melaju lebih cepat.",
+        "ja": "握りを緩めると、夢は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความฝันเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, impian bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -24071,79 +24071,79 @@
         "en": {
           "id": "story_dre_242_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for dreams, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_dre_242_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "hayaller planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_dre_242_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour rêves, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_dre_242_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para sonhos, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_dre_242_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor dromen losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_dre_242_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para sueños, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_dre_242_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für träume lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_dre_242_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per sogni, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_dre_242_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для мечты, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_dre_242_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk mimpi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_dre_242_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "夢の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_dre_242_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความฝัน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_dre_242_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk impian, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24152,19 +24152,19 @@
       "id": "dre_243",
       "type": "quote",
       "texts": {
-        "en": "In dreams, the quiet signal is often the true one.",
-        "tr": "hayaller konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En rêves, le signal discret est souvent le vrai.",
-        "pt": "Em sonhos, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij dromen is het stille signaal vaak het echte.",
-        "es": "En sueños, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei träume ist das leise Signal oft das wahre.",
-        "it": "In sogni, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть мечты, тихий сигнал часто самый верный.",
-        "id": "Dalam mimpi, sinyal yang tenang sering kali yang benar.",
-        "ja": "夢では、静かな合図が本当であることが多い。",
-        "th": "ใน ความฝัน สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam impian, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"dreams\", the quiet signal is often the true one.",
+        "tr": "Konu \"hayaller\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"rêves\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sonhos\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"dromen\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"sueños\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"träume\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"sogni\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мечты», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"mimpi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「夢」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"impian\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -24884,19 +24884,19 @@
       "id": "dre_247",
       "type": "quote",
       "texts": {
-        "en": "In dreams, returning is part of the path, not a failure.",
-        "tr": "hayaller içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En rêves, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em sonhos, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij dromen is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En sueños, volver es parte del camino, no un fracaso.",
-        "de": "Bei träume ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In sogni, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть мечты, возвращение — часть пути, а не провал.",
-        "id": "Dalam mimpi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "夢では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความฝัน การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam impian, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"dreams\", returning is part of the path, not a failure.",
+        "tr": "Konu \"hayaller\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"rêves\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sonhos\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"dromen\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"sueños\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"träume\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"sogni\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мечты», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"mimpi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「夢」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"impian\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -24986,79 +24986,79 @@
         "en": {
           "id": "story_dre_247_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"dreams\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_dre_247_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"hayaller\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_dre_247_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"rêves\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_dre_247_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"sonhos\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_dre_247_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"dromen\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_dre_247_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"sueños\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_dre_247_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"träume\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_dre_247_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"sogni\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_dre_247_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «мечты» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_dre_247_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"mimpi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_dre_247_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「夢」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_dre_247_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความฝัน\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_dre_247_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"impian\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -25250,19 +25250,19 @@
       "id": "dre_249",
       "type": "quote",
       "texts": {
-        "en": "In dreams, the first version can be rough; the second is where the truth appears.",
-        "tr": "hayaller konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans rêves, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em sonhos, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In dromen kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En sueños, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In träume kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In sogni, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "мечты иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam mimpi, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "夢では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความฝัน เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam impian, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"dreams\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"hayaller\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"rêves\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sonhos\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"dromen\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"sueños\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"träume\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"sogni\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мечты», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"mimpi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「夢」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"impian\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -25799,19 +25799,19 @@
       "id": "dre_252",
       "type": "quote",
       "texts": {
-        "en": "dreams moves faster when your grip is open.",
-        "tr": "hayaller, elin gevşekken daha hızlı ilerler.",
-        "fr": "rêves avance plus vite quand la prise est ouverte.",
-        "pt": "sonhos anda mais rápido quando o aperto é aberto.",
-        "nl": "dromen gaat sneller als je grip open is.",
-        "es": "sueños avanza más rápido cuando el agarre está abierto.",
-        "de": "träume kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "sogni procede più veloce quando la presa è aperta.",
-        "ru": "мечты движется быстрее, когда хватка открыта.",
-        "id": "mimpi melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "夢は、握りが開いているときに進みが速い。",
-        "th": "ความฝันเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "impian bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, dreams moves faster.",
+        "tr": "Tutuşunu gevşettiğinde hayaller daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, rêves avance plus vite.",
+        "pt": "Quando você solta o aperto, sonhos anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat dromen sneller.",
+        "es": "Cuando sueltas el agarre, sueños avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt träume schneller voran.",
+        "it": "Quando allenti la presa, sogni procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мечты движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, mimpi melaju lebih cepat.",
+        "ja": "握りを緩めると、夢は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความฝันเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, impian bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -25901,79 +25901,79 @@
         "en": {
           "id": "story_dre_252_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the dreams schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for dreams, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_dre_252_tr",
           "title": "Açık El",
-          "content": "hayaller takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "hayaller planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_dre_252_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de rêves, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour rêves, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_dre_252_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de sonhos, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para sonhos, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_dre_252_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het dromen-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor dromen losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_dre_252_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de sueños, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para sueños, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_dre_252_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am träume-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für träume lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_dre_252_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di sogni, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per sogni, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_dre_252_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании мечты, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для мечты, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_dre_252_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal mimpi, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk mimpi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_dre_252_ja",
           "title": "開いた手",
-          "content": "夢の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "夢の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_dre_252_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความฝัน ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความฝัน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_dre_252_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual impian, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk impian, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -25982,19 +25982,19 @@
       "id": "dre_253",
       "type": "quote",
       "texts": {
-        "en": "In dreams, the quiet signal is often the true one.",
-        "tr": "hayaller içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans rêves, le signal discret est souvent le vrai.",
-        "pt": "Em sonhos, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In dromen is het stille signaal vaak het echte.",
-        "es": "En sueños, la señal silenciosa suele ser la verdadera.",
-        "de": "In träume ist das leise Signal oft das wahre.",
-        "it": "In sogni, il segnale silenzioso è spesso quello vero.",
-        "ru": "В мечты тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam mimpi, sinyal yang sunyi sering kali yang benar.",
-        "ja": "夢では、静かな合図が本当であることが多い。",
-        "th": "ในความฝัน สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam impian, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"dreams\", the quiet signal is often the true one.",
+        "tr": "Konu \"hayaller\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"rêves\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sonhos\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"dromen\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"sueños\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"träume\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"sogni\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мечты», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"mimpi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「夢」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"impian\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -26714,19 +26714,19 @@
       "id": "dre_257",
       "type": "quote",
       "texts": {
-        "en": "In dreams, returning is part of the path, not a failure.",
-        "tr": "hayaller içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans rêves, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em sonhos, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In dromen is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En sueños, volver es parte del camino, no un fracaso.",
-        "de": "In träume ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In sogni, tornare è parte del percorso, non un fallimento.",
-        "ru": "В мечты возвращение — часть пути, а не провал.",
-        "id": "Dalam mimpi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "夢では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความฝัน การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam impian, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"dreams\", returning is part of the path, not a failure.",
+        "tr": "Konu \"hayaller\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"rêves\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sonhos\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"dromen\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"sueños\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"träume\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"sogni\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мечты», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"mimpi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「夢」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความฝัน\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"impian\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -26816,79 +26816,79 @@
         "en": {
           "id": "story_dre_257_en",
           "title": "The Return",
-          "content": "After a missed week in dreams, she came back and the line continued.",
+          "content": "After a week without \"dreams\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_dre_257_tr",
           "title": "Dönüş",
-          "content": "hayaller içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"hayaller\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_dre_257_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en rêves, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"rêves\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_dre_257_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em sonhos, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"sonhos\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_dre_257_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in dromen kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"dromen\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_dre_257_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en sueños, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"sueños\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_dre_257_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in träume kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"träume\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_dre_257_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in sogni, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"sogni\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_dre_257_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в мечты она вернулась, и линия продолжилась.",
+          "content": "В теме «мечты» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_dre_257_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di mimpi, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"mimpi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_dre_257_ja",
           "title": "帰り道",
-          "content": "夢を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「夢」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_dre_257_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความฝัน เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความฝัน\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_dre_257_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam impian, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"impian\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -27075,6 +27075,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "dre_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "In dreams, I take small, steady steps.",
+        "tr": "hayaller konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans rêves, je fais de petits pas réguliers.",
+        "pt": "Em sonhos, dou passos pequenos e constantes.",
+        "nl": "In dromen zet ik kleine, gestage stappen.",
+        "es": "En sueños, doy pasos pequeños y constantes.",
+        "de": "In träume gehe ich kleine, stetige Schritte.",
+        "it": "In sogni, faccio passi piccoli e costanti.",
+        "ru": "В теме «мечты» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam mimpi, saya melangkah kecil dan konsisten.",
+        "ja": "夢では、小さく着実な一歩を重ねる。",
+        "th": "ในความฝัน ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam impian, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to dreams today.",
+        "tr": "Bugün hayaller için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à rêves aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para sonhos.",
+        "nl": "Vandaag breng ik kalmte en helderheid in dromen.",
+        "es": "Hoy llevo calma y claridad a sueños.",
+        "de": "Heute bringe ich Ruhe und Klarheit in träume.",
+        "it": "Oggi porto calma e chiarezza a sogni.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «мечты».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke mimpi.",
+        "ja": "今日は夢に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความฝัน",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give dreams my full attention without pressure.",
+        "tr": "hayaller için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à rêves sans pression.",
+        "pt": "Dou a sonhos minha atenção total sem pressão.",
+        "nl": "Ik geef dromen mijn volle aandacht zonder druk.",
+        "es": "Doy a sueños toda mi atención sin presión.",
+        "de": "Ich schenke träume meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a sogni tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «мечты» всё своё внимание без давления.",
+        "id": "Saya memberi mimpi perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく夢に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความฝันโดยไม่กดดัน",
+        "ms": "Saya memberi impian perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "In dreams, I choose progress over perfection.",
+        "tr": "hayaller konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans rêves, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em sonhos, escolho progresso em vez de perfeição.",
+        "nl": "In dromen kies ik voor vooruitgang boven perfectie.",
+        "es": "En sueños, elijo el progreso por encima de la perfección.",
+        "de": "In träume wähle ich Fortschritt statt Perfektion.",
+        "it": "In sogni, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «мечты» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam mimpi, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "夢では、完璧より前進を選ぶ。",
+        "th": "ในความฝัน ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam impian, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to dreams gently.",
+        "tr": "Dağılırsam hayallere nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à rêves avec douceur.",
+        "pt": "Se eu me dispersar, volto a sonhos com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar dromen.",
+        "es": "Si me disperso, vuelvo a sueños con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu träume zurück.",
+        "it": "Se mi disperdo, torno a sogni con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «мечты».",
+        "id": "Jika saya teralihkan, saya kembali ke mimpi dengan lembut.",
+        "ja": "迷ったら、やさしく夢に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความฝันอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada impian dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in dreams align with my values.",
+        "tr": "hayaller konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en rêves sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em sonhos estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in dromen sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en sueños están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in träume passen zu meinen Werten.",
+        "it": "Le mie scelte in sogni sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «мечты» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam mimpi selaras dengan nilai-nilai saya.",
+        "ja": "夢での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความฝันสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam impian selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in dreams.",
+        "tr": "hayaller konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en rêves.",
+        "pt": "Confio no meu ritmo em sonhos.",
+        "nl": "Ik vertrouw op mijn tempo in dromen.",
+        "es": "Confío en mi ritmo en sueños.",
+        "de": "Ich vertraue meinem Tempo in träume.",
+        "it": "Mi fido del mio ritmo in sogni.",
+        "ru": "Я доверяю своему темпу в теме «мечты».",
+        "id": "Saya percaya pada ritme saya dalam mimpi.",
+        "ja": "夢での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความฝัน",
+        "ms": "Saya percaya pada rentak saya dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for dreams to grow naturally.",
+        "tr": "hayaller için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que rêves grandisse naturellement.",
+        "pt": "Abro espaço para sonhos crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat dromen natuurlijk kan groeien.",
+        "es": "Hago espacio para que sueños crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit träume natürlich wachsen kann.",
+        "it": "Creo spazio perché sogni cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «мечты» происходил естественно.",
+        "id": "Saya memberi ruang agar mimpi tumbuh secara alami.",
+        "ja": "夢が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความฝันเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar impian berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in dreams.",
+        "tr": "Bugün hayaller konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en rêves.",
+        "pt": "Hoje, dou um passo claro em sonhos.",
+        "nl": "Vandaag zet ik één duidelijke stap in dromen.",
+        "es": "Hoy doy un paso claro en sueños.",
+        "de": "Heute mache ich einen klaren Schritt in träume.",
+        "it": "Oggi faccio un passo chiaro in sogni.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «мечты».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam mimpi.",
+        "ja": "今日は夢で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความฝัน",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with dreams.",
+        "tr": "hayaller konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec rêves.",
+        "pt": "Sou paciente e presente com sonhos.",
+        "nl": "Ik ben geduldig en aanwezig met dromen.",
+        "es": "Soy paciente y presente con sueños.",
+        "de": "Ich bin geduldig und präsent mit träume.",
+        "it": "Sono paziente e presente con sogni.",
+        "ru": "Я терпелив(а) и присутствую в теме «мечты».",
+        "id": "Saya sabar dan hadir bersama mimpi.",
+        "ja": "夢に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความฝันอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in dreams.",
+        "tr": "hayaller konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans rêves, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em sonhos, eu me concentro no que posso controlar.",
+        "nl": "In dromen richt ik me op wat ik kan controleren.",
+        "es": "En sueños, me enfoco en lo que puedo controlar.",
+        "de": "In träume konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In sogni, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «мечты» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam mimpi, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "夢では、コントロールできることに意識を向ける。",
+        "th": "ในความฝัน ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam impian, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow dreams to be simple and sincere.",
+        "tr": "hayaller konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à rêves d'être simple et sincère.",
+        "pt": "Eu permito que sonhos seja simples e verdadeiro.",
+        "nl": "Ik laat dromen eenvoudig en oprecht zijn.",
+        "es": "Permito que sueños sea simple y auténtico.",
+        "de": "Ich erlaube träume, einfach und aufrichtig zu sein.",
+        "it": "Permetto a sogni di essere semplice e autentico.",
+        "ru": "Я позволяю теме «мечты» быть простой и искренней.",
+        "id": "Aku membiarkan mimpi tetap sederhana dan tulus.",
+        "ja": "夢はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความฝันเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan impian menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in dreams today.",
+        "tr": "Bugün hayaller konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en rêves.",
+        "pt": "Hoje, noto uma pequena vitória em sonhos.",
+        "nl": "Vandaag zie ik een kleine overwinning in dromen.",
+        "es": "Hoy noto una pequeña victoria en sueños.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in träume.",
+        "it": "Oggi noto una piccola vittoria in sogni.",
+        "ru": "Сегодня в теме «мечты» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam mimpi.",
+        "ja": "今日、夢で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความฝัน",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in dreams.",
+        "tr": "hayaller konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans rêves.",
+        "pt": "Eu respeito meus limites enquanto avanço em sonhos.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in dromen.",
+        "es": "Honro mis límites mientras avanzo en sueños.",
+        "de": "Ich achte auf meine Grenzen, während ich in träume vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in sogni.",
+        "ru": "В теме «мечты» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam mimpi.",
+        "ja": "夢で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความฝัน",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in dreams.",
+        "tr": "hayaller konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en rêves.",
+        "pt": "Deixo a curiosidade guiar meus passos em sonhos.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in dromen.",
+        "es": "Dejo que la curiosidad guíe mis pasos en sueños.",
+        "de": "Ich lasse Neugier meine Schritte in träume lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in sogni.",
+        "ru": "В теме «мечты» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam mimpi.",
+        "ja": "夢では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความฝัน",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in dreams.",
+        "tr": "hayaller konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en rêves.",
+        "pt": "Eu escolho clareza em vez de urgência em sonhos.",
+        "nl": "Ik kies helderheid boven haast in dromen.",
+        "es": "Elijo claridad en lugar de urgencia en sueños.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in träume.",
+        "it": "Scelgo chiarezza invece di urgenza in sogni.",
+        "ru": "В теме «мечты» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam mimpi.",
+        "ja": "夢では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความฝัน",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep dreams gentle and consistent.",
+        "tr": "hayaller konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde rêves avec douceur et constance.",
+        "pt": "Mantenho sonhos com suavidade e constância.",
+        "nl": "Ik houd dromen zacht en consistent.",
+        "es": "Mantengo sueños suave y constante.",
+        "de": "Ich halte träume sanft und beständig.",
+        "it": "Mantengo sogni con dolcezza e costanza.",
+        "ru": "В теме «мечты» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga mimpi tetap lembut dan konsisten.",
+        "ja": "夢を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความฝันอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan impian dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what dreams needs from me right now.",
+        "tr": "Şu anda hayaller konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que rêves a besoin de moi maintenant.",
+        "pt": "Eu escuto o que sonhos precisa de mim agora.",
+        "nl": "Ik luister naar wat dromen nu van mij nodig heeft.",
+        "es": "Escucho lo que sueños necesita de mí ahora.",
+        "de": "Ich höre darauf, was träume jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui sogni ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «мечты» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang mimpi butuhkan dariku sekarang.",
+        "ja": "今、夢が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความฝันต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang impian perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in dreams compounds.",
+        "tr": "hayaller konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en rêves.",
+        "pt": "Confio que o esforço constante em sonhos se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in dromen zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en sueños se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in träume sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in sogni si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «мечты» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam mimpi berakumulasi.",
+        "ja": "夢での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความฝันจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam impian terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "dre_278",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into dreams.",
+        "tr": "hayaller konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans rêves.",
+        "pt": "Eu acolho leveza e foco em sonhos.",
+        "nl": "Ik verwelkom gemak en focus in dromen.",
+        "es": "Doy la bienvenida a la calma y el enfoque en sueños.",
+        "de": "Ich heiße Leichtigkeit und Fokus in träume willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in sogni.",
+        "ru": "В теме «мечты» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam mimpi.",
+        "ja": "夢に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความฝัน",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam impian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "dreams",
+      "tags": {
+        "en": [
+          "dreams",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "hayaller",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "rêves",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sonhos",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dromen",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sueños",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "träume",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "sogni",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мечты",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "mimpi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "夢",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความฝัน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "impian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

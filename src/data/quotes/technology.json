@@ -18020,19 +18020,19 @@
       "id": "technology_220",
       "type": "quote",
       "texts": {
-        "en": "In technology, the first version can be rough; the second is where the truth appears.",
-        "tr": "teknoloji konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En technologie, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em tecnologia, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij technologie kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En tecnología, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei technologie kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In tecnologia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть технологии, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam teknologi, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "テクノロジーでは、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน เทคโนโลยี เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam teknologi, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"technology\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"teknoloji\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"technologie\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"tecnologia\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"technologie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"tecnología\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"technologie\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"tecnologia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «технологии», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"teknologi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「テクノロジー」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"teknologi\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -18569,19 +18569,19 @@
       "id": "technology_223",
       "type": "quote",
       "texts": {
-        "en": "technology moves faster when your grip is open.",
-        "tr": "teknoloji, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "technologie avance plus vite quand ta prise est ouverte.",
-        "pt": "tecnologia anda mais rápido quando sua pegada está aberta.",
-        "nl": "technologie beweegt sneller als je greep open is.",
-        "es": "tecnología avanza más rápido cuando tu agarre está abierto.",
-        "de": "technologie bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "tecnologia si muove più veloce quando la tua presa è aperta.",
-        "ru": "технологии движется быстрее, когда хватка открыта.",
-        "id": "teknologi bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "テクノロジーは、握りしめないときに速く進む。",
-        "th": "เทคโนโลยี ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "teknologi bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, technology moves faster.",
+        "tr": "Tutuşunu gevşettiğinde teknoloji daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, technologie avance plus vite.",
+        "pt": "Quando você solta o aperto, tecnologia anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat technologie sneller.",
+        "es": "Cuando sueltas el agarre, tecnología avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt technologie schneller voran.",
+        "it": "Quando allenti la presa, tecnologia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, технологии движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, teknologi melaju lebih cepat.",
+        "ja": "握りを緩めると、テクノロジーは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด เทคโนโลยีเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, teknologi bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -18671,79 +18671,79 @@
         "en": {
           "id": "story_technology_223_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for technology, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_technology_223_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "teknoloji planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_technology_223_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour technologie, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_technology_223_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para tecnologia, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_technology_223_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor technologie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_technology_223_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para tecnología, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_technology_223_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für technologie lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_technology_223_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per tecnologia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_technology_223_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для технологии, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_technology_223_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk teknologi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_technology_223_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "テクノロジーの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_technology_223_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับเทคโนโลยี ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_technology_223_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk teknologi, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -18752,19 +18752,19 @@
       "id": "technology_224",
       "type": "quote",
       "texts": {
-        "en": "In technology, the quiet signal is often the true one.",
-        "tr": "teknoloji konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En technologie, le signal discret est souvent le vrai.",
-        "pt": "Em tecnologia, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij technologie is het stille signaal vaak het echte.",
-        "es": "En tecnología, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei technologie ist das leise Signal oft das wahre.",
-        "it": "In tecnologia, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть технологии, тихий сигнал часто самый верный.",
-        "id": "Dalam teknologi, sinyal yang tenang sering kali yang benar.",
-        "ja": "テクノロジーでは、静かな合図が本当であることが多い。",
-        "th": "ใน เทคโนโลยี สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam teknologi, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"technology\", the quiet signal is often the true one.",
+        "tr": "Konu \"teknoloji\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"technologie\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"tecnologia\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"technologie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"tecnología\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"technologie\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"tecnologia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «технологии», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"teknologi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「テクノロジー」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"teknologi\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -19484,19 +19484,19 @@
       "id": "technology_228",
       "type": "quote",
       "texts": {
-        "en": "In technology, returning is part of the path, not a failure.",
-        "tr": "teknoloji içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En technologie, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em tecnologia, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij technologie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En tecnología, volver es parte del camino, no un fracaso.",
-        "de": "Bei technologie ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In tecnologia, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть технологии, возвращение — часть пути, а не провал.",
-        "id": "Dalam teknologi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "テクノロジーでは、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน เทคโนโลยี การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam teknologi, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"technology\", returning is part of the path, not a failure.",
+        "tr": "Konu \"teknoloji\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"technologie\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"tecnologia\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"technologie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"tecnología\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"technologie\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"tecnologia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «технологии», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"teknologi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「テクノロジー」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"teknologi\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -19586,79 +19586,79 @@
         "en": {
           "id": "story_technology_228_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"technology\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_technology_228_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"teknoloji\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_technology_228_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"technologie\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_technology_228_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"tecnologia\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_technology_228_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"technologie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_technology_228_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"tecnología\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_technology_228_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"technologie\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_technology_228_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"tecnologia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_technology_228_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «технологии» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_technology_228_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"teknologi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_technology_228_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「テクノロジー」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_technology_228_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"เทคโนโลยี\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_technology_228_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"teknologi\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -19850,19 +19850,19 @@
       "id": "technology_230",
       "type": "quote",
       "texts": {
-        "en": "In technology, the first version can be rough; the second is where the truth appears.",
-        "tr": "teknoloji konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans technologie, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em tecnologia, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In technologie kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En tecnología, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In technologie kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In tecnologia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "технологии иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam teknologi, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "テクノロジーでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในเทคโนโลยี เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam teknologi, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"technology\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"teknoloji\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"technologie\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"tecnologia\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"technologie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"tecnología\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"technologie\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"tecnologia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «технологии», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"teknologi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「テクノロジー」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"teknologi\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -20399,19 +20399,19 @@
       "id": "technology_233",
       "type": "quote",
       "texts": {
-        "en": "technology moves faster when your grip is open.",
-        "tr": "teknoloji, elin gevşekken daha hızlı ilerler.",
-        "fr": "technologie avance plus vite quand la prise est ouverte.",
-        "pt": "tecnologia anda mais rápido quando o aperto é aberto.",
-        "nl": "technologie gaat sneller als je grip open is.",
-        "es": "tecnología avanza más rápido cuando el agarre está abierto.",
-        "de": "technologie kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "tecnologia procede più veloce quando la presa è aperta.",
-        "ru": "технологии движется быстрее, когда хватка открыта.",
-        "id": "teknologi melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "テクノロジーは、握りが開いているときに進みが速い。",
-        "th": "เทคโนโลยีเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "teknologi bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, technology moves faster.",
+        "tr": "Tutuşunu gevşettiğinde teknoloji daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, technologie avance plus vite.",
+        "pt": "Quando você solta o aperto, tecnologia anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat technologie sneller.",
+        "es": "Cuando sueltas el agarre, tecnología avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt technologie schneller voran.",
+        "it": "Quando allenti la presa, tecnologia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, технологии движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, teknologi melaju lebih cepat.",
+        "ja": "握りを緩めると、テクノロジーは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด เทคโนโลยีเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, teknologi bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -20501,79 +20501,79 @@
         "en": {
           "id": "story_technology_233_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the technology schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for technology, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_technology_233_tr",
           "title": "Açık El",
-          "content": "teknoloji takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "teknoloji planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_technology_233_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de technologie, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour technologie, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_technology_233_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de tecnologia, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para tecnologia, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_technology_233_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het technologie-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor technologie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_technology_233_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de tecnología, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para tecnología, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_technology_233_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am technologie-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für technologie lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_technology_233_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di tecnologia, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per tecnologia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_technology_233_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании технологии, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для технологии, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_technology_233_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal teknologi, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk teknologi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_technology_233_ja",
           "title": "開いた手",
-          "content": "テクノロジーの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "テクノロジーの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_technology_233_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางเทคโนโลยี ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับเทคโนโลยี ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_technology_233_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual teknologi, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk teknologi, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -20582,19 +20582,19 @@
       "id": "technology_234",
       "type": "quote",
       "texts": {
-        "en": "In technology, the quiet signal is often the true one.",
-        "tr": "teknoloji içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans technologie, le signal discret est souvent le vrai.",
-        "pt": "Em tecnologia, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In technologie is het stille signaal vaak het echte.",
-        "es": "En tecnología, la señal silenciosa suele ser la verdadera.",
-        "de": "In technologie ist das leise Signal oft das wahre.",
-        "it": "In tecnologia, il segnale silenzioso è spesso quello vero.",
-        "ru": "В технологии тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam teknologi, sinyal yang sunyi sering kali yang benar.",
-        "ja": "テクノロジーでは、静かな合図が本当であることが多い。",
-        "th": "ในเทคโนโลยี สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam teknologi, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"technology\", the quiet signal is often the true one.",
+        "tr": "Konu \"teknoloji\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"technologie\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"tecnologia\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"technologie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"tecnología\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"technologie\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"tecnologia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «технологии», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"teknologi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「テクノロジー」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"teknologi\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -21314,19 +21314,19 @@
       "id": "technology_238",
       "type": "quote",
       "texts": {
-        "en": "In technology, returning is part of the path, not a failure.",
-        "tr": "teknoloji içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans technologie, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em tecnologia, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In technologie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En tecnología, volver es parte del camino, no un fracaso.",
-        "de": "In technologie ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In tecnologia, tornare è parte del percorso, non un fallimento.",
-        "ru": "В технологии возвращение — часть пути, а не провал.",
-        "id": "Dalam teknologi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "テクノロジーでは、戻ることは道の一部であって失敗ではない。",
-        "th": "ในเทคโนโลยี การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam teknologi, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"technology\", returning is part of the path, not a failure.",
+        "tr": "Konu \"teknoloji\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"technologie\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"tecnologia\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"technologie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"tecnología\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"technologie\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"tecnologia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «технологии», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"teknologi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「テクノロジー」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"เทคโนโลยี\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"teknologi\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -21416,79 +21416,79 @@
         "en": {
           "id": "story_technology_238_en",
           "title": "The Return",
-          "content": "After a missed week in technology, she came back and the line continued.",
+          "content": "After a week without \"technology\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_technology_238_tr",
           "title": "Dönüş",
-          "content": "teknoloji içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"teknoloji\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_technology_238_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en technologie, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"technologie\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_technology_238_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em tecnologia, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"tecnologia\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_technology_238_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in technologie kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"technologie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_technology_238_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en tecnología, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"tecnología\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_technology_238_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in technologie kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"technologie\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_technology_238_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in tecnologia, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"tecnologia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_technology_238_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в технологии она вернулась, и линия продолжилась.",
+          "content": "В теме «технологии» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_technology_238_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di teknologi, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"teknologi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_technology_238_ja",
           "title": "帰り道",
-          "content": "テクノロジーを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「テクノロジー」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_technology_238_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในเทคโนโลยี เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"เทคโนโลยี\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_technology_238_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam teknologi, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"teknologi\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -21675,6 +21675,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "technology_240",
+      "type": "affirmation",
+      "texts": {
+        "en": "In technology, I take small, steady steps.",
+        "tr": "teknoloji konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans technologie, je fais de petits pas réguliers.",
+        "pt": "Em tecnologia, dou passos pequenos e constantes.",
+        "nl": "In technologie zet ik kleine, gestage stappen.",
+        "es": "En tecnología, doy pasos pequeños y constantes.",
+        "de": "In technologie gehe ich kleine, stetige Schritte.",
+        "it": "In tecnologia, faccio passi piccoli e costanti.",
+        "ru": "В теме «технологии» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam teknologi, saya melangkah kecil dan konsisten.",
+        "ja": "テクノロジーでは、小さく着実な一歩を重ねる。",
+        "th": "ในเทคโนโลยี ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam teknologi, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_241",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to technology today.",
+        "tr": "Bugün teknoloji için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à technologie aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para tecnologia.",
+        "nl": "Vandaag breng ik kalmte en helderheid in technologie.",
+        "es": "Hoy llevo calma y claridad a tecnología.",
+        "de": "Heute bringe ich Ruhe und Klarheit in technologie.",
+        "it": "Oggi porto calma e chiarezza a tecnologia.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «технологии».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke teknologi.",
+        "ja": "今日はテクノロジーに落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่เทคโนโลยี",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_242",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give technology my full attention without pressure.",
+        "tr": "teknoloji için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à technologie sans pression.",
+        "pt": "Dou a tecnologia minha atenção total sem pressão.",
+        "nl": "Ik geef technologie mijn volle aandacht zonder druk.",
+        "es": "Doy a tecnología toda mi atención sin presión.",
+        "de": "Ich schenke technologie meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a tecnologia tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «технологии» всё своё внимание без давления.",
+        "id": "Saya memberi teknologi perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなくテクノロジーに全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับเทคโนโลยีโดยไม่กดดัน",
+        "ms": "Saya memberi teknologi perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_243",
+      "type": "affirmation",
+      "texts": {
+        "en": "In technology, I choose progress over perfection.",
+        "tr": "teknoloji konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans technologie, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em tecnologia, escolho progresso em vez de perfeição.",
+        "nl": "In technologie kies ik voor vooruitgang boven perfectie.",
+        "es": "En tecnología, elijo el progreso por encima de la perfección.",
+        "de": "In technologie wähle ich Fortschritt statt Perfektion.",
+        "it": "In tecnologia, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «технологии» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam teknologi, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "テクノロジーでは、完璧より前進を選ぶ。",
+        "th": "ในเทคโนโลยี ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam teknologi, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_244",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to technology gently.",
+        "tr": "Dağılırsam teknolojie nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à technologie avec douceur.",
+        "pt": "Se eu me dispersar, volto a tecnologia com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar technologie.",
+        "es": "Si me disperso, vuelvo a tecnología con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu technologie zurück.",
+        "it": "Se mi disperdo, torno a tecnologia con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «технологии».",
+        "id": "Jika saya teralihkan, saya kembali ke teknologi dengan lembut.",
+        "ja": "迷ったら、やさしくテクノロジーに戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาเทคโนโลยีอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada teknologi dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_245",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in technology align with my values.",
+        "tr": "teknoloji konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en technologie sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em tecnologia estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in technologie sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en tecnología están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in technologie passen zu meinen Werten.",
+        "it": "Le mie scelte in tecnologia sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «технологии» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam teknologi selaras dengan nilai-nilai saya.",
+        "ja": "テクノロジーでの選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในเทคโนโลยีสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam teknologi selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_246",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in technology.",
+        "tr": "teknoloji konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en technologie.",
+        "pt": "Confio no meu ritmo em tecnologia.",
+        "nl": "Ik vertrouw op mijn tempo in technologie.",
+        "es": "Confío en mi ritmo en tecnología.",
+        "de": "Ich vertraue meinem Tempo in technologie.",
+        "it": "Mi fido del mio ritmo in tecnologia.",
+        "ru": "Я доверяю своему темпу в теме «технологии».",
+        "id": "Saya percaya pada ritme saya dalam teknologi.",
+        "ja": "テクノロジーでの自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในเทคโนโลยี",
+        "ms": "Saya percaya pada rentak saya dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_247",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for technology to grow naturally.",
+        "tr": "teknoloji için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que technologie grandisse naturellement.",
+        "pt": "Abro espaço para tecnologia crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat technologie natuurlijk kan groeien.",
+        "es": "Hago espacio para que tecnología crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit technologie natürlich wachsen kann.",
+        "it": "Creo spazio perché tecnologia cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «технологии» происходил естественно.",
+        "id": "Saya memberi ruang agar teknologi tumbuh secara alami.",
+        "ja": "テクノロジーが自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้เทคโนโลยีเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar teknologi berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_248",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in technology.",
+        "tr": "Bugün teknoloji konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en technologie.",
+        "pt": "Hoje, dou um passo claro em tecnologia.",
+        "nl": "Vandaag zet ik één duidelijke stap in technologie.",
+        "es": "Hoy doy un paso claro en tecnología.",
+        "de": "Heute mache ich einen klaren Schritt in technologie.",
+        "it": "Oggi faccio un passo chiaro in tecnologia.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «технологии».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam teknologi.",
+        "ja": "今日はテクノロジーで一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในเทคโนโลยี",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_249",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with technology.",
+        "tr": "teknoloji konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec technologie.",
+        "pt": "Sou paciente e presente com tecnologia.",
+        "nl": "Ik ben geduldig en aanwezig met technologie.",
+        "es": "Soy paciente y presente con tecnología.",
+        "de": "Ich bin geduldig und präsent mit technologie.",
+        "it": "Sono paziente e presente con tecnologia.",
+        "ru": "Я терпелив(а) и присутствую в теме «технологии».",
+        "id": "Saya sabar dan hadir bersama teknologi.",
+        "ja": "テクノロジーに対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับเทคโนโลยีอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_250",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in technology.",
+        "tr": "teknoloji konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans technologie, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em tecnologia, eu me concentro no que posso controlar.",
+        "nl": "In technologie richt ik me op wat ik kan controleren.",
+        "es": "En tecnología, me enfoco en lo que puedo controlar.",
+        "de": "In technologie konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In tecnologia, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «технологии» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam teknologi, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "テクノロジーでは、コントロールできることに意識を向ける。",
+        "th": "ในเทคโนโลยี ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam teknologi, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_251",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow technology to be simple and sincere.",
+        "tr": "teknoloji konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à technologie d'être simple et sincère.",
+        "pt": "Eu permito que tecnologia seja simples e verdadeiro.",
+        "nl": "Ik laat technologie eenvoudig en oprecht zijn.",
+        "es": "Permito que tecnología sea simple y auténtico.",
+        "de": "Ich erlaube technologie, einfach und aufrichtig zu sein.",
+        "it": "Permetto a tecnologia di essere semplice e autentico.",
+        "ru": "Я позволяю теме «технологии» быть простой и искренней.",
+        "id": "Aku membiarkan teknologi tetap sederhana dan tulus.",
+        "ja": "テクノロジーはシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้เทคโนโลยีเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan teknologi menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_252",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in technology today.",
+        "tr": "Bugün teknoloji konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en technologie.",
+        "pt": "Hoje, noto uma pequena vitória em tecnologia.",
+        "nl": "Vandaag zie ik een kleine overwinning in technologie.",
+        "es": "Hoy noto una pequeña victoria en tecnología.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in technologie.",
+        "it": "Oggi noto una piccola vittoria in tecnologia.",
+        "ru": "Сегодня в теме «технологии» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam teknologi.",
+        "ja": "今日、テクノロジーで小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในเทคโนโลยี",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in technology.",
+        "tr": "teknoloji konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans technologie.",
+        "pt": "Eu respeito meus limites enquanto avanço em tecnologia.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in technologie.",
+        "es": "Honro mis límites mientras avanzo en tecnología.",
+        "de": "Ich achte auf meine Grenzen, während ich in technologie vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in tecnologia.",
+        "ru": "В теме «технологии» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam teknologi.",
+        "ja": "テクノロジーで前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในเทคโนโลยี",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in technology.",
+        "tr": "teknoloji konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en technologie.",
+        "pt": "Deixo a curiosidade guiar meus passos em tecnologia.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in technologie.",
+        "es": "Dejo que la curiosidad guíe mis pasos en tecnología.",
+        "de": "Ich lasse Neugier meine Schritte in technologie lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in tecnologia.",
+        "ru": "В теме «технологии» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam teknologi.",
+        "ja": "テクノロジーでは、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในเทคโนโลยี",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in technology.",
+        "tr": "teknoloji konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en technologie.",
+        "pt": "Eu escolho clareza em vez de urgência em tecnologia.",
+        "nl": "Ik kies helderheid boven haast in technologie.",
+        "es": "Elijo claridad en lugar de urgencia en tecnología.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in technologie.",
+        "it": "Scelgo chiarezza invece di urgenza in tecnologia.",
+        "ru": "В теме «технологии» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam teknologi.",
+        "ja": "テクノロジーでは、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในเทคโนโลยี",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep technology gentle and consistent.",
+        "tr": "teknoloji konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde technologie avec douceur et constance.",
+        "pt": "Mantenho tecnologia com suavidade e constância.",
+        "nl": "Ik houd technologie zacht en consistent.",
+        "es": "Mantengo tecnología suave y constante.",
+        "de": "Ich halte technologie sanft und beständig.",
+        "it": "Mantengo tecnologia con dolcezza e costanza.",
+        "ru": "В теме «технологии» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga teknologi tetap lembut dan konsisten.",
+        "ja": "テクノロジーを穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้เทคโนโลยีอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan teknologi dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what technology needs from me right now.",
+        "tr": "Şu anda teknoloji konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que technologie a besoin de moi maintenant.",
+        "pt": "Eu escuto o que tecnologia precisa de mim agora.",
+        "nl": "Ik luister naar wat technologie nu van mij nodig heeft.",
+        "es": "Escucho lo que tecnología necesita de mí ahora.",
+        "de": "Ich höre darauf, was technologie jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui tecnologia ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «технологии» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang teknologi butuhkan dariku sekarang.",
+        "ja": "今、テクノロジーが私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าเทคโนโลยีต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang teknologi perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in technology compounds.",
+        "tr": "teknoloji konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en technologie.",
+        "pt": "Confio que o esforço constante em tecnologia se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in technologie zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en tecnología se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in technologie sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in tecnologia si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «технологии» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam teknologi berakumulasi.",
+        "ja": "テクノロジーでの着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในเทคโนโลยีจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam teknologi terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "technology_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into technology.",
+        "tr": "teknoloji konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans technologie.",
+        "pt": "Eu acolho leveza e foco em tecnologia.",
+        "nl": "Ik verwelkom gemak en focus in technologie.",
+        "es": "Doy la bienvenida a la calma y el enfoque en tecnología.",
+        "de": "Ich heiße Leichtigkeit und Fokus in technologie willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in tecnologia.",
+        "ru": "В теме «технологии» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam teknologi.",
+        "ja": "テクノロジーに、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในเทคโนโลยี",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam teknologi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "technology",
+      "tags": {
+        "en": [
+          "technology",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "teknoloji",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "technologie",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "tecnologia",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "technologie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "tecnología",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "technologie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "tecnologia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "технологии",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "テクノロジー",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "เทคโนโลยี",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "teknologi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

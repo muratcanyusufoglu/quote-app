@@ -26494,19 +26494,19 @@
       "id": "happiness_271",
       "type": "quote",
       "texts": {
-        "en": "In happiness, the first version can be rough; the second is where the truth appears.",
-        "tr": "mutluluk konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En bonheur, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em felicidade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij geluk kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En felicidad, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei glück kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In felicità, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть счастье, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kebahagiaan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "幸福では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความสุข เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kebahagiaan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"happiness\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"mutluluk\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"bonheur\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"felicidade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"geluk\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"felicidad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"glück\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"felicità\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «счастье», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kebahagiaan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「幸福」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kebahagiaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -27043,19 +27043,19 @@
       "id": "happiness_274",
       "type": "quote",
       "texts": {
-        "en": "happiness moves faster when your grip is open.",
-        "tr": "mutluluk, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "bonheur avance plus vite quand ta prise est ouverte.",
-        "pt": "felicidade anda mais rápido quando sua pegada está aberta.",
-        "nl": "geluk beweegt sneller als je greep open is.",
-        "es": "felicidad avanza más rápido cuando tu agarre está abierto.",
-        "de": "glück bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "felicità si muove più veloce quando la tua presa è aperta.",
-        "ru": "счастье движется быстрее, когда хватка открыта.",
-        "id": "kebahagiaan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "幸福は、握りしめないときに速く進む。",
-        "th": "ความสุข ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kebahagiaan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, happiness moves faster.",
+        "tr": "Tutuşunu gevşettiğinde mutluluk daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, bonheur avance plus vite.",
+        "pt": "Quando você solta o aperto, felicidade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat geluk sneller.",
+        "es": "Cuando sueltas el agarre, felicidad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt glück schneller voran.",
+        "it": "Quando allenti la presa, felicità procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, счастье движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kebahagiaan melaju lebih cepat.",
+        "ja": "握りを緩めると、幸福は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสุขเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kebahagiaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -27145,79 +27145,79 @@
         "en": {
           "id": "story_happiness_274_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for happiness, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_happiness_274_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "mutluluk planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_happiness_274_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour bonheur, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_happiness_274_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para felicidade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_happiness_274_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor geluk losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_happiness_274_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para felicidad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_happiness_274_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für glück lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_happiness_274_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per felicità, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_happiness_274_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для счастье, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_happiness_274_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kebahagiaan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_happiness_274_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "幸福の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_happiness_274_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสุข ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_happiness_274_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kebahagiaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -27226,19 +27226,19 @@
       "id": "happiness_275",
       "type": "quote",
       "texts": {
-        "en": "In happiness, the quiet signal is often the true one.",
-        "tr": "mutluluk konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En bonheur, le signal discret est souvent le vrai.",
-        "pt": "Em felicidade, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij geluk is het stille signaal vaak het echte.",
-        "es": "En felicidad, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei glück ist das leise Signal oft das wahre.",
-        "it": "In felicità, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть счастье, тихий сигнал часто самый верный.",
-        "id": "Dalam kebahagiaan, sinyal yang tenang sering kali yang benar.",
-        "ja": "幸福では、静かな合図が本当であることが多い。",
-        "th": "ใน ความสุข สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kebahagiaan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"happiness\", the quiet signal is often the true one.",
+        "tr": "Konu \"mutluluk\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"bonheur\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"felicidade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"geluk\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"felicidad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"glück\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"felicità\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «счастье», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kebahagiaan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「幸福」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kebahagiaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -27958,19 +27958,19 @@
       "id": "happiness_279",
       "type": "quote",
       "texts": {
-        "en": "In happiness, returning is part of the path, not a failure.",
-        "tr": "mutluluk içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En bonheur, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em felicidade, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij geluk is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En felicidad, volver es parte del camino, no un fracaso.",
-        "de": "Bei glück ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In felicità, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть счастье, возвращение — часть пути, а не провал.",
-        "id": "Dalam kebahagiaan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "幸福では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความสุข การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kebahagiaan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"happiness\", returning is part of the path, not a failure.",
+        "tr": "Konu \"mutluluk\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"bonheur\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"felicidade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"geluk\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"felicidad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"glück\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"felicità\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «счастье», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kebahagiaan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「幸福」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kebahagiaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -28060,79 +28060,79 @@
         "en": {
           "id": "story_happiness_279_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"happiness\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_happiness_279_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"mutluluk\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_happiness_279_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"bonheur\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_happiness_279_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"felicidade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_happiness_279_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"geluk\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_happiness_279_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"felicidad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_happiness_279_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"glück\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_happiness_279_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"felicità\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_happiness_279_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «счастье» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_happiness_279_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kebahagiaan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_happiness_279_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「幸福」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_happiness_279_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสุข\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_happiness_279_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kebahagiaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -28324,19 +28324,19 @@
       "id": "happiness_281",
       "type": "quote",
       "texts": {
-        "en": "In happiness, the first version can be rough; the second is where the truth appears.",
-        "tr": "mutluluk konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans bonheur, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em felicidade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In geluk kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En felicidad, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In glück kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In felicità, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "счастье иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kebahagiaan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "幸福では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความสุข เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kebahagiaan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"happiness\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"mutluluk\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"bonheur\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"felicidade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"geluk\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"felicidad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"glück\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"felicità\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «счастье», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kebahagiaan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「幸福」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kebahagiaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -28873,19 +28873,19 @@
       "id": "happiness_284",
       "type": "quote",
       "texts": {
-        "en": "happiness moves faster when your grip is open.",
-        "tr": "mutluluk, elin gevşekken daha hızlı ilerler.",
-        "fr": "bonheur avance plus vite quand la prise est ouverte.",
-        "pt": "felicidade anda mais rápido quando o aperto é aberto.",
-        "nl": "geluk gaat sneller als je grip open is.",
-        "es": "felicidad avanza más rápido cuando el agarre está abierto.",
-        "de": "glück kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "felicità procede più veloce quando la presa è aperta.",
-        "ru": "счастье движется быстрее, когда хватка открыта.",
-        "id": "kebahagiaan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "幸福は、握りが開いているときに進みが速い。",
-        "th": "ความสุขเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kebahagiaan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, happiness moves faster.",
+        "tr": "Tutuşunu gevşettiğinde mutluluk daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, bonheur avance plus vite.",
+        "pt": "Quando você solta o aperto, felicidade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat geluk sneller.",
+        "es": "Cuando sueltas el agarre, felicidad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt glück schneller voran.",
+        "it": "Quando allenti la presa, felicità procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, счастье движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kebahagiaan melaju lebih cepat.",
+        "ja": "握りを緩めると、幸福は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสุขเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kebahagiaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -28975,79 +28975,79 @@
         "en": {
           "id": "story_happiness_284_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the happiness schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for happiness, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_happiness_284_tr",
           "title": "Açık El",
-          "content": "mutluluk takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "mutluluk planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_happiness_284_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de bonheur, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour bonheur, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_happiness_284_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de felicidade, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para felicidade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_happiness_284_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het geluk-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor geluk losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_happiness_284_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de felicidad, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para felicidad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_happiness_284_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am glück-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für glück lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_happiness_284_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di felicità, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per felicità, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_happiness_284_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании счастье, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для счастье, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_happiness_284_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kebahagiaan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kebahagiaan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_happiness_284_ja",
           "title": "開いた手",
-          "content": "幸福の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "幸福の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_happiness_284_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความสุข ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสุข ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_happiness_284_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kebahagiaan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kebahagiaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -29056,19 +29056,19 @@
       "id": "happiness_285",
       "type": "quote",
       "texts": {
-        "en": "In happiness, the quiet signal is often the true one.",
-        "tr": "mutluluk içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans bonheur, le signal discret est souvent le vrai.",
-        "pt": "Em felicidade, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In geluk is het stille signaal vaak het echte.",
-        "es": "En felicidad, la señal silenciosa suele ser la verdadera.",
-        "de": "In glück ist das leise Signal oft das wahre.",
-        "it": "In felicità, il segnale silenzioso è spesso quello vero.",
-        "ru": "В счастье тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kebahagiaan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "幸福では、静かな合図が本当であることが多い。",
-        "th": "ในความสุข สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kebahagiaan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"happiness\", the quiet signal is often the true one.",
+        "tr": "Konu \"mutluluk\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"bonheur\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"felicidade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"geluk\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"felicidad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"glück\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"felicità\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «счастье», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kebahagiaan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「幸福」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kebahagiaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -29788,19 +29788,19 @@
       "id": "happiness_289",
       "type": "quote",
       "texts": {
-        "en": "In happiness, returning is part of the path, not a failure.",
-        "tr": "mutluluk içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans bonheur, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em felicidade, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In geluk is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En felicidad, volver es parte del camino, no un fracaso.",
-        "de": "In glück ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In felicità, tornare è parte del percorso, non un fallimento.",
-        "ru": "В счастье возвращение — часть пути, а не провал.",
-        "id": "Dalam kebahagiaan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "幸福では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความสุข การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kebahagiaan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"happiness\", returning is part of the path, not a failure.",
+        "tr": "Konu \"mutluluk\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"bonheur\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"felicidade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"geluk\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"felicidad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"glück\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"felicità\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «счастье», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kebahagiaan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「幸福」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสุข\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kebahagiaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -29890,79 +29890,79 @@
         "en": {
           "id": "story_happiness_289_en",
           "title": "The Return",
-          "content": "After a missed week in happiness, she came back and the line continued.",
+          "content": "After a week without \"happiness\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_happiness_289_tr",
           "title": "Dönüş",
-          "content": "mutluluk içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"mutluluk\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_happiness_289_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en bonheur, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"bonheur\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_happiness_289_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em felicidade, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"felicidade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_happiness_289_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in geluk kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"geluk\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_happiness_289_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en felicidad, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"felicidad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_happiness_289_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in glück kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"glück\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_happiness_289_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in felicità, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"felicità\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_happiness_289_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в счастье она вернулась, и линия продолжилась.",
+          "content": "В теме «счастье» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_happiness_289_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kebahagiaan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kebahagiaan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_happiness_289_ja",
           "title": "帰り道",
-          "content": "幸福を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「幸福」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_happiness_289_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความสุข เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสุข\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_happiness_289_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kebahagiaan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kebahagiaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -30149,6 +30149,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "happiness_291",
+      "type": "affirmation",
+      "texts": {
+        "en": "In happiness, I take small, steady steps.",
+        "tr": "mutluluk konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans bonheur, je fais de petits pas réguliers.",
+        "pt": "Em felicidade, dou passos pequenos e constantes.",
+        "nl": "In geluk zet ik kleine, gestage stappen.",
+        "es": "En felicidad, doy pasos pequeños y constantes.",
+        "de": "In glück gehe ich kleine, stetige Schritte.",
+        "it": "In felicità, faccio passi piccoli e costanti.",
+        "ru": "В теме «счастье» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kebahagiaan, saya melangkah kecil dan konsisten.",
+        "ja": "幸福では、小さく着実な一歩を重ねる。",
+        "th": "ในความสุข ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kebahagiaan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_292",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to happiness today.",
+        "tr": "Bugün mutluluk için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à bonheur aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para felicidade.",
+        "nl": "Vandaag breng ik kalmte en helderheid in geluk.",
+        "es": "Hoy llevo calma y claridad a felicidad.",
+        "de": "Heute bringe ich Ruhe und Klarheit in glück.",
+        "it": "Oggi porto calma e chiarezza a felicità.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «счастье».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kebahagiaan.",
+        "ja": "今日は幸福に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความสุข",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_293",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give happiness my full attention without pressure.",
+        "tr": "mutluluk için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à bonheur sans pression.",
+        "pt": "Dou a felicidade minha atenção total sem pressão.",
+        "nl": "Ik geef geluk mijn volle aandacht zonder druk.",
+        "es": "Doy a felicidad toda mi atención sin presión.",
+        "de": "Ich schenke glück meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a felicità tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «счастье» всё своё внимание без давления.",
+        "id": "Saya memberi kebahagiaan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく幸福に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความสุขโดยไม่กดดัน",
+        "ms": "Saya memberi kebahagiaan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_294",
+      "type": "affirmation",
+      "texts": {
+        "en": "In happiness, I choose progress over perfection.",
+        "tr": "mutluluk konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans bonheur, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em felicidade, escolho progresso em vez de perfeição.",
+        "nl": "In geluk kies ik voor vooruitgang boven perfectie.",
+        "es": "En felicidad, elijo el progreso por encima de la perfección.",
+        "de": "In glück wähle ich Fortschritt statt Perfektion.",
+        "it": "In felicità, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «счастье» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kebahagiaan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "幸福では、完璧より前進を選ぶ。",
+        "th": "ในความสุข ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kebahagiaan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_295",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to happiness gently.",
+        "tr": "Dağılırsam mutluluke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à bonheur avec douceur.",
+        "pt": "Se eu me dispersar, volto a felicidade com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar geluk.",
+        "es": "Si me disperso, vuelvo a felicidad con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu glück zurück.",
+        "it": "Se mi disperdo, torno a felicità con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «счастье».",
+        "id": "Jika saya teralihkan, saya kembali ke kebahagiaan dengan lembut.",
+        "ja": "迷ったら、やさしく幸福に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความสุขอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kebahagiaan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_296",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in happiness align with my values.",
+        "tr": "mutluluk konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en bonheur sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em felicidade estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in geluk sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en felicidad están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in glück passen zu meinen Werten.",
+        "it": "Le mie scelte in felicità sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «счастье» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kebahagiaan selaras dengan nilai-nilai saya.",
+        "ja": "幸福での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความสุขสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kebahagiaan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_297",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in happiness.",
+        "tr": "mutluluk konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en bonheur.",
+        "pt": "Confio no meu ritmo em felicidade.",
+        "nl": "Ik vertrouw op mijn tempo in geluk.",
+        "es": "Confío en mi ritmo en felicidad.",
+        "de": "Ich vertraue meinem Tempo in glück.",
+        "it": "Mi fido del mio ritmo in felicità.",
+        "ru": "Я доверяю своему темпу в теме «счастье».",
+        "id": "Saya percaya pada ritme saya dalam kebahagiaan.",
+        "ja": "幸福での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความสุข",
+        "ms": "Saya percaya pada rentak saya dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_298",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for happiness to grow naturally.",
+        "tr": "mutluluk için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que bonheur grandisse naturellement.",
+        "pt": "Abro espaço para felicidade crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat geluk natuurlijk kan groeien.",
+        "es": "Hago espacio para que felicidad crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit glück natürlich wachsen kann.",
+        "it": "Creo spazio perché felicità cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «счастье» происходил естественно.",
+        "id": "Saya memberi ruang agar kebahagiaan tumbuh secara alami.",
+        "ja": "幸福が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความสุขเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kebahagiaan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_299",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in happiness.",
+        "tr": "Bugün mutluluk konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en bonheur.",
+        "pt": "Hoje, dou um passo claro em felicidade.",
+        "nl": "Vandaag zet ik één duidelijke stap in geluk.",
+        "es": "Hoy doy un paso claro en felicidad.",
+        "de": "Heute mache ich einen klaren Schritt in glück.",
+        "it": "Oggi faccio un passo chiaro in felicità.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «счастье».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kebahagiaan.",
+        "ja": "今日は幸福で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความสุข",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_300",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with happiness.",
+        "tr": "mutluluk konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec bonheur.",
+        "pt": "Sou paciente e presente com felicidade.",
+        "nl": "Ik ben geduldig en aanwezig met geluk.",
+        "es": "Soy paciente y presente con felicidad.",
+        "de": "Ich bin geduldig und präsent mit glück.",
+        "it": "Sono paziente e presente con felicità.",
+        "ru": "Я терпелив(а) и присутствую в теме «счастье».",
+        "id": "Saya sabar dan hadir bersama kebahagiaan.",
+        "ja": "幸福に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความสุขอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_301",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in happiness.",
+        "tr": "mutluluk konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans bonheur, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em felicidade, eu me concentro no que posso controlar.",
+        "nl": "In geluk richt ik me op wat ik kan controleren.",
+        "es": "En felicidad, me enfoco en lo que puedo controlar.",
+        "de": "In glück konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In felicità, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «счастье» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kebahagiaan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "幸福では、コントロールできることに意識を向ける。",
+        "th": "ในความสุข ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kebahagiaan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_302",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow happiness to be simple and sincere.",
+        "tr": "mutluluk konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à bonheur d'être simple et sincère.",
+        "pt": "Eu permito que felicidade seja simples e verdadeiro.",
+        "nl": "Ik laat geluk eenvoudig en oprecht zijn.",
+        "es": "Permito que felicidad sea simple y auténtico.",
+        "de": "Ich erlaube glück, einfach und aufrichtig zu sein.",
+        "it": "Permetto a felicità di essere semplice e autentico.",
+        "ru": "Я позволяю теме «счастье» быть простой и искренней.",
+        "id": "Aku membiarkan kebahagiaan tetap sederhana dan tulus.",
+        "ja": "幸福はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความสุขเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kebahagiaan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_303",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in happiness today.",
+        "tr": "Bugün mutluluk konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en bonheur.",
+        "pt": "Hoje, noto uma pequena vitória em felicidade.",
+        "nl": "Vandaag zie ik een kleine overwinning in geluk.",
+        "es": "Hoy noto una pequeña victoria en felicidad.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in glück.",
+        "it": "Oggi noto una piccola vittoria in felicità.",
+        "ru": "Сегодня в теме «счастье» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kebahagiaan.",
+        "ja": "今日、幸福で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความสุข",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_304",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in happiness.",
+        "tr": "mutluluk konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans bonheur.",
+        "pt": "Eu respeito meus limites enquanto avanço em felicidade.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in geluk.",
+        "es": "Honro mis límites mientras avanzo en felicidad.",
+        "de": "Ich achte auf meine Grenzen, während ich in glück vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in felicità.",
+        "ru": "В теме «счастье» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kebahagiaan.",
+        "ja": "幸福で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความสุข",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_305",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in happiness.",
+        "tr": "mutluluk konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en bonheur.",
+        "pt": "Deixo a curiosidade guiar meus passos em felicidade.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in geluk.",
+        "es": "Dejo que la curiosidad guíe mis pasos en felicidad.",
+        "de": "Ich lasse Neugier meine Schritte in glück lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in felicità.",
+        "ru": "В теме «счастье» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kebahagiaan.",
+        "ja": "幸福では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความสุข",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_306",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in happiness.",
+        "tr": "mutluluk konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en bonheur.",
+        "pt": "Eu escolho clareza em vez de urgência em felicidade.",
+        "nl": "Ik kies helderheid boven haast in geluk.",
+        "es": "Elijo claridad en lugar de urgencia en felicidad.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in glück.",
+        "it": "Scelgo chiarezza invece di urgenza in felicità.",
+        "ru": "В теме «счастье» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kebahagiaan.",
+        "ja": "幸福では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความสุข",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_307",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep happiness gentle and consistent.",
+        "tr": "mutluluk konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde bonheur avec douceur et constance.",
+        "pt": "Mantenho felicidade com suavidade e constância.",
+        "nl": "Ik houd geluk zacht en consistent.",
+        "es": "Mantengo felicidad suave y constante.",
+        "de": "Ich halte glück sanft und beständig.",
+        "it": "Mantengo felicità con dolcezza e costanza.",
+        "ru": "В теме «счастье» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kebahagiaan tetap lembut dan konsisten.",
+        "ja": "幸福を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความสุขอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kebahagiaan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_308",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what happiness needs from me right now.",
+        "tr": "Şu anda mutluluk konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que bonheur a besoin de moi maintenant.",
+        "pt": "Eu escuto o que felicidade precisa de mim agora.",
+        "nl": "Ik luister naar wat geluk nu van mij nodig heeft.",
+        "es": "Escucho lo que felicidad necesita de mí ahora.",
+        "de": "Ich höre darauf, was glück jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui felicità ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «счастье» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kebahagiaan butuhkan dariku sekarang.",
+        "ja": "今、幸福が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความสุขต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kebahagiaan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_309",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in happiness compounds.",
+        "tr": "mutluluk konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en bonheur.",
+        "pt": "Confio que o esforço constante em felicidade se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in geluk zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en felicidad se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in glück sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in felicità si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «счастье» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kebahagiaan berakumulasi.",
+        "ja": "幸福での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความสุขจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kebahagiaan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "happiness_310",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into happiness.",
+        "tr": "mutluluk konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans bonheur.",
+        "pt": "Eu acolho leveza e foco em felicidade.",
+        "nl": "Ik verwelkom gemak en focus in geluk.",
+        "es": "Doy la bienvenida a la calma y el enfoque en felicidad.",
+        "de": "Ich heiße Leichtigkeit und Fokus in glück willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in felicità.",
+        "ru": "В теме «счастье» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kebahagiaan.",
+        "ja": "幸福に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความสุข",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kebahagiaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "happiness",
+      "tags": {
+        "en": [
+          "happiness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "mutluluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "bonheur",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "felicidade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geluk",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "felicidad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "glück",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "felicità",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "счастье",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "幸福",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสุข",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebahagiaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

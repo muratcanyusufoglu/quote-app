@@ -21315,19 +21315,19 @@
       "id": "success_235",
       "type": "quote",
       "texts": {
-        "en": "In success, the first version can be rough; the second is where the truth appears.",
-        "tr": "başarı konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En réussite, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em sucesso, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij succes kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En éxito, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei erfolg kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In successo, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть успех, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kesuksesan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "成功では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความสำเร็จ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kejayaan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"success\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"başarı\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"réussite\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sucesso\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"succes\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"éxito\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"erfolg\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"successo\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «успех», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesuksesan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「成功」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kejayaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -21864,19 +21864,19 @@
       "id": "success_238",
       "type": "quote",
       "texts": {
-        "en": "success moves faster when your grip is open.",
-        "tr": "başarı, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "réussite avance plus vite quand ta prise est ouverte.",
-        "pt": "sucesso anda mais rápido quando sua pegada está aberta.",
-        "nl": "succes beweegt sneller als je greep open is.",
-        "es": "éxito avanza más rápido cuando tu agarre está abierto.",
-        "de": "erfolg bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "successo si muove più veloce quando la tua presa è aperta.",
-        "ru": "успех движется быстрее, когда хватка открыта.",
-        "id": "kesuksesan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "成功は、握りしめないときに速く進む。",
-        "th": "ความสำเร็จ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kejayaan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, success moves faster.",
+        "tr": "Tutuşunu gevşettiğinde başarı daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, réussite avance plus vite.",
+        "pt": "Quando você solta o aperto, sucesso anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat succes sneller.",
+        "es": "Cuando sueltas el agarre, éxito avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt erfolg schneller voran.",
+        "it": "Quando allenti la presa, successo procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, успех движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesuksesan melaju lebih cepat.",
+        "ja": "握りを緩めると、成功は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสำเร็จเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kejayaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -21966,79 +21966,79 @@
         "en": {
           "id": "story_success_238_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for success, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_success_238_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "başarı planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_success_238_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour réussite, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_success_238_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para sucesso, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_success_238_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor succes losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_success_238_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para éxito, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_success_238_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für erfolg lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_success_238_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per successo, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_success_238_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для успех, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_success_238_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesuksesan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_success_238_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "成功の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_success_238_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสำเร็จ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_success_238_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kejayaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -22047,19 +22047,19 @@
       "id": "success_239",
       "type": "quote",
       "texts": {
-        "en": "In success, the quiet signal is often the true one.",
-        "tr": "başarı konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En réussite, le signal discret est souvent le vrai.",
-        "pt": "Em sucesso, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij succes is het stille signaal vaak het echte.",
-        "es": "En éxito, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei erfolg ist das leise Signal oft das wahre.",
-        "it": "In successo, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть успех, тихий сигнал часто самый верный.",
-        "id": "Dalam kesuksesan, sinyal yang tenang sering kali yang benar.",
-        "ja": "成功では、静かな合図が本当であることが多い。",
-        "th": "ใน ความสำเร็จ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kejayaan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"success\", the quiet signal is often the true one.",
+        "tr": "Konu \"başarı\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"réussite\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sucesso\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"succes\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"éxito\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"erfolg\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"successo\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «успех», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesuksesan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「成功」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kejayaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -22779,19 +22779,19 @@
       "id": "success_243",
       "type": "quote",
       "texts": {
-        "en": "In success, returning is part of the path, not a failure.",
-        "tr": "başarı içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En réussite, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em sucesso, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij succes is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En éxito, volver es parte del camino, no un fracaso.",
-        "de": "Bei erfolg ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In successo, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть успех, возвращение — часть пути, а не провал.",
-        "id": "Dalam kesuksesan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "成功では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความสำเร็จ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kejayaan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"success\", returning is part of the path, not a failure.",
+        "tr": "Konu \"başarı\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"réussite\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sucesso\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"succes\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"éxito\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"erfolg\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"successo\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «успех», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesuksesan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「成功」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kejayaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -22881,79 +22881,79 @@
         "en": {
           "id": "story_success_243_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"success\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_success_243_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"başarı\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_success_243_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"réussite\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_success_243_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"sucesso\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_success_243_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"succes\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_success_243_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"éxito\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_success_243_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"erfolg\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_success_243_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"successo\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_success_243_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «успех» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_success_243_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kesuksesan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_success_243_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「成功」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_success_243_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสำเร็จ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_success_243_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kejayaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -23145,19 +23145,19 @@
       "id": "success_245",
       "type": "quote",
       "texts": {
-        "en": "In success, the first version can be rough; the second is where the truth appears.",
-        "tr": "başarı konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans réussite, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em sucesso, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In succes kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En éxito, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In erfolg kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In successo, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "успех иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kesuksesan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "成功では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความสำเร็จ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kejayaan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"success\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"başarı\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"réussite\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sucesso\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"succes\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"éxito\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"erfolg\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"successo\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «успех», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesuksesan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「成功」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kejayaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -23694,19 +23694,19 @@
       "id": "success_248",
       "type": "quote",
       "texts": {
-        "en": "success moves faster when your grip is open.",
-        "tr": "başarı, elin gevşekken daha hızlı ilerler.",
-        "fr": "réussite avance plus vite quand la prise est ouverte.",
-        "pt": "sucesso anda mais rápido quando o aperto é aberto.",
-        "nl": "succes gaat sneller als je grip open is.",
-        "es": "éxito avanza más rápido cuando el agarre está abierto.",
-        "de": "erfolg kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "successo procede più veloce quando la presa è aperta.",
-        "ru": "успех движется быстрее, когда хватка открыта.",
-        "id": "kesuksesan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "成功は、握りが開いているときに進みが速い。",
-        "th": "ความสำเร็จเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kejayaan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, success moves faster.",
+        "tr": "Tutuşunu gevşettiğinde başarı daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, réussite avance plus vite.",
+        "pt": "Quando você solta o aperto, sucesso anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat succes sneller.",
+        "es": "Cuando sueltas el agarre, éxito avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt erfolg schneller voran.",
+        "it": "Quando allenti la presa, successo procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, успех движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesuksesan melaju lebih cepat.",
+        "ja": "握りを緩めると、成功は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสำเร็จเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kejayaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -23796,79 +23796,79 @@
         "en": {
           "id": "story_success_248_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the success schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for success, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_success_248_tr",
           "title": "Açık El",
-          "content": "başarı takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "başarı planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_success_248_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de réussite, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour réussite, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_success_248_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de sucesso, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para sucesso, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_success_248_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het succes-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor succes losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_success_248_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de éxito, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para éxito, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_success_248_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am erfolg-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für erfolg lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_success_248_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di successo, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per successo, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_success_248_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании успех, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для успех, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_success_248_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kesuksesan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesuksesan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_success_248_ja",
           "title": "開いた手",
-          "content": "成功の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "成功の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_success_248_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความสำเร็จ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสำเร็จ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_success_248_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kejayaan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kejayaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23877,19 +23877,19 @@
       "id": "success_249",
       "type": "quote",
       "texts": {
-        "en": "In success, the quiet signal is often the true one.",
-        "tr": "başarı içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans réussite, le signal discret est souvent le vrai.",
-        "pt": "Em sucesso, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In succes is het stille signaal vaak het echte.",
-        "es": "En éxito, la señal silenciosa suele ser la verdadera.",
-        "de": "In erfolg ist das leise Signal oft das wahre.",
-        "it": "In successo, il segnale silenzioso è spesso quello vero.",
-        "ru": "В успех тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kesuksesan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "成功では、静かな合図が本当であることが多い。",
-        "th": "ในความสำเร็จ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kejayaan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"success\", the quiet signal is often the true one.",
+        "tr": "Konu \"başarı\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"réussite\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sucesso\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"succes\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"éxito\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"erfolg\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"successo\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «успех», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesuksesan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「成功」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kejayaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -24609,19 +24609,19 @@
       "id": "success_253",
       "type": "quote",
       "texts": {
-        "en": "In success, returning is part of the path, not a failure.",
-        "tr": "başarı içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans réussite, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em sucesso, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In succes is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En éxito, volver es parte del camino, no un fracaso.",
-        "de": "In erfolg ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In successo, tornare è parte del percorso, non un fallimento.",
-        "ru": "В успех возвращение — часть пути, а не провал.",
-        "id": "Dalam kesuksesan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "成功では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความสำเร็จ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kejayaan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"success\", returning is part of the path, not a failure.",
+        "tr": "Konu \"başarı\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"réussite\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sucesso\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"succes\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"éxito\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"erfolg\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"successo\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «успех», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesuksesan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「成功」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสำเร็จ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kejayaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -24711,79 +24711,79 @@
         "en": {
           "id": "story_success_253_en",
           "title": "The Return",
-          "content": "After a missed week in success, she came back and the line continued.",
+          "content": "After a week without \"success\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_success_253_tr",
           "title": "Dönüş",
-          "content": "başarı içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"başarı\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_success_253_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en réussite, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"réussite\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_success_253_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em sucesso, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"sucesso\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_success_253_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in succes kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"succes\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_success_253_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en éxito, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"éxito\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_success_253_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in erfolg kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"erfolg\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_success_253_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in successo, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"successo\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_success_253_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в успех она вернулась, и линия продолжилась.",
+          "content": "В теме «успех» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_success_253_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kesuksesan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kesuksesan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_success_253_ja",
           "title": "帰り道",
-          "content": "成功を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「成功」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_success_253_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความสำเร็จ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสำเร็จ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_success_253_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kejayaan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kejayaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24970,6 +24970,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "success_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "In success, I take small, steady steps.",
+        "tr": "başarı konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans réussite, je fais de petits pas réguliers.",
+        "pt": "Em sucesso, dou passos pequenos e constantes.",
+        "nl": "In succes zet ik kleine, gestage stappen.",
+        "es": "En éxito, doy pasos pequeños y constantes.",
+        "de": "In erfolg gehe ich kleine, stetige Schritte.",
+        "it": "In successo, faccio passi piccoli e costanti.",
+        "ru": "В теме «успех» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kesuksesan, saya melangkah kecil dan konsisten.",
+        "ja": "成功では、小さく着実な一歩を重ねる。",
+        "th": "ในความสำเร็จ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kejayaan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to success today.",
+        "tr": "Bugün başarı için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à réussite aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para sucesso.",
+        "nl": "Vandaag breng ik kalmte en helderheid in succes.",
+        "es": "Hoy llevo calma y claridad a éxito.",
+        "de": "Heute bringe ich Ruhe und Klarheit in erfolg.",
+        "it": "Oggi porto calma e chiarezza a successo.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «успех».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kesuksesan.",
+        "ja": "今日は成功に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความสำเร็จ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give success my full attention without pressure.",
+        "tr": "başarı için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à réussite sans pression.",
+        "pt": "Dou a sucesso minha atenção total sem pressão.",
+        "nl": "Ik geef succes mijn volle aandacht zonder druk.",
+        "es": "Doy a éxito toda mi atención sin presión.",
+        "de": "Ich schenke erfolg meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a successo tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «успех» всё своё внимание без давления.",
+        "id": "Saya memberi kesuksesan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく成功に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความสำเร็จโดยไม่กดดัน",
+        "ms": "Saya memberi kejayaan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "In success, I choose progress over perfection.",
+        "tr": "başarı konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans réussite, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em sucesso, escolho progresso em vez de perfeição.",
+        "nl": "In succes kies ik voor vooruitgang boven perfectie.",
+        "es": "En éxito, elijo el progreso por encima de la perfección.",
+        "de": "In erfolg wähle ich Fortschritt statt Perfektion.",
+        "it": "In successo, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «успех» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kesuksesan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "成功では、完璧より前進を選ぶ。",
+        "th": "ในความสำเร็จ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kejayaan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to success gently.",
+        "tr": "Dağılırsam başarıe nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à réussite avec douceur.",
+        "pt": "Se eu me dispersar, volto a sucesso com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar succes.",
+        "es": "Si me disperso, vuelvo a éxito con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu erfolg zurück.",
+        "it": "Se mi disperdo, torno a successo con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «успех».",
+        "id": "Jika saya teralihkan, saya kembali ke kesuksesan dengan lembut.",
+        "ja": "迷ったら、やさしく成功に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความสำเร็จอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kejayaan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in success align with my values.",
+        "tr": "başarı konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en réussite sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em sucesso estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in succes sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en éxito están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in erfolg passen zu meinen Werten.",
+        "it": "Le mie scelte in successo sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «успех» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kesuksesan selaras dengan nilai-nilai saya.",
+        "ja": "成功での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความสำเร็จสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kejayaan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in success.",
+        "tr": "başarı konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en réussite.",
+        "pt": "Confio no meu ritmo em sucesso.",
+        "nl": "Ik vertrouw op mijn tempo in succes.",
+        "es": "Confío en mi ritmo en éxito.",
+        "de": "Ich vertraue meinem Tempo in erfolg.",
+        "it": "Mi fido del mio ritmo in successo.",
+        "ru": "Я доверяю своему темпу в теме «успех».",
+        "id": "Saya percaya pada ritme saya dalam kesuksesan.",
+        "ja": "成功での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความสำเร็จ",
+        "ms": "Saya percaya pada rentak saya dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for success to grow naturally.",
+        "tr": "başarı için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que réussite grandisse naturellement.",
+        "pt": "Abro espaço para sucesso crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat succes natuurlijk kan groeien.",
+        "es": "Hago espacio para que éxito crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit erfolg natürlich wachsen kann.",
+        "it": "Creo spazio perché successo cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «успех» происходил естественно.",
+        "id": "Saya memberi ruang agar kesuksesan tumbuh secara alami.",
+        "ja": "成功が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความสำเร็จเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kejayaan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in success.",
+        "tr": "Bugün başarı konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en réussite.",
+        "pt": "Hoje, dou um passo claro em sucesso.",
+        "nl": "Vandaag zet ik één duidelijke stap in succes.",
+        "es": "Hoy doy un paso claro en éxito.",
+        "de": "Heute mache ich einen klaren Schritt in erfolg.",
+        "it": "Oggi faccio un passo chiaro in successo.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «успех».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kesuksesan.",
+        "ja": "今日は成功で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความสำเร็จ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with success.",
+        "tr": "başarı konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec réussite.",
+        "pt": "Sou paciente e presente com sucesso.",
+        "nl": "Ik ben geduldig en aanwezig met succes.",
+        "es": "Soy paciente y presente con éxito.",
+        "de": "Ich bin geduldig und präsent mit erfolg.",
+        "it": "Sono paziente e presente con successo.",
+        "ru": "Я терпелив(а) и присутствую в теме «успех».",
+        "id": "Saya sabar dan hadir bersama kesuksesan.",
+        "ja": "成功に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความสำเร็จอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in success.",
+        "tr": "başarı konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans réussite, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em sucesso, eu me concentro no que posso controlar.",
+        "nl": "In succes richt ik me op wat ik kan controleren.",
+        "es": "En éxito, me enfoco en lo que puedo controlar.",
+        "de": "In erfolg konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In successo, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «успех» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kesuksesan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "成功では、コントロールできることに意識を向ける。",
+        "th": "ในความสำเร็จ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kejayaan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow success to be simple and sincere.",
+        "tr": "başarı konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à réussite d'être simple et sincère.",
+        "pt": "Eu permito que sucesso seja simples e verdadeiro.",
+        "nl": "Ik laat succes eenvoudig en oprecht zijn.",
+        "es": "Permito que éxito sea simple y auténtico.",
+        "de": "Ich erlaube erfolg, einfach und aufrichtig zu sein.",
+        "it": "Permetto a successo di essere semplice e autentico.",
+        "ru": "Я позволяю теме «успех» быть простой и искренней.",
+        "id": "Aku membiarkan kesuksesan tetap sederhana dan tulus.",
+        "ja": "成功はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความสำเร็จเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kejayaan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in success today.",
+        "tr": "Bugün başarı konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en réussite.",
+        "pt": "Hoje, noto uma pequena vitória em sucesso.",
+        "nl": "Vandaag zie ik een kleine overwinning in succes.",
+        "es": "Hoy noto una pequeña victoria en éxito.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in erfolg.",
+        "it": "Oggi noto una piccola vittoria in successo.",
+        "ru": "Сегодня в теме «успех» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kesuksesan.",
+        "ja": "今日、成功で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความสำเร็จ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in success.",
+        "tr": "başarı konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans réussite.",
+        "pt": "Eu respeito meus limites enquanto avanço em sucesso.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in succes.",
+        "es": "Honro mis límites mientras avanzo en éxito.",
+        "de": "Ich achte auf meine Grenzen, während ich in erfolg vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in successo.",
+        "ru": "В теме «успех» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kesuksesan.",
+        "ja": "成功で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความสำเร็จ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in success.",
+        "tr": "başarı konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en réussite.",
+        "pt": "Deixo a curiosidade guiar meus passos em sucesso.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in succes.",
+        "es": "Dejo que la curiosidad guíe mis pasos en éxito.",
+        "de": "Ich lasse Neugier meine Schritte in erfolg lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in successo.",
+        "ru": "В теме «успех» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kesuksesan.",
+        "ja": "成功では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความสำเร็จ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in success.",
+        "tr": "başarı konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en réussite.",
+        "pt": "Eu escolho clareza em vez de urgência em sucesso.",
+        "nl": "Ik kies helderheid boven haast in succes.",
+        "es": "Elijo claridad en lugar de urgencia en éxito.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in erfolg.",
+        "it": "Scelgo chiarezza invece di urgenza in successo.",
+        "ru": "В теме «успех» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kesuksesan.",
+        "ja": "成功では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความสำเร็จ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep success gentle and consistent.",
+        "tr": "başarı konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde réussite avec douceur et constance.",
+        "pt": "Mantenho sucesso com suavidade e constância.",
+        "nl": "Ik houd succes zacht en consistent.",
+        "es": "Mantengo éxito suave y constante.",
+        "de": "Ich halte erfolg sanft und beständig.",
+        "it": "Mantengo successo con dolcezza e costanza.",
+        "ru": "В теме «успех» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kesuksesan tetap lembut dan konsisten.",
+        "ja": "成功を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความสำเร็จอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kejayaan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what success needs from me right now.",
+        "tr": "Şu anda başarı konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que réussite a besoin de moi maintenant.",
+        "pt": "Eu escuto o que sucesso precisa de mim agora.",
+        "nl": "Ik luister naar wat succes nu van mij nodig heeft.",
+        "es": "Escucho lo que éxito necesita de mí ahora.",
+        "de": "Ich höre darauf, was erfolg jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui successo ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «успех» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kesuksesan butuhkan dariku sekarang.",
+        "ja": "今、成功が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความสำเร็จต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kejayaan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in success compounds.",
+        "tr": "başarı konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en réussite.",
+        "pt": "Confio que o esforço constante em sucesso se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in succes zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en éxito se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in erfolg sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in successo si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «успех» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kesuksesan berakumulasi.",
+        "ja": "成功での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความสำเร็จจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kejayaan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "success_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into success.",
+        "tr": "başarı konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans réussite.",
+        "pt": "Eu acolho leveza e foco em sucesso.",
+        "nl": "Ik verwelkom gemak en focus in succes.",
+        "es": "Doy la bienvenida a la calma y el enfoque en éxito.",
+        "de": "Ich heiße Leichtigkeit und Fokus in erfolg willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in successo.",
+        "ru": "В теме «успех» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kesuksesan.",
+        "ja": "成功に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความสำเร็จ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kejayaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "success",
+      "tags": {
+        "en": [
+          "success",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "başarı",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "réussite",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sucesso",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "succes",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "éxito",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "erfolg",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "successo",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "успех",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesuksesan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "成功",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสำเร็จ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kejayaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

@@ -22608,19 +22608,19 @@
       "id": "nature_247",
       "type": "quote",
       "texts": {
-        "en": "In nature, the first version can be rough; the second is where the truth appears.",
-        "tr": "doğa konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En nature, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em natureza, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij natuur kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En naturaleza, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei natur kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In natura, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть природа, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam alam, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "自然では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ธรรมชาติ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam alam, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"nature\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"doğa\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"nature\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"natureza\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"natuur\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"naturaleza\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"natur\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"natura\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «природа», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"alam\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「自然」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"alam\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -23157,19 +23157,19 @@
       "id": "nature_250",
       "type": "quote",
       "texts": {
-        "en": "nature moves faster when your grip is open.",
-        "tr": "doğa, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "nature avance plus vite quand ta prise est ouverte.",
-        "pt": "natureza anda mais rápido quando sua pegada está aberta.",
-        "nl": "natuur beweegt sneller als je greep open is.",
-        "es": "naturaleza avanza más rápido cuando tu agarre está abierto.",
-        "de": "natur bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "natura si muove più veloce quando la tua presa è aperta.",
-        "ru": "природа движется быстрее, когда хватка открыта.",
-        "id": "alam bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "自然は、握りしめないときに速く進む。",
-        "th": "ธรรมชาติ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "alam bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, nature moves faster.",
+        "tr": "Tutuşunu gevşettiğinde doğa daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, nature avance plus vite.",
+        "pt": "Quando você solta o aperto, natureza anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat natuur sneller.",
+        "es": "Cuando sueltas el agarre, naturaleza avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt natur schneller voran.",
+        "it": "Quando allenti la presa, natura procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, природа движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, alam melaju lebih cepat.",
+        "ja": "握りを緩めると、自然は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ธรรมชาติเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, alam bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -23259,79 +23259,79 @@
         "en": {
           "id": "story_nature_250_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for nature, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_nature_250_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "doğa planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_nature_250_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour nature, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_nature_250_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para natureza, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_nature_250_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor natuur losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_nature_250_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para naturaleza, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_nature_250_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für natur lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_nature_250_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per natura, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_nature_250_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для природа, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_nature_250_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk alam, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_nature_250_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "自然の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_nature_250_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับธรรมชาติ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_nature_250_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk alam, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23340,19 +23340,19 @@
       "id": "nature_251",
       "type": "quote",
       "texts": {
-        "en": "In nature, the quiet signal is often the true one.",
-        "tr": "doğa konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En nature, le signal discret est souvent le vrai.",
-        "pt": "Em natureza, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij natuur is het stille signaal vaak het echte.",
-        "es": "En naturaleza, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei natur ist das leise Signal oft das wahre.",
-        "it": "In natura, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть природа, тихий сигнал часто самый верный.",
-        "id": "Dalam alam, sinyal yang tenang sering kali yang benar.",
-        "ja": "自然では、静かな合図が本当であることが多い。",
-        "th": "ใน ธรรมชาติ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam alam, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"nature\", the quiet signal is often the true one.",
+        "tr": "Konu \"doğa\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"nature\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"natureza\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"natuur\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"naturaleza\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"natur\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"natura\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «природа», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"alam\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「自然」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"alam\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -24072,19 +24072,19 @@
       "id": "nature_255",
       "type": "quote",
       "texts": {
-        "en": "In nature, returning is part of the path, not a failure.",
-        "tr": "doğa içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En nature, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em natureza, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij natuur is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En naturaleza, volver es parte del camino, no un fracaso.",
-        "de": "Bei natur ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In natura, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть природа, возвращение — часть пути, а не провал.",
-        "id": "Dalam alam, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "自然では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ธรรมชาติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam alam, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"nature\", returning is part of the path, not a failure.",
+        "tr": "Konu \"doğa\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"nature\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"natureza\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"natuur\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"naturaleza\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"natur\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"natura\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «природа», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"alam\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「自然」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"alam\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -24174,79 +24174,79 @@
         "en": {
           "id": "story_nature_255_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"nature\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_nature_255_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"doğa\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_nature_255_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"nature\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_nature_255_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"natureza\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_nature_255_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"natuur\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_nature_255_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"naturaleza\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_nature_255_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"natur\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_nature_255_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"natura\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_nature_255_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «природа» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_nature_255_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"alam\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_nature_255_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「自然」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_nature_255_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ธรรมชาติ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_nature_255_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"alam\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24438,19 +24438,19 @@
       "id": "nature_257",
       "type": "quote",
       "texts": {
-        "en": "In nature, the first version can be rough; the second is where the truth appears.",
-        "tr": "doğa konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans nature, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em natureza, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In natuur kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En naturaleza, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In natur kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In natura, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "природа иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam alam, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "自然では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในธรรมชาติ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam alam, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"nature\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"doğa\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"nature\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"natureza\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"natuur\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"naturaleza\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"natur\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"natura\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «природа», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"alam\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「自然」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"alam\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -24987,19 +24987,19 @@
       "id": "nature_260",
       "type": "quote",
       "texts": {
-        "en": "nature moves faster when your grip is open.",
-        "tr": "doğa, elin gevşekken daha hızlı ilerler.",
-        "fr": "nature avance plus vite quand la prise est ouverte.",
-        "pt": "natureza anda mais rápido quando o aperto é aberto.",
-        "nl": "natuur gaat sneller als je grip open is.",
-        "es": "naturaleza avanza más rápido cuando el agarre está abierto.",
-        "de": "natur kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "natura procede più veloce quando la presa è aperta.",
-        "ru": "природа движется быстрее, когда хватка открыта.",
-        "id": "alam melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "自然は、握りが開いているときに進みが速い。",
-        "th": "ธรรมชาติเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "alam bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, nature moves faster.",
+        "tr": "Tutuşunu gevşettiğinde doğa daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, nature avance plus vite.",
+        "pt": "Quando você solta o aperto, natureza anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat natuur sneller.",
+        "es": "Cuando sueltas el agarre, naturaleza avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt natur schneller voran.",
+        "it": "Quando allenti la presa, natura procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, природа движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, alam melaju lebih cepat.",
+        "ja": "握りを緩めると、自然は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ธรรมชาติเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, alam bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -25089,79 +25089,79 @@
         "en": {
           "id": "story_nature_260_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the nature schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for nature, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_nature_260_tr",
           "title": "Açık El",
-          "content": "doğa takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "doğa planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_nature_260_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de nature, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour nature, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_nature_260_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de natureza, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para natureza, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_nature_260_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het natuur-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor natuur losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_nature_260_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de naturaleza, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para naturaleza, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_nature_260_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am natur-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für natur lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_nature_260_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di natura, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per natura, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_nature_260_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании природа, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для природа, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_nature_260_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal alam, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk alam, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_nature_260_ja",
           "title": "開いた手",
-          "content": "自然の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "自然の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_nature_260_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางธรรมชาติ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับธรรมชาติ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_nature_260_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual alam, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk alam, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -25170,19 +25170,19 @@
       "id": "nature_261",
       "type": "quote",
       "texts": {
-        "en": "In nature, the quiet signal is often the true one.",
-        "tr": "doğa içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans nature, le signal discret est souvent le vrai.",
-        "pt": "Em natureza, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In natuur is het stille signaal vaak het echte.",
-        "es": "En naturaleza, la señal silenciosa suele ser la verdadera.",
-        "de": "In natur ist das leise Signal oft das wahre.",
-        "it": "In natura, il segnale silenzioso è spesso quello vero.",
-        "ru": "В природа тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam alam, sinyal yang sunyi sering kali yang benar.",
-        "ja": "自然では、静かな合図が本当であることが多い。",
-        "th": "ในธรรมชาติ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam alam, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"nature\", the quiet signal is often the true one.",
+        "tr": "Konu \"doğa\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"nature\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"natureza\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"natuur\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"naturaleza\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"natur\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"natura\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «природа», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"alam\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「自然」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"alam\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -25902,19 +25902,19 @@
       "id": "nature_265",
       "type": "quote",
       "texts": {
-        "en": "In nature, returning is part of the path, not a failure.",
-        "tr": "doğa içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans nature, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em natureza, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In natuur is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En naturaleza, volver es parte del camino, no un fracaso.",
-        "de": "In natur ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In natura, tornare è parte del percorso, non un fallimento.",
-        "ru": "В природа возвращение — часть пути, а не провал.",
-        "id": "Dalam alam, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "自然では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในธรรมชาติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam alam, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"nature\", returning is part of the path, not a failure.",
+        "tr": "Konu \"doğa\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"nature\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"natureza\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"natuur\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"naturaleza\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"natur\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"natura\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «природа», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"alam\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「自然」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ธรรมชาติ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"alam\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -26004,79 +26004,79 @@
         "en": {
           "id": "story_nature_265_en",
           "title": "The Return",
-          "content": "After a missed week in nature, she came back and the line continued.",
+          "content": "After a week without \"nature\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_nature_265_tr",
           "title": "Dönüş",
-          "content": "doğa içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"doğa\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_nature_265_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en nature, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"nature\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_nature_265_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em natureza, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"natureza\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_nature_265_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in natuur kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"natuur\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_nature_265_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en naturaleza, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"naturaleza\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_nature_265_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in natur kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"natur\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_nature_265_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in natura, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"natura\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_nature_265_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в природа она вернулась, и линия продолжилась.",
+          "content": "В теме «природа» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_nature_265_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di alam, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"alam\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_nature_265_ja",
           "title": "帰り道",
-          "content": "自然を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「自然」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_nature_265_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในธรรมชาติ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ธรรมชาติ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_nature_265_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam alam, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"alam\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -26263,6 +26263,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "nature_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "In nature, I take small, steady steps.",
+        "tr": "doğa konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans nature, je fais de petits pas réguliers.",
+        "pt": "Em natureza, dou passos pequenos e constantes.",
+        "nl": "In natuur zet ik kleine, gestage stappen.",
+        "es": "En naturaleza, doy pasos pequeños y constantes.",
+        "de": "In natur gehe ich kleine, stetige Schritte.",
+        "it": "In natura, faccio passi piccoli e costanti.",
+        "ru": "В теме «природа» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam alam, saya melangkah kecil dan konsisten.",
+        "ja": "自然では、小さく着実な一歩を重ねる。",
+        "th": "ในธรรมชาติ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam alam, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to nature today.",
+        "tr": "Bugün doğa için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à nature aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para natureza.",
+        "nl": "Vandaag breng ik kalmte en helderheid in natuur.",
+        "es": "Hoy llevo calma y claridad a naturaleza.",
+        "de": "Heute bringe ich Ruhe und Klarheit in natur.",
+        "it": "Oggi porto calma e chiarezza a natura.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «природа».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke alam.",
+        "ja": "今日は自然に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ธรรมชาติ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give nature my full attention without pressure.",
+        "tr": "doğa için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à nature sans pression.",
+        "pt": "Dou a natureza minha atenção total sem pressão.",
+        "nl": "Ik geef natuur mijn volle aandacht zonder druk.",
+        "es": "Doy a naturaleza toda mi atención sin presión.",
+        "de": "Ich schenke natur meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a natura tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «природа» всё своё внимание без давления.",
+        "id": "Saya memberi alam perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく自然に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับธรรมชาติโดยไม่กดดัน",
+        "ms": "Saya memberi alam perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "In nature, I choose progress over perfection.",
+        "tr": "doğa konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans nature, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em natureza, escolho progresso em vez de perfeição.",
+        "nl": "In natuur kies ik voor vooruitgang boven perfectie.",
+        "es": "En naturaleza, elijo el progreso por encima de la perfección.",
+        "de": "In natur wähle ich Fortschritt statt Perfektion.",
+        "it": "In natura, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «природа» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam alam, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "自然では、完璧より前進を選ぶ。",
+        "th": "ในธรรมชาติ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam alam, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to nature gently.",
+        "tr": "Dağılırsam doğae nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à nature avec douceur.",
+        "pt": "Se eu me dispersar, volto a natureza com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar natuur.",
+        "es": "Si me disperso, vuelvo a naturaleza con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu natur zurück.",
+        "it": "Se mi disperdo, torno a natura con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «природа».",
+        "id": "Jika saya teralihkan, saya kembali ke alam dengan lembut.",
+        "ja": "迷ったら、やさしく自然に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาธรรมชาติอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada alam dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in nature align with my values.",
+        "tr": "doğa konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en nature sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em natureza estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in natuur sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en naturaleza están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in natur passen zu meinen Werten.",
+        "it": "Le mie scelte in natura sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «природа» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam alam selaras dengan nilai-nilai saya.",
+        "ja": "自然での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในธรรมชาติสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam alam selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in nature.",
+        "tr": "doğa konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en nature.",
+        "pt": "Confio no meu ritmo em natureza.",
+        "nl": "Ik vertrouw op mijn tempo in natuur.",
+        "es": "Confío en mi ritmo en naturaleza.",
+        "de": "Ich vertraue meinem Tempo in natur.",
+        "it": "Mi fido del mio ritmo in natura.",
+        "ru": "Я доверяю своему темпу в теме «природа».",
+        "id": "Saya percaya pada ritme saya dalam alam.",
+        "ja": "自然での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในธรรมชาติ",
+        "ms": "Saya percaya pada rentak saya dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for nature to grow naturally.",
+        "tr": "doğa için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que nature grandisse naturellement.",
+        "pt": "Abro espaço para natureza crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat natuur natuurlijk kan groeien.",
+        "es": "Hago espacio para que naturaleza crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit natur natürlich wachsen kann.",
+        "it": "Creo spazio perché natura cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «природа» происходил естественно.",
+        "id": "Saya memberi ruang agar alam tumbuh secara alami.",
+        "ja": "自然が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ธรรมชาติเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar alam berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in nature.",
+        "tr": "Bugün doğa konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en nature.",
+        "pt": "Hoje, dou um passo claro em natureza.",
+        "nl": "Vandaag zet ik één duidelijke stap in natuur.",
+        "es": "Hoy doy un paso claro en naturaleza.",
+        "de": "Heute mache ich einen klaren Schritt in natur.",
+        "it": "Oggi faccio un passo chiaro in natura.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «природа».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam alam.",
+        "ja": "今日は自然で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในธรรมชาติ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with nature.",
+        "tr": "doğa konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec nature.",
+        "pt": "Sou paciente e presente com natureza.",
+        "nl": "Ik ben geduldig en aanwezig met natuur.",
+        "es": "Soy paciente y presente con naturaleza.",
+        "de": "Ich bin geduldig und präsent mit natur.",
+        "it": "Sono paziente e presente con natura.",
+        "ru": "Я терпелив(а) и присутствую в теме «природа».",
+        "id": "Saya sabar dan hadir bersama alam.",
+        "ja": "自然に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับธรรมชาติอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in nature.",
+        "tr": "doğa konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans nature, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em natureza, eu me concentro no que posso controlar.",
+        "nl": "In natuur richt ik me op wat ik kan controleren.",
+        "es": "En naturaleza, me enfoco en lo que puedo controlar.",
+        "de": "In natur konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In natura, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «природа» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam alam, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "自然では、コントロールできることに意識を向ける。",
+        "th": "ในธรรมชาติ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam alam, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_278",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow nature to be simple and sincere.",
+        "tr": "doğa konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à nature d'être simple et sincère.",
+        "pt": "Eu permito que natureza seja simples e verdadeiro.",
+        "nl": "Ik laat natuur eenvoudig en oprecht zijn.",
+        "es": "Permito que naturaleza sea simple y auténtico.",
+        "de": "Ich erlaube natur, einfach und aufrichtig zu sein.",
+        "it": "Permetto a natura di essere semplice e autentico.",
+        "ru": "Я позволяю теме «природа» быть простой и искренней.",
+        "id": "Aku membiarkan alam tetap sederhana dan tulus.",
+        "ja": "自然はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ธรรมชาติเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan alam menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_279",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in nature today.",
+        "tr": "Bugün doğa konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en nature.",
+        "pt": "Hoje, noto uma pequena vitória em natureza.",
+        "nl": "Vandaag zie ik een kleine overwinning in natuur.",
+        "es": "Hoy noto una pequeña victoria en naturaleza.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in natur.",
+        "it": "Oggi noto una piccola vittoria in natura.",
+        "ru": "Сегодня в теме «природа» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam alam.",
+        "ja": "今日、自然で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในธรรมชาติ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_280",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in nature.",
+        "tr": "doğa konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans nature.",
+        "pt": "Eu respeito meus limites enquanto avanço em natureza.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in natuur.",
+        "es": "Honro mis límites mientras avanzo en naturaleza.",
+        "de": "Ich achte auf meine Grenzen, während ich in natur vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in natura.",
+        "ru": "В теме «природа» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam alam.",
+        "ja": "自然で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในธรรมชาติ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_281",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in nature.",
+        "tr": "doğa konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en nature.",
+        "pt": "Deixo a curiosidade guiar meus passos em natureza.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in natuur.",
+        "es": "Dejo que la curiosidad guíe mis pasos en naturaleza.",
+        "de": "Ich lasse Neugier meine Schritte in natur lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in natura.",
+        "ru": "В теме «природа» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam alam.",
+        "ja": "自然では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในธรรมชาติ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_282",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in nature.",
+        "tr": "doğa konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en nature.",
+        "pt": "Eu escolho clareza em vez de urgência em natureza.",
+        "nl": "Ik kies helderheid boven haast in natuur.",
+        "es": "Elijo claridad en lugar de urgencia en naturaleza.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in natur.",
+        "it": "Scelgo chiarezza invece di urgenza in natura.",
+        "ru": "В теме «природа» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam alam.",
+        "ja": "自然では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในธรรมชาติ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_283",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep nature gentle and consistent.",
+        "tr": "doğa konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde nature avec douceur et constance.",
+        "pt": "Mantenho natureza com suavidade e constância.",
+        "nl": "Ik houd natuur zacht en consistent.",
+        "es": "Mantengo naturaleza suave y constante.",
+        "de": "Ich halte natur sanft und beständig.",
+        "it": "Mantengo natura con dolcezza e costanza.",
+        "ru": "В теме «природа» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga alam tetap lembut dan konsisten.",
+        "ja": "自然を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ธรรมชาติอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan alam dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_284",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what nature needs from me right now.",
+        "tr": "Şu anda doğa konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que nature a besoin de moi maintenant.",
+        "pt": "Eu escuto o que natureza precisa de mim agora.",
+        "nl": "Ik luister naar wat natuur nu van mij nodig heeft.",
+        "es": "Escucho lo que naturaleza necesita de mí ahora.",
+        "de": "Ich höre darauf, was natur jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui natura ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «природа» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang alam butuhkan dariku sekarang.",
+        "ja": "今、自然が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าธรรมชาติต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang alam perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_285",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in nature compounds.",
+        "tr": "doğa konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en nature.",
+        "pt": "Confio que o esforço constante em natureza se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in natuur zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en naturaleza se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in natur sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in natura si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «природа» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam alam berakumulasi.",
+        "ja": "自然での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในธรรมชาติจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam alam terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "nature_286",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into nature.",
+        "tr": "doğa konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans nature.",
+        "pt": "Eu acolho leveza e foco em natureza.",
+        "nl": "Ik verwelkom gemak en focus in natuur.",
+        "es": "Doy la bienvenida a la calma y el enfoque en naturaleza.",
+        "de": "Ich heiße Leichtigkeit und Fokus in natur willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in natura.",
+        "ru": "В теме «природа» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam alam.",
+        "ja": "自然に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในธรรมชาติ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam alam."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "nature",
+      "tags": {
+        "en": [
+          "nature",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "doğa",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "nature",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "natureza",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "natuur",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "naturaleza",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "natur",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "natura",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "природа",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "自然",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ธรรมชาติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "alam",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

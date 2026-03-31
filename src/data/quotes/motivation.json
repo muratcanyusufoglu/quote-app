@@ -28476,19 +28476,19 @@
       "id": "mot_271",
       "type": "quote",
       "texts": {
-        "en": "In motivation, the first version can be rough; the second is where the truth appears.",
-        "tr": "motivasyon konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En motivation, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em motivação, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij motivatie kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En motivación, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei motivation kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In motivazione, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть мотивация, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam motivasi, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "モチベーションでは、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน แรงจูงใจ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam motivasi, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"motivation\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"motivasyon\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"motivation\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"motivação\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"motivatie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"motivación\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"motivation\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"motivazione\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мотивация», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"motivasi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「モチベーション」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"motivasi\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -29025,19 +29025,19 @@
       "id": "mot_274",
       "type": "quote",
       "texts": {
-        "en": "motivation moves faster when your grip is open.",
-        "tr": "motivasyon, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "motivation avance plus vite quand ta prise est ouverte.",
-        "pt": "motivação anda mais rápido quando sua pegada está aberta.",
-        "nl": "motivatie beweegt sneller als je greep open is.",
-        "es": "motivación avanza más rápido cuando tu agarre está abierto.",
-        "de": "motivation bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "motivazione si muove più veloce quando la tua presa è aperta.",
-        "ru": "мотивация движется быстрее, когда хватка открыта.",
-        "id": "motivasi bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "モチベーションは、握りしめないときに速く進む。",
-        "th": "แรงจูงใจ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "motivasi bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, motivation moves faster.",
+        "tr": "Tutuşunu gevşettiğinde motivasyon daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, motivation avance plus vite.",
+        "pt": "Quando você solta o aperto, motivação anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat motivatie sneller.",
+        "es": "Cuando sueltas el agarre, motivación avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt motivation schneller voran.",
+        "it": "Quando allenti la presa, motivazione procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мотивация движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, motivasi melaju lebih cepat.",
+        "ja": "握りを緩めると、モチベーションは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด แรงจูงใจเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, motivasi bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -29127,79 +29127,79 @@
         "en": {
           "id": "story_mot_274_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for motivation, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_mot_274_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "motivasyon planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_mot_274_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour motivation, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_mot_274_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para motivação, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_mot_274_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor motivatie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_mot_274_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para motivación, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_mot_274_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für motivation lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_mot_274_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per motivazione, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_mot_274_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для мотивация, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_mot_274_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk motivasi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_mot_274_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "モチベーションの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_mot_274_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับแรงจูงใจ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_mot_274_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk motivasi, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -29208,19 +29208,19 @@
       "id": "mot_275",
       "type": "quote",
       "texts": {
-        "en": "In motivation, the quiet signal is often the true one.",
-        "tr": "motivasyon konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En motivation, le signal discret est souvent le vrai.",
-        "pt": "Em motivação, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij motivatie is het stille signaal vaak het echte.",
-        "es": "En motivación, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei motivation ist das leise Signal oft das wahre.",
-        "it": "In motivazione, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть мотивация, тихий сигнал часто самый верный.",
-        "id": "Dalam motivasi, sinyal yang tenang sering kali yang benar.",
-        "ja": "モチベーションでは、静かな合図が本当であることが多い。",
-        "th": "ใน แรงจูงใจ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam motivasi, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"motivation\", the quiet signal is often the true one.",
+        "tr": "Konu \"motivasyon\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"motivation\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"motivação\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"motivatie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"motivación\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"motivation\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"motivazione\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мотивация», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"motivasi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「モチベーション」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"motivasi\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -29940,19 +29940,19 @@
       "id": "mot_279",
       "type": "quote",
       "texts": {
-        "en": "In motivation, returning is part of the path, not a failure.",
-        "tr": "motivasyon içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En motivation, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em motivação, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij motivatie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En motivación, volver es parte del camino, no un fracaso.",
-        "de": "Bei motivation ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In motivazione, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть мотивация, возвращение — часть пути, а не провал.",
-        "id": "Dalam motivasi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "モチベーションでは、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน แรงจูงใจ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam motivasi, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"motivation\", returning is part of the path, not a failure.",
+        "tr": "Konu \"motivasyon\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"motivation\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"motivação\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"motivatie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"motivación\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"motivation\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"motivazione\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мотивация», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"motivasi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「モチベーション」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"motivasi\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -30042,79 +30042,79 @@
         "en": {
           "id": "story_mot_279_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"motivation\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_mot_279_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"motivasyon\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_mot_279_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"motivation\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_mot_279_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"motivação\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_mot_279_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"motivatie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_mot_279_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"motivación\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_mot_279_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"motivation\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_mot_279_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"motivazione\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_mot_279_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «мотивация» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_mot_279_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"motivasi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_mot_279_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「モチベーション」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_mot_279_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"แรงจูงใจ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_mot_279_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"motivasi\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -30306,19 +30306,19 @@
       "id": "mot_281",
       "type": "quote",
       "texts": {
-        "en": "In motivation, the first version can be rough; the second is where the truth appears.",
-        "tr": "motivasyon konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans motivation, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em motivação, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In motivatie kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En motivación, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In motivation kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In motivazione, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "мотивация иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam motivasi, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "モチベーションでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในแรงจูงใจ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam motivasi, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"motivation\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"motivasyon\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"motivation\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"motivação\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"motivatie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"motivación\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"motivation\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"motivazione\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мотивация», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"motivasi\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「モチベーション」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"motivasi\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -30855,19 +30855,19 @@
       "id": "mot_284",
       "type": "quote",
       "texts": {
-        "en": "motivation moves faster when your grip is open.",
-        "tr": "motivasyon, elin gevşekken daha hızlı ilerler.",
-        "fr": "motivation avance plus vite quand la prise est ouverte.",
-        "pt": "motivação anda mais rápido quando o aperto é aberto.",
-        "nl": "motivatie gaat sneller als je grip open is.",
-        "es": "motivación avanza más rápido cuando el agarre está abierto.",
-        "de": "motivation kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "motivazione procede più veloce quando la presa è aperta.",
-        "ru": "мотивация движется быстрее, когда хватка открыта.",
-        "id": "motivasi melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "モチベーションは、握りが開いているときに進みが速い。",
-        "th": "แรงจูงใจเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "motivasi bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, motivation moves faster.",
+        "tr": "Tutuşunu gevşettiğinde motivasyon daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, motivation avance plus vite.",
+        "pt": "Quando você solta o aperto, motivação anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat motivatie sneller.",
+        "es": "Cuando sueltas el agarre, motivación avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt motivation schneller voran.",
+        "it": "Quando allenti la presa, motivazione procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мотивация движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, motivasi melaju lebih cepat.",
+        "ja": "握りを緩めると、モチベーションは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด แรงจูงใจเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, motivasi bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -30957,79 +30957,79 @@
         "en": {
           "id": "story_mot_284_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the motivation schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for motivation, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_mot_284_tr",
           "title": "Açık El",
-          "content": "motivasyon takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "motivasyon planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_mot_284_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de motivation, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour motivation, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_mot_284_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de motivação, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para motivação, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_mot_284_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het motivatie-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor motivatie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_mot_284_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de motivación, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para motivación, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_mot_284_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am motivation-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für motivation lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_mot_284_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di motivazione, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per motivazione, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_mot_284_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании мотивация, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для мотивация, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_mot_284_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal motivasi, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk motivasi, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_mot_284_ja",
           "title": "開いた手",
-          "content": "モチベーションの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "モチベーションの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_mot_284_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางแรงจูงใจ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับแรงจูงใจ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_mot_284_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual motivasi, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk motivasi, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -31038,19 +31038,19 @@
       "id": "mot_285",
       "type": "quote",
       "texts": {
-        "en": "In motivation, the quiet signal is often the true one.",
-        "tr": "motivasyon içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans motivation, le signal discret est souvent le vrai.",
-        "pt": "Em motivação, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In motivatie is het stille signaal vaak het echte.",
-        "es": "En motivación, la señal silenciosa suele ser la verdadera.",
-        "de": "In motivation ist das leise Signal oft das wahre.",
-        "it": "In motivazione, il segnale silenzioso è spesso quello vero.",
-        "ru": "В мотивация тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam motivasi, sinyal yang sunyi sering kali yang benar.",
-        "ja": "モチベーションでは、静かな合図が本当であることが多い。",
-        "th": "ในแรงจูงใจ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam motivasi, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"motivation\", the quiet signal is often the true one.",
+        "tr": "Konu \"motivasyon\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"motivation\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"motivação\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"motivatie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"motivación\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"motivation\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"motivazione\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мотивация», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"motivasi\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「モチベーション」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"motivasi\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -31770,19 +31770,19 @@
       "id": "mot_289",
       "type": "quote",
       "texts": {
-        "en": "In motivation, returning is part of the path, not a failure.",
-        "tr": "motivasyon içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans motivation, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em motivação, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In motivatie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En motivación, volver es parte del camino, no un fracaso.",
-        "de": "In motivation ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In motivazione, tornare è parte del percorso, non un fallimento.",
-        "ru": "В мотивация возвращение — часть пути, а не провал.",
-        "id": "Dalam motivasi, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "モチベーションでは、戻ることは道の一部であって失敗ではない。",
-        "th": "ในแรงจูงใจ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam motivasi, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"motivation\", returning is part of the path, not a failure.",
+        "tr": "Konu \"motivasyon\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"motivation\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"motivação\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"motivatie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"motivación\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"motivation\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"motivazione\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мотивация», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"motivasi\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「モチベーション」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"แรงจูงใจ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"motivasi\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -31872,79 +31872,79 @@
         "en": {
           "id": "story_mot_289_en",
           "title": "The Return",
-          "content": "After a missed week in motivation, she came back and the line continued.",
+          "content": "After a week without \"motivation\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_mot_289_tr",
           "title": "Dönüş",
-          "content": "motivasyon içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"motivasyon\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_mot_289_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en motivation, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"motivation\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_mot_289_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em motivação, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"motivação\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_mot_289_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in motivatie kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"motivatie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_mot_289_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en motivación, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"motivación\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_mot_289_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in motivation kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"motivation\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_mot_289_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in motivazione, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"motivazione\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_mot_289_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в мотивация она вернулась, и линия продолжилась.",
+          "content": "В теме «мотивация» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_mot_289_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di motivasi, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"motivasi\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_mot_289_ja",
           "title": "帰り道",
-          "content": "モチベーションを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「モチベーション」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_mot_289_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในแรงจูงใจ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"แรงจูงใจ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_mot_289_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam motivasi, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"motivasi\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -32131,6 +32131,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "mot_291",
+      "type": "affirmation",
+      "texts": {
+        "en": "In motivation, I take small, steady steps.",
+        "tr": "motivasyon konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans motivation, je fais de petits pas réguliers.",
+        "pt": "Em motivação, dou passos pequenos e constantes.",
+        "nl": "In motivatie zet ik kleine, gestage stappen.",
+        "es": "En motivación, doy pasos pequeños y constantes.",
+        "de": "In motivation gehe ich kleine, stetige Schritte.",
+        "it": "In motivazione, faccio passi piccoli e costanti.",
+        "ru": "В теме «мотивация» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam motivasi, saya melangkah kecil dan konsisten.",
+        "ja": "モチベーションでは、小さく着実な一歩を重ねる。",
+        "th": "ในแรงจูงใจ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam motivasi, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_292",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to motivation today.",
+        "tr": "Bugün motivasyon için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à motivation aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para motivação.",
+        "nl": "Vandaag breng ik kalmte en helderheid in motivatie.",
+        "es": "Hoy llevo calma y claridad a motivación.",
+        "de": "Heute bringe ich Ruhe und Klarheit in motivation.",
+        "it": "Oggi porto calma e chiarezza a motivazione.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «мотивация».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke motivasi.",
+        "ja": "今日はモチベーションに落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่แรงจูงใจ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_293",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give motivation my full attention without pressure.",
+        "tr": "motivasyon için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à motivation sans pression.",
+        "pt": "Dou a motivação minha atenção total sem pressão.",
+        "nl": "Ik geef motivatie mijn volle aandacht zonder druk.",
+        "es": "Doy a motivación toda mi atención sin presión.",
+        "de": "Ich schenke motivation meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a motivazione tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «мотивация» всё своё внимание без давления.",
+        "id": "Saya memberi motivasi perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなくモチベーションに全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับแรงจูงใจโดยไม่กดดัน",
+        "ms": "Saya memberi motivasi perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_294",
+      "type": "affirmation",
+      "texts": {
+        "en": "In motivation, I choose progress over perfection.",
+        "tr": "motivasyon konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans motivation, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em motivação, escolho progresso em vez de perfeição.",
+        "nl": "In motivatie kies ik voor vooruitgang boven perfectie.",
+        "es": "En motivación, elijo el progreso por encima de la perfección.",
+        "de": "In motivation wähle ich Fortschritt statt Perfektion.",
+        "it": "In motivazione, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «мотивация» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam motivasi, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "モチベーションでは、完璧より前進を選ぶ。",
+        "th": "ในแรงจูงใจ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam motivasi, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_295",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to motivation gently.",
+        "tr": "Dağılırsam motivasyone nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à motivation avec douceur.",
+        "pt": "Se eu me dispersar, volto a motivação com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar motivatie.",
+        "es": "Si me disperso, vuelvo a motivación con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu motivation zurück.",
+        "it": "Se mi disperdo, torno a motivazione con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «мотивация».",
+        "id": "Jika saya teralihkan, saya kembali ke motivasi dengan lembut.",
+        "ja": "迷ったら、やさしくモチベーションに戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาแรงจูงใจอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada motivasi dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_296",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in motivation align with my values.",
+        "tr": "motivasyon konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en motivation sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em motivação estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in motivatie sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en motivación están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in motivation passen zu meinen Werten.",
+        "it": "Le mie scelte in motivazione sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «мотивация» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam motivasi selaras dengan nilai-nilai saya.",
+        "ja": "モチベーションでの選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในแรงจูงใจสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam motivasi selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_297",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in motivation.",
+        "tr": "motivasyon konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en motivation.",
+        "pt": "Confio no meu ritmo em motivação.",
+        "nl": "Ik vertrouw op mijn tempo in motivatie.",
+        "es": "Confío en mi ritmo en motivación.",
+        "de": "Ich vertraue meinem Tempo in motivation.",
+        "it": "Mi fido del mio ritmo in motivazione.",
+        "ru": "Я доверяю своему темпу в теме «мотивация».",
+        "id": "Saya percaya pada ritme saya dalam motivasi.",
+        "ja": "モチベーションでの自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในแรงจูงใจ",
+        "ms": "Saya percaya pada rentak saya dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_298",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for motivation to grow naturally.",
+        "tr": "motivasyon için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que motivation grandisse naturellement.",
+        "pt": "Abro espaço para motivação crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat motivatie natuurlijk kan groeien.",
+        "es": "Hago espacio para que motivación crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit motivation natürlich wachsen kann.",
+        "it": "Creo spazio perché motivazione cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «мотивация» происходил естественно.",
+        "id": "Saya memberi ruang agar motivasi tumbuh secara alami.",
+        "ja": "モチベーションが自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้แรงจูงใจเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar motivasi berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_299",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in motivation.",
+        "tr": "Bugün motivasyon konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en motivation.",
+        "pt": "Hoje, dou um passo claro em motivação.",
+        "nl": "Vandaag zet ik één duidelijke stap in motivatie.",
+        "es": "Hoy doy un paso claro en motivación.",
+        "de": "Heute mache ich einen klaren Schritt in motivation.",
+        "it": "Oggi faccio un passo chiaro in motivazione.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «мотивация».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam motivasi.",
+        "ja": "今日はモチベーションで一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในแรงจูงใจ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_300",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with motivation.",
+        "tr": "motivasyon konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec motivation.",
+        "pt": "Sou paciente e presente com motivação.",
+        "nl": "Ik ben geduldig en aanwezig met motivatie.",
+        "es": "Soy paciente y presente con motivación.",
+        "de": "Ich bin geduldig und präsent mit motivation.",
+        "it": "Sono paziente e presente con motivazione.",
+        "ru": "Я терпелив(а) и присутствую в теме «мотивация».",
+        "id": "Saya sabar dan hadir bersama motivasi.",
+        "ja": "モチベーションに対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับแรงจูงใจอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_301",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in motivation.",
+        "tr": "motivasyon konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans motivation, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em motivação, eu me concentro no que posso controlar.",
+        "nl": "In motivatie richt ik me op wat ik kan controleren.",
+        "es": "En motivación, me enfoco en lo que puedo controlar.",
+        "de": "In motivation konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In motivazione, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «мотивация» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam motivasi, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "モチベーションでは、コントロールできることに意識を向ける。",
+        "th": "ในแรงจูงใจ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam motivasi, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_302",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow motivation to be simple and sincere.",
+        "tr": "motivasyon konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à motivation d'être simple et sincère.",
+        "pt": "Eu permito que motivação seja simples e verdadeiro.",
+        "nl": "Ik laat motivatie eenvoudig en oprecht zijn.",
+        "es": "Permito que motivación sea simple y auténtico.",
+        "de": "Ich erlaube motivation, einfach und aufrichtig zu sein.",
+        "it": "Permetto a motivazione di essere semplice e autentico.",
+        "ru": "Я позволяю теме «мотивация» быть простой и искренней.",
+        "id": "Aku membiarkan motivasi tetap sederhana dan tulus.",
+        "ja": "モチベーションはシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้แรงจูงใจเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan motivasi menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_303",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in motivation today.",
+        "tr": "Bugün motivasyon konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en motivation.",
+        "pt": "Hoje, noto uma pequena vitória em motivação.",
+        "nl": "Vandaag zie ik een kleine overwinning in motivatie.",
+        "es": "Hoy noto una pequeña victoria en motivación.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in motivation.",
+        "it": "Oggi noto una piccola vittoria in motivazione.",
+        "ru": "Сегодня в теме «мотивация» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam motivasi.",
+        "ja": "今日、モチベーションで小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในแรงจูงใจ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_304",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in motivation.",
+        "tr": "motivasyon konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans motivation.",
+        "pt": "Eu respeito meus limites enquanto avanço em motivação.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in motivatie.",
+        "es": "Honro mis límites mientras avanzo en motivación.",
+        "de": "Ich achte auf meine Grenzen, während ich in motivation vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in motivazione.",
+        "ru": "В теме «мотивация» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam motivasi.",
+        "ja": "モチベーションで前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในแรงจูงใจ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_305",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in motivation.",
+        "tr": "motivasyon konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en motivation.",
+        "pt": "Deixo a curiosidade guiar meus passos em motivação.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in motivatie.",
+        "es": "Dejo que la curiosidad guíe mis pasos en motivación.",
+        "de": "Ich lasse Neugier meine Schritte in motivation lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in motivazione.",
+        "ru": "В теме «мотивация» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam motivasi.",
+        "ja": "モチベーションでは、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในแรงจูงใจ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_306",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in motivation.",
+        "tr": "motivasyon konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en motivation.",
+        "pt": "Eu escolho clareza em vez de urgência em motivação.",
+        "nl": "Ik kies helderheid boven haast in motivatie.",
+        "es": "Elijo claridad en lugar de urgencia en motivación.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in motivation.",
+        "it": "Scelgo chiarezza invece di urgenza in motivazione.",
+        "ru": "В теме «мотивация» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam motivasi.",
+        "ja": "モチベーションでは、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในแรงจูงใจ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_307",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep motivation gentle and consistent.",
+        "tr": "motivasyon konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde motivation avec douceur et constance.",
+        "pt": "Mantenho motivação com suavidade e constância.",
+        "nl": "Ik houd motivatie zacht en consistent.",
+        "es": "Mantengo motivación suave y constante.",
+        "de": "Ich halte motivation sanft und beständig.",
+        "it": "Mantengo motivazione con dolcezza e costanza.",
+        "ru": "В теме «мотивация» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga motivasi tetap lembut dan konsisten.",
+        "ja": "モチベーションを穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้แรงจูงใจอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan motivasi dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_308",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what motivation needs from me right now.",
+        "tr": "Şu anda motivasyon konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que motivation a besoin de moi maintenant.",
+        "pt": "Eu escuto o que motivação precisa de mim agora.",
+        "nl": "Ik luister naar wat motivatie nu van mij nodig heeft.",
+        "es": "Escucho lo que motivación necesita de mí ahora.",
+        "de": "Ich höre darauf, was motivation jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui motivazione ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «мотивация» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang motivasi butuhkan dariku sekarang.",
+        "ja": "今、モチベーションが私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าแรงจูงใจต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang motivasi perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_309",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in motivation compounds.",
+        "tr": "motivasyon konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en motivation.",
+        "pt": "Confio que o esforço constante em motivação se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in motivatie zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en motivación se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in motivation sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in motivazione si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «мотивация» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam motivasi berakumulasi.",
+        "ja": "モチベーションでの着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในแรงจูงใจจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam motivasi terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "mot_310",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into motivation.",
+        "tr": "motivasyon konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans motivation.",
+        "pt": "Eu acolho leveza e foco em motivação.",
+        "nl": "Ik verwelkom gemak en focus in motivatie.",
+        "es": "Doy la bienvenida a la calma y el enfoque en motivación.",
+        "de": "Ich heiße Leichtigkeit und Fokus in motivation willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in motivazione.",
+        "ru": "В теме «мотивация» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam motivasi.",
+        "ja": "モチベーションに、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในแรงจูงใจ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam motivasi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "motivation",
+      "tags": {
+        "en": [
+          "motivation",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "motivasyon",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "motivation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "motivação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "motivatie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "motivación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "motivation",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "motivazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мотивация",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "モチベーション",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "แรงจูงใจ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "motivasi",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

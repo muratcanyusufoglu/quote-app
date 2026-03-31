@@ -21794,19 +21794,19 @@
       "id": "gra_234",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, the first version can be rough; the second is where the truth appears.",
-        "tr": "minnettarlık konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En gratitude, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em gratidão, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij dankbaarheid kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En gratitud, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei dankbarkeit kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In gratitudine, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть благодарность, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam rasa syukur, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "感謝では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความขอบคุณ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesyukuran, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"gratitude\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"minnettarlık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"gratitude\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"gratidão\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"dankbaarheid\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"gratitud\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"gratitudine\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «благодарность», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"rasa syukur\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「感謝」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesyukuran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -22343,19 +22343,19 @@
       "id": "gra_237",
       "type": "quote",
       "texts": {
-        "en": "gratitude moves faster when your grip is open.",
-        "tr": "minnettarlık, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "gratitude avance plus vite quand ta prise est ouverte.",
-        "pt": "gratidão anda mais rápido quando sua pegada está aberta.",
-        "nl": "dankbaarheid beweegt sneller als je greep open is.",
-        "es": "gratitud avanza más rápido cuando tu agarre está abierto.",
-        "de": "dankbarkeit bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "gratitudine si muove più veloce quando la tua presa è aperta.",
-        "ru": "благодарность движется быстрее, когда хватка открыта.",
-        "id": "rasa syukur bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "感謝は、握りしめないときに速く進む。",
-        "th": "ความขอบคุณ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kesyukuran bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, gratitude moves faster.",
+        "tr": "Tutuşunu gevşettiğinde minnettarlık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, gratitude avance plus vite.",
+        "pt": "Quando você solta o aperto, gratidão anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat dankbaarheid sneller.",
+        "es": "Cuando sueltas el agarre, gratitud avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt dankbarkeit schneller voran.",
+        "it": "Quando allenti la presa, gratitudine procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, благодарность движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, rasa syukur melaju lebih cepat.",
+        "ja": "握りを緩めると、感謝は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความขอบคุณเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesyukuran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -22445,79 +22445,79 @@
         "en": {
           "id": "story_gra_237_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for gratitude, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gra_237_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "minnettarlık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gra_237_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour gratitude, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gra_237_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para gratidão, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gra_237_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor dankbaarheid losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_gra_237_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para gratitud, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_gra_237_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für dankbarkeit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_gra_237_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per gratitudine, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gra_237_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для благодарность, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_gra_237_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk rasa syukur, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gra_237_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "感謝の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_gra_237_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความขอบคุณ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_gra_237_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesyukuran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -22526,19 +22526,19 @@
       "id": "gra_238",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, the quiet signal is often the true one.",
-        "tr": "minnettarlık konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En gratitude, le signal discret est souvent le vrai.",
-        "pt": "Em gratidão, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij dankbaarheid is het stille signaal vaak het echte.",
-        "es": "En gratitud, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei dankbarkeit ist das leise Signal oft das wahre.",
-        "it": "In gratitudine, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть благодарность, тихий сигнал часто самый верный.",
-        "id": "Dalam rasa syukur, sinyal yang tenang sering kali yang benar.",
-        "ja": "感謝では、静かな合図が本当であることが多い。",
-        "th": "ใน ความขอบคุณ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kesyukuran, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"gratitude\", the quiet signal is often the true one.",
+        "tr": "Konu \"minnettarlık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"gratitude\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"gratidão\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"dankbaarheid\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"gratitud\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"gratitudine\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «благодарность», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"rasa syukur\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「感謝」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesyukuran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -23258,19 +23258,19 @@
       "id": "gra_242",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, returning is part of the path, not a failure.",
-        "tr": "minnettarlık içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En gratitude, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em gratidão, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij dankbaarheid is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En gratitud, volver es parte del camino, no un fracaso.",
-        "de": "Bei dankbarkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In gratitudine, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть благодарность, возвращение — часть пути, а не провал.",
-        "id": "Dalam rasa syukur, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "感謝では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความขอบคุณ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesyukuran, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"gratitude\", returning is part of the path, not a failure.",
+        "tr": "Konu \"minnettarlık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"gratitude\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"gratidão\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"dankbaarheid\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"gratitud\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"gratitudine\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «благодарность», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"rasa syukur\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「感謝」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesyukuran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -23360,79 +23360,79 @@
         "en": {
           "id": "story_gra_242_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"gratitude\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gra_242_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"minnettarlık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gra_242_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"gratitude\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gra_242_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"gratidão\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gra_242_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"dankbaarheid\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_gra_242_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"gratitud\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_gra_242_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"dankbarkeit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_gra_242_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"gratitudine\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gra_242_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «благодарность» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_gra_242_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"rasa syukur\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gra_242_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「感謝」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_gra_242_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความขอบคุณ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_gra_242_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesyukuran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -23624,19 +23624,19 @@
       "id": "gra_244",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, the first version can be rough; the second is where the truth appears.",
-        "tr": "minnettarlık konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans gratitude, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em gratidão, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In dankbaarheid kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En gratitud, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In dankbarkeit kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In gratitudine, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "благодарность иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam rasa syukur, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "感謝では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความขอบคุณ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesyukuran, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"gratitude\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"minnettarlık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"gratitude\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"gratidão\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"dankbaarheid\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"gratitud\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"gratitudine\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «благодарность», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"rasa syukur\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「感謝」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesyukuran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -24173,19 +24173,19 @@
       "id": "gra_247",
       "type": "quote",
       "texts": {
-        "en": "gratitude moves faster when your grip is open.",
-        "tr": "minnettarlık, elin gevşekken daha hızlı ilerler.",
-        "fr": "gratitude avance plus vite quand la prise est ouverte.",
-        "pt": "gratidão anda mais rápido quando o aperto é aberto.",
-        "nl": "dankbaarheid gaat sneller als je grip open is.",
-        "es": "gratitud avanza más rápido cuando el agarre está abierto.",
-        "de": "dankbarkeit kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "gratitudine procede più veloce quando la presa è aperta.",
-        "ru": "благодарность движется быстрее, когда хватка открыта.",
-        "id": "rasa syukur melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "感謝は、握りが開いているときに進みが速い。",
-        "th": "ความขอบคุณเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kesyukuran bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, gratitude moves faster.",
+        "tr": "Tutuşunu gevşettiğinde minnettarlık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, gratitude avance plus vite.",
+        "pt": "Quando você solta o aperto, gratidão anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat dankbaarheid sneller.",
+        "es": "Cuando sueltas el agarre, gratitud avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt dankbarkeit schneller voran.",
+        "it": "Quando allenti la presa, gratitudine procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, благодарность движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, rasa syukur melaju lebih cepat.",
+        "ja": "握りを緩めると、感謝は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความขอบคุณเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesyukuran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -24275,79 +24275,79 @@
         "en": {
           "id": "story_gra_247_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the gratitude schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for gratitude, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gra_247_tr",
           "title": "Açık El",
-          "content": "minnettarlık takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "minnettarlık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gra_247_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de gratitude, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour gratitude, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gra_247_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de gratidão, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para gratidão, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gra_247_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het dankbaarheid-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor dankbaarheid losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_gra_247_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de gratitud, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para gratitud, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_gra_247_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am dankbarkeit-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für dankbarkeit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_gra_247_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di gratitudine, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per gratitudine, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gra_247_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании благодарность, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для благодарность, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_gra_247_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal rasa syukur, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk rasa syukur, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gra_247_ja",
           "title": "開いた手",
-          "content": "感謝の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "感謝の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_gra_247_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความขอบคุณ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความขอบคุณ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_gra_247_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kesyukuran, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesyukuran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24356,19 +24356,19 @@
       "id": "gra_248",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, the quiet signal is often the true one.",
-        "tr": "minnettarlık içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans gratitude, le signal discret est souvent le vrai.",
-        "pt": "Em gratidão, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In dankbaarheid is het stille signaal vaak het echte.",
-        "es": "En gratitud, la señal silenciosa suele ser la verdadera.",
-        "de": "In dankbarkeit ist das leise Signal oft das wahre.",
-        "it": "In gratitudine, il segnale silenzioso è spesso quello vero.",
-        "ru": "В благодарность тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam rasa syukur, sinyal yang sunyi sering kali yang benar.",
-        "ja": "感謝では、静かな合図が本当であることが多い。",
-        "th": "ในความขอบคุณ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kesyukuran, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"gratitude\", the quiet signal is often the true one.",
+        "tr": "Konu \"minnettarlık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"gratitude\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"gratidão\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"dankbaarheid\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"gratitud\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"gratitudine\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «благодарность», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"rasa syukur\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「感謝」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesyukuran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -25088,19 +25088,19 @@
       "id": "gra_252",
       "type": "quote",
       "texts": {
-        "en": "In gratitude, returning is part of the path, not a failure.",
-        "tr": "minnettarlık içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans gratitude, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em gratidão, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In dankbaarheid is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En gratitud, volver es parte del camino, no un fracaso.",
-        "de": "In dankbarkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In gratitudine, tornare è parte del percorso, non un fallimento.",
-        "ru": "В благодарность возвращение — часть пути, а не провал.",
-        "id": "Dalam rasa syukur, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "感謝では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความขอบคุณ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesyukuran, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"gratitude\", returning is part of the path, not a failure.",
+        "tr": "Konu \"minnettarlık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"gratitude\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"gratidão\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"dankbaarheid\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"gratitud\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"dankbarkeit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"gratitudine\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «благодарность», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"rasa syukur\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「感謝」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความขอบคุณ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesyukuran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -25190,79 +25190,79 @@
         "en": {
           "id": "story_gra_252_en",
           "title": "The Return",
-          "content": "After a missed week in gratitude, she came back and the line continued.",
+          "content": "After a week without \"gratitude\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_gra_252_tr",
           "title": "Dönüş",
-          "content": "minnettarlık içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"minnettarlık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_gra_252_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en gratitude, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"gratitude\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_gra_252_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em gratidão, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"gratidão\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_gra_252_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in dankbaarheid kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"dankbaarheid\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_gra_252_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en gratitud, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"gratitud\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_gra_252_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in dankbarkeit kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"dankbarkeit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_gra_252_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in gratitudine, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"gratitudine\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_gra_252_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в благодарность она вернулась, и линия продолжилась.",
+          "content": "В теме «благодарность» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_gra_252_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di rasa syukur, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"rasa syukur\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_gra_252_ja",
           "title": "帰り道",
-          "content": "感謝を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「感謝」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_gra_252_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความขอบคุณ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความขอบคุณ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_gra_252_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kesyukuran, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesyukuran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -25449,6 +25449,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "gra_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "In gratitude, I take small, steady steps.",
+        "tr": "minnettarlık konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans gratitude, je fais de petits pas réguliers.",
+        "pt": "Em gratidão, dou passos pequenos e constantes.",
+        "nl": "In dankbaarheid zet ik kleine, gestage stappen.",
+        "es": "En gratitud, doy pasos pequeños y constantes.",
+        "de": "In dankbarkeit gehe ich kleine, stetige Schritte.",
+        "it": "In gratitudine, faccio passi piccoli e costanti.",
+        "ru": "В теме «благодарность» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam rasa syukur, saya melangkah kecil dan konsisten.",
+        "ja": "感謝では、小さく着実な一歩を重ねる。",
+        "th": "ในความขอบคุณ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kesyukuran, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to gratitude today.",
+        "tr": "Bugün minnettarlık için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à gratitude aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para gratidão.",
+        "nl": "Vandaag breng ik kalmte en helderheid in dankbaarheid.",
+        "es": "Hoy llevo calma y claridad a gratitud.",
+        "de": "Heute bringe ich Ruhe und Klarheit in dankbarkeit.",
+        "it": "Oggi porto calma e chiarezza a gratitudine.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «благодарность».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke rasa syukur.",
+        "ja": "今日は感謝に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความขอบคุณ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give gratitude my full attention without pressure.",
+        "tr": "minnettarlık için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à gratitude sans pression.",
+        "pt": "Dou a gratidão minha atenção total sem pressão.",
+        "nl": "Ik geef dankbaarheid mijn volle aandacht zonder druk.",
+        "es": "Doy a gratitud toda mi atención sin presión.",
+        "de": "Ich schenke dankbarkeit meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a gratitudine tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «благодарность» всё своё внимание без давления.",
+        "id": "Saya memberi rasa syukur perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく感謝に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความขอบคุณโดยไม่กดดัน",
+        "ms": "Saya memberi kesyukuran perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "In gratitude, I choose progress over perfection.",
+        "tr": "minnettarlık konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans gratitude, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em gratidão, escolho progresso em vez de perfeição.",
+        "nl": "In dankbaarheid kies ik voor vooruitgang boven perfectie.",
+        "es": "En gratitud, elijo el progreso por encima de la perfección.",
+        "de": "In dankbarkeit wähle ich Fortschritt statt Perfektion.",
+        "it": "In gratitudine, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «благодарность» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam rasa syukur, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "感謝では、完璧より前進を選ぶ。",
+        "th": "ในความขอบคุณ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kesyukuran, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to gratitude gently.",
+        "tr": "Dağılırsam minnettarlıke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à gratitude avec douceur.",
+        "pt": "Se eu me dispersar, volto a gratidão com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar dankbaarheid.",
+        "es": "Si me disperso, vuelvo a gratitud con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu dankbarkeit zurück.",
+        "it": "Se mi disperdo, torno a gratitudine con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «благодарность».",
+        "id": "Jika saya teralihkan, saya kembali ke rasa syukur dengan lembut.",
+        "ja": "迷ったら、やさしく感謝に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความขอบคุณอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kesyukuran dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in gratitude align with my values.",
+        "tr": "minnettarlık konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en gratitude sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em gratidão estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in dankbaarheid sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en gratitud están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in dankbarkeit passen zu meinen Werten.",
+        "it": "Le mie scelte in gratitudine sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «благодарность» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam rasa syukur selaras dengan nilai-nilai saya.",
+        "ja": "感謝での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความขอบคุณสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kesyukuran selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in gratitude.",
+        "tr": "minnettarlık konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en gratitude.",
+        "pt": "Confio no meu ritmo em gratidão.",
+        "nl": "Ik vertrouw op mijn tempo in dankbaarheid.",
+        "es": "Confío en mi ritmo en gratitud.",
+        "de": "Ich vertraue meinem Tempo in dankbarkeit.",
+        "it": "Mi fido del mio ritmo in gratitudine.",
+        "ru": "Я доверяю своему темпу в теме «благодарность».",
+        "id": "Saya percaya pada ritme saya dalam rasa syukur.",
+        "ja": "感謝での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความขอบคุณ",
+        "ms": "Saya percaya pada rentak saya dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for gratitude to grow naturally.",
+        "tr": "minnettarlık için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que gratitude grandisse naturellement.",
+        "pt": "Abro espaço para gratidão crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat dankbaarheid natuurlijk kan groeien.",
+        "es": "Hago espacio para que gratitud crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit dankbarkeit natürlich wachsen kann.",
+        "it": "Creo spazio perché gratitudine cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «благодарность» происходил естественно.",
+        "id": "Saya memberi ruang agar rasa syukur tumbuh secara alami.",
+        "ja": "感謝が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความขอบคุณเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kesyukuran berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in gratitude.",
+        "tr": "Bugün minnettarlık konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en gratitude.",
+        "pt": "Hoje, dou um passo claro em gratidão.",
+        "nl": "Vandaag zet ik één duidelijke stap in dankbaarheid.",
+        "es": "Hoy doy un paso claro en gratitud.",
+        "de": "Heute mache ich einen klaren Schritt in dankbarkeit.",
+        "it": "Oggi faccio un passo chiaro in gratitudine.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «благодарность».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam rasa syukur.",
+        "ja": "今日は感謝で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความขอบคุณ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with gratitude.",
+        "tr": "minnettarlık konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec gratitude.",
+        "pt": "Sou paciente e presente com gratidão.",
+        "nl": "Ik ben geduldig en aanwezig met dankbaarheid.",
+        "es": "Soy paciente y presente con gratitud.",
+        "de": "Ich bin geduldig und präsent mit dankbarkeit.",
+        "it": "Sono paziente e presente con gratitudine.",
+        "ru": "Я терпелив(а) и присутствую в теме «благодарность».",
+        "id": "Saya sabar dan hadir bersama rasa syukur.",
+        "ja": "感謝に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความขอบคุณอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in gratitude.",
+        "tr": "minnettarlık konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans gratitude, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em gratidão, eu me concentro no que posso controlar.",
+        "nl": "In dankbaarheid richt ik me op wat ik kan controleren.",
+        "es": "En gratitud, me enfoco en lo que puedo controlar.",
+        "de": "In dankbarkeit konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In gratitudine, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «благодарность» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam rasa syukur, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "感謝では、コントロールできることに意識を向ける。",
+        "th": "ในความขอบคุณ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kesyukuran, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow gratitude to be simple and sincere.",
+        "tr": "minnettarlık konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à gratitude d'être simple et sincère.",
+        "pt": "Eu permito que gratidão seja simples e verdadeiro.",
+        "nl": "Ik laat dankbaarheid eenvoudig en oprecht zijn.",
+        "es": "Permito que gratitud sea simple y auténtico.",
+        "de": "Ich erlaube dankbarkeit, einfach und aufrichtig zu sein.",
+        "it": "Permetto a gratitudine di essere semplice e autentico.",
+        "ru": "Я позволяю теме «благодарность» быть простой и искренней.",
+        "id": "Aku membiarkan rasa syukur tetap sederhana dan tulus.",
+        "ja": "感謝はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความขอบคุณเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kesyukuran menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in gratitude today.",
+        "tr": "Bugün minnettarlık konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en gratitude.",
+        "pt": "Hoje, noto uma pequena vitória em gratidão.",
+        "nl": "Vandaag zie ik een kleine overwinning in dankbaarheid.",
+        "es": "Hoy noto una pequeña victoria en gratitud.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in dankbarkeit.",
+        "it": "Oggi noto una piccola vittoria in gratitudine.",
+        "ru": "Сегодня в теме «благодарность» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam rasa syukur.",
+        "ja": "今日、感謝で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความขอบคุณ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in gratitude.",
+        "tr": "minnettarlık konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans gratitude.",
+        "pt": "Eu respeito meus limites enquanto avanço em gratidão.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in dankbaarheid.",
+        "es": "Honro mis límites mientras avanzo en gratitud.",
+        "de": "Ich achte auf meine Grenzen, während ich in dankbarkeit vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in gratitudine.",
+        "ru": "В теме «благодарность» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam rasa syukur.",
+        "ja": "感謝で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความขอบคุณ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in gratitude.",
+        "tr": "minnettarlık konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en gratitude.",
+        "pt": "Deixo a curiosidade guiar meus passos em gratidão.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in dankbaarheid.",
+        "es": "Dejo que la curiosidad guíe mis pasos en gratitud.",
+        "de": "Ich lasse Neugier meine Schritte in dankbarkeit lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in gratitudine.",
+        "ru": "В теме «благодарность» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam rasa syukur.",
+        "ja": "感謝では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความขอบคุณ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in gratitude.",
+        "tr": "minnettarlık konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en gratitude.",
+        "pt": "Eu escolho clareza em vez de urgência em gratidão.",
+        "nl": "Ik kies helderheid boven haast in dankbaarheid.",
+        "es": "Elijo claridad en lugar de urgencia en gratitud.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in dankbarkeit.",
+        "it": "Scelgo chiarezza invece di urgenza in gratitudine.",
+        "ru": "В теме «благодарность» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam rasa syukur.",
+        "ja": "感謝では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความขอบคุณ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep gratitude gentle and consistent.",
+        "tr": "minnettarlık konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde gratitude avec douceur et constance.",
+        "pt": "Mantenho gratidão com suavidade e constância.",
+        "nl": "Ik houd dankbaarheid zacht en consistent.",
+        "es": "Mantengo gratitud suave y constante.",
+        "de": "Ich halte dankbarkeit sanft und beständig.",
+        "it": "Mantengo gratitudine con dolcezza e costanza.",
+        "ru": "В теме «благодарность» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga rasa syukur tetap lembut dan konsisten.",
+        "ja": "感謝を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความขอบคุณอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kesyukuran dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what gratitude needs from me right now.",
+        "tr": "Şu anda minnettarlık konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que gratitude a besoin de moi maintenant.",
+        "pt": "Eu escuto o que gratidão precisa de mim agora.",
+        "nl": "Ik luister naar wat dankbaarheid nu van mij nodig heeft.",
+        "es": "Escucho lo que gratitud necesita de mí ahora.",
+        "de": "Ich höre darauf, was dankbarkeit jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui gratitudine ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «благодарность» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang rasa syukur butuhkan dariku sekarang.",
+        "ja": "今、感謝が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความขอบคุณต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kesyukuran perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in gratitude compounds.",
+        "tr": "minnettarlık konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en gratitude.",
+        "pt": "Confio que o esforço constante em gratidão se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in dankbaarheid zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en gratitud se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in dankbarkeit sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in gratitudine si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «благодарность» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam rasa syukur berakumulasi.",
+        "ja": "感謝での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความขอบคุณจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kesyukuran terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "gra_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into gratitude.",
+        "tr": "minnettarlık konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans gratitude.",
+        "pt": "Eu acolho leveza e foco em gratidão.",
+        "nl": "Ik verwelkom gemak en focus in dankbaarheid.",
+        "es": "Doy la bienvenida a la calma y el enfoque en gratitud.",
+        "de": "Ich heiße Leichtigkeit und Fokus in dankbarkeit willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in gratitudine.",
+        "ru": "В теме «благодарность» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam rasa syukur.",
+        "ja": "感謝に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความขอบคุณ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kesyukuran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "gratitude",
+      "tags": {
+        "en": [
+          "gratitude",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "minnettarlık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "gratitude",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "gratidão",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "dankbaarheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "gratitud",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "dankbarkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "gratitudine",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "благодарность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "rasa syukur",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "感謝",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความขอบคุณ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesyukuran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

@@ -23717,19 +23717,19 @@
       "id": "balance_252",
       "type": "quote",
       "texts": {
-        "en": "In balance, the first version can be rough; the second is where the truth appears.",
-        "tr": "denge konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En équilibre, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em equilíbrio, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij balans kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En equilibrio, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei gleichgewicht kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In equilibrio, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть баланс, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam keseimbangan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "バランスでは、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความสมดุล เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam keseimbangan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"balance\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"denge\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"équilibre\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"equilíbrio\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"balans\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"equilibrio\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"equilibrio\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «баланс», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"keseimbangan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「バランス」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"keseimbangan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -24266,19 +24266,19 @@
       "id": "balance_255",
       "type": "quote",
       "texts": {
-        "en": "balance moves faster when your grip is open.",
-        "tr": "denge, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "équilibre avance plus vite quand ta prise est ouverte.",
-        "pt": "equilíbrio anda mais rápido quando sua pegada está aberta.",
-        "nl": "balans beweegt sneller als je greep open is.",
-        "es": "equilibrio avanza más rápido cuando tu agarre está abierto.",
-        "de": "gleichgewicht bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "equilibrio si muove più veloce quando la tua presa è aperta.",
-        "ru": "баланс движется быстрее, когда хватка открыта.",
-        "id": "keseimbangan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "バランスは、握りしめないときに速く進む。",
-        "th": "ความสมดุล ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "keseimbangan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, balance moves faster.",
+        "tr": "Tutuşunu gevşettiğinde denge daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, équilibre avance plus vite.",
+        "pt": "Quando você solta o aperto, equilíbrio anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat balans sneller.",
+        "es": "Cuando sueltas el agarre, equilibrio avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt gleichgewicht schneller voran.",
+        "it": "Quando allenti la presa, equilibrio procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, баланс движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, keseimbangan melaju lebih cepat.",
+        "ja": "握りを緩めると、バランスは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสมดุลเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, keseimbangan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -24368,79 +24368,79 @@
         "en": {
           "id": "story_balance_255_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for balance, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_balance_255_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "denge planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_balance_255_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour équilibre, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_balance_255_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para equilíbrio, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_balance_255_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor balans losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_balance_255_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para equilibrio, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_balance_255_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für gleichgewicht lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_balance_255_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per equilibrio, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_balance_255_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для баланс, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_balance_255_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk keseimbangan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_balance_255_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "バランスの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_balance_255_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสมดุล ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_balance_255_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk keseimbangan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24449,19 +24449,19 @@
       "id": "balance_256",
       "type": "quote",
       "texts": {
-        "en": "In balance, the quiet signal is often the true one.",
-        "tr": "denge konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En équilibre, le signal discret est souvent le vrai.",
-        "pt": "Em equilíbrio, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij balans is het stille signaal vaak het echte.",
-        "es": "En equilibrio, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei gleichgewicht ist das leise Signal oft das wahre.",
-        "it": "In equilibrio, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть баланс, тихий сигнал часто самый верный.",
-        "id": "Dalam keseimbangan, sinyal yang tenang sering kali yang benar.",
-        "ja": "バランスでは、静かな合図が本当であることが多い。",
-        "th": "ใน ความสมดุล สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam keseimbangan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"balance\", the quiet signal is often the true one.",
+        "tr": "Konu \"denge\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"équilibre\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"equilíbrio\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"balans\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"equilibrio\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"equilibrio\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «баланс», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"keseimbangan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「バランス」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"keseimbangan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -25181,19 +25181,19 @@
       "id": "balance_260",
       "type": "quote",
       "texts": {
-        "en": "In balance, returning is part of the path, not a failure.",
-        "tr": "denge içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En équilibre, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em equilíbrio, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij balans is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En equilibrio, volver es parte del camino, no un fracaso.",
-        "de": "Bei gleichgewicht ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In equilibrio, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть баланс, возвращение — часть пути, а не провал.",
-        "id": "Dalam keseimbangan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "バランスでは、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความสมดุล การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam keseimbangan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"balance\", returning is part of the path, not a failure.",
+        "tr": "Konu \"denge\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"équilibre\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"equilíbrio\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"balans\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"equilibrio\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"equilibrio\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «баланс», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"keseimbangan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「バランス」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"keseimbangan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -25283,79 +25283,79 @@
         "en": {
           "id": "story_balance_260_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"balance\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_balance_260_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"denge\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_balance_260_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"équilibre\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_balance_260_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"equilíbrio\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_balance_260_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"balans\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_balance_260_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"equilibrio\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_balance_260_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"gleichgewicht\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_balance_260_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"equilibrio\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_balance_260_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «баланс» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_balance_260_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"keseimbangan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_balance_260_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「バランス」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_balance_260_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสมดุล\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_balance_260_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"keseimbangan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -25547,19 +25547,19 @@
       "id": "balance_262",
       "type": "quote",
       "texts": {
-        "en": "In balance, the first version can be rough; the second is where the truth appears.",
-        "tr": "denge konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans équilibre, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em equilíbrio, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In balans kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En equilibrio, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In gleichgewicht kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In equilibrio, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "баланс иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam keseimbangan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "バランスでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความสมดุล เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam keseimbangan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"balance\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"denge\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"équilibre\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"equilíbrio\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"balans\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"equilibrio\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"equilibrio\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «баланс», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"keseimbangan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「バランス」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"keseimbangan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -26096,19 +26096,19 @@
       "id": "balance_265",
       "type": "quote",
       "texts": {
-        "en": "balance moves faster when your grip is open.",
-        "tr": "denge, elin gevşekken daha hızlı ilerler.",
-        "fr": "équilibre avance plus vite quand la prise est ouverte.",
-        "pt": "equilíbrio anda mais rápido quando o aperto é aberto.",
-        "nl": "balans gaat sneller als je grip open is.",
-        "es": "equilibrio avanza más rápido cuando el agarre está abierto.",
-        "de": "gleichgewicht kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "equilibrio procede più veloce quando la presa è aperta.",
-        "ru": "баланс движется быстрее, когда хватка открыта.",
-        "id": "keseimbangan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "バランスは、握りが開いているときに進みが速い。",
-        "th": "ความสมดุลเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "keseimbangan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, balance moves faster.",
+        "tr": "Tutuşunu gevşettiğinde denge daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, équilibre avance plus vite.",
+        "pt": "Quando você solta o aperto, equilíbrio anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat balans sneller.",
+        "es": "Cuando sueltas el agarre, equilibrio avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt gleichgewicht schneller voran.",
+        "it": "Quando allenti la presa, equilibrio procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, баланс движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, keseimbangan melaju lebih cepat.",
+        "ja": "握りを緩めると、バランスは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความสมดุลเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, keseimbangan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -26198,79 +26198,79 @@
         "en": {
           "id": "story_balance_265_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the balance schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for balance, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_balance_265_tr",
           "title": "Açık El",
-          "content": "denge takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "denge planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_balance_265_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de équilibre, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour équilibre, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_balance_265_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de equilíbrio, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para equilíbrio, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_balance_265_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het balans-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor balans losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_balance_265_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de equilibrio, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para equilibrio, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_balance_265_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am gleichgewicht-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für gleichgewicht lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_balance_265_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di equilibrio, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per equilibrio, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_balance_265_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании баланс, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для баланс, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_balance_265_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal keseimbangan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk keseimbangan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_balance_265_ja",
           "title": "開いた手",
-          "content": "バランスの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "バランスの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_balance_265_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความสมดุล ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความสมดุล ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_balance_265_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual keseimbangan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk keseimbangan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -26279,19 +26279,19 @@
       "id": "balance_266",
       "type": "quote",
       "texts": {
-        "en": "In balance, the quiet signal is often the true one.",
-        "tr": "denge içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans équilibre, le signal discret est souvent le vrai.",
-        "pt": "Em equilíbrio, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In balans is het stille signaal vaak het echte.",
-        "es": "En equilibrio, la señal silenciosa suele ser la verdadera.",
-        "de": "In gleichgewicht ist das leise Signal oft das wahre.",
-        "it": "In equilibrio, il segnale silenzioso è spesso quello vero.",
-        "ru": "В баланс тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam keseimbangan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "バランスでは、静かな合図が本当であることが多い。",
-        "th": "ในความสมดุล สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam keseimbangan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"balance\", the quiet signal is often the true one.",
+        "tr": "Konu \"denge\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"équilibre\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"equilíbrio\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"balans\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"equilibrio\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"equilibrio\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «баланс», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"keseimbangan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「バランス」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"keseimbangan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -27011,19 +27011,19 @@
       "id": "balance_270",
       "type": "quote",
       "texts": {
-        "en": "In balance, returning is part of the path, not a failure.",
-        "tr": "denge içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans équilibre, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em equilíbrio, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In balans is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En equilibrio, volver es parte del camino, no un fracaso.",
-        "de": "In gleichgewicht ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In equilibrio, tornare è parte del percorso, non un fallimento.",
-        "ru": "В баланс возвращение — часть пути, а не провал.",
-        "id": "Dalam keseimbangan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "バランスでは、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความสมดุล การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam keseimbangan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"balance\", returning is part of the path, not a failure.",
+        "tr": "Konu \"denge\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"équilibre\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"equilíbrio\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"balans\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"equilibrio\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"gleichgewicht\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"equilibrio\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «баланс», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"keseimbangan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「バランス」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความสมดุล\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"keseimbangan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -27113,79 +27113,79 @@
         "en": {
           "id": "story_balance_270_en",
           "title": "The Return",
-          "content": "After a missed week in balance, she came back and the line continued.",
+          "content": "After a week without \"balance\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_balance_270_tr",
           "title": "Dönüş",
-          "content": "denge içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"denge\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_balance_270_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en équilibre, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"équilibre\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_balance_270_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em equilíbrio, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"equilíbrio\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_balance_270_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in balans kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"balans\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_balance_270_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en equilibrio, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"equilibrio\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_balance_270_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in gleichgewicht kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"gleichgewicht\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_balance_270_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in equilibrio, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"equilibrio\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_balance_270_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в баланс она вернулась, и линия продолжилась.",
+          "content": "В теме «баланс» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_balance_270_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di keseimbangan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"keseimbangan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_balance_270_ja",
           "title": "帰り道",
-          "content": "バランスを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「バランス」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_balance_270_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความสมดุล เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความสมดุล\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_balance_270_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam keseimbangan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"keseimbangan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -27372,6 +27372,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "balance_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "In balance, I take small, steady steps.",
+        "tr": "denge konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans équilibre, je fais de petits pas réguliers.",
+        "pt": "Em equilíbrio, dou passos pequenos e constantes.",
+        "nl": "In balans zet ik kleine, gestage stappen.",
+        "es": "En equilibrio, doy pasos pequeños y constantes.",
+        "de": "In gleichgewicht gehe ich kleine, stetige Schritte.",
+        "it": "In equilibrio, faccio passi piccoli e costanti.",
+        "ru": "В теме «баланс» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam keseimbangan, saya melangkah kecil dan konsisten.",
+        "ja": "バランスでは、小さく着実な一歩を重ねる。",
+        "th": "ในความสมดุล ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam keseimbangan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to balance today.",
+        "tr": "Bugün denge için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à équilibre aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para equilíbrio.",
+        "nl": "Vandaag breng ik kalmte en helderheid in balans.",
+        "es": "Hoy llevo calma y claridad a equilibrio.",
+        "de": "Heute bringe ich Ruhe und Klarheit in gleichgewicht.",
+        "it": "Oggi porto calma e chiarezza a equilibrio.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «баланс».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke keseimbangan.",
+        "ja": "今日はバランスに落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความสมดุล",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give balance my full attention without pressure.",
+        "tr": "denge için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à équilibre sans pression.",
+        "pt": "Dou a equilíbrio minha atenção total sem pressão.",
+        "nl": "Ik geef balans mijn volle aandacht zonder druk.",
+        "es": "Doy a equilibrio toda mi atención sin presión.",
+        "de": "Ich schenke gleichgewicht meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a equilibrio tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «баланс» всё своё внимание без давления.",
+        "id": "Saya memberi keseimbangan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなくバランスに全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความสมดุลโดยไม่กดดัน",
+        "ms": "Saya memberi keseimbangan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "In balance, I choose progress over perfection.",
+        "tr": "denge konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans équilibre, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em equilíbrio, escolho progresso em vez de perfeição.",
+        "nl": "In balans kies ik voor vooruitgang boven perfectie.",
+        "es": "En equilibrio, elijo el progreso por encima de la perfección.",
+        "de": "In gleichgewicht wähle ich Fortschritt statt Perfektion.",
+        "it": "In equilibrio, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «баланс» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam keseimbangan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "バランスでは、完璧より前進を選ぶ。",
+        "th": "ในความสมดุล ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam keseimbangan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to balance gently.",
+        "tr": "Dağılırsam dengee nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à équilibre avec douceur.",
+        "pt": "Se eu me dispersar, volto a equilíbrio com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar balans.",
+        "es": "Si me disperso, vuelvo a equilibrio con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu gleichgewicht zurück.",
+        "it": "Se mi disperdo, torno a equilibrio con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «баланс».",
+        "id": "Jika saya teralihkan, saya kembali ke keseimbangan dengan lembut.",
+        "ja": "迷ったら、やさしくバランスに戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความสมดุลอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada keseimbangan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in balance align with my values.",
+        "tr": "denge konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en équilibre sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em equilíbrio estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in balans sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en equilibrio están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in gleichgewicht passen zu meinen Werten.",
+        "it": "Le mie scelte in equilibrio sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «баланс» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam keseimbangan selaras dengan nilai-nilai saya.",
+        "ja": "バランスでの選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความสมดุลสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam keseimbangan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_278",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in balance.",
+        "tr": "denge konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en équilibre.",
+        "pt": "Confio no meu ritmo em equilíbrio.",
+        "nl": "Ik vertrouw op mijn tempo in balans.",
+        "es": "Confío en mi ritmo en equilibrio.",
+        "de": "Ich vertraue meinem Tempo in gleichgewicht.",
+        "it": "Mi fido del mio ritmo in equilibrio.",
+        "ru": "Я доверяю своему темпу в теме «баланс».",
+        "id": "Saya percaya pada ritme saya dalam keseimbangan.",
+        "ja": "バランスでの自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความสมดุล",
+        "ms": "Saya percaya pada rentak saya dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_279",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for balance to grow naturally.",
+        "tr": "denge için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que équilibre grandisse naturellement.",
+        "pt": "Abro espaço para equilíbrio crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat balans natuurlijk kan groeien.",
+        "es": "Hago espacio para que equilibrio crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit gleichgewicht natürlich wachsen kann.",
+        "it": "Creo spazio perché equilibrio cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «баланс» происходил естественно.",
+        "id": "Saya memberi ruang agar keseimbangan tumbuh secara alami.",
+        "ja": "バランスが自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความสมดุลเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar keseimbangan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_280",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in balance.",
+        "tr": "Bugün denge konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en équilibre.",
+        "pt": "Hoje, dou um passo claro em equilíbrio.",
+        "nl": "Vandaag zet ik één duidelijke stap in balans.",
+        "es": "Hoy doy un paso claro en equilibrio.",
+        "de": "Heute mache ich einen klaren Schritt in gleichgewicht.",
+        "it": "Oggi faccio un passo chiaro in equilibrio.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «баланс».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam keseimbangan.",
+        "ja": "今日はバランスで一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความสมดุล",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_281",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with balance.",
+        "tr": "denge konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec équilibre.",
+        "pt": "Sou paciente e presente com equilíbrio.",
+        "nl": "Ik ben geduldig en aanwezig met balans.",
+        "es": "Soy paciente y presente con equilibrio.",
+        "de": "Ich bin geduldig und präsent mit gleichgewicht.",
+        "it": "Sono paziente e presente con equilibrio.",
+        "ru": "Я терпелив(а) и присутствую в теме «баланс».",
+        "id": "Saya sabar dan hadir bersama keseimbangan.",
+        "ja": "バランスに対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความสมดุลอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_282",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in balance.",
+        "tr": "denge konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans équilibre, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em equilíbrio, eu me concentro no que posso controlar.",
+        "nl": "In balans richt ik me op wat ik kan controleren.",
+        "es": "En equilibrio, me enfoco en lo que puedo controlar.",
+        "de": "In gleichgewicht konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In equilibrio, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «баланс» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam keseimbangan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "バランスでは、コントロールできることに意識を向ける。",
+        "th": "ในความสมดุล ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam keseimbangan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_283",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow balance to be simple and sincere.",
+        "tr": "denge konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à équilibre d'être simple et sincère.",
+        "pt": "Eu permito que equilíbrio seja simples e verdadeiro.",
+        "nl": "Ik laat balans eenvoudig en oprecht zijn.",
+        "es": "Permito que equilibrio sea simple y auténtico.",
+        "de": "Ich erlaube gleichgewicht, einfach und aufrichtig zu sein.",
+        "it": "Permetto a equilibrio di essere semplice e autentico.",
+        "ru": "Я позволяю теме «баланс» быть простой и искренней.",
+        "id": "Aku membiarkan keseimbangan tetap sederhana dan tulus.",
+        "ja": "バランスはシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความสมดุลเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan keseimbangan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_284",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in balance today.",
+        "tr": "Bugün denge konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en équilibre.",
+        "pt": "Hoje, noto uma pequena vitória em equilíbrio.",
+        "nl": "Vandaag zie ik een kleine overwinning in balans.",
+        "es": "Hoy noto una pequeña victoria en equilibrio.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in gleichgewicht.",
+        "it": "Oggi noto una piccola vittoria in equilibrio.",
+        "ru": "Сегодня в теме «баланс» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam keseimbangan.",
+        "ja": "今日、バランスで小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความสมดุล",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_285",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in balance.",
+        "tr": "denge konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans équilibre.",
+        "pt": "Eu respeito meus limites enquanto avanço em equilíbrio.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in balans.",
+        "es": "Honro mis límites mientras avanzo en equilibrio.",
+        "de": "Ich achte auf meine Grenzen, während ich in gleichgewicht vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in equilibrio.",
+        "ru": "В теме «баланс» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam keseimbangan.",
+        "ja": "バランスで前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความสมดุล",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_286",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in balance.",
+        "tr": "denge konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en équilibre.",
+        "pt": "Deixo a curiosidade guiar meus passos em equilíbrio.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in balans.",
+        "es": "Dejo que la curiosidad guíe mis pasos en equilibrio.",
+        "de": "Ich lasse Neugier meine Schritte in gleichgewicht lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in equilibrio.",
+        "ru": "В теме «баланс» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam keseimbangan.",
+        "ja": "バランスでは、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความสมดุล",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_287",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in balance.",
+        "tr": "denge konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en équilibre.",
+        "pt": "Eu escolho clareza em vez de urgência em equilíbrio.",
+        "nl": "Ik kies helderheid boven haast in balans.",
+        "es": "Elijo claridad en lugar de urgencia en equilibrio.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in gleichgewicht.",
+        "it": "Scelgo chiarezza invece di urgenza in equilibrio.",
+        "ru": "В теме «баланс» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam keseimbangan.",
+        "ja": "バランスでは、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความสมดุล",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_288",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep balance gentle and consistent.",
+        "tr": "denge konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde équilibre avec douceur et constance.",
+        "pt": "Mantenho equilíbrio com suavidade e constância.",
+        "nl": "Ik houd balans zacht en consistent.",
+        "es": "Mantengo equilibrio suave y constante.",
+        "de": "Ich halte gleichgewicht sanft und beständig.",
+        "it": "Mantengo equilibrio con dolcezza e costanza.",
+        "ru": "В теме «баланс» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga keseimbangan tetap lembut dan konsisten.",
+        "ja": "バランスを穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความสมดุลอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan keseimbangan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_289",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what balance needs from me right now.",
+        "tr": "Şu anda denge konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que équilibre a besoin de moi maintenant.",
+        "pt": "Eu escuto o que equilíbrio precisa de mim agora.",
+        "nl": "Ik luister naar wat balans nu van mij nodig heeft.",
+        "es": "Escucho lo que equilibrio necesita de mí ahora.",
+        "de": "Ich höre darauf, was gleichgewicht jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui equilibrio ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «баланс» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang keseimbangan butuhkan dariku sekarang.",
+        "ja": "今、バランスが私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความสมดุลต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang keseimbangan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_290",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in balance compounds.",
+        "tr": "denge konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en équilibre.",
+        "pt": "Confio que o esforço constante em equilíbrio se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in balans zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en equilibrio se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in gleichgewicht sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in equilibrio si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «баланс» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam keseimbangan berakumulasi.",
+        "ja": "バランスでの着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความสมดุลจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam keseimbangan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "balance_291",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into balance.",
+        "tr": "denge konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans équilibre.",
+        "pt": "Eu acolho leveza e foco em equilíbrio.",
+        "nl": "Ik verwelkom gemak en focus in balans.",
+        "es": "Doy la bienvenida a la calma y el enfoque en equilibrio.",
+        "de": "Ich heiße Leichtigkeit und Fokus in gleichgewicht willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in equilibrio.",
+        "ru": "В теме «баланс» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam keseimbangan.",
+        "ja": "バランスに、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความสมดุล",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam keseimbangan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "balance",
+      "tags": {
+        "en": [
+          "balance",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "denge",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "équilibre",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "equilíbrio",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "balans",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "equilibrio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "gleichgewicht",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "equilibrio",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "баланс",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "バランス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความสมดุล",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keseimbangan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

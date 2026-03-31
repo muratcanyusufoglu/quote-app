@@ -20893,19 +20893,19 @@
       "id": "change_234",
       "type": "quote",
       "texts": {
-        "en": "In change, the first version can be rough; the second is where the truth appears.",
-        "tr": "değişim konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En changement, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em mudança, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij verandering kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En cambio, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei wandel kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In cambiamento, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть изменение, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam perubahan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "変化では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน การเปลี่ยนแปลง เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam perubahan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"change\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"değişim\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"changement\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"mudança\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"verandering\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"cambio\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"wandel\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"cambiamento\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «изменение», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"perubahan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「変化」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"perubahan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -21442,19 +21442,19 @@
       "id": "change_237",
       "type": "quote",
       "texts": {
-        "en": "change moves faster when your grip is open.",
-        "tr": "değişim, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "changement avance plus vite quand ta prise est ouverte.",
-        "pt": "mudança anda mais rápido quando sua pegada está aberta.",
-        "nl": "verandering beweegt sneller als je greep open is.",
-        "es": "cambio avanza más rápido cuando tu agarre está abierto.",
-        "de": "wandel bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "cambiamento si muove più veloce quando la tua presa è aperta.",
-        "ru": "изменение движется быстрее, когда хватка открыта.",
-        "id": "perubahan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "変化は、握りしめないときに速く進む。",
-        "th": "การเปลี่ยนแปลง ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "perubahan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, change moves faster.",
+        "tr": "Tutuşunu gevşettiğinde değişim daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, changement avance plus vite.",
+        "pt": "Quando você solta o aperto, mudança anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat verandering sneller.",
+        "es": "Cuando sueltas el agarre, cambio avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt wandel schneller voran.",
+        "it": "Quando allenti la presa, cambiamento procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, изменение движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, perubahan melaju lebih cepat.",
+        "ja": "握りを緩めると、変化は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด การเปลี่ยนแปลงเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, perubahan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -21544,79 +21544,79 @@
         "en": {
           "id": "story_change_237_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for change, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_change_237_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "değişim planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_change_237_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour changement, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_change_237_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para mudança, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_change_237_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor verandering losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_change_237_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para cambio, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_change_237_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für wandel lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_change_237_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per cambiamento, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_change_237_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для изменение, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_change_237_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk perubahan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_change_237_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "変化の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_change_237_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับการเปลี่ยนแปลง ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_change_237_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk perubahan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -21625,19 +21625,19 @@
       "id": "change_238",
       "type": "quote",
       "texts": {
-        "en": "In change, the quiet signal is often the true one.",
-        "tr": "değişim konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En changement, le signal discret est souvent le vrai.",
-        "pt": "Em mudança, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij verandering is het stille signaal vaak het echte.",
-        "es": "En cambio, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei wandel ist das leise Signal oft das wahre.",
-        "it": "In cambiamento, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть изменение, тихий сигнал часто самый верный.",
-        "id": "Dalam perubahan, sinyal yang tenang sering kali yang benar.",
-        "ja": "変化では、静かな合図が本当であることが多い。",
-        "th": "ใน การเปลี่ยนแปลง สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam perubahan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"change\", the quiet signal is often the true one.",
+        "tr": "Konu \"değişim\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"changement\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"mudança\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"verandering\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"cambio\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"wandel\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"cambiamento\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «изменение», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"perubahan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「変化」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"perubahan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -22357,19 +22357,19 @@
       "id": "change_242",
       "type": "quote",
       "texts": {
-        "en": "In change, returning is part of the path, not a failure.",
-        "tr": "değişim içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En changement, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em mudança, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij verandering is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En cambio, volver es parte del camino, no un fracaso.",
-        "de": "Bei wandel ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In cambiamento, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть изменение, возвращение — часть пути, а не провал.",
-        "id": "Dalam perubahan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "変化では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน การเปลี่ยนแปลง การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam perubahan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"change\", returning is part of the path, not a failure.",
+        "tr": "Konu \"değişim\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"changement\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"mudança\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"verandering\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"cambio\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"wandel\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"cambiamento\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «изменение», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"perubahan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「変化」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"perubahan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -22459,79 +22459,79 @@
         "en": {
           "id": "story_change_242_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"change\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_change_242_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"değişim\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_change_242_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"changement\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_change_242_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"mudança\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_change_242_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"verandering\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_change_242_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"cambio\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_change_242_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"wandel\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_change_242_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"cambiamento\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_change_242_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «изменение» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_change_242_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"perubahan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_change_242_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「変化」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_change_242_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"การเปลี่ยนแปลง\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_change_242_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"perubahan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -22723,19 +22723,19 @@
       "id": "change_244",
       "type": "quote",
       "texts": {
-        "en": "In change, the first version can be rough; the second is where the truth appears.",
-        "tr": "değişim konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans changement, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em mudança, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In verandering kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En cambio, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In wandel kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In cambiamento, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "изменение иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam perubahan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "変化では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในการเปลี่ยนแปลง เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam perubahan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"change\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"değişim\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"changement\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"mudança\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"verandering\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"cambio\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"wandel\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"cambiamento\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «изменение», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"perubahan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「変化」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"perubahan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -23272,19 +23272,19 @@
       "id": "change_247",
       "type": "quote",
       "texts": {
-        "en": "change moves faster when your grip is open.",
-        "tr": "değişim, elin gevşekken daha hızlı ilerler.",
-        "fr": "changement avance plus vite quand la prise est ouverte.",
-        "pt": "mudança anda mais rápido quando o aperto é aberto.",
-        "nl": "verandering gaat sneller als je grip open is.",
-        "es": "cambio avanza más rápido cuando el agarre está abierto.",
-        "de": "wandel kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "cambiamento procede più veloce quando la presa è aperta.",
-        "ru": "изменение движется быстрее, когда хватка открыта.",
-        "id": "perubahan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "変化は、握りが開いているときに進みが速い。",
-        "th": "การเปลี่ยนแปลงเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "perubahan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, change moves faster.",
+        "tr": "Tutuşunu gevşettiğinde değişim daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, changement avance plus vite.",
+        "pt": "Quando você solta o aperto, mudança anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat verandering sneller.",
+        "es": "Cuando sueltas el agarre, cambio avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt wandel schneller voran.",
+        "it": "Quando allenti la presa, cambiamento procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, изменение движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, perubahan melaju lebih cepat.",
+        "ja": "握りを緩めると、変化は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด การเปลี่ยนแปลงเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, perubahan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -23374,79 +23374,79 @@
         "en": {
           "id": "story_change_247_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the change schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for change, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_change_247_tr",
           "title": "Açık El",
-          "content": "değişim takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "değişim planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_change_247_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de changement, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour changement, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_change_247_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de mudança, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para mudança, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_change_247_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het verandering-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor verandering losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_change_247_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de cambio, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para cambio, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_change_247_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am wandel-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für wandel lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_change_247_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di cambiamento, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per cambiamento, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_change_247_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании изменение, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для изменение, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_change_247_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal perubahan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk perubahan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_change_247_ja",
           "title": "開いた手",
-          "content": "変化の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "変化の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_change_247_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางการเปลี่ยนแปลง ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับการเปลี่ยนแปลง ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_change_247_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual perubahan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk perubahan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23455,19 +23455,19 @@
       "id": "change_248",
       "type": "quote",
       "texts": {
-        "en": "In change, the quiet signal is often the true one.",
-        "tr": "değişim içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans changement, le signal discret est souvent le vrai.",
-        "pt": "Em mudança, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In verandering is het stille signaal vaak het echte.",
-        "es": "En cambio, la señal silenciosa suele ser la verdadera.",
-        "de": "In wandel ist das leise Signal oft das wahre.",
-        "it": "In cambiamento, il segnale silenzioso è spesso quello vero.",
-        "ru": "В изменение тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam perubahan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "変化では、静かな合図が本当であることが多い。",
-        "th": "ในการเปลี่ยนแปลง สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam perubahan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"change\", the quiet signal is often the true one.",
+        "tr": "Konu \"değişim\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"changement\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"mudança\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"verandering\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"cambio\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"wandel\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"cambiamento\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «изменение», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"perubahan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「変化」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"perubahan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -24187,19 +24187,19 @@
       "id": "change_252",
       "type": "quote",
       "texts": {
-        "en": "In change, returning is part of the path, not a failure.",
-        "tr": "değişim içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans changement, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em mudança, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In verandering is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En cambio, volver es parte del camino, no un fracaso.",
-        "de": "In wandel ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In cambiamento, tornare è parte del percorso, non un fallimento.",
-        "ru": "В изменение возвращение — часть пути, а не провал.",
-        "id": "Dalam perubahan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "変化では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในการเปลี่ยนแปลง การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam perubahan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"change\", returning is part of the path, not a failure.",
+        "tr": "Konu \"değişim\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"changement\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"mudança\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"verandering\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"cambio\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"wandel\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"cambiamento\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «изменение», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"perubahan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「変化」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"การเปลี่ยนแปลง\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"perubahan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -24289,79 +24289,79 @@
         "en": {
           "id": "story_change_252_en",
           "title": "The Return",
-          "content": "After a missed week in change, she came back and the line continued.",
+          "content": "After a week without \"change\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_change_252_tr",
           "title": "Dönüş",
-          "content": "değişim içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"değişim\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_change_252_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en changement, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"changement\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_change_252_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em mudança, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"mudança\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_change_252_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in verandering kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"verandering\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_change_252_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en cambio, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"cambio\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_change_252_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in wandel kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"wandel\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_change_252_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in cambiamento, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"cambiamento\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_change_252_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в изменение она вернулась, и линия продолжилась.",
+          "content": "В теме «изменение» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_change_252_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di perubahan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"perubahan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_change_252_ja",
           "title": "帰り道",
-          "content": "変化を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「変化」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_change_252_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในการเปลี่ยนแปลง เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"การเปลี่ยนแปลง\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_change_252_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam perubahan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"perubahan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24548,6 +24548,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "change_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "In change, I take small, steady steps.",
+        "tr": "değişim konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans changement, je fais de petits pas réguliers.",
+        "pt": "Em mudança, dou passos pequenos e constantes.",
+        "nl": "In verandering zet ik kleine, gestage stappen.",
+        "es": "En cambio, doy pasos pequeños y constantes.",
+        "de": "In wandel gehe ich kleine, stetige Schritte.",
+        "it": "In cambiamento, faccio passi piccoli e costanti.",
+        "ru": "В теме «изменение» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam perubahan, saya melangkah kecil dan konsisten.",
+        "ja": "変化では、小さく着実な一歩を重ねる。",
+        "th": "ในการเปลี่ยนแปลง ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam perubahan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to change today.",
+        "tr": "Bugün değişim için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à changement aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para mudança.",
+        "nl": "Vandaag breng ik kalmte en helderheid in verandering.",
+        "es": "Hoy llevo calma y claridad a cambio.",
+        "de": "Heute bringe ich Ruhe und Klarheit in wandel.",
+        "it": "Oggi porto calma e chiarezza a cambiamento.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «изменение».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke perubahan.",
+        "ja": "今日は変化に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่การเปลี่ยนแปลง",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give change my full attention without pressure.",
+        "tr": "değişim için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à changement sans pression.",
+        "pt": "Dou a mudança minha atenção total sem pressão.",
+        "nl": "Ik geef verandering mijn volle aandacht zonder druk.",
+        "es": "Doy a cambio toda mi atención sin presión.",
+        "de": "Ich schenke wandel meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a cambiamento tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «изменение» всё своё внимание без давления.",
+        "id": "Saya memberi perubahan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく変化に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับการเปลี่ยนแปลงโดยไม่กดดัน",
+        "ms": "Saya memberi perubahan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "In change, I choose progress over perfection.",
+        "tr": "değişim konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans changement, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em mudança, escolho progresso em vez de perfeição.",
+        "nl": "In verandering kies ik voor vooruitgang boven perfectie.",
+        "es": "En cambio, elijo el progreso por encima de la perfección.",
+        "de": "In wandel wähle ich Fortschritt statt Perfektion.",
+        "it": "In cambiamento, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «изменение» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam perubahan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "変化では、完璧より前進を選ぶ。",
+        "th": "ในการเปลี่ยนแปลง ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam perubahan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to change gently.",
+        "tr": "Dağılırsam değişime nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à changement avec douceur.",
+        "pt": "Se eu me dispersar, volto a mudança com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar verandering.",
+        "es": "Si me disperso, vuelvo a cambio con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu wandel zurück.",
+        "it": "Se mi disperdo, torno a cambiamento con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «изменение».",
+        "id": "Jika saya teralihkan, saya kembali ke perubahan dengan lembut.",
+        "ja": "迷ったら、やさしく変化に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาการเปลี่ยนแปลงอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada perubahan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in change align with my values.",
+        "tr": "değişim konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en changement sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em mudança estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in verandering sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en cambio están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in wandel passen zu meinen Werten.",
+        "it": "Le mie scelte in cambiamento sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «изменение» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam perubahan selaras dengan nilai-nilai saya.",
+        "ja": "変化での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในการเปลี่ยนแปลงสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam perubahan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in change.",
+        "tr": "değişim konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en changement.",
+        "pt": "Confio no meu ritmo em mudança.",
+        "nl": "Ik vertrouw op mijn tempo in verandering.",
+        "es": "Confío en mi ritmo en cambio.",
+        "de": "Ich vertraue meinem Tempo in wandel.",
+        "it": "Mi fido del mio ritmo in cambiamento.",
+        "ru": "Я доверяю своему темпу в теме «изменение».",
+        "id": "Saya percaya pada ritme saya dalam perubahan.",
+        "ja": "変化での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในการเปลี่ยนแปลง",
+        "ms": "Saya percaya pada rentak saya dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for change to grow naturally.",
+        "tr": "değişim için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que changement grandisse naturellement.",
+        "pt": "Abro espaço para mudança crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat verandering natuurlijk kan groeien.",
+        "es": "Hago espacio para que cambio crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit wandel natürlich wachsen kann.",
+        "it": "Creo spazio perché cambiamento cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «изменение» происходил естественно.",
+        "id": "Saya memberi ruang agar perubahan tumbuh secara alami.",
+        "ja": "変化が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้การเปลี่ยนแปลงเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar perubahan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in change.",
+        "tr": "Bugün değişim konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en changement.",
+        "pt": "Hoje, dou um passo claro em mudança.",
+        "nl": "Vandaag zet ik één duidelijke stap in verandering.",
+        "es": "Hoy doy un paso claro en cambio.",
+        "de": "Heute mache ich einen klaren Schritt in wandel.",
+        "it": "Oggi faccio un passo chiaro in cambiamento.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «изменение».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam perubahan.",
+        "ja": "今日は変化で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในการเปลี่ยนแปลง",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with change.",
+        "tr": "değişim konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec changement.",
+        "pt": "Sou paciente e presente com mudança.",
+        "nl": "Ik ben geduldig en aanwezig met verandering.",
+        "es": "Soy paciente y presente con cambio.",
+        "de": "Ich bin geduldig und präsent mit wandel.",
+        "it": "Sono paziente e presente con cambiamento.",
+        "ru": "Я терпелив(а) и присутствую в теме «изменение».",
+        "id": "Saya sabar dan hadir bersama perubahan.",
+        "ja": "変化に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับการเปลี่ยนแปลงอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in change.",
+        "tr": "değişim konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans changement, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em mudança, eu me concentro no que posso controlar.",
+        "nl": "In verandering richt ik me op wat ik kan controleren.",
+        "es": "En cambio, me enfoco en lo que puedo controlar.",
+        "de": "In wandel konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In cambiamento, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «изменение» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam perubahan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "変化では、コントロールできることに意識を向ける。",
+        "th": "ในการเปลี่ยนแปลง ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam perubahan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow change to be simple and sincere.",
+        "tr": "değişim konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à changement d'être simple et sincère.",
+        "pt": "Eu permito que mudança seja simples e verdadeiro.",
+        "nl": "Ik laat verandering eenvoudig en oprecht zijn.",
+        "es": "Permito que cambio sea simple y auténtico.",
+        "de": "Ich erlaube wandel, einfach und aufrichtig zu sein.",
+        "it": "Permetto a cambiamento di essere semplice e autentico.",
+        "ru": "Я позволяю теме «изменение» быть простой и искренней.",
+        "id": "Aku membiarkan perubahan tetap sederhana dan tulus.",
+        "ja": "変化はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้การเปลี่ยนแปลงเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan perubahan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in change today.",
+        "tr": "Bugün değişim konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en changement.",
+        "pt": "Hoje, noto uma pequena vitória em mudança.",
+        "nl": "Vandaag zie ik een kleine overwinning in verandering.",
+        "es": "Hoy noto una pequeña victoria en cambio.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in wandel.",
+        "it": "Oggi noto una piccola vittoria in cambiamento.",
+        "ru": "Сегодня в теме «изменение» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam perubahan.",
+        "ja": "今日、変化で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในการเปลี่ยนแปลง",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in change.",
+        "tr": "değişim konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans changement.",
+        "pt": "Eu respeito meus limites enquanto avanço em mudança.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in verandering.",
+        "es": "Honro mis límites mientras avanzo en cambio.",
+        "de": "Ich achte auf meine Grenzen, während ich in wandel vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in cambiamento.",
+        "ru": "В теме «изменение» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam perubahan.",
+        "ja": "変化で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในการเปลี่ยนแปลง",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in change.",
+        "tr": "değişim konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en changement.",
+        "pt": "Deixo a curiosidade guiar meus passos em mudança.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in verandering.",
+        "es": "Dejo que la curiosidad guíe mis pasos en cambio.",
+        "de": "Ich lasse Neugier meine Schritte in wandel lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in cambiamento.",
+        "ru": "В теме «изменение» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam perubahan.",
+        "ja": "変化では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในการเปลี่ยนแปลง",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in change.",
+        "tr": "değişim konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en changement.",
+        "pt": "Eu escolho clareza em vez de urgência em mudança.",
+        "nl": "Ik kies helderheid boven haast in verandering.",
+        "es": "Elijo claridad en lugar de urgencia en cambio.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in wandel.",
+        "it": "Scelgo chiarezza invece di urgenza in cambiamento.",
+        "ru": "В теме «изменение» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam perubahan.",
+        "ja": "変化では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในการเปลี่ยนแปลง",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep change gentle and consistent.",
+        "tr": "değişim konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde changement avec douceur et constance.",
+        "pt": "Mantenho mudança com suavidade e constância.",
+        "nl": "Ik houd verandering zacht en consistent.",
+        "es": "Mantengo cambio suave y constante.",
+        "de": "Ich halte wandel sanft und beständig.",
+        "it": "Mantengo cambiamento con dolcezza e costanza.",
+        "ru": "В теме «изменение» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga perubahan tetap lembut dan konsisten.",
+        "ja": "変化を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้การเปลี่ยนแปลงอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan perubahan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what change needs from me right now.",
+        "tr": "Şu anda değişim konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que changement a besoin de moi maintenant.",
+        "pt": "Eu escuto o que mudança precisa de mim agora.",
+        "nl": "Ik luister naar wat verandering nu van mij nodig heeft.",
+        "es": "Escucho lo que cambio necesita de mí ahora.",
+        "de": "Ich höre darauf, was wandel jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui cambiamento ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «изменение» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang perubahan butuhkan dariku sekarang.",
+        "ja": "今、変化が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าการเปลี่ยนแปลงต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang perubahan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in change compounds.",
+        "tr": "değişim konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en changement.",
+        "pt": "Confio que o esforço constante em mudança se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in verandering zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en cambio se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in wandel sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in cambiamento si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «изменение» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam perubahan berakumulasi.",
+        "ja": "変化での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในการเปลี่ยนแปลงจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam perubahan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "change_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into change.",
+        "tr": "değişim konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans changement.",
+        "pt": "Eu acolho leveza e foco em mudança.",
+        "nl": "Ik verwelkom gemak en focus in verandering.",
+        "es": "Doy la bienvenida a la calma y el enfoque en cambio.",
+        "de": "Ich heiße Leichtigkeit und Fokus in wandel willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in cambiamento.",
+        "ru": "В теме «изменение» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam perubahan.",
+        "ja": "変化に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในการเปลี่ยนแปลง",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam perubahan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "change",
+      "tags": {
+        "en": [
+          "change",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "değişim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "changement",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "mudança",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "verandering",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "cambio",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "wandel",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "cambiamento",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "изменение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "変化",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การเปลี่ยนแปลง",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "perubahan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

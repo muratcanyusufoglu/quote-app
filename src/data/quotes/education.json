@@ -21699,19 +21699,19 @@
       "id": "education_238",
       "type": "quote",
       "texts": {
-        "en": "In education, the first version can be rough; the second is where the truth appears.",
-        "tr": "eğitim konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En éducation, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em educação, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij onderwijs kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En educación, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei bildung kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In educazione, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть образование, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam pendidikan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "教育では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน การศึกษา เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam pendidikan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"education\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"eğitim\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"éducation\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"educação\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"onderwijs\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"educación\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"bildung\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"educazione\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «образование», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"pendidikan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「教育」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"pendidikan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -22248,19 +22248,19 @@
       "id": "education_241",
       "type": "quote",
       "texts": {
-        "en": "education moves faster when your grip is open.",
-        "tr": "eğitim, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "éducation avance plus vite quand ta prise est ouverte.",
-        "pt": "educação anda mais rápido quando sua pegada está aberta.",
-        "nl": "onderwijs beweegt sneller als je greep open is.",
-        "es": "educación avanza más rápido cuando tu agarre está abierto.",
-        "de": "bildung bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "educazione si muove più veloce quando la tua presa è aperta.",
-        "ru": "образование движется быстрее, когда хватка открыта.",
-        "id": "pendidikan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "教育は、握りしめないときに速く進む。",
-        "th": "การศึกษา ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "pendidikan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, education moves faster.",
+        "tr": "Tutuşunu gevşettiğinde eğitim daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, éducation avance plus vite.",
+        "pt": "Quando você solta o aperto, educação anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat onderwijs sneller.",
+        "es": "Cuando sueltas el agarre, educación avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt bildung schneller voran.",
+        "it": "Quando allenti la presa, educazione procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, образование движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, pendidikan melaju lebih cepat.",
+        "ja": "握りを緩めると、教育は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด การศึกษาเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, pendidikan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -22350,79 +22350,79 @@
         "en": {
           "id": "story_education_241_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for education, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_education_241_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "eğitim planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_education_241_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour éducation, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_education_241_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para educação, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_education_241_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor onderwijs losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_education_241_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para educación, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_education_241_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für bildung lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_education_241_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per educazione, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_education_241_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для образование, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_education_241_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk pendidikan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_education_241_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "教育の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_education_241_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับการศึกษา ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_education_241_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk pendidikan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -22431,19 +22431,19 @@
       "id": "education_242",
       "type": "quote",
       "texts": {
-        "en": "In education, the quiet signal is often the true one.",
-        "tr": "eğitim konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En éducation, le signal discret est souvent le vrai.",
-        "pt": "Em educação, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij onderwijs is het stille signaal vaak het echte.",
-        "es": "En educación, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei bildung ist das leise Signal oft das wahre.",
-        "it": "In educazione, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть образование, тихий сигнал часто самый верный.",
-        "id": "Dalam pendidikan, sinyal yang tenang sering kali yang benar.",
-        "ja": "教育では、静かな合図が本当であることが多い。",
-        "th": "ใน การศึกษา สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam pendidikan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"education\", the quiet signal is often the true one.",
+        "tr": "Konu \"eğitim\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"éducation\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"educação\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"onderwijs\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"educación\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"bildung\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"educazione\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «образование», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"pendidikan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「教育」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"pendidikan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -23163,19 +23163,19 @@
       "id": "education_246",
       "type": "quote",
       "texts": {
-        "en": "In education, returning is part of the path, not a failure.",
-        "tr": "eğitim içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En éducation, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em educação, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij onderwijs is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En educación, volver es parte del camino, no un fracaso.",
-        "de": "Bei bildung ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In educazione, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть образование, возвращение — часть пути, а не провал.",
-        "id": "Dalam pendidikan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "教育では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน การศึกษา การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam pendidikan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"education\", returning is part of the path, not a failure.",
+        "tr": "Konu \"eğitim\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"éducation\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"educação\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"onderwijs\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"educación\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"bildung\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"educazione\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «образование», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"pendidikan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「教育」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"pendidikan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -23265,79 +23265,79 @@
         "en": {
           "id": "story_education_246_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"education\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_education_246_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"eğitim\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_education_246_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"éducation\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_education_246_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"educação\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_education_246_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"onderwijs\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_education_246_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"educación\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_education_246_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"bildung\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_education_246_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"educazione\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_education_246_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «образование» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_education_246_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"pendidikan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_education_246_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「教育」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_education_246_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"การศึกษา\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_education_246_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"pendidikan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -23529,19 +23529,19 @@
       "id": "education_248",
       "type": "quote",
       "texts": {
-        "en": "In education, the first version can be rough; the second is where the truth appears.",
-        "tr": "eğitim konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans éducation, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em educação, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In onderwijs kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En educación, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In bildung kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In educazione, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "образование иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam pendidikan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "教育では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในการศึกษา เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam pendidikan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"education\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"eğitim\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"éducation\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"educação\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"onderwijs\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"educación\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"bildung\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"educazione\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «образование», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"pendidikan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「教育」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"pendidikan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -24078,19 +24078,19 @@
       "id": "education_251",
       "type": "quote",
       "texts": {
-        "en": "education moves faster when your grip is open.",
-        "tr": "eğitim, elin gevşekken daha hızlı ilerler.",
-        "fr": "éducation avance plus vite quand la prise est ouverte.",
-        "pt": "educação anda mais rápido quando o aperto é aberto.",
-        "nl": "onderwijs gaat sneller als je grip open is.",
-        "es": "educación avanza más rápido cuando el agarre está abierto.",
-        "de": "bildung kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "educazione procede più veloce quando la presa è aperta.",
-        "ru": "образование движется быстрее, когда хватка открыта.",
-        "id": "pendidikan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "教育は、握りが開いているときに進みが速い。",
-        "th": "การศึกษาเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "pendidikan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, education moves faster.",
+        "tr": "Tutuşunu gevşettiğinde eğitim daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, éducation avance plus vite.",
+        "pt": "Quando você solta o aperto, educação anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat onderwijs sneller.",
+        "es": "Cuando sueltas el agarre, educación avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt bildung schneller voran.",
+        "it": "Quando allenti la presa, educazione procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, образование движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, pendidikan melaju lebih cepat.",
+        "ja": "握りを緩めると、教育は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด การศึกษาเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, pendidikan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -24180,79 +24180,79 @@
         "en": {
           "id": "story_education_251_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the education schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for education, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_education_251_tr",
           "title": "Açık El",
-          "content": "eğitim takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "eğitim planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_education_251_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de éducation, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour éducation, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_education_251_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de educação, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para educação, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_education_251_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het onderwijs-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor onderwijs losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_education_251_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de educación, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para educación, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_education_251_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am bildung-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für bildung lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_education_251_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di educazione, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per educazione, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_education_251_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании образование, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для образование, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_education_251_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal pendidikan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk pendidikan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_education_251_ja",
           "title": "開いた手",
-          "content": "教育の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "教育の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_education_251_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางการศึกษา ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับการศึกษา ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_education_251_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual pendidikan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk pendidikan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24261,19 +24261,19 @@
       "id": "education_252",
       "type": "quote",
       "texts": {
-        "en": "In education, the quiet signal is often the true one.",
-        "tr": "eğitim içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans éducation, le signal discret est souvent le vrai.",
-        "pt": "Em educação, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In onderwijs is het stille signaal vaak het echte.",
-        "es": "En educación, la señal silenciosa suele ser la verdadera.",
-        "de": "In bildung ist das leise Signal oft das wahre.",
-        "it": "In educazione, il segnale silenzioso è spesso quello vero.",
-        "ru": "В образование тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam pendidikan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "教育では、静かな合図が本当であることが多い。",
-        "th": "ในการศึกษา สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam pendidikan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"education\", the quiet signal is often the true one.",
+        "tr": "Konu \"eğitim\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"éducation\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"educação\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"onderwijs\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"educación\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"bildung\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"educazione\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «образование», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"pendidikan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「教育」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"pendidikan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -24993,19 +24993,19 @@
       "id": "education_256",
       "type": "quote",
       "texts": {
-        "en": "In education, returning is part of the path, not a failure.",
-        "tr": "eğitim içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans éducation, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em educação, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In onderwijs is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En educación, volver es parte del camino, no un fracaso.",
-        "de": "In bildung ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In educazione, tornare è parte del percorso, non un fallimento.",
-        "ru": "В образование возвращение — часть пути, а не провал.",
-        "id": "Dalam pendidikan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "教育では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในการศึกษา การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam pendidikan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"education\", returning is part of the path, not a failure.",
+        "tr": "Konu \"eğitim\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"éducation\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"educação\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"onderwijs\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"educación\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"bildung\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"educazione\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «образование», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"pendidikan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「教育」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"การศึกษา\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"pendidikan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -25095,79 +25095,79 @@
         "en": {
           "id": "story_education_256_en",
           "title": "The Return",
-          "content": "After a missed week in education, she came back and the line continued.",
+          "content": "After a week without \"education\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_education_256_tr",
           "title": "Dönüş",
-          "content": "eğitim içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"eğitim\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_education_256_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en éducation, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"éducation\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_education_256_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em educação, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"educação\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_education_256_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in onderwijs kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"onderwijs\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_education_256_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en educación, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"educación\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_education_256_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in bildung kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"bildung\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_education_256_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in educazione, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"educazione\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_education_256_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в образование она вернулась, и линия продолжилась.",
+          "content": "В теме «образование» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_education_256_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di pendidikan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"pendidikan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_education_256_ja",
           "title": "帰り道",
-          "content": "教育を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「教育」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_education_256_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในการศึกษา เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"การศึกษา\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_education_256_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam pendidikan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"pendidikan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -25354,6 +25354,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "education_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "In education, I take small, steady steps.",
+        "tr": "eğitim konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans éducation, je fais de petits pas réguliers.",
+        "pt": "Em educação, dou passos pequenos e constantes.",
+        "nl": "In onderwijs zet ik kleine, gestage stappen.",
+        "es": "En educación, doy pasos pequeños y constantes.",
+        "de": "In bildung gehe ich kleine, stetige Schritte.",
+        "it": "In educazione, faccio passi piccoli e costanti.",
+        "ru": "В теме «образование» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam pendidikan, saya melangkah kecil dan konsisten.",
+        "ja": "教育では、小さく着実な一歩を重ねる。",
+        "th": "ในการศึกษา ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam pendidikan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to education today.",
+        "tr": "Bugün eğitim için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à éducation aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para educação.",
+        "nl": "Vandaag breng ik kalmte en helderheid in onderwijs.",
+        "es": "Hoy llevo calma y claridad a educación.",
+        "de": "Heute bringe ich Ruhe und Klarheit in bildung.",
+        "it": "Oggi porto calma e chiarezza a educazione.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «образование».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke pendidikan.",
+        "ja": "今日は教育に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่การศึกษา",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give education my full attention without pressure.",
+        "tr": "eğitim için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à éducation sans pression.",
+        "pt": "Dou a educação minha atenção total sem pressão.",
+        "nl": "Ik geef onderwijs mijn volle aandacht zonder druk.",
+        "es": "Doy a educación toda mi atención sin presión.",
+        "de": "Ich schenke bildung meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a educazione tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «образование» всё своё внимание без давления.",
+        "id": "Saya memberi pendidikan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく教育に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับการศึกษาโดยไม่กดดัน",
+        "ms": "Saya memberi pendidikan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "In education, I choose progress over perfection.",
+        "tr": "eğitim konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans éducation, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em educação, escolho progresso em vez de perfeição.",
+        "nl": "In onderwijs kies ik voor vooruitgang boven perfectie.",
+        "es": "En educación, elijo el progreso por encima de la perfección.",
+        "de": "In bildung wähle ich Fortschritt statt Perfektion.",
+        "it": "In educazione, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «образование» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam pendidikan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "教育では、完璧より前進を選ぶ。",
+        "th": "ในการศึกษา ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam pendidikan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to education gently.",
+        "tr": "Dağılırsam eğitime nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à éducation avec douceur.",
+        "pt": "Se eu me dispersar, volto a educação com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar onderwijs.",
+        "es": "Si me disperso, vuelvo a educación con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu bildung zurück.",
+        "it": "Se mi disperdo, torno a educazione con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «образование».",
+        "id": "Jika saya teralihkan, saya kembali ke pendidikan dengan lembut.",
+        "ja": "迷ったら、やさしく教育に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาการศึกษาอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada pendidikan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in education align with my values.",
+        "tr": "eğitim konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en éducation sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em educação estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in onderwijs sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en educación están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in bildung passen zu meinen Werten.",
+        "it": "Le mie scelte in educazione sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «образование» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam pendidikan selaras dengan nilai-nilai saya.",
+        "ja": "教育での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในการศึกษาสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam pendidikan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in education.",
+        "tr": "eğitim konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en éducation.",
+        "pt": "Confio no meu ritmo em educação.",
+        "nl": "Ik vertrouw op mijn tempo in onderwijs.",
+        "es": "Confío en mi ritmo en educación.",
+        "de": "Ich vertraue meinem Tempo in bildung.",
+        "it": "Mi fido del mio ritmo in educazione.",
+        "ru": "Я доверяю своему темпу в теме «образование».",
+        "id": "Saya percaya pada ritme saya dalam pendidikan.",
+        "ja": "教育での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในการศึกษา",
+        "ms": "Saya percaya pada rentak saya dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for education to grow naturally.",
+        "tr": "eğitim için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que éducation grandisse naturellement.",
+        "pt": "Abro espaço para educação crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat onderwijs natuurlijk kan groeien.",
+        "es": "Hago espacio para que educación crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit bildung natürlich wachsen kann.",
+        "it": "Creo spazio perché educazione cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «образование» происходил естественно.",
+        "id": "Saya memberi ruang agar pendidikan tumbuh secara alami.",
+        "ja": "教育が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้การศึกษาเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar pendidikan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in education.",
+        "tr": "Bugün eğitim konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en éducation.",
+        "pt": "Hoje, dou um passo claro em educação.",
+        "nl": "Vandaag zet ik één duidelijke stap in onderwijs.",
+        "es": "Hoy doy un paso claro en educación.",
+        "de": "Heute mache ich einen klaren Schritt in bildung.",
+        "it": "Oggi faccio un passo chiaro in educazione.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «образование».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam pendidikan.",
+        "ja": "今日は教育で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในการศึกษา",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with education.",
+        "tr": "eğitim konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec éducation.",
+        "pt": "Sou paciente e presente com educação.",
+        "nl": "Ik ben geduldig en aanwezig met onderwijs.",
+        "es": "Soy paciente y presente con educación.",
+        "de": "Ich bin geduldig und präsent mit bildung.",
+        "it": "Sono paziente e presente con educazione.",
+        "ru": "Я терпелив(а) и присутствую в теме «образование».",
+        "id": "Saya sabar dan hadir bersama pendidikan.",
+        "ja": "教育に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับการศึกษาอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in education.",
+        "tr": "eğitim konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans éducation, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em educação, eu me concentro no que posso controlar.",
+        "nl": "In onderwijs richt ik me op wat ik kan controleren.",
+        "es": "En educación, me enfoco en lo que puedo controlar.",
+        "de": "In bildung konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In educazione, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «образование» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam pendidikan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "教育では、コントロールできることに意識を向ける。",
+        "th": "ในการศึกษา ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam pendidikan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow education to be simple and sincere.",
+        "tr": "eğitim konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à éducation d'être simple et sincère.",
+        "pt": "Eu permito que educação seja simples e verdadeiro.",
+        "nl": "Ik laat onderwijs eenvoudig en oprecht zijn.",
+        "es": "Permito que educación sea simple y auténtico.",
+        "de": "Ich erlaube bildung, einfach und aufrichtig zu sein.",
+        "it": "Permetto a educazione di essere semplice e autentico.",
+        "ru": "Я позволяю теме «образование» быть простой и искренней.",
+        "id": "Aku membiarkan pendidikan tetap sederhana dan tulus.",
+        "ja": "教育はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้การศึกษาเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan pendidikan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in education today.",
+        "tr": "Bugün eğitim konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en éducation.",
+        "pt": "Hoje, noto uma pequena vitória em educação.",
+        "nl": "Vandaag zie ik een kleine overwinning in onderwijs.",
+        "es": "Hoy noto una pequeña victoria en educación.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in bildung.",
+        "it": "Oggi noto una piccola vittoria in educazione.",
+        "ru": "Сегодня в теме «образование» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam pendidikan.",
+        "ja": "今日、教育で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในการศึกษา",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in education.",
+        "tr": "eğitim konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans éducation.",
+        "pt": "Eu respeito meus limites enquanto avanço em educação.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in onderwijs.",
+        "es": "Honro mis límites mientras avanzo en educación.",
+        "de": "Ich achte auf meine Grenzen, während ich in bildung vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in educazione.",
+        "ru": "В теме «образование» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam pendidikan.",
+        "ja": "教育で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในการศึกษา",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in education.",
+        "tr": "eğitim konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en éducation.",
+        "pt": "Deixo a curiosidade guiar meus passos em educação.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in onderwijs.",
+        "es": "Dejo que la curiosidad guíe mis pasos en educación.",
+        "de": "Ich lasse Neugier meine Schritte in bildung lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in educazione.",
+        "ru": "В теме «образование» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam pendidikan.",
+        "ja": "教育では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในการศึกษา",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in education.",
+        "tr": "eğitim konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en éducation.",
+        "pt": "Eu escolho clareza em vez de urgência em educação.",
+        "nl": "Ik kies helderheid boven haast in onderwijs.",
+        "es": "Elijo claridad en lugar de urgencia en educación.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in bildung.",
+        "it": "Scelgo chiarezza invece di urgenza in educazione.",
+        "ru": "В теме «образование» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam pendidikan.",
+        "ja": "教育では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในการศึกษา",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep education gentle and consistent.",
+        "tr": "eğitim konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde éducation avec douceur et constance.",
+        "pt": "Mantenho educação com suavidade e constância.",
+        "nl": "Ik houd onderwijs zacht en consistent.",
+        "es": "Mantengo educación suave y constante.",
+        "de": "Ich halte bildung sanft und beständig.",
+        "it": "Mantengo educazione con dolcezza e costanza.",
+        "ru": "В теме «образование» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga pendidikan tetap lembut dan konsisten.",
+        "ja": "教育を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้การศึกษาอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan pendidikan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what education needs from me right now.",
+        "tr": "Şu anda eğitim konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que éducation a besoin de moi maintenant.",
+        "pt": "Eu escuto o que educação precisa de mim agora.",
+        "nl": "Ik luister naar wat onderwijs nu van mij nodig heeft.",
+        "es": "Escucho lo que educación necesita de mí ahora.",
+        "de": "Ich höre darauf, was bildung jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui educazione ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «образование» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang pendidikan butuhkan dariku sekarang.",
+        "ja": "今、教育が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าการศึกษาต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang pendidikan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in education compounds.",
+        "tr": "eğitim konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en éducation.",
+        "pt": "Confio que o esforço constante em educação se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in onderwijs zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en educación se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in bildung sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in educazione si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «образование» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam pendidikan berakumulasi.",
+        "ja": "教育での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในการศึกษาจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam pendidikan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "education_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into education.",
+        "tr": "eğitim konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans éducation.",
+        "pt": "Eu acolho leveza e foco em educação.",
+        "nl": "Ik verwelkom gemak en focus in onderwijs.",
+        "es": "Doy la bienvenida a la calma y el enfoque en educación.",
+        "de": "Ich heiße Leichtigkeit und Fokus in bildung willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in educazione.",
+        "ru": "В теме «образование» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam pendidikan.",
+        "ja": "教育に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในการศึกษา",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam pendidikan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "education",
+      "tags": {
+        "en": [
+          "education",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "eğitim",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "éducation",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "educação",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "onderwijs",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "educación",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "bildung",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "educazione",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "образование",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "教育",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "การศึกษา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "pendidikan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

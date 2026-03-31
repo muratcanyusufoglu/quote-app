@@ -19034,19 +19034,19 @@
       "id": "friendship_223",
       "type": "quote",
       "texts": {
-        "en": "In friendship, the first version can be rough; the second is where the truth appears.",
-        "tr": "dostluk konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En amitié, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em amizade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij vriendschap kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En amistad, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei freundschaft kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In amicizia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть дружба, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam persahabatan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "友情では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน มิตรภาพ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam persahabatan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"friendship\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"dostluk\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"amitié\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"amizade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"vriendschap\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"amistad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"freundschaft\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"amicizia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «дружба», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"persahabatan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「友情」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"persahabatan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -19583,19 +19583,19 @@
       "id": "friendship_226",
       "type": "quote",
       "texts": {
-        "en": "friendship moves faster when your grip is open.",
-        "tr": "dostluk, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "amitié avance plus vite quand ta prise est ouverte.",
-        "pt": "amizade anda mais rápido quando sua pegada está aberta.",
-        "nl": "vriendschap beweegt sneller als je greep open is.",
-        "es": "amistad avanza más rápido cuando tu agarre está abierto.",
-        "de": "freundschaft bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "amicizia si muove più veloce quando la tua presa è aperta.",
-        "ru": "дружба движется быстрее, когда хватка открыта.",
-        "id": "persahabatan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "友情は、握りしめないときに速く進む。",
-        "th": "มิตรภาพ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "persahabatan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, friendship moves faster.",
+        "tr": "Tutuşunu gevşettiğinde dostluk daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, amitié avance plus vite.",
+        "pt": "Quando você solta o aperto, amizade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat vriendschap sneller.",
+        "es": "Cuando sueltas el agarre, amistad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt freundschaft schneller voran.",
+        "it": "Quando allenti la presa, amicizia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, дружба движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, persahabatan melaju lebih cepat.",
+        "ja": "握りを緩めると、友情は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด มิตรภาพเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, persahabatan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -19685,79 +19685,79 @@
         "en": {
           "id": "story_friendship_226_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for friendship, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_friendship_226_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "dostluk planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_friendship_226_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour amitié, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_friendship_226_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para amizade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_friendship_226_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor vriendschap losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_friendship_226_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para amistad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_friendship_226_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für freundschaft lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_friendship_226_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per amicizia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_friendship_226_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для дружба, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_friendship_226_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk persahabatan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_friendship_226_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "友情の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_friendship_226_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับมิตรภาพ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_friendship_226_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk persahabatan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -19766,19 +19766,19 @@
       "id": "friendship_227",
       "type": "quote",
       "texts": {
-        "en": "In friendship, the quiet signal is often the true one.",
-        "tr": "dostluk konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En amitié, le signal discret est souvent le vrai.",
-        "pt": "Em amizade, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij vriendschap is het stille signaal vaak het echte.",
-        "es": "En amistad, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei freundschaft ist das leise Signal oft das wahre.",
-        "it": "In amicizia, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть дружба, тихий сигнал часто самый верный.",
-        "id": "Dalam persahabatan, sinyal yang tenang sering kali yang benar.",
-        "ja": "友情では、静かな合図が本当であることが多い。",
-        "th": "ใน มิตรภาพ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam persahabatan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"friendship\", the quiet signal is often the true one.",
+        "tr": "Konu \"dostluk\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"amitié\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"amizade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"vriendschap\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"amistad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"freundschaft\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"amicizia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «дружба», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"persahabatan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「友情」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"persahabatan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -20498,19 +20498,19 @@
       "id": "friendship_231",
       "type": "quote",
       "texts": {
-        "en": "In friendship, returning is part of the path, not a failure.",
-        "tr": "dostluk içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En amitié, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em amizade, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij vriendschap is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En amistad, volver es parte del camino, no un fracaso.",
-        "de": "Bei freundschaft ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In amicizia, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть дружба, возвращение — часть пути, а не провал.",
-        "id": "Dalam persahabatan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "友情では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน มิตรภาพ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam persahabatan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"friendship\", returning is part of the path, not a failure.",
+        "tr": "Konu \"dostluk\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"amitié\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"amizade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"vriendschap\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"amistad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"freundschaft\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"amicizia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «дружба», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"persahabatan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「友情」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"persahabatan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -20600,79 +20600,79 @@
         "en": {
           "id": "story_friendship_231_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"friendship\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_friendship_231_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"dostluk\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_friendship_231_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"amitié\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_friendship_231_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"amizade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_friendship_231_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"vriendschap\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_friendship_231_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"amistad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_friendship_231_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"freundschaft\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_friendship_231_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"amicizia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_friendship_231_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «дружба» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_friendship_231_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"persahabatan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_friendship_231_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「友情」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_friendship_231_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"มิตรภาพ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_friendship_231_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"persahabatan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -20864,19 +20864,19 @@
       "id": "friendship_233",
       "type": "quote",
       "texts": {
-        "en": "In friendship, the first version can be rough; the second is where the truth appears.",
-        "tr": "dostluk konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans amitié, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em amizade, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In vriendschap kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En amistad, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In freundschaft kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In amicizia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "дружба иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam persahabatan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "友情では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในมิตรภาพ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam persahabatan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"friendship\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"dostluk\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"amitié\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"amizade\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"vriendschap\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"amistad\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"freundschaft\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"amicizia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «дружба», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"persahabatan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「友情」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"persahabatan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -21413,19 +21413,19 @@
       "id": "friendship_236",
       "type": "quote",
       "texts": {
-        "en": "friendship moves faster when your grip is open.",
-        "tr": "dostluk, elin gevşekken daha hızlı ilerler.",
-        "fr": "amitié avance plus vite quand la prise est ouverte.",
-        "pt": "amizade anda mais rápido quando o aperto é aberto.",
-        "nl": "vriendschap gaat sneller als je grip open is.",
-        "es": "amistad avanza más rápido cuando el agarre está abierto.",
-        "de": "freundschaft kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "amicizia procede più veloce quando la presa è aperta.",
-        "ru": "дружба движется быстрее, когда хватка открыта.",
-        "id": "persahabatan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "友情は、握りが開いているときに進みが速い。",
-        "th": "มิตรภาพเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "persahabatan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, friendship moves faster.",
+        "tr": "Tutuşunu gevşettiğinde dostluk daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, amitié avance plus vite.",
+        "pt": "Quando você solta o aperto, amizade anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat vriendschap sneller.",
+        "es": "Cuando sueltas el agarre, amistad avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt freundschaft schneller voran.",
+        "it": "Quando allenti la presa, amicizia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, дружба движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, persahabatan melaju lebih cepat.",
+        "ja": "握りを緩めると、友情は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด มิตรภาพเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, persahabatan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -21515,79 +21515,79 @@
         "en": {
           "id": "story_friendship_236_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the friendship schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for friendship, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_friendship_236_tr",
           "title": "Açık El",
-          "content": "dostluk takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "dostluk planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_friendship_236_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de amitié, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour amitié, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_friendship_236_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de amizade, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para amizade, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_friendship_236_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het vriendschap-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor vriendschap losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_friendship_236_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de amistad, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para amistad, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_friendship_236_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am freundschaft-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für freundschaft lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_friendship_236_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di amicizia, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per amicizia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_friendship_236_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании дружба, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для дружба, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_friendship_236_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal persahabatan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk persahabatan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_friendship_236_ja",
           "title": "開いた手",
-          "content": "友情の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "友情の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_friendship_236_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางมิตรภาพ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับมิตรภาพ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_friendship_236_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual persahabatan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk persahabatan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -21596,19 +21596,19 @@
       "id": "friendship_237",
       "type": "quote",
       "texts": {
-        "en": "In friendship, the quiet signal is often the true one.",
-        "tr": "dostluk içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans amitié, le signal discret est souvent le vrai.",
-        "pt": "Em amizade, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In vriendschap is het stille signaal vaak het echte.",
-        "es": "En amistad, la señal silenciosa suele ser la verdadera.",
-        "de": "In freundschaft ist das leise Signal oft das wahre.",
-        "it": "In amicizia, il segnale silenzioso è spesso quello vero.",
-        "ru": "В дружба тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam persahabatan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "友情では、静かな合図が本当であることが多い。",
-        "th": "ในมิตรภาพ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam persahabatan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"friendship\", the quiet signal is often the true one.",
+        "tr": "Konu \"dostluk\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"amitié\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"amizade\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"vriendschap\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"amistad\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"freundschaft\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"amicizia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «дружба», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"persahabatan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「友情」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"persahabatan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -22328,19 +22328,19 @@
       "id": "friendship_241",
       "type": "quote",
       "texts": {
-        "en": "In friendship, returning is part of the path, not a failure.",
-        "tr": "dostluk içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans amitié, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em amizade, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In vriendschap is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En amistad, volver es parte del camino, no un fracaso.",
-        "de": "In freundschaft ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In amicizia, tornare è parte del percorso, non un fallimento.",
-        "ru": "В дружба возвращение — часть пути, а не провал.",
-        "id": "Dalam persahabatan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "友情では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในมิตรภาพ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam persahabatan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"friendship\", returning is part of the path, not a failure.",
+        "tr": "Konu \"dostluk\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"amitié\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"amizade\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"vriendschap\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"amistad\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"freundschaft\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"amicizia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «дружба», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"persahabatan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「友情」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"มิตรภาพ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"persahabatan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -22430,79 +22430,79 @@
         "en": {
           "id": "story_friendship_241_en",
           "title": "The Return",
-          "content": "After a missed week in friendship, she came back and the line continued.",
+          "content": "After a week without \"friendship\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_friendship_241_tr",
           "title": "Dönüş",
-          "content": "dostluk içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"dostluk\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_friendship_241_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en amitié, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"amitié\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_friendship_241_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em amizade, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"amizade\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_friendship_241_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in vriendschap kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"vriendschap\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_friendship_241_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en amistad, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"amistad\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_friendship_241_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in freundschaft kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"freundschaft\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_friendship_241_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in amicizia, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"amicizia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_friendship_241_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в дружба она вернулась, и линия продолжилась.",
+          "content": "В теме «дружба» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_friendship_241_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di persahabatan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"persahabatan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_friendship_241_ja",
           "title": "帰り道",
-          "content": "友情を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「友情」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_friendship_241_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในมิตรภาพ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"มิตรภาพ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_friendship_241_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam persahabatan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"persahabatan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -22689,6 +22689,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "friendship_243",
+      "type": "affirmation",
+      "texts": {
+        "en": "In friendship, I take small, steady steps.",
+        "tr": "dostluk konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans amitié, je fais de petits pas réguliers.",
+        "pt": "Em amizade, dou passos pequenos e constantes.",
+        "nl": "In vriendschap zet ik kleine, gestage stappen.",
+        "es": "En amistad, doy pasos pequeños y constantes.",
+        "de": "In freundschaft gehe ich kleine, stetige Schritte.",
+        "it": "In amicizia, faccio passi piccoli e costanti.",
+        "ru": "В теме «дружба» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam persahabatan, saya melangkah kecil dan konsisten.",
+        "ja": "友情では、小さく着実な一歩を重ねる。",
+        "th": "ในมิตรภาพ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam persahabatan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_244",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to friendship today.",
+        "tr": "Bugün dostluk için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à amitié aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para amizade.",
+        "nl": "Vandaag breng ik kalmte en helderheid in vriendschap.",
+        "es": "Hoy llevo calma y claridad a amistad.",
+        "de": "Heute bringe ich Ruhe und Klarheit in freundschaft.",
+        "it": "Oggi porto calma e chiarezza a amicizia.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «дружба».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke persahabatan.",
+        "ja": "今日は友情に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่มิตรภาพ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_245",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give friendship my full attention without pressure.",
+        "tr": "dostluk için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à amitié sans pression.",
+        "pt": "Dou a amizade minha atenção total sem pressão.",
+        "nl": "Ik geef vriendschap mijn volle aandacht zonder druk.",
+        "es": "Doy a amistad toda mi atención sin presión.",
+        "de": "Ich schenke freundschaft meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a amicizia tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «дружба» всё своё внимание без давления.",
+        "id": "Saya memberi persahabatan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく友情に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับมิตรภาพโดยไม่กดดัน",
+        "ms": "Saya memberi persahabatan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_246",
+      "type": "affirmation",
+      "texts": {
+        "en": "In friendship, I choose progress over perfection.",
+        "tr": "dostluk konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans amitié, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em amizade, escolho progresso em vez de perfeição.",
+        "nl": "In vriendschap kies ik voor vooruitgang boven perfectie.",
+        "es": "En amistad, elijo el progreso por encima de la perfección.",
+        "de": "In freundschaft wähle ich Fortschritt statt Perfektion.",
+        "it": "In amicizia, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «дружба» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam persahabatan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "友情では、完璧より前進を選ぶ。",
+        "th": "ในมิตรภาพ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam persahabatan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_247",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to friendship gently.",
+        "tr": "Dağılırsam dostluke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à amitié avec douceur.",
+        "pt": "Se eu me dispersar, volto a amizade com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar vriendschap.",
+        "es": "Si me disperso, vuelvo a amistad con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu freundschaft zurück.",
+        "it": "Se mi disperdo, torno a amicizia con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «дружба».",
+        "id": "Jika saya teralihkan, saya kembali ke persahabatan dengan lembut.",
+        "ja": "迷ったら、やさしく友情に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหามิตรภาพอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada persahabatan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_248",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in friendship align with my values.",
+        "tr": "dostluk konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en amitié sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em amizade estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in vriendschap sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en amistad están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in freundschaft passen zu meinen Werten.",
+        "it": "Le mie scelte in amicizia sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «дружба» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam persahabatan selaras dengan nilai-nilai saya.",
+        "ja": "友情での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในมิตรภาพสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam persahabatan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_249",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in friendship.",
+        "tr": "dostluk konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en amitié.",
+        "pt": "Confio no meu ritmo em amizade.",
+        "nl": "Ik vertrouw op mijn tempo in vriendschap.",
+        "es": "Confío en mi ritmo en amistad.",
+        "de": "Ich vertraue meinem Tempo in freundschaft.",
+        "it": "Mi fido del mio ritmo in amicizia.",
+        "ru": "Я доверяю своему темпу в теме «дружба».",
+        "id": "Saya percaya pada ritme saya dalam persahabatan.",
+        "ja": "友情での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในมิตรภาพ",
+        "ms": "Saya percaya pada rentak saya dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_250",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for friendship to grow naturally.",
+        "tr": "dostluk için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que amitié grandisse naturellement.",
+        "pt": "Abro espaço para amizade crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat vriendschap natuurlijk kan groeien.",
+        "es": "Hago espacio para que amistad crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit freundschaft natürlich wachsen kann.",
+        "it": "Creo spazio perché amicizia cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «дружба» происходил естественно.",
+        "id": "Saya memberi ruang agar persahabatan tumbuh secara alami.",
+        "ja": "友情が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้มิตรภาพเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar persahabatan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_251",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in friendship.",
+        "tr": "Bugün dostluk konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en amitié.",
+        "pt": "Hoje, dou um passo claro em amizade.",
+        "nl": "Vandaag zet ik één duidelijke stap in vriendschap.",
+        "es": "Hoy doy un paso claro en amistad.",
+        "de": "Heute mache ich einen klaren Schritt in freundschaft.",
+        "it": "Oggi faccio un passo chiaro in amicizia.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «дружба».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam persahabatan.",
+        "ja": "今日は友情で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในมิตรภาพ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_252",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with friendship.",
+        "tr": "dostluk konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec amitié.",
+        "pt": "Sou paciente e presente com amizade.",
+        "nl": "Ik ben geduldig en aanwezig met vriendschap.",
+        "es": "Soy paciente y presente con amistad.",
+        "de": "Ich bin geduldig und präsent mit freundschaft.",
+        "it": "Sono paziente e presente con amicizia.",
+        "ru": "Я терпелив(а) и присутствую в теме «дружба».",
+        "id": "Saya sabar dan hadir bersama persahabatan.",
+        "ja": "友情に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับมิตรภาพอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in friendship.",
+        "tr": "dostluk konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans amitié, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em amizade, eu me concentro no que posso controlar.",
+        "nl": "In vriendschap richt ik me op wat ik kan controleren.",
+        "es": "En amistad, me enfoco en lo que puedo controlar.",
+        "de": "In freundschaft konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In amicizia, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «дружба» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam persahabatan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "友情では、コントロールできることに意識を向ける。",
+        "th": "ในมิตรภาพ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam persahabatan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow friendship to be simple and sincere.",
+        "tr": "dostluk konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à amitié d'être simple et sincère.",
+        "pt": "Eu permito que amizade seja simples e verdadeiro.",
+        "nl": "Ik laat vriendschap eenvoudig en oprecht zijn.",
+        "es": "Permito que amistad sea simple y auténtico.",
+        "de": "Ich erlaube freundschaft, einfach und aufrichtig zu sein.",
+        "it": "Permetto a amicizia di essere semplice e autentico.",
+        "ru": "Я позволяю теме «дружба» быть простой и искренней.",
+        "id": "Aku membiarkan persahabatan tetap sederhana dan tulus.",
+        "ja": "友情はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้มิตรภาพเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan persahabatan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in friendship today.",
+        "tr": "Bugün dostluk konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en amitié.",
+        "pt": "Hoje, noto uma pequena vitória em amizade.",
+        "nl": "Vandaag zie ik een kleine overwinning in vriendschap.",
+        "es": "Hoy noto una pequeña victoria en amistad.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in freundschaft.",
+        "it": "Oggi noto una piccola vittoria in amicizia.",
+        "ru": "Сегодня в теме «дружба» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam persahabatan.",
+        "ja": "今日、友情で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในมิตรภาพ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in friendship.",
+        "tr": "dostluk konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans amitié.",
+        "pt": "Eu respeito meus limites enquanto avanço em amizade.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in vriendschap.",
+        "es": "Honro mis límites mientras avanzo en amistad.",
+        "de": "Ich achte auf meine Grenzen, während ich in freundschaft vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in amicizia.",
+        "ru": "В теме «дружба» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam persahabatan.",
+        "ja": "友情で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในมิตรภาพ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in friendship.",
+        "tr": "dostluk konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en amitié.",
+        "pt": "Deixo a curiosidade guiar meus passos em amizade.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in vriendschap.",
+        "es": "Dejo que la curiosidad guíe mis pasos en amistad.",
+        "de": "Ich lasse Neugier meine Schritte in freundschaft lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in amicizia.",
+        "ru": "В теме «дружба» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam persahabatan.",
+        "ja": "友情では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในมิตรภาพ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in friendship.",
+        "tr": "dostluk konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en amitié.",
+        "pt": "Eu escolho clareza em vez de urgência em amizade.",
+        "nl": "Ik kies helderheid boven haast in vriendschap.",
+        "es": "Elijo claridad en lugar de urgencia en amistad.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in freundschaft.",
+        "it": "Scelgo chiarezza invece di urgenza in amicizia.",
+        "ru": "В теме «дружба» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam persahabatan.",
+        "ja": "友情では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในมิตรภาพ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep friendship gentle and consistent.",
+        "tr": "dostluk konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde amitié avec douceur et constance.",
+        "pt": "Mantenho amizade com suavidade e constância.",
+        "nl": "Ik houd vriendschap zacht en consistent.",
+        "es": "Mantengo amistad suave y constante.",
+        "de": "Ich halte freundschaft sanft und beständig.",
+        "it": "Mantengo amicizia con dolcezza e costanza.",
+        "ru": "В теме «дружба» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga persahabatan tetap lembut dan konsisten.",
+        "ja": "友情を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้มิตรภาพอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan persahabatan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what friendship needs from me right now.",
+        "tr": "Şu anda dostluk konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que amitié a besoin de moi maintenant.",
+        "pt": "Eu escuto o que amizade precisa de mim agora.",
+        "nl": "Ik luister naar wat vriendschap nu van mij nodig heeft.",
+        "es": "Escucho lo que amistad necesita de mí ahora.",
+        "de": "Ich höre darauf, was freundschaft jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui amicizia ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «дружба» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang persahabatan butuhkan dariku sekarang.",
+        "ja": "今、友情が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่ามิตรภาพต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang persahabatan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in friendship compounds.",
+        "tr": "dostluk konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en amitié.",
+        "pt": "Confio que o esforço constante em amizade se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in vriendschap zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en amistad se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in freundschaft sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in amicizia si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «дружба» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam persahabatan berakumulasi.",
+        "ja": "友情での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในมิตรภาพจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam persahabatan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "friendship_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into friendship.",
+        "tr": "dostluk konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans amitié.",
+        "pt": "Eu acolho leveza e foco em amizade.",
+        "nl": "Ik verwelkom gemak en focus in vriendschap.",
+        "es": "Doy la bienvenida a la calma y el enfoque en amistad.",
+        "de": "Ich heiße Leichtigkeit und Fokus in freundschaft willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in amicizia.",
+        "ru": "В теме «дружба» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam persahabatan.",
+        "ja": "友情に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในมิตรภาพ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam persahabatan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "friendship",
+      "tags": {
+        "en": [
+          "friendship",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "dostluk",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "amitié",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "amizade",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vriendschap",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "amistad",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "freundschaft",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "amicizia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "дружба",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "友情",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "มิตรภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "persahabatan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

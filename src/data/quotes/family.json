@@ -20672,19 +20672,19 @@
       "id": "family_233",
       "type": "quote",
       "texts": {
-        "en": "In family, the first version can be rough; the second is where the truth appears.",
-        "tr": "aile konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En famille, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em família, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij familie kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En familia, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei familie kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In famiglia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть семья, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam keluarga, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "家族では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ครอบครัว เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam keluarga, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"family\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"aile\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"famille\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"família\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"familie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"familia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"familie\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"famiglia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «семья», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"keluarga\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「家族」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"keluarga\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -21221,19 +21221,19 @@
       "id": "family_236",
       "type": "quote",
       "texts": {
-        "en": "family moves faster when your grip is open.",
-        "tr": "aile, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "famille avance plus vite quand ta prise est ouverte.",
-        "pt": "família anda mais rápido quando sua pegada está aberta.",
-        "nl": "familie beweegt sneller als je greep open is.",
-        "es": "familia avanza más rápido cuando tu agarre está abierto.",
-        "de": "familie bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "famiglia si muove più veloce quando la tua presa è aperta.",
-        "ru": "семья движется быстрее, когда хватка открыта.",
-        "id": "keluarga bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "家族は、握りしめないときに速く進む。",
-        "th": "ครอบครัว ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "keluarga bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, family moves faster.",
+        "tr": "Tutuşunu gevşettiğinde aile daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, famille avance plus vite.",
+        "pt": "Quando você solta o aperto, família anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat familie sneller.",
+        "es": "Cuando sueltas el agarre, familia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt familie schneller voran.",
+        "it": "Quando allenti la presa, famiglia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, семья движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, keluarga melaju lebih cepat.",
+        "ja": "握りを緩めると、家族は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ครอบครัวเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, keluarga bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -21323,79 +21323,79 @@
         "en": {
           "id": "story_family_236_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for family, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_family_236_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "aile planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_family_236_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour famille, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_family_236_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para família, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_family_236_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor familie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_family_236_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para familia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_family_236_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für familie lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_family_236_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per famiglia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_family_236_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для семья, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_family_236_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk keluarga, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_family_236_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "家族の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_family_236_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับครอบครัว ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_family_236_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk keluarga, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -21404,19 +21404,19 @@
       "id": "family_237",
       "type": "quote",
       "texts": {
-        "en": "In family, the quiet signal is often the true one.",
-        "tr": "aile konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En famille, le signal discret est souvent le vrai.",
-        "pt": "Em família, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij familie is het stille signaal vaak het echte.",
-        "es": "En familia, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei familie ist das leise Signal oft das wahre.",
-        "it": "In famiglia, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть семья, тихий сигнал часто самый верный.",
-        "id": "Dalam keluarga, sinyal yang tenang sering kali yang benar.",
-        "ja": "家族では、静かな合図が本当であることが多い。",
-        "th": "ใน ครอบครัว สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam keluarga, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"family\", the quiet signal is often the true one.",
+        "tr": "Konu \"aile\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"famille\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"família\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"familie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"familia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"familie\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"famiglia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «семья», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"keluarga\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「家族」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"keluarga\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -22136,19 +22136,19 @@
       "id": "family_241",
       "type": "quote",
       "texts": {
-        "en": "In family, returning is part of the path, not a failure.",
-        "tr": "aile içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En famille, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em família, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij familie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En familia, volver es parte del camino, no un fracaso.",
-        "de": "Bei familie ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In famiglia, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть семья, возвращение — часть пути, а не провал.",
-        "id": "Dalam keluarga, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "家族では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ครอบครัว การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam keluarga, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"family\", returning is part of the path, not a failure.",
+        "tr": "Konu \"aile\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"famille\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"família\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"familie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"familia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"familie\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"famiglia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «семья», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"keluarga\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「家族」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"keluarga\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -22238,79 +22238,79 @@
         "en": {
           "id": "story_family_241_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"family\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_family_241_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"aile\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_family_241_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"famille\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_family_241_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"família\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_family_241_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"familie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_family_241_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"familia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_family_241_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"familie\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_family_241_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"famiglia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_family_241_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «семья» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_family_241_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"keluarga\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_family_241_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「家族」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_family_241_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ครอบครัว\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_family_241_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"keluarga\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -22502,19 +22502,19 @@
       "id": "family_243",
       "type": "quote",
       "texts": {
-        "en": "In family, the first version can be rough; the second is where the truth appears.",
-        "tr": "aile konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans famille, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em família, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In familie kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En familia, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In familie kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In famiglia, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "семья иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam keluarga, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "家族では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในครอบครัว เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam keluarga, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"family\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"aile\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"famille\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"família\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"familie\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"familia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"familie\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"famiglia\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «семья», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"keluarga\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「家族」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"keluarga\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -23051,19 +23051,19 @@
       "id": "family_246",
       "type": "quote",
       "texts": {
-        "en": "family moves faster when your grip is open.",
-        "tr": "aile, elin gevşekken daha hızlı ilerler.",
-        "fr": "famille avance plus vite quand la prise est ouverte.",
-        "pt": "família anda mais rápido quando o aperto é aberto.",
-        "nl": "familie gaat sneller als je grip open is.",
-        "es": "familia avanza más rápido cuando el agarre está abierto.",
-        "de": "familie kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "famiglia procede più veloce quando la presa è aperta.",
-        "ru": "семья движется быстрее, когда хватка открыта.",
-        "id": "keluarga melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "家族は、握りが開いているときに進みが速い。",
-        "th": "ครอบครัวเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "keluarga bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, family moves faster.",
+        "tr": "Tutuşunu gevşettiğinde aile daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, famille avance plus vite.",
+        "pt": "Quando você solta o aperto, família anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat familie sneller.",
+        "es": "Cuando sueltas el agarre, familia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt familie schneller voran.",
+        "it": "Quando allenti la presa, famiglia procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, семья движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, keluarga melaju lebih cepat.",
+        "ja": "握りを緩めると、家族は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ครอบครัวเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, keluarga bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -23153,79 +23153,79 @@
         "en": {
           "id": "story_family_246_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the family schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for family, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_family_246_tr",
           "title": "Açık El",
-          "content": "aile takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "aile planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_family_246_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de famille, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour famille, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_family_246_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de família, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para família, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_family_246_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het familie-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor familie losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_family_246_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de familia, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para familia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_family_246_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am familie-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für familie lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_family_246_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di famiglia, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per famiglia, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_family_246_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании семья, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для семья, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_family_246_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal keluarga, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk keluarga, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_family_246_ja",
           "title": "開いた手",
-          "content": "家族の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "家族の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_family_246_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางครอบครัว ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับครอบครัว ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_family_246_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual keluarga, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk keluarga, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23234,19 +23234,19 @@
       "id": "family_247",
       "type": "quote",
       "texts": {
-        "en": "In family, the quiet signal is often the true one.",
-        "tr": "aile içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans famille, le signal discret est souvent le vrai.",
-        "pt": "Em família, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In familie is het stille signaal vaak het echte.",
-        "es": "En familia, la señal silenciosa suele ser la verdadera.",
-        "de": "In familie ist das leise Signal oft das wahre.",
-        "it": "In famiglia, il segnale silenzioso è spesso quello vero.",
-        "ru": "В семья тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam keluarga, sinyal yang sunyi sering kali yang benar.",
-        "ja": "家族では、静かな合図が本当であることが多い。",
-        "th": "ในครอบครัว สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam keluarga, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"family\", the quiet signal is often the true one.",
+        "tr": "Konu \"aile\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"famille\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"família\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"familie\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"familia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"familie\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"famiglia\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «семья», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"keluarga\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「家族」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"keluarga\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -23966,19 +23966,19 @@
       "id": "family_251",
       "type": "quote",
       "texts": {
-        "en": "In family, returning is part of the path, not a failure.",
-        "tr": "aile içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans famille, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em família, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In familie is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En familia, volver es parte del camino, no un fracaso.",
-        "de": "In familie ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In famiglia, tornare è parte del percorso, non un fallimento.",
-        "ru": "В семья возвращение — часть пути, а не провал.",
-        "id": "Dalam keluarga, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "家族では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในครอบครัว การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam keluarga, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"family\", returning is part of the path, not a failure.",
+        "tr": "Konu \"aile\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"famille\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"família\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"familie\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"familia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"familie\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"famiglia\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «семья», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"keluarga\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「家族」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ครอบครัว\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"keluarga\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -24068,79 +24068,79 @@
         "en": {
           "id": "story_family_251_en",
           "title": "The Return",
-          "content": "After a missed week in family, she came back and the line continued.",
+          "content": "After a week without \"family\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_family_251_tr",
           "title": "Dönüş",
-          "content": "aile içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"aile\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_family_251_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en famille, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"famille\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_family_251_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em família, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"família\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_family_251_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in familie kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"familie\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_family_251_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en familia, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"familia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_family_251_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in familie kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"familie\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_family_251_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in famiglia, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"famiglia\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_family_251_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в семья она вернулась, и линия продолжилась.",
+          "content": "В теме «семья» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_family_251_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di keluarga, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"keluarga\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_family_251_ja",
           "title": "帰り道",
-          "content": "家族を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「家族」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_family_251_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในครอบครัว เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ครอบครัว\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_family_251_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam keluarga, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"keluarga\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24327,6 +24327,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "family_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "In family, I take small, steady steps.",
+        "tr": "aile konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans famille, je fais de petits pas réguliers.",
+        "pt": "Em família, dou passos pequenos e constantes.",
+        "nl": "In familie zet ik kleine, gestage stappen.",
+        "es": "En familia, doy pasos pequeños y constantes.",
+        "de": "In familie gehe ich kleine, stetige Schritte.",
+        "it": "In famiglia, faccio passi piccoli e costanti.",
+        "ru": "В теме «семья» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam keluarga, saya melangkah kecil dan konsisten.",
+        "ja": "家族では、小さく着実な一歩を重ねる。",
+        "th": "ในครอบครัว ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam keluarga, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to family today.",
+        "tr": "Bugün aile için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à famille aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para família.",
+        "nl": "Vandaag breng ik kalmte en helderheid in familie.",
+        "es": "Hoy llevo calma y claridad a familia.",
+        "de": "Heute bringe ich Ruhe und Klarheit in familie.",
+        "it": "Oggi porto calma e chiarezza a famiglia.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «семья».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke keluarga.",
+        "ja": "今日は家族に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ครอบครัว",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give family my full attention without pressure.",
+        "tr": "aile için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à famille sans pression.",
+        "pt": "Dou a família minha atenção total sem pressão.",
+        "nl": "Ik geef familie mijn volle aandacht zonder druk.",
+        "es": "Doy a familia toda mi atención sin presión.",
+        "de": "Ich schenke familie meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a famiglia tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «семья» всё своё внимание без давления.",
+        "id": "Saya memberi keluarga perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく家族に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับครอบครัวโดยไม่กดดัน",
+        "ms": "Saya memberi keluarga perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "In family, I choose progress over perfection.",
+        "tr": "aile konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans famille, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em família, escolho progresso em vez de perfeição.",
+        "nl": "In familie kies ik voor vooruitgang boven perfectie.",
+        "es": "En familia, elijo el progreso por encima de la perfección.",
+        "de": "In familie wähle ich Fortschritt statt Perfektion.",
+        "it": "In famiglia, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «семья» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam keluarga, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "家族では、完璧より前進を選ぶ。",
+        "th": "ในครอบครัว ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam keluarga, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to family gently.",
+        "tr": "Dağılırsam ailee nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à famille avec douceur.",
+        "pt": "Se eu me dispersar, volto a família com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar familie.",
+        "es": "Si me disperso, vuelvo a familia con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu familie zurück.",
+        "it": "Se mi disperdo, torno a famiglia con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «семья».",
+        "id": "Jika saya teralihkan, saya kembali ke keluarga dengan lembut.",
+        "ja": "迷ったら、やさしく家族に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาครอบครัวอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada keluarga dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in family align with my values.",
+        "tr": "aile konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en famille sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em família estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in familie sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en familia están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in familie passen zu meinen Werten.",
+        "it": "Le mie scelte in famiglia sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «семья» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam keluarga selaras dengan nilai-nilai saya.",
+        "ja": "家族での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในครอบครัวสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam keluarga selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in family.",
+        "tr": "aile konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en famille.",
+        "pt": "Confio no meu ritmo em família.",
+        "nl": "Ik vertrouw op mijn tempo in familie.",
+        "es": "Confío en mi ritmo en familia.",
+        "de": "Ich vertraue meinem Tempo in familie.",
+        "it": "Mi fido del mio ritmo in famiglia.",
+        "ru": "Я доверяю своему темпу в теме «семья».",
+        "id": "Saya percaya pada ritme saya dalam keluarga.",
+        "ja": "家族での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในครอบครัว",
+        "ms": "Saya percaya pada rentak saya dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for family to grow naturally.",
+        "tr": "aile için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que famille grandisse naturellement.",
+        "pt": "Abro espaço para família crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat familie natuurlijk kan groeien.",
+        "es": "Hago espacio para que familia crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit familie natürlich wachsen kann.",
+        "it": "Creo spazio perché famiglia cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «семья» происходил естественно.",
+        "id": "Saya memberi ruang agar keluarga tumbuh secara alami.",
+        "ja": "家族が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ครอบครัวเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar keluarga berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in family.",
+        "tr": "Bugün aile konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en famille.",
+        "pt": "Hoje, dou um passo claro em família.",
+        "nl": "Vandaag zet ik één duidelijke stap in familie.",
+        "es": "Hoy doy un paso claro en familia.",
+        "de": "Heute mache ich einen klaren Schritt in familie.",
+        "it": "Oggi faccio un passo chiaro in famiglia.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «семья».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam keluarga.",
+        "ja": "今日は家族で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในครอบครัว",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with family.",
+        "tr": "aile konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec famille.",
+        "pt": "Sou paciente e presente com família.",
+        "nl": "Ik ben geduldig en aanwezig met familie.",
+        "es": "Soy paciente y presente con familia.",
+        "de": "Ich bin geduldig und präsent mit familie.",
+        "it": "Sono paziente e presente con famiglia.",
+        "ru": "Я терпелив(а) и присутствую в теме «семья».",
+        "id": "Saya sabar dan hadir bersama keluarga.",
+        "ja": "家族に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับครอบครัวอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in family.",
+        "tr": "aile konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans famille, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em família, eu me concentro no que posso controlar.",
+        "nl": "In familie richt ik me op wat ik kan controleren.",
+        "es": "En familia, me enfoco en lo que puedo controlar.",
+        "de": "In familie konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In famiglia, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «семья» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam keluarga, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "家族では、コントロールできることに意識を向ける。",
+        "th": "ในครอบครัว ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam keluarga, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow family to be simple and sincere.",
+        "tr": "aile konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à famille d'être simple et sincère.",
+        "pt": "Eu permito que família seja simples e verdadeiro.",
+        "nl": "Ik laat familie eenvoudig en oprecht zijn.",
+        "es": "Permito que familia sea simple y auténtico.",
+        "de": "Ich erlaube familie, einfach und aufrichtig zu sein.",
+        "it": "Permetto a famiglia di essere semplice e autentico.",
+        "ru": "Я позволяю теме «семья» быть простой и искренней.",
+        "id": "Aku membiarkan keluarga tetap sederhana dan tulus.",
+        "ja": "家族はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ครอบครัวเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan keluarga menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in family today.",
+        "tr": "Bugün aile konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en famille.",
+        "pt": "Hoje, noto uma pequena vitória em família.",
+        "nl": "Vandaag zie ik een kleine overwinning in familie.",
+        "es": "Hoy noto una pequeña victoria en familia.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in familie.",
+        "it": "Oggi noto una piccola vittoria in famiglia.",
+        "ru": "Сегодня в теме «семья» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam keluarga.",
+        "ja": "今日、家族で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในครอบครัว",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in family.",
+        "tr": "aile konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans famille.",
+        "pt": "Eu respeito meus limites enquanto avanço em família.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in familie.",
+        "es": "Honro mis límites mientras avanzo en familia.",
+        "de": "Ich achte auf meine Grenzen, während ich in familie vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in famiglia.",
+        "ru": "В теме «семья» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam keluarga.",
+        "ja": "家族で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในครอบครัว",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in family.",
+        "tr": "aile konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en famille.",
+        "pt": "Deixo a curiosidade guiar meus passos em família.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in familie.",
+        "es": "Dejo que la curiosidad guíe mis pasos en familia.",
+        "de": "Ich lasse Neugier meine Schritte in familie lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in famiglia.",
+        "ru": "В теме «семья» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam keluarga.",
+        "ja": "家族では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในครอบครัว",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in family.",
+        "tr": "aile konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en famille.",
+        "pt": "Eu escolho clareza em vez de urgência em família.",
+        "nl": "Ik kies helderheid boven haast in familie.",
+        "es": "Elijo claridad en lugar de urgencia en familia.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in familie.",
+        "it": "Scelgo chiarezza invece di urgenza in famiglia.",
+        "ru": "В теме «семья» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam keluarga.",
+        "ja": "家族では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในครอบครัว",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep family gentle and consistent.",
+        "tr": "aile konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde famille avec douceur et constance.",
+        "pt": "Mantenho família com suavidade e constância.",
+        "nl": "Ik houd familie zacht en consistent.",
+        "es": "Mantengo familia suave y constante.",
+        "de": "Ich halte familie sanft und beständig.",
+        "it": "Mantengo famiglia con dolcezza e costanza.",
+        "ru": "В теме «семья» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga keluarga tetap lembut dan konsisten.",
+        "ja": "家族を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ครอบครัวอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan keluarga dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what family needs from me right now.",
+        "tr": "Şu anda aile konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que famille a besoin de moi maintenant.",
+        "pt": "Eu escuto o que família precisa de mim agora.",
+        "nl": "Ik luister naar wat familie nu van mij nodig heeft.",
+        "es": "Escucho lo que familia necesita de mí ahora.",
+        "de": "Ich höre darauf, was familie jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui famiglia ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «семья» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang keluarga butuhkan dariku sekarang.",
+        "ja": "今、家族が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าครอบครัวต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang keluarga perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in family compounds.",
+        "tr": "aile konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en famille.",
+        "pt": "Confio que o esforço constante em família se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in familie zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en familia se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in familie sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in famiglia si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «семья» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam keluarga berakumulasi.",
+        "ja": "家族での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในครอบครัวจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam keluarga terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "family_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into family.",
+        "tr": "aile konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans famille.",
+        "pt": "Eu acolho leveza e foco em família.",
+        "nl": "Ik verwelkom gemak en focus in familie.",
+        "es": "Doy la bienvenida a la calma y el enfoque en familia.",
+        "de": "Ich heiße Leichtigkeit und Fokus in familie willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in famiglia.",
+        "ru": "В теме «семья» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam keluarga.",
+        "ja": "家族に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในครอบครัว",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam keluarga."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "family",
+      "tags": {
+        "en": [
+          "family",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "aile",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "famille",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "família",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "familie",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "familia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "familie",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "famiglia",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "семья",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "家族",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ครอบครัว",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "keluarga",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

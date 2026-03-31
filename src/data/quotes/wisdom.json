@@ -20684,19 +20684,19 @@
       "id": "wisdom_218",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, the first version can be rough; the second is where the truth appears.",
-        "tr": "bilgelik konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En sagesse, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em sabedoria, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij wijsheid kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En sabiduría, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei weisheit kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In saggezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть мудрость, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kebijaksanaan, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "知恵では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ปัญญา เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kebijaksanaan, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"wisdom\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"bilgelik\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"sagesse\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sabedoria\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"wijsheid\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"sabiduría\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"weisheit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"saggezza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мудрость», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kebijaksanaan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「知恵」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kebijaksanaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -21233,19 +21233,19 @@
       "id": "wisdom_221",
       "type": "quote",
       "texts": {
-        "en": "wisdom moves faster when your grip is open.",
-        "tr": "bilgelik, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "sagesse avance plus vite quand ta prise est ouverte.",
-        "pt": "sabedoria anda mais rápido quando sua pegada está aberta.",
-        "nl": "wijsheid beweegt sneller als je greep open is.",
-        "es": "sabiduría avanza más rápido cuando tu agarre está abierto.",
-        "de": "weisheit bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "saggezza si muove più veloce quando la tua presa è aperta.",
-        "ru": "мудрость движется быстрее, когда хватка открыта.",
-        "id": "kebijaksanaan bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "知恵は、握りしめないときに速く進む。",
-        "th": "ปัญญา ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kebijaksanaan bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, wisdom moves faster.",
+        "tr": "Tutuşunu gevşettiğinde bilgelik daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, sagesse avance plus vite.",
+        "pt": "Quando você solta o aperto, sabedoria anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat wijsheid sneller.",
+        "es": "Cuando sueltas el agarre, sabiduría avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt weisheit schneller voran.",
+        "it": "Quando allenti la presa, saggezza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мудрость движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kebijaksanaan melaju lebih cepat.",
+        "ja": "握りを緩めると、知恵は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ปัญญาเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kebijaksanaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -21335,79 +21335,79 @@
         "en": {
           "id": "story_wisdom_221_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for wisdom, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_wisdom_221_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "bilgelik planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_wisdom_221_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour sagesse, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_wisdom_221_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para sabedoria, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_wisdom_221_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor wijsheid losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_wisdom_221_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para sabiduría, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_wisdom_221_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für weisheit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_wisdom_221_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per saggezza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_wisdom_221_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для мудрость, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_wisdom_221_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kebijaksanaan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_wisdom_221_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "知恵の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_wisdom_221_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับปัญญา ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_wisdom_221_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kebijaksanaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -21416,19 +21416,19 @@
       "id": "wisdom_222",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, the quiet signal is often the true one.",
-        "tr": "bilgelik konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En sagesse, le signal discret est souvent le vrai.",
-        "pt": "Em sabedoria, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij wijsheid is het stille signaal vaak het echte.",
-        "es": "En sabiduría, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei weisheit ist das leise Signal oft das wahre.",
-        "it": "In saggezza, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть мудрость, тихий сигнал часто самый верный.",
-        "id": "Dalam kebijaksanaan, sinyal yang tenang sering kali yang benar.",
-        "ja": "知恵では、静かな合図が本当であることが多い。",
-        "th": "ใน ปัญญา สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kebijaksanaan, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"wisdom\", the quiet signal is often the true one.",
+        "tr": "Konu \"bilgelik\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"sagesse\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sabedoria\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"wijsheid\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"sabiduría\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"weisheit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"saggezza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мудрость», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kebijaksanaan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「知恵」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kebijaksanaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -22148,19 +22148,19 @@
       "id": "wisdom_226",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, returning is part of the path, not a failure.",
-        "tr": "bilgelik içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En sagesse, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em sabedoria, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij wijsheid is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En sabiduría, volver es parte del camino, no un fracaso.",
-        "de": "Bei weisheit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In saggezza, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть мудрость, возвращение — часть пути, а не провал.",
-        "id": "Dalam kebijaksanaan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "知恵では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ปัญญา การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kebijaksanaan, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"wisdom\", returning is part of the path, not a failure.",
+        "tr": "Konu \"bilgelik\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"sagesse\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sabedoria\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"wijsheid\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"sabiduría\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"weisheit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"saggezza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мудрость», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kebijaksanaan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「知恵」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kebijaksanaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -22250,79 +22250,79 @@
         "en": {
           "id": "story_wisdom_226_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"wisdom\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_wisdom_226_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"bilgelik\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_wisdom_226_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"sagesse\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_wisdom_226_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"sabedoria\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_wisdom_226_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"wijsheid\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_wisdom_226_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"sabiduría\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_wisdom_226_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"weisheit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_wisdom_226_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"saggezza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_wisdom_226_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «мудрость» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_wisdom_226_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kebijaksanaan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_wisdom_226_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「知恵」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_wisdom_226_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ปัญญา\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_wisdom_226_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kebijaksanaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -22514,19 +22514,19 @@
       "id": "wisdom_228",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, the first version can be rough; the second is where the truth appears.",
-        "tr": "bilgelik konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans sagesse, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em sabedoria, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In wijsheid kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En sabiduría, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In weisheit kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In saggezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "мудрость иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kebijaksanaan, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "知恵では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในปัญญา เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kebijaksanaan, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"wisdom\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"bilgelik\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"sagesse\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"sabedoria\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"wijsheid\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"sabiduría\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"weisheit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"saggezza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мудрость», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kebijaksanaan\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「知恵」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kebijaksanaan\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -23063,19 +23063,19 @@
       "id": "wisdom_231",
       "type": "quote",
       "texts": {
-        "en": "wisdom moves faster when your grip is open.",
-        "tr": "bilgelik, elin gevşekken daha hızlı ilerler.",
-        "fr": "sagesse avance plus vite quand la prise est ouverte.",
-        "pt": "sabedoria anda mais rápido quando o aperto é aberto.",
-        "nl": "wijsheid gaat sneller als je grip open is.",
-        "es": "sabiduría avanza más rápido cuando el agarre está abierto.",
-        "de": "weisheit kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "saggezza procede più veloce quando la presa è aperta.",
-        "ru": "мудрость движется быстрее, когда хватка открыта.",
-        "id": "kebijaksanaan melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "知恵は、握りが開いているときに進みが速い。",
-        "th": "ปัญญาเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kebijaksanaan bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, wisdom moves faster.",
+        "tr": "Tutuşunu gevşettiğinde bilgelik daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, sagesse avance plus vite.",
+        "pt": "Quando você solta o aperto, sabedoria anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat wijsheid sneller.",
+        "es": "Cuando sueltas el agarre, sabiduría avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt weisheit schneller voran.",
+        "it": "Quando allenti la presa, saggezza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мудрость движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kebijaksanaan melaju lebih cepat.",
+        "ja": "握りを緩めると、知恵は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ปัญญาเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kebijaksanaan bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -23165,79 +23165,79 @@
         "en": {
           "id": "story_wisdom_231_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the wisdom schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for wisdom, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_wisdom_231_tr",
           "title": "Açık El",
-          "content": "bilgelik takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "bilgelik planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_wisdom_231_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de sagesse, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour sagesse, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_wisdom_231_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de sabedoria, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para sabedoria, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_wisdom_231_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het wijsheid-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor wijsheid losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_wisdom_231_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de sabiduría, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para sabiduría, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_wisdom_231_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am weisheit-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für weisheit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_wisdom_231_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di saggezza, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per saggezza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_wisdom_231_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании мудрость, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для мудрость, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_wisdom_231_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kebijaksanaan, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kebijaksanaan, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_wisdom_231_ja",
           "title": "開いた手",
-          "content": "知恵の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "知恵の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_wisdom_231_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางปัญญา ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับปัญญา ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_wisdom_231_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kebijaksanaan, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kebijaksanaan, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23246,19 +23246,19 @@
       "id": "wisdom_232",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, the quiet signal is often the true one.",
-        "tr": "bilgelik içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans sagesse, le signal discret est souvent le vrai.",
-        "pt": "Em sabedoria, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In wijsheid is het stille signaal vaak het echte.",
-        "es": "En sabiduría, la señal silenciosa suele ser la verdadera.",
-        "de": "In weisheit ist das leise Signal oft das wahre.",
-        "it": "In saggezza, il segnale silenzioso è spesso quello vero.",
-        "ru": "В мудрость тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kebijaksanaan, sinyal yang sunyi sering kali yang benar.",
-        "ja": "知恵では、静かな合図が本当であることが多い。",
-        "th": "ในปัญญา สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kebijaksanaan, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"wisdom\", the quiet signal is often the true one.",
+        "tr": "Konu \"bilgelik\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"sagesse\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"sabedoria\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"wijsheid\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"sabiduría\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"weisheit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"saggezza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мудрость», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kebijaksanaan\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「知恵」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kebijaksanaan\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -23978,19 +23978,19 @@
       "id": "wisdom_236",
       "type": "quote",
       "texts": {
-        "en": "In wisdom, returning is part of the path, not a failure.",
-        "tr": "bilgelik içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans sagesse, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em sabedoria, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In wijsheid is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En sabiduría, volver es parte del camino, no un fracaso.",
-        "de": "In weisheit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In saggezza, tornare è parte del percorso, non un fallimento.",
-        "ru": "В мудрость возвращение — часть пути, а не провал.",
-        "id": "Dalam kebijaksanaan, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "知恵では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในปัญญา การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kebijaksanaan, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"wisdom\", returning is part of the path, not a failure.",
+        "tr": "Konu \"bilgelik\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"sagesse\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"sabedoria\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"wijsheid\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"sabiduría\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"weisheit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"saggezza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мудрость», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kebijaksanaan\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「知恵」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ปัญญา\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kebijaksanaan\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -24080,79 +24080,79 @@
         "en": {
           "id": "story_wisdom_236_en",
           "title": "The Return",
-          "content": "After a missed week in wisdom, she came back and the line continued.",
+          "content": "After a week without \"wisdom\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_wisdom_236_tr",
           "title": "Dönüş",
-          "content": "bilgelik içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"bilgelik\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_wisdom_236_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en sagesse, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"sagesse\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_wisdom_236_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em sabedoria, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"sabedoria\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_wisdom_236_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in wijsheid kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"wijsheid\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_wisdom_236_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en sabiduría, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"sabiduría\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_wisdom_236_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in weisheit kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"weisheit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_wisdom_236_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in saggezza, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"saggezza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_wisdom_236_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в мудрость она вернулась, и линия продолжилась.",
+          "content": "В теме «мудрость» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_wisdom_236_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kebijaksanaan, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kebijaksanaan\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_wisdom_236_ja",
           "title": "帰り道",
-          "content": "知恵を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「知恵」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_wisdom_236_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในปัญญา เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ปัญญา\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_wisdom_236_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kebijaksanaan, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kebijaksanaan\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24339,6 +24339,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "wisdom_238",
+      "type": "affirmation",
+      "texts": {
+        "en": "In wisdom, I take small, steady steps.",
+        "tr": "bilgelik konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans sagesse, je fais de petits pas réguliers.",
+        "pt": "Em sabedoria, dou passos pequenos e constantes.",
+        "nl": "In wijsheid zet ik kleine, gestage stappen.",
+        "es": "En sabiduría, doy pasos pequeños y constantes.",
+        "de": "In weisheit gehe ich kleine, stetige Schritte.",
+        "it": "In saggezza, faccio passi piccoli e costanti.",
+        "ru": "В теме «мудрость» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kebijaksanaan, saya melangkah kecil dan konsisten.",
+        "ja": "知恵では、小さく着実な一歩を重ねる。",
+        "th": "ในปัญญา ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kebijaksanaan, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_239",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to wisdom today.",
+        "tr": "Bugün bilgelik için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à sagesse aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para sabedoria.",
+        "nl": "Vandaag breng ik kalmte en helderheid in wijsheid.",
+        "es": "Hoy llevo calma y claridad a sabiduría.",
+        "de": "Heute bringe ich Ruhe und Klarheit in weisheit.",
+        "it": "Oggi porto calma e chiarezza a saggezza.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «мудрость».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kebijaksanaan.",
+        "ja": "今日は知恵に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ปัญญา",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_240",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give wisdom my full attention without pressure.",
+        "tr": "bilgelik için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à sagesse sans pression.",
+        "pt": "Dou a sabedoria minha atenção total sem pressão.",
+        "nl": "Ik geef wijsheid mijn volle aandacht zonder druk.",
+        "es": "Doy a sabiduría toda mi atención sin presión.",
+        "de": "Ich schenke weisheit meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a saggezza tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «мудрость» всё своё внимание без давления.",
+        "id": "Saya memberi kebijaksanaan perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく知恵に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับปัญญาโดยไม่กดดัน",
+        "ms": "Saya memberi kebijaksanaan perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_241",
+      "type": "affirmation",
+      "texts": {
+        "en": "In wisdom, I choose progress over perfection.",
+        "tr": "bilgelik konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans sagesse, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em sabedoria, escolho progresso em vez de perfeição.",
+        "nl": "In wijsheid kies ik voor vooruitgang boven perfectie.",
+        "es": "En sabiduría, elijo el progreso por encima de la perfección.",
+        "de": "In weisheit wähle ich Fortschritt statt Perfektion.",
+        "it": "In saggezza, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «мудрость» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kebijaksanaan, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "知恵では、完璧より前進を選ぶ。",
+        "th": "ในปัญญา ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kebijaksanaan, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_242",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to wisdom gently.",
+        "tr": "Dağılırsam bilgelike nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à sagesse avec douceur.",
+        "pt": "Se eu me dispersar, volto a sabedoria com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar wijsheid.",
+        "es": "Si me disperso, vuelvo a sabiduría con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu weisheit zurück.",
+        "it": "Se mi disperdo, torno a saggezza con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «мудрость».",
+        "id": "Jika saya teralihkan, saya kembali ke kebijaksanaan dengan lembut.",
+        "ja": "迷ったら、やさしく知恵に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาปัญญาอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kebijaksanaan dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_243",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in wisdom align with my values.",
+        "tr": "bilgelik konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en sagesse sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em sabedoria estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in wijsheid sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en sabiduría están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in weisheit passen zu meinen Werten.",
+        "it": "Le mie scelte in saggezza sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «мудрость» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kebijaksanaan selaras dengan nilai-nilai saya.",
+        "ja": "知恵での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในปัญญาสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kebijaksanaan selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_244",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in wisdom.",
+        "tr": "bilgelik konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en sagesse.",
+        "pt": "Confio no meu ritmo em sabedoria.",
+        "nl": "Ik vertrouw op mijn tempo in wijsheid.",
+        "es": "Confío en mi ritmo en sabiduría.",
+        "de": "Ich vertraue meinem Tempo in weisheit.",
+        "it": "Mi fido del mio ritmo in saggezza.",
+        "ru": "Я доверяю своему темпу в теме «мудрость».",
+        "id": "Saya percaya pada ritme saya dalam kebijaksanaan.",
+        "ja": "知恵での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในปัญญา",
+        "ms": "Saya percaya pada rentak saya dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_245",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for wisdom to grow naturally.",
+        "tr": "bilgelik için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que sagesse grandisse naturellement.",
+        "pt": "Abro espaço para sabedoria crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat wijsheid natuurlijk kan groeien.",
+        "es": "Hago espacio para que sabiduría crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit weisheit natürlich wachsen kann.",
+        "it": "Creo spazio perché saggezza cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «мудрость» происходил естественно.",
+        "id": "Saya memberi ruang agar kebijaksanaan tumbuh secara alami.",
+        "ja": "知恵が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ปัญญาเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kebijaksanaan berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_246",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in wisdom.",
+        "tr": "Bugün bilgelik konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en sagesse.",
+        "pt": "Hoje, dou um passo claro em sabedoria.",
+        "nl": "Vandaag zet ik één duidelijke stap in wijsheid.",
+        "es": "Hoy doy un paso claro en sabiduría.",
+        "de": "Heute mache ich einen klaren Schritt in weisheit.",
+        "it": "Oggi faccio un passo chiaro in saggezza.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «мудрость».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kebijaksanaan.",
+        "ja": "今日は知恵で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในปัญญา",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_247",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with wisdom.",
+        "tr": "bilgelik konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec sagesse.",
+        "pt": "Sou paciente e presente com sabedoria.",
+        "nl": "Ik ben geduldig en aanwezig met wijsheid.",
+        "es": "Soy paciente y presente con sabiduría.",
+        "de": "Ich bin geduldig und präsent mit weisheit.",
+        "it": "Sono paziente e presente con saggezza.",
+        "ru": "Я терпелив(а) и присутствую в теме «мудрость».",
+        "id": "Saya sabar dan hadir bersama kebijaksanaan.",
+        "ja": "知恵に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับปัญญาอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_248",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in wisdom.",
+        "tr": "bilgelik konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans sagesse, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em sabedoria, eu me concentro no que posso controlar.",
+        "nl": "In wijsheid richt ik me op wat ik kan controleren.",
+        "es": "En sabiduría, me enfoco en lo que puedo controlar.",
+        "de": "In weisheit konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In saggezza, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «мудрость» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kebijaksanaan, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "知恵では、コントロールできることに意識を向ける。",
+        "th": "ในปัญญา ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kebijaksanaan, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_249",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow wisdom to be simple and sincere.",
+        "tr": "bilgelik konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à sagesse d'être simple et sincère.",
+        "pt": "Eu permito que sabedoria seja simples e verdadeiro.",
+        "nl": "Ik laat wijsheid eenvoudig en oprecht zijn.",
+        "es": "Permito que sabiduría sea simple y auténtico.",
+        "de": "Ich erlaube weisheit, einfach und aufrichtig zu sein.",
+        "it": "Permetto a saggezza di essere semplice e autentico.",
+        "ru": "Я позволяю теме «мудрость» быть простой и искренней.",
+        "id": "Aku membiarkan kebijaksanaan tetap sederhana dan tulus.",
+        "ja": "知恵はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ปัญญาเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kebijaksanaan menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_250",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in wisdom today.",
+        "tr": "Bugün bilgelik konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en sagesse.",
+        "pt": "Hoje, noto uma pequena vitória em sabedoria.",
+        "nl": "Vandaag zie ik een kleine overwinning in wijsheid.",
+        "es": "Hoy noto una pequeña victoria en sabiduría.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in weisheit.",
+        "it": "Oggi noto una piccola vittoria in saggezza.",
+        "ru": "Сегодня в теме «мудрость» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kebijaksanaan.",
+        "ja": "今日、知恵で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในปัญญา",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_251",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in wisdom.",
+        "tr": "bilgelik konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans sagesse.",
+        "pt": "Eu respeito meus limites enquanto avanço em sabedoria.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in wijsheid.",
+        "es": "Honro mis límites mientras avanzo en sabiduría.",
+        "de": "Ich achte auf meine Grenzen, während ich in weisheit vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in saggezza.",
+        "ru": "В теме «мудрость» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kebijaksanaan.",
+        "ja": "知恵で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในปัญญา",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_252",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in wisdom.",
+        "tr": "bilgelik konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en sagesse.",
+        "pt": "Deixo a curiosidade guiar meus passos em sabedoria.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in wijsheid.",
+        "es": "Dejo que la curiosidad guíe mis pasos en sabiduría.",
+        "de": "Ich lasse Neugier meine Schritte in weisheit lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in saggezza.",
+        "ru": "В теме «мудрость» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kebijaksanaan.",
+        "ja": "知恵では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในปัญญา",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_253",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in wisdom.",
+        "tr": "bilgelik konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en sagesse.",
+        "pt": "Eu escolho clareza em vez de urgência em sabedoria.",
+        "nl": "Ik kies helderheid boven haast in wijsheid.",
+        "es": "Elijo claridad en lugar de urgencia en sabiduría.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in weisheit.",
+        "it": "Scelgo chiarezza invece di urgenza in saggezza.",
+        "ru": "В теме «мудрость» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kebijaksanaan.",
+        "ja": "知恵では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในปัญญา",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_254",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep wisdom gentle and consistent.",
+        "tr": "bilgelik konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde sagesse avec douceur et constance.",
+        "pt": "Mantenho sabedoria com suavidade e constância.",
+        "nl": "Ik houd wijsheid zacht en consistent.",
+        "es": "Mantengo sabiduría suave y constante.",
+        "de": "Ich halte weisheit sanft und beständig.",
+        "it": "Mantengo saggezza con dolcezza e costanza.",
+        "ru": "В теме «мудрость» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kebijaksanaan tetap lembut dan konsisten.",
+        "ja": "知恵を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ปัญญาอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kebijaksanaan dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_255",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what wisdom needs from me right now.",
+        "tr": "Şu anda bilgelik konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que sagesse a besoin de moi maintenant.",
+        "pt": "Eu escuto o que sabedoria precisa de mim agora.",
+        "nl": "Ik luister naar wat wijsheid nu van mij nodig heeft.",
+        "es": "Escucho lo que sabiduría necesita de mí ahora.",
+        "de": "Ich höre darauf, was weisheit jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui saggezza ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «мудрость» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kebijaksanaan butuhkan dariku sekarang.",
+        "ja": "今、知恵が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าปัญญาต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kebijaksanaan perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_256",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in wisdom compounds.",
+        "tr": "bilgelik konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en sagesse.",
+        "pt": "Confio que o esforço constante em sabedoria se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in wijsheid zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en sabiduría se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in weisheit sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in saggezza si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «мудрость» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kebijaksanaan berakumulasi.",
+        "ja": "知恵での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในปัญญาจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kebijaksanaan terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "wisdom_257",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into wisdom.",
+        "tr": "bilgelik konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans sagesse.",
+        "pt": "Eu acolho leveza e foco em sabedoria.",
+        "nl": "Ik verwelkom gemak en focus in wijsheid.",
+        "es": "Doy la bienvenida a la calma y el enfoque en sabiduría.",
+        "de": "Ich heiße Leichtigkeit und Fokus in weisheit willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in saggezza.",
+        "ru": "В теме «мудрость» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kebijaksanaan.",
+        "ja": "知恵に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในปัญญา",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kebijaksanaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "wisdom",
+      "tags": {
+        "en": [
+          "wisdom",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "bilgelik",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "sagesse",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "sabedoria",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "wijsheid",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "sabiduría",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "weisheit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "saggezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мудрость",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "知恵",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ปัญญา",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kebijaksanaan",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

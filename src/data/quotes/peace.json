@@ -15368,19 +15368,19 @@
       "id": "peace_199",
       "type": "quote",
       "texts": {
-        "en": "In peace, the first version can be rough; the second is where the truth appears.",
-        "tr": "barış konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En paix, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em paz, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij vrede kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En paz, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei frieden kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In pace, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть мир, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kedamaian, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "平和では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน สันติภาพ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kedamaian, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"peace\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"barış\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"paix\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"paz\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"vrede\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"paz\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"frieden\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"pace\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мир», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kedamaian\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「平和」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kedamaian\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -15917,19 +15917,19 @@
       "id": "peace_202",
       "type": "quote",
       "texts": {
-        "en": "peace moves faster when your grip is open.",
-        "tr": "barış, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "paix avance plus vite quand ta prise est ouverte.",
-        "pt": "paz anda mais rápido quando sua pegada está aberta.",
-        "nl": "vrede beweegt sneller als je greep open is.",
-        "es": "paz avanza más rápido cuando tu agarre está abierto.",
-        "de": "frieden bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "pace si muove più veloce quando la tua presa è aperta.",
-        "ru": "мир движется быстрее, когда хватка открыта.",
-        "id": "kedamaian bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "平和は、握りしめないときに速く進む。",
-        "th": "สันติภาพ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kedamaian bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, peace moves faster.",
+        "tr": "Tutuşunu gevşettiğinde barış daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, paix avance plus vite.",
+        "pt": "Quando você solta o aperto, paz anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat vrede sneller.",
+        "es": "Cuando sueltas el agarre, paz avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt frieden schneller voran.",
+        "it": "Quando allenti la presa, pace procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мир движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kedamaian melaju lebih cepat.",
+        "ja": "握りを緩めると、平和は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด สันติภาพเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kedamaian bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -16019,79 +16019,79 @@
         "en": {
           "id": "story_peace_202_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for peace, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_peace_202_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "barış planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_peace_202_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour paix, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_peace_202_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para paz, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_peace_202_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor vrede losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_peace_202_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para paz, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_peace_202_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für frieden lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_peace_202_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per pace, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_peace_202_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для мир, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_peace_202_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kedamaian, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_peace_202_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "平和の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_peace_202_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับสันติภาพ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_peace_202_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kedamaian, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -16100,19 +16100,19 @@
       "id": "peace_203",
       "type": "quote",
       "texts": {
-        "en": "In peace, the quiet signal is often the true one.",
-        "tr": "barış konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En paix, le signal discret est souvent le vrai.",
-        "pt": "Em paz, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij vrede is het stille signaal vaak het echte.",
-        "es": "En paz, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei frieden ist das leise Signal oft das wahre.",
-        "it": "In pace, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть мир, тихий сигнал часто самый верный.",
-        "id": "Dalam kedamaian, sinyal yang tenang sering kali yang benar.",
-        "ja": "平和では、静かな合図が本当であることが多い。",
-        "th": "ใน สันติภาพ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kedamaian, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"peace\", the quiet signal is often the true one.",
+        "tr": "Konu \"barış\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"paix\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"paz\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"vrede\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"paz\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"frieden\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"pace\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мир», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kedamaian\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「平和」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kedamaian\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -16832,19 +16832,19 @@
       "id": "peace_207",
       "type": "quote",
       "texts": {
-        "en": "In peace, returning is part of the path, not a failure.",
-        "tr": "barış içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En paix, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em paz, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij vrede is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En paz, volver es parte del camino, no un fracaso.",
-        "de": "Bei frieden ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In pace, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть мир, возвращение — часть пути, а не провал.",
-        "id": "Dalam kedamaian, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "平和では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน สันติภาพ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kedamaian, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"peace\", returning is part of the path, not a failure.",
+        "tr": "Konu \"barış\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"paix\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"paz\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"vrede\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"paz\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"frieden\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"pace\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мир», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kedamaian\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「平和」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kedamaian\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -16934,79 +16934,79 @@
         "en": {
           "id": "story_peace_207_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"peace\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_peace_207_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"barış\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_peace_207_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"paix\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_peace_207_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"paz\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_peace_207_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"vrede\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_peace_207_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"paz\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_peace_207_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"frieden\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_peace_207_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"pace\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_peace_207_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «мир» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_peace_207_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kedamaian\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_peace_207_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「平和」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_peace_207_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"สันติภาพ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_peace_207_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kedamaian\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -17198,19 +17198,19 @@
       "id": "peace_209",
       "type": "quote",
       "texts": {
-        "en": "In peace, the first version can be rough; the second is where the truth appears.",
-        "tr": "barış konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans paix, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em paz, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In vrede kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En paz, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In frieden kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In pace, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "мир иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kedamaian, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "平和では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในสันติภาพ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kedamaian, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"peace\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"barış\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"paix\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"paz\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"vrede\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"paz\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"frieden\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"pace\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «мир», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kedamaian\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「平和」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kedamaian\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -17747,19 +17747,19 @@
       "id": "peace_212",
       "type": "quote",
       "texts": {
-        "en": "peace moves faster when your grip is open.",
-        "tr": "barış, elin gevşekken daha hızlı ilerler.",
-        "fr": "paix avance plus vite quand la prise est ouverte.",
-        "pt": "paz anda mais rápido quando o aperto é aberto.",
-        "nl": "vrede gaat sneller als je grip open is.",
-        "es": "paz avanza más rápido cuando el agarre está abierto.",
-        "de": "frieden kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "pace procede più veloce quando la presa è aperta.",
-        "ru": "мир движется быстрее, когда хватка открыта.",
-        "id": "kedamaian melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "平和は、握りが開いているときに進みが速い。",
-        "th": "สันติภาพเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kedamaian bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, peace moves faster.",
+        "tr": "Tutuşunu gevşettiğinde barış daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, paix avance plus vite.",
+        "pt": "Quando você solta o aperto, paz anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat vrede sneller.",
+        "es": "Cuando sueltas el agarre, paz avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt frieden schneller voran.",
+        "it": "Quando allenti la presa, pace procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, мир движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kedamaian melaju lebih cepat.",
+        "ja": "握りを緩めると、平和は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด สันติภาพเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kedamaian bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -17849,79 +17849,79 @@
         "en": {
           "id": "story_peace_212_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the peace schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for peace, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_peace_212_tr",
           "title": "Açık El",
-          "content": "barış takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "barış planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_peace_212_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de paix, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour paix, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_peace_212_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de paz, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para paz, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_peace_212_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het vrede-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor vrede losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_peace_212_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de paz, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para paz, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_peace_212_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am frieden-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für frieden lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_peace_212_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di pace, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per pace, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_peace_212_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании мир, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для мир, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_peace_212_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kedamaian, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kedamaian, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_peace_212_ja",
           "title": "開いた手",
-          "content": "平和の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "平和の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_peace_212_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางสันติภาพ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับสันติภาพ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_peace_212_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kedamaian, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kedamaian, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -17930,19 +17930,19 @@
       "id": "peace_213",
       "type": "quote",
       "texts": {
-        "en": "In peace, the quiet signal is often the true one.",
-        "tr": "barış içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans paix, le signal discret est souvent le vrai.",
-        "pt": "Em paz, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In vrede is het stille signaal vaak het echte.",
-        "es": "En paz, la señal silenciosa suele ser la verdadera.",
-        "de": "In frieden ist das leise Signal oft das wahre.",
-        "it": "In pace, il segnale silenzioso è spesso quello vero.",
-        "ru": "В мир тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kedamaian, sinyal yang sunyi sering kali yang benar.",
-        "ja": "平和では、静かな合図が本当であることが多い。",
-        "th": "ในสันติภาพ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kedamaian, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"peace\", the quiet signal is often the true one.",
+        "tr": "Konu \"barış\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"paix\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"paz\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"vrede\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"paz\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"frieden\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"pace\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «мир», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kedamaian\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「平和」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kedamaian\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -18662,19 +18662,19 @@
       "id": "peace_217",
       "type": "quote",
       "texts": {
-        "en": "In peace, returning is part of the path, not a failure.",
-        "tr": "barış içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans paix, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em paz, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In vrede is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En paz, volver es parte del camino, no un fracaso.",
-        "de": "In frieden ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In pace, tornare è parte del percorso, non un fallimento.",
-        "ru": "В мир возвращение — часть пути, а не провал.",
-        "id": "Dalam kedamaian, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "平和では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในสันติภาพ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kedamaian, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"peace\", returning is part of the path, not a failure.",
+        "tr": "Konu \"barış\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"paix\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"paz\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"vrede\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"paz\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"frieden\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"pace\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «мир», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kedamaian\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「平和」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"สันติภาพ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kedamaian\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -18764,79 +18764,79 @@
         "en": {
           "id": "story_peace_217_en",
           "title": "The Return",
-          "content": "After a missed week in peace, she came back and the line continued.",
+          "content": "After a week without \"peace\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_peace_217_tr",
           "title": "Dönüş",
-          "content": "barış içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"barış\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_peace_217_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en paix, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"paix\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_peace_217_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em paz, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"paz\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_peace_217_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in vrede kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"vrede\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_peace_217_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en paz, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"paz\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_peace_217_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in frieden kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"frieden\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_peace_217_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in pace, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"pace\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_peace_217_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в мир она вернулась, и линия продолжилась.",
+          "content": "В теме «мир» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_peace_217_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kedamaian, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kedamaian\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_peace_217_ja",
           "title": "帰り道",
-          "content": "平和を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「平和」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_peace_217_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในสันติภาพ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"สันติภาพ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_peace_217_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kedamaian, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kedamaian\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -19023,6 +19023,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "peace_219",
+      "type": "affirmation",
+      "texts": {
+        "en": "In peace, I take small, steady steps.",
+        "tr": "barış konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans paix, je fais de petits pas réguliers.",
+        "pt": "Em paz, dou passos pequenos e constantes.",
+        "nl": "In vrede zet ik kleine, gestage stappen.",
+        "es": "En paz, doy pasos pequeños y constantes.",
+        "de": "In frieden gehe ich kleine, stetige Schritte.",
+        "it": "In pace, faccio passi piccoli e costanti.",
+        "ru": "В теме «мир» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kedamaian, saya melangkah kecil dan konsisten.",
+        "ja": "平和では、小さく着実な一歩を重ねる。",
+        "th": "ในสันติภาพ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kedamaian, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_220",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to peace today.",
+        "tr": "Bugün barış için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à paix aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para paz.",
+        "nl": "Vandaag breng ik kalmte en helderheid in vrede.",
+        "es": "Hoy llevo calma y claridad a paz.",
+        "de": "Heute bringe ich Ruhe und Klarheit in frieden.",
+        "it": "Oggi porto calma e chiarezza a pace.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «мир».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kedamaian.",
+        "ja": "今日は平和に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่สันติภาพ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_221",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give peace my full attention without pressure.",
+        "tr": "barış için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à paix sans pression.",
+        "pt": "Dou a paz minha atenção total sem pressão.",
+        "nl": "Ik geef vrede mijn volle aandacht zonder druk.",
+        "es": "Doy a paz toda mi atención sin presión.",
+        "de": "Ich schenke frieden meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a pace tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «мир» всё своё внимание без давления.",
+        "id": "Saya memberi kedamaian perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく平和に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับสันติภาพโดยไม่กดดัน",
+        "ms": "Saya memberi kedamaian perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_222",
+      "type": "affirmation",
+      "texts": {
+        "en": "In peace, I choose progress over perfection.",
+        "tr": "barış konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans paix, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em paz, escolho progresso em vez de perfeição.",
+        "nl": "In vrede kies ik voor vooruitgang boven perfectie.",
+        "es": "En paz, elijo el progreso por encima de la perfección.",
+        "de": "In frieden wähle ich Fortschritt statt Perfektion.",
+        "it": "In pace, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «мир» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kedamaian, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "平和では、完璧より前進を選ぶ。",
+        "th": "ในสันติภาพ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kedamaian, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_223",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to peace gently.",
+        "tr": "Dağılırsam barışe nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à paix avec douceur.",
+        "pt": "Se eu me dispersar, volto a paz com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar vrede.",
+        "es": "Si me disperso, vuelvo a paz con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu frieden zurück.",
+        "it": "Se mi disperdo, torno a pace con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «мир».",
+        "id": "Jika saya teralihkan, saya kembali ke kedamaian dengan lembut.",
+        "ja": "迷ったら、やさしく平和に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาสันติภาพอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kedamaian dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_224",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in peace align with my values.",
+        "tr": "barış konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en paix sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em paz estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in vrede sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en paz están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in frieden passen zu meinen Werten.",
+        "it": "Le mie scelte in pace sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «мир» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kedamaian selaras dengan nilai-nilai saya.",
+        "ja": "平和での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในสันติภาพสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kedamaian selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_225",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in peace.",
+        "tr": "barış konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en paix.",
+        "pt": "Confio no meu ritmo em paz.",
+        "nl": "Ik vertrouw op mijn tempo in vrede.",
+        "es": "Confío en mi ritmo en paz.",
+        "de": "Ich vertraue meinem Tempo in frieden.",
+        "it": "Mi fido del mio ritmo in pace.",
+        "ru": "Я доверяю своему темпу в теме «мир».",
+        "id": "Saya percaya pada ritme saya dalam kedamaian.",
+        "ja": "平和での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในสันติภาพ",
+        "ms": "Saya percaya pada rentak saya dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_226",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for peace to grow naturally.",
+        "tr": "barış için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que paix grandisse naturellement.",
+        "pt": "Abro espaço para paz crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat vrede natuurlijk kan groeien.",
+        "es": "Hago espacio para que paz crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit frieden natürlich wachsen kann.",
+        "it": "Creo spazio perché pace cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «мир» происходил естественно.",
+        "id": "Saya memberi ruang agar kedamaian tumbuh secara alami.",
+        "ja": "平和が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้สันติภาพเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kedamaian berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_227",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in peace.",
+        "tr": "Bugün barış konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en paix.",
+        "pt": "Hoje, dou um passo claro em paz.",
+        "nl": "Vandaag zet ik één duidelijke stap in vrede.",
+        "es": "Hoy doy un paso claro en paz.",
+        "de": "Heute mache ich einen klaren Schritt in frieden.",
+        "it": "Oggi faccio un passo chiaro in pace.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «мир».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kedamaian.",
+        "ja": "今日は平和で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในสันติภาพ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_228",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with peace.",
+        "tr": "barış konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec paix.",
+        "pt": "Sou paciente e presente com paz.",
+        "nl": "Ik ben geduldig en aanwezig met vrede.",
+        "es": "Soy paciente y presente con paz.",
+        "de": "Ich bin geduldig und präsent mit frieden.",
+        "it": "Sono paziente e presente con pace.",
+        "ru": "Я терпелив(а) и присутствую в теме «мир».",
+        "id": "Saya sabar dan hadir bersama kedamaian.",
+        "ja": "平和に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับสันติภาพอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_229",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in peace.",
+        "tr": "barış konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans paix, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em paz, eu me concentro no que posso controlar.",
+        "nl": "In vrede richt ik me op wat ik kan controleren.",
+        "es": "En paz, me enfoco en lo que puedo controlar.",
+        "de": "In frieden konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In pace, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «мир» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kedamaian, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "平和では、コントロールできることに意識を向ける。",
+        "th": "ในสันติภาพ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kedamaian, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_230",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow peace to be simple and sincere.",
+        "tr": "barış konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à paix d'être simple et sincère.",
+        "pt": "Eu permito que paz seja simples e verdadeiro.",
+        "nl": "Ik laat vrede eenvoudig en oprecht zijn.",
+        "es": "Permito que paz sea simple y auténtico.",
+        "de": "Ich erlaube frieden, einfach und aufrichtig zu sein.",
+        "it": "Permetto a pace di essere semplice e autentico.",
+        "ru": "Я позволяю теме «мир» быть простой и искренней.",
+        "id": "Aku membiarkan kedamaian tetap sederhana dan tulus.",
+        "ja": "平和はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้สันติภาพเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kedamaian menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_231",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in peace today.",
+        "tr": "Bugün barış konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en paix.",
+        "pt": "Hoje, noto uma pequena vitória em paz.",
+        "nl": "Vandaag zie ik een kleine overwinning in vrede.",
+        "es": "Hoy noto una pequeña victoria en paz.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in frieden.",
+        "it": "Oggi noto una piccola vittoria in pace.",
+        "ru": "Сегодня в теме «мир» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kedamaian.",
+        "ja": "今日、平和で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในสันติภาพ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_232",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in peace.",
+        "tr": "barış konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans paix.",
+        "pt": "Eu respeito meus limites enquanto avanço em paz.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in vrede.",
+        "es": "Honro mis límites mientras avanzo en paz.",
+        "de": "Ich achte auf meine Grenzen, während ich in frieden vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in pace.",
+        "ru": "В теме «мир» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kedamaian.",
+        "ja": "平和で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในสันติภาพ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_233",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in peace.",
+        "tr": "barış konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en paix.",
+        "pt": "Deixo a curiosidade guiar meus passos em paz.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in vrede.",
+        "es": "Dejo que la curiosidad guíe mis pasos en paz.",
+        "de": "Ich lasse Neugier meine Schritte in frieden lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in pace.",
+        "ru": "В теме «мир» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kedamaian.",
+        "ja": "平和では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในสันติภาพ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_234",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in peace.",
+        "tr": "barış konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en paix.",
+        "pt": "Eu escolho clareza em vez de urgência em paz.",
+        "nl": "Ik kies helderheid boven haast in vrede.",
+        "es": "Elijo claridad en lugar de urgencia en paz.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in frieden.",
+        "it": "Scelgo chiarezza invece di urgenza in pace.",
+        "ru": "В теме «мир» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kedamaian.",
+        "ja": "平和では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในสันติภาพ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_235",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep peace gentle and consistent.",
+        "tr": "barış konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde paix avec douceur et constance.",
+        "pt": "Mantenho paz com suavidade e constância.",
+        "nl": "Ik houd vrede zacht en consistent.",
+        "es": "Mantengo paz suave y constante.",
+        "de": "Ich halte frieden sanft und beständig.",
+        "it": "Mantengo pace con dolcezza e costanza.",
+        "ru": "В теме «мир» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kedamaian tetap lembut dan konsisten.",
+        "ja": "平和を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้สันติภาพอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kedamaian dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_236",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what peace needs from me right now.",
+        "tr": "Şu anda barış konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que paix a besoin de moi maintenant.",
+        "pt": "Eu escuto o que paz precisa de mim agora.",
+        "nl": "Ik luister naar wat vrede nu van mij nodig heeft.",
+        "es": "Escucho lo que paz necesita de mí ahora.",
+        "de": "Ich höre darauf, was frieden jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui pace ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «мир» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kedamaian butuhkan dariku sekarang.",
+        "ja": "今、平和が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าสันติภาพต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kedamaian perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_237",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in peace compounds.",
+        "tr": "barış konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en paix.",
+        "pt": "Confio que o esforço constante em paz se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in vrede zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en paz se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in frieden sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in pace si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «мир» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kedamaian berakumulasi.",
+        "ja": "平和での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในสันติภาพจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kedamaian terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "peace_238",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into peace.",
+        "tr": "barış konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans paix.",
+        "pt": "Eu acolho leveza e foco em paz.",
+        "nl": "Ik verwelkom gemak en focus in vrede.",
+        "es": "Doy la bienvenida a la calma y el enfoque en paz.",
+        "de": "Ich heiße Leichtigkeit und Fokus in frieden willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in pace.",
+        "ru": "В теме «мир» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kedamaian.",
+        "ja": "平和に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในสันติภาพ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kedamaian."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "peace",
+      "tags": {
+        "en": [
+          "peace",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "barış",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "paix",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paz",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "vrede",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paz",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "frieden",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pace",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "мир",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "平和",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สันติภาพ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kedamaian",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

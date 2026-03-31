@@ -22350,19 +22350,19 @@
       "id": "min_238",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, the first version can be rough; the second is where the truth appears.",
-        "tr": "farkındalık konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En pleine conscience, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em atenção plena, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij mindfulness kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En atención plena, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei achtsamkeit kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In consapevolezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть осознанность, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kesadaran, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "マインドフルネスでは、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน สติ เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesedaran, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"mindfulness\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"farkındalık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"pleine conscience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"atenção plena\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"mindfulness\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"atención plena\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"consapevolezza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «осознанность», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesadaran\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「マインドフルネス」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesedaran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -22899,19 +22899,19 @@
       "id": "min_241",
       "type": "quote",
       "texts": {
-        "en": "mindfulness moves faster when your grip is open.",
-        "tr": "farkındalık, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "pleine conscience avance plus vite quand ta prise est ouverte.",
-        "pt": "atenção plena anda mais rápido quando sua pegada está aberta.",
-        "nl": "mindfulness beweegt sneller als je greep open is.",
-        "es": "atención plena avanza más rápido cuando tu agarre está abierto.",
-        "de": "achtsamkeit bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "consapevolezza si muove più veloce quando la tua presa è aperta.",
-        "ru": "осознанность движется быстрее, когда хватка открыта.",
-        "id": "kesadaran bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "マインドフルネスは、握りしめないときに速く進む。",
-        "th": "สติ ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kesedaran bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, mindfulness moves faster.",
+        "tr": "Tutuşunu gevşettiğinde farkındalık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, pleine conscience avance plus vite.",
+        "pt": "Quando você solta o aperto, atenção plena anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat mindfulness sneller.",
+        "es": "Cuando sueltas el agarre, atención plena avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt achtsamkeit schneller voran.",
+        "it": "Quando allenti la presa, consapevolezza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, осознанность движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesadaran melaju lebih cepat.",
+        "ja": "握りを緩めると、マインドフルネスは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด สติเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesedaran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -23001,79 +23001,79 @@
         "en": {
           "id": "story_min_241_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for mindfulness, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_min_241_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "farkındalık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_min_241_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour pleine conscience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_min_241_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para atenção plena, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_min_241_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor mindfulness losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_min_241_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para atención plena, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_min_241_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für achtsamkeit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_min_241_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per consapevolezza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_min_241_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для осознанность, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_min_241_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesadaran, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_min_241_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "マインドフルネスの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_min_241_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับสติ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_min_241_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesedaran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -23082,19 +23082,19 @@
       "id": "min_242",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, the quiet signal is often the true one.",
-        "tr": "farkındalık konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En pleine conscience, le signal discret est souvent le vrai.",
-        "pt": "Em atenção plena, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij mindfulness is het stille signaal vaak het echte.",
-        "es": "En atención plena, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei achtsamkeit ist das leise Signal oft das wahre.",
-        "it": "In consapevolezza, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть осознанность, тихий сигнал часто самый верный.",
-        "id": "Dalam kesadaran, sinyal yang tenang sering kali yang benar.",
-        "ja": "マインドフルネスでは、静かな合図が本当であることが多い。",
-        "th": "ใน สติ สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kesedaran, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"mindfulness\", the quiet signal is often the true one.",
+        "tr": "Konu \"farkındalık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"pleine conscience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"atenção plena\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"mindfulness\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"atención plena\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"consapevolezza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «осознанность», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesadaran\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「マインドフルネス」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesedaran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -23814,19 +23814,19 @@
       "id": "min_246",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, returning is part of the path, not a failure.",
-        "tr": "farkındalık içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En pleine conscience, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em atenção plena, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij mindfulness is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En atención plena, volver es parte del camino, no un fracaso.",
-        "de": "Bei achtsamkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In consapevolezza, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть осознанность, возвращение — часть пути, а не провал.",
-        "id": "Dalam kesadaran, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "マインドフルネスでは、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน สติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesedaran, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"mindfulness\", returning is part of the path, not a failure.",
+        "tr": "Konu \"farkındalık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"pleine conscience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"atenção plena\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"mindfulness\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"atención plena\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"consapevolezza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «осознанность», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesadaran\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「マインドフルネス」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesedaran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -23916,79 +23916,79 @@
         "en": {
           "id": "story_min_246_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"mindfulness\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_min_246_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"farkındalık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_min_246_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"pleine conscience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_min_246_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"atenção plena\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_min_246_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"mindfulness\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_min_246_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"atención plena\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_min_246_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"achtsamkeit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_min_246_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"consapevolezza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_min_246_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «осознанность» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_min_246_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kesadaran\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_min_246_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「マインドフルネス」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_min_246_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"สติ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_min_246_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesedaran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -24180,19 +24180,19 @@
       "id": "min_248",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, the first version can be rough; the second is where the truth appears.",
-        "tr": "farkındalık konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans pleine conscience, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em atenção plena, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In mindfulness kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En atención plena, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In achtsamkeit kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In consapevolezza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "осознанность иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kesadaran, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "マインドフルネスでは、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในสติ เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesedaran, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"mindfulness\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"farkındalık\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"pleine conscience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"atenção plena\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"mindfulness\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"atención plena\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"consapevolezza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «осознанность», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesadaran\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「マインドフルネス」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesedaran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -24729,19 +24729,19 @@
       "id": "min_251",
       "type": "quote",
       "texts": {
-        "en": "mindfulness moves faster when your grip is open.",
-        "tr": "farkındalık, elin gevşekken daha hızlı ilerler.",
-        "fr": "pleine conscience avance plus vite quand la prise est ouverte.",
-        "pt": "atenção plena anda mais rápido quando o aperto é aberto.",
-        "nl": "mindfulness gaat sneller als je grip open is.",
-        "es": "atención plena avanza más rápido cuando el agarre está abierto.",
-        "de": "achtsamkeit kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "consapevolezza procede più veloce quando la presa è aperta.",
-        "ru": "осознанность движется быстрее, когда хватка открыта.",
-        "id": "kesadaran melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "マインドフルネスは、握りが開いているときに進みが速い。",
-        "th": "สติเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kesedaran bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, mindfulness moves faster.",
+        "tr": "Tutuşunu gevşettiğinde farkındalık daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, pleine conscience avance plus vite.",
+        "pt": "Quando você solta o aperto, atenção plena anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat mindfulness sneller.",
+        "es": "Cuando sueltas el agarre, atención plena avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt achtsamkeit schneller voran.",
+        "it": "Quando allenti la presa, consapevolezza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, осознанность движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesadaran melaju lebih cepat.",
+        "ja": "握りを緩めると、マインドフルネスは進みが速い。",
+        "th": "เมื่อคุณคลายการยึด สติเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesedaran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -24831,79 +24831,79 @@
         "en": {
           "id": "story_min_251_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the mindfulness schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for mindfulness, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_min_251_tr",
           "title": "Açık El",
-          "content": "farkındalık takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "farkındalık planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_min_251_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de pleine conscience, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour pleine conscience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_min_251_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de atenção plena, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para atenção plena, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_min_251_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het mindfulness-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor mindfulness losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_min_251_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de atención plena, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para atención plena, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_min_251_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am achtsamkeit-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für achtsamkeit lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_min_251_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di consapevolezza, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per consapevolezza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_min_251_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании осознанность, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для осознанность, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_min_251_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kesadaran, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesadaran, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_min_251_ja",
           "title": "開いた手",
-          "content": "マインドフルネスの予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "マインドフルネスの計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_min_251_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางสติ ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับสติ ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_min_251_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kesedaran, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesedaran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24912,19 +24912,19 @@
       "id": "min_252",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, the quiet signal is often the true one.",
-        "tr": "farkındalık içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans pleine conscience, le signal discret est souvent le vrai.",
-        "pt": "Em atenção plena, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In mindfulness is het stille signaal vaak het echte.",
-        "es": "En atención plena, la señal silenciosa suele ser la verdadera.",
-        "de": "In achtsamkeit ist das leise Signal oft das wahre.",
-        "it": "In consapevolezza, il segnale silenzioso è spesso quello vero.",
-        "ru": "В осознанность тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kesadaran, sinyal yang sunyi sering kali yang benar.",
-        "ja": "マインドフルネスでは、静かな合図が本当であることが多い。",
-        "th": "ในสติ สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kesedaran, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"mindfulness\", the quiet signal is often the true one.",
+        "tr": "Konu \"farkındalık\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"pleine conscience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"atenção plena\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"mindfulness\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"atención plena\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"consapevolezza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «осознанность», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesadaran\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「マインドフルネス」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesedaran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -25644,19 +25644,19 @@
       "id": "min_256",
       "type": "quote",
       "texts": {
-        "en": "In mindfulness, returning is part of the path, not a failure.",
-        "tr": "farkındalık içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans pleine conscience, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em atenção plena, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In mindfulness is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En atención plena, volver es parte del camino, no un fracaso.",
-        "de": "In achtsamkeit ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In consapevolezza, tornare è parte del percorso, non un fallimento.",
-        "ru": "В осознанность возвращение — часть пути, а не провал.",
-        "id": "Dalam kesadaran, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "マインドフルネスでは、戻ることは道の一部であって失敗ではない。",
-        "th": "ในสติ การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesedaran, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"mindfulness\", returning is part of the path, not a failure.",
+        "tr": "Konu \"farkındalık\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"pleine conscience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"atenção plena\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"mindfulness\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"atención plena\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"achtsamkeit\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"consapevolezza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «осознанность», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesadaran\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「マインドフルネス」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"สติ\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesedaran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -25746,79 +25746,79 @@
         "en": {
           "id": "story_min_256_en",
           "title": "The Return",
-          "content": "After a missed week in mindfulness, she came back and the line continued.",
+          "content": "After a week without \"mindfulness\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_min_256_tr",
           "title": "Dönüş",
-          "content": "farkındalık içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"farkındalık\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_min_256_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en pleine conscience, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"pleine conscience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_min_256_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em atenção plena, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"atenção plena\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_min_256_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in mindfulness kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"mindfulness\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_min_256_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en atención plena, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"atención plena\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_min_256_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in achtsamkeit kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"achtsamkeit\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_min_256_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in consapevolezza, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"consapevolezza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_min_256_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в осознанность она вернулась, и линия продолжилась.",
+          "content": "В теме «осознанность» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_min_256_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kesadaran, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kesadaran\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_min_256_ja",
           "title": "帰り道",
-          "content": "マインドフルネスを一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「マインドフルネス」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_min_256_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในสติ เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"สติ\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_min_256_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kesedaran, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesedaran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -26005,6 +26005,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "min_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "In mindfulness, I take small, steady steps.",
+        "tr": "farkındalık konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans pleine conscience, je fais de petits pas réguliers.",
+        "pt": "Em atenção plena, dou passos pequenos e constantes.",
+        "nl": "In mindfulness zet ik kleine, gestage stappen.",
+        "es": "En atención plena, doy pasos pequeños y constantes.",
+        "de": "In achtsamkeit gehe ich kleine, stetige Schritte.",
+        "it": "In consapevolezza, faccio passi piccoli e costanti.",
+        "ru": "В теме «осознанность» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kesadaran, saya melangkah kecil dan konsisten.",
+        "ja": "マインドフルネスでは、小さく着実な一歩を重ねる。",
+        "th": "ในสติ ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kesedaran, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to mindfulness today.",
+        "tr": "Bugün farkındalık için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à pleine conscience aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para atenção plena.",
+        "nl": "Vandaag breng ik kalmte en helderheid in mindfulness.",
+        "es": "Hoy llevo calma y claridad a atención plena.",
+        "de": "Heute bringe ich Ruhe und Klarheit in achtsamkeit.",
+        "it": "Oggi porto calma e chiarezza a consapevolezza.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «осознанность».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kesadaran.",
+        "ja": "今日はマインドフルネスに落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่สติ",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give mindfulness my full attention without pressure.",
+        "tr": "farkındalık için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à pleine conscience sans pression.",
+        "pt": "Dou a atenção plena minha atenção total sem pressão.",
+        "nl": "Ik geef mindfulness mijn volle aandacht zonder druk.",
+        "es": "Doy a atención plena toda mi atención sin presión.",
+        "de": "Ich schenke achtsamkeit meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a consapevolezza tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «осознанность» всё своё внимание без давления.",
+        "id": "Saya memberi kesadaran perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなくマインドフルネスに全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับสติโดยไม่กดดัน",
+        "ms": "Saya memberi kesedaran perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "In mindfulness, I choose progress over perfection.",
+        "tr": "farkındalık konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans pleine conscience, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em atenção plena, escolho progresso em vez de perfeição.",
+        "nl": "In mindfulness kies ik voor vooruitgang boven perfectie.",
+        "es": "En atención plena, elijo el progreso por encima de la perfección.",
+        "de": "In achtsamkeit wähle ich Fortschritt statt Perfektion.",
+        "it": "In consapevolezza, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «осознанность» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kesadaran, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "マインドフルネスでは、完璧より前進を選ぶ。",
+        "th": "ในสติ ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kesedaran, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to mindfulness gently.",
+        "tr": "Dağılırsam farkındalıke nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à pleine conscience avec douceur.",
+        "pt": "Se eu me dispersar, volto a atenção plena com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar mindfulness.",
+        "es": "Si me disperso, vuelvo a atención plena con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu achtsamkeit zurück.",
+        "it": "Se mi disperdo, torno a consapevolezza con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «осознанность».",
+        "id": "Jika saya teralihkan, saya kembali ke kesadaran dengan lembut.",
+        "ja": "迷ったら、やさしくマインドフルネスに戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาสติอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kesedaran dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in mindfulness align with my values.",
+        "tr": "farkındalık konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en pleine conscience sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em atenção plena estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in mindfulness sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en atención plena están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in achtsamkeit passen zu meinen Werten.",
+        "it": "Le mie scelte in consapevolezza sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «осознанность» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kesadaran selaras dengan nilai-nilai saya.",
+        "ja": "マインドフルネスでの選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในสติสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kesedaran selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in mindfulness.",
+        "tr": "farkındalık konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en pleine conscience.",
+        "pt": "Confio no meu ritmo em atenção plena.",
+        "nl": "Ik vertrouw op mijn tempo in mindfulness.",
+        "es": "Confío en mi ritmo en atención plena.",
+        "de": "Ich vertraue meinem Tempo in achtsamkeit.",
+        "it": "Mi fido del mio ritmo in consapevolezza.",
+        "ru": "Я доверяю своему темпу в теме «осознанность».",
+        "id": "Saya percaya pada ritme saya dalam kesadaran.",
+        "ja": "マインドフルネスでの自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในสติ",
+        "ms": "Saya percaya pada rentak saya dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for mindfulness to grow naturally.",
+        "tr": "farkındalık için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que pleine conscience grandisse naturellement.",
+        "pt": "Abro espaço para atenção plena crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat mindfulness natuurlijk kan groeien.",
+        "es": "Hago espacio para que atención plena crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit achtsamkeit natürlich wachsen kann.",
+        "it": "Creo spazio perché consapevolezza cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «осознанность» происходил естественно.",
+        "id": "Saya memberi ruang agar kesadaran tumbuh secara alami.",
+        "ja": "マインドフルネスが自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้สติเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kesedaran berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in mindfulness.",
+        "tr": "Bugün farkındalık konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en pleine conscience.",
+        "pt": "Hoje, dou um passo claro em atenção plena.",
+        "nl": "Vandaag zet ik één duidelijke stap in mindfulness.",
+        "es": "Hoy doy un paso claro en atención plena.",
+        "de": "Heute mache ich einen klaren Schritt in achtsamkeit.",
+        "it": "Oggi faccio un passo chiaro in consapevolezza.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «осознанность».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kesadaran.",
+        "ja": "今日はマインドフルネスで一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในสติ",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with mindfulness.",
+        "tr": "farkındalık konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec pleine conscience.",
+        "pt": "Sou paciente e presente com atenção plena.",
+        "nl": "Ik ben geduldig en aanwezig met mindfulness.",
+        "es": "Soy paciente y presente con atención plena.",
+        "de": "Ich bin geduldig und präsent mit achtsamkeit.",
+        "it": "Sono paziente e presente con consapevolezza.",
+        "ru": "Я терпелив(а) и присутствую в теме «осознанность».",
+        "id": "Saya sabar dan hadir bersama kesadaran.",
+        "ja": "マインドフルネスに対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับสติอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in mindfulness.",
+        "tr": "farkındalık konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans pleine conscience, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em atenção plena, eu me concentro no que posso controlar.",
+        "nl": "In mindfulness richt ik me op wat ik kan controleren.",
+        "es": "En atención plena, me enfoco en lo que puedo controlar.",
+        "de": "In achtsamkeit konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In consapevolezza, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «осознанность» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kesadaran, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "マインドフルネスでは、コントロールできることに意識を向ける。",
+        "th": "ในสติ ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kesedaran, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow mindfulness to be simple and sincere.",
+        "tr": "farkındalık konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à pleine conscience d'être simple et sincère.",
+        "pt": "Eu permito que atenção plena seja simples e verdadeiro.",
+        "nl": "Ik laat mindfulness eenvoudig en oprecht zijn.",
+        "es": "Permito que atención plena sea simple y auténtico.",
+        "de": "Ich erlaube achtsamkeit, einfach und aufrichtig zu sein.",
+        "it": "Permetto a consapevolezza di essere semplice e autentico.",
+        "ru": "Я позволяю теме «осознанность» быть простой и искренней.",
+        "id": "Aku membiarkan kesadaran tetap sederhana dan tulus.",
+        "ja": "マインドフルネスはシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้สติเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kesedaran menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in mindfulness today.",
+        "tr": "Bugün farkındalık konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en pleine conscience.",
+        "pt": "Hoje, noto uma pequena vitória em atenção plena.",
+        "nl": "Vandaag zie ik een kleine overwinning in mindfulness.",
+        "es": "Hoy noto una pequeña victoria en atención plena.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in achtsamkeit.",
+        "it": "Oggi noto una piccola vittoria in consapevolezza.",
+        "ru": "Сегодня в теме «осознанность» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kesadaran.",
+        "ja": "今日、マインドフルネスで小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในสติ",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in mindfulness.",
+        "tr": "farkındalık konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans pleine conscience.",
+        "pt": "Eu respeito meus limites enquanto avanço em atenção plena.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in mindfulness.",
+        "es": "Honro mis límites mientras avanzo en atención plena.",
+        "de": "Ich achte auf meine Grenzen, während ich in achtsamkeit vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in consapevolezza.",
+        "ru": "В теме «осознанность» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kesadaran.",
+        "ja": "マインドフルネスで前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในสติ",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in mindfulness.",
+        "tr": "farkındalık konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en pleine conscience.",
+        "pt": "Deixo a curiosidade guiar meus passos em atenção plena.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in mindfulness.",
+        "es": "Dejo que la curiosidad guíe mis pasos en atención plena.",
+        "de": "Ich lasse Neugier meine Schritte in achtsamkeit lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in consapevolezza.",
+        "ru": "В теме «осознанность» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kesadaran.",
+        "ja": "マインドフルネスでは、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในสติ",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in mindfulness.",
+        "tr": "farkındalık konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en pleine conscience.",
+        "pt": "Eu escolho clareza em vez de urgência em atenção plena.",
+        "nl": "Ik kies helderheid boven haast in mindfulness.",
+        "es": "Elijo claridad en lugar de urgencia en atención plena.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in achtsamkeit.",
+        "it": "Scelgo chiarezza invece di urgenza in consapevolezza.",
+        "ru": "В теме «осознанность» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kesadaran.",
+        "ja": "マインドフルネスでは、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในสติ",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep mindfulness gentle and consistent.",
+        "tr": "farkındalık konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde pleine conscience avec douceur et constance.",
+        "pt": "Mantenho atenção plena com suavidade e constância.",
+        "nl": "Ik houd mindfulness zacht en consistent.",
+        "es": "Mantengo atención plena suave y constante.",
+        "de": "Ich halte achtsamkeit sanft und beständig.",
+        "it": "Mantengo consapevolezza con dolcezza e costanza.",
+        "ru": "В теме «осознанность» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kesadaran tetap lembut dan konsisten.",
+        "ja": "マインドフルネスを穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้สติอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kesedaran dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what mindfulness needs from me right now.",
+        "tr": "Şu anda farkındalık konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que pleine conscience a besoin de moi maintenant.",
+        "pt": "Eu escuto o que atenção plena precisa de mim agora.",
+        "nl": "Ik luister naar wat mindfulness nu van mij nodig heeft.",
+        "es": "Escucho lo que atención plena necesita de mí ahora.",
+        "de": "Ich höre darauf, was achtsamkeit jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui consapevolezza ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «осознанность» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kesadaran butuhkan dariku sekarang.",
+        "ja": "今、マインドフルネスが私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าสติต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kesedaran perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in mindfulness compounds.",
+        "tr": "farkındalık konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en pleine conscience.",
+        "pt": "Confio que o esforço constante em atenção plena se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in mindfulness zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en atención plena se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in achtsamkeit sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in consapevolezza si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «осознанность» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kesadaran berakumulasi.",
+        "ja": "マインドフルネスでの着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในสติจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kesedaran terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "min_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into mindfulness.",
+        "tr": "farkındalık konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans pleine conscience.",
+        "pt": "Eu acolho leveza e foco em atenção plena.",
+        "nl": "Ik verwelkom gemak en focus in mindfulness.",
+        "es": "Doy la bienvenida a la calma y el enfoque en atención plena.",
+        "de": "Ich heiße Leichtigkeit und Fokus in achtsamkeit willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in consapevolezza.",
+        "ru": "В теме «осознанность» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kesadaran.",
+        "ja": "マインドフルネスに、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในสติ",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kesedaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "mindfulness",
+      "tags": {
+        "en": [
+          "mindfulness",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "farkındalık",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "pleine conscience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "atenção plena",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "mindfulness",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "atención plena",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "achtsamkeit",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "consapevolezza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "осознанность",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesadaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "マインドフルネス",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "สติ",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesedaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }

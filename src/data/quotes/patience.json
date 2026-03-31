@@ -21529,19 +21529,19 @@
       "id": "patience_238",
       "type": "quote",
       "texts": {
-        "en": "In patience, the first version can be rough; the second is where the truth appears.",
-        "tr": "sabır konusunda ilk deneme pürüzlü olabilir; ikinci olan, gerçeğin göründüğü yerdir.",
-        "fr": "En patience, la première version peut être brouillonne; la seconde est là où la vérité apparaît.",
-        "pt": "Em paciência, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "Bij geduld kan de eerste versie ruw zijn; in de tweede verschijnt de waarheid.",
-        "es": "En paciencia, la primera versión puede ser tosca; la segunda es donde aparece la verdad.",
-        "de": "Bei geduld kann die erste Version rau sein; in der zweiten erscheint die Wahrheit.",
-        "it": "In pazienza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "Когда есть терпение, первая версия может быть грубой; во второй появляется правда.",
-        "id": "Dalam kesabaran, versi pertama bisa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "忍耐では、最初の版は荒くてもいい。二度目で真実が現れる。",
-        "th": "ใน ความอดทน เวอร์ชันแรกอาจหยาบ แต่เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesabaran, versi pertama boleh kasar; versi kedua tempat kebenaran muncul."
+        "en": "When the topic is \"patience\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"sabır\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"patience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"paciência\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"geduld\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"paciencia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"geduld\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"pazienza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «терпение», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesabaran\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「忍耐」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesabaran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Maya Angelou",
@@ -22078,19 +22078,19 @@
       "id": "patience_241",
       "type": "quote",
       "texts": {
-        "en": "patience moves faster when your grip is open.",
-        "tr": "sabır, elini sıkı tutmadığında daha hızlı ilerler.",
-        "fr": "patience avance plus vite quand ta prise est ouverte.",
-        "pt": "paciência anda mais rápido quando sua pegada está aberta.",
-        "nl": "geduld beweegt sneller als je greep open is.",
-        "es": "paciencia avanza más rápido cuando tu agarre está abierto.",
-        "de": "geduld bewegt sich schneller, wenn dein Griff offen ist.",
-        "it": "pazienza si muove più veloce quando la tua presa è aperta.",
-        "ru": "терпение движется быстрее, когда хватка открыта.",
-        "id": "kesabaran bergerak lebih cepat saat genggamanmu terbuka.",
-        "ja": "忍耐は、握りしめないときに速く進む。",
-        "th": "ความอดทน ไปได้เร็วกว่าเมื่อมือคุณเปิดไว้",
-        "ms": "kesabaran bergerak lebih cepat apabila genggaman anda terbuka."
+        "en": "When you loosen your grip, patience moves faster.",
+        "tr": "Tutuşunu gevşettiğinde sabır daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, patience avance plus vite.",
+        "pt": "Quando você solta o aperto, paciência anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat geduld sneller.",
+        "es": "Cuando sueltas el agarre, paciencia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt geduld schneller voran.",
+        "it": "Quando allenti la presa, pazienza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, терпение движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesabaran melaju lebih cepat.",
+        "ja": "握りを緩めると、忍耐は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความอดทนเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesabaran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Rumi",
@@ -22180,79 +22180,79 @@
         "en": {
           "id": "story_patience_241_en",
           "title": "Open Hand",
-          "content": "He loosened his schedule by ten minutes, and a solution arrived in the gap.",
+          "content": "When he loosened his grip on his plan for patience, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_patience_241_tr",
           "title": "Açık El",
-          "content": "Programını on dakika gevşetti ve çözüm o boşlukta geldi.",
+          "content": "sabır planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_patience_241_fr",
           "title": "Main Ouverte",
-          "content": "Il a desserré son agenda de dix minutes, et une solution est arrivée dans l’espace.",
+          "content": "Quand il a relâché sa prise sur son plan pour patience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_patience_241_pt",
           "title": "Mão Aberta",
-          "content": "Ele afrouxou a agenda em dez minutos, e uma solução chegou nesse intervalo.",
+          "content": "Quando ele afrouxou o aperto no plano para paciência, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_patience_241_nl",
           "title": "Open Hand",
-          "content": "Hij maakte zijn planning tien minuten ruimer en in dat gat kwam een oplossing.",
+          "content": "Toen hij zijn greep op zijn plan voor geduld losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_patience_241_es",
           "title": "Mano Abierta",
-          "content": "Aflojó su agenda diez minutos, y una solución llegó en ese hueco.",
+          "content": "Cuando aflojó su agarre sobre su plan para paciencia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_patience_241_de",
           "title": "Offene Hand",
-          "content": "Er lockerte seinen Zeitplan um zehn Minuten, und in dieser Lücke kam eine Lösung.",
+          "content": "Als er seinen Griff um seinen Plan für geduld lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_patience_241_it",
           "title": "Mano Aperta",
-          "content": "Allentò l’agenda di dieci minuti, e in quel vuoto arrivò una soluzione.",
+          "content": "Quando ha allentato la presa sul suo piano per pazienza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_patience_241_ru",
           "title": "Открытая ладонь",
-          "content": "Он ослабил график на десять минут, и в этой паузе пришло решение.",
+          "content": "Когда он ослабил хватку над своим планом для терпение, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_patience_241_id",
           "title": "Tangan Terbuka",
-          "content": "Ia melonggarkan jadwal sepuluh menit, dan solusi datang di sela itu.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesabaran, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_patience_241_ja",
           "title": "開いた手",
-          "content": "予定を10分だけ緩めたら、その隙間に解決策が届いた。",
+          "content": "忍耐の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_patience_241_th",
           "title": "มือที่เปิดไว้",
-          "content": "เขาผ่อนตารางเวลาออกสิบ นาที แล้วทางออกก็เข้ามาในช่องว่างนั้น",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความอดทน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_patience_241_ms",
           "title": "Tangan Terbuka",
-          "content": "Dia melonggarkan jadual sepuluh minit, dan penyelesaian datang di sela itu.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesabaran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -22261,19 +22261,19 @@
       "id": "patience_242",
       "type": "quote",
       "texts": {
-        "en": "In patience, the quiet signal is often the true one.",
-        "tr": "sabır konusunda sessiz işaret çoğu zaman gerçeğidir.",
-        "fr": "En patience, le signal discret est souvent le vrai.",
-        "pt": "Em paciência, o sinal silencioso costuma ser o verdadeiro.",
-        "nl": "Bij geduld is het stille signaal vaak het echte.",
-        "es": "En paciencia, la señal silenciosa suele ser la verdadera.",
-        "de": "Bei geduld ist das leise Signal oft das wahre.",
-        "it": "In pazienza, il segnale silenzioso è spesso quello vero.",
-        "ru": "Когда есть терпение, тихий сигнал часто самый верный.",
-        "id": "Dalam kesabaran, sinyal yang tenang sering kali yang benar.",
-        "ja": "忍耐では、静かな合図が本当であることが多い。",
-        "th": "ใน ความอดทน สัญญาณที่เงียบมักเป็นของจริง",
-        "ms": "Dalam kesabaran, isyarat senyap selalunya yang benar."
+        "en": "When the topic is \"patience\", the quiet signal is often the true one.",
+        "tr": "Konu \"sabır\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"patience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"paciência\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"geduld\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"paciencia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"geduld\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"pazienza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «терпение», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesabaran\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「忍耐」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesabaran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Khalil Gibran",
@@ -22993,19 +22993,19 @@
       "id": "patience_246",
       "type": "quote",
       "texts": {
-        "en": "In patience, returning is part of the path, not a failure.",
-        "tr": "sabır içinde geri dönmek, yolun parçasıdır; başarısızlık değil.",
-        "fr": "En patience, revenir fait partie du chemin, pas d’un échec.",
-        "pt": "Em paciência, voltar faz parte do caminho, não é fracasso.",
-        "nl": "Bij geduld is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En paciencia, volver es parte del camino, no un fracaso.",
-        "de": "Bei geduld ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In pazienza, tornare fa parte del percorso, non è un fallimento.",
-        "ru": "Когда есть терпение, возвращение — часть пути, а не провал.",
-        "id": "Dalam kesabaran, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "忍耐では、戻ることも道の一部で、失敗ではない。",
-        "th": "ใน ความอดทน การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesabaran, kembali ialah sebahagian daripada perjalanan, bukan kegagalan."
+        "en": "When the topic is \"patience\", returning is part of the path, not a failure.",
+        "tr": "Konu \"sabır\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"patience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"paciência\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"geduld\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"paciencia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"geduld\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"pazienza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «терпение», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesabaran\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「忍耐」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesabaran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Nelson Mandela",
@@ -23095,79 +23095,79 @@
         "en": {
           "id": "story_patience_246_en",
           "title": "The Return",
-          "content": "He missed a week, came back on Monday, and the line kept going.",
+          "content": "After a week without \"patience\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_patience_246_tr",
           "title": "Dönüş",
-          "content": "Bir haftayı kaçırdı, pazartesi döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"sabır\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_patience_246_fr",
           "title": "Le Retour",
-          "content": "Il a raté une semaine, est revenu lundi, et la ligne a continué.",
+          "content": "Après une semaine sans \"patience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_patience_246_pt",
           "title": "O Retorno",
-          "content": "Perdeu uma semana, voltou na segunda, e a linha seguiu.",
+          "content": "Depois de uma semana sem \"paciência\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_patience_246_nl",
           "title": "De Terugkeer",
-          "content": "Hij miste een week, kwam maandag terug en de lijn ging verder.",
+          "content": "Na een week zonder \"geduld\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_patience_246_es",
           "title": "El Regreso",
-          "content": "Se perdió una semana, volvió el lunes y la línea siguió.",
+          "content": "Después de una semana sin \"paciencia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_patience_246_de",
           "title": "Die Rückkehr",
-          "content": "Er verpasste eine Woche, kam am Montag zurück, und die Linie ging weiter.",
+          "content": "Nach einer Woche ohne \"geduld\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_patience_246_it",
           "title": "Il Ritorno",
-          "content": "Perse una settimana, tornò il lunedì e la linea continuò.",
+          "content": "Dopo una settimana senza \"pazienza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_patience_246_ru",
           "title": "Возвращение",
-          "content": "Он пропустил неделю, вернулся в понедельник, и линия продолжилась.",
+          "content": "В теме «терпение» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_patience_246_id",
           "title": "Kembali",
-          "content": "Ia melewatkan seminggu, kembali pada Senin, dan garis itu terus berjalan.",
+          "content": "Setelah seminggu tanpa \"kesabaran\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_patience_246_ja",
           "title": "戻ること",
-          "content": "一週間休んで月曜日に戻った。線はそのまま続いた。",
+          "content": "「忍耐」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_patience_246_th",
           "title": "การกลับมา",
-          "content": "เขาพลาดไปหนึ่งสัปดาห์ แล้วกลับมาในวันจันทร์ เส้นทางก็ยังเดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความอดทน\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_patience_246_ms",
           "title": "Kembali",
-          "content": "Dia terlepas seminggu, kembali pada hari Isnin, dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesabaran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -23359,19 +23359,19 @@
       "id": "patience_248",
       "type": "quote",
       "texts": {
-        "en": "In patience, the first version can be rough; the second is where the truth appears.",
-        "tr": "sabır konusunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
-        "fr": "Dans patience, la première version peut être brouillonne; la deuxième est celle où la vérité apparaît.",
-        "pt": "Em paciência, a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
-        "nl": "In geduld kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
-        "es": "En paciencia, la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
-        "de": "In geduld kann die erste Version rau sein; die zweite ist die, in der die Wahrheit erscheint.",
-        "it": "In pazienza, la prima versione può essere grezza; la seconda è dove appare la verità.",
-        "ru": "терпение иногда начинается сыро; во второй версии проявляется истина.",
-        "id": "Dalam kesabaran, versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
-        "ja": "忍耐では、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
-        "th": "ในความอดทน เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
-        "ms": "Dalam kesabaran, versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
+        "en": "When the topic is \"patience\", the first version can be rough; the second is where the truth appears.",
+        "tr": "Konu \"sabır\" olduğunda ilk versiyon pürüzlü olabilir; ikinci versiyonda gerçek belirir.",
+        "fr": "Quand le sujet est \"patience\", la première version peut être brouillonne; la deuxième laisse apparaître la vérité.",
+        "pt": "Quando o tema é \"paciência\", a primeira versão pode ser áspera; a segunda é onde a verdade aparece.",
+        "nl": "Als het thema \"geduld\" is, kan de eerste versie ruw zijn; de tweede is waar de waarheid verschijnt.",
+        "es": "Cuando el tema es \"paciencia\", la primera versión puede ser áspera; la segunda es donde aparece la verdad.",
+        "de": "Wenn das Thema \"geduld\" ist, kann die erste Version rau sein; die zweite ist der Moment, in dem die Wahrheit erscheint.",
+        "it": "Quando il tema è \"pazienza\", la prima versione può essere grezza; la seconda è dove appare la verità.",
+        "ru": "Когда тема — «терпение», первая версия может быть сырой; во второй проявляется истина.",
+        "id": "Saat temanya \"kesabaran\", versi pertama bisa terasa kasar; versi kedua adalah tempat kebenaran muncul.",
+        "ja": "テーマが「忍耐」のとき、最初の版は粗くていい。二つ目で本当の輪郭が現れる。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" เวอร์ชันแรกอาจหยาบได้; เวอร์ชันที่สองคือที่ความจริงปรากฏ",
+        "ms": "Apabila temanya \"kesabaran\", versi pertama boleh jadi kasar; versi kedua ialah tempat kebenaran muncul."
       },
       "authors": {
         "en": "Adapted from Simone de Beauvoir",
@@ -23908,19 +23908,19 @@
       "id": "patience_251",
       "type": "quote",
       "texts": {
-        "en": "patience moves faster when your grip is open.",
-        "tr": "sabır, elin gevşekken daha hızlı ilerler.",
-        "fr": "patience avance plus vite quand la prise est ouverte.",
-        "pt": "paciência anda mais rápido quando o aperto é aberto.",
-        "nl": "geduld gaat sneller als je grip open is.",
-        "es": "paciencia avanza más rápido cuando el agarre está abierto.",
-        "de": "geduld kommt schneller voran, wenn dein Griff offen ist.",
-        "it": "pazienza procede più veloce quando la presa è aperta.",
-        "ru": "терпение движется быстрее, когда хватка открыта.",
-        "id": "kesabaran melaju lebih cepat saat genggamanmu terbuka.",
-        "ja": "忍耐は、握りが開いているときに進みが速い。",
-        "th": "ความอดทนเดินหน้าเร็วขึ้นเมื่อการยึดของคุณเปิดกว้าง",
-        "ms": "kesabaran bergerak lebih laju apabila genggamanmu terbuka."
+        "en": "When you loosen your grip, patience moves faster.",
+        "tr": "Tutuşunu gevşettiğinde sabır daha hızlı ilerler.",
+        "fr": "Quand tu relâches la prise, patience avance plus vite.",
+        "pt": "Quando você solta o aperto, paciência anda mais rápido.",
+        "nl": "Als je je grip ontspant, gaat geduld sneller.",
+        "es": "Cuando sueltas el agarre, paciencia avanza más rápido.",
+        "de": "Wenn du den Griff lockerst, kommt geduld schneller voran.",
+        "it": "Quando allenti la presa, pazienza procede più veloce.",
+        "ru": "Когда ты ослабляешь хватку, терпение движется быстрее.",
+        "id": "Saat kamu melonggarkan genggaman, kesabaran melaju lebih cepat.",
+        "ja": "握りを緩めると、忍耐は進みが速い。",
+        "th": "เมื่อคุณคลายการยึด ความอดทนเดินหน้าเร็วขึ้น.",
+        "ms": "Apabila kamu melonggarkan genggaman, kesabaran bergerak lebih laju."
       },
       "authors": {
         "en": "Adapted from Hermann Hesse",
@@ -24010,79 +24010,79 @@
         "en": {
           "id": "story_patience_251_en",
           "title": "Open Hand",
-          "content": "When he loosened his grip on the patience schedule, a better solution walked in.",
+          "content": "When he loosened his grip on his plan for patience, a better solution showed up.",
           "readTime": 0
         },
         "tr": {
           "id": "story_patience_251_tr",
           "title": "Açık El",
-          "content": "sabır takvimindeki tutuşunu gevşetince, daha iyi bir çözüm kapıdan girdi.",
+          "content": "sabır planına sıkı tutunmayı gevşetince daha iyi bir çözüm belirdi.",
           "readTime": 0
         },
         "fr": {
           "id": "story_patience_251_fr",
           "title": "La Main Ouverte",
-          "content": "Quand il a relâché sa prise sur le calendrier de patience, une meilleure solution est entrée.",
+          "content": "Quand il a relâché sa prise sur son plan pour patience, une meilleure solution est apparue.",
           "readTime": 0
         },
         "pt": {
           "id": "story_patience_251_pt",
           "title": "Mão Aberta",
-          "content": "Quando ele afrouxou o aperto no cronograma de paciência, uma solução melhor apareceu.",
+          "content": "Quando ele afrouxou o aperto no plano para paciência, uma solução melhor apareceu.",
           "readTime": 0
         },
         "nl": {
           "id": "story_patience_251_nl",
           "title": "Open Hand",
-          "content": "Toen hij zijn greep op het geduld-schema losliet, kwam een betere oplossing binnen.",
+          "content": "Toen hij zijn greep op zijn plan voor geduld losliet, verscheen er een betere oplossing.",
           "readTime": 0
         },
         "es": {
           "id": "story_patience_251_es",
           "title": "Mano Abierta",
-          "content": "Cuando aflojó su agarre al horario de paciencia, entró una solución mejor.",
+          "content": "Cuando aflojó su agarre sobre su plan para paciencia, apareció una solución mejor.",
           "readTime": 0
         },
         "de": {
           "id": "story_patience_251_de",
           "title": "Offene Hand",
-          "content": "Als er seinen Griff am geduld-Zeitplan lockerte, kam eine bessere Lösung herein.",
+          "content": "Als er seinen Griff um seinen Plan für geduld lockerte, tauchte eine bessere Lösung auf.",
           "readTime": 0
         },
         "it": {
           "id": "story_patience_251_it",
           "title": "Mano Aperta",
-          "content": "Quando ha allentato la presa sul programma di pazienza, è arrivata una soluzione migliore.",
+          "content": "Quando ha allentato la presa sul suo piano per pazienza, è apparsa una soluzione migliore.",
           "readTime": 0
         },
         "ru": {
           "id": "story_patience_251_ru",
           "title": "Открытая Ладонь",
-          "content": "Когда он ослабил хватку на расписании терпение, вошло лучшее решение.",
+          "content": "Когда он ослабил хватку над своим планом для терпение, появилось более удачное решение.",
           "readTime": 0
         },
         "id": {
           "id": "story_patience_251_id",
           "title": "Tangan Terbuka",
-          "content": "Saat ia melonggarkan genggaman pada jadwal kesabaran, solusi yang lebih baik pun datang.",
+          "content": "Saat ia melonggarkan genggaman pada rencananya untuk kesabaran, solusi yang lebih baik pun muncul.",
           "readTime": 0
         },
         "ja": {
           "id": "story_patience_251_ja",
           "title": "開いた手",
-          "content": "忍耐の予定を固く握るのをやめたら、より良い解決が入ってきた。",
+          "content": "忍耐の計画へのこだわりを緩めたら、より良い解決が現れた。",
           "readTime": 0
         },
         "th": {
           "id": "story_patience_251_th",
           "title": "มือที่เปิดออก",
-          "content": "เมื่อเขาคลายการยึดตารางความอดทน ทางออกที่ดีกว่าก็เข้ามา",
+          "content": "เมื่อเขาคลายการยึดกับแผนสำหรับความอดทน ทางออกที่ดีกว่าก็ปรากฏขึ้น.",
           "readTime": 0
         },
         "ms": {
           "id": "story_patience_251_ms",
           "title": "Tangan Terbuka",
-          "content": "Apabila dia melonggarkan genggaman pada jadual kesabaran, penyelesaian yang lebih baik pun muncul.",
+          "content": "Apabila dia melonggarkan genggaman pada pelannya untuk kesabaran, penyelesaian yang lebih baik pun muncul.",
           "readTime": 0
         }
       }
@@ -24091,19 +24091,19 @@
       "id": "patience_252",
       "type": "quote",
       "texts": {
-        "en": "In patience, the quiet signal is often the true one.",
-        "tr": "sabır içinde sessiz işaret çoğu zaman gerçektir.",
-        "fr": "Dans patience, le signal discret est souvent le vrai.",
-        "pt": "Em paciência, o sinal quieto costuma ser o verdadeiro.",
-        "nl": "In geduld is het stille signaal vaak het echte.",
-        "es": "En paciencia, la señal silenciosa suele ser la verdadera.",
-        "de": "In geduld ist das leise Signal oft das wahre.",
-        "it": "In pazienza, il segnale silenzioso è spesso quello vero.",
-        "ru": "В терпение тихий сигнал часто оказывается настоящим.",
-        "id": "Dalam kesabaran, sinyal yang sunyi sering kali yang benar.",
-        "ja": "忍耐では、静かな合図が本当であることが多い。",
-        "th": "ในความอดทน สัญญาณที่เงียบมักจะเป็นของจริง",
-        "ms": "Dalam kesabaran, isyarat yang sunyi selalunya yang benar."
+        "en": "When the topic is \"patience\", the quiet signal is often the true one.",
+        "tr": "Konu \"sabır\" olduğunda sessiz işaret çoğu zaman gerçektir.",
+        "fr": "Quand le sujet est \"patience\", le signal discret est souvent le vrai.",
+        "pt": "Quando o tema é \"paciência\", o sinal quieto costuma ser o verdadeiro.",
+        "nl": "Als het thema \"geduld\" is, is het stille signaal vaak het echte.",
+        "es": "Cuando el tema es \"paciencia\", la señal silenciosa suele ser la verdadera.",
+        "de": "Wenn das Thema \"geduld\" ist, ist das leise Signal oft das wahre.",
+        "it": "Quando il tema è \"pazienza\", il segnale silenzioso è spesso quello vero.",
+        "ru": "Когда тема — «терпение», тихий сигнал часто оказывается настоящим.",
+        "id": "Saat temanya \"kesabaran\", sinyal yang sunyi sering kali yang benar.",
+        "ja": "テーマが「忍耐」のとき、静かな合図が本当であることが多い。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" สัญญาณที่เงียบมักจะเป็นของจริง",
+        "ms": "Apabila temanya \"kesabaran\", isyarat yang sunyi selalunya yang benar."
       },
       "authors": {
         "en": "Adapted from Ursula K. Le Guin",
@@ -24823,19 +24823,19 @@
       "id": "patience_256",
       "type": "quote",
       "texts": {
-        "en": "In patience, returning is part of the path, not a failure.",
-        "tr": "sabır içinde geri dönmek yolun bir parçasıdır; başarısızlık değil.",
-        "fr": "Dans patience, revenir fait partie du chemin, pas de l'échec.",
-        "pt": "Em paciência, retornar faz parte do caminho, não é fracasso.",
-        "nl": "In geduld is terugkeren onderdeel van het pad, geen mislukking.",
-        "es": "En paciencia, volver es parte del camino, no un fracaso.",
-        "de": "In geduld ist Zurückkehren Teil des Weges, kein Scheitern.",
-        "it": "In pazienza, tornare è parte del percorso, non un fallimento.",
-        "ru": "В терпение возвращение — часть пути, а не провал.",
-        "id": "Dalam kesabaran, kembali adalah bagian dari jalan, bukan kegagalan.",
-        "ja": "忍耐では、戻ることは道の一部であって失敗ではない。",
-        "th": "ในความอดทน การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
-        "ms": "Dalam kesabaran, kembali ialah sebahagian daripada jalan, bukan kegagalan."
+        "en": "When the topic is \"patience\", returning is part of the path, not a failure.",
+        "tr": "Konu \"sabır\" olduğunda geri dönmek yolun bir parçasıdır; başarısızlık değil.",
+        "fr": "Quand le sujet est \"patience\", revenir fait partie du chemin, pas de l'échec.",
+        "pt": "Quando o tema é \"paciência\", voltar faz parte do caminho, não é fracasso.",
+        "nl": "Als het thema \"geduld\" is, is terugkeren onderdeel van het pad, geen mislukking.",
+        "es": "Cuando el tema es \"paciencia\", volver es parte del camino, no un fracaso.",
+        "de": "Wenn das Thema \"geduld\" ist, ist Zurückkehren Teil des Weges, kein Scheitern.",
+        "it": "Quando il tema è \"pazienza\", tornare è parte del percorso, non un fallimento.",
+        "ru": "Когда тема — «терпение», возвращение — часть пути, а не провал.",
+        "id": "Saat temanya \"kesabaran\", kembali adalah bagian dari jalan, bukan kegagalan.",
+        "ja": "テーマが「忍耐」のとき、戻ることは道の一部であって失敗ではない。",
+        "th": "เมื่อหัวข้อคือ \"ความอดทน\" การกลับมาเป็นส่วนหนึ่งของเส้นทาง ไม่ใช่ความล้มเหลว",
+        "ms": "Apabila temanya \"kesabaran\", kembali ialah sebahagian daripada jalan, bukan kegagalan."
       },
       "authors": {
         "en": "Adapted from Lao Tzu",
@@ -24925,79 +24925,79 @@
         "en": {
           "id": "story_patience_256_en",
           "title": "The Return",
-          "content": "After a missed week in patience, she came back and the line continued.",
+          "content": "After a week without \"patience\", she came back and the line continued.",
           "readTime": 0
         },
         "tr": {
           "id": "story_patience_256_tr",
           "title": "Dönüş",
-          "content": "sabır içinde kaçırdığı bir haftadan sonra geri döndü ve çizgi devam etti.",
+          "content": "Bir hafta \"sabır\" yoktu; sonra döndü ve çizgi devam etti.",
           "readTime": 0
         },
         "fr": {
           "id": "story_patience_256_fr",
           "title": "Le Retour",
-          "content": "Après une semaine manquée en patience, elle est revenue et la ligne a continué.",
+          "content": "Après une semaine sans \"patience\", elle est revenue et la ligne a continué.",
           "readTime": 0
         },
         "pt": {
           "id": "story_patience_256_pt",
           "title": "O Retorno",
-          "content": "Depois de uma semana perdida em paciência, ela voltou e a linha continuou.",
+          "content": "Depois de uma semana sem \"paciência\", ela voltou e a linha continuou.",
           "readTime": 0
         },
         "nl": {
           "id": "story_patience_256_nl",
           "title": "De Terugkeer",
-          "content": "Na een gemiste week in geduld kwam ze terug en de lijn ging verder.",
+          "content": "Na een week zonder \"geduld\" kwam ze terug en de lijn ging verder.",
           "readTime": 0
         },
         "es": {
           "id": "story_patience_256_es",
           "title": "El Regreso",
-          "content": "Después de una semana perdida en paciencia, volvió y la línea continuó.",
+          "content": "Después de una semana sin \"paciencia\", volvió y la línea continuó.",
           "readTime": 0
         },
         "de": {
           "id": "story_patience_256_de",
           "title": "Die Rückkehr",
-          "content": "Nach einer verpassten Woche in geduld kam sie zurück und die Linie lief weiter.",
+          "content": "Nach einer Woche ohne \"geduld\" kam sie zurück und die Linie ging weiter.",
           "readTime": 0
         },
         "it": {
           "id": "story_patience_256_it",
           "title": "Il Ritorno",
-          "content": "Dopo una settimana persa in pazienza, è tornata e la linea è continuata.",
+          "content": "Dopo una settimana senza \"pazienza\", è tornata e la linea è continuata.",
           "readTime": 0
         },
         "ru": {
           "id": "story_patience_256_ru",
           "title": "Возвращение",
-          "content": "После пропущенной недели в терпение она вернулась, и линия продолжилась.",
+          "content": "В теме «терпение» случилась неделя паузы; она вернулась, и линия продолжилась.",
           "readTime": 0
         },
         "id": {
           "id": "story_patience_256_id",
           "title": "Kepulangan",
-          "content": "Setelah melewatkan seminggu di kesabaran, ia kembali dan garisnya berlanjut.",
+          "content": "Setelah seminggu tanpa \"kesabaran\", ia kembali dan garisnya berlanjut.",
           "readTime": 0
         },
         "ja": {
           "id": "story_patience_256_ja",
           "title": "帰り道",
-          "content": "忍耐を一週間抜けたあとでも戻ってきたら、線は続いていった。",
+          "content": "「忍耐」から一週間離れても、戻ってきたら線は続いていった。",
           "readTime": 0
         },
         "th": {
           "id": "story_patience_256_th",
           "title": "การกลับมา",
-          "content": "หลังพลาดไปหนึ่งสัปดาห์ในความอดทน เธอกลับมาและเส้นทางก็เดินต่อ",
+          "content": "หลังจากหนึ่งสัปดาห์ที่ไม่มี \"ความอดทน\" เธอกลับมาและเส้นทางก็เดินต่อ",
           "readTime": 0
         },
         "ms": {
           "id": "story_patience_256_ms",
           "title": "Kembali",
-          "content": "Selepas terlepas seminggu dalam kesabaran, dia kembali dan garis itu terus berjalan.",
+          "content": "Selepas seminggu tanpa \"kesabaran\", dia kembali dan garis itu terus berjalan.",
           "readTime": 0
         }
       }
@@ -25184,6 +25184,2066 @@
           "readTime": 0
         }
       }
+    },
+    {
+      "id": "patience_258",
+      "type": "affirmation",
+      "texts": {
+        "en": "In patience, I take small, steady steps.",
+        "tr": "sabır konusunda küçük ama istikrarlı adımlar atıyorum.",
+        "fr": "Dans patience, je fais de petits pas réguliers.",
+        "pt": "Em paciência, dou passos pequenos e constantes.",
+        "nl": "In geduld zet ik kleine, gestage stappen.",
+        "es": "En paciencia, doy pasos pequeños y constantes.",
+        "de": "In geduld gehe ich kleine, stetige Schritte.",
+        "it": "In pazienza, faccio passi piccoli e costanti.",
+        "ru": "В теме «терпение» я делаю маленькие, устойчивые шаги.",
+        "id": "Dalam kesabaran, saya melangkah kecil dan konsisten.",
+        "ja": "忍耐では、小さく着実な一歩を重ねる。",
+        "th": "ในความอดทน ฉันก้าวเล็ก ๆ อย่างสม่ำเสมอ",
+        "ms": "Dalam kesabaran, saya melangkah kecil dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_259",
+      "type": "affirmation",
+      "texts": {
+        "en": "I bring calm and clarity to patience today.",
+        "tr": "Bugün sabır için sakinlik ve netlik getiriyorum.",
+        "fr": "J'apporte du calme et de la clarté à patience aujourd'hui.",
+        "pt": "Hoje trago calma e clareza para paciência.",
+        "nl": "Vandaag breng ik kalmte en helderheid in geduld.",
+        "es": "Hoy llevo calma y claridad a paciencia.",
+        "de": "Heute bringe ich Ruhe und Klarheit in geduld.",
+        "it": "Oggi porto calma e chiarezza a pazienza.",
+        "ru": "Сегодня я привношу спокойствие и ясность в тему «терпение».",
+        "id": "Hari ini saya membawa ketenangan dan kejelasan ke kesabaran.",
+        "ja": "今日は忍耐に落ち着きと明確さをもたらす。",
+        "th": "วันนี้ฉันนำความสงบและความชัดเจนมาสู่ความอดทน",
+        "ms": "Hari ini saya membawa ketenangan dan kejelasan kepada kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_260",
+      "type": "affirmation",
+      "texts": {
+        "en": "I give patience my full attention without pressure.",
+        "tr": "sabır için baskı olmadan tüm dikkatimi veriyorum.",
+        "fr": "Je donne toute mon attention à patience sans pression.",
+        "pt": "Dou a paciência minha atenção total sem pressão.",
+        "nl": "Ik geef geduld mijn volle aandacht zonder druk.",
+        "es": "Doy a paciencia toda mi atención sin presión.",
+        "de": "Ich schenke geduld meine volle Aufmerksamkeit ohne Druck.",
+        "it": "Do a pazienza tutta la mia attenzione senza pressione.",
+        "ru": "Я даю теме «терпение» всё своё внимание без давления.",
+        "id": "Saya memberi kesabaran perhatian penuh tanpa tekanan.",
+        "ja": "プレッシャーなく忍耐に全注意を向ける。",
+        "th": "ฉันมอบความสนใจเต็มที่ให้กับความอดทนโดยไม่กดดัน",
+        "ms": "Saya memberi kesabaran perhatian penuh tanpa tekanan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_261",
+      "type": "affirmation",
+      "texts": {
+        "en": "In patience, I choose progress over perfection.",
+        "tr": "sabır konusunda mükemmellik yerine ilerlemeyi seçiyorum.",
+        "fr": "Dans patience, je choisis le progrès plutôt que la perfection.",
+        "pt": "Em paciência, escolho progresso em vez de perfeição.",
+        "nl": "In geduld kies ik voor vooruitgang boven perfectie.",
+        "es": "En paciencia, elijo el progreso por encima de la perfección.",
+        "de": "In geduld wähle ich Fortschritt statt Perfektion.",
+        "it": "In pazienza, scelgo il progresso al posto della perfezione.",
+        "ru": "В теме «терпение» я выбираю прогресс вместо совершенства.",
+        "id": "Dalam kesabaran, saya memilih kemajuan daripada kesempurnaan.",
+        "ja": "忍耐では、完璧より前進を選ぶ。",
+        "th": "ในความอดทน ฉันเลือกความคืบหน้าเหนือความสมบูรณ์แบบ",
+        "ms": "Dalam kesabaran, saya memilih kemajuan berbanding kesempurnaan."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_262",
+      "type": "affirmation",
+      "texts": {
+        "en": "If I drift, I return to patience gently.",
+        "tr": "Dağılırsam sabıre nazikçe geri dönerim.",
+        "fr": "Si je m'égare, je reviens à patience avec douceur.",
+        "pt": "Se eu me dispersar, volto a paciência com gentileza.",
+        "nl": "Als ik afdwaal, keer ik zacht terug naar geduld.",
+        "es": "Si me disperso, vuelvo a paciencia con suavidad.",
+        "de": "Wenn ich abschweife, kehre ich sanft zu geduld zurück.",
+        "it": "Se mi disperdo, torno a pazienza con gentilezza.",
+        "ru": "Если меня уносит, я мягко возвращаюсь к теме «терпение».",
+        "id": "Jika saya teralihkan, saya kembali ke kesabaran dengan lembut.",
+        "ja": "迷ったら、やさしく忍耐に戻る。",
+        "th": "ถ้าฉันเผลอไหลไป ฉันจะกลับมาหาความอดทนอย่างอ่อนโยน",
+        "ms": "Jika saya tersasar, saya kembali kepada kesabaran dengan lembut."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_263",
+      "type": "affirmation",
+      "texts": {
+        "en": "My choices in patience align with my values.",
+        "tr": "sabır konusundaki seçimlerim değerlerimle uyumlu.",
+        "fr": "Mes choix en patience sont alignés avec mes valeurs.",
+        "pt": "Minhas escolhas em paciência estão alinhadas com meus valores.",
+        "nl": "Mijn keuzes in geduld sluiten aan bij mijn waarden.",
+        "es": "Mis elecciones en paciencia están alineadas con mis valores.",
+        "de": "Meine Entscheidungen in geduld passen zu meinen Werten.",
+        "it": "Le mie scelte in pazienza sono allineate ai miei valori.",
+        "ru": "Мои решения в теме «терпение» согласуются с моими ценностями.",
+        "id": "Pilihan saya dalam kesabaran selaras dengan nilai-nilai saya.",
+        "ja": "忍耐での選択は自分の価値観と一致している。",
+        "th": "การตัดสินใจของฉันในความอดทนสอดคล้องกับคุณค่าของฉัน",
+        "ms": "Pilihan saya dalam kesabaran selaras dengan nilai saya."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_264",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust my pace in patience.",
+        "tr": "sabır konusunda kendi tempoma güveniyorum.",
+        "fr": "Je fais confiance à mon rythme en patience.",
+        "pt": "Confio no meu ritmo em paciência.",
+        "nl": "Ik vertrouw op mijn tempo in geduld.",
+        "es": "Confío en mi ritmo en paciencia.",
+        "de": "Ich vertraue meinem Tempo in geduld.",
+        "it": "Mi fido del mio ritmo in pazienza.",
+        "ru": "Я доверяю своему темпу в теме «терпение».",
+        "id": "Saya percaya pada ritme saya dalam kesabaran.",
+        "ja": "忍耐での自分のペースを信じる。",
+        "th": "ฉันเชื่อในจังหวะของตัวเองในความอดทน",
+        "ms": "Saya percaya pada rentak saya dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_265",
+      "type": "affirmation",
+      "texts": {
+        "en": "I make space for patience to grow naturally.",
+        "tr": "sabır için doğal büyümeye alan açıyorum.",
+        "fr": "Je fais de la place pour que patience grandisse naturellement.",
+        "pt": "Abro espaço para paciência crescer naturalmente.",
+        "nl": "Ik maak ruimte zodat geduld natuurlijk kan groeien.",
+        "es": "Hago espacio para que paciencia crezca de forma natural.",
+        "de": "Ich schaffe Raum, damit geduld natürlich wachsen kann.",
+        "it": "Creo spazio perché pazienza cresca in modo naturale.",
+        "ru": "Я создаю пространство, чтобы рост «терпение» происходил естественно.",
+        "id": "Saya memberi ruang agar kesabaran tumbuh secara alami.",
+        "ja": "忍耐が自然に育つための余白をつくる。",
+        "th": "ฉันสร้างพื้นที่ให้ความอดทนเติบโตอย่างเป็นธรรมชาติ",
+        "ms": "Saya memberi ruang agar kesabaran berkembang secara semula jadi."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_266",
+      "type": "affirmation",
+      "texts": {
+        "en": "Today, I take one clear action in patience.",
+        "tr": "Bugün sabır konusunda net bir adım atıyorum.",
+        "fr": "Aujourd'hui, je fais une action claire en patience.",
+        "pt": "Hoje, dou um passo claro em paciência.",
+        "nl": "Vandaag zet ik één duidelijke stap in geduld.",
+        "es": "Hoy doy un paso claro en paciencia.",
+        "de": "Heute mache ich einen klaren Schritt in geduld.",
+        "it": "Oggi faccio un passo chiaro in pazienza.",
+        "ru": "Сегодня я делаю один ясный шаг в теме «терпение».",
+        "id": "Hari ini saya mengambil satu langkah jelas dalam kesabaran.",
+        "ja": "今日は忍耐で一つの明確な行動をとる。",
+        "th": "วันนี้ฉันลงมือทำอย่างชัดเจนหนึ่งอย่างในความอดทน",
+        "ms": "Hari ini saya mengambil satu langkah yang jelas dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_267",
+      "type": "affirmation",
+      "texts": {
+        "en": "I am patient and present with patience.",
+        "tr": "sabır konusunda sabırlı ve anda kalıyorum.",
+        "fr": "Je suis patient(e) et présent(e) avec patience.",
+        "pt": "Sou paciente e presente com paciência.",
+        "nl": "Ik ben geduldig en aanwezig met geduld.",
+        "es": "Soy paciente y presente con paciencia.",
+        "de": "Ich bin geduldig und präsent mit geduld.",
+        "it": "Sono paziente e presente con pazienza.",
+        "ru": "Я терпелив(а) и присутствую в теме «терпение».",
+        "id": "Saya sabar dan hadir bersama kesabaran.",
+        "ja": "忍耐に対して穏やかに、今ここにいる。",
+        "th": "ฉันอดทนและอยู่กับความอดทนอย่างเต็มที่",
+        "ms": "Saya sabar dan hadir bersama kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_268",
+      "type": "affirmation",
+      "texts": {
+        "en": "I ground myself in what I can control in patience.",
+        "tr": "sabır konusunda kontrol edebildiklerime odaklanıyorum.",
+        "fr": "Dans patience, je me recentre sur ce que je peux contrôler.",
+        "pt": "Em paciência, eu me concentro no que posso controlar.",
+        "nl": "In geduld richt ik me op wat ik kan controleren.",
+        "es": "En paciencia, me enfoco en lo que puedo controlar.",
+        "de": "In geduld konzentriere ich mich auf das, was ich kontrollieren kann.",
+        "it": "In pazienza, mi concentro su ciò che posso controllare.",
+        "ru": "В теме «терпение» я опираюсь на то, что могу контролировать.",
+        "id": "Dalam kesabaran, aku fokus pada hal yang bisa kukendalikan.",
+        "ja": "忍耐では、コントロールできることに意識を向ける。",
+        "th": "ในความอดทน ฉันยึดสิ่งที่ควบคุมได้เป็นหลัก",
+        "ms": "Dalam kesabaran, saya fokus pada perkara yang boleh saya kawal."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_269",
+      "type": "affirmation",
+      "texts": {
+        "en": "I allow patience to be simple and sincere.",
+        "tr": "sabır konusunda işleri sade ve samimi tutmama izin veriyorum.",
+        "fr": "Je permets à patience d'être simple et sincère.",
+        "pt": "Eu permito que paciência seja simples e verdadeiro.",
+        "nl": "Ik laat geduld eenvoudig en oprecht zijn.",
+        "es": "Permito que paciencia sea simple y auténtico.",
+        "de": "Ich erlaube geduld, einfach und aufrichtig zu sein.",
+        "it": "Permetto a pazienza di essere semplice e autentico.",
+        "ru": "Я позволяю теме «терпение» быть простой и искренней.",
+        "id": "Aku membiarkan kesabaran tetap sederhana dan tulus.",
+        "ja": "忍耐はシンプルで誠実でいいと許可する。",
+        "th": "ฉันยอมให้ความอดทนเรียบง่ายและจริงใจ",
+        "ms": "Saya membenarkan kesabaran menjadi ringkas dan jujur."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_270",
+      "type": "affirmation",
+      "texts": {
+        "en": "I notice one small win in patience today.",
+        "tr": "Bugün sabır konusunda küçük bir kazanımı fark ediyorum.",
+        "fr": "Aujourd'hui, je remarque une petite victoire en patience.",
+        "pt": "Hoje, noto uma pequena vitória em paciência.",
+        "nl": "Vandaag zie ik een kleine overwinning in geduld.",
+        "es": "Hoy noto una pequeña victoria en paciencia.",
+        "de": "Heute bemerke ich einen kleinen Erfolg in geduld.",
+        "it": "Oggi noto una piccola vittoria in pazienza.",
+        "ru": "Сегодня в теме «терпение» я замечаю маленькую победу.",
+        "id": "Hari ini, aku melihat satu kemenangan kecil dalam kesabaran.",
+        "ja": "今日、忍耐で小さな勝ちを一つ見つける。",
+        "th": "วันนี้ฉันเห็นชัยชนะเล็ก ๆ ในความอดทน",
+        "ms": "Hari ini, saya nampak satu kemenangan kecil dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_271",
+      "type": "affirmation",
+      "texts": {
+        "en": "I honor my boundaries as I move forward in patience.",
+        "tr": "sabır konusunda ilerlerken sınırlarımı önemsiyorum.",
+        "fr": "Je respecte mes limites en avançant dans patience.",
+        "pt": "Eu respeito meus limites enquanto avanço em paciência.",
+        "nl": "Ik eer mijn grenzen terwijl ik vooruitga in geduld.",
+        "es": "Honro mis límites mientras avanzo en paciencia.",
+        "de": "Ich achte auf meine Grenzen, während ich in geduld vorangehe.",
+        "it": "Onoro i miei limiti mentre avanzo in pazienza.",
+        "ru": "В теме «терпение» я уважаю свои границы и двигаюсь вперед.",
+        "id": "Aku menghormati batasanku saat melangkah maju dalam kesabaran.",
+        "ja": "忍耐で前に進みながら、自分の境界を尊重する。",
+        "th": "ฉันเคารพขอบเขตของตัวเองขณะก้าวหน้าในความอดทน",
+        "ms": "Saya menghormati batas saya sambil bergerak maju dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_272",
+      "type": "affirmation",
+      "texts": {
+        "en": "I let curiosity guide my steps in patience.",
+        "tr": "sabır konusunda adımlarımı merak yönlendiriyor.",
+        "fr": "Je laisse la curiosité guider mes pas en patience.",
+        "pt": "Deixo a curiosidade guiar meus passos em paciência.",
+        "nl": "Ik laat nieuwsgierigheid mijn stappen sturen in geduld.",
+        "es": "Dejo que la curiosidad guíe mis pasos en paciencia.",
+        "de": "Ich lasse Neugier meine Schritte in geduld lenken.",
+        "it": "Lascio che la curiosità guidi i miei passi in pazienza.",
+        "ru": "В теме «терпение» я позволяю любопытству вести мои шаги.",
+        "id": "Aku membiarkan rasa ingin tahu menuntun langkahku dalam kesabaran.",
+        "ja": "忍耐では、好奇心に足取りを導かせる。",
+        "th": "ฉันปล่อยให้ความอยากรู้พาฉันก้าวในความอดทน",
+        "ms": "Saya biarkan rasa ingin tahu membimbing langkah saya dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_273",
+      "type": "affirmation",
+      "texts": {
+        "en": "I choose clarity over urgency in patience.",
+        "tr": "sabır konusunda acele yerine netliği seçiyorum.",
+        "fr": "Je choisis la clarté plutôt que l'urgence en patience.",
+        "pt": "Eu escolho clareza em vez de urgência em paciência.",
+        "nl": "Ik kies helderheid boven haast in geduld.",
+        "es": "Elijo claridad en lugar de urgencia en paciencia.",
+        "de": "Ich wähle Klarheit statt Dringlichkeit in geduld.",
+        "it": "Scelgo chiarezza invece di urgenza in pazienza.",
+        "ru": "В теме «терпение» я выбираю ясность вместо срочности.",
+        "id": "Aku memilih kejelasan daripada tergesa-gesa dalam kesabaran.",
+        "ja": "忍耐では、緊急性よりも明確さを選ぶ。",
+        "th": "ฉันเลือกความชัดเจนมากกว่าความเร่งรีบในความอดทน",
+        "ms": "Saya memilih kejelasan berbanding tergesa-gesa dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_274",
+      "type": "affirmation",
+      "texts": {
+        "en": "I keep patience gentle and consistent.",
+        "tr": "sabır konusunda yumuşak ve istikrarlı kalıyorum.",
+        "fr": "Je garde patience avec douceur et constance.",
+        "pt": "Mantenho paciência com suavidade e constância.",
+        "nl": "Ik houd geduld zacht en consistent.",
+        "es": "Mantengo paciencia suave y constante.",
+        "de": "Ich halte geduld sanft und beständig.",
+        "it": "Mantengo pazienza con dolcezza e costanza.",
+        "ru": "В теме «терпение» я сохраняю мягкость и последовательность.",
+        "id": "Aku menjaga kesabaran tetap lembut dan konsisten.",
+        "ja": "忍耐を穏やかで一貫したものに保つ。",
+        "th": "ฉันทำให้ความอดทนอ่อนโยนและสม่ำเสมอ",
+        "ms": "Saya mengekalkan kesabaran dengan lembut dan konsisten."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_275",
+      "type": "affirmation",
+      "texts": {
+        "en": "I listen to what patience needs from me right now.",
+        "tr": "Şu anda sabır konusunda benden ne gerektiğini dinliyorum.",
+        "fr": "J'écoute ce que patience a besoin de moi maintenant.",
+        "pt": "Eu escuto o que paciência precisa de mim agora.",
+        "nl": "Ik luister naar wat geduld nu van mij nodig heeft.",
+        "es": "Escucho lo que paciencia necesita de mí ahora.",
+        "de": "Ich höre darauf, was geduld jetzt von mir braucht.",
+        "it": "Ascolto ciò di cui pazienza ha bisogno da me adesso.",
+        "ru": "Сейчас в теме «терпение» я слушаю, что нужно от меня.",
+        "id": "Aku mendengarkan apa yang kesabaran butuhkan dariku sekarang.",
+        "ja": "今、忍耐が私に求めていることに耳を傾ける。",
+        "th": "ตอนนี้ฉันฟังว่าความอดทนต้องการอะไรจากฉัน",
+        "ms": "Saya mendengar apa yang kesabaran perlukan daripada saya sekarang."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_276",
+      "type": "affirmation",
+      "texts": {
+        "en": "I trust that steady effort in patience compounds.",
+        "tr": "sabır konusunda düzenli çabanın biriktiğine güveniyorum.",
+        "fr": "Je fais confiance à l'effet cumulé d'un effort régulier en patience.",
+        "pt": "Confio que o esforço constante em paciência se acumula.",
+        "nl": "Ik vertrouw erop dat gestage inzet in geduld zich opstapelt.",
+        "es": "Confío en que el esfuerzo constante en paciencia se acumula.",
+        "de": "Ich vertraue darauf, dass stetige Mühe in geduld sich auszahlt.",
+        "it": "Mi fido del fatto che lo sforzo costante in pazienza si accumuli.",
+        "ru": "Я доверяю тому, что устойчивое усилие в теме «терпение» накапливается.",
+        "id": "Aku percaya bahwa usaha yang stabil dalam kesabaran berakumulasi.",
+        "ja": "忍耐での着実な努力が積み重なると信じる。",
+        "th": "ฉันเชื่อว่าความพยายามอย่างสม่ำเสมอในความอดทนจะสะสม",
+        "ms": "Saya percaya usaha yang stabil dalam kesabaran terkumpul."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
+    },
+    {
+      "id": "patience_277",
+      "type": "affirmation",
+      "texts": {
+        "en": "I welcome ease and focus into patience.",
+        "tr": "sabır konusunda huzuru ve odağı içeri davet ediyorum.",
+        "fr": "J'accueille la facilité et la concentration dans patience.",
+        "pt": "Eu acolho leveza e foco em paciência.",
+        "nl": "Ik verwelkom gemak en focus in geduld.",
+        "es": "Doy la bienvenida a la calma y el enfoque en paciencia.",
+        "de": "Ich heiße Leichtigkeit und Fokus in geduld willkommen.",
+        "it": "Accolgo leggerezza e concentrazione in pazienza.",
+        "ru": "В теме «терпение» я приветствую легкость и фокус.",
+        "id": "Aku menyambut kemudahan dan fokus dalam kesabaran.",
+        "ja": "忍耐に、軽やかさと集中を迎え入れる。",
+        "th": "ฉันต้อนรับความผ่อนคลายและสมาธิในความอดทน",
+        "ms": "Saya mengalu-alukan ketenangan dan fokus dalam kesabaran."
+      },
+      "authors": {
+        "en": "",
+        "tr": "",
+        "fr": "",
+        "pt": "",
+        "nl": "",
+        "es": "",
+        "de": "",
+        "it": "",
+        "ru": "",
+        "id": "",
+        "ja": "",
+        "th": "",
+        "ms": ""
+      },
+      "category": "patience",
+      "tags": {
+        "en": [
+          "patience",
+          "consistency",
+          "clarity"
+        ],
+        "tr": [
+          "sabır",
+          "tutarlılık",
+          "netlik"
+        ],
+        "fr": [
+          "patience",
+          "constance",
+          "clarté"
+        ],
+        "pt": [
+          "paciência",
+          "consistência",
+          "clareza"
+        ],
+        "nl": [
+          "geduld",
+          "consistentie",
+          "helderheid"
+        ],
+        "es": [
+          "paciencia",
+          "constancia",
+          "claridad"
+        ],
+        "de": [
+          "geduld",
+          "konsequenz",
+          "klarheit"
+        ],
+        "it": [
+          "pazienza",
+          "costanza",
+          "chiarezza"
+        ],
+        "ru": [
+          "терпение",
+          "последовательность",
+          "ясность"
+        ],
+        "id": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ],
+        "ja": [
+          "忍耐",
+          "一貫性",
+          "明確さ"
+        ],
+        "th": [
+          "ความอดทน",
+          "ความสม่ำเสมอ",
+          "ความชัดเจน"
+        ],
+        "ms": [
+          "kesabaran",
+          "konsistensi",
+          "kejelasan"
+        ]
+      },
+      "readTime": "0"
     }
   ]
 }
