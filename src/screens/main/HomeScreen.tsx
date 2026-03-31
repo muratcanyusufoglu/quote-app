@@ -1,5 +1,5 @@
 import {useLocalSearchParams} from "expo-router";
-import React, {useEffect, useRef, useState} from "react";
+import React, {useCallback, useEffect, useRef, useState} from "react";
 import {StyleSheet, Text, View} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {QuoteReels} from "../../components/reels";
@@ -154,8 +154,9 @@ export function HomeScreen() {
   // Onboarding actions for debug
   const {resetOnboarding} = useOnboardingActions();
 
-  // Quote store actions
-  const {addToSeen} = useActions();
+  // Quote store actions — use markAsRead (not addToSeen) so that lastReadDate
+  // is properly updated and the streak algorithm can track consecutive days.
+  const {markAsRead} = useActions();
 
   // Paywall tracking
   const {trackAction} = usePaywallSelectors.actions();
@@ -281,8 +282,11 @@ export function HomeScreen() {
     }
   }, [selectedCategory, allCategories, trackCategoryFilter, isPremium]);
 
-  // Handle quote view tracking with daily limit check
-  const handleQuoteView = async (quote: LocalizedQuote) => {
+  // Handle quote view tracking with daily limit check.
+  // Wrapped in useCallback so QuoteReels never receives a new function
+  // reference on re-render — a new reference would rebuild the internal
+  // onViewableItemsChanged callback and can cause FlatList auto-scroll.
+  const handleQuoteView = useCallback(async (quote: LocalizedQuote) => {
     // Check daily limit before allowing quote view
     const canView = await tryViewQuote();
 
@@ -295,8 +299,10 @@ export function HomeScreen() {
     // Track quote view for analytics
     console.log("Quote viewed:", quote.id);
 
-    // Mark quote as seen in feed (no streak/daily side effects)
-    addToSeen(quote.id);
+    // markAsRead updates lastReadDate + seenQuotes + dailyReads and calls
+    // updateStreak() on the first read of each new day — this is what makes
+    // the streak algorithm actually work.
+    markAsRead(quote);
 
     // Track quote view
     trackQuoteView({
@@ -318,7 +324,7 @@ export function HomeScreen() {
         "👑 Premium user - skipping interaction tracking (quote view)"
       );
     }
-  };
+  }, [tryViewQuote, markAsRead, trackQuoteView, incrementQuotesRead, isPremium, trackUserInteraction]);
 
   // Track actions when user interacts with quotes
   const handleQuoteAction = (actionType: string) => {

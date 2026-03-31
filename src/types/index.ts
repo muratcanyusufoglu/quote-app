@@ -464,6 +464,7 @@ export type PaywallTriggerSource =
   | "real_purchase"
   | "first_time"
   | "discounted"
+  | "second_discount"
   | "manual";
 
 export interface PaywallTestimonial {
@@ -482,7 +483,9 @@ export interface PaywallStoreState {
   // Progressive paywall tracking
   hasSeenFirstTimePaywall: boolean;
   hasSeenDiscountPaywall: boolean;
+  hasSeenSecondDiscountPaywall: boolean;
   userInteractionCount: number;
+  swipeCountForPaywall3: number;
   onboardingCompletedDate: string | null;
 }
 
@@ -498,10 +501,13 @@ export interface PaywallStoreActions {
   markOnboardingCompleted: () => void;
   showFirstTimePaywall: () => void;
   trackUserInteraction: () => void;
+  trackSwipeForPaywall3: () => void;
+  showPaywall3: () => void;
   resetProgressivePaywall: () => void;
   resetInteractionCountForDiscount: () => void;
   isFirstTimePaywall: () => boolean;
   isDiscountedPaywall: () => boolean;
+  isSecondDiscountPaywall: () => boolean;
 }
 
 export type PaywallStore = PaywallStoreState & PaywallStoreActions;

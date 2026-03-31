@@ -63,6 +63,16 @@ export function QuoteReels({
   const [isFavoriteActionInProgress, setIsFavoriteActionInProgress] =
     useState(false);
 
+  // Track previous categoryFilter so we only reset quotes on actual category changes,
+  // not on every initialQuotes reference update (which happens when seenQuotes changes).
+  const prevCategoryFilterRef = useRef<string | null>(categoryFilter);
+
+  // Stable refs for viewability handler — avoids passing a new function to
+  // onViewableItemsChanged (React Native explicitly does not support that).
+  const viewedQuotesRef = useRef<Set<string>>(new Set());
+  const onQuoteViewRef = useRef(onQuoteView);
+  const isFavoriteActionInProgressRef = useRef(isFavoriteActionInProgress);
+
   // Store data
   const favoriteQuotes = useFavoriteQuotes();
   const seenQuotes = useSeenQuotes();
@@ -106,12 +116,18 @@ export function QuoteReels({
     }
   }, []); // Sadece ilk mount'ta çalış
 
-  // Reload quotes when category filter or initial quotes change
+  // Reload quotes ONLY when the category filter actually changes.
+  // Do NOT reset when initialQuotes reference changes (it changes every time
+  // seenQuotes updates, which would cause the FlatList to re-render its data
+  // and trigger an unwanted auto-scroll via pagingEnabled's snap mechanism).
   useEffect(() => {
+    if (prevCategoryFilterRef.current === categoryFilter) return;
+    prevCategoryFilterRef.current = categoryFilter;
+
     if (initialQuotes.length > 0) {
       if (__DEV__)
         console.log(
-          "📦 Initial quotes changed, updating:",
+          "📦 Category filter changed, reloading quotes:",
           initialQuotes.length
         );
       const uniqueInitialQuotes = initialQuotes.filter(
@@ -329,24 +345,34 @@ export function QuoteReels({
     }
   }, []);
 
-  const handleViewableItemsChanged = useCallback(
-    ({ viewableItems }: any) => {
-      // Don't trigger viewable items change during favorite actions
-      if (isFavoriteActionInProgress) {
-        return;
-      }
+  // Keep refs in sync with latest values so the stable callback below always
+  // reads current data without ever changing its own reference.
+  useEffect(() => { viewedQuotesRef.current = viewedQuotes; }, [viewedQuotes]);
+  useEffect(() => { onQuoteViewRef.current = onQuoteView; }, [onQuoteView]);
+  useEffect(() => {
+    isFavoriteActionInProgressRef.current = isFavoriteActionInProgress;
+  }, [isFavoriteActionInProgress]);
 
-      // Mark quotes as viewed when they become visible
+  // STABLE callback — created once, never changes reference.
+  // React Native explicitly does not support changing onViewableItemsChanged
+  // after mount; doing so can cause the FlatList to re-fire for visible items
+  // and produce unexpected auto-scroll behaviour.
+  const stableHandleViewableItemsChanged = useRef(
+    ({ viewableItems }: any) => {
+      if (isFavoriteActionInProgressRef.current) return;
       viewableItems.forEach((item: any) => {
         const quote = item.item as LocalizedQuote;
-        if (!viewedQuotes.has(quote.id)) {
-          setViewedQuotes((prev) => new Set([...prev, quote.id]));
-          onQuoteView?.(quote);
+        if (!viewedQuotesRef.current.has(quote.id)) {
+          viewedQuotesRef.current = new Set([
+            ...viewedQuotesRef.current,
+            quote.id,
+          ]);
+          setViewedQuotes(new Set(viewedQuotesRef.current));
+          onQuoteViewRef.current?.(quote);
         }
       });
-    },
-    [viewedQuotes, onQuoteView]
-  );
+    }
+  ).current;
 
   const handleEndReached = useCallback(() => {
     if (hasMoreQuotes && !isLoading) {
@@ -446,7 +472,7 @@ export function QuoteReels({
         decelerationRate="fast"
         getItemLayout={getItemLayout}
         viewabilityConfig={viewabilityConfig}
-        onViewableItemsChanged={handleViewableItemsChanged}
+        onViewableItemsChanged={stableHandleViewableItemsChanged}
         onEndReached={handleEndReached}
         onEndReachedThreshold={0.5}
         removeClippedSubviews={true}

@@ -1,22 +1,21 @@
-import { LinearGradient } from "expo-linear-gradient";
-import React, { useEffect, useRef } from "react";
+import React, {useEffect, useRef} from "react";
 import {
   Animated,
-  Dimensions,
+  Easing,
   Modal,
   Platform,
   StyleSheet,
   Text,
   TouchableOpacity,
+  TouchableWithoutFeedback,
   View,
 } from "react-native";
-import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { useTranslation } from "../../hooks/useTranslation";
-import { useUserName } from "../../store/useOnboardingStore";
-import { useTheme } from "../../utils/ThemeContext";
+import {useSafeAreaInsets} from "react-native-safe-area-context";
+import {IconSymbol} from "../../../components/ui/IconSymbol";
+import {useTranslation} from "../../hooks/useTranslation";
+import {useTheme} from "../../utils/ThemeContext";
 
-const { width, height } = Dimensions.get("window");
-const isIOS = Platform.OS === "ios";
+const AUTO_CLOSE_MS = 4000;
 
 interface StreakModalProps {
   visible: boolean;
@@ -25,234 +24,244 @@ interface StreakModalProps {
   onClose: () => void;
 }
 
-// Notification-style streak notification component
-
 export default function StreakModal({
   visible,
   streakCount,
   isStreakContinued,
   onClose,
 }: StreakModalProps) {
-  const { t } = useTranslation();
-  const { theme } = useTheme();
-  const userName = useUserName();
+  const {t} = useTranslation();
+  const {theme, isDark} = useTheme();
+  const insets = useSafeAreaInsets();
 
-  // Animation values for notification slide
-  const translateY = useRef(new Animated.Value(-200)).current;
-  const opacity = useRef(new Animated.Value(0)).current;
-  const scaleAnim = useRef(new Animated.Value(0.9)).current;
+  // Animations
+  const backdropOpacity = useRef(new Animated.Value(0)).current;
+  const cardScale = useRef(new Animated.Value(0.88)).current;
+  const cardOpacity = useRef(new Animated.Value(0)).current;
+  const progressWidth = useRef(new Animated.Value(1)).current; // 1 → 0
+  const autoCloseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => {
-    if (visible) {
-      // Reset all animations
-      translateY.setValue(-200);
-      opacity.setValue(0);
-      scaleAnim.setValue(0.9);
+  const displayCount = Math.max(isStreakContinued ? 1 : 0, streakCount);
 
-      // Slide in from top animation
-      Animated.parallel([
-        Animated.timing(translateY, {
-          toValue: 0,
-          duration: 500,
-          useNativeDriver: true,
-        }),
-        Animated.timing(opacity, {
-          toValue: 1,
-          duration: 400,
-          useNativeDriver: true,
-        }),
-        Animated.spring(scaleAnim, {
-          toValue: 1,
-          tension: 100,
-          friction: 8,
-          useNativeDriver: true,
-        }),
-      ]).start();
-
-      // Auto close after 4 seconds
-      const timer = setTimeout(() => {
-        handleClose();
-      }, 4000);
-
-      return () => clearTimeout(timer);
-    }
-  }, [visible]);
-
-  const handleClose = () => {
-    Animated.parallel([
-      Animated.timing(translateY, {
-        toValue: -200,
-        duration: 300,
-        useNativeDriver: true,
-      }),
-      Animated.timing(opacity, {
-        toValue: 0,
-        duration: 250,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
-      onClose();
-    });
-  };
-
-  // Ensure streak count is always at least 1 for display
-  const displayStreakCount = Math.max(1, streakCount);
+  // ─── Helpers ────────────────────────────────────────────────────────────────
 
   const getTitle = () => {
-    if (isStreakContinued) {
-      if (displayStreakCount === 1) {
-        return t("streak.started_title");
-      }
-      return t("streak.continued_title");
-    }
-    return t("streak.broken_title");
+    if (!isStreakContinued) return t("streak.broken_title");
+    if (displayCount === 1) return t("streak.started_title");
+    return t("streak.continued_title");
   };
 
   const getMessage = () => {
-    if (isStreakContinued) {
-      if (displayStreakCount === 1) {
-        return t("streak.started_message");
-      }
-      return t("streak.continued_message").replace(
-        "{count}",
-        displayStreakCount.toString()
-      );
-    }
-    return t("streak.broken_message");
+    if (!isStreakContinued) return t("streak.broken_message");
+    if (displayCount === 1) return t("streak.started_message");
+    return t("streak.continued_message").replace(
+      "{count}",
+      displayCount.toString()
+    );
   };
 
-  const getStreakEmoji = () => {
-    if (!isStreakContinued) return "💔";
-    if (displayStreakCount === 1) return "🌟";
-    if (displayStreakCount >= 7) return "🔥";
-    if (displayStreakCount >= 3) return "⚡";
-    return "✨";
+  // ─── Accent colour ──────────────────────────────────────────────────────────
+  const gold = theme.colors.brandYellow ?? "#f4d03f";
+  const accentColor = isStreakContinued ? gold : (isDark ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.18)");
+  const iconColor = isStreakContinued ? gold : (isDark ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.3)");
+
+  // ─── Animation helpers ───────────────────────────────────────────────────────
+  const animateIn = () => {
+    progressWidth.setValue(1);
+    cardScale.setValue(0.88);
+    cardOpacity.setValue(0);
+    backdropOpacity.setValue(0);
+
+    Animated.parallel([
+      Animated.timing(backdropOpacity, {
+        toValue: 1,
+        duration: 250,
+        useNativeDriver: true,
+      }),
+      Animated.timing(cardOpacity, {
+        toValue: 1,
+        duration: 280,
+        useNativeDriver: true,
+      }),
+      Animated.spring(cardScale, {
+        toValue: 1,
+        tension: 120,
+        friction: 9,
+        useNativeDriver: true,
+      }),
+    ]).start();
+
+    // Progress bar depletes over AUTO_CLOSE_MS
+    Animated.timing(progressWidth, {
+      toValue: 0,
+      duration: AUTO_CLOSE_MS,
+      easing: Easing.linear,
+      useNativeDriver: false,
+    }).start();
   };
 
-  // Get notification background gradient
-  const getNotificationGradient = (): [string, string, ...string[]] => {
-    if (isStreakContinued) {
-      return [
-        theme.colors.brandYellow + "F0",
-        theme.colors.brandYellow + "E0",
-        theme.colors.brandYellow + "D0",
-      ];
-    }
-    return [
-      theme.colors.whiteOverlay70,
-      theme.colors.whiteOverlay80,
-      theme.colors.whiteOverlay90,
-    ];
+  const animateOut = (cb?: () => void) => {
+    Animated.parallel([
+      Animated.timing(backdropOpacity, {
+        toValue: 0,
+        duration: 220,
+        useNativeDriver: true,
+      }),
+      Animated.timing(cardOpacity, {
+        toValue: 0,
+        duration: 200,
+        useNativeDriver: true,
+      }),
+      Animated.timing(cardScale, {
+        toValue: 0.92,
+        duration: 200,
+        useNativeDriver: true,
+      }),
+    ]).start(cb);
   };
+
+  const handleClose = () => {
+    if (autoCloseTimer.current) clearTimeout(autoCloseTimer.current);
+    animateOut(onClose);
+  };
+
+  // ─── Lifecycle ───────────────────────────────────────────────────────────────
+  useEffect(() => {
+    if (visible) {
+      animateIn();
+      autoCloseTimer.current = setTimeout(handleClose, AUTO_CLOSE_MS);
+    }
+    return () => {
+      if (autoCloseTimer.current) clearTimeout(autoCloseTimer.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [visible]);
 
   if (!visible) return null;
+
+  // ─── Card colours ────────────────────────────────────────────────────────────
+  const cardBg = theme.colors.background;
+  const borderColor = isDark ? "rgba(255,255,255,0.09)" : "rgba(0,0,0,0.07)";
+  const countLabelColor = isStreakContinued
+    ? gold
+    : (isDark ? "rgba(255,255,255,0.35)" : "rgba(0,0,0,0.25)");
 
   return (
     <Modal
       transparent
       visible={visible}
       animationType="none"
+      statusBarTranslucent
       onRequestClose={handleClose}
     >
-      <View style={styles.notificationContainer}>
+      {/* Backdrop */}
+      <TouchableWithoutFeedback onPress={handleClose}>
+        <Animated.View
+          style={[styles.backdrop, {opacity: backdropOpacity}]}
+        />
+      </TouchableWithoutFeedback>
+
+      {/* Card */}
+      <View
+        style={[
+          styles.centeredWrapper,
+          {paddingBottom: insets.bottom + 32, paddingTop: insets.top + 16},
+        ]}
+        pointerEvents="box-none"
+      >
         <Animated.View
           style={[
-            styles.notification,
+            styles.card,
             {
-              opacity: opacity,
-              transform: [{ translateY: translateY }, { scale: scaleAnim }],
+              backgroundColor: cardBg,
+              borderColor,
+              opacity: cardOpacity,
+              transform: [{scale: cardScale}],
+              shadowColor: isDark ? "#000" : "#333",
             },
           ]}
         >
-          <LinearGradient
-            colors={getNotificationGradient()}
-            style={styles.notificationGradient}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
+          {/* Progress bar */}
+          <View style={[styles.progressTrack, {backgroundColor: isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)"}]}>
+            <Animated.View
+              style={[
+                styles.progressFill,
+                {
+                  backgroundColor: accentColor,
+                  width: progressWidth.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: ["0%", "100%"],
+                  }),
+                },
+              ]}
+            />
+          </View>
+
+          {/* Close button */}
+          <TouchableOpacity
+            style={styles.closeBtn}
+            onPress={handleClose}
+            hitSlop={{top: 12, bottom: 12, left: 12, right: 12}}
           >
-            <TouchableOpacity
-              style={styles.notificationContent}
-              onPress={handleClose}
-              activeOpacity={0.8}
+            <IconSymbol
+              name="xmark"
+              size={14}
+              color={isDark ? "rgba(255,255,255,0.35)" : "rgba(0,0,0,0.3)"}
+              strokeWidth={2.5}
+            />
+          </TouchableOpacity>
+
+          {/* Body */}
+          <View style={styles.body}>
+            {/* Icon */}
+            <View
+              style={[
+                styles.iconWrap,
+                {
+                  backgroundColor: isStreakContinued
+                    ? `${gold}1A`
+                    : (isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)"),
+                },
+              ]}
             >
-              {/* Icon & Content */}
-              <View style={styles.leftContent}>
-                {!isStreakContinued && (
-                  <View
-                    style={[
-                      styles.iconContainer,
-                      {
-                        backgroundColor: isStreakContinued
-                          ? theme.colors.brandYellow + "40"
-                          : "#00000020",
-                      },
-                    ]}
-                  >
-                    <Text style={styles.iconEmoji}>{getStreakEmoji()}</Text>
-                  </View>
-                )}
-                <View style={styles.textContent}>
-                  <Text
-                    style={[
-                      styles.notificationTitle,
-                      {
-                        color: isStreakContinued ? "#000" : "#000000",
-                      },
-                    ]}
-                  >
-                    {getTitle()}
-                  </Text>
-                  <Text
-                    style={[
-                      styles.notificationMessage,
-                      {
-                        color: isStreakContinued ? "#000000CC" : "#000000BB",
-                      },
-                    ]}
-                  >
-                    {getMessage()}
-                  </Text>
-                </View>
-              </View>
+              <IconSymbol
+                name={isStreakContinued ? "flame" : "heart"}
+                size={28}
+                color={iconColor}
+                strokeWidth={1.5}
+              />
+            </View>
 
-              {/* Streak Count */}
-              <View style={styles.rightContent}>
-                <Text
-                  style={[
-                    styles.streakCount,
-                    {
-                      color: isStreakContinued ? "#000" : "#000000",
-                    },
-                  ]}
-                >
-                  {displayStreakCount}
+            {/* Count — only shown when continued */}
+            {isStreakContinued && (
+              <View style={styles.countRow}>
+                <Text style={[styles.countNumber, {color: countLabelColor}]}>
+                  {displayCount}
                 </Text>
-                <Text
-                  style={[
-                    styles.streakDays,
-                    {
-                      color: isStreakContinued ? "#000000AA" : "#000000AA",
-                    },
-                  ]}
-                >
-                  {displayStreakCount === 1 ? t("streak.day") : t("streak.days")}
+                <Text style={[styles.countUnit, {color: isDark ? "rgba(255,255,255,0.45)" : "rgba(0,0,0,0.38)"}]}>
+                  {displayCount === 1 ? t("streak.day") : t("streak.days")}
                 </Text>
               </View>
+            )}
 
-              {/* Close Icon */}
-              <TouchableOpacity
-                style={styles.closeButton}
-                onPress={handleClose}
-                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-              >
-                <IconSymbol
-                  name="xmark"
-                  size={16}
-                  color={isStreakContinued ? "#00000080" : "#00000080"}
-                />
-              </TouchableOpacity>
-            </TouchableOpacity>
-          </LinearGradient>
+            {/* Gold accent line */}
+            <View style={[styles.accentLine, {backgroundColor: accentColor}]} />
+
+            {/* Title */}
+            <Text style={[styles.title, {color: theme.colors.text}]}>
+              {getTitle()}
+            </Text>
+
+            {/* Message */}
+            <Text
+              style={[
+                styles.message,
+                {color: isDark ? "rgba(255,255,255,0.55)" : "rgba(0,0,0,0.5)"},
+              ]}
+            >
+              {getMessage()}
+            </Text>
+          </View>
         </Animated.View>
       </View>
     </Modal>
@@ -260,91 +269,92 @@ export default function StreakModal({
 }
 
 const styles = StyleSheet.create({
-  notificationContainer: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    zIndex: 1000,
-    paddingTop: isIOS ? 50 : 25,
-    paddingHorizontal: 16,
+  backdrop: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0,0,0,0.45)",
   },
-  notification: {
-    borderRadius: 16,
-    overflow: "hidden",
-    elevation: 12,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 6,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 12,
-  },
-  notificationGradient: {
-    borderRadius: 16,
-  },
-  notificationContent: {
-    flexDirection: "row",
+  centeredWrapper: {
+    ...StyleSheet.absoluteFillObject,
     alignItems: "center",
-    paddingHorizontal: 16,
-    paddingVertical: 14,
-    minHeight: 80,
-  },
-  leftContent: {
-    flexDirection: "row",
-    alignItems: "center",
-    flex: 1,
-  },
-  iconContainer: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
     justifyContent: "center",
-    alignItems: "center",
-    marginRight: 12,
   },
-  iconEmoji: {
-    fontSize: 20,
-    textAlign: "center",
+  card: {
+    width: 300,
+    borderRadius: 22,
+    borderWidth: 1,
+    overflow: "hidden",
+    shadowOffset: {width: 0, height: 12},
+    shadowOpacity: 0.18,
+    shadowRadius: 24,
+    elevation: 16,
   },
-  textContent: {
-    flex: 1,
-    marginRight: 8,
+  progressTrack: {
+    height: 3,
+    width: "100%",
   },
-  notificationTitle: {
-    fontSize: 16,
-    fontWeight: "700",
-    marginBottom: 2,
-    letterSpacing: -0.2,
+  progressFill: {
+    height: "100%",
+    borderRadius: 2,
   },
-  notificationMessage: {
-    fontSize: 13,
-    fontWeight: "500",
-    opacity: 0.8,
-    lineHeight: 18,
-  },
-  rightContent: {
-    alignItems: "center",
-    marginRight: 8,
-  },
-  streakCount: {
-    fontSize: 24,
-    fontWeight: "900",
-    lineHeight: 26,
-    letterSpacing: -1,
-  },
-  streakDays: {
-    fontSize: 11,
-    fontWeight: "600",
-    textTransform: "lowercase",
-    opacity: 0.7,
-  },
-  closeButton: {
+  closeBtn: {
+    position: "absolute",
+    top: 14,
+    right: 14,
+    zIndex: 10,
     width: 24,
     height: 24,
-    borderRadius: 12,
-    justifyContent: "center",
     alignItems: "center",
+    justifyContent: "center",
+  },
+  body: {
+    paddingHorizontal: 28,
+    paddingTop: 28,
+    paddingBottom: 32,
+    alignItems: "center",
+  },
+  iconWrap: {
+    width: 56,
+    height: 56,
+    borderRadius: 16,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 16,
+  },
+  countRow: {
+    flexDirection: "row",
+    alignItems: "baseline",
+    gap: 5,
+    marginBottom: 16,
+  },
+  countNumber: {
+    fontSize: 48,
+    fontWeight: "800",
+    letterSpacing: -2,
+    lineHeight: 52,
+  },
+  countUnit: {
+    fontSize: 15,
+    fontWeight: "500",
+    letterSpacing: 0.2,
+    marginBottom: 4,
+  },
+  accentLine: {
+    width: 32,
+    height: 3,
+    borderRadius: 2,
+    marginBottom: 14,
+  },
+  title: {
+    fontSize: 17,
+    fontWeight: "700",
+    textAlign: "center",
+    letterSpacing: -0.3,
+    marginBottom: 8,
+  },
+  message: {
+    fontSize: 13,
+    textAlign: "center",
+    lineHeight: 19,
+    fontWeight: "400",
   },
 });

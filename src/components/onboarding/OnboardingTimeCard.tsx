@@ -64,7 +64,29 @@ export function OnboardingTimeCard({
         </View>
       )}
 
-      <Text style={styles.iconEmoji}>{icon}</Text>
+      <View
+        style={[
+          styles.iconContainer,
+          {
+            backgroundColor: isSelected
+              ? `${theme.colors.brandYellow}22`
+              : isDark
+              ? "rgba(255,255,255,0.08)"
+              : "rgba(0,0,0,0.06)",
+          },
+        ]}
+      >
+        <IconSymbol
+          name={icon as any}
+          size={20}
+          color={
+            isSelected
+              ? theme.colors.brandYellow
+              : theme.colors.textSecondary
+          }
+          strokeWidth={1.5}
+        />
+      </View>
 
       <View style={styles.textWrap}>
         <Text
@@ -111,8 +133,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  iconEmoji: {
-    fontSize: 24,
+  iconContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
     marginBottom: 10,
   },
   textWrap: {

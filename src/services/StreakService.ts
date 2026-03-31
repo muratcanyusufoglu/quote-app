@@ -69,32 +69,26 @@ export class StreakService {
       let shouldShowModal = false;
 
       if (lastReadDate === today) {
-        // User read today - streak continues
-        // If streak is 0 or undefined, it means first read today, so streak = 1
-        // If streak > 0, it means consecutive days, so keep the current streak
-        // The streak should already be updated in the store when user reads
+        // User already read today — celebrate the active streak.
         newStreak = Math.max(1, currentStreak);
         isStreakContinued = true;
+        shouldShowModal = !hasModalShownToday;
         console.log("✅ User read today - streak continues:", newStreak);
-        // Bugün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
-        shouldShowModal = !hasModalShownToday;
       } else if (lastReadDate === yesterday) {
-        // User read yesterday but not today yet
-        // Streak should be 1 (yesterday was first day or continuation)
-        // When they read today, it will become 2
+        // User read yesterday but hasn't read today yet.
+        // Don't show a modal — they haven't earned the streak update yet.
+        // When they read their first quote today, markAsRead → updateStreak
+        // will increment the counter and the next app open will celebrate.
         newStreak = Math.max(1, currentStreak);
         isStreakContinued = true;
-        console.log("⏰ User read yesterday - can continue streak:", newStreak);
-        // Dün okuma yapmışsa ve modal bugün gösterilmemişse modal göster
-        shouldShowModal = !hasModalShownToday;
+        shouldShowModal = false;
+        console.log("⏰ User read yesterday - waiting for today's read, no modal");
       } else {
-        // User missed a day - streak is broken
-        console.log("💔 User missed a day - streak is broken");
-        // For display purposes, show 1 even when broken
-        newStreak = 1;
+        // User missed at least one day — streak is broken.
+        newStreak = 0;
         isStreakContinued = false;
-        // Break durumu - modal göster
         shouldShowModal = !hasModalShownToday;
+        console.log("💔 Streak broken - missed reading");
       }
 
       const result: StreakStatus = {
