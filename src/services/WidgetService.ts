@@ -11,6 +11,7 @@ export interface QuotePayload {
   author?: string;
   bg: string; // hex
   fg: string; // hex
+  type?: "quote" | "affirmation"; // kullanıcı onboarding seçimine göre
 }
 
 const APP_GROUP_ID = "group.com.quotespark.dailyinspiration";
@@ -43,45 +44,95 @@ export async function updateWithFavoriteOrRandom(): Promise<void> {
   // Pull from store synchronously
   const { quotes, favoriteQuotes } = useQuoteStore.getState();
   const selectedTheme = useThemeStore.getState().selectedTheme;
-  const preferredLang =
-    useOnboardingStore.getState().userPreferences?.language ||
-    getSystemLanguage();
+  const userPreferences = useOnboardingStore.getState().userPreferences;
+  const preferredLang = userPreferences?.language || getSystemLanguage();
+
+  // Kullanıcının onboarding seçimleri
+  const contentType = userPreferences?.contentType || "both";
+  const selectedCategories = userPreferences?.selectedCategories || [];
 
   console.log("📚 Widget için veri alınıyor:", {
     quotesCount: quotes.length,
     favoriteCount: favoriteQuotes.length,
     theme: selectedTheme,
     language: preferredLang,
+    contentType,
+    selectedCategories,
+  });
+
+  // Kullanıcı tercihlerine göre quote havuzunu filtrele
+  const buildFilteredPool = (allQuotes: any[]): any[] => {
+    if (!Array.isArray(allQuotes) || allQuotes.length === 0) return [];
+
+    let pool = allQuotes;
+
+    // 1. contentType'a göre filtrele
+    if (contentType === "quotes") {
+      // type alanı olmayan eski kayıtlar da quote sayılır
+      pool = pool.filter((q: any) => q.type === "quote" || !q.type);
+    } else if (contentType === "affirmations") {
+      pool = pool.filter((q: any) => q.type === "affirmation");
+    }
+    // "both" → filtre yok
+
+    // 2. Seçili kategorilere göre filtrele
+    if (selectedCategories.length > 0) {
+      const categoryPool = pool.filter((q: any) =>
+        selectedCategories.includes(q.category)
+      );
+      // Kategori filtresi sonuç verdiyse uygula, vermezse tüm havuzu kullan
+      if (categoryPool.length > 0) {
+        pool = categoryPool;
+      } else {
+        console.log(
+          "⚠️ Seçili kategorilerde içerik bulunamadı, tüm havuz kullanılıyor"
+        );
+      }
+    }
+
+    return pool;
+  };
+
+  const filteredPool = buildFilteredPool(quotes);
+  const activePool = filteredPool.length > 0 ? filteredPool : quotes;
+
+  console.log("🎯 Widget filtre sonucu:", {
+    contentType,
+    filteredCount: filteredPool.length,
+    activePoolCount: activePool.length,
   });
 
   const pick = () => {
     let chosen = undefined as any;
 
+    // Favoriler içinde filtreli havuzla kesişimi bul
     if (Array.isArray(favoriteQuotes) && favoriteQuotes.length > 0) {
-      // Favoriler arasından rastgele seç
-      const randomFavoriteIndex = Math.floor(
-        Math.random() * favoriteQuotes.length
-      );
-      const favoriteId = favoriteQuotes[randomFavoriteIndex];
-      console.log(
-        "⭐ Favori quote rastgele seçiliyor:",
-        favoriteId,
-        `(${randomFavoriteIndex + 1}/${favoriteQuotes.length})`
+      const filteredFavoriteIds = favoriteQuotes.filter((id: string) =>
+        activePool.some((q: any) => q.id === id)
       );
 
-      chosen = Array.isArray(quotes)
-        ? quotes.find((q: any) => q.id === favoriteId)
-        : undefined;
+      if (filteredFavoriteIds.length > 0) {
+        const randomFavoriteIndex = Math.floor(
+          Math.random() * filteredFavoriteIds.length
+        );
+        const favoriteId = filteredFavoriteIds[randomFavoriteIndex];
+        console.log(
+          "⭐ Favori (filtreli) quote rastgele seçiliyor:",
+          favoriteId,
+          `(${randomFavoriteIndex + 1}/${filteredFavoriteIds.length})`
+        );
+        chosen = activePool.find((q: any) => q.id === favoriteId);
+      }
     }
 
-    if (!chosen && Array.isArray(quotes) && quotes.length > 0) {
-      // Favori yoksa veya bulunamadıysa rastgele quote seç
-      const randomIndex = Math.floor(Math.random() * quotes.length);
-      chosen = quotes[randomIndex];
+    if (!chosen && activePool.length > 0) {
+      // Favoride bulunamazsa filtreli havuzdan rastgele seç
+      const randomIndex = Math.floor(Math.random() * activePool.length);
+      chosen = activePool[randomIndex];
       console.log(
-        "🎲 Rastgele quote seçiliyor:",
+        "🎲 Filtreli havuzdan rastgele seçiliyor:",
         chosen?.id,
-        `(${randomIndex + 1}/${quotes.length})`
+        `(${randomIndex + 1}/${activePool.length})`
       );
     }
 
@@ -151,6 +202,7 @@ export async function updateWithFavoriteOrRandom(): Promise<void> {
     author: localized.author,
     bg: theme.bg,
     fg: theme.fg,
+    type: (q.type as "quote" | "affirmation") || "quote",
   };
 
   console.log("📱 Widget payload hazırlandı:", {

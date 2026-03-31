@@ -9,6 +9,7 @@ struct QuoteEntry: TimelineEntry {
     let background: Color
     let foreground: Color
     let deepLinkURL: URL?
+    let contentType: String? // "quote" | "affirmation" — kullanıcı onboarding tercihine göre
 }
 
 struct Provider: TimelineProvider {
@@ -39,13 +40,14 @@ struct Provider: TimelineProvider {
         }
         
         return QuoteEntry(
-            date: Date(), 
-            id: nil, 
-            text: displayText, 
-            author: nil, 
-            background: Color(UIColor.systemBackground), 
-            foreground: Color(UIColor.label), 
-            deepLinkURL: nil
+            date: Date(),
+            id: nil,
+            text: displayText,
+            author: nil,
+            background: Color(UIColor.systemBackground),
+            foreground: Color(UIColor.label),
+            deepLinkURL: nil,
+            contentType: nil
         )
     }
 
@@ -74,34 +76,36 @@ struct Provider: TimelineProvider {
         var background = Color(UIColor.systemBackground)
         var foreground = Color(UIColor.label)
         var deepLink: URL? = nil
+        var contentType: String? = nil
 
         if let defaults = UserDefaults(suiteName: groupId) {
             print("📱 Widget: App Group bulundu: \(groupId)")
-            
+
             if let jsonString = defaults.string(forKey: "widgetQuote") {
                 print("📱 Widget: JSON string bulundu, uzunluk: \(jsonString.count)")
-                
+
                 if let data = jsonString.data(using: .utf8) {
                     do {
                         if let dict = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
-                            
+
                             // Log widget data for debugging
                             print("📱 Widget: JSON data loaded - \(dict)")
-                            
+
                             text = dict["text"] as? String ?? text
                             author = dict["author"] as? String
                             id = dict["id"] as? String
-                            
-                            if let bgHex = dict["bg"] as? String { 
+                            contentType = dict["type"] as? String
+
+                            if let bgHex = dict["bg"] as? String {
                                 background = Color(hex: bgHex)
                                 print("🎨 Widget: Background color set to \(bgHex)")
                             }
-                            if let fgHex = dict["fg"] as? String { 
+                            if let fgHex = dict["fg"] as? String {
                                 foreground = Color(hex: fgHex)
                                 print("🎨 Widget: Foreground color set to \(fgHex)")
                             }
-                            
-                            print("📱 Widget: Quote loaded - ID: \(id ?? "nil"), Text: \(text.prefix(30))..., Author: \(author ?? "nil")")
+
+                            print("📱 Widget: Content loaded - ID: \(id ?? "nil"), Type: \(contentType ?? "quote"), Text: \(text.prefix(30))..., Author: \(author ?? "nil")")
                         } else {
                             print("⚠️ Widget: JSON parsing failed - dict is nil")
                         }
@@ -125,7 +129,16 @@ struct Provider: TimelineProvider {
             print("⚠️ Widget: Deep link creation failed for ID: \(id ?? "nil")")
         }
 
-        return QuoteEntry(date: Date(), id: id, text: text, author: author, background: background, foreground: foreground, deepLinkURL: deepLink)
+        return QuoteEntry(
+            date: Date(),
+            id: id,
+            text: text,
+            author: author,
+            background: background,
+            foreground: foreground,
+            deepLinkURL: deepLink,
+            contentType: contentType
+        )
     }
 }
 
@@ -157,11 +170,29 @@ struct QuoteWidgetEntryView : View {
     // Home screen widget görünümü (mevcut kod)
     @ViewBuilder
     private func HomeScreenView(entry: Provider.Entry) -> some View {
+        let isAffirmation = entry.contentType == "affirmation"
+        let padding = getPadding()
+
         let content = ZStack(alignment: .topLeading) {
             entry.background
                 .ignoresSafeArea()
-            
+
             VStack(alignment: .leading, spacing: getSpacing()) {
+                // İçerik tipi badge'i — sadece affirmation'da göster
+                if isAffirmation {
+                    HStack(spacing: 3) {
+                        Image(systemName: "sparkles")
+                            .font(.system(size: 8, weight: .semibold))
+                        Text("Affirmation")
+                            .font(.system(size: 9, weight: .semibold))
+                    }
+                    .foregroundColor(entry.foreground.opacity(0.85))
+                    .padding(.horizontal, 7)
+                    .padding(.vertical, 3)
+                    .background(entry.foreground.opacity(0.18))
+                    .cornerRadius(8)
+                }
+
                 Text(entry.text)
                     .font(getQuoteFont())
                     .fontWeight(.semibold)
@@ -169,7 +200,7 @@ struct QuoteWidgetEntryView : View {
                     .lineLimit(getLineLimit())
                     .minimumScaleFactor(0.7)
                     .multilineTextAlignment(.leading)
-                
+
                 if let author = entry.author, !author.isEmpty {
                     Spacer(minLength: 4)
                     Text("— \(author)")
@@ -179,7 +210,7 @@ struct QuoteWidgetEntryView : View {
                         .minimumScaleFactor(0.8)
                 }
             }
-            .padding(getPadding())
+            .padding(padding)
         }
 
         if #available(iOSApplicationExtension 17.0, *) {
@@ -349,7 +380,7 @@ struct LockScreenInlineView: View {
                 .lineLimit(1)
                 .minimumScaleFactor(0.75)
         } icon: {
-            Image(systemName: "quote.bubble.fill")
+            Image(systemName: entry.contentType == "affirmation" ? "sparkles" : "quote.bubble.fill")
                 .font(.system(size: 11, weight: .medium))
                 .foregroundColor(.primary)
         }
