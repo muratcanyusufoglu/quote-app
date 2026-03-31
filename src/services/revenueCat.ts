@@ -38,6 +38,8 @@ export interface OfferingData {
 class RevenueCatService {
   private isInitialized = false;
   private offerings: PurchasesOffering[] = [];
+  // Map of all native packages across all fetched offerings, keyed by identifier
+  private allNativePackages: Map<string, PurchasesPackage> = new Map();
 
   /**
    * Initialize RevenueCat SDK
@@ -204,6 +206,11 @@ class RevenueCatService {
 
       this.offerings = [offerings.current];
 
+      // Cache all native packages for purchase lookup
+      offerings.current.availablePackages.forEach((pkg: PurchasesPackage) => {
+        this.allNativePackages.set(pkg.identifier, pkg);
+      });
+
       const result = {
         packages,
         lifetime,
@@ -234,13 +241,19 @@ class RevenueCatService {
         await this.initialize();
       }
 
-      // Find the original package object
-      const originalPackage = this.offerings[0]?.availablePackages.find(
-        (pkg: PurchasesPackage) =>
-          pkg.identifier === packageToPurchase.identifier
-      );
+      // Find the original package — search cached map first, then fall back to offerings
+      const originalPackage =
+        this.allNativePackages.get(packageToPurchase.identifier) ||
+        this.offerings[0]?.availablePackages.find(
+          (pkg: PurchasesPackage) =>
+            pkg.identifier === packageToPurchase.identifier
+        );
 
       if (!originalPackage) {
+        console.error(
+          `❌ Package not found: ${packageToPurchase.identifier}`,
+          `Available: ${[...this.allNativePackages.keys()].join(", ")}`
+        );
         return {
           success: false,
           error: "Package not found",

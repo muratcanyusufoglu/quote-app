@@ -48,7 +48,7 @@ export function HomeScreen() {
   const {incrementQuotesRead} = useStoreReview();
 
   // Progressive paywall tracking
-  const {trackUserInteraction} = usePaywallSelectors.actions();
+  const {trackUserInteraction, trackSwipeForPaywall3} = usePaywallSelectors.actions();
 
   // Daily quote limit tracking
   const {tryViewQuote, limitInfo, getLimitStatusMessage} = useDailyLimit();
@@ -318,13 +318,15 @@ export function HomeScreen() {
     // Track user interaction for progressive paywall (only for non-premium users)
     if (!isPremium) {
       trackUserInteraction();
-      console.log("🎯 User interaction tracked (quote view)");
+      // Paywall #3 swipe tracker — 5 swipe sonra second_discount paywall tetiklenir
+      trackSwipeForPaywall3();
+      console.log("🎯 User interaction + swipe tracked (quote view)");
     } else {
       console.log(
         "👑 Premium user - skipping interaction tracking (quote view)"
       );
     }
-  }, [tryViewQuote, markAsRead, trackQuoteView, incrementQuotesRead, isPremium, trackUserInteraction]);
+  }, [tryViewQuote, markAsRead, trackQuoteView, incrementQuotesRead, isPremium, trackUserInteraction, trackSwipeForPaywall3]);
 
   // Track actions when user interacts with quotes
   const handleQuoteAction = (actionType: string) => {

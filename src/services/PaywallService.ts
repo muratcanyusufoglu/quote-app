@@ -324,7 +324,22 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
   }
 }
 
-// Paywall Strategy for Two-Package System
+// ─── Package Identifier Constants ───────────────────────────────────────────
+// These map directly to RevenueCat package identifiers in the offering.
+export const PACKAGE_IDS = {
+  // Paywall #1 — three plan options
+  ANNUAL:   "aurora_premium_annual",       // $39.99/yr, 3-day trial
+  MONTHLY:  "$rc_monthly",                 // $7.99/mo, no trial
+  WEEKLY:   "$rc_weekly",                  // $4.99/wk, no trial
+
+  // Paywall #2 — first discount
+  SALE:     "aurora_premium_annual_sale",  // $29.99/yr, no trial
+
+  // Paywall #3 — final offer (existing product, reused)
+  FINAL:    "$rc_annual",                  // $19.99/yr, no trial (quotespark_premium_yearly)
+} as const;
+
+// ─── Paywall Strategy for Two-Package System ────────────────────────────────
 export class PaywallStrategy {
   private static firstOfferShown = false;
   private static firstOfferRejected = false;
@@ -536,6 +551,51 @@ export class PaywallService {
     }
 
     return result;
+  }
+
+  // ─── Paywall-specific package getters ───────────────────────────────────────
+
+  /**
+   * Paywall #1 — Returns [Annual, Monthly, Weekly] packages for the 3-plan selector.
+   * Annual is first (default selected / highlighted).
+   */
+  async getFirstPaywallPackages(): Promise<SubscriptionPackage[]> {
+    const all = await this.getAllSubscriptionPackages();
+    const order = [PACKAGE_IDS.ANNUAL, PACKAGE_IDS.MONTHLY, PACKAGE_IDS.WEEKLY];
+    const result: SubscriptionPackage[] = [];
+
+    for (const id of order) {
+      const pkg = all.find((p) => p.id === id);
+      if (pkg) result.push(pkg);
+    }
+
+    if (result.length === 0) {
+      console.warn("⚠️ No first-paywall packages found, returning all");
+      return all;
+    }
+
+    console.log(`📦 First paywall packages (${result.length}):`, result.map((p) => p.id));
+    return result;
+  }
+
+  /**
+   * Paywall #2 — Returns the $29.99 sale annual package.
+   */
+  async getSalePackage(): Promise<SubscriptionPackage | null> {
+    const all = await this.getAllSubscriptionPackages();
+    const pkg = all.find((p) => p.id === PACKAGE_IDS.SALE) ?? null;
+    console.log(`📦 Sale package (Paywall #2):`, pkg?.id ?? "not found");
+    return pkg;
+  }
+
+  /**
+   * Paywall #3 — Returns the $19.99 final annual package (existing product).
+   */
+  async getFinalPackage(): Promise<SubscriptionPackage | null> {
+    const all = await this.getAllSubscriptionPackages();
+    const pkg = all.find((p) => p.id === PACKAGE_IDS.FINAL) ?? null;
+    console.log(`📦 Final package (Paywall #3):`, pkg?.id ?? "not found");
+    return pkg;
   }
 
   // Allow UI to explicitly mark the first offer as rejected (e.g., user closed modal)

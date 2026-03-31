@@ -248,8 +248,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const triggerSource = usePaywallSelectors.triggerSource();
   const isFirstTimePaywall = usePaywallSelectors.isFirstTimePaywall();
   const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
+  const isSecondDiscountPaywall = usePaywallSelectors.isSecondDiscountPaywall();
   const [shouldShowDiscounted, setShouldShowDiscounted] = useState(false);
   const {hidePaywall, showPaywall} = usePaywallSelectors.actions();
+
+  // Paywall #1: multi-plan selector state
+  const [firstTimePackages, setFirstTimePackages] = useState<SubscriptionPackage[]>([]);
+  const [selectedPlanIndex, setSelectedPlanIndex] = useState(0); // 0 = Annual (default)
 
   // UNIFIED: Use unified premium system
   const {
@@ -406,125 +411,94 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const loadSubscriptionPackages = async () => {
     try {
-      console.log("🚀 Starting to load subscription packages...");
+      console.log(`🚀 Loading packages for triggerSource: ${triggerSource}`);
       const paywallService = getPaywallService();
 
-      // Deterministic selection based on triggerSource to avoid strategy races
-      const packages = await paywallService.getAllSubscriptionPackages();
-      console.log("🔄 loadSubscriptionPackages called", packages);
+      if (triggerSource === "first_time") {
+        // Paywall #1 — 3 plan seçeneği: Annual, Monthly, Weekly
+        const packages = await paywallService.getFirstPaywallPackages();
+        console.log(`📦 First paywall packages loaded: ${packages.length}`);
 
-      // 🔍 DEBUG: Detailed package information
-      if (packages && packages.length > 0) {
-        packages.forEach((pkg, index) => {
-          console.log(`📦 Package ${index}:`, {
-            id: pkg.id,
-            title: pkg.title,
-            currentPrice: pkg.currentPrice,
-            originalPrice: pkg.originalPrice,
-            pricePerMonth: pkg.pricePerMonth,
-            period: pkg.period,
-            packageType: pkg.packageType,
-            currencyCode: pkg.currencyCode,
-            priceNumber: pkg.priceNumber,
-            features: pkg.features?.length || 0,
-          });
-        });
+        if (packages.length === 0) {
+          console.warn("⚠️ No first-paywall packages found");
+          return;
+        }
+
+        setFirstTimePackages(packages);
+        setSelectedPlanIndex(0); // Annual default (index 0)
+        setSubscriptionPackage(packages[0]); // Annual seçili başlat
+        setAllPackages(packages);
+
+      } else if (triggerSource === "discounted") {
+        // Paywall #2 — $29.99 sale paketi
+        const pkg = await paywallService.getSalePackage();
+        console.log(`📦 Sale package loaded: ${pkg?.id}`);
+
+        if (!pkg) {
+          // Fallback: ilk paketi kullan
+          const all = await paywallService.getAllSubscriptionPackages();
+          const fallback = all[0];
+          if (fallback) setSubscriptionPackage(fallback);
+          setAllPackages(all);
+          return;
+        }
+
+        setSubscriptionPackage(pkg);
+        setAllPackages([pkg]);
+
+        // Discount % hesapla (orijinal annual ile karşılaştır)
+        const all = await paywallService.getAllSubscriptionPackages();
+        const annualPkg = all.find((p) => p.id === "aurora_premium_annual");
+        if (annualPkg && annualPkg.priceNumber && pkg.priceNumber) {
+          const discount = Math.round(
+            ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
+          );
+          setDiscountPercentage(discount);
+        }
+
+      } else if (triggerSource === "second_discount") {
+        // Paywall #3 — $19.99 final paketi
+        const pkg = await paywallService.getFinalPackage();
+        console.log(`📦 Final package loaded: ${pkg?.id}`);
+
+        if (!pkg) {
+          const all = await paywallService.getAllSubscriptionPackages();
+          const fallback = all[0];
+          if (fallback) setSubscriptionPackage(fallback);
+          setAllPackages(all);
+          return;
+        }
+
+        setSubscriptionPackage(pkg);
+        setAllPackages([pkg]);
+
+        // Discount % hesapla
+        const all = await paywallService.getAllSubscriptionPackages();
+        const annualPkg = all.find((p) => p.id === "aurora_premium_annual");
+        if (annualPkg && annualPkg.priceNumber && pkg.priceNumber) {
+          const discount = Math.round(
+            ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
+          );
+          setDiscountPercentage(discount);
+        }
+
       } else {
-        console.warn("⚠️ No packages received from PaywallService");
+        // Diğer trigger'lar (action_limit, premium_category vb.) — eski mantık
+        const packages = await paywallService.getAllSubscriptionPackages();
+        if (packages.length === 0) return;
+
+        const shouldShowDisc =
+          (isDiscountedPaywall || shouldShowDiscounted) && packages.length > 1;
+
+        if (shouldShowDisc) {
+          const discountedPackage = packages[1];
+          setSubscriptionPackage(discountedPackage);
+        } else {
+          setSubscriptionPackage(packages[0]);
+        }
+        setAllPackages(packages);
       }
 
-      // 🔍 DEBUG: Paket seçim mantığını detaylı logla
-      console.log("🔍 PAYWALL DEBUG:", {
-        triggerSource,
-        packagesCount: packages.length,
-        packages: packages.map((p) => ({
-          id: p.id,
-          price: p.currentPrice,
-          type: p.packageType,
-          discount: p.discount,
-          title: p.title,
-        })),
-        selectedPackageIndex:
-          triggerSource === "discounted" && packages.length > 1 ? 1 : 0,
-        selectedPackage:
-          triggerSource === "discounted" && packages.length > 1
-            ? packages[1]?.id
-            : packages[0]?.id,
-      });
-
-      if (packages.length === 0) return;
-
-      // İndirimli paywall koşulunu kontrol et
-      const shouldSelectDiscountedPackage =
-        (triggerSource === "discounted" || shouldShowDiscounted) &&
-        packages.length > 1;
-
-      if (shouldSelectDiscountedPackage) {
-        // İndirimli paketi bul - discount özelliğine veya fiyat karşılaştırmasına göre
-        // İndirimli paket genellikle daha düşük fiyata sahip veya discount özelliği var
-        const discountedPackage =
-          packages.find(
-            (pkg) =>
-              pkg.discount &&
-              pkg.discount.length > 0 &&
-              parseFloat(pkg.discount.replace("%", "")) > 0
-          ) ||
-          packages.find((pkg, index) => {
-            // Eğer discount özelliği yoksa, fiyat karşılaştırması yap
-            const priceNum = pkg.priceNumber || 0;
-            const otherPrices = packages
-              .filter((_, i) => i !== index)
-              .map((p) => p.priceNumber || 0);
-            // En düşük fiyatlı paket indirimli olabilir
-            return (
-              otherPrices.length > 0 && priceNum < Math.max(...otherPrices)
-            );
-          }) ||
-          packages[1]; // Fallback: ikinci paket
-
-        setSubscriptionPackage(discountedPackage);
-        console.log(
-          "🔍 İNDİRİMLİ PAYWALL - Seçilen paket:",
-          discountedPackage.currentPrice
-        );
-        console.log("✅ İndirimli paket seçildi:", discountedPackage.id);
-        console.log("🔍 Seçilen paket detayları:", {
-          id: discountedPackage.id,
-          title: discountedPackage.title,
-          period: discountedPackage.period,
-          currentPrice: discountedPackage.currentPrice,
-          pricePerMonth: discountedPackage.pricePerMonth,
-          packageType: discountedPackage.packageType,
-          currencyCode: discountedPackage.currencyCode,
-          priceNumber: discountedPackage.priceNumber,
-          discount: discountedPackage.discount,
-        });
-      } else {
-        // Normal paywall için stratejiye göre paket seç
-        const selectedPackages = await paywallService.getSubscriptionPackages();
-        const normalPackage =
-          selectedPackages.length > 0 ? selectedPackages[0] : packages[0];
-        setSubscriptionPackage(normalPackage);
-        console.log(
-          "🔍 NORMAL PAYWALL - Seçilen paket:",
-          normalPackage.currentPrice
-        );
-        console.log("✅ İndirimsiz paket seçildi:", normalPackage.id);
-        console.log("🔍 Seçilen paket detayları:", {
-          id: normalPackage.id,
-          title: normalPackage.title,
-          period: normalPackage.period,
-          currentPrice: normalPackage.currentPrice,
-          pricePerMonth: normalPackage.pricePerMonth,
-          packageType: normalPackage.packageType,
-          currencyCode: normalPackage.currencyCode,
-          priceNumber: normalPackage.priceNumber,
-          discount: normalPackage.discount,
-        });
-      }
-
-      // Store all packages for discount calculation
-      setAllPackages(packages);
     } catch (error) {
       console.error("Failed to load subscription packages:", error);
       Alert.alert(paywall.alerts.error, paywall.failedToLoadSubscription);
@@ -686,19 +660,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     // 🔍 DEBUG: Kapatma mantığını logla
     console.log("🔍 CLOSE DEBUG:", {
       isDiscountedPaywall,
+      isSecondDiscountPaywall,
       isFirstTimePaywall,
       triggerSource,
       currentPackage: subscriptionPackage?.id,
     });
 
-    // Check if this is the first-time paywall
     const isFirstTime = triggerSource === "first_time" || isFirstTimePaywall;
+    const isAnyDiscount = isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted;
 
-    // If first offer is dismissed, mark as rejected
-    if (!isDiscountedPaywall && !shouldShowDiscounted) {
-      console.log(
-        "🔄 İndirimsiz modal kapatılıyor, ilk teklif reddedildi olarak işaretleniyor..."
-      );
+    // İlk teklif reddedildi olarak işaretle (sadece Paywall #1 için)
+    if (!isAnyDiscount) {
       try {
         const paywallService = getPaywallService();
         await paywallService.markFirstOfferRejected();
@@ -724,18 +696,26 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       hidePaywall();
       onClose?.();
 
-      // If first-time paywall was closed, immediately show discounted paywall
-      if (isFirstTime && !isDiscountedPaywall) {
-        console.log("💸 İlk paywall kapatıldı, hemen indirimli paywall gösteriliyor...");
+      // Paywall #1 kapandı → hemen Paywall #2 göster (0.8sn)
+      if (isFirstTime) {
+        console.log("💸 Paywall #1 kapandı → Paywall #2 gösteriliyor...");
         setTimeout(() => {
           showPaywall("discounted");
-        }, 300); // Small delay to ensure smooth transition
+        }, 800);
       }
+      // Paywall #2 kapandı → HomeScreen'deki swipe tracker devreye girer → Paywall #3
+      // Paywall #3 kapandı → hasSeenSecondDiscountPaywall=true, bir daha gösterilmez
     });
   };
 
   const handlePurchase = async () => {
-    if (!subscriptionPackage) {
+    // Paywall #1 için seçili planı kullan, diğerleri için mevcut subscriptionPackage
+    const packageToPurchase =
+      triggerSource === "first_time" && firstTimePackages.length > 0
+        ? firstTimePackages[selectedPlanIndex] ?? subscriptionPackage
+        : subscriptionPackage;
+
+    if (!packageToPurchase) {
       Alert.alert(paywall.alerts.error, paywall.alerts.no_subscription);
       return;
     }
@@ -744,10 +724,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
     try {
       // ✅ STEP 1: Perform actual purchase via PaywallService
-      console.log("💰 Starting purchase process...");
+      console.log("💰 Starting purchase process...", packageToPurchase.id);
       const paywallService = getPaywallService();
       const purchaseResult = await paywallService.purchaseSubscription(
-        subscriptionPackage.id
+        packageToPurchase.id
       );
 
       if (purchaseResult.success) {
@@ -767,7 +747,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             onPurchase?.();
 
             // ✅ STEP 3.5: Schedule trial reminder notification if free trial exists
-            if (subscriptionPackage?.freeTrialDays && subscriptionPackage.freeTrialDays > 0) {
+            if (packageToPurchase?.freeTrialDays && packageToPurchase.freeTrialDays > 0) {
               try {
                 const language = getPreferredLanguage(
                   userPreferences?.language as any
@@ -776,11 +756,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 const notificationServiceInstance = NotificationService.getInstance();
                 await notificationServiceInstance.scheduleTrialReminder(
                   trialStartDate,
-                  subscriptionPackage.freeTrialDays,
+                  packageToPurchase.freeTrialDays,
                   language
                 );
                 console.log(
-                  `📅 Trial reminder scheduled for ${subscriptionPackage.freeTrialDays} days trial`
+                  `📅 Trial reminder scheduled for ${packageToPurchase.freeTrialDays} days trial`
                 );
               } catch (error) {
                 console.error("❌ Failed to schedule trial reminder:", error);
@@ -1005,6 +985,28 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const trialDates = getTrialDates();
 
+  // Seçili planın annual olup olmadığını belirle (timeline + CTA için)
+  const selectedPlan = firstTimePackages[selectedPlanIndex];
+  const selectedPlanIsAnnual =
+    selectedPlan?.packageType === "ANNUAL" ||
+    selectedPlan?.id === "aurora_premium_annual";
+  const selectedPlanIsMonthly =
+    selectedPlan?.packageType === "MONTHLY" ||
+    selectedPlan?.id === "$rc_monthly";
+
+  // CTA buton metni — seçili plana göre dinamik
+  const getCtaText = () => {
+    if (isLoading) return paywall.processing;
+    if (triggerSource === "first_time") {
+      if (selectedPlanIsAnnual) return "Start your free 3-day trial →";
+      if (selectedPlanIsMonthly) return "Get Monthly Access →";
+      return "Get Weekly Access →";
+    }
+    if (isDiscountedPaywall || isSecondDiscountPaywall)
+      return "Claim This Offer →";
+    return paywall.modern.start_trial_button_full || "Start your free 3-day trial →";
+  };
+
   // Calculate weekly and daily prices
   const calculatePricing = () => {
     if (!subscriptionPackage) return { weekly: "0", daily: "0" };
@@ -1074,8 +1076,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         >
           {/* Header Section */}
           <View style={styles.headerSection}>
-            {/* Discount Badge for Discounted Paywall - Enhanced */}
-            {(isDiscountedPaywall || shouldShowDiscounted) &&
+            {/* Discount Badge for Discounted Paywalls (#2 and #3) */}
+            {(isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted) &&
               discountPercentage > 0 && (
                 <View style={styles.discountBadgeContainer}>
                   <LinearGradient
@@ -1092,142 +1094,349 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                       )}
                     </Text>
                   </LinearGradient>
-                  {allPackages.length >= 2 && (
-                    <View style={styles.priceComparisonContainer}>
-                      <Text style={styles.oldPriceText}>
-                        {allPackages[0].currentPrice}
-                      </Text>
-                      <Text style={styles.newPriceText}>
-                        {subscriptionPackage?.currentPrice}{" "}
-                        {paywall.modern.per_year_suffix || "/ yearly"}
-                      </Text>
-                    </View>
-                  )}
                 </View>
               )}
 
             {/* Title */}
             <Text style={[styles.mainTitle, {color: theme.colors.text}]}>
-              {isDiscountedPaywall || shouldShowDiscounted
+              {isSecondDiscountPaywall
+                ? "Last Chance — Final Offer"
+                : isDiscountedPaywall || shouldShowDiscounted
                 ? paywall.modern.discount_offer_title || "Don't Miss Out!"
-                : paywall.modern.trial_title || "Worried? Try Quote"}
+                : paywall.modern.trial_title || "Try Aurora Premium"}
             </Text>
 
             {/* Free Trial Badge */}
           </View>
 
-          {/* Timeline Section */}
-          <View style={styles.timelineSection}>
-            <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
-              {paywall.modern.timeline_title || "How your free trial works:"}
-            </Text>
+          {/* Timeline / Info Section — seçili plana göre dinamik */}
+          {triggerSource === "first_time" ? (
+            selectedPlanIsAnnual ? (
+              /* Annual: tam trial timeline */
+              <View style={styles.timelineSection}>
+                <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+                  {paywall.modern.timeline_title || "How your free trial works:"}
+                </Text>
 
-            {/* Timeline Step 1 - Today */}
-            <View style={styles.timelineStep}>
-              <View style={styles.timelineIconContainer}>
-                <View style={[styles.timelineIconCheck, {backgroundColor: theme.colors.success}]}>
-                  <Text style={styles.timelineIconText}>✓</Text>
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconCheck, {backgroundColor: theme.colors.success}]}>
+                      <Text style={styles.timelineIconText}>✓</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      {paywall.modern.timeline_today || "Today"} — Free trial starts
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      Experience all premium features free for 3 days
+                    </Text>
+                  </View>
+                </View>
+
+                <View style={styles.timelineConnector} />
+
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                      <Text style={styles.timelineIconText}>✉</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      {trialDates.reminderDate} — Get a reminder
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      We'll let you know when your trial is ending
+                    </Text>
+                  </View>
+                </View>
+
+                <View style={styles.timelineConnector} />
+
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconHeart, {backgroundColor: theme.colors.premium}]}>
+                      <Text style={styles.timelineIconText}>♥</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      {trialDates.membershipDate} — Become a member
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      Your trial ends unless canceled. Enjoy!
+                    </Text>
+                  </View>
                 </View>
               </View>
-              <View style={styles.timelineContent}>
-                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
-                  {paywall.modern.timeline_today || "Today"} -{" "}
-                  {paywall.modern.timeline_trial_starts || "Free trial Starts"}
+            ) : (
+              /* Monthly / Weekly: aynı 3 adımlı yapı, farklı içerik */
+              <View style={styles.timelineSection}>
+                <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+                  {selectedPlanIsMonthly ? "Your monthly plan includes:" : "Your weekly plan includes:"}
                 </Text>
-                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
-                  {paywall.modern.timeline_trial_description ||
-                    "Create perfect quotes free for 3 days"}
+
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconCheck, {backgroundColor: theme.colors.success}]}>
+                      <Text style={styles.timelineIconText}>✓</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      Today — Access starts immediately
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      Full access to all premium quotes & features
+                    </Text>
+                  </View>
+                </View>
+
+                <View style={styles.timelineConnector} />
+
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                      <Text style={styles.timelineIconText}>✉</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      {selectedPlanIsMonthly ? "Billed monthly" : "Billed weekly"}
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      {selectedPlanIsMonthly
+                        ? "Renews every month — you're in control"
+                        : "Renews every week — you're in control"}
+                    </Text>
+                  </View>
+                </View>
+
+                <View style={styles.timelineConnector} />
+
+                <View style={styles.timelineStep}>
+                  <View style={styles.timelineIconContainer}>
+                    <View style={[styles.timelineIconHeart, {backgroundColor: theme.colors.premium}]}>
+                      <Text style={styles.timelineIconText}>♥</Text>
+                    </View>
+                  </View>
+                  <View style={styles.timelineContent}>
+                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                      Cancel anytime
+                    </Text>
+                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                      No long-term commitment. Cancel whenever you like.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            )
+          ) : (isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted) ? (
+            /* Paywall #2 & #3: Compact benefit list — trial yok, indirim var */
+            <View style={styles.compactBenefitSection}>
+              <View style={styles.compactBenefitRow}>
+                <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.success}]}>
+                  <Text style={styles.compactBenefitIconText}>✓</Text>
+                </View>
+                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                  {discountPercentage > 0
+                    ? `Save ${discountPercentage}% — biggest discount available`
+                    : "Special limited-time discount"}
+                </Text>
+              </View>
+              <View style={styles.compactBenefitRow}>
+                <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.premium}]}>
+                  <Text style={styles.compactBenefitIconText}>✦</Text>
+                </View>
+                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                  Unlimited quotes, themes & all premium features
+                </Text>
+              </View>
+              <View style={styles.compactBenefitRow}>
+                <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.textSecondary}]}>
+                  <Text style={styles.compactBenefitIconText}>♥</Text>
+                </View>
+                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                  No commitment — cancel anytime, no questions asked
                 </Text>
               </View>
             </View>
+          ) : (
+            /* Diğer trigger'lar: mevcut tam timeline */
+            <View style={styles.timelineSection}>
+              <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+                {paywall.modern.timeline_title || "How your free trial works:"}
+              </Text>
 
-            {/* Timeline Connector */}
-            <View style={styles.timelineConnector} />
-
-            {/* Timeline Step 2 - Reminder */}
-            <View style={styles.timelineStep}>
-              <View style={styles.timelineIconContainer}>
-                <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
-                  <Text style={styles.timelineIconText}>✉</Text>
+              <View style={styles.timelineStep}>
+                <View style={styles.timelineIconContainer}>
+                  <View style={[styles.timelineIconCheck, {backgroundColor: theme.colors.success}]}>
+                    <Text style={styles.timelineIconText}>✓</Text>
+                  </View>
+                </View>
+                <View style={styles.timelineContent}>
+                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    {paywall.modern.timeline_today || "Today"} —{" "}
+                    {paywall.modern.timeline_trial_starts || "Free trial Starts"}
+                  </Text>
+                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    {paywall.modern.timeline_trial_description || "Experience all features free for 3 days"}
+                  </Text>
                 </View>
               </View>
-              <View style={styles.timelineContent}>
-                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
-                  {trialDates.reminderDate} -{" "}
-                  {paywall.modern.timeline_reminder || "Get a reminder"}
-                </Text>
-                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
-                  {paywall.modern.timeline_reminder_description ||
-                    "We'll let you know when your trial is ending"}
-                </Text>
-              </View>
-            </View>
 
-            {/* Timeline Connector */}
-            <View style={styles.timelineConnector} />
+              <View style={styles.timelineConnector} />
 
-            {/* Timeline Step 3 - Membership */}
-            <View style={styles.timelineStep}>
-              <View style={styles.timelineIconContainer}>
-                <View style={[styles.timelineIconHeart, {backgroundColor: theme.colors.premium}]}>
-                  <Text style={styles.timelineIconText}>♥</Text>
+              <View style={styles.timelineStep}>
+                <View style={styles.timelineIconContainer}>
+                  <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                    <Text style={styles.timelineIconText}>✉</Text>
+                  </View>
+                </View>
+                <View style={styles.timelineContent}>
+                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    {trialDates.reminderDate} —{" "}
+                    {paywall.modern.timeline_reminder || "Get a reminder"}
+                  </Text>
+                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    {paywall.modern.timeline_reminder_description || "We'll let you know when your trial is ending"}
+                  </Text>
                 </View>
               </View>
-              <View style={styles.timelineContent}>
-                <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
-                  {trialDates.membershipDate} -{" "}
-                  {paywall.modern.timeline_membership ||
-                    "Become a member"}
-                </Text>
-                <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
-                  {paywall.modern.timeline_membership_description ||
-                    "Your trial ends unless canceled. Enjoy!"}
-                </Text>
+
+              <View style={styles.timelineConnector} />
+
+              <View style={styles.timelineStep}>
+                <View style={styles.timelineIconContainer}>
+                  <View style={[styles.timelineIconHeart, {backgroundColor: theme.colors.premium}]}>
+                    <Text style={styles.timelineIconText}>♥</Text>
+                  </View>
+                </View>
+                <View style={styles.timelineContent}>
+                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    {trialDates.membershipDate} —{" "}
+                    {paywall.modern.timeline_membership || "Become a member"}
+                  </Text>
+                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    {paywall.modern.timeline_membership_description || "Your trial ends unless canceled. Enjoy!"}
+                  </Text>
+                </View>
               </View>
             </View>
-          </View>
+          )}
 
           {/* Pricing Section */}
           <View style={styles.pricingSection}>
-            {(isDiscountedPaywall || shouldShowDiscounted) &&
-            allPackages.length >= 2 ? (
+            {triggerSource === "first_time" ? (
+              /* ── Paywall #1: 3 Plan — Yatay (yan yana) ── */
+              <View style={styles.planSelectorContainer}>
+                {firstTimePackages.map((pkg, index) => {
+                  const isSelected = selectedPlanIndex === index;
+                  const isAnnual = pkg.packageType === "ANNUAL" || pkg.id === "aurora_premium_annual";
+                  const isMonthly = pkg.packageType === "MONTHLY" || pkg.id === "$rc_monthly";
+
+                  const periodLabel = isAnnual ? "/ year" : isMonthly ? "/ mo" : "/ week";
+                  const planName = isAnnual ? "Annual" : isMonthly ? "Monthly" : "Weekly";
+                  const subLabel = isAnnual && pkg.freeTrialDays > 0
+                    ? `${pkg.freeTrialDays}-day free trial`
+                    : isAnnual && pkg.priceNumber
+                    ? `$${(pkg.priceNumber / 365).toFixed(2)}/day`
+                    : null;
+
+                  return (
+                    <TouchableOpacity
+                      key={pkg.id}
+                      style={[
+                        styles.planCard,
+                        isSelected
+                          ? {borderColor: theme.colors.premium, borderWidth: 2, backgroundColor: theme.colors.premium + "12"}
+                          : {borderColor: theme.colors.border, borderWidth: 1},
+                      ]}
+                      onPress={() => {
+                        setSelectedPlanIndex(index);
+                        setSubscriptionPackage(pkg);
+                      }}
+                      activeOpacity={0.8}
+                    >
+                      {/* BEST VALUE badge — annual üstte ortalanmış */}
+                      {isAnnual && (
+                        <View style={[styles.popularBadge, {backgroundColor: theme.colors.premium}]}>
+                          <Text style={styles.popularBadgeText}>BEST VALUE</Text>
+                        </View>
+                      )}
+
+                      {/* Plan adı */}
+                      <Text style={[
+                        styles.planPeriodLabel,
+                        {color: isSelected ? theme.colors.premium : theme.colors.text},
+                      ]}>
+                        {planName}
+                      </Text>
+
+                      {/* Fiyat */}
+                      <Text style={[
+                        styles.planPrice,
+                        {color: isSelected ? theme.colors.premium : theme.colors.text},
+                      ]}>
+                        {pkg.currentPrice}
+                      </Text>
+
+                      {/* Periyot */}
+                      <Text style={[styles.planPricePeriod, {color: theme.colors.textSecondary}]}>
+                        {periodLabel}
+                      </Text>
+
+                      {/* Alt bilgi (trial ya da günlük fiyat) */}
+                      {subLabel && (
+                        <Text style={[styles.planTrialLabel, {
+                          color: isAnnual && pkg.freeTrialDays > 0
+                            ? theme.colors.success
+                            : theme.colors.textSecondary,
+                        }]}>
+                          {subLabel}
+                        </Text>
+                      )}
+                    </TouchableOpacity>
+                  );
+                })}
+              </View>
+            ) : (isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted) ? (
+              /* ── Paywall #2 & #3: İndirimli tek seçenek ── */
               <View style={styles.discountedPricingContainer}>
                 <View style={styles.priceRow}>
-                  <Text style={styles.oldPriceLarge}>
-                    {allPackages[0].currentPrice}
-                  </Text>
+                  <Text style={styles.oldPriceLarge}>$39.99</Text>
                   <View style={styles.discountHighlight}>
                     <Text style={styles.discountHighlightText}>
-                      {discountPercentage}% OFF
+                      {discountPercentage > 0 ? `${discountPercentage}% OFF` : "SALE"}
                     </Text>
                   </View>
                 </View>
                 <View style={styles.priceWithPeriod}>
                   <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
-                    {subscriptionPackage?.currentPrice || "$6.99"}
+                    {subscriptionPackage?.currentPrice || ""}
                   </Text>
                   <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
                     / {paywall.modern.year || "Year"}
                   </Text>
                 </View>
                 <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
-                  {paywall.modern.pricing_trial_text ||
-                    "3 days free, then"}
+                  No commitment — cancel anytime
                 </Text>
               </View>
             ) : (
+              /* ── Diğer trigger'lar: mevcut tek plan görünümü ── */
               <>
                 <View style={styles.priceWithPeriod}>
                   <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
-                    {subscriptionPackage?.currentPrice || "$6.99"}
+                    {subscriptionPackage?.currentPrice || ""}
                   </Text>
                   <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
                     / {paywall.modern.year || "Year"}
                   </Text>
                 </View>
                 <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
-                  {paywall.modern.pricing_trial_text ||
-                    "3 days free, then"}
+                  {paywall.modern.pricing_trial_text || "3 days free, then"}
                 </Text>
                 <Text style={[styles.dailyPriceText, {color: theme.colors.success}]}>
                   {paywall.modern.only || "Only"} {pricing.daily} /{" "}
@@ -1267,13 +1476,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               end={{x: 1, y: 0}}
               style={styles.ctaGradient}
             >
-              <Text style={styles.ctaButtonText}>
-                {isLoading
-                  ? paywall.processing
-                  : paywall.modern.start_trial_button_full ||
-                    "Start your free 3-day trial"}
-              </Text>
-              <Text style={styles.ctaArrow}>→</Text>
+              <Text style={styles.ctaButtonText}>{getCtaText()}</Text>
             </LinearGradient>
           </TouchableOpacity>
 
@@ -1477,6 +1680,145 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
     pricingSection: {
       alignItems: "center",
       marginBottom: 24,
+      width: "100%",
+    },
+    // ── Plan Selector (Paywall #1) — Yatay 3 kart ──────────────────────────
+    planSelectorContainer: {
+      flexDirection: "row",
+      width: "100%",
+      gap: 8,
+    },
+    planCard: {
+      flex: 1,
+      borderRadius: 14,
+      paddingVertical: 14,
+      paddingHorizontal: 8,
+      alignItems: "center",
+      position: "relative",
+      overflow: "visible",
+      minHeight: 100,
+      justifyContent: "center",
+      gap: 3,
+    },
+    popularBadge: {
+      position: "absolute",
+      top: -11,
+      alignSelf: "center",
+      borderRadius: 6,
+      paddingHorizontal: 7,
+      paddingVertical: 3,
+      zIndex: 1,
+    },
+    popularBadgeText: {
+      color: "#000",
+      fontSize: 9,
+      fontWeight: "700",
+      letterSpacing: 0.4,
+    },
+    planCardContent: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+    },
+    planCardLeft: {
+      flex: 1,
+      gap: 2,
+    },
+    planCardRight: {
+      flexDirection: "row",
+      alignItems: "baseline",
+      marginRight: 10,
+    },
+    planPeriodLabel: {
+      fontSize: 13,
+      fontWeight: "600",
+      textAlign: "center",
+    },
+    planTrialLabel: {
+      fontSize: 10,
+      fontWeight: "500",
+      textAlign: "center",
+    },
+    planDailyLabel: {
+      fontSize: 10,
+      textAlign: "center",
+    },
+    planPrice: {
+      fontSize: 15,
+      fontWeight: "700",
+      textAlign: "center",
+    },
+    planPricePeriod: {
+      fontSize: 10,
+      textAlign: "center",
+    },
+    planRadio: {
+      width: 20,
+      height: 20,
+      borderRadius: 10,
+      borderWidth: 2,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    planRadioInner: {
+      width: 10,
+      height: 10,
+      borderRadius: 5,
+      backgroundColor: "#000",
+    },
+    // ── Compact benefit list (Discounted paywalls #2 & #3) ───────────────
+    compactBenefitSection: {
+      width: "100%",
+      gap: 14,
+      marginBottom: 24,
+      paddingHorizontal: 4,
+    },
+    compactBenefitRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 14,
+    },
+    compactBenefitIcon: {
+      width: 32,
+      height: 32,
+      borderRadius: 16,
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: 0,
+    },
+    compactBenefitIconText: {
+      color: "#FFFFFF",
+      fontSize: 14,
+      fontWeight: "700",
+    },
+    compactBenefitText: {
+      flex: 1,
+      fontSize: isSmallScreen ? 14 : 15,
+      fontWeight: "500",
+      lineHeight: 20,
+    },
+    // ── No-trial info (Monthly/Weekly seçilince) ──────────────────────────
+    noTrialInfoSection: {
+      width: "100%",
+      gap: 10,
+      paddingVertical: 8,
+    },
+    noTrialRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 10,
+    },
+    noTrialIcon: {
+      fontSize: 16,
+      color: "#4CAF50",
+      fontWeight: "700",
+      width: 20,
+      textAlign: "center",
+    },
+    noTrialText: {
+      fontSize: 15,
+      fontWeight: "500",
+      flex: 1,
     },
     pricingText: {
       fontSize: isSmallScreen ? 14 : 16,
