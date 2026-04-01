@@ -159,31 +159,31 @@ export async function updateWithFavoriteOrRandom(): Promise<void> {
     if (!texts || !authors) return { text: "", author: "" };
 
     // 1. Tercih edilen dil
-    if (texts[lang] && authors[lang]) {
-      return { text: texts[lang], author: authors[lang] };
+    if (texts[lang]) {
+      return { text: texts[lang], author: authors[lang] || "" };
     }
 
     // 2. İngilizce
-    if (texts.en && authors.en) {
-      return { text: texts.en, author: authors.en };
+    if (texts.en) {
+      return { text: texts.en, author: authors.en || "" };
     }
 
     // 3. Türkçe
-    if (texts.tr && authors.tr) {
-      return { text: texts.tr, author: authors.tr };
+    if (texts.tr) {
+      return { text: texts.tr, author: authors.tr || "" };
     }
 
     // 4. Diğer diller (ilk bulunan)
     for (const supportedLang of SUPPORTED_LANGUAGES) {
-      if (texts[supportedLang] && authors[supportedLang]) {
-        return { text: texts[supportedLang], author: authors[supportedLang] };
+      if (texts[supportedLang]) {
+        return { text: texts[supportedLang], author: authors[supportedLang] || "" };
       }
     }
 
-    // 5. Fallback - eski format
+    // 5. Fallback - veri yapısı hiç eşleşmediyse
     return {
-      text: (q as any).text || (q as any).content || "Quote not found",
-      author: (q as any).author || "Unknown",
+      text: (q as any).text || (q as any).content || "",
+      author: (q as any).author || "",
     };
   };
 

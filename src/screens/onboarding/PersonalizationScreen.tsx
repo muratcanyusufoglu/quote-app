@@ -1,6 +1,6 @@
 import {router} from "expo-router";
 import React, {useEffect, useRef, useState} from "react";
-import {Animated, StyleSheet, Text, View} from "react-native";
+import {Animated, Image, StyleSheet, Text, View} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {useScreenTranslations} from "../../hooks/useTranslation";
 import {useUserName} from "../../store/useOnboardingStore";
@@ -102,34 +102,22 @@ export function PersonalizationScreen() {
   const trackColor = isDark ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.1)";
 
   return (
-    <Animated.View
-      style={[
-        styles.container,
-        {backgroundColor: theme.colors.background, opacity: fadeAnim},
-      ]}
-    >
+    <View style={[styles.container, {backgroundColor: theme.colors.background}]}>
+      <Animated.View
+        style={[styles.container, {opacity: fadeAnim}]}
+      >
       <View
         style={[
           styles.content,
           {paddingTop: insets.top + 40, paddingBottom: insets.bottom + 40},
         ]}
       >
-        {/* Icon mark */}
-        <View
-          style={[
-            styles.iconContainer,
-            {
-              borderColor: isDark
-                ? "rgba(244,208,63,0.3)"
-                : "rgba(244,208,63,0.5)",
-              backgroundColor: isDark
-                ? "rgba(244,208,63,0.08)"
-                : "rgba(244,208,63,0.1)",
-            },
-          ]}
-        >
-          <Text style={[styles.iconText, {color: goldColor}]}>\u201C</Text>
-        </View>
+        {/* App icon */}
+        <Image
+          source={require("../../../assets/images/icon.png")}
+          style={styles.appIcon}
+          resizeMode="contain"
+        />
 
         {/* Title */}
         <Text style={[styles.title, {color: theme.colors.text}]}>{title}</Text>
@@ -164,7 +152,8 @@ export function PersonalizationScreen() {
           {steps[currentMessageIndex]}
         </Animated.Text>
       </View>
-    </Animated.View>
+      </Animated.View>
+    </View>
   );
 }
 
@@ -179,19 +168,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
     gap: 20,
   },
-  iconContainer: {
-    width: 72,
-    height: 72,
-    borderRadius: 18,
-    borderWidth: 1,
-    alignItems: "center",
-    justifyContent: "center",
+  appIcon: {
+    width: 96,
+    height: 96,
+    borderRadius: 22,
     marginBottom: 8,
-  },
-  iconText: {
-    fontSize: 40,
-    lineHeight: 48,
-    fontWeight: "300",
   },
   title: {
     fontSize: 22,

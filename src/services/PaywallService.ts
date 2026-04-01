@@ -125,7 +125,7 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
         originalPrice,
         currentPrice: pkg.product.priceString, // Use actual price from RevenueCat
         discount,
-        period: this.getPeriodFromPackageType(pkg.packageType), // Determine period from RevenueCat package type
+        period: this.getPeriodFromPackageType(pkg.packageType, pkg.product.identifier), // Determine period from RevenueCat package type
         freeTrialDays: this.getTrialDaysFromPackageType(pkg.packageType), // Get trial days from RevenueCat or default to 0
         pricePerMonth: isYearly
           ? `${monthlyPrice} ${pkg.product.currencyCode || "USD"}`
@@ -154,19 +154,26 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
     }
   }
 
-  private getPeriodFromPackageType(packageType?: string): string {
-    if (!packageType) return "month";
+  private getPeriodFromPackageType(packageType?: string, productId?: string): string {
+    const type = (packageType || "").toUpperCase();
 
-    switch (packageType.toUpperCase()) {
-      case "LIFETIME":
-        return "lifetime";
-      case "ANNUAL":
-        return "year";
-      case "MONTHLY":
-        return "month";
-      default:
-        return "month";
+    // Check packageType first
+    if (type === "LIFETIME") return "lifetime";
+    if (type === "ANNUAL" || type === "$RC_ANNUAL") return "year";
+    if (type === "MONTHLY" || type === "$RC_MONTHLY") return "month";
+    if (type === "WEEKLY" || type === "$RC_WEEKLY") return "week";
+    if (type === "SIX_MONTH") return "month"; // treat as monthly for display
+    if (type === "THREE_MONTH") return "month";
+
+    // Fallback: infer from product identifier string
+    if (productId) {
+      const id = productId.toLowerCase();
+      if (id.includes("annual") || id.includes("yearly") || id.includes("year")) return "year";
+      if (id.includes("lifetime")) return "lifetime";
+      if (id.includes("weekly") || id.includes("week")) return "week";
     }
+
+    return "month";
   }
 
   private getTrialDaysFromPackageType(packageType?: string): number {
