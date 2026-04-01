@@ -116,7 +116,7 @@ export function PrivacyPolicyModal({
 
               <Text style={styles.sectionTitle}>1. Information We Collect</Text>
               <Text style={styles.paragraph}>
-                QuoteSpark collects minimal information to provide you with the
+                Aurora collects minimal information to provide you with the
                 best experience:
               </Text>
               <Text style={styles.bulletPoint}>
@@ -208,7 +208,7 @@ export function PrivacyPolicyModal({
 
           <View style={styles.footer}>
             <Text style={styles.footerText}>
-              QuoteSpark - Daily Motivational Quotes{"\n"}
+              Aurora: Quotes & Affirmations{"\n"}
               Version {APP_CONFIG.VERSION}
             </Text>
           </View>

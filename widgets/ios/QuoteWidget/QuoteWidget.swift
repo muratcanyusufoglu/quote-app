@@ -297,7 +297,7 @@ struct QuoteWidget: Widget {
         let config = StaticConfiguration(kind: kind, provider: Provider()) { entry in
             QuoteWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("QuoteSpark")
+        .configurationDisplayName("Aurora")
         .description("Shows your favorite quotes or random inspiration. Updates automatically and with theme changes.")
         
         if #available(iOSApplicationExtension 16.0, *) {

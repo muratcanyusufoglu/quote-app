@@ -26,7 +26,7 @@ export function ShareButton({
 }: ShareButtonProps) {
   const { theme } = useTheme();
   const { trackQuoteShare } = useAnalytics();
-  const APP_NAME = "QuoteSpark";
+  const APP_NAME = "Aurora";
 
   const handleShare = async () => {
     try {
@@ -35,12 +35,12 @@ export function ShareButton({
 
       // Web URL fallback for users without the app
       // You can replace this with your actual web domain when you have one
-      const webUrl = `https://quotespark.app/quote/${quote.id}`;
+      const webUrl = `https://auroraapp.app/quote/${quote.id}`;
 
       // Create formatted share message with deep link
       const shareMessage = `"${quote.text}"${
         quote.author ? `\n\n— ${quote.author}` : ""
-      }\n\n📱 Open in QuoteSpark App: ${deepLinkUrl}`;
+      }\n\n📱 Open in Aurora App: ${deepLinkUrl}`;
 
       const shareContent = {
         message: shareMessage,

@@ -10,7 +10,7 @@ const NEXT_QUOTES_KEY = "next_quotes";
 const LAST_VISIT_KEY = "last_visit";
 
 // App name constant
-const APP_NAME = "QuoteSpark";
+const APP_NAME = "Aurora";
 
 // Notification behavior configuration
 Notifications.setNotificationHandler({
@@ -304,63 +304,8 @@ export class NotificationService {
     const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
     // Get localized app name and notification content based on quote language
-    const getLocalizedNotificationContent = (language: Language) => {
-      const translations = {
-        en: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        tr: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        fr: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        es: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        de: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        it: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        pt: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        ru: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        nl: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        id: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        ja: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        th: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-        ms: {
-          appName: "QuoteSpark",
-          title: "Quote Spark",
-        },
-      };
-
-      return translations[language] || translations.en;
+    const getLocalizedNotificationContent = (_language: Language) => {
+      return { appName: APP_NAME, title: APP_NAME };
     };
 
     const localizedContent = getLocalizedNotificationContent(quote.language);
