@@ -426,7 +426,14 @@
       "occasional": "Изредка",
       "quotes": "Цитаты",
       "affirmations": "Аффирмации",
-      "both": "Оба"
+      "both": "Оба",
+      "resilience": "Стойкость",
+      "balance": "Баланс",
+      "nature": "Природа",
+      "dreams": "Мечты",
+      "health": "Здоровье",
+      "family": "Семья",
+      "friendship": "Дружба"
     }
   },
   "quote_detail": {
@@ -497,6 +504,10 @@
     "system": "Система",
     "color_themes": "Цветовые Темы",
     "color_themes_description": "Выбери свою любимую цветовую палитру",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Земля",
       "description": "Тёплые тона земли"

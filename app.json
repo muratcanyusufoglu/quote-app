@@ -15,7 +15,7 @@
         "backgroundColor": "#0D0D0F",
         "tabletImage": "./assets/images/splash-icon.png"
       },
-      "buildNumber": "3",
+      "buildNumber": "5",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",

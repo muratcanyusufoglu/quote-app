@@ -14,6 +14,7 @@ import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { MiniPremiumBadge } from "@/src/components/ui/MiniPremiumBadge";
+import { GiftBoxButton } from "../src/components/ui/GiftBoxButton";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
 import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
@@ -304,6 +305,9 @@ export default function RootLayout() {
 
         {/* Global PaywallModal - Accessible from anywhere in the app */}
         <PaywallModal />
+
+        {/* Gift Box Button - Floating discount offer button */}
+        <GiftBoxButton />
 
         {/* Global MiniPremiumBadge - Shows on all screens */}
 

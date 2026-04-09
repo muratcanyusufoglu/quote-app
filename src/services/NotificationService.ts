@@ -683,12 +683,14 @@ export class NotificationService {
         const daysSinceLastVisit = Math.floor(
           (now.getTime() - lastVisit.getTime()) / (1000 * 60 * 60 * 24)
         );
-        // Soft stop after 7+ days: cancel regular quotes, keep streak warnings
+        // Soft stop after 7+ days: cancel regular quotes, keep streak warnings (non-premium only)
         if (daysSinceLastVisit >= 7) {
           await this.cancelOnlyQuoteNotifications();
-          await this.scheduleStreakWarning(userPreferences);
+          if (!isPremium) {
+            await this.scheduleStreakWarning(userPreferences);
+          }
           console.log(
-            `🔕 User inactive (${daysSinceLastVisit}d). Stopped quote notifications; streak warnings scheduled.`
+            `🔕 User inactive (${daysSinceLastVisit}d). Stopped quote notifications; ${isPremium ? "streak warnings skipped (premium)" : "streak warnings scheduled"}.`
           );
           return;
         }
@@ -698,7 +700,9 @@ export class NotificationService {
       if (!storedSchedule) {
         // No schedule exists, create new one
         await this.scheduleNotifications(userPreferences, isPremium);
-        await this.scheduleStreakWarning(userPreferences);
+        if (!isPremium) {
+          await this.scheduleStreakWarning(userPreferences);
+        }
         return;
       }
 
@@ -711,7 +715,9 @@ export class NotificationService {
       if (hoursSinceUpdate >= 24) {
         // Time to update schedule
         await this.scheduleNotifications(userPreferences, isPremium);
-        await this.scheduleStreakWarning(userPreferences);
+        if (!isPremium) {
+          await this.scheduleStreakWarning(userPreferences);
+        }
       } else {
         console.log("📅 Notification schedule is up to date");
       }
@@ -967,6 +973,11 @@ export class NotificationService {
   ): Promise<void> {
     console.log("🔄 Updating notification schedule...");
     await this.scheduleNotifications(userPreferences, isPremium);
+    // Premium kullanıcılar için kalan streak uyarılarını iptal et
+    if (isPremium) {
+      await this.cancelStreakWarnings();
+      console.log("🔕 Streak warnings cancelled for premium user");
+    }
   }
 
   /**

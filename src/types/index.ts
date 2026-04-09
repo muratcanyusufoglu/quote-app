@@ -487,6 +487,9 @@ export interface PaywallStoreState {
   userInteractionCount: number;
   swipeCountForPaywall3: number;
   onboardingCompletedDate: string | null;
+
+  // Gift box button
+  showGiftButton: boolean;
 }
 
 export interface PaywallStoreActions {
@@ -508,6 +511,9 @@ export interface PaywallStoreActions {
   isFirstTimePaywall: () => boolean;
   isDiscountedPaywall: () => boolean;
   isSecondDiscountPaywall: () => boolean;
+
+  // Gift box button
+  setShowGiftButton: (show: boolean) => void;
 }
 
 export type PaywallStore = PaywallStoreState & PaywallStoreActions;

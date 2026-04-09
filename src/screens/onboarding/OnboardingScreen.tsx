@@ -1037,7 +1037,7 @@ const styles = StyleSheet.create({
   questionContent: {
     paddingHorizontal: 24,
     paddingTop: 16,
-    paddingBottom: 24,
+    paddingBottom: 40,
   },
   stepCounter: {
     fontSize: 12,
@@ -1060,7 +1060,7 @@ const styles = StyleSheet.create({
     marginBottom: 28,
   },
   optionsWrap: {
-    flex: 1,
+    // flex:1 kaldırıldı — ScrollView içinde içeriği kısıtlıyordu
   },
 
   // Single choice
@@ -1070,11 +1070,10 @@ const styles = StyleSheet.create({
   gridContainer: {
     flexDirection: "row",
     flexWrap: "wrap",
-    marginHorizontal: -5,
+    gap: 10,
   },
   gridCell: {
-    width: "50%",
-    padding: 5,
+    width: "47.5%",
   },
 
   // Slider

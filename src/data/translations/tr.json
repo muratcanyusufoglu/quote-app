@@ -195,7 +195,7 @@
       "start_trial_button": "Ücretsiz Başla",
       "start_trial_button_full": "3 günlük ücretsiz denemenizi başlatın",
       "restore_purchase": "Satın Alımları Geri Yükle",
-      "secured_by": "iTunes ile Güvenli",
+      "secured_by": "Apple ile Güvenli",
       "legal_benefits": "Abonelik; sınırsız alıntı, premium kategoriler, reklamsız okuma, çevrimdışı erişim ve kişiselleştirilmiş öneriler sunar.",
       "legal_renew_note": "Otomatik yenilenen abonelik. Hesap Ayarları'ndan istediğiniz zaman iptal edebilirsiniz. Ödeme Apple Kimliğinize yansıtılır.",
       "discount_offer_title": "Kaçırmayın!",
@@ -422,7 +422,14 @@
       "occasional": "Arada Sırada",
       "quotes": "Alıntılar",
       "affirmations": "Olumlamalar",
-      "both": "Her İkisi de"
+      "both": "Her İkisi de",
+      "resilience": "Dayanıklılık",
+      "balance": "Denge",
+      "nature": "Doğa",
+      "dreams": "Hayaller",
+      "health": "Sağlık",
+      "family": "Aile",
+      "friendship": "Dostluk"
     }
   },
   "quote_detail": {
@@ -495,6 +502,10 @@
     "system": "Sistem",
     "color_themes": "Renk Temaları",
     "color_themes_description": "Favori renk paletinizi seçin",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Klasik",
       "description": "Zamansız altın zarafet"

@@ -426,7 +426,14 @@
       "occasional": "Occasionalmente",
       "quotes": "Citazioni",
       "affirmations": "Affermazioni",
-      "both": "Entrambi"
+      "both": "Entrambi",
+      "resilience": "Resilienza",
+      "balance": "Equilibrio",
+      "nature": "Natura",
+      "dreams": "Sogni",
+      "health": "Salute",
+      "family": "Famiglia",
+      "friendship": "Amicizia"
     }
   },
   "quote_detail": {
@@ -498,6 +505,10 @@
     "system": "Sistema",
     "color_themes": "Temi Colore",
     "color_themes_description": "Scegli la tua palette di colori preferita",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Terra",
       "description": "Toni terrosi caldi"

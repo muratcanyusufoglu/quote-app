@@ -4,8 +4,8 @@ import { persist } from "zustand/middleware";
 import { useShallow } from "zustand/react/shallow";
 import { PaywallStore, PaywallTriggerSource } from "../types";
 
-const ACTION_LIMIT = 15;
-const PAYWALL3_SWIPE_THRESHOLD = 5; // 5 swipe sonra 3. paywall
+const ACTION_LIMIT = 5;
+const PAYWALL3_SWIPE_THRESHOLD = 15; // 15 swipe sonra 3. paywall
 
 // PaywallStore slice for managing paywall modal and triggers
 const usePaywallStore = create<PaywallStore>()(
@@ -27,6 +27,9 @@ const usePaywallStore = create<PaywallStore>()(
       swipeCountForPaywall3: 0, // session-only, not persisted
       onboardingCompletedDate: null,
 
+      // Gift box button
+      showGiftButton: false,
+
       // Actions
       showPaywall: (source: PaywallTriggerSource) => {
         const today = new Date().toDateString();
@@ -47,16 +50,23 @@ const usePaywallStore = create<PaywallStore>()(
       },
 
       trackAction: () => {
-        const { actionCount, isVisible } = get();
+        const { actionCount, isVisible, hasSeenFirstTimePaywall, hasSeenDiscountPaywall } = get();
         const newActionCount = actionCount + 1;
 
         set({ actionCount: newActionCount });
         console.log(`📊 Action tracked: ${newActionCount}/${ACTION_LIMIT}`);
 
         if (newActionCount >= ACTION_LIMIT && !isVisible) {
-          console.log(`🎯 Action limit reached (${ACTION_LIMIT}), showing paywall`);
-          get().showPaywall("action_limit");
           get().resetActionCount();
+
+          // Paywall 1 görüldü ama Paywall 2 henüz görülmediyse → hediye kutusunu göster
+          if (hasSeenFirstTimePaywall && !hasSeenDiscountPaywall) {
+            console.log(`🎁 Action limit → gift button gösteriliyor`);
+            set({ showGiftButton: true });
+          } else {
+            console.log(`🎯 Action limit reached (${ACTION_LIMIT}), showing generic paywall`);
+            get().showPaywall("action_limit");
+          }
         }
       },
 
@@ -95,8 +105,14 @@ const usePaywallStore = create<PaywallStore>()(
         }
       },
 
-      // Paywall #2 artık PaywallModal'ın handleClose() içinden tetikleniyor.
-      // Bu metot geriye dönük uyumluluk için bırakıldı.
+      setShowGiftButton: (show: boolean) => {
+        set({ showGiftButton: show });
+        if (!show) set({ hasSeenDiscountPaywall: true });
+        console.log(`🎁 Gift button: ${show ? "gösteriliyor" : "gizleniyor"}`);
+      },
+
+      // Paywall #2 artık trackAction() üzerinden tetikleniyor (ACTION_LIMIT sonrası).
+      // Kullanıcı gerçekten uygulamayı kullandıktan sonra, doğal bir noktada gösterilir.
       trackUserInteraction: () => {
         const { userInteractionCount } = get();
         set({ userInteractionCount: userInteractionCount + 1 });
@@ -228,6 +244,7 @@ const usePaywallStore = create<PaywallStore>()(
         hasSeenSecondDiscountPaywall: state.hasSeenSecondDiscountPaywall,
         userInteractionCount: state.userInteractionCount,
         onboardingCompletedDate: state.onboardingCompletedDate,
+        showGiftButton: state.showGiftButton,
         // swipeCountForPaywall3 intentionally NOT persisted (session-only)
       }),
     }
@@ -266,6 +283,9 @@ export const usePaywallSelectors = {
   isSecondDiscountPaywall: () =>
     usePaywallStore(useShallow((state) => state.isSecondDiscountPaywall())),
 
+  showGiftButton: () =>
+    usePaywallStore(useShallow((state) => state.showGiftButton)),
+
   actions: () =>
     usePaywallStore(
       useShallow((state) => ({
@@ -285,6 +305,9 @@ export const usePaywallSelectors = {
         resetProgressivePaywall: state.resetProgressivePaywall,
         resetInteractionCountForDiscount:
           state.resetInteractionCountForDiscount,
+
+        // Gift box
+        setShowGiftButton: state.setShowGiftButton,
       }))
     ),
 };

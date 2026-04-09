@@ -426,7 +426,14 @@
       "occasional": "เป็นครั้งคราว",
       "quotes": "คำคม",
       "affirmations": "คำยืนยัน",
-      "both": "ทั้งคู่"
+      "both": "ทั้งคู่",
+      "resilience": "ความยืดหยุ่น",
+      "balance": "ความสมดุล",
+      "nature": "ธรรมชาติ",
+      "dreams": "ความฝัน",
+      "health": "สุขภาพ",
+      "family": "ครอบครัว",
+      "friendship": "มิตรภาพ"
     }
   },
   "quote_detail": {
@@ -498,6 +505,10 @@
     "system": "ระบบ",
     "color_themes": "ธีมสี",
     "color_themes_description": "เลือกชุดสีโปรดของคุณ",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "โลก",
       "description": "โทนสีโลกอบอุ่น"

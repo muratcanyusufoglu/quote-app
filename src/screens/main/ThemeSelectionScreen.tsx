@@ -1,6 +1,7 @@
 import {LinearGradient} from "expo-linear-gradient";
 import React, {useEffect} from "react";
 import {
+  Dimensions,
   ScrollView,
   StyleSheet,
   Text,
@@ -11,14 +12,10 @@ import {IconSymbol} from "../../../components/ui/IconSymbol";
 import BaseScreen from "../../components/layout/BaseScreen";
 import {NavigationBar} from "../../components/layout/NavigationBar";
 import {useAnalytics} from "../../hooks/useAnalytics";
-import {
-  useCommonTranslations,
-  useTranslation,
-} from "../../hooks/useTranslation";
+import {useTranslation} from "../../hooks/useTranslation";
 import {getThemeByOption, themeMetadata} from "../../utils/theme";
 import {useTheme} from "../../utils/ThemeContext";
 
-// Define types locally to match ThemeContext
 type ThemeOption =
   | "aura"
   | "uprising"
@@ -27,318 +24,148 @@ type ThemeOption =
   | "sunset"
   | "purple"
   | "minimalist";
-type ColorScheme = "light" | "dark" | "system";
+
+const CARD_GAP = 12;
+const SCREEN_PADDING = 16;
+const CARD_WIDTH =
+  (Dimensions.get("window").width - SCREEN_PADDING * 2 - CARD_GAP) / 2;
+const CARD_HEIGHT = CARD_WIDTH * 1.45;
+
+// Sample quote shown on each card preview
+const PREVIEW_QUOTES: Record<ThemeOption, string> = {
+  aura: "Every day is a new beginning.",
+  uprising: "Believe you can and you're halfway there.",
+  ocean: "Calm mind brings inner strength.",
+  forest: "Simplicity is the ultimate sophistication.",
+  sunset: "Be rooted. Be present. Be you.",
+  purple: "Dare to live the life you imagined.",
+  minimalist: "Less, but better.",
+};
+
+const GRADIENT_COLORS: Record<ThemeOption, string[]> = {
+  aura: ["#141210", "#1C1916", "#C8965A", "#E8C97A"],
+  uprising: ["#FCE38A", "#FAC73C", "#F38181", "#EF5757"],
+  ocean: ["#0A0D13", "#1C2331", "#273449", "#3A5F8A"],
+  forest: ["#E8E4DC", "#F3EFE9", "#D0C8BC", "#9BA89A"],
+  sunset: ["#E6D5C3", "#D4BFA6", "#B89880", "#8C6B50"],
+  purple: ["#020617", "#0F172A", "#3B1F5E", "#7C3AED"],
+  minimalist: ["#0F0F10", "#1C1C1E", "#2C2C2E", "#3A3A3C"],
+};
+
+// Whether the card needs light text
+const LIGHT_TEXT_THEMES: ThemeOption[] = [
+  "aura",
+  "ocean",
+  "purple",
+  "minimalist",
+];
 
 export function ThemeSelectionScreen() {
-  const {
-    theme,
-    selectedTheme,
-    colorScheme,
-    setSelectedTheme,
-    setColorScheme,
-    isDark,
-  } = useTheme();
-
-  // Analytics
+  const {theme, selectedTheme, setSelectedTheme, isDark} = useTheme();
   const {trackScreen, trackThemeChange} = useAnalytics();
+  const {t} = useTranslation();
 
-  const common = useCommonTranslations();
-  const {t, tNamespace} = useTranslation();
-  const themeTranslations = tNamespace("themes");
-
-  // Track screen view
   useEffect(() => {
     trackScreen("ThemeSelectionScreen", "ThemeSelectionScreen");
   }, [trackScreen]);
 
   const handleThemeSelect = (themeOption: ThemeOption) => {
-    const oldTheme = selectedTheme;
+    trackThemeChange(selectedTheme, themeOption);
     setSelectedTheme(themeOption);
-
-    // Track theme change
-    trackThemeChange(oldTheme, themeOption);
-
-    console.log(`🎨 Theme selected: ${themeOption}`);
   };
 
-  const handleColorSchemeSelect = (scheme: ColorScheme) => {
-    const oldScheme = colorScheme;
-    setColorScheme(scheme);
+  const isLightText = (key: ThemeOption) => LIGHT_TEXT_THEMES.includes(key);
 
-    // Track color scheme change
-    trackThemeChange(
-      `${selectedTheme}_${oldScheme}`,
-      `${selectedTheme}_${scheme}`
-    );
-
-    console.log(`🌓 Color scheme selected: ${scheme}`);
-  };
-
-  const styles = createStyles(theme);
-
-  // Helper function to create smooth gradients for each theme - matching actual theme colors
-  const getSmoothGradientColors = (
-    themeKey: ThemeOption,
-    previewTheme: any
-  ): string[] => {
-    const baseColors = {
-      // Aura - Warm Cinematic (dark charcoal to gold)
-      aura: ["#141210", "#1C1916", "#241E1A", "#C8965A", "#E8C97A"],
-      // Uprising - Classic Gradient Yellow to Pink (from HTML Variant 2)
-      uprising: ["#FCE38A", "#FBD55A", "#FAC73C", "#F38181", "#EF5757"],
-      // Ocean - Deep Blue & Navy
-      ocean: ["#0A0D13", "#161C28", "#1C2331", "#273449", "#F4C47A"],
-      // Forest - Light Minimalist
-      forest: ["#E8E4DC", "#F3EFE9", "#FBF9F6", "#E0CDBA", "#4A5C6A"],
-      // Earth - Warm Earth Tones (brown and beige palette)
-      sunset: ["#E6E0D4", "#F7F5F2", "#DCD5C9", "#D1C4B3", "#6A5B4C"],
-      // Purple - Glassmorphism Dark
-      purple: ["#020617", "#0F172A", "#111827", "#F59E0B", "#EC4899"],
-      // Minimalist - Elegant Dark
-      minimalist: ["#0F0F10", "#1C1C1E", "#2C2C2E", "#B8AB9F", "#D1C4B3"],
-    };
-
-    return baseColors[themeKey] || baseColors.uprising;
-  };
+  const themeKeys = Object.keys(themeMetadata) as ThemeOption[];
 
   return (
     <BaseScreen style={styles.container} useGradientBackground={true}>
       <View style={styles.content}>
-        {/* Navigation Bar */}
         <NavigationBar />
 
         {/* Header */}
-        <View style={styles.headerContainer}>
+        <View style={styles.header}>
           <Text style={[styles.title, {color: theme.colors.text}]}>
-            {themeTranslations.title}
+            {t("themes.title" as any) || "Themes"}
           </Text>
         </View>
 
         <ScrollView
-          style={styles.scrollContent}
           showsVerticalScrollIndicator={false}
-          contentContainerStyle={styles.scrollContentContainer}
+          contentContainerStyle={styles.scrollContent}
         >
-          {/* Theme Selection Section */}
-          <View style={styles.section}>
-            <View style={styles.themesGrid}>
-              {(Object.keys(themeMetadata) as ThemeOption[]).map((themeKey) => {
-                const metadata = themeMetadata[themeKey];
-                const isSelected = selectedTheme === themeKey;
+          {/* Section label */}
+          <Text style={[styles.sectionLabel, {color: theme.colors.textSecondary}]}>
+            {t("themes.color_themes" as any) || "Color Themes"}
+          </Text>
 
-                // Get preview theme for this option
-                const previewTheme = getThemeByOption(themeKey, isDark);
+          {/* 2-column grid */}
+          <View style={styles.grid}>
+            {themeKeys.map((key) => {
+              const isSelected = selectedTheme === key;
+              const lightText = isLightText(key);
+              const textColor = lightText
+                ? "rgba(255,255,255,0.92)"
+                : "rgba(30,20,10,0.88)";
+              const subColor = lightText
+                ? "rgba(255,255,255,0.6)"
+                : "rgba(30,20,10,0.5)";
+              const name = t(`themes.${key}.name` as any) || key;
+              const quote = PREVIEW_QUOTES[key];
 
-                // Helper function to determine icon color based on primary color brightness
-                const getIconColorForPrimary = (
-                  primaryColor: string
-                ): string => {
-                  // Convert hex to RGB
-                  const hex = primaryColor.replace("#", "");
-                  const r = parseInt(hex.substring(0, 2), 16);
-                  const g = parseInt(hex.substring(2, 4), 16);
-                  const b = parseInt(hex.substring(4, 6), 16);
-
-                  // Calculate brightness (0-255)
-                  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
-
-                  // If primary is light, use dark icon; if dark, use light icon
-                  return brightness > 128 ? "#2A2A2A" : "#FFFFFF";
-                };
-
-                // Helper function to determine text shadow based on text color brightness
-                const getTextShadowColor = (textColor: string): string => {
-                  // Convert hex to RGB
-                  const hex = textColor.replace("#", "");
-                  const r = parseInt(hex.substring(0, 2), 16);
-                  const g = parseInt(hex.substring(2, 4), 16);
-                  const b = parseInt(hex.substring(4, 6), 16);
-
-                  // Calculate brightness (0-255)
-                  const brightness = (r * 299 + g * 587 + b * 114) / 1000;
-
-                  // If text is dark, use light shadow; if light, use dark shadow
-                  return brightness > 128
-                    ? "rgba(255, 255, 255, 0.5)"
-                    : "rgba(0, 0, 0, 0.5)";
-                };
-
-                // Helper function to get appropriate text color for theme cards
-                // Purple and Minimalist themes need light text on dark gradients
-                const getThemeCardTextColor = (
-                  themeKey: ThemeOption,
-                  isMainText: boolean
-                ): string => {
-                  if (themeKey === "aura" || themeKey === "purple" || themeKey === "minimalist") {
-                    // Use light colors for dark gradient backgrounds
-                    return isMainText ? "#F0EBE2" : "#B8AD9E";
-                  }
-                  // For other themes, use the preview theme's text colors
-                  return isMainText
-                    ? previewTheme.colors.text
-                    : previewTheme.colors.textSecondary;
-                };
-
-                // Map theme icons to available icons
-                const getValidIcon = (iconName: string) => {
-                  const iconMap: Record<string, any> = {
-                    "moon.stars": "moon",
-                    sun: "sunrise",
-                    waves: "heart",
-                    "tree-pine": "tree-pine",
-                    sunset: "sunrise",
-                    crown: "crown",
-                    square: "menu",
-                  };
-                  return iconMap[iconName] || "heart";
-                };
-
-                // Get theme name and description from translations
-                const themeName =
-                  t(`themes.${themeKey}.name` as any) || themeKey;
-                const themeDescription =
-                  t(`themes.${themeKey}.description` as any) || "";
-
-                return (
-                  <TouchableOpacity
-                    key={themeKey}
-                    style={[
-                      styles.themeOption,
-                      {
-                        borderColor: isSelected
-                          ? theme.colors.brandYellow
-                          : "transparent",
-                        borderWidth: isSelected ? 3 : 0,
-                        shadowColor: theme.colors.shadowColor,
-                        shadowOffset: {width: 0, height: 4},
-                        shadowOpacity: 0.3,
-                        shadowRadius: 8,
-                        elevation: 8,
-                      },
-                    ]}
-                    onPress={() => handleThemeSelect(themeKey)}
-                    activeOpacity={0.8}
+              return (
+                <TouchableOpacity
+                  key={key}
+                  style={[
+                    styles.card,
+                    isSelected && {
+                      borderWidth: 2.5,
+                      borderColor: theme.colors.brandYellow,
+                    },
+                  ]}
+                  onPress={() => handleThemeSelect(key)}
+                  activeOpacity={0.85}
+                >
+                  <LinearGradient
+                    colors={GRADIENT_COLORS[key] as any}
+                    start={{x: 0, y: 0}}
+                    end={{x: 1, y: 1}}
+                    style={styles.cardGradient}
                   >
-                    {/* Theme Gradient Background */}
-                    <LinearGradient
-                      colors={
-                        getSmoothGradientColors(themeKey, previewTheme) as any
-                      }
-                      locations={[0, 0.2, 0.5, 0.8, 1] as any}
-                      start={{x: 0, y: 0}}
-                      end={{x: 1, y: 1}}
-                      style={styles.themeGradientBackground}
+                    {/* Quote preview text */}
+                    <Text
+                      style={[styles.quoteText, {color: textColor}]}
+                      numberOfLines={3}
                     >
-                      {/* Theme Preview Color Circle */}
-                      <View
-                        style={[
-                          styles.themePreview,
-                          {
-                            backgroundColor: previewTheme.colors.primary,
-                          },
-                        ]}
-                      >
-                        <IconSymbol
-                          name={getValidIcon(metadata.icon)}
-                          size={20}
-                          color={getIconColorForPrimary(
-                            previewTheme.colors.primary
-                          )}
-                        />
-                      </View>
+                      {quote}
+                    </Text>
 
-                      {/* Theme Info */}
-                      <View style={styles.themeInfo}>
-                        <Text
-                          style={[
-                            styles.themeName,
-                            {
-                              color: getThemeCardTextColor(themeKey, true),
-                              fontWeight: isSelected ? "700" : "600",
-                              textShadowColor:
-                                themeKey === "purple" ||
-                                themeKey === "minimalist"
-                                  ? "rgba(0, 0, 0, 0.5)" // Dark shadow for light text
-                                  : getTextShadowColor(
-                                      previewTheme.colors.text
-                                    ),
-                              textShadowOffset: {width: 0, height: 1},
-                              textShadowRadius: 3,
-                            },
-                          ]}
-                        >
-                          {themeName}
-                        </Text>
-                        <Text
-                          style={[
-                            styles.themeDescription,
-                            {
-                              color: getThemeCardTextColor(themeKey, false),
-                              textShadowColor:
-                                themeKey === "purple" ||
-                                themeKey === "minimalist"
-                                  ? "rgba(0, 0, 0, 0.3)" // Dark shadow for light text
-                                  : getTextShadowColor(
-                                      previewTheme.colors.textSecondary
-                                    ),
-                              textShadowOffset: {width: 0, height: 1},
-                              textShadowRadius: 2,
-                            },
-                          ]}
-                        >
-                          {themeDescription}
-                        </Text>
-                      </View>
-
-                      {/* Selection Indicator */}
+                    {/* Bottom row: theme name + checkmark */}
+                    <View style={styles.cardBottom}>
+                      <Text style={[styles.themeName, {color: subColor}]}>
+                        {name}
+                      </Text>
                       {isSelected && (
                         <View
                           style={[
-                            styles.selectionIndicator,
+                            styles.checkBadge,
                             {backgroundColor: theme.colors.brandYellow},
                           ]}
                         >
                           <IconSymbol
                             name="checkmark"
-                            size={16}
-                            color={getIconColorForPrimary(
-                              theme.colors.brandYellow
-                            )}
+                            size={11}
+                            color={lightText ? "#1A1208" : "#FFFFFF"}
                           />
                         </View>
                       )}
-
-                      {/* Subtle Overlay for Better Text Readability */}
-                      <LinearGradient
-                        colors={
-                          // Use dark overlay for light text, light overlay for dark text
-                          getTextShadowColor(previewTheme.colors.text) ===
-                          "rgba(0, 0, 0, 0.5)"
-                            ? [
-                                "transparent",
-                                "rgba(0, 0, 0, 0.05)",
-                                "rgba(0, 0, 0, 0.15)",
-                              ]
-                            : [
-                                "transparent",
-                                "rgba(255, 255, 255, 0.05)",
-                                "rgba(255, 255, 255, 0.15)",
-                              ]
-                        }
-                        locations={[0, 0.7, 1]}
-                        style={styles.themeTextOverlay}
-                        pointerEvents="none"
-                      />
-                    </LinearGradient>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
+                    </View>
+                  </LinearGradient>
+                </TouchableOpacity>
+              );
+            })}
           </View>
 
-          {/* Preview Section */}
-
-          {/* Bottom spacing */}
           <View style={{height: 40}} />
         </ScrollView>
       </View>
@@ -346,125 +173,80 @@ export function ThemeSelectionScreen() {
   );
 }
 
-const createStyles = (theme: any) =>
-  StyleSheet.create({
-    container: {
-      paddingHorizontal: 0,
-    },
-    content: {
-      flex: 1,
-      paddingHorizontal: 16,
-    },
-    headerContainer: {
-      marginTop: 20,
-      marginBottom: 24,
-    },
-    title: {
-      fontSize: 28,
-      fontWeight: "700",
-      marginBottom: 8,
-    },
-    scrollContent: {
-      flex: 1,
-    },
-    scrollContentContainer: {
-      paddingTop: 0,
-    },
-    section: {
-      marginBottom: 32,
-    },
-
-    // Theme Options
-    themesGrid: {
-      gap: 16,
-    },
-    themeOption: {
-      borderRadius: 20,
-      minHeight: 80,
-      overflow: "hidden",
-    },
-    themeGradientBackground: {
-      flex: 1,
-      flexDirection: "row",
-      alignItems: "center",
-      padding: 20,
-      gap: 16,
-      minHeight: 80,
-      position: "relative",
-    },
-    themeTextOverlay: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-    },
-    themePreview: {
-      width: 48,
-      height: 48,
-      borderRadius: 24,
-      justifyContent: "center",
-      alignItems: "center",
-      shadowColor: "rgba(0, 0, 0, 0.4)",
-      shadowOffset: {width: 0, height: 2},
-      shadowOpacity: 0.8,
-      shadowRadius: 4,
-      elevation: 6,
-      zIndex: 2,
-    },
-    themeInfo: {
-      flex: 1,
-      zIndex: 2,
-    },
-    themeName: {
-      fontSize: 18,
-      marginBottom: 4,
-    },
-    themeDescription: {
-      fontSize: 13,
-      lineHeight: 18,
-    },
-    selectionIndicator: {
-      width: 32,
-      height: 32,
-      borderRadius: 16,
-      justifyContent: "center",
-      alignItems: "center",
-      zIndex: 3,
-    },
-
-    // Preview Section
-    previewCard: {
-      padding: 20,
-      borderRadius: 16,
-      position: "relative",
-      overflow: "hidden",
-    },
-    previewGradient: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-    },
-    previewText: {
-      fontSize: 16,
-      lineHeight: 24,
-      marginBottom: 20,
-      zIndex: 1,
-    },
-    previewButtons: {
-      flexDirection: "row",
-      gap: 12,
-      zIndex: 1,
-    },
-    previewButton: {
-      paddingVertical: 12,
-      paddingHorizontal: 20,
-      borderRadius: 8,
-    },
-    previewButtonText: {
-      fontSize: 14,
-      fontWeight: "600",
-    },
-  });
+const styles = StyleSheet.create({
+  container: {
+    paddingHorizontal: 0,
+  },
+  content: {
+    flex: 1,
+    paddingHorizontal: SCREEN_PADDING,
+  },
+  header: {
+    marginTop: 20,
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "700",
+  },
+  scrollContent: {
+    paddingTop: 4,
+  },
+  sectionLabel: {
+    fontSize: 13,
+    fontWeight: "500",
+    letterSpacing: 0.3,
+    marginBottom: 14,
+    marginTop: 6,
+    textTransform: "uppercase",
+  },
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: CARD_GAP,
+  },
+  card: {
+    width: CARD_WIDTH,
+    height: CARD_HEIGHT,
+    borderRadius: 20,
+    overflow: "hidden",
+    shadowColor: "#000",
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.18,
+    shadowRadius: 10,
+    elevation: 6,
+    borderWidth: 0,
+    borderColor: "transparent",
+  },
+  cardGradient: {
+    flex: 1,
+    padding: 16,
+    justifyContent: "space-between",
+  },
+  quoteText: {
+    fontSize: 14,
+    fontWeight: "600",
+    lineHeight: 20,
+    letterSpacing: 0.1,
+    flex: 1,
+  },
+  cardBottom: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginTop: 8,
+  },
+  themeName: {
+    fontSize: 12,
+    fontWeight: "600",
+    letterSpacing: 0.5,
+    textTransform: "uppercase",
+  },
+  checkBadge: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});

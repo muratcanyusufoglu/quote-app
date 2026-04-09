@@ -404,7 +404,14 @@
       "occasional": "Gelegentlich",
       "quotes": "Zitate",
       "affirmations": "Affirmationen",
-      "both": "Beides"
+      "both": "Beides",
+      "resilience": "Widerstandsfähigkeit",
+      "balance": "Balance",
+      "nature": "Natur",
+      "dreams": "Träume",
+      "health": "Gesundheit",
+      "family": "Familie",
+      "friendship": "Freundschaft"
     }
   },
   "quote_detail": {
@@ -476,6 +483,10 @@
     "system": "System",
     "color_themes": "Farb-Themen",
     "color_themes_description": "Wähle deine Lieblings-Farbpalette",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Uprising",
       "description": "Warmes und inspirierendes Uprising-Thema"

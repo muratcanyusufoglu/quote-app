@@ -426,7 +426,14 @@
       "occasional": "時々",
       "quotes": "名言",
       "affirmations": "アファメーション",
-      "both": "両方"
+      "both": "両方",
+      "resilience": "回復力",
+      "balance": "バランス",
+      "nature": "自然",
+      "dreams": "夢",
+      "health": "健康",
+      "family": "家族",
+      "friendship": "友情"
     }
   },
   "quote_detail": {
@@ -498,6 +505,10 @@
     "system": "システム",
     "color_themes": "カラーテーマ",
     "color_themes_description": "お気に入りのカラーパレットを選択",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "地球",
       "description": "暖かい大地の色調"

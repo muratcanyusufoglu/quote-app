@@ -426,7 +426,14 @@
       "occasional": "Af en toe",
       "quotes": "Citaten",
       "affirmations": "Affirmaties",
-      "both": "Beide"
+      "both": "Beide",
+      "resilience": "Veerkracht",
+      "balance": "Balans",
+      "nature": "Natuur",
+      "dreams": "Dromen",
+      "health": "Gezondheid",
+      "family": "Familie",
+      "friendship": "Vriendschap"
     }
   },
   "quote_detail": {
@@ -498,6 +505,10 @@
     "system": "Systeem",
     "color_themes": "Kleur Thema's",
     "color_themes_description": "Kies je favoriete kleurenpalet",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Aarde",
       "description": "Warme aardetinten"

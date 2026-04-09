@@ -251,7 +251,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const isDiscountedPaywall = usePaywallSelectors.isDiscountedPaywall();
   const isSecondDiscountPaywall = usePaywallSelectors.isSecondDiscountPaywall();
   const [shouldShowDiscounted, setShouldShowDiscounted] = useState(false);
-  const {hidePaywall, showPaywall} = usePaywallSelectors.actions();
+  const {hidePaywall, showPaywall, setShowGiftButton} = usePaywallSelectors.actions();
 
   // Paywall #1: multi-plan selector state
   const [firstTimePackages, setFirstTimePackages] = useState<SubscriptionPackage[]>([]);
@@ -743,13 +743,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       hidePaywall();
       onClose?.();
 
-      // Paywall #1 kapandı → hemen Paywall #2 göster (0.8sn)
-      if (isFirstTime) {
-        console.log("💸 Paywall #1 kapandı → Paywall #2 gösteriliyor...");
-        setTimeout(() => {
-          showPaywall("discounted");
-        }, 800);
-      }
+      // Paywall #1 kapandı → Paywall #2 artık action_limit ile tetiklenir (günlük limit)
+      // Burada hiçbir şey yapılmıyor, agresif re-prompt kaldırıldı.
       // Paywall #2 kapandı → HomeScreen'deki swipe tracker devreye girer → Paywall #3
       // Paywall #3 kapandı → hasSeenSecondDiscountPaywall=true, bir daha gösterilmez
     });
@@ -826,6 +821,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 trigger_source: triggerSource || "manual",
               });
             }
+
+            // ✅ STEP 3: Hide gift box button (discount offer no longer needed)
+            setShowGiftButton(false);
 
             // ✅ STEP 3: Trigger onPurchase callback immediately for app-wide updates
             onPurchase?.();
@@ -970,6 +968,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
           // Only hide paywall if user is actually premium
           if (actualIsPremium) {
+            // ✅ Hide gift box button on successful restore
+            setShowGiftButton(false);
+
             // ✅ Trigger onPurchase callback immediately for app-wide updates
             onPurchase?.();
 
@@ -1338,8 +1339,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 </View>
                 <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
                   {discountPercentage > 0
-                    ? `Save ${discountPercentage}% — biggest discount available`
-                    : "Special limited-time discount"}
+                    ? `Save ${discountPercentage}% — your exclusive offer`
+                    : "Your exclusive offer"}
                 </Text>
               </View>
               <View style={styles.compactBenefitRow}>
@@ -1555,7 +1556,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           <View style={styles.securedSection}>
             <Text style={styles.securedIcon}>🔒</Text>
             <Text style={[styles.securedText, {color: theme.colors.textSecondary}]}>
-              {paywall.modern.secured_by || "Secured by iTunes"}
+              {paywall.modern.secured_by || "Secured by Apple"}
             </Text>
           </View>
 

@@ -426,7 +426,14 @@
       "occasional": "Sekali-sekala",
       "quotes": "Petikan",
       "affirmations": "Afirmasi",
-      "both": "Kedua-duanya"
+      "both": "Kedua-duanya",
+      "resilience": "Daya Tahan",
+      "balance": "Keseimbangan",
+      "nature": "Alam",
+      "dreams": "Impian",
+      "health": "Kesihatan",
+      "family": "Keluarga",
+      "friendship": "Persahabatan"
     }
   },
   "quote_detail": {
@@ -498,6 +505,10 @@
     "system": "Sistem",
     "color_themes": "Tema Warna",
     "color_themes_description": "Pilih palet warna kegemaran anda",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Bumi",
       "description": "Tona bumi hangat"

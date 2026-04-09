@@ -21,8 +21,16 @@ export class QuoteFilterService {
   filterByCategories(quotes: Quote[], selectedCategories: string[]): Quote[] {
     if (selectedCategories.length === 0) return quotes;
 
+    // Eski veri uyumluluğu: "strength" seçmiş kullanıcıları "resilience"a yönlendir
+    const CATEGORY_ALIASES: Record<string, string> = {
+      strength: "resilience",
+    };
+    const normalized = selectedCategories.map(
+      (c) => CATEGORY_ALIASES[c] ?? c
+    );
+
     return quotes.filter((quote) =>
-      selectedCategories.includes(quote.category)
+      normalized.includes(quote.category)
     );
   }
 

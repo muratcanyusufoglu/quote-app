@@ -147,7 +147,7 @@
     "modern": {
       "title": "Your Unlimited Source of Inspiration",
       "subtitle": "Get unlimited access to 10,000+ inspiring quotes",
-      "trial_title": "Worried? Try Quote",
+      "trial_title": "Explore Aurora Free for 3 Days",
       "premium_badge": "⭐ PREMIUM ⭐",
       "free_trial_highlight": "Free for 3 days",
       "days_free": "days free",
@@ -195,7 +195,7 @@
       "start_trial_button": "Start Free",
       "start_trial_button_full": "Start your free 3-day trial",
       "restore_purchase": "Restore Purchases",
-      "secured_by": "Secured by iTunes",
+      "secured_by": "Secured by Apple",
       "legal_benefits": "Subscription gives you unlimited quotes, premium categories, ad-free reading, offline access, and personalized recommendations.",
       "legal_renew_note": "Auto-renewable subscription. Cancel anytime in Account Settings. Payment is charged to your Apple ID.",
       "discount_offer_title": "Don't Miss Out!",
@@ -429,7 +429,14 @@
       "occasional": "Occasionally",
       "quotes": "Quotes",
       "affirmations": "Affirmations",
-      "both": "Both"
+      "both": "Both",
+      "resilience": "Resilience",
+      "balance": "Balance",
+      "nature": "Nature",
+      "dreams": "Dreams",
+      "health": "Health",
+      "family": "Family",
+      "friendship": "Friendship"
     }
   },
   "quote_detail": {
@@ -502,6 +509,10 @@
     "system": "System",
     "color_themes": "Color Themes",
     "color_themes_description": "Choose your favorite color palette",
+    "aura": {
+      "name": "Aura",
+      "description": "Warm cinematic gold"
+    },
     "uprising": {
       "name": "Classic",
       "description": "Timeless golden elegance"
