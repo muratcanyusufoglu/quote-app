@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
 import { useTheme } from "../../utils/ThemeContext";
 import { getCategoryIcon } from "../../utils/theme";
@@ -23,7 +22,6 @@ export function CategoryFilterChip({
   onClear,
 }: CategoryFilterChipProps) {
   const { theme } = useTheme();
-  const insets = useSafeAreaInsets();
   const scaleAnim = useRef(new Animated.Value(0)).current;
   const opacityAnim = useRef(new Animated.Value(0)).current;
 
@@ -47,28 +45,18 @@ export function CategoryFilterChip({
   }, []);
 
   const handleClear = () => {
-    // Exit animation before clearing
-    Animated.parallel([
-      Animated.spring(scaleAnim, {
-        toValue: 0,
-        useNativeDriver: true,
-        tension: 100,
-        friction: 8,
-      }),
-      Animated.timing(opacityAnim, {
-        toValue: 0,
-        duration: 200,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
-      onClear();
-    });
+    // State'i hemen güncelle — gecikme olmadan filtre kalksın
+    onClear();
   };
 
   const styles = StyleSheet.create({
     container: {
       position: "absolute",
-      top: insets.top + 16,
+      // SafeAreaView zaten insets.top padding'i ekliyor.
+      // QuoteReelCard header'ı (brain + menu butonları) kart tepesinden
+      // top:27, yükseklik:44 → kart tepesinden top:71'de bitiyor.
+      // Chip'i header'ın altına konumlandırıyoruz (top > 71).
+      top: 80,
       left: 16,
       right: 16,
       zIndex: 1000,
@@ -115,7 +103,7 @@ export function CategoryFilterChip({
   });
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} pointerEvents="box-none">
       <Animated.View
         style={[
           styles.chip,

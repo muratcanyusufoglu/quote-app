@@ -6,20 +6,14 @@ import { usePremium } from "../../hooks/usePremium";
 import { usePaywallSelectors } from "../../store/usePaywallStore";
 import { useTheme } from "../../utils/ThemeContext";
 
-// Button container
-const BTN = 64;
-const BTN_RADIUS = 20;
-
-// Gift box dimensions (inside the button)
 const BOX_W = 36;
 const LID_H = 13;
 const BODY_H = 20;
 const RIBBON_W = 4;
 const LID_LIFT = 10;
-
-// Bow loop dimensions
 const BOW_W = 8;
 const BOW_H = 5;
+const PAD = 10; // padding around the box inside the background card
 
 export function GiftBoxButton() {
   const { theme, isDark } = useTheme();
@@ -103,24 +97,24 @@ export function GiftBoxButton() {
         },
       ]}
     >
-      {/* Static background pill */}
-      <View
-        pointerEvents="none"
-        style={[styles.glow, { backgroundColor: theme.colors.surface }]}
-      />
-
       <TouchableOpacity
         activeOpacity={0.82}
         onPress={() => showPaywall("discounted")}
       >
-        {/* Container — transparent, no background */}
-        <View style={styles.container}>
+        {/* Background card — wraps the box exactly, overflow:visible for lid animation */}
+        <View
+          style={[
+            styles.card,
+            {
+              backgroundColor: isDark
+                ? "rgba(255,255,255,0.10)"
+                : "rgba(0,0,0,0.06)",
+            },
+          ]}
+        >
           {/* Lid — animates upward */}
           <Animated.View
-            style={[
-              styles.lidWrap,
-              { transform: [{ translateY: lidY }] },
-            ]}
+            style={[styles.lidWrap, { transform: [{ translateY: lidY }] }]}
           >
             <LinearGradient
               colors={lidGradient}
@@ -128,21 +122,18 @@ export function GiftBoxButton() {
               end={{ x: 0, y: 1 }}
               style={styles.lid}
             >
-              {/* Ribbon on lid */}
               <View
                 style={[
                   styles.ribbonV,
                   { backgroundColor: ribbon, left: BOX_W / 2 - RIBBON_W / 2, height: LID_H },
                 ]}
               />
-              {/* Bow — left loop */}
               <View
                 style={[
                   styles.bow,
                   { backgroundColor: ribbon, left: BOX_W / 2 - RIBBON_W / 2 - BOW_W },
                 ]}
               />
-              {/* Bow — right loop */}
               <View
                 style={[
                   styles.bow,
@@ -159,14 +150,12 @@ export function GiftBoxButton() {
             end={{ x: 1, y: 1 }}
             style={styles.body}
           >
-            {/* Vertical ribbon */}
             <View
               style={[
                 styles.ribbonV,
                 { backgroundColor: ribbon, left: BOX_W / 2 - RIBBON_W / 2, height: BODY_H },
               ]}
             />
-            {/* Horizontal ribbon */}
             <View
               style={[
                 styles.ribbonH,
@@ -184,22 +173,14 @@ const styles = StyleSheet.create({
   outer: {
     position: "absolute",
     zIndex: 9998,
-    alignItems: "center",
-    justifyContent: "center",
   },
-  glow: {
-    position: "absolute",
-    width: BOX_W + 16,
-    height: LID_H + BODY_H + 16,
-    borderRadius: 12,
-    top: -8,
-    left: -(16 / 2),
-  },
-  container: {
-    width: BTN,
-    height: BTN,
+  card: {
+    paddingHorizontal: PAD,
+    paddingTop: PAD + LID_LIFT, // extra top space for lid animation
+    paddingBottom: PAD,
+    borderRadius: 14,
     alignItems: "center",
-    justifyContent: "center",
+    overflow: "visible",
   },
   lidWrap: {
     zIndex: 2,
