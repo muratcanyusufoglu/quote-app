@@ -14,7 +14,9 @@ export const QuoteContent: React.FC<QuoteContentProps> = ({ quote }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.quoteText}>"{quote.text}"</Text>
+      <Text style={styles.quoteText}>
+        {quote.type === "affirmation" ? quote.text : `"${quote.text}"`}
+      </Text>
 
       {quote.author && <Text style={styles.authorText}>— {quote.author}</Text>}
     </View>

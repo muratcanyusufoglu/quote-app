@@ -937,8 +937,10 @@ export const oceanLightTheme: Theme = {
     ),
     background: oceanPalette.ocean50,
     surface: "#FFFFFF",
-    text: oceanPalette.textPrimary,
-    textSecondary: oceanPalette.textSecondary,
+    // textPrimary (#EAEFFC) açık tema arka planıyla aynı renk — koyu metin kullan
+    text: oceanPalette.ocean800,          // "#11151F" — koyu lacivert, okunabilir
+    textSecondary: oceanPalette.ocean500, // "#273449" — orta lacivert
+    textTertiary: oceanPalette.ocean400,  // "#556880" — daha açık
     brandYellow: oceanPalette.primary,
     gradientColors: [oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600, oceanPalette.ocean600],
     gradientLocations: [0, 0.3, 0.7, 1],

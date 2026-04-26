@@ -253,6 +253,18 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [shouldShowDiscounted, setShouldShowDiscounted] = useState(false);
   const {hidePaywall, showPaywall, setShowGiftButton} = usePaywallSelectors.actions();
 
+  // "first_time" layout: hem onboarding paywall'u hem de premium kategori tıklaması aynı 3-plan layout'u kullanır
+  const isFirstTimeLayout = triggerSource === "first_time" || triggerSource === "premium_category";
+
+  // Paywall renk paleti — aktif temadan türetilir, tüm temalarda okunabilirliği garanti eder
+  const pw = {
+    bg:            theme.colors.background,
+    surface:       theme.colors.surface,
+    text:          theme.colors.text,
+    textSecondary: theme.colors.textSecondary,
+    border:        theme.colors.border,
+  };
+
   // Paywall #1: multi-plan selector state
   const [firstTimePackages, setFirstTimePackages] = useState<SubscriptionPackage[]>([]);
   const [selectedPlanIndex, setSelectedPlanIndex] = useState(0); // 0 = Annual (default)
@@ -452,8 +464,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       console.log(`🚀 Loading packages for triggerSource: ${triggerSource}`);
       const paywallService = getPaywallService();
 
-      if (triggerSource === "first_time") {
-        // Paywall #1 — 3 plan seçeneği: Annual, Monthly, Weekly
+      if (isFirstTimeLayout) {
+        // Paywall #1 layout — 3 plan seçeneği: Annual, Monthly, Weekly
+        // (hem "first_time" hem "premium_category" bu layout'u kullanır)
         const packages = await paywallService.getFirstPaywallPackages();
         console.log(`📦 First paywall packages loaded: ${packages.length}`);
 
@@ -521,7 +534,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         }
 
       } else {
-        // Diğer trigger'lar (action_limit, premium_category vb.) — eski mantık
+        // Diğer trigger'lar (action_limit, story_limit, daily_limit vb.)
         const packages = await paywallService.getAllSubscriptionPackages();
         if (packages.length === 0) return;
 
@@ -548,7 +561,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const isSmallScreen = screenHeight < 700;
   const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
 
-  const styles = createStyles(theme, isVerySmallScreen);
+  const styles = createStyles(theme, isVerySmallScreen, pw);
 
   // Content based on trigger source
   const getContent = () => {
@@ -713,7 +726,6 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       price: subscriptionPackage?.currentPrice,
     });
 
-    const isFirstTime = triggerSource === "first_time" || isFirstTimePaywall;
     const isAnyDiscount = isDiscountedPaywall || isSecondDiscountPaywall || shouldShowDiscounted;
 
     // İlk teklif reddedildi olarak işaretle (sadece Paywall #1 için)
@@ -751,9 +763,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   };
 
   const handlePurchase = async () => {
-    // Paywall #1 için seçili planı kullan, diğerleri için mevcut subscriptionPackage
+    // first_time layout için seçili planı kullan, diğerleri için mevcut subscriptionPackage
     const packageToPurchase =
-      triggerSource === "first_time" && firstTimePackages.length > 0
+      isFirstTimeLayout && firstTimePackages.length > 0
         ? firstTimePackages[selectedPlanIndex] ?? subscriptionPackage
         : subscriptionPackage;
 
@@ -1095,7 +1107,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   // CTA buton metni — seçili plana göre dinamik
   const getCtaText = () => {
     if (isLoading) return paywall.processing;
-    if (triggerSource === "first_time") {
+    if (isFirstTimeLayout) {
       if (selectedPlanIsAnnual) return "Start your free 3-day trial →";
       if (selectedPlanIsMonthly) return "Get Monthly Access →";
       return "Get Weekly Access →";
@@ -1161,7 +1173,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           <IconSymbol
             name="xmark"
             size={20}
-            color={theme.colors.border}
+            color={pw.textSecondary}
             strokeWidth={2.5}
           />
         </TouchableOpacity>
@@ -1196,7 +1208,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               )}
 
             {/* Title */}
-            <Text style={[styles.mainTitle, {color: theme.colors.text}]}>
+            <Text style={[styles.mainTitle, {color: pw.text}]}>
               {isSecondDiscountPaywall
                 ? "Last Chance — Final Offer"
                 : isDiscountedPaywall || shouldShowDiscounted
@@ -1208,11 +1220,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           </View>
 
           {/* Timeline / Info Section — seçili plana göre dinamik */}
-          {triggerSource === "first_time" ? (
+          {isFirstTimeLayout ? (
             selectedPlanIsAnnual ? (
               /* Annual: tam trial timeline */
               <View style={styles.timelineSection}>
-                <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+                <Text style={[styles.timelineTitle, {color: pw.text}]}>
                   {paywall.modern.timeline_title || "How your free trial works:"}
                 </Text>
 
@@ -1223,10 +1235,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       {paywall.modern.timeline_today || "Today"} — Free trial starts
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       Experience all premium features free for 3 days
                     </Text>
                   </View>
@@ -1236,15 +1248,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
                 <View style={styles.timelineStep}>
                   <View style={styles.timelineIconContainer}>
-                    <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                    <View style={[styles.timelineIconEnvelope, {backgroundColor: pw.textSecondary}]}>
                       <Text style={styles.timelineIconText}>✉</Text>
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       {trialDates.reminderDate} — Get a reminder
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       We'll let you know when your trial is ending
                     </Text>
                   </View>
@@ -1259,10 +1271,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       {trialDates.membershipDate} — Become a member
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       Your trial ends unless canceled. Enjoy!
                     </Text>
                   </View>
@@ -1271,7 +1283,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             ) : (
               /* Monthly / Weekly: aynı 3 adımlı yapı, farklı içerik */
               <View style={styles.timelineSection}>
-                <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+                <Text style={[styles.timelineTitle, {color: pw.text}]}>
                   {selectedPlanIsMonthly ? "Your monthly plan includes:" : "Your weekly plan includes:"}
                 </Text>
 
@@ -1282,10 +1294,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       Today — Access starts immediately
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       Full access to all premium quotes & features
                     </Text>
                   </View>
@@ -1295,15 +1307,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
                 <View style={styles.timelineStep}>
                   <View style={styles.timelineIconContainer}>
-                    <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                    <View style={[styles.timelineIconEnvelope, {backgroundColor: pw.textSecondary}]}>
                       <Text style={styles.timelineIconText}>✉</Text>
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       {selectedPlanIsMonthly ? "Billed monthly" : "Billed weekly"}
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       {selectedPlanIsMonthly
                         ? "Renews every month — you're in control"
                         : "Renews every week — you're in control"}
@@ -1320,10 +1332,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     </View>
                   </View>
                   <View style={styles.timelineContent}>
-                    <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                    <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                       Cancel anytime
                     </Text>
-                    <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                    <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                       No long-term commitment. Cancel whenever you like.
                     </Text>
                   </View>
@@ -1337,7 +1349,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.success}]}>
                   <Text style={styles.compactBenefitIconText}>✓</Text>
                 </View>
-                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                <Text style={[styles.compactBenefitText, {color: pw.text}]}>
                   {discountPercentage > 0
                     ? `Save ${discountPercentage}% — your exclusive offer`
                     : "Your exclusive offer"}
@@ -1347,15 +1359,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.premium}]}>
                   <Text style={styles.compactBenefitIconText}>✦</Text>
                 </View>
-                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                <Text style={[styles.compactBenefitText, {color: pw.text}]}>
                   Unlimited quotes, themes & all premium features
                 </Text>
               </View>
               <View style={styles.compactBenefitRow}>
-                <View style={[styles.compactBenefitIcon, {backgroundColor: theme.colors.textSecondary}]}>
+                <View style={[styles.compactBenefitIcon, {backgroundColor: pw.textSecondary}]}>
                   <Text style={styles.compactBenefitIconText}>♥</Text>
                 </View>
-                <Text style={[styles.compactBenefitText, {color: theme.colors.text}]}>
+                <Text style={[styles.compactBenefitText, {color: pw.text}]}>
                   No commitment — cancel anytime, no questions asked
                 </Text>
               </View>
@@ -1363,7 +1375,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           ) : (
             /* Diğer trigger'lar: mevcut tam timeline */
             <View style={styles.timelineSection}>
-              <Text style={[styles.timelineTitle, {color: theme.colors.text}]}>
+              <Text style={[styles.timelineTitle, {color: pw.text}]}>
                 {paywall.modern.timeline_title || "How your free trial works:"}
               </Text>
 
@@ -1374,11 +1386,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   </View>
                 </View>
                 <View style={styles.timelineContent}>
-                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                     {paywall.modern.timeline_today || "Today"} —{" "}
                     {paywall.modern.timeline_trial_starts || "Free trial Starts"}
                   </Text>
-                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                     {paywall.modern.timeline_trial_description || "Experience all features free for 3 days"}
                   </Text>
                 </View>
@@ -1388,16 +1400,16 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
               <View style={styles.timelineStep}>
                 <View style={styles.timelineIconContainer}>
-                  <View style={[styles.timelineIconEnvelope, {backgroundColor: theme.colors.textSecondary}]}>
+                  <View style={[styles.timelineIconEnvelope, {backgroundColor: pw.textSecondary}]}>
                     <Text style={styles.timelineIconText}>✉</Text>
                   </View>
                 </View>
                 <View style={styles.timelineContent}>
-                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                     {trialDates.reminderDate} —{" "}
                     {paywall.modern.timeline_reminder || "Get a reminder"}
                   </Text>
-                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                     {paywall.modern.timeline_reminder_description || "We'll let you know when your trial is ending"}
                   </Text>
                 </View>
@@ -1412,11 +1424,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   </View>
                 </View>
                 <View style={styles.timelineContent}>
-                  <Text style={[styles.timelineStepTitle, {color: theme.colors.text}]}>
+                  <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
                     {trialDates.membershipDate} —{" "}
                     {paywall.modern.timeline_membership || "Become a member"}
                   </Text>
-                  <Text style={[styles.timelineStepDescription, {color: theme.colors.textSecondary}]}>
+                  <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
                     {paywall.modern.timeline_membership_description || "Your trial ends unless canceled. Enjoy!"}
                   </Text>
                 </View>
@@ -1426,8 +1438,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
           {/* Pricing Section */}
           <View style={styles.pricingSection}>
-            {triggerSource === "first_time" ? (
-              /* ── Paywall #1: 3 Plan — Yatay (yan yana) ── */
+            {isFirstTimeLayout ? (
+              /* ── first_time layout: 3 Plan — Yatay (yan yana) ── */
               <View style={styles.planSelectorContainer}>
                 {firstTimePackages.map((pkg, index) => {
                   const isSelected = selectedPlanIndex === index;
@@ -1449,7 +1461,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                         styles.planCard,
                         isSelected
                           ? {borderColor: theme.colors.premium, borderWidth: 2, backgroundColor: theme.colors.premium + "12"}
-                          : {borderColor: theme.colors.border, borderWidth: 1},
+                          : {borderColor: pw.border, borderWidth: 1},
                       ]}
                       onPress={() => {
                         setSelectedPlanIndex(index);
@@ -1467,7 +1479,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                       {/* Plan adı */}
                       <Text style={[
                         styles.planPeriodLabel,
-                        {color: isSelected ? theme.colors.premium : theme.colors.text},
+                        {color: isSelected ? theme.colors.premium : pw.text},
                       ]}>
                         {planName}
                       </Text>
@@ -1475,13 +1487,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                       {/* Fiyat */}
                       <Text style={[
                         styles.planPrice,
-                        {color: isSelected ? theme.colors.premium : theme.colors.text},
+                        {color: isSelected ? theme.colors.premium : pw.text},
                       ]}>
                         {pkg.currentPrice}
                       </Text>
 
                       {/* Periyot */}
-                      <Text style={[styles.planPricePeriod, {color: theme.colors.textSecondary}]}>
+                      <Text style={[styles.planPricePeriod, {color: pw.textSecondary}]}>
                         {periodLabel}
                       </Text>
 
@@ -1490,7 +1502,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                         <Text style={[styles.planTrialLabel, {
                           color: isAnnual && pkg.freeTrialDays > 0
                             ? theme.colors.success
-                            : theme.colors.textSecondary,
+                            : pw.textSecondary,
                         }]}>
                           {subLabel}
                         </Text>
@@ -1514,11 +1526,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
                     {subscriptionPackage?.currentPrice || ""}
                   </Text>
-                  <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
+                  <Text style={[styles.periodText, {color: pw.textSecondary}]}>
                     / {paywall.modern.year || "Year"}
                   </Text>
                 </View>
-                <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
+                <Text style={[styles.pricingText, {color: pw.textSecondary}]}>
                   No commitment — cancel anytime
                 </Text>
               </View>
@@ -1529,11 +1541,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   <Text style={[styles.newPriceLarge, {color: theme.colors.premium}]}>
                     {subscriptionPackage?.currentPrice || ""}
                   </Text>
-                  <Text style={[styles.periodText, {color: theme.colors.textSecondary}]}>
+                  <Text style={[styles.periodText, {color: pw.textSecondary}]}>
                     / {paywall.modern.year || "Year"}
                   </Text>
                 </View>
-                <Text style={[styles.pricingText, {color: theme.colors.textSecondary}]}>
+                <Text style={[styles.pricingText, {color: pw.textSecondary}]}>
                   {paywall.modern.pricing_trial_text || "3 days free, then"}
                 </Text>
                 <Text style={[styles.dailyPriceText, {color: theme.colors.success}]}>
@@ -1555,7 +1567,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           {/* Secured by iTunes */}
           <View style={styles.securedSection}>
             <Text style={styles.securedIcon}>🔒</Text>
-            <Text style={[styles.securedText, {color: theme.colors.textSecondary}]}>
+            <Text style={[styles.securedText, {color: pw.textSecondary}]}>
               {paywall.modern.secured_by || "Secured by Apple"}
             </Text>
           </View>
@@ -1587,22 +1599,22 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 )
               }
             >
-              <Text style={[styles.legalText, {color: theme.colors.text}]}>{paywall.termsOfUse}</Text>
+              <Text style={[styles.legalText, {color: pw.text}]}>{paywall.termsOfUse}</Text>
             </TouchableOpacity>
-            <Text style={[styles.legalSeparator, {color: theme.colors.textSecondary}]}>•</Text>
+            <Text style={[styles.legalSeparator, {color: pw.textSecondary}]}>•</Text>
             <TouchableOpacity
               onPress={() =>
                 Linking.openURL("https://quotesparkapp.netlify.app/privacy")
               }
             >
-              <Text style={[styles.legalText, {color: theme.colors.text}]}>{paywall.privacyPolicy}</Text>
+              <Text style={[styles.legalText, {color: pw.text}]}>{paywall.privacyPolicy}</Text>
             </TouchableOpacity>
-            <Text style={[styles.legalSeparator, {color: theme.colors.textSecondary}]}>•</Text>
+            <Text style={[styles.legalSeparator, {color: pw.textSecondary}]}>•</Text>
             <TouchableOpacity
               onPress={handleRestorePurchases}
               disabled={isLoading}
             >
-              <Text style={[styles.legalText, {color: theme.colors.text}]}>
+              <Text style={[styles.legalText, {color: pw.text}]}>
                 {paywall.modern.restore_purchase || "Restore Purchases"}
               </Text>
             </TouchableOpacity>
@@ -1613,7 +1625,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   );
 };
 
-const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
+const createStyles = (
+  theme: any,
+  isVerySmallScreen: boolean = false,
+  pw: { bg: string; surface: string; text: string; textSecondary: string; border: string } = {
+    bg: "#0E0E14", surface: "#1A1A26", text: "#F0EBE2", textSecondary: "#8A8A9A", border: "#2A2A3A",
+  }
+) => {
   // Responsive design için ekran boyutuna göre değerler
   const isSmallScreen = screenHeight < 700;
   const isMediumScreen = screenHeight >= 700 && screenHeight < 800;
@@ -1621,7 +1639,7 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
   return StyleSheet.create({
     modalContainer: {
       flex: 1,
-      backgroundColor: theme.colors.background,
+      backgroundColor: pw.bg,
     },
     closeButton: {
       position: "absolute",
@@ -1677,7 +1695,7 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
     oldPriceText: {
       fontSize: 16,
       fontWeight: "600",
-      color: theme.colors.textSecondary,
+      color: pw.textSecondary,
       textDecorationLine: "line-through",
     },
     newPriceText: {
@@ -1770,7 +1788,7 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
     timelineConnector: {
       width: 2,
       height: 20,
-      backgroundColor: theme.colors.border,
+      backgroundColor: pw.border,
       marginLeft: 15,
       marginBottom: 4,
       marginTop: 4,
@@ -1954,7 +1972,7 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
     oldPriceLarge: {
       fontSize: isSmallScreen ? 20 : 24,
       fontWeight: "600",
-      color: theme.colors.textSecondary,
+      color: pw.textSecondary,
       textDecorationLine: "line-through",
     },
     discountHighlight: {
@@ -1976,7 +1994,7 @@ const createStyles = (theme: any, isVerySmallScreen: boolean = false) => {
     bottomSection: {
       paddingHorizontal: 24,
       paddingTop: 16,
-      backgroundColor: theme.colors.background,
+      backgroundColor: pw.bg,
     },
     securedSection: {
       flexDirection: "row",

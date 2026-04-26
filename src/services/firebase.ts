@@ -6,8 +6,8 @@ const firebaseConfig = {
   authDomain: "quote-spark-analytic.firebaseapp.com",
   projectId: "quote-spark-analytic",
   storageBucket: "quote-spark-analytic.firebasestorage.app",
-  messagingSenderId: "your-messaging-sender-id",
-  appId: "your-app-id",
+  messagingSenderId: "77220859500",
+  appId: "1:77220859500:ios:8bcf942c1a92e7f6199249",
 };
 
 // Initialize Firebase app (prevent multiple initialization)

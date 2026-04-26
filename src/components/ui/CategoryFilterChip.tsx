@@ -7,7 +7,6 @@ import {
   View,
 } from "react-native";
 import { IconSymbol } from "../../../components/ui/IconSymbol";
-import { useTheme } from "../../utils/ThemeContext";
 import { getCategoryIcon } from "../../utils/theme";
 
 interface CategoryFilterChipProps {
@@ -21,132 +20,87 @@ export function CategoryFilterChip({
   categoryId,
   onClear,
 }: CategoryFilterChipProps) {
-  const { theme } = useTheme();
-  const scaleAnim = useRef(new Animated.Value(0)).current;
   const opacityAnim = useRef(new Animated.Value(0)).current;
 
   const categoryIcon = getCategoryIcon(categoryId);
 
-  // Entrance animation
   useEffect(() => {
-    Animated.parallel([
-      Animated.spring(scaleAnim, {
-        toValue: 1,
-        useNativeDriver: true,
-        tension: 100,
-        friction: 8,
-      }),
-      Animated.timing(opacityAnim, {
-        toValue: 1,
-        duration: 300,
-        useNativeDriver: true,
-      }),
-    ]).start();
+    Animated.timing(opacityAnim, {
+      toValue: 1,
+      duration: 200,
+      useNativeDriver: true,
+    }).start();
   }, []);
-
-  const handleClear = () => {
-    // State'i hemen güncelle — gecikme olmadan filtre kalksın
-    onClear();
-  };
-
-  const styles = StyleSheet.create({
-    container: {
-      position: "absolute",
-      // SafeAreaView zaten insets.top padding'i ekliyor.
-      // QuoteReelCard header'ı (brain + menu butonları) kart tepesinden
-      // top:27, yükseklik:44 → kart tepesinden top:71'de bitiyor.
-      // Chip'i header'ın altına konumlandırıyoruz (top > 71).
-      top: 80,
-      left: 16,
-      right: 16,
-      zIndex: 1000,
-      alignItems: "center",
-    },
-    chip: {
-      flexDirection: "row",
-      alignItems: "center",
-      backgroundColor: theme.colors.whiteOverlay10,
-      paddingHorizontal: 12,
-      paddingVertical: 6,
-      borderRadius: 14,
-      borderWidth: 1,
-      borderColor: theme.colors.whiteOverlay20,
-      backdropFilter: "blur(10px)",
-    },
-    iconContainer: {
-      width: 18,
-      height: 18,
-      borderRadius: 9,
-      backgroundColor: theme.colors.brandYellow + "20",
-      alignItems: "center",
-      justifyContent: "center",
-      marginRight: 6,
-    },
-    textContainer: {
-      flex: 1,
-      marginRight: 8,
-    },
-    categoryLabel: {
-      fontSize: 12,
-      fontWeight: "500",
-      color: theme.colors.white,
-      letterSpacing: 0.2,
-    },
-    clearButton: {
-      width: 20,
-      height: 20,
-      borderRadius: 10,
-      backgroundColor: theme.colors.whiteOverlay20,
-      alignItems: "center",
-      justifyContent: "center",
-    },
-  });
 
   return (
     <View style={styles.container} pointerEvents="box-none">
-      <Animated.View
-        style={[
-          styles.chip,
-          {
-            transform: [{ scale: scaleAnim }],
-            opacity: opacityAnim,
-          },
-        ]}
-      >
-        {/* Category Icon */}
-        <View style={styles.iconContainer}>
-          {categoryIcon ? (
-            <IconSymbol
-              name={categoryIcon as any}
-              size={14}
-              color={theme.colors.brandYellow}
-              strokeWidth={2}
-            />
-          ) : (
-            <Text style={{ fontSize: 12 }}>📂</Text>
-          )}
-        </View>
+      <Animated.View style={[styles.chip, { opacity: opacityAnim }]}>
+        {/* Icon */}
+        {categoryIcon && (
+          <IconSymbol
+            name={categoryIcon as any}
+            size={11}
+            color="rgba(255,255,255,0.5)"
+            strokeWidth={1.8}
+          />
+        )}
 
         {/* Category Name */}
-        <View style={styles.textContainer}>
-          <Text style={styles.categoryLabel}>{categoryName}</Text>
-        </View>
+        <Text style={styles.label} numberOfLines={1}>
+          {categoryName}
+        </Text>
 
-        {/* Clear Button */}
+        {/* Separator */}
+        <Text style={styles.separator}>·</Text>
+
+        {/* Clear */}
         <TouchableOpacity
-          style={styles.clearButton}
-          onPress={handleClear}
-          hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-          activeOpacity={0.7}
+          onPress={onClear}
+          hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+          activeOpacity={0.6}
         >
           <IconSymbol
             name="xmark"
-            size={12}
-            color={theme.colors.text}
-            strokeWidth={2}
+            size={9}
+            color="rgba(255,255,255,0.45)"
+            strokeWidth={2.5}
           />
         </TouchableOpacity>
       </Animated.View>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    position: "absolute",
+    top: 82,
+    left: 0,
+    right: 0,
+    zIndex: 1000,
+    alignItems: "center",
+  },
+  chip: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.28)",
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 20,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "rgba(255,255,255,0.12)",
+    gap: 5,
+  },
+  label: {
+    fontSize: 11,
+    fontWeight: "500",
+    color: "rgba(255,255,255,0.65)",
+    letterSpacing: 0.1,
+    maxWidth: 140,
+  },
+  separator: {
+    fontSize: 11,
+    color: "rgba(255,255,255,0.25)",
+    lineHeight: 14,
+  },
+});

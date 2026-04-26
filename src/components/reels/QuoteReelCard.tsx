@@ -169,31 +169,27 @@ export function QuoteReelCard({
 
       {/* Footer Section - HTML Style */}
       <View style={styles.footer}>
-        {/* Read Story Button */}
-        <TouchableOpacity
-          style={[
-            styles.readStoryButton,
-            {
-              backgroundColor: canReadStory
-                ? theme.colors.primary
-                : theme.colors.whiteOverlay25,
-              opacity: canReadStory ? 1 : 0.5,
-            },
-          ]}
-          onPress={canReadStory ? handlePress : undefined}
-          activeOpacity={canReadStory ? 0.9 : 1}
-          disabled={!canReadStory}
-        >
-          <IconSymbol
-            name="book"
-            size={14}
-            color={theme.colors.text}
-            strokeWidth={2}
-          />
-          <Text style={[styles.readStoryText, {color: theme.colors.text}]}>
-            {t("quote_detail.read_story")}
-          </Text>
-        </TouchableOpacity>
+        {/* Read Story Button — yalnızca story varsa göster */}
+        {canReadStory && (
+          <TouchableOpacity
+            style={[
+              styles.readStoryButton,
+              {borderColor: theme.colors.text},
+            ]}
+            onPress={handlePress}
+            activeOpacity={0.6}
+          >
+            <IconSymbol
+              name="book"
+              size={13}
+              color={theme.colors.text}
+              strokeWidth={1.8}
+            />
+            <Text style={[styles.readStoryText, {color: theme.colors.text}]}>
+              {t("quote_detail.read_story")}
+            </Text>
+          </TouchableOpacity>
+        )}
 
         {/* Action Buttons Container */}
         <View
@@ -311,19 +307,18 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    paddingVertical: 11,
+    paddingVertical: 9,
+    paddingHorizontal: 20,
     borderRadius: 999,
     marginBottom: 10,
-    shadowColor: "#000",
-    shadowOffset: {width: 0, height: 4},
-    shadowOpacity: 0.2,
-    shadowRadius: 8,
-    elevation: 5,
+    borderWidth: StyleSheet.hairlineWidth,
     gap: 6,
+    alignSelf: "center",
   },
   readStoryText: {
     fontSize: 13,
-    fontWeight: "600",
+    fontWeight: "400",
+    opacity: 0.7,
   },
   actionsContainer: {
     borderRadius: 999,

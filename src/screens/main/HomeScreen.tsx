@@ -1,4 +1,4 @@
-import {useLocalSearchParams} from "expo-router";
+import {useLocalSearchParams, useRouter} from "expo-router";
 import React, {useCallback, useEffect, useRef, useState} from "react";
 import {StyleSheet, Text, View} from "react-native";
 import BaseScreen from "../../components/layout/BaseScreen";
@@ -35,6 +35,7 @@ import {
 import {useActions, useQuoteSelectors} from "../../store/useQuoteStore";
 import {LocalizedQuote} from "../../types";
 import {useTheme} from "../../utils/ThemeContext";
+import DebugPanel from "@/src/components/ui/DebugPanel";
 
 export function HomeScreen() {
   // Theme
@@ -136,6 +137,7 @@ export function HomeScreen() {
 
   // Router parameters for category selection from explore
   const {selectedCategory} = useLocalSearchParams();
+  const router = useRouter();
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
 
   // Store hydration checks
@@ -336,6 +338,8 @@ export function HomeScreen() {
   // Clear category filter function
   const clearCategoryFilter = () => {
     setCategoryFilter(null);
+    // URL parametresini temizle — yoksa useEffect selectedCategory'yi tekrar okuyup filtreyi geri getirir
+    router.setParams({selectedCategory: undefined});
     console.log(`🧹 Category filter cleared`);
 
     // Track user interaction for progressive paywall (only for non-premium users)
@@ -453,8 +457,8 @@ export function HomeScreen() {
       backgroundColor="transparent" // Transparent to show QuoteReelCard gradient
       safeAreaStyle={{}} // Override BaseScreen padding
     >
-      {/* Debug Panel */}
-      {/* {__DEV__ && (
+      {/* Debug Panel 
+      {__DEV__ && (
         <DebugPanel
           isPremium={isPremium}
           displayQuotes={displayQuotes}
@@ -467,8 +471,8 @@ export function HomeScreen() {
           showStreakBreak={showStreakBreak}
           handleShowPaywall={handleShowPaywall}
         />
-      )} */}
-
+      )} 
+*/}
       {/* Mood Selection Modal */}
       <MoodSelectionModal
         visible={isModalVisible}
