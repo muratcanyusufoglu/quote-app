@@ -20,10 +20,12 @@ import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePurchaseHydrated } from "../../store/usePurchaseStore";
 import { useHasHydrated } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
+import { getContrastTextColor } from "../../utils/theme";
 import { useTheme } from "../../utils/ThemeContext";
 
 export function FavoritesScreen() {
   const { theme } = useTheme();
+  const cardText = getContrastTextColor(theme.colors.brandYellow);
 
   // Analytics
   const { trackScreen, trackQuoteView } = useAnalytics();
@@ -66,12 +68,10 @@ export function FavoritesScreen() {
       style={[styles.quoteCard, { backgroundColor: theme.colors.brandYellow }]}
       onPress={() => handleQuotePress(quote)}
     >
-      <Text style={[styles.quoteText, { color: theme.colors.textSoft }]}>
+      <Text style={[styles.quoteText, { color: cardText.primary }]}>
         {quote.text}
       </Text>
-      <Text
-        style={[styles.quoteAuthor, { color: theme.colors.textSoftSecondary }]}
-      >
+      <Text style={[styles.quoteAuthor, { color: cardText.secondary }]}>
         {quote.author}
       </Text>
     </TouchableOpacity>

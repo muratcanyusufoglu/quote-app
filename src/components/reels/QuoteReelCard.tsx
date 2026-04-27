@@ -13,6 +13,7 @@ import {IconSymbol} from "../../../components/ui/IconSymbol";
 import categoriesData from "../../data/categories.json";
 import {useTranslation} from "../../hooks/useTranslation";
 import {Language, LocalizedQuote} from "../../types";
+import {getContrastTextColor} from "../../utils/theme";
 import {useTheme} from "../../utils/ThemeContext";
 import {QuoteActions} from "./QuoteActions";
 import {QuoteContent} from "./QuoteContent";
@@ -58,6 +59,10 @@ export function QuoteReelCard({
   const {t} = useTranslation();
   const insets = useSafeAreaInsets();
   const cardColor = theme.colors.brandYellow;
+  const bgHex = Array.isArray(theme.colors.gradientColors)
+    ? (theme.colors.gradientColors[0] as string)
+    : theme.colors.background;
+  const {primary: uiTextColor} = getContrastTextColor(bgHex);
   const localizedCategoryName = getCategoryLocalizedName(
     quote.category,
     quote.language
@@ -126,7 +131,7 @@ export function QuoteReelCard({
             <IconSymbol
               name="brain"
               size={18}
-              color={theme.colors.text}
+              color={uiTextColor}
               strokeWidth={2}
             />
           </TouchableOpacity>
@@ -140,7 +145,7 @@ export function QuoteReelCard({
             {backgroundColor: theme.colors.whiteOverlay25},
           ]}
         >
-          <Text style={[styles.categoryText, {color: theme.colors.text}]}>
+          <Text style={[styles.categoryText, {color: uiTextColor}]}>
             {localizedCategoryName}
           </Text>
         </View>
@@ -156,7 +161,7 @@ export function QuoteReelCard({
           <IconSymbol
             name="menu"
             size={18}
-            color={theme.colors.text}
+            color={uiTextColor}
             strokeWidth={2}
           />
         </TouchableOpacity>
@@ -174,7 +179,7 @@ export function QuoteReelCard({
           <TouchableOpacity
             style={[
               styles.readStoryButton,
-              {borderColor: theme.colors.text},
+              {borderColor: uiTextColor},
             ]}
             onPress={handlePress}
             activeOpacity={0.6}
@@ -182,10 +187,10 @@ export function QuoteReelCard({
             <IconSymbol
               name="book"
               size={13}
-              color={theme.colors.text}
+              color={uiTextColor}
               strokeWidth={1.8}
             />
-            <Text style={[styles.readStoryText, {color: theme.colors.text}]}>
+            <Text style={[styles.readStoryText, {color: uiTextColor}]}>
               {t("quote_detail.read_story")}
             </Text>
           </TouchableOpacity>

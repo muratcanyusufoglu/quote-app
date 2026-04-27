@@ -8,6 +8,7 @@ import React, {
 } from "react";
 import {
   Alert,
+  Animated,
   Dimensions,
   FlatList,
   RefreshControl,
@@ -53,7 +54,8 @@ export function QuoteReels({
 }: QuoteReelsProps) {
   const { theme } = useTheme();
   const insets = useSafeAreaInsets();
-  const flatListRef = useRef<FlatList>(null);
+  const flatListRef = useRef<any>(null);
+  const scrollY = useRef(new Animated.Value(0)).current;
   const [quotes, setQuotes] = useState<LocalizedQuote[]>(initialQuotes);
   const [isLoading, setIsLoading] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
@@ -385,24 +387,59 @@ export function QuoteReels({
   };
 
   const renderQuoteItem = useCallback(
-    ({ item }: { item: LocalizedQuote }) => (
-      <QuoteReelCard
-        quote={item}
-        isFavorite={favoriteQuotes.includes(item.id)}
-        onPress={() => handleQuotePress(item)}
-        onFavoritePress={() => {
-          handleFavoritePress(item.id);
-          handleQuoteAction("favorite");
-        }}
-        onShare={() => {
-          handleShare(item);
-          handleQuoteAction("share");
-        }}
-        onQuoteAction={handleQuoteAction}
-        onMoodIconPress={onMoodIconPress}
-      />
-    ),
+    ({ item, index }: { item: LocalizedQuote; index: number }) => {
+      // Scroll-driven animation: scale + opacity + subtle Y shift per item
+      const inputRange = [
+        (index - 1) * screenHeight,
+        index * screenHeight,
+        (index + 1) * screenHeight,
+      ];
+
+      const scale = scrollY.interpolate({
+        inputRange,
+        outputRange: [0.93, 1, 0.93],
+        extrapolate: "clamp",
+      });
+
+      const opacity = scrollY.interpolate({
+        inputRange,
+        outputRange: [0.65, 1, 0.65],
+        extrapolate: "clamp",
+      });
+
+      const translateY = scrollY.interpolate({
+        inputRange,
+        outputRange: [20, 0, -20],
+        extrapolate: "clamp",
+      });
+
+      return (
+        <Animated.View
+          style={{
+            transform: [{scale}, {translateY}],
+            opacity,
+          }}
+        >
+          <QuoteReelCard
+            quote={item}
+            isFavorite={favoriteQuotes.includes(item.id)}
+            onPress={() => handleQuotePress(item)}
+            onFavoritePress={() => {
+              handleFavoritePress(item.id);
+              handleQuoteAction("favorite");
+            }}
+            onShare={() => {
+              handleShare(item);
+              handleQuoteAction("share");
+            }}
+            onQuoteAction={handleQuoteAction}
+            onMoodIconPress={onMoodIconPress}
+          />
+        </Animated.View>
+      );
+    },
     [
+      scrollY,
       favoriteQuotes,
       handleQuotePress,
       handleFavoritePress,
@@ -460,7 +497,7 @@ export function QuoteReels({
     <View style={styles.container}>
       {/* Daily Limit Warning Banner */}
 
-      <FlatList
+      <Animated.FlatList
         ref={flatListRef}
         data={availableQuotes}
         renderItem={renderQuoteItem}
@@ -482,6 +519,10 @@ export function QuoteReels({
         scrollEnabled={
           !isFavoriteActionInProgress && (!hasReachedDailyLimit() || isPremium)
         }
+        onScroll={Animated.event(
+          [{nativeEvent: {contentOffset: {y: scrollY}}}],
+          {useNativeDriver: true}
+        )}
         scrollEventThrottle={16}
         refreshControl={
           refreshControl ? (

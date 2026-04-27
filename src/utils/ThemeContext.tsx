@@ -59,14 +59,14 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   const [selectedTheme, setSelectedThemeState] =
     useState<ThemeOption>("aura");
   const [colorScheme, setColorSchemeState] = useState<ColorScheme>("system");
-  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "system");
+  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "dark");
 
   // Update isDark when system preference or color scheme changes
   useEffect(() => {
     if (colorScheme === "system") {
-      //setIsDark(systemColorScheme === "dark");
+      setIsDark(systemColorScheme === "dark");
     } else {
-      //setIsDark(colorScheme === "dark");
+      setIsDark(colorScheme === "dark");
     }
   }, [systemColorScheme, colorScheme]);
 
@@ -81,6 +81,11 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
         if (state._hasHydrated) {
           setSelectedThemeState(state.selectedTheme);
           setColorSchemeState(state.colorScheme);
+          if (state.colorScheme === "system") {
+            setIsDark(systemColorScheme === "dark");
+          } else {
+            setIsDark(state.colorScheme === "dark");
+          }
         }
 
         // Subscribe to store changes
@@ -88,6 +93,11 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
           if (state._hasHydrated) {
             setSelectedThemeState(state.selectedTheme);
             setColorSchemeState(state.colorScheme);
+            if (state.colorScheme === "system") {
+              setIsDark(systemColorScheme === "dark");
+            } else {
+              setIsDark(state.colorScheme === "dark");
+            }
           }
         });
 

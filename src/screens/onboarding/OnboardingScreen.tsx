@@ -28,12 +28,42 @@ import {
   useTranslation,
 } from "../../hooks/useTranslation";
 import {useOnboardingActions} from "../../store/useOnboardingStore";
-import {usePaywallSelectors} from "../../store/usePaywallStore";
 import {NotificationService} from "../../services/NotificationService";
 import {OnboardingAnswer, OnboardingOption} from "../../types";
 import {useTheme} from "../../utils/ThemeContext";
 
 const {height: screenHeight} = Dimensions.get("window");
+
+// ─── Flow definition ──────────────────────────────────────────────────────────
+// Each item in the flow is either a question (by index in onboardingQuestions)
+// or an interstitial motivational screen.
+
+type FlowStep =
+  | {kind: "question"; qIndex: number}
+  | {kind: "interstitial"; id: "taste" | "reminder"};
+
+// Question order: user_name first so every subsequent screen can say "Hi [name]"
+// qIndex matches position in getOnboardingQuestions array:
+// 0=user_name, 1=purpose, 2=content_type, 3=topics,
+// 4=motivation_style, 5=preferred_time, 6=reading_length,
+// 7=notification_count, 8=notification_time_range
+const FLOW: FlowStep[] = [
+  {kind: "question", qIndex: 0}, // user_name
+  {kind: "question", qIndex: 1}, // purpose
+  {kind: "question", qIndex: 2}, // content_type
+  {kind: "question", qIndex: 3}, // topics
+  {kind: "interstitial", id: "taste"},    // ✦ "Great taste, [name]!"
+  {kind: "question", qIndex: 4}, // motivation_style
+  {kind: "question", qIndex: 5}, // preferred_time
+  {kind: "question", qIndex: 6}, // reading_length
+  {kind: "interstitial", id: "reminder"}, // ✦ "Consistency is the secret"
+  {kind: "question", qIndex: 7}, // notification_count
+  {kind: "question", qIndex: 8}, // notification_time_range
+];
+
+const TOTAL_QUESTIONS = FLOW.filter((s) => s.kind === "question").length;
+
+// ─── Component ────────────────────────────────────────────────────────────────
 
 export function OnboardingScreen() {
   const {theme, isDark} = useTheme();
@@ -54,91 +84,192 @@ export function OnboardingScreen() {
     t(key as any)
   );
 
+  // currentStep: -1=intro, 0..FLOW.length-1=flow items, FLOW.length=completion
   const [currentStep, setCurrentStep] = useState(-1);
   const [answers, setAnswers] = useState<Record<string, any>>({});
-  const [fadeAnim] = useState(new Animated.Value(1));
 
-  // Intro animations
-  const markAnim = useRef(new Animated.Value(0)).current;
-  const titleAnim = useRef(new Animated.Value(0)).current;
-  const subtitleAnim = useRef(new Animated.Value(0)).current;
-  const featuresAnim = useRef(new Animated.Value(0)).current;
+  // Shared fade animation for step transitions
+  const fadeAnim = useRef(new Animated.Value(1)).current;
 
-  const totalSteps = onboardingQuestions.length + 2;
-  const currentQuestion =
-    currentStep >= 0 && currentStep < onboardingQuestions.length
-      ? onboardingQuestions[currentStep]
+  // Intro entrance animations
+  const introHeadlineAnim = useRef(new Animated.Value(0)).current;
+  const introTaglineAnim = useRef(new Animated.Value(0)).current;
+  const introSocialAnim = useRef(new Animated.Value(0)).current;
+  const introBtnAnim = useRef(new Animated.Value(0)).current;
+
+  // Interstitial animations
+  const interstitialIconAnim = useRef(new Animated.Value(0)).current;
+  const interstitialTitleAnim = useRef(new Animated.Value(0)).current;
+  const interstitialBodyAnim = useRef(new Animated.Value(0)).current;
+  const interstitialCardAnim = useRef(new Animated.Value(0)).current;
+
+  // Completion animation
+  const completionStarAnim = useRef(new Animated.Value(0)).current;
+  const completionTextAnim = useRef(new Animated.Value(0)).current;
+
+  // ─── Derived state ─────────────────────────────────────────────────────────
+
+  const currentFlowItem =
+    currentStep >= 0 && currentStep < FLOW.length
+      ? FLOW[currentStep]
       : null;
+
+  const currentQuestion =
+    currentFlowItem?.kind === "question"
+      ? onboardingQuestions[currentFlowItem.qIndex]
+      : null;
+
+  const currentInterstitialId =
+    currentFlowItem?.kind === "interstitial" ? currentFlowItem.id : null;
+
+  // The user's name (answered in step 0)
+  const userName: string =
+    typeof answers["user_name"] === "string" && answers["user_name"].trim()
+      ? answers["user_name"].trim()
+      : "";
+
+  // Progress: count how many question steps are completed (at or before current)
+  const questionsAnswered =
+    currentStep < 0
+      ? 0
+      : FLOW.slice(0, currentStep).filter((s) => s.kind === "question").length;
+  const progressPercent = (questionsAnswered / TOTAL_QUESTIONS) * 100;
+
+  // Question step label (e.g. "3 of 9") — only count real questions
+  const questionNumber =
+    currentFlowItem?.kind === "question"
+      ? FLOW.slice(0, currentStep + 1).filter((s) => s.kind === "question").length
+      : 0;
+
+  // ─── Analytics ─────────────────────────────────────────────────────────────
 
   useEffect(() => {
     trackScreen("OnboardingScreen", "OnboardingScreen");
     trackOnboardingStart();
   }, [trackScreen, trackOnboardingStart]);
 
-  // Intro animation sequence
+  useEffect(() => {
+    if (currentQuestion) {
+      const completionRate = (questionsAnswered / TOTAL_QUESTIONS) * 100;
+      trackOnboardingStep({
+        step: questionNumber,
+        total_steps: TOTAL_QUESTIONS,
+        completion_rate: completionRate,
+        selected_preferences: Object.keys(answers),
+      });
+    }
+  }, [currentStep]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ─── Transition fade ───────────────────────────────────────────────────────
+
+  useEffect(() => {
+    Animated.sequence([
+      Animated.timing(fadeAnim, {toValue: 0, duration: 110, useNativeDriver: true}),
+      Animated.timing(fadeAnim, {toValue: 1, duration: 200, useNativeDriver: true}),
+    ]).start();
+  }, [currentStep]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ─── Intro entrance ────────────────────────────────────────────────────────
+
   useEffect(() => {
     if (currentStep === -1) {
-      markAnim.setValue(0);
-      titleAnim.setValue(0);
-      subtitleAnim.setValue(0);
-      featuresAnim.setValue(0);
+      introHeadlineAnim.setValue(0);
+      introTaglineAnim.setValue(0);
+      introSocialAnim.setValue(0);
+      introBtnAnim.setValue(0);
 
-      Animated.stagger(120, [
-        Animated.spring(markAnim, {
+      Animated.stagger(130, [
+        Animated.spring(introHeadlineAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 70,
+          friction: 9,
+        }),
+        Animated.spring(introTaglineAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 70,
+          friction: 9,
+        }),
+        Animated.spring(introSocialAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 65,
+          friction: 10,
+        }),
+        Animated.spring(introBtnAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 65,
+          friction: 10,
+        }),
+      ]).start();
+    }
+  }, [currentStep]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ─── Interstitial entrance ─────────────────────────────────────────────────
+
+  useEffect(() => {
+    if (currentInterstitialId) {
+      interstitialIconAnim.setValue(0);
+      interstitialTitleAnim.setValue(0);
+      interstitialBodyAnim.setValue(0);
+      interstitialCardAnim.setValue(0);
+
+      Animated.stagger(100, [
+        Animated.spring(interstitialIconAnim, {
           toValue: 1,
           useNativeDriver: true,
           tension: 80,
-          friction: 9,
+          friction: 8,
         }),
-        Animated.spring(titleAnim, {
+        Animated.spring(interstitialTitleAnim, {
           toValue: 1,
           useNativeDriver: true,
-          tension: 80,
+          tension: 75,
           friction: 9,
         }),
-        Animated.spring(subtitleAnim, {
-          toValue: 1,
-          useNativeDriver: true,
-          tension: 80,
-          friction: 9,
-        }),
-        Animated.spring(featuresAnim, {
+        Animated.spring(interstitialBodyAnim, {
           toValue: 1,
           useNativeDriver: true,
           tension: 70,
           friction: 10,
         }),
+        Animated.spring(interstitialCardAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 65,
+          friction: 10,
+        }),
       ]).start();
     }
-  }, [currentStep]);
+  }, [currentInterstitialId]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ─── Completion entrance ───────────────────────────────────────────────────
 
   useEffect(() => {
-    if (currentStep >= 0 && currentStep < onboardingQuestions.length) {
-      const completionRate =
-        ((currentStep + 1) / onboardingQuestions.length) * 100;
-      trackOnboardingStep({
-        step: currentStep + 1,
-        total_steps: onboardingQuestions.length,
-        completion_rate: completionRate,
-        selected_preferences: Object.keys(answers),
-      });
+    if (currentStep === FLOW.length) {
+      completionStarAnim.setValue(0);
+      completionTextAnim.setValue(0);
+
+      Animated.stagger(150, [
+        Animated.spring(completionStarAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 60,
+          friction: 8,
+        }),
+        Animated.spring(completionTextAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 65,
+          friction: 9,
+        }),
+      ]).start();
     }
-  }, [currentStep, onboardingQuestions.length, answers, trackOnboardingStep]);
+  }, [currentStep]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  useEffect(() => {
-    Animated.sequence([
-      Animated.timing(fadeAnim, {
-        toValue: 0,
-        duration: 120,
-        useNativeDriver: true,
-      }),
-      Animated.timing(fadeAnim, {
-        toValue: 1,
-        duration: 180,
-        useNativeDriver: true,
-      }),
-    ]).start();
-  }, [currentStep]);
+  // ─── Handlers ──────────────────────────────────────────────────────────────
 
   const handleAnswer = (questionId: string, value: any) => {
     const newAnswers = {...answers, [questionId]: value};
@@ -147,10 +278,14 @@ export function OnboardingScreen() {
     addAnswer(answer);
   };
 
-  const isStepComplete = () => {
+  const isStepComplete = (): boolean => {
+    // Interstitials are always "complete" (just tap to continue)
+    if (currentInterstitialId) return true;
     if (!currentQuestion) return true;
+
     const answer = answers[currentQuestion.id];
     if (!currentQuestion.required) return true;
+
     switch (currentQuestion.type) {
       case "single":
         return answer !== undefined;
@@ -160,14 +295,12 @@ export function OnboardingScreen() {
         return answer !== undefined;
       case "text":
         if (currentQuestion.id === "notification_time_range") {
-          return answer?.start && answer?.end;
-        } else if (currentQuestion.id === "user_name") {
-          return (
-            answer && typeof answer === "string" && answer.trim().length >= 2
-          );
-        } else {
-          return answer !== undefined;
+          return !!(answer?.start && answer?.end);
         }
+        if (currentQuestion.id === "user_name") {
+          return typeof answer === "string" && answer.trim().length >= 2;
+        }
+        return answer !== undefined;
       default:
         return false;
     }
@@ -179,16 +312,16 @@ export function OnboardingScreen() {
       return;
     }
 
-    // Request notification permission after the notification time-range step
+    // Request notification permission after the time-range step
     if (currentQuestion?.id === "notification_time_range") {
       setTimeout(() => {
         NotificationService.getInstance()
           .requestPermissions()
-          .catch(() => {/* silent — permission is optional */});
+          .catch(() => {/* silent */});
       }, 300);
     }
 
-    if (currentStep < onboardingQuestions.length - 1) {
+    if (currentStep < FLOW.length - 1) {
       setCurrentStep(currentStep + 1);
     } else {
       completeOnboarding();
@@ -206,237 +339,444 @@ export function OnboardingScreen() {
     trackOnboardingComplete(selectedPreferences);
     generatePreferences();
     setCompleted(true);
-    // Show brief completion screen while we trigger the review dialog
-    setCurrentStep(onboardingQuestions.length);
+    setCurrentStep(FLOW.length); // show completion screen
 
-    // Short delay so the completion screen renders first
-    await new Promise((r) => setTimeout(r, 600));
+    await new Promise((r) => setTimeout(r, 700));
 
-    // Request native store review (bypasses conservative hook — onboarding is the right moment)
     try {
       const available = await StoreReview.isAvailableAsync();
-      if (available) {
-        await StoreReview.requestReview();
-      }
+      if (available) await StoreReview.requestReview();
     } catch {
-      // Non-critical — proceed regardless
+      // Non-critical
     }
 
-    // Navigate to personalisation loading screen
     router.replace("/personalization");
   };
 
-  // ─── Intro Screen ───────────────────────────────────────────────────────────
+  // ─── Utility ───────────────────────────────────────────────────────────────
+
+  const animSlide = (anim: Animated.Value) => ({
+    opacity: anim,
+    transform: [
+      {
+        translateY: anim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [24, 0],
+        }),
+      },
+    ],
+  });
+
+  const animScale = (anim: Animated.Value) => ({
+    opacity: anim,
+    transform: [
+      {
+        scale: anim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [0.85, 1],
+        }),
+      },
+    ],
+  });
+
+  // ─── Intro Screen ──────────────────────────────────────────────────────────
 
   const renderIntroScreen = () => {
-    const dividerColor = isDark
-      ? "rgba(255,255,255,0.10)"
-      : "rgba(0,0,0,0.08)";
-
-    const features = [
-      {
-        icon: "star" as const,
-        title: onboarding.feature_personalized,
-        subtitle: onboarding.feature_personalized_subtitle,
-      },
-      {
-        icon: "target" as const,
-        title: onboarding.feature_notifications,
-        subtitle: onboarding.feature_notifications_subtitle,
-      },
-      {
-        icon: "book" as const,
-        title: onboarding.feature_fast,
-        subtitle: onboarding.feature_fast_subtitle,
-      },
-    ];
+    const headline = onboarding.intro_headline || "Words have the power\nto change everything.";
+    const tagline = onboarding.intro_tagline || "Build the mindset you deserve.";
+    const socialProof = onboarding.intro_social_proof || "Joined by 2,000,000+ daily readers";
+    const beginLabel = onboarding.begin_journey || "Begin My Journey";
+    const freeStart = onboarding.free_start || "Free to start · Takes 2 minutes";
 
     return (
-      <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
-        <ScrollView
-          style={styles.introScroll}
-          contentContainerStyle={styles.introContent}
-          showsVerticalScrollIndicator={false}
+      <View style={styles.introContainer}>
+        {/* Large decorative quote mark */}
+        <Animated.View style={[styles.introQuoteWrap, animSlide(introHeadlineAnim)]}>
+          <Text style={[styles.introQuoteChar, {color: theme.colors.brandYellow}]}>
+            {"\u201C"}
+          </Text>
+        </Animated.View>
+
+        {/* Headline */}
+        <Animated.Text
+          style={[
+            styles.introHeadline,
+            {color: theme.colors.text},
+            animSlide(introHeadlineAnim),
+          ]}
         >
-          {/* Mark */}
-          <Animated.View
+          {headline}
+        </Animated.Text>
+
+        {/* Tagline */}
+        <Animated.Text
+          style={[
+            styles.introTagline,
+            {color: theme.colors.textSecondary},
+            animSlide(introTaglineAnim),
+          ]}
+        >
+          {tagline}
+        </Animated.Text>
+
+        {/* Social proof */}
+        <Animated.View
+          style={[styles.socialProofRow, animSlide(introSocialAnim)]}
+        >
+          <View
             style={[
-              styles.introMarkWrap,
+              styles.socialProofPill,
               {
-                opacity: markAnim,
-                transform: [
-                  {
-                    translateY: markAnim.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [16, 0],
-                    }),
-                  },
-                ],
+                backgroundColor: isDark
+                  ? "rgba(255,255,255,0.07)"
+                  : "rgba(0,0,0,0.05)",
+                borderColor: isDark
+                  ? "rgba(255,255,255,0.14)"
+                  : "rgba(0,0,0,0.09)",
               },
             ]}
           >
-            <View
-              style={[
-                styles.introMark,
-                {
-                  borderColor: isDark
-                    ? "rgba(255,255,255,0.12)"
-                    : "rgba(0,0,0,0.08)",
-                },
-              ]}
+            <Text
+              style={[styles.socialProofDot, {color: theme.colors.brandYellow}]}
             >
-              <Text
-                style={[styles.quoteChar, {color: theme.colors.brandYellow}]}
-              >
-                {"\u201C"}
-              </Text>
-            </View>
-          </Animated.View>
-
-          {/* Title */}
-          <Animated.View
-            style={{
-              opacity: titleAnim,
-              transform: [
-                {
-                  translateY: titleAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [16, 0],
-                  }),
-                },
-              ],
-            }}
-          >
-            <Text style={[styles.introTitle, {color: theme.colors.text}]}>
-              {onboarding.welcome_title}
+              ✦
             </Text>
-          </Animated.View>
+            <Text
+              style={[styles.socialProofText, {color: theme.colors.textSecondary}]}
+            >
+              {socialProof}
+            </Text>
+          </View>
+        </Animated.View>
 
-          {/* Subtitle */}
-          <Animated.View
-            style={{
-              opacity: subtitleAnim,
-              transform: [
-                {
-                  translateY: subtitleAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [12, 0],
-                  }),
-                },
-              ],
-            }}
+        {/* CTA */}
+        <Animated.View style={[styles.introBtnWrap, animSlide(introBtnAnim)]}>
+          <TouchableOpacity
+            style={[
+              styles.introBtn,
+              {backgroundColor: theme.colors.brandYellow},
+            ]}
+            onPress={handleNext}
+            activeOpacity={0.85}
           >
             <Text
               style={[
-                styles.introSubtitle,
-                {color: theme.colors.textSecondary},
+                styles.introBtnText,
+                {color: isDark ? "#141210" : "#1a1a1a"},
               ]}
             >
-              {onboarding.welcome_subtitle}
+              {beginLabel}
             </Text>
-          </Animated.View>
+            <IconSymbol
+              name="chevron.right"
+              size={18}
+              color={isDark ? "#141210" : "#1a1a1a"}
+              strokeWidth={2.5}
+            />
+          </TouchableOpacity>
 
-          {/* Features */}
-          <Animated.View
-            style={[
-              styles.featureBlock,
-              {
-                opacity: featuresAnim,
-                transform: [
-                  {
-                    translateY: featuresAnim.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [16, 0],
-                    }),
-                  },
-                ],
-              },
-            ]}
-          >
-            <View style={[styles.featureDivider, {backgroundColor: dividerColor}]} />
-
-            {features.map((f, idx) => (
-              <View key={idx} style={styles.featureRow}>
-                <View
-                  style={[
-                    styles.featureIconWrap,
-                    {
-                      backgroundColor: isDark
-                        ? "rgba(255,255,255,0.07)"
-                        : "rgba(0,0,0,0.05)",
-                    },
-                  ]}
-                >
-                  <IconSymbol
-                    name={f.icon}
-                    size={16}
-                    color={theme.colors.brandYellow}
-                    strokeWidth={1.5}
-                  />
-                </View>
-                <View style={styles.featureTextWrap}>
-                  <Text
-                    style={[
-                      styles.featureTitle,
-                      {color: theme.colors.text},
-                    ]}
-                  >
-                    {f.title}
-                  </Text>
-                  <Text
-                    style={[
-                      styles.featureSubtitle,
-                      {color: theme.colors.textSecondary},
-                    ]}
-                  >
-                    {f.subtitle}
-                  </Text>
-                </View>
-              </View>
-            ))}
-
-            <View style={[styles.featureDivider, {backgroundColor: dividerColor}]} />
-          </Animated.View>
-        </ScrollView>
-      </Animated.View>
+          <Text style={[styles.introFreeText, {color: theme.colors.textTertiary}]}>
+            {freeStart}
+          </Text>
+        </Animated.View>
+      </View>
     );
   };
 
-  // ─── Completion Screen ───────────────────────────────────────────────────────
+  // ─── Interstitial Screens ──────────────────────────────────────────────────
 
-  const renderCompletionScreen = () => (
-    <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
-      <View style={styles.completionContainer}>
-        <View
-          style={[
-            styles.completionMark,
-            {
-              backgroundColor: `${theme.colors.brandYellow}20`,
-              borderColor: `${theme.colors.brandYellow}40`,
-            },
-          ]}
-        >
-          <IconSymbol
-            name="checkmark"
-            size={32}
-            color={theme.colors.brandYellow}
-            strokeWidth={2}
+  const renderInterstitialTaste = () => {
+    const rawTitle = onboarding.interstitial_taste_title || "You have great taste, {{name}}.";
+    const title = rawTitle.replace("{{name}}", userName || "friend");
+    const body = onboarding.interstitial_taste_body ||
+      "Based on your choices, we matched you with over 1,200 transformative quotes.";
+    const previewQuote =
+      onboarding.interstitial_taste_preview_quote ||
+      "You have power over your mind, not outside events. Realize this, and you will find strength.";
+    const previewAuthor =
+      onboarding.interstitial_taste_preview_author || "Marcus Aurelius";
+    const ctaLabel = onboarding.interstitial_taste_cta || "Keep Going";
+
+    return (
+      <View style={styles.interstitialContainer}>
+        {/* Glowing icon */}
+        <Animated.View style={[styles.interstitialIconWrap, animScale(interstitialIconAnim)]}>
+          <LinearGradient
+            colors={[`${theme.colors.brandYellow}30`, `${theme.colors.brandYellow}08`]}
+            style={styles.interstitialIconGlow}
+            start={{x: 0.5, y: 0.5}}
+            end={{x: 0.5, y: 1}}
           />
-        </View>
+          <View
+            style={[
+              styles.interstitialIconCircle,
+              {
+                backgroundColor: `${theme.colors.brandYellow}20`,
+                borderColor: `${theme.colors.brandYellow}40`,
+              },
+            ]}
+          >
+            <Text style={styles.interstitialEmoji}>✨</Text>
+          </View>
+        </Animated.View>
 
-        <Text style={[styles.completionTitle, {color: theme.colors.text}]}>
-          {onboarding.completion_title}
-        </Text>
-        <Text
+        {/* Title */}
+        <Animated.Text
           style={[
-            styles.completionSubtitle,
-            {color: theme.colors.textSecondary},
+            styles.interstitialTitle,
+            {color: theme.colors.text},
+            animSlide(interstitialTitleAnim),
           ]}
         >
-          {onboarding.completion_subtitle}
-        </Text>
+          {title}
+        </Animated.Text>
 
-        <View style={styles.loadingDots}>
+        {/* Body */}
+        <Animated.Text
+          style={[
+            styles.interstitialBody,
+            {color: theme.colors.textSecondary},
+            animSlide(interstitialBodyAnim),
+          ]}
+        >
+          {body}
+        </Animated.Text>
+
+        {/* Quote preview card */}
+        <Animated.View
+          style={[
+            styles.quotePreviewCard,
+            {
+              backgroundColor: isDark
+                ? "rgba(255,255,255,0.06)"
+                : "rgba(0,0,0,0.04)",
+              borderColor: isDark
+                ? "rgba(255,255,255,0.12)"
+                : "rgba(0,0,0,0.08)",
+            },
+            animSlide(interstitialCardAnim),
+          ]}
+        >
+          <Text
+            style={[
+              styles.quotePreviewMark,
+              {color: theme.colors.brandYellow},
+            ]}
+          >
+            {"\u201C"}
+          </Text>
+          <Text
+            style={[styles.quotePreviewText, {color: theme.colors.text}]}
+            numberOfLines={3}
+          >
+            {previewQuote}
+          </Text>
+          <Text
+            style={[
+              styles.quotePreviewAuthor,
+              {color: theme.colors.textSecondary},
+            ]}
+          >
+            — {previewAuthor}
+          </Text>
+        </Animated.View>
+
+        {/* CTA */}
+        <Animated.View style={[styles.interstitialCtaWrap, animSlide(interstitialCardAnim)]}>
+          <TouchableOpacity
+            style={[
+              styles.interstitialBtn,
+              {backgroundColor: theme.colors.brandYellow},
+            ]}
+            onPress={handleNext}
+            activeOpacity={0.85}
+          >
+            <Text
+              style={[
+                styles.interstitialBtnText,
+                {color: isDark ? "#141210" : "#1a1a1a"},
+              ]}
+            >
+              {ctaLabel}
+            </Text>
+            <IconSymbol
+              name="chevron.right"
+              size={17}
+              color={isDark ? "#141210" : "#1a1a1a"}
+              strokeWidth={2.5}
+            />
+          </TouchableOpacity>
+        </Animated.View>
+      </View>
+    );
+  };
+
+  const renderInterstitialReminder = () => {
+    const title = onboarding.interstitial_reminder_title || "Consistency is the secret.";
+    const body = onboarding.interstitial_reminder_body ||
+      "People who receive daily inspiration are 4× more likely to achieve their goals consistently.";
+    const stat1 = onboarding.interstitial_reminder_stat1 || "4× more consistent";
+    const stat2 = onboarding.interstitial_reminder_stat2 || "Daily habit";
+    const stat3 = onboarding.interstitial_reminder_stat3 || "Proven system";
+    const ctaLabel = onboarding.interstitial_reminder_cta || "Set My Reminders";
+
+    const statBg = isDark ? "rgba(255,255,255,0.07)" : "rgba(0,0,0,0.05)";
+    const statBorder = isDark ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.08)";
+
+    return (
+      <View style={styles.interstitialContainer}>
+        {/* Glowing icon */}
+        <Animated.View style={[styles.interstitialIconWrap, animScale(interstitialIconAnim)]}>
+          <LinearGradient
+            colors={[`${theme.colors.brandYellow}28`, `${theme.colors.brandYellow}06`]}
+            style={styles.interstitialIconGlow}
+            start={{x: 0.5, y: 0.5}}
+            end={{x: 0.5, y: 1}}
+          />
+          <View
+            style={[
+              styles.interstitialIconCircle,
+              {
+                backgroundColor: `${theme.colors.brandYellow}20`,
+                borderColor: `${theme.colors.brandYellow}40`,
+              },
+            ]}
+          >
+            <Text style={styles.interstitialEmoji}>🔔</Text>
+          </View>
+        </Animated.View>
+
+        {/* Title */}
+        <Animated.Text
+          style={[
+            styles.interstitialTitle,
+            {color: theme.colors.text},
+            animSlide(interstitialTitleAnim),
+          ]}
+        >
+          {title}
+        </Animated.Text>
+
+        {/* Body */}
+        <Animated.Text
+          style={[
+            styles.interstitialBody,
+            {color: theme.colors.textSecondary},
+            animSlide(interstitialBodyAnim),
+          ]}
+        >
+          {body}
+        </Animated.Text>
+
+        {/* Stat pills */}
+        <Animated.View
+          style={[styles.statRow, animSlide(interstitialCardAnim)]}
+        >
+          {[stat1, stat2, stat3].map((stat, i) => (
+            <View
+              key={i}
+              style={[
+                styles.statPill,
+                {backgroundColor: statBg, borderColor: statBorder},
+              ]}
+            >
+              <Text style={[styles.statText, {color: theme.colors.textSecondary}]}>
+                {stat}
+              </Text>
+            </View>
+          ))}
+        </Animated.View>
+
+        {/* CTA */}
+        <Animated.View style={[styles.interstitialCtaWrap, animSlide(interstitialCardAnim)]}>
+          <TouchableOpacity
+            style={[
+              styles.interstitialBtn,
+              {backgroundColor: theme.colors.brandYellow},
+            ]}
+            onPress={handleNext}
+            activeOpacity={0.85}
+          >
+            <Text
+              style={[
+                styles.interstitialBtnText,
+                {color: isDark ? "#141210" : "#1a1a1a"},
+              ]}
+            >
+              {ctaLabel}
+            </Text>
+            <IconSymbol
+              name="chevron.right"
+              size={17}
+              color={isDark ? "#141210" : "#1a1a1a"}
+              strokeWidth={2.5}
+            />
+          </TouchableOpacity>
+        </Animated.View>
+      </View>
+    );
+  };
+
+  // ─── Completion Screen ─────────────────────────────────────────────────────
+
+  const renderCompletionScreen = () => {
+    const rawTitle = userName
+      ? (onboarding.completion_title_with_name || "You're all set, {{name}}!").replace(
+          "{{name}}",
+          userName
+        )
+      : onboarding.completion_title || "You're all set!";
+    const body =
+      onboarding.completion_body ||
+      "Your personalized experience is being crafted just for you.";
+
+    return (
+      <Animated.View style={[styles.completionContainer, {opacity: fadeAnim}]}>
+        {/* Star burst */}
+        <Animated.View style={[styles.completionStarWrap, animScale(completionStarAnim)]}>
+          <LinearGradient
+            colors={[`${theme.colors.brandYellow}30`, `${theme.colors.brandYellow}06`]}
+            style={styles.completionGlow}
+            start={{x: 0.5, y: 0.5}}
+            end={{x: 0.5, y: 1}}
+          />
+          <View
+            style={[
+              styles.completionStar,
+              {
+                backgroundColor: `${theme.colors.brandYellow}20`,
+                borderColor: `${theme.colors.brandYellow}50`,
+              },
+            ]}
+          >
+            <Text style={styles.completionEmoji}>🌟</Text>
+          </View>
+        </Animated.View>
+
+        {/* Title */}
+        <Animated.Text
+          style={[
+            styles.completionTitle,
+            {color: theme.colors.text},
+            animSlide(completionTextAnim),
+          ]}
+        >
+          {rawTitle}
+        </Animated.Text>
+
+        {/* Body */}
+        <Animated.Text
+          style={[
+            styles.completionBody,
+            {color: theme.colors.textSecondary},
+            animSlide(completionTextAnim),
+          ]}
+        >
+          {body}
+        </Animated.Text>
+
+        {/* Animated dots */}
+        <Animated.View style={[styles.loadingDots, {opacity: completionTextAnim}]}>
           {[0, 1, 2].map((i) => (
             <View
               key={i}
@@ -451,12 +791,12 @@ export function OnboardingScreen() {
               ]}
             />
           ))}
-        </View>
-      </View>
-    </Animated.View>
-  );
+        </Animated.View>
+      </Animated.View>
+    );
+  };
 
-  // ─── Option Renderers ────────────────────────────────────────────────────────
+  // ─── Question option renderers ─────────────────────────────────────────────
 
   const renderSingleChoice = (question: any) => (
     <View style={styles.optionsContainer}>
@@ -506,22 +846,85 @@ export function OnboardingScreen() {
     const min = question.min || 1;
     const max = question.max || 10;
 
+    const intensityLevels = [
+      {max: 2, label: "Minimal", emoji: "🌙"},
+      {max: 4, label: "Light", emoji: "🌤"},
+      {max: 6, label: "Balanced", emoji: "☀️"},
+      {max: 8, label: "Active", emoji: "⚡"},
+      {max: 10, label: "Intensive", emoji: "🔥"},
+    ];
+    const intensity =
+      intensityLevels.find((l) => value <= l.max) ?? intensityLevels[4];
+
+    const dotBg = isDark ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.09)";
+
     return (
       <View style={styles.sliderContainer}>
-        <View style={styles.sliderValueWrap}>
+        {/* Number display card */}
+        <View
+          style={[
+            styles.sliderCard,
+            {
+              backgroundColor: isDark
+                ? "rgba(255,255,255,0.05)"
+                : "rgba(0,0,0,0.03)",
+              borderColor: isDark
+                ? "rgba(255,255,255,0.10)"
+                : "rgba(0,0,0,0.07)",
+            },
+          ]}
+        >
+          {/* Big number */}
           <Text style={[styles.sliderValue, {color: theme.colors.text}]}>
             {value}
           </Text>
           <Text
-            style={[
-              styles.sliderValueLabel,
-              {color: theme.colors.textSecondary},
-            ]}
+            style={[styles.sliderValueLabel, {color: theme.colors.textSecondary}]}
           >
             {onboarding.notifications_per_day}
           </Text>
+
+          {/* Intensity badge */}
+          <View
+            style={[
+              styles.intensityBadge,
+              {backgroundColor: `${theme.colors.brandYellow}20`},
+            ]}
+          >
+            <Text style={styles.intensityEmoji}>{intensity.emoji}</Text>
+            <Text
+              style={[styles.intensityLabel, {color: theme.colors.brandYellow}]}
+            >
+              {intensity.label}
+            </Text>
+          </View>
         </View>
 
+        {/* Dot row — visual count indicator */}
+        <View style={styles.dotRow}>
+          {Array.from({length: max - min + 1}).map((_, i) => {
+            const dotValue = min + i;
+            const filled = dotValue <= value;
+            const isCurrent = dotValue === value;
+            return (
+              <View
+                key={dotValue}
+                style={[
+                  styles.dot,
+                  {
+                    backgroundColor: filled
+                      ? theme.colors.brandYellow
+                      : dotBg,
+                    transform: [{scale: isCurrent ? 1.35 : 1}],
+                    opacity: filled ? (isCurrent ? 1 : 0.65) : 0.45,
+                  },
+                ]}
+              />
+            );
+          })}
+        </View>
+
+        {/* Slider */}
         <Slider
           style={styles.slider}
           minimumValue={min}
@@ -532,12 +935,13 @@ export function OnboardingScreen() {
           }
           minimumTrackTintColor={theme.colors.brandYellow}
           maximumTrackTintColor={
-            isDark ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)"
+            isDark ? "rgba(255,255,255,0.13)" : "rgba(0,0,0,0.10)"
           }
           thumbTintColor={theme.colors.brandYellow}
           step={1}
         />
 
+        {/* Range labels */}
         <View style={styles.sliderRange}>
           <Text style={[styles.rangeText, {color: theme.colors.textTertiary}]}>
             {min}
@@ -556,10 +960,7 @@ export function OnboardingScreen() {
       end: "18:00",
     };
 
-    const {
-      formatTimeForUser,
-      parseTimeToMilitary,
-    } = require("../../utils/language");
+    const {formatTimeForUser, parseTimeToMilitary} = require("../../utils/language");
 
     const formatTimeRange = (start: string, end: string) => {
       const s = parseTimeToMilitary(start);
@@ -642,18 +1043,12 @@ export function OnboardingScreen() {
             ]}
           >
             <Text
-              style={[
-                styles.selectedTimeLabel,
-                {color: theme.colors.textSecondary},
-              ]}
+              style={[styles.selectedTimeLabel, {color: theme.colors.textSecondary}]}
             >
               {onboarding.selected_time_range}
             </Text>
             <Text
-              style={[
-                styles.selectedTimeValue,
-                {color: theme.colors.brandYellow},
-              ]}
+              style={[styles.selectedTimeValue, {color: theme.colors.brandYellow}]}
             >
               {formatTimeRange(timeRange.start, timeRange.end)}
             </Text>
@@ -665,11 +1060,14 @@ export function OnboardingScreen() {
 
   const renderTextInput = (question: any) => {
     const value = answers[question.id] || "";
+    const isNameInput = question.id === "user_name";
+
     return (
       <View style={styles.textInputWrap}>
         <TextInput
           style={[
             styles.textInput,
+            isNameInput && styles.textInputLarge,
             {
               backgroundColor: isDark
                 ? "rgba(255,255,255,0.07)"
@@ -685,17 +1083,15 @@ export function OnboardingScreen() {
           placeholder={question.placeholder || ""}
           placeholderTextColor={theme.colors.textTertiary}
           maxLength={question.maxLength || 100}
-          autoCapitalize="words"
+          autoCapitalize={isNameInput ? "words" : "sentences"}
           autoCorrect={false}
           returnKeyType="done"
           selectionColor={theme.colors.brandYellow}
+          autoFocus={isNameInput}
         />
-        {question.maxLength && (
+        {question.maxLength && !isNameInput && (
           <Text
-            style={[
-              styles.charCount,
-              {color: theme.colors.textTertiary},
-            ]}
+            style={[styles.charCount, {color: theme.colors.textTertiary}]}
           >
             {value.length}/{question.maxLength}
           </Text>
@@ -704,14 +1100,16 @@ export function OnboardingScreen() {
     );
   };
 
-  // ─── Question Screen ─────────────────────────────────────────────────────────
+  // ─── Question screen ───────────────────────────────────────────────────────
 
   const renderQuestion = () => {
     if (!currentQuestion) return null;
 
-    const stepLabel = `${currentStep + 1} / ${onboardingQuestions.length}`;
-    const isTimeQuestion =
-      currentQuestion.id === "notification_time_range";
+    const isTimeQuestion = currentQuestion.id === "notification_time_range";
+    const isNameQuestion = currentQuestion.id === "user_name";
+
+    // Personalize the step label
+    const stepLabel = `${questionNumber} / ${TOTAL_QUESTIONS}`;
 
     return (
       <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
@@ -721,17 +1119,16 @@ export function OnboardingScreen() {
           contentContainerStyle={styles.questionContent}
           keyboardShouldPersistTaps="handled"
         >
-          {/* Step counter */}
-          <Text style={[styles.stepCounter, {color: theme.colors.textTertiary}]}>
-            {stepLabel}
-          </Text>
-
-          {/* Question text */}
+          {/* Question text — personalized with name if available */}
           <Text style={[styles.questionText, {color: theme.colors.text}]}>
-            {currentQuestion.question}
+            {isNameQuestion
+              ? currentQuestion.question
+              : userName
+              ? currentQuestion.question
+              : currentQuestion.question}
           </Text>
 
-          {/* Thin accent line under question */}
+          {/* Gold accent line */}
           <View
             style={[
               styles.questionAccent,
@@ -739,14 +1136,11 @@ export function OnboardingScreen() {
             ]}
           />
 
-          {/* Options */}
+          {/* Options / Input */}
           <View style={styles.optionsWrap}>
-            {currentQuestion.type === "single" &&
-              renderSingleChoice(currentQuestion)}
-            {currentQuestion.type === "multiple" &&
-              renderMultipleChoice(currentQuestion)}
-            {currentQuestion.type === "slider" &&
-              renderSlider(currentQuestion)}
+            {currentQuestion.type === "single" && renderSingleChoice(currentQuestion)}
+            {currentQuestion.type === "multiple" && renderMultipleChoice(currentQuestion)}
+            {currentQuestion.type === "slider" && renderSlider(currentQuestion)}
             {isTimeQuestion && renderTimePicker()}
             {currentQuestion.type === "text" &&
               !isTimeQuestion &&
@@ -757,23 +1151,31 @@ export function OnboardingScreen() {
     );
   };
 
-  // ─── Progress Bar ─────────────────────────────────────────────────────────────
+  // ─── Progress bar ──────────────────────────────────────────────────────────
 
-  const progressPercentage = ((currentStep + 2) / totalSteps) * 100;
-  const trackColor = isDark
-    ? "rgba(255,255,255,0.10)"
-    : "rgba(0,0,0,0.08)";
+  const trackColor = isDark ? "rgba(255,255,255,0.10)" : "rgba(0,0,0,0.08)";
+  const showProgress = currentStep >= 0 && currentStep < FLOW.length;
 
-  // ─── Render ───────────────────────────────────────────────────────────────────
+  // ─── Button labels ─────────────────────────────────────────────────────────
 
-  const isLastQuestion = currentStep === onboardingQuestions.length - 1;
-  const nextLabel = isLastQuestion ? onboarding.complete : onboarding.next_step;
+  const isLastFlowStep = currentStep === FLOW.length - 1;
+  const isInterstitialStep = currentFlowItem?.kind === "interstitial";
   const stepComplete = isStepComplete();
+
+  const nextLabel = isInterstitialStep
+    ? (currentInterstitialId === "taste"
+        ? (onboarding.interstitial_taste_cta || "Keep Going")
+        : (onboarding.interstitial_reminder_cta || "Set My Reminders"))
+    : isLastFlowStep
+    ? onboarding.complete
+    : onboarding.next_step;
+
+  // ─── Render ───────────────────────────────────────────────────────────────
 
   return (
     <BaseScreen style={styles.container}>
-      {/* Progress bar */}
-      {currentStep < onboardingQuestions.length && (
+      {/* Progress bar — shown during question & interstitial steps */}
+      {showProgress && (
         <View
           style={[
             styles.progressWrap,
@@ -785,23 +1187,64 @@ export function OnboardingScreen() {
               colors={[theme.colors.brandYellow, `${theme.colors.brandYellow}BB`]}
               start={{x: 0, y: 0}}
               end={{x: 1, y: 0}}
-              style={[styles.progressFill, {width: `${progressPercentage}%`}]}
+              style={[styles.progressFill, {width: `${progressPercent}%`}]}
             />
           </View>
         </View>
       )}
 
-      {/* Content */}
+      {/* Content area */}
       <View style={styles.content}>
-        {currentStep === -1 && renderIntroScreen()}
+        {/* Intro */}
+        {currentStep === -1 && (
+          <ScrollView
+            style={styles.introScroll}
+            contentContainerStyle={[
+              styles.introScrollContent,
+              {
+                paddingTop: insets.top > 0 ? insets.top + 24 : 40,
+                paddingBottom: Math.max(insets.bottom, 20) + 16,
+              },
+            ]}
+            showsVerticalScrollIndicator={false}
+          >
+            {renderIntroScreen()}
+          </ScrollView>
+        )}
+
+        {/* Questions */}
         {currentStep >= 0 &&
-          currentStep < onboardingQuestions.length &&
+          currentFlowItem?.kind === "question" &&
           renderQuestion()}
-        {currentStep === onboardingQuestions.length && renderCompletionScreen()}
+
+        {/* Interstitials */}
+        {currentStep >= 0 && currentInterstitialId === "taste" && (
+          <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
+            <ScrollView
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={styles.interstitialScroll}
+            >
+              {renderInterstitialTaste()}
+            </ScrollView>
+          </Animated.View>
+        )}
+        {currentStep >= 0 && currentInterstitialId === "reminder" && (
+          <Animated.View style={[styles.stepContainer, {opacity: fadeAnim}]}>
+            <ScrollView
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={styles.interstitialScroll}
+            >
+              {renderInterstitialReminder()}
+            </ScrollView>
+          </Animated.View>
+        )}
+
+        {/* Completion */}
+        {currentStep === FLOW.length && renderCompletionScreen()}
       </View>
 
-      {/* Navigation */}
-      {currentStep < onboardingQuestions.length && (
+      {/* Navigation bar — shown during question steps only (interstitials have their own CTA) */}
+      {showProgress && !isInterstitialStep && (
         <View
           style={[
             styles.navBar,
@@ -809,7 +1252,7 @@ export function OnboardingScreen() {
           ]}
         >
           {/* Back button */}
-          {currentStep > -1 ? (
+          {currentStep > 0 ? (
             <TouchableOpacity
               style={[
                 styles.backBtn,
@@ -832,7 +1275,7 @@ export function OnboardingScreen() {
             <View style={styles.backBtnPlaceholder} />
           )}
 
-          {/* Next / Get Started button */}
+          {/* Next / Complete button */}
           <TouchableOpacity
             style={[
               styles.nextBtn,
@@ -861,7 +1304,7 @@ export function OnboardingScreen() {
                 },
               ]}
             >
-              {currentStep === -1 ? onboarding.next_step : nextLabel}
+              {nextLabel}
             </Text>
             {stepComplete && (
               <IconSymbol
@@ -878,6 +1321,8 @@ export function OnboardingScreen() {
     </BaseScreen>
   );
 }
+
+// ─── Styles ───────────────────────────────────────────────────────────────────
 
 const styles = StyleSheet.create({
   container: {
@@ -908,117 +1353,239 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 
-  // ─── Intro ───────────────────────────────────────────────────────────────────
+  // ─── Intro ─────────────────────────────────────────────────────────────────
   introScroll: {
     flex: 1,
   },
-  introContent: {
+  introScrollContent: {
     flexGrow: 1,
-    paddingHorizontal: 28,
-    paddingTop: 32,
-    paddingBottom: 24,
     justifyContent: "center",
-    minHeight: screenHeight * 0.72,
+    paddingHorizontal: 28,
   },
-  introMarkWrap: {
-    marginBottom: 28,
+  introContainer: {
+    flex: 1,
+    justifyContent: "center",
+    minHeight: screenHeight * 0.7,
   },
-  introMark: {
-    width: 60,
-    height: 60,
-    borderRadius: 18,
+  introQuoteWrap: {
+    marginBottom: 16,
+  },
+  introQuoteChar: {
+    fontSize: 72,
+    fontWeight: "200",
+    lineHeight: 80,
+    opacity: 0.85,
+  },
+  introHeadline: {
+    fontSize: 38,
+    fontWeight: "800",
+    lineHeight: 46,
+    letterSpacing: -1,
+    marginBottom: 14,
+  },
+  introTagline: {
+    fontSize: 18,
+    lineHeight: 26,
+    fontWeight: "400",
+    marginBottom: 36,
+    maxWidth: 280,
+  },
+  socialProofRow: {
+    marginBottom: 52,
+  },
+  socialProofPill: {
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "flex-start",
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 999,
     borderWidth: 1,
+    gap: 7,
+  },
+  socialProofDot: {
+    fontSize: 10,
+  },
+  socialProofText: {
+    fontSize: 13,
+    fontWeight: "500",
+    letterSpacing: 0.1,
+  },
+  introBtnWrap: {
+    gap: 14,
+  },
+  introBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 17,
+    borderRadius: 16,
+    gap: 8,
+  },
+  introBtnText: {
+    fontSize: 17,
+    fontWeight: "700",
+    letterSpacing: 0.1,
+  },
+  introFreeText: {
+    fontSize: 12,
+    textAlign: "center",
+    fontWeight: "400",
+  },
+
+  // ─── Interstitials ─────────────────────────────────────────────────────────
+  interstitialScroll: {
+    flexGrow: 1,
+    justifyContent: "center",
+    paddingHorizontal: 28,
+    paddingVertical: 24,
+  },
+  interstitialContainer: {
+    flex: 1,
+    justifyContent: "center",
+    minHeight: screenHeight * 0.55,
+  },
+  interstitialIconWrap: {
+    alignSelf: "flex-start",
+    marginBottom: 28,
+    position: "relative",
+  },
+  interstitialIconGlow: {
+    position: "absolute",
+    top: -20,
+    left: -20,
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+  },
+  interstitialIconCircle: {
+    width: 80,
+    height: 80,
+    borderRadius: 24,
+    borderWidth: 1.5,
     alignItems: "center",
     justifyContent: "center",
   },
-  quoteChar: {
-    fontSize: 40,
-    lineHeight: 48,
-    fontWeight: "300",
-    marginTop: -4,
+  interstitialEmoji: {
+    fontSize: 36,
   },
-  introTitle: {
-    fontSize: 34,
-    fontWeight: "700",
-    lineHeight: 41,
+  interstitialTitle: {
+    fontSize: 30,
+    fontWeight: "800",
+    lineHeight: 38,
     letterSpacing: -0.5,
-    marginBottom: 12,
+    marginBottom: 14,
   },
-  introSubtitle: {
+  interstitialBody: {
     fontSize: 16,
     lineHeight: 24,
     fontWeight: "400",
-    marginBottom: 36,
-    maxWidth: 300,
+    marginBottom: 28,
+    maxWidth: 320,
   },
 
-  // Features
-  featureBlock: {
-    width: "100%",
+  // Quote preview card (interstitial taste)
+  quotePreviewCard: {
+    borderRadius: 16,
+    borderWidth: 1,
+    padding: 20,
+    marginBottom: 28,
   },
-  featureDivider: {
-    height: 1,
-    width: "100%",
-    marginVertical: 4,
+  quotePreviewMark: {
+    fontSize: 28,
+    fontWeight: "300",
+    lineHeight: 30,
+    marginBottom: 4,
   },
-  featureRow: {
+  quotePreviewText: {
+    fontSize: 15,
+    lineHeight: 22,
+    fontWeight: "500",
+    marginBottom: 12,
+    fontStyle: "italic",
+  },
+  quotePreviewAuthor: {
+    fontSize: 13,
+    fontWeight: "500",
+  },
+
+  // Stat pills (interstitial reminder)
+  statRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    marginBottom: 28,
+  },
+  statPill: {
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 999,
+    borderWidth: 1,
+  },
+  statText: {
+    fontSize: 13,
+    fontWeight: "500",
+  },
+
+  interstitialCtaWrap: {},
+  interstitialBtn: {
     flexDirection: "row",
     alignItems: "center",
-    paddingVertical: 14,
-  },
-  featureIconWrap: {
-    width: 36,
-    height: 36,
-    borderRadius: 10,
-    alignItems: "center",
     justifyContent: "center",
-    marginRight: 14,
-    flexShrink: 0,
+    paddingVertical: 17,
+    borderRadius: 16,
+    gap: 8,
   },
-  featureTextWrap: {
-    flex: 1,
-  },
-  featureTitle: {
-    fontSize: 15,
-    fontWeight: "600",
-    lineHeight: 20,
-    marginBottom: 2,
-  },
-  featureSubtitle: {
-    fontSize: 13,
-    lineHeight: 18,
-    fontWeight: "400",
+  interstitialBtnText: {
+    fontSize: 16,
+    fontWeight: "700",
+    letterSpacing: 0.1,
   },
 
-  // ─── Completion ──────────────────────────────────────────────────────────────
+  // ─── Completion ────────────────────────────────────────────────────────────
   completionContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 32,
   },
-  completionMark: {
-    width: 72,
-    height: 72,
-    borderRadius: 22,
-    borderWidth: 1,
+  completionStarWrap: {
+    position: "relative",
+    marginBottom: 32,
+  },
+  completionGlow: {
+    position: "absolute",
+    top: -30,
+    left: -30,
+    width: 160,
+    height: 160,
+    borderRadius: 80,
+  },
+  completionStar: {
+    width: 100,
+    height: 100,
+    borderRadius: 28,
+    borderWidth: 1.5,
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 28,
+  },
+  completionEmoji: {
+    fontSize: 48,
   },
   completionTitle: {
-    fontSize: 28,
-    fontWeight: "700",
+    fontSize: 30,
+    fontWeight: "800",
     textAlign: "center",
-    marginBottom: 12,
-    letterSpacing: -0.3,
+    marginBottom: 14,
+    letterSpacing: -0.5,
   },
-  completionSubtitle: {
-    fontSize: 16,
+  completionBody: {
+    fontSize: 17,
     textAlign: "center",
-    lineHeight: 24,
+    lineHeight: 26,
     marginBottom: 40,
     fontWeight: "400",
+    maxWidth: 280,
   },
   loadingDots: {
     flexDirection: "row",
@@ -1030,7 +1597,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
 
-  // ─── Question ────────────────────────────────────────────────────────────────
+  // ─── Question ──────────────────────────────────────────────────────────────
   questionScroll: {
     flex: 1,
   },
@@ -1059,9 +1626,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     marginBottom: 28,
   },
-  optionsWrap: {
-    // flex:1 kaldırıldı — ScrollView içinde içeriği kısıtlıyordu
-  },
+  optionsWrap: {},
 
   // Single choice
   optionsContainer: {},
@@ -1078,36 +1643,75 @@ const styles = StyleSheet.create({
 
   // Slider
   sliderContainer: {
-    paddingTop: 16,
+    paddingTop: 8,
+    gap: 0,
   },
-  sliderValueWrap: {
+  sliderCard: {
+    borderRadius: 20,
+    borderWidth: 1,
+    paddingVertical: 28,
+    paddingHorizontal: 24,
     alignItems: "center",
-    marginBottom: 32,
+    marginBottom: 24,
+    gap: 4,
   },
   sliderValue: {
-    fontSize: 64,
-    fontWeight: "700",
-    lineHeight: 72,
-    letterSpacing: -2,
+    fontSize: 72,
+    fontWeight: "800",
+    lineHeight: 80,
+    letterSpacing: -3,
   },
   sliderValueLabel: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "500",
     textAlign: "center",
+    marginBottom: 12,
+  },
+  intensityBadge: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    borderRadius: 999,
     marginTop: 4,
   },
+  intensityEmoji: {
+    fontSize: 14,
+  },
+  intensityLabel: {
+    fontSize: 13,
+    fontWeight: "700",
+    letterSpacing: 0.3,
+  },
+
+  // Dot row
+  dotRow: {
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: 7,
+    marginBottom: 20,
+    flexWrap: "nowrap",
+  },
+  dot: {
+    width: 9,
+    height: 9,
+    borderRadius: 5,
+  },
+
   slider: {
     width: "100%",
-    height: 48,
+    height: 44,
+    marginTop: -4,
   },
   sliderRange: {
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 4,
-    marginTop: 4,
+    marginTop: -4,
   },
   rangeText: {
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: "500",
   },
 
@@ -1157,6 +1761,13 @@ const styles = StyleSheet.create({
     minHeight: 56,
     width: "100%",
   },
+  textInputLarge: {
+    fontSize: 24,
+    fontWeight: "600",
+    paddingVertical: 20,
+    minHeight: 68,
+    letterSpacing: -0.3,
+  },
   charCount: {
     fontSize: 12,
     textAlign: "right",
@@ -1164,7 +1775,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
 
-  // ─── Navigation ──────────────────────────────────────────────────────────────
+  // ─── Navigation ────────────────────────────────────────────────────────────
   navBar: {
     flexDirection: "row",
     alignItems: "center",

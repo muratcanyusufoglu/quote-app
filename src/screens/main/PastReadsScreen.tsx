@@ -18,10 +18,12 @@ import { useOnboardingHydrated } from "../../store/useOnboardingStore";
 import { usePurchaseHydrated } from "../../store/usePurchaseStore";
 import { useHasHydrated, useLastReadQuotes } from "../../store/useQuoteStore";
 import { LocalizedQuote } from "../../types";
+import { getContrastTextColor } from "../../utils/theme";
 import { useTheme } from "../../utils/ThemeContext";
 
 export function PastReadsScreen() {
   const { theme } = useTheme();
+  const cardText = getContrastTextColor(theme.colors.brandYellow);
 
   // Hydration checks
   const quoteStoreHydrated = useHasHydrated();
@@ -48,12 +50,10 @@ export function PastReadsScreen() {
       style={[styles.readCard, { backgroundColor: theme.colors.brandYellow }]}
       onPress={() => handleQuotePress(quote)}
     >
-      <Text style={[styles.quoteText, { color: theme.colors.textSoft }]}>
+      <Text style={[styles.quoteText, { color: cardText.primary }]}>
         {quote.text}
       </Text>
-      <Text
-        style={[styles.quoteAuthor, { color: theme.colors.textSoftSecondary }]}
-      >
+      <Text style={[styles.quoteAuthor, { color: cardText.secondary }]}>
         {quote.author}
       </Text>
     </TouchableOpacity>

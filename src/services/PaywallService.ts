@@ -126,7 +126,7 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
         currentPrice: pkg.product.priceString, // Use actual price from RevenueCat
         discount,
         period: this.getPeriodFromPackageType(pkg.packageType, pkg.product.identifier), // Determine period from RevenueCat package type
-        freeTrialDays: this.getTrialDaysFromPackageType(pkg.packageType), // Get trial days from RevenueCat or default to 0
+        freeTrialDays: this.getTrialDaysFromPackage(pkg), // Read actual trial period from RevenueCat introPrice
         pricePerMonth: isYearly
           ? `${monthlyPrice} ${pkg.product.currencyCode || "USD"}`
           : pkg.product.priceString,
@@ -176,11 +176,18 @@ export class RevenueCatPurchaseProvider implements IPurchaseProvider {
     return "month";
   }
 
-  private getTrialDaysFromPackageType(packageType?: string): number {
-    // RevenueCat doesn't provide trial days by default
-    // This would need to be configured in RevenueCat dashboard or App Store/Google Play
-    // For now, return 0 - no hard-coded trial periods
-    return 0;
+  private getTrialDaysFromPackage(pkg: RevenueCatPackage): number {
+    const introPrice = pkg.product.introPrice;
+    // Only a free trial if introPrice exists AND price is 0
+    if (!introPrice || introPrice.price > 0) return 0;
+    const units = introPrice.periodNumberOfUnits;
+    switch (introPrice.periodUnit.toUpperCase()) {
+      case "DAY":   return units;
+      case "WEEK":  return units * 7;
+      case "MONTH": return units * 30;
+      case "YEAR":  return units * 365;
+      default:      return 0;
+    }
   }
 
   private determinePopularity(pkg: RevenueCatPackage, index: number): boolean {

@@ -3,6 +3,16 @@ import { OnboardingQuestion } from "../types";
 export const getOnboardingQuestions = (
   t: (key: string) => string
 ): OnboardingQuestion[] => [
+  // 0 — user_name: asked FIRST so the rest of the flow can personalize by name
+  {
+    id: "user_name",
+    type: "text",
+    question: t("onboarding.questions.user_name"),
+    required: true,
+    placeholder: t("onboarding.placeholders.user_name"),
+    maxLength: 50,
+  },
+  // 1 — purpose
   {
     id: "purpose",
     type: "single",
@@ -41,6 +51,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 2 — content_type
   {
     id: "content_type",
     type: "single",
@@ -67,6 +78,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 3 — topics
   {
     id: "topics",
     type: "multiple",
@@ -183,6 +195,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 4 — motivation_style
   {
     id: "motivation_style",
     type: "single",
@@ -209,6 +222,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 5 — preferred_time
   {
     id: "preferred_time",
     type: "single",
@@ -235,6 +249,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 6 — reading_length
   {
     id: "reading_length",
     type: "single",
@@ -261,6 +276,7 @@ export const getOnboardingQuestions = (
       },
     ],
   },
+  // 7 — notification_count
   {
     id: "notification_count",
     type: "slider",
@@ -270,19 +286,12 @@ export const getOnboardingQuestions = (
     max: 10,
     step: 6,
   },
+  // 8 — notification_time_range
   {
     id: "notification_time_range",
-    type: "text", // Will be handled as custom time picker
+    type: "text", // handled as custom time picker
     question: t("onboarding.questions.notification_time_range"),
     required: true,
-  },
-  {
-    id: "user_name",
-    type: "text",
-    question: t("onboarding.questions.user_name"),
-    required: true,
-    placeholder: t("onboarding.placeholders.user_name"),
-    maxLength: 50,
   },
 ];
 

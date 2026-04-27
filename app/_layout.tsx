@@ -20,6 +20,7 @@ import StreakModal from "../src/components/ui/StreakModal";
 import { useNotifications } from "../src/hooks/useNotifications";
 import { usePremium } from "../src/hooks/usePremium"; // UNIFIED: Single premium source
 import { useStreak } from "../src/hooks/useStreak";
+import { FacebookService } from "../src/services/FacebookService";
 import { getPaywallService } from "../src/services/PaywallService";
 import revenueCatService from "../src/services/revenueCat";
 import { useOnboardingSelectors } from "../src/store/useOnboardingStore";
@@ -106,6 +107,16 @@ export default function RootLayout() {
   useNotifications();
 
   useEffect(() => {
+    // Initialize Facebook SDK
+    FacebookService.initialize();
+
+    // ATT izni sonucuna göre advertiser tracking'i aç/kapa
+    import("expo-tracking-transparency").then(({ requestTrackingPermissionsAsync }) => {
+      requestTrackingPermissionsAsync().then(({ status }) => {
+        FacebookService.setAdvertisingTracking(status === "granted");
+      });
+    }).catch(() => {});
+
     // Initialize PaywallService when app starts
     const initializeServices = async () => {
       try {

@@ -2,7 +2,7 @@
   "expo": {
     "name": "Aurora: Quotes & Affirmations",
     "slug": "quotespark",
-    "version": "1.7.01",
+    "version": "1.7.02",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "quote",
@@ -15,7 +15,7 @@
         "backgroundColor": "#0D0D0F",
         "tabletImage": "./assets/images/splash-icon.png"
       },
-      "buildNumber": "5",
+      "buildNumber": "1",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",
@@ -32,9 +32,18 @@
             "CFBundleURLSchemes": ["quote"]
           },
           {
-            "CFBundleURLName": "quote-app",
-            "CFBundleURLSchemes": ["quote"]
+            "CFBundleURLName": "facebook",
+            "CFBundleURLSchemes": ["fb968662562231189"]
           }
+        ],
+        "FacebookAppID": "968662562231189",
+        "FacebookClientToken": "b9f23bbe70ce11088ebe5bdaefaed232",
+        "FacebookDisplayName": "Aurora",
+        "LSApplicationQueriesSchemes": [
+          "fbapi",
+          "fb-messenger-share-api",
+          "fbauth2",
+          "fbshare"
         ],
         "ITSAppUsesNonExemptEncryption": false
       },
@@ -72,6 +81,17 @@
     },
     "plugins": [
       "expo-splash-screen",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "968662562231189",
+          "clientToken": "b9f23bbe70ce11088ebe5bdaefaed232",
+          "displayName": "Aurora",
+          "scheme": "fb968662562231189",
+          "autoLogAppEventsEnabled": true,
+          "advertiserIDCollectionEnabled": true
+        }
+      ],
       "expo-router",
       "expo-localization",
       [

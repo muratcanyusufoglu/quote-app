@@ -924,6 +924,29 @@ function hexToRgba(hex: string, opacity: number): string {
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 }
 
+/**
+ * Returns the most readable text color (white or dark) for a given background color.
+ * Uses WCAG relative luminance — threshold 0.40 chosen so that mid-tone ambers
+ * (like the Aura gold #C8965A) correctly produce white text.
+ */
+export function getContrastTextColor(hex: string): {
+  primary: string;
+  secondary: string;
+} {
+  if (!hex || !hex.startsWith("#") || hex.length < 7) {
+    return {primary: "#1A1410", secondary: "rgba(26,20,16,0.65)"};
+  }
+  const toLinear = (c: number) =>
+    c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  const r = toLinear(parseInt(hex.slice(1, 3), 16) / 255);
+  const g = toLinear(parseInt(hex.slice(3, 5), 16) / 255);
+  const b = toLinear(parseInt(hex.slice(5, 7), 16) / 255);
+  const L = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  return L < 0.40
+    ? {primary: "#FFFFFF", secondary: "rgba(255,255,255,0.72)"}
+    : {primary: "#1A1410", secondary: "rgba(26,20,16,0.60)"};
+}
+
 // Ocean Themes - Deep Blue & Navy
 export const oceanLightTheme: Theme = {
   ...lightTheme,

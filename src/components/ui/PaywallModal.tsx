@@ -1054,13 +1054,24 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   if (!isVisible) return null;
 
-  // Calculate trial dates
+  // Seçili planın annual olup olmadığını belirle (timeline + CTA için)
+  const selectedPlan = firstTimePackages[selectedPlanIndex];
+  const selectedPlanIsAnnual =
+    selectedPlan?.packageType === "ANNUAL" ||
+    selectedPlan?.id === "aurora_premium_annual";
+  const selectedPlanIsMonthly =
+    selectedPlan?.packageType === "MONTHLY" ||
+    selectedPlan?.id === "$rc_monthly";
+  const selectedPlanHasTrial = (selectedPlan?.freeTrialDays ?? 0) > 0;
+
+  // Calculate trial dates based on actual freeTrialDays from the selected plan
   const getTrialDates = () => {
+    const trialDays = selectedPlan?.freeTrialDays ?? 3;
     const today = new Date();
     const reminderDate = new Date(today);
-    reminderDate.setDate(today.getDate() + 2); // 2 days from today (day before trial ends)
+    reminderDate.setDate(today.getDate() + Math.max(trialDays - 1, 1));
     const membershipDate = new Date(today);
-    membershipDate.setDate(today.getDate() + 3); // 3 days from today (trial ends)
+    membershipDate.setDate(today.getDate() + trialDays);
 
     const formatDate = (date: Date) => {
       // Use translated month abbreviations so all languages can customize labels
@@ -1095,26 +1106,19 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   const trialDates = getTrialDates();
 
-  // Seçili planın annual olup olmadığını belirle (timeline + CTA için)
-  const selectedPlan = firstTimePackages[selectedPlanIndex];
-  const selectedPlanIsAnnual =
-    selectedPlan?.packageType === "ANNUAL" ||
-    selectedPlan?.id === "aurora_premium_annual";
-  const selectedPlanIsMonthly =
-    selectedPlan?.packageType === "MONTHLY" ||
-    selectedPlan?.id === "$rc_monthly";
-
   // CTA buton metni — seçili plana göre dinamik
   const getCtaText = () => {
     if (isLoading) return paywall.processing;
     if (isFirstTimeLayout) {
-      if (selectedPlanIsAnnual) return "Start your free 3-day trial →";
+      if (selectedPlanIsAnnual && selectedPlanHasTrial)
+        return `Start your free ${selectedPlan!.freeTrialDays}-day trial →`;
+      if (selectedPlanIsAnnual) return "Get Annual Access →";
       if (selectedPlanIsMonthly) return "Get Monthly Access →";
       return "Get Weekly Access →";
     }
     if (isDiscountedPaywall || isSecondDiscountPaywall)
       return "Claim This Offer →";
-    return paywall.modern.start_trial_button_full || "Start your free 3-day trial →";
+    return "Get Premium Access →";
   };
 
   // Calculate weekly and daily prices
@@ -1221,8 +1225,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
           {/* Timeline / Info Section — seçili plana göre dinamik */}
           {isFirstTimeLayout ? (
-            selectedPlanIsAnnual ? (
-              /* Annual: tam trial timeline */
+            selectedPlanIsAnnual && selectedPlanHasTrial ? (
+              /* Annual + trial: tam trial timeline */
               <View style={styles.timelineSection}>
                 <Text style={[styles.timelineTitle, {color: pw.text}]}>
                   {paywall.modern.timeline_title || "How your free trial works:"}
@@ -1239,7 +1243,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                       {paywall.modern.timeline_today || "Today"} — Free trial starts
                     </Text>
                     <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
-                      Experience all premium features free for 3 days
+                      Experience all premium features free for {selectedPlan!.freeTrialDays} days
                     </Text>
                   </View>
                 </View>
@@ -1281,10 +1285,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 </View>
               </View>
             ) : (
-              /* Monthly / Weekly: aynı 3 adımlı yapı, farklı içerik */
+              /* Annual (no trial) / Monthly / Weekly: benefit list */
               <View style={styles.timelineSection}>
                 <Text style={[styles.timelineTitle, {color: pw.text}]}>
-                  {selectedPlanIsMonthly ? "Your monthly plan includes:" : "Your weekly plan includes:"}
+                  {selectedPlanIsAnnual
+                    ? "Your annual plan includes:"
+                    : selectedPlanIsMonthly
+                    ? "Your monthly plan includes:"
+                    : "Your weekly plan includes:"}
                 </Text>
 
                 <View style={styles.timelineStep}>
@@ -1313,10 +1321,16 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   </View>
                   <View style={styles.timelineContent}>
                     <Text style={[styles.timelineStepTitle, {color: pw.text}]}>
-                      {selectedPlanIsMonthly ? "Billed monthly" : "Billed weekly"}
+                      {selectedPlanIsAnnual
+                        ? "Billed annually"
+                        : selectedPlanIsMonthly
+                        ? "Billed monthly"
+                        : "Billed weekly"}
                     </Text>
                     <Text style={[styles.timelineStepDescription, {color: pw.textSecondary}]}>
-                      {selectedPlanIsMonthly
+                      {selectedPlanIsAnnual
+                        ? "Renews every year — you're in control"
+                        : selectedPlanIsMonthly
                         ? "Renews every month — you're in control"
                         : "Renews every week — you're in control"}
                     </Text>
