@@ -15,7 +15,7 @@
         "backgroundColor": "#0D0D0F",
         "tabletImage": "./assets/images/splash-icon.png"
       },
-      "buildNumber": "1",
+      "buildNumber": "2",
       "supportsTablet": true,
       "bundleIdentifier": "com.quotespark.dailyinspiration",
       "googleServicesFile": "./GoogleService-Info.plist",
@@ -45,6 +45,7 @@
           "fbauth2",
           "fbshare"
         ],
+        "NSUserTrackingUsageDescription": "We use your data to show you personalized content and improve our services. Your privacy is important to us.",
         "ITSAppUsesNonExemptEncryption": false
       },
       "appStoreUrl": "https://apps.apple.com/app/quotespark-motivational/id6747951525"
@@ -81,6 +82,7 @@
     },
     "plugins": [
       "expo-splash-screen",
+      "./plugins/withFixXcodeBuildCycle",
       [
         "react-native-fbsdk-next",
         {
@@ -132,7 +134,10 @@
         "expo-build-properties",
         {
           "ios": {
-            "useFrameworks": "static"
+            "useFrameworks": "static",
+            "buildSettings": {
+              "USER_SCRIPT_SANDBOXING": "NO"
+            }
           }
         }
       ]

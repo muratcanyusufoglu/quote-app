@@ -7,7 +7,6 @@ import React, {
   useMemo,
   useState,
 } from "react";
-import {useColorScheme} from "react-native";
 import {Theme} from "../types";
 import {getThemeByOption} from "./theme";
 
@@ -53,22 +52,16 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
   children,
   defaultTheme = "light",
 }) => {
-  const systemColorScheme = useColorScheme();
-
   // Local state without store integration for now
   const [selectedTheme, setSelectedThemeState] =
     useState<ThemeOption>("aura");
-  const [colorScheme, setColorSchemeState] = useState<ColorScheme>("system");
-  const [isDark, setIsDark] = useState<boolean>(systemColorScheme === "dark");
+  const [colorScheme, setColorSchemeState] = useState<ColorScheme>("light");
+  const [isDark, setIsDark] = useState<boolean>(false);
 
-  // Update isDark when system preference or color scheme changes
+  // isDark is determined solely by the user's in-app choice — never by the system dark/light mode
   useEffect(() => {
-    if (colorScheme === "system") {
-      setIsDark(systemColorScheme === "dark");
-    } else {
-      setIsDark(colorScheme === "dark");
-    }
-  }, [systemColorScheme, colorScheme]);
+    setIsDark(colorScheme === "dark");
+  }, [colorScheme]);
 
   // Load from store on mount and subscribe to changes
   useEffect(() => {
@@ -80,24 +73,18 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 
         if (state._hasHydrated) {
           setSelectedThemeState(state.selectedTheme);
-          setColorSchemeState(state.colorScheme);
-          if (state.colorScheme === "system") {
-            setIsDark(systemColorScheme === "dark");
-          } else {
-            setIsDark(state.colorScheme === "dark");
-          }
+          const scheme = state.colorScheme === "system" ? "light" : state.colorScheme;
+          setColorSchemeState(scheme);
+          setIsDark(scheme === "dark");
         }
 
         // Subscribe to store changes
         const unsubscribe = useThemeStore.subscribe((state) => {
           if (state._hasHydrated) {
             setSelectedThemeState(state.selectedTheme);
-            setColorSchemeState(state.colorScheme);
-            if (state.colorScheme === "system") {
-              setIsDark(systemColorScheme === "dark");
-            } else {
-              setIsDark(state.colorScheme === "dark");
-            }
+            const scheme = state.colorScheme === "system" ? "light" : state.colorScheme;
+            setColorSchemeState(scheme);
+            setIsDark(scheme === "dark");
           }
         });
 

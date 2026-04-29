@@ -303,6 +303,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     useState<SubscriptionPackage | null>(null);
   const [allPackages, setAllPackages] = useState<SubscriptionPackage[]>([]);
   const [discountPercentage, setDiscountPercentage] = useState<number>(0);
+  const [annualPackagePrice, setAnnualPackagePrice] = useState<string>("");
 
   // Animation refs
   const slideAnim = useRef(new Animated.Value(screenHeight)).current;
@@ -497,18 +498,21 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         setSubscriptionPackage(pkg);
         setAllPackages([pkg]);
 
-        // Discount % hesapla (orijinal annual ile karşılaştır)
+        // Discount % ve orijinal fiyat hesapla (orijinal annual ile karşılaştır)
         const all = await paywallService.getAllSubscriptionPackages();
         const annualPkg = all.find((p) => p.id === "aurora_premium_annual");
-        if (annualPkg && annualPkg.priceNumber && pkg.priceNumber) {
-          const discount = Math.round(
-            ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
-          );
-          setDiscountPercentage(discount);
+        if (annualPkg) {
+          setAnnualPackagePrice(annualPkg.currentPrice);
+          if (annualPkg.priceNumber && pkg.priceNumber) {
+            const discount = Math.round(
+              ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
+            );
+            setDiscountPercentage(discount);
+          }
         }
 
       } else if (triggerSource === "second_discount") {
-        // Paywall #3 — $19.99 final paketi
+        // Paywall #3 — final paketi
         const pkg = await paywallService.getFinalPackage();
         console.log(`📦 Final package loaded: ${pkg?.id}`);
 
@@ -523,14 +527,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         setSubscriptionPackage(pkg);
         setAllPackages([pkg]);
 
-        // Discount % hesapla
+        // Discount % ve orijinal fiyat hesapla
         const all = await paywallService.getAllSubscriptionPackages();
         const annualPkg = all.find((p) => p.id === "aurora_premium_annual");
-        if (annualPkg && annualPkg.priceNumber && pkg.priceNumber) {
-          const discount = Math.round(
-            ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
-          );
-          setDiscountPercentage(discount);
+        if (annualPkg) {
+          setAnnualPackagePrice(annualPkg.currentPrice);
+          if (annualPkg.priceNumber && pkg.priceNumber) {
+            const discount = Math.round(
+              ((annualPkg.priceNumber - pkg.priceNumber) / annualPkg.priceNumber) * 100
+            );
+            setDiscountPercentage(discount);
+          }
         }
 
       } else {
@@ -1529,7 +1536,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               /* ── Paywall #2 & #3: İndirimli tek seçenek ── */
               <View style={styles.discountedPricingContainer}>
                 <View style={styles.priceRow}>
-                  <Text style={styles.oldPriceLarge}>$39.99</Text>
+                  {annualPackagePrice ? (
+                    <Text style={styles.oldPriceLarge}>{annualPackagePrice}</Text>
+                  ) : null}
                   <View style={styles.discountHighlight}>
                     <Text style={styles.discountHighlightText}>
                       {discountPercentage > 0 ? `${discountPercentage}% OFF` : "SALE"}

@@ -4,16 +4,7 @@ export const FacebookService = {
   initialize() {
     Settings.initializeSDK();
     Settings.setAutoLogAppEventsEnabled(true);
-
-    Settings.getAppID().then((appID) => {
-      if (appID) {
-        console.log("✅ Facebook SDK initialized. App ID:", appID);
-      } else {
-        console.warn("❌ Facebook SDK: App ID bulunamadı. app.json kontrol et.");
-      }
-    }).catch((e) => {
-      console.error("❌ Facebook SDK init error:", e);
-    });
+    console.log("✅ Facebook SDK initialized.");
   },
 
   setAdvertisingTracking(enabled: boolean) {

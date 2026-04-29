@@ -12,7 +12,6 @@ import { useCallback, useEffect } from "react";
 import { AppState, AppStateStatus } from "react-native";
 import "react-native-reanimated";
 
-import { useColorScheme } from "@/hooks/useColorScheme";
 import { MiniPremiumBadge } from "@/src/components/ui/MiniPremiumBadge";
 import { GiftBoxButton } from "../src/components/ui/GiftBoxButton";
 import { PaywallModal } from "../src/components/ui/PaywallModal";
@@ -82,9 +81,6 @@ export default function RootLayout() {
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
-  // Theme
-  const colorScheme = useColorScheme();
-
   // Store hydration
   const quoteStoreHydrated = useQuoteSelectors.hasHydrated();
   const onboardingStoreHydrated = useOnboardingSelectors.hasHydrated();
@@ -110,12 +106,17 @@ export default function RootLayout() {
     // Initialize Facebook SDK
     FacebookService.initialize();
 
-    // ATT izni sonucuna göre advertiser tracking'i aç/kapa
-    import("expo-tracking-transparency").then(({ requestTrackingPermissionsAsync }) => {
-      requestTrackingPermissionsAsync().then(({ status }) => {
+    // ATT izni sonucuna göre advertiser tracking'i aç/kapa (iOS 14+)
+    import("expo-tracking-transparency")
+      .then(({ requestTrackingPermissionsAsync }) =>
+        requestTrackingPermissionsAsync()
+      )
+      .then(({ status }) => {
         FacebookService.setAdvertisingTracking(status === "granted");
+      })
+      .catch(() => {
+        FacebookService.setAdvertisingTracking(false);
       });
-    }).catch(() => {});
 
     // Initialize PaywallService when app starts
     const initializeServices = async () => {
@@ -271,10 +272,8 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeContextProvider defaultTheme={colorScheme || "system"}>
-      <ThemeProvider
-        value={colorScheme === "dark" ? CustomDarkTheme : CustomLightTheme}
-      >
+    <ThemeContextProvider defaultTheme="light">
+      <ThemeProvider value={CustomLightTheme}>
         <ThemedStatusBar />
         <Stack
           screenOptions={{
